@@ -1,10 +1,7 @@
 # Raayan Quizz
 
-Raayan Quizz is a playful, mobile-friendly, offline-capable quiz web app built with plain HTML, CSS, and JavaScript.
+Raayan Quizz is a playful, mobile-friendly, offline-capable quiz web app to help students learn subject in fun quiz way without reading boring stuffs.
 
-No build step. No frontend framework. No runtime dependencies.
-
-Drop in quiz JSON files and the app renders a complete quiz experience with category browsing, setup controls, explanations, history, awards, and progress tracking.
 
 ## Highlights
 
@@ -18,7 +15,7 @@ Drop in quiz JSON files and the app renders a complete quiz experience with cate
 
 ---
 
-## Play and See
+## Play and Earn Rewards
 ### [Raayan Quizz](https://raayancoding.github.io/raayan-quizz/)
 
 ---
