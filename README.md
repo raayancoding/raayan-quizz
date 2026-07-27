@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="logo.png" alt="Raayan Quizz" width="400" height="400">
-</p>
-
 # Raayan Quizz
 
 Raayan Quizz is a playful, mobile-friendly, offline-capable quiz web app built with plain HTML, CSS, and JavaScript.
@@ -19,6 +15,13 @@ Drop in quiz JSON files and the app renders a complete quiz experience with cate
 - About page with logo and version display
 - Local file upload for ad-hoc quiz JSON
 - Works well on mobile layouts
+
+---
+
+## Play and See
+### [Raayan Quizz](https://raayancoding.github.io/raayan-quizz/)
+
+---
 
 ## Core quiz features
 
