@@ -1,0 +1,3517 @@
+{
+  "schemaVersion": 1,
+  "id": "ict-ch34-building-block-adventures-our-first-steps-with-blockly",
+  "title": "Building Block Adventures - Our First Steps with Blockly",
+  "subject": "ICT",
+  "grade": 4,
+  "chapter": "34. Building Block Adventures - Our First Steps with Blockly",
+  "topic": "Full Book",
+  "description": "Explore Blockly programming basics: sequences, algorithms, decomposition, India's ancient algorithmic heritage (Panini, Brahmagupta, Al-Khwarizmi), repeat loops, repeat-until loops, nested loops, if and if-else statements, and the AND/OR logical operators.",
+  "tags": [
+    "ict",
+    "grade4",
+    "blockly",
+    "sequential-programming",
+    "algorithms",
+    "decomposition",
+    "loops",
+    "nested-loops",
+    "conditional-statements",
+    "logical-operators"
+  ],
+  "defaultTimeLimitSec": 1800,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sequential Programming & Algorithms Basics",
+      "question": "What is Blockly?",
+      "answer": 0,
+      "explanation": "Blockly lets you create programs using colourful blocks that snap together like puzzle pieces, instead of typing complicated code.",
+      "source": "book:page34",
+      "options": [
+        "A programming tool that uses colourful blocks that snap together like puzzle pieces",
+        "A type of computer virus",
+        "A robot that cleans floors",
+        "A video game console"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sequential Programming & Algorithms Basics",
+      "question": "In Blockly, what do we call instructions carried out one after another, from first to last?",
+      "answer": 0,
+      "explanation": "A sequence is a set of instructions carried out one after another, in a specific order.",
+      "source": "book:page34",
+      "options": [
+        "A sequence",
+        "A loop",
+        "A condition",
+        "A variable"
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Sequential Programming & Algorithms Basics",
+      "question": "True or False: Sequential programming means the computer reads instructions from top to bottom, one after another.",
+      "answer": true,
+      "explanation": "This is exactly how the chapter defines sequential programming, and it is confirmed again in the Milestone B review.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sequential Programming & Algorithms Basics",
+      "question": "What is an algorithm, according to the chapter's very first activity (the garden maze)?",
+      "answer": 0,
+      "explanation": "The chapter defines an algorithm as a set of step-by-step instructions to solve a problem, illustrated by following arrows through a maze from start to finish.",
+      "source": "book:page33",
+      "options": [
+        "A set of step-by-step instructions to solve a problem",
+        "A drawing made with crayons",
+        "A kind of computer game",
+        "A type of maze only"
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sequential Programming & Algorithms Basics",
+      "question": "In the maze activity on the first page, what does each arrow represent?",
+      "answer": 0,
+      "explanation": "Each arrow works like a block of code that tells the character which direction to move.",
+      "source": "book:page33",
+      "options": [
+        "A block of code that tells the character which direction to move",
+        "A wall in the maze",
+        "The finish line",
+        "A random guess"
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sequential Programming & Algorithms Basics",
+      "question": "How many total blocks (move forward + turn right combined) are used in the 'perfect square' example?",
+      "answer": 0,
+      "explanation": "The square example lists 7 numbered steps in total: 4 'move forward 100' blocks alternated with 3 'turn right 90 degrees' blocks.",
+      "source": "book:page34",
+      "options": [
+        "7",
+        "4",
+        "3",
+        "8"
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sequential Programming & Algorithms Basics",
+      "question": "In the square-drawing example, how many times does the character turn right 90 degrees?",
+      "answer": 0,
+      "explanation": "The 7 steps alternate move, turn, move, turn, move, turn, move - so there are exactly 3 turn-right actions.",
+      "source": "book:page34",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "1"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sequential Programming & Algorithms Basics",
+      "question": "In the square example, how many 'move forward by 100' blocks are used in total?",
+      "answer": 0,
+      "explanation": "The 7 steps include moves at positions 1, 3, 5, and 7 - four 'move forward by 100' blocks in total.",
+      "source": "book:page34",
+      "options": [
+        "4",
+        "3",
+        "7",
+        "2"
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sequential Programming & Algorithms Basics",
+      "question": "If you changed the order of the blocks in a sequence in Blockly, what would most likely happen (per Checkpoint 1)?",
+      "answer": 0,
+      "explanation": "Checkpoint 1 asks this exact question - since a sequence runs blocks in order, changing that order changes the resulting path.",
+      "source": "book:page35",
+      "options": [
+        "The Turtle will follow a different path",
+        "The program works exactly the same",
+        "The program will automatically fix itself",
+        "Blockly will delete the extra blocks"
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sequential Programming & Algorithms Basics",
+      "question": "According to Checkpoint 1, in what order does Blockly's computer execute instructions?",
+      "answer": 0,
+      "explanation": "Checkpoint 1 confirms that Blockly executes instructions in sequence from top to bottom.",
+      "source": "book:page35",
+      "options": [
+        "In sequence from top to bottom",
+        "In random order",
+        "All at once",
+        "Only the brightly coloured blocks first"
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Sequential Programming & Algorithms Basics",
+      "question": "Which of the following are true about sequences in Blockly? (select all that apply)",
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Blocks snap together in order, run in that specific order, and are read top to bottom - the computer never picks blocks randomly.",
+      "source": "book:page34",
+      "options": [
+        "Blocks connect together like puzzle pieces",
+        "Instructions run in a specific order",
+        "The computer decides randomly which block to run first",
+        "Sequential programs are read top to bottom"
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Sequential Programming & Algorithms Basics",
+      "question": "True or False: In Blockly, you must type lines of code exactly like in a traditional programming language.",
+      "answer": false,
+      "explanation": "Blockly avoids typing code - you drag and snap together colourful blocks instead.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sequential Programming & Algorithms Basics",
+      "question": "What was the very first activity in the chapter used to introduce the idea of an algorithm?",
+      "answer": 0,
+      "explanation": "The chapter opens with the garden maze 'Follow the Code Path' activity to introduce algorithms.",
+      "source": "book:page33",
+      "options": [
+        "Following an arrow path through a garden maze",
+        "Building a paper airplane",
+        "Drawing a perfect square with Blockly",
+        "Sorting waste into three bins"
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sequential Programming & Algorithms Basics",
+      "question": "The chapter says a computer follows sequence instructions 'the exact order we give them' - similar to which two everyday examples given in the text?",
+      "answer": 0,
+      "explanation": "The chapter compares following steps in order to playing a musical instrument or following a treasure map.",
+      "source": "book:page34",
+      "options": [
+        "Following steps to play a musical instrument, and following a treasure map",
+        "Cooking dinner and washing dishes",
+        "Riding a bicycle and swimming",
+        "Watching TV and reading a book"
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sequential Programming & Algorithms Basics",
+      "question": "The Blockly Turtle 'Movement' category, mentioned in Cyber Station 1, is used for which purpose?",
+      "answer": 0,
+      "explanation": "Cyber Station 1 instructs students to find the 'Movement' category of blocks under 'Turtle' to move the character.",
+      "source": "book:page35",
+      "options": [
+        "To drag and drop blocks that move the Turtle (like move forward, turn right, turn left)",
+        "To change the colour of the maze",
+        "To save your program to a file",
+        "To add sound effects to the program"
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Decomposition & Breaking Down Tasks",
+      "question": "What is decomposition, according to the chapter?",
+      "answer": 0,
+      "explanation": "Decomposition means breaking a big problem into smaller, manageable steps.",
+      "source": "book:page36",
+      "options": [
+        "Breaking down a big problem into smaller, manageable steps",
+        "Adding more code to a program",
+        "Deleting unnecessary blocks",
+        "Changing the colour of blocks"
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Decomposition & Breaking Down Tasks",
+      "question": "An algorithm is compared to which everyday example in the chapter?",
+      "answer": 0,
+      "explanation": "The chapter describes an algorithm as a step-by-step set of instructions to solve a problem, like a recipe.",
+      "source": "book:page36",
+      "options": [
+        "A recipe",
+        "A song",
+        "A photograph",
+        "A bicycle"
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Decomposition & Breaking Down Tasks",
+      "question": "True or False: Decomposition is one of the most important skills in programming.",
+      "answer": true,
+      "explanation": "The chapter states decomposition is one of the most important skills in programming.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Decomposition & Breaking Down Tasks",
+      "question": "In the maze decomposition example, what is the FIRST step listed?",
+      "answer": 0,
+      "explanation": "The 5-step maze decomposition example begins with 'Move forward'.",
+      "source": "book:page36",
+      "options": [
+        "Move forward",
+        "Check if there's a coin",
+        "Collect the coin",
+        "Check for an obstacle"
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Decomposition & Breaking Down Tasks",
+      "question": "In the maze decomposition example, what should the character do in step 3, if there IS a coin?",
+      "answer": 0,
+      "explanation": "Step 3 of the maze decomposition is 'If there is a coin, collect it'.",
+      "source": "book:page36",
+      "options": [
+        "Collect it",
+        "Turn around",
+        "Stop moving",
+        "Ignore it"
+      ]
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Decomposition & Breaking Down Tasks",
+      "question": "In the maze decomposition example, what should the character do in step 5, if there IS an obstacle?",
+      "answer": 0,
+      "explanation": "Step 5 of the maze decomposition is 'If there is an obstacle, turn to avoid it'.",
+      "source": "book:page36",
+      "options": [
+        "Turn to avoid it",
+        "Collect it",
+        "Stop the program",
+        "Move forward anyway"
+      ]
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Decomposition & Breaking Down Tasks",
+      "question": "The Trail Treasure box explains that the original 'turtle' (which inspired the Blockly Turtle) was:",
+      "answer": 0,
+      "explanation": "The Trail Treasure box explains the original turtle was a real wheeled robot built in the 1960s that drew on paper with a pen.",
+      "source": "book:page36",
+      "options": [
+        "A real robot with wheels that drew on paper with a pen, built in the 1960s",
+        "A pet turtle owned by a computer scientist",
+        "A cartoon character from a video game",
+        "A type of computer keyboard"
+      ]
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Decomposition & Breaking Down Tasks",
+      "question": "Which everyday tasks are given as examples of algorithms we already use without thinking about it?",
+      "answer": 0,
+      "explanation": "The chapter gives tying shoes and brushing teeth as everyday examples of algorithms.",
+      "source": "book:page36",
+      "options": [
+        "Tying shoes and brushing teeth",
+        "Watching a movie and eating popcorn",
+        "Painting a picture and singing a song",
+        "Riding in a car and looking out the window"
+      ]
+    },
+    {
+      "id": "q24",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Decomposition & Breaking Down Tasks",
+      "question": "Which of these are steps in the 5-step maze decomposition example? (select all that apply)",
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "The 5 steps are: move forward, check for a coin, collect if present, check for an obstacle, turn to avoid it if present - deleting the maze is not one of them.",
+      "source": "book:page36",
+      "options": [
+        "Move forward",
+        "Check if there's a coin",
+        "Delete the maze",
+        "Check if there's an obstacle ahead"
+      ]
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Decomposition & Breaking Down Tasks",
+      "question": "Why is decomposition considered useful when programming a character to move through a maze?",
+      "answer": 0,
+      "explanation": "Decomposition breaks a complex task into small steps that are each easy to program.",
+      "source": "book:page36",
+      "options": [
+        "Because it breaks a complex task (navigating and collecting coins) into small, manageable steps that are each easy to code",
+        "Because it makes the maze shorter",
+        "Because it deletes unnecessary blocks automatically",
+        "Because it changes the character's colour"
+      ]
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Decomposition & Breaking Down Tasks",
+      "question": "In the 'Getting Ready for School' activity, what skill are students practicing?",
+      "answer": 0,
+      "explanation": "The 'Getting Ready for School' activity is a decomposition exercise, breaking a task into steps.",
+      "source": "book:page38",
+      "options": [
+        "Decomposition - breaking a task into steps",
+        "Loops - repeating actions",
+        "If-else - making decisions",
+        "AND/OR - combining conditions"
+      ]
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Decomposition & Breaking Down Tasks",
+      "question": "The 'Getting Ready for School' activity asks students to reflect on which question?",
+      "answer": 0,
+      "explanation": "The reflection question asks which task needed more steps and why.",
+      "source": "book:page38",
+      "options": [
+        "Which task needed more steps, and why",
+        "Which task was more fun",
+        "Which task took the least time",
+        "Which task needs a loop"
+      ]
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Decomposition & Breaking Down Tasks",
+      "question": "In the Curiosity Cloud reflection about a robot setting the dinner table, which of these is listed as a simple instruction the robot might follow?",
+      "answer": 0,
+      "explanation": "The Curiosity Cloud lists simple instructions like pick up, move forward, turn left, and put down for the table-setting robot.",
+      "source": "book:page38",
+      "options": [
+        "Move forward",
+        "Sing a song",
+        "Change the tablecloth colour",
+        "Watch television"
+      ]
+    },
+    {
+      "id": "q29",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Decomposition & Breaking Down Tasks",
+      "question": "True or False: According to the chapter, decomposition means solving a whole problem in a single giant step instead of breaking it into smaller ones.",
+      "answer": false,
+      "explanation": "Decomposition is the opposite - breaking a big problem into smaller, manageable steps, not doing it in one giant step.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Decomposition & Breaking Down Tasks",
+      "question": "Which of these decomposition steps for the maze character checks a condition (asks a question) rather than performing a direct action?",
+      "answer": 0,
+      "explanation": "'Check if there's a coin' asks a yes/no question, while the others are direct actions.",
+      "source": "book:page36",
+      "options": [
+        "Check if there's a coin",
+        "Move forward",
+        "Collect the coin",
+        "Turn to avoid the obstacle"
+      ]
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "India's Ancient Algorithms (Heritage)",
+      "question": "Who wrote the Ashtadhyayi, a Sanskrit grammar made of nearly 4,000 ordered rules called sutras?",
+      "answer": 0,
+      "explanation": "Panini wrote the Ashtadhyayi around 500 BCE.",
+      "source": "book:page37",
+      "options": [
+        "Panini",
+        "Brahmagupta",
+        "Al-Khwarizmi",
+        "Aryabhata"
+      ]
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "India's Ancient Algorithms (Heritage)",
+      "question": "Around what time period did Panini write the Ashtadhyayi?",
+      "answer": 0,
+      "explanation": "The chapter states Panini wrote the Ashtadhyayi around 500 BCE.",
+      "source": "book:page37",
+      "options": [
+        "Around 500 BCE",
+        "In the 20th century",
+        "In 1990",
+        "In the 7th century CE"
+      ]
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "India's Ancient Algorithms (Heritage)",
+      "question": "Why do computer scientists today consider Panini's Ashtadhyayi the world's first formal algorithmic system?",
+      "answer": 0,
+      "explanation": "The rules (sutras) were so precise that computer scientists today consider it the world's first formal algorithmic system.",
+      "source": "book:page37",
+      "options": [
+        "Because its nearly 4,000 rules (sutras) were so precise and ordered",
+        "Because it was written using a computer",
+        "Because it was translated into English",
+        "Because it describes the Blockly Turtle"
+      ]
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "India's Ancient Algorithms (Heritage)",
+      "question": "Who wrote step-by-step methods for solving complex maths problems in the 7th century CE, over a thousand years before European mathematicians did the same?",
+      "answer": 0,
+      "explanation": "Brahmagupta wrote these step-by-step maths methods in the 7th century CE.",
+      "source": "book:page37",
+      "options": [
+        "Brahmagupta",
+        "Panini",
+        "Al-Khwarizmi",
+        "Bill Gates"
+      ]
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "India's Ancient Algorithms (Heritage)",
+      "question": "According to the chapter, where does the word 'algorithm' come from?",
+      "answer": 0,
+      "explanation": "The word 'algorithm' comes from Al-Khwarizmi, a Persian scholar connected to India's decimal number system.",
+      "source": "book:page37",
+      "options": [
+        "The Persian scholar Al-Khwarizmi, who studied and extended India's decimal number system",
+        "An English dictionary",
+        "The name of a Blockly programmer",
+        "A computer company"
+      ]
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "India's Ancient Algorithms (Heritage)",
+      "question": "What did Al-Khwarizmi study and extend, which we still use today as Hindu-Arabic numerals?",
+      "answer": 0,
+      "explanation": "Al-Khwarizmi studied and extended India's decimal number system, giving us the Hindu-Arabic numerals used today.",
+      "source": "book:page37",
+      "options": [
+        "India's decimal number system",
+        "The English alphabet",
+        "The Blockly block library",
+        "Ancient Egyptian hieroglyphics"
+      ]
+    },
+    {
+      "id": "q37",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "India's Ancient Algorithms (Heritage)",
+      "question": "True or False: The idea of an algorithm began only after computers were invented.",
+      "answer": false,
+      "explanation": "India's scholars were writing algorithms (precise step-by-step methods) thousands of years before computers existed.",
+      "source": "book:page37"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "India's Ancient Algorithms (Heritage)",
+      "question": "What are the individual ordered rules in Panini's Ashtadhyayi called?",
+      "answer": 0,
+      "explanation": "Panini's Ashtadhyayi is made up of nearly 4,000 ordered rules called sutras.",
+      "source": "book:page37",
+      "options": [
+        "Sutras",
+        "Sequences",
+        "Loops",
+        "Blocks"
+      ]
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "India's Ancient Algorithms (Heritage)",
+      "question": "According to the chapter's reflection, what are you doing every time you write a Blockly sequence?",
+      "answer": 0,
+      "explanation": "The reflection states that writing a Blockly sequence is the same as what Panini did - giving precise, ordered instructions.",
+      "source": "book:page37",
+      "options": [
+        "The same thing Panini did - giving precise, ordered instructions",
+        "Something completely different from ancient algorithms",
+        "Copying a European mathematician",
+        "Ignoring the concept of sequence"
+      ]
+    },
+    {
+      "id": "q40",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "India's Ancient Algorithms (Heritage)",
+      "question": "Which historical figures are mentioned in the 'Heritage Route: India's Ancient Algorithms' section? (select all that apply)",
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Panini, Brahmagupta, and Al-Khwarizmi are all discussed; Isaac Newton is not mentioned.",
+      "source": "book:page37",
+      "options": [
+        "Panini",
+        "Brahmagupta",
+        "Al-Khwarizmi",
+        "Isaac Newton"
+      ]
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "India's Ancient Algorithms (Heritage)",
+      "question": "Approximately how many ordered rules (sutras) are in Panini's Ashtadhyayi?",
+      "answer": 0,
+      "explanation": "The chapter states the Ashtadhyayi has nearly 4,000 ordered rules (sutras).",
+      "source": "book:page37",
+      "options": [
+        "Nearly 4,000",
+        "Exactly 10",
+        "About 100",
+        "Over 1 million"
+      ]
+    },
+    {
+      "id": "q42",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "India's Ancient Algorithms (Heritage)",
+      "question": "True or False: Brahmagupta's step-by-step maths methods came AFTER European mathematicians developed similar methods.",
+      "answer": false,
+      "explanation": "Brahmagupta's methods (7th century CE) came over a thousand years BEFORE European mathematicians developed similar methods, per the chapter.",
+      "source": "book:page37"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "India's Ancient Algorithms (Heritage)",
+      "question": "Al-Khwarizmi is described in the chapter as a scholar from which region?",
+      "answer": 0,
+      "explanation": "The chapter identifies Al-Khwarizmi as a Persian scholar.",
+      "source": "book:page37",
+      "options": [
+        "Persia",
+        "Rome",
+        "China",
+        "Egypt"
+      ]
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "India's Ancient Algorithms (Heritage)",
+      "question": "What connects Panini's ancient work to modern Blockly programming, according to the chapter's reflection?",
+      "answer": 0,
+      "explanation": "The reflection connects Panini's precise, ordered sutras to the precise, ordered instructions of a Blockly sequence.",
+      "source": "book:page37",
+      "options": [
+        "Both involve giving precise, ordered instructions",
+        "Both use colourful blocks",
+        "Both were invented in the 1960s",
+        "Both require a computer screen"
+      ]
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "India's Ancient Algorithms (Heritage)",
+      "question": "What does the chapter mean by saying 'ancient wisdom and modern coding share the same DNA'?",
+      "answer": 0,
+      "explanation": "This phrase means the precise, step-by-step thinking of ancient scholars like Panini is the same kind of thinking used in coding today.",
+      "source": "book:page37",
+      "options": [
+        "The step-by-step, precise thinking behind ancient Indian scholarship (like Panini's sutras) is the same kind of thinking used in writing a Blockly sequence today",
+        "Ancient Indians literally used Blockly",
+        "DNA is a coding language",
+        "Modern coding replaced ancient wisdom completely"
+      ]
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Repeat Loops & Drawing Shapes",
+      "question": "What is the simplest type of loop in Blockly, according to the chapter?",
+      "answer": 0,
+      "explanation": "The chapter describes the repeat block as the simplest loop.",
+      "source": "book:page39",
+      "options": [
+        "The repeat block",
+        "The if-else block",
+        "The AND block",
+        "The nested block"
+      ]
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Repeat Loops & Drawing Shapes",
+      "question": "Without loops, how many times would you need to repeat the same instructions to draw 100 stars?",
+      "answer": 0,
+      "explanation": "Without loops, drawing 100 stars would require writing the same instructions 100 times.",
+      "source": "book:page38",
+      "options": [
+        "100 times",
+        "10 times",
+        "Only once",
+        "4 times"
+      ]
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Repeat Loops & Drawing Shapes",
+      "question": "To draw a square using a repeat loop, how many times should you repeat the block 'move forward 100, turn right 90 degrees'?",
+      "answer": 0,
+      "explanation": "A square is drawn using a repeat loop that runs 4 times.",
+      "source": "book:page39",
+      "options": [
+        "4 times",
+        "3 times",
+        "5 times",
+        "100 times"
+      ]
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Repeat Loops & Drawing Shapes",
+      "question": "To draw a pentagon using a repeat loop, what turn angle should be used (instead of the square's 90 degrees)?",
+      "answer": 0,
+      "explanation": "A pentagon uses a turn angle of 72 degrees instead of the square's 90 degrees.",
+      "source": "book:page39",
+      "options": [
+        "72 degrees",
+        "90 degrees",
+        "45 degrees",
+        "120 degrees"
+      ]
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Repeat Loops & Drawing Shapes",
+      "question": "To draw a pentagon instead of a square with a repeat loop, how many times should the loop repeat?",
+      "answer": 0,
+      "explanation": "A pentagon's repeat loop runs 5 times instead of the square's 4 times.",
+      "source": "book:page39",
+      "options": [
+        "5 times",
+        "4 times",
+        "3 times",
+        "6 times"
+      ]
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Repeat Loops & Drawing Shapes",
+      "question": "What TWO things must you change to turn a 'draw a square' repeat-loop program into a 'draw a pentagon' program?",
+      "answer": 0,
+      "explanation": "You only need to change the repeat count from 4 to 5 and the turn angle from 90 to 72 degrees.",
+      "source": "book:page39",
+      "options": [
+        "The number of repetitions (4 to 5) and the turn angle (90 degrees to 72 degrees)",
+        "The colour of the blocks and the size of the screen",
+        "The starting position and the Turtle's name",
+        "Nothing needs to change"
+      ]
+    },
+    {
+      "id": "q52",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Repeat Loops & Drawing Shapes",
+      "question": "True or False: A loop lets you repeat instructions multiple times without having to rewrite them each time.",
+      "answer": true,
+      "explanation": "This is exactly how loops are described in the chapter.",
+      "source": "book:page38"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Repeat Loops & Drawing Shapes",
+      "question": "What is the goal of 'Cyber Station 2: Loop Magic'?",
+      "answer": 0,
+      "explanation": "Cyber Station 2's goal is to use repeat loops to create geometric shapes efficiently.",
+      "source": "book:page39",
+      "options": [
+        "To use repeat loops to create geometric shapes efficiently",
+        "To draw a maze from scratch",
+        "To write an if-else block",
+        "To combine AND and OR operators"
+      ]
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Repeat Loops & Drawing Shapes",
+      "question": "In Cyber Station 2, which shape requires changing both the number of sides AND the turn angle compared to a square?",
+      "answer": 0,
+      "explanation": "Cyber Station 2 asks students to modify the square program to draw a triangle by changing the number of sides and the turn angle.",
+      "source": "book:page39",
+      "options": [
+        "A triangle",
+        "A square itself",
+        "A single line",
+        "A dot"
+      ]
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Repeat Loops & Drawing Shapes",
+      "question": "According to Cyber Station 2, how would you make a shape closer to a circle using repeat loops?",
+      "answer": 0,
+      "explanation": "Cyber Station 2's challenge suggests using many repetitions with small turn angles to approximate a circle.",
+      "source": "book:page39",
+      "options": [
+        "Use a very large number of repetitions with very small turns (many, many sides)",
+        "Use exactly 4 repetitions",
+        "Remove the turn block entirely",
+        "Use the if-else block instead"
+      ]
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Repeat Loops & Drawing Shapes",
+      "question": "According to the Trail Treasure box, at what age did Bill Gates write his first computer program?",
+      "answer": 0,
+      "explanation": "The Trail Treasure box states Bill Gates wrote his first computer program at age 13.",
+      "source": "book:page40",
+      "options": [
+        "13",
+        "5",
+        "25",
+        "40"
+      ]
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Repeat Loops & Drawing Shapes",
+      "question": "Why is Blockly designed with colourful blocks and shapes, according to the Trail Treasure box on page 40?",
+      "answer": 0,
+      "explanation": "The Trail Treasure box explains Blockly is designed so even non-readers can code, using shape and colour cues.",
+      "source": "book:page40",
+      "options": [
+        "So that even children who cannot read yet can still code",
+        "So that only adults can use it",
+        "So that it looks nice on posters",
+        "So that it works without a computer"
+      ]
+    },
+    {
+      "id": "q58",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Repeat Loops & Drawing Shapes",
+      "question": "Which of these shapes are mentioned as ones you could draw using repeat loops in Cyber Station 2? (select all that apply)",
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Cyber Station 2 mentions drawing a square, triangle, and hexagon using repeat loops.",
+      "source": "book:page39",
+      "options": [
+        "Square",
+        "Triangle",
+        "Hexagon",
+        "Rocket ship"
+      ]
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Repeat Loops & Drawing Shapes",
+      "question": "A hexagon has six sides. If you used a repeat loop to draw one, how many times would the loop need to repeat the 'move forward, turn' pair?",
+      "answer": 0,
+      "explanation": "Following the same pattern as the square (4 times) and pentagon (5 times), a six-sided hexagon needs the loop to repeat 6 times.",
+      "source": "book:page39",
+      "options": [
+        "6 times",
+        "4 times",
+        "5 times",
+        "3 times"
+      ]
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Repeat Loops & Drawing Shapes",
+      "question": "What must you specify when using a 'repeat' block in Blockly?",
+      "answer": 0,
+      "explanation": "A repeat block requires you to specify how many times to repeat the instructions.",
+      "source": "book:page39",
+      "options": [
+        "How many times to repeat the instructions",
+        "What colour the block should be",
+        "The Turtle's exact speed",
+        "The name of the program"
+      ]
+    },
+    {
+      "id": "q61",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Repeat Loops & Drawing Shapes",
+      "question": "True or False: The chapter states that loops make repetitive tasks easier by letting you repeat blocks instead of rewriting the same instructions many times.",
+      "answer": true,
+      "explanation": "This matches the chapter's description of why loops are useful.",
+      "source": "book:page38"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Repeat Until Loops",
+      "question": "When should you use a 'Repeat Until' block instead of a regular 'Repeat' block?",
+      "answer": 0,
+      "explanation": "Repeat Until is used when you don't know exactly how many times to repeat instructions.",
+      "source": "book:page40",
+      "options": [
+        "When you don't know exactly how many times you need to repeat something",
+        "When you always know the exact number of repetitions",
+        "When you want the loop to never stop",
+        "When you want to skip the condition entirely"
+      ]
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Repeat Until Loops",
+      "question": "What is a 'condition' in a Repeat Until block?",
+      "answer": 0,
+      "explanation": "A condition is a question answered yes/no (true/false).",
+      "source": "book:page40",
+      "options": [
+        "A question that is answered yes or no (true or false)",
+        "A colour chosen for the block",
+        "The name of the Turtle",
+        "A type of algorithm"
+      ]
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Repeat Until Loops",
+      "question": "Which of these is given as an example of using a Repeat Until loop?",
+      "answer": 0,
+      "explanation": "'Repeat until the character reaches a wall' is one of the chapter's Repeat Until examples.",
+      "source": "book:page40",
+      "options": [
+        "Repeat until the character reaches a wall",
+        "Repeat exactly 4 times to draw a square",
+        "Repeat exactly 5 times to draw a pentagon",
+        "Turn right exactly once"
+      ]
+    },
+    {
+      "id": "q65",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Repeat Until Loops",
+      "question": "Which of these are given as Repeat Until examples in the chapter? (select all that apply)",
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The chapter gives three Repeat Until examples: reaching a wall, collecting all coins, and the timer reaching zero.",
+      "source": "book:page40",
+      "options": [
+        "Repeat until the character reaches a wall",
+        "Repeat until all coins are collected",
+        "Repeat until the timer reaches zero",
+        "Repeat exactly 10 times"
+      ]
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Repeat Until Loops",
+      "question": "What does a Repeat Until block do after each repetition?",
+      "answer": 0,
+      "explanation": "The Repeat Until block keeps checking the condition after each repetition.",
+      "source": "book:page40",
+      "options": [
+        "It checks the condition again to see if it should stop",
+        "It automatically doubles the loop",
+        "It changes into a Repeat block",
+        "It deletes itself"
+      ]
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Repeat Until Loops",
+      "question": "If the condition inside a Repeat Until block is met (answer is 'yes'), what happens?",
+      "answer": 0,
+      "explanation": "If the condition is met, the loop stops.",
+      "source": "book:page40",
+      "options": [
+        "The loop stops",
+        "The loop starts over from the very beginning",
+        "The loop repeats one more time no matter what",
+        "Nothing happens"
+      ]
+    },
+    {
+      "id": "q68",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Repeat Until Loops",
+      "question": "True or False: A Repeat block and a Repeat Until block work in exactly the same way.",
+      "answer": false,
+      "explanation": "A 'Repeat N times' block always runs exactly N times, while a 'Repeat Until' block checks a condition after every run and only stops once that condition becomes true - it could run a different number of times each time.",
+      "source": "book:page40"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Repeat Until Loops",
+      "question": "Why is it a myth that 'Repeat Until' and 'Repeat' are the same thing?",
+      "answer": 0,
+      "explanation": "The Detour myth-busting box explains this exact distinction between Repeat and Repeat Until.",
+      "source": "book:page48",
+      "options": [
+        "Because 'Repeat' always runs a fixed number of times, while 'Repeat Until' keeps checking a condition and could run a different number of times each time the program runs",
+        "Because 'Repeat Until' is always faster",
+        "Because 'Repeat' cannot be used to draw shapes",
+        "Because 'Repeat Until' only works with the colour blue"
+      ]
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Repeat Until Loops",
+      "question": "If you use 'Repeat Until the character reaches a wall', and the wall is very close, roughly how many times might the loop run compared to if the wall were very far away?",
+      "answer": 0,
+      "explanation": "Since Repeat Until depends on a condition (distance to the wall) rather than a fixed count, it runs fewer times when the wall is close.",
+      "source": "book:page40",
+      "options": [
+        "Fewer times than if the wall were far away",
+        "Exactly the same number of times regardless of distance",
+        "Always exactly 10 times",
+        "Always exactly 100 times"
+      ]
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Repeat Until Loops",
+      "question": "In Blockly, a condition (used in blocks like Repeat Until or If) is best described as:",
+      "answer": 0,
+      "explanation": "A condition is a question answered true or false.",
+      "source": "book:page40",
+      "options": [
+        "A question that is answered true or false",
+        "A block that changes colour",
+        "An instruction to move forward",
+        "A type of sequence"
+      ]
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Repeat Until Loops",
+      "question": "What kind of situation is a 'Repeat Until: all coins collected' loop useful for?",
+      "answer": 0,
+      "explanation": "Repeat Until is useful exactly when you don't know the number of repetitions in advance.",
+      "source": "book:page40",
+      "options": [
+        "When you don't know in advance how many coins there are or how long it will take to collect them all",
+        "When you always collect exactly 5 coins",
+        "When there are no coins at all",
+        "When the Turtle should never stop moving"
+      ]
+    },
+    {
+      "id": "q73",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Repeat Until Loops",
+      "question": "True or False: A 'Repeat Until' loop could run 2 times in one situation and 200 times in another situation, depending on when its condition becomes true.",
+      "answer": true,
+      "explanation": "The Detour myth-busting box explicitly states this variability of Repeat Until loops.",
+      "source": "book:page48"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Repeat Until Loops",
+      "question": "What is checked EVERY time a Repeat Until loop finishes one repetition?",
+      "answer": 0,
+      "explanation": "After every repetition, the Repeat Until block checks whether its condition has become true.",
+      "source": "book:page40",
+      "options": [
+        "Whether its condition has become true",
+        "The Turtle's colour",
+        "The name of the program",
+        "The number of blocks used"
+      ]
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Repeat Until Loops",
+      "question": "'Repeat until the timer reaches zero' is an example of which type of Blockly loop?",
+      "answer": 0,
+      "explanation": "This is one of the chapter's three Repeat Until examples.",
+      "source": "book:page40",
+      "options": [
+        "Repeat Until",
+        "Repeat (fixed number)",
+        "If-Else",
+        "Nested loop"
+      ]
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Repeat Until Loops",
+      "question": "Why can't we always know in advance exactly how many times a Repeat Until loop will run?",
+      "answer": 0,
+      "explanation": "Repeat Until depends on a condition becoming true, which can vary, so the exact number of repetitions can't always be known in advance.",
+      "source": "book:page40",
+      "options": [
+        "Because it depends on when its condition becomes true, which can vary each time the program runs",
+        "Because Blockly doesn't allow counting",
+        "Because the loop is broken",
+        "Because it always runs forever"
+      ]
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Nested Loops & Iteration",
+      "question": "What is a nested loop?",
+      "answer": 0,
+      "explanation": "A nested loop is a loop placed inside another loop.",
+      "source": "book:page41",
+      "options": [
+        "A loop placed inside another loop",
+        "A loop that never stops",
+        "A loop with no repeat count",
+        "A block used only for if-else logic"
+      ]
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Nested Loops & Iteration",
+      "question": "What everyday comparison does the chapter use to describe nested loops?",
+      "answer": 0,
+      "explanation": "The chapter compares nested loops to wheels within wheels.",
+      "source": "book:page41",
+      "options": [
+        "Wheels within wheels",
+        "Trees within a forest",
+        "Stars within a night sky",
+        "Books within a library"
+      ]
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Nested Loops & Iteration",
+      "question": "To draw a 4x4 grid of stars with nested loops, how many times does the outer loop repeat?",
+      "answer": 0,
+      "explanation": "The outer loop repeats 4 times, once for each row.",
+      "source": "book:page41",
+      "options": [
+        "4 times (once per row)",
+        "16 times",
+        "1 time",
+        "5 times"
+      ]
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Nested Loops & Iteration",
+      "question": "To draw a 4x4 grid of stars with nested loops, how many times does the inner loop repeat for EACH row?",
+      "answer": 0,
+      "explanation": "The inner loop repeats 4 times to draw each star in a single row.",
+      "source": "book:page41",
+      "options": [
+        "4 times (once per star in the row)",
+        "16 times",
+        "1 time",
+        "0 times"
+      ]
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Nested Loops & Iteration",
+      "question": "If an outer loop repeats 4 times and an inner loop inside it repeats 4 times, how many total times do the inner loop's instructions run?",
+      "answer": 0,
+      "explanation": "The inner loop's instructions run once for every combination of outer and inner repetitions: 4 x 4 = 16 times.",
+      "source": "book:page42",
+      "options": [
+        "16 times (4 x 4)",
+        "8 times (4 + 4)",
+        "4 times",
+        "1 time"
+      ]
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Nested Loops & Iteration",
+      "question": "What word does the chapter use for 'doing something again and again'?",
+      "answer": 0,
+      "explanation": "The chapter uses the word 'iteration' for doing something again and again.",
+      "source": "book:page42",
+      "options": [
+        "Iteration",
+        "Decomposition",
+        "Sequence",
+        "Condition"
+      ]
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Nested Loops & Iteration",
+      "question": "In Skill Trail 2's Pattern 1 (outer loop repeats 3 times, inner loop repeats 4 times, drawing a star each time), how many total stars are drawn?",
+      "answer": 0,
+      "explanation": "3 rows of 4 stars each = 12 stars total.",
+      "source": "book:page42",
+      "options": [
+        "12 stars (3 rows of 4)",
+        "7 stars (3 + 4)",
+        "3 stars",
+        "4 stars"
+      ]
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Nested Loops & Iteration",
+      "question": "In Skill Trail 2's Pattern 2 (outer loop repeats 4 times, inner loop repeats 5 times), how many total stars are drawn?",
+      "answer": 0,
+      "explanation": "4 rows of 5 stars each = 20 stars total.",
+      "source": "book:page42",
+      "options": [
+        "20 stars (4 rows of 5)",
+        "9 stars (4 + 5)",
+        "4 stars",
+        "5 stars"
+      ]
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Nested Loops & Iteration",
+      "question": "Checkpoint 2 asks: a loop repeats 5 times, and inside it is another loop that repeats 3 times. What is the total number of actions?",
+      "answer": 0,
+      "explanation": "5 x 3 = 15 total actions.",
+      "source": "book:page43",
+      "options": [
+        "15 actions (5 x 3)",
+        "8 actions (5 + 3)",
+        "5 actions",
+        "3 actions"
+      ]
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Nested Loops & Iteration",
+      "question": "According to Checkpoint 2, which type of loop is best for drawing a square (a shape with a fixed, known number of sides)?",
+      "answer": 0,
+      "explanation": "Since a square always needs exactly 4 sides (a known, fixed number), a simple repeat loop is best.",
+      "source": "book:page43",
+      "options": [
+        "A repeat loop",
+        "A nested loop",
+        "A repeat until loop",
+        "An if-else block"
+      ]
+    },
+    {
+      "id": "q87",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Nested Loops & Iteration",
+      "question": "True or False: In a nested loop, the OUTER loop's instructions run more often than the INNER loop's instructions.",
+      "answer": false,
+      "explanation": "It is actually the opposite - the INNER loop runs most often. If an outer loop repeats 4 times and an inner loop repeats 3 times, the inner loop's instructions execute 4 x 3 = 12 times, while the outer loop's own instructions only run 4 times.",
+      "source": "book:page48"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Nested Loops & Iteration",
+      "question": "If an outer loop repeats 4 times and an inner loop inside it repeats 3 times, how many times do the OUTER loop's OWN instructions (outside the inner loop) run?",
+      "answer": 0,
+      "explanation": "The outer loop's own instructions (outside the inner loop) run only 4 times, once per outer repetition.",
+      "source": "book:page48",
+      "options": [
+        "4 times",
+        "12 times",
+        "3 times",
+        "7 times"
+      ]
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Nested Loops & Iteration",
+      "question": "Nested loops are used to create:",
+      "answer": 0,
+      "explanation": "Nested loops create more complex patterns, like grids of stars.",
+      "source": "book:page41",
+      "options": [
+        "More complex patterns, like grids of stars",
+        "Simpler, single-line programs only",
+        "Only if-else decisions",
+        "Only AND/OR conditions"
+      ]
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Nested Loops & Iteration",
+      "question": "In the star-grid example, what does the outer loop control?",
+      "answer": 0,
+      "explanation": "The outer loop controls moving to a new row for each repetition.",
+      "source": "book:page41",
+      "options": [
+        "Moving to a new row",
+        "Drawing each individual star",
+        "Checking a condition",
+        "Combining AND and OR"
+      ]
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Nested Loops & Iteration",
+      "question": "In the star-grid example, what does the inner loop control?",
+      "answer": 0,
+      "explanation": "The inner loop controls drawing each star within a single row.",
+      "source": "book:page41",
+      "options": [
+        "Drawing each star within a single row",
+        "Moving to a new row",
+        "The overall number of rows",
+        "The colour of the grid"
+      ]
+    },
+    {
+      "id": "q92",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Nested Loops & Iteration",
+      "question": "Which of these are true about nested loops? (select all that apply)",
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Nested loops are used to draw grids of stars, so the third option is false; the other three statements are all true.",
+      "source": "book:page41",
+      "options": [
+        "A nested loop is a loop placed inside another loop",
+        "The inner loop completes fully each time the outer loop runs once",
+        "Nested loops can never be used to draw grids of stars",
+        "Iteration means doing something again and again"
+      ]
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "If Statements",
+      "question": "What does an 'If' statement do in Blockly?",
+      "answer": 0,
+      "explanation": "An If statement checks a condition and only runs its blocks if that condition is true.",
+      "source": "book:page43",
+      "options": [
+        "It checks a condition and runs certain blocks only if that condition is true",
+        "It always runs every block no matter what",
+        "It repeats instructions forever",
+        "It combines two loops together"
+      ]
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "If Statements",
+      "question": "An 'If' block has how many main parts?",
+      "answer": 0,
+      "explanation": "An If block has two parts: the condition, and the blocks inside.",
+      "source": "book:page43",
+      "options": [
+        "Two (the condition, and the blocks inside)",
+        "Three",
+        "One",
+        "Four"
+      ]
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "If Statements",
+      "question": "What are the two parts of an 'If' block?",
+      "answer": 0,
+      "explanation": "The two parts are the condition (the question) and the blocks inside (what to do if yes).",
+      "source": "book:page43",
+      "options": [
+        "The condition (the question) and the blocks inside (what to do if the answer is yes)",
+        "The colour and the shape",
+        "The Turtle and the maze",
+        "The loop and the sequence"
+      ]
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "If Statements",
+      "question": "Which everyday example does the chapter use to explain 'If' statements?",
+      "answer": 0,
+      "explanation": "The chapter uses 'If it's raining, I'll take an umbrella' as its everyday example of an If statement.",
+      "source": "book:page43",
+      "options": [
+        "\"If it's raining, I'll take an umbrella.\"",
+        "\"I always take an umbrella.\"",
+        "\"It never rains.\"",
+        "\"Umbrellas are colourful.\""
+      ]
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "If Statements",
+      "question": "In Cyber Station 3's example, the Turtle moves forward 100 steps and checks a condition. What condition is checked?",
+      "answer": 0,
+      "explanation": "Cyber Station 3 has the Turtle check whether a number is even.",
+      "source": "book:page44",
+      "options": [
+        "Whether a number is even",
+        "Whether the Turtle is tired",
+        "Whether it is raining",
+        "Whether the maze has a wall"
+      ]
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "If Statements",
+      "question": "In Cyber Station 3, if the condition (the number is even) is TRUE, what does the Turtle do?",
+      "answer": 0,
+      "explanation": "When the condition is true (the number is even), the Turtle turns right.",
+      "source": "book:page44",
+      "options": [
+        "It turns right",
+        "It stops completely",
+        "It deletes the program",
+        "It turns into a different shape"
+      ]
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "If Statements",
+      "question": "In Cyber Station 3, what does the chapter ask you to figure out about odd numbers?",
+      "answer": 0,
+      "explanation": "Cyber Station 3 explicitly asks 'What happens when the number is odd?' since the If block only runs its action when the condition is true.",
+      "source": "book:page44",
+      "options": [
+        "What happens when the number is odd (since the If block only acts when the condition/even-check is true)",
+        "What colour odd numbers should be",
+        "How to delete odd numbers",
+        "How to turn odd numbers into even numbers"
+      ]
+    },
+    {
+      "id": "q100",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "If Statements",
+      "question": "True or False: An 'If' block only runs its inside blocks when its condition is true.",
+      "answer": true,
+      "explanation": "This is the exact definition of an If block given in the chapter.",
+      "source": "book:page43"
+    },
+    {
+      "id": "q101",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "If Statements",
+      "question": "Which of these are examples of 'If' statements mentioned in the chapter? (select all that apply)",
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "These three are the chapter's stated If statement examples; deleting the program for a blue Turtle is not mentioned.",
+      "source": "book:page43",
+      "options": [
+        "If there's a coin ahead, collect it",
+        "If there's a wall ahead, turn right",
+        "If the score is above 100, display \"You win!\"",
+        "If the Turtle is blue, delete the program"
+      ]
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "If Statements",
+      "question": "In the Curiosity Cloud reflection, a video game needs to check something before letting the player advance to the next level. What is checked?",
+      "answer": 0,
+      "explanation": "The Curiosity Cloud reflection is about checking if the player has enough points before advancing.",
+      "source": "book:page44",
+      "options": [
+        "If the player has enough points",
+        "If the player is tired",
+        "If it is raining in the game",
+        "If the Turtle is red"
+      ]
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "If Statements",
+      "question": "Why are 'If' statements useful in programs, according to the chapter?",
+      "answer": 0,
+      "explanation": "If statements let programs make decisions, making them smarter and more interactive.",
+      "source": "book:page43",
+      "options": [
+        "They let programs make decisions and respond to different situations, making them smarter and more interactive",
+        "They make programs run without any instructions",
+        "They remove the need for sequences",
+        "They always make the program stop"
+      ]
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "If Statements",
+      "question": "In Blockly, where would you find the 'If' block?",
+      "answer": 0,
+      "explanation": "Cyber Station 3 tells students to find the If block in the Logic category.",
+      "source": "book:page44",
+      "options": [
+        "In the Logic category",
+        "In the Movement category",
+        "In the Loops category",
+        "In the Nutrition category"
+      ]
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "If Statements",
+      "question": "An 'If' statement's condition is best described as:",
+      "answer": 0,
+      "explanation": "A condition is a question, similar to 'Is the score above 5?'.",
+      "source": "book:page43",
+      "options": [
+        "A question, like \"Is the score above 5?\"",
+        "A drawing of a Turtle",
+        "A colour choice",
+        "A fixed number of repetitions"
+      ]
+    },
+    {
+      "id": "q106",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "If Statements",
+      "question": "True or False: In Blockly, an 'If' block will run its inside blocks even when its condition is false.",
+      "answer": false,
+      "explanation": "An If block ONLY runs its inside blocks when the condition is true; if the condition is false, those blocks are skipped entirely.",
+      "source": "book:page43"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "If Statements",
+      "question": "The chapter compares an 'If' statement to which kind of everyday thinking?",
+      "answer": 0,
+      "explanation": "The chapter compares If statements to everyday conditional decisions, like the umbrella example.",
+      "source": "book:page43",
+      "options": [
+        "Making decisions based on conditions, like deciding to take an umbrella if it's raining",
+        "Following a strict sequence with no choices",
+        "Repeating the same task 100 times",
+        "Drawing a perfect square"
+      ]
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "If-Else Blocks",
+      "question": "How many parts does an 'If-Else' block have?",
+      "answer": 0,
+      "explanation": "An If-Else block has three parts.",
+      "source": "book:page44",
+      "options": [
+        "Three",
+        "Two",
+        "One",
+        "Four"
+      ]
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "If-Else Blocks",
+      "question": "What are the three parts of an If-Else block?",
+      "answer": 0,
+      "explanation": "An If-Else block's three parts are the condition, the If blocks, and the Else blocks.",
+      "source": "book:page44",
+      "options": [
+        "The condition, the 'If' blocks (what to do if yes), and the 'Else' blocks (what to do if no)",
+        "The Turtle, the maze, and the finish line",
+        "The sequence, the loop, and the variable",
+        "The colour, the shape, and the size"
+      ]
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "If-Else Blocks",
+      "question": "In an If-Else block, when does the program run the 'Else' blocks?",
+      "answer": 0,
+      "explanation": "The Else blocks run when the condition is false.",
+      "source": "book:page44",
+      "options": [
+        "When the condition is false (the answer is no)",
+        "When the condition is true",
+        "Always, no matter what",
+        "Never"
+      ]
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "If-Else Blocks",
+      "question": "Which everyday example does the chapter use for If-Else?",
+      "answer": 0,
+      "explanation": "This is the chapter's stated everyday example of If-Else logic.",
+      "source": "book:page44",
+      "options": [
+        "\"If it's raining, take an umbrella, else wear sunglasses.\"",
+        "\"Always take an umbrella.\"",
+        "\"Never wear sunglasses.\"",
+        "\"It's always raining.\""
+      ]
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "If-Else Blocks",
+      "question": "What metaphor does the chapter use to describe how If-Else blocks work?",
+      "answer": 0,
+      "explanation": "The chapter describes If-Else blocks as being like forks in the road.",
+      "source": "book:page44",
+      "options": [
+        "They are like forks in the road, creating multiple paths",
+        "They are like a single straight line with no choices",
+        "They are like a repeating circle",
+        "They are like a locked door"
+      ]
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "If-Else Blocks",
+      "question": "In the video game example, if the player does NOT have enough points, what happens according to the If-Else logic?",
+      "answer": 0,
+      "explanation": "If the player doesn't have enough points, the Else path shows 'Try again'.",
+      "source": "book:page44",
+      "options": [
+        "The game shows \"Try again\"",
+        "The player automatically advances",
+        "The game deletes the player's progress",
+        "Nothing happens at all"
+      ]
+    },
+    {
+      "id": "q114",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "If-Else Blocks",
+      "question": "True or False: An If-Else block only has a condition and blocks for when the condition is true (there is no 'else' option).",
+      "answer": false,
+      "explanation": "An If-Else block has THREE parts: the condition, the 'If' blocks (for when it's true), AND the 'Else' blocks (for when it's false).",
+      "source": "book:page44"
+    },
+    {
+      "id": "q115",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "If-Else Blocks",
+      "question": "Which of these are correct examples of If-Else logic from the chapter? (select all that apply)",
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "These three are the chapter's stated If-Else examples; the Turtle-tired example is not mentioned.",
+      "source": "book:page44",
+      "options": [
+        "If there's a coin ahead, collect it, else keep moving",
+        "If raining, take an umbrella, else wear sunglasses",
+        "If enough points, go to next level, else show \"Try again\"",
+        "If the Turtle is tired, delete the program, else do nothing"
+      ]
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "If-Else Blocks",
+      "question": "According to Milestone B (a True/False check later in the chapter), how many parts does an If-Else block actually have?",
+      "answer": 0,
+      "explanation": "Milestone B corrects a common misconception - stating an if-else has only two parts is FALSE; it actually has THREE parts (condition, if-blocks, else-blocks).",
+      "source": "book:page50",
+      "options": [
+        "Three (not just two)",
+        "Two",
+        "One",
+        "Four"
+      ]
+    },
+    {
+      "id": "q117",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "If-Else Blocks",
+      "question": "True or False: The statement \"The if-else block has two parts: condition and what to do if the condition is true\" is CORRECT.",
+      "answer": false,
+      "explanation": "This statement is false, per Milestone B - an if-else block actually has three parts: the condition, the 'if' blocks, and the 'else' blocks.",
+      "source": "book:page50"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "If-Else Blocks",
+      "question": "If-Else blocks let a program:",
+      "answer": 0,
+      "explanation": "If-Else blocks let a program handle different situations by creating multiple possible paths.",
+      "source": "book:page44",
+      "options": [
+        "Handle different situations by creating multiple possible paths",
+        "Only ever do one single thing",
+        "Repeat forever with no stopping condition",
+        "Ignore all conditions"
+      ]
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "If-Else Blocks",
+      "question": "In the umbrella example (\"If raining, take umbrella, else wear sunglasses\"), what happens if it is NOT raining?",
+      "answer": 0,
+      "explanation": "If it is not raining (condition false), the Else blocks run - wear sunglasses.",
+      "source": "book:page44",
+      "options": [
+        "The 'Else' blocks run (wear sunglasses)",
+        "The 'If' blocks run (take umbrella)",
+        "Nothing happens at all",
+        "The program crashes"
+      ]
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "If-Else Blocks",
+      "question": "What is the key difference between a plain 'If' block and an 'If-Else' block?",
+      "answer": 0,
+      "explanation": "An If-Else block adds Else blocks for the false case, while a plain If block simply does nothing when its condition is false.",
+      "source": "book:page43",
+      "options": [
+        "An If-Else block has an extra set of 'Else' blocks that run when the condition is false, while a plain If block does nothing when its condition is false",
+        "An If block always runs twice",
+        "An If-Else block has no condition at all",
+        "There is no difference"
+      ]
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "If-Else Blocks",
+      "question": "In the coin example (\"If there's a coin ahead, collect it, else keep moving\"), what happens if there is NOT a coin ahead?",
+      "answer": 0,
+      "explanation": "If there is no coin ahead, the Else path runs - the Turtle keeps moving.",
+      "source": "book:page44",
+      "options": [
+        "The Turtle keeps moving (the Else path)",
+        "The Turtle collects an invisible coin",
+        "The Turtle stops forever",
+        "The program repeats 100 times"
+      ]
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "If-Else Blocks",
+      "question": "If-Else blocks are found in which Blockly category?",
+      "answer": 0,
+      "explanation": "Like plain If blocks, If-Else blocks are found in the Logic category.",
+      "source": "book:page44",
+      "options": [
+        "Logic",
+        "Movement",
+        "Loops",
+        "Nutrition"
+      ]
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AND Logical Operator",
+      "question": "For the AND logical operator, how many conditions must be true for the overall result to be true?",
+      "answer": 0,
+      "explanation": "The AND rule requires BOTH conditions to be true.",
+      "source": "book:page45",
+      "options": [
+        "Both conditions must be true",
+        "Only one condition needs to be true",
+        "No conditions need to be true",
+        "It doesn't matter"
+      ]
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AND Logical Operator",
+      "question": "Which example does the chapter use for the AND operator?",
+      "answer": 0,
+      "explanation": "This is the chapter's stated everyday example of the AND operator.",
+      "source": "book:page45",
+      "options": [
+        "\"If it's raining AND I have an umbrella, then go outside.\"",
+        "\"If it's my birthday OR it's a holiday, then eat cake.\"",
+        "\"If there's a coin ahead, collect it.\"",
+        "\"Repeat 4 times.\""
+      ]
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AND Logical Operator",
+      "question": "In the boy-with-umbrella picture example, when does the boy actually go outside?",
+      "answer": 0,
+      "explanation": "The boy only goes outside when both conditions (raining and has umbrella) are true.",
+      "source": "book:page45",
+      "options": [
+        "Only when it is BOTH raining AND he has an umbrella",
+        "Whenever it is raining, umbrella or not",
+        "Whenever he has an umbrella, rain or not",
+        "He never goes outside"
+      ]
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "AND Logical Operator",
+      "question": "In the boy-with-umbrella example, if it is raining but the boy does NOT have an umbrella, what happens?",
+      "answer": 0,
+      "explanation": "Since AND needs both conditions true, having only one true condition (rain) means he doesn't go out.",
+      "source": "book:page45",
+      "options": [
+        "He doesn't go out (only one condition is true)",
+        "He goes out anyway",
+        "He goes out with a raincoat instead",
+        "He waits for the umbrella to appear"
+      ]
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AND Logical Operator",
+      "question": "Skill Trail 3 asks: \"Sunny (True) AND I have sunscreen (False)\" - what is the result?",
+      "answer": 0,
+      "explanation": "Since sunscreen is False, and AND requires both to be true, the result is False.",
+      "source": "book:page47",
+      "options": [
+        "False",
+        "True",
+        "Cannot be determined",
+        "It depends on the weather"
+      ]
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AND Logical Operator",
+      "question": "Skill Trail 3 asks: \"I have a key (True) AND I reach the door (True)\" - what is the result?",
+      "answer": 0,
+      "explanation": "Since both conditions are true, the AND result is True and the door opens.",
+      "source": "book:page47",
+      "options": [
+        "True (the door opens)",
+        "False",
+        "Cannot be determined",
+        "It depends"
+      ]
+    },
+    {
+      "id": "q129",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "AND Logical Operator",
+      "question": "True or False: For the AND operator, if even one of the two conditions is false, the overall result is false.",
+      "answer": true,
+      "explanation": "AND requires BOTH conditions to be true; if either one is false, the AND result is false.",
+      "source": "book:page45"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "AND Logical Operator",
+      "question": "Checkpoint 3 asks: If condition A is FALSE and condition B is TRUE, what is the result of \"A AND B\"?",
+      "answer": 0,
+      "explanation": "Since A is false, and AND needs both to be true, the result is FALSE.",
+      "source": "book:page48",
+      "options": [
+        "FALSE",
+        "TRUE",
+        "It depends on other factors",
+        "Cannot be determined"
+      ]
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AND Logical Operator",
+      "question": "Which of these situations correctly uses the AND operator (per Skill Trail 3, part B)?",
+      "answer": 0,
+      "explanation": "This is the chapter's own AND example from Skill Trail 3.",
+      "source": "book:page47",
+      "options": [
+        "\"You can go to the party if you clean your room AND finish your homework.\"",
+        "\"The alarm sounds if there is smoke OR a high temperature.\"",
+        "\"You need an umbrella if it's raining OR snowing.\"",
+        "None of these"
+      ]
+    },
+    {
+      "id": "q132",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "AND Logical Operator",
+      "question": "Milestone B asks: True or False - \"For the AND logical operator, only one condition needs to be true for the overall result to be true.\"",
+      "answer": false,
+      "explanation": "This statement describes OR, not AND. For AND, BOTH conditions must be true for the result to be true.",
+      "source": "book:page50"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AND Logical Operator",
+      "question": "According to the 'AND rule' stated in the chapter, when does a result actually happen?",
+      "answer": 0,
+      "explanation": "The AND rule states the result happens only when BOTH conditions are TRUE.",
+      "source": "book:page45",
+      "options": [
+        "Only when BOTH conditions are TRUE",
+        "When at least one condition is TRUE",
+        "Whenever the program starts",
+        "Never"
+      ]
+    },
+    {
+      "id": "q134",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "AND Logical Operator",
+      "question": "Which of these describe the AND logical operator correctly? (select all that apply)",
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "AND requires both conditions to be true, so option 1 (only one needed) is false; the other three statements are correct.",
+      "source": "book:page45",
+      "options": [
+        "Both conditions must be true for the result to be true",
+        "Only one condition needs to be true",
+        "If either condition is false, the AND result is false",
+        "AND is used to combine two conditions"
+      ]
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AND Logical Operator",
+      "question": "\"You win if you collect all coins AND reach the finish line\" (Skill Trail 3, part B). Which operator is this?",
+      "answer": 0,
+      "explanation": "This is one of the chapter's AND examples from Skill Trail 3.",
+      "source": "book:page47",
+      "options": [
+        "AND",
+        "OR",
+        "Neither",
+        "Both AND and OR equally"
+      ]
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "AND Logical Operator",
+      "question": "Why do logical operators like AND matter in programming, according to the chapter?",
+      "answer": 0,
+      "explanation": "Logical operators let us combine conditions for more specific, complex decision-making.",
+      "source": "book:page45",
+      "options": [
+        "They let us combine multiple conditions to create more specific, complex decision-making in our programs",
+        "They make programs run without any conditions at all",
+        "They replace the need for sequences entirely",
+        "They only work with numbers, never with true/false questions"
+      ]
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AND Logical Operator",
+      "question": "In the picture examples for AND (rain and umbrella), how many of the three pictures show the boy actually going out?",
+      "answer": 0,
+      "explanation": "Only in the third picture, where both conditions are true, does the boy go outside with his umbrella.",
+      "source": "book:page45",
+      "options": [
+        "One (only when both conditions are true)",
+        "All three",
+        "None",
+        "Two"
+      ]
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "OR Logical Operator",
+      "question": "For the OR logical operator, how many conditions must be true for the overall result to be true?",
+      "answer": 0,
+      "explanation": "OR only needs at least one condition to be true.",
+      "source": "book:page46",
+      "options": [
+        "At least one condition must be true",
+        "Both conditions must be true",
+        "No conditions need to be true",
+        "All conditions must be false"
+      ]
+    },
+    {
+      "id": "q139",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "OR Logical Operator",
+      "question": "Which example does the chapter use for the OR operator?",
+      "answer": 0,
+      "explanation": "This is the chapter's stated everyday example of the OR operator.",
+      "source": "book:page46",
+      "options": [
+        "\"If it's my birthday OR it's a holiday, then eat cake.\"",
+        "\"If it's raining AND I have an umbrella, then go outside.\"",
+        "\"Repeat until the timer reaches zero.\"",
+        "\"If there's a wall ahead, turn right.\""
+      ]
+    },
+    {
+      "id": "q140",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "OR Logical Operator",
+      "question": "Skill Trail 3 asks: \"I finished my homework (True) OR it's the weekend (False)\" - what is the result?",
+      "answer": 0,
+      "explanation": "Since homework is True, and OR only needs one to be true, the result is True.",
+      "source": "book:page47",
+      "options": [
+        "True",
+        "False",
+        "Cannot be determined",
+        "It depends"
+      ]
+    },
+    {
+      "id": "q141",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "OR Logical Operator",
+      "question": "Skill Trail 3 asks: \"Score is above 100 (False) OR the timer is at zero (True)\" - what is the result?",
+      "answer": 0,
+      "explanation": "Since the timer condition is True, and OR needs only one true condition, the result is True.",
+      "source": "book:page47",
+      "options": [
+        "True (the game ends)",
+        "False",
+        "Cannot be determined",
+        "It depends"
+      ]
+    },
+    {
+      "id": "q142",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "OR Logical Operator",
+      "question": "True or False: For the OR operator, the overall result is true if at least one of the two conditions is true.",
+      "answer": true,
+      "explanation": "This is exactly the OR rule stated in the chapter.",
+      "source": "book:page46"
+    },
+    {
+      "id": "q143",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "OR Logical Operator",
+      "question": "Checkpoint 3 asks: If condition A is FALSE and condition B is TRUE, what is the result of \"A OR B\"?",
+      "answer": 0,
+      "explanation": "Since B is true, and OR needs only one condition true, the result is TRUE.",
+      "source": "book:page48",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "It depends on other factors",
+        "Cannot be determined"
+      ]
+    },
+    {
+      "id": "q144",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "OR Logical Operator",
+      "question": "Which of these situations correctly uses the OR operator (per Skill Trail 3, part B)?",
+      "answer": 0,
+      "explanation": "This is the chapter's own OR example from Skill Trail 3.",
+      "source": "book:page47",
+      "options": [
+        "\"The alarm sounds if there is smoke OR a high temperature.\"",
+        "\"You can go to the party if you clean your room AND finish your homework.\"",
+        "\"You win if you collect all coins AND reach the finish line.\"",
+        "None of these"
+      ]
+    },
+    {
+      "id": "q145",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "OR Logical Operator",
+      "question": "\"You need an umbrella if it's raining OR snowing\" (Skill Trail 3, part B). Why is OR the correct operator here?",
+      "answer": 0,
+      "explanation": "OR is correct because you need the umbrella whenever either condition occurs.",
+      "source": "book:page47",
+      "options": [
+        "Because you need the umbrella if EITHER condition happens, not only when both happen at once",
+        "Because you only need the umbrella when it's both raining and snowing at the same time",
+        "Because umbrellas can only be used once a year",
+        "Because rain and snow never happen on the same day"
+      ]
+    },
+    {
+      "id": "q146",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "OR Logical Operator",
+      "question": "According to the 'OR rule' stated in the chapter, when is the result TRUE?",
+      "answer": 0,
+      "explanation": "The OR rule is TRUE when at least one condition is TRUE.",
+      "source": "book:page46",
+      "options": [
+        "When at least ONE of the conditions is TRUE",
+        "Only when BOTH conditions are TRUE",
+        "Only when NEITHER condition is true",
+        "Never"
+      ]
+    },
+    {
+      "id": "q147",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "OR Logical Operator",
+      "question": "Which of these describe the OR logical operator correctly? (select all that apply)",
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "OR needs only one true condition (not both), so 'both must be true' is incorrect; the other three statements are correct.",
+      "source": "book:page46",
+      "options": [
+        "At least one condition must be true for the result to be true",
+        "Both conditions must be true",
+        "If both conditions are true, the OR result is still true",
+        "OR is used to combine two conditions"
+      ]
+    },
+    {
+      "id": "q148",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "OR Logical Operator",
+      "question": "True or False: With the OR operator, if BOTH conditions happen to be true at the same time, the overall result is still TRUE.",
+      "answer": true,
+      "explanation": "OR only requires at least one condition to be true; if both happen to be true, the result remains true.",
+      "source": "book:page46"
+    },
+    {
+      "id": "q149",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "OR Logical Operator",
+      "question": "Why does combining conditions with AND and OR make programs 'smarter and more precise', according to the chapter?",
+      "answer": 0,
+      "explanation": "Combining AND and OR lets programs create very specific conditions for exactly when something should happen.",
+      "source": "book:page46",
+      "options": [
+        "Because it lets us create very specific conditions for exactly when something should happen",
+        "Because it removes the need for any conditions",
+        "Because it makes the program run without a Turtle",
+        "Because it deletes unnecessary loops"
+      ]
+    },
+    {
+      "id": "q150",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "OR Logical Operator",
+      "question": "In the birthday-cake example (\"If it's my birthday OR it's a holiday, then eat cake\"), on how many of these occasions would you eat cake?",
+      "answer": 0,
+      "explanation": "Since OR needs only one condition true, you'd eat cake on either your birthday or a holiday.",
+      "source": "book:page46",
+      "options": [
+        "Both your birthday and any holiday (either one is enough)",
+        "Only your birthday",
+        "Only holidays that are not your birthday",
+        "Never"
+      ]
+    },
+    {
+      "id": "q151",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "OR Logical Operator",
+      "question": "What is the key difference between AND and OR?",
+      "answer": 0,
+      "explanation": "AND requires both conditions true, while OR requires only at least one condition true.",
+      "source": "book:page45",
+      "options": [
+        "AND needs both conditions true; OR needs only at least one condition true",
+        "AND and OR always give the same result",
+        "AND needs zero conditions true; OR needs one condition true",
+        "There is no difference between them"
+      ]
+    },
+    {
+      "id": "q152",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "OR Logical Operator",
+      "question": "The OR operator is best summarized by which rule?",
+      "answer": 0,
+      "explanation": "This is the chapter's stated OR rule.",
+      "source": "book:page46",
+      "options": [
+        "TRUE when at least ONE condition is TRUE",
+        "TRUE only when BOTH conditions are TRUE",
+        "Always FALSE",
+        "Always TRUE regardless of conditions"
+      ]
+    },
+    {
+      "id": "q153",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Coding Vocabulary Glossary",
+      "question": "According to the 'My Coding Vocabulary' glossary, what is an Algorithm?",
+      "answer": 0,
+      "explanation": "The glossary defines Algorithm as a step-by-step set of instructions to solve a problem, like a recipe.",
+      "source": "book:page46",
+      "options": [
+        "A step-by-step set of instructions to solve a problem, like a recipe",
+        "Instructions carried out top to bottom",
+        "A loop placed inside another loop",
+        "A condition that is always false"
+      ]
+    },
+    {
+      "id": "q154",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Coding Vocabulary Glossary",
+      "question": "According to the glossary, what is a Sequence?",
+      "answer": 0,
+      "explanation": "The glossary defines Sequence as instructions carried out one after another, top to bottom.",
+      "source": "book:page46",
+      "options": [
+        "Instructions carried out one after another, top to bottom",
+        "A step-by-step recipe for cooking",
+        "A condition that combines AND and OR",
+        "A loop that never stops"
+      ]
+    },
+    {
+      "id": "q155",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Coding Vocabulary Glossary",
+      "question": "According to the glossary, what is Decomposition?",
+      "answer": 0,
+      "explanation": "The glossary defines Decomposition as breaking a big problem into smaller, manageable steps.",
+      "source": "book:page46",
+      "options": [
+        "Breaking a big problem into smaller, manageable steps",
+        "Running a block of instructions a set number of times",
+        "Combining two conditions with AND",
+        "A block that draws a square"
+      ]
+    },
+    {
+      "id": "q156",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Coding Vocabulary Glossary",
+      "question": "According to the glossary, what does a Loop (Repeat) do?",
+      "answer": 0,
+      "explanation": "The glossary defines a Loop (Repeat) as running a block of instructions a set number of times.",
+      "source": "book:page46",
+      "options": [
+        "Runs a block of instructions a set number of times",
+        "Checks a condition only once",
+        "Breaks a big problem into smaller steps",
+        "Combines AND and OR operators"
+      ]
+    },
+    {
+      "id": "q157",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Coding Vocabulary Glossary",
+      "question": "According to the glossary, what does 'Repeat Until' do?",
+      "answer": 0,
+      "explanation": "The glossary defines Repeat Until as keeping looping until a condition becomes true, then stopping.",
+      "source": "book:page46",
+      "options": [
+        "Keeps looping until a condition becomes true, then stops",
+        "Runs exactly the same number of times every time",
+        "Never stops looping",
+        "Only runs once"
+      ]
+    },
+    {
+      "id": "q158",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Coding Vocabulary Glossary",
+      "question": "According to the glossary, what is a Nested Loop?",
+      "answer": 0,
+      "explanation": "The glossary defines Nested Loop this way.",
+      "source": "book:page46",
+      "options": [
+        "A loop placed inside another loop, where the inner loop completes fully each time the outer loop runs once",
+        "A loop that runs only one time",
+        "A condition combining two loops with OR",
+        "A block used only for sequences"
+      ]
+    },
+    {
+      "id": "q159",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Coding Vocabulary Glossary",
+      "question": "According to the glossary, what does an 'If Statement' do?",
+      "answer": 0,
+      "explanation": "The glossary defines If Statement as running certain blocks only if a condition is true.",
+      "source": "book:page46",
+      "options": [
+        "Runs certain blocks ONLY if a condition is true",
+        "Always runs its blocks no matter what",
+        "Combines two conditions with AND",
+        "Repeats a set number of times"
+      ]
+    },
+    {
+      "id": "q160",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Coding Vocabulary Glossary",
+      "question": "According to the glossary, how does 'If-Else' work?",
+      "answer": 0,
+      "explanation": "The glossary defines If-Else as: if condition true, do A; otherwise, do B.",
+      "source": "book:page46",
+      "options": [
+        "If the condition is true, do A; otherwise, do B",
+        "It only ever does A, regardless of the condition",
+        "It repeats forever",
+        "It combines AND and OR only"
+      ]
+    },
+    {
+      "id": "q161",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Coding Vocabulary Glossary",
+      "question": "According to the glossary, what must be true for the AND operator's result to be true?",
+      "answer": 0,
+      "explanation": "The glossary defines AND operator as requiring both conditions to be true.",
+      "source": "book:page46",
+      "options": [
+        "Both conditions must be true",
+        "Only one condition needs to be true",
+        "No conditions need to be true",
+        "The conditions must be false"
+      ]
+    },
+    {
+      "id": "q162",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Coding Vocabulary Glossary",
+      "question": "According to the glossary, what must be true for the OR operator's result to be true?",
+      "answer": 0,
+      "explanation": "The glossary defines OR operator as requiring at least one condition to be true.",
+      "source": "book:page46",
+      "options": [
+        "At least one condition must be true",
+        "Both conditions must be true",
+        "Neither condition can be true",
+        "It is always true"
+      ]
+    },
+    {
+      "id": "q163",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Coding Vocabulary Glossary",
+      "question": "Which glossary term matches this description: 'Breaking a big problem into smaller, manageable steps'?",
+      "answer": 0,
+      "explanation": "This description matches the glossary's definition of Decomposition.",
+      "source": "book:page46",
+      "options": [
+        "Decomposition",
+        "Sequence",
+        "Nested Loop",
+        "If-Else"
+      ]
+    },
+    {
+      "id": "q164",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Coding Vocabulary Glossary",
+      "question": "Which glossary term matches this description: 'Keeps looping until a condition becomes true, then stops'?",
+      "answer": 0,
+      "explanation": "This description matches the glossary's definition of Repeat Until.",
+      "source": "book:page46",
+      "options": [
+        "Repeat Until",
+        "Loop (Repeat)",
+        "Sequence",
+        "Algorithm"
+      ]
+    },
+    {
+      "id": "q165",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Coding Vocabulary Glossary",
+      "question": "Which glossary term matches this description: 'A loop placed inside another loop'?",
+      "answer": 0,
+      "explanation": "This description matches the glossary's definition of Nested Loop.",
+      "source": "book:page46",
+      "options": [
+        "Nested Loop",
+        "Repeat Until",
+        "If Statement",
+        "Decomposition"
+      ]
+    },
+    {
+      "id": "q166",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Coding Vocabulary Glossary",
+      "question": "Which of the following are official glossary terms from the chapter's 'My Coding Vocabulary' section? (select all that apply)",
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Algorithm, Sequence, and Nested Loop are all glossary terms; Photosynthesis is not part of this chapter's vocabulary.",
+      "source": "book:page46",
+      "options": [
+        "Algorithm",
+        "Sequence",
+        "Nested Loop",
+        "Photosynthesis"
+      ]
+    },
+    {
+      "id": "q167",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Coding Vocabulary Glossary",
+      "question": "Which glossary term matches this description: 'Instructions carried out one after another, top to bottom'?",
+      "answer": 0,
+      "explanation": "This description matches the glossary's definition of Sequence.",
+      "source": "book:page46",
+      "options": [
+        "Sequence",
+        "Nested Loop",
+        "Decomposition",
+        "OR operator"
+      ]
+    },
+    {
+      "id": "q168",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Logical Operators in Action & Loop Myths",
+      "question": "True or False: According to the chapter, a loop makes a program run faster on the computer.",
+      "answer": false,
+      "explanation": "This is a myth! A loop makes your CODE shorter and easier to write, but the computer still executes every instruction inside it one by one - a repeat-10 loop does the same amount of work as writing the block 10 times manually.",
+      "source": "book:page47"
+    },
+    {
+      "id": "q169",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Logical Operators in Action & Loop Myths",
+      "question": "Why is it a myth that 'a loop makes the program run faster'?",
+      "answer": 0,
+      "explanation": "The Detour box explains loops make code shorter, not faster - the computer still does the same total work.",
+      "source": "book:page47",
+      "options": [
+        "Because the computer still executes every instruction inside the loop one by one, doing the same total amount of work",
+        "Because loops always slow down the program",
+        "Because loops delete instructions",
+        "Because loops only work with the AND operator"
+      ]
+    },
+    {
+      "id": "q170",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Logical Operators in Action & Loop Myths",
+      "question": "According to the chapter, a 'repeat 10' loop that runs one move-block does the same amount of work as:",
+      "answer": 0,
+      "explanation": "A repeat-10 loop performs the same amount of work as writing the same block 10 times manually.",
+      "source": "book:page47",
+      "options": [
+        "Writing that same move-block 10 separate times manually",
+        "Writing the move-block only once",
+        "Doing nothing at all",
+        "Running an if-else block"
+      ]
+    },
+    {
+      "id": "q171",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Logical Operators in Action & Loop Myths",
+      "question": "What is the myth about AND/OR discussed in the chapter's Detour box?",
+      "answer": 0,
+      "explanation": "The Detour box warns that AND and OR mean the same in everyday English as in code, which is a myth.",
+      "source": "book:page48",
+      "options": [
+        "That AND and OR mean exactly the same thing in everyday English as they do in code",
+        "That AND and OR are never used together",
+        "That AND always means \"or\" in programming",
+        "That OR always means \"and\" in English"
+      ]
+    },
+    {
+      "id": "q172",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Logical Operators in Action & Loop Myths",
+      "question": "In everyday English, saying 'bring a pencil and a ruler' usually means bring both. How is AND used in code, according to the chapter?",
+      "answer": 0,
+      "explanation": "The chapter notes AND is used strictly in code, requiring both conditions to be true, similar to the everyday sense.",
+      "source": "book:page48",
+      "options": [
+        "The same strict way - AND requires BOTH conditions to be true",
+        "Loosely - AND only requires one condition to be true in code",
+        "AND is never used in code",
+        "AND always means the opposite of what it means in English"
+      ]
+    },
+    {
+      "id": "q173",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Logical Operators in Action & Loop Myths",
+      "question": "Why does the chapter warn that mixing up AND and OR can be a problem?",
+      "answer": 0,
+      "explanation": "Mixing up AND and OR can lead to bugs that are hard to spot.",
+      "source": "book:page48",
+      "options": [
+        "Because it can lead to bugs (mistakes) in your program that are hard to spot",
+        "Because it makes the program run in a different colour",
+        "Because it always crashes the computer",
+        "Because it deletes the Turtle"
+      ]
+    },
+    {
+      "id": "q174",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Logical Operators in Action & Loop Myths",
+      "question": "According to the Trail Treasure box, what is 'Hour of Code'?",
+      "answer": 0,
+      "explanation": "The Trail Treasure box describes Hour of Code as this global annual coding event.",
+      "source": "book:page48",
+      "options": [
+        "An annual event where over 100 million kids in more than 180 countries spend an hour learning to code",
+        "A one-hour Blockly video game",
+        "A type of loop in Blockly",
+        "A programming language"
+      ]
+    },
+    {
+      "id": "q175",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Logical Operators in Action & Loop Myths",
+      "question": "According to the chapter, roughly how many kids take part in 'Hour of Code' each year?",
+      "answer": 0,
+      "explanation": "The chapter states over 100 million kids take part each year.",
+      "source": "book:page48",
+      "options": [
+        "Over 100 million",
+        "About 100",
+        "About 1,000",
+        "Over 1 billion"
+      ]
+    },
+    {
+      "id": "q176",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Logical Operators in Action & Loop Myths",
+      "question": "According to the chapter, 'Hour of Code' takes place in how many countries?",
+      "answer": 0,
+      "explanation": "The chapter states Hour of Code happens in more than 180 countries.",
+      "source": "book:page48",
+      "options": [
+        "More than 180 countries",
+        "Only 1 country",
+        "About 5 countries",
+        "Exactly 50 countries"
+      ]
+    },
+    {
+      "id": "q177",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Logical Operators in Action & Loop Myths",
+      "question": "In the Curiosity Cloud reflection about a robot navigating a house, what two programming concepts does the chapter suggest using TOGETHER to handle obstacles?",
+      "answer": 0,
+      "explanation": "The reflection suggests combining loops and conditional statements to handle a robot navigating obstacles.",
+      "source": "book:page48",
+      "options": [
+        "Loops and conditional (if) statements",
+        "Sequences and colours",
+        "Variables and AND operators only",
+        "Algorithms and recipes"
+      ]
+    },
+    {
+      "id": "q178",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Logical Operators in Action & Loop Myths",
+      "question": "Why might a robot navigating a house need BOTH a loop and a conditional statement, according to the Curiosity Cloud reflection?",
+      "answer": 0,
+      "explanation": "The robot needs a loop to keep checking repeatedly and a conditional to decide what to do about obstacles.",
+      "source": "book:page48",
+      "options": [
+        "It needs to keep moving/checking repeatedly (a loop) AND make decisions when it detects an obstacle (a conditional)",
+        "It only ever needs a single sequence with no repetition or decisions",
+        "It only needs the AND operator, nothing else",
+        "It needs neither, since houses have no obstacles"
+      ]
+    },
+    {
+      "id": "q179",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Logical Operators in Action & Loop Myths",
+      "question": "True or False: According to the 'Repeat vs Repeat Until' myth-busting box, these two block types work in exactly the same way.",
+      "answer": false,
+      "explanation": "Repeat runs an exact number of times no matter what; Repeat Until checks a condition after every run and only stops once that condition becomes true.",
+      "source": "book:page48"
+    },
+    {
+      "id": "q180",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Logical Operators in Action & Loop Myths",
+      "question": "According to the 'nested loop' myth-busting box, which loop (inner or outer) actually runs the MOST times?",
+      "answer": 0,
+      "explanation": "The Detour box clarifies that the inner loop runs most often, not the outer loop.",
+      "source": "book:page48",
+      "options": [
+        "The inner loop",
+        "The outer loop",
+        "They always run the same number of times",
+        "Neither loop ever runs more than once"
+      ]
+    },
+    {
+      "id": "q181",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Logical Operators in Action & Loop Myths",
+      "question": "True or False: Mixing up how AND and OR are used in code (compared to everyday English) can lead to bugs that are hard to spot.",
+      "answer": true,
+      "explanation": "This is exactly what the Detour myth-busting box warns about.",
+      "source": "book:page48"
+    },
+    {
+      "id": "q182",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Logical Operators in Action & Loop Myths",
+      "question": "Which of these are myths the chapter specifically corrects with real facts? (select all that apply)",
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The first three are myths the Detour box specifically corrects; the fourth is actually a TRUE, correct definition stated elsewhere in the chapter, not a myth.",
+      "source": "book:page47",
+      "options": [
+        "\"A loop makes the program run faster\"",
+        "\"Repeat Until and Repeat are the same thing\"",
+        "\"In a nested loop, the outer loop runs the most times\"",
+        "\"An algorithm is a step-by-step set of instructions\""
+      ]
+    },
+    {
+      "id": "q183",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Logical Operators in Action & Loop Myths",
+      "question": "What is the overall purpose of the 'Detour' myth-busting boxes in this chapter?",
+      "answer": 0,
+      "explanation": "The Detour boxes exist to correct common misunderstandings about loops and logical operators.",
+      "source": "book:page47",
+      "options": [
+        "To correct common misunderstandings about loops and logical operators",
+        "To introduce brand-new Blockly categories",
+        "To test students on unrelated maths problems",
+        "To replace the glossary"
+      ]
+    },
+    {
+      "id": "q184",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algorithms for a Greener World (EcoRoute)",
+      "question": "According to the EcoRoute section, what kind of loop logic do satellites use to scan forests and flag deforestation?",
+      "answer": 0,
+      "explanation": "Satellites use Repeat Until logic to scan forests and flag deforestation.",
+      "source": "book:page45",
+      "options": [
+        "Repeat Until logic",
+        "If-Else logic",
+        "AND logic",
+        "OR logic"
+      ]
+    },
+    {
+      "id": "q185",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Algorithms for a Greener World (EcoRoute)",
+      "question": "How does a smart irrigation system use If-Else logic, according to the EcoRoute section?",
+      "answer": 0,
+      "explanation": "Smart irrigation checks moisture and uses If-Else to turn drip irrigation on or off.",
+      "source": "book:page45",
+      "options": [
+        "It checks soil moisture; if below a threshold it turns the drip irrigation ON, else it keeps it OFF",
+        "It always waters the crops no matter what",
+        "It never checks moisture at all",
+        "It only works using the AND operator"
+      ]
+    },
+    {
+      "id": "q186",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Algorithms for a Greener World (EcoRoute)",
+      "question": "According to the EcoRoute section, how much water can smart irrigation systems save using If-Else logic?",
+      "answer": 0,
+      "explanation": "The chapter states smart irrigation using If-Else logic can save up to 50% water.",
+      "source": "book:page45",
+      "options": [
+        "Up to 50%",
+        "Up to 5%",
+        "Up to 100%",
+        "None at all"
+      ]
+    },
+    {
+      "id": "q187",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algorithms for a Greener World (EcoRoute)",
+      "question": "According to the EcoRoute section, what do algorithms help manage in Indian cities based on real-time vehicle counts?",
+      "answer": 0,
+      "explanation": "Algorithms manage traffic-light timing in Indian cities based on real-time vehicle counts.",
+      "source": "book:page45",
+      "options": [
+        "Traffic-light timing",
+        "School timetables",
+        "Weather forecasts",
+        "Music playlists"
+      ]
+    },
+    {
+      "id": "q188",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Algorithms for a Greener World (EcoRoute)",
+      "question": "According to the EcoRoute section, which Indian space organisation uses algorithmic image processing to track the health of the Western Ghats and glacial retreat in the Himalayas?",
+      "answer": 0,
+      "explanation": "ISRO uses algorithmic image processing for this purpose, per the chapter.",
+      "source": "book:page45",
+      "options": [
+        "ISRO",
+        "NASA",
+        "WHO",
+        "UNESCO"
+      ]
+    },
+    {
+      "id": "q189",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Algorithms for a Greener World (EcoRoute)",
+      "question": "True or False: According to the chapter, algorithms have no real-world use in protecting the environment.",
+      "answer": false,
+      "explanation": "The EcoRoute section describes several real environmental uses of algorithms - satellite deforestation monitoring, smart irrigation, traffic-light timing, and ISRO's ecosystem tracking.",
+      "source": "book:page45"
+    },
+    {
+      "id": "q190",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Algorithms for a Greener World (EcoRoute)",
+      "question": "Why would satellite forest-monitoring use a 'Repeat Until' loop rather than a fixed 'Repeat' loop?",
+      "answer": 0,
+      "explanation": "Repeat Until fits because scanning must continue until an unknown-in-advance change is detected.",
+      "source": "book:page40",
+      "options": [
+        "Because scanning needs to continue until a change (like deforestation) is detected, and you don't know in advance when that will happen",
+        "Because satellites can only repeat exactly 4 times",
+        "Because Repeat Until is always faster",
+        "Because forests never change"
+      ]
+    },
+    {
+      "id": "q191",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Algorithms for a Greener World (EcoRoute)",
+      "question": "The EcoRoute 'Eco Challenge' asks students to design a simple algorithm for a smart dustbin. What should this dustbin sort waste into?",
+      "answer": 0,
+      "explanation": "The Eco Challenge asks students to design a smart dustbin algorithm sorting waste into compostable, recyclable, and landfill categories.",
+      "source": "book:page45",
+      "options": [
+        "Compostable, recyclable, and landfill categories",
+        "Only two categories: good and bad",
+        "Colours: red, blue, and green",
+        "Sizes: small, medium, and large"
+      ]
+    },
+    {
+      "id": "q192",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Algorithms for a Greener World (EcoRoute)",
+      "question": "Which logical operators would likely be needed to design a smart dustbin sorting algorithm with three categories, as the Eco Challenge suggests?",
+      "answer": 0,
+      "explanation": "Sorting into three categories requires conditional logic like If-Else, and possibly AND/OR, to decide the correct bin.",
+      "source": "book:page45",
+      "options": [
+        "If-Else (and possibly AND/OR) to decide which of the three bins an item belongs in",
+        "Only the Repeat block",
+        "No logic is needed at all",
+        "Only the Sequence block"
+      ]
+    },
+    {
+      "id": "q193",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Algorithms for a Greener World (EcoRoute)",
+      "question": "Which of these real-world environmental uses of algorithms are mentioned in the EcoRoute section? (select all that apply)",
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "These three real-world uses are mentioned in the EcoRoute section; sorting laundry is not.",
+      "source": "book:page45",
+      "options": [
+        "Satellites scanning forests for deforestation",
+        "Smart irrigation systems checking soil moisture",
+        "Traffic-light timing based on vehicle counts",
+        "Sorting laundry by colour"
+      ]
+    },
+    {
+      "id": "q194",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Algorithms for a Greener World (EcoRoute)",
+      "question": "According to the EcoRoute section, what condition does a smart irrigation system check before deciding to turn on the drip?",
+      "answer": 0,
+      "explanation": "Smart irrigation checks whether soil moisture is below a threshold.",
+      "source": "book:page45",
+      "options": [
+        "Whether the soil moisture is below a threshold",
+        "Whether it is a public holiday",
+        "Whether the Turtle has reached the wall",
+        "Whether the score is above 100"
+      ]
+    },
+    {
+      "id": "q195",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Algorithms for a Greener World (EcoRoute)",
+      "question": "True or False: According to the chapter, real satellite-based deforestation monitoring and Blockly's classroom 'Repeat Until' concept are based on the same basic idea - repeating an action until a specific condition is detected.",
+      "answer": true,
+      "explanation": "The chapter explicitly connects the classroom Repeat Until loop concept to real satellite systems that keep scanning until a change is detected.",
+      "source": "book:page45"
+    },
+    {
+      "id": "q196",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Algorithms for a Greener World (EcoRoute)",
+      "question": "What does ISRO use algorithmic image processing for, according to the EcoRoute section?",
+      "answer": 0,
+      "explanation": "ISRO uses algorithmic image processing to track Western Ghats health and Himalayan glacial retreat.",
+      "source": "book:page45",
+      "options": [
+        "Tracking the health of the Western Ghats and monitoring glacial retreat in the Himalayas",
+        "Building smart dustbins",
+        "Managing traffic lights only",
+        "Growing crops"
+      ]
+    },
+    {
+      "id": "q197",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algorithms for a Greener World (EcoRoute)",
+      "question": "The EcoRoute section is themed around which idea?",
+      "answer": 0,
+      "explanation": "The EcoRoute section is themed around using algorithms and logic to solve environmental challenges.",
+      "source": "book:page45",
+      "options": [
+        "Using algorithms, loops, and conditional logic to help solve environmental challenges",
+        "Using algorithms only to play video games",
+        "Removing the need for any programming logic",
+        "Building paper airplanes"
+      ]
+    },
+    {
+      "id": "q198",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Coding & Brain Nutrition",
+      "question": "In the 'Your Brain's Blockly Program' infographic, which nutrient is compared to a 'Sequence' block?",
+      "answer": 0,
+      "explanation": "Omega-3 fatty acids are compared to the Sequence block.",
+      "source": "book:page49",
+      "options": [
+        "Omega-3 fatty acids",
+        "Iron",
+        "Glucose",
+        "Magnesium"
+      ]
+    },
+    {
+      "id": "q199",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Coding & Brain Nutrition",
+      "question": "According to the infographic, which foods provide the Omega-3 fatty acids compared to a Sequence block?",
+      "answer": 0,
+      "explanation": "Fish, flaxseed, and walnuts are the listed Omega-3 sources.",
+      "source": "book:page49",
+      "options": [
+        "Fish, flaxseed, and walnuts",
+        "Bananas and dark chocolate",
+        "Jowar, bajra, and brown rice",
+        "Green leafy vegetables"
+      ]
+    },
+    {
+      "id": "q200",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Coding & Brain Nutrition",
+      "question": "Which nutrient is compared to a 'Repeat loop' in the infographic, because it carries oxygen to the brain?",
+      "answer": 0,
+      "explanation": "Iron is compared to a Repeat loop, since it carries oxygen to the brain.",
+      "source": "book:page49",
+      "options": [
+        "Iron",
+        "Omega-3 fatty acids",
+        "Glucose",
+        "Magnesium"
+      ]
+    },
+    {
+      "id": "q201",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Coding & Brain Nutrition",
+      "question": "According to the infographic, which nutrient is compared to an 'If-Else' block, because steady levels are needed for decision-making?",
+      "answer": 0,
+      "explanation": "Glucose from complex carbs is compared to the If-Else block, needed for steady decision-making.",
+      "source": "book:page49",
+      "options": [
+        "Glucose from complex carbs",
+        "Iron",
+        "Omega-3 fatty acids",
+        "Magnesium"
+      ]
+    },
+    {
+      "id": "q202",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Coding & Brain Nutrition",
+      "question": "Which nutrient is compared to 'Debugging' in the infographic, because it helps the brain stay calm and persistent when solving problems?",
+      "answer": 0,
+      "explanation": "Magnesium is compared to Debugging, helping the brain stay calm and persistent.",
+      "source": "book:page49",
+      "options": [
+        "Magnesium",
+        "Iron",
+        "Glucose",
+        "Omega-3 fatty acids"
+      ]
+    },
+    {
+      "id": "q203",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Coding & Brain Nutrition",
+      "question": "According to the infographic, what happens to the brain's 'loops' without enough iron?",
+      "answer": 0,
+      "explanation": "Without enough iron, the brain's loops slow down and concentration drops.",
+      "source": "book:page49",
+      "options": [
+        "They slow down, and concentration drops",
+        "They speed up dramatically",
+        "They stop needing oxygen",
+        "They turn into If-Else blocks"
+      ]
+    },
+    {
+      "id": "q204",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Coding & Brain Nutrition",
+      "question": "According to the infographic, what happens if you get a sudden sugar spike instead of steady glucose from complex carbs?",
+      "answer": 0,
+      "explanation": "A sudden sugar spike gives a burst of energy followed by a crash.",
+      "source": "book:page49",
+      "options": [
+        "You get a burst of energy followed by a crash",
+        "Your brain works perfectly forever",
+        "Nothing changes at all",
+        "Your myelin sheath instantly builds"
+      ]
+    },
+    {
+      "id": "q205",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Coding & Brain Nutrition",
+      "question": "Which foods are listed as sources of magnesium in the infographic? (select all that apply)",
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Bananas, dark chocolate, and pumpkin seeds are listed as magnesium sources; brown rice is listed as a complex-carb (glucose) source instead.",
+      "source": "book:page49",
+      "options": [
+        "Bananas",
+        "Dark chocolate",
+        "Pumpkin seeds",
+        "Brown rice"
+      ]
+    },
+    {
+      "id": "q206",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Coding & Brain Nutrition",
+      "question": "In the Coding Challenge on the Nutrition Junction page, what should you do if you are hungry AND it is before dinner?",
+      "answer": 0,
+      "explanation": "The Coding Challenge suggests eating fruit or nuts if hungry and it is before dinner.",
+      "source": "book:page49",
+      "options": [
+        "Eat fruit or a handful of nuts",
+        "Eat an entire meal immediately",
+        "Skip eating entirely",
+        "Drink only water"
+      ]
+    },
+    {
+      "id": "q207",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Coding & Brain Nutrition",
+      "question": "True or False: According to the infographic, Omega-3 fatty acids help build the myelin sheath, which speeds up neural signals in the brain.",
+      "answer": true,
+      "explanation": "This matches the infographic's description of Omega-3's role.",
+      "source": "book:page49"
+    },
+    {
+      "id": "q208",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Chapter Review (Milestones)",
+      "question": "Fill in the blank: \"In Blockly, connecting blocks in a specific order is called a ____.\"",
+      "answer": 0,
+      "explanation": "Milestone A confirms the answer is 'sequence'.",
+      "source": "book:page49",
+      "options": [
+        "Sequence",
+        "Loop",
+        "Condition",
+        "Debug"
+      ]
+    },
+    {
+      "id": "q209",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Chapter Review (Milestones)",
+      "question": "Fill in the blank: \"The skill of breaking a big problem into smaller steps is called ____.\"",
+      "answer": 0,
+      "explanation": "Milestone A confirms the answer is 'decomposition'.",
+      "source": "book:page49",
+      "options": [
+        "Decomposition",
+        "Sequence",
+        "Iteration",
+        "Debugging"
+      ]
+    },
+    {
+      "id": "q210",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Review (Milestones)",
+      "question": "Fill in the blank: \"A '____' block lets you repeat instructions until a condition is met.\"",
+      "answer": 0,
+      "explanation": "Milestone A confirms the answer is 'repeat until'.",
+      "source": "book:page49",
+      "options": [
+        "Repeat until",
+        "Repeat",
+        "If",
+        "Else"
+      ]
+    },
+    {
+      "id": "q211",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Review (Milestones)",
+      "question": "Fill in the blank: \"Loops placed inside other loops are called '____' loops.\"",
+      "answer": 0,
+      "explanation": "Milestone A confirms the answer is 'nested'.",
+      "source": "book:page49",
+      "options": [
+        "Nested",
+        "Sequential",
+        "Conditional",
+        "Random"
+      ]
+    },
+    {
+      "id": "q212",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Chapter Review (Milestones)",
+      "question": "True or False (Milestone B): \"An algorithm is a random set of instructions to solve a problem.\"",
+      "answer": false,
+      "explanation": "This statement is FALSE. An algorithm is an ORDERED, step-by-step set of instructions, not a random one.",
+      "source": "book:page50"
+    },
+    {
+      "id": "q213",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Chapter Review (Milestones)",
+      "question": "True or False (Milestone B): \"Sequential programming means the computer reads instructions from top to bottom, one after another.\"",
+      "answer": true,
+      "explanation": "Milestone B confirms this statement is TRUE.",
+      "source": "book:page50"
+    },
+    {
+      "id": "q214",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Review (Milestones)",
+      "question": "Milestone C (matching): Which description matches 'Repeat Block'?",
+      "answer": 0,
+      "explanation": "Milestone C matches Repeat Block to 'Makes repetitive tasks easier'.",
+      "source": "book:page50",
+      "options": [
+        "Makes repetitive tasks easier",
+        "Checks a condition before deciding what to do",
+        "Breaking big tasks into smaller steps",
+        "Step-by-step instructions to solve a problem"
+      ]
+    },
+    {
+      "id": "q215",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Review (Milestones)",
+      "question": "Milestone C (matching): Which description matches 'Algorithm'?",
+      "answer": 0,
+      "explanation": "Milestone C matches Algorithm to 'Step-by-step instructions to solve a problem'.",
+      "source": "book:page50",
+      "options": [
+        "Step-by-step instructions to solve a problem",
+        "Makes repetitive tasks easier",
+        "Checks a condition before deciding what to do",
+        "Breaking big tasks into smaller steps"
+      ]
+    },
+    {
+      "id": "q216",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Review (Milestones)",
+      "question": "Milestone C (matching): Which description matches 'If Statement'?",
+      "answer": 0,
+      "explanation": "Milestone C matches If Statement to 'Checks a condition before deciding what to do'.",
+      "source": "book:page50",
+      "options": [
+        "Checks a condition before deciding what to do",
+        "Makes repetitive tasks easier",
+        "Step-by-step instructions to solve a problem",
+        "Breaking big tasks into smaller steps"
+      ]
+    },
+    {
+      "id": "q217",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Review (Milestones)",
+      "question": "Milestone C (matching): Which description matches 'Decomposition'?",
+      "answer": 0,
+      "explanation": "Milestone C matches Decomposition to 'Breaking big tasks into smaller steps'.",
+      "source": "book:page50",
+      "options": [
+        "Breaking big tasks into smaller steps",
+        "Makes repetitive tasks easier",
+        "Checks a condition before deciding what to do",
+        "Step-by-step instructions to solve a problem"
+      ]
+    },
+    {
+      "id": "q218",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Review (Milestones)",
+      "question": "Milestone D: What is the purpose of using loops in programming?",
+      "answer": 0,
+      "explanation": "Milestone D confirms this is the purpose of loops.",
+      "source": "book:page51",
+      "options": [
+        "To repeat instructions without writing them multiple times",
+        "To make the Turtle disappear",
+        "To combine AND and OR only",
+        "To always make the program stop"
+      ]
+    },
+    {
+      "id": "q219",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Review (Milestones)",
+      "question": "Milestone D: According to the chapter, what is the most efficient way to draw a square in Blockly?",
+      "answer": 0,
+      "explanation": "Milestone D confirms a repeat block running 4 times is the most efficient way.",
+      "source": "book:page51",
+      "options": [
+        "Use a repeat block that runs 4 times with move forward and turn right blocks inside",
+        "Write the move forward and turn right blocks separately 100 times",
+        "Use an If-Else block only",
+        "Use the AND operator only"
+      ]
+    },
+    {
+      "id": "q220",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Review (Milestones)",
+      "question": "Milestone D: What does the 'AND' logical operator mean?",
+      "answer": 0,
+      "explanation": "Milestone D confirms AND means both conditions must be true.",
+      "source": "book:page51",
+      "options": [
+        "Both conditions must be true",
+        "Only one condition needs to be true",
+        "No conditions need to be true",
+        "It always returns false"
+      ]
+    },
+    {
+      "id": "q221",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Review (Milestones)",
+      "question": "Milestone D: What happens when the condition in a 'repeat until' block is met?",
+      "answer": 0,
+      "explanation": "Milestone D confirms the loop stops and the program continues with the next instruction.",
+      "source": "book:page51",
+      "options": [
+        "The loop stops and the program continues with the next instruction",
+        "The loop starts over from the beginning",
+        "The program crashes",
+        "Nothing happens"
+      ]
+    },
+    {
+      "id": "q222",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Chapter Review (Milestones)",
+      "question": "Which of these are among the chapter's four Milestone review sections (A, B, C, D)? (select all that apply)",
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Milestones A, B, and C match fill-in-the-blank, true/false, and matching formats; there is no cooking-recipe milestone.",
+      "source": "book:page49",
+      "options": [
+        "Fill-in-the-blank vocabulary (Milestone A)",
+        "True/False statements (Milestone B)",
+        "Matching descriptions (Milestone C)",
+        "A cooking recipe"
+      ]
+    },
+    {
+      "id": "q223",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Review (Milestones)",
+      "question": "According to the chapter's final Skill Trail 4 challenge, which of these is NOT one of the stated requirements for designing your own game?",
+      "answer": 0,
+      "explanation": "The Skill Trail 4 final challenge requires clear goals, at least one loop, at least one conditional, taking input from the user, and giving feedback - a real meal recipe is not one of the stated requirements.",
+      "source": "book:page52",
+      "options": [
+        "A recipe for a real meal",
+        "At least one loop",
+        "At least one conditional statement",
+        "Taking input from the user and giving feedback"
+      ]
+    },
+    {
+      "id": "q224",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Review (Milestones)",
+      "question": "According to Skill Trail 4 (the final chapter challenge), which of these IS a stated requirement for the game you design?",
+      "answer": 0,
+      "explanation": "Skill Trail 4 requires taking input from the user and giving feedback to the user, among other things.",
+      "source": "book:page52",
+      "options": [
+        "Taking input from the user and giving feedback to the user",
+        "Using no loops at all",
+        "Using no conditional statements at all",
+        "Using only the AND operator"
+      ]
+    },
+    {
+      "id": "q225",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Chapter Review (Milestones)",
+      "question": "True or False (Milestone D): The most efficient way to draw a square is to write separate 'move forward' and 'turn right' blocks one at a time, repeated manually, rather than using a repeat loop.",
+      "answer": false,
+      "explanation": "Milestone D states the most efficient way is to use a repeat block that runs 4 times with move forward and turn right blocks inside it, not to write them out manually one at a time.",
+      "source": "book:page51"
+    }
+  ]
+}

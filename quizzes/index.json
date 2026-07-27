@@ -1,0 +1,635 @@
+{
+  "title": "Raayan's Quizzes",
+  "generatedBy": "raayan-quiz-author skill",
+  "quizzes": [
+    {
+      "id": "demo-general",
+      "title": "Demo Quiz",
+      "subject": "A Demo",
+      "chapter": "",
+      "topic": "",
+      "file": "demo-general.json",
+      "count": 5,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ]
+    },
+    {
+      "id": "ai-literacy-ch10-humans-on-duty-keeping-ai-safe",
+      "title": "Humans on Duty: Keeping AI Safe",
+      "subject": "AI-Literacy",
+      "chapter": "10. Humans on Duty: Keeping AI Safe",
+      "topic": "Full Book",
+      "file": "AI-Literacy/ch10-humans-on-duty-keeping-ai-safe.json",
+      "count": 216,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "ai-literacy-ch12-human-oversight-in-ai-for-social-safety",
+      "title": "Human Oversight in AI for Social Safety",
+      "subject": "AI-Literacy",
+      "chapter": "12. Human Oversight in AI for Social Safety",
+      "topic": "Full Book",
+      "file": "AI-Literacy/ch12-human-oversight-in-ai-for-social-safety.json",
+      "count": 206,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "ai-literacy-ch13-how-humans-and-machines-shape-decisions",
+      "title": "How Humans and Machines Shape Decisions",
+      "subject": "AI-Literacy",
+      "chapter": "13. How Humans and Machines Shape Decisions",
+      "topic": "Full Book",
+      "file": "AI-Literacy/ch13-how-humans-and-machines-shape-decisions.json",
+      "count": 210,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "ai-literacy-ch15-ais-right-and-wrong-moments",
+      "title": "AI's Right and Wrong Moments",
+      "subject": "AI-Literacy",
+      "chapter": "15. AI's Right and Wrong Moments",
+      "topic": "Full Book",
+      "file": "AI-Literacy/ch15-ais-right-and-wrong-moments.json",
+      "count": 214,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "ai-literacy-ch34-my-ai-checklist",
+      "title": "My AI Checklist",
+      "subject": "AI-Literacy",
+      "chapter": "34. My AI Checklist",
+      "topic": "Full Book",
+      "file": "AI-Literacy/ch34-my-ai-checklist.json",
+      "count": 204,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "ai-literacy-ch35-building-self-control-with-ai",
+      "title": "Building Self-Control with AI",
+      "subject": "AI-Literacy",
+      "chapter": "35. Building Self-Control with AI",
+      "topic": "Full Book",
+      "file": "AI-Literacy/ch35-building-self-control-with-ai.json",
+      "count": 210,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "ai-literacy-ch36-my-safety-rights",
+      "title": "My Safety Rights",
+      "subject": "AI-Literacy",
+      "chapter": "36. My Safety Rights",
+      "topic": "Full Book",
+      "file": "AI-Literacy/ch36-my-safety-rights.json",
+      "count": 218,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "ai-literacy-ch09-setting-the-boundaries-of-ai",
+      "title": "Setting the Boundaries of AI",
+      "subject": "AI-Literacy",
+      "chapter": "9. Setting the Boundaries of AI",
+      "topic": "Full Book",
+      "file": "AI-Literacy/ch09-setting-the-boundaries-of-ai.json",
+      "count": 209,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "english-ch17-the-song-of-the-free",
+      "title": "The Song of the Free",
+      "subject": "English",
+      "chapter": "17. Poem: The Song of the Free",
+      "topic": "Full Book",
+      "file": "English/ch17-the-song-of-the-free.json",
+      "count": 205,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "english-ch18-the-boy-who-drew-cats",
+      "title": "The Boy Who Drew Cats",
+      "subject": "English",
+      "chapter": "18. The Boy Who Drew Cats",
+      "topic": "Full Book",
+      "file": "English/ch18-the-boy-who-drew-cats.json",
+      "count": 205,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "english-ch07-when-daddy-fell-into-the-pond",
+      "title": "When Daddy Fell into the Pond",
+      "subject": "English",
+      "chapter": "7. Poem: When Daddy Fell into the Pond",
+      "topic": "Full Book",
+      "file": "English/ch07-when-daddy-fell-into-the-pond.json",
+      "count": 207,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "english-ch08-interview-with-nikola-tesla",
+      "title": "An Interview with Nikola Tesla",
+      "subject": "English",
+      "chapter": "8. Prose: An Interview with Nikola Tesla",
+      "topic": "Full Book",
+      "file": "English/ch08-interview-with-nikola-tesla.json",
+      "count": 207,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "hindi-ch18-kavita-bharat",
+      "title": "कविता - भारत",
+      "subject": "Hindi",
+      "chapter": "18. कविता - भारत",
+      "topic": "Full Book",
+      "file": "Hindi/ch18-kavita-bharat.json",
+      "count": 249,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "hindi-ch19-nibandh-pongal",
+      "title": "निबंध - पोंगल",
+      "subject": "Hindi",
+      "chapter": "19. निबंध - पोंगल",
+      "topic": "Full Book",
+      "file": "Hindi/ch19-nibandh-pongal.json",
+      "count": 304,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "ict-ch11-text-adventures-the-world-of-word-processing",
+      "title": "Text Adventures - The World of Word Processing",
+      "subject": "ICT",
+      "chapter": "11. Text Adventures - The World of Word Processing",
+      "topic": "Full Book",
+      "file": "ICT/ch11-text-adventures-the-world-of-word-processing.json",
+      "count": 224,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "ict-ch16-introduction-to-presentation",
+      "title": "Introduction to Presentation",
+      "subject": "ICT",
+      "chapter": "16. Introduction to Presentation",
+      "topic": "Full Book",
+      "file": "ICT/ch16-introduction-to-presentation.json",
+      "count": 222,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "ict-ch17-the-learning-web",
+      "title": "The Learning Web",
+      "subject": "ICT",
+      "chapter": "17. The Learning Web",
+      "topic": "Full Book",
+      "file": "ICT/ch17-the-learning-web.json",
+      "count": 220,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "ict-ch22-advanced-algorithmic-thinking",
+      "title": "Advanced Algorithmic Thinking",
+      "subject": "ICT",
+      "chapter": "22. Advanced Algorithmic Thinking",
+      "topic": "Full Book",
+      "file": "ICT/ch22-advanced-algorithmic-thinking.json",
+      "count": 216,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "ict-ch23-complex-problem-solving",
+      "title": "Complex Problem Solving",
+      "subject": "ICT",
+      "chapter": "23. Complex Problem Solving",
+      "topic": "Full Book",
+      "file": "ICT/ch23-complex-problem-solving.json",
+      "count": 224,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "ict-ch34-building-block-adventures-our-first-steps-with-blockly",
+      "title": "Building Block Adventures - Our First Steps with Blockly",
+      "subject": "ICT",
+      "chapter": "34. Building Block Adventures - Our First Steps with Blockly",
+      "topic": "Full Book",
+      "file": "ICT/ch34-building-block-adventures-our-first-steps-with-blockly.json",
+      "count": 225,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "ict-ch05-computer-storage-and-memory-devices",
+      "title": "Computer - Storage and Memory Devices",
+      "subject": "ICT",
+      "chapter": "5. Computer - Storage and Memory Devices",
+      "topic": "Full Book",
+      "file": "ICT/ch05-computer-storage-and-memory-devices.json",
+      "count": 217,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "ict-ch06-friendly-robot-helpers",
+      "title": "Friendly Robot Helpers",
+      "subject": "ICT",
+      "chapter": "6. Friendly Robot Helpers",
+      "topic": "Full Book",
+      "file": "ICT/ch06-friendly-robot-helpers.json",
+      "count": 216,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "kannada-iii-ch63-thai-haraike",
+      "title": "ಪದ್ಯ - ತಾಯಿ ಹರಕೆ (Thai Haraike)",
+      "subject": "Kannada-III-Language",
+      "chapter": "63. ಪದ್ಯ - ತಾಯಿ ಹರಕೆ",
+      "topic": "Full Chapter",
+      "file": "Kannada-III-Language/ch63-thai-haraike.json",
+      "count": 50,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "kannada-iii-ch64-sambhrama",
+      "title": "ಪಾಠ - ಸಂಭ್ರಮ (Sambhrama)",
+      "subject": "Kannada-III-Language",
+      "chapter": "64. ಪಾಠ - ಸಂಭ್ರಮ",
+      "topic": "Full Chapter",
+      "file": "Kannada-III-Language/ch64-sambhrama.json",
+      "count": 50,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "kannada-iii-ch65-beke-beke-tharakari",
+      "title": "ಪದ್ಯ - ಬೇಕೇ ಬೇಕೇ ತರಕಾರಿ (Beke Beke Tharakari)",
+      "subject": "Kannada-III-Language",
+      "chapter": "65. ಪದ್ಯ - ಬೇಕೇ ಬೇಕೇ ತರಕಾರಿ",
+      "topic": "Full Chapter",
+      "file": "Kannada-III-Language/ch65-beke-beke-tharakari.json",
+      "count": 50,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "mathematics-ch14-symmetry-and-patterns",
+      "title": "Symmetry and Patterns",
+      "subject": "Mathematics",
+      "chapter": "14. Symmetry and Patterns",
+      "topic": "Full Book",
+      "file": "Mathematics/ch14-symmetry-and-patterns.json",
+      "count": 115,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "mathematics-ch27-multiplication-and-division",
+      "title": "Multiplication and Division",
+      "subject": "Mathematics",
+      "chapter": "27. Multiplication and Division",
+      "topic": "Full Book",
+      "file": "Mathematics/ch27-multiplication-and-division.json",
+      "count": 118,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "mathematics-ch28-exploring-perimeter-and-area",
+      "title": "Exploring Perimeter and Area",
+      "subject": "Mathematics",
+      "chapter": "28. Exploring Perimeter and Area",
+      "topic": "Full Book",
+      "file": "Mathematics/ch28-exploring-perimeter-and-area.json",
+      "count": 118,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "mathematics-ch29-basic-geometric-shapes",
+      "title": "Basic Geometric Shapes",
+      "subject": "Mathematics",
+      "chapter": "29. Basic Geometric Shapes",
+      "topic": "Full Book",
+      "file": "Mathematics/ch29-basic-geometric-shapes.json",
+      "count": 111,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "sel-social-emotional-learning",
+      "title": "Social & Emotional Learning (SEL)",
+      "subject": "SEL",
+      "chapter": "Full Subject",
+      "topic": "Full Subject",
+      "file": "SEL/sel-social-emotional-learning.json",
+      "count": 605,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "science-ch14-waters-three-lives",
+      "title": "Water's Three Lives",
+      "subject": "Science",
+      "chapter": "14. Water's Three Lives",
+      "topic": "States of water, physical properties of water, the water cycle, and water as a solvent",
+      "file": "Science/ch14-waters-three-lives.json",
+      "count": 202,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "science-ch15-light-from-sun-to-shadows",
+      "title": "Light: From Sun to Shadows",
+      "subject": "Science",
+      "chapter": "15. Light: From Sun to Shadows",
+      "topic": "Natural and artificial sources of light, luminous and non-luminous objects, transparent/translucent/opaque materials, properties of light, and shadows",
+      "file": "Science/ch15-light-from-sun-to-shadows.json",
+      "count": 205,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "science-ch13-animals-and-their-adaptations",
+      "title": "Animals and Their Adaptations",
+      "subject": "Science",
+      "chapter": "Animals and Their Adaptations",
+      "topic": "Full Book",
+      "file": "Science/ch13-animals-and-their-adaptations.json",
+      "count": 201,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "science-ch06-exploring-forces",
+      "title": "Exploring Forces",
+      "subject": "Science",
+      "chapter": "Exploring Forces",
+      "topic": "Full Book",
+      "file": "Science/ch06-exploring-forces.json",
+      "count": 201,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "science-ch04-exploring-life-on-earth",
+      "title": "Exploring Life on Earth",
+      "subject": "Science",
+      "chapter": "Exploring life on earth",
+      "topic": "Full Book",
+      "file": "Science/ch04-exploring-life-on-earth.json",
+      "count": 232,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "science-ch05-matter-and-changes",
+      "title": "Matter and the Changes It Undergoes",
+      "subject": "Science",
+      "chapter": "Matter and the changes it undergoes",
+      "topic": "Full Book",
+      "file": "Science/ch05-matter-and-changes.json",
+      "count": 205,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "social-science-ch11-a-quest-how-people-organized-themselves",
+      "title": "A Quest - How People Organized Themselves",
+      "subject": "Social Science",
+      "chapter": "A Quest - How People Organized Themselves",
+      "topic": "Full Book",
+      "file": "Social-Science/ch11-a-quest-how-people-organized-themselves.json",
+      "count": 204,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "social-science-ch10-grids-that-guide-earths-balance",
+      "title": "Grids That Guide Earth's Balance",
+      "subject": "Social Science",
+      "chapter": "Grids That Guide Earth's Balance",
+      "topic": "Full Book",
+      "file": "Social-Science/ch10-grids-that-guide-earths-balance.json",
+      "count": 215,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "social-science-ch04-journey-of-money",
+      "title": "The Journey of Money: From Barter to Bytes",
+      "subject": "Social Science",
+      "chapter": "The Journey of Money: From Barter to Bytes",
+      "topic": "Full Book",
+      "file": "Social-Science/ch04-journey-of-money.json",
+      "count": 208,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "social-science-ch03-kingdom-chronicles",
+      "title": "The Kingdom Chronicles: How Villages Turned into Powerful States",
+      "subject": "Social Science",
+      "chapter": "The Kingdom Chronicles: How Villages Turned into Powerful States",
+      "topic": "Full Book",
+      "file": "Social-Science/ch03-kingdom-chronicles.json",
+      "count": 210,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    },
+    {
+      "id": "social-science-ch09-understanding-earth-through-maps",
+      "title": "Understanding Earth Through Maps",
+      "subject": "Social Science",
+      "chapter": "Understanding Earth Through Maps",
+      "topic": "Full Book",
+      "file": "Social-Science/ch09-understanding-earth-through-maps.json",
+      "count": 235,
+      "difficulties": [
+        "simple",
+        "tough",
+        "tricky"
+      ],
+      "grade": 4
+    }
+  ]
+}

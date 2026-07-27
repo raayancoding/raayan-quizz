@@ -1,0 +1,3422 @@
+{
+  "schemaVersion": 1,
+  "id": "ict-ch17-the-learning-web",
+  "title": "The Learning Web",
+  "subject": "ICT",
+  "grade": 4,
+  "chapter": "17. The Learning Web",
+  "topic": "Full Book",
+  "description": "Covers using Scratch to animate the story of the crafty crane and the clever crab, drawing and colouring fraction shapes with the pen tool, and building a digital plant simulation (with variables, growth stages, watering/sunlight care, and a message-triggered butterfly).",
+  "tags": [
+    "ict",
+    "grade4",
+    "scratch",
+    "coding-blocks",
+    "animation",
+    "sprites",
+    "loops",
+    "broadcast-messages",
+    "fractions",
+    "variables",
+    "digital-plant-simulation",
+    "sequencing"
+  ],
+  "defaultTimeLimitSec": 1800,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scratch Basics & Sprites",
+      "question": "What is Scratch?",
+      "options": [
+        "A special computer program used to create animations",
+        "A type of watering can",
+        "A crossword puzzle",
+        "A kind of butterfly"
+      ],
+      "answer": 0,
+      "explanation": "Scratch is described in the book as 'a special computer program that helps us create animations' -- it lets you bring story characters to life on the screen.",
+      "source": "book:page36 / facts:page2"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scratch Basics & Sprites",
+      "question": "In Scratch, what are the characters called?",
+      "options": [
+        "Backgrounds",
+        "Sprites",
+        "Stages",
+        "Blocks"
+      ],
+      "answer": 1,
+      "explanation": "Characters in Scratch are called sprites -- they act like digital puppets that we can control with code blocks.",
+      "source": "worksheet-51321 Q1a / facts:page2"
+    },
+    {
+      "id": "q3",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Scratch Basics & Sprites",
+      "question": "Sprites in Scratch are like digital puppets that we can control.",
+      "answer": true,
+      "explanation": "The book explicitly compares sprites to digital puppets: you choose or create them and then control their movement and actions with blocks.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scratch Basics & Sprites",
+      "question": "Where can you get sprites for your Scratch project?",
+      "options": [
+        "Only by drawing them yourself",
+        "From the Scratch sprite library or by creating your own",
+        "Only from a printed worksheet",
+        "From the crossword puzzle"
+      ],
+      "answer": 1,
+      "explanation": "The book says you can choose sprites from a library or create your own -- there are two ways to get a sprite.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q5",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Scratch Basics & Sprites",
+      "question": "Animation is like creating a moving picture story, similar to how cartoons are made.",
+      "answer": true,
+      "explanation": "The chapter defines animation as 'like creating a moving picture story,' comparing it directly to how cartoons on television are made.",
+      "source": "book:page18 (MILESTONE) / facts:page2"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Scratch Basics & Sprites",
+      "question": "Why does the book compare Scratch animation to cartoons on TV?",
+      "options": [
+        "Because Scratch can only make cartoons, nothing else",
+        "Because in both cases we tell the characters exactly how to move, step by step, to create a moving story",
+        "Because cartoons and Scratch use the exact same software",
+        "Because both need a watering can sprite"
+      ],
+      "answer": 1,
+      "explanation": "The book explains that when we create animation we 'tell the computer exactly how our characters should move, step by step' -- this step-by-step instruction-giving is exactly how cartoons are put together frame by frame.",
+      "source": "book:page36 (concept explanation)"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scratch Basics & Sprites",
+      "question": "Which story do the crane and crab sprites come from in this chapter?",
+      "options": [
+        "Jack and the Beanstalk",
+        "The Crafty Crane and the Clever Crab",
+        "The Boy Who Drew Cats",
+        "Little Red Riding Hood"
+      ],
+      "answer": 1,
+      "explanation": "The chapter's animation project brings to life 'the story of the crafty crane and the clever crab' -- the two sprites needed are a crane sprite and a crab sprite.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Scratch Basics & Sprites",
+      "question": "Which sprites are needed to tell the story used in this chapter's Scratch project? (Select all that apply)",
+      "options": [
+        "Crane sprite",
+        "Crab sprite",
+        "Butterfly sprite",
+        "Watering can sprite"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "For 'The Crafty Crane and the Clever Crab' story you need a crane sprite and a crab sprite. The butterfly and watering can sprites belong to the later digital-plant-garden project, not this story.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Scratch Basics & Sprites",
+      "question": "A picture in the book shows a boy pulling on a giant beanstalk growing up a castle wall. What classic story does this most likely remind you of?",
+      "options": [
+        "The Crafty Crane and the Clever Crab",
+        "Jack and the Beanstalk",
+        "Cinderella",
+        "The Three Little Pigs"
+      ],
+      "answer": 1,
+      "explanation": "The 'Get Set, Go!' picture of a boy named Jack with tall bean plants growing beside a castle wall is meant to remind readers of 'Jack and the Beanstalk' -- it is NOT the crane-and-crab story, which is a separate example used later for the Scratch animation.",
+      "source": "book:page35 (Get Set, Go!)"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Scratch Basics & Sprites",
+      "question": "Which of these is NOT one of the block categories you can see in the Scratch block palette shown in the book (Motion, Looks, Sound, Events, Control, Sensing, Operators, Variables, My Blocks)?",
+      "options": [
+        "Motion",
+        "Variables",
+        "Fractions",
+        "Sensing"
+      ],
+      "answer": 2,
+      "explanation": "The Scratch screenshot in the book shows the categories Motion, Looks, Sound, Events, Control, Sensing, Operators, Variables and My Blocks. 'Fractions' is a chapter topic, not a Scratch block category.",
+      "source": "book:page36 (screenshot)"
+    },
+    {
+      "id": "q11",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Scratch Basics & Sprites",
+      "question": "The Scratch interface shown in the book has a 'Variables' category in its block palette.",
+      "answer": true,
+      "explanation": "The left-hand palette in the Scratch screenshot lists categories including Variables (along with Motion, Looks, Sound, Events, Control, Sensing, Operators and My Blocks), which is where blocks like 'water level' and 'growth stage' come from.",
+      "source": "book:page36 (screenshot)"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scratch Basics & Sprites",
+      "question": "What does the chapter title 'The Learning Web' introduce students to?",
+      "options": [
+        "Cooking recipes",
+        "Using Scratch to animate stories, show fractions, and simulate a growing digital plant",
+        "How spiders build webs",
+        "History of the internet"
+      ],
+      "answer": 1,
+      "explanation": "The chapter's three sub-topics are Animation and Storytelling with Scratch, Fractions Come Alive with Technology, and Growing Digital Plants with Scratch -- all built using the Scratch programming tool.",
+      "source": "chapter.json / _quiz_source.md topics"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scratch Basics & Sprites",
+      "question": "How many growth-stage costumes are shown for the digital plant in the book (seed, sprout, young plant, mature plant)?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "The book shows exactly 4 costume pictures labelled 'Costumes for the 4 stages of the plant': seed, sprout, young plant, and mature plant.",
+      "source": "book:page47"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Scratch Basics & Sprites",
+      "question": "A student says, 'Scratch is only useful for making animations, it can't help with fractions or plants.' What is wrong with this statement?",
+      "options": [
+        "Nothing, it is completely correct",
+        "It is wrong -- this chapter uses Scratch for THREE different things: animation, fractions with the pen tool, and a digital plant simulation",
+        "Scratch can only be used for plants, not animation",
+        "Scratch cannot run on computers"
+      ],
+      "answer": 1,
+      "explanation": "The chapter shows Scratch is a flexible tool: it is used for animating a story (crane and crab), for drawing fraction shapes with the pen tool, and for simulating a growing digital plant with variables -- three very different uses of the same program.",
+      "source": "_quiz_source.md topics (synthesis)"
+    },
+    {
+      "id": "q15",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Scratch Basics & Sprites",
+      "question": "In Scratch, you must always draw your own sprites -- you are not allowed to choose one from a library.",
+      "answer": false,
+      "explanation": "This is false. The book says you 'can choose sprites from a library or create your own,' so using the built-in library is allowed and often the easier option.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Scratch Basics & Sprites",
+      "question": "The book says 'When we create animation, we tell the computer exactly how our characters should move, step by step.' What does this best describe?",
+      "options": [
+        "A random, unplanned way of moving sprites",
+        "Sequencing -- giving the computer a precise, ordered set of instructions",
+        "A crossword clue",
+        "The definition of a variable"
+      ],
+      "answer": 1,
+      "explanation": "Telling the computer exactly how characters should move, step by step, is the essence of sequencing: the order of instructions matters and the computer follows them one after another.",
+      "source": "book:page36 (concept link to Sequencing topic)"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Movement Blocks",
+      "question": "Which Scratch block makes a sprite walk forward a certain number of steps?",
+      "options": [
+        "turn degrees",
+        "move steps",
+        "go to",
+        "broadcast"
+      ],
+      "answer": 1,
+      "explanation": "The 'move steps' block is the basic movement block -- the book gives the example 'use the move steps block to walk characters forward.'",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Movement Blocks",
+      "question": "What does the 'turn degrees' block do to a sprite?",
+      "options": [
+        "Moves it forward",
+        "Changes the direction it is facing",
+        "Sends a message to another sprite",
+        "Erases the drawing"
+      ],
+      "answer": 1,
+      "explanation": "The turn degrees block changes the direction a character is facing -- it does not move the sprite forward, only rotates it.",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Movement Blocks",
+      "question": "Which movement block instantly jumps a sprite to a location, without any walking animation in between?",
+      "options": [
+        "move steps",
+        "turn degrees",
+        "go to",
+        "glide"
+      ],
+      "answer": 2,
+      "explanation": "The 'go to' block moves characters instantly to a location -- the book notes this is 'useful for quick scene changes.'",
+      "source": "facts:page3 / book:page19 (Section C Q1)"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Movement Blocks",
+      "question": "In the book review question about movement blocks, which block makes a character jump instantly to a location, and why is this different from 'glide'?",
+      "options": [
+        "'go to', because it teleports the sprite instantly with no smooth animation, unlike glide which moves smoothly over time",
+        "'turn degrees', because it rotates the sprite instantly",
+        "'move steps', because it always moves 100 steps at once",
+        "'forever', because it repeats forever"
+      ],
+      "answer": 0,
+      "explanation": "'go to' places a sprite at an exact position immediately (no animation), which is why it's good for 'quick scene changes,' while 'glide' (seen with the butterfly and crane) moves a sprite smoothly across the screen over a set number of seconds.",
+      "source": "book:page19 (Section C Q1) / facts:page19"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Movement Blocks",
+      "question": "Which block makes a character move smoothly, rather than jumping instantly?",
+      "options": [
+        "go to",
+        "glide",
+        "wait",
+        "if-then"
+      ],
+      "answer": 1,
+      "explanation": "Glide blocks make characters move smoothly -- the book gives the example of using them 'for natural movements in animations,' like a crane flying over a lake.",
+      "source": "facts:page19 / book:page18 (MILESTONE Q2)"
+    },
+    {
+      "id": "q22",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Movement Blocks",
+      "question": "Which of these are true about the 'move steps' block? (Select all that apply)",
+      "options": [
+        "It can only make big movements, never small ones",
+        "You can adjust the step size to control how far/fast a character seems to move",
+        "A small number like 5 steps makes a small, slow-looking movement",
+        "It always moves a character to an exact x,y coordinate"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "The 'move steps' block lets you set any step size -- small numbers (like 5) look like small/slow movements, bigger numbers (like 20) look like faster/bigger movements. It is FALSE that it can only make big steps, and moving to an exact x,y coordinate is what 'go to' does, not 'move steps'.",
+      "source": "book:page37 / book:page18 (MILESTONE Q2)"
+    },
+    {
+      "id": "q23",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Movement Blocks",
+      "question": "The 'move steps' block can only make characters take big steps, never small ones.",
+      "answer": false,
+      "explanation": "This is false -- the MILESTONE review explicitly marks this statement False, since you can set the move steps block to any number, including small ones for slow, careful movement.",
+      "source": "book:page18 (MILESTONE Section B Q2)"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Movement Blocks",
+      "question": "A student wants their crane sprite to fly back and forth between two lakes many times using the fewest blocks possible. Which single block should hold the flying movement blocks inside it?",
+      "options": [
+        "An 'if-then' block",
+        "A 'repeat' block",
+        "A single 'move steps' block used once",
+        "A 'broadcast' block"
+      ],
+      "answer": 1,
+      "explanation": "Repeating flying movements many times is exactly what a loop is for -- putting the movement blocks inside a 'repeat' block (e.g. 'repeat 5') makes the crane fly back and forth automatically without duplicating blocks.",
+      "source": "book:page38 (Loops)"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Movement Blocks",
+      "question": "What is the purpose of the 'point in direction' setting seen with the watering can and crane sprites?",
+      "options": [
+        "To set which way the sprite is facing on the stage",
+        "To change the sprite's colour",
+        "To send a broadcast message",
+        "To water the plant"
+      ],
+      "answer": 0,
+      "explanation": "'point in direction 90' (as seen in the watering can and butterfly blocks) sets which way the sprite faces on the stage, which affects the direction it appears to move or look.",
+      "source": "book:page49 (watering can / butterfly blocks)"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Movement Blocks",
+      "question": "In the crane-and-crab story, movement blocks were used to make characters 'look at each other.' Which block is most directly responsible for this?",
+      "options": [
+        "move steps",
+        "turn degrees",
+        "wait seconds",
+        "repeat"
+      ],
+      "answer": 1,
+      "explanation": "The 'turn degrees' block changes the direction a character faces, which the book directly connects to making characters 'look at each other in your animations.'",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Movement Blocks",
+      "question": "According to the book, connecting movement blocks together in order creates what?",
+      "options": [
+        "A crossword puzzle",
+        "A complete movement sequence that the computer follows one instruction at a time",
+        "A digital plant",
+        "A fraction"
+      ],
+      "answer": 1,
+      "explanation": "The book states: 'When we connect these blocks together, we create a complete movement sequence. The computer will follow our instructions one by one.'",
+      "source": "book:page38"
+    },
+    {
+      "id": "q28",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Movement Blocks",
+      "question": "The 'go to' block and the 'glide' block do exactly the same thing on the stage.",
+      "answer": false,
+      "explanation": "They do not do the same thing: 'go to' instantly teleports a sprite to a position (no animation), while 'glide' smoothly animates the sprite moving to that position over time -- useful for natural-looking movement like a flying crane.",
+      "source": "facts:page3 / facts:page19 (synthesis)"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sequencing",
+      "question": "What is 'sequencing' in Scratch, according to the book?",
+      "options": [
+        "Randomly clicking blocks",
+        "Organizing actions in order, like reading a story from beginning to end",
+        "Drawing a crossword",
+        "Changing a sprite's costume"
+      ],
+      "answer": 1,
+      "explanation": "The book compares sequencing in Scratch to 'reading a story from beginning to end' -- it means putting movement blocks in the correct order so the computer performs them in that exact sequence.",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sequencing",
+      "question": "Why does the order of blocks matter when programming a character's actions?",
+      "options": [
+        "It doesn't matter -- Scratch runs blocks in any order it likes",
+        "The computer follows instructions one by one in the order given, so a wrong order gives the wrong result",
+        "Only the last block in a stack actually runs",
+        "Order only matters for fractions, not animation"
+      ],
+      "answer": 1,
+      "explanation": "Because Scratch executes a stack of blocks one instruction at a time from top to bottom, changing the order changes what actually happens on screen -- e.g. turning before moving gives a different result than moving before turning.",
+      "source": "book:page38 (sequencing concept)"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sequencing",
+      "question": "In the crane-and-crab animation, a sequence might be: 'move 50 steps, turn 180 degrees, say I am hungry for 2 seconds.' What is this an example of?",
+      "options": [
+        "A fraction",
+        "Sequencing -- a series of blocks run in a planned order",
+        "A crossword clue",
+        "The forever block"
+      ],
+      "answer": 1,
+      "explanation": "This ordered list of blocks -- move, then turn, then say -- is a sequence: each instruction happens after the previous one finishes, in the order they were placed.",
+      "source": "book:page37 (programming block sequence example) / facts:page6"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sequencing",
+      "question": "A student swaps the order of 'turn 180 degrees' and 'move 50 steps' in their crab's sequence. What is the most likely result?",
+      "options": [
+        "Nothing changes at all",
+        "The crab moves in a different direction than intended, because turning before moving changes which way it walks",
+        "Scratch will show an error and refuse to run",
+        "The crab will say 'I am hungry' automatically"
+      ],
+      "answer": 1,
+      "explanation": "Since the crab moves in whatever direction it is currently facing, turning before moving (instead of after) changes the direction of the move -- this shows why the exact order of steps in a sequence matters.",
+      "source": "book:page38 (sequencing concept, synthesis)"
+    },
+    {
+      "id": "q33",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Sequencing",
+      "question": "Sequencing means putting instructions in a planned order so a character performs actions correctly, one after another.",
+      "answer": true,
+      "explanation": "This matches the book's definition: sequencing in Scratch is like reading a story from beginning to end -- actions happen in the order you place the blocks.",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sequencing",
+      "question": "Which crossword answer describes 'putting movement blocks in the right order, like reading a story from beginning to end'?",
+      "options": [
+        "Coordination",
+        "Sequencing",
+        "Integration",
+        "Loop"
+      ],
+      "answer": 1,
+      "explanation": "The book's own review crossword clue for 'Sequencing' is exactly this description: putting movement blocks in the right order, like reading a story from beginning to end.",
+      "source": "book:page54 (crossword, Down 2)"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sequencing",
+      "question": "How is sequencing different from coordination in this chapter?",
+      "options": [
+        "They are exactly the same thing",
+        "Sequencing is about the ORDER of one sprite's own blocks; coordination is about making MULTIPLE sprites work together correctly using messages",
+        "Sequencing only applies to fractions",
+        "Coordination only applies to the crane sprite"
+      ],
+      "answer": 1,
+      "explanation": "Sequencing is about a single sprite following its own instructions in the right order, while coordination (using broadcast/receive) is about making sure two or more sprites interact and respond to each other at the right time.",
+      "source": "book:page54 (crossword clues, synthesis)"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Loops: Repeat, Forever & Repeat Until",
+      "question": "What do loops in Scratch do?",
+      "options": [
+        "Delete blocks",
+        "Repeat actions automatically, saving time by avoiding repetitive coding",
+        "Change the backdrop",
+        "Only work with fractions"
+      ],
+      "answer": 1,
+      "explanation": "The book states: 'Loops in Scratch repeat actions automatically... They save time by avoiding repetitive coding.'",
+      "source": "facts:page4"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Loops: Repeat, Forever & Repeat Until",
+      "question": "Which block repeats the actions inside it a specific, fixed number of times?",
+      "options": [
+        "forever",
+        "repeat",
+        "if-then",
+        "broadcast"
+      ],
+      "answer": 1,
+      "explanation": "The 'repeat' block loops actions a certain number of times -- e.g. 'repeat 10' runs the blocks inside it exactly 10 times.",
+      "source": "facts:page4 / worksheet-51321 Q1c"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Loops: Repeat, Forever & Repeat Until",
+      "question": "In the worksheet, what does the orange 'repeat 10' block do?",
+      "options": [
+        "Moves the sprite once",
+        "Turns the sprite once",
+        "Repeats the actions inside it 10 times",
+        "Changes the sprite's costume"
+      ],
+      "answer": 2,
+      "explanation": "The worksheet's tick-the-correct-option question confirms the 'repeat 10' block repeats whatever actions are placed inside it exactly 10 times.",
+      "source": "worksheet-51321 Q1c (answer key)"
+    },
+    {
+      "id": "q39",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Loops: Repeat, Forever & Repeat Until",
+      "question": "The 'repeat' block helps us do the same action multiple times automatically.",
+      "answer": true,
+      "explanation": "This True/False worksheet item is answered True: the repeat block is designed specifically to run the same set of actions multiple times without you re-adding the blocks.",
+      "source": "worksheet-51316 Q2a (answer key)"
+    },
+    {
+      "id": "q40",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Loops: Repeat, Forever & Repeat Until",
+      "question": "The 'forever' block runs commands exactly 10 times and then stops.",
+      "answer": false,
+      "explanation": "This is False. The correct statement (from the worksheet's own correction) is: 'The forever block runs commands continuously without stopping' -- it never stops on its own, unlike 'repeat 10' which stops after 10 times.",
+      "source": "worksheet-51316 Q2b (answer key, with correction)"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Loops: Repeat, Forever & Repeat Until",
+      "question": "What is the key difference between the 'repeat' block and the 'forever' block?",
+      "options": [
+        "There is no difference, they behave identically",
+        "'repeat' runs a set number of times and then stops; 'forever' runs continuously and never stops on its own",
+        "'forever' only works with the crab sprite",
+        "'repeat' can never be used with movement blocks"
+      ],
+      "answer": 1,
+      "explanation": "'repeat' (e.g. 'repeat 10') performs its actions a fixed number of times and then stops, while 'forever' loops its actions endlessly -- useful for background actions like water moving or fish swimming continuously.",
+      "source": "book:page38 / worksheet-51316 Q2b"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Loops: Repeat, Forever & Repeat Until",
+      "question": "According to the book, what is the 'forever' block especially useful for?",
+      "options": [
+        "One-time actions like saying hello",
+        "Background actions that should never stop, like making lake water move constantly",
+        "Fractions",
+        "Crossword puzzles"
+      ],
+      "answer": 1,
+      "explanation": "The book says the forever block 'creates a loop that never stops. This is useful for background actions, like making water in the lake move constantly or having fish swim around continuously.'",
+      "source": "book:page38"
+    },
+    {
+      "id": "q43",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Loops: Repeat, Forever & Repeat Until",
+      "question": "Which of these statements about loops are TRUE? (Select all that apply)",
+      "options": [
+        "'repeat 5' would make a crane fly back and forth between two lakes exactly 5 times",
+        "The forever block is ideal for continuous background motion",
+        "'forever' stops automatically after 10 repeats",
+        "Loops save time by avoiding writing the same blocks again and again"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "'repeat 5' does run its actions 5 times, forever loops suit constant background motion, and loops in general save time by avoiding repeated blocks. It is FALSE that 'forever' stops after 10 repeats -- that describes 'repeat 10', not 'forever'.",
+      "source": "book:page38 / facts:page4 (synthesis)"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Loops: Repeat, Forever & Repeat Until",
+      "question": "What does a 'repeat until growth stage = 4' block do in the digital plant project?",
+      "options": [
+        "Repeats forever no matter what",
+        "Keeps repeating the blocks inside it until the plant's growth stage variable becomes 4, then stops",
+        "Repeats exactly 4 times always",
+        "Deletes the growth stage variable"
+      ],
+      "answer": 1,
+      "explanation": "'repeat until' is a loop that keeps running until its condition becomes true. Here it keeps checking the plant's care conditions until growth stage reaches 4 (fully mature), then the loop stops.",
+      "source": "book:page47"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Loops: Repeat, Forever & Repeat Until",
+      "question": "In the digital plant project, the three 'if...then' checks for seed-to-sprout, sprout-to-young, and young-to-mature growth are placed inside which loop block?",
+      "options": [
+        "forever",
+        "repeat until growth stage = 4",
+        "repeat 10",
+        "broadcast"
+      ],
+      "answer": 1,
+      "explanation": "The book shows: 'repeat loop till growth stage 4: the 3 if...then loops go inside the repeat loop' -- meaning the growth-stage checks are nested inside a 'repeat until growth stage = 4' loop.",
+      "source": "book:page47"
+    },
+    {
+      "id": "q46",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Loops: Repeat, Forever & Repeat Until",
+      "question": "Because 'forever' loops never stop by themselves, they should never be used anywhere in a Scratch project.",
+      "answer": false,
+      "explanation": "This is false. 'Forever' loops ARE useful and are recommended by the book for things that should run continuously in the background, like water moving or fish swimming -- the key is to use them for the RIGHT purpose, not to avoid them entirely.",
+      "source": "book:page38 (misconception check)"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Loops: Repeat, Forever & Repeat Until",
+      "question": "A student wants water in a lake background to keep moving the entire time the animation plays, with no set number of repeats. Which loop block fits best?",
+      "options": [
+        "repeat 10",
+        "forever",
+        "repeat until growth stage = 4",
+        "if-then"
+      ],
+      "answer": 1,
+      "explanation": "Because there's no fixed number of repeats needed -- the water should move for as long as the program runs -- the 'forever' block is the right choice, exactly as the book describes for continuous background motion.",
+      "source": "book:page38 (application)"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Loops: Repeat, Forever & Repeat Until",
+      "question": "If you want a character to repeat an action a certain number of times, which block would you use to hold those actions?",
+      "options": [
+        "forever",
+        "repeat",
+        "glide",
+        "go to"
+      ],
+      "answer": 1,
+      "explanation": "The repeat block is used to loop actions a certain number of times, as opposed to 'forever' which loops without any set limit.",
+      "source": "facts:page4"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Broadcast Messages & Coordination",
+      "question": "Which two blocks work together to send and receive messages between sprites in Scratch?",
+      "options": [
+        "move steps and turn degrees",
+        "broadcast and 'when I receive'",
+        "repeat and forever",
+        "go to and glide"
+      ],
+      "answer": 1,
+      "explanation": "The worksheet's fill-in-the-blank confirms: when we want two sprites to work together, we use 'broadcast' and 'when I receive' blocks to send messages between them.",
+      "source": "worksheet-51316 Q1c (answer key)"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Broadcast Messages & Coordination",
+      "question": "What does coordination mean in the context of this chapter's Scratch project?",
+      "options": [
+        "Making one sprite disappear",
+        "Allowing multiple characters to interact correctly with each other",
+        "Drawing fraction shapes",
+        "Watering a digital plant"
+      ],
+      "answer": 1,
+      "explanation": "The book defines coordination as what 'allows multiple characters to interact correctly,' achieved using broadcast blocks to send messages between characters.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Broadcast Messages & Coordination",
+      "question": "What is the purpose of the 'broadcast' block?",
+      "options": [
+        "To send messages to start actions in other sprites",
+        "To draw a circle",
+        "To water a plant",
+        "To change the backdrop colour only"
+      ],
+      "answer": 0,
+      "explanation": "The broadcast block sends messages to start actions -- the book gives the example of coordinating multiple sprites in an animation this way.",
+      "source": "facts:page6"
+    },
+    {
+      "id": "q52",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Broadcast Messages & Coordination",
+      "question": "The 'broadcast' and 'when I receive' blocks help characters work together by sending messages that all characters can hear.",
+      "answer": true,
+      "explanation": "This matches the book's MILESTONE review answer: broadcast messages are heard by all sprites listening for that message, which is how sprites coordinate their actions with one another.",
+      "source": "book:page18 (MILESTONE Section A Q5)"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Broadcast Messages & Coordination",
+      "question": "In the digital plant project, what happens when the plant becomes mature?",
+      "options": [
+        "Nothing changes",
+        "The plant broadcasts a 'plant mature' message, which the butterfly sprite listens for so it knows to appear",
+        "The watering can sprite disappears",
+        "The crossword puzzle appears"
+      ],
+      "answer": 1,
+      "explanation": "The plant's mature-stage blocks include 'broadcast plant mature and wait' -- the butterfly sprite is programmed to receive this exact message and show itself when it hears it.",
+      "source": "book:page47 / book:page49"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Broadcast Messages & Coordination",
+      "question": "In the crane-and-crab example, what real thing does the 'broadcast' block let a crane sprite do?",
+      "options": [
+        "Move instantly to a new location",
+        "Send a message, like making a crane say 'I'm hungry!' as part of a coordinated sequence",
+        "Change into a butterfly",
+        "Erase the drawing on the pen tool"
+      ],
+      "answer": 1,
+      "explanation": "The book's programming example uses a series of blocks -- including broadcast -- to make a crane say 'I'm hungry!' as part of coordinating the animated story between the crane and crab.",
+      "source": "facts:page6"
+    },
+    {
+      "id": "q55",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Broadcast Messages & Coordination",
+      "question": "Which of the following use the broadcast/receive message system in this chapter? (Select all that apply)",
+      "options": [
+        "The watering can sprite broadcasting 'water plant' when clicked",
+        "The plant broadcasting 'plant mature' so the butterfly appears",
+        "The 'move steps' block moving a sprite forward",
+        "The 'S' key press changing sunlight hours directly (not via broadcast)"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Both the watering can ('broadcast water plant' when clicked) and the mature plant ('broadcast plant mature') use messages to coordinate with other sprites. 'move steps' is a plain motion block, and the 'S' key press changes the sunlight hours variable directly using a 'when key pressed' + 'change variable' block, without any broadcast.",
+      "source": "book:page49 (synthesis)"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Broadcast Messages & Coordination",
+      "question": "Why can't the plant sprite just tell the butterfly sprite directly to 'become visible' using the plant's own blocks?",
+      "options": [
+        "It actually can, and that's exactly what happens",
+        "In Scratch, one sprite's blocks can't directly control another sprite's costume/visibility -- sprites must communicate using broadcast/receive messages instead",
+        "Because butterflies don't use code",
+        "Because only the watering can sprite can broadcast messages"
+      ],
+      "answer": 1,
+      "explanation": "In Scratch, each sprite has its own independent set of blocks; a sprite cannot reach into another sprite's scripts directly. That's exactly why 'broadcast' and 'when I receive' exist -- they let one sprite (the plant) signal an event that another sprite (the butterfly) can react to on its own.",
+      "source": "book:page47 / book:page49 (conceptual reasoning)"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Broadcast Messages & Coordination",
+      "question": "What does 'coordination' let multiple Scratch characters do?",
+      "options": [
+        "Draw fractions",
+        "Interact correctly with each other, for example through broadcast messages",
+        "Only move in straight lines",
+        "Turn into watering cans"
+      ],
+      "answer": 1,
+      "explanation": "Coordination allows multiple characters to interact correctly -- the book's example is using broadcast blocks to send messages between characters so their actions line up properly.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Broadcast Messages & Coordination",
+      "question": "Which crossword answer means 'making sure characters do the right things at the right time when working together'?",
+      "options": [
+        "Coordination",
+        "Fractions",
+        "Loop",
+        "Sprites"
+      ],
+      "answer": 0,
+      "explanation": "The book's own crossword clue defines coordination exactly this way: making sure characters do the right things at the right time when working together.",
+      "source": "book:page54 (crossword, Down 1)"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Backdrops & Multiple Characters",
+      "question": "What does a 'backdrop' set in a Scratch project?",
+      "options": [
+        "The colour of a sprite's costume",
+        "The background of your Scratch story",
+        "The number of loops",
+        "A fraction value"
+      ],
+      "answer": 1,
+      "explanation": "The backdrop sets the background scene of your Scratch story -- the book notes you can customize scenes with different backdrops.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Backdrops & Multiple Characters",
+      "question": "Why does the book say adding multiple characters makes a story more interesting?",
+      "options": [
+        "It slows down the computer",
+        "It allows for interactions between characters in the story",
+        "It removes the need for a backdrop",
+        "It automatically adds fractions"
+      ],
+      "answer": 1,
+      "explanation": "The book states that 'adding multiple characters makes stories more interesting' because it creates real-life-style interactions between the characters, like the crane and the crab.",
+      "source": "facts:page4"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Backdrops & Multiple Characters",
+      "question": "According to the book, when adding multiple characters to a scene, what must be done for each one?",
+      "options": [
+        "Nothing extra is needed",
+        "Each character needs its own set of movement blocks, and their actions must be timed carefully so they interact properly",
+        "Only one character can have blocks at a time",
+        "All characters must share exactly the same blocks"
+      ],
+      "answer": 1,
+      "explanation": "The book explains: 'Each character needs its own set of movement blocks. We can make them interact with each other by timing their actions carefully' -- so both the crane and crab need separate scripts that are coordinated in time.",
+      "source": "book:page38"
+    },
+    {
+      "id": "q62",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Backdrops & Multiple Characters",
+      "question": "You can customize a Scratch scene by choosing different backdrops.",
+      "answer": true,
+      "explanation": "The book explicitly says to 'customize scenes with different backdrops,' confirming that changing the backdrop is a normal part of building a Scratch story scene.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Backdrops & Multiple Characters",
+      "question": "A student adds a crab sprite to their project but never gives it any of its own movement blocks. What will most likely happen?",
+      "options": [
+        "The crab will automatically copy the crane's blocks",
+        "The crab sprite will not move or act on its own, since each character needs its own separate set of blocks",
+        "The crab will turn into a butterfly",
+        "The backdrop will change automatically"
+      ],
+      "answer": 1,
+      "explanation": "Since 'each character needs its own set of movement blocks,' a sprite with no blocks attached simply will not do anything by itself -- blocks are not automatically shared between sprites.",
+      "source": "book:page38 (reasoning)"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Backdrops & Multiple Characters",
+      "question": "In the crane-and-crab animation shown in the book, where are the two characters standing?",
+      "options": [
+        "On a beach near the water, with the crane on the sand and the crab nearby",
+        "Inside a castle",
+        "On top of a bean plant",
+        "Inside a flower pot"
+      ],
+      "answer": 0,
+      "explanation": "The Scratch stage screenshot shows a beach scene with the sea in the background, the crane standing on the sand, and the crab sprite next to it.",
+      "source": "book:page38 (screenshot)"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractions with the Pen Tool",
+      "question": "What do fractions represent?",
+      "options": [
+        "Whole numbers only",
+        "Parts of a whole",
+        "Sprite costumes",
+        "Backdrop colours"
+      ],
+      "answer": 1,
+      "explanation": "The book states plainly: 'Fractions represent parts of a whole' -- for example, eating half a pizza is like consuming 1/2 of it.",
+      "source": "facts:page8"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractions with the Pen Tool",
+      "question": "Which Scratch tool helps you draw shapes to show fractions, like a digital crayon on the screen?",
+      "options": [
+        "The pen tool",
+        "The broadcast block",
+        "The repeat block",
+        "The backdrop"
+      ],
+      "answer": 0,
+      "explanation": "The pen tool in Scratch helps draw shapes -- the book compares it to 'using a digital crayon on screen.'",
+      "source": "facts:page8"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractions with the Pen Tool",
+      "question": "What do 'division lines' do when drawing a fraction shape in Scratch?",
+      "options": [
+        "They erase the whole drawing",
+        "They create equal parts within a shape",
+        "They change the backdrop",
+        "They add a butterfly"
+      ],
+      "answer": 1,
+      "explanation": "Drawing division lines creates equal parts in shapes -- for example, dividing a square into 4 equal parts to show fractions.",
+      "source": "facts:page9"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractions with the Pen Tool",
+      "question": "What is one way Scratch helps make fraction parts visually clear?",
+      "options": [
+        "By hiding some parts",
+        "By colouring different parts with the pen tool's colour setting",
+        "By turning the shape into a sprite",
+        "By deleting the shape"
+      ],
+      "answer": 1,
+      "explanation": "Colouring parts in Scratch illustrates fractions visually -- changing pen colours lets you represent different fraction parts, like colouring some slices of a circle differently from others.",
+      "source": "facts:page9"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractions with the Pen Tool",
+      "question": "Which shape does the book use as an example for showing fractions like pizza slices?",
+      "options": [
+        "A square",
+        "A triangle",
+        "A circle",
+        "A star"
+      ],
+      "answer": 2,
+      "explanation": "The book states that circles can be divided to show fractions like pizza slices, giving the real-life application of creating circle fractions to make learning fun.",
+      "source": "facts:page10"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractions with the Pen Tool",
+      "question": "In Scratch, what block combination is used to draw a square divided into 4 equal parts using the pen tool?",
+      "options": [
+        "'repeat 4' with 'move 100 steps' and 'turn 90 degrees'",
+        "'forever' with 'glide 1 secs'",
+        "'broadcast' with 'when I receive'",
+        "'if-then' with 'growth stage'"
+      ],
+      "answer": 0,
+      "explanation": "The book's pen-tool example draws a square by repeating 4 times: move 100 steps, then turn 90 degrees -- since a square has 4 equal sides and 4 right-angle turns.",
+      "source": "book:page40"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fractions with the Pen Tool",
+      "question": "Before drawing a new pen shape in Scratch, what steps does the book show being used to prepare the canvas?",
+      "options": [
+        "Erase all, then set the pen colour and pen size, then pen down",
+        "Broadcast a message first",
+        "Add a butterfly sprite",
+        "Set growth stage to 1"
+      ],
+      "answer": 0,
+      "explanation": "The pen tool steps shown are: erase all (clear old drawings), pen up, set pen colour, set pen size, then pen down -- preparing a clean canvas with the right colour/size before drawing.",
+      "source": "book:page40"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractions with the Pen Tool",
+      "question": "What does the fraction 1/2 represent, using the book's pizza example?",
+      "options": [
+        "Eating the whole pizza",
+        "Eating half of the pizza",
+        "Eating none of the pizza",
+        "Eating three pizzas"
+      ],
+      "answer": 1,
+      "explanation": "The book gives the example: 'Eating half a pizza is like consuming 1/2 of it' -- 1/2 means one part out of two equal parts.",
+      "source": "facts:page8"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractions with the Pen Tool",
+      "question": "What does the fraction 3/4 represent when a square is divided into 4 equal parts and 3 of them are coloured?",
+      "options": [
+        "One quarter of the square is coloured",
+        "Three quarters of the square is coloured",
+        "The whole square is coloured",
+        "None of the square is coloured"
+      ],
+      "answer": 1,
+      "explanation": "If a square is split into 4 equal parts and 3 of those parts are coloured, that represents the fraction 3/4 -- three parts out of four equal parts.",
+      "source": "book:page18 (MILESTONE Section A Q3) / facts:page20"
+    },
+    {
+      "id": "q74",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Fractions with the Pen Tool",
+      "question": "A fraction like 2/3 means we have 2 parts out of 3 equal parts of something.",
+      "answer": true,
+      "explanation": "This matches the worksheet's answer key: 2/3 correctly means 2 parts out of 3 equal parts of a whole.",
+      "source": "worksheet-51316 Q2c (answer key)"
+    },
+    {
+      "id": "q75",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Fractions with the Pen Tool",
+      "question": "When we colour 3 parts red in a square divided into 4 equal parts, we show the fraction 3/4.",
+      "answer": true,
+      "explanation": "This is confirmed True in the book's review: colouring 3 out of 4 equal parts represents the fraction 3/4, since fractions describe a number of equal parts out of the total number of equal parts.",
+      "source": "book:page19 (Section B Q3)"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Fractions with the Pen Tool",
+      "question": "A student divides a circle into 4 unequal slices (one huge, three tiny) and colours one of the tiny slices. Can they correctly call this '1/4' of the circle?",
+      "options": [
+        "Yes, any coloured slice out of 4 slices is always 1/4",
+        "No -- fractions require the parts to be EQUAL; unequal slices cannot be labelled as simple fractions like 1/4",
+        "Yes, because circles are always divided fairly",
+        "No, because circles cannot show fractions at all"
+      ],
+      "answer": 1,
+      "explanation": "Fractions describe equal parts of a whole. The book's fraction examples (square into 4 equal parts, circle sliced like a pizza) all rely on the parts being the same size -- unequal slices break the basic idea of a fraction like 1/4.",
+      "source": "facts:page8-10 (conceptual application)"
+    },
+    {
+      "id": "q77",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Fractions with the Pen Tool",
+      "question": "Which of these are TRUE about using the pen tool to show fractions in Scratch? (Select all that apply)",
+      "options": [
+        "Division lines create equal parts within a shape",
+        "Changing pen colour can represent different fraction parts",
+        "The pen tool can only draw circles, never squares",
+        "Fractions represent parts of a whole"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Division lines make equal parts, colouring shows different fraction parts, and fractions represent parts of a whole -- all true per the book. It is FALSE that the pen tool can only draw circles; the book explicitly shows drawing squares (repeat 4, move 100, turn 90) as well as circles.",
+      "source": "facts:page8-10 / book:page40 (synthesis)"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractions with the Pen Tool",
+      "question": "Why might Scratch's pen tool be described as being 'like using a digital crayon on screen'?",
+      "options": [
+        "Because it deletes drawings automatically",
+        "Because it lets you draw lines and shapes directly on the stage, just like colouring with a crayon on paper",
+        "Because it only works with fractions",
+        "Because it changes sprite costumes"
+      ],
+      "answer": 1,
+      "explanation": "The comparison to a digital crayon captures how the pen tool lets a sprite draw lines/shapes as it moves across the stage, similar to how a crayon draws marks as you move it across paper.",
+      "source": "facts:page8"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "What are 'variables' in Scratch used for, according to the book?",
+      "options": [
+        "They store important information, like memory boxes for your program",
+        "They only draw pictures",
+        "They change the backdrop colour permanently",
+        "They are another name for sprites"
+      ],
+      "answer": 0,
+      "explanation": "The book describes variables as things that 'store important information like water levels... They act like memory boxes for your program.'",
+      "source": "facts:page11"
+    },
+    {
+      "id": "q80",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "Which THREE variables are used to track the digital plant's condition in this chapter's simulation? (Select all that apply)",
+      "options": [
+        "Water level",
+        "Sunlight hours",
+        "Plant age",
+        "Crossword score"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The digital plant simulation tracks three variables shown on the Scratch stage: Water level, Sunlight hours, and Plant age. There is no 'crossword score' variable in this project.",
+      "source": "book:page45 (screenshot)"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "How many growth stages does a digital plant have in this simulation?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "The worksheet fill-in-the-blank confirms: 'A digital plant has four growth stages: seed, sprout, young plant, and mature plant.'",
+      "source": "worksheet-51316 Q1b (answer key)"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "What is the correct order of the digital plant's growth stages?",
+      "options": [
+        "Mature, young plant, sprout, seed",
+        "Seed, sprout, young plant, mature",
+        "Sprout, seed, mature, young plant",
+        "Young plant, seed, sprout, mature"
+      ],
+      "answer": 1,
+      "explanation": "The correct order of plant growth stages, confirmed in the book, is seed, sprout, young plant, then mature -- each stage requires specific care before moving to the next.",
+      "source": "facts:page21"
+    },
+    {
+      "id": "q83",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "The correct order of plant growth stages is seed, sprout, young plant, mature.",
+      "answer": true,
+      "explanation": "This directly matches the book's fact: 'The correct order of plant growth stages is seed, sprout, young plant, mature. Each stage requires specific care.'",
+      "source": "facts:page21"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "How much water and sunlight does the digital plant need to grow from 'seed' to 'sprout'?",
+      "options": [
+        "10 water and 20 sunlight",
+        "20 units of water and 10 hours of sunlight",
+        "60 water and 30 sunlight",
+        "100 water and 100 sunlight"
+      ],
+      "answer": 1,
+      "explanation": "According to the book's growth-stage diagram, a digital plant needs 20 units of water and 10 hours of sunlight to move from the seed stage to the sprout stage.",
+      "source": "book:page45 / book:page18 (MILESTONE Section A Q4)"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "How much water and sunlight does the digital plant need to grow from 'sprout' to 'young plant'?",
+      "options": [
+        "10 water and 5 sunlight",
+        "40 units of water and 20 hours of sunlight",
+        "20 water and 10 sunlight",
+        "60 water and 30 sunlight"
+      ],
+      "answer": 1,
+      "explanation": "The book's growth diagram shows the sprout-to-young-plant transition requires 40 units of water and 20 hours of sunlight -- double the requirement of the seed-to-sprout stage.",
+      "source": "book:page45"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "How much water and sunlight does the digital plant need to grow from 'young plant' to 'mature'?",
+      "options": [
+        "20 water and 10 sunlight",
+        "40 water and 20 sunlight",
+        "60 units of water and 30 hours of sunlight",
+        "100 water and 50 sunlight"
+      ],
+      "answer": 2,
+      "explanation": "The final growth stage requires the most care: 60 units of water and 30 hours of sunlight to move from young plant to mature, continuing the pattern of increasing requirements at each stage.",
+      "source": "book:page45"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "Looking at the pattern 20/10, 40/20, 60/30 for water/sunlight needed at each growth stage, what do you notice?",
+      "options": [
+        "The numbers decrease at each stage",
+        "Both water and sunlight requirements increase by the same amount (20 water, 10 sunlight) at each stage, and water is always double the sunlight hours",
+        "The numbers are random with no pattern",
+        "Sunlight requirements are always higher than water requirements"
+      ],
+      "answer": 1,
+      "explanation": "Each stage adds exactly 20 more units of water and 10 more hours of sunlight than the previous stage (20/10, then 40/20, then 60/30), and at every stage the water number is exactly double the sunlight number.",
+      "source": "book:page45 (pattern reasoning)"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "In our digital plant simulation, the plant grows to the next stage only when it has enough water and what else?",
+      "options": [
+        "Music",
+        "Sunlight",
+        "A crossword answer",
+        "A new backdrop"
+      ],
+      "answer": 1,
+      "explanation": "The worksheet fill-in-the-blank confirms: 'the plant will grow to the next stage only when it has enough water and sunlight.'",
+      "source": "worksheet-51316 Q1d (answer key)"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "Which block type checks a condition (like water level > 60 AND sunlight hours > 30) before letting the plant move to the next growth stage?",
+      "options": [
+        "move steps",
+        "if...then",
+        "broadcast",
+        "pen down"
+      ],
+      "answer": 1,
+      "explanation": "The book shows nested 'if...then' blocks that check conditions like 'water level > 60 and sunlight hours > 30' combined with 'growth stage = 3' before switching the plant to its mature costume.",
+      "source": "book:page47"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "What does the 'growth stage' variable represent in the digital plant project?",
+      "options": [
+        "The plant's colour",
+        "A number tracking which of the 4 growth stages the plant is currently in",
+        "The number of butterflies",
+        "The pen tool's size"
+      ],
+      "answer": 1,
+      "explanation": "'Growth stage' is a variable used to track which stage (out of the 4: seed, sprout, young plant, mature) the digital plant currently is in -- for example, growth stage = 3 means young plant, and growth stage = 4 means mature.",
+      "source": "book:page47 (synthesis)"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "How does the digital plant know when to grow to the next stage?",
+      "options": [
+        "It grows automatically after a fixed amount of time passes",
+        "It checks if it has received enough water and sunlight",
+        "It grows when we click on it with the mouse",
+        "It grows when we change its costume or appearance"
+      ],
+      "answer": 1,
+      "explanation": "This exact question appears on the worksheet, and the correct tick is: the plant checks if it has received enough water and sunlight -- growth is condition-based, not simply time-based or click-based.",
+      "source": "worksheet-51321 Q1d"
+    },
+    {
+      "id": "q92",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "To create realistic plant growth, you should make all growth stages happen instantly without checking water and sunlight levels.",
+      "answer": false,
+      "explanation": "This is False, per the worksheet's own correction: 'Realistic plant growth should check water and sunlight levels before advancing to the next stage' -- growth should be earned through proper care, not instant.",
+      "source": "worksheet-51316 Q2d (answer key)"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "What is a good way to describe what a 'variable' does in a program, using the book's own comparison?",
+      "options": [
+        "It acts like a memory box that stores information your program needs to remember",
+        "It is another word for a sprite costume",
+        "It only works with the pen tool",
+        "It always equals zero"
+      ],
+      "answer": 0,
+      "explanation": "The book directly compares variables to 'memory boxes for your program' -- they store values (like water level) that the program can check and update over time.",
+      "source": "facts:page11"
+    },
+    {
+      "id": "q94",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "Which of these are needed for a plant to move from 'young plant' (growth stage 3) to 'mature' (growth stage 4) in this simulation? (Select all that apply)",
+      "options": [
+        "Water level greater than 60",
+        "Sunlight hours greater than 30",
+        "Growth stage currently equal to 3",
+        "A butterfly must already be visible"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The mature-stage check requires water level > 60 AND sunlight hours > 30 AND growth stage = 3 (meaning it's currently a young plant) before switching to mature. The butterfly's visibility is not a requirement for the plant to mature -- in fact the butterfly only appears AFTER the plant becomes mature.",
+      "source": "book:page47 / book:page49 (synthesis)"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "When setting up the digital plant at the very start, what values are variables like water level, sunlight hours, and plant age typically set to?",
+      "options": [
+        "100 each",
+        "0 (zero), since the plant is just starting as a seed",
+        "A random number",
+        "The same as growth stage 4"
+      ],
+      "answer": 1,
+      "explanation": "At the start of the simulation the plant is a fresh seed, so water level, sunlight hours, and plant age are all set to 0, and growth stage is set to 1 (seed).",
+      "source": "book:page45 (initial setup)"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "Why does the plant need an 'if...then' check for EACH growth stage (seed-to-sprout, sprout-to-young, young-to-mature) instead of just one big check for the whole simulation?",
+      "options": [
+        "Because each stage transition needs its own water/sunlight threshold and must only apply when the plant is actually at that specific starting stage",
+        "Because Scratch does not allow more than one if-then block",
+        "Because each check controls a different backdrop colour",
+        "There is no real reason, it is just decoration"
+      ],
+      "answer": 0,
+      "explanation": "Each stage has a different water/sunlight requirement (20/10, 40/20, 60/30) and should only trigger when the plant is currently AT that stage (checked via the growth stage variable) -- so three separate if-then checks are needed, one per transition, all inside the repeat-until loop.",
+      "source": "book:page47 (reasoning)"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Plant Care: Watering, Sunlight & Problems",
+      "question": "What happens to a digital plant when it doesn't get enough water?",
+      "options": [
+        "It grows faster",
+        "It changes colour",
+        "It produces flowers",
+        "It becomes wilted"
+      ],
+      "answer": 3,
+      "explanation": "The worksheet's tick-the-correct-option confirms: when a digital plant doesn't get enough water, it becomes wilted.",
+      "source": "worksheet-51321 Q1b (answer key)"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Plant Care: Watering, Sunlight & Problems",
+      "question": "If a digital plant is wilting because of too little water, which sprite should you click to increase the water level?",
+      "options": [
+        "The butterfly sprite",
+        "The watering can sprite",
+        "The crane sprite",
+        "The crab sprite"
+      ],
+      "answer": 1,
+      "explanation": "The worksheet fill-in-the-blank confirms: if your digital plant is wilting because of too little water, click on the watering can sprite to increase the water level variable.",
+      "source": "worksheet-51316 Q1e (answer key)"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Plant Care: Watering, Sunlight & Problems",
+      "question": "At what water level does the digital plant start wilting and looking brown and droopy?",
+      "options": [
+        "Below 5",
+        "Above 100",
+        "Exactly 50",
+        "Below 60"
+      ],
+      "answer": 0,
+      "explanation": "The book states: 'Wilting happens when our plant doesn't get enough water. If the water level goes below 5 over time, our plant will look brown and droopy' and say 'I'm wilting! Need water!'",
+      "source": "book:page47"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Plant Care: Watering, Sunlight & Problems",
+      "question": "At what water level does the digital plant become overwatered and look yellow and sick?",
+      "options": [
+        "Below 5",
+        "Above 100",
+        "Exactly 60",
+        "Below 30"
+      ],
+      "answer": 1,
+      "explanation": "The book states: 'Overwatering happens when we give too much water. If the water level goes above 100, our plant will look yellow and sick' and say 'Too much water! I'm drowning!'",
+      "source": "book:page47"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Plant Care: Watering, Sunlight & Problems",
+      "question": "What can overwatering do to a digital plant, according to the book?",
+      "options": [
+        "Make it grow flowers instantly",
+        "Make it look yellow and sick",
+        "Make it turn into a butterfly",
+        "Make it repeat forever"
+      ],
+      "answer": 1,
+      "explanation": "Overwatering can make plants look yellow and sick -- the book advises balancing water levels to keep digital plants healthy.",
+      "source": "facts:page13"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Plant Care: Watering, Sunlight & Problems",
+      "question": "A plant's water level is exactly 3. What is most likely to happen to the plant?",
+      "options": [
+        "It will grow to the mature stage instantly",
+        "It will start wilting and look brown/droopy, since 3 is below the wilting threshold of 5",
+        "It will become overwatered and yellow",
+        "Nothing will change at all"
+      ],
+      "answer": 1,
+      "explanation": "Since the wilting condition triggers when water level goes below 5, a water level of 3 falls below that threshold, so the plant will start wilting, looking brown and droopy, and saying 'I'm wilting! Need water!'",
+      "source": "book:page47 (applied reasoning)"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Plant Care: Watering, Sunlight & Problems",
+      "question": "A plant's water level is 150. What is most likely to happen?",
+      "options": [
+        "It will wilt from lack of water",
+        "It will become overwatered and look yellow and sick, since 150 is above the overwatering threshold of 100",
+        "It will stay perfectly healthy no matter what",
+        "It will immediately become a butterfly"
+      ],
+      "answer": 1,
+      "explanation": "Since overwatering triggers when the water level goes above 100, a level of 150 is well past that threshold -- the plant will look yellow and sick and say 'Too much water! I'm drowning!'",
+      "source": "book:page47 (applied reasoning)"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Plant Care: Watering, Sunlight & Problems",
+      "question": "Which sprite adds water to the digital plant when clicked?",
+      "options": [
+        "The watering can sprite",
+        "The butterfly sprite",
+        "The backdrop",
+        "The crab sprite"
+      ],
+      "answer": 0,
+      "explanation": "Clicking the watering can sprite broadcasts a 'water plant' message and is how the player waters the digital plant in the simulation.",
+      "source": "book:page49"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Plant Care: Watering, Sunlight & Problems",
+      "question": "How does a player add sunlight hours to the digital plant, based on the book's example blocks?",
+      "options": [
+        "By clicking the watering can sprite",
+        "By pressing the 'S' key, which changes the sunlight hours variable by 10 and shows the message 'Sunshine feels great!'",
+        "By waiting exactly 60 seconds",
+        "By clicking on the crossword puzzle"
+      ],
+      "answer": 1,
+      "explanation": "The book shows a 'when S key pressed' block that changes the sunlight hours variable by 10 and makes the plant say 'Sunshine feels great!' for 1 second -- this is how sunlight is added in the simulation.",
+      "source": "book:page49"
+    },
+    {
+      "id": "q106",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Plant Care: Watering, Sunlight & Problems",
+      "question": "Balance in care -- not giving too much or too little water/sunlight -- is necessary for the digital plant's health.",
+      "answer": true,
+      "explanation": "The book states: 'Balance in care is necessary for plant health... Too much or too little water affects growth,' matching both the wilting (too little) and overwatering (too much) problems.",
+      "source": "facts:page17"
+    },
+    {
+      "id": "q107",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Plant Care: Watering, Sunlight & Problems",
+      "question": "Which of these are real plant 'problems' described in the book's digital plant simulation? (Select all that apply)",
+      "options": [
+        "Wilting from too little water",
+        "Overwatering from too much water",
+        "The plant turning into a crab",
+        "The plant looking yellow and sick"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "The two real problems described are wilting (too little water, water level below 5) and overwatering (too much water, water level above 100, causing a yellow/sick look). The plant does not turn into a crab -- that is not part of this simulation at all.",
+      "source": "book:page47 (synthesis)"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Plant Care: Watering, Sunlight & Problems",
+      "question": "What does the digital plant say when it is overwatered?",
+      "options": [
+        "'I'm fully grown!'",
+        "'Too much water! I'm drowning!'",
+        "'Sunshine feels great!'",
+        "'I'm hungry!'"
+      ],
+      "answer": 1,
+      "explanation": "When overwatered (water level above 100) the book's plant sprite says 'Too much water! I'm drowning!' to signal it has received too much water.",
+      "source": "book:page47"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Plant Care: Watering, Sunlight & Problems",
+      "question": "What does the digital plant say when it becomes fully mature?",
+      "options": [
+        "'I'm wilting! Need water!'",
+        "'Too much water! I'm drowning!'",
+        "'I'm fully grown!'",
+        "'Sunshine feels great!'"
+      ],
+      "answer": 2,
+      "explanation": "When the plant reaches the mature stage, it switches costume, sets growth stage to 4, and says 'I'm fully grown!' for 2 seconds before broadcasting 'plant mature'.",
+      "source": "book:page47"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Plant Care: Watering, Sunlight & Problems",
+      "question": "Taking care of a digital plant, according to the book, involves adding what two things?",
+      "options": [
+        "Music and colour",
+        "Water and sunlight",
+        "Fractions and loops",
+        "Sprites and backdrops"
+      ],
+      "answer": 1,
+      "explanation": "The book states: 'Taking care of digital plants involves adding water and sunlight,' simulated in Scratch using simple commands.",
+      "source": "facts:page14"
+    },
+    {
+      "id": "q111",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Plant Care: Watering, Sunlight & Problems",
+      "question": "A mature digital plant needs unlimited amounts of water to stay healthy.",
+      "answer": false,
+      "explanation": "This is false, per the book's MILESTONE review: a mature plant does NOT need unlimited water -- too much water (above 100) causes overwatering and makes the plant look yellow and sick. Balance is always required.",
+      "source": "book:page19 (Section B Q4)"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Butterfly & Digital Garden",
+      "question": "When does a butterfly visit the digital garden, according to the book?",
+      "options": [
+        "As soon as the seed is planted",
+        "When plants mature and have flowers",
+        "Only when it rains",
+        "Only when the crossword is solved"
+      ],
+      "answer": 1,
+      "explanation": "Adding butterflies makes digital gardens lively -- the book's real-life application is that 'butterflies visit when plants mature and have flowers.'",
+      "source": "facts:page15"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Butterfly & Digital Garden",
+      "question": "What special flying pattern do butterflies have in this chapter's Scratch animations?",
+      "options": [
+        "They never move at all",
+        "They change costumes to look like they are flapping their wings",
+        "They only glide backwards",
+        "They turn into watering cans"
+      ],
+      "answer": 1,
+      "explanation": "The book's fun fact says butterflies 'change costumes to look like they are flapping wings' -- this costume-switching creates the illusion of a flying motion.",
+      "source": "facts:page15"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Butterfly & Digital Garden",
+      "question": "How does the butterfly sprite know when to appear on screen?",
+      "options": [
+        "It appears immediately when the program starts",
+        "It receives the 'plant mature' broadcast message from the plant sprite and then shows itself",
+        "It appears when the watering can is clicked",
+        "It appears when the pen tool is used"
+      ],
+      "answer": 1,
+      "explanation": "The book explains: 'When the butterfly receives the message that our plant is mature, it will appear on the screen. It will show itself and start flying around' -- so it depends on the broadcast message from the plant.",
+      "source": "book:page49"
+    },
+    {
+      "id": "q115",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "The Butterfly & Digital Garden",
+      "question": "Which behaviours does the butterfly have, according to the book's Step 5/6 description? (Select all that apply)",
+      "options": [
+        "Stay hidden when the plant is young",
+        "Appear when the plant grows flowers",
+        "Fly around the mature plant",
+        "Water the plant automatically"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The book lists the butterfly's behaviours as: stay hidden when young, appear when flowers grow, fly around the mature plant, and change costume to look like flying. Watering the plant is the watering can sprite's job, not the butterfly's.",
+      "source": "book:page49"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Butterfly & Digital Garden",
+      "question": "What does communication between the plant and the butterfly use, according to the book?",
+      "options": [
+        "Fractions",
+        "Messages",
+        "Pen colours",
+        "Turn degrees"
+      ],
+      "answer": 1,
+      "explanation": "The book states: 'Communication between plants and butterflies uses messages... A mature plant sends a message to invite a butterfly.'",
+      "source": "facts:page16"
+    },
+    {
+      "id": "q117",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The Butterfly & Digital Garden",
+      "question": "Interactivity -- like the butterfly reacting to plant growth -- makes the garden simulation more engaging.",
+      "answer": true,
+      "explanation": "The book states that 'Interactivity makes the garden simulation engaging,' referring to features like the butterfly reacting to messages sent by the plant.",
+      "source": "facts:page16"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Butterfly & Digital Garden",
+      "question": "What does taking care of a digital garden teach, according to the book?",
+      "options": [
+        "Only how to draw fractions",
+        "Responsibility -- since regular care helps plants grow healthy and attracts butterflies",
+        "How to write crossword clues",
+        "Nothing important"
+      ],
+      "answer": 1,
+      "explanation": "The book states: 'Digital gardens teach responsibility in plant care. Regular care helps plants grow healthy and attracts butterflies.'",
+      "source": "facts:page17"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Butterfly & Digital Garden",
+      "question": "Which crossword answer means 'garden creature that appears when plants grow flowers and makes the garden feel alive'?",
+      "options": [
+        "Sprites",
+        "Variables",
+        "Butterfly",
+        "Coordination"
+      ],
+      "answer": 2,
+      "explanation": "The book's own review crossword defines this clue as 'Butterfly' -- confirming the butterfly's role as the creature that appears once the plant has flowered.",
+      "source": "book:page54 (crossword, Across 3)"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Butterfly & Digital Garden",
+      "question": "If a student's digital plant never reaches the mature stage (e.g. it keeps wilting from too little water), what will most likely happen to the butterfly?",
+      "options": [
+        "It will appear anyway, regardless of the plant's stage",
+        "It will stay hidden, since it only appears after receiving the 'plant mature' broadcast message",
+        "It will turn into a crab",
+        "It will water the plant for the student"
+      ],
+      "answer": 1,
+      "explanation": "Since the butterfly only shows itself after receiving the 'plant mature' broadcast message, a plant that never matures (because it keeps wilting) will never trigger that message, so the butterfly will stay hidden.",
+      "source": "book:page47 / book:page49 (reasoning)"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Butterfly & Digital Garden",
+      "question": "What real-life idea does adding butterflies to the digital garden connect to?",
+      "options": [
+        "Butterflies visiting flowering plants in real gardens",
+        "Programming loops",
+        "Crossword puzzles",
+        "Watering cans in real life have no connection"
+      ],
+      "answer": 0,
+      "explanation": "The digital butterfly mimics a real-life idea: butterflies are attracted to and visit gardens once plants flower, which the Scratch project recreates through the 'plant mature' message.",
+      "source": "facts:page15 (real-life application)"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "In the book's review crossword, which word answers the clue 'moving pictures that tell a story'?",
+      "options": [
+        "Fractions",
+        "Animation",
+        "Loop",
+        "Sprites"
+      ],
+      "answer": 1,
+      "explanation": "The crossword answer for 'moving pictures that tell a story' is ANIMATION, matching the chapter's very first sub-topic.",
+      "source": "book:page54 (crossword, Across)"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "In the book's review crossword, which word answers the clue 'combining programming with math concepts'?",
+      "options": [
+        "Integration",
+        "Sequencing",
+        "Coordination",
+        "Transition"
+      ],
+      "answer": 0,
+      "explanation": "The crossword answer is INTEGRATION -- referring to how this chapter combines programming (Scratch) with a math concept (fractions).",
+      "source": "book:page54 (crossword, Across)"
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "In the book's review crossword, which word answers the clue 'parts of a whole number or object'?",
+      "options": [
+        "Loop",
+        "Fractions",
+        "Variables",
+        "Butterfly"
+      ],
+      "answer": 1,
+      "explanation": "The crossword answer is FRACTIONS -- 'parts of a whole number or object' is the exact definition used throughout the chapter.",
+      "source": "book:page54 (crossword, Across)"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "In the book's review crossword, which word answers the clue 'the smooth change from one stage to another'?",
+      "options": [
+        "Transition",
+        "Loop",
+        "Sprites",
+        "Animation"
+      ],
+      "answer": 0,
+      "explanation": "The crossword answer is TRANSITION -- describing the smooth change between growth stages or scenes, such as the plant moving from one growth stage to the next.",
+      "source": "book:page54 (crossword, Down)"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "In the book's review crossword, which word answers the clue 'doing the same action multiple times automatically'?",
+      "options": [
+        "Loop",
+        "Butterfly",
+        "Sequencing",
+        "Coordination"
+      ],
+      "answer": 0,
+      "explanation": "The crossword answer is LOOP -- exactly matching the chapter's definition of loops as blocks (repeat/forever) that repeat actions automatically.",
+      "source": "book:page54 (crossword, Down)"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "In the earlier worksheet crossword puzzle, which word fills in for 'sprites'-related characters (digital puppets) in Scratch?",
+      "options": [
+        "Sprites",
+        "Fractions",
+        "Loop",
+        "Variables"
+      ],
+      "answer": 0,
+      "explanation": "Sprites are the digital puppet-like characters in Scratch -- this vocabulary word appears throughout both the worksheet fill-in-the-blanks and the crossword puzzles in this chapter.",
+      "source": "worksheet-51321 Q1a / worksheet-51321 crossword"
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "The book's second review crossword includes the clue 'memory boxes that help us remember important info like water level and plant age.' Which vocabulary word is this?",
+      "options": [
+        "Sprites",
+        "Variables",
+        "Butterfly",
+        "Sequencing"
+      ],
+      "answer": 1,
+      "explanation": "This clue describes VARIABLES -- the book repeatedly compares variables to 'memory boxes' that store information such as water level, sunlight hours, plant age, and growth stage.",
+      "source": "book:page54 (crossword, Across) / facts:page11"
+    },
+    {
+      "id": "q129",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "Which of these words are answers to clues in the book's SECOND review crossword puzzle (page 54)? (Select all that apply)",
+      "options": [
+        "Sprites",
+        "Butterfly",
+        "Variables",
+        "Fractions"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The second crossword's answers are SPRITES (digital characters/puppets), BUTTERFLY (garden creature appearing at maturity), and VARIABLES (memory boxes for water level/plant age). FRACTIONS was an answer in the FIRST review crossword (page 54, top set), which is a different puzzle in the worksheet materials -- keep the two crosswords' clue sets distinct.",
+      "source": "book:page54 (crossword, synthesis)"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "Which vocabulary word from this chapter means 'digital characters in Scratch that act like puppets we can control'?",
+      "options": [
+        "Sprites",
+        "Loop",
+        "Transition",
+        "Integration"
+      ],
+      "answer": 0,
+      "explanation": "This is the crossword's own definition for SPRITES -- digital characters in Scratch that act like puppets we can control.",
+      "source": "book:page54 (crossword, Across)"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Chapter Milestone Review",
+      "question": "This chapter, 'The Learning Web,' is built around which THREE main Scratch-based activities?",
+      "options": [
+        "Cooking, painting, and singing",
+        "Animating a story, showing fractions with the pen tool, and growing a digital plant",
+        "Only crossword puzzles",
+        "Only watering cans"
+      ],
+      "answer": 1,
+      "explanation": "The chapter's sub-topics are: Animation and Storytelling with Scratch, Fractions Come Alive with Technology, and Growing Digital Plants with Scratch -- three connected Scratch projects.",
+      "source": "chapter.json / _quiz_source.md topics"
+    },
+    {
+      "id": "q132",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Chapter Milestone Review",
+      "question": "Which of the following are Scratch block types mentioned across this chapter? (Select all that apply)",
+      "options": [
+        "move steps",
+        "repeat",
+        "broadcast",
+        "crossword"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "move steps, repeat, and broadcast are all real Scratch blocks used throughout the chapter's projects. 'Crossword' is a paper-based review activity, not a Scratch block.",
+      "source": "facts:page3-6 (synthesis)"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Milestone Review",
+      "question": "How are 'sequencing' and 'loops' related but different in this chapter?",
+      "options": [
+        "They are unrelated concepts",
+        "Sequencing is about the ORDER of individual instructions; loops let you REPEAT a sequence of instructions automatically instead of writing them again and again",
+        "Loops always run in reverse order",
+        "Sequencing only works with fractions"
+      ],
+      "answer": 1,
+      "explanation": "Sequencing is about arranging instructions in the correct order (like a story), while loops (repeat/forever/repeat until) let you take a sequence and run it multiple times automatically, saving the effort of duplicating blocks.",
+      "source": "book:page36-38 (synthesis)"
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Chapter Milestone Review",
+      "question": "What variable tracks how many growth stages a digital plant has completed?",
+      "options": [
+        "Water level",
+        "Growth stage",
+        "Sunlight hours",
+        "Pen size"
+      ],
+      "answer": 1,
+      "explanation": "'Growth stage' is the variable that tracks which of the 4 stages (seed=1, sprout=2, young plant=3, mature=4) the plant is currently in.",
+      "source": "book:page45-47 (synthesis)"
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Milestone Review",
+      "question": "A student says: 'Water level, sunlight hours, plant age, and growth stage are all just decorations -- they don't actually control anything in the simulation.' Is this correct?",
+      "options": [
+        "Yes, they are purely cosmetic",
+        "No -- these variables directly control the plant's behaviour, such as when it wilts, becomes overwatered, or advances to the next growth stage",
+        "Only water level matters, the rest are decorations",
+        "Only growth stage matters, the rest are decorations"
+      ],
+      "answer": 1,
+      "explanation": "These variables are functional, not decorative: water level and sunlight hours are checked by if-then conditions to decide wilting, overwatering, and stage advancement, and growth stage tracks and controls which costume/behaviour the plant currently has.",
+      "source": "book:page45-47 (misconception check)"
+    },
+    {
+      "id": "q136",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Chapter Milestone Review",
+      "question": "Which of these pairs correctly match a Scratch concept with its purpose in this chapter? (Select all that apply)",
+      "options": [
+        "Pen tool -> drawing fraction shapes",
+        "Broadcast/receive -> coordinating sprites like the plant and butterfly",
+        "Repeat/forever -> looping actions automatically",
+        "Backdrop -> storing water level as a number"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Pen tool is correctly used for drawing fraction shapes, broadcast/receive for coordinating sprites, and repeat/forever for looping. It is FALSE that 'backdrop' stores water level as a number -- that is the job of a VARIABLE, not a backdrop.",
+      "source": "facts:page3-11 (synthesis)"
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Chapter Milestone Review",
+      "question": "When making an interactive story, what can you use to trigger different character actions and responses?",
+      "options": [
+        "Only the mouse",
+        "Keyboard keys",
+        "Only crossword puzzles",
+        "Only fractions"
+      ],
+      "answer": 1,
+      "explanation": "This True/False review item confirms: when making an interactive story, you can use keyboard keys (like the 'S' key for sunlight) to trigger different character actions and responses.",
+      "source": "worksheet-51316 Q2e (answer key)"
+    },
+    {
+      "id": "q138",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Chapter Milestone Review",
+      "question": "When making an interactive story, you can use keyboard keys to trigger different character actions and responses.",
+      "answer": true,
+      "explanation": "This is confirmed True by the worksheet's answer key -- keyboard key presses (like 'when S key pressed' for adding sunlight) are one way to trigger actions in an interactive Scratch story.",
+      "source": "worksheet-51316 Q2e (answer key)"
+    },
+    {
+      "id": "q139",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Milestone Review",
+      "question": "Which growth-stage requirement pairs correctly match water level to sunlight hours needed for that transition?",
+      "options": [
+        "Seed->Sprout: 20 water/10 sunlight; Sprout->Young: 40 water/20 sunlight; Young->Mature: 60 water/30 sunlight",
+        "Seed->Sprout: 60 water/30 sunlight; Sprout->Young: 40 water/20 sunlight; Young->Mature: 20 water/10 sunlight",
+        "All stages require exactly 50 water and 25 sunlight",
+        "Water and sunlight requirements are never specified"
+      ],
+      "answer": 0,
+      "explanation": "The correct increasing pattern (confirmed from the book's growth-stage diagram) is: Seed->Sprout needs 20 water/10 sunlight, Sprout->Young needs 40 water/20 sunlight, and Young->Mature needs 60 water/30 sunlight.",
+      "source": "book:page45 (synthesis)"
+    },
+    {
+      "id": "q140",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Milestone Review",
+      "question": "Considering both the wilting rule (water level below 5) and the overwatering rule (water level above 100), what water-level range keeps a digital plant safe from BOTH problems?",
+      "options": [
+        "Below 5",
+        "Above 100",
+        "Between 5 and 100 (inclusive of values in between)",
+        "Exactly 0"
+      ],
+      "answer": 2,
+      "explanation": "Since wilting triggers below 5 and overwatering triggers above 100, a water level that stays between 5 and 100 avoids both problems -- illustrating the book's message that 'balance in care is necessary for plant health.'",
+      "source": "book:page47 / facts:page17 (synthesis)"
+    },
+    {
+      "id": "q141",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Chapter Milestone Review",
+      "question": "Which of these best summarizes the whole chapter, 'The Learning Web'?",
+      "options": [
+        "A chapter only about watering real plants",
+        "A chapter that uses the Scratch programming tool to animate a story, visualize fractions, and simulate the care of a digital plant that attracts a butterfly",
+        "A chapter only about crossword puzzles",
+        "A chapter about cooking pizza"
+      ],
+      "answer": 1,
+      "explanation": "The chapter ties together three connected Scratch activities -- animating the crane-and-crab story, drawing fraction shapes with the pen tool, and simulating a digital plant's growth and care (including a butterfly visitor) -- all under the theme of using Scratch as a learning tool.",
+      "source": "_quiz_source.md topics (synthesis)"
+    },
+    {
+      "id": "q142",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Chapter Milestone Review",
+      "question": "Which of these statements are TRUE about this chapter's overall content? (Select all that apply)",
+      "options": [
+        "The crane and crab story uses movement, turn, and broadcast blocks together",
+        "The digital plant simulation uses variables and if-then/repeat-until blocks to manage growth",
+        "Fractions in this chapter are only shown using numbers, never pictures",
+        "The butterfly's appearance depends on a broadcast message from the plant, not a fixed timer"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "The crane/crab story combines movement, turning, and broadcast blocks; the plant simulation relies on variables plus if-then/repeat-until logic; and the butterfly appears only after receiving the plant's 'plant mature' broadcast (not on a timer). It is FALSE that fractions are shown only using numbers -- the chapter repeatedly uses PICTURES (squares, circles, pizzas) coloured with the pen tool to show fractions visually.",
+      "source": "facts:page3-21 (synthesis)"
+    },
+    {
+      "id": "q143",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Costumes & Positioning in Scratch",
+      "question": "What is a 'costume' in Scratch?",
+      "options": [
+        "A different look/appearance a sprite can switch to",
+        "A type of loop",
+        "A crossword answer",
+        "A backdrop only"
+      ],
+      "answer": 0,
+      "explanation": "A costume is one of the different looks a sprite can have; switching costumes changes how a sprite appears, such as the watering can switching between 'watering can1' and 'watering can2' to look like it is pouring.",
+      "source": "book:page49 (watering can costumes)"
+    },
+    {
+      "id": "q144",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Costumes & Positioning in Scratch",
+      "question": "In the watering can sprite's blocks, what happens after 'switch costume to watering can2'?",
+      "options": [
+        "The sprite immediately disappears",
+        "It waits 1 second, then switches to 'watering can1' again, animating a pouring action",
+        "It broadcasts a message to the crossword",
+        "It changes the backdrop"
+      ],
+      "answer": 1,
+      "explanation": "The watering can blocks show: switch costume to watering can2, wait 1 second, switch costume to watering can1 -- alternating between the two costumes creates the visual effect of the can pouring water.",
+      "source": "book:page49"
+    },
+    {
+      "id": "q145",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Costumes & Positioning in Scratch",
+      "question": "Why does the butterfly sprite change its costume repeatedly while flying?",
+      "options": [
+        "To look like it is flapping its wings",
+        "To change into a crab",
+        "To draw a fraction",
+        "To turn into a watering can"
+      ],
+      "answer": 0,
+      "explanation": "The book's fun fact explains that butterflies 'change costumes to look like they are flapping wings' -- rapidly switching between wing-up and wing-down costumes creates a flying animation.",
+      "source": "facts:page15"
+    },
+    {
+      "id": "q146",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Costumes & Positioning in Scratch",
+      "question": "Switching a sprite's costume can be used to create a simple animation effect, like a butterfly's flapping wings or a watering can pouring.",
+      "answer": true,
+      "explanation": "This is exactly how the book's watering can and butterfly examples work: alternating between two costumes over time gives the illusion of pouring or flying.",
+      "source": "book:page49 (synthesis)"
+    },
+    {
+      "id": "q147",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Costumes & Positioning in Scratch",
+      "question": "What do the coordinates 'x' and 'y' control for a sprite on the Scratch stage?",
+      "options": [
+        "The sprite's colour",
+        "The sprite's exact position on the stage",
+        "The sprite's costume number",
+        "The number of loops it runs"
+      ],
+      "answer": 1,
+      "explanation": "x and y are coordinates that set a sprite's exact position on the stage -- seen for example in the watering can's blocks: 'go to x: -50 y: 0'.",
+      "source": "book:page49 (screenshot)"
+    },
+    {
+      "id": "q148",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Costumes & Positioning in Scratch",
+      "question": "In the watering can sprite's 'when green flag clicked' script, what direction does it point in?",
+      "options": [
+        "0",
+        "90",
+        "180",
+        "270"
+      ],
+      "answer": 1,
+      "explanation": "The script shows 'go to x: -50 y: 0' followed by 'point in direction 90', which sets the sprite's starting position and facing direction when the green flag starts the project.",
+      "source": "book:page49 (screenshot)"
+    },
+    {
+      "id": "q149",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Costumes & Positioning in Scratch",
+      "question": "Which event block starts a script as soon as the project begins running (the green flag is clicked)?",
+      "options": [
+        "when green flag clicked",
+        "when this sprite clicked",
+        "when S key pressed",
+        "broadcast"
+      ],
+      "answer": 0,
+      "explanation": "'when green flag clicked' is the event block that runs its attached script the moment you start the whole Scratch project, setting up starting positions like the watering can's.",
+      "source": "book:page49 (screenshot)"
+    },
+    {
+      "id": "q150",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Costumes & Positioning in Scratch",
+      "question": "Which event block is used so that clicking directly on the watering can sprite makes it broadcast the 'water plant' message?",
+      "options": [
+        "when green flag clicked",
+        "when this sprite clicked",
+        "forever",
+        "if-then"
+      ],
+      "answer": 1,
+      "explanation": "The book shows 'when this sprite clicked' at the top of the watering can's script, followed by 'broadcast water plant' -- so clicking the sprite itself triggers the watering action.",
+      "source": "book:page49 (screenshot)"
+    },
+    {
+      "id": "q151",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Costumes & Positioning in Scratch",
+      "question": "Clicking directly on the watering can sprite is what triggers it to broadcast the 'water plant' message.",
+      "answer": true,
+      "explanation": "The watering can's script begins with 'when this sprite clicked', meaning the player must click the sprite itself (not press a key or click the green flag) to broadcast 'water plant'.",
+      "source": "book:page49 (screenshot)"
+    },
+    {
+      "id": "q152",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Costumes & Positioning in Scratch",
+      "question": "A student presses the 'S' key to add sunlight but nothing happens, even though water is fine. What is the MOST likely cause?",
+      "options": [
+        "The plant is already mature",
+        "The 'when S key pressed' script may be missing or the key press wasn't registered -- the sunlight hours variable only changes when this exact event block runs",
+        "Sunlight can only be added by clicking the watering can",
+        "The backdrop needs to change first"
+      ],
+      "answer": 1,
+      "explanation": "Since sunlight is only added through the 'when S key pressed' event block (which changes sunlight hours by 10), if that script isn't present or the keypress isn't detected, sunlight simply won't increase -- there's no other way shown to add sunlight in this project.",
+      "source": "book:page49 (troubleshooting reasoning)"
+    },
+    {
+      "id": "q153",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Costumes & Positioning in Scratch",
+      "question": "What does 'wait 1 seconds' do inside a costume-switching sequence?",
+      "options": [
+        "Pauses the script for 1 second before the next block runs",
+        "Deletes the sprite for 1 second",
+        "Repeats the block 1 time",
+        "Changes the backdrop for 1 second"
+      ],
+      "answer": 0,
+      "explanation": "The 'wait 1 seconds' block simply pauses that sprite's script for 1 second, which is what gives costume-switching animations (like the watering can pouring) a visible, timed effect instead of happening instantly.",
+      "source": "book:page49 (screenshot)"
+    },
+    {
+      "id": "q154",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Costumes & Positioning in Scratch",
+      "question": "In the crane story's beach scene, what is shown alongside the crane and crab sprites?",
+      "options": [
+        "A castle and beanstalk",
+        "Sand, sea/water, and greenery as the backdrop",
+        "A flower pot",
+        "A crossword grid"
+      ],
+      "answer": 1,
+      "explanation": "The Scratch stage screenshot for the crane-and-crab animation shows a beach backdrop with sand, the sea, and greenery, with the crane and crab sprites placed on the sand.",
+      "source": "book:page38 (screenshot)"
+    },
+    {
+      "id": "q155",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Costumes & Positioning in Scratch",
+      "question": "Which of the following are shown as part of the watering can sprite's full behaviour in the book? (Select all that apply)",
+      "options": [
+        "Broadcasts 'water plant' when clicked",
+        "Alternates between two costumes to look like pouring",
+        "Positions itself at a set x,y location when the green flag is clicked",
+        "Automatically waters the plant every 5 seconds without being clicked"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The watering can broadcasts 'water plant' when clicked, alternates its two costumes to animate pouring, and sets its starting x,y position on green flag. It is FALSE that it waters automatically every 5 seconds -- watering only happens when the player clicks the sprite.",
+      "source": "book:page49 (synthesis)"
+    },
+    {
+      "id": "q156",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Costumes & Positioning in Scratch",
+      "question": "What visual technique makes a static picture look like it is 'flying' or 'pouring' in Scratch?",
+      "options": [
+        "Changing the backdrop colour only",
+        "Quickly alternating between two or more costumes over short waits",
+        "Deleting the sprite and recreating it",
+        "Using only the pen tool"
+      ],
+      "answer": 1,
+      "explanation": "Both the butterfly's flying effect and the watering can's pouring effect work the same way: alternate between costumes with short waits in between, giving the illusion of continuous motion.",
+      "source": "book:page49 / facts:page15 (synthesis)"
+    },
+    {
+      "id": "q157",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Costumes & Positioning in Scratch",
+      "question": "Because the crane and the watering can are two completely different sprites in two different Scratch projects within this chapter, their scripts and costumes are unrelated to each other.",
+      "answer": true,
+      "explanation": "This is true -- the crane/crab animation (Animation and Storytelling) and the watering can (Growing Digital Plants) are separate Scratch activities within the chapter, each with its own sprites, costumes and scripts, even though both use similar block types like movement and events.",
+      "source": "_quiz_source.md topics (synthesis)"
+    },
+    {
+      "id": "q158",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Scratch Basics & Sprites",
+      "question": "The book's Scratch screenshot shows blocks like 'broadcast message1', 'wait 1 seconds', 'repeat 10', and 'forever' in the Code tab. What does this tell you about how Scratch scripts are built?",
+      "options": [
+        "Scripts can only ever use one block at a time",
+        "Scripts are built by snapping multiple different block types together into a sequence",
+        "Only the 'Motion' category can be used",
+        "Blocks cannot be combined with each other"
+      ],
+      "answer": 1,
+      "explanation": "The screenshot shows blocks from different categories (Events, Control) stacked together, illustrating that a Scratch script is simply a combination of multiple blocks connected in sequence to produce a full behaviour.",
+      "source": "book:page36 (screenshot)"
+    },
+    {
+      "id": "q159",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scratch Basics & Sprites",
+      "question": "Besides the Code tab, which other tabs are visible in the Scratch interface shown in the book?",
+      "options": [
+        "Costumes and Sounds",
+        "Fractions and Loops",
+        "Water and Sunlight",
+        "Crossword and Answer Key"
+      ],
+      "answer": 0,
+      "explanation": "The Scratch window in the book's screenshot shows three tabs: Code, Costumes, and Sounds -- Code is where you build scripts, Costumes lets you manage a sprite's looks, and Sounds manages audio.",
+      "source": "book:page36 (screenshot)"
+    },
+    {
+      "id": "q160",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Scratch Basics & Sprites",
+      "question": "The Scratch interface has separate tabs for Code, Costumes, and Sounds.",
+      "answer": true,
+      "explanation": "The screenshot in the book clearly shows these three tabs at the top of the sprite editing area: Code, Costumes, and Sounds.",
+      "source": "book:page36 (screenshot)"
+    },
+    {
+      "id": "q161",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Scratch Basics & Sprites",
+      "question": "What is shown in the small panel at the bottom-right of the Scratch window, next to the sprite list?",
+      "options": [
+        "The Stage's current backdrop thumbnail area",
+        "The crossword puzzle",
+        "The answer key",
+        "The pen tool settings"
+      ],
+      "answer": 0,
+      "explanation": "The bottom-right area of the Scratch window shows the 'Backdrops' section with a thumbnail, separate from the sprite list on the left which shows sprites like Crane and Sprite1.",
+      "source": "book:page36 (screenshot)"
+    },
+    {
+      "id": "q162",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Scratch Basics & Sprites",
+      "question": "A student believes 'a Scratch project can only ever have ONE sprite.' Why is this incorrect?",
+      "options": [
+        "It is actually correct",
+        "This chapter's own projects use multiple sprites together, e.g. crane + crab, and plant + watering can + butterfly",
+        "Scratch requires exactly 2 sprites, never more or fewer",
+        "Sprites are not allowed in Scratch at all"
+      ],
+      "answer": 1,
+      "explanation": "Multiple sprites working together is central to this chapter: the animation project needs both a crane and a crab sprite, and the garden project needs a plant, a watering can, and a butterfly sprite all interacting via broadcast messages.",
+      "source": "book:page36 / book:page45-49 (synthesis)"
+    },
+    {
+      "id": "q163",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scratch Basics & Sprites",
+      "question": "Which of these is an accurate one-sentence description of what this ICT chapter teaches, based on its own introduction?",
+      "options": [
+        "How to make characters of a story move and much more with Scratch",
+        "How to bake a cake",
+        "How to write a crossword puzzle from scratch (paper only)",
+        "How to play a musical instrument"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's own 'Get Set, Go!' introduction ends with: 'Let us learn how to make characters of a story move and much more with Scratch!'",
+      "source": "book:page35"
+    },
+    {
+      "id": "q164",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Scratch Basics & Sprites",
+      "question": "Why do you think this chapter chose Scratch specifically to teach BOTH animation and fractions, instead of two separate unrelated tools?",
+      "options": [
+        "Because Scratch happens to be the only software that exists",
+        "Because Scratch's visual, block-based approach lets young learners build movement, drawing, and logic (like conditions and variables) all in the same simple environment",
+        "Because fractions and animation are the same thing",
+        "There is no reason, it is random"
+      ],
+      "answer": 1,
+      "explanation": "Scratch's drag-and-drop blocks make it accessible for beginners to build many different kinds of projects -- movement/animation, pen-tool drawing for fractions, and logic with variables for the plant simulation -- all using the same simple block-based interface.",
+      "source": "_quiz_source.md topics (reasoning)"
+    },
+    {
+      "id": "q165",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Movement Blocks",
+      "question": "In the book's loop example, 'repeat 10: move 50 steps, turn 180 degrees' is contrasted with 'forever: move 10 steps, turn 20 degrees.' What is different about the step/degree values used in each example?",
+      "options": [
+        "They are identical in both examples",
+        "The repeat example uses bigger movement (50 steps, 180 degrees) while the forever example uses smaller, continuous movement (10 steps, 20 degrees)",
+        "The forever example uses negative numbers",
+        "Only the repeat example uses degrees"
+      ],
+      "answer": 1,
+      "explanation": "The book's repeat example uses larger values (50 steps, 180 degrees turn) suited to a fixed number of big back-and-forth movements, while the forever example uses smaller values (10 steps, 20 degrees) suited to smooth, continuous background motion.",
+      "source": "book:page38 (screenshot)"
+    },
+    {
+      "id": "q166",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Movement Blocks",
+      "question": "If you wanted your crab sprite to flip and face the opposite direction, which block would you most likely use?",
+      "options": [
+        "move steps",
+        "turn degrees (e.g. turn 180 degrees)",
+        "wait seconds",
+        "broadcast"
+      ],
+      "answer": 1,
+      "explanation": "Turning 180 degrees flips a sprite to face the opposite direction it was previously facing -- this is a common use of the 'turn degrees' block.",
+      "source": "facts:page3 (applied reasoning)"
+    },
+    {
+      "id": "q167",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Movement Blocks",
+      "question": "The 'move steps' block changes the direction a sprite is facing.",
+      "answer": false,
+      "explanation": "This is false -- 'move steps' moves the sprite FORWARD in whatever direction it is currently facing; it is the 'turn degrees' block that changes the facing direction.",
+      "source": "facts:page3 (misconception check)"
+    },
+    {
+      "id": "q168",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Movement Blocks",
+      "question": "A crab sprite is facing right (direction 90) and its script says 'move 50 steps' with no turn block before it. Which way will the crab move?",
+      "options": [
+        "Upward on the screen",
+        "To the right, since it moves in whatever direction it is currently facing",
+        "Downward on the screen",
+        "It will not move at all"
+      ],
+      "answer": 1,
+      "explanation": "Since 'move steps' always moves a sprite forward in its CURRENT facing direction, and the crab is facing right (direction 90), it will move to the right across the stage.",
+      "source": "facts:page3 (applied reasoning)"
+    },
+    {
+      "id": "q169",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Movement Blocks",
+      "question": "Which pair of blocks together let you make a crane 'glide smoothly to a new spot while also facing the right way'?",
+      "options": [
+        "move steps + wait seconds",
+        "glide + point in direction",
+        "repeat + forever",
+        "broadcast + when I receive"
+      ],
+      "answer": 1,
+      "explanation": "'glide' smoothly animates the sprite to a new position over time, and 'point in direction' ensures it faces the correct way while doing so -- together giving natural-looking movement, like a crane flying over a lake.",
+      "source": "book:page49 / facts:page19 (synthesis)"
+    },
+    {
+      "id": "q170",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Movement Blocks",
+      "question": "Which of these blocks would you use to make a sprite look at another sprite on the other side of the stage?",
+      "options": [
+        "turn degrees",
+        "wait seconds",
+        "repeat",
+        "broadcast"
+      ],
+      "answer": 0,
+      "explanation": "The 'turn degrees' block changes which way a sprite is facing, which the book specifically notes is useful to 'make characters look at each other in your animations.'",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q171",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sequencing",
+      "question": "A student wants a crane to 'say I'm hungry' only AFTER it has finished moving to its spot, not before. What sequencing choice makes this happen?",
+      "options": [
+        "Placing the 'say' block anywhere at random in the stack",
+        "Placing the 'move'/'go to' block ABOVE the 'say' block in the same script, so movement finishes first",
+        "Using two different sprites",
+        "Using the pen tool"
+      ],
+      "answer": 1,
+      "explanation": "Since Scratch runs a stack of blocks top to bottom in order, placing the movement block above the 'say' block ensures the crane finishes moving before it says 'I'm hungry!'.",
+      "source": "book:page37 (reasoning)"
+    },
+    {
+      "id": "q172",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Sequencing",
+      "question": "In Scratch, the exact order in which you stack blocks does not affect what happens when the script runs.",
+      "answer": false,
+      "explanation": "This is false -- Scratch executes stacked blocks strictly in the order they appear, from top to bottom, so changing the order can completely change the animation's result.",
+      "source": "book:page38 (misconception check)"
+    },
+    {
+      "id": "q173",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sequencing",
+      "question": "What everyday activity does the book compare 'sequencing' to?",
+      "options": [
+        "Cooking a meal with no instructions",
+        "Reading a story from beginning to end",
+        "Watching TV with the sound off",
+        "Drawing without a plan"
+      ],
+      "answer": 1,
+      "explanation": "The book directly compares sequencing to 'reading a story from beginning to end' -- both involve following steps or events in a fixed, meaningful order.",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q174",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Loops: Repeat, Forever & Repeat Until",
+      "question": "Which loop block would best suit 'keep checking the plant's water and sunlight levels until it finally reaches the mature stage, however long that takes'?",
+      "options": [
+        "repeat 10",
+        "forever",
+        "repeat until growth stage = 4",
+        "wait 1 seconds"
+      ],
+      "answer": 2,
+      "explanation": "'repeat until' is exactly designed for this: it keeps looping (checking conditions) until a specific condition -- here growth stage = 4 -- becomes true, then it stops automatically, unlike 'forever' which never stops and 'repeat 10' which stops after a fixed count regardless of the plant's actual state.",
+      "source": "book:page47 (reasoning)"
+    },
+    {
+      "id": "q175",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Loops: Repeat, Forever & Repeat Until",
+      "question": "Which of these are examples of loop blocks used in this chapter? (Select all that apply)",
+      "options": [
+        "repeat",
+        "forever",
+        "repeat until",
+        "point in direction"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "repeat, forever, and repeat until are all loop blocks used across the chapter's projects. 'point in direction' is a motion block, not a loop.",
+      "source": "facts:page4 / book:page47 (synthesis)"
+    },
+    {
+      "id": "q176",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Loops: Repeat, Forever & Repeat Until",
+      "question": "Why are loops described as helpful for avoiding 'repetitive coding'?",
+      "options": [
+        "Because they let you write an action once and have it run multiple times, instead of copying the same blocks over and over",
+        "Because they delete extra blocks automatically",
+        "Because they only work with one block at a time",
+        "Because they change the backdrop automatically"
+      ],
+      "answer": 0,
+      "explanation": "Loops let you place an action's blocks once inside a loop block (like 'repeat' or 'forever'), and Scratch automatically runs that action multiple times, saving you from copying and pasting the same blocks repeatedly.",
+      "source": "facts:page4"
+    },
+    {
+      "id": "q177",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Loops: Repeat, Forever & Repeat Until",
+      "question": "If a 'repeat until growth stage = 4' loop is running, and the growth stage variable becomes 4 partway through one pass of the loop's blocks, what generally happens?",
+      "options": [
+        "The loop stops the very next time it checks the condition (typically at the start of its next pass)",
+        "The loop keeps running forever regardless",
+        "The loop deletes the growth stage variable",
+        "Nothing happens until the green flag is clicked again"
+      ],
+      "answer": 0,
+      "explanation": "A 'repeat until' loop checks its condition at the top of each pass; once growth stage becomes 4, the NEXT time the loop checks the condition, it will stop repeating, since the condition (growth stage = 4) is now true.",
+      "source": "book:page47 (reasoning)"
+    },
+    {
+      "id": "q178",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Loops: Repeat, Forever & Repeat Until",
+      "question": "Why would using a 'repeat 4' loop (rather than 'repeat until') be the WRONG choice for managing the plant's growth stages?",
+      "options": [
+        "Because 'repeat 4' is not a real Scratch block",
+        "Because 'repeat 4' would only run its actions exactly 4 times total and then stop, even if the plant hasn't actually reached the mature stage yet -- growth depends on water/sunlight conditions, not a fixed count",
+        "Because 'repeat 4' can only be used with fractions",
+        "There is no difference between the two"
+      ],
+      "answer": 1,
+      "explanation": "Growth should depend on whether the plant HAS received enough water and sunlight at each stage, which can take a varying, unpredictable amount of checking -- a fixed 'repeat 4' would stop checking after 4 passes regardless of the plant's actual condition, which is why 'repeat until growth stage = 4' (condition-based) is the correct choice instead.",
+      "source": "book:page47 (reasoning)"
+    },
+    {
+      "id": "q179",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Loops: Repeat, Forever & Repeat Until",
+      "question": "Loops in Scratch repeat actions automatically, which saves time compared to writing the same blocks over and over.",
+      "answer": true,
+      "explanation": "This matches the book directly: 'Loops in Scratch repeat actions automatically... They save time by avoiding repetitive coding.'",
+      "source": "facts:page4"
+    },
+    {
+      "id": "q180",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Broadcast Messages & Coordination",
+      "question": "What is the difference between a plain 'broadcast [message]' block and a 'broadcast [message] and wait' block?",
+      "options": [
+        "There is no difference",
+        "'broadcast and wait' pauses the sending sprite's script until all receiving scripts finish responding, while plain 'broadcast' does not wait",
+        "'broadcast and wait' sends the message to more sprites",
+        "'broadcast and wait' is used only for fractions"
+      ],
+      "answer": 1,
+      "explanation": "'broadcast [message] and wait' (seen in the plant's 'broadcast plant mature and wait' block) pauses the sender's own script until every sprite that received the message finishes its response, whereas a plain 'broadcast' block fires the message and immediately continues without waiting.",
+      "source": "book:page47 (broadcast plant mature and wait)"
+    },
+    {
+      "id": "q181",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Broadcast Messages & Coordination",
+      "question": "Which sprite in the digital garden receives the 'plant mature' message?",
+      "options": [
+        "The watering can sprite",
+        "The butterfly sprite",
+        "The crab sprite",
+        "The crane sprite"
+      ],
+      "answer": 1,
+      "explanation": "The butterfly sprite is programmed to receive the 'plant mature' broadcast message, which is its cue to appear and start flying around.",
+      "source": "book:page49"
+    },
+    {
+      "id": "q182",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Broadcast Messages & Coordination",
+      "question": "A single broadcast message, like 'plant mature', can be received by more than one sprite at the same time if more than one sprite is listening for it.",
+      "answer": true,
+      "explanation": "Broadcast messages in Scratch are heard by ALL sprites that have a matching 'when I receive' block -- so if multiple sprites listen for 'plant mature', all of them would respond, not just one.",
+      "source": "book:page18 (MILESTONE Section A Q5, extended reasoning)"
+    },
+    {
+      "id": "q183",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Broadcast Messages & Coordination",
+      "question": "If the butterfly sprite's 'when I receive plant mature' block were accidentally deleted, what would happen when the plant becomes mature?",
+      "options": [
+        "The plant would fail to become mature",
+        "The plant would still broadcast 'plant mature' as normal, but the butterfly would never respond or appear, since it no longer has a script listening for that message",
+        "The watering can would appear instead of the butterfly",
+        "Scratch would refuse to run the whole project"
+      ],
+      "answer": 1,
+      "explanation": "Broadcasting a message doesn't depend on who's listening -- the plant would still successfully broadcast 'plant mature'. But without a 'when I receive plant mature' script, the butterfly sprite has no instructions telling it to appear, so it simply would not respond.",
+      "source": "book:page47 / book:page49 (troubleshooting reasoning)"
+    },
+    {
+      "id": "q184",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Broadcast Messages & Coordination",
+      "question": "What does the 'when I receive [message]' block do?",
+      "options": [
+        "Sends a new message to all sprites",
+        "Starts running its attached blocks whenever the matching broadcast message is received",
+        "Draws a fraction shape",
+        "Waters the plant automatically every second"
+      ],
+      "answer": 1,
+      "explanation": "'when I receive [message]' is the receiving half of the broadcast system -- it runs its attached script only when the matching message has been broadcast by any sprite.",
+      "source": "worksheet-51316 Q1c (answer key, extended)"
+    },
+    {
+      "id": "q185",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Backdrops & Multiple Characters",
+      "question": "Why might a Scratch project use different backdrops for different scenes, like a beach for the crane-and-crab story?",
+      "options": [
+        "Backdrops have no real purpose in Scratch",
+        "Different backdrops set the right setting for each part of the story, making scene changes feel natural, especially when paired with 'go to' for quick transitions",
+        "Only one backdrop is ever allowed per project",
+        "Backdrops replace the need for sprites"
+      ],
+      "answer": 1,
+      "explanation": "Custom backdrops let a story change settings (like moving between different lake scenes for a flying crane), and pairing backdrop changes with quick 'go to' movements creates natural-feeling scene transitions.",
+      "source": "facts:page5 / facts:page3 (synthesis)"
+    },
+    {
+      "id": "q186",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Backdrops & Multiple Characters",
+      "question": "In this chapter's animated story, why do the crane and crab both need their OWN separate movement blocks rather than sharing one set?",
+      "options": [
+        "Because Scratch does not allow sharing anyway, and each sprite must be independently told what to do",
+        "Because only the crane is allowed to move",
+        "Because the crab does not need any blocks at all",
+        "Because sharing blocks would erase the pen tool drawings"
+      ],
+      "answer": 0,
+      "explanation": "Each sprite in Scratch has its own independent script area; you must give each character (crane and crab) its own movement blocks so both can act -- one sprite's blocks do not automatically apply to another sprite.",
+      "source": "book:page38 (reasoning)"
+    },
+    {
+      "id": "q187",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Backdrops & Multiple Characters",
+      "question": "Timing the crane's and crab's actions carefully is important so their interactions in the story make sense.",
+      "answer": true,
+      "explanation": "The book states that when adding multiple characters, 'we can make them interact with each other by timing their actions carefully' -- good timing is what makes multi-character animations look coordinated rather than random.",
+      "source": "book:page38"
+    },
+    {
+      "id": "q188",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Backdrops & Multiple Characters",
+      "question": "What real-life idea does customizing backdrops in Scratch connect to?",
+      "options": [
+        "Changing the setting or scene of a story, like moving from one place to another",
+        "Changing a sprite's costume only",
+        "Adding fractions to a scene",
+        "Deleting sprites"
+      ],
+      "answer": 0,
+      "explanation": "Backdrops represent the setting of a scene -- customizing them mirrors how a real story's setting can change from one place (like a lake) to another as the plot moves along.",
+      "source": "facts:page5 (real-life connection)"
+    },
+    {
+      "id": "q189",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fractions with the Pen Tool",
+      "question": "Why must you use 'erase all' before starting a new pen-tool drawing in Scratch?",
+      "options": [
+        "It is not actually necessary and does nothing",
+        "So old pen drawings from a previous run don't remain mixed in with the new shape you are about to draw",
+        "It changes the sprite's costume",
+        "It stops the loop from running"
+      ],
+      "answer": 1,
+      "explanation": "'Erase all' clears any previously drawn pen marks on the stage, ensuring your new fraction shape is drawn cleanly without leftover lines from earlier runs of the project.",
+      "source": "book:page40 (reasoning)"
+    },
+    {
+      "id": "q190",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractions with the Pen Tool",
+      "question": "What is the purpose of 'set pen size' before drawing a fraction shape?",
+      "options": [
+        "To control how thick or thin the drawn lines will be",
+        "To control how many loops run",
+        "To control the sprite's costume",
+        "To control the backdrop colour"
+      ],
+      "answer": 0,
+      "explanation": "'set pen size' controls the thickness of the lines the pen draws -- useful for making shape outlines and division lines clear and easy to see.",
+      "source": "book:page40 (reasoning)"
+    },
+    {
+      "id": "q191",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Fractions with the Pen Tool",
+      "question": "To draw a shape with the pen tool where the drawing follows the sprite as it moves, which block must be turned on BEFORE the movement blocks run?",
+      "options": [
+        "pen up",
+        "pen down",
+        "erase all",
+        "wait 1 seconds"
+      ],
+      "answer": 1,
+      "explanation": "'pen down' must be active before the sprite moves so that the pen actually leaves a trail as the sprite travels; 'pen up' does the opposite and lifts the pen so movement leaves no mark -- useful for repositioning without drawing.",
+      "source": "book:page40 (reasoning)"
+    },
+    {
+      "id": "q192",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Fractions with the Pen Tool",
+      "question": "Which of the following steps, in this general order, would correctly draw a clean square divided visibly using the pen tool? (Select all that apply, regardless of order)",
+      "options": [
+        "Erase all",
+        "Set pen colour and pen size",
+        "Pen down",
+        "Repeat 4 [move 100 steps, turn 90 degrees]"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "All four steps are genuinely part of the book's pen-tool square-drawing process: clear old drawings (erase all), choose colour/thickness (set pen colour/size), lower the pen so it draws (pen down), then repeat the move+turn sequence 4 times to trace a square's 4 equal sides.",
+      "source": "book:page40 (synthesis)"
+    },
+    {
+      "id": "q193",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractions with the Pen Tool",
+      "question": "What number of equal parts would a shape have if it is divided to show the fraction 1/2?",
+      "options": [
+        "1 part",
+        "2 equal parts, with 1 of them representing the fraction",
+        "3 equal parts",
+        "4 equal parts"
+      ],
+      "answer": 1,
+      "explanation": "The fraction 1/2 means 1 part out of 2 equal parts of a whole -- so the shape would be divided into 2 equal parts total.",
+      "source": "facts:page8 (applied reasoning)"
+    },
+    {
+      "id": "q194",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fractions with the Pen Tool",
+      "question": "Comparing 1/2 and 3/4, which fraction represents a LARGER coloured portion of an equally divided shape?",
+      "options": [
+        "1/2",
+        "3/4",
+        "They are exactly equal",
+        "It cannot be determined"
+      ],
+      "answer": 1,
+      "explanation": "3/4 (three out of four equal parts) is a larger portion than 1/2 (one out of two equal parts, i.e. half) -- 3/4 is greater than 1/2 when comparing fractions of the same whole.",
+      "source": "facts:page8 / facts:page20 (applied reasoning)"
+    },
+    {
+      "id": "q195",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Fractions with the Pen Tool",
+      "question": "The pen tool in Scratch can be used to draw both squares and circles to show fractions.",
+      "answer": true,
+      "explanation": "The book shows both a square example (repeat 4: move 100 steps, turn 90 degrees) and circle/pizza-slice examples for showing fractions -- so both shapes are used with the pen tool.",
+      "source": "book:page40 / facts:page10"
+    },
+    {
+      "id": "q196",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "In the mature-stage check, the book uses TWO nested if-then blocks: an outer one checking 'water level > 60 and sunlight hours > 30' and an inner one checking 'growth stage = 3'. Why use two separate checks instead of one big condition?",
+      "options": [
+        "Scratch does not allow combining more than one comparison with 'and'",
+        "It is simply how the book chose to organize the logic -- both conditions must be true together for the plant to advance, whether combined into one 'and' or nested as two if-thens",
+        "The inner check is not actually needed at all",
+        "Because growth stage never actually reaches 3"
+      ],
+      "answer": 1,
+      "explanation": "Functionally, both the water/sunlight condition AND the growth-stage condition must be true for the plant to advance to mature; the book nests them as two if-then blocks, but the same idea could also be written as one combined 'and' condition -- either way, ALL conditions must hold true together.",
+      "source": "book:page47 (reasoning)"
+    },
+    {
+      "id": "q197",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "Which growth stage number corresponds to the 'young plant' stage, based on the mature-stage check requiring 'growth stage = 3'?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "Since the check for becoming mature requires 'growth stage = 3' (meaning the plant is currently a young plant) before switching to growth stage 4 (mature), growth stage 3 corresponds to 'young plant'.",
+      "source": "book:page47 (reasoning)"
+    },
+    {
+      "id": "q198",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "Which of the following correctly matches a growth stage NUMBER to its name, based on the standard order seed(1)->sprout(2)->young plant(3)->mature(4)? (Select all that apply)",
+      "options": [
+        "Growth stage 1 = seed",
+        "Growth stage 2 = sprout",
+        "Growth stage 4 = mature",
+        "Growth stage 3 = mature"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Following the confirmed order (seed, sprout, young plant, mature), growth stage 1 = seed, 2 = sprout, 3 = young plant, and 4 = mature. It is FALSE that growth stage 3 = mature -- stage 3 is young plant, and stage 4 is mature.",
+      "source": "facts:page21 / book:page47 (synthesis)"
+    },
+    {
+      "id": "q199",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "What does 'plant age' most likely track in the digital plant simulation?",
+      "options": [
+        "How many butterflies have visited",
+        "How long (in time) the digital plant has existed or been growing",
+        "The pen tool's colour",
+        "The backdrop number"
+      ],
+      "answer": 1,
+      "explanation": "'Plant age' is one of the three variables shown alongside water level and sunlight hours, and -- as its name suggests -- it tracks how long the plant has existed/been growing over time.",
+      "source": "book:page45 (reasoning)"
+    },
+    {
+      "id": "q200",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "The digital plant's growth-stage advancement depends only on the water level, never on sunlight hours.",
+      "answer": false,
+      "explanation": "This is false -- every growth-stage transition (seed->sprout, sprout->young, young->mature) requires BOTH enough water AND enough sunlight hours, not water alone.",
+      "source": "book:page45 / worksheet-51316 Q1d (misconception check)"
+    },
+    {
+      "id": "q201",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Digital Plant: Variables & Growth Stages",
+      "question": "Suppose a plant has water level = 25 and sunlight hours = 8. Has it met the requirement to grow from seed to sprout (20 water / 10 sunlight)?",
+      "options": [
+        "Yes, both requirements are met",
+        "No -- water level (25) meets the requirement, but sunlight hours (8) is still below the required 10, so BOTH conditions are not yet true",
+        "No, because water level is too low",
+        "Yes, because water level is more than enough"
+      ],
+      "answer": 1,
+      "explanation": "The seed-to-sprout transition requires water level > 20-ish threshold AND sunlight hours > 10-ish threshold together (the book's stated needs are 20 water/10 sunlight). Water (25) clears its requirement, but sunlight (8) is still below 10, so the overall condition (both must be true) is not yet satisfied.",
+      "source": "book:page45 (applied reasoning)"
+    },
+    {
+      "id": "q202",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Plant Care: Watering, Sunlight & Problems",
+      "question": "Both wilting and overwatering are described as plant 'problems.' What is the key difference between their causes?",
+      "options": [
+        "They have the exact same cause",
+        "Wilting is caused by TOO LITTLE water (below 5), while overwatering is caused by TOO MUCH water (above 100)",
+        "Wilting is caused by too much sunlight, overwatering by too little sunlight",
+        "Neither is related to water at all"
+      ],
+      "answer": 1,
+      "explanation": "Wilting and overwatering are opposite problems: wilting happens when water level drops below 5 (too little), while overwatering happens when water level rises above 100 (too much) -- both are avoidable by keeping water in a healthy middle range.",
+      "source": "book:page47 (comparison)"
+    },
+    {
+      "id": "q203",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Plant Care: Watering, Sunlight & Problems",
+      "question": "According to the worksheet, if your digital plant is wilting, what should you do?",
+      "options": [
+        "Click on the crab sprite",
+        "Click on the watering can sprite to increase the water level",
+        "Change the backdrop",
+        "Wait for the butterfly to appear"
+      ],
+      "answer": 1,
+      "explanation": "The worksheet's own fill-in-the-blank instruction is: click on the watering can sprite to increase the water level variable when the plant is wilting.",
+      "source": "worksheet-51316 Q1e (answer key)"
+    },
+    {
+      "id": "q204",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Plant Care: Watering, Sunlight & Problems",
+      "question": "A student clicks the watering can sprite 20 times in a row without checking the water level. What risk does this create?",
+      "options": [
+        "No risk at all, more water is always better",
+        "A risk of overwatering, since water level could rise above 100 and make the plant look yellow and sick",
+        "A risk that the plant will instantly become a butterfly",
+        "A risk that the crossword puzzle will disappear"
+      ],
+      "answer": 1,
+      "explanation": "Since overwatering triggers once water level goes above 100, repeatedly clicking the watering can without checking the current level risks pushing water level too high, causing the plant to become yellow and sick ('Too much water! I'm drowning!').",
+      "source": "book:page47 (applied reasoning)"
+    },
+    {
+      "id": "q205",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Plant Care: Watering, Sunlight & Problems",
+      "question": "Which of these are legitimate ways to influence the digital plant's variables, according to the book's blocks? (Select all that apply)",
+      "options": [
+        "Clicking the watering can sprite (raises water level)",
+        "Pressing the 'S' key (raises sunlight hours by 10)",
+        "Clicking the crossword puzzle",
+        "Waiting for the butterfly to lower the water level"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Only clicking the watering can (raising water level) and pressing 'S' (raising sunlight hours by 10) are shown as real ways to influence the plant's variables. There is no crossword-click or butterfly action that changes water/sunlight in this project.",
+      "source": "book:page49 (synthesis)"
+    },
+    {
+      "id": "q206",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Plant Care: Watering, Sunlight & Problems",
+      "question": "What message does the plant say when the watering can sprite waters it and gives it just the right amount over time (no wilting, no overwatering)?",
+      "options": [
+        "There is no special message for balanced care -- the plant simply continues growing normally toward its next stage",
+        "'Too much water! I'm drowning!'",
+        "'I'm wilting! Need water!'",
+        "'HOME CONNECT'"
+      ],
+      "answer": 0,
+      "explanation": "The book only shows special messages for the PROBLEM states (wilting: 'I'm wilting! Need water!'; overwatering: 'Too much water! I'm drowning!') and the success state (mature: 'I'm fully grown!'). Balanced, in-between care has no special complaint message -- the plant simply keeps progressing normally.",
+      "source": "book:page47 (reasoning)"
+    },
+    {
+      "id": "q207",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Plant Care: Watering, Sunlight & Problems",
+      "question": "Why does the book emphasize 'balance' when discussing plant care rather than simply saying 'give as much water and sunlight as possible'?",
+      "options": [
+        "Because more is always better with no limit",
+        "Because giving too much water causes overwatering (yellow, sick plant), so care must stay within a healthy range, not just maximized",
+        "Because sunlight has no effect on the plant at all",
+        "Because balance only matters for fractions, not plants"
+      ],
+      "answer": 1,
+      "explanation": "The book explicitly warns that overwatering (too much water) is just as harmful as wilting (too little water) -- so care must be balanced within a healthy range rather than simply maximized.",
+      "source": "facts:page17 / book:page47 (reasoning)"
+    },
+    {
+      "id": "q208",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Butterfly & Digital Garden",
+      "question": "Which comes FIRST in the digital garden's sequence of events: the plant reaching growth stage 4, or the butterfly appearing?",
+      "options": [
+        "The butterfly appears first, then the plant matures",
+        "The plant reaches growth stage 4 (mature) first, which then broadcasts a message that makes the butterfly appear",
+        "They always happen at exactly the same instant with no dependency",
+        "Neither is connected to the other"
+      ],
+      "answer": 1,
+      "explanation": "The order is: the plant meets its water/sunlight conditions, advances to growth stage 4 (mature), broadcasts 'plant mature' -- and only THEN does the butterfly, upon receiving that message, appear and start flying.",
+      "source": "book:page47 / book:page49 (sequence reasoning)"
+    },
+    {
+      "id": "q209",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The Butterfly & Digital Garden",
+      "question": "The butterfly's role in the digital garden is purely decorative and has no connection to how well the plant has been cared for.",
+      "answer": false,
+      "explanation": "This is false -- the butterfly's appearance is directly tied to plant care: it only shows up after the plant successfully reaches the mature stage (i.e. after being watered and given sunlight correctly), so it reflects good care, not random decoration.",
+      "source": "book:page47 / book:page49 (misconception check)"
+    },
+    {
+      "id": "q210",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Butterfly & Digital Garden",
+      "question": "What does the presence of a butterfly in the digital garden suggest about the plant?",
+      "options": [
+        "The plant is wilting",
+        "The plant has grown flowers and reached the mature stage",
+        "The plant is overwatered",
+        "The plant has just been planted as a seed"
+      ],
+      "answer": 1,
+      "explanation": "Since the butterfly only appears after receiving the 'plant mature' broadcast, seeing the butterfly signals that the plant has successfully grown flowers and reached the mature stage.",
+      "source": "facts:page15 / book:page49 (reasoning)"
+    },
+    {
+      "id": "q211",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Butterfly & Digital Garden",
+      "question": "Why is it meaningful, from a real-life-connection point of view, that the butterfly only appears once the plant is mature and has flowers?",
+      "options": [
+        "It isn't meaningful at all, it's arbitrary",
+        "It mirrors real life, where butterflies are attracted to flowering plants rather than seeds or bare soil",
+        "Because butterflies dislike water",
+        "Because butterflies only like watering cans"
+      ],
+      "answer": 1,
+      "explanation": "In real gardens, butterflies are drawn to flowers for nectar, not to seeds or bare soil -- the simulation's rule (butterfly appears only once the plant flowers/matures) reflects this real-world behaviour.",
+      "source": "facts:page15 (real-life connection reasoning)"
+    },
+    {
+      "id": "q212",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Butterfly & Digital Garden",
+      "question": "What does the book suggest about making the garden simulation 'more interactive'?",
+      "options": [
+        "Adding more creatures or responses, like the butterfly, that react to the plant's condition",
+        "Removing all variables",
+        "Deleting the watering can sprite",
+        "Turning off all loops"
+      ],
+      "answer": 0,
+      "explanation": "The book poses the reflective question 'How would you make your garden more interactive?' right after discussing communication via messages -- implying that adding more responsive elements (like more creatures reacting to plant state) increases interactivity.",
+      "source": "facts:page16"
+    },
+    {
+      "id": "q213",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "The chapter includes TWO separate review crossword puzzles -- one in a worksheet and one on a book review page. Which set of words belongs to the WORKSHEET crossword (Animation, Integration, Transition, Fractions, Loop)?",
+      "options": [
+        "Animation, Integration, Transition, Fractions, Loop",
+        "Sprites, Butterfly, Variables, Coordination, Sequencing",
+        "Only Sprites and Loop",
+        "None of the words appear in either crossword"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet crossword's answers are Animation, Integration, Fractions (across) and Transition, Loop (down) -- this is a different puzzle from the book's own review-page crossword, which instead uses Sprites, Butterfly, Variables, Coordination, and Sequencing.",
+      "source": "book:page54 (worksheet crossword, distinguishing from book review crossword)"
+    },
+    {
+      "id": "q214",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "Which word would best fit the clue 'A digital puppet you can control in Scratch' in a crossword?",
+      "options": [
+        "Sprite",
+        "Loop",
+        "Fraction",
+        "Backdrop"
+      ],
+      "answer": 0,
+      "explanation": "A 'sprite' is exactly this: a digital puppet/character in Scratch that you control using code blocks.",
+      "source": "facts:page2 (vocabulary)"
+    },
+    {
+      "id": "q215",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "Two crossword clues in this chapter both relate to timing/order: one says 'the smooth change from one stage to another' (Transition) and another says 'putting movement blocks in the right order' (Sequencing). What is the key difference between these two ideas?",
+      "options": [
+        "They are exactly the same idea with two different names",
+        "'Transition' describes changing FROM one stage/state TO another (like sprout to young plant), while 'Sequencing' describes the ORDER of individual instructions within one sprite's script",
+        "Sequencing only applies to butterflies",
+        "Transition only applies to fractions"
+      ],
+      "answer": 1,
+      "explanation": "'Transition' is about moving between overall states or stages (e.g. a plant's growth stage changing, or a scene changing), while 'Sequencing' is specifically about the order in which individual blocks/instructions run within a script -- related but distinct ideas.",
+      "source": "book:page54 (crossword clues, synthesis)"
+    },
+    {
+      "id": "q216",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Milestone Review",
+      "question": "Considering the whole chapter, which single Scratch feature is used in ALL THREE major projects (crane/crab animation, fraction drawing, and digital plant)?",
+      "options": [
+        "The pen tool",
+        "Sprites and their block-based scripts",
+        "The crossword tool",
+        "The watering can costume"
+      ],
+      "answer": 1,
+      "explanation": "Every project in this chapter -- the crane/crab story, the fraction-drawing activity, and the digital plant simulation -- relies on sprites controlled by their own block-based scripts, even though each project uses different specific blocks.",
+      "source": "_quiz_source.md topics (synthesis)"
+    },
+    {
+      "id": "q217",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Chapter Milestone Review",
+      "question": "Which of these correctly distinguish 'variables' from 'sprites' in Scratch, based on this chapter? (Select all that apply)",
+      "options": [
+        "A sprite is a character/digital puppet on the stage, like the crane or the plant",
+        "A variable is a stored piece of information, like water level or growth stage, that can change over time",
+        "Variables and sprites are the exact same thing",
+        "A single sprite's script can check and change variable values using if-then and 'set variable' blocks"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Sprites are characters on the stage, while variables are stored data values that scripts can read and change (e.g. the plant's script checks and sets water level, sunlight hours, growth stage). They are NOT the same thing -- one is a visible character, the other is invisible stored information.",
+      "source": "facts:page2 / facts:page11 (synthesis)"
+    },
+    {
+      "id": "q218",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Chapter Milestone Review",
+      "question": "Which topic in this chapter is most directly connected to mathematics (specifically parts of a whole)?",
+      "options": [
+        "Animation and Storytelling with Scratch",
+        "Fractions Come Alive with Technology",
+        "Growing Digital Plants with Scratch",
+        "The crossword puzzle"
+      ],
+      "answer": 1,
+      "explanation": "'Fractions Come Alive with Technology' is the sub-topic directly tied to the math concept of parts of a whole, taught here using Scratch's pen tool to draw and colour shapes.",
+      "source": "chapter.json (sub-topics)"
+    },
+    {
+      "id": "q219",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Milestone Review",
+      "question": "Which of these projects in the chapter relies MOST heavily on variables and conditional (if-then) logic?",
+      "options": [
+        "The crane-and-crab animation",
+        "The fraction pen-tool drawings",
+        "The digital plant growth simulation",
+        "The crossword puzzle"
+      ],
+      "answer": 2,
+      "explanation": "The digital plant simulation is the most logic-heavy project: it uses several variables (water level, sunlight hours, plant age, growth stage) and if-then/repeat-until conditions to decide when the plant grows, wilts, or becomes overwatered.",
+      "source": "book:page45-47 (synthesis)"
+    },
+    {
+      "id": "q220",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Chapter Milestone Review",
+      "question": "This chapter, 'The Learning Web', uses the Scratch program to connect coding with storytelling, math (fractions), and simulating real-life plant care.",
+      "answer": true,
+      "explanation": "This summarizes the chapter accurately: Scratch is used across three connected activities -- animating a story, visualizing fractions, and simulating digital plant growth/care -- all in one program.",
+      "source": "_quiz_source.md topics (synthesis)"
+    }
+  ]
+}

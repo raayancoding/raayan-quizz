@@ -1,0 +1,802 @@
+{
+  "schemaVersion": 1,
+  "id": "kannada-iii-ch63-thai-haraike",
+  "title": "ಪದ್ಯ - ತಾಯಿ ಹರಕೆ (Thai Haraike)",
+  "subject": "Kannada-III-Language",
+  "grade": 4,
+  "chapter": "63. ಪದ್ಯ - ತಾಯಿ ಹರಕೆ",
+  "topic": "Full Chapter",
+  "description": "ಗ್ರೇಡ್ 4 ಕನ್ನಡ (ಮೂರನೆಯ ಭಾಷೆ) 'ತಾಯಿ ಹರಕೆ' ಪದ್ಯ, ಶಬ್ದಾರ್ಥ, ಸರಳ ವ್ಯಾಕರಣ ಮತ್ತು ಅಕ್ಷರಮಾಲೆಯ ಅಭ್ಯಾಸ ರಸಪ್ರಶ್ನೆ.",
+  "tags": [
+    "kannada",
+    "grade4",
+    "poem",
+    "thai-haraike",
+    "language"
+  ],
+  "defaultTimeLimitSec": 900,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "question": "ಈ ಪದ್ಯದ ಹೆಸರೇನು?",
+      "options": [
+        "ತಾಯಿ ಹರಕೆ",
+        "ಶಾಲೆ",
+        "ಆಟದ ಬಯಲು",
+        "ಹೂವಿನ ತೋಟ"
+      ],
+      "answer": 0,
+      "explanation": "ಈ ಪದ್ಯದ ಹೆಸರು 'ತಾಯಿ ಹರಕೆ' (Thai Haraike).",
+      "difficulty": "simple",
+      "topic": "ಪದ್ಯ - ತಾಯಿ ಹರಕೆ",
+      "source": "poem theme (grounded in title)"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "question": "'ತಾಯಿ' ಎಂದರೆ ಯಾರು?",
+      "options": [
+        "ಅಮ್ಮ",
+        "ಅಣ್ಣ",
+        "ಗೆಳೆಯ",
+        "ಶಿಕ್ಷಕ"
+      ],
+      "answer": 0,
+      "explanation": "'ತಾಯಿ' ಎಂದರೆ ಅಮ್ಮ (mother).",
+      "difficulty": "simple",
+      "topic": "ಪದ್ಯ - ತಾಯಿ ಹರಕೆ",
+      "source": "poem theme (grounded in title)"
+    },
+    {
+      "id": "q3",
+      "type": "boolean",
+      "question": "'ತಾಯಿ ಹರಕೆ' ಒಂದು ಪದ್ಯ (poem).",
+      "answer": true,
+      "explanation": "ಹೌದು, 'ತಾಯಿ ಹರಕೆ' ಒಂದು ಪದ್ಯ.",
+      "difficulty": "simple",
+      "topic": "ಪದ್ಯ - ತಾಯಿ ಹರಕೆ",
+      "source": "poem theme (grounded in title)"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "question": "'ಹರಕೆ / ಹಾರೈಕೆ' ಎಂದರೆ ಏನು?",
+      "options": [
+        "ಶುಭ ಹಾರೈಕೆ (ಒಳ್ಳೆಯ ಬಯಕೆ)",
+        "ಆಟ",
+        "ಊಟ",
+        "ನಿದ್ದೆ"
+      ],
+      "answer": 0,
+      "explanation": "'ಹಾರೈಕೆ' ಎಂದರೆ ಒಳ್ಳೆಯದನ್ನು ಬಯಸುವುದು — ಶುಭ ಹಾರೈಕೆ ಅಥವಾ ಆಶೀರ್ವಾದ.",
+      "difficulty": "tough",
+      "topic": "ಪದ್ಯ - ತಾಯಿ ಹರಕೆ",
+      "source": "poem theme (grounded in title)"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "question": "ಈ ಪದ್ಯ ಯಾವ ಭಾಷೆಯಲ್ಲಿದೆ?",
+      "options": [
+        "ಕನ್ನಡ",
+        "ಹಿಂದಿ",
+        "ಇಂಗ್ಲಿಷ್",
+        "ತಮಿಳು"
+      ],
+      "answer": 0,
+      "explanation": "ಇದು ಕನ್ನಡ ಭಾಷೆಯ ಪದ್ಯ (ಮೂರನೆಯ ಭಾಷೆ ಕನ್ನಡ).",
+      "difficulty": "simple",
+      "topic": "ಪದ್ಯ - ತಾಯಿ ಹರಕೆ",
+      "source": "poem theme (grounded in title)"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "question": "'ತಾಯಿ ಹರಕೆ' ಪದ್ಯದಲ್ಲಿ ತಾಯಿ ಮುಖ್ಯವಾಗಿ ಏನನ್ನು ಬಯಸುತ್ತಾಳೆ?",
+      "options": [
+        "ತನ್ನ ಮಕ್ಕಳ ಒಳಿತನ್ನು",
+        "ಹೆಚ್ಚು ಹಣವನ್ನು",
+        "ದೊಡ್ಡ ಮನೆಯನ್ನು",
+        "ಹೊಸ ಬಟ್ಟೆಯನ್ನು"
+      ],
+      "answer": 0,
+      "explanation": "'ಹಾರೈಕೆ' ಎಂದರೆ ಶುಭ ಬಯಕೆ; ತಾಯಿ ತನ್ನ ಮಕ್ಕಳ ಒಳಿತನ್ನು ಬಯಸುತ್ತಾಳೆ.",
+      "difficulty": "tough",
+      "topic": "ಪದ್ಯ - ತಾಯಿ ಹರಕೆ",
+      "source": "poem theme (grounded in title)"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "question": "ಈ ಪಾಠದ ಅಭ್ಯಾಸದಲ್ಲಿ 'ಹೊಂದಿಸಿ ಬರೆಯಿರಿ' (Match the following) ಎಂಬ ಚಟುವಟಿಕೆ ಇದೆಯೇ?",
+      "options": [
+        "ಹೌದು, ಇದೆ",
+        "ಇಲ್ಲ",
+        "ಚಿತ್ರ ಬಿಡಿಸಿ ಇದೆ",
+        "ಹಾಡು ಹಾಡಿ ಇದೆ"
+      ],
+      "answer": 0,
+      "explanation": "ಅಭ್ಯಾಸ ಹಾಳೆಯಲ್ಲಿ 'ಹೊಂದಿಸಿ ಬರೆಯಿರಿ (Match the following)' ಚಟುವಟಿಕೆ ಇದೆ.",
+      "difficulty": "simple",
+      "topic": "ಪದ್ಯ - ತಾಯಿ ಹರಕೆ",
+      "source": "worksheet:ತಾಯಿ ಹರಕೆ"
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "question": "'ಮಕ್ಕಳು' ಎಂಬ ಪದದ ಇಂಗ್ಲಿಷ್ ಅರ್ಥ ಯಾವುದು?",
+      "options": [
+        "Children",
+        "Teacher",
+        "Flower",
+        "School"
+      ],
+      "answer": 0,
+      "explanation": "'ಮಕ್ಕಳು' ಎಂದರೆ Children.",
+      "difficulty": "simple",
+      "topic": "ಪದ್ಯ - ತಾಯಿ ಹರಕೆ",
+      "source": "worksheet:ತಾಯಿ ಹರಕೆ"
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "question": "'ಸಮವಸ್ತ್ರ' ಎಂದರೆ ಏನು?",
+      "options": [
+        "ಶಾಲೆಯ ಸಮಾನ ಉಡುಗೆ (uniform)",
+        "ಆಟದ ಚೆಂಡು",
+        "ಊಟದ ತಟ್ಟೆ",
+        "ಪುಸ್ತಕದ ಚೀಲ"
+      ],
+      "answer": 0,
+      "explanation": "'ಸಮವಸ್ತ್ರ' ಎಂದರೆ ಎಲ್ಲರೂ ಒಂದೇ ರೀತಿ ಧರಿಸುವ ಶಾಲೆಯ ಉಡುಗೆ (uniform).",
+      "difficulty": "tough",
+      "topic": "ಪದ್ಯ - ತಾಯಿ ಹರಕೆ",
+      "source": "worksheet:ತಾಯಿ ಹರಕೆ"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "question": "'ಸಂತೋಷ / ಸಂತಸ' ಎಂದರೆ ಏನು?",
+      "options": [
+        "ಖುಷಿ (happiness)",
+        "ಅಳು",
+        "ಕೋಪ",
+        "ಭಯ"
+      ],
+      "answer": 0,
+      "explanation": "'ಸಂತೋಷ' ಎಂದರೆ ಖುಷಿ (happiness).",
+      "difficulty": "simple",
+      "topic": "ಪದ್ಯ - ತಾಯಿ ಹರಕೆ",
+      "source": "worksheet:ತಾಯಿ ಹರಕೆ"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "question": "'ಹಾರೈಕೆ' ಪದದ ಸಮೀಪ ಅರ್ಥದ (ಸಮಾನಾರ್ಥ) ಪದ ಯಾವುದು?",
+      "options": [
+        "ಆಶೀರ್ವಾದ",
+        "ಶಿಕ್ಷೆ",
+        "ಆಟ",
+        "ಕೋಪ"
+      ],
+      "answer": 0,
+      "explanation": "'ಹಾರೈಕೆ' ಗೆ ಸಮೀಪದ ಅರ್ಥ 'ಆಶೀರ್ವಾದ / ಶುಭ ಬಯಕೆ'. ಶಿಕ್ಷೆ ಮತ್ತು ಕೋಪ ವಿರುದ್ಧ ಭಾವ.",
+      "difficulty": "tricky",
+      "topic": "ಪದ್ಯ - ತಾಯಿ ಹರಕೆ",
+      "source": "poem theme (grounded in title)"
+    },
+    {
+      "id": "q12",
+      "type": "boolean",
+      "question": "'ತಾಯಿ ಹರಕೆ' ಒಂದು ಗದ್ಯ (prose) ಪಾಠ.",
+      "answer": false,
+      "explanation": "ಇಲ್ಲ; ಇದು ಗದ್ಯವಲ್ಲ, ಇದು ಪದ್ಯ (poem).",
+      "difficulty": "tough",
+      "topic": "ಪದ್ಯ - ತಾಯಿ ಹರಕೆ",
+      "source": "poem theme (grounded in title)"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "question": "ಪದ್ಯವನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ಹೇಗೆ ಓದುತ್ತೇವೆ?",
+      "options": [
+        "ರಾಗವಾಗಿ, ಭಾವದಿಂದ",
+        "ಪಿಸುಮಾತಿನಲ್ಲಿ ಬರೆದು",
+        "ಕೇವಲ ಎಣಿಸುತ್ತಾ",
+        "ತಿರುವು ಮುರುವಾಗಿ"
+      ],
+      "answer": 0,
+      "explanation": "ಪದ್ಯವನ್ನು ರಾಗವಾಗಿ, ಭಾವದಿಂದ ಓದಿದರೆ ಚೆನ್ನಾಗಿ ಆನಂದಿಸಬಹುದು.",
+      "difficulty": "tricky",
+      "topic": "ಪದ್ಯ - ತಾಯಿ ಹರಕೆ",
+      "source": "poem theme (grounded in title)"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "question": "ಅಭ್ಯಾಸ ಹಾಳೆಯ (worksheet) 'Topic' (ವಿಷಯ) ಏನೆಂದು ನಮೂದಿಸಿದೆ?",
+      "options": [
+        "ತಾಯಿ ಹರಕೆ",
+        "ಗಣಿತ",
+        "ವಿಜ್ಞಾನ",
+        "ಚಿತ್ರಕಲೆ"
+      ],
+      "answer": 0,
+      "explanation": "ಅಭ್ಯಾಸ ಹಾಳೆಯಲ್ಲಿ Topic = 'ತಾಯಿ ಹರಕೆ (Thai haraike)' ಎಂದು ಇದೆ.",
+      "difficulty": "simple",
+      "topic": "ಪದ್ಯ - ತಾಯಿ ಹರಕೆ",
+      "source": "worksheet:ತಾಯಿ ಹರಕೆ"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "question": "'ತಾಯಿ' ಪದದ ಸಮಾನಾರ್ಥ ಪದ ಯಾವುದು?",
+      "options": [
+        "ಅಮ್ಮ",
+        "ಮಗು",
+        "ಶಾಲೆ",
+        "ಮರ"
+      ],
+      "answer": 0,
+      "explanation": "'ತಾಯಿ' ಗೆ ಸಮಾನಾರ್ಥ ಪದ 'ಅಮ್ಮ / ಮಾತೆ'.",
+      "difficulty": "simple",
+      "topic": "ಶಬ್ದಾರ್ಥ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "question": "'ಶಾಲೆ' ಎಂದರೆ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಏನು?",
+      "options": [
+        "School",
+        "House",
+        "Garden",
+        "Road"
+      ],
+      "answer": 0,
+      "explanation": "'ಶಾಲೆ' ಎಂದರೆ School.",
+      "difficulty": "simple",
+      "topic": "ಶಬ್ದಾರ್ಥ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "question": "'ಆಟ' ಎಂದರೆ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಏನು?",
+      "options": [
+        "Play / Game",
+        "Book",
+        "Water",
+        "Food"
+      ],
+      "answer": 0,
+      "explanation": "'ಆಟ' ಎಂದರೆ Play ಅಥವಾ Game.",
+      "difficulty": "simple",
+      "topic": "ಶಬ್ದಾರ್ಥ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "question": "'ಓದು' ಎಂದರೆ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಏನು?",
+      "options": [
+        "Read / Study",
+        "Sleep",
+        "Run",
+        "Eat"
+      ],
+      "answer": 0,
+      "explanation": "'ಓದು' ಎಂದರೆ Read ಅಥವಾ Study.",
+      "difficulty": "simple",
+      "topic": "ಶಬ್ದಾರ್ಥ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "question": "'ನೀರು' ಎಂದರೆ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಏನು?",
+      "options": [
+        "Water",
+        "Fire",
+        "Air",
+        "Tree"
+      ],
+      "answer": 0,
+      "explanation": "'ನೀರು' ಎಂದರೆ Water.",
+      "difficulty": "simple",
+      "topic": "ಶಬ್ದಾರ್ಥ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "question": "'ಮನೆ' ಎಂದರೆ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಏನು?",
+      "options": [
+        "House / Home",
+        "School",
+        "Shop",
+        "Park"
+      ],
+      "answer": 0,
+      "explanation": "'ಮನೆ' ಎಂದರೆ House ಅಥವಾ Home.",
+      "difficulty": "simple",
+      "topic": "ಶಬ್ದಾರ್ಥ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "question": "'ಹೂವು' ಎಂದರೆ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಏನು?",
+      "options": [
+        "Flower",
+        "Leaf",
+        "Root",
+        "Fruit"
+      ],
+      "answer": 0,
+      "explanation": "'ಹೂವು' ಎಂದರೆ Flower.",
+      "difficulty": "simple",
+      "topic": "ಶಬ್ದಾರ್ಥ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "question": "'ನೀರು' ಪದದ ಸಮಾನಾರ್ಥ ಪದ ಯಾವುದು?",
+      "options": [
+        "ಜಲ",
+        "ಬೆಂಕಿ",
+        "ಗಾಳಿ",
+        "ಮಣ್ಣು"
+      ],
+      "answer": 0,
+      "explanation": "'ನೀರು' ಗೆ ಸಮಾನಾರ್ಥ ಪದ 'ಜಲ'.",
+      "difficulty": "tough",
+      "topic": "ಶಬ್ದಾರ್ಥ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "question": "'ಸೂರ್ಯ' ಪದದ ಸಮಾನಾರ್ಥ ಪದ ಯಾವುದು?",
+      "options": [
+        "ರವಿ",
+        "ಚಂದ್ರ",
+        "ನಕ್ಷತ್ರ",
+        "ಮೋಡ"
+      ],
+      "answer": 0,
+      "explanation": "'ಸೂರ್ಯ' ಗೆ ಸಮಾನಾರ್ಥ ಪದ 'ರವಿ / ಭಾನು'. ಚಂದ್ರ, ನಕ್ಷತ್ರ ಬೇರೆ ಬೇರೆ.",
+      "difficulty": "tricky",
+      "topic": "ಶಬ್ದಾರ್ಥ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "question": "'ಕಣ್ಣು' ಪದದ ಸಮಾನಾರ್ಥ ಪದ ಯಾವುದು?",
+      "options": [
+        "ನಯನ",
+        "ಕಿವಿ",
+        "ಮೂಗು",
+        "ಬಾಯಿ"
+      ],
+      "answer": 0,
+      "explanation": "'ಕಣ್ಣು' ಗೆ ಸಮಾನಾರ್ಥ ಪದ 'ನಯನ / ನೇತ್ರ'. ಕಿವಿ, ಮೂಗು ಬೇರೆ ಅಂಗಗಳು.",
+      "difficulty": "tricky",
+      "topic": "ಶಬ್ದಾರ್ಥ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "question": "'ಮಗು' ಪದದ ಬಹುವಚನ ರೂಪ ಯಾವುದು?",
+      "options": [
+        "ಮಕ್ಕಳು",
+        "ಮಗುಗಳು",
+        "ಮಗ",
+        "ಮಕ್ಕ"
+      ],
+      "answer": 0,
+      "explanation": "'ಮಗು' ವಿನ ಬಹುವಚನ 'ಮಕ್ಕಳು'.",
+      "difficulty": "simple",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "question": "'ಮರ' ಪದದ ಬಹುವಚನ ರೂಪ ಯಾವುದು?",
+      "options": [
+        "ಮರಗಳು",
+        "ಮರಗ",
+        "ಮರು",
+        "ಮರಗಳ"
+      ],
+      "answer": 0,
+      "explanation": "'ಮರ' ದ ಬಹುವಚನ 'ಮರಗಳು' (ಮರ + ಗಳು).",
+      "difficulty": "simple",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "question": "'ಹೂವು' ಪದದ ಬಹುವಚನ ರೂಪ ಯಾವುದು?",
+      "options": [
+        "ಹೂವುಗಳು",
+        "ಹೂವ",
+        "ಹೂ",
+        "ಹೂವಿ"
+      ],
+      "answer": 0,
+      "explanation": "'ಹೂವು' ದ ಬಹುವಚನ 'ಹೂವುಗಳು'.",
+      "difficulty": "simple",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "question": "'ಹುಡುಗ' ಪದದ ಬಹುವಚನ ರೂಪ ಯಾವುದು?",
+      "options": [
+        "ಹುಡುಗರು",
+        "ಹುಡುಗಳು",
+        "ಹುಡುಗಿ",
+        "ಹುಡುಗ"
+      ],
+      "answer": 0,
+      "explanation": "'ಹುಡುಗ' ದ ಬಹುವಚನ 'ಹುಡುಗರು'.",
+      "difficulty": "tough",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "question": "'ಸಂತೋಷ' ಪದದ ವಿರುದ್ಧಾರ್ಥ ಪದ ಯಾವುದು?",
+      "options": [
+        "ದುಃಖ",
+        "ಖುಷಿ",
+        "ನಗು",
+        "ಆಟ"
+      ],
+      "answer": 0,
+      "explanation": "'ಸಂತೋಷ' ದ ವಿರುದ್ಧ ಪದ 'ದುಃಖ'. ಖುಷಿ ಸಮಾನಾರ್ಥ.",
+      "difficulty": "simple",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "question": "'ಒಳ್ಳೆಯ' ಪದದ ವಿರುದ್ಧಾರ್ಥ ಪದ ಯಾವುದು?",
+      "options": [
+        "ಕೆಟ್ಟ",
+        "ಚೆಂದ",
+        "ದೊಡ್ಡ",
+        "ಹೊಸ"
+      ],
+      "answer": 0,
+      "explanation": "'ಒಳ್ಳೆಯ' ದ ವಿರುದ್ಧ ಪದ 'ಕೆಟ್ಟ'.",
+      "difficulty": "tough",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "question": "'ಹಗಲು' ಪದದ ವಿರುದ್ಧಾರ್ಥ ಪದ ಯಾವುದು?",
+      "options": [
+        "ಇರುಳು (ರಾತ್ರಿ)",
+        "ಬೆಳಗು",
+        "ಮಧ್ಯಾಹ್ನ",
+        "ಸಂಜೆ"
+      ],
+      "answer": 0,
+      "explanation": "'ಹಗಲು' ದ ವಿರುದ್ಧ ಪದ 'ಇರುಳು / ರಾತ್ರಿ'.",
+      "difficulty": "tough",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "question": "'ಬೆಳಕು' ಪದದ ವಿರುದ್ಧಾರ್ಥ ಪದ ಯಾವುದು?",
+      "options": [
+        "ಕತ್ತಲು",
+        "ದೀಪ",
+        "ಸೂರ್ಯ",
+        "ಬಣ್ಣ"
+      ],
+      "answer": 0,
+      "explanation": "'ಬೆಳಕು' ದ ವಿರುದ್ಧ ಪದ 'ಕತ್ತಲು'.",
+      "difficulty": "tough",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "question": "'ದೊಡ್ಡ' ಪದದ ವಿರುದ್ಧಾರ್ಥ ಪದ ಯಾವುದು?",
+      "options": [
+        "ಚಿಕ್ಕ",
+        "ಎತ್ತರ",
+        "ಅಗಲ",
+        "ಉದ್ದ"
+      ],
+      "answer": 0,
+      "explanation": "'ದೊಡ್ಡ' ದ ವಿರುದ್ಧ ಪದ 'ಚಿಕ್ಕ (ಸಣ್ಣ)'.",
+      "difficulty": "tough",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "question": "'ತಾಯಿ' ಯಾವ ಲಿಂಗಕ್ಕೆ ಸೇರುತ್ತದೆ?",
+      "options": [
+        "ಸ್ತ್ರೀಲಿಂಗ",
+        "ಪುಲ್ಲಿಂಗ",
+        "ನಪುಂಸಕಲಿಂಗ",
+        "ಯಾವುದೂ ಅಲ್ಲ"
+      ],
+      "answer": 0,
+      "explanation": "'ತಾಯಿ' ಸ್ತ್ರೀಲಿಂಗ (feminine).",
+      "difficulty": "simple",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "question": "'ತಂದೆ' ಯಾವ ಲಿಂಗಕ್ಕೆ ಸೇರುತ್ತದೆ?",
+      "options": [
+        "ಪುಲ್ಲಿಂಗ",
+        "ಸ್ತ್ರೀಲಿಂಗ",
+        "ನಪುಂಸಕಲಿಂಗ",
+        "ಯಾವುದೂ ಅಲ್ಲ"
+      ],
+      "answer": 0,
+      "explanation": "'ತಂದೆ' ಪುಲ್ಲಿಂಗ (masculine).",
+      "difficulty": "tough",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "question": "'ಹುಡುಗ' ಪದದ ಸ್ತ್ರೀಲಿಂಗ ರೂಪ ಯಾವುದು?",
+      "options": [
+        "ಹುಡುಗಿ",
+        "ಹುಡುಗರು",
+        "ಹುಡುಗ",
+        "ಬಾಲಕ"
+      ],
+      "answer": 0,
+      "explanation": "'ಹುಡುಗ' ದ ಸ್ತ್ರೀಲಿಂಗ ರೂಪ 'ಹುಡುಗಿ'.",
+      "difficulty": "tough",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "question": "'ರಾಜ' ಪದದ ಸ್ತ್ರೀಲಿಂಗ ರೂಪ ಯಾವುದು?",
+      "options": [
+        "ರಾಣಿ",
+        "ರಾಜನು",
+        "ರಾಜ್ಯ",
+        "ರಾಜಕುಮಾರ"
+      ],
+      "answer": 0,
+      "explanation": "'ರಾಜ' ದ ಸ್ತ್ರೀಲಿಂಗ ರೂಪ 'ರಾಣಿ'.",
+      "difficulty": "tricky",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q38",
+      "type": "multiple",
+      "question": "ಈ ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಬಹುವಚನ ಪದಗಳನ್ನು ಆರಿಸಿ.",
+      "options": [
+        "ಮಕ್ಕಳು",
+        "ಮರಗಳು",
+        "ಮಗು",
+        "ಮರ"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "'ಮಕ್ಕಳು' ಮತ್ತು 'ಮರಗಳು' ಬಹುವಚನ. 'ಮಗು', 'ಮರ' ಏಕವಚನ.",
+      "difficulty": "tough",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q39",
+      "type": "multiple",
+      "question": "ಸರಿಯಾದ ವಿರುದ್ಧಾರ್ಥ ಪದ ಜೋಡಿಗಳನ್ನು ಆರಿಸಿ.",
+      "options": [
+        "ದೊಡ್ಡ – ಚಿಕ್ಕ",
+        "ಬೆಳಕು – ಕತ್ತಲು",
+        "ಸಂತೋಷ – ಖುಷಿ",
+        "ಒಳ್ಳೆಯ – ಒಳಿತು"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "'ದೊಡ್ಡ–ಚಿಕ್ಕ' ಮತ್ತು 'ಬೆಳಕು–ಕತ್ತಲು' ವಿರುದ್ಧಾರ್ಥ ಜೋಡಿಗಳು. 'ಸಂತೋಷ–ಖುಷಿ', 'ಒಳ್ಳೆಯ–ಒಳಿತು' ಸಮಾನಾರ್ಥ.",
+      "difficulty": "tricky",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q40",
+      "type": "boolean",
+      "question": "'ಮಕ್ಕಳು' ಪದವು ಬಹುವಚನ ಪದವಾಗಿದೆ.",
+      "answer": true,
+      "explanation": "ಹೌದು; 'ಮಗು' ಏಕವಚನ, 'ಮಕ್ಕಳು' ಬಹುವಚನ.",
+      "difficulty": "simple",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "question": "ಅ, ಆ, ಇ, ಈ — ಇವು ಯಾವ ಬಗೆಯ ಅಕ್ಷರಗಳು?",
+      "options": [
+        "ಸ್ವರ",
+        "ವ್ಯಂಜನ",
+        "ಒತ್ತಕ್ಷರ",
+        "ಸಂಖ್ಯೆ"
+      ],
+      "answer": 0,
+      "explanation": "ಅ, ಆ, ಇ, ಈ ಇವು ಸ್ವರಗಳು (vowels).",
+      "difficulty": "simple",
+      "topic": "ಅಕ್ಷರಮಾಲೆ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "question": "ಕ, ಖ, ಗ, ಘ — ಇವು ಯಾವ ಬಗೆಯ ಅಕ್ಷರಗಳು?",
+      "options": [
+        "ವ್ಯಂಜನ",
+        "ಸ್ವರ",
+        "ಸಂಖ್ಯೆ",
+        "ಚಿಹ್ನೆ"
+      ],
+      "answer": 0,
+      "explanation": "ಕ, ಖ, ಗ, ಘ ಇವು ವ್ಯಂಜನಗಳು (consonants).",
+      "difficulty": "simple",
+      "topic": "ಅಕ್ಷರಮಾಲೆ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "question": "ಕನ್ನಡ ಅಕ್ಷರಮಾಲೆಯ ಮೊದಲ ಸ್ವರ ಯಾವುದು?",
+      "options": [
+        "ಅ",
+        "ಕ",
+        "ಮ",
+        "ಔ"
+      ],
+      "answer": 0,
+      "explanation": "ಕನ್ನಡ ಸ್ವರಗಳ ಮೊದಲ ಅಕ್ಷರ 'ಅ'.",
+      "difficulty": "simple",
+      "topic": "ಅಕ್ಷರಮಾಲೆ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "question": "ಕ + ಆ = ?",
+      "options": [
+        "ಕಾ",
+        "ಕಿ",
+        "ಕು",
+        "ಕೆ"
+      ],
+      "answer": 0,
+      "explanation": "ಕ ಗೆ 'ಆ' ಕಾರ ಸೇರಿದಾಗ 'ಕಾ' ಆಗುತ್ತದೆ (ಕಾಗುಣಿತ).",
+      "difficulty": "tough",
+      "topic": "ಅಕ್ಷರಮಾಲೆ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "question": "ಮ + ಇ = ?",
+      "options": [
+        "ಮಿ",
+        "ಮಾ",
+        "ಮು",
+        "ಮೆ"
+      ],
+      "answer": 0,
+      "explanation": "ಮ ಗೆ 'ಇ' ಕಾರ ಸೇರಿದಾಗ 'ಮಿ' ಆಗುತ್ತದೆ.",
+      "difficulty": "tough",
+      "topic": "ಅಕ್ಷರಮಾಲೆ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "question": "'ತಾಯಿ' ಪದದ ಮೊದಲ ಅಕ್ಷರ ಯಾವುದು?",
+      "options": [
+        "ತಾ",
+        "ಯಿ",
+        "ತ",
+        "ಇ"
+      ],
+      "answer": 0,
+      "explanation": "'ತಾಯಿ' ಪದದ ಮೊದಲ ಅಕ್ಷರ 'ತಾ' (ತ + ಆ).",
+      "difficulty": "tough",
+      "topic": "ಅಕ್ಷರಮಾಲೆ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "question": "ಕನ್ನಡದಲ್ಲಿ ವ್ಯಂಜನಗಳ ಒಟ್ಟು ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+      "options": [
+        "34",
+        "25",
+        "13",
+        "16"
+      ],
+      "answer": 0,
+      "explanation": "ಕನ್ನಡದಲ್ಲಿ 34 ವ್ಯಂಜನಗಳಿವೆ (ಕ ಯಿಂದ ಳ ವರೆಗೆ).",
+      "difficulty": "tricky",
+      "topic": "ಅಕ್ಷರಮಾಲೆ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q48",
+      "type": "boolean",
+      "question": "'ಇ' ಒಂದು ಸ್ವರ.",
+      "answer": true,
+      "explanation": "ಹೌದು; 'ಇ' ಒಂದು ಸ್ವರ (vowel).",
+      "difficulty": "simple",
+      "topic": "ಅಕ್ಷರಮಾಲೆ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "question": "ಸ್ವರದ ಚಿಹ್ನೆ ವ್ಯಂಜನಕ್ಕೆ ಸೇರಿದಾಗ ಉಂಟಾಗುವುದನ್ನು ಏನೆಂದು ಕರೆಯುತ್ತೇವೆ?",
+      "options": [
+        "ಕಾಗುಣಿತ",
+        "ಸ್ವರ",
+        "ಸಂಖ್ಯೆ",
+        "ಚಿತ್ರ"
+      ],
+      "answer": 0,
+      "explanation": "ವ್ಯಂಜನಕ್ಕೆ ಸ್ವರ ಚಿಹ್ನೆ ಸೇರಿ ಉಂಟಾಗುವುದೇ 'ಕಾಗುಣಿತ'.",
+      "difficulty": "tough",
+      "topic": "ಅಕ್ಷರಮಾಲೆ",
+      "source": "grade-level Kannada literacy"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "question": "'ಶಾಲೆ' ಪದದಲ್ಲಿ ಎಷ್ಟು ಅಕ್ಷರಗಳಿವೆ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "'ಶಾಲೆ' = ಶಾ + ಲೆ — ಎರಡು ಅಕ್ಷರಗಳಿವೆ.",
+      "difficulty": "tricky",
+      "topic": "ಅಕ್ಷರಮಾಲೆ",
+      "source": "grade-level Kannada literacy"
+    }
+  ]
+}

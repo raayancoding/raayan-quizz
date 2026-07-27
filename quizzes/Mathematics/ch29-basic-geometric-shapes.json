@@ -1,0 +1,1687 @@
+{
+  "schemaVersion": 1,
+  "id": "mathematics-ch29-basic-geometric-shapes",
+  "title": "Basic Geometric Shapes",
+  "subject": "Mathematics",
+  "grade": 4,
+  "chapter": "29. Basic Geometric Shapes",
+  "topic": "Full Book",
+  "description": "Explore lines and angles, polygons and quadrilateral families, circles, and 3D shapes through hands-on fold-and-measure activities, worked examples, and real-world geometry in Warli art, mandalas, and famous landmarks.",
+  "tags": [
+    "mathematics",
+    "grade4",
+    "shapes",
+    "geometry",
+    "2d-shapes",
+    "3d-shapes",
+    "polygons",
+    "quadrilaterals",
+    "circles",
+    "angles",
+    "lines",
+    "faces-edges-vertices"
+  ],
+  "defaultTimeLimitSec": 1200,
+  "questions": [
+    {
+      "type": "single",
+      "question": "When two straight lines meet at a point, what do they form?",
+      "difficulty": "simple",
+      "explanation": "The book's Activity 1 states: 'When two lines meet at a point, they form an angle.' The point where they meet is called the vertex of that angle.",
+      "source": "book:page64",
+      "topic": "Lines and Right Angles",
+      "options": [
+        "A curve",
+        "An angle",
+        "A polygon",
+        "A circle"
+      ],
+      "answer": 1,
+      "id": "q1"
+    },
+    {
+      "type": "single",
+      "question": "In Activity 1, folding a square sheet vertically and then horizontally, the two fold lines meet to form which special shape at the corner?",
+      "difficulty": "simple",
+      "explanation": "The book says the two folds 'meet to form a perfect 'L' shape', which is the shape formed by two perpendicular lines.",
+      "source": "book:page64",
+      "topic": "Lines and Right Angles",
+      "options": [
+        "A perfect 'L' shape",
+        "A circle",
+        "A triangle",
+        "A wavy curve"
+      ],
+      "answer": 0,
+      "id": "q2"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: A right angle is denoted by drawing a small square symbol at its corner.",
+      "difficulty": "simple",
+      "explanation": "The book explicitly says: 'The angle formed between perpendicular lines is called a right angle. A right angle is denoted by a small [square] at the corner.'",
+      "source": "book:page64",
+      "topic": "Lines and Right Angles",
+      "answer": true,
+      "id": "q3"
+    },
+    {
+      "type": "single",
+      "question": "How many right angles are formed at the point where a vertical fold line crosses a horizontal fold line?",
+      "difficulty": "tough",
+      "explanation": "When two perpendicular (vertical and horizontal) lines cross, they divide the space around the crossing point into 4 equal right angles, one in each corner region.",
+      "source": "book:page64",
+      "topic": "Lines and Right Angles",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "8"
+      ],
+      "answer": 2,
+      "id": "q4"
+    },
+    {
+      "type": "single",
+      "question": "In Activity 2, a square sheet is folded along both diagonals. What angle do the two diagonal fold lines form where they meet?",
+      "difficulty": "tough",
+      "explanation": "The book says the slanting (diagonal) lines 'meet to form a perfect 'L' shape, creating a right angle' — folding along both diagonals still produces perpendicular lines at the centre.",
+      "source": "book:page65",
+      "topic": "Lines and Right Angles",
+      "options": [
+        "An acute angle",
+        "A right angle",
+        "An obtuse angle",
+        "No angle at all"
+      ],
+      "answer": 1,
+      "id": "q5"
+    },
+    {
+      "type": "single",
+      "question": "What are two lines called when they cross each other to form a right angle?",
+      "difficulty": "simple",
+      "explanation": "Lines that meet and form a right angle (a perfect 'L' shape) between them are called perpendicular lines.",
+      "source": "book:page64,66",
+      "topic": "Lines and Right Angles",
+      "options": [
+        "Parallel lines",
+        "Perpendicular lines",
+        "Curved lines",
+        "Diagonal lines"
+      ],
+      "answer": 1,
+      "id": "q6"
+    },
+    {
+      "type": "single",
+      "question": "A right angle is best described as the angle formed between which type of lines?",
+      "difficulty": "tough",
+      "explanation": "The right angle is defined as the angle formed where perpendicular lines meet — perpendicular lines are, by definition, the lines that create a right angle.",
+      "source": "book:page64,66",
+      "topic": "Lines and Right Angles",
+      "options": [
+        "Parallel lines",
+        "Perpendicular lines",
+        "Curved lines only",
+        "Lines that never meet"
+      ],
+      "answer": 1,
+      "id": "q7"
+    },
+    {
+      "type": "single",
+      "question": "What symbol does the book use at the corner of a figure to show a right angle?",
+      "difficulty": "simple",
+      "explanation": "The book states a right angle 'is denoted by a small [square symbol] at the corner' — this small square is the standard mark for a right angle.",
+      "source": "book:page64",
+      "topic": "Lines and Right Angles",
+      "options": [
+        "A dot",
+        "A small square",
+        "An arrow",
+        "A star"
+      ],
+      "answer": 1,
+      "id": "q8"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: Two lines can only be perpendicular if they cross exactly in the middle of a page or shape.",
+      "difficulty": "tricky",
+      "explanation": "Perpendicularity only depends on the ANGLE formed where two lines meet (it must be a right angle) — it has nothing to do with WHERE on the page the lines cross. Perpendicular lines can meet near an edge, a corner, or anywhere at all.",
+      "source": "book:page64 (concept extension)",
+      "topic": "Lines and Right Angles",
+      "answer": false,
+      "id": "q9"
+    },
+    {
+      "type": "single",
+      "question": "What do we call two straight lines that never meet and always stay the same perpendicular distance apart?",
+      "difficulty": "simple",
+      "explanation": "The book defines: 'Two straight lines that never meet and are always the same perpendicular distance apart are called parallel lines.'",
+      "source": "book:page66",
+      "topic": "Parallel and Intersecting Lines",
+      "options": [
+        "Perpendicular lines",
+        "Parallel lines",
+        "Diagonal lines",
+        "Curved lines"
+      ],
+      "answer": 1,
+      "id": "q10"
+    },
+    {
+      "type": "single",
+      "question": "What do we call two straight lines that have a common point (they cross or touch each other)?",
+      "difficulty": "simple",
+      "explanation": "The book defines: 'Two straight lines having a common point are called intersecting lines.'",
+      "source": "book:page66",
+      "topic": "Parallel and Intersecting Lines",
+      "options": [
+        "Parallel lines",
+        "Curved lines",
+        "Intersecting lines",
+        "Diagonal lines"
+      ],
+      "answer": 2,
+      "id": "q11"
+    },
+    {
+      "type": "single",
+      "question": "According to the book, how can two intersecting lines cross each other?",
+      "difficulty": "tough",
+      "explanation": "The book says: 'Intersecting lines may be perpendicular or intersect at angles less than or greater than right angles' — so intersecting lines can cross at ANY angle, not only right angles.",
+      "source": "book:page66",
+      "topic": "Parallel and Intersecting Lines",
+      "options": [
+        "Only ever at a right angle",
+        "Only at angles smaller than a right angle",
+        "Perpendicularly, OR at angles less than or greater than a right angle",
+        "They never actually touch"
+      ],
+      "answer": 2,
+      "id": "q12"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: In Activity 3, the new fold lines made halfway between the edge and the first vertical fold line are parallel to that first vertical line.",
+      "difficulty": "simple",
+      "explanation": "The book states: 'All the vertical lines seen are said to be parallel to each other... they don't meet at any point' — confirming the new fold lines stay parallel to the original vertical line.",
+      "source": "book:page65",
+      "topic": "Parallel and Intersecting Lines",
+      "answer": true,
+      "id": "q13"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: Perpendicular lines are also a special kind of intersecting lines, since they do meet at one common point.",
+      "difficulty": "tough",
+      "explanation": "Intersecting lines are simply lines that share a common point. Perpendicular lines meet at a point too (forming a right angle there), so perpendicular lines are one special case of intersecting lines.",
+      "source": "book:page66",
+      "topic": "Parallel and Intersecting Lines",
+      "answer": true,
+      "id": "q14"
+    },
+    {
+      "type": "single",
+      "question": "Statement (I): Lines always intersect at right angles. Statement (II): Parallel lines do not intersect. Which is correct?",
+      "difficulty": "tricky",
+      "explanation": "Statement (I) is FALSE because the book says intersecting lines can cross at right angles OR at angles less/greater than a right angle — not always a right angle. Statement (II) is TRUE because parallel lines, by definition, never meet. So the answer is: (I) false, (II) true.",
+      "source": "book:page70",
+      "topic": "Parallel and Intersecting Lines",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 3,
+      "id": "q15"
+    },
+    {
+      "type": "single",
+      "question": "Two streets are both perpendicular to the same third street. What can we say about these two streets themselves?",
+      "difficulty": "tough",
+      "explanation": "If two lines are each perpendicular to the same third line, they form the same right angle with it in the same direction, so they never meet each other and stay the same distance apart — meaning they are parallel to each other.",
+      "source": "book:page66,69 (concept extension of street-map activity)",
+      "topic": "Parallel and Intersecting Lines",
+      "options": [
+        "They must be parallel to each other",
+        "They must be curved",
+        "They must cross each other at some point",
+        "Nothing can be said about them"
+      ],
+      "answer": 0,
+      "id": "q16"
+    },
+    {
+      "type": "single",
+      "question": "A door frame has two vertical side-posts that stay the same distance apart all the way up and never meet. What type of lines are these two posts?",
+      "difficulty": "tough",
+      "explanation": "Two lines that never meet and stay the same distance apart everywhere are, by the book's definition, parallel lines — just like the two vertical door-post edges.",
+      "source": "book:page66 (real-world example)",
+      "topic": "Parallel and Intersecting Lines",
+      "options": [
+        "Intersecting lines",
+        "Perpendicular lines only",
+        "Parallel lines",
+        "Diagonal lines"
+      ],
+      "answer": 2,
+      "id": "q17"
+    },
+    {
+      "type": "single",
+      "question": "What is the special name for lines that cross each other, forming shapes like a plus-sign (+), even if the angles aren't all right angles?",
+      "difficulty": "tough",
+      "explanation": "Any pair of straight lines sharing a common crossing point are called intersecting lines, regardless of whether the angles formed are right angles or not.",
+      "source": "book:page66",
+      "topic": "Parallel and Intersecting Lines",
+      "options": [
+        "Parallel lines",
+        "Intersecting lines",
+        "Regular polygons",
+        "Curved lines"
+      ],
+      "answer": 1,
+      "id": "q18"
+    },
+    {
+      "type": "single",
+      "question": "An angle SMALLER than a right angle is called a(n):",
+      "difficulty": "simple",
+      "explanation": "The book states: 'An angle smaller than a right angle is called an acute angle.'",
+      "source": "book:page67",
+      "topic": "Acute, Obtuse and Right Angles",
+      "options": [
+        "Obtuse angle",
+        "Acute angle",
+        "Straight angle",
+        "Reflex angle"
+      ],
+      "answer": 1,
+      "id": "q19"
+    },
+    {
+      "type": "single",
+      "question": "An angle GREATER than a right angle is called a(n):",
+      "difficulty": "simple",
+      "explanation": "The book states: 'An angle greater than a right angle is called an obtuse angle.'",
+      "source": "book:page67",
+      "topic": "Acute, Obtuse and Right Angles",
+      "options": [
+        "Acute angle",
+        "Right angle",
+        "Obtuse angle",
+        "Parallel angle"
+      ],
+      "answer": 2,
+      "id": "q20"
+    },
+    {
+      "type": "single",
+      "question": "The word 'acute' comes from the Latin word 'acutus', which means:",
+      "difficulty": "tough",
+      "explanation": "The book explains: 'Acute comes from the Latin word \"acutus\" meaning sharp or pointed' — matching how an acute angle looks narrow and pointed.",
+      "source": "book:page67",
+      "topic": "Acute, Obtuse and Right Angles",
+      "options": [
+        "Blunted or dull",
+        "Sharp or pointed",
+        "Equal in size",
+        "Curved"
+      ],
+      "answer": 1,
+      "id": "q21"
+    },
+    {
+      "type": "single",
+      "question": "The word 'obtuse' comes from the Latin word 'obtusus', which means:",
+      "difficulty": "tough",
+      "explanation": "The book explains: 'Obtuse comes from Latin word \"obtusus\" meaning blunted or dull' — matching how an obtuse angle looks wide and open, not sharp.",
+      "source": "book:page67",
+      "topic": "Acute, Obtuse and Right Angles",
+      "options": [
+        "Sharp or pointed",
+        "Blunted or dull",
+        "Straight",
+        "Round"
+      ],
+      "answer": 1,
+      "id": "q22"
+    },
+    {
+      "type": "single",
+      "question": "In the Jodo-straws activity, when two straws forming an 'L' shape (right angle) are moved a little closer together, what type of angle is now formed?",
+      "difficulty": "tough",
+      "explanation": "Bringing the straws closer together makes the angle between them SMALLER than the right angle they started at, which by definition is an acute angle.",
+      "source": "book:page67",
+      "topic": "Acute, Obtuse and Right Angles",
+      "options": [
+        "An obtuse angle",
+        "A right angle",
+        "An acute angle",
+        "A curved angle"
+      ],
+      "answer": 2,
+      "id": "q23"
+    },
+    {
+      "type": "single",
+      "question": "In the Jodo-straws activity, when two straws forming a right angle are moved a little further apart, what type of angle is now formed?",
+      "difficulty": "tough",
+      "explanation": "Moving the straws further apart makes the angle between them LARGER than the right angle they started at, which by definition is an obtuse angle.",
+      "source": "book:page67",
+      "topic": "Acute, Obtuse and Right Angles",
+      "options": [
+        "An acute angle",
+        "An obtuse angle",
+        "A right angle",
+        "No angle"
+      ],
+      "answer": 1,
+      "id": "q24"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: You can always tell if an angle is acute or obtuse just by how big it LOOKS drawn on paper, without comparing it to an actual right angle.",
+      "difficulty": "tricky",
+      "explanation": "Classifying an angle as acute, right, or obtuse means comparing it to a TRUE right angle (like a paper corner or a right-angle symbol) — a drawing can look bigger or smaller just because of how it was sketched, so you must actually compare, not just guess by eye.",
+      "source": "book:page67 (concept extension)",
+      "topic": "Acute, Obtuse and Right Angles",
+      "answer": false,
+      "id": "q25"
+    },
+    {
+      "type": "multiple",
+      "question": "Which of these are angle types described in this chapter? (select all that apply)",
+      "difficulty": "tricky",
+      "explanation": "The chapter teaches three angle types: acute (smaller than right angle), right angle (from perpendicular lines), and obtuse (greater than right angle). 'Reflex angle' is not mentioned anywhere in this chapter.",
+      "source": "book:page64,67",
+      "topic": "Acute, Obtuse and Right Angles",
+      "options": [
+        "Acute angle",
+        "Obtuse angle",
+        "Right angle",
+        "Reflex angle"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "id": "q26"
+    },
+    {
+      "type": "single",
+      "question": "If you fold a square sheet of paper in half and then in half again so the folds cross (as in Activity 1), what type of angle appears where the folds cross?",
+      "difficulty": "tough",
+      "explanation": "Folding vertically then horizontally makes the two fold lines perpendicular to each other, and perpendicular lines always meet at a right angle.",
+      "source": "book:page64",
+      "topic": "Acute, Obtuse and Right Angles",
+      "options": [
+        "An acute angle",
+        "An obtuse angle",
+        "A right angle",
+        "There is no angle"
+      ],
+      "answer": 2,
+      "id": "q27"
+    },
+    {
+      "type": "single",
+      "question": "What is a polygon?",
+      "difficulty": "simple",
+      "explanation": "The book defines: 'A polygon is a closed figure formed by straight lines. These lines are called its sides.'",
+      "source": "book:page71",
+      "topic": "Polygons: Sides, Vertices and Curves",
+      "options": [
+        "Any curved shape",
+        "A closed figure formed only by straight lines",
+        "An open figure made of straight lines",
+        "A 3D solid shape"
+      ],
+      "answer": 1,
+      "id": "q28"
+    },
+    {
+      "type": "single",
+      "question": "What is the point where two sides of a polygon meet called?",
+      "difficulty": "simple",
+      "explanation": "The book states: 'The point where two sides of a polygon meet is called a vertex.'",
+      "source": "book:page71",
+      "topic": "Polygons: Sides, Vertices and Curves",
+      "options": [
+        "A diagonal",
+        "A vertex",
+        "A radius",
+        "A centre"
+      ],
+      "answer": 1,
+      "id": "q29"
+    },
+    {
+      "type": "single",
+      "question": "What is the plural form of the word 'vertex'?",
+      "difficulty": "simple",
+      "explanation": "The book gives the plural form directly: 'a vertex (plural: vertices).'",
+      "source": "book:page71",
+      "topic": "Polygons: Sides, Vertices and Curves",
+      "options": [
+        "Vertexs",
+        "Vertices",
+        "Verticees",
+        "Vertexies"
+      ],
+      "answer": 1,
+      "id": "q30"
+    },
+    {
+      "type": "single",
+      "question": "A polygon will always have as many vertices as it has:",
+      "difficulty": "simple",
+      "explanation": "The book states: 'A polygon will have as many vertices as the number of sides' — so a 5-sided polygon has exactly 5 vertices, and so on.",
+      "source": "book:page71",
+      "topic": "Polygons: Sides, Vertices and Curves",
+      "options": [
+        "Diagonals",
+        "Sides",
+        "Curves",
+        "Right angles"
+      ],
+      "answer": 1,
+      "id": "q31"
+    },
+    {
+      "type": "single",
+      "question": "When you join two points on a polygon that are NOT next to each other, what is the resulting line called?",
+      "difficulty": "tough",
+      "explanation": "The book explains: 'When two points on the polygon that are not next to each other are joined, the line formed is called the diagonal of the polygon.'",
+      "source": "book:page71",
+      "topic": "Polygons: Sides, Vertices and Curves",
+      "options": [
+        "A side",
+        "A vertex",
+        "The diagonal of the polygon",
+        "The radius"
+      ],
+      "answer": 2,
+      "id": "q32"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: A shape with even just one curved edge (not all straight lines) can still be called a polygon, as long as the shape is closed.",
+      "difficulty": "tricky",
+      "explanation": "The book explains that shapes with curves 'are not polygons because they all have a single or multiple curves along their edge' — a polygon must be made ONLY of straight-line sides, with no curves at all.",
+      "source": "book:page71",
+      "topic": "Polygons: Sides, Vertices and Curves",
+      "answer": false,
+      "id": "q33"
+    },
+    {
+      "type": "single",
+      "question": "What is the smallest number of straight lines needed to make a polygon?",
+      "difficulty": "simple",
+      "explanation": "The book states plainly: 'We cannot make any polygon with less than three lines' — so 3 is the minimum number of straight sides a polygon can have.",
+      "source": "book:page72",
+      "topic": "Polygons: Sides, Vertices and Curves",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "id": "q34"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: You could make a valid closed polygon using only 2 straight lines.",
+      "difficulty": "tricky",
+      "explanation": "Since the book says 'we cannot make any polygon with less than three lines', a shape made of only 2 straight lines cannot close up into a proper polygon.",
+      "source": "book:page72",
+      "topic": "Polygons: Sides, Vertices and Curves",
+      "answer": false,
+      "id": "q35"
+    },
+    {
+      "type": "single",
+      "question": "In a SIMPLE closed curve, what happens to the curve line?",
+      "difficulty": "simple",
+      "explanation": "The book explains: 'In a simple closed curve, the curve does not cross itself' — this is what makes it 'simple' compared to a curve that loops over itself.",
+      "source": "book:page71",
+      "topic": "Polygons: Sides, Vertices and Curves",
+      "options": [
+        "It crosses itself",
+        "It does not cross itself",
+        "It stays open",
+        "It becomes straight"
+      ],
+      "answer": 1,
+      "id": "q36"
+    },
+    {
+      "type": "single",
+      "question": "The chapter shows three curves: two are simple closed curves, but the third one is NOT. What makes the third curve different?",
+      "difficulty": "tough",
+      "explanation": "The book explains that 'the third curve crosses itself, hence it is not a simple closed curve' — a curve that loops over its own path fails the 'simple' test even if it is closed.",
+      "source": "book:page71",
+      "topic": "Polygons: Sides, Vertices and Curves",
+      "options": [
+        "It is open, not closed",
+        "It crosses itself",
+        "It has straight edges",
+        "It has no vertices"
+      ],
+      "answer": 1,
+      "id": "q37"
+    },
+    {
+      "type": "single",
+      "question": "How many sides does a triangle have?",
+      "difficulty": "simple",
+      "explanation": "The book's polygon table shows a triangle has 3 sides and 3 vertices — 'tri' means 3.",
+      "source": "book:page72",
+      "topic": "Naming Polygons: Triangle to Decagon",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 0,
+      "id": "q38"
+    },
+    {
+      "type": "single",
+      "question": "How many sides does a quadrilateral have?",
+      "difficulty": "simple",
+      "explanation": "The book's polygon table shows a quadrilateral has 4 sides and 4 vertices — 'quad' means 4.",
+      "source": "book:page72",
+      "topic": "Naming Polygons: Triangle to Decagon",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "id": "q39"
+    },
+    {
+      "type": "single",
+      "question": "How many sides does a pentagon have?",
+      "difficulty": "simple",
+      "explanation": "The book's polygon table shows a pentagon has 5 sides and 5 vertices — 'penta' means 5.",
+      "source": "book:page72",
+      "topic": "Naming Polygons: Triangle to Decagon",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 1,
+      "id": "q40"
+    },
+    {
+      "type": "single",
+      "question": "How many sides does a hexagon have?",
+      "difficulty": "simple",
+      "explanation": "The book's polygon table shows a hexagon has 6 sides and 6 vertices — 'hexa' means 6.",
+      "source": "book:page72",
+      "topic": "Naming Polygons: Triangle to Decagon",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 1,
+      "id": "q41"
+    },
+    {
+      "type": "single",
+      "question": "The prefix 'hepta' means 7. What is the name of a polygon with 7 sides?",
+      "difficulty": "tough",
+      "explanation": "The book's polygon table lists: 'Heptagon (hepta means 7)' — a 7-sided closed straight-line figure.",
+      "source": "book:page72",
+      "topic": "Naming Polygons: Triangle to Decagon",
+      "options": [
+        "Hexagon",
+        "Heptagon",
+        "Octagon",
+        "Nonagon"
+      ],
+      "answer": 1,
+      "id": "q42"
+    },
+    {
+      "type": "single",
+      "question": "The prefix 'octa' means 8. What is the name of a polygon with 8 sides?",
+      "difficulty": "tough",
+      "explanation": "The book's polygon table lists: 'Octagon (octa means 8)' — an 8-sided closed straight-line figure.",
+      "source": "book:page72",
+      "topic": "Naming Polygons: Triangle to Decagon",
+      "options": [
+        "Heptagon",
+        "Nonagon",
+        "Octagon",
+        "Decagon"
+      ],
+      "answer": 2,
+      "id": "q43"
+    },
+    {
+      "type": "single",
+      "question": "The prefix 'nona' means 9. What is the name of a polygon with 9 sides?",
+      "difficulty": "tough",
+      "explanation": "The book's polygon table lists: 'Nonagon (nona means 9)' — a 9-sided closed straight-line figure.",
+      "source": "book:page72",
+      "topic": "Naming Polygons: Triangle to Decagon",
+      "options": [
+        "Octagon",
+        "Decagon",
+        "Nonagon",
+        "Heptagon"
+      ],
+      "answer": 2,
+      "id": "q44"
+    },
+    {
+      "type": "single",
+      "question": "The prefix 'deca' means 10. What is the name of a polygon with 10 sides?",
+      "difficulty": "tough",
+      "explanation": "The book's polygon table lists: 'Decagon (deca means 10)' — a 10-sided closed straight-line figure.",
+      "source": "book:page72",
+      "topic": "Naming Polygons: Triangle to Decagon",
+      "options": [
+        "Nonagon",
+        "Decagon",
+        "Octagon",
+        "Nonaton"
+      ],
+      "answer": 1,
+      "id": "q45"
+    },
+    {
+      "type": "single",
+      "question": "What does the word part 'poly' mean, as used in the word 'polygon'?",
+      "difficulty": "simple",
+      "explanation": "The book states: 'A polygon is a closed figure made of 3 or more straight lines. \"Poly\" means many' — referring to the many straight sides a polygon can have.",
+      "source": "book:page71",
+      "topic": "Naming Polygons: Triangle to Decagon",
+      "options": [
+        "One",
+        "Many",
+        "Round",
+        "Straight"
+      ],
+      "answer": 1,
+      "id": "q46"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: A 'regular polygon' simply means any polygon that has more than 4 sides.",
+      "difficulty": "tricky",
+      "explanation": "The book defines a regular polygon as 'a polygon where all sides are equal and every angle is exactly the same' — this is about EQUAL sides and angles, and has nothing to do with how many sides the polygon has. A triangle can be regular (equilateral) too.",
+      "source": "book:page71",
+      "topic": "Naming Polygons: Triangle to Decagon",
+      "answer": false,
+      "id": "q47"
+    },
+    {
+      "type": "single",
+      "question": "In the chapter's crossword puzzle, the ACROSS clue '4 sides' matches which polygon's name?",
+      "difficulty": "tough",
+      "explanation": "The crossword clue for '4 sides' has the answer Quadrilateral, matching the book's own polygon-naming table.",
+      "source": "book:page72,75",
+      "topic": "Naming Polygons: Triangle to Decagon",
+      "options": [
+        "Quadrilateral",
+        "Pentagon",
+        "Hexagon",
+        "Heptagon"
+      ],
+      "answer": 0,
+      "id": "q48"
+    },
+    {
+      "type": "single",
+      "question": "In the chapter's crossword puzzle, the DOWN clue '6 sides' matches which polygon's name?",
+      "difficulty": "tough",
+      "explanation": "The crossword clue for '6 sides' has the answer Hexagon, matching the book's own polygon-naming table.",
+      "source": "book:page72,75",
+      "topic": "Naming Polygons: Triangle to Decagon",
+      "options": [
+        "Pentagon",
+        "Hexagon",
+        "Heptagon",
+        "Octagon"
+      ],
+      "answer": 1,
+      "id": "q49"
+    },
+    {
+      "type": "single",
+      "question": "What are the two defining properties of a parallelogram, according to the book?",
+      "difficulty": "simple",
+      "explanation": "The book lists a parallelogram's properties as: 'Opposite sides are equal' and 'Opposite sides are parallel.'",
+      "source": "book:page72",
+      "topic": "Quadrilateral Families",
+      "options": [
+        "Opposite sides equal AND opposite sides parallel",
+        "All sides equal only",
+        "Only one pair of opposite sides parallel",
+        "Adjacent sides perpendicular only"
+      ],
+      "answer": 0,
+      "id": "q50"
+    },
+    {
+      "type": "single",
+      "question": "What is the defining property of a trapezium?",
+      "difficulty": "simple",
+      "explanation": "The book states a trapezium has 'one pair of opposite sides parallel' — unlike a parallelogram, only ONE pair needs to be parallel, not both.",
+      "source": "book:page72",
+      "topic": "Quadrilateral Families",
+      "options": [
+        "All sides are equal",
+        "One pair of opposite sides are parallel",
+        "Adjacent sides are perpendicular",
+        "It has no straight sides"
+      ],
+      "answer": 1,
+      "id": "q51"
+    },
+    {
+      "type": "single",
+      "question": "Which quadrilateral has all sides equal, opposite sides parallel, AND adjacent sides perpendicular (making it a special parallelogram)?",
+      "difficulty": "simple",
+      "explanation": "The book's Special Parallelograms section lists a square's properties as: 'All sides are equal', 'Opposite sides are parallel', and 'Adjacent sides are perpendicular.'",
+      "source": "book:page72",
+      "topic": "Quadrilateral Families",
+      "options": [
+        "Rectangle",
+        "Trapezium",
+        "Square",
+        "Rhombus"
+      ],
+      "answer": 2,
+      "id": "q52"
+    },
+    {
+      "type": "single",
+      "question": "Which quadrilateral has opposite sides equal, opposite sides parallel, AND adjacent sides perpendicular, but does NOT need all four sides to be equal?",
+      "difficulty": "simple",
+      "explanation": "The book lists a rectangle's properties as: 'Opposite sides are equal', 'Opposite sides are parallel', and 'Adjacent sides are perpendicular' — with no requirement that all 4 sides be equal (that extra rule is only for a square).",
+      "source": "book:page72",
+      "topic": "Quadrilateral Families",
+      "options": [
+        "Square",
+        "Rectangle",
+        "Rhombus",
+        "Trapezium"
+      ],
+      "answer": 1,
+      "id": "q53"
+    },
+    {
+      "type": "single",
+      "question": "Which quadrilateral has all sides equal and opposite sides parallel, but does NOT need its adjacent sides to be perpendicular (its corners can be slanted)?",
+      "difficulty": "tough",
+      "explanation": "The book lists a rhombus's properties as only: 'All sides are equal' and 'Opposite sides are parallel' — unlike a square, there is no rule that its corners must be right angles, so a rhombus can look 'pushed over' with slanted corners.",
+      "source": "book:page72",
+      "topic": "Quadrilateral Families",
+      "options": [
+        "Square",
+        "Rectangle",
+        "Rhombus",
+        "Trapezium"
+      ],
+      "answer": 2,
+      "id": "q54"
+    },
+    {
+      "type": "single",
+      "question": "Statement (I): A rhombus is also a square. Statement (II): A square is also a rhombus. Which is correct?",
+      "difficulty": "tricky",
+      "explanation": "Statement (I) is FALSE because a rhombus does not need right-angle corners, so not every rhombus is a square. Statement (II) is TRUE because a square (all sides equal + opposite sides parallel) already meets every property a rhombus needs, so every square counts as a rhombus.",
+      "source": "book:page78",
+      "topic": "Quadrilateral Families",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 3,
+      "id": "q55"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: A square satisfies the definition of a parallelogram, a rectangle, AND a rhombus, since it has opposite sides parallel, opposite sides equal, adjacent sides perpendicular, AND all sides equal.",
+      "difficulty": "tricky",
+      "explanation": "Comparing the square's properties to each family's rules in the book's table shows the square meets every rule for a parallelogram (opposite sides equal & parallel), a rectangle (adds adjacent sides perpendicular), and a rhombus (all sides equal) all at once.",
+      "source": "book:page72",
+      "topic": "Quadrilateral Families",
+      "answer": true,
+      "id": "q56"
+    },
+    {
+      "type": "single",
+      "question": "Which single quadrilateral connects to the HIGHEST number of the families Parallelogram, Rectangle, and Rhombus, because it satisfies all of their defining properties at once?",
+      "difficulty": "tough",
+      "explanation": "Since a square satisfies the parallelogram rules (opposite sides equal & parallel), the rectangle rule (adjacent sides perpendicular), AND the rhombus rule (all sides equal), it belongs to all three families — more than any other quadrilateral in the chapter.",
+      "source": "book:page72,74",
+      "topic": "Quadrilateral Families",
+      "options": [
+        "Trapezium",
+        "Rectangle",
+        "Rhombus",
+        "Square"
+      ],
+      "answer": 3,
+      "id": "q57"
+    },
+    {
+      "type": "single",
+      "question": "To turn a RECTANGLE into a SQUARE, without changing any of its other properties, what needs to change?",
+      "difficulty": "tricky",
+      "explanation": "A rectangle already has opposite sides equal & parallel and right-angle corners — it is only missing the square's extra rule that ALL FOUR sides must be equal, so making all sides equal length turns it into a square.",
+      "source": "book:page73",
+      "topic": "Quadrilateral Families",
+      "options": [
+        "Make all four sides equal in length",
+        "Make opposite sides parallel",
+        "Add more sides",
+        "Make it curved"
+      ],
+      "answer": 0,
+      "id": "q58"
+    },
+    {
+      "type": "single",
+      "question": "To turn a RHOMBUS into a SQUARE, without changing any of its other properties, what needs to change?",
+      "difficulty": "tricky",
+      "explanation": "A rhombus already has all sides equal and opposite sides parallel — it is only missing the square's extra rule that adjacent sides must be perpendicular, so making its corners right angles turns it into a square.",
+      "source": "book:page73",
+      "topic": "Quadrilateral Families",
+      "options": [
+        "Make all sides equal",
+        "Make the adjacent sides perpendicular (add right-angle corners)",
+        "Remove one side",
+        "Make it a circle"
+      ],
+      "answer": 1,
+      "id": "q59"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: Every rectangle is also a parallelogram, because it has opposite sides equal and opposite sides parallel.",
+      "difficulty": "tricky",
+      "explanation": "A rectangle's properties (opposite sides equal + opposite sides parallel + adjacent sides perpendicular) already include every rule a parallelogram needs, so every rectangle is automatically a parallelogram too.",
+      "source": "book:page72",
+      "topic": "Quadrilateral Families",
+      "answer": true,
+      "id": "q60"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: Every parallelogram is also a rectangle.",
+      "difficulty": "tricky",
+      "explanation": "A parallelogram only needs opposite sides equal and opposite sides parallel — it does NOT need right-angle corners like a rectangle does. A 'squashed' parallelogram with slanted corners is a parallelogram but not a rectangle.",
+      "source": "book:page72",
+      "topic": "Quadrilateral Families",
+      "answer": false,
+      "id": "q61"
+    },
+    {
+      "type": "single",
+      "question": "What is an open curve?",
+      "difficulty": "simple",
+      "explanation": "The book defines: 'An open curve is a curve where the starting and ending points are not the same.'",
+      "source": "book:page71",
+      "topic": "Open and Closed Curves",
+      "options": [
+        "A curve whose starting and ending points are the same",
+        "A curve whose starting and ending points are NOT the same",
+        "A curve made only of straight lines",
+        "A curve with no points at all"
+      ],
+      "answer": 1,
+      "id": "q62"
+    },
+    {
+      "type": "single",
+      "question": "What is a closed curve?",
+      "difficulty": "simple",
+      "explanation": "The book defines: 'A closed curve is a curve which begins and ends at the same point.'",
+      "source": "book:page71",
+      "topic": "Open and Closed Curves",
+      "options": [
+        "A curve that never crosses itself",
+        "A curve which begins and ends at the same point",
+        "A curve with straight sides",
+        "A curve with more than 4 vertices"
+      ],
+      "answer": 1,
+      "id": "q63"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: A curve is a line that is NOT straight.",
+      "difficulty": "simple",
+      "explanation": "The book states: 'A curve is a line that is not straight' — distinguishing curves from the straight-line sides used to make polygons.",
+      "source": "book:page71",
+      "topic": "Open and Closed Curves",
+      "answer": true,
+      "id": "q64"
+    },
+    {
+      "type": "single",
+      "question": "According to the book, can a curve be open, closed, or both?",
+      "difficulty": "tough",
+      "explanation": "The book explains both types exist: 'A curve can be open or closed', followed by separate definitions and examples for open curves and closed curves.",
+      "source": "book:page71",
+      "topic": "Open and Closed Curves",
+      "options": [
+        "A curve can only ever be open",
+        "A curve can only ever be closed",
+        "A curve can be either open OR closed",
+        "A curve is never a real line"
+      ],
+      "answer": 2,
+      "id": "q65"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: A simple closed curve is a closed curve that crosses over its own path somewhere.",
+      "difficulty": "tough",
+      "explanation": "The book says the OPPOSITE: 'In a simple closed curve, the curve does not cross itself.' A curve that DOES cross itself is still closed, but it is not called 'simple'.",
+      "source": "book:page71",
+      "topic": "Open and Closed Curves",
+      "answer": false,
+      "id": "q66"
+    },
+    {
+      "type": "single",
+      "question": "You can draw MANY different curved paths joining two dots A and B on paper, but none of them are polygons. Why not?",
+      "difficulty": "tricky",
+      "explanation": "A polygon must be a closed figure made ONLY of straight-line sides. Any bent or rounded path between A and B is a curve, not a set of straight segments, so it fails the polygon definition no matter how it's drawn.",
+      "source": "book:page70,71 (concept extension)",
+      "topic": "Open and Closed Curves",
+      "options": [
+        "Because curves are not made only of straight lines",
+        "Because curves are always closed",
+        "Because curves always have more vertices than polygons",
+        "Because curves are always symmetrical"
+      ],
+      "answer": 0,
+      "id": "q67"
+    },
+    {
+      "type": "single",
+      "question": "Based on the chapter's definition of a polygon, which kind of edge can a polygon NEVER contain?",
+      "difficulty": "tricky",
+      "explanation": "Since a polygon is defined as 'a closed figure formed by straight lines', any shape containing even one curved edge cannot be a true polygon.",
+      "source": "book:page71",
+      "topic": "Open and Closed Curves",
+      "options": [
+        "A straight edge",
+        "A curved edge",
+        "A vertex",
+        "A diagonal"
+      ],
+      "answer": 1,
+      "id": "q68"
+    },
+    {
+      "type": "single",
+      "question": "What is the fixed point inside a circle, from which every point on the circle is the same distance, called?",
+      "difficulty": "simple",
+      "explanation": "The book defines: 'Every point on this curve is at the same distance from a fixed point inside the circle. This fixed point is the centre of the circle.'",
+      "source": "book:page79",
+      "topic": "Circles: Centre, Radius and Diameter",
+      "options": [
+        "The radius",
+        "The centre",
+        "The diameter",
+        "The circumference"
+      ],
+      "answer": 1,
+      "id": "q69"
+    },
+    {
+      "type": "single",
+      "question": "What is the fixed distance between the centre and any point on the circle called?",
+      "difficulty": "simple",
+      "explanation": "The book defines: 'The fixed distance between the centre and any point on the circle is known as the radius.'",
+      "source": "book:page79",
+      "topic": "Circles: Centre, Radius and Diameter",
+      "options": [
+        "The diameter",
+        "The circumference",
+        "The radius",
+        "The vertex"
+      ],
+      "answer": 2,
+      "id": "q70"
+    },
+    {
+      "type": "single",
+      "question": "What is the name of the line that passes through the centre of a circle, with both its endpoints lying on the circle?",
+      "difficulty": "simple",
+      "explanation": "The book defines: 'A line passing through the centre of the circle whose end points lie on the circle is called the diameter of the circle.'",
+      "source": "book:page79",
+      "topic": "Circles: Centre, Radius and Diameter",
+      "options": [
+        "The radius",
+        "The circumference",
+        "The diameter",
+        "The vertex"
+      ],
+      "answer": 2,
+      "id": "q71"
+    },
+    {
+      "type": "single",
+      "question": "If the radius of a circle is 2 cm, what is its diameter?",
+      "difficulty": "simple",
+      "explanation": "Diameter = 2 x radius = 2 x 2 cm = 4 cm, exactly as worked out in the book's own example.",
+      "source": "book:page79",
+      "topic": "Circles: Centre, Radius and Diameter",
+      "options": [
+        "2 cm",
+        "4 cm",
+        "1 cm",
+        "8 cm"
+      ],
+      "answer": 1,
+      "id": "q72"
+    },
+    {
+      "type": "single",
+      "question": "Find the radius of a circle whose diameter is 8 cm.",
+      "difficulty": "simple",
+      "explanation": "Radius = Diameter ÷ 2 = 8 cm ÷ 2 = 4 cm, exactly as worked out in the book's own example.",
+      "source": "book:page79",
+      "topic": "Circles: Centre, Radius and Diameter",
+      "options": [
+        "8 cm",
+        "16 cm",
+        "2 cm",
+        "4 cm"
+      ],
+      "answer": 3,
+      "id": "q73"
+    },
+    {
+      "type": "single",
+      "question": "If the diameter of a circular track is 224 metres, what is its radius?",
+      "difficulty": "tough",
+      "explanation": "Radius = Diameter ÷ 2 = 224 m ÷ 2 = 112 metres.",
+      "source": "book:page81",
+      "topic": "Circles: Centre, Radius and Diameter",
+      "options": [
+        "448 metres",
+        "112 metres",
+        "224 metres",
+        "56 metres"
+      ],
+      "answer": 1,
+      "id": "q74"
+    },
+    {
+      "type": "single",
+      "question": "Statement (I): The diameter of a circle is half the length of the radius. Statement (II): The diameter of a circle must pass through the centre. Which is correct?",
+      "difficulty": "tricky",
+      "explanation": "Statement (I) is FALSE — the diameter is actually TWICE the radius, not half (radius is half the diameter, not the other way round). Statement (II) is TRUE — by definition the diameter is a line passing through the centre.",
+      "source": "book:page82",
+      "topic": "Circles: Centre, Radius and Diameter",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 3,
+      "id": "q75"
+    },
+    {
+      "type": "single",
+      "question": "How many diameters can a single circle have?",
+      "difficulty": "tough",
+      "explanation": "You can draw a line through the centre in any direction and it will always be a valid diameter, so a circle has infinitely many possible diameters, not just one or two.",
+      "source": "book:page80",
+      "topic": "Circles: Centre, Radius and Diameter",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Many (infinitely many)",
+        "None"
+      ],
+      "answer": 2,
+      "id": "q76"
+    },
+    {
+      "type": "single",
+      "question": "How many centres does a single circle have?",
+      "difficulty": "tough",
+      "explanation": "The centre is one single fixed point that is equidistant from every point on the circle — a circle has exactly one centre.",
+      "source": "book:page80",
+      "topic": "Circles: Centre, Radius and Diameter",
+      "options": [
+        "Only 1",
+        "2",
+        "Many",
+        "None"
+      ],
+      "answer": 0,
+      "id": "q77"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: The diameter of a circle is always exactly twice its radius.",
+      "difficulty": "simple",
+      "explanation": "Since diameter = 2 x radius (as shown in the book's worked examples), the diameter is always exactly double the radius.",
+      "source": "book:page79",
+      "topic": "Circles: Centre, Radius and Diameter",
+      "answer": true,
+      "id": "q78"
+    },
+    {
+      "type": "single",
+      "question": "In the circle-folding activity, after folding a paper circle in half (semicircle) and then in half again (quadrant), how does length AO compare to length AB?",
+      "difficulty": "tough",
+      "explanation": "AO is a radius (centre to edge) while AB is a diameter (edge to edge through the centre); since diameter is always twice the radius, AO (the radius) is always half of AB (the diameter).",
+      "source": "book:page78",
+      "topic": "Circles: Centre, Radius and Diameter",
+      "options": [
+        "AO is twice AB",
+        "AO is half of AB",
+        "AO equals AB",
+        "They cannot be compared"
+      ],
+      "answer": 1,
+      "id": "q79"
+    },
+    {
+      "type": "single",
+      "question": "In the matching activity, which circle element matches the description 'a line that connects the centre of the circle to any point on the circle'?",
+      "difficulty": "tricky",
+      "explanation": "This description exactly matches the book's own definition of the radius: the fixed distance (line) from the centre to any point on the circle.",
+      "source": "book:page83",
+      "topic": "Circles: Centre, Radius and Diameter",
+      "options": [
+        "Circumference",
+        "Radius",
+        "Diameter",
+        "Centre"
+      ],
+      "answer": 1,
+      "id": "q80"
+    },
+    {
+      "type": "single",
+      "question": "What is the circumference of a circle?",
+      "difficulty": "simple",
+      "explanation": "The book defines: 'The circumference of a circle is the distance all the way around the circle. It is the length of the boundary or the outline of the circle.'",
+      "source": "book:page79",
+      "topic": "Circles: Circumference and Construction",
+      "options": [
+        "The centre point of the circle",
+        "The distance all the way around the circle (its boundary)",
+        "Half of the diameter",
+        "The number of radii a circle has"
+      ],
+      "answer": 1,
+      "id": "q81"
+    },
+    {
+      "type": "single",
+      "question": "What two main parts make up a compass, the instrument used to draw circles?",
+      "difficulty": "simple",
+      "explanation": "The book describes a compass as having 'two arms – one of them is a needle and the other one is a pencil holder.'",
+      "source": "book:page78",
+      "topic": "Circles: Circumference and Construction",
+      "options": [
+        "Two pencils",
+        "A needle and a pencil holder",
+        "Two rulers",
+        "A protractor and a ruler"
+      ],
+      "answer": 1,
+      "id": "q82"
+    },
+    {
+      "type": "single",
+      "question": "To draw a circle of radius 4 cm using a compass, what distance should you set between the needle and the pencil?",
+      "difficulty": "tough",
+      "explanation": "The compass's needle-to-pencil distance directly becomes the circle's radius, so to draw a 4 cm radius circle you must open the compass arms to exactly 4 cm.",
+      "source": "book:page78",
+      "topic": "Circles: Circumference and Construction",
+      "options": [
+        "8 cm",
+        "2 cm",
+        "4 cm",
+        "It does not matter"
+      ],
+      "answer": 2,
+      "id": "q83"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: When drawing a circle with a compass, you must firmly fix the needle at one point (which becomes the centre) while moving the pencil all the way around it.",
+      "difficulty": "simple",
+      "explanation": "The book's construction steps say to 'firmly fix the needle of the compass on a point' and then 'move the pencil around O in any direction till you reach the starting point' — the fixed needle point becomes the centre.",
+      "source": "book:page79",
+      "topic": "Circles: Circumference and Construction",
+      "answer": true,
+      "id": "q84"
+    },
+    {
+      "type": "single",
+      "question": "In the matching activity, which circle element matches the description 'the perimeter of the circle'?",
+      "difficulty": "tricky",
+      "explanation": "'Perimeter of the circle' is exactly how the book defines circumference: the distance all the way around the circle's boundary.",
+      "source": "book:page83",
+      "topic": "Circles: Circumference and Construction",
+      "options": [
+        "Radius",
+        "Diameter",
+        "Circumference",
+        "Centre"
+      ],
+      "answer": 2,
+      "id": "q85"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: A line drawn through the centre of a circle to touch the circle at two opposite points will always be double the length of a line from the centre to just one of those points.",
+      "difficulty": "tricky",
+      "explanation": "The full through-the-centre line is a diameter, while the centre-to-one-point line is a radius. Since diameter = 2 x radius, the full line is always exactly double the shorter one.",
+      "source": "book:page79 (concept extension)",
+      "topic": "Circles: Circumference and Construction",
+      "answer": true,
+      "id": "q86"
+    },
+    {
+      "type": "single",
+      "question": "Overlapping circles drawn using a compass, arranged to make a pretty pattern, are shown in the book as an example of what?",
+      "difficulty": "tough",
+      "explanation": "The book shows an example circle design made from several overlapping circles and invites students to 'create your own circle designs using a compass.'",
+      "source": "book:page81",
+      "topic": "Circles: Circumference and Construction",
+      "options": [
+        "A polygon design",
+        "A circle design",
+        "A perspective drawing",
+        "A 3D model"
+      ],
+      "answer": 1,
+      "id": "q87"
+    },
+    {
+      "type": "single",
+      "question": "How many edges does a cube have?",
+      "difficulty": "simple",
+      "explanation": "The book states a cube has '12 equal edges, 6 equal surfaces, 8 vertices.'",
+      "source": "book:page83",
+      "topic": "3D Shapes: Faces, Edges and Vertices",
+      "options": [
+        "6",
+        "8",
+        "12",
+        "24"
+      ],
+      "answer": 2,
+      "id": "q88"
+    },
+    {
+      "type": "single",
+      "question": "How many faces (surfaces) does a cube have?",
+      "difficulty": "simple",
+      "explanation": "The book states a cube has '12 equal edges, 6 equal surfaces, 8 vertices.'",
+      "source": "book:page83",
+      "topic": "3D Shapes: Faces, Edges and Vertices",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "answer": 1,
+      "id": "q89"
+    },
+    {
+      "type": "single",
+      "question": "How many vertices does a cube have?",
+      "difficulty": "simple",
+      "explanation": "The book states a cube has '12 equal edges, 6 equal surfaces, 8 vertices.'",
+      "source": "book:page83",
+      "topic": "3D Shapes: Faces, Edges and Vertices",
+      "options": [
+        "6",
+        "8",
+        "12",
+        "4"
+      ],
+      "answer": 1,
+      "id": "q90"
+    },
+    {
+      "type": "single",
+      "question": "How many edges does a cuboid have?",
+      "difficulty": "simple",
+      "explanation": "The book states a cuboid has '12 edges, 6 surfaces, 8 vertices' — the same counts as a cube, even though a cuboid's edges are not all equal in length.",
+      "source": "book:page84",
+      "topic": "3D Shapes: Faces, Edges and Vertices",
+      "options": [
+        "6",
+        "8",
+        "12",
+        "10"
+      ],
+      "answer": 2,
+      "id": "q91"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: A cube and a cuboid both have 12 edges, 6 surfaces, and 8 vertices, but a cube's edges and faces are all EQUAL while a cuboid's are not.",
+      "difficulty": "tough",
+      "explanation": "Both shapes share the same edge/face/vertex counts (12/6/8), but the book describes the cube as having '12 EQUAL edges, 6 EQUAL surfaces', while the cuboid has plain '12 edges, 6 surfaces' with no 'equal' — meaning a cuboid's faces can be different-sized rectangles.",
+      "source": "book:page83,84",
+      "topic": "3D Shapes: Faces, Edges and Vertices",
+      "answer": true,
+      "id": "q92"
+    },
+    {
+      "type": "single",
+      "question": "How many vertices (corner points) does a sphere have?",
+      "difficulty": "simple",
+      "explanation": "The book states a sphere has '0 edges, 1 surface, 0 vertices' — a sphere has no flat corners at all.",
+      "source": "book:page84",
+      "topic": "3D Shapes: Faces, Edges and Vertices",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "8"
+      ],
+      "answer": 0,
+      "id": "q93"
+    },
+    {
+      "type": "single",
+      "question": "A cylinder has 3 total surfaces according to the book. How many of these are flat, and how many are curved?",
+      "difficulty": "tough",
+      "explanation": "The book states a cylinder has '2 edges, 3 surfaces, 0 vertices' — the two circular ends are flat surfaces, and the surface wrapping around the side is the one curved surface, making 2 flat + 1 curved = 3 total.",
+      "source": "book:page83,84",
+      "topic": "3D Shapes: Faces, Edges and Vertices",
+      "options": [
+        "3 flat, 0 curved",
+        "1 flat, 2 curved",
+        "2 flat, 1 curved",
+        "0 flat, 3 curved"
+      ],
+      "answer": 2,
+      "id": "q94"
+    },
+    {
+      "type": "single",
+      "question": "How many vertices does a cone have?",
+      "difficulty": "simple",
+      "explanation": "The book states a cone has '1 edge, 2 surfaces, 1 vertex' — the single pointed tip at the top of the cone is its one vertex.",
+      "source": "book:page84",
+      "topic": "3D Shapes: Faces, Edges and Vertices",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "id": "q95"
+    },
+    {
+      "type": "single",
+      "question": "A cone has 1 edge and 2 surfaces. What are these two surfaces?",
+      "difficulty": "tough",
+      "explanation": "A cone's flat circular base is one surface, and the sloping surface that comes to a point at the top is the second, curved surface — 2 surfaces in total, joined by 1 edge where they meet.",
+      "source": "book:page84",
+      "topic": "3D Shapes: Faces, Edges and Vertices",
+      "options": [
+        "Two curved surfaces",
+        "One flat (circular base) surface and one curved surface",
+        "Two flat surfaces",
+        "One flat surface only"
+      ],
+      "answer": 1,
+      "id": "q96"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: A sphere has 0 edges, 0 vertices, and just 1 curved surface, with no flat surfaces at all.",
+      "difficulty": "tricky",
+      "explanation": "The book confirms a sphere has '0 edges, 1 surface, 0 vertices' — since a ball shape has no flat parts anywhere, its single surface must be entirely curved.",
+      "source": "book:page84",
+      "topic": "3D Shapes: Faces, Edges and Vertices",
+      "answer": true,
+      "id": "q97"
+    },
+    {
+      "type": "single",
+      "question": "Which of these 3D shapes has the MOST vertices: a cube, a cylinder, a cone, or a sphere?",
+      "difficulty": "tricky",
+      "explanation": "Comparing the book's counts: cube has 8 vertices, cylinder has 0, cone has 1, and sphere has 0 — so the cube clearly has the most vertices among these four shapes.",
+      "source": "book:page83,84",
+      "topic": "3D Shapes: Faces, Edges and Vertices",
+      "options": [
+        "Cube (8 vertices)",
+        "Cylinder (0 vertices)",
+        "Cone (1 vertex)",
+        "Sphere (0 vertices)"
+      ],
+      "answer": 0,
+      "id": "q98"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: Since a cuboid has the same edge, surface, and vertex counts as a cube (12, 6, 8), a cuboid must always look exactly like a cube.",
+      "difficulty": "tricky",
+      "explanation": "Matching COUNTS does not mean matching SHAPE — a cube's 6 faces are all equal squares, but a cuboid's 6 faces can be rectangles of different sizes (like a shoebox), so the two shapes can look quite different even with the same edge/face/vertex counts.",
+      "source": "book:page83,84 (concept extension)",
+      "topic": "3D Shapes: Faces, Edges and Vertices",
+      "answer": false,
+      "id": "q99"
+    },
+    {
+      "type": "single",
+      "question": "What is the 'top view' (or plan view) of an object?",
+      "difficulty": "simple",
+      "explanation": "The book defines: 'The top view or plan view shows how the object appears from above.'",
+      "source": "book:page83",
+      "topic": "Views of Shapes and Geometry in Real Life",
+      "options": [
+        "What we see facing it directly",
+        "How the object appears from above",
+        "Its shape from the left or right",
+        "Its shape from underneath only"
+      ],
+      "answer": 1,
+      "id": "q100"
+    },
+    {
+      "type": "single",
+      "question": "What is the 'front view' of an object?",
+      "difficulty": "simple",
+      "explanation": "The book defines: 'The front view shows what we see when we face it directly.'",
+      "source": "book:page83",
+      "topic": "Views of Shapes and Geometry in Real Life",
+      "options": [
+        "How it appears from above",
+        "What we see when we face it directly",
+        "Its shape from the left or right",
+        "A view from behind it"
+      ],
+      "answer": 1,
+      "id": "q101"
+    },
+    {
+      "type": "single",
+      "question": "What does the 'side view' of an object reveal?",
+      "difficulty": "simple",
+      "explanation": "The book defines: 'The side view reveals its shape from either the left or right.'",
+      "source": "book:page83",
+      "topic": "Views of Shapes and Geometry in Real Life",
+      "options": [
+        "How it appears from above",
+        "What we see facing it directly",
+        "Its shape from either the left or right",
+        "Its weight and size"
+      ],
+      "answer": 2,
+      "id": "q102"
+    },
+    {
+      "type": "single",
+      "question": "Why does the chapter say we need THREE different views (top, front, side) to fully understand a 3D object?",
+      "difficulty": "tough",
+      "explanation": "The book explains: 'A 3-dimensional object looks different when viewed from the top, front or side. The three views help us understand the full structure and form of the 3D object' — no single view alone tells the whole story.",
+      "source": "book:page83",
+      "topic": "Views of Shapes and Geometry in Real Life",
+      "options": [
+        "Because a 3D object looks different from the top, front, or side, and all three together show its full structure",
+        "Because 3D objects have no other way of being drawn",
+        "Because only the top view matters, the rest are optional",
+        "Because 3D shapes cannot be measured otherwise"
+      ],
+      "answer": 0,
+      "id": "q103"
+    },
+    {
+      "type": "single",
+      "question": "In the Taj Mahal perspective-drawing example, which view highlights the dome and its symmetry?",
+      "difficulty": "tough",
+      "explanation": "The book says: 'the right inset shows a top view highlighting the dome and symmetry' of the Taj Mahal.",
+      "source": "book:page83",
+      "topic": "Views of Shapes and Geometry in Real Life",
+      "options": [
+        "The main front-view picture",
+        "The left inset (front + side together)",
+        "The right inset (top view)",
+        "None of the views show the dome"
+      ],
+      "answer": 2,
+      "id": "q104"
+    },
+    {
+      "type": "single",
+      "question": "In the Taj Mahal perspective-drawing example, which inset shows both the front AND the side together, to reveal depth and structure?",
+      "difficulty": "tough",
+      "explanation": "The book says: 'the left inset shows both the front and side to reveal the depth and structure' of the Taj Mahal.",
+      "source": "book:page83",
+      "topic": "Views of Shapes and Geometry in Real Life",
+      "options": [
+        "The main picture",
+        "The left inset",
+        "The right inset",
+        "There is no such inset"
+      ],
+      "answer": 1,
+      "id": "q105"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: In Warli art from Maharashtra, people and animals are drawn using two joined triangles.",
+      "difficulty": "simple",
+      "explanation": "The book explains: 'People and animals are made from two joined triangles' in traditional Warli art.",
+      "source": "book:page89",
+      "topic": "Views of Shapes and Geometry in Real Life",
+      "answer": true,
+      "id": "q106"
+    },
+    {
+      "type": "single",
+      "question": "In Warli art, what basic geometric shape is used to represent houses?",
+      "difficulty": "simple",
+      "explanation": "The book says: 'houses become squares' in Warli art's use of simple geometric shapes.",
+      "source": "book:page89",
+      "topic": "Views of Shapes and Geometry in Real Life",
+      "options": [
+        "Circles",
+        "Triangles",
+        "Squares",
+        "Lines only"
+      ],
+      "answer": 2,
+      "id": "q107"
+    },
+    {
+      "type": "single",
+      "question": "In Warli art, what basic geometric shape represents the sun and the moon?",
+      "difficulty": "simple",
+      "explanation": "The book says: 'the sun and moon are circles' in Warli art.",
+      "source": "book:page89",
+      "topic": "Views of Shapes and Geometry in Real Life",
+      "options": [
+        "Triangles",
+        "Squares",
+        "Circles",
+        "Rectangles"
+      ],
+      "answer": 2,
+      "id": "q108"
+    },
+    {
+      "type": "single",
+      "question": "In Sanskrit, what does the word 'mandala' mean?",
+      "difficulty": "tough",
+      "explanation": "The book states: 'The word mandala means \"circle\" in Sanskrit' and represents the universe, wholeness, and inner balance.",
+      "source": "book:page89",
+      "topic": "Views of Shapes and Geometry in Real Life",
+      "options": [
+        "Square",
+        "Triangle",
+        "Circle",
+        "Line"
+      ],
+      "answer": 2,
+      "id": "q109"
+    },
+    {
+      "type": "single",
+      "question": "Why does the book say the triangle is considered one of the strongest shapes, used in bridges, towers, and roofs (like the Eiffel Tower)?",
+      "difficulty": "tough",
+      "explanation": "The book explains the triangle 'keeps its form, has a firm base, and provides strong support, which is why it is used in bridges, towers, and roofs' — mentioning famous examples like the Eiffel Tower and the Great Pyramids of Giza.",
+      "source": "book:page89",
+      "topic": "Views of Shapes and Geometry in Real Life",
+      "options": [
+        "Because it is the easiest shape to draw",
+        "Because it keeps its form, has a firm base, and provides strong support",
+        "Because it uses the fewest lines of any polygon",
+        "Because it is the only shape with straight sides"
+      ],
+      "answer": 1,
+      "id": "q110"
+    },
+    {
+      "type": "single",
+      "question": "According to the book, the word 'geometry' comes from Greek words meaning:",
+      "difficulty": "simple",
+      "explanation": "The book states: 'The word \"geometry\" comes from Greek words: \"geo\" (earth) and \"metron\" (measurement)' — ancient people used geometry to measure land.",
+      "source": "book:page89",
+      "topic": "Views of Shapes and Geometry in Real Life",
+      "options": [
+        "Water and time",
+        "Earth and measurement",
+        "Shape and colour",
+        "Number and letter"
+      ],
+      "answer": 1,
+      "id": "q111"
+    }
+  ]
+}

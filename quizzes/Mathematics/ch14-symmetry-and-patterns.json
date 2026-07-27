@@ -1,0 +1,1749 @@
+{
+  "schemaVersion": 1,
+  "id": "mathematics-ch14-symmetry-and-patterns",
+  "title": "Symmetry and Patterns",
+  "subject": "Mathematics",
+  "grade": 4,
+  "chapter": "14. Symmetry and Patterns",
+  "topic": "Full Book",
+  "description": "Explore lines of symmetry, reflection and mirror images, tessellation, and growing, reducing, and number patterns through worked examples from the Symmetry and Patterns chapter.",
+  "tags": [
+    "mathematics",
+    "grade4",
+    "symmetry",
+    "patterns",
+    "tessellation",
+    "reflection",
+    "number-patterns",
+    "lines-of-symmetry"
+  ],
+  "defaultTimeLimitSec": 1200,
+  "questions": [
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "What does a line of symmetry do to a shape?",
+      "explanation": "A line of symmetry divides a shape into two halves that are exact mirror images of each other, like a butterfly's wings on either side of its body.",
+      "source": "facts.txt p3",
+      "options": [
+        "Divides it into two identical (matching) halves",
+        "Makes the shape bigger",
+        "Changes the shape's colour",
+        "Cuts the shape into unequal parts"
+      ],
+      "answer": 0,
+      "id": "q1"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "How many lines of symmetry does a square have?",
+      "explanation": "A square has 4 lines of symmetry: 2 through the midpoints of opposite sides, and 2 through opposite corners (diagonals).",
+      "source": "book p84 / facts.txt p5",
+      "options": [
+        "4",
+        "1",
+        "2",
+        "0"
+      ],
+      "answer": 0,
+      "id": "q2"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "How many lines of symmetry does a rectangle (that is not a square) have?",
+      "explanation": "A rectangle has 2 lines of symmetry — one running left-right through the middle, and one running up-down through the middle.",
+      "source": "book p84",
+      "options": [
+        "2",
+        "4",
+        "1",
+        "0"
+      ],
+      "answer": 0,
+      "id": "q3"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "How many lines of symmetry does an equilateral triangle (all sides equal) have?",
+      "explanation": "An equilateral triangle has 3 lines of symmetry, one running from each corner to the middle of the opposite side.",
+      "source": "book p84 / facts.txt p5",
+      "options": [
+        "3",
+        "1",
+        "0",
+        "6"
+      ],
+      "answer": 0,
+      "id": "q4"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "simple",
+      "type": "boolean",
+      "question": "A circle has an infinite number of lines of symmetry.",
+      "explanation": "Any line that passes through the centre of a circle divides it into two identical halves, so a circle has infinite lines of symmetry.",
+      "source": "book p84 / facts.txt p5",
+      "answer": true,
+      "id": "q5"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "A triangle with all three sides of different (unequal) lengths has how many lines of symmetry?",
+      "explanation": "A scalene triangle (all sides unequal) has no line that can split it into two matching halves, so it has 0 lines of symmetry.",
+      "source": "book p84",
+      "options": [
+        "0",
+        "1",
+        "3",
+        "2"
+      ],
+      "answer": 0,
+      "id": "q6"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "A regular pentagon (5 equal sides) has how many lines of symmetry?",
+      "explanation": "A regular pentagon has one line of symmetry running from each corner through the middle of the opposite side — 5 corners means 5 lines.",
+      "source": "book p84",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "10"
+      ],
+      "answer": 0,
+      "id": "q7"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "A regular hexagon (6 equal sides) has how many lines of symmetry?",
+      "explanation": "A regular hexagon has 6 lines of symmetry: 3 connecting opposite corners, and 3 connecting the midpoints of opposite sides.",
+      "source": "book p84",
+      "options": [
+        "6",
+        "3",
+        "4",
+        "12"
+      ],
+      "answer": 0,
+      "id": "q8"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "A parallelogram (like a slanted rectangle where opposite sides are parallel but corners are not right angles) usually has how many lines of symmetry?",
+      "explanation": "An ordinary parallelogram (that is not also a rectangle) has no line that can fold it into two identical halves, so it has 0 lines of symmetry.",
+      "source": "book p84",
+      "options": [
+        "0",
+        "2",
+        "4",
+        "1"
+      ],
+      "answer": 0,
+      "id": "q9"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "A trapezium whose two non-parallel sides are equal in length (an isosceles trapezium) has how many lines of symmetry?",
+      "explanation": "An isosceles trapezium (equal non-parallel sides) has exactly 1 line of symmetry — a vertical line down the middle. A trapezium with unequal non-parallel sides usually has none.",
+      "source": "worksheet Q1c (My Math Mastery Journey-1)",
+      "options": [
+        "1",
+        "0",
+        "2",
+        "4"
+      ],
+      "answer": 0,
+      "id": "q10"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "Put these shapes in order from FEWEST to MOST lines of symmetry: rectangle, equilateral triangle, square.",
+      "explanation": "Rectangle has 2 lines, equilateral triangle has 3 lines, and square has 4 lines — so the order from fewest to most is rectangle, equilateral triangle, square.",
+      "source": "book p84 (synthesis)",
+      "options": [
+        "Rectangle, equilateral triangle, square",
+        "Square, equilateral triangle, rectangle",
+        "Equilateral triangle, square, rectangle",
+        "Rectangle, square, equilateral triangle"
+      ],
+      "answer": 0,
+      "id": "q11"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "simple",
+      "type": "boolean",
+      "question": "A shape can have zero lines of symmetry.",
+      "explanation": "Not every shape is symmetrical — an irregular shape (like a scalene triangle or a jagged lightning-bolt shape) can have zero lines of symmetry.",
+      "source": "worksheet Q1 (Walk Along Practice-1)",
+      "answer": true,
+      "id": "q12"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "In the worksheet, which of these shapes has NO line of symmetry and should be marked with a cross (❌)?",
+      "explanation": "The lightning-bolt shape is jagged and irregular on each side, so no line can divide it into two identical halves — it gets a cross.",
+      "source": "worksheet Q1 (Walk Along Practice-1)",
+      "options": [
+        "A grey lightning-bolt shape",
+        "A red heart",
+        "A yellow square",
+        "A green down-arrow"
+      ],
+      "answer": 0,
+      "id": "q13"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "How many lines of symmetry does a heart shape have?",
+      "explanation": "A heart shape has exactly 1 line of symmetry — a vertical line straight down the middle, with the two lobes and the point matching on each side.",
+      "source": "worksheet Q1 (Walk Along Practice-1) / book p84",
+      "options": [
+        "1",
+        "0",
+        "2",
+        "4"
+      ],
+      "answer": 0,
+      "id": "q14"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "How many lines of symmetry does a plain down-pointing (or up-pointing) arrow have?",
+      "explanation": "A simple straight arrow has 1 line of symmetry running down its middle, from the tip to the tail.",
+      "source": "worksheet Q1 (Walk Along Practice-1) / book p84",
+      "options": [
+        "1",
+        "0",
+        "2",
+        "3"
+      ],
+      "answer": 0,
+      "id": "q15"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "A smiley face (a plain circle with two round eyes and a curved smile, all evenly placed) has how many lines of symmetry?",
+      "explanation": "Even though the outer shape is a circle, the eyes and smile only match up along one vertical line down the middle of the face, so the whole picture has just 1 line of symmetry.",
+      "source": "book p84",
+      "options": [
+        "1",
+        "0",
+        "2",
+        "Infinite"
+      ],
+      "answer": 0,
+      "id": "q16"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "tricky",
+      "type": "boolean",
+      "question": "Since a circle by itself has infinite lines of symmetry, a smiley face drawn inside a circle (with eyes and a smile) also has infinite lines of symmetry.",
+      "explanation": "The outer circle has infinite symmetry, but once you draw eyes and a smile inside it, most of those lines no longer match — the smiley face as a whole only has 1 line of symmetry.",
+      "source": "book p84 (concept extension)",
+      "answer": false,
+      "id": "q17"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "In the mirror-word puzzle, 'SUCCESS' written backwards along a mirror line still spells which word when reflected back?",
+      "explanation": "Reflecting a word in a mirror does not change its letters, only flips their direction — so the mirror image of 'SUCCESS' still reads as 'SUCCESS'.",
+      "source": "worksheet Q2a (Walk Along Practice-1)",
+      "options": [
+        "SUCCESS",
+        "CESSUC",
+        "SSECCUS",
+        "SECCUSS"
+      ],
+      "answer": 0,
+      "id": "q18"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "In the mirror-word puzzle, what word appears when 'AWESOME' is reflected in the mirror line?",
+      "explanation": "A mirror reflection flips the direction of the letters but the word you read back is still 'AWESOME'.",
+      "source": "worksheet Q2b (Walk Along Practice-1)",
+      "options": [
+        "AWESOME",
+        "EMOSEWA",
+        "OMEWSEA",
+        "AWESOMÉ"
+      ],
+      "answer": 0,
+      "id": "q19"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "How many letters of the English alphabet have at least one line of symmetry?",
+      "explanation": "Of the 26 English letters, 16 have at least one line of symmetry: A, B, C, D, E, H, I, K, M, O, T, U, V, W, X, and Y.",
+      "source": "worksheet answer key (My Math Mastery Journey-1, Q3)",
+      "options": [
+        "16",
+        "26",
+        "10",
+        "20"
+      ],
+      "answer": 0,
+      "id": "q20"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "tough",
+      "type": "multiple",
+      "question": "Which of these letters have a VERTICAL line of symmetry (the left half mirrors the right half)?",
+      "explanation": "A, H, and O all look the same on the left and right sides of a vertical line down the middle. F does not, because its arms only stick out on one side.",
+      "source": "worksheet answer key / book p85 letter grid",
+      "options": [
+        "A",
+        "H",
+        "F",
+        "O"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "id": "q21"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "tough",
+      "type": "multiple",
+      "question": "Which of these letters have a HORIZONTAL line of symmetry (the top half mirrors the bottom half)?",
+      "explanation": "B, E, and C all look the same when folded along a horizontal line through the middle. A does not, because its top is pointed while its bottom is wide.",
+      "source": "worksheet answer key / book p85 letter grid",
+      "options": [
+        "B",
+        "E",
+        "A",
+        "C"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "id": "q22"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "tricky",
+      "type": "multiple",
+      "question": "Which of these letters have BOTH a vertical AND a horizontal line of symmetry?",
+      "explanation": "O, X, and H all match when folded either top-to-bottom or left-to-right. S only looks the same if you turn it upside down (rotation), not by folding — so it does not have a line of symmetry at all.",
+      "source": "worksheet answer key / book p85 letter grid",
+      "options": [
+        "O",
+        "X",
+        "H",
+        "S"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "id": "q23"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "Which of these letters does NOT have any line of symmetry?",
+      "explanation": "N looks the same only if you spin it 180°, but no straight fold line makes its left and right (or top and bottom) match — so N has zero lines of symmetry.",
+      "source": "book p85 letter grid (concept extension)",
+      "options": [
+        "N",
+        "A",
+        "M",
+        "W"
+      ],
+      "answer": 0,
+      "id": "q24"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Snowflakes are famous for being perfectly symmetrical. What is true about them according to the chapter?",
+      "explanation": "Even though every single snowflake has a unique pattern, each one still grows with perfect symmetry.",
+      "source": "facts.txt p4",
+      "options": [
+        "No two snowflakes are exactly alike, yet all are symmetrical",
+        "All snowflakes look exactly the same",
+        "Snowflakes have no symmetry at all",
+        "Only some snowflakes are symmetrical"
+      ],
+      "answer": 0,
+      "id": "q25"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "simple",
+      "type": "boolean",
+      "question": "A butterfly's wings are symmetrical along its body.",
+      "explanation": "The left and right wings of a butterfly are mirror images of each other along the line of its body.",
+      "source": "facts.txt p3",
+      "answer": true,
+      "id": "q26"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Reflecting an object in still water (like a lake) creates what kind of image?",
+      "explanation": "Water acts like a mirror, so the reflection of an object in water is a symmetrical image of the real object — this is often used in art and photography.",
+      "source": "facts.txt p1",
+      "options": [
+        "A symmetrical (mirror) image",
+        "A blurry, unrelated image",
+        "An image that is always upside-down and different",
+        "No image at all"
+      ],
+      "answer": 0,
+      "id": "q27"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "simple",
+      "type": "boolean",
+      "question": "Drawing lines of symmetry helps in understanding whether a shape is balanced.",
+      "explanation": "Marking the lines of symmetry on a shape shows exactly how its two halves match up, which is a way of checking if the shape is balanced.",
+      "source": "facts.txt p8",
+      "answer": true,
+      "id": "q28"
+    },
+    {
+      "topic": "Lines of Symmetry",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "A pineapple's outer segments are arranged in a way the chapter calls an example of what?",
+      "explanation": "The chapter notes that fruits and vegetables, like a pineapple, can show symmetric patterns in nature.",
+      "source": "facts.txt p4",
+      "options": [
+        "A symmetric pattern found in fruits and vegetables",
+        "A random, unpatterned arrangement",
+        "A tessellation of squares",
+        "A number pattern"
+      ],
+      "answer": 0,
+      "id": "q29"
+    },
+    {
+      "topic": "Reflection & Mirror Images",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "What does reflection create?",
+      "explanation": "Reflection produces the mirror image of an object — the same shape and size, just flipped across a line.",
+      "source": "book p85",
+      "options": [
+        "A mirror image of an object",
+        "A rotated (spun) copy of an object",
+        "A bigger copy of an object",
+        "A different-coloured object"
+      ],
+      "answer": 0,
+      "id": "q30"
+    },
+    {
+      "topic": "Reflection & Mirror Images",
+      "difficulty": "tough",
+      "type": "multiple",
+      "question": "In which directions can a mirror line be placed to show reflection?",
+      "explanation": "A mirror line can be placed vertically (up-down) or horizontally (side-to-side) to create a symmetrical reflected figure.",
+      "source": "book p85",
+      "options": [
+        "Vertically",
+        "Horizontally",
+        "Only diagonally",
+        "Only in a circle"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "id": "q31"
+    },
+    {
+      "topic": "Reflection & Mirror Images",
+      "difficulty": "simple",
+      "type": "boolean",
+      "question": "When a shape is reflected in a mirror line, its size stays the same.",
+      "explanation": "Reflecting a shape is like flipping it over a mirror line — the shape's size does not change, only its position/direction does.",
+      "source": "book p85",
+      "answer": true,
+      "id": "q32"
+    },
+    {
+      "topic": "Reflection & Mirror Images",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "When you reflect a shape across a mirror line, how far behind the mirror does the image appear compared to how far the real object is in front?",
+      "explanation": "The reflected image appears exactly as far behind the mirror line as the real object is in front of it.",
+      "source": "book p85",
+      "options": [
+        "The same distance",
+        "Twice the distance",
+        "Half the distance",
+        "It does not matter, the distance is random"
+      ],
+      "answer": 0,
+      "id": "q33"
+    },
+    {
+      "topic": "Reflection & Mirror Images",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "When the letter 'R' is reflected in a mirror, what happens to it?",
+      "explanation": "Reflecting a letter flips its direction — R becomes a mirror-image 'Я', C becomes a mirror-image 'Ɔ', and so on.",
+      "source": "book p85",
+      "options": [
+        "It flips to look like a backwards R (Я)",
+        "It turns into a different letter entirely, like B",
+        "It stays looking exactly like R with no change",
+        "It disappears"
+      ],
+      "answer": 0,
+      "id": "q34"
+    },
+    {
+      "topic": "Reflection & Mirror Images",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "The word 'WAIT', when reflected in a vertical mirror line, is shown next to which word in the chapter?",
+      "explanation": "The chapter shows 'TIAW' as the mirror-flipped version of 'WAIT' — the letters are reversed left-to-right.",
+      "source": "book p85",
+      "options": [
+        "TIAW",
+        "WAIT",
+        "TAWI",
+        "TIWA"
+      ],
+      "answer": 0,
+      "id": "q35"
+    },
+    {
+      "topic": "Reflection & Mirror Images",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "In the worksheet, a cupcake picture is drawn on one side of a dotted mirror line. What should you do on the other side?",
+      "explanation": "Since the dotted line is treated as a mirror, the missing half should be an exact reflected (mirror) copy of the half that is already drawn.",
+      "source": "worksheet Q3 (Walk Along Practice-1)",
+      "options": [
+        "Complete the picture by drawing its exact mirror image",
+        "Draw a completely different picture",
+        "Leave the other side blank",
+        "Draw the cupcake upside down"
+      ],
+      "answer": 0,
+      "id": "q36"
+    },
+    {
+      "topic": "Reflection & Mirror Images",
+      "difficulty": "tough",
+      "type": "boolean",
+      "question": "A hexagon reflected across a vertical mirror line keeps the same shape and size, just on the other side of the line.",
+      "explanation": "Reflection never changes a shape's size or form — the hexagon shown in the grid example simply reappears the same size on the mirror's other side.",
+      "source": "book p85 grid example",
+      "answer": true,
+      "id": "q37"
+    },
+    {
+      "topic": "Reflection & Mirror Images",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "In the mirror-line grid activity, two shapes are reflected so their tips almost touch at the mirror line, forming a shape that looks like a bowtie or hourglass. What does this show about reflection?",
+      "explanation": "The bowtie/hourglass effect happens because each point of the reflected shape sits exactly as far from the mirror line as the matching point on the original shape.",
+      "source": "book p85 grid example (concept extension)",
+      "options": [
+        "Reflected shapes are always the same distance from the mirror line as the original",
+        "Reflection makes shapes shrink near the mirror line",
+        "Reflection always turns shapes into circles",
+        "The mirror line has no effect on the shapes"
+      ],
+      "answer": 0,
+      "id": "q38"
+    },
+    {
+      "topic": "Reflection & Mirror Images",
+      "difficulty": "simple",
+      "type": "boolean",
+      "question": "Origami (paper folding) can reveal symmetrical designs.",
+      "explanation": "Folding paper carefully, as in origami, often creates designs that are symmetrical along the fold line(s).",
+      "source": "facts.txt p9 / facts.txt p18",
+      "answer": true,
+      "id": "q39"
+    },
+    {
+      "topic": "Reflection & Mirror Images",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "According to the chapter, where did the art of origami originate?",
+      "explanation": "The chapter's fun fact states that origami originated in Japan and is an art that uses paper folding without cuts.",
+      "source": "facts.txt p18",
+      "options": [
+        "Japan",
+        "China",
+        "India",
+        "Egypt"
+      ],
+      "answer": 0,
+      "id": "q40"
+    },
+    {
+      "topic": "Reflection & Mirror Images",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "What is the key difference between origami and kirigami, according to the chapter?",
+      "explanation": "The chapter explains that origami is folding without cuts, while origami's related art, kirigami, involves both folding AND cutting paper to create symmetrical designs.",
+      "source": "facts.txt p18",
+      "options": [
+        "Origami only folds paper; kirigami also involves cutting paper",
+        "Kirigami only folds paper; origami also involves cutting paper",
+        "There is no difference between them",
+        "Origami uses cloth, kirigami uses paper"
+      ],
+      "answer": 0,
+      "id": "q41"
+    },
+    {
+      "topic": "Reflection & Mirror Images",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "In worksheet Q5, shapes drawn on a dot grid are reflected across a mirror line AB. What tool helps you check the reflection is correct?",
+      "explanation": "On a dot grid, you can check a reflection is accurate by counting the same number of dots from the mirror line AB on both the original shape and its reflected image.",
+      "source": "worksheet Q5 (My Math Mastery Journey-1)",
+      "options": [
+        "Counting how many dots each point of the shape is from line AB",
+        "Guessing without counting",
+        "Measuring the shape's colour",
+        "Ignoring the mirror line completely"
+      ],
+      "answer": 0,
+      "id": "q42"
+    },
+    {
+      "topic": "Reflection & Mirror Images",
+      "difficulty": "tough",
+      "type": "boolean",
+      "question": "Reflection is the same thing as rotation (spinning a shape around a point).",
+      "explanation": "Reflection flips a shape across a line (like a mirror), while rotation spins a shape around a fixed point — these are two different transformations.",
+      "source": "book p85 (concept clarification)",
+      "answer": false,
+      "id": "q43"
+    },
+    {
+      "topic": "Reflection & Mirror Images",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "Statement (I): A shape with two lines of symmetry can be folded along both lines to make two identical halves each time. Statement (II): Symmetry means a shape can be divided into identical parts through a line of symmetry. Which is correct?",
+      "explanation": "Both statements correctly describe what a line of symmetry does — folding along it produces two identical halves, which is exactly what symmetry means.",
+      "source": "worksheet Q6 (My Math Mastery Journey-1)",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 0,
+      "id": "q44"
+    },
+    {
+      "topic": "Tessellation",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "What is a tessellation?",
+      "explanation": "A tessellation covers a surface fully using repeating shapes, with no empty gaps and no shapes overlapping each other.",
+      "source": "book p86 / facts.txt p3",
+      "options": [
+        "A repeating pattern of shapes that covers a surface completely without gaps or overlaps",
+        "A single large shape with no pattern",
+        "A pattern that always has gaps between shapes",
+        "A pattern made only of circles"
+      ],
+      "answer": 0,
+      "id": "q45"
+    },
+    {
+      "topic": "Tessellation",
+      "difficulty": "tough",
+      "type": "boolean",
+      "question": "Tessellations naturally give rise to symmetry because of their repetition.",
+      "explanation": "The chapter explains that because a tessellation repeats the same shape(s) over and over in a regular way, this repetition naturally creates symmetry.",
+      "source": "book p86",
+      "answer": true,
+      "id": "q46"
+    },
+    {
+      "topic": "Tessellation",
+      "difficulty": "simple",
+      "type": "multiple",
+      "question": "Which of these shapes CAN tessellate (from the worksheet's list of square, circle, triangle, rectangle)?",
+      "explanation": "Square, triangle, and rectangle can all fit together edge-to-edge with no gaps to tessellate. A circle cannot — it always leaves curved gaps between circles.",
+      "source": "worksheet Q4 (My Math Mastery Journey-1)",
+      "options": [
+        "Square",
+        "Circle",
+        "Triangle",
+        "Rectangle"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "id": "q47"
+    },
+    {
+      "topic": "Tessellation",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Why can't circles tessellate on their own?",
+      "explanation": "Circles are round, so however you arrange them, curved gaps are left between them — this breaks the 'no gaps' rule of tessellation.",
+      "source": "worksheet Q4 (concept reasoning)",
+      "options": [
+        "Because their curved edges always leave gaps when packed together",
+        "Because circles are too big",
+        "Because circles have too many lines of symmetry",
+        "Because circles cannot be reflected"
+      ],
+      "answer": 0,
+      "id": "q48"
+    },
+    {
+      "topic": "Tessellation",
+      "difficulty": "simple",
+      "type": "boolean",
+      "question": "Hexagons and triangles can tessellate well together.",
+      "explanation": "The chapter notes that hexagons and triangles are a good combination of shapes that tessellate together without gaps.",
+      "source": "facts.txt p7",
+      "answer": true,
+      "id": "q49"
+    },
+    {
+      "topic": "Tessellation",
+      "difficulty": "tough",
+      "type": "multiple",
+      "question": "Which of these are real-life examples of tessellation mentioned in the chapter?",
+      "explanation": "The chapter gives floor tiles, brick walls, pavements, and fabrics as everyday examples of tessellation. Rainbows are not a tessellation example.",
+      "source": "book p86 / facts.txt p3, p7, p10",
+      "options": [
+        "Floor tiles",
+        "Brick walls",
+        "Pavements and fabrics",
+        "Rainbows"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "id": "q50"
+    },
+    {
+      "topic": "Tessellation",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Architects and interior designers use tessellation ideas for which real-life purpose, according to the chapter?",
+      "explanation": "The chapter states that architects use symmetry principles for balanced structures, and interior designers use tessellation patterns for floor designs and aesthetic appeal.",
+      "source": "facts.txt p2, p10",
+      "options": [
+        "To design visually appealing and balanced floor patterns and structures",
+        "To make buildings weaker",
+        "To avoid using any shapes at all",
+        "To remove symmetry from designs"
+      ],
+      "answer": 0,
+      "id": "q51"
+    },
+    {
+      "topic": "Tessellation",
+      "difficulty": "tough",
+      "type": "boolean",
+      "question": "A tessellation can be made using more than one shape at a time.",
+      "explanation": "The chapter's example shows a tessellation made of yellow hexagons and red shapes together — proving more than one shape can be combined in a tessellation.",
+      "source": "book p86",
+      "answer": true,
+      "id": "q52"
+    },
+    {
+      "topic": "Tessellation",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "In the book's tessellation example, a grid is reflected to make an orange diamond pattern that fully repeats and covers the page with no gaps. This pattern demonstrates the link between which two ideas?",
+      "explanation": "The activity shows that repeatedly reflecting a shape across grid lines can build up a full tessellating pattern — connecting reflection and symmetry directly to tessellation.",
+      "source": "book p86 (concept synthesis)",
+      "options": [
+        "Reflection/symmetry and tessellation",
+        "Number patterns and money problems",
+        "Estimation and rounding",
+        "Palindromes and decoding"
+      ],
+      "answer": 0,
+      "id": "q53"
+    },
+    {
+      "topic": "Tessellation",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Artists often use tessellations for what purpose, according to the chapter?",
+      "explanation": "The chapter states that patterns which tessellate form seamless surfaces, and artists use tessellations to create intricate designs.",
+      "source": "facts.txt p8",
+      "options": [
+        "To create intricate, seamless designs",
+        "To make random, unplanned scribbles",
+        "To avoid using any patterns",
+        "To draw only single, isolated shapes"
+      ],
+      "answer": 0,
+      "id": "q54"
+    },
+    {
+      "topic": "Tessellation",
+      "difficulty": "tough",
+      "type": "boolean",
+      "question": "A brick wall is an example of tessellation using rectangles.",
+      "explanation": "Bricks are rectangular, and when stacked in a wall with no gaps, they form a tessellating pattern of rectangles — the chapter specifically mentions brick walls as an example.",
+      "source": "book p86 / facts.txt p7",
+      "answer": true,
+      "id": "q55"
+    },
+    {
+      "topic": "Tessellation",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "Which statement about tessellation and symmetry is TRUE?",
+      "explanation": "Squares and regular hexagons both have several lines of symmetry, and both are classic shapes used to build tessellations — showing the two ideas connect.",
+      "source": "book p84, p86 (concept synthesis)",
+      "options": [
+        "A tessellation can be built out of shapes that themselves have lines of symmetry, like squares and regular hexagons",
+        "Tessellating shapes can never have any lines of symmetry",
+        "Only circles can be used to tessellate",
+        "Tessellation has nothing to do with repeating shapes"
+      ],
+      "answer": 0,
+      "id": "q56"
+    },
+    {
+      "topic": "Tessellation",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Which everyday flooring material is given as a tessellation example that uses tiles?",
+      "explanation": "The chapter mentions that tiles on floors often form tessellations because they are laid edge-to-edge with no gaps.",
+      "source": "facts.txt p3",
+      "options": [
+        "Tiles on floors",
+        "Curtains",
+        "Grass",
+        "Clouds"
+      ],
+      "answer": 0,
+      "id": "q57"
+    },
+    {
+      "topic": "Tessellation",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "The chapter shows a dot-grid activity where students complete a tessellation using given hexagon shapes. What is the goal of this activity?",
+      "explanation": "The activity asks students to complete the tessellation on the dot grid using the given shapes — practicing how repeating a shape correctly leaves no gaps.",
+      "source": "book p86",
+      "options": [
+        "To practice repeating a shape so it covers the grid with no gaps or overlaps",
+        "To draw a single hexagon and stop",
+        "To erase the existing hexagons",
+        "To draw circles instead of hexagons"
+      ],
+      "answer": 0,
+      "id": "q58"
+    },
+    {
+      "topic": "Tessellation",
+      "difficulty": "tricky",
+      "type": "boolean",
+      "question": "Any shape, no matter its form, can always be used to create a tessellation.",
+      "explanation": "Not every shape tessellates — for example, a circle cannot tessellate on its own because its curved edges always leave gaps.",
+      "source": "worksheet Q4 (concept reasoning)",
+      "answer": false,
+      "id": "q59"
+    },
+    {
+      "topic": "Growing & Reducing Patterns",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "What is a pattern where the number of core units increases by a certain rule each time called?",
+      "explanation": "A growing pattern is one where the elements (or number of core units) increase step by step, following a rule.",
+      "source": "book p91",
+      "options": [
+        "A growing pattern",
+        "A reducing pattern",
+        "A tessellation",
+        "A palindrome"
+      ],
+      "answer": 0,
+      "id": "q60"
+    },
+    {
+      "topic": "Growing & Reducing Patterns",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "What is a pattern where the number of core units decreases by a certain rule each time called?",
+      "explanation": "A reducing pattern is one where the elements (or number of core units) decrease step by step, following a rule.",
+      "source": "book p91",
+      "options": [
+        "A reducing pattern",
+        "A growing pattern",
+        "A tessellation",
+        "A palindrome"
+      ],
+      "answer": 0,
+      "id": "q61"
+    },
+    {
+      "topic": "Growing & Reducing Patterns",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "In the book's triangle pattern example, the number of triangles (the core unit) decreases by 4 each time. What kind of pattern is this?",
+      "explanation": "Since the number of triangles gets smaller by a fixed amount (4) at each step, this is a reducing pattern.",
+      "source": "book p91",
+      "options": [
+        "A reducing pattern",
+        "A growing pattern",
+        "A tessellation",
+        "A number puzzle"
+      ],
+      "answer": 0,
+      "id": "q62"
+    },
+    {
+      "topic": "Growing & Reducing Patterns",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "In a worksheet pattern, cylinder-block towers grow like this: 1 cylinder, then 3 cylinders, then 6 cylinders. How many cylinders should be in the next tower?",
+      "explanation": "The tower sizes 1, 3, 6 each add one more block than the last jump (add 2, then add 3), so the next tower adds 4 more blocks: 6 + 4 = 10.",
+      "source": "worksheet Q1a (My Math Mastery Journey-2)",
+      "options": [
+        "10",
+        "9",
+        "8",
+        "12"
+      ],
+      "answer": 0,
+      "id": "q63"
+    },
+    {
+      "topic": "Growing & Reducing Patterns",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "A red diamond zig-zag pattern grows like this: 1 diamond, then 3 diamonds, then 5 diamonds. How many diamonds should be in the next group?",
+      "explanation": "The pattern adds 2 diamonds each time (1, 3, 5, ...), which are the odd numbers, so the next group has 5 + 2 = 7 diamonds.",
+      "source": "worksheet Q1b (My Math Mastery Journey-2)",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "9"
+      ],
+      "answer": 0,
+      "id": "q64"
+    },
+    {
+      "topic": "Growing & Reducing Patterns",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "An arrow pattern in the worksheet shows groups of 2 arrows, then 4 arrows, then 6 arrows. How many arrows come next?",
+      "explanation": "The pattern is adding 2 arrows every time (2, 4, 6, ...), which are the even numbers, so the next group has 6 + 2 = 8 arrows.",
+      "source": "worksheet Q1b (Walk Along Practice-2)",
+      "options": [
+        "8",
+        "7",
+        "10",
+        "5"
+      ],
+      "answer": 0,
+      "id": "q65"
+    },
+    {
+      "topic": "Growing & Reducing Patterns",
+      "difficulty": "tricky",
+      "type": "boolean",
+      "question": "A pattern that adds a fixed number of items each time (like 2, 4, 6, 8, ...) is an example of a growing pattern.",
+      "explanation": "Since the number of items keeps increasing by a fixed rule (add 2 each time), this is a growing pattern.",
+      "source": "worksheet Q1b (concept application)",
+      "answer": true,
+      "id": "q66"
+    },
+    {
+      "topic": "Growing & Reducing Patterns",
+      "difficulty": "tricky",
+      "type": "boolean",
+      "question": "A pattern where you divide by 2 each time (like 80, 40, 20, 10, 5) is a growing pattern.",
+      "explanation": "Since the numbers keep getting smaller each time (dividing by 2), this is a reducing pattern, not a growing one.",
+      "source": "book p91 (concept application)",
+      "answer": false,
+      "id": "q67"
+    },
+    {
+      "topic": "Growing & Reducing Patterns",
+      "difficulty": "simple",
+      "type": "boolean",
+      "question": "The V-shaped flight formation of birds is a pattern that improves their energy efficiency.",
+      "explanation": "The chapter explains that birds fly in a V-shaped pattern to save energy during flight.",
+      "source": "facts.txt p4",
+      "answer": true,
+      "id": "q68"
+    },
+    {
+      "topic": "Growing & Reducing Patterns",
+      "difficulty": "tough",
+      "type": "multiple",
+      "question": "According to the chapter's 'explore your home' activity, which of these are places you might spot patterns and symmetry in nature?",
+      "explanation": "The chapter's list of things to explore for patterns and symmetry includes the human body, sea shells, tree branches, flower petals, honeycombs, and spider webs. Traffic lights are not on this list.",
+      "source": "worksheet LIFT box",
+      "options": [
+        "Honeycombs",
+        "Spider webs",
+        "Flower petals",
+        "Traffic lights"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "id": "q69"
+    },
+    {
+      "topic": "Growing & Reducing Patterns",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Various shapes and designs found in urban and natural environments, and used by architects, show what two related ideas working together?",
+      "explanation": "The chapter opens by explaining that symmetry and patterns are common in factories, buildings, and nature, and architects use these principles to design structures.",
+      "source": "facts.txt p1, p2",
+      "options": [
+        "Symmetry and patterns",
+        "Estimation and rounding",
+        "Decoding and palindromes",
+        "Multiplication and division"
+      ],
+      "answer": 0,
+      "id": "q70"
+    },
+    {
+      "topic": "Growing & Reducing Patterns",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "Which statement best matches how the Sustainable Development Goals (SDGs) are connected to symmetry in the chapter's introduction?",
+      "explanation": "The chapter draws a thoughtful connection: just as the SDGs aim for global balance in health, education, and environment, symmetry in design reflects balance and harmony.",
+      "source": "facts.txt p2",
+      "options": [
+        "Symmetry in design can reflect balance and harmony, similar to the goals of the SDGs",
+        "The SDGs have nothing to do with symmetry or patterns",
+        "The SDGs are only about mathematics",
+        "Symmetry always means reducing patterns"
+      ],
+      "answer": 0,
+      "id": "q71"
+    },
+    {
+      "topic": "Growing & Reducing Patterns",
+      "difficulty": "simple",
+      "type": "boolean",
+      "question": "A pineapple showing symmetric segment patterns is an example of patterns found in nature.",
+      "explanation": "The chapter gives the pineapple's symmetrically arranged segments as an example of patterns and symmetry found in fruits and vegetables.",
+      "source": "facts.txt p4",
+      "answer": true,
+      "id": "q72"
+    },
+    {
+      "topic": "Growing & Reducing Patterns",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Which of these correctly matches a real-world pattern with its type, as introduced in the chapter?",
+      "explanation": "The chapter describes snowflakes as showing perfect symmetry as they form. Brick walls are tessellation, palindromes are word patterns, and Fibonacci is a number pattern — not matched as in the incorrect options.",
+      "source": "facts.txt p3, p4 (concept synthesis)",
+      "options": [
+        "Snowflakes falling and growing in the sky — a symmetrical natural pattern",
+        "A brick wall — an example of a number pattern",
+        "A palindrome — an example of tessellation",
+        "The Fibonacci sequence — an example of a mirror image"
+      ],
+      "answer": 0,
+      "id": "q73"
+    },
+    {
+      "topic": "Number Patterns",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "What is the rule for this number pattern: 9, 10, 11, 12, 13, 14, 15?",
+      "explanation": "Each number in this sequence is exactly 1 more than the number before it, so the rule is 'adding 1'.",
+      "source": "book p91",
+      "options": [
+        "Adding 1 each time",
+        "Adding 9 each time",
+        "Subtracting 1 each time",
+        "Multiplying by 2 each time"
+      ],
+      "answer": 0,
+      "id": "q74"
+    },
+    {
+      "topic": "Number Patterns",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "What is the rule for this number pattern: 9, 18, 27, 36, 45, 54, 63?",
+      "explanation": "Each number is 9 more than the one before (9+9=18, 18+9=27, and so on), so the rule is 'adding 9'.",
+      "source": "book p91",
+      "options": [
+        "Adding 9 each time",
+        "Adding 1 each time",
+        "Multiplying by 9 each time",
+        "Subtracting 9 each time"
+      ],
+      "answer": 0,
+      "id": "q75"
+    },
+    {
+      "topic": "Number Patterns",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "A number pattern follows the rule 'subtracting 100 each time', starting at 1,010. What are the next terms?",
+      "explanation": "Subtracting 100 each time from 1,010 gives 910, then 810, then 710, then 610.",
+      "source": "book p91",
+      "options": [
+        "910, 810, 710, 610",
+        "910, 800, 700, 600",
+        "1,110, 1,210, 1,310, 1,410",
+        "900, 800, 700, 600"
+      ],
+      "answer": 0,
+      "id": "q76"
+    },
+    {
+      "topic": "Number Patterns",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "What is the rule for this number pattern: 10, 30, 50, 70, 90?",
+      "explanation": "These numbers come from multiplying the odd numbers 1, 3, 5, 7, 9 by 10 (1×10=10, 3×10=30, 5×10=50, and so on).",
+      "source": "book p91",
+      "options": [
+        "Multiplying consecutive odd numbers by 10",
+        "Adding 10 each time",
+        "Dividing by 10 each time",
+        "Multiplying by 100 each time"
+      ],
+      "answer": 0,
+      "id": "q77"
+    },
+    {
+      "topic": "Number Patterns",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "What is the rule for this number pattern: 200, 400, 600, 800, 1,000?",
+      "explanation": "These numbers come from multiplying the even numbers 2, 4, 6, 8, 10 by 100 (2×100=200, 4×100=400, and so on).",
+      "source": "book p91",
+      "options": [
+        "Multiplying consecutive even numbers by 100",
+        "Adding 200 each time only by coincidence",
+        "Dividing by 100 each time",
+        "Multiplying by 2 each time"
+      ],
+      "answer": 0,
+      "id": "q78"
+    },
+    {
+      "topic": "Number Patterns",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "What is the rule for this number pattern: 80, 40, 20, 10, 5?",
+      "explanation": "Each number is exactly half of the number before it (80÷2=40, 40÷2=20, and so on), so the rule is 'dividing by 2'.",
+      "source": "book p91",
+      "options": [
+        "Dividing by 2 each time",
+        "Multiplying by 2 each time",
+        "Subtracting 20 each time",
+        "Adding 5 each time"
+      ],
+      "answer": 0,
+      "id": "q79"
+    },
+    {
+      "topic": "Number Patterns",
+      "difficulty": "tricky",
+      "type": "boolean",
+      "question": "The pattern 80, 40, 20, 10, 5 (dividing by 2 each time) is a reducing pattern.",
+      "explanation": "Since each term is smaller than the one before it, this dividing-by-2 pattern is a reducing pattern.",
+      "source": "book p91 (concept application)",
+      "answer": true,
+      "id": "q80"
+    },
+    {
+      "topic": "Number Patterns",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Adding two consecutive even numbers gives this pattern: 2+4=6, 4+6=10, 6+8=14, 8+10=18. What number comes next in the pattern 6, 10, 14, 18, ...?",
+      "explanation": "The pattern 6, 10, 14, 18 increases by 4 each time, so the next number is 18 + 4 = 22 (which matches 10+12=22).",
+      "source": "book p91",
+      "options": [
+        "22",
+        "20",
+        "24",
+        "21"
+      ],
+      "answer": 0,
+      "id": "q81"
+    },
+    {
+      "topic": "Number Patterns",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Adding two consecutive odd numbers gives this pattern: 1+3=4, 3+5=8, 5+7=12, 7+9=16. What number comes next in the pattern 4, 8, 12, 16, ...?",
+      "explanation": "The pattern 4, 8, 12, 16 increases by 4 each time, so the next number is 16 + 4 = 20 (which matches 9+11=20).",
+      "source": "book p91",
+      "options": [
+        "20",
+        "18",
+        "22",
+        "19"
+      ],
+      "answer": 0,
+      "id": "q82"
+    },
+    {
+      "topic": "Number Patterns",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "Look at this pattern: 9, 13, 18, 24, 31. What is the rule?",
+      "explanation": "Checking the gaps: 13-9=4, 18-13=5, 24-18=6, 31-24=7 — the amount added grows by 1 each step.",
+      "source": "book p91",
+      "options": [
+        "Add 4, then 5, then 6, then 7 (the amount added increases by 1 each time)",
+        "Add 4 every single time",
+        "Multiply by 2 every time",
+        "Subtract a growing amount each time"
+      ],
+      "answer": 0,
+      "id": "q83"
+    },
+    {
+      "topic": "Number Patterns",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Look at this pattern: 101, 91, 81, 71. What is the rule, and what comes next?",
+      "explanation": "Each number is 10 less than the one before it (101-10=91, 91-10=81, and so on), so the next number is 71-10=61.",
+      "source": "book p91",
+      "options": [
+        "Subtract 10 each time; next is 61",
+        "Add 10 each time; next is 81",
+        "Subtract 11 each time; next is 60",
+        "Divide by 10 each time; next is 7.1"
+      ],
+      "answer": 0,
+      "id": "q84"
+    },
+    {
+      "topic": "Number Patterns",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Look at this pattern: 11, 22, 33, 44, 55. What is the rule?",
+      "explanation": "Each number is 11 more than the one before it, and these are exactly the multiples of 11.",
+      "source": "book p91",
+      "options": [
+        "Add 11 each time (multiples of 11)",
+        "Add 10 each time",
+        "Multiply by 11 each time",
+        "Subtract 11 each time"
+      ],
+      "answer": 0,
+      "id": "q85"
+    },
+    {
+      "topic": "Number Patterns",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Extend this pattern: 2, 4, 6, 8, ___, ___, ___, ___",
+      "explanation": "This pattern adds 2 each time (the even numbers), so after 8 comes 10, 12, 14, 16.",
+      "source": "worksheet Q2a (Walk Along Practice-2)",
+      "options": [
+        "10, 12, 14, 16",
+        "9, 10, 11, 12",
+        "10, 11, 12, 13",
+        "12, 14, 16, 18"
+      ],
+      "answer": 0,
+      "id": "q86"
+    },
+    {
+      "topic": "Number Patterns",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Extend this pattern: 30, 60, 90, 120, ___, ___, ___, ___, ___",
+      "explanation": "This pattern adds 30 each time, so after 120 comes 150, 180, 210, 240, and 270.",
+      "source": "worksheet Q2b (Walk Along Practice-2)",
+      "options": [
+        "150, 180, 210, 240, 270",
+        "130, 140, 150, 160, 170",
+        "150, 170, 190, 210, 230",
+        "160, 190, 220, 250, 280"
+      ],
+      "answer": 0,
+      "id": "q87"
+    },
+    {
+      "topic": "Number Patterns",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "The pattern 'BA2; DC3; FE4; ___, ___, ___' mixes letters and numbers. What are the next three terms?",
+      "explanation": "The letters skip forward through the alphabet in reversed pairs (BA, DC, FE, HG, JI, LK — each pair skips one letter), while the number simply increases by 1 each time (2, 3, 4, 5, 6, 7).",
+      "source": "worksheet Q2c (Walk Along Practice-2)",
+      "options": [
+        "HG5, JI6, LK7",
+        "GH5, IJ6, KL7",
+        "HG6, JI7, LK8",
+        "BA5, DC6, FE7"
+      ],
+      "answer": 0,
+      "id": "q88"
+    },
+    {
+      "topic": "Number Patterns",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Fill in the blanks to continue this pattern: 562, 560, 558, ___, ___, ___",
+      "explanation": "This pattern subtracts 2 each time, so after 558 comes 556, 554, 552.",
+      "source": "worksheet Q3a (My Math Mastery Journey-2)",
+      "options": [
+        "556, 554, 552",
+        "560, 558, 556",
+        "555, 553, 551",
+        "556, 552, 548"
+      ],
+      "answer": 0,
+      "id": "q89"
+    },
+    {
+      "topic": "Number Patterns",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "Fill in the blanks to continue this pattern: 10, 11, 13, 16, 20, ___, ___, ___",
+      "explanation": "The amount added grows by 1 each time (add 1, then 2, then 3, then 4, then 5, then 6, then 7): 10+1=11, 11+2=13, 13+3=16, 16+4=20, 20+5=25, 25+6=31, 31+7=38.",
+      "source": "worksheet Q3b (My Math Mastery Journey-2)",
+      "options": [
+        "25, 31, 38",
+        "24, 29, 35",
+        "21, 22, 23",
+        "26, 33, 41"
+      ],
+      "answer": 0,
+      "id": "q90"
+    },
+    {
+      "topic": "Number Patterns",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Fill in the blanks to continue this pattern: 12, 24, 48, ___, ___, ___",
+      "explanation": "This pattern doubles the number each time (multiplying by 2): 48×2=96, 96×2=192, 192×2=384.",
+      "source": "worksheet Q3c (My Math Mastery Journey-2)",
+      "options": [
+        "96, 192, 384",
+        "60, 72, 84",
+        "50, 100, 150",
+        "96, 144, 192"
+      ],
+      "answer": 0,
+      "id": "q91"
+    },
+    {
+      "topic": "Number Patterns",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "In a triangle number pattern, the numbers are 11, 15, 19, and then three more blank triangles follow. What are the next three numbers?",
+      "explanation": "The pattern adds 4 each time (11+4=15, 15+4=19, 19+4=23, 23+4=27, 27+4=31).",
+      "source": "worksheet Q3 (Walk Along Practice-2)",
+      "options": [
+        "23, 27, 31",
+        "20, 24, 28",
+        "23, 26, 29",
+        "22, 25, 28"
+      ],
+      "answer": 0,
+      "id": "q92"
+    },
+    {
+      "topic": "Number Patterns",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "A number pyramid puzzle has the bottom row 13, ___, 17, ___, and each brick above is the sum of the two bricks directly below it, ending at 128 on top. What are the two missing bottom-row numbers?",
+      "explanation": "Working backwards from the top (128 = 60+68; 60=28+32, 68=32+36; 28=13+15, so the first missing number is 15; 36=17+19, so the second missing number is 19).",
+      "source": "worksheet Q4 (Walk Along Practice-2)",
+      "options": [
+        "15 and 19",
+        "14 and 18",
+        "16 and 20",
+        "15 and 21"
+      ],
+      "answer": 0,
+      "id": "q93"
+    },
+    {
+      "topic": "Number Patterns",
+      "difficulty": "tricky",
+      "type": "boolean",
+      "question": "In the number pyramid puzzle (bottom row 13, 15, 17, 19; then 28, 32, 36; then 60, 68; then 128 at the top), each number above is the sum of the two numbers directly below it.",
+      "explanation": "Checking: 13+15=28, 15+17=32, 17+19=36; then 28+32=60, 32+36=68; then 60+68=128 — confirming the rule that each brick is the sum of the two below it.",
+      "source": "worksheet Q4 (Walk Along Practice-2)",
+      "answer": true,
+      "id": "q94"
+    },
+    {
+      "topic": "Number Patterns",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Consider the sequence 20, 18, 16, 14, 12. Statement (I): The sequence shows a decreasing pattern. Statement (II): Each term is obtained by subtracting 2 from the previous term. Which is correct?",
+      "explanation": "The sequence does decrease, and each term is indeed 2 less than the one before it (20-2=18, 18-2=16, and so on) — so both statements are correct.",
+      "source": "worksheet Q5 (My Math Mastery Journey-2)",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 0,
+      "id": "q95"
+    },
+    {
+      "topic": "Patterns Using Letters, Numbers & Decoding",
+      "difficulty": "tough",
+      "type": "boolean",
+      "question": "Alphabet sequences can form predictable patterns, just like number sequences.",
+      "explanation": "The chapter explains that patterns can be created using letters as well as numbers, following predictable rules.",
+      "source": "facts.txt p12",
+      "answer": true,
+      "id": "q96"
+    },
+    {
+      "topic": "Patterns Using Letters, Numbers & Decoding",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "What is the Fibonacci sequence, according to the chapter?",
+      "explanation": "The Fibonacci sequence is described as a special number pattern that appears in nature, such as in how sunflower seeds are arranged.",
+      "source": "facts.txt p12",
+      "options": [
+        "A special number pattern found in nature",
+        "A type of tessellation using only squares",
+        "A rule for reflecting shapes",
+        "A method for estimating large numbers"
+      ],
+      "answer": 0,
+      "id": "q97"
+    },
+    {
+      "topic": "Patterns Using Letters, Numbers & Decoding",
+      "difficulty": "tough",
+      "type": "boolean",
+      "question": "Sunflower seeds often align in a pattern related to the Fibonacci sequence.",
+      "explanation": "The chapter's fun fact states that sunflower seeds often align in Fibonacci sequences, connecting nature to number patterns.",
+      "source": "facts.txt p12",
+      "answer": true,
+      "id": "q98"
+    },
+    {
+      "topic": "Patterns Using Letters, Numbers & Decoding",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "Decode this message using the pattern where every other 'A' is a hidden repeated letter: 'ARAEASAPAEACAT AYAOAUAR AEALADAEARAS'. What does it say?",
+      "explanation": "Removing the repeating 'A' inserted between each real letter reveals the hidden message: 'RESPECT YOUR ELDERS'.",
+      "source": "worksheet answer key (My Math Mastery Journey-2, Q4a)",
+      "options": [
+        "RESPECT YOUR ELDERS",
+        "RESPECT YOUR TEACHERS",
+        "RESPECT OUR ELDERS",
+        "PROTECT YOUR ELDERS"
+      ],
+      "answer": 0,
+      "id": "q99"
+    },
+    {
+      "topic": "Patterns Using Letters, Numbers & Decoding",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "Decode this message using the pattern where every other '4' is a hidden repeated digit: '4L4E4T4 4U4S4 4G4O4 4T4O4 4T4H4E4 4P4I4C4N4I4C4'. What does it say?",
+      "explanation": "Removing the repeating '4' inserted around each real letter reveals the hidden message: 'LET US GO TO THE PICNIC'.",
+      "source": "worksheet answer key (My Math Mastery Journey-2, Q4b)",
+      "options": [
+        "LET US GO TO THE PICNIC",
+        "LET US GO TO THE PARK",
+        "LET ME GO TO THE PICNIC",
+        "LET US GO TO A PICNIC"
+      ],
+      "answer": 0,
+      "id": "q100"
+    },
+    {
+      "topic": "Patterns Using Letters, Numbers & Decoding",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "What is a palindrome?",
+      "explanation": "A palindrome is a word (or phrase) that reads exactly the same whether you read it forwards or backwards.",
+      "source": "facts.txt p18",
+      "options": [
+        "A word that reads the same forward and backward",
+        "A shape with many lines of symmetry",
+        "A number pattern that only grows",
+        "A type of tessellation"
+      ],
+      "answer": 0,
+      "id": "q101"
+    },
+    {
+      "topic": "Patterns Using Letters, Numbers & Decoding",
+      "difficulty": "simple",
+      "type": "multiple",
+      "question": "Which of these words are given as examples of palindromes in the chapter?",
+      "explanation": "The chapter gives 'MADAM' and 'NOON' as examples of palindromes, since both read the same forward and backward. 'APPLE' and 'TABLE' do not.",
+      "source": "facts.txt p18",
+      "options": [
+        "MADAM",
+        "NOON",
+        "APPLE",
+        "TABLE"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "id": "q102"
+    },
+    {
+      "topic": "Patterns Using Letters, Numbers & Decoding",
+      "difficulty": "tough",
+      "type": "boolean",
+      "question": "A palindrome word is a kind of pattern in letters, similar to how symmetry is a pattern in shapes.",
+      "explanation": "Just as a symmetrical shape looks the same on both sides of a line, a palindrome reads the same both forwards and backwards — both are patterns of matching or balance.",
+      "source": "facts.txt p18 (concept synthesis)",
+      "answer": true,
+      "id": "q103"
+    },
+    {
+      "topic": "Patterns Using Letters, Numbers & Decoding",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "In the letter-number pattern 'BA2; DC3; FE4', what happens to the two letters at each step?",
+      "explanation": "Looking at just the first letters (B, D, F, H...), each is 2 letters further along the alphabet than the last, while each pair is always written in reverse order (like B-then-A).",
+      "source": "worksheet Q2c (concept reasoning)",
+      "options": [
+        "Each pair skips one letter further along the alphabet (BA, then DC, then FE, then HG...)",
+        "The two letters stay exactly the same every time",
+        "The two letters go backwards through the alphabet by one letter only",
+        "The letters are chosen completely at random"
+      ],
+      "answer": 0,
+      "id": "q104"
+    },
+    {
+      "topic": "Patterns Using Letters, Numbers & Decoding",
+      "difficulty": "simple",
+      "type": "boolean",
+      "question": "Decoding messages using numbers and letters can be a fun way to understand patterns.",
+      "explanation": "The chapter describes decoding number-and-letter messages as a fun and engaging way to explore and understand patterns.",
+      "source": "facts.txt p13",
+      "answer": true,
+      "id": "q105"
+    },
+    {
+      "topic": "Number Properties",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Fill in the blank: 34 + 18 = ___ + 34",
+      "explanation": "Addition can be done in any order and give the same total (this is called the commutative property), so 34 + 18 = 18 + 34.",
+      "source": "worksheet Q7a (BOOST)",
+      "options": [
+        "18",
+        "34",
+        "52",
+        "16"
+      ],
+      "answer": 0,
+      "id": "q106"
+    },
+    {
+      "topic": "Number Properties",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Fill in the blanks: 8 + 12 + ___ = 20 + 8 + ___",
+      "explanation": "Since addition can be grouped and reordered without changing the total, 8 + 12 + 20 equals 20 + 8 + 12 — so the missing numbers are 20 and 12.",
+      "source": "worksheet Q7b (BOOST)",
+      "options": [
+        "20 and 12",
+        "12 and 20",
+        "8 and 20",
+        "20 and 8"
+      ],
+      "answer": 0,
+      "id": "q107"
+    },
+    {
+      "topic": "Number Properties",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Fill in the blank: 67 + 0 = ___",
+      "explanation": "Adding 0 to any number does not change its value — this is the additive identity property.",
+      "source": "worksheet Q7c (BOOST)",
+      "options": [
+        "67",
+        "0",
+        "68",
+        "76"
+      ],
+      "answer": 0,
+      "id": "q108"
+    },
+    {
+      "topic": "Number Properties",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Fill in the blank: ___ + 0 = 29",
+      "explanation": "Since adding 0 never changes a number, the missing number that plus 0 equals 29 must be 29 itself.",
+      "source": "worksheet Q7d (BOOST)",
+      "options": [
+        "29",
+        "0",
+        "1",
+        "290"
+      ],
+      "answer": 0,
+      "id": "q109"
+    },
+    {
+      "topic": "Number Properties",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Fill in the blank: 23 − ___ = 23",
+      "explanation": "Subtracting 0 from any number leaves the number unchanged, so the missing number must be 0.",
+      "source": "worksheet Q7e (BOOST)",
+      "options": [
+        "0",
+        "23",
+        "1",
+        "46"
+      ],
+      "answer": 0,
+      "id": "q110"
+    },
+    {
+      "topic": "Number Properties",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Fill in the blank: 176 − ___ = 0",
+      "explanation": "Subtracting a number from itself always gives 0, so the missing number must be 176.",
+      "source": "worksheet Q7f (BOOST)",
+      "options": [
+        "176",
+        "0",
+        "1",
+        "352"
+      ],
+      "answer": 0,
+      "id": "q111"
+    },
+    {
+      "topic": "Number Properties",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "Fill in the blank: 9,999 + 124 = 9,998 + ___",
+      "explanation": "Since 9,999 is one more than 9,998, the other number must be one more than 124 (which is 125) to keep the total the same.",
+      "source": "worksheet Q7g (BOOST)",
+      "options": [
+        "125",
+        "124",
+        "123",
+        "9,998"
+      ],
+      "answer": 0,
+      "id": "q112"
+    },
+    {
+      "topic": "Number Properties",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "A hiker covered 58,734 metres during the Spring Trek and 32,022 metres during the Autumn Trek. What was the total distance covered during both treks?",
+      "explanation": "Adding the two distances: 58,734 + 32,022 = 90,756 metres.",
+      "source": "worksheet Q6 (Walk Along Practice-2, BOOST)",
+      "options": [
+        "90,756 metres",
+        "26,712 metres",
+        "80,756 metres",
+        "91,756 metres"
+      ],
+      "answer": 0,
+      "id": "q113"
+    },
+    {
+      "topic": "Number Properties",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "Reema bought a vanity bag for ₹1,560, shoes for ₹2,200, and a chocolate bar for ₹235. Sara bought a dress for ₹4,375. Who spent more, and by how much?",
+      "explanation": "Reema's total is 1,560 + 2,200 + 235 = ₹3,995. Sara spent ₹4,375, which is ₹4,375 − ₹3,995 = ₹380 more than Reema.",
+      "source": "worksheet Q7 (Walk Along Practice-2, BOOST)",
+      "options": [
+        "Sara spent more, by ₹380",
+        "Reema spent more, by ₹380",
+        "Sara spent more, by ₹3,995",
+        "They spent the same amount"
+      ],
+      "answer": 0,
+      "id": "q114"
+    },
+    {
+      "topic": "Number Properties",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "A factory manufactured 8,534 boxes, of which 5,421 were sold. Using rounding to the nearest hundred, estimate how many boxes are yet to be sold.",
+      "explanation": "Rounding 8,534 to the nearest hundred gives 8,500, and rounding 5,421 gives 5,400. The estimate is 8,500 − 5,400 = 3,100 boxes yet to be sold.",
+      "source": "worksheet Q8 (Walk Along Practice-2, BOOST)",
+      "options": [
+        "About 3,100 boxes",
+        "About 3,000 boxes",
+        "About 3,200 boxes",
+        "About 2,900 boxes"
+      ],
+      "answer": 0,
+      "id": "q115"
+    }
+  ]
+}

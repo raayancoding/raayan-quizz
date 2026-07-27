@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#bg)"/>
+  <!-- ear tufts -->
+  <path d="M18 16 l6 8 -11 1 z" fill="#facc15"/>
+  <path d="M46 16 l-6 8 11 1 z" fill="#facc15"/>
+  <!-- face -->
+  <ellipse cx="32" cy="36" rx="20" ry="19" fill="#fde68a"/>
+  <!-- eyes -->
+  <circle cx="24" cy="33" r="9" fill="#fff"/>
+  <circle cx="40" cy="33" r="9" fill="#fff"/>
+  <circle cx="25" cy="34" r="4.2" fill="#1e293b"/>
+  <circle cx="39" cy="34" r="4.2" fill="#1e293b"/>
+  <circle cx="26.4" cy="32.6" r="1.4" fill="#fff"/>
+  <circle cx="40.4" cy="32.6" r="1.4" fill="#fff"/>
+  <!-- beak -->
+  <path d="M32 40 l4 5 -8 0 z" fill="#fb923c"/>
+  <!-- cheeks -->
+  <circle cx="16.5" cy="42" r="3" fill="#fb7185" opacity="0.7"/>
+  <circle cx="47.5" cy="42" r="3" fill="#fb7185" opacity="0.7"/>
+</svg>
