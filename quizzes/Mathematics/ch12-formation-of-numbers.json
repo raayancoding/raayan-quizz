@@ -1,0 +1,1817 @@
+{
+  "schemaVersion": 1,
+  "id": "mathematics-ch12-formation-of-numbers",
+  "title": "Formation of Numbers",
+  "subject": "Mathematics",
+  "grade": 4,
+  "sourceDir": "output/Mathematics/12_Formation-of-Numbers",
+  "chapter": "12. Formation of Numbers",
+  "topic": "Full Chapter",
+  "description": "Practice 5- to 7-digit numbers in the Indian and International Number Systems: place value charts and periods, reading and writing numerals, place value vs face value, expanded and standard form, converting between place values, predecessor and successor, comparing and ordering, forming the greatest and smallest numbers, and rounding and estimation.",
+  "tags": [
+    "mathematics",
+    "grade4",
+    "place-value",
+    "indian-number-system",
+    "international-number-system",
+    "expanded-form",
+    "comparing-numbers",
+    "rounding",
+    "estimation",
+    "large-numbers"
+  ],
+  "questions": [
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Place Value Chart and Periods",
+      "question": "What is the largest 4-digit number?",
+      "options": [
+        "9,999",
+        "9,990",
+        "1,000",
+        "9,900"
+      ],
+      "answer": 0,
+      "explanation": "The largest 4-digit number has a 9 in every place: 9 thousands + 9 hundreds + 9 tens + 9 ones = 9,999. Adding 1 to it gives 10,000, the smallest 5-digit number.",
+      "source": "book:page9",
+      "id": "q1"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Place Value Chart and Periods",
+      "question": "What is the smallest 5-digit number?",
+      "options": [
+        "99,999",
+        "10,000",
+        "10,001",
+        "1,000"
+      ],
+      "answer": 1,
+      "explanation": "9,999 + 1 = 10,000. It is written as 1 ten thousand, 0 thousands, 0 hundreds, 0 tens, 0 ones, so it is the first number that needs five places.",
+      "source": "book:page9",
+      "id": "q2"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Place Value Chart and Periods",
+      "question": "99,999 + 1 = ? (the smallest 6-digit number)",
+      "options": [
+        "10,00,000",
+        "10,000",
+        "1,00,000",
+        "99,100"
+      ],
+      "answer": 2,
+      "explanation": "Adding one to the greatest 5-digit number 99,999 gives 1,00,000, which is read as one lakh. It is the smallest 6-digit number.",
+      "source": "book:page11",
+      "id": "q3"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Place Value Chart and Periods",
+      "question": "9,99,999 + 1 = ? (the smallest 7-digit number)",
+      "options": [
+        "1,00,000",
+        "1,00,00,000",
+        "9,99,100",
+        "10,00,000"
+      ],
+      "answer": 3,
+      "explanation": "Adding one to the greatest 6-digit number 9,99,999 gives 10,00,000, read as ten lakh. It is the smallest 7-digit number.",
+      "source": "book:page11",
+      "id": "q4"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Place Value Chart and Periods",
+      "question": "In the Indian place value chart, how many places does the ONES period have?",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "The ONES period is the first period from the right and has three places: hundreds, tens and ones. The THOUSANDS and LAKHS periods have two places each.",
+      "source": "book:page10",
+      "id": "q5"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Place Value Chart and Periods",
+      "question": "Which is the third period from the right in the Indian Number System?",
+      "options": [
+        "Millions",
+        "Lakhs",
+        "Thousands",
+        "Crores"
+      ],
+      "answer": 1,
+      "explanation": "From the right, the periods are ONES (3 places), THOUSANDS (2 places) and then LAKHS (2 places: lakhs and ten lakhs). Millions belong to the International system.",
+      "source": "book:page11",
+      "id": "q6"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Place Value Chart and Periods",
+      "question": "In the place value chart, what does 'TL' stand for?",
+      "options": [
+        "Ten thousands",
+        "Thousands",
+        "Ten lakhs",
+        "Lakhs"
+      ],
+      "answer": 2,
+      "explanation": "'TL' is the ten lakhs place, the left-most place of the LAKHS period. Ten thousands is written 'TTh', thousands 'Th' and lakhs 'L'.",
+      "source": "book:page11",
+      "id": "q7"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Place Value Chart and Periods",
+      "question": "While writing number names we use the plural form, for example 'forty-seven thousands five hundred eighty-nine'.",
+      "answer": false,
+      "explanation": "The book reminds us NOT to use the plural for periods in number names. 47,589 is read 'forty-seven thousand five hundred eighty-nine' - thousand, not thousands.",
+      "source": "book:page10",
+      "id": "q8"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Place Value Chart and Periods",
+      "question": "An empty space in the place value chart is considered as zero.",
+      "answer": true,
+      "explanation": "If a place in the chart has nothing written in it, that place holds a zero. For example 1,00,000 has 1 in the lakhs place and zeros in all the other places.",
+      "source": "book:page11",
+      "id": "q9"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reading and Writing Numbers (Indian System)",
+      "question": "An abacus shows 4 beads on TTh, 7 on Th, 5 on H, 8 on T and 9 on O. Which numeral does it show?",
+      "options": [
+        "47,598",
+        "45,789",
+        "74,589",
+        "47,589"
+      ],
+      "answer": 3,
+      "explanation": "Write the digits in order from ten thousands to ones: 4 7 5 8 9. Put a comma after the thousands period: 47,589, read as forty-seven thousand five hundred eighty-nine.",
+      "source": "book:page10",
+      "id": "q10"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reading and Writing Numbers (Indian System)",
+      "question": "What is the number name of 7,20,159?",
+      "options": [
+        "Seven lakh twenty thousand one hundred fifty-nine",
+        "Seven lakh two thousand one hundred fifty-nine",
+        "Seventy-two thousand one hundred fifty-nine",
+        "Seven lakh twenty thousand five hundred nineteen"
+      ],
+      "answer": 0,
+      "explanation": "7 is in the lakhs place, 20 in the thousands period and 159 in the ones period, so we read 7 lakh, 20 thousand, 159 = seven lakh twenty thousand one hundred fifty-nine.",
+      "source": "book:page11",
+      "id": "q11"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reading and Writing Numbers (Indian System)",
+      "question": "Write the numeral for 'Forty-two lakh four thousand two hundred and twenty-nine'.",
+      "options": [
+        "42,40,229",
+        "42,04,229",
+        "4,24,229",
+        "42,04,292"
+      ],
+      "answer": 1,
+      "explanation": "Forty-two lakh = 42 in the lakhs period, four thousand = 04 in the thousands period, two hundred twenty-nine = 229 in the ones period. The thousands period needs two digits, so write 04: 42,04,229.",
+      "source": "worksheet WAP-1 Q5a",
+      "id": "q12"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reading and Writing Numbers (Indian System)",
+      "question": "Write the numeral for 'Two lakh sixty-six'.",
+      "options": [
+        "2,66,000",
+        "2,00,660",
+        "2,00,066",
+        "20,066"
+      ],
+      "answer": 2,
+      "explanation": "There are no thousands, so the thousands period is 00, and sixty-six fills the ones period as 066. The numeral is 2,00,066. Writing 2,66,000 would mean two lakh sixty-six thousand.",
+      "source": "worksheet WAP-1 Q5c",
+      "id": "q13"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reading and Writing Numbers (Indian System)",
+      "question": "Write the numeral for 'Six lakh five thousand seven hundred'.",
+      "options": [
+        "6,50,700",
+        "65,700",
+        "6,05,070",
+        "6,05,700"
+      ],
+      "answer": 3,
+      "explanation": "Six lakh = 6, five thousand = 05 (two digits in the thousands period), seven hundred = 700. So the number is 6,05,700. 6,50,700 would be six lakh fifty thousand.",
+      "source": "worksheet WAP-1 Q5d",
+      "id": "q14"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reading and Writing Numbers (Indian System)",
+      "question": "What is the number name of 2,09,753?",
+      "options": [
+        "Two lakh nine thousand seven hundred fifty-three",
+        "Two lakh ninety thousand seven hundred fifty-three",
+        "Twenty lakh nine thousand seven hundred fifty-three",
+        "Two lakh nine thousand seven hundred thirty-five"
+      ],
+      "answer": 0,
+      "explanation": "The thousands period is 09, which is nine thousand (not ninety thousand). So 2,09,753 = two lakh nine thousand seven hundred fifty-three.",
+      "source": "worksheet WAP-1 Q6c",
+      "id": "q15"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reading and Writing Numbers (Indian System)",
+      "question": "Write the numeral for 'Thirty-two lakh five thousand seven hundred forty-six'.",
+      "options": [
+        "32,50,746",
+        "32,05,746",
+        "3,25,746",
+        "32,05,764"
+      ],
+      "answer": 1,
+      "explanation": "Thirty-two lakh gives 32 in the lakhs period, five thousand is 05 in the thousands period and 746 fills the ones period: 32,05,746.",
+      "source": "worksheet MMJ-2 Q1a",
+      "id": "q16"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Reading and Writing Numbers (Indian System)",
+      "question": "The numeral 2,00,301 is read as 'two lakh three hundred one'.",
+      "answer": true,
+      "explanation": "The thousands period is 00, so we skip it, and the ones period 301 is 'three hundred one'. So 2,00,301 = two lakh three hundred one.",
+      "source": "worksheet WAP-1 Q3a",
+      "id": "q17"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Reading and Writing Numbers (Indian System)",
+      "question": "The numeral 15,30,094 is read as 'fifteen lakh thirty thousand nine hundred four'.",
+      "answer": false,
+      "explanation": "The ones period is 094, which is ninety-four, not nine hundred four. The correct name is fifteen lakh thirty thousand ninety-four.",
+      "source": "worksheet WAP-1 Q4b",
+      "id": "q18"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Reading and Writing Numbers (Indian System)",
+      "question": "Crack the code: I am a 6-digit number. My ones digit is between 3 and 6, my tens digit is double my ones digit, the face value of my hundreds digit is 0, the place value of my thousands digit is 0, the place value of my ten thousands digit is 70,000, and the place value of my lakhs digit is 10 times that of my ten thousands digit. Who am I?",
+      "options": [
+        "7,70,048",
+        "7,07,084",
+        "7,70,084",
+        "7,70,840"
+      ],
+      "answer": 2,
+      "explanation": "Ones digit between 3 and 6 could be 4 or 5, but only 4 can be doubled to a single digit (8), so ones = 4 and tens = 8. Hundreds = 0 and thousands = 0. Ten thousands place value 70,000 means digit 7, and lakhs place value 10 x 70,000 = 7,00,000 means digit 7. The number is 7,70,084.",
+      "source": "book:page20",
+      "id": "q19"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Place Value and Face Value",
+      "question": "What is the place value of 3 in 35,146?",
+      "options": [
+        "3,000",
+        "3",
+        "300",
+        "30,000"
+      ],
+      "answer": 3,
+      "explanation": "3 is in the ten thousands place, so its place value is 3 x 10,000 = 30,000. Its face value is just 3.",
+      "source": "book:page15",
+      "id": "q20"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Place Value and Face Value",
+      "question": "What is the place value of 7 in 27,20,159?",
+      "options": [
+        "7,00,000",
+        "70,00,000",
+        "70,000",
+        "7,000"
+      ],
+      "answer": 0,
+      "explanation": "In 27,20,159 the digit 7 is in the lakhs place, so its place value is 7 x 1,00,000 = 7,00,000. The 2 to its left is in the ten lakhs place.",
+      "source": "book:page16",
+      "id": "q21"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Place Value and Face Value",
+      "question": "What is the difference between the place value and face value of 7 in 72,543?",
+      "options": [
+        "70,007",
+        "69,993",
+        "69,933",
+        "69,997"
+      ],
+      "answer": 1,
+      "explanation": "Place value of 7 = 70,000 (ten thousands place) and face value = 7. Difference = 70,000 - 7 = 69,993.",
+      "source": "worksheet MMJ-1 Q1a",
+      "id": "q22"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Place Value and Face Value",
+      "question": "Ravi said the place value of 6 in 5,67,849 is 6,00,000. What is the correct place value?",
+      "options": [
+        "6,00,000",
+        "6,000",
+        "60,000",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "Reading 5,67,849 in the chart: 5 lakhs, 6 ten thousands, 7 thousands, 8 hundreds, 4 tens, 9 ones. The 6 is in the ten thousands place, so its place value is 60,000. Ravi was wrong.",
+      "source": "worksheet MMJ-1 Q4",
+      "id": "q23"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Place Value and Face Value",
+      "question": "Statement (I): The place value of any digit is the same as the digit itself. Statement (II): The face value is the actual value of a digit, irrespective of its position in the number. Select the correct option.",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 3,
+      "explanation": "Place value depends on the position (7 in 72,543 has place value 70,000), so (I) is false. Face value is the digit itself no matter where it sits, so (II) is true.",
+      "source": "worksheet MMJ-1 Q6",
+      "id": "q24"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Place Value and Face Value",
+      "question": "Statement (I): The place value of 6 in 8,56,231 is 60,000. Statement (II): The digits are grouped in periods of ones, thousands and lakhs when numbers are expressed in the Indian Number System. Select the correct option.",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 3,
+      "explanation": "In 8,56,231 the digits are 8 lakhs, 5 ten thousands, 6 thousands, 2 hundreds, 3 tens, 1 one. So the place value of 6 is 6,000, not 60,000: (I) is false. The Indian periods are indeed ones, thousands and lakhs: (II) is true.",
+      "source": "worksheet MMJ-2 Q8",
+      "id": "q25"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Place Value and Face Value",
+      "question": "Statement (I): The digit 7 has a greater place value than the digit 5 in the number 7,58,193. Statement (II): As we move from right to left in the place value chart, each place value is ten times greater than the one before it. Select the correct option.",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 0,
+      "explanation": "In 7,58,193, 7 is in the lakhs place (7,00,000) and 5 is in the ten thousands place (50,000), so (I) is true. Each place is ten times the place to its right, so (II) is also true.",
+      "source": "book:page22 Q8",
+      "id": "q26"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Place Value and Face Value",
+      "question": "The place value and the face value of the digit zero are always zero.",
+      "answer": true,
+      "explanation": "Zero times any place value is zero, and the face value of 0 is 0. So both values of the digit 0 are always 0, wherever it sits.",
+      "source": "book:page14",
+      "id": "q27"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Place Value and Face Value",
+      "question": "What is the place value of the digit 3 in 7,435,896?",
+      "options": [
+        "3,000",
+        "300,000",
+        "3",
+        "30,000"
+      ],
+      "answer": 3,
+      "explanation": "Reading 7,435,896 in the International chart: 7 millions, 4 hundred thousands, 3 ten thousands, 5 thousands, 8 hundreds, 9 tens, 6 ones. So the place value of 3 is 30,000.",
+      "source": "worksheet WAP-3 Q2e",
+      "id": "q28"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Place Value and Face Value",
+      "question": "In the number 741025, which digits have a place value equal to their face value?",
+      "options": [
+        "0 and 5",
+        "7 and 4",
+        "1 and 5",
+        "4 and 0"
+      ],
+      "answer": 0,
+      "explanation": "Only a digit in the ones place (5 x 1 = 5) or a zero (0 x anything = 0) has place value equal to face value. In 7,41,025 those digits are the 0 in the hundreds place and the 5 in the ones place.",
+      "source": "worksheet MMJ-2 Q7e",
+      "id": "q29"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Place Value and Face Value",
+      "question": "In the number 333,333, the place value of the 3 in the thousands place is how many times the place value of the 3 in the hundreds place?",
+      "options": [
+        "100",
+        "10",
+        "3",
+        "1,000"
+      ],
+      "answer": 1,
+      "explanation": "The 3 in the thousands place is worth 3,000 and the 3 in the hundreds place is worth 300. 3,000 / 300 = 10. Each place is ten times the place to its right.",
+      "source": "book:page28",
+      "id": "q30"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Place Value and Face Value",
+      "question": "In 27,20,159, select ALL the digits whose place value is equal to their face value.",
+      "options": [
+        "The 9 in the ones place",
+        "The 0 in the thousands place",
+        "The 1 in the hundreds place",
+        "The 2 in the ten thousands place"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The 9 in the ones place has place value 9 x 1 = 9, same as its face value. The 0 in the thousands place has place value 0 x 1,000 = 0, same as its face value 0. The 1 has place value 100 and the 2 has place value 20,000.",
+      "source": "book:page16",
+      "id": "q31"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Expanded Form and Standard Form",
+      "question": "What is the expanded form of 43,526?",
+      "options": [
+        "40,000 + 3,000 + 50 + 20 + 6",
+        "4,000 + 3,000 + 500 + 20 + 6",
+        "40,000 + 3,000 + 500 + 20 + 6",
+        "40,000 + 3,000 + 500 + 26"
+      ],
+      "answer": 2,
+      "explanation": "Expanded form is the sum of the place values of each digit: 4 x 10,000 + 3 x 1,000 + 5 x 100 + 2 x 10 + 6 x 1 = 40,000 + 3,000 + 500 + 20 + 6.",
+      "source": "book:page17",
+      "id": "q32"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Expanded Form and Standard Form",
+      "question": "Write 6,00,000 + 50,000 + 800 + 7 in standard form.",
+      "options": [
+        "6,50,087",
+        "65,807",
+        "6,05,807",
+        "6,50,807"
+      ],
+      "answer": 3,
+      "explanation": "6 lakhs, 5 ten thousands, 0 thousands, 8 hundreds, 0 tens and 7 ones. Zero is a placeholder for the missing thousands and tens, so the number is 6,50,807.",
+      "source": "worksheet WAP-2 Q5a",
+      "id": "q33"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Expanded Form and Standard Form",
+      "question": "Write 10,000 + 30 in standard form.",
+      "options": [
+        "10,030",
+        "10,300",
+        "1,030",
+        "10,003"
+      ],
+      "answer": 0,
+      "explanation": "There is 1 ten thousand, 0 thousands, 0 hundreds, 3 tens and 0 ones. Filling the empty places with zeros gives 10,030.",
+      "source": "worksheet WAP-2 Q5c",
+      "id": "q34"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Expanded Form and Standard Form",
+      "question": "Write 30,00,000 + 1,00,000 + 70,000 + 3,000 + 300 + 20 + 2 in standard form.",
+      "options": [
+        "31,73,232",
+        "31,73,322",
+        "3,17,322",
+        "31,37,322"
+      ],
+      "answer": 1,
+      "explanation": "3 ten lakhs and 1 lakh make 31 in the lakhs period, 7 ten thousands and 3 thousands make 73 in the thousands period, and 300 + 20 + 2 = 322 in the ones period: 31,73,322.",
+      "source": "worksheet WAP-2 Q5b",
+      "id": "q35"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Expanded Form and Standard Form",
+      "question": "What is the expanded form of 4,20,123?",
+      "options": [
+        "4,00,000 + 20,000 + 1,000 + 20 + 3",
+        "4,00,000 + 2,000 + 100 + 20 + 3",
+        "4,00,000 + 20,000 + 100 + 20 + 3",
+        "40,000 + 20,000 + 100 + 20 + 3"
+      ],
+      "answer": 2,
+      "explanation": "4,20,123 has 4 lakhs, 2 ten thousands, 0 thousands, 1 hundred, 2 tens and 3 ones. The zero in the thousands place adds nothing, so the expanded form is 4,00,000 + 20,000 + 100 + 20 + 3.",
+      "source": "worksheet WAP-2 Q4b",
+      "id": "q36"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Expanded Form and Standard Form",
+      "question": "Ria wrote the expanded form of 990999 as 9,00,000 + 90,000 + 9,000 + 900 + 90 + 9. Is she right?",
+      "options": [
+        "Yes, because every digit in 990999 is a 9",
+        "No, the 90,000 term should have been 99,000",
+        "Yes, because her terms add up to 9,90,999",
+        "No, 990999 has a 0 in the thousands place"
+      ],
+      "answer": 3,
+      "explanation": "990999 = 9,90,999, which has digits 9, 9, 0, 9, 9, 9. The thousands digit is 0, so there should be no 9,000 term. Ria's sum actually equals 9,99,999, a different number.",
+      "source": "book:page20",
+      "id": "q37"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Expanded Form and Standard Form",
+      "question": "Write 2,000,000 + 500,000 + 3,000 + 90 + 9 in standard form.",
+      "options": [
+        "2,503,099",
+        "2,530,099",
+        "2,503,909",
+        "2,500,399"
+      ],
+      "answer": 0,
+      "explanation": "2 millions, 5 hundred thousands, 0 ten thousands, 3 thousands, 0 hundreds, 9 tens and 9 ones. Putting zeros in the empty places gives 2,503,099.",
+      "source": "worksheet MMJ-2 Q6c",
+      "id": "q38"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Expanded Form and Standard Form",
+      "question": "The expanded form of 4,207,002 is 4,000,000 + 200,000 + 7,000 + 2.",
+      "answer": true,
+      "explanation": "4,207,002 has 4 millions, 2 hundred thousands, 0 ten thousands, 7 thousands, 0 hundreds, 0 tens and 2 ones. Leaving out the zero terms gives 4,000,000 + 200,000 + 7,000 + 2.",
+      "source": "book:page24",
+      "id": "q39"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Expanded Form and Standard Form",
+      "question": "The expanded form of 9,045,200 is 9,000,000 + 400,000 + 5,000 + 200.",
+      "answer": false,
+      "explanation": "In 9,045,200 the digit 4 is in the ten thousands place, not the hundred thousands place. The correct expanded form is 9,000,000 + 40,000 + 5,000 + 200.",
+      "source": "book:page24",
+      "id": "q40"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Expanded Form and Standard Form",
+      "question": "Statement (I): The expanded form of 593,821 is 500,000 + 90,000 + 3,000 + 800 + 20 + 1. Statement (II): In the International Number System, place values are grouped into periods with each period having 3 places. Select the correct option.",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 0,
+      "explanation": "593,821 = 5 hundred thousands + 9 ten thousands + 3 thousands + 8 hundreds + 2 tens + 1 one, so (I) is true. The International system groups digits in periods of three, so (II) is also true.",
+      "source": "book:page30 Q8",
+      "id": "q41"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Converting Between Place Values",
+      "question": "How many thousands make 1 lakh?",
+      "options": [
+        "10",
+        "100",
+        "1,000",
+        "10,000"
+      ],
+      "answer": 1,
+      "explanation": "1 lakh = 1,00,000 and 1,00,000 / 1,000 = 100. So 100 thousands = 1 lakh (also 10 ten thousands = 1 lakh).",
+      "source": "worksheet WAP-2 Q3a",
+      "id": "q42"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Converting Between Place Values",
+      "question": "10 lakhs = ______ hundreds",
+      "options": [
+        "1,000",
+        "1,00,000",
+        "10,000",
+        "100"
+      ],
+      "answer": 2,
+      "explanation": "10 lakhs = 10,00,000. Dividing by 100 gives 10,000. So there are 10,000 hundreds in ten lakh.",
+      "source": "worksheet WAP-2 Q3b",
+      "id": "q43"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Converting Between Place Values",
+      "question": "How many tens are there in the number 71,005?",
+      "options": [
+        "710",
+        "71",
+        "71,000",
+        "7,100"
+      ],
+      "answer": 3,
+      "explanation": "Cover the ones digit: 71,005 is 7,100 tens and 5 ones (7,100 x 10 = 71,000, plus 5 = 71,005). So there are 7,100 tens.",
+      "source": "worksheet WAP-2 Q3e",
+      "id": "q44"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Converting Between Place Values",
+      "question": "How many lakhs are there in the number 23,31,209?",
+      "options": [
+        "23",
+        "233",
+        "2",
+        "2,331"
+      ],
+      "answer": 0,
+      "explanation": "The lakhs period of 23,31,209 is 23, so the number contains 23 whole lakhs (23 x 1,00,000 = 23,00,000, with 31,209 left over).",
+      "source": "worksheet WAP-2 Q3f",
+      "id": "q45"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Converting Between Place Values",
+      "question": "How many thousands are there in 87,65,432?",
+      "options": [
+        "876",
+        "8,765",
+        "87",
+        "65,432"
+      ],
+      "answer": 1,
+      "explanation": "Everything to the left of the ones period counts as thousands: 87,65,432 = 8,765 thousands + 432. Check: 8,765 x 1,000 = 87,65,000.",
+      "source": "worksheet MMJ-1 Q2a",
+      "id": "q46"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Converting Between Place Values",
+      "question": "1 million = ______ lakhs",
+      "options": [
+        "100",
+        "1",
+        "10",
+        "1,000"
+      ],
+      "answer": 2,
+      "explanation": "1 million = 1,000,000 and 1 lakh = 1,00,000. 1,000,000 / 1,00,000 = 10, so 1 million is the same as 10 lakhs (one ten lakh).",
+      "source": "worksheet MMJ-1 Q2b",
+      "id": "q47"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Converting Between Place Values",
+      "question": "How many hundreds are there in 670,912?",
+      "options": [
+        "670",
+        "67,091",
+        "609",
+        "6,709"
+      ],
+      "answer": 3,
+      "explanation": "Cover the tens and ones digits: 670,912 = 6,709 hundreds + 12. Check: 6,709 x 100 = 670,900, and 670,900 + 12 = 670,912.",
+      "source": "worksheet WAP-3 Q8e",
+      "id": "q48"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Converting Between Place Values",
+      "question": "Select ALL the statements that are correct.",
+      "options": [
+        "1 million = 10 lakhs",
+        "1 lakh = 1 hundred thousand",
+        "100 hundreds = 1 thousand",
+        "1,000 ones = 1 hundred"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "1 million = 1,000,000 = 10 lakhs, and 1 lakh = 1,00,000 = 100,000 = one hundred thousand. But 100 hundreds = 10,000 = 10 thousands (not 1 thousand), and 1,000 ones = 1,000 = 10 hundreds (not 1 hundred).",
+      "source": "worksheet MMJ-2 Q4",
+      "id": "q49"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Converting Between Place Values",
+      "question": "50 thousands = ______ ten thousands",
+      "options": [
+        "5",
+        "50",
+        "500",
+        "15"
+      ],
+      "answer": 0,
+      "explanation": "50 thousands = 50,000. Since one ten thousand is 10,000, 50,000 / 10,000 = 5 ten thousands.",
+      "source": "worksheet WAP-3 Q8b",
+      "id": "q50"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "International Number System",
+      "question": "In the International Number System, how many places does each period have?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answer": 1,
+      "explanation": "Every period in the International system (ones, thousands, millions) has three places, so commas are placed after every 3 digits from the right, e.g. 5,716,146.",
+      "source": "book:page23",
+      "id": "q51"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "International Number System",
+      "question": "Which is the third period from the right in the International Number System?",
+      "options": [
+        "Lakhs",
+        "Thousands",
+        "Millions",
+        "Billions"
+      ],
+      "answer": 2,
+      "explanation": "The International periods from the right are ONES, THOUSANDS and MILLIONS. Lakhs belong to the Indian system.",
+      "source": "book:page23",
+      "id": "q52"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "International Number System",
+      "question": "What is the number name of 753,824 in the International Number System?",
+      "options": [
+        "Seven lakh fifty-three thousand eight hundred twenty-four",
+        "Seven hundred fifty-three thousand eight hundred forty-two",
+        "Seven hundred thirty-five thousand eight hundred twenty-four",
+        "Seven hundred fifty-three thousand eight hundred twenty-four"
+      ],
+      "answer": 3,
+      "explanation": "The thousands period is 753 and the ones period is 824, so we read seven hundred fifty-three thousand eight hundred twenty-four. 'Lakh' is never used in the International system.",
+      "source": "book:page24",
+      "id": "q53"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "International Number System",
+      "question": "What is the number name of 5,716,146?",
+      "options": [
+        "Five million seven hundred sixteen thousand one hundred forty-six",
+        "Five million seven hundred sixty-one thousand one hundred forty-six",
+        "Fifty-seven lakh sixteen thousand one hundred forty-six",
+        "Five million seven hundred sixteen thousand one hundred sixty-four"
+      ],
+      "answer": 0,
+      "explanation": "Millions period 5, thousands period 716, ones period 146: five million seven hundred sixteen thousand one hundred forty-six.",
+      "source": "book:page24",
+      "id": "q54"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "International Number System",
+      "question": "Write the numeral for 'Eight million eighty thousand six hundred'.",
+      "options": [
+        "8,800,600",
+        "8,080,600",
+        "8,008,600",
+        "8,080,060"
+      ],
+      "answer": 1,
+      "explanation": "Eight million = 8 in the millions period, eighty thousand = 080 in the thousands period (three digits), six hundred = 600 in the ones period. So the numeral is 8,080,600.",
+      "source": "worksheet WAP-3 Q3d",
+      "id": "q55"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "International Number System",
+      "question": "Write the numeral for 'Nine hundred thousand twenty-one'.",
+      "options": [
+        "900,201",
+        "90,021",
+        "900,021",
+        "921,000"
+      ],
+      "answer": 2,
+      "explanation": "Nine hundred thousand fills the thousands period as 900, and twenty-one fills the ones period as 021. So the numeral is 900,021.",
+      "source": "worksheet WAP-3 Q7d",
+      "id": "q56"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "International Number System",
+      "question": "Write the numeral for 'One million fifty-three thousand six hundred fourteen'.",
+      "options": [
+        "1,530,614",
+        "1,053,641",
+        "153,614",
+        "1,053,614"
+      ],
+      "answer": 3,
+      "explanation": "One million = 1, fifty-three thousand = 053 (three digits in the thousands period), six hundred fourteen = 614. The numeral is 1,053,614.",
+      "source": "worksheet MMJ-2 Q1b",
+      "id": "q57"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "International Number System",
+      "question": "What is the place value of 1 in 1,436,254?",
+      "options": [
+        "1,000,000",
+        "100,000",
+        "10,000,000",
+        "10,000"
+      ],
+      "answer": 0,
+      "explanation": "1,436,254 is a 7-digit number, so its first digit 1 is in the millions place. Its place value is 1 x 1,000,000 = 1,000,000.",
+      "source": "worksheet WAP-3 Q2c",
+      "id": "q58"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "International Number System",
+      "question": "What is the number 1,000,000,000 called?",
+      "options": [
+        "One million",
+        "One billion",
+        "Ten million",
+        "One trillion"
+      ],
+      "answer": 1,
+      "explanation": "1,000,000,000 (a 1 followed by nine zeros) is one billion. The book says the world population is about 8 billion.",
+      "source": "book:page25",
+      "id": "q59"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "International Number System",
+      "question": "The world population is about 8 million.",
+      "answer": false,
+      "explanation": "The book says the world population is about 8 BILLION (8,000,000,000), which is a thousand times more than 8 million.",
+      "source": "book:page25",
+      "id": "q60"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Indian vs International Systems",
+      "question": "1 lakh (1,00,000) in the Indian system is equal to which number in the International system?",
+      "options": [
+        "1,000,000 (one million)",
+        "10,000 (ten thousand)",
+        "100,000 (hundred thousand)",
+        "10,000,000 (ten million)"
+      ],
+      "answer": 2,
+      "explanation": "The digits are the same, only the commas move: 1,00,000 = 100,000, which is read as one hundred thousand in the International system.",
+      "source": "book:page25",
+      "id": "q61"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Indian vs International Systems",
+      "question": "One friend won a lottery of 1 million rupees and another won 10 lakh rupees. Who received more money?",
+      "options": [
+        "The one with 1 million rupees",
+        "The one with 10 lakh rupees",
+        "It cannot be compared at all",
+        "Both won the same amount"
+      ],
+      "answer": 3,
+      "explanation": "1 million = 1,000,000 and 10 lakh = 10,00,000. They are the same number written with different commas, so both friends won equal amounts.",
+      "source": "book:page23",
+      "id": "q62"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Indian vs International Systems",
+      "question": "Write 2003120 with commas as per the Indian Number System.",
+      "options": [
+        "20,03,120",
+        "2,003,120",
+        "200,31,20",
+        "2,00,31,20"
+      ],
+      "answer": 0,
+      "explanation": "In the Indian system the first comma comes after 3 digits from the right and then after every 2 digits: 20,03,120 (twenty lakh three thousand one hundred twenty). 2,003,120 is the International way.",
+      "source": "book:page26",
+      "id": "q63"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Indian vs International Systems",
+      "question": "What is the number name of 2,003,120 in the International Number System?",
+      "options": [
+        "Twenty lakh three thousand one hundred twenty",
+        "Two million three thousand one hundred twenty",
+        "Two million thirty thousand one hundred twenty",
+        "Two million three hundred thousand one hundred twenty"
+      ],
+      "answer": 1,
+      "explanation": "Millions period 2, thousands period 003 (just three thousand), ones period 120: two million three thousand one hundred twenty.",
+      "source": "book:page26",
+      "id": "q64"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Indian vs International Systems",
+      "question": "The population of Lakshadweep is one lakh forty-three thousand four hundred eighty-eight. Write it in the International Number System.",
+      "options": [
+        "1,43,488",
+        "1,434,88",
+        "143,488",
+        "14,34,88"
+      ],
+      "answer": 2,
+      "explanation": "One lakh forty-three thousand = 143 thousand, so the thousands period is 143 and the ones period is 488. In the International system this is written 143,488.",
+      "source": "worksheet WAP-3 Q5b",
+      "id": "q65"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Indian vs International Systems",
+      "question": "A cheque of Rs 12,34,571 must be written in the International Number System. What is it?",
+      "options": [
+        "12,34,571",
+        "123,4571",
+        "1,23,4571",
+        "1,234,571"
+      ],
+      "answer": 3,
+      "explanation": "Remove the Indian commas (1234571) and regroup in threes from the right: 1,234,571 - one million two hundred thirty-four thousand five hundred seventy-one.",
+      "source": "book:page30 Q7a",
+      "id": "q66"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Indian vs International Systems",
+      "question": "Numbers having 5 digits or fewer are read in the same way in both the Indian and International Number Systems.",
+      "answer": true,
+      "explanation": "Both systems have the same ONES and THOUSANDS periods up to ten thousands, so a number like 70,958 is read 'seventy thousand nine hundred fifty-eight' in both. Only 6- and 7-digit numbers differ.",
+      "source": "book:page24",
+      "id": "q67"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Indian vs International Systems",
+      "question": "6-digit and 7-digit numbers are read in the same way in both the Indian and International Number Systems.",
+      "answer": false,
+      "explanation": "They are read differently. For example 123579 is 1,23,579 'one lakh twenty-three thousand...' in the Indian system but 123,579 'one hundred twenty-three thousand...' in the International system.",
+      "source": "book:page24",
+      "id": "q68"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Indian vs International Systems",
+      "question": "Compare 2,59,761 (Indian system) and 259,761 (International system). Which is correct?",
+      "options": [
+        "They are equal",
+        "2,59,761 is greater",
+        "259,761 is greater",
+        "They cannot be compared"
+      ],
+      "answer": 0,
+      "explanation": "Writing both numbers in the same place value chart gives the digits 2, 5, 9, 7, 6, 1 in every place. The commas are different but the value is the same, so 2,59,761 = 259,761.",
+      "source": "book:page33",
+      "id": "q69"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Indian vs International Systems",
+      "question": "Select ALL the values that are equal to 10,00,000.",
+      "options": [
+        "1 million",
+        "10 lakhs",
+        "100 thousand",
+        "1 billion"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "10,00,000 is read as ten lakh in the Indian system and written 1,000,000 = one million in the International system. 100 thousand is only 1 lakh, and 1 billion is 1,000 million.",
+      "source": "book:page25",
+      "id": "q70"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Predecessor, Successor and Adding 10, 100, 1,000",
+      "question": "What is the predecessor of 45,698?",
+      "options": [
+        "45,699",
+        "45,697",
+        "45,688",
+        "45,608"
+      ],
+      "answer": 1,
+      "explanation": "The predecessor is the number that comes just before. Subtract 1: 45,698 - 1 = 45,697.",
+      "source": "book:page31",
+      "id": "q71"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Predecessor, Successor and Adding 10, 100, 1,000",
+      "question": "What is the successor of 41,39,999?",
+      "options": [
+        "41,39,998",
+        "41,39,910",
+        "41,40,000",
+        "42,00,000"
+      ],
+      "answer": 2,
+      "explanation": "Add 1: 41,39,999 + 1 = 41,40,000. The 999 at the end becomes 000 and the thousands digit 9 becomes 0 with a carry into the ten thousands place.",
+      "source": "book:page32",
+      "id": "q72"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Predecessor, Successor and Adding 10, 100, 1,000",
+      "question": "What is the predecessor of 7,50,110?",
+      "options": [
+        "7,50,111",
+        "7,50,100",
+        "7,50,101",
+        "7,50,109"
+      ],
+      "answer": 3,
+      "explanation": "Subtract 1 from 7,50,110. The ones digit is 0, so we regroup one ten: 7,50,110 - 1 = 7,50,109.",
+      "source": "worksheet MMJ-3 Q1d",
+      "id": "q73"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Predecessor, Successor and Adding 10, 100, 1,000",
+      "question": "What is 10 less than 7,985,402?",
+      "options": [
+        "7,985,392",
+        "7,985,412",
+        "7,985,302",
+        "7,985,492"
+      ],
+      "answer": 0,
+      "explanation": "The tens digit is 0, so we must regroup from the hundreds: 7,985,402 - 10 = 7,985,392. Both the tens and hundreds digits change.",
+      "source": "book:page32",
+      "id": "q74"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Predecessor, Successor and Adding 10, 100, 1,000",
+      "question": "What is 100 more than 1,24,568?",
+      "options": [
+        "1,24,578",
+        "1,24,668",
+        "1,25,568",
+        "1,24,468"
+      ],
+      "answer": 1,
+      "explanation": "Adding 100 increases the hundreds digit by 1: 5 hundreds become 6 hundreds, so 1,24,568 + 100 = 1,24,668. No other digit changes because no regrouping is needed.",
+      "source": "book:page32",
+      "id": "q75"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Predecessor, Successor and Adding 10, 100, 1,000",
+      "question": "What is 1,000 less than 40,689?",
+      "options": [
+        "40,589",
+        "30,689",
+        "39,689",
+        "40,679"
+      ],
+      "answer": 2,
+      "explanation": "40,689 has 0 thousands, so taking away 1,000 needs regrouping from the ten thousands: 40,689 - 1,000 = 39,689.",
+      "source": "book:page32",
+      "id": "q76"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Predecessor, Successor and Adding 10, 100, 1,000",
+      "question": "A marathon step counter shows 1,99,999 at the finish line. What will it show after one more step?",
+      "options": [
+        "1,99,100",
+        "20,00,000",
+        "1,00,000",
+        "2,00,000"
+      ],
+      "answer": 3,
+      "explanation": "1,99,999 + 1 = 2,00,000 (two lakh). All the 9s roll over to 0 and the lakhs digit goes from 1 to 2.",
+      "source": "book:page42",
+      "id": "q77"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Predecessor, Successor and Adding 10, 100, 1,000",
+      "question": "Adding 1 to 1,99,999 changes the number of digits from 6 to 7.",
+      "answer": false,
+      "explanation": "1,99,999 + 1 = 2,00,000, which still has 6 digits. The digit count only changes when all the digits are 9, like 9,99,999 + 1 = 10,00,000.",
+      "source": "book:page42",
+      "id": "q78"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Predecessor, Successor and Adding 10, 100, 1,000",
+      "question": "When 10 is subtracted from 7,985,402, why do both the tens and the hundreds digits change?",
+      "options": [
+        "The tens digit is 0, so it borrows from the hundreds",
+        "Subtracting 10 always changes the hundreds digit too",
+        "The ones digit 2 is smaller than 10, so it carries over",
+        "Any 7-digit number changes two places at once"
+      ],
+      "answer": 0,
+      "explanation": "You cannot take 1 ten from 0 tens, so regrouping is needed: 4 hundreds become 3 hundreds and 10 tens, then 10 tens - 1 ten = 9 tens. That is why 7,985,402 - 10 = 7,985,392. Adding 10 to the same number changes only the tens digit.",
+      "source": "book:page32",
+      "id": "q79"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Comparing and Ordering Numbers",
+      "question": "Which is greater, 56,79,999 or 6,78,799, and why?",
+      "options": [
+        "6,78,799, because its digits add up to a bigger total",
+        "56,79,999, because it has 7 digits and the other has 6",
+        "6,78,799, because it begins with the bigger digit 6",
+        "56,79,999, because it ends with more 9s than the other"
+      ],
+      "answer": 1,
+      "explanation": "A number with more digits is always greater. 56,79,999 is a 7-digit number and 6,78,799 is a 6-digit number, so 56,79,999 > 6,78,799.",
+      "source": "book:page33",
+      "id": "q80"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Comparing and Ordering Numbers",
+      "question": "A number with fewer digits is always less than a number with more digits.",
+      "answer": true,
+      "explanation": "This is the first rule for comparing numbers: for example, every 6-digit number is smaller than every 7-digit number, no matter what the digits are.",
+      "source": "book:page33",
+      "id": "q81"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Comparing and Ordering Numbers",
+      "question": "To find the smaller of 76,52,103 and 76,97,321, in which place do the digits first differ?",
+      "options": [
+        "The ten lakhs place",
+        "The thousands place",
+        "The ten thousands place",
+        "The hundreds place"
+      ],
+      "answer": 2,
+      "explanation": "Compare from the left: ten lakhs 7 = 7, lakhs 6 = 6, ten thousands 5 and 9 are different. Since 5 < 9, 76,52,103 < 76,97,321.",
+      "source": "book:page34",
+      "id": "q82"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Comparing and Ordering Numbers",
+      "question": "Which is the smaller number: 65,93,169 or 6,598,326?",
+      "options": [
+        "6,598,326",
+        "They are equal",
+        "Cannot compare two systems",
+        "65,93,169"
+      ],
+      "answer": 3,
+      "explanation": "Write both in the Indian chart: 65,93,169 and 65,98,326. The digits first differ in the thousands place, 3 < 8, so 65,93,169 is smaller. Numbers from different systems can be compared once you line up the digits.",
+      "source": "book:page34",
+      "id": "q83"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Comparing and Ordering Numbers",
+      "question": "TV prices are Rs 17,367; Rs 13,753; Rs 12,075 and Rs 19,481. Arjun's family budget is Rs 17,500. Which TV is NOT within the budget?",
+      "options": [
+        "19,481",
+        "17,367",
+        "13,753",
+        "12,075"
+      ],
+      "answer": 0,
+      "explanation": "Comparing the thousands digits 9 > 7 > 3 > 2 gives 19,481 > 17,367 > 13,753 > 12,075. Only 19,481 is more than 17,500, so it is outside the budget.",
+      "source": "book:page35",
+      "id": "q84"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Comparing and Ordering Numbers",
+      "question": "Arrange in ascending order: 9,98,627; 9,98,721; 9,99,616; 9,99,347",
+      "options": [
+        "9,98,627; 9,98,721; 9,99,616; 9,99,347",
+        "9,98,627; 9,98,721; 9,99,347; 9,99,616",
+        "9,98,721; 9,98,627; 9,99,347; 9,99,616",
+        "9,99,616; 9,99,347; 9,98,721; 9,98,627"
+      ],
+      "answer": 1,
+      "explanation": "All have the same lakhs digit 9. Thousands period 98 < 99, so the two 9,98,... numbers come first: 627 < 721. Then among 9,99,...: 347 < 616. Ascending: 9,98,627; 9,98,721; 9,99,347; 9,99,616.",
+      "source": "worksheet WAP-4 Q2b",
+      "id": "q85"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Comparing and Ordering Numbers",
+      "question": "Arrange in ascending order: 6,32,894; 6,83,294; 6,23,849; 6,82,394",
+      "options": [
+        "6,23,849; 6,32,894; 6,83,294; 6,82,394",
+        "6,32,894; 6,23,849; 6,82,394; 6,83,294",
+        "6,23,849; 6,32,894; 6,82,394; 6,83,294",
+        "6,83,294; 6,82,394; 6,32,894; 6,23,849"
+      ],
+      "answer": 2,
+      "explanation": "Same lakhs digit, so compare the ten thousands digit: 2 < 3 < 8 = 8. For the two numbers starting 6,8..., compare thousands: 2 < 3, so 6,82,394 < 6,83,294. Ascending: 6,23,849; 6,32,894; 6,82,394; 6,83,294.",
+      "source": "worksheet MMJ-3 Q3c",
+      "id": "q86"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Comparing and Ordering Numbers",
+      "question": "Arrange in descending order: 5,472,395; 5,432,794; 5,437,293; 5,432,792",
+      "options": [
+        "5,472,395; 5,432,794; 5,437,293; 5,432,792",
+        "5,472,395; 5,437,293; 5,432,792; 5,432,794",
+        "5,432,792; 5,432,794; 5,437,293; 5,472,395",
+        "5,472,395; 5,437,293; 5,432,794; 5,432,792"
+      ],
+      "answer": 3,
+      "explanation": "Compare the ten thousands digits: 7 is biggest, so 5,472,395 first. Then 5,437,293 (thousands digit 7) beats 5,432,...; finally 5,432,794 > 5,432,792 because 4 > 2 in the ones place.",
+      "source": "worksheet MMJ-3 Q3d",
+      "id": "q87"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Comparing and Ordering Numbers",
+      "question": "Desert areas in sq miles: Antarctic Polar 5,500,000; Arctic Polar 5,400,000; Sahara 3,500,000; Simpson 56,000; Kalahari 275,000. Which desert has the LEAST area?",
+      "options": [
+        "Simpson Desert",
+        "Kalahari Desert",
+        "Sahara Desert",
+        "Arctic Polar Desert"
+      ],
+      "answer": 0,
+      "explanation": "Count the digits first: 56,000 is the only 5-digit number, so it is the smallest. The Simpson Desert has the least area; it is also the only desert with an area less than 100,000 sq miles.",
+      "source": "worksheet MMJ-3 Q6b",
+      "id": "q88"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Comparing and Ordering Numbers",
+      "question": "Desert areas in sq miles: Antarctic Polar 5,500,000; Arctic Polar 5,400,000; Sahara 3,500,000. Which comparison is correct?",
+      "options": [
+        "5,400,000 > 5,500,000 > 3,500,000",
+        "5,500,000 > 5,400,000 > 3,500,000",
+        "3,500,000 > 5,500,000 > 5,400,000",
+        "5,500,000 > 3,500,000 > 5,400,000"
+      ],
+      "answer": 1,
+      "explanation": "All three are 7-digit numbers, so compare the millions digit: 5 = 5 > 3, so the Sahara is smallest. Then compare the hundred thousands digit of the two 5-million numbers: 5 > 4. So Antarctic Polar (5,500,000) > Arctic Polar (5,400,000) > Sahara (3,500,000).",
+      "source": "worksheet MMJ-3 Q6d",
+      "id": "q89"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Comparing and Ordering Numbers",
+      "question": "The Kalahari Desert (275,000 sq miles) is larger than the Sahara Desert (3,500,000 sq miles) because 275,000 has bigger digits at the front.",
+      "answer": false,
+      "explanation": "Count digits first: 3,500,000 has 7 digits and 275,000 has only 6, so the Sahara is far larger. Leading digits are compared only when both numbers have the same number of digits.",
+      "source": "worksheet MMJ-3 Q6d",
+      "id": "q90"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Comparing and Ordering Numbers",
+      "question": "The Kalahari Desert (275,000 sq miles) is larger than the Simpson Desert (56,000 sq miles).",
+      "answer": true,
+      "explanation": "275,000 is a 6-digit number and 56,000 is a 5-digit number, so 275,000 is the larger area. The Simpson Desert is the smallest in the table.",
+      "source": "worksheet MMJ-3 Q6b",
+      "id": "q91"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Forming the Greatest and Smallest Numbers",
+      "question": "Using each of the digits 6, 9, 4, 2, 7, 5 once, what is the greatest 6-digit number?",
+      "options": [
+        "9,67,542",
+        "9,76,452",
+        "9,76,542",
+        "2,45,679"
+      ],
+      "answer": 2,
+      "explanation": "Arrange the digits in descending order and place the greatest digit in the greatest place: 9, 7, 6, 5, 4, 2 gives 9,76,542.",
+      "source": "worksheet WAP-5 Q1a",
+      "id": "q92"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Forming the Greatest and Smallest Numbers",
+      "question": "Using each of the digits 6, 9, 4, 2, 7, 5 once, what is the greatest number with 7 in the tens place?",
+      "options": [
+        "9,65,427",
+        "9,76,542",
+        "9,64,572",
+        "9,65,472"
+      ],
+      "answer": 3,
+      "explanation": "Fix 7 in the tens place. Fill the other places with the remaining digits 9, 6, 5, 4, 2 in descending order from the left: 9, 6, 5, 4, then 7, then 2 = 9,65,472.",
+      "source": "worksheet WAP-5 Q1c",
+      "id": "q93"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Forming the Greatest and Smallest Numbers",
+      "question": "Which is the largest 6-digit number formed using different digits with 3 in the thousands place?",
+      "options": [
+        "9,83,765",
+        "9,87,653",
+        "9,83,756",
+        "9,83,675"
+      ],
+      "answer": 0,
+      "explanation": "Put 3 in the thousands place. Then use the largest remaining digits from the left: 9 lakhs, 8 ten thousands, then 3, then 7 hundreds, 6 tens, 5 ones = 9,83,765.",
+      "source": "worksheet WAP-5 Q2",
+      "id": "q94"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Forming the Greatest and Smallest Numbers",
+      "question": "What is the smallest 7-digit number that can be formed using the digits 2, 3 and 0, where each digit is used at least once?",
+      "options": [
+        "20,00,023",
+        "20,00,003",
+        "20,00,030",
+        "23,00,000"
+      ],
+      "answer": 1,
+      "explanation": "A number cannot start with 0, so 2 is the first digit. Then use as many zeros as possible, and put the 3 in the ones place: 2000003 = 20,00,003.",
+      "source": "worksheet WAP-5 Q3",
+      "id": "q95"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Forming the Greatest and Smallest Numbers",
+      "question": "What is the smallest 7-digit number using the digits 9, 8, 0, 1, 4, 5 and 6 without repeating any digit?",
+      "options": [
+        "10,45,698",
+        "14,05,689",
+        "10,45,689",
+        "10,54,689"
+      ],
+      "answer": 2,
+      "explanation": "Ascending order of the digits is 0, 1, 4, 5, 6, 8, 9. Zero cannot be first (that would make a 6-digit number), so 1 goes first and 0 second: 10,45,689.",
+      "source": "book:page38",
+      "id": "q96"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Forming the Greatest and Smallest Numbers",
+      "question": "Form the smallest 5-digit number using each of the digits 1, 7, 2, 8, 0 only once.",
+      "options": [
+        "10,287",
+        "12,078",
+        "10,728",
+        "10,278"
+      ],
+      "answer": 3,
+      "explanation": "Ascending digits: 0, 1, 2, 7, 8. Zero cannot be the first digit, so the smallest digit 1 goes first, then 0, then 2, 7, 8 = 10,278.",
+      "source": "worksheet MMJ-3 Q3b",
+      "id": "q97"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Forming the Greatest and Smallest Numbers",
+      "question": "Statement (I): To form the smallest 5-digit number using 2, 0, 9, 6, 8 without repetition, the zero must be the second digit from the left. Statement (II): If zero is placed in the first position from the left, it would reduce the number to a four-digit number. Select the correct option.",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 0,
+      "explanation": "Zero first would give 02,689, which is really 2,689, a 4-digit number, so (II) is true. The smallest 5-digit number is 20,689, with zero in the second place, so (I) is true too.",
+      "source": "worksheet MMJ-3 Q7",
+      "id": "q98"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Forming the Greatest and Smallest Numbers",
+      "question": "What is the smallest 5-digit number that can be formed using the digits 2, 0, 9, 6, 8 without repetition?",
+      "options": [
+        "20,689",
+        "20,698",
+        "26,089",
+        "20,869"
+      ],
+      "answer": 0,
+      "explanation": "Sort the digits: 0, 2, 6, 8, 9. Zero cannot lead, so 2 goes first, then 0, then the rest in ascending order: 20,689.",
+      "source": "worksheet MMJ-3 Q7",
+      "id": "q99"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Forming the Greatest and Smallest Numbers",
+      "question": "To form the smallest number from a set of digits that includes zero, zero should be the first digit from the left.",
+      "answer": false,
+      "explanation": "Zero at the front just disappears and the number loses a digit. The rule is: zero should be the SECOND digit from the left, after the smallest non-zero digit.",
+      "source": "book:page38",
+      "id": "q100"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Forming the Greatest and Smallest Numbers",
+      "question": "To form the greatest number from a set of digits, where should the greatest digit be placed?",
+      "options": [
+        "In the rightmost place",
+        "In the leftmost place",
+        "In the hundreds place",
+        "In the ones place"
+      ],
+      "answer": 1,
+      "explanation": "The leftmost place has the greatest place value, so putting the greatest digit there makes the number as large as possible. For 5, 9, 4, 6, 3, 2 this gives 9,65,432.",
+      "source": "book:page38",
+      "id": "q101"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rounding and Estimation",
+      "question": "Round 1,582 to the nearest ten.",
+      "options": [
+        "1,590",
+        "1,600",
+        "1,580",
+        "1,500"
+      ],
+      "answer": 2,
+      "explanation": "Look at the ones digit: 2 is less than 5, so round down to the same ten. 1,582 rounds to 1,580.",
+      "source": "worksheet WAP-6 Q1a",
+      "id": "q102"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rounding and Estimation",
+      "question": "Round 305 to the nearest ten.",
+      "options": [
+        "300",
+        "305",
+        "400",
+        "310"
+      ],
+      "answer": 3,
+      "explanation": "The ones digit is 5, the halfway number, and halfway always rounds UP. So 305 rounds to 310 (but to the nearest hundred it is 300).",
+      "source": "worksheet WAP-6 Q1f",
+      "id": "q103"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rounding and Estimation",
+      "question": "9,396 spectators attended a tournament. Ria rounded the number to the nearest ten and Arjun to the nearest hundred. Whose estimate is closer?",
+      "options": [
+        "Both are equal: 9,400",
+        "Ria's: 9,390 is closer",
+        "Arjun's: 9,300 is closer",
+        "Ria's: 9,410 is closer"
+      ],
+      "answer": 0,
+      "explanation": "Nearest ten: ones digit 6 rounds up, 9,390 + 10 = 9,400. Nearest hundred: tens digit 9 rounds up to 9,400. Both estimates are 9,400, so they are equally close.",
+      "source": "worksheet WAP-6 Q2",
+      "id": "q104"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rounding and Estimation",
+      "question": "9,339 people took a vaccine. Which estimate is closer to the actual number?",
+      "options": [
+        "9,300 (nearest hundred)",
+        "9,340 (nearest ten)",
+        "9,400 (nearest hundred)",
+        "9,330 (nearest ten)"
+      ],
+      "answer": 1,
+      "explanation": "Nearest ten is 9,340 (only 1 away) and nearest hundred is 9,300 (39 away). The nearest-ten estimate 9,340 is closer.",
+      "source": "worksheet MMJ-3 Q4",
+      "id": "q105"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rounding and Estimation",
+      "question": "Round 9,115 to the nearest ten.",
+      "options": [
+        "9,110",
+        "9,100",
+        "9,120",
+        "9,200"
+      ],
+      "answer": 2,
+      "explanation": "The ones digit is 5, which is the halfway number, so we round up: 9,115 becomes 9,120. To the nearest hundred it would be 9,100.",
+      "source": "worksheet MMJ-3 Q5",
+      "id": "q106"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rounding and Estimation",
+      "question": "On the number line from 120 to 130, where does the halfway number 125 round to?",
+      "options": [
+        "120",
+        "125",
+        "100",
+        "130"
+      ],
+      "answer": 3,
+      "explanation": "121 to 124 round down to 120, 126 to 129 round up to 130, and the halfway number 125 also rounds up to 130.",
+      "source": "book:page39",
+      "id": "q107"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rounding and Estimation",
+      "question": "Round 4,555 to the nearest hundred.",
+      "options": [
+        "4,600",
+        "4,500",
+        "4,550",
+        "4,560"
+      ],
+      "answer": 0,
+      "explanation": "Look at the tens digit: it is 5, so round up to the next hundred. 4,555 rounds to 4,600.",
+      "source": "book:page40",
+      "id": "q108"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Rounding and Estimation",
+      "question": "When rounding to the nearest ten, we look at the digit in the hundreds place.",
+      "answer": false,
+      "explanation": "To round to the nearest ten we look at the ONES digit (0-4 round down, 5-9 round up). The tens digit is used when rounding to the nearest hundred.",
+      "source": "book:page40",
+      "id": "q109"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Rounding and Estimation",
+      "question": "Select ALL the numbers for which 8,000 is a good estimate when rounding to the nearest hundred.",
+      "options": [
+        "7,995",
+        "8,020",
+        "8,090",
+        "7,940"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "7,995 rounds to 8,000 and 8,020 rounds to 8,000. But 8,090 rounds to 8,100 (tens digit 9) and 7,940 rounds to 7,900 (tens digit 4).",
+      "source": "worksheet MMJ-3 Q2",
+      "id": "q110"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Rounding and Estimation",
+      "question": "If a crowd is described as 'about 20,000', the actual number must be exactly 20,000.",
+      "answer": false,
+      "explanation": "'About 20,000' is an estimate. The book says it could be 19,800, 19,999, 20,011 or 20,101 - any number close to 20,000.",
+      "source": "book:page39",
+      "id": "q111"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rounding and Estimation",
+      "question": "1,432 candidates appeared for an exam. Ria rounded to the nearest hundred and also to the nearest ten. Which estimate is closer?",
+      "options": [
+        "1,400, the nearest hundred",
+        "1,430, the nearest ten",
+        "1,500, the nearest hundred",
+        "1,440, the nearest ten"
+      ],
+      "answer": 1,
+      "explanation": "Nearest ten: ones digit 2 rounds down to 1,430 (2 away). Nearest hundred: tens digit 3 rounds down to 1,400 (32 away). 1,430 is closer.",
+      "source": "book:page44 Q9",
+      "id": "q112"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Number Systems Through History",
+      "question": "How many symbols does the Hindu-Arabic numeral system use?",
+      "options": [
+        "7",
+        "9",
+        "10",
+        "20"
+      ],
+      "answer": 2,
+      "explanation": "The Hindu-Arabic system uses the ten symbols 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. The Roman system uses seven basic symbols.",
+      "source": "book:page45",
+      "id": "q113"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Number Systems Through History",
+      "question": "Which Indian mathematician is credited with formalizing the use of zero around the 7th century?",
+      "options": [
+        "Aryabhata",
+        "Ramanujan",
+        "Bhaskaracharya",
+        "Brahmagupta"
+      ],
+      "answer": 3,
+      "explanation": "Brahmagupta formalised the mathematical rules of zero. Aryabhata's earlier work laid much of the groundwork, but the book credits Brahmagupta with formalizing it.",
+      "source": "book:page45",
+      "id": "q114"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Number Systems Through History",
+      "question": "Which two number systems did NOT have a placeholder for zero, making complex calculations difficult?",
+      "options": [
+        "Egyptian and Roman",
+        "Hindu-Arabic and Mayan",
+        "Mayan and Roman",
+        "Egyptian and Hindu-Arabic"
+      ],
+      "answer": 0,
+      "explanation": "The book says the Egyptian and Roman systems had no placeholder for zero. The Mayans used a shell symbol for zero, and the Hindu-Arabic system has the digit 0.",
+      "source": "book:page44",
+      "id": "q115"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Number Systems Through History",
+      "question": "In the Mayan Number System, which symbol stands for zero?",
+      "options": [
+        "Dot",
+        "Shell",
+        "Bar",
+        "Stroke"
+      ],
+      "answer": 1,
+      "explanation": "The Mayans used a shell for 0, a dot for 1 and a bar for 5. A single stroke is the Egyptian symbol for 1.",
+      "source": "book:page44",
+      "id": "q116"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Number Systems Through History",
+      "question": "In cricket, a batsman who scores zero is said to be out for a 'duck'.",
+      "answer": true,
+      "explanation": "The word 'duck' comes from the egg-like shape of 0. Tennis and badminton use 'love' for zero, possibly from the French 'l'oeuf' meaning egg.",
+      "source": "book:page45",
+      "id": "q117"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Number Systems Through History",
+      "question": "In the Roman Number System, which number does the symbol D represent?",
+      "options": [
+        "1,000",
+        "100",
+        "500",
+        "50"
+      ],
+      "answer": 2,
+      "explanation": "The seven Roman symbols I, V, X, L, C, D and M stand for 1, 5, 10, 50, 100, 500 and 1,000. So D = 500.",
+      "source": "book:page44",
+      "id": "q118"
+    }
+  ]
+}

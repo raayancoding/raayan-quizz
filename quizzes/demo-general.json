@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "demo-general",
+  "title": "Demo Quiz",
+  "subject": "A Demo",
+  "description": "A tiny sample quiz showing single-choice, true/false and multi-select questions.",
+  "tags": ["demo"],
+  "defaultTimeLimitSec": 0,
+  "questions": [
+    {
+      "id": "d1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Space",
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+      "answer": 1,
+      "explanation": "Mars appears red because its surface is covered in iron-oxide (rust). Venus is cloudy-yellow, Jupiter and Saturn are gas giants.",
+      "source": "demo"
+    },
+    {
+      "id": "d2",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Space",
+      "question": "The Sun is a star.",
+      "answer": true,
+      "explanation": "The Sun is the star at the centre of our solar system; planets orbit around it."
+    },
+    {
+      "id": "d3",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Numbers",
+      "question": "Select all the even numbers.",
+      "options": ["3", "4", "7", "10"],
+      "answer": [1, 3],
+      "explanation": "Even numbers are divisible by 2. 4 and 10 are even; 3 and 7 are odd."
+    },
+    {
+      "id": "d4",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Matter",
+      "question": "Which of these is a solid?",
+      "options": ["Water", "Pencil", "Air", "Steam"],
+      "answer": 1,
+      "explanation": "A pencil has a fixed shape and volume, so it is a solid."
+    },
+    {
+      "id": "d5",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Matter",
+      "question": "Gases have a fixed volume.",
+      "answer": false,
+      "explanation": "Gases have neither a fixed shape nor a fixed volume — they fill their container."
+    }
+  ]
+}

@@ -1,0 +1,3491 @@
+{
+  "schemaVersion": 1,
+  "id": "ict-ch11-text-adventures-the-world-of-word-processing",
+  "title": "Text Adventures - The World of Word Processing",
+  "subject": "ICT",
+  "grade": 4,
+  "chapter": "11. Text Adventures - The World of Word Processing",
+  "topic": "Full Book",
+  "description": "A comprehensive review of word processing concepts from Text Adventures - The World of Word Processing, covering Microsoft Word and Google Docs basics, creating and saving documents, text formatting (bold/italic/underline), fonts and sizes, alignment, lists, pictures, tables, spelling and grammar checks, find and replace, page formatting, and the history of writing tools from ancient manuscripts to the cloud era.",
+  "tags": [
+    "ict",
+    "grade4",
+    "word-processing",
+    "microsoft-word",
+    "google-docs",
+    "text-formatting",
+    "fonts",
+    "text-alignment",
+    "tables",
+    "spell-check",
+    "find-and-replace",
+    "page-formatting",
+    "history-of-writing",
+    "indian-writing-heritage"
+  ],
+  "defaultTimeLimitSec": 1800,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Introduction to Word Processing",
+      "question": "What is word processing, according to the chapter?",
+      "answer": 0,
+      "explanation": "Word processing is defined in the worksheet as using a computer programme to create, edit, save, and print text documents.",
+      "source": "worksheet-L1 Q1a",
+      "options": [
+        "Using a computer programme to create, edit, save, and print text documents",
+        "Using a typewriter to type letters",
+        "Drawing pictures on a computer",
+        "Sending emails only"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Introduction to Word Processing",
+      "question": "Microsoft Word's icon is usually shown as a:",
+      "answer": 0,
+      "explanation": "The chapter describes Microsoft Word as having a blue \"W\" icon.",
+      "source": "worksheet-L1 Q1b",
+      "options": [
+        "Blue \"W\"",
+        "Red \"M\"",
+        "Green \"G\"",
+        "Orange \"O\""
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Introduction to Word Processing",
+      "question": "Google Docs can only be accessed when you're connected to the internet.",
+      "answer": true,
+      "explanation": "Since Google Docs works through the internet in a browser, you need an internet connection to access it, as stated in the worksheet's true/false answer key.",
+      "source": "worksheet-L1 Q2c"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Introduction to Word Processing",
+      "question": "Which of these is a word processing program named in the chapter besides Microsoft Word and Google Docs?",
+      "answer": 0,
+      "explanation": "The chapter lists WordPad (and LibreOffice Writer) as other common word processing programs.",
+      "source": "book:page10",
+      "options": [
+        "WordPad",
+        "Paint",
+        "Excel",
+        "PowerPoint"
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Introduction to Word Processing",
+      "question": "Which of these is NOT an advantage of word processing over handwriting, according to the chapter?",
+      "answer": 3,
+      "explanation": "Word processing requires a computer and electricity to work, so \"requires no electricity\" is false — it is actually a limitation of word processing, not an advantage.",
+      "source": "worksheet-L2 Q1b",
+      "options": [
+        "You can move sentences around without rewriting",
+        "You can save your work digitally",
+        "You can add pictures easily",
+        "It requires no electricity to operate"
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Introduction to Word Processing",
+      "question": "One key benefit of word processing over handwriting is that you can:",
+      "answer": 0,
+      "explanation": "The worksheet answer key confirms word processing is better than handwriting because you can fix mistakes easily without erasing.",
+      "source": "worksheet-L1 Q2a",
+      "options": [
+        "Fix mistakes easily without erasing",
+        "Only write with a pen",
+        "Never save your work",
+        "Not add any pictures"
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Introduction to Word Processing",
+      "question": "Which of the following are word processing programs mentioned in the chapter? (Select all that apply)",
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "The chapter names Microsoft Word, Google Docs, WordPad, and LibreOffice Writer as word processing programs. Photoshop (image editing) and Excel (spreadsheets) are different types of software.",
+      "source": "book:page10",
+      "options": [
+        "Microsoft Word",
+        "Google Docs",
+        "WordPad",
+        "LibreOffice Writer",
+        "Photoshop",
+        "Excel"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Introduction to Word Processing",
+      "question": "Google Docs stores your documents:",
+      "answer": 0,
+      "explanation": "Google Docs works through the internet, saving documents online so they can be reached from any connected device.",
+      "source": "book:page9",
+      "options": [
+        "Online, so you can access them from any device",
+        "Only on one computer's hard drive",
+        "On a floppy disk",
+        "On a printed page"
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Introduction to Word Processing",
+      "question": "Because Google Docs works in a web browser, you never need an internet connection to open or edit your documents.",
+      "answer": false,
+      "explanation": "This is the opposite of what the chapter states: the worksheet confirms you can ONLY access Google Docs when connected to the internet, since it is a browser/online-based program.",
+      "source": "worksheet-L1 Q2c"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Introduction to Word Processing",
+      "question": "According to the chapter's \"Trail Treasure\" fact, an early word processing machine released in 1964 was called:",
+      "answer": 0,
+      "explanation": "The chapter's Trail Treasure box notes the IBM MT/ST (1964) as an early word processing machine.",
+      "source": "book:page8",
+      "options": [
+        "The IBM MT/ST",
+        "The Apple Macintosh",
+        "The Google Docs Editor",
+        "Word 2016"
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Introduction to Word Processing",
+      "question": "Which of these can you do easily with a word processor that is hard to do with handwriting?",
+      "answer": 0,
+      "explanation": "The chapter lists moving sentences around without rewriting as a real advantage of word processing over handwriting.",
+      "source": "worksheet-L2 Q1b",
+      "options": [
+        "Move sentences around without rewriting everything",
+        "Draw with a pencil",
+        "Use scissors to cut paper",
+        "Write on a chalkboard"
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Introduction to Word Processing",
+      "question": "A student says, \"Word processing is basically the same as typing on an old-fashioned typewriter.\" What is the BEST reason this is a misconception, based on the chapter?",
+      "answer": 0,
+      "explanation": "The chapter's Typewriter Era passage explains that correcting mistakes on a typewriter meant messy correction fluid or retyping entire pages — word processors solve this by allowing easy digital editing.",
+      "source": "book:page23",
+      "options": [
+        "Word processors let you easily edit, save, and reprint documents without retyping everything, unlike typewriters",
+        "Typewriters are much faster than word processors",
+        "Typewriters can save documents digitally too",
+        "Word processors cannot be used to print anything"
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Introduction to Word Processing",
+      "question": "Sharing your work instantly with friends and teachers using just a link is a feature especially associated with:",
+      "answer": 0,
+      "explanation": "The chapter highlights that Google Docs lets you share documents with friends and teachers easily online.",
+      "source": "book:page9",
+      "options": [
+        "Google Docs",
+        "A typewriter",
+        "A printed newsletter",
+        "A blackboard"
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Introduction to Word Processing",
+      "question": "Besides Microsoft Word and Google Docs, which other program is named in the chapter as a word processing tool?",
+      "answer": 0,
+      "explanation": "The chapter mentions LibreOffice Writer alongside WordPad as other common word processing programs.",
+      "source": "book:page10",
+      "options": [
+        "LibreOffice Writer",
+        "Notepad only",
+        "Adobe Photoshop",
+        "Windows Media Player"
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Writing Tools and Word Processors",
+      "question": "In the chapter's Mystery Tool Challenge, which writing tool is the OLDEST, shown first in the correct order?",
+      "answer": 0,
+      "explanation": "The Mystery Tool Challenge orders the tools from oldest to newest as: quill/feather pen, typewriter, old desktop computer, tablet.",
+      "source": "book:page7",
+      "options": [
+        "A quill/feather pen",
+        "A typewriter",
+        "An old desktop computer",
+        "A tablet"
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Writing Tools and Word Processors",
+      "question": "In the chapter's Mystery Tool Challenge, which writing tool is the NEWEST, shown last in the correct order?",
+      "answer": 0,
+      "explanation": "The correct oldest-to-newest order ends with the tablet as the most modern writing tool shown.",
+      "source": "book:page7",
+      "options": [
+        "A tablet",
+        "A quill/feather pen",
+        "A typewriter",
+        "An old desktop computer"
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "History of Writing Tools and Word Processors",
+      "question": "In the Mystery Tool Challenge's order of writing tools, which tool comes right AFTER the typewriter but BEFORE the tablet?",
+      "answer": 0,
+      "explanation": "The chapter's order is: quill/feather pen -> typewriter -> old desktop computer -> tablet.",
+      "source": "book:page7",
+      "options": [
+        "An old desktop computer",
+        "A quill/feather pen",
+        "A stone tablet",
+        "A printing press"
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Writing Tools and Word Processors",
+      "question": "Around 3000 BCE, ancient writers carved symbols into:",
+      "answer": 0,
+      "explanation": "The chapter's Trail Treasure history explains that in Ancient Times (around 3000 BCE), writers carved symbols into clay tablets or stone.",
+      "source": "book:page22",
+      "options": [
+        "Clay tablets or stone",
+        "Paper",
+        "Plastic sheets",
+        "Whiteboards"
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "History of Writing Tools and Word Processors",
+      "question": "Making a change to writing on an ancient clay tablet usually meant:",
+      "answer": 0,
+      "explanation": "Since clay tablets couldn't be edited like digital text, making changes meant starting over with a new tablet.",
+      "source": "book:page22",
+      "options": [
+        "Starting over with a brand new tablet",
+        "Simply erasing with a rubber",
+        "Clicking undo",
+        "Pressing backspace"
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Writing Tools and Word Processors",
+      "question": "According to the chapter, paper was invented in:",
+      "answer": 0,
+      "explanation": "The Paper Revolution passage states paper was invented in China around 100 CE, making writing more portable.",
+      "source": "book:page22",
+      "options": [
+        "China (around 100 CE)",
+        "India (around 3000 BCE)",
+        "Europe (around 1440s)",
+        "America (around 1960s)"
+      ]
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Writing Tools and Word Processors",
+      "question": "During the Paper Revolution, writers commonly used:",
+      "answer": 0,
+      "explanation": "The chapter describes writers using brushes, quills, and reed pens dipped in ink during the Paper Revolution era.",
+      "source": "book:page22",
+      "options": [
+        "Brushes, quills, and reed pens dipped in ink",
+        "Laptops",
+        "Typewriter keys",
+        "Digital styluses"
+      ]
+    },
+    {
+      "id": "q22",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "History of Writing Tools and Word Processors",
+      "question": "Correcting a mistake was easy during the Paper Revolution era.",
+      "answer": false,
+      "explanation": "The chapter states that mistakes were difficult to correct once written with ink on paper during this era.",
+      "source": "book:page22"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Writing Tools and Word Processors",
+      "question": "The printing press, which allowed multiple copies of texts to be produced, was invented by:",
+      "answer": 0,
+      "explanation": "The chapter credits Johannes Gutenberg with inventing the printing press in the 1440s.",
+      "source": "book:page22",
+      "options": [
+        "Johannes Gutenberg",
+        "Douglas Engelbart",
+        "Bill Gates",
+        "Steve Jobs"
+      ]
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "History of Writing Tools and Word Processors",
+      "question": "What was a major drawback of making changes to text using a Gutenberg-era printing press?",
+      "answer": 0,
+      "explanation": "The chapter explains that changes with a printing press required resetting heavy metal type blocks — a slow, labor-intensive process compared to modern editing.",
+      "source": "book:page22",
+      "options": [
+        "It required resetting heavy metal type blocks",
+        "It automatically saved every version",
+        "It needed an internet connection",
+        "It used a red squiggly line to flag errors"
+      ]
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Writing Tools and Word Processors",
+      "question": "The Typewriter Era described in the chapter roughly spans:",
+      "answer": 0,
+      "explanation": "The chapter's history box labels the Typewriter Era as 1870s-1960s.",
+      "source": "book:page23",
+      "options": [
+        "1870s-1960s",
+        "1440s-1600s",
+        "1960s-1970s",
+        "2000s-present"
+      ]
+    },
+    {
+      "id": "q26",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "History of Writing Tools and Word Processors",
+      "question": "Typewriters made typing faster than handwriting.",
+      "answer": true,
+      "explanation": "The chapter states that with mechanical typewriters, typing was faster than handwriting, though correcting errors was still difficult.",
+      "source": "book:page23"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "History of Writing Tools and Word Processors",
+      "question": "Correcting mistakes on a mechanical typewriter typically meant:",
+      "answer": 0,
+      "explanation": "The chapter notes that fixing typewriter mistakes required messy correction fluid or retyping whole pages — unlike modern word processors.",
+      "source": "book:page23",
+      "options": [
+        "Using messy correction fluid or retyping entire pages",
+        "Pressing Ctrl+Z",
+        "Right-clicking the error",
+        "Clicking Undo"
+      ]
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Writing Tools and Word Processors",
+      "question": "The first electronic word processors (1960s-1970s) were:",
+      "answer": 0,
+      "explanation": "The chapter describes Early Word Processors (1960s-1970s) as dedicated machines, not yet full computers, that could store and edit text before printing.",
+      "source": "book:page23",
+      "options": [
+        "Dedicated machines (not yet full computers) that could store text and allow editing before printing",
+        "Smartphones",
+        "Handwritten notebooks",
+        "Printing presses"
+      ]
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Writing Tools and Word Processors",
+      "question": "Software that brought word processing to home computers in the Personal Computer Revolution (1980s) included:",
+      "answer": 0,
+      "explanation": "The chapter states that software like WordPerfect and Microsoft Word brought word processing to home computers in the 1980s.",
+      "source": "book:page23",
+      "options": [
+        "WordPerfect and Microsoft Word",
+        "Google Docs and Gmail",
+        "Photoshop and Illustrator",
+        "Instagram and TikTok"
+      ]
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Writing Tools and Word Processors",
+      "question": "Programs like Google Docs, which store documents online and allow real-time collaboration, belong to which era named in the chapter?",
+      "answer": 0,
+      "explanation": "The chapter names the Cloud Revolution (2000s-present) as the era of programs like Google Docs that store documents online.",
+      "source": "book:page23",
+      "options": [
+        "The Cloud Revolution (2000s-present)",
+        "The Typewriter Era",
+        "Ancient Times",
+        "The Paper Revolution"
+      ]
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "History of Writing Tools and Word Processors",
+      "question": "What is a main advantage of Cloud Revolution programs like Google Docs, per the chapter?",
+      "answer": 0,
+      "explanation": "The chapter highlights that Cloud Revolution programs allow access from any device and real-time collaboration with others.",
+      "source": "book:page23",
+      "options": [
+        "Access from any device with real-time collaboration",
+        "They never need saving",
+        "They work without any internet ever",
+        "They require metal type blocks"
+      ]
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "History of Writing Tools and Word Processors",
+      "question": "According to the chapter's Trail Treasure fact, the year associated with the IBM MT/ST, an early word processor, is:",
+      "answer": 0,
+      "explanation": "The chapter's Trail Treasure box associates the IBM MT/ST word processing machine with 1964.",
+      "source": "book:page8",
+      "options": [
+        "1964",
+        "1876",
+        "1440",
+        "2007"
+      ]
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "History of Writing Tools and Word Processors",
+      "question": "Douglas Engelbart is credited in the chapter with inventing:",
+      "answer": 0,
+      "explanation": "The chapter's Trail Treasure fact credits Douglas Engelbart with inventing the first computer mouse in 1964, which early word processors were among the first programs to use.",
+      "source": "book:page20",
+      "options": [
+        "The first computer mouse (1964)",
+        "The first typewriter",
+        "The printing press",
+        "The first word processing software"
+      ]
+    },
+    {
+      "id": "q34",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "History of Writing Tools and Word Processors",
+      "question": "Which of these eras or inventions are part of the chapter's history of writing tools? (Select all that apply)",
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "The chapter's history traces clay tablets, paper/ink pens, the printing press, and typewriters as stages before modern word processors. Smartphone cameras are not part of this history.",
+      "source": "book:page22,23",
+      "options": [
+        "Clay tablets and stone carving",
+        "Paper and ink pens",
+        "The printing press",
+        "Mechanical typewriters",
+        "Smartphone selfie cameras"
+      ]
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "India's Writing Heritage",
+      "question": "Ancient Indian manuscripts written on palm leaves are called:",
+      "answer": 0,
+      "explanation": "The Heritage Route box names ancient Indian palm-leaf manuscripts \"taalapatra.\"",
+      "source": "book:page23",
+      "options": [
+        "Taalapatra",
+        "Papyrus",
+        "Codex",
+        "Parchment"
+      ]
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "India's Writing Heritage",
+      "question": "What tool did scribes use to engrave letters onto palm leaves?",
+      "answer": 0,
+      "explanation": "The chapter explains that scribes wrote on palm leaves using a pointed stylus.",
+      "source": "book:page23",
+      "options": [
+        "A pointed stylus",
+        "A typewriter",
+        "A printing press",
+        "A computer mouse"
+      ]
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "India's Writing Heritage",
+      "question": "What did scribes rub into the engraved letters on palm leaves to make the writing permanent?",
+      "answer": 0,
+      "explanation": "The chapter states scribes rubbed turmeric or lamp-black paste into the engraved letters to make them permanent.",
+      "source": "book:page23",
+      "options": [
+        "Turmeric or lamp-black paste",
+        "Correction fluid",
+        "Blue ink",
+        "Chalk dust"
+      ]
+    },
+    {
+      "id": "q38",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "India's Writing Heritage",
+      "question": "According to the chapter, which of these are real steps in making a palm-leaf manuscript book? (Select all that apply)",
+      "answer": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "explanation": "The chapter lists the five steps: Collect Palm Leaves, Dry and Smooth, Engrave with Stylus, Add Turmeric/Lamp-Black, and Bundle and Store. Printing presses are unrelated to this traditional Indian method.",
+      "source": "book:page23",
+      "options": [
+        "Collect Palm Leaves",
+        "Dry and Smooth",
+        "Engrave with Stylus",
+        "Add Turmeric/Lamp-Black",
+        "Bundle and Store",
+        "Print with a printing press"
+      ]
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "India's Writing Heritage",
+      "question": "What is the FIRST step in making a palm-leaf manuscript book, per the chapter?",
+      "answer": 0,
+      "explanation": "The chapter lists \"Collect Palm Leaves\" as step 1 in the palm-leaf book-making process.",
+      "source": "book:page23",
+      "options": [
+        "Collect Palm Leaves",
+        "Engrave with Stylus",
+        "Add Turmeric/Lamp-Black",
+        "Bundle and Store"
+      ]
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "India's Writing Heritage",
+      "question": "Some palm-leaf manuscripts, over a thousand years old, are still found today in temple libraries across:",
+      "answer": 0,
+      "explanation": "The chapter states these ancient manuscripts are still found in temple libraries across Kerala, Odisha, and Tamil Nadu.",
+      "source": "book:page23",
+      "options": [
+        "Kerala, Odisha, and Tamil Nadu",
+        "Punjab, Gujarat, and Goa",
+        "Assam, Bihar, and Delhi",
+        "Only in museums outside India"
+      ]
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "India's Writing Heritage",
+      "question": "Which ancient Indian university is said to have housed over nine million manuscripts?",
+      "answer": 0,
+      "explanation": "The Heritage Route box states Nalanda alone is said to have housed over nine million manuscripts.",
+      "source": "book:page23",
+      "options": [
+        "Nalanda",
+        "Takshashila",
+        "Oxford",
+        "Harvard"
+      ]
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "India's Writing Heritage",
+      "question": "Along with Nalanda, which other ancient Indian university with a vast library is named in the chapter?",
+      "answer": 0,
+      "explanation": "The chapter names both Nalanda and Takshashila as ancient universities with vast libraries.",
+      "source": "book:page23",
+      "options": [
+        "Takshashila",
+        "Cambridge",
+        "Al-Azhar",
+        "Yale"
+      ]
+    },
+    {
+      "id": "q43",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "India's Writing Heritage",
+      "question": "The chapter suggests that ancient Indian writing traditions have been completely lost and no manuscripts survive today.",
+      "answer": false,
+      "explanation": "This is false — the chapter explains that manuscripts still survive in temple libraries and that India's National Mission for Manuscripts works to digitise and protect what remains.",
+      "source": "book:page23"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "India's Writing Heritage",
+      "question": "India's National Mission for Manuscripts works to:",
+      "answer": 0,
+      "explanation": "The chapter states this mission works to digitise and protect what remains of India's ancient manuscripts.",
+      "source": "book:page23",
+      "options": [
+        "Digitise and protect remaining ancient manuscripts",
+        "Delete old manuscripts to save space",
+        "Only translate manuscripts into English",
+        "Convert manuscripts into printing press type"
+      ]
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "India's Writing Heritage",
+      "question": "According to the chapter, modern word processors support how many Indian scripts (approximately)?",
+      "answer": 0,
+      "explanation": "The chapter states word processors now support over 20 Indian scripts, including Devanagari, Tamil, Telugu, and Bengali.",
+      "source": "book:page23",
+      "options": [
+        "Over 20",
+        "Only 2",
+        "Exactly 5",
+        "None"
+      ]
+    },
+    {
+      "id": "q46",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "India's Writing Heritage",
+      "question": "Which Indian scripts are named in the chapter as supported by modern word processors? (Select all that apply)",
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "The chapter names Devanagari, Tamil, Telugu, and Bengali as examples of the more than 20 Indian scripts supported by modern word processors.",
+      "source": "book:page23",
+      "options": [
+        "Devanagari",
+        "Tamil",
+        "Telugu",
+        "Bengali",
+        "Latin only"
+      ]
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Creating and Saving Documents",
+      "question": "The Save icon in most word processors traditionally looks like a:",
+      "answer": 0,
+      "explanation": "The chapter shows the Save button icon as looking like a floppy disk.",
+      "source": "book:page10",
+      "options": [
+        "Floppy disk",
+        "Camera",
+        "Pencil",
+        "Printer"
+      ]
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Creating and Saving Documents",
+      "question": "What were floppy discs, as mentioned in the chapter?",
+      "answer": 0,
+      "explanation": "The chapter explains floppy discs were old storage devices, now replaced by pen drives and hard drives — even though the save icon still looks like one.",
+      "source": "book:page10",
+      "options": [
+        "Old storage devices used to save documents, since replaced by pen drives and hard drives",
+        "A type of font",
+        "A page orientation",
+        "A text alignment option"
+      ]
+    },
+    {
+      "id": "q49",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Creating and Saving Documents",
+      "question": "You must print your document before you can save it.",
+      "answer": false,
+      "explanation": "This is false. The Milestone true/false activity confirms you do NOT need to print before saving — saving and printing are separate actions.",
+      "source": "book:page30"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Creating and Saving Documents",
+      "question": "What blinking symbol shows you where your next typed character will appear?",
+      "answer": 0,
+      "explanation": "The chapter's glossary (Guidepost 1) defines the cursor as the blinking line showing where your next character will appear.",
+      "source": "book:page17",
+      "options": [
+        "The cursor",
+        "The margin",
+        "The footer",
+        "The ribbon"
+      ]
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Creating and Saving Documents",
+      "question": "When creating a new document, you typically start by:",
+      "answer": 0,
+      "explanation": "Creating a document begins with opening the word processing program and starting a new/blank document before typing.",
+      "source": "book:page10",
+      "options": [
+        "Opening your word processing program and choosing to start a blank/new document",
+        "Printing a blank page first",
+        "Turning off your computer",
+        "Deleting your old files"
+      ]
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Creating and Saving Documents",
+      "question": "Pressing which key creates a new paragraph while typing?",
+      "answer": 0,
+      "explanation": "The chapter's worksheet and Milestone activity both confirm pressing Enter starts a new paragraph.",
+      "source": "worksheet-L1 Q1c",
+      "options": [
+        "Enter",
+        "Shift",
+        "Tab",
+        "Ctrl"
+      ]
+    },
+    {
+      "id": "q53",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Creating and Saving Documents",
+      "question": "Saving a file and printing a file are the same action.",
+      "answer": false,
+      "explanation": "These are separate actions — you can save a document digitally at any time without ever printing it.",
+      "source": "book:page30"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Creating and Saving Documents",
+      "question": "Which keyboard shortcut is commonly used to save a document?",
+      "answer": 0,
+      "explanation": "Ctrl+S is listed in the chapter's Guidepost 1 glossary as the keyboard shortcut for Save.",
+      "source": "book:page17",
+      "options": [
+        "Ctrl+S",
+        "Ctrl+P",
+        "Ctrl+Z",
+        "Ctrl+B"
+      ]
+    },
+    {
+      "id": "q55",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Creating and Saving Documents",
+      "question": "Which of the following are true about saving documents, per the chapter? (Select all that apply)",
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Ctrl+S is a save shortcut, the save icon resembles a floppy disk, and saving stores your work digitally. You do NOT need to print before saving.",
+      "source": "book:page10,17,30",
+      "options": [
+        "Ctrl+S is a save shortcut",
+        "The save icon often looks like a floppy disk",
+        "You must print before saving",
+        "Saving stores your document digitally"
+      ]
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Creating and Saving Documents",
+      "question": "A classmate says, \"The floppy disk save icon means my computer still uses floppy disks.\" What is the best correction, based on the chapter?",
+      "answer": 0,
+      "explanation": "The chapter explains floppy discs were old storage devices, since replaced by pen drives and hard drives, even though the save icon tradition continues.",
+      "source": "book:page10",
+      "options": [
+        "It's just a symbol from history; floppy disks are old technology now typically replaced by pen drives and hard drives, but the icon is still used",
+        "Floppy disks are actually a brand-new invention",
+        "The icon means you must buy a floppy disk to save",
+        "Save icons never resemble old technology"
+      ]
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Creating and Saving Documents",
+      "question": "Which of these is a digital storage device mentioned that eventually replaced floppy discs?",
+      "answer": 0,
+      "explanation": "The chapter states floppy discs were old devices replaced by pen drives and hard drives.",
+      "source": "book:page10",
+      "options": [
+        "Pen drives and hard drives",
+        "Typewriters",
+        "Printing presses",
+        "Clay tablets"
+      ]
+    },
+    {
+      "id": "q58",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Creating and Saving Documents",
+      "question": "Pressing Enter while typing starts a new paragraph.",
+      "answer": true,
+      "explanation": "Confirmed by both the worksheet answer key and the Milestone true/false activity.",
+      "source": "worksheet-L1 Q1c"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Creating and Saving Documents",
+      "question": "According to the chapter, what should you generally do soon after starting to type a new document to avoid losing your work?",
+      "answer": 0,
+      "explanation": "Saving your document (via Ctrl+S or the save button) protects your work from being lost, as emphasized throughout the Creating and Saving Documents section.",
+      "source": "book:page10,11",
+      "options": [
+        "Save it (using Ctrl+S or the save icon)",
+        "Print it immediately",
+        "Close the program",
+        "Delete the file"
+      ]
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Creating and Saving Documents",
+      "question": "Which of these best describes what happens when you click the Save button?",
+      "answer": 0,
+      "explanation": "Saving stores your document (digitally) so it can be reopened and accessed later, unlike printing which produces a paper copy.",
+      "source": "book:page10,11",
+      "options": [
+        "Your document is stored so you can access it later",
+        "Your document is permanently deleted",
+        "Your document is printed on paper",
+        "Your document's font changes automatically"
+      ]
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Eco-Friendly Digital Documents",
+      "question": "According to the chapter's EcoRoute box, about what percentage of industrial wood harvested worldwide is used for paper production?",
+      "answer": 0,
+      "explanation": "The EcoRoute box states paper production uses about 40% of all industrial wood harvested globally.",
+      "source": "book:page11",
+      "options": [
+        "About 40%",
+        "About 5%",
+        "About 90%",
+        "About 1%"
+      ]
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Eco-Friendly Digital Documents",
+      "question": "Which features of word processors help you collaborate with others WITHOUT printing or mailing paper copies?",
+      "answer": 0,
+      "explanation": "The EcoRoute box highlights Comments, Track Changes, and Sharing links as digital collaboration features that reduce the need for paper copies.",
+      "source": "book:page11",
+      "options": [
+        "Comments, Track Changes, and Sharing links",
+        "Bold and Italic",
+        "Page numbers and margins",
+        "Spell check only"
+      ]
+    },
+    {
+      "id": "q63",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Eco-Friendly Digital Documents",
+      "question": "Going fully digital with documents has zero environmental impact.",
+      "answer": false,
+      "explanation": "This is false — the chapter notes that data centres storing digital documents still consume electricity, so digital habits still carry an environmental cost.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Eco-Friendly Digital Documents",
+      "question": "To be a more responsible digital citizen, the chapter suggests you should:",
+      "answer": 0,
+      "explanation": "The EcoRoute box recommends deleting unneeded files and sharing links instead of large attachments as responsible digital habits.",
+      "source": "book:page11",
+      "options": [
+        "Delete unneeded files and share links instead of large attachments",
+        "Print every document twice",
+        "Never save your work",
+        "Avoid using Comments or Track Changes"
+      ]
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Eco-Friendly Digital Documents",
+      "question": "The chapter's \"Eco Challenge\" invites students to:",
+      "answer": 0,
+      "explanation": "The Eco Challenge asks students to complete assignments digitally for a week without printing, to reduce paper use.",
+      "source": "book:page11",
+      "options": [
+        "Complete assignments digitally for a week without printing",
+        "Print every assignment for a week",
+        "Delete all their old documents",
+        "Buy a new printer"
+      ]
+    },
+    {
+      "id": "q66",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Eco-Friendly Digital Documents",
+      "question": "Data centres that store digital documents use electricity.",
+      "answer": true,
+      "explanation": "The chapter's EcoRoute box notes data centres consume electricity, which is why digital habits still have an environmental cost.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q67",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Eco-Friendly Digital Documents",
+      "question": "Which of these are eco-friendly digital habits mentioned in the chapter? (Select all that apply)",
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Sharing links, deleting unneeded files, and using Track Changes/Comments are all eco-friendly habits from the chapter. Printing every draft goes against the chapter's advice to reduce paper use.",
+      "source": "book:page11",
+      "options": [
+        "Share a link instead of printing/mailing copies",
+        "Delete files you no longer need",
+        "Use Track Changes/Comments instead of printing multiple drafts",
+        "Print every draft to be extra safe"
+      ]
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Eco-Friendly Digital Documents",
+      "question": "Paper production is closely linked to heavy use of which natural resource?",
+      "answer": 0,
+      "explanation": "The EcoRoute box links paper production to industrial wood harvesting.",
+      "source": "book:page11",
+      "options": [
+        "Wood",
+        "Water only",
+        "Metal",
+        "Plastic"
+      ]
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Eco-Friendly Digital Documents",
+      "question": "A student thinks, \"Using Google Docs is always better for the planet than printing, no matter what.\" What is the more careful, balanced view suggested by the chapter's EcoRoute box?",
+      "answer": 0,
+      "explanation": "The EcoRoute box balances the paper-saving benefits of digital documents against the fact that data centres still use electricity, encouraging mindful digital habits.",
+      "source": "book:page11",
+      "options": [
+        "Both have environmental costs; digital storage/sharing still needs electricity, so still be mindful of your digital habits, not just avoid paper",
+        "Printing is always better for the environment than digital documents",
+        "Digital documents have absolutely no environmental cost at all",
+        "Only paper documents use any resources"
+      ]
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Eco-Friendly Digital Documents",
+      "question": "Which feature helps reduce the need for printing multiple paper drafts of a document?",
+      "answer": 0,
+      "explanation": "Track Changes lets collaborators review edits digitally instead of printing multiple paper drafts.",
+      "source": "book:page11",
+      "options": [
+        "Track Changes",
+        "Page numbers",
+        "Font size",
+        "Text alignment"
+      ]
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Eco-Friendly Digital Documents",
+      "question": "Sharing a link to a document instead of emailing a large attachment mainly helps by:",
+      "answer": 0,
+      "explanation": "The EcoRoute box recommends sharing links over large attachments as part of being a responsible digital citizen, reducing unnecessary duplicate storage.",
+      "source": "book:page11",
+      "options": [
+        "Reducing duplicate copies and encouraging more responsible digital habits",
+        "Making the document print faster",
+        "Changing the document's font automatically",
+        "Adding page numbers automatically"
+      ]
+    },
+    {
+      "id": "q72",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Eco-Friendly Digital Documents",
+      "question": "The chapter's Eco Challenge asks students to print MORE documents to practice formatting.",
+      "answer": false,
+      "explanation": "This is false — the Eco Challenge asks students to avoid printing for a week and complete assignments digitally instead.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Navigating and Editing Text",
+      "question": "Which key deletes text to the LEFT of the cursor?",
+      "answer": 0,
+      "explanation": "The chapter explains Backspace removes text to the left of the cursor, while Delete removes text to the right.",
+      "source": "book:page13",
+      "options": [
+        "Backspace",
+        "Delete",
+        "Home",
+        "End"
+      ]
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Navigating and Editing Text",
+      "question": "Which key deletes text to the RIGHT of the cursor?",
+      "answer": 0,
+      "explanation": "The Delete key removes text to the right of the cursor, unlike Backspace which removes text to the left.",
+      "source": "book:page13",
+      "options": [
+        "Delete",
+        "Backspace",
+        "Home",
+        "End"
+      ]
+    },
+    {
+      "id": "q75",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Navigating and Editing Text",
+      "question": "Backspace and Delete do exactly the same thing.",
+      "answer": false,
+      "explanation": "They are different: Backspace deletes text to the LEFT of the cursor, while Delete removes text to the RIGHT of the cursor.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Navigating and Editing Text",
+      "question": "Which key jumps the cursor to the BEGINNING of a line?",
+      "answer": 0,
+      "explanation": "The Home key jumps the cursor to the beginning of the current line.",
+      "source": "book:page13",
+      "options": [
+        "Home",
+        "End",
+        "Page Up",
+        "Page Down"
+      ]
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Navigating and Editing Text",
+      "question": "Which key jumps the cursor to the END of a line?",
+      "answer": 0,
+      "explanation": "The End key jumps the cursor to the end of the current line.",
+      "source": "book:page13",
+      "options": [
+        "End",
+        "Home",
+        "Page Up",
+        "Page Down"
+      ]
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Navigating and Editing Text",
+      "question": "The Page Up and Page Down keys are mainly useful for:",
+      "answer": 0,
+      "explanation": "The chapter explains Page Up/Page Down help you navigate longer documents by moving through screens of content.",
+      "source": "book:page13",
+      "options": [
+        "Navigating through longer documents quickly",
+        "Making text bold",
+        "Changing font size",
+        "Inserting pictures"
+      ]
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Navigating and Editing Text",
+      "question": "Which keys move the cursor around the document, up/down/left/right?",
+      "answer": 0,
+      "explanation": "Arrow Keys are listed in the chapter as the keys used to move the cursor.",
+      "source": "book:page13",
+      "options": [
+        "Arrow keys",
+        "Function keys",
+        "Number keys",
+        "Shift keys"
+      ]
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Navigating and Editing Text",
+      "question": "What does the Undo button icon typically look like in a word processor?",
+      "answer": 0,
+      "explanation": "The chapter's Cyber Station 1 activity notes the Undo button looks like a curved arrow.",
+      "source": "book:page13",
+      "options": [
+        "A curved arrow",
+        "A floppy disk",
+        "A pair of scissors",
+        "A magnifying glass"
+      ]
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Navigating and Editing Text",
+      "question": "Which keyboard shortcut reverses your last action?",
+      "answer": 0,
+      "explanation": "Ctrl+Z is confirmed in the chapter (and Guidepost 1) as the shortcut that reverses your last action.",
+      "source": "book:page13",
+      "options": [
+        "Ctrl+Z",
+        "Ctrl+S",
+        "Ctrl+B",
+        "Ctrl+P"
+      ]
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Navigating and Editing Text",
+      "question": "You're renaming a character throughout an entire story. What is the MOST efficient tool to use, per the chapter's Curiosity Cloud?",
+      "answer": 0,
+      "explanation": "The Curiosity Cloud explains Find and Replace is the most efficient way to change a character's name throughout an entire document.",
+      "source": "book:page13",
+      "options": [
+        "Find and Replace",
+        "Backspace, one letter at a time",
+        "Undo",
+        "Page Up/Down"
+      ]
+    },
+    {
+      "id": "q83",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Navigating and Editing Text",
+      "question": "Which of these are keyboard navigation keys mentioned in the chapter? (Select all that apply)",
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "The chapter names Home, End, Page Up/Down, and Arrow keys as navigation keys. F1 is not mentioned as a navigation key in this chapter.",
+      "source": "book:page13",
+      "options": [
+        "Home",
+        "End",
+        "Page Up/Page Down",
+        "Arrow keys",
+        "F1"
+      ]
+    },
+    {
+      "id": "q84",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Navigating and Editing Text",
+      "question": "Pressing Ctrl+Z undoes your last action.",
+      "answer": true,
+      "explanation": "Confirmed throughout the chapter — Ctrl+Z reverses the last action taken.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Navigating and Editing Text",
+      "question": "If you accidentally delete an important sentence while typing, the fastest fix per the chapter is to:",
+      "answer": 0,
+      "explanation": "Pressing Ctrl+Z immediately reverses the last action, such as an accidental deletion.",
+      "source": "book:page13",
+      "options": [
+        "Press Ctrl+Z to undo",
+        "Close the document without saving",
+        "Retype the entire document",
+        "Turn off the computer"
+      ]
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Navigating and Editing Text",
+      "question": "To move the cursor to the very end of a long line of text quickly, you would press:",
+      "answer": 0,
+      "explanation": "The End key jumps the cursor straight to the end of the current line.",
+      "source": "book:page13",
+      "options": [
+        "End",
+        "Home",
+        "Backspace",
+        "Delete"
+      ]
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bold, Italic and Underline Formatting",
+      "question": "Which shortcut makes text Bold?",
+      "answer": 0,
+      "explanation": "Ctrl+B is the standard keyboard shortcut for Bold, confirmed in the worksheet and Guidepost 1.",
+      "source": "worksheet-L2 Q1a",
+      "options": [
+        "Ctrl+B",
+        "Ctrl+I",
+        "Ctrl+U",
+        "Ctrl+S"
+      ]
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bold, Italic and Underline Formatting",
+      "question": "Which shortcut makes text Italic?",
+      "answer": 0,
+      "explanation": "Ctrl+I is the standard keyboard shortcut for Italic text.",
+      "source": "book:page14",
+      "options": [
+        "Ctrl+I",
+        "Ctrl+B",
+        "Ctrl+U",
+        "Ctrl+Z"
+      ]
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bold, Italic and Underline Formatting",
+      "question": "Which shortcut Underlines text?",
+      "answer": 0,
+      "explanation": "Ctrl+U is the standard keyboard shortcut for Underline, confirmed in the Milestone matching activity.",
+      "source": "book:page30",
+      "options": [
+        "Ctrl+U",
+        "Ctrl+B",
+        "Ctrl+I",
+        "Ctrl+F"
+      ]
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bold, Italic and Underline Formatting",
+      "question": "Bold text is best described as:",
+      "answer": 0,
+      "explanation": "The chapter and worksheet describe bold text as looking thicker and standing out.",
+      "source": "worksheet-L1 Q1d",
+      "options": [
+        "Thicker and stands out",
+        "Slanted to the side",
+        "Underlined with a line below",
+        "Written in a smaller font"
+      ]
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bold, Italic and Underline Formatting",
+      "question": "Italic text is best described as:",
+      "answer": 0,
+      "explanation": "The chapter describes italic text as appearing slanted to the side, created using Ctrl+I.",
+      "source": "book:page14",
+      "options": [
+        "Slanted to the side",
+        "Thicker and darker",
+        "Underlined",
+        "Written in all capital letters"
+      ]
+    },
+    {
+      "id": "q92",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Bold, Italic and Underline Formatting",
+      "question": "Bold, Italic, and Underline are just decorations with no real purpose in a document.",
+      "answer": false,
+      "explanation": "This is false. The chapter's Detour box explains Bold is used for emphasis/headings, Italic for titles/foreign words, and Underline traditionally for hyperlinks — each has a real purpose.",
+      "source": "book:page23"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Bold, Italic and Underline Formatting",
+      "question": "According to the chapter, Bold formatting is especially useful for:",
+      "answer": 0,
+      "explanation": "The chapter explains Bold is especially useful for emphasis and for headings.",
+      "source": "book:page23",
+      "options": [
+        "Emphasis and headings",
+        "Hiding text",
+        "Making links clickable",
+        "Foreign words only"
+      ]
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Bold, Italic and Underline Formatting",
+      "question": "Italic formatting is traditionally used for:",
+      "answer": 0,
+      "explanation": "The chapter's Detour box states italics are traditionally used for titles of books/films or foreign words.",
+      "source": "book:page23",
+      "options": [
+        "Titles of books/films, or foreign words",
+        "Hyperlinks",
+        "Page numbers",
+        "Table borders"
+      ]
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Bold, Italic and Underline Formatting",
+      "question": "Underline formatting is traditionally associated with:",
+      "answer": 0,
+      "explanation": "The chapter notes underline is traditionally used to indicate hyperlinks (clickable links).",
+      "source": "book:page23",
+      "options": [
+        "Hyperlinks (clickable links)",
+        "Headings",
+        "Bulleted lists",
+        "Page margins"
+      ]
+    },
+    {
+      "id": "q96",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Bold, Italic and Underline Formatting",
+      "question": "Which of these are real text formatting options mentioned in the chapter? (Select all that apply)",
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Bold, Italic, and Underline are all real formatting options in the chapter. \"Diagonal\" is not a real formatting option mentioned.",
+      "source": "book:page14",
+      "options": [
+        "Bold",
+        "Italic",
+        "Underline",
+        "Diagonal"
+      ]
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Bold, Italic and Underline Formatting",
+      "question": "A student underlines a whole paragraph \"just to make it look fancy.\" What is the best chapter-based advice?",
+      "answer": 0,
+      "explanation": "Since underline traditionally signals hyperlinks, overusing it for plain emphasis can be confusing — Bold or Italic are better suited for emphasis.",
+      "source": "book:page23",
+      "options": [
+        "Underline is traditionally used for links, so it's better to use Bold or Italic for emphasis, or use underline sparingly",
+        "Underlining everything always looks more professional",
+        "Underline should replace all other formatting",
+        "Underlining has no traditional meaning at all"
+      ]
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bold, Italic and Underline Formatting",
+      "question": "Which formatting makes text thicker and darker?",
+      "answer": 0,
+      "explanation": "Bold formatting makes text thicker and darker, as confirmed in the Milestone matching activity.",
+      "source": "book:page30",
+      "options": [
+        "Bold",
+        "Italic",
+        "Underline",
+        "Justified alignment"
+      ]
+    },
+    {
+      "id": "q99",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Bold, Italic and Underline Formatting",
+      "question": "Ctrl+I applies italic formatting.",
+      "answer": true,
+      "explanation": "Confirmed throughout the chapter — Ctrl+I is the shortcut for italic text.",
+      "source": "book:page14"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Bold, Italic and Underline Formatting",
+      "question": "In the Milestone matching activity, \"Bold\" is matched with which description?",
+      "answer": 0,
+      "explanation": "The Milestone matching activity pairs Bold with the description \"Makes text thicker and darker.\"",
+      "source": "book:page30",
+      "options": [
+        "Makes text thicker and darker",
+        "Positions text in the middle",
+        "Dots or symbols for listing items",
+        "Ctrl+U"
+      ]
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fonts and Text Size",
+      "question": "Which of these is a font type named in the chapter?",
+      "answer": 0,
+      "explanation": "Arial is one of the font types named in the chapter, alongside Times New Roman and Comic Sans.",
+      "source": "book:page15",
+      "options": [
+        "Arial",
+        "Bold",
+        "Underline",
+        "Margin"
+      ]
+    },
+    {
+      "id": "q102",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Fonts and Text Size",
+      "question": "Which of these are font types mentioned in the chapter? (Select all that apply)",
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Arial, Times New Roman, and Comic Sans are named as font types. Bold is a text formatting style, not a font type.",
+      "source": "book:page15",
+      "options": [
+        "Arial",
+        "Times New Roman",
+        "Comic Sans",
+        "Bold"
+      ]
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fonts and Text Size",
+      "question": "Larger text sizes are especially good for:",
+      "answer": 0,
+      "explanation": "The chapter explains that larger text is good for headings, helping them stand out from normal text.",
+      "source": "book:page15",
+      "options": [
+        "Headings",
+        "Footnotes",
+        "Table borders",
+        "Margins"
+      ]
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fonts and Text Size",
+      "question": "Normal body text in a document is usually around what size, per the chapter?",
+      "answer": 0,
+      "explanation": "The chapter states normal text is usually size 10-12, while headings use larger sizes.",
+      "source": "book:page15",
+      "options": [
+        "Size 10-12",
+        "Size 40-50",
+        "Size 2-4",
+        "Size 100"
+      ]
+    },
+    {
+      "id": "q105",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Fonts and Text Size",
+      "question": "Bold is a type of font, just like Arial or Comic Sans.",
+      "answer": false,
+      "explanation": "This is false. Bold is a text formatting style you apply to a font, not a font type itself. Arial and Comic Sans are actual font types.",
+      "source": "book:page14,15"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fonts and Text Size",
+      "question": "Choosing a different font mainly changes:",
+      "answer": 0,
+      "explanation": "A font is a named style of lettering, so changing fonts changes how the text visually looks.",
+      "source": "book:page15,17",
+      "options": [
+        "The style/look of the lettering",
+        "The page orientation",
+        "The document's file size only",
+        "The spelling of your words"
+      ]
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fonts and Text Size",
+      "question": "Which font, named in the chapter, might you choose for a fun, casual poster?",
+      "answer": 0,
+      "explanation": "Comic Sans is a font type mentioned in the chapter, often used for a fun or casual look.",
+      "source": "book:page15",
+      "options": [
+        "Comic Sans",
+        "Times New Roman",
+        "Arial only",
+        "Justified"
+      ]
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fonts and Text Size",
+      "question": "A classic, formal font often used in essays, named in the chapter, is:",
+      "answer": 0,
+      "explanation": "Times New Roman is named in the chapter's list of font types and is commonly associated with formal writing.",
+      "source": "book:page15",
+      "options": [
+        "Times New Roman",
+        "Comic Sans",
+        "Bold",
+        "Justified"
+      ]
+    },
+    {
+      "id": "q109",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Fonts and Text Size",
+      "question": "You can change the font size of text in a word processor.",
+      "answer": true,
+      "explanation": "Confirmed by the Milestone true/false activity — the false statement \"You cannot change the font size\" was corrected to say you CAN change it.",
+      "source": "book:page30"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Fonts and Text Size",
+      "question": "A student writes their whole essay in a huge, heading-sized font. Why might the chapter's guidance suggest this is not ideal for normal body text?",
+      "answer": 0,
+      "explanation": "The chapter distinguishes headings (larger text) from normal text (size 10-12), so using heading-sized text throughout an essay goes against this guidance.",
+      "source": "book:page15",
+      "options": [
+        "Larger sizes are meant mainly for headings; ordinary text is usually kept around size 10-12 for readability",
+        "Bigger fonts always save paper",
+        "Word processors do not allow changing font size for body text",
+        "Larger fonts automatically fix spelling errors"
+      ]
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fonts and Text Size",
+      "question": "In the chapter's Milestone fill-in-the-blank activity, which word bank term relates to slanted font formatting?",
+      "answer": 0,
+      "explanation": "The Milestone fill-in-the-blank word bank includes \"Italic\" to complete the sentence about slanted text.",
+      "source": "book:page30",
+      "options": [
+        "Italic",
+        "Cursor",
+        "Floppy disk",
+        "Spell"
+      ]
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fonts and Text Size",
+      "question": "What did Cyber Station 2 challenge students to try, regarding fonts and sizes?",
+      "answer": 0,
+      "explanation": "Cyber Station 2 in the chapter has students practice changing font size to 16, trying 3 different fonts, and combining bold and italic formatting.",
+      "source": "book:page15",
+      "options": [
+        "Changing font size to 16, testing 3 fonts, and combining bold + italic",
+        "Deleting all fonts from the document",
+        "Only using size 8 font",
+        "Removing the toolbar"
+      ]
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Text Alignment",
+      "question": "Which alignment lines text up at the left, and is the most common alignment?",
+      "answer": 0,
+      "explanation": "The chapter describes Left alignment as the most common, with text lining up at the left.",
+      "source": "book:page16",
+      "options": [
+        "Left alignment",
+        "Center alignment",
+        "Right alignment",
+        "Justified alignment"
+      ]
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Text Alignment",
+      "question": "Which alignment is especially good for titles?",
+      "answer": 0,
+      "explanation": "The chapter notes Center alignment is good for titles, positioning text in the middle.",
+      "source": "book:page16",
+      "options": [
+        "Center alignment",
+        "Left alignment",
+        "Right alignment",
+        "Justified alignment"
+      ]
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Text Alignment",
+      "question": "Which alignment lines text up at the right side of the page?",
+      "answer": 0,
+      "explanation": "Right alignment lines all text up at the right side of the page.",
+      "source": "book:page16",
+      "options": [
+        "Right alignment",
+        "Left alignment",
+        "Center alignment",
+        "Justified alignment"
+      ]
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Text Alignment",
+      "question": "Which alignment spreads text evenly between the left and right margins?",
+      "answer": 0,
+      "explanation": "The chapter explains Justified alignment spreads text evenly between the left and right margins.",
+      "source": "book:page17",
+      "options": [
+        "Justified alignment",
+        "Left alignment",
+        "Center alignment",
+        "Right alignment"
+      ]
+    },
+    {
+      "id": "q117",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Text Alignment",
+      "question": "Right alignment means all text lines up at the LEFT side of the page.",
+      "answer": false,
+      "explanation": "This is false — the worksheet answer key corrects this statement: Right alignment means text lines up at the RIGHT side of the page.",
+      "source": "worksheet-L1 Q2b"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Text Alignment",
+      "question": "In Google Docs, which keyboard shortcut centers text?",
+      "answer": 0,
+      "explanation": "The chapter notes Ctrl+Shift+E is the Google Docs shortcut for center alignment.",
+      "source": "book:page17",
+      "options": [
+        "Ctrl+Shift+E",
+        "Ctrl+B",
+        "Ctrl+U",
+        "Ctrl+Z"
+      ]
+    },
+    {
+      "id": "q119",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Text Alignment",
+      "question": "Which of these are real text alignment options mentioned in the chapter? (Select all that apply)",
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "The chapter names Left, Center, Right, and Justified as the real alignment options. \"Diagonal\" is not a real alignment option.",
+      "source": "book:page16,17",
+      "options": [
+        "Left",
+        "Center",
+        "Right",
+        "Justified",
+        "Diagonal"
+      ]
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Text Alignment",
+      "question": "Diagonal is NOT a real text alignment option because:",
+      "answer": 0,
+      "explanation": "The Milestone activity confirms Diagonal is the correct answer to \"which of these is NOT a common text alignment option,\" since only Left, Center, Right, and Justified are real alignments.",
+      "source": "book:page31",
+      "options": [
+        "The chapter's real alignment options are Left, Center, Right, and Justified — there is no \"Diagonal\" alignment",
+        "Diagonal text cannot be typed at all",
+        "Diagonal is a font, not an alignment",
+        "Diagonal is only used in tables"
+      ]
+    },
+    {
+      "id": "q121",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Text Alignment",
+      "question": "Center alignment positions text in the middle of the page.",
+      "answer": true,
+      "explanation": "Confirmed by the Milestone matching activity, which pairs Center alignment with \"Positions text in the middle.\"",
+      "source": "book:page30"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Text Alignment",
+      "question": "In the Milestone matching activity, \"Center alignment\" was matched with which description?",
+      "answer": 0,
+      "explanation": "The Milestone matching activity pairs Center alignment with \"Positions text in the middle.\"",
+      "source": "book:page30",
+      "options": [
+        "Positions text in the middle",
+        "Makes text thicker and darker",
+        "Dots or symbols for listing items",
+        "Ctrl+U"
+      ]
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Text Alignment",
+      "question": "Which alignment would create the neat, block-like edges you often see in printed newspaper columns?",
+      "answer": 0,
+      "explanation": "Justified alignment spreads text evenly to line up both the left and right edges, giving a neat, block-like look often used in newspaper columns.",
+      "source": "book:page17",
+      "options": [
+        "Justified alignment",
+        "Left alignment",
+        "Center alignment",
+        "Right alignment"
+      ]
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Text Alignment",
+      "question": "Which alignment is generally used by default when you start typing a new document?",
+      "answer": 0,
+      "explanation": "Left alignment, being the most common, is the typical default when starting a new document.",
+      "source": "book:page16",
+      "options": [
+        "Left alignment",
+        "Right alignment",
+        "Center alignment",
+        "Justified alignment"
+      ]
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Lists and Line Spacing",
+      "question": "Which type of list uses dots or symbols to list items?",
+      "answer": 0,
+      "explanation": "A Bulleted list uses dots or symbols, as confirmed in the Milestone matching activity.",
+      "source": "book:page18",
+      "options": [
+        "Bulleted list",
+        "Numbered list",
+        "Table",
+        "Heading"
+      ]
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Lists and Line Spacing",
+      "question": "Which type of list uses numbers and is best for steps or ordered information?",
+      "answer": 0,
+      "explanation": "The chapter explains Numbered lists are used for steps or ordered information.",
+      "source": "book:page18",
+      "options": [
+        "Numbered list",
+        "Bulleted list",
+        "Justified list",
+        "Table"
+      ]
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Lists and Line Spacing",
+      "question": "To END a list after typing your last item, you should:",
+      "answer": 0,
+      "explanation": "The chapter's list-creation steps state that pressing Enter twice ends the list.",
+      "source": "book:page18",
+      "options": [
+        "Press Enter twice",
+        "Press Enter once",
+        "Press Backspace",
+        "Click Save"
+      ]
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Lists and Line Spacing",
+      "question": "To add the NEXT item to a list, after typing one item, you should:",
+      "answer": 0,
+      "explanation": "Pressing Enter once moves you to the next list item, according to the chapter's steps.",
+      "source": "book:page18",
+      "options": [
+        "Press Enter once",
+        "Press Enter twice",
+        "Press Delete",
+        "Press Home"
+      ]
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Lists and Line Spacing",
+      "question": "Line spacing controls:",
+      "answer": 0,
+      "explanation": "Line spacing refers to the space between lines of text in a document.",
+      "source": "book:page18",
+      "options": [
+        "The space between lines of text",
+        "The space between letters",
+        "The font color",
+        "The page orientation"
+      ]
+    },
+    {
+      "id": "q130",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Lists and Line Spacing",
+      "question": "Which of these are steps for creating a list, mentioned in the chapter? (Select all that apply)",
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "The chapter's list-creation steps are: click the bullet/number button, type your item, press Enter for the next item, and press Enter twice to end the list. Ctrl+P (Print) is unrelated.",
+      "source": "book:page18",
+      "options": [
+        "Click the bullet/number button",
+        "Type your item",
+        "Press Enter for the next item",
+        "Press Enter twice to end the list",
+        "Press Ctrl+P"
+      ]
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Lists and Line Spacing",
+      "question": "In the Milestone matching activity, \"Bulleted list\" was matched with which description?",
+      "answer": 0,
+      "explanation": "The Milestone matching activity pairs Bulleted list with \"Dots or symbols for listing items.\"",
+      "source": "book:page30",
+      "options": [
+        "Dots or symbols for listing items",
+        "Positions text in the middle",
+        "Makes text thicker and darker",
+        "Ctrl+U"
+      ]
+    },
+    {
+      "id": "q132",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Lists and Line Spacing",
+      "question": "A numbered list is a good choice for showing steps in order.",
+      "answer": true,
+      "explanation": "Numbered lists are specifically described in the chapter as best for steps or ordered information.",
+      "source": "book:page18"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Lists and Line Spacing",
+      "question": "Which list type would be best for a recipe's cooking steps?",
+      "answer": 0,
+      "explanation": "Since order matters for cooking steps, a Numbered list is the best fit, as the chapter explains numbered lists suit ordered information.",
+      "source": "book:page18",
+      "options": [
+        "Numbered list",
+        "Bulleted list",
+        "Table",
+        "Heading"
+      ]
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Lists and Line Spacing",
+      "question": "Which list type would be best for a shopping list where the order doesn't matter?",
+      "answer": 0,
+      "explanation": "Bulleted lists use dots/symbols and work well when items don't need a specific order.",
+      "source": "book:page18",
+      "options": [
+        "Bulleted list",
+        "Numbered list",
+        "Table",
+        "Justified text"
+      ]
+    },
+    {
+      "id": "q135",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Lists and Line Spacing",
+      "question": "Pressing Enter once at the end of your last list item will immediately end the list.",
+      "answer": false,
+      "explanation": "This is false. According to the chapter, you need to press Enter TWICE to end a list — pressing it once just adds another list item.",
+      "source": "book:page18"
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Lists and Line Spacing",
+      "question": "What do you click FIRST, before typing your first list item, to start a list?",
+      "answer": 0,
+      "explanation": "The chapter's list-creation steps begin with clicking the bullet/number button in the toolbar.",
+      "source": "book:page18",
+      "options": [
+        "The bullet or number button in the toolbar",
+        "The Save icon",
+        "The Undo button",
+        "The margin"
+      ]
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adding and Formatting Pictures",
+      "question": "To add a picture to a document, which menu do you typically use first?",
+      "answer": 0,
+      "explanation": "The chapter's steps for adding a picture begin with accessing the Insert menu.",
+      "source": "book:page19",
+      "options": [
+        "Insert",
+        "File",
+        "View",
+        "Format"
+      ]
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adding and Formatting Pictures",
+      "question": "You can resize a picture in a document by:",
+      "answer": 0,
+      "explanation": "The worksheet answer key confirms you can resize pictures by clicking and dragging the corner handles.",
+      "source": "worksheet-L1 Q2e",
+      "options": [
+        "Clicking and dragging its corner handles",
+        "Right-clicking and choosing Delete",
+        "Pressing Ctrl+Z",
+        "Changing the font size"
+      ]
+    },
+    {
+      "id": "q139",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Adding and Formatting Pictures",
+      "question": "You can resize pictures in a document by clicking and dragging the corner handles.",
+      "answer": true,
+      "explanation": "Confirmed in the worksheet's true/false answer key.",
+      "source": "worksheet-L1 Q2e"
+    },
+    {
+      "id": "q140",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adding and Formatting Pictures",
+      "question": "To move a picture to a new spot in your document, you should:",
+      "answer": 0,
+      "explanation": "The chapter explains you can move a picture by clicking and dragging it to a new location.",
+      "source": "book:page19",
+      "options": [
+        "Click and drag it",
+        "Delete and retype it",
+        "Press Enter twice",
+        "Use Find and Replace"
+      ]
+    },
+    {
+      "id": "q141",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adding and Formatting Pictures",
+      "question": "The feature that makes text flow neatly around a picture, instead of the picture blocking the words, is called:",
+      "answer": 0,
+      "explanation": "The chapter names Text Wrap as the feature (accessed by right-clicking a picture) that lets words flow around it.",
+      "source": "book:page20",
+      "options": [
+        "Text Wrap",
+        "Find and Replace",
+        "Track Changes",
+        "Justified alignment"
+      ]
+    },
+    {
+      "id": "q142",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Adding and Formatting Pictures",
+      "question": "Once inserted, a picture's position and size can never be changed.",
+      "answer": false,
+      "explanation": "This is false — pictures can be resized using corner handles and moved by clicking and dragging, as the chapter explains.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q143",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adding and Formatting Pictures",
+      "question": "In Google Docs, where do you find the option to insert an image?",
+      "answer": 0,
+      "explanation": "The chapter shows that in Google Docs, you insert an image via Insert -> Image.",
+      "source": "book:page20",
+      "options": [
+        "Insert menu -> Image",
+        "File menu -> Save",
+        "Edit menu -> Undo",
+        "View menu -> Zoom"
+      ]
+    },
+    {
+      "id": "q144",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adding and Formatting Pictures",
+      "question": "Which historical device, invented by Douglas Engelbart in 1964, is closely tied to how we interact with word processors today?",
+      "answer": 0,
+      "explanation": "The chapter's Trail Treasure fact credits Douglas Engelbart with inventing the computer mouse in 1964, which early word processors were among the first to use.",
+      "source": "book:page20",
+      "options": [
+        "The computer mouse",
+        "The typewriter",
+        "The printing press",
+        "The floppy disk"
+      ]
+    },
+    {
+      "id": "q145",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Adding and Formatting Pictures",
+      "question": "Which of these are steps for adding a picture, per the chapter? (Select all that apply)",
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "The chapter's steps are: click the location, access Insert and choose Picture/Image, choose the source, then click Insert/Open. Ctrl+Z (undo) is unrelated to inserting a picture.",
+      "source": "book:page19",
+      "options": [
+        "Click where you want it",
+        "Open the Insert menu and choose picture/image",
+        "Choose the source (computer or internet)",
+        "Click Insert/Open",
+        "Press Ctrl+Z"
+      ]
+    },
+    {
+      "id": "q146",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adding and Formatting Pictures",
+      "question": "A student's picture is stuck in the middle of a paragraph, breaking up the sentence awkwardly. Which chapter feature could fix this?",
+      "answer": 0,
+      "explanation": "Text Wrap is the feature described in the chapter for making words flow neatly around an inserted picture.",
+      "source": "book:page20",
+      "options": [
+        "Text Wrap, which lets words flow around the picture",
+        "Spell check",
+        "Find and Replace",
+        "Page numbering"
+      ]
+    },
+    {
+      "id": "q147",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adding and Formatting Pictures",
+      "question": "After inserting a picture, right-clicking it usually lets you access:",
+      "answer": 0,
+      "explanation": "The chapter shows that right-clicking a picture gives access to options including Wrap Text.",
+      "source": "book:page20",
+      "options": [
+        "The Wrap Text option (among others)",
+        "The Save As menu only",
+        "The Spell Check tool only",
+        "The page orientation setting only"
+      ]
+    },
+    {
+      "id": "q148",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adding and Formatting Pictures",
+      "question": "According to the chapter's Trail Treasure fact, early word processors were notable for being:",
+      "answer": 0,
+      "explanation": "The Trail Treasure fact notes early word processors were among the first programs to make use of the newly invented computer mouse.",
+      "source": "book:page20",
+      "options": [
+        "Among the first computer programs to make use of the mouse",
+        "The very first typewriters ever made",
+        "Only usable with a stylus and clay tablet",
+        "Unable to insert any pictures"
+      ]
+    },
+    {
+      "id": "q149",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Spelling and Grammar Check",
+      "question": "A red squiggly line under a word usually means:",
+      "answer": 0,
+      "explanation": "The chapter's Guidepost 2 glossary states a red squiggly line marks a possible spelling error.",
+      "source": "book:page22",
+      "options": [
+        "A possible spelling error",
+        "A possible grammar issue",
+        "The word is bold",
+        "The word is a heading"
+      ]
+    },
+    {
+      "id": "q150",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Spelling and Grammar Check",
+      "question": "A blue or green squiggly line usually flags:",
+      "answer": 0,
+      "explanation": "The chapter's Guidepost 2 glossary states a blue/green squiggly line marks a possible grammar issue.",
+      "source": "book:page22",
+      "options": [
+        "A possible grammar issue",
+        "A possible spelling error",
+        "A misspelled font",
+        "A missing picture"
+      ]
+    },
+    {
+      "id": "q151",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Spelling and Grammar Check",
+      "question": "To see spelling or grammar suggestions for a flagged word, you should:",
+      "answer": 0,
+      "explanation": "The chapter explains that right-clicking a flagged word shows suggestions for correcting it.",
+      "source": "book:page16,22",
+      "options": [
+        "Right-click the word",
+        "Press Ctrl+P",
+        "Delete the whole sentence",
+        "Change the page orientation"
+      ]
+    },
+    {
+      "id": "q152",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Spelling and Grammar Check",
+      "question": "Spell check will catch every single grammar mistake in your document.",
+      "answer": false,
+      "explanation": "This is false, as confirmed in the worksheet answer key — spell check and grammar check aren't perfect and may miss some errors.",
+      "source": "worksheet-L1 Q2d"
+    },
+    {
+      "id": "q153",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Spelling and Grammar Check",
+      "question": "Spell check mainly identifies words that are:",
+      "answer": 0,
+      "explanation": "The chapter's Detour box explains spell check flags words not found in its dictionary, which is why it can miss correctly-spelled wrong words.",
+      "source": "book:page23",
+      "options": [
+        "Not found in the dictionary",
+        "Written in italics",
+        "Underlined",
+        "Center-aligned"
+      ]
+    },
+    {
+      "id": "q154",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Spelling and Grammar Check",
+      "question": "Why might spell check MISS an error like using \"there\" instead of \"their\"?",
+      "answer": 0,
+      "explanation": "The chapter's Detour box explains spell check isn't perfect and may miss homophone-type errors since both words are technically spelled correctly.",
+      "source": "book:page23",
+      "options": [
+        "Both words are spelled correctly, and spell check mainly catches misspellings, not wrong-word (homophone) errors",
+        "Spell check only works on numbers",
+        "Spell check is turned off by default",
+        "Spell check only checks the first word in a sentence"
+      ]
+    },
+    {
+      "id": "q155",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Spelling and Grammar Check",
+      "question": "Right-clicking a word with a red squiggly line can show you spelling suggestions.",
+      "answer": true,
+      "explanation": "Confirmed by the chapter's explanation of how to use spell check.",
+      "source": "book:page16,22"
+    },
+    {
+      "id": "q156",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Spelling and Grammar Check",
+      "question": "Which feature, named in the Milestone fill-in-the-blank activity, helps identify misspelled words in your document?",
+      "answer": 0,
+      "explanation": "The Milestone activity's word bank includes \"Spell\" to complete the sentence about the Spell check feature.",
+      "source": "book:page30",
+      "options": [
+        "Spell check",
+        "Find and Replace",
+        "Track Changes",
+        "Text Wrap"
+      ]
+    },
+    {
+      "id": "q157",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Spelling and Grammar Check",
+      "question": "Which of these are true about spelling and grammar checking, per the chapter? (Select all that apply)",
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Red squiggly = spelling, blue/green squiggly = grammar, and right-clicking shows suggestions. However, spell/grammar check is not perfect and can miss errors, so the last option is false.",
+      "source": "book:page22,23",
+      "options": [
+        "A red squiggly line usually marks a spelling error",
+        "A blue/green squiggly line usually marks a grammar issue",
+        "Right-clicking gives you suggestions",
+        "It never makes mistakes and catches every error"
+      ]
+    },
+    {
+      "id": "q158",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Spelling and Grammar Check",
+      "question": "A student thinks, \"If my document has no red or green squiggly lines, it must be 100% error-free.\" What's wrong with this idea?",
+      "answer": 0,
+      "explanation": "The chapter warns that spell/grammar check can miss errors such as using the wrong (but correctly spelled) homophone.",
+      "source": "book:page23",
+      "options": [
+        "Spell/grammar checkers aren't perfect and can miss real errors, like correctly-spelled wrong words",
+        "Squiggly lines always appear even when there are no errors",
+        "Spell check catches every possible mistake without fail",
+        "Squiggly lines are just decorations with no meaning"
+      ]
+    },
+    {
+      "id": "q159",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Spelling and Grammar Check",
+      "question": "Which color squiggly line is associated with GRAMMAR issues, not spelling?",
+      "answer": 0,
+      "explanation": "The chapter's Guidepost 2 glossary confirms blue/green squiggly lines flag grammar issues.",
+      "source": "book:page22",
+      "options": [
+        "Blue or green",
+        "Red",
+        "Black",
+        "Yellow"
+      ]
+    },
+    {
+      "id": "q160",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Spelling and Grammar Check",
+      "question": "What should you do after right-clicking a misspelled (red-underlined) word?",
+      "answer": 0,
+      "explanation": "Right-clicking shows spelling suggestions, from which you can choose the correct spelling.",
+      "source": "book:page16,22",
+      "options": [
+        "Choose the correct spelling from the suggestions shown",
+        "Immediately delete the entire paragraph",
+        "Change the font size",
+        "Save the document without fixing it"
+      ]
+    },
+    {
+      "id": "q161",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Find and Replace",
+      "question": "Which tool locates specific text in your document?",
+      "answer": 0,
+      "explanation": "The chapter explains Find locates specific text within a document.",
+      "source": "book:page19",
+      "options": [
+        "Find",
+        "Replace",
+        "Spell check",
+        "Text Wrap"
+      ]
+    },
+    {
+      "id": "q162",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Find and Replace",
+      "question": "Which tool finds AND changes text to something else?",
+      "answer": 0,
+      "explanation": "The chapter explains Replace finds text and changes it to something else.",
+      "source": "book:page19",
+      "options": [
+        "Replace",
+        "Find",
+        "Undo",
+        "Save"
+      ]
+    },
+    {
+      "id": "q163",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Find and Replace",
+      "question": "What is the keyboard shortcut for Find?",
+      "answer": 0,
+      "explanation": "The chapter's Guidepost 2 glossary lists Ctrl+F as the shortcut for Find.",
+      "source": "book:page22",
+      "options": [
+        "Ctrl+F",
+        "Ctrl+H",
+        "Ctrl+B",
+        "Ctrl+Z"
+      ]
+    },
+    {
+      "id": "q164",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Find and Replace",
+      "question": "What is the keyboard shortcut for Find & Replace?",
+      "answer": 0,
+      "explanation": "The chapter's Guidepost 2 glossary lists Ctrl+H as the shortcut for Find & Replace, confirmed also on the Checkpoint 2 page.",
+      "source": "book:page21,22",
+      "options": [
+        "Ctrl+H",
+        "Ctrl+F",
+        "Ctrl+U",
+        "Ctrl+S"
+      ]
+    },
+    {
+      "id": "q165",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Find and Replace",
+      "question": "To change EVERY instance of a word at once, you should click:",
+      "answer": 0,
+      "explanation": "The chapter's Find and Replace steps explain that clicking Replace All changes every instance at once.",
+      "source": "book:page26",
+      "options": [
+        "Replace All",
+        "Find Next",
+        "Undo",
+        "Save"
+      ]
+    },
+    {
+      "id": "q166",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Find and Replace",
+      "question": "To review and change instances of a word one at a time, you should:",
+      "answer": 0,
+      "explanation": "The chapter's steps explain clicking Find Next locates instances one by one, which you can then replace individually.",
+      "source": "book:page26",
+      "options": [
+        "Click Find Next, then Replace for each one",
+        "Click Replace All immediately",
+        "Press Ctrl+Z repeatedly",
+        "Press Home then End"
+      ]
+    },
+    {
+      "id": "q167",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Find and Replace",
+      "question": "The Find and Replace tool can help you change a character's name throughout an entire story.",
+      "answer": true,
+      "explanation": "Confirmed directly in the worksheet's fill-in-the-blank answer key.",
+      "source": "worksheet-L1 Q1e"
+    },
+    {
+      "id": "q168",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Find and Replace",
+      "question": "Before computers, how did authors make a consistent change (like renaming a character) throughout an entire manuscript?",
+      "answer": 0,
+      "explanation": "The chapter's Trail Treasure fact explains that before computers, authors had to read entire manuscripts by hand to make consistent changes.",
+      "source": "book:page26",
+      "options": [
+        "They had to read the entire manuscript by hand to find and fix every instance",
+        "They used Ctrl+H",
+        "They emailed the publisher to fix it",
+        "They used spell check"
+      ]
+    },
+    {
+      "id": "q169",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Find and Replace",
+      "question": "Which of these are steps in using Find & Replace, mentioned in the chapter? (Select all that apply)",
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "The chapter's 5 steps for Find & Replace include locating the tool, typing the search term, typing the replacement, and clicking Find Next/Replace. Ctrl+Z (undo) is a separate, unrelated action.",
+      "source": "book:page26",
+      "options": [
+        "Look for Find/Replace in the editing menu",
+        "Type what you want to find",
+        "Type what you want to replace it with",
+        "Click Find Next or Replace All",
+        "Press Ctrl+Z"
+      ]
+    },
+    {
+      "id": "q170",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Find and Replace",
+      "question": "Find and Replace can only replace one instance of a word at a time, and never all instances at once.",
+      "answer": false,
+      "explanation": "This is false — clicking Replace All lets you change every instance of a word at once, according to the chapter's steps.",
+      "source": "book:page26"
+    },
+    {
+      "id": "q171",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Find and Replace",
+      "question": "Which feature would you use to change all instances of \"happy\" to \"joyful\" in your document, per the Milestone activity?",
+      "answer": 0,
+      "explanation": "The Milestone activity confirms Find and Replace is the correct feature for changing every instance of one word to another.",
+      "source": "book:page31",
+      "options": [
+        "Find and Replace",
+        "Copy and Paste",
+        "Spell Check",
+        "Format Painter"
+      ]
+    },
+    {
+      "id": "q172",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Find and Replace",
+      "question": "Which of these is the BEST reason Find and Replace is especially useful for long stories?",
+      "answer": 0,
+      "explanation": "Find and Replace saves significant time compared to manually rereading and editing a long document by hand, as historically required.",
+      "source": "book:page26",
+      "options": [
+        "It saves time by automatically finding and changing every instance instead of manually rereading the whole document",
+        "It automatically adds pictures to your story",
+        "It changes the page orientation for you",
+        "It deletes unwanted paragraphs automatically"
+      ]
+    },
+    {
+      "id": "q173",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Tables",
+      "question": "What do you need to specify FIRST when inserting a table?",
+      "answer": 0,
+      "explanation": "The worksheet answer key confirms you must specify the number of rows and columns needed first, when inserting a table.",
+      "source": "worksheet-L2 Q1e",
+      "options": [
+        "The number of rows and columns needed",
+        "The colour and border style",
+        "The text that will go inside it",
+        "The position on the page"
+      ]
+    },
+    {
+      "id": "q174",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Tables",
+      "question": "To add a table to your document, which menu do you use?",
+      "answer": 0,
+      "explanation": "The chapter's steps for creating a table begin with clicking Insert and finding Table.",
+      "source": "book:page23",
+      "options": [
+        "Insert (then find Table)",
+        "File",
+        "View",
+        "Format"
+      ]
+    },
+    {
+      "id": "q175",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Tables",
+      "question": "Tables organize information into:",
+      "answer": 0,
+      "explanation": "The chapter (and Milestone true/false activity) confirms tables organize information into rows and columns.",
+      "source": "book:page30",
+      "options": [
+        "Rows and columns",
+        "Paragraphs and headings",
+        "Bullets and numbers",
+        "Margins and footers"
+      ]
+    },
+    {
+      "id": "q176",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Tables",
+      "question": "To change a column's width in a table, you:",
+      "answer": 0,
+      "explanation": "The chapter explains you can change column width by dragging the column's border.",
+      "source": "book:page24",
+      "options": [
+        "Drag its border",
+        "Press Ctrl+H",
+        "Right-click and choose Undo",
+        "Use Find and Replace"
+      ]
+    },
+    {
+      "id": "q177",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Tables",
+      "question": "To add another row or column to an existing table, you typically click:",
+      "answer": 0,
+      "explanation": "The chapter explains rows/columns can be added or deleted using the \"+\" sign.",
+      "source": "book:page24",
+      "options": [
+        "The \"+\" (plus) sign",
+        "The Save icon",
+        "The Undo arrow",
+        "The Home key"
+      ]
+    },
+    {
+      "id": "q178",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Tables",
+      "question": "Tables help organize information into rows and columns.",
+      "answer": true,
+      "explanation": "Confirmed by the Milestone true/false activity.",
+      "source": "book:page30"
+    },
+    {
+      "id": "q179",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Tables",
+      "question": "Which is the BEST use for a table, according to the chapter?",
+      "answer": 0,
+      "explanation": "The chapter states tables are perfect for schedules, comparisons, and organizing facts.",
+      "source": "book:page24",
+      "options": [
+        "Organizing things like weekly schedules, comparisons, or facts",
+        "Writing a long story paragraph",
+        "Adding a single picture",
+        "Checking spelling"
+      ]
+    },
+    {
+      "id": "q180",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Tables",
+      "question": "To add text inside a table, you:",
+      "answer": 0,
+      "explanation": "The chapter explains you click inside a table cell to add text to it.",
+      "source": "book:page24",
+      "options": [
+        "Click inside the cell and start typing",
+        "Use Find and Replace",
+        "Press Ctrl+Z",
+        "Change the page orientation"
+      ]
+    },
+    {
+      "id": "q181",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Tables",
+      "question": "Which of the following can you do with a table, per the chapter? (Select all that apply)",
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "You can add/delete rows and columns, change column widths, and add colours/borders to a table. Tables CAN be resized, so the last option is false.",
+      "source": "book:page24",
+      "options": [
+        "Add or delete rows and columns",
+        "Change column width by dragging",
+        "Add colours/borders",
+        "Only add text — you can never resize a table"
+      ]
+    },
+    {
+      "id": "q182",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Tables",
+      "question": "A student wants to compare 3 animals across 4 categories neatly. What is the BEST word processing feature to use?",
+      "answer": 0,
+      "explanation": "A table's rows-and-columns structure is ideal for organizing comparisons, as the chapter explains.",
+      "source": "book:page24",
+      "options": [
+        "A table (rows and columns)",
+        "A bulleted list",
+        "Text Wrap",
+        "Justified alignment"
+      ]
+    },
+    {
+      "id": "q183",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Tables",
+      "question": "Which document element uses a grid layout of rows and columns?",
+      "answer": 0,
+      "explanation": "A table uses a grid of rows and columns, per the chapter's Guidepost 2 glossary.",
+      "source": "book:page22",
+      "options": [
+        "A table",
+        "A heading",
+        "A footer",
+        "A margin"
+      ]
+    },
+    {
+      "id": "q184",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Tables",
+      "question": "Which activity in the chapter asked students to build a table for organizing days and activities?",
+      "answer": 0,
+      "explanation": "Skill Trail 3, the Weekly Schedule Creator, has students practice using tables to organize a schedule.",
+      "source": "book:page24",
+      "options": [
+        "The Weekly Schedule Creator (Skill Trail 3)",
+        "The Digital Poster (Skill Trail 2)",
+        "The Digital Newsletter (Skill Trail 4)",
+        "Cyber Station 1"
+      ]
+    },
+    {
+      "id": "q185",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Page Formatting (Margins, Orientation, Page Numbers)",
+      "question": "The space between your text and the edge of the page is called:",
+      "answer": 0,
+      "explanation": "The Milestone activity confirms Margin is the term for the space between text and the edge of the page.",
+      "source": "book:page31",
+      "options": [
+        "Margin",
+        "Border",
+        "Frame",
+        "Column"
+      ]
+    },
+    {
+      "id": "q186",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Page Formatting (Margins, Orientation, Page Numbers)",
+      "question": "Which page orientation is taller than it is wide?",
+      "answer": 0,
+      "explanation": "Portrait orientation is described in the chapter as taller than wide, the normal orientation for most paper.",
+      "source": "book:page25",
+      "options": [
+        "Portrait orientation",
+        "Landscape orientation",
+        "Square orientation",
+        "Vertical orientation"
+      ]
+    },
+    {
+      "id": "q187",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Page Formatting (Margins, Orientation, Page Numbers)",
+      "question": "Which page orientation is wider than it is tall?",
+      "answer": 0,
+      "explanation": "Landscape orientation is described as wider than tall, good for tables or wide pictures.",
+      "source": "book:page25",
+      "options": [
+        "Landscape orientation",
+        "Portrait orientation",
+        "Square orientation",
+        "Vertical orientation"
+      ]
+    },
+    {
+      "id": "q188",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Page Formatting (Margins, Orientation, Page Numbers)",
+      "question": "Which orientation would be BEST for a wide table with many columns?",
+      "answer": 0,
+      "explanation": "The worksheet confirms Landscape orientation is most suitable for displaying a wide table with many columns.",
+      "source": "worksheet-L2 Q1d",
+      "options": [
+        "Landscape orientation",
+        "Portrait orientation",
+        "Square orientation",
+        "Vertical orientation"
+      ]
+    },
+    {
+      "id": "q189",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Page Formatting (Margins, Orientation, Page Numbers)",
+      "question": "Smaller margins let you:",
+      "answer": 0,
+      "explanation": "The chapter explains smaller margins fit more text on a page, while larger margins leave more white space.",
+      "source": "book:page25",
+      "options": [
+        "Fit more text on a page",
+        "See less of your document",
+        "Automatically fix spelling errors",
+        "Change your font automatically"
+      ]
+    },
+    {
+      "id": "q190",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Page Formatting (Margins, Orientation, Page Numbers)",
+      "question": "Larger margins mean LESS white space on the page.",
+      "answer": false,
+      "explanation": "This is false — larger margins actually mean MORE white space on the page, since more space is left between the text and the page edge.",
+      "source": "book:page25"
+    },
+    {
+      "id": "q191",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Page Formatting (Margins, Orientation, Page Numbers)",
+      "question": "Page numbers can typically be added in the:",
+      "answer": 0,
+      "explanation": "The chapter explains page numbers are usually placed in the header (top) or footer (bottom) of a page.",
+      "source": "book:page25",
+      "options": [
+        "Header or footer",
+        "Margin only",
+        "Table only",
+        "Font menu"
+      ]
+    },
+    {
+      "id": "q192",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Page Formatting (Margins, Orientation, Page Numbers)",
+      "question": "Portrait orientation is the normal, default orientation for most printed pages.",
+      "answer": true,
+      "explanation": "The chapter describes Portrait as the normal orientation, taller than wide, typically used for standard printed pages.",
+      "source": "book:page25"
+    },
+    {
+      "id": "q193",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Page Formatting (Margins, Orientation, Page Numbers)",
+      "question": "A student is making a document with a very wide picture that keeps getting cut off. What page setting change might help, per the chapter?",
+      "answer": 0,
+      "explanation": "Landscape orientation, being wider than tall, is better suited for wide content like large pictures or tables.",
+      "source": "book:page25",
+      "options": [
+        "Switching to Landscape orientation",
+        "Switching to Portrait orientation",
+        "Adding more page numbers",
+        "Turning on spell check"
+      ]
+    },
+    {
+      "id": "q194",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Page Formatting (Margins, Orientation, Page Numbers)",
+      "question": "Which of these are real page orientation options mentioned in the chapter? (Select all that apply)",
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Portrait and Landscape are the two real page orientation options in the chapter. Square and Vertical are not real orientation options mentioned.",
+      "source": "book:page25",
+      "options": [
+        "Portrait",
+        "Landscape",
+        "Square",
+        "Vertical"
+      ]
+    },
+    {
+      "id": "q195",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Page Formatting (Margins, Orientation, Page Numbers)",
+      "question": "Where in a document would you typically place a page number at the very bottom?",
+      "answer": 0,
+      "explanation": "The footer, at the bottom of the page, is where page numbers are commonly placed (the header is at the top).",
+      "source": "book:page25",
+      "options": [
+        "The footer",
+        "The header",
+        "The margin",
+        "The table"
+      ]
+    },
+    {
+      "id": "q196",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Page Formatting (Margins, Orientation, Page Numbers)",
+      "question": "Margin is best defined as:",
+      "answer": 0,
+      "explanation": "The chapter's Guidepost 1 glossary defines Margin as the white space between text and the page edge.",
+      "source": "book:page17",
+      "options": [
+        "The white space between the text and the edge of the page",
+        "The space between two table columns",
+        "The space between two letters",
+        "The blinking line where you type"
+      ]
+    },
+    {
+      "id": "q197",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Word Processing vs Handwriting",
+      "question": "What is the MAIN advantage of word processing over handwriting, per the Milestone activity?",
+      "answer": 0,
+      "explanation": "The Milestone activity confirms the main advantage of word processing over handwriting is that it allows for easy editing and correction.",
+      "source": "book:page31",
+      "options": [
+        "It allows for easy editing and correction",
+        "It uses electricity",
+        "It makes less noise",
+        "It is always faster, no matter what"
+      ]
+    },
+    {
+      "id": "q198",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Word Processing vs Handwriting",
+      "question": "Word processing is better than handwriting because you can fix mistakes easily without erasing.",
+      "answer": true,
+      "explanation": "Confirmed in the worksheet's true/false answer key.",
+      "source": "worksheet-L1 Q2a"
+    },
+    {
+      "id": "q199",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Word Processing vs Handwriting",
+      "question": "Which of these is NOT a real advantage of word processing over handwriting?",
+      "answer": 0,
+      "explanation": "Requiring no electricity is false — word processing actually NEEDS electricity/a computer to work, unlike handwriting.",
+      "source": "worksheet-L2 Q1b",
+      "options": [
+        "It requires no electricity to operate",
+        "You can move sentences around without rewriting",
+        "You can save your work digitally",
+        "You can add pictures easily"
+      ]
+    },
+    {
+      "id": "q200",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Word Processing vs Handwriting",
+      "question": "A student says, \"Word processing is always faster than handwriting, no matter what.\" Is this the main point the chapter emphasizes?",
+      "answer": 0,
+      "explanation": "The Milestone activity specifically identifies easy editing and correction, not speed alone, as the main advantage of word processing over handwriting.",
+      "source": "book:page31",
+      "options": [
+        "No — the chapter emphasizes easy EDITING and correction as the main advantage, not necessarily raw speed",
+        "Yes — speed is the only advantage mentioned",
+        "No — the chapter says handwriting is always faster",
+        "Yes — word processing is always instantly faster to set up"
+      ]
+    },
+    {
+      "id": "q201",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Word Processing vs Handwriting",
+      "question": "Unlike handwriting, word processing lets you move sentences around:",
+      "answer": 0,
+      "explanation": "The chapter lists moving sentences around without rewriting as a real advantage of word processing.",
+      "source": "worksheet-L2 Q1b",
+      "options": [
+        "Without rewriting the whole page",
+        "Only using scissors and tape",
+        "Only by erasing everything",
+        "Only with a printing press"
+      ]
+    },
+    {
+      "id": "q202",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Word Processing vs Handwriting",
+      "question": "Handwriting makes it just as easy to fix a mistake in the middle of a page as word processing does.",
+      "answer": false,
+      "explanation": "This is false — the whole chapter contrasts handwriting/older tools (hard to correct mistakes) with word processing, which allows easy editing and correction.",
+      "source": "book:page31"
+    },
+    {
+      "id": "q203",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Word Processing vs Handwriting",
+      "question": "One reason word processing can be considered better for group work is that documents can be:",
+      "answer": 0,
+      "explanation": "The chapter highlights Google Docs' ability to be shared and collaboratively edited as a benefit over handwriting.",
+      "source": "book:page9",
+      "options": [
+        "Shared and edited by multiple people (e.g. using Google Docs)",
+        "Only edited by one person ever",
+        "Only printed, never shared",
+        "Only saved on paper"
+      ]
+    },
+    {
+      "id": "q204",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Word Processing vs Handwriting",
+      "question": "Which era in the chapter's history shows the SAME editing-difficulty problem as handwriting — that correcting mistakes was hard?",
+      "answer": 0,
+      "explanation": "Both the Typewriter Era (messy correction fluid/retyping) and Ancient Times (starting a new clay tablet) shared the same difficulty in correcting mistakes that handwriting has.",
+      "source": "book:page22,23",
+      "options": [
+        "The Typewriter Era and Ancient Times (clay tablets)",
+        "The Cloud Revolution",
+        "Modern Google Docs",
+        "The Personal Computer Revolution"
+      ]
+    },
+    {
+      "id": "q205",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Word Processing vs Handwriting",
+      "question": "Word processing lets you print your document:",
+      "answer": 0,
+      "explanation": "Unlike handwriting, word processing lets you edit on-screen first and then print as many copies as needed.",
+      "source": "book:page31",
+      "options": [
+        "As many times as needed, after editing on-screen first",
+        "Only once, ever",
+        "Before you type anything",
+        "Without ever saving it"
+      ]
+    },
+    {
+      "id": "q206",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Word Processing vs Handwriting",
+      "question": "Overall, the chapter frames word processing mainly as a tool that makes writing:",
+      "answer": 0,
+      "explanation": "Across the whole chapter, word processing is presented as improving on handwriting through easier editing, correcting, formatting, saving, and sharing.",
+      "source": "book:page8,31",
+      "options": [
+        "Easier to edit, correct, format, save, and share compared to handwriting",
+        "Impossible to save digitally",
+        "Only useful for typing, with no formatting options",
+        "Slower than handwriting in every case"
+      ]
+    },
+    {
+      "id": "q207",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Document Formatting and Nutrition Analogy",
+      "question": "In the chapter's \"Nutrition Junction\" analogy, a document's Heading is compared to:",
+      "answer": 0,
+      "explanation": "The Nutrition Junction infographic compares a large, bold Heading to Complex Carbohydrates, the main energy that anchors a page.",
+      "source": "book:page26",
+      "options": [
+        "Complex Carbohydrates",
+        "Proteins",
+        "Vegetables & Fruits",
+        "Water"
+      ]
+    },
+    {
+      "id": "q208",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Document Formatting and Nutrition Analogy",
+      "question": "In the Nutrition Junction analogy, Body Text (regular) is compared to:",
+      "answer": 0,
+      "explanation": "Body Text (regular) is compared to Proteins — steady builders keeping concentration going through a long document.",
+      "source": "book:page26",
+      "options": [
+        "Proteins",
+        "Complex Carbohydrates",
+        "Vegetables & Fruits",
+        "Water"
+      ]
+    },
+    {
+      "id": "q209",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Document Formatting and Nutrition Analogy",
+      "question": "In the Nutrition Junction analogy, Bullet Points are compared to:",
+      "answer": 0,
+      "explanation": "Bullet Points are compared to Vegetables & Fruits — each one a quick burst of vitamins, like a colourful bullet point.",
+      "source": "book:page26",
+      "options": [
+        "Vegetables & Fruits",
+        "Proteins",
+        "Complex Carbohydrates",
+        "Sleep"
+      ]
+    },
+    {
+      "id": "q210",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Document Formatting and Nutrition Analogy",
+      "question": "In the Nutrition Junction analogy, White Space/Margins are compared to:",
+      "answer": 0,
+      "explanation": "White Space/Margins are compared to Water — the \"empty space\" a document (like your body) cannot work without.",
+      "source": "book:page26",
+      "options": [
+        "Water",
+        "Proteins",
+        "Complex Carbohydrates",
+        "Bullet Points"
+      ]
+    },
+    {
+      "id": "q211",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Document Formatting and Nutrition Analogy",
+      "question": "In the Nutrition Junction analogy, the Ctrl+Z (Undo) shortcut is compared to:",
+      "answer": 0,
+      "explanation": "Ctrl+Z (Undo) is compared to Sleep — the overnight \"undo\" that repairs the day's errors and consolidates memory.",
+      "source": "book:page26",
+      "options": [
+        "Sleep",
+        "Water",
+        "Proteins",
+        "Vegetables & Fruits"
+      ]
+    },
+    {
+      "id": "q212",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Document Formatting and Nutrition Analogy",
+      "question": "In the Nutrition Junction analogy, Bullet Points are compared to Proteins.",
+      "answer": false,
+      "explanation": "This is false — Bullet Points are compared to Vegetables & Fruits, while Proteins are compared to Body Text (regular).",
+      "source": "book:page26"
+    },
+    {
+      "id": "q213",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Document Formatting and Nutrition Analogy",
+      "question": "Which of these are correct analogy pairs from the chapter's Nutrition Junction infographic? (Select all that apply)",
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The correct pairs are Heading=Carbohydrates, Body Text=Proteins, and Margins=Water. Bullet Points are compared to Vegetables & Fruits, not Sleep (Sleep is paired with Ctrl+Z/Undo).",
+      "source": "book:page26",
+      "options": [
+        "Heading = Complex Carbohydrates",
+        "Body Text = Proteins",
+        "Margins = Water",
+        "Bullet Points = Sleep"
+      ]
+    },
+    {
+      "id": "q214",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Document Formatting and Nutrition Analogy",
+      "question": "Why does the chapter compare the Ctrl+Z (Undo) shortcut to sleep?",
+      "answer": 0,
+      "explanation": "The Nutrition Junction infographic explains sleep is like an overnight \"undo\" for the body, paralleling how Ctrl+Z reverses a mistake in a document.",
+      "source": "book:page26",
+      "options": [
+        "Because sleep is described as the overnight \"undo\" that repairs the day's errors and consolidates memory, just like Ctrl+Z reverses a mistake",
+        "Because sleep and Ctrl+Z both delete your document",
+        "Because you must sleep before you can undo anything",
+        "Because Ctrl+Z only works while you are asleep"
+      ]
+    },
+    {
+      "id": "q215",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Chapter Checkpoints and Milestone Review",
+      "question": "Which shortcut is used to Save a document, per the chapter's Guidepost glossary?",
+      "answer": 0,
+      "explanation": "Guidepost 1 lists Ctrl+S as the shortcut for Save.",
+      "source": "book:page17",
+      "options": [
+        "Ctrl+S",
+        "Ctrl+B",
+        "Ctrl+Z",
+        "Ctrl+F"
+      ]
+    },
+    {
+      "id": "q216",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Chapter Checkpoints and Milestone Review",
+      "question": "Which key, in Microsoft Word, is listed as a shortcut for Spell Check, per Guidepost 2?",
+      "answer": 0,
+      "explanation": "Guidepost 2 lists F7 as the Microsoft Word shortcut for Spell Check.",
+      "source": "book:page22",
+      "options": [
+        "F7",
+        "F1",
+        "Ctrl+F",
+        "Ctrl+S"
+      ]
+    },
+    {
+      "id": "q217",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Chapter Checkpoints and Milestone Review",
+      "question": "You CAN change the font size of text in a word processor.",
+      "answer": true,
+      "explanation": "Confirmed by the Milestone true/false activity, which corrects the false statement \"You cannot change the font size.\"",
+      "source": "book:page30"
+    },
+    {
+      "id": "q218",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Checkpoints and Milestone Review",
+      "question": "Which of these is the correct keyboard shortcut PAIR, according to Guidepost 2?",
+      "answer": 0,
+      "explanation": "Guidepost 2 lists Ctrl+F for Find and Ctrl+H for Find & Replace.",
+      "source": "book:page22",
+      "options": [
+        "Ctrl+F = Find, Ctrl+H = Find & Replace",
+        "Ctrl+F = Bold, Ctrl+H = Save",
+        "Ctrl+F = Undo, Ctrl+H = Italic",
+        "Ctrl+F = Print, Ctrl+H = Center"
+      ]
+    },
+    {
+      "id": "q219",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Checkpoints and Milestone Review",
+      "question": "In the Milestone true/false section, the false statement \"You cannot change the font size of text in a word processor\" should be corrected to say:",
+      "answer": 0,
+      "explanation": "Since the original statement is false, the correction is that you CAN in fact change the font size of text.",
+      "source": "book:page30",
+      "options": [
+        "You CAN change the font size of text in a word processor",
+        "You can never change any formatting",
+        "Font size only changes automatically",
+        "Font size can only be changed by an adult"
+      ]
+    },
+    {
+      "id": "q220",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Chapter Checkpoints and Milestone Review",
+      "question": "In the Milestone fill-in-the-blank word bank (floppy disk, Italic, cursor, Spell), which word completes \"Text that is ___ appears slanted\"?",
+      "answer": 0,
+      "explanation": "\"Italic\" correctly completes the sentence about slanted text in the Milestone activity's word bank.",
+      "source": "book:page30",
+      "options": [
+        "Italic",
+        "Cursor",
+        "Floppy disk",
+        "Spell"
+      ]
+    },
+    {
+      "id": "q221",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Checkpoints and Milestone Review",
+      "question": "In the Milestone matching activity, \"Underline\" is matched with:",
+      "answer": 0,
+      "explanation": "The Milestone matching activity pairs Underline with the shortcut Ctrl+U.",
+      "source": "book:page30",
+      "options": [
+        "Ctrl+U",
+        "Makes text thicker and darker",
+        "Positions text in the middle",
+        "Dots or symbols for listing items"
+      ]
+    },
+    {
+      "id": "q222",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Chapter Checkpoints and Milestone Review",
+      "question": "According to the Milestone true/false section, you must print a document before you're able to save it.",
+      "answer": false,
+      "explanation": "This is false — the Milestone activity confirms you do NOT need to print before saving; they are separate actions.",
+      "source": "book:page30"
+    },
+    {
+      "id": "q223",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Chapter Checkpoints and Milestone Review",
+      "question": "Which glossary term from Guidepost 1 means \"the white space between text and the edge of the page\"?",
+      "answer": 0,
+      "explanation": "Guidepost 1 defines Margin as the white space between text and the page edge.",
+      "source": "book:page17",
+      "options": [
+        "Margin",
+        "Cursor",
+        "Font",
+        "Alignment"
+      ]
+    },
+    {
+      "id": "q224",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Checkpoints and Milestone Review",
+      "question": "Which glossary term from Guidepost 2 describes \"a grid of rows and columns for organising information\"?",
+      "answer": 0,
+      "explanation": "Guidepost 2 defines Table as a grid of rows and columns for organising information.",
+      "source": "book:page22",
+      "options": [
+        "Table",
+        "Margin",
+        "Font",
+        "Cursor"
+      ]
+    }
+  ]
+}

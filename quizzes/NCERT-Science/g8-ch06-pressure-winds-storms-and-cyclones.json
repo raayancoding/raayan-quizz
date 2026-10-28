@@ -1,0 +1,2776 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-science-g8-ch06-pressure-winds-storms-and-cyclones",
+  "title": "Pressure, Winds, Storms, and Cyclones",
+  "subject": "Science",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Science/ch06",
+  "chapter": "6. Pressure, Winds, Storms, and Cyclones",
+  "topic": "Full Chapter",
+  "description": "Pressure as force per unit area, pressure in liquids and the atmosphere, how pressure differences create winds and breezes, and how storms, thunderstorms, lightning and cyclones form and can be survived.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "science",
+    "pressure",
+    "winds",
+    "storms",
+    "cyclones",
+    "lightning"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Force, Area and Pressure",
+      "question": "Megha and Pawan carry equally heavy bags, but only Pawan's bag hurts his shoulders. Why?",
+      "options": [
+        "His bag has narrow straps, so the weight acts on a smaller area",
+        "His bag has longer straps, so the weight hangs further down",
+        "His bag is packed with heavier items than his sister's bag",
+        "His bag has broad straps, so the weight spreads over more skin"
+      ],
+      "answer": 0,
+      "explanation": "Both bags weigh the same, but Pawan's narrow straps press the weight onto a smaller area of the shoulder, giving a higher pressure. Broad straps (Megha's) spread the same force over a larger area.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Force, Area and Pressure",
+      "question": "How does the chapter define pressure?",
+      "options": [
+        "The force multiplied by the area",
+        "The force acting per unit area",
+        "The area acted on per unit force",
+        "The weight acting per unit volume"
+      ],
+      "answer": 1,
+      "explanation": "Pressure = Force ÷ Area, i.e. force per unit area. Multiplying force by area or dividing area by force are the common slips.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Force, Area and Pressure",
+      "question": "Two bags have the same weight; one has broad straps and the other narrow straps. Which quantity is the SAME for both and which is DIFFERENT?",
+      "options": [
+        "Same force and same pressure on the shoulder",
+        "Same pressure on the shoulder; different force",
+        "Same force on the shoulder; different pressure",
+        "Different force and different pressure"
+      ],
+      "answer": 2,
+      "explanation": "The force (weight of the bag) is identical. Because the area of contact differs, the pressure (force ÷ area) differs — larger for narrow straps.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Force, Area and Pressure",
+      "question": "People carrying pots on their heads place a round piece of cloth under the load. What does the cloth do?",
+      "options": [
+        "It cools the head so that the carrier does not feel the heavy load",
+        "It reduces the weight of the pot by absorbing part of the load",
+        "It increases friction so that the pot does not slip off the head",
+        "It increases the area over which the weight acts, lowering pressure"
+      ],
+      "answer": 3,
+      "explanation": "The cloth ring spreads the same weight over a larger area of the head, so the pressure is reduced. The weight itself does not change.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Force, Area and Pressure",
+      "question": "Why is it easier to lift a full bucket by a broad handle than by a narrow one?",
+      "options": [
+        "The broad handle makes the water inside the bucket weigh less",
+        "The broad handle spreads the force over a larger area of the hand",
+        "The broad handle shifts the water towards the centre of the bucket",
+        "The broad handle lets the hand grip with a much larger force"
+      ],
+      "answer": 1,
+      "explanation": "The weight of the bucket is unchanged; a broad handle puts that force on a larger area of the palm, so the pressure felt is smaller.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Force, Area and Pressure",
+      "question": "Which statement about pressure is NOT correct?",
+      "options": [
+        "Two equal forces can produce different pressures on a surface",
+        "Halving the area over which a force acts doubles the pressure",
+        "Pressure is a quantity that depends on both force and area",
+        "Doubling the area over which a force acts doubles the pressure"
+      ],
+      "answer": 3,
+      "explanation": "Pressure = force ÷ area, so doubling the area HALVES the pressure. The other three statements follow directly from the definition.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Force, Area and Pressure",
+      "question": "A person of the same weight walks on soft snow once in boots and once on wide skis. Using the chapter's idea, which is true?",
+      "options": [
+        "Both exert equal pressure because the weight is equal",
+        "Skis exert more pressure, so the person sinks more",
+        "Skis exert less pressure, so the person sinks less",
+        "Boots exert less pressure because they are smaller"
+      ],
+      "answer": 2,
+      "explanation": "Same weight, larger area → smaller pressure. Wide skis spread the weight over more snow, so the person sinks less — the same reasoning as broad bag straps.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Force, Area and Pressure",
+      "question": "A force of 100 N acts on a board. If the same force is now applied on half the area, the pressure becomes",
+      "options": [
+        "twice as large",
+        "half as large",
+        "the same",
+        "four times as large"
+      ],
+      "answer": 0,
+      "explanation": "Pressure = force ÷ area. Halving the area with the force fixed doubles the pressure.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q9",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Force, Area and Pressure",
+      "question": "Pressure increases when the same force acts over a larger area.",
+      "answer": false,
+      "explanation": "It is the opposite: spreading the same force over a larger area decreases the pressure (force ÷ area).",
+      "source": "text:page2"
+    },
+    {
+      "id": "q10",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Force, Area and Pressure",
+      "question": "In this chapter, pressure is computed only for forces that act perpendicular to the surface.",
+      "answer": true,
+      "explanation": "The chapter states that at this stage only forces acting perpendicular to the surface are considered when computing pressure.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q11",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Force, Area and Pressure",
+      "question": "Pressure and force are two names for the same physical quantity.",
+      "answer": false,
+      "explanation": "Force is a push or pull; pressure is force per unit area. The same force can give very different pressures depending on the area.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q12",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Force, Area and Pressure",
+      "question": "Which of these REDUCE the pressure produced by a given force? (Select all that apply.)",
+      "options": [
+        "Broad straps on a school bag",
+        "The pointed tip of an iron nail",
+        "A round cloth placed under a pot carried on the head",
+        "The sharp edge of a kitchen knife"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Broad straps and the cloth ring increase the contact area, lowering pressure. A pointed tip and a sharp edge do the opposite — they shrink the area to raise pressure.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Force, Area and Pressure",
+      "question": "Megha says: 'My bag feels lighter because of its broad straps.' Which correction is scientifically accurate?",
+      "options": [
+        "The bag is not lighter; the force on your shoulders is lower",
+        "The bag is lighter because broad straps carry part of the weight",
+        "The bag is lighter because gravity acts less on broad straps",
+        "The bag is not lighter; the pressure on your shoulders is lower"
+      ],
+      "answer": 3,
+      "explanation": "Weight (force) is unchanged — gravity acts the same. What changes is the pressure, because the force is spread over a larger area.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Units and Pressure Calculations",
+      "question": "What is the SI unit of pressure?",
+      "options": [
+        "newton per cubic metre (N/m³), also called a torr",
+        "newton per metre (N/m), also called a bar",
+        "newton per square metre (N/m²), also called pascal",
+        "kilogram per square metre (kg/m²), also called a pascal"
+      ],
+      "answer": 2,
+      "explanation": "Force is in newton and area in metre², so pressure is N/m², which is named the pascal (Pa).",
+      "source": "text:page3"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Units and Pressure Calculations",
+      "question": "A force of 100 N is applied on a cardboard of area 2 m². The pressure on the cardboard is",
+      "options": [
+        "200 N/m²",
+        "50 N/m²",
+        "100 N/m²",
+        "0.02 N/m²"
+      ],
+      "answer": 1,
+      "explanation": "Pressure = 100 N ÷ 2 m² = 50 N/m² (50 Pa). Multiplying (200) and forgetting to divide (100) are common slips.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Units and Pressure Calculations",
+      "question": "One millibar (mb), the practical unit of air pressure, equals",
+      "options": [
+        "100 Pa",
+        "1000 Pa",
+        "10 Pa",
+        "1 Pa"
+      ],
+      "answer": 0,
+      "explanation": "The 'A step further' box states that 1 millibar = 100 pascal; it is also equal to 1 hectopascal (hPa).",
+      "source": "text:page8"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Units and Pressure Calculations",
+      "question": "How are the millibar (mb) and the hectopascal (hPa) related?",
+      "options": [
+        "1 hPa = 10 mb, since 1 mb is 10 Pa",
+        "1 mb = 10 hPa, since 1 hPa is 10 Pa",
+        "1 mb = 1 hPa, both being 100 Pa",
+        "1 mb = 100 hPa, since 1 hPa is 1 Pa"
+      ],
+      "answer": 2,
+      "explanation": "Both the millibar and the hectopascal are defined as 100 Pa, so they are equal units.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Units and Pressure Calculations",
+      "question": "An elephant of weight 20000 N stands on four feet, each of area 0.25 m². The pressure on the ground is",
+      "options": [
+        "20000 Pa",
+        "80000 Pa",
+        "5000 Pa",
+        "40000 Pa"
+      ],
+      "answer": 0,
+      "explanation": "Total area = 4 × 0.25 = 1 m². Pressure = 20000 N ÷ 1 m² = 20000 Pa. Using only one foot's area gives 80000 Pa (wrong); dividing by 4 gives 5000 Pa (wrong).",
+      "source": "exercise:Q4"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Units and Pressure Calculations",
+      "question": "The same 20000 N elephant lifts one foot off the ground. The pressure on the ground now becomes about",
+      "options": [
+        "80000 Pa",
+        "20000 Pa",
+        "15000 Pa",
+        "26667 Pa"
+      ],
+      "answer": 3,
+      "explanation": "Area is now 3 × 0.25 = 0.75 m². Pressure = 20000 ÷ 0.75 ≈ 26667 Pa — higher than before because the same weight acts on less area.",
+      "source": "exercise:Q4"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Units and Pressure Calculations",
+      "question": "Boat A (base 7 m²) carries 5 persons; boat B (base 3.5 m²) carries 3 persons. Each person weighs 700 N. Which boat has more pressure on its base, and by how much?",
+      "options": [
+        "Boat A, by 100 Pa",
+        "Boat B, by 100 Pa",
+        "Boat B, by 1400 Pa",
+        "Both are equal in pressure"
+      ],
+      "answer": 1,
+      "explanation": "A: 5 × 700 = 3500 N ÷ 7 m² = 500 Pa. B: 3 × 700 = 2100 N ÷ 3.5 m² = 600 Pa. B is higher by 100 Pa even though A carries more total weight.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Units and Pressure Calculations",
+      "question": "In the two-boat problem, boat A carries the larger total weight (3500 N) yet has the lower pressure. This happens because",
+      "options": [
+        "its weight is spread over twice the base area of boat B",
+        "its persons sit nearer the centre, reducing the pressure",
+        "pressure depends on the number of persons, not weight",
+        "water pushes up more strongly on a larger boat base"
+      ],
+      "answer": 0,
+      "explanation": "Pressure = force ÷ area. Boat A's base (7 m²) is double boat B's (3.5 m²), so even with more force its pressure (500 Pa) is below B's (600 Pa).",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q22",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Units and Pressure Calculations",
+      "question": "Since the SI unit of force is the newton and that of area is the square metre, the SI unit of pressure is newton per square metre.",
+      "answer": true,
+      "explanation": "Pressure = force ÷ area, so its unit is N/m², which is also called the pascal.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q23",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Units and Pressure Calculations",
+      "question": "One hectopascal is equal to 1000 pascal.",
+      "answer": false,
+      "explanation": "Hecto- means 100, so 1 hPa = 100 Pa (the same as 1 millibar).",
+      "source": "text:page8"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Units and Pressure Calculations",
+      "question": "The chapter says the air column above a 15 cm × 15 cm area pushes with about 2250 N. The atmospheric pressure this implies is roughly",
+      "options": [
+        "10000 Pa",
+        "100000 Pa",
+        "2250 Pa",
+        "50 Pa"
+      ],
+      "answer": 1,
+      "explanation": "Area = 0.15 m × 0.15 m = 0.0225 m². Pressure = 2250 N ÷ 0.0225 m² = 100000 Pa (about 1000 mb). Using 225 cm² without converting gives a wrong answer.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q25",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Units and Pressure Calculations",
+      "question": "Which of these unit statements are correct? (Select all that apply.)",
+      "options": [
+        "1 Pa = 1 N/m²",
+        "1 mb = 100 Pa",
+        "1 hPa = 10 mb",
+        "1 mb = 100 hPa"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "A pascal is one newton per square metre and a millibar is 100 Pa. Since 1 hPa is also 100 Pa, 1 hPa = 1 mb — not 10 mb or 1/100 mb.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Units and Pressure Calculations",
+      "question": "What force must act on an area of 4 m² to produce a pressure of 50 Pa?",
+      "options": [
+        "54 N",
+        "12.5 N",
+        "200 N",
+        "0.08 N"
+      ],
+      "answer": 2,
+      "explanation": "Force = pressure × area = 50 Pa × 4 m² = 200 N. Dividing instead of multiplying gives 12.5 N.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Units and Pressure Calculations",
+      "question": "A force of 2250 N acts on 15 cm × 15 cm. If the same force acted on 30 cm × 30 cm instead, the pressure would be",
+      "options": [
+        "four times as much",
+        "half as much",
+        "twice as much",
+        "one quarter as much"
+      ],
+      "answer": 3,
+      "explanation": "Doubling both sides makes the area four times larger (0.09 m² instead of 0.0225 m²), so the pressure falls to one quarter. 'Half' is the tempting slip.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pressure in Everyday Tools",
+      "question": "It is easier to drive an iron nail into wood by its pointed end because",
+      "options": [
+        "the pointed tip is heavier and so pushes down harder",
+        "the small area of the tip produces a very high pressure",
+        "the tip is smoother and so has less friction with wood",
+        "the tip is made of a harder metal than the head of the nail"
+      ],
+      "answer": 1,
+      "explanation": "The same hammer force acting on the tiny tip area gives a very large pressure, which pierces the wood. The head, with a large area, gives low pressure.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pressure in Everyday Tools",
+      "question": "Why does the sharp edge of a knife cut an apple more easily than the blunt edge?",
+      "options": [
+        "The sharp edge has more friction with the skin of the apple",
+        "The sharp edge applies a bigger force than the blunt edge",
+        "The sharp edge is heavier, so gravity helps it cut downwards",
+        "The sharp edge has a smaller area, so the pressure is greater"
+      ],
+      "answer": 3,
+      "explanation": "The force applied by the hand is the same; a thin edge concentrates it on a very small area, so the pressure is high enough to cut.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pressure in Everyday Tools",
+      "question": "A boy lies horizontally on a loose sand bed and then stands vertically on it. In which case does he sink more, and why?",
+      "options": [
+        "Both equally — his weight is the same, so the pressure is the same",
+        "Lying — his whole body pushes on the sand, so the total force is larger",
+        "Standing — his weight acts on a much smaller area, so pressure is higher",
+        "Lying — the sand grains spread out more easily under a long body"
+      ],
+      "answer": 2,
+      "explanation": "The weight is the same in both cases. Standing puts it on only the area of the feet, so pressure is much higher and he sinks more. Lying spreads it over a large area.",
+      "source": "exercise:Q3"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pressure in Everyday Tools",
+      "question": "Which statement about the nail-and-knife activities in Table 6.1 is NOT correct?",
+      "options": [
+        "The blunt knife edge is easier to cut with because it is wider",
+        "The pointed end of a nail is easier to drive in than its head",
+        "A smaller area for the same force gives a higher pressure",
+        "The sharp edge of a knife cuts an apple more easily than the blunt edge"
+      ],
+      "answer": 0,
+      "explanation": "A blunt (wider) edge spreads the force over more area, giving lower pressure — so it is HARDER to cut with. The other statements match the activity conclusions.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q32",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Pressure in Everyday Tools",
+      "question": "A blunt knife needs more effort than a sharp one because its wider edge spreads the force over a larger area, lowering the pressure.",
+      "answer": true,
+      "explanation": "Pressure = force ÷ area. A wider edge means more area and so less pressure for the same force, making cutting difficult.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q33",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Pressure in Everyday Tools",
+      "question": "Driving a nail by its flat head is easier than by its pointed end because the head has more area.",
+      "answer": false,
+      "explanation": "More area means LESS pressure for the same force, so the head is harder to drive in. The pointed end, with tiny area, gives high pressure.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pressure in Everyday Tools",
+      "question": "Which design feature INCREASES the pressure produced by a given force?",
+      "options": [
+        "The round cloth under a head load",
+        "The broad handle of a water bucket",
+        "The broad strap of a school bag",
+        "The pointed tip of an iron nail"
+      ],
+      "answer": 3,
+      "explanation": "Only the pointed tip reduces the area, which raises pressure. The other three enlarge the area to reduce pressure.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pressure in Everyday Tools",
+      "question": "A drawing pin has a flat head on the thumb side and a sharp point on the board side. Pressing it, the force on both ends is the same. Why does only the point go in?",
+      "options": [
+        "The head is made of plastic, which cannot cut into the thumb",
+        "The thumb pushes with a smaller force than the board pushes back",
+        "The point has tiny area, so its pressure on the board is very high",
+        "The board is softer than the thumb and so gets pierced first"
+      ],
+      "answer": 2,
+      "explanation": "Same force, two very different areas: the broad head gives low pressure on the thumb; the sharp point gives huge pressure on the board, so it pierces.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q36",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Pressure in Everyday Tools",
+      "question": "Which of these work by DECREASING area to INCREASE pressure? (Select all that apply.)",
+      "options": [
+        "A sharp knife edge",
+        "The pointed end of a nail",
+        "Broad bag straps",
+        "A cloth ring under a pot"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Knife edges and nail points shrink the area so the same force gives high pressure. Straps and cloth rings do the reverse.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pressure in Everyday Tools",
+      "question": "What single conclusion do the observations in Table 6.1 (nail and knife) lead to?",
+      "options": [
+        "A larger area for a given force gives higher pressure, making some tasks easier",
+        "A smaller area for a given force gives higher pressure, making some tasks easier",
+        "Heavier tools always do a task more easily than lighter tools",
+        "Sharp tools apply a larger force on an object than blunt tools"
+      ],
+      "answer": 1,
+      "explanation": "The chapter concludes that when the area over which a force acts is smaller, the pressure is higher, so driving a nail by its tip or cutting with a sharp edge is easier.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pressure in Everyday Tools",
+      "question": "The standing boy sinks more into sand than the lying boy. If he now stands on one foot, what happens compared with standing on two?",
+      "options": [
+        "He sinks even more, since the same weight acts on half the area",
+        "He sinks the same, since his weight has not changed at all",
+        "He sinks less, since one foot pushes the sand grains apart less",
+        "He sinks even more, since standing on one foot increases his weight"
+      ],
+      "answer": 0,
+      "explanation": "His weight is unchanged, but the contact area halves, so the pressure doubles and he sinks further.",
+      "source": "exercise:Q3"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pressure in Liquids",
+      "question": "In Activity 6.1, two pipes of different diameters with balloons at the bottom are filled with water to the same height. What is observed?",
+      "options": [
+        "The balloon on the narrow pipe bulges much more",
+        "The balloon on the broad pipe bulges much more",
+        "Both balloons bulge to the same extent",
+        "Neither balloon bulges because water is light"
+      ],
+      "answer": 2,
+      "explanation": "Equal water-column heights produce equal bulges despite different diameters — showing that pressure depends on the height of the column.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pressure in Liquids",
+      "question": "In Activity 6.1 the broad pipe holds more water than the narrow pipe, yet both balloons bulge equally. What does this tell us?",
+      "options": [
+        "The weight of water is not what decides the bulge; the column height is",
+        "The weight of water decides the bulge, and the two weights happen to be equal",
+        "Balloons stretch by a fixed amount no matter what presses on them",
+        "The narrow pipe squeezes the water, making up for its smaller weight"
+      ],
+      "answer": 0,
+      "explanation": "Since the weights differ but the bulges are equal, weight cannot be the cause. The pressure exerted by the water column, which depends on its height, is.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pressure in Liquids",
+      "question": "More water is poured into one pipe in Activity 6.1. What happens to the balloon at its bottom?",
+      "options": [
+        "It bulges more, because the water becomes heavier per litre",
+        "It bulges less, because the extra water presses the sides more",
+        "It stays the same, because the pipe's diameter has not changed",
+        "It bulges more, because the pressure rises with column height"
+      ],
+      "answer": 3,
+      "explanation": "The bulge increases as the water column grows taller: pressure at the bottom of a liquid rises with the height of the column.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pressure in Liquids",
+      "question": "Why are overhead water tanks placed at a height?",
+      "options": [
+        "Water at a height stays cooler and cleaner than water at ground level",
+        "A taller water column gives more pressure, so taps give a good stream",
+        "A high tank holds more water than the same tank kept on the ground",
+        "Water at a height is lighter, so it flows through pipes more easily"
+      ],
+      "answer": 1,
+      "explanation": "The pressure exerted by a liquid depends on the height of its column. A high tank gives a tall column and hence higher pressure at the taps.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pressure in Liquids",
+      "question": "A tank is on the top floor of a three-storeyed building. You live on the second floor; your friend lives on the first floor. Who gets the more powerful tap stream?",
+      "options": [
+        "Your friend, since the water column above the first floor is taller",
+        "You, since the second floor is closer to the tank's outlet pipe",
+        "Both equally, since the same tank supplies both the floors",
+        "You, since less pipe length means less loss of pressure"
+      ],
+      "answer": 0,
+      "explanation": "Pressure depends on the height of the water column above the tap. The first floor is lower, so its column is taller and its pressure is greater.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pressure in Liquids",
+      "question": "A tank sits on a roof at height H. To get water with MORE pressure on the ground floor, one has to",
+      "options": [
+        "decrease the height H at which the tank is placed",
+        "increase the height H at which the tank is placed",
+        "replace it with a tank of the same height holding more water",
+        "replace it with a tank of the same height holding less water"
+      ],
+      "answer": 1,
+      "explanation": "Liquid pressure depends on the height of the column, not on how much water the tank holds. Raising H increases pressure at the ground-floor tap.",
+      "source": "exercise:Q1(iii)"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pressure in Liquids",
+      "question": "Someone suggests replacing a rooftop tank with a wider tank of the same height to get stronger tap pressure. Why will this NOT work?",
+      "options": [
+        "A wider tank is heavier and would press the water back up the pipes",
+        "A wider tank spreads the water out, so the pressure at the taps falls",
+        "Pressure depends on the water-column height, not on the tank's width or volume",
+        "A wider tank holds more water, so the pressure would be too high to use"
+      ],
+      "answer": 2,
+      "explanation": "The bulging-balloon activity showed that only the height of the water column matters. Same height means same pressure, however wide the tank.",
+      "source": "exercise:Q1(iii)"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pressure in Liquids",
+      "question": "In Activity 6.2, water flows out of holes made on the SIDES of a bottle near its bottom. This shows that",
+      "options": [
+        "water always flows upward when a container has holes",
+        "liquids exert pressure only at the bottom of their container",
+        "air pushes the water out through the holes in the bottle",
+        "liquids exert pressure on the walls of their container"
+      ],
+      "answer": 3,
+      "explanation": "Water spurting sideways shows that the liquid pushes on the sides of the container — liquids exert pressure in all directions, not just downward.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pressure in Liquids",
+      "question": "Predict: a bottle has three holes, one near the bottom, one in the middle and one near the top. When filled, which jet travels farthest?",
+      "options": [
+        "The jet from the hole near the top",
+        "The jet from the hole near the bottom",
+        "The jet from the hole in the middle",
+        "All three jets travel equally far"
+      ],
+      "answer": 1,
+      "explanation": "Liquid pressure increases with the height of the water column above a point. The lowest hole has the tallest column above it, so the highest pressure and the strongest jet.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pressure in Liquids",
+      "question": "Vessels A and B are filled with water to the same level; B has a broader base than A. P is the pressure and F the force of water at the base. Then",
+      "options": [
+        "P_A > P_B and F_A > F_B",
+        "P_A = P_B and F_A = F_B",
+        "P_A < P_B and F_A = F_B",
+        "P_A = P_B and F_A < F_B"
+      ],
+      "answer": 3,
+      "explanation": "Same height ⇒ same pressure at the base. Force = pressure × area, and B's base is larger, so the force on B's base is greater.",
+      "source": "exercise:Q1(iv)"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pressure in Liquids",
+      "question": "Three vessels P, Q and R of different shapes are connected at their bases. Water is poured into R and pouring is stopped. The water level will be",
+      "options": [
+        "highest in vessel P",
+        "highest in vessel R",
+        "equal in all three vessels",
+        "highest in vessel Q"
+      ],
+      "answer": 2,
+      "explanation": "Liquid pressure depends only on column height. Water flows between the connected vessels until the pressure (and hence the level) is the same in all of them, whatever their shapes.",
+      "source": "exercise:Q1(i)"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pressure in Liquids",
+      "question": "Why is the base of a dam made much broader than its top?",
+      "options": [
+        "The horizontal water pressure is very large near the bottom",
+        "The water is coldest near the bottom and expands the wall",
+        "More water is stored near the top than near the bottom",
+        "The top must be thin to let excess water flow over it"
+      ],
+      "answer": 0,
+      "explanation": "Water exerts pressure horizontally on the dam wall, and this pressure is greatest near the bottom where the column above is tallest. A broad base withstands it.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q51",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Pressure in Liquids",
+      "question": "Liquids exert pressure only at the bottom of a container.",
+      "answer": false,
+      "explanation": "Activity 6.2 shows water spurting from side holes: liquids exert pressure on the sides too — in fact in all directions.",
+      "source": "exercise:Q2(ii)"
+    },
+    {
+      "id": "q52",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Pressure in Liquids",
+      "question": "In a dam, the horizontal pressure of the stored water on the wall is greatest near the bottom.",
+      "answer": true,
+      "explanation": "The pressure at any point depends on the height of water above it, so it is largest near the base — which is why the base is built broader.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q53",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Pressure in Liquids",
+      "question": "Two pipes of different diameters filled to the same height exert different pressures at the bottom, because they hold different weights of water.",
+      "answer": false,
+      "explanation": "Activity 6.1 shows equal bulges for equal heights despite different weights of water. Liquid pressure depends on the column height, not the weight held.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pressure in Liquids",
+      "question": "Which statement about pressure in liquids is NOT correct?",
+      "options": [
+        "Two balloons under equal water columns bulge equally even if the pipes differ in width",
+        "The pressure at the bottom of a liquid column rises as the column gets taller",
+        "Water in a pipe pushes on the pipe walls, which is why leaks spurt out sideways",
+        "A wider column of water gives more pressure at its base than a narrower one of the same height"
+      ],
+      "answer": 3,
+      "explanation": "Width does not matter — only the height of the column. The remaining three statements are exactly what Activities 6.1 and 6.2 demonstrate.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q55",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Pressure in Liquids",
+      "question": "Which observations show that liquids push on the SIDES of their container? (Select all that apply.)",
+      "options": [
+        "Water spurting from holes made in the side of a bottle",
+        "Water fountaining out of a leaking joint in a pipe",
+        "A balloon bulging at the bottom of a water-filled pipe",
+        "A tap giving a strong stream from a rooftop tank",
+        "A bag's narrow strap hurting the shoulder"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Side holes and pipe leaks show sideways (wall) pressure. The balloon and tap examples show pressure at the bottom due to column height, and the strap is about solids.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q56",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Pressure in Liquids",
+      "question": "Which statements about overhead water tanks are correct? (Select all that apply.)",
+      "options": [
+        "A taller water column gives more pressure at the taps",
+        "A wider tank at the same height gives more pressure at the taps",
+        "Lower floors receive a stronger stream than higher floors",
+        "The height of the tank does not affect the pressure at the taps"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Liquid pressure depends on column height, so raising the tank or being on a lower floor increases tap pressure. Tank width or volume makes no difference.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Atmosphere and Atmospheric Pressure",
+      "question": "The envelope of air surrounding the Earth is called the",
+      "options": [
+        "stratus layer",
+        "hydrosphere",
+        "atmosphere",
+        "troposphere"
+      ],
+      "answer": 2,
+      "explanation": "The chapter calls the envelope of air around the Earth the atmosphere; it extends many kilometres above the surface.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Atmosphere and Atmospheric Pressure",
+      "question": "Which gases does the chapter list as present in atmospheric air?",
+      "options": [
+        "Nitrogen, hydrogen, helium and ozone",
+        "Nitrogen, oxygen, argon and carbon dioxide",
+        "Oxygen, chlorine, neon and water vapour",
+        "Carbon monoxide, oxygen, argon and methane"
+      ],
+      "answer": 1,
+      "explanation": "Atmospheric air contains nitrogen, oxygen, argon, carbon dioxide and other gases in small quantities.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Atmosphere and Atmospheric Pressure",
+      "question": "In Activity 6.3, lifting the inverted paper plate is harder when it is covered with the UNFOLDED chart paper. Why?",
+      "options": [
+        "Air pushes on a larger area of sheet, so the total force on it is bigger",
+        "The unfolded sheet is heavier, so more effort is needed to lift it",
+        "The unfolded sheet sticks to the plate because of static charges",
+        "The hole for the stick lets air escape faster from under the plate"
+      ],
+      "answer": 0,
+      "explanation": "The weight of the sheet is unchanged. The larger area means air exerts a larger total force on the sheet, so more effort is needed — showing air exerts pressure.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Atmosphere and Atmospheric Pressure",
+      "question": "In Activity 6.3, which quantity is deliberately CHANGED and which is kept the SAME between the two trials?",
+      "options": [
+        "Changed: size of the paper plate; same: length of the stick",
+        "Changed: weight of the sheet; same: area of the covering sheet",
+        "Changed: area of the covering sheet; same: weight of the sheet",
+        "Changed: material of the sheet; same: area of the sheet"
+      ],
+      "answer": 2,
+      "explanation": "The same chart paper is used folded (small area) and unfolded (large area), so its weight is identical and only the exposed area differs — a fair test of air pressure.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Atmosphere and Atmospheric Pressure",
+      "question": "The pressure exerted by the air around us is called",
+      "options": [
+        "atmospheric pressure",
+        "liquid pressure",
+        "wind pressure",
+        "static pressure"
+      ],
+      "answer": 0,
+      "explanation": "Air exerts pressure on all objects; this pressure of the surrounding air is known as atmospheric pressure.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Atmosphere and Atmospheric Pressure",
+      "question": "A balloon expands in ALL directions when you blow into it. What does this show about the air inside?",
+      "options": [
+        "Air cools inside the balloon and spreads out evenly",
+        "Air inside the balloon is heavier than the air outside it",
+        "Air pushes only upward, stretching the top of the balloon",
+        "Air exerts pressure in all directions on the balloon walls"
+      ],
+      "answer": 3,
+      "explanation": "The inflating air pushes on every part of the balloon wall, so the balloon grows in all directions — air exerts pressure in all directions.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Atmosphere and Atmospheric Pressure",
+      "question": "A rubber sucker pressed on a smooth flat surface sticks because",
+      "options": [
+        "the rubber becomes sticky when it is pressed firmly on a surface",
+        "outside air pressure is higher than the reduced pressure inside the cup",
+        "the surface attracts the rubber through a small electric charge",
+        "air trapped inside the cup pushes the sucker against the surface"
+      ],
+      "answer": 1,
+      "explanation": "Pressing pushes most of the air out of the cup, lowering the pressure inside. The higher atmospheric pressure outside then holds the sucker to the surface.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Atmosphere and Atmospheric Pressure",
+      "question": "Sucker M is pressed on a smooth flat surface and an identical sucker N on a rough surface. What happens?",
+      "options": [
+        "M sticks but N does not",
+        "Both M and N stick",
+        "Neither M nor N sticks",
+        "N sticks but M does not"
+      ],
+      "answer": 0,
+      "explanation": "A rough surface lets air leak back under the cup, so the pressure inside is not kept low and N fails to stick. On the smooth surface air stays out, so M sticks.",
+      "source": "exercise:Q1(ii)"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Atmosphere and Atmospheric Pressure",
+      "question": "To pull a stuck rubber sucker off a surface, the applied force must",
+      "options": [
+        "overcome the weight of the air column directly above the sucker",
+        "overcome the difference between outside and inside air pressure",
+        "exceed the force of gravity acting on the rubber of the sucker",
+        "be larger than the friction between the rubber and the surface"
+      ],
+      "answer": 1,
+      "explanation": "The sucker is held by the pressure difference between the atmosphere outside and the low-pressure air inside; the pulling force must beat that difference.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Atmosphere and Atmospheric Pressure",
+      "question": "The force of the atmospheric air column over a 15 cm × 15 cm area is about",
+      "options": [
+        "22.5 N, like the weight of a 225 kg object",
+        "225 N, like the weight of a 22.5 kg object",
+        "2250 N, like the weight of a 225 kg object",
+        "2250 N, like the weight of a 2250 kg object"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says the force over 15 cm × 15 cm is nearly equal to the force of gravity on a 225 kg mass, i.e. about 2250 N.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Atmosphere and Atmospheric Pressure",
+      "question": "Why are we not crushed by the huge atmospheric pressure acting on us?",
+      "options": [
+        "The atmosphere is too thin near the ground to press on us much",
+        "Our skin is strong enough to resist the whole weight of the air column",
+        "Air pressure acts only on the top of our heads, which are hard",
+        "The pressure inside our body equals the atmospheric pressure and balances it"
+      ],
+      "answer": 3,
+      "explanation": "The movement of fluids and gases in our tissues and organs creates an internal pressure equal to atmospheric pressure, so the outside push is balanced.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q68",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Atmosphere and Atmospheric Pressure",
+      "question": "The atmosphere extends only a few hundred metres above the surface of the Earth.",
+      "answer": false,
+      "explanation": "The chapter states that the atmosphere extends up to many kilometres above the Earth's surface.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q69",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Atmosphere and Atmospheric Pressure",
+      "question": "A rubber sucker sticks to a surface because the air pressure outside it is higher than the air pressure inside it.",
+      "answer": true,
+      "explanation": "Pressing expels most of the air inside, lowering the inside pressure; the greater outside atmospheric pressure then holds the sucker down.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q70",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Atmosphere and Atmospheric Pressure",
+      "question": "Air exerts pressure only downwards, on the upper surfaces of objects.",
+      "answer": false,
+      "explanation": "Air exerts pressure in all directions, which is why an inflating balloon expands in every direction.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q71",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Atmosphere and Atmospheric Pressure",
+      "question": "Which statements about atmospheric pressure are correct? (Select all that apply.)",
+      "options": [
+        "It acts on all objects around us",
+        "It is balanced by the pressure inside our body",
+        "It acts only on the upper surface of objects",
+        "It is caused by the weight of water in pipes"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Air exerts pressure on all objects and in all directions; our internal body pressure balances it. Water pressure in pipes is liquid pressure, not atmospheric.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Atmosphere and Atmospheric Pressure",
+      "question": "Predict: in Activity 6.3, the sheet is folded once (half the area) instead of twice (quarter area). Compared with the twice-folded sheet, lifting will be",
+      "options": [
+        "easier, because the sheet is now lighter",
+        "harder, because air acts on a bigger sheet area",
+        "the same, because the sheet's weight is unchanged",
+        "easier, because one fold lets air leak under it"
+      ],
+      "answer": 1,
+      "explanation": "Effort rises with the area the air pushes on. Half the area is more than a quarter, so lifting is harder than with the twice-folded sheet (but easier than fully unfolded).",
+      "source": "text:page7"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Air Flow and Formation of Wind",
+      "question": "In Activity 6.5, an inflated balloon is joined by a straw to an uninflated one. What happens?",
+      "options": [
+        "Both balloons deflate completely as air escapes through the straw",
+        "Air flows from the small balloon into the big one, making it bigger",
+        "Nothing happens because the straw is too narrow for air to pass",
+        "Air flows into the uninflated balloon until both are nearly equal in size"
+      ],
+      "answer": 3,
+      "explanation": "Air moves from the higher-pressure inflated balloon to the lower-pressure uninflated one until the pressures (and sizes) are almost equal.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Air Flow and Formation of Wind",
+      "question": "Why does the air flow between the two balloons in Activity 6.5 eventually STOP?",
+      "options": [
+        "The straw becomes blocked by moisture from breath",
+        "The inflated balloon has released all of its air",
+        "The air pressure in both balloons becomes equal",
+        "The rubber of the smaller balloon cannot stretch further"
+      ],
+      "answer": 2,
+      "explanation": "Air flows only while there is a pressure difference. When the pressures become equal, the flow stops and both balloons are about the same size.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Air Flow and Formation of Wind",
+      "question": "Air moves from a region of ______ pressure to a region of ______ pressure.",
+      "options": [
+        "high; low",
+        "low; high",
+        "warm; cold",
+        "equal; unequal"
+      ],
+      "answer": 0,
+      "explanation": "The balloon activity, the punctured tube and the open balloon all show that air moves from high pressure towards low pressure.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Air Flow and Formation of Wind",
+      "question": "If we could measure the speed of the escaping air in Activity 6.5, we would find that it is higher when",
+      "options": [
+        "the room temperature is lower than usual",
+        "the two balloons are already almost equal in size",
+        "the straw joining the balloons is made longer",
+        "the pressure difference between the balloons is larger"
+      ],
+      "answer": 3,
+      "explanation": "The chapter says the speed of air flow is higher if the pressure difference is higher. Near-equal sizes mean a small difference and slow flow.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Air Flow and Formation of Wind",
+      "question": "When a bicycle tube is punctured, air escapes and the tube collapses. This is because air",
+      "options": [
+        "is pulled out by the weight of the rubber tube itself",
+        "moves from the low pressure inside to the higher pressure outside",
+        "moves from the high pressure inside to the lower pressure outside",
+        "becomes heavier inside the tube and sinks out of the hole"
+      ],
+      "answer": 2,
+      "explanation": "The air inside the tube is at higher pressure than the atmosphere; it flows out towards the low-pressure region until the tube collapses.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Air Flow and Formation of Wind",
+      "question": "Which activity best demonstrates that air flows from high to low pressure?",
+      "options": [
+        "Pressing a rubber sucker on a smooth surface and trying to pull it off",
+        "Joining an inflated and an uninflated balloon with a straw and watching the sizes change",
+        "Lifting an inverted paper plate covered with folded and unfolded sheets",
+        "Filling two pipes of different widths with water to the same height"
+      ],
+      "answer": 1,
+      "explanation": "The balloon-and-straw activity shows air moving from the higher-pressure (inflated) balloon to the lower-pressure one. The others demonstrate atmospheric or liquid pressure.",
+      "source": "exercise:Q10"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Air Flow and Formation of Wind",
+      "question": "Which statement about Activity 6.5 is NOT correct?",
+      "options": [
+        "Air keeps flowing until the inflated balloon is completely empty",
+        "Air flows because the inflated balloon has higher pressure",
+        "The flow stops when both balloons reach the same pressure",
+        "At the end both balloons are almost the same size"
+      ],
+      "answer": 0,
+      "explanation": "The flow stops when pressures become equal, at which point both balloons are of similar size — the inflated one never empties completely.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q80",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Air Flow and Formation of Wind",
+      "question": "Air flows from a region of higher pressure to a region of lower pressure.",
+      "answer": true,
+      "explanation": "This is the basic rule shown by the balloon-and-straw activity and the cause of winds.",
+      "source": "exercise:Q2(i)"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Air Flow and Formation of Wind",
+      "question": "What is the main cause of winds blowing?",
+      "options": [
+        "The spinning of clouds high above the ground",
+        "The pull of the Moon on the atmosphere",
+        "Differences in air pressure between regions",
+        "Differences in the amount of dust in the air"
+      ],
+      "answer": 2,
+      "explanation": "Winds are air moving from high-pressure to low-pressure regions; pressure differences (often from uneven heating) drive them.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Air Flow and Formation of Wind",
+      "question": "Predict: two balloons inflated to exactly the SAME size are joined by a straw. What will happen?",
+      "options": [
+        "No air will flow, since there is no pressure difference",
+        "Air will flow back and forth until both balloons burst",
+        "Both balloons will slowly shrink as air escapes through the straw",
+        "Air will flow from the left balloon to the right one"
+      ],
+      "answer": 0,
+      "explanation": "Air moves only when there is a pressure difference. Equal balloons have equal pressure, so there is no flow.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q83",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Air Flow and Formation of Wind",
+      "question": "Which of these are examples of AIR moving from high to low pressure? (Select all that apply.)",
+      "options": [
+        "Air leaving an open inflated balloon",
+        "Water flowing from a tap fed by an overhead tank",
+        "A punctured bicycle tube collapsing",
+        "A balloon bulging at the bottom of a water pipe"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "The open balloon and punctured tube both let high-pressure air escape to the lower-pressure surroundings. The other two are about liquid pressure.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Air Flow and Formation of Wind",
+      "question": "Fig. 6.19 shows pressures of 994 mb, 996 mb, 998 mb and 1008 mb around a cyclone. In which direction do the winds blow?",
+      "options": [
+        "From 996 mb to 998 mb and then on to 1008 mb",
+        "From the 994 mb region towards the 1008 mb region",
+        "Only along the 998 mb line, neither inward nor outward",
+        "From the 1008 mb region towards the 994 mb region"
+      ],
+      "answer": 3,
+      "explanation": "Air moves from high to low pressure, so winds blow from the 1008 mb outer region inward towards the 994 mb low-pressure centre.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sea Breeze and Land Breeze",
+      "question": "During the day, a sea breeze blows from the sea to the land because",
+      "options": [
+        "the sea heats faster, so warm air above it rises and creates low pressure",
+        "land heats faster, so warm air above it rises and creates low pressure",
+        "the land cools faster, so air above it sinks and creates high pressure",
+        "waves push the air above the sea towards the land all day long"
+      ],
+      "answer": 1,
+      "explanation": "Land heats faster than water. The warm, lighter air over land rises, forming a low-pressure region; air from the higher-pressure sea moves in as a sea breeze.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sea Breeze and Land Breeze",
+      "question": "At night the wind blows from the land to the sea. This is called a",
+      "options": [
+        "land breeze",
+        "sea breeze",
+        "cyclone",
+        "mango shower"
+      ],
+      "answer": 0,
+      "explanation": "At night the water is warmer than the land, so low pressure forms over the sea and air flows from land to sea — a land breeze.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sea Breeze and Land Breeze",
+      "question": "Trees along a sea coast are seen bending towards side A on a summer afternoon. Which side is the land, and why?",
+      "options": [
+        "B — the afternoon sea breeze blows from land to sea, bending trees seaward",
+        "A — the afternoon sea breeze blows from sea to land, bending trees landward",
+        "A — the land breeze blows from the sea towards the land in the afternoon",
+        "B — trees always bend away from the land because the land is hotter"
+      ],
+      "answer": 1,
+      "explanation": "In the afternoon the land is hotter, so low pressure forms over it and the sea breeze blows from the sea to the land. Trees bend in the wind's direction — towards the land, side A.",
+      "source": "exercise:Q9"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sea Breeze and Land Breeze",
+      "question": "The same coastal trees are observed late at night. Towards which side would the wind now push them?",
+      "options": [
+        "Neither side, because there is never any wind at night on a coast",
+        "Towards the land, because a sea breeze blows all day and all night",
+        "Towards the sea, because a land breeze now blows from land to sea",
+        "Towards the land, because the land is warmer than the sea at night"
+      ],
+      "answer": 2,
+      "explanation": "At night the land cools faster than the water, so low pressure forms over the warmer sea and the land breeze blows from land to sea.",
+      "source": "exercise:Q9"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sea Breeze and Land Breeze",
+      "question": "Put the sea-breeze steps in the correct order: (1) air over land rises, (2) land heats faster than sea, (3) low pressure forms over land, (4) air from the sea moves in.",
+      "options": [
+        "4 → 2 → 1 → 3",
+        "1 → 2 → 3 → 4",
+        "2 → 3 → 1 → 4",
+        "2 → 1 → 3 → 4"
+      ],
+      "answer": 3,
+      "explanation": "Heating comes first; the warm, lighter air rises; this leaves low pressure over the land; air from the high-pressure sea then flows in.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q90",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Sea Breeze and Land Breeze",
+      "question": "At night the water is warmer than the land, so a low-pressure area develops above the sea.",
+      "answer": true,
+      "explanation": "Land cools faster at night; the warmer sea heats the air above it, which rises and leaves low pressure over the sea.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q91",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Sea Breeze and Land Breeze",
+      "question": "During the day, a sea breeze blows from the land towards the sea.",
+      "answer": false,
+      "explanation": "A sea breeze blows from the SEA to the LAND during the day, because low pressure forms over the heated land.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sea Breeze and Land Breeze",
+      "question": "The land breeze and sea breeze are mainly due to",
+      "options": [
+        "the tides raising and lowering the sea level",
+        "pressure differences over the land and the sea",
+        "the Earth's rotation spinning the coastal air",
+        "salt in sea air making it heavier than land air"
+      ],
+      "answer": 1,
+      "explanation": "Uneven heating of land and sea produces pressure differences, and air moves from high to low pressure — giving sea and land breezes.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q93",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Sea Breeze and Land Breeze",
+      "question": "Which statements about the SEA breeze are correct? (Select all that apply.)",
+      "options": [
+        "It occurs during the day",
+        "Warm air over the land rises to create low pressure",
+        "It blows from the land towards the sea",
+        "It is caused by the sea being warmer than the land"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The sea breeze is a daytime wind from sea to land, driven by warm air rising over the hotter land. The last two describe the night-time land breeze.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sea Breeze and Land Breeze",
+      "question": "Suppose on some day the land and the sea were at exactly the same temperature all afternoon. What would you expect?",
+      "options": [
+        "A cyclone, since equal temperatures make air spin quickly",
+        "A stronger sea breeze, since equal heating adds more air",
+        "A land breeze, since the sea would then be relatively warmer",
+        "Little or no breeze, since no pressure difference would form"
+      ],
+      "answer": 3,
+      "explanation": "Breezes need a pressure difference created by uneven heating. Equal temperatures mean equal pressures, so no breeze forms.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sea Breeze and Land Breeze",
+      "question": "Warm air rises because, compared with cooler air, it is",
+      "options": [
+        "wetter",
+        "heavier",
+        "lighter",
+        "saltier"
+      ],
+      "answer": 2,
+      "explanation": "The chapter explains that air above heated land becomes warmer and lighter, so it rises and creates a low-pressure area.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "High-Speed Winds and Low Pressure",
+      "question": "In Activity 6.6, air is blown into the narrow gap between two hanging balloons. What happens?",
+      "options": [
+        "The balloons move towards each other",
+        "The balloons move away from each other",
+        "The balloons spin around their strings",
+        "The balloons rise upwards on their strings"
+      ],
+      "answer": 0,
+      "explanation": "Blowing between the balloons creates low pressure in the gap; the higher pressure outside pushes them together.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "High-Speed Winds and Low Pressure",
+      "question": "Why do the two balloons move together when you blow between them?",
+      "options": [
+        "The strings twist and pull the balloons towards each other",
+        "The blown air pushes the balloons sideways and they bounce back together",
+        "Breath is warm and makes the balloons expand until they touch",
+        "Fast air between them lowers the pressure there, and outside air pushes them in"
+      ],
+      "answer": 3,
+      "explanation": "High-speed air is accompanied by reduced pressure. With low pressure in the gap and normal pressure outside, the balloons are pushed towards each other.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "High-Speed Winds and Low Pressure",
+      "question": "If you blow HARDER between the balloons in Activity 6.6, what changes?",
+      "options": [
+        "They move apart, since harder blowing raises the pressure between them",
+        "They stop moving, since the fast air now pushes them apart",
+        "They approach each other faster, since the pressure drop is bigger",
+        "Nothing changes, since the gap between them is fixed by the stick"
+      ],
+      "answer": 2,
+      "explanation": "Faster air means an even lower pressure between the balloons, so the push from the outside air is larger and they come together more quickly.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "High-Speed Winds and Low Pressure",
+      "question": "What do we infer from the two-balloon activity?",
+      "options": [
+        "High-speed winds are accompanied by increased air pressure",
+        "High-speed winds are accompanied by reduced air pressure",
+        "Balloons always attract each other when they are inflated",
+        "Air pressure does not depend on the speed of the wind"
+      ],
+      "answer": 1,
+      "explanation": "The chapter concludes that high-speed winds are accompanied by a reduced air pressure — the basis for understanding how storms blow roofs away.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "High-Speed Winds and Low Pressure",
+      "question": "Why can high-speed winds blow the roof off a house?",
+      "options": [
+        "Fast wind above lowers the pressure above the roof, while pressure below stays higher",
+        "Fast wind presses down on the roof so hard that the walls give way",
+        "Fast wind heats the roof, making the metal sheets expand and lift",
+        "Fast wind carries dust that piles up on the roof and weighs it down"
+      ],
+      "answer": 0,
+      "explanation": "Over the roof the fast wind creates low pressure; inside the house the pressure is higher. If the difference is large and the roof weak, the roof is pushed up and away.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "High-Speed Winds and Low Pressure",
+      "question": "Why is it safer to keep doors and windows OPEN during a storm with high-speed winds?",
+      "options": [
+        "Open windows let the wind push the roof down more firmly onto the walls",
+        "Open doors let the heavy rain flow out instead of collecting on the floor",
+        "Wind passing through the house reduces the pressure difference between inside and above the roof",
+        "Open doors allow people to escape quickly when the roof blows away"
+      ],
+      "answer": 2,
+      "explanation": "When the same wind moves through the house as well as over the roof, the pressure inside drops too, reducing the difference that would lift the roof.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "High-Speed Winds and Low Pressure",
+      "question": "Which statement about storms and roofs is NOT correct?",
+      "options": [
+        "Roofs are blown off because the wind pushes down on them with great force",
+        "Low pressure forms above a roof when fast wind blows over it",
+        "A large pressure difference and a weak roof together cause the roof to lift",
+        "Letting wind pass through a house helps keep its roof in place"
+      ],
+      "answer": 0,
+      "explanation": "The roof is lifted from BELOW by the higher inside pressure, because the fast wind lowers the pressure above it — not pushed down by the wind.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "High-Speed Winds and Low Pressure",
+      "question": "Why are holes made in large banners and hoardings?",
+      "options": [
+        "So that the printing ink dries faster after the banner is made",
+        "So that rainwater can drain away instead of collecting on the cloth",
+        "So the banner weighs less and can be hung with thinner ropes",
+        "So wind can pass through, reducing the pressure difference and the force on the banner"
+      ],
+      "answer": 3,
+      "explanation": "A solid banner facing a fast wind experiences a large pressure difference between its two faces and can tear or topple. Holes let air through and reduce this difference.",
+      "source": "exercise:Q13"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "High-Speed Winds and Low Pressure",
+      "question": "Predict: you hold a strip of paper hanging from your fingers and blow steadily OVER its top surface. The strip will",
+      "options": [
+        "sink, because the blown air presses down on it",
+        "rise, because fast air above it lowers the pressure there",
+        "stay still, because the air passes above it and not on it",
+        "flutter downwards, because moisture in breath makes it heavy"
+      ],
+      "answer": 1,
+      "explanation": "Fast-moving air above the strip has lower pressure than the still air below it, so the higher pressure below pushes the strip upward.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q105",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "High-Speed Winds and Low Pressure",
+      "question": "High-speed winds are accompanied by increased air pressure.",
+      "answer": false,
+      "explanation": "The two-balloon activity shows the opposite: high-speed winds are accompanied by REDUCED air pressure.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q106",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "High-Speed Winds and Low Pressure",
+      "question": "Keeping doors and windows open during a storm reduces the pressure difference between the inside of a house and the air above its roof.",
+      "answer": true,
+      "explanation": "Wind moving through the house lowers the inside pressure too, so the difference that could lift the roof is greatly reduced.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "High-Speed Winds and Low Pressure",
+      "question": "In Activity 6.6, what is the variable you change by blowing harder, and what responds to it?",
+      "options": [
+        "You change the air speed in the gap; the pressure in the gap responds",
+        "You change the pressure in the gap; the balloons' weight responds",
+        "You change the balloons' size; the length of the strings responds",
+        "You change the room temperature; the air speed in the gap responds"
+      ],
+      "answer": 0,
+      "explanation": "Blowing harder increases the speed of air in the gap; this lowers the pressure there, which in turn makes the balloons approach faster.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q108",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "High-Speed Winds and Low Pressure",
+      "question": "Which actions would REDUCE the chance of a roof being blown off in a storm? (Select all that apply.)",
+      "options": [
+        "Opening the doors and windows of the house",
+        "Making the roof stronger and firmly fixed",
+        "Closing every window tightly to keep the wind out",
+        "Making the roof as light as possible"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Opening the house lets wind through and reduces the pressure difference; a strong roof resists lifting. Sealing the house keeps inside pressure high, and a lighter roof lifts more easily.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "High-Speed Winds and Low Pressure",
+      "question": "A hoarding WITHOUT holes and one WITH holes face the same high-speed wind. Which is more likely to be damaged, and why?",
+      "options": [
+        "The one with holes — the holes weaken the cloth so it tears",
+        "The one without holes — a bigger pressure difference acts across it",
+        "Both equally — the wind speed is the same for both of them",
+        "The one with holes — more wind can get inside and push it"
+      ],
+      "answer": 1,
+      "explanation": "With no path for air to pass through, a large pressure difference builds across the solid hoarding, producing a big force. Holes let air through and reduce this difference.",
+      "source": "exercise:Q13"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Storms and Cloud Formation",
+      "question": "When land gets heated, warm moist air rises and creates a low-pressure area. What happens next?",
+      "options": [
+        "The warm air comes straight back down to fill the gap it left",
+        "The low pressure pulls the clouds down to the ground as fog",
+        "Cooler air from surrounding high-pressure areas flows in to take its place",
+        "The surrounding air also rises, leaving the whole area empty"
+      ],
+      "answer": 2,
+      "explanation": "Air moves from high to low pressure, so cooler air flows in; it is heated, rises in turn, and a continuous circulation of wind results.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Storms and Cloud Formation",
+      "question": "Why does rising warm air form clouds?",
+      "options": [
+        "It freezes instantly at any height above the ground",
+        "It compresses and heats, so the moisture in it boils into vapour",
+        "It mixes with dust high up, which turns the air white",
+        "It expands and cools, so the moisture in it condenses into droplets"
+      ],
+      "answer": 3,
+      "explanation": "As the rising air expands, it cools; the water vapour in it condenses into water droplets, which form clouds.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Storms and Cloud Formation",
+      "question": "According to the chapter, a storm is",
+      "options": [
+        "a spinning system of winds over the ocean",
+        "strong winds accompanied by rain",
+        "any day with heavy rainfall and no wind",
+        "a flash of lightning followed by thunder"
+      ],
+      "answer": 1,
+      "explanation": "The strong winds accompanied by rain are called a storm. A spinning system is a cyclone; a storm with lightning and thunder is a thunderstorm.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Storms and Cloud Formation",
+      "question": "Why are storms more frequent in India than in many other places?",
+      "options": [
+        "India is far from any ocean, so air over it heats very quickly",
+        "India is cold and dry, so winds blow strongly from the mountains",
+        "India has many rivers, which push the air upwards along their banks",
+        "India is hot, humid and tropical, giving plenty of warm moist rising air"
+      ],
+      "answer": 3,
+      "explanation": "Storms need warm, moist air that rises. Hot, humid, tropical regions like India provide these conditions, so storms are more frequent.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Storms and Cloud Formation",
+      "question": "Under certain conditions, water droplets in a rising cloud turn into ice particles. This happens because",
+      "options": [
+        "lightning freezes the droplets as it passes through the cloud",
+        "the rising air is squeezed so hard that the water solidifies",
+        "the air rises to great heights where the temperature is very low",
+        "salt from the sea mixes with the droplets and makes them solid"
+      ],
+      "answer": 2,
+      "explanation": "When warm air rises to great heights, the low temperature there converts the water droplets into ice particles.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Storms and Cloud Formation",
+      "question": "Arrange in order: (1) droplets merge into heavier drops, (2) warm moist air rises, (3) rain, hail or snow falls, (4) air expands, cools and vapour condenses.",
+      "options": [
+        "2 → 4 → 1 → 3",
+        "2 → 1 → 4 → 3",
+        "4 → 2 → 1 → 3",
+        "1 → 2 → 4 → 3"
+      ],
+      "answer": 0,
+      "explanation": "Air rises first; as it expands and cools, vapour condenses into droplets; droplets merge into heavier drops; these fall as rain, hail or snow.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q116",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Storms and Cloud Formation",
+      "question": "Rising air expands and cools, which makes the moisture in it condense into water droplets.",
+      "answer": true,
+      "explanation": "This is how clouds form: expansion on rising lowers the temperature, and the water vapour condenses.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q117",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Storms and Cloud Formation",
+      "question": "Storms are more frequent in cold, dry regions than in hot, humid, tropical regions.",
+      "answer": false,
+      "explanation": "It is the reverse: hot, humid, tropical regions like India have more frequent storms because of abundant warm, moist rising air.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Storms and Cloud Formation",
+      "question": "Which statement about storm formation is NOT correct?",
+      "options": [
+        "Water droplets merge into heavier drops that fall as rain, hail or snow",
+        "Warm moist air is lighter and rises, creating low pressure",
+        "Cooler air from high-pressure regions flows in to replace rising air",
+        "Rising air is compressed and heats up, so its moisture evaporates"
+      ],
+      "answer": 3,
+      "explanation": "Rising air EXPANDS and COOLS, which makes moisture condense — not compress and evaporate. The other three statements are correct steps.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q119",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Storms and Cloud Formation",
+      "question": "According to the chapter's Snapshots, which are important requirements for the formation of thunderstorms? (Select all that apply.)",
+      "options": [
+        "Moisture in the air",
+        "Strong winds",
+        "Cold, dry air",
+        "Calm, still weather"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The Snapshots list moisture and strong winds as the important requirements. Cold dry air and calm conditions do not produce thunderstorms.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Storms and Cloud Formation",
+      "question": "Why does the chapter describe the wind in a developing storm as a CONTINUOUS circulation?",
+      "options": [
+        "The Earth's rotation keeps pushing the same air round and round",
+        "The air rises once and then spreads out and never returns to the ground",
+        "The air that flows in to replace rising air is itself heated and rises in turn",
+        "The clouds pull the air up and the rain pushes it back down"
+      ],
+      "answer": 2,
+      "explanation": "Cooler air flows into the low-pressure area, gets heated, and rises too; more air flows in, and so on — a continuous process of wind circulation.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Storms and Cloud Formation",
+      "question": "Predict: on a hot day the rising air over a region is almost completely DRY. What is likely?",
+      "options": [
+        "Heavy rain, since dry air cools faster than moist air when it rises",
+        "Wind may form, but few clouds, since there is little moisture to condense",
+        "A thunderstorm, since dry air rubs together more and charges quickly",
+        "No wind at all, since only moist air can rise and create low pressure"
+      ],
+      "answer": 1,
+      "explanation": "Heating still makes the air rise and creates pressure differences (wind), but clouds and rain need water vapour to condense; dry air gives few clouds.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Thunder and Lightning",
+      "question": "What causes electric charges to develop inside storm clouds?",
+      "options": [
+        "Strong up-and-down winds make water droplets and ice particles rub together",
+        "Sunlight striking the top of the cloud knocks charges off the droplets",
+        "Rain falling from the cloud carries charge up from the ground",
+        "The cloud rubs against mountains as it moves across the sky"
+      ],
+      "answer": 0,
+      "explanation": "Strong winds blowing upwards and downwards cause rubbing between water droplets and ice particles; as learnt in 'Exploring Forces', rubbing produces static charge.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Thunder and Lightning",
+      "question": "Inside a thundercloud, where do the positively and negatively charged particles collect?",
+      "options": [
+        "Positive and negative charges stay evenly mixed throughout the cloud",
+        "Heavier positive water droplets go up; lighter negative ice particles stay low",
+        "Lighter positive ice particles go up; heavier negative water droplets stay low",
+        "All charges move to the edges of the cloud, leaving the centre neutral"
+      ],
+      "answer": 2,
+      "explanation": "The positively charged lighter ice particles move to the upper part of the cloud and the negatively charged heavier water droplets occupy the lower part — a charge separation.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Thunder and Lightning",
+      "question": "When the negatively charged lower part of a cloud moves near the ground, the ground and objects on it become",
+      "options": [
+        "positively charged",
+        "negatively charged",
+        "electrically neutral",
+        "insulated from charge"
+      ],
+      "answer": 0,
+      "explanation": "The negative charge at the cloud base induces a positive charge on the ground and nearby objects such as trees and buildings.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Thunder and Lightning",
+      "question": "Normally, air behaves as an electrical",
+      "options": [
+        "battery",
+        "conductor",
+        "magnet",
+        "insulator"
+      ],
+      "answer": 3,
+      "explanation": "Air normally acts as an insulator and does not let opposite charges meet. Only when charge build-up is very large does this property break down.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Thunder and Lightning",
+      "question": "Lightning occurs when",
+      "options": [
+        "the air between the cloud and ground becomes completely dry and heats up",
+        "the charge build-up becomes so large that air's insulation breaks down and charges flow suddenly",
+        "sunlight passes through ice particles at the top of a storm cloud",
+        "two clouds collide physically and their water droplets are squeezed out"
+      ],
+      "answer": 1,
+      "explanation": "When the accumulated charge is very large, the insulating property of air fails and a sudden flow of charges takes place, producing a bright flash — lightning.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Thunder and Lightning",
+      "question": "What produces the sound of thunder?",
+      "options": [
+        "Lightning rapidly heats the air, which expands and makes a loud sound",
+        "Clouds bang into each other high above the ground",
+        "Hailstones striking each other inside the cloud",
+        "Rain hitting the ground at very high speed all at once"
+      ],
+      "answer": 0,
+      "explanation": "Lightning heats the surrounding air rapidly; the air expands suddenly and produces the loud sound we hear as thunder.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Thunder and Lightning",
+      "question": "A storm accompanied by lightning and thunder is called a",
+      "options": [
+        "cyclone",
+        "thunderstorm",
+        "sea breeze",
+        "storm surge"
+      ],
+      "answer": 1,
+      "explanation": "The chapter defines a thunderstorm as a storm accompanied by lightning and thunder.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Thunder and Lightning",
+      "question": "Would lightning occur if air and clouds were good conductors of electricity?",
+      "options": [
+        "Yes — lightning depends only on how much water is present in the cloud",
+        "Yes — a conductor would carry the charges faster, making lightning more frequent",
+        "No — charges would leak away continuously and never build up enough for a sudden flow",
+        "No — conductors cannot hold any water droplets, so no clouds would form"
+      ],
+      "answer": 2,
+      "explanation": "Lightning needs a large build-up of separated charge, which is possible only because air insulates. If air conducted, charges would flow away steadily and no sudden discharge would occur.",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Thunder and Lightning",
+      "question": "Where can lightning occur?",
+      "options": [
+        "Only inside a single cloud, where the charges are separated",
+        "Only between a cloud and the ground, never inside clouds",
+        "Only between two different clouds, never near the ground",
+        "Within a cloud, between clouds, or between a cloud and the ground"
+      ],
+      "answer": 3,
+      "explanation": "Lightning can occur as opposite charges meet within a cloud, between clouds, or between a cloud and the ground.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Thunder and Lightning",
+      "question": "Which statement about charges in a thundercloud is NOT correct?",
+      "options": [
+        "Positively charged ice particles occupy the upper part of the cloud",
+        "Negatively charged ice particles rise to the top of the cloud",
+        "Negatively charged water droplets occupy the lower part of the cloud",
+        "Rubbing between droplets and ice particles produces the charges"
+      ],
+      "answer": 1,
+      "explanation": "The ice particles are POSITIVELY charged and lighter, so they rise. The negative charge is on the heavier water droplets, which stay lower.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Thunder and Lightning",
+      "question": "The chapter links charging in clouds to which earlier idea from the chapter 'Exploring Forces'?",
+      "options": [
+        "Magnets attract objects made of iron from a distance",
+        "Heavier objects fall faster than lighter ones",
+        "Forces act in pairs of equal size and opposite direction",
+        "Rubbing two objects against each other charges them"
+      ],
+      "answer": 3,
+      "explanation": "In 'Exploring Forces' students learnt that rubbing two objects charges them; here, droplets and ice particles rubbing in strong winds become charged.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q133",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Thunder and Lightning",
+      "question": "The positively charged lighter ice particles collect in the lower part of a thundercloud.",
+      "answer": false,
+      "explanation": "The lighter positive ice particles move UP to the upper part; the heavier negative water droplets occupy the lower part.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q134",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Thunder and Lightning",
+      "question": "Thunder is produced because lightning rapidly heats the air around it, making the air expand suddenly.",
+      "answer": true,
+      "explanation": "The sudden expansion of rapidly heated air produces the loud sound called thunder.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q135",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Thunder and Lightning",
+      "question": "Which statements about lightning are correct? (Select all that apply.)",
+      "options": [
+        "It is a sudden flow of electric charges",
+        "It requires air to be a good conductor",
+        "It happens when the charge build-up breaks down air's insulating property",
+        "It occurs only between a cloud and the ground"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Lightning is a sudden flow of charges that occurs when air's insulation breaks down under a very large charge build-up. Air is normally an insulator, and lightning can occur within or between clouds too.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Thunder and Lightning",
+      "question": "Put the lightning process in order: (1) sudden flow of charges, (2) up-and-down winds rub droplets and ice, (3) charge separation in cloud, (4) air's insulation breaks down.",
+      "options": [
+        "2 → 4 → 3 → 1",
+        "3 → 2 → 1 → 4",
+        "2 → 3 → 4 → 1",
+        "1 → 2 → 3 → 4"
+      ],
+      "answer": 2,
+      "explanation": "Rubbing creates charges; they separate (positive up, negative down); when the build-up is large enough, air's insulation fails; then the charges flow suddenly as lightning.",
+      "source": "exercise:Q12"
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Local Thunderstorms, Lightning Safety and Conductors",
+      "question": "Pre-monsoon thunderstorms known as 'Kalboishakhi' occur in",
+      "options": [
+        "West Bengal, Bihar and Jharkhand",
+        "Kerala, Karnataka and Tamil Nadu",
+        "Assam, Meghalaya and Tripura",
+        "Punjab, Haryana and Rajasthan"
+      ],
+      "answer": 0,
+      "explanation": "The 'A step further' box names Kalboishakhi as the local thunderstorms of West Bengal, Bihar and Jharkhand.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Local Thunderstorms, Lightning Safety and Conductors",
+      "question": "The local pre-monsoon thunderstorm of Assam is called",
+      "options": [
+        "Amphan",
+        "Kalboishakhi",
+        "Mango shower",
+        "Bordoisila"
+      ],
+      "answer": 3,
+      "explanation": "In Assam these isolated thunderstorms are known as Bordoisila. Kalboishakhi is the name in Bengal, Bihar and Jharkhand; Amphan was a cyclone.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q139",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Local Thunderstorms, Lightning Safety and Conductors",
+      "question": "Why are the pre-monsoon thunderstorms of Kerala, Karnataka and Tamil Nadu called 'mango showers'?",
+      "options": [
+        "They happen when mango trees flower",
+        "They occur only in mango orchards",
+        "They support the ripening of mangoes",
+        "Their raindrops are the size of mangoes"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says they are called mango showers because they support the ripening of mangoes.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q140",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Local Thunderstorms, Lightning Safety and Conductors",
+      "question": "Local thunderstorms in Karnataka are said to help the growth of which crop?",
+      "options": [
+        "Rice",
+        "Coffee",
+        "Wheat",
+        "Cotton"
+      ],
+      "answer": 1,
+      "explanation": "The box notes that local thunderstorms in Karnataka help in the growth of coffee plants.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q141",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Local Thunderstorms, Lightning Safety and Conductors",
+      "question": "Kalboishakhi and Bordoisila occur BEFORE the monsoon arrives. How does this timing help farmers?",
+      "options": [
+        "It helps kharif crops to grow",
+        "It dries the fields before sowing",
+        "It delays the main monsoon rain",
+        "It prevents floods in the monsoon"
+      ],
+      "answer": 0,
+      "explanation": "These pre-monsoon thunderstorms bring rain that helps the kharif crops to grow.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q142",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Local Thunderstorms, Lightning Safety and Conductors",
+      "question": "Which is the recommended way to protect yourself when caught outdoors during lightning?",
+      "options": [
+        "Lie down flat on the ground so that you are as low as possible",
+        "Stand under the tallest tree nearby so that the tree takes the strike",
+        "Find a low-lying open area, crouch down and minimise contact with the ground",
+        "Open an umbrella with a metal rod to deflect the lightning away"
+      ],
+      "answer": 2,
+      "explanation": "The chapter advises staying away from tall objects, crouching in a low open area with minimal ground contact, and not lying flat.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q143",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Local Thunderstorms, Lightning Safety and Conductors",
+      "question": "Why should you NOT lie down flat on the ground during lightning?",
+      "options": [
+        "Lying flat maximises your contact with the ground",
+        "Lying flat makes you the tallest object in the area",
+        "Lying flat attracts positive charges from the cloud",
+        "Lying flat prevents you from seeing the lightning"
+      ],
+      "answer": 0,
+      "explanation": "The advice is to crouch and minimise contact with the ground; lying flat increases ground contact, which the chapter warns against.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q144",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Local Thunderstorms, Lightning Safety and Conductors",
+      "question": "Which of these is NOT a safe practice during lightning?",
+      "options": [
+        "Keeping away from tall objects",
+        "Getting out of water if you are in it",
+        "Staying inside a bus or a car",
+        "Using an umbrella with a metallic rod"
+      ],
+      "answer": 3,
+      "explanation": "The chapter says to AVOID an umbrella with a metallic rod. Leaving water, staying in a vehicle and avoiding tall objects are all recommended.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q145",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Local Thunderstorms, Lightning Safety and Conductors",
+      "question": "During a thunderstorm, is it safer to be inside a car?",
+      "options": [
+        "No — a metal car attracts lightning and must be left at once",
+        "Yes — the chapter says you are comparatively safer inside a bus or car",
+        "No — cars are only safe if parked under a tall tree for shelter",
+        "Yes — but only if all the windows are rolled down for air flow"
+      ],
+      "answer": 1,
+      "explanation": "The chapter states that if you are inside a bus or a car, you are comparatively safer during lightning.",
+      "source": "exercise:Q2(iv)"
+    },
+    {
+      "id": "q146",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Local Thunderstorms, Lightning Safety and Conductors",
+      "question": "A lightning conductor is a",
+      "options": [
+        "metallic rod with a pointed end above the building and the other end buried in the ground",
+        "rubber rod placed on the roof to insulate the building from the clouds",
+        "glass rod fixed to the wall to reflect lightning back into the sky",
+        "metallic rod kept inside the building to store the electric charge safely"
+      ],
+      "answer": 0,
+      "explanation": "A lightning conductor is a metallic rod installed along the building walls; its pointed end sits above the highest point and the other end is buried deep in the ground.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q147",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Local Thunderstorms, Lightning Safety and Conductors",
+      "question": "How does a lightning conductor protect a building?",
+      "options": [
+        "It stops clouds from becoming charged above the building",
+        "It provides an easy path for electric charges to pass into the ground",
+        "It absorbs the lightning's heat so that the building stays cool",
+        "It pushes the storm clouds away from the top of the building"
+      ],
+      "answer": 1,
+      "explanation": "The rod offers an easy path for charges to flow to the ground, so the lightning's charge bypasses the building itself.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q148",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Local Thunderstorms, Lightning Safety and Conductors",
+      "question": "During lightning you should lie down flat on the ground to be as low as possible.",
+      "answer": false,
+      "explanation": "The chapter says do NOT lie down flat; crouch in a low open area and minimise contact with the ground.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q149",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Local Thunderstorms, Lightning Safety and Conductors",
+      "question": "One end of a lightning conductor is kept higher than the highest point of the building.",
+      "answer": true,
+      "explanation": "The pointed end of the metallic rod is placed above the building's highest point; the other end is buried deep in the ground.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q150",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Local Thunderstorms, Lightning Safety and Conductors",
+      "question": "Which actions are SAFE during lightning? (Select all that apply.)",
+      "options": [
+        "Get out of water if you are in it",
+        "Crouch down in a low-lying open area",
+        "Stand under the tallest tree for shelter",
+        "Open an umbrella with a metal rod"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Leaving water and crouching low are recommended. Tall objects and metallic umbrella rods should be avoided.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q151",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Local Thunderstorms, Lightning Safety and Conductors",
+      "question": "Match the local thunderstorm to its region: Kalboishakhi, Bordoisila, mango showers.",
+      "options": [
+        "Kerala/Karnataka/Tamil Nadu; Assam; Bengal/Bihar/Jharkhand",
+        "Assam; Bengal/Bihar/Jharkhand; Kerala/Karnataka/Tamil Nadu",
+        "Bengal/Bihar/Jharkhand; Assam; Kerala/Karnataka/Tamil Nadu",
+        "Bengal/Bihar/Jharkhand; Kerala/Karnataka/Tamil Nadu; Assam"
+      ],
+      "answer": 2,
+      "explanation": "Kalboishakhi belongs to West Bengal, Bihar and Jharkhand; Bordoisila to Assam; mango showers to Kerala, Karnataka and Tamil Nadu.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q152",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Local Thunderstorms, Lightning Safety and Conductors",
+      "question": "Which features correctly describe a lightning conductor? (Select all that apply.)",
+      "options": [
+        "It is a metallic rod fixed along the building's walls",
+        "Its pointed end is kept above the building's highest point",
+        "It is made of rubber to insulate the building",
+        "It is kept inside the building to store the charge"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "A lightning conductor is a metallic rod whose pointed end rises above the building and whose other end is buried in the ground, giving charges an easy path to earth.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q153",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cyclone Formation",
+      "question": "Cyclones are large storms that form over",
+      "options": [
+        "frozen polar ice",
+        "cold mountain peaks",
+        "dry desert sands",
+        "warm ocean waters"
+      ],
+      "answer": 3,
+      "explanation": "Cyclones form over warm ocean waters, where warm, moist air rises from the heated sea surface.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q154",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cyclone Formation",
+      "question": "When water vapour in rising air condenses into raindrops, what happens to the heat?",
+      "options": [
+        "Heat is absorbed, cooling the air so that it sinks back down",
+        "Heat is released, warming the air further so it rises even more",
+        "Heat is destroyed, so the temperature of the air stays the same",
+        "Heat is turned into lightning that flashes within the cloud"
+      ],
+      "answer": 1,
+      "explanation": "Evaporation takes up heat; condensation gives it back. The released heat warms the ascending air, making it rise further and lowering the pressure even more.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q155",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cyclone Formation",
+      "question": "Which pair of statements about water is used in the chapter to explain cyclone growth?",
+      "options": [
+        "Both evaporation and condensation take heat from the air",
+        "Evaporation releases heat; condensation takes up heat",
+        "Both evaporation and condensation release heat to the air",
+        "Evaporation takes up heat; condensation releases heat back"
+      ],
+      "answer": 3,
+      "explanation": "Water absorbs heat to evaporate; when the vapour condenses into raindrops, that heat is released into the atmosphere, fuelling the rising air.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q156",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cyclone Formation",
+      "question": "What makes the moving air in a developing cyclone SPIN?",
+      "options": [
+        "The heat of the Sun",
+        "The Moon's gravity",
+        "The Earth's rotation",
+        "The salt in sea water"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says Earth's rotation causes the moving air to spin, producing high-speed winds revolving around a very low-pressure centre.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q157",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cyclone Formation",
+      "question": "How does a storm develop into a cyclone?",
+      "options": [
+        "Condensation releases heat, air rises faster, pressure falls further, more air rushes in and spins",
+        "Lightning heats the air so much that it spins rapidly around the storm",
+        "Rain cools the sea, which pushes the storm clouds upward in a spiral",
+        "Strong land breezes blow the storm out to sea, where it starts to rotate"
+      ],
+      "answer": 0,
+      "explanation": "Heat released by condensing vapour warms the rising air, which rises more and deepens the low pressure; surrounding air rushes in, rises too, and Earth's rotation makes it spin — repeating until a cyclone forms.",
+      "source": "exercise:Q8"
+    },
+    {
+      "id": "q158",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cyclone Formation",
+      "question": "The centre of a cyclone, where the pressure is lowest, is called its",
+      "options": [
+        "funnel",
+        "core",
+        "surge",
+        "eye"
+      ],
+      "answer": 3,
+      "explanation": "The region of lowest pressure at the centre of a cyclone is known as the eye of the cyclone.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q159",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cyclone Formation",
+      "question": "What is the weather like at the EYE of a cyclone?",
+      "options": [
+        "Light drizzle with moderate winds blowing in a circle",
+        "The strongest winds and heaviest rain of the whole cyclone",
+        "Calm winds, while the surrounding region has strong winds and heavy rain",
+        "Snowfall, because the eye is the coldest part of the cyclone"
+      ],
+      "answer": 2,
+      "explanation": "At the eye the wind is calm, but the region surrounding it experiences strong winds and heavy rainfall.",
+      "source": "exercise:Q2(iii)"
+    },
+    {
+      "id": "q160",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cyclone Formation",
+      "question": "Why does a cyclone gradually lose its strength after reaching land?",
+      "options": [
+        "The land is colder than the ocean surface",
+        "Its source of moist air is cut off",
+        "Trees and buildings block its winds",
+        "The Earth rotates more slowly over land"
+      ],
+      "answer": 1,
+      "explanation": "A cyclone is fed by warm, moist air from the ocean. Over land this supply is cut off, so the cyclone weakens.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q161",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cyclone Formation",
+      "question": "'If the Earth stopped rotating, would cyclones still form?' Using the chapter, the best answer is",
+      "options": [
+        "Warm moist air could still rise, but without rotation the winds would not spin into a cyclone",
+        "Yes, exactly as now, because cyclones depend only on how warm the ocean is",
+        "No, because without rotation water could not evaporate from the ocean",
+        "Yes, and they would be stronger, because nothing would slow the rising air"
+      ],
+      "answer": 0,
+      "explanation": "Rising air and low pressure come from heating and condensation, but it is Earth's rotation that makes the inrushing air spin. Without spin, the spinning system we call a cyclone would not form.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q162",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Cyclone Formation",
+      "question": "The eye of a cyclone is the region of lowest pressure, where the winds are calm.",
+      "answer": true,
+      "explanation": "The eye is the calm, lowest-pressure centre, surrounded by strong winds and heavy rain.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q163",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Cyclone Formation",
+      "question": "A cyclone gains strength after reaching land because the land is warmer than the sea.",
+      "answer": false,
+      "explanation": "A cyclone LOSES strength over land because its supply of warm, moist ocean air is cut off.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q164",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Cyclone Formation",
+      "question": "Which of these are needed for a cyclone to form, according to the chapter? (Select all that apply.)",
+      "options": [
+        "Warm ocean water",
+        "The Earth's rotation",
+        "Cold, dry air over land",
+        "A lightning conductor"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Cyclones need warm, moist air rising from warm oceans and Earth's rotation to make the winds spin. Cold dry land air weakens cyclones; conductors are for lightning.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q165",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cyclone Formation",
+      "question": "In Fig. 6.19 the pressure values read 1008 mb, 998 mb, 996 mb and 994 mb. Where is 994 mb found?",
+      "options": [
+        "Over the land far from the sea",
+        "At the outer edge of the cyclone",
+        "At the centre of the cyclone",
+        "Spread evenly across the whole cyclone"
+      ],
+      "answer": 2,
+      "explanation": "Pressure falls towards the centre of a cyclone; the lowest value (994 mb) is at the eye and the highest (1008 mb) at the outside.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q166",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cyclone Formation",
+      "question": "Which statement about cyclones is NOT correct?",
+      "options": [
+        "The eye of a cyclone experiences the strongest winds and heaviest rain",
+        "Cyclones form over warm ocean waters from rising moist air",
+        "Heat released by condensing water vapour makes the air rise further",
+        "Earth's rotation makes the inrushing air spin around the centre"
+      ],
+      "answer": 0,
+      "explanation": "The eye is CALM; strong winds and heavy rain are in the region around it. The other statements are correct descriptions of cyclone formation.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q167",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Cyclone Formation",
+      "question": "During evaporation water releases heat, and during condensation it absorbs heat.",
+      "answer": false,
+      "explanation": "It is the reverse: water TAKES UP heat to evaporate and RELEASES it when the vapour condenses — this released heat fuels the cyclone.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q168",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cyclone Destruction, Monitoring and Safety",
+      "question": "The Amphan cyclone of 2020 had peak wind speeds of about",
+      "options": [
+        "500 km/h",
+        "27 km/h",
+        "120 km/h",
+        "270 km/h"
+      ],
+      "answer": 3,
+      "explanation": "The chapter gives Amphan's peak wind speed as 270 km/h as an example of how destructive cyclones can be.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q169",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cyclone Destruction, Monitoring and Safety",
+      "question": "Strong cyclone winds push ocean water towards the shore, creating a wall of water about",
+      "options": [
+        "30–120 metres high",
+        "3–12 metres high",
+        "3–12 centimetres high",
+        "0.3–1.2 metres high"
+      ],
+      "answer": 1,
+      "explanation": "This surge of water can be as high as 3–12 metres and can flood coastal areas and even places far from the sea.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q170",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cyclone Destruction, Monitoring and Safety",
+      "question": "How can seawater that rushes inland during a cyclone harm farming?",
+      "options": [
+        "Its salt makes the soil less fertile, affecting crops",
+        "It washes away all the insects that pollinate crops",
+        "It cools the soil so much that seeds cannot sprout",
+        "It brings sand that makes the soil drain too quickly"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says seawater damages farmland and that the salt in it can make the soil less fertile.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q171",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cyclone Destruction, Monitoring and Safety",
+      "question": "Which organisation issues cyclone weather reports, alerts and warnings in India?",
+      "options": [
+        "Indian Space Research Organisation (ISRO)",
+        "India Meteorological Department (IMD)",
+        "National Highways Authority of India (NHAI)",
+        "Indian Council of Agricultural Research (ICAR)"
+      ],
+      "answer": 1,
+      "explanation": "The India Meteorological Department (IMD) constantly monitors cyclones and thunderstorms and issues alerts and warnings.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q172",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cyclone Destruction, Monitoring and Safety",
+      "question": "How do weather monitoring satellites help reduce the impact of cyclones?",
+      "options": [
+        "They cool the ocean water so that cyclones cannot form",
+        "They blow the cyclones back out to sea with powerful winds",
+        "They let us track cyclones and predict their paths in advance",
+        "They remove the moisture from the air above the cyclone"
+      ],
+      "answer": 2,
+      "explanation": "Satellites allow cyclones to be tracked and their paths predicted, so warnings can be issued and people can prepare.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q173",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cyclone Destruction, Monitoring and Safety",
+      "question": "What should you do during a cyclone if you live in a cyclone-prone area?",
+      "options": [
+        "Drive out of town along the coastal road",
+        "Go to the beach to watch the storm surge",
+        "Climb onto the roof to stay above the flood water",
+        "Move quickly to a nearby designated cyclone shelter"
+      ],
+      "answer": 3,
+      "explanation": "The chapter advises keeping an emergency kit ready and, during a cyclone, moving quickly to a nearby designated cyclone shelter.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q174",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cyclone Destruction, Monitoring and Safety",
+      "question": "Which of these is NOT listed in the chapter as an effect of cyclones?",
+      "options": [
+        "Rivers overflowing due to heavy rainfall",
+        "Volcanic eruptions along the coast",
+        "Landslides triggered by heavy rain",
+        "Power outages lasting for days"
+      ],
+      "answer": 1,
+      "explanation": "The chapter lists flooding, overflowing rivers, landslides, contaminated water, damaged farmland, blocked roads and power outages — not volcanic eruptions.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q175",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Cyclone Destruction, Monitoring and Safety",
+      "question": "The salt in seawater that floods farmland during a cyclone can make the soil less fertile.",
+      "answer": true,
+      "explanation": "Seawater rushing inland damages farmland, and its salt reduces soil fertility, affecting crops.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q176",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Cyclone Destruction, Monitoring and Safety",
+      "question": "Cyclone Amphan in 2020 had peak wind speeds of about 120 km/h.",
+      "answer": false,
+      "explanation": "The chapter gives Amphan's peak wind speed as 270 km/h.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q177",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Cyclone Destruction, Monitoring and Safety",
+      "question": "Which are effects of a cyclone described in the chapter? (Select all that apply.)",
+      "options": [
+        "Flooding of coastal areas by a surge of seawater",
+        "Landslides triggered by heavy rainfall",
+        "Lower atmospheric pressure everywhere on Earth",
+        "An increase in the fertility of farmland"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Storm surges flood coasts and heavy rain triggers landslides. Cyclones do not lower pressure worldwide, and seawater makes soil LESS fertile.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q178",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cyclone Destruction, Monitoring and Safety",
+      "question": "Why is it often difficult for help to reach cyclone-affected areas?",
+      "options": [
+        "Rescue vehicles cannot run in low pressure",
+        "The eye of the cyclone stays over the area",
+        "The IMD stops issuing reports after landfall",
+        "Roads get blocked by fallen trees and debris"
+      ],
+      "answer": 3,
+      "explanation": "The chapter notes that roads may get blocked due to fallen trees and debris, making it difficult for help to reach affected areas.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q179",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cyclone Destruction, Monitoring and Safety",
+      "question": "During a cyclone, rivers may overflow and landslides may be triggered. The common cause given in the chapter is",
+      "options": [
+        "the low pressure at the eye lifting the water",
+        "the Earth's rotation shaking the ground",
+        "the heavy rainfall that accompanies the cyclone",
+        "the lightning striking the river banks"
+      ],
+      "answer": 2,
+      "explanation": "The heavy rainfall which accompanies a cyclone may cause rivers to overflow and can trigger landslides.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q180",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cyclone Destruction, Monitoring and Safety",
+      "question": "A cyclone has weakened after crossing the coast, yet the chapter says it can still cause damage lasting months. Which is the best reason?",
+      "options": [
+        "Surge flooding, salt-damaged soil, blocked roads and power cuts persist long after the winds die",
+        "The cyclone keeps its full ocean strength for weeks after crossing the coast",
+        "The eye of the cyclone stays fixed over the town and never moves away",
+        "The weakened cyclone turns into a thunderstorm that lasts for months"
+      ],
+      "answer": 0,
+      "explanation": "Even as the winds weaken over land, the trail of destruction — floods, contaminated water, less fertile soil, blocked roads and power outages — takes months or years to repair.",
+      "source": "text:page14"
+    }
+  ]
+}

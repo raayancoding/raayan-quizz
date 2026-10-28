@@ -1,0 +1,3365 @@
+{
+  "schemaVersion": 1,
+  "id": "ict-ch22-advanced-algorithmic-thinking",
+  "title": "Advanced Algorithmic Thinking",
+  "subject": "ICT",
+  "grade": 4,
+  "chapter": "22. Advanced Algorithmic Thinking",
+  "topic": "Full Book",
+  "description": "Explore algorithms, pseudocode, Code.org Sprite Lab, digital sprites, events, real-world algorithms (traffic lights, vending machines, ATMs, GPS), algorithm efficiency, and flowcharts.",
+  "tags": [
+    "ict",
+    "grade4",
+    "algorithms",
+    "pseudocode",
+    "sprite-lab",
+    "sprites",
+    "events",
+    "algorithm-efficiency",
+    "flowcharts",
+    "real-world-algorithms"
+  ],
+  "defaultTimeLimitSec": 1800,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algorithm Basics & Structure",
+      "question": "What is an algorithm?",
+      "options": [
+        "A set of step-by-step instructions to solve a problem",
+        "A type of computer virus",
+        "A random guess made by a computer",
+        "A picture drawn using code"
+      ],
+      "answer": 0,
+      "explanation": "An algorithm is a step-by-step set of instructions used to solve a problem, as described in the chapter.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algorithm Basics & Structure",
+      "question": "According to the chapter, what makes an algorithm 'good'?",
+      "options": [
+        "It is long and complicated",
+        "It is clear and easy to understand",
+        "It never has an ending point",
+        "It uses only pictures, no words"
+      ],
+      "answer": 1,
+      "explanation": "The chapter states good algorithms must be clear and easy to understand.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q3",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Algorithm Basics & Structure",
+      "question": "True or False: A good algorithm has a specific starting point and ending point.",
+      "answer": true,
+      "explanation": "Good algorithms have a specific starting point and ending point, as stated in the worksheet.",
+      "source": "worksheet-55847 Q1a"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algorithm Basics & Structure",
+      "question": "Fill in the blank: Good algorithms have a specific starting point and a specific ___ point.",
+      "options": [
+        "ending",
+        "repeating",
+        "random",
+        "hidden"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet fill-in-the-blank confirms algorithms have a starting point and an ending point.",
+      "source": "worksheet-55847 Q1a"
+    },
+    {
+      "id": "q5",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Algorithm Basics & Structure",
+      "question": "True or False: Each step in a good algorithm should follow logically from the previous one.",
+      "answer": true,
+      "explanation": "This is confirmed as True in the worksheet's true/false section.",
+      "source": "worksheet-55847 Q2a"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algorithm Basics & Structure",
+      "question": "Which of these is TRUE about algorithms, according to the chapter?",
+      "options": [
+        "They only work inside computers",
+        "They are used in many everyday activities, not just computers",
+        "They must always be written in computer code",
+        "They can never have a starting point"
+      ],
+      "answer": 1,
+      "explanation": "The chapter explicitly states algorithms are used in many everyday activities, not just in computers.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Algorithm Basics & Structure",
+      "question": "Why do computers need very precise, exact algorithms, unlike humans who can sometimes guess?",
+      "options": [
+        "Computers get bored with vague instructions",
+        "Computers cannot guess or fill in missing gaps themselves",
+        "Computers are always faster than humans",
+        "Precise instructions make algorithms shorter"
+      ],
+      "answer": 1,
+      "explanation": "The chapter explains algorithms help computers perform tasks precisely because, unlike humans, computers can't guess or fill in gaps.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Algorithm Basics & Structure",
+      "question": "Solving a math problem by following ordered logical steps is an example of...",
+      "options": [
+        "A flowchart only",
+        "An algorithm",
+        "A sprite behaviour",
+        "A pseudocode error"
+      ],
+      "answer": 1,
+      "explanation": "The chapter uses solving a math problem with logical steps as an example of an algorithm.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Algorithm Basics & Structure",
+      "question": "Which of the following are TRUE characteristics of a good algorithm? (Select all that apply)",
+      "options": [
+        "Has a specific starting and ending point",
+        "Is clear and easy to understand",
+        "Must always include conditions",
+        "Each step follows logically from the one before it"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Good algorithms have a start/end point, are clear, and each step follows logically. Complex algorithms CAN include conditions, but this is not a requirement of every algorithm.",
+      "source": "facts:page2; facts:page5"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Algorithm Basics & Structure",
+      "question": "A game character jumps only when a player presses a button. What does this show about complex algorithms?",
+      "options": [
+        "They never repeat steps",
+        "They can make decisions based on conditions",
+        "They only run one time ever",
+        "They ignore all user input"
+      ],
+      "answer": 1,
+      "explanation": "The chapter gives the jumping-on-button-press example to show complex algorithms can make decisions based on conditions.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Algorithm Basics & Structure",
+      "question": "Why do algorithms need a clear starting and ending point?",
+      "options": [
+        "So computers do not get bored",
+        "So anyone following the steps knows exactly when to begin and when the task is finished",
+        "So the algorithm can be sold for money",
+        "Just so it looks neat on paper"
+      ],
+      "answer": 1,
+      "explanation": "A clear start and end point tells anyone following the algorithm exactly when to begin and when the task is complete.",
+      "source": "facts:page5; worksheet-55847 Q1a"
+    },
+    {
+      "id": "q12",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Algorithm Basics & Structure",
+      "question": "True or False: A maze can have more than one path that leads to the exit.",
+      "answer": true,
+      "explanation": "The chapter describes a maze with multiple paths to reach the end.",
+      "source": "facts:page1"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algorithm Basics & Structure",
+      "question": "Looking at a maze with multiple paths to the exit teaches us that...",
+      "options": [
+        "All algorithms must follow exactly one path",
+        "Different paths can need different numbers of decisions and steps",
+        "Mazes have nothing to do with algorithms",
+        "The longest path is always best"
+      ],
+      "answer": 1,
+      "explanation": "The maze activity shows that different paths can require different numbers of decisions and steps.",
+      "source": "facts:page1; book:page1"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Algorithm Basics & Structure",
+      "question": "In a maze, what does it usually mean when a path has more turns and obstacles?",
+      "options": [
+        "Fewer decisions are needed to complete it",
+        "More turns often mean more decisions to make",
+        "Turns make the path shorter",
+        "Obstacles remove the need to decide anything"
+      ],
+      "answer": 1,
+      "explanation": "The chapter notes that more turns often mean more decisions to make.",
+      "source": "facts:page1"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algorithm Basics & Structure",
+      "question": "Writing clear step-by-step instructions for a complex maze path helps...",
+      "options": [
+        "make the maze harder to solve",
+        "others navigate the path easily",
+        "erase the maze completely",
+        "hide the exit sign"
+      ],
+      "answer": 1,
+      "explanation": "Writing instructions for a complex path helps others navigate it easily.",
+      "source": "facts:page1"
+    },
+    {
+      "id": "q16",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Algorithm Basics & Structure",
+      "question": "True or False: In a good algorithm, every step should be completely unrelated to the step before it.",
+      "answer": false,
+      "explanation": "This is False - each step in a good algorithm should follow logically from the previous one.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Algorithm Basics & Structure",
+      "question": "Which is NOT a reason algorithms need to be clear?",
+      "options": [
+        "So people can follow them correctly",
+        "So computers can execute them without confusion",
+        "So they take longer to complete on purpose",
+        "So mistakes are less likely"
+      ],
+      "answer": 2,
+      "explanation": "Clarity should make execution correct and efficient, not intentionally slower - so 'taking longer on purpose' is not a valid reason.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algorithm Basics & Structure",
+      "question": "Complex algorithms used in coding can make decisions based on...",
+      "options": [
+        "Random chance only",
+        "Conditions",
+        "The colour of the screen",
+        "Nothing - they cannot decide"
+      ],
+      "answer": 1,
+      "explanation": "The chapter states complex algorithms in coding can make decisions based on conditions.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Algorithm Basics & Structure",
+      "question": "Which best explains why 'analyzing an algorithm' (looking at its steps and decisions) is useful?",
+      "options": [
+        "It helps identify how many steps and decisions a task involves",
+        "It makes the algorithm invisible",
+        "It removes the need for a starting point",
+        "It stops the algorithm from running"
+      ],
+      "answer": 0,
+      "explanation": "Analyzing algorithms helps identify the number of steps and decisions involved, as stated in the chapter.",
+      "source": "facts:page4"
+    },
+    {
+      "id": "q20",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Algorithm Basics & Structure",
+      "question": "Select all statements that are TRUE about algorithms based on the chapter.",
+      "options": [
+        "An algorithm is a set of step-by-step instructions",
+        "Algorithms are only found inside computer programs",
+        "A recipe is an example of an algorithm",
+        "Algorithms can guide you from a start to a finish, like a journey"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "Algorithms show up everywhere in daily life (like recipes), not only inside computer programs.",
+      "source": "facts:page2; facts:page5"
+    },
+    {
+      "id": "q21",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Algorithm Basics & Structure",
+      "question": "True or False: Because computers can guess missing steps like humans do, algorithms for computers do not need to be precise.",
+      "answer": false,
+      "explanation": "This is False - computers CANNOT guess missing steps, so algorithms written for them must be precise.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Algorithm Basics & Structure",
+      "question": "A recipe with clear steps to make a dish is used in the chapter as an example of...",
+      "options": [
+        "A flowchart",
+        "An algorithm",
+        "A sprite",
+        "An event"
+      ],
+      "answer": 1,
+      "explanation": "The chapter uses a recipe with clear steps as an example of an algorithm.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algorithm Basics & Structure",
+      "question": "What do algorithms guide you through, according to the chapter's journey analogy?",
+      "options": [
+        "From a starting point to an ending point, like a journey",
+        "Nowhere at all",
+        "Only through mazes",
+        "Only through crossword grids"
+      ],
+      "answer": 0,
+      "explanation": "The chapter compares algorithms to a journey that guides you from start to finish.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Algorithm Basics & Structure",
+      "question": "Which of these best distinguishes a 'complex' algorithm from a simpler one, based on the chapter?",
+      "options": [
+        "Complex algorithms can include decisions based on conditions, while simpler ones may not",
+        "Simple algorithms never have steps",
+        "Complex algorithms never have an ending point",
+        "There is no difference at all"
+      ],
+      "answer": 0,
+      "explanation": "The chapter highlights that complex algorithms can make decisions based on conditions.",
+      "source": "facts:page2; facts:page5"
+    },
+    {
+      "id": "q25",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Algorithm Basics & Structure",
+      "question": "True or False: An algorithm always needs at least one step.",
+      "answer": true,
+      "explanation": "Since an algorithm is a set of step-by-step instructions, it needs at least one step to exist.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Algorithm Basics & Structure",
+      "question": "Which best explains why the chapter asks 'Why is precision important in coding?' right after discussing that computers can't guess?",
+      "options": [
+        "To connect the idea that computers need exact instructions since they can't fill in gaps themselves",
+        "To distract from the topic",
+        "Because coding never needs precision",
+        "Because computers are always guessing correctly"
+      ],
+      "answer": 0,
+      "explanation": "This connects directly to the fact that computers cannot guess or fill in gaps, so precision matters.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Everyday Algorithms",
+      "question": "Brushing your teeth in a specific order every day is an example of...",
+      "options": [
+        "A flowchart",
+        "An algorithm you use in daily life",
+        "A Sprite Lab event",
+        "Pseudocode"
+      ],
+      "answer": 1,
+      "explanation": "The chapter uses brushing teeth in a specific order as a real-life application of an algorithm.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q28",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Everyday Algorithms",
+      "question": "True or False: The brushing teeth algorithm in the chapter includes a repeated step, like brushing for 2 minutes.",
+      "answer": true,
+      "explanation": "The chapter states the brushing teeth algorithm includes repeated steps like brushing for 2 minutes.",
+      "source": "facts:page4"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Everyday Algorithms",
+      "question": "How many main steps does the chapter say a paper airplane algorithm usually involves?",
+      "options": [
+        "1-2 steps",
+        "5-6 steps",
+        "20-30 steps",
+        "100 steps"
+      ],
+      "answer": 1,
+      "explanation": "The chapter states the paper airplane algorithm involves 5-6 main steps.",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Everyday Algorithms",
+      "question": "What kind of step is common in the paper airplane folding algorithm, according to the chapter?",
+      "options": [
+        "Steps that never repeat",
+        "Repeated steps, such as folding",
+        "Steps with no order at all",
+        "Steps that require no decisions"
+      ],
+      "answer": 1,
+      "explanation": "Some steps in the paper airplane algorithm repeat, such as folding.",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Everyday Algorithms",
+      "question": "Making a paper airplane involves folding paper at specific angles to create...",
+      "options": [
+        "Wings",
+        "A tail only",
+        "A cockpit",
+        "Wheels"
+      ],
+      "answer": 0,
+      "explanation": "The chapter describes folding paper at specific angles to create wings.",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Everyday Algorithms",
+      "question": "Playing a board game involves algorithm-like features such as...",
+      "options": [
+        "No decisions at all",
+        "Several decisions and repeated actions",
+        "Only random luck, no decisions",
+        "A single unchanging action"
+      ],
+      "answer": 1,
+      "explanation": "Playing a board game involves several decisions and repeated actions, per the chapter.",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Everyday Algorithms",
+      "question": "Board game algorithms often include conditional actions based on...",
+      "options": [
+        "The colour of the board",
+        "The die roll",
+        "The time of day",
+        "The player's height"
+      ],
+      "answer": 1,
+      "explanation": "The chapter states board game algorithms include conditional actions based on die rolls.",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Everyday Algorithms",
+      "question": "Why do board game algorithms with conditions (like dice rolls) make each game different?",
+      "options": [
+        "Because dice rolls are random, so the resulting decisions and paths change each time",
+        "Because the rules change every time you play",
+        "Because the board itself changes shape",
+        "Because computers control the dice"
+      ],
+      "answer": 0,
+      "explanation": "The conditional actions based on random die rolls make each playthrough's decisions and paths different.",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q35",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Everyday Algorithms",
+      "question": "True or False: Setting up a birthday party, with decorations and food arranged in a sequence, can be thought of as following an algorithm.",
+      "answer": true,
+      "explanation": "The chapter describes organizing a party as following a sequence like an algorithm.",
+      "source": "facts:page4"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Everyday Algorithms",
+      "question": "According to the chapter, following a map to reach a destination is an example of...",
+      "options": [
+        "A sprite",
+        "An algorithm",
+        "A crossword",
+        "An event"
+      ],
+      "answer": 1,
+      "explanation": "The chapter gives following a map to reach a destination as an example of an algorithm.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Everyday Algorithms",
+      "question": "An alarm clock that adjusts its wake-up time based on the day of the week shows that complex algorithms can...",
+      "options": [
+        "Never change their behaviour",
+        "Make decisions based on different conditions",
+        "Only work on weekends",
+        "Ignore the day of the week completely"
+      ],
+      "answer": 1,
+      "explanation": "The chapter's alarm clock example shows complex algorithms can make decisions based on different conditions.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Everyday Algorithms",
+      "question": "Creating a detailed algorithm for a morning routine (waking up to leaving for school) helps you...",
+      "options": [
+        "Forget your daily tasks",
+        "Map your daily routine step-by-step",
+        "Avoid going to school",
+        "Make your routine random"
+      ],
+      "answer": 1,
+      "explanation": "The chapter describes creating a detailed algorithm to map daily routines step-by-step.",
+      "source": "facts:page18"
+    },
+    {
+      "id": "q39",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Everyday Algorithms",
+      "question": "Which of these are examples of everyday activities described as algorithms in the chapter? (Select all that apply)",
+      "options": [
+        "Brushing your teeth in a specific order",
+        "Making a paper airplane",
+        "Playing a board game",
+        "Watching TV with no plan"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Brushing teeth, making a paper airplane, and playing a board game are all used as algorithm examples. Watching TV with no plan has no defined steps or goal, so it is not used as an example.",
+      "source": "facts:page2; facts:page3; facts:page4"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Everyday Algorithms",
+      "question": "A recipe with clear steps to make a dish is a good example of an algorithm because...",
+      "options": [
+        "It has no steps at all",
+        "It gives clear, ordered instructions to reach a result",
+        "It is always wrong",
+        "It never has an ending"
+      ],
+      "answer": 1,
+      "explanation": "A recipe gives clear, ordered steps to reach a result, matching the definition of an algorithm.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Everyday Algorithms",
+      "question": "Two students both follow the paper airplane folding algorithm, but one repeats a fold twice by mistake and one follows it exactly. What does the chapter suggest matters most for a good algorithm?",
+      "options": [
+        "That everyone folds however they like",
+        "That each step is followed clearly and in the correct order",
+        "That folding must always be skipped",
+        "That paper airplanes cannot use algorithms"
+      ],
+      "answer": 1,
+      "explanation": "Good algorithms require each step to be followed clearly and in the correct logical order.",
+      "source": "facts:page3; facts:page5"
+    },
+    {
+      "id": "q42",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Everyday Algorithms",
+      "question": "True or False: Repeated steps, like folding paper twice for wings, are common in many everyday algorithms.",
+      "answer": true,
+      "explanation": "The chapter's Fun Fact states repeated steps are common in many everyday algorithms.",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Everyday Algorithms",
+      "question": "Why does the chapter ask 'How do decisions affect the complexity of tasks?' after discussing party planning and analysis?",
+      "options": [
+        "To show more decisions can make a task more complex",
+        "To confuse students",
+        "To prove decisions never matter",
+        "To remove decisions from algorithms"
+      ],
+      "answer": 0,
+      "explanation": "This question connects to the idea that analyzing algorithms helps identify how decisions affect complexity.",
+      "source": "facts:page4"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Everyday Algorithms",
+      "question": "Which everyday activity is used in the chapter to show an algorithm with a specific number of main steps (5-6)?",
+      "options": [
+        "Making a paper airplane",
+        "Watching a movie",
+        "Sleeping",
+        "Painting a wall"
+      ],
+      "answer": 0,
+      "explanation": "The paper airplane algorithm is described as involving 5-6 main steps.",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Everyday Algorithms",
+      "question": "According to the chapter, algorithms are part of your daily routine, such as...",
+      "options": [
+        "Getting ready for school",
+        "Sleeping through school",
+        "Ignoring your alarm",
+        "Skipping breakfast forever"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states algorithms are part of daily routines, like getting ready for school.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q46",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Everyday Algorithms",
+      "question": "True or False: According to the chapter, algorithms are only useful for computer programs and have no role in daily life activities.",
+      "answer": false,
+      "explanation": "This is False - the chapter uses brushing teeth, paper airplanes, board games, and birthdays as daily-life algorithm examples.",
+      "source": "facts:page2; facts:page3; facts:page4; facts:page5"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Everyday Algorithms",
+      "question": "A birthday party is organized by first sending invitations, then decorating, then preparing food, then welcoming guests. Which best describes why this counts as an algorithm?",
+      "options": [
+        "It has no clear order",
+        "It follows a specific sequence of steps to reach a goal, like an algorithm",
+        "It is random and unplanned",
+        "It never ends"
+      ],
+      "answer": 1,
+      "explanation": "Following a specific sequence of steps to reach a goal matches the definition of an algorithm.",
+      "source": "facts:page4"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Everyday Algorithms",
+      "question": "Which of these questions from the chapter helps you analyze an everyday algorithm?",
+      "options": [
+        "How do decisions affect the complexity of tasks?",
+        "What colour is the algorithm?",
+        "Does the algorithm have a favourite food?",
+        "Can algorithms feel tired?"
+      ],
+      "answer": 0,
+      "explanation": "The chapter poses this question to help analyze how decisions affect task complexity.",
+      "source": "facts:page4"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Everyday Algorithms",
+      "question": "Which of these is a 'Fun Fact' mentioned in the chapter about paper airplane algorithms?",
+      "options": [
+        "Repeated steps are common in many everyday algorithms",
+        "Paper airplanes never use algorithms",
+        "Paper airplanes only have one step",
+        "Board games and paper airplanes are unrelated to algorithms"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's Fun Fact states repeated steps are common in many everyday algorithms.",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Everyday Algorithms",
+      "question": "How are board games and vending machines similar in terms of algorithms?",
+      "options": [
+        "Both can involve conditional/decision-based actions (dice rolls, checking money)",
+        "Neither involves any decisions",
+        "Both are examples of flowcharts only",
+        "Board games never use algorithms"
+      ],
+      "answer": 0,
+      "explanation": "Board games use conditional actions from dice rolls, and vending machines check conditions like inserted money - both involve decision-based algorithm actions.",
+      "source": "facts:page3; facts:page11; facts:page16"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Everyday Algorithms",
+      "question": "Which daily task is used in the chapter to show a repeated step, like brushing for a set amount of time?",
+      "options": [
+        "Brushing your teeth",
+        "Solving a crossword",
+        "Coding a sprite",
+        "Building a flowchart"
+      ],
+      "answer": 0,
+      "explanation": "The brushing teeth algorithm includes the repeated step of brushing for 2 minutes.",
+      "source": "facts:page4"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Everyday Algorithms",
+      "question": "A student plans their morning by listing 'wake up, brush teeth, get dressed, eat breakfast, leave for school' in order. What does this best represent?",
+      "options": [
+        "A detailed algorithm for a daily routine",
+        "A crossword puzzle",
+        "An automatic door system",
+        "A GPS reroute"
+      ],
+      "answer": 0,
+      "explanation": "This ordered list of steps for a daily routine is a detailed algorithm, as described in the chapter.",
+      "source": "facts:page18"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pseudocode & Algorithm Planning",
+      "question": "What is pseudocode?",
+      "options": [
+        "Writing algorithm steps in plain language before making real code",
+        "A type of computer virus",
+        "A sprite in Sprite Lab",
+        "A crossword puzzle answer"
+      ],
+      "answer": 0,
+      "explanation": "Pseudocode is writing algorithm steps in plain language before converting them to actual code.",
+      "source": "facts:page6; facts:page15; worksheet-55847 Q1b"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pseudocode & Algorithm Planning",
+      "question": "Fill in the blank: The process of writing algorithm steps in plain language before converting them into real code is called ______.",
+      "options": [
+        "pseudocode",
+        "Toolbox",
+        "efficiency",
+        "a sprite"
+      ],
+      "answer": 0,
+      "explanation": "This matches the worksheet's fill-in-the-blank definition of pseudocode.",
+      "source": "worksheet-55847 Q1b"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pseudocode & Algorithm Planning",
+      "question": "Writing a shopping list before going to the store is used in the chapter as an example of...",
+      "options": [
+        "An event",
+        "Pseudocode",
+        "A sprite behaviour",
+        "A flowchart shape"
+      ],
+      "answer": 1,
+      "explanation": "The chapter uses writing a shopping list as an example of pseudocode-style planning.",
+      "source": "facts:page6"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pseudocode & Algorithm Planning",
+      "question": "Describing a recipe with steps before actually cooking is an example of...",
+      "options": [
+        "Pseudocode",
+        "A crossword clue",
+        "An automatic door",
+        "A vending machine algorithm"
+      ],
+      "answer": 0,
+      "explanation": "Describing a recipe's steps before cooking is given as an example of pseudocode.",
+      "source": "facts:page15"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pseudocode & Algorithm Planning",
+      "question": "Why do programmers write pseudocode before writing real code?",
+      "options": [
+        "To plan algorithm steps in plain language first, making the coding step easier",
+        "To make the algorithm impossible to understand",
+        "To skip planning entirely",
+        "Because computers require pseudocode to run programs"
+      ],
+      "answer": 0,
+      "explanation": "Pseudocode helps plan algorithms before converting them into actual code.",
+      "source": "facts:page6; facts:page16"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pseudocode & Algorithm Planning",
+      "question": "Complex algorithms are planned by...",
+      "options": [
+        "Breaking tasks into smaller steps",
+        "Ignoring the steps completely",
+        "Making the task more confusing",
+        "Removing the ending point"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states complex algorithms are planned by breaking tasks into smaller steps.",
+      "source": "facts:page6"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pseudocode & Algorithm Planning",
+      "question": "Building a model by assembling parts step-by-step is a real-life application of...",
+      "options": [
+        "Breaking down complex algorithms into smaller steps",
+        "A crossword puzzle",
+        "An event handler",
+        "A vending machine"
+      ],
+      "answer": 0,
+      "explanation": "The chapter uses building a model as a real-life application of breaking algorithms into smaller steps.",
+      "source": "facts:page6"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pseudocode & Algorithm Planning",
+      "question": "Why is identifying repeated steps and decision points important when planning an algorithm?",
+      "options": [
+        "It has no real use",
+        "It is crucial for simplifying and organizing the algorithm",
+        "It makes the algorithm longer on purpose",
+        "It removes the need for pseudocode"
+      ],
+      "answer": 1,
+      "explanation": "The chapter states identifying repeated steps and decision points is crucial in algorithm planning.",
+      "source": "facts:page6"
+    },
+    {
+      "id": "q61",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Pseudocode & Algorithm Planning",
+      "question": "True or False: Pseudocode is written using a strict programming language with special symbols.",
+      "answer": false,
+      "explanation": "Pseudocode uses plain, everyday language, not strict programming syntax.",
+      "source": "facts:page6; facts:page15"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pseudocode & Algorithm Planning",
+      "question": "A student writes 'first turn on the tap, then wet the toothbrush, then apply toothpaste' in plain English before coding a robot to brush teeth. What is this an example of?",
+      "options": [
+        "Pseudocode",
+        "A crossword answer",
+        "An automatic door sensor",
+        "A GPS route"
+      ],
+      "answer": 0,
+      "explanation": "Writing algorithm steps in plain English before coding is pseudocode.",
+      "source": "facts:page6; facts:page15"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pseudocode & Algorithm Planning",
+      "question": "Which best matches the chapter's description of pseudocode's purpose?",
+      "options": [
+        "To describe algorithm steps in plain words before real code is written",
+        "To draw pictures instead of writing words",
+        "To replace algorithms completely",
+        "To make code run faster automatically"
+      ],
+      "answer": 0,
+      "explanation": "Pseudocode describes algorithm steps in plain language before real code is written.",
+      "source": "facts:page16"
+    },
+    {
+      "id": "q64",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Pseudocode & Algorithm Planning",
+      "question": "Which of these are examples of pseudocode-like planning mentioned in the chapter? (Select all that apply)",
+      "options": [
+        "Writing a shopping list before shopping",
+        "Describing a recipe's steps before cooking",
+        "Randomly clicking buttons with no plan",
+        "Breaking a task into smaller steps before building a model"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Writing a shopping list, describing recipe steps, and breaking tasks into smaller steps are all pseudocode-style planning examples given in the chapter.",
+      "source": "facts:page6; facts:page15"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pseudocode & Algorithm Planning",
+      "question": "How does pseudocode simplify the programming process, according to the chapter?",
+      "options": [
+        "By letting you plan algorithm steps in plain language first",
+        "By skipping the need for any steps",
+        "By making algorithms permanently unclear",
+        "By removing all decisions"
+      ],
+      "answer": 0,
+      "explanation": "Pseudocode simplifies programming by letting you plan steps in plain language first.",
+      "source": "facts:page16"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pseudocode & Algorithm Planning",
+      "question": "Fill in the blank from the crossword: '______: Writing steps in plain language before coding.'",
+      "options": [
+        "Pseudocode",
+        "Sprite",
+        "Toolbox",
+        "Workspace"
+      ],
+      "answer": 0,
+      "explanation": "This crossword clue's answer is pseudocode.",
+      "source": "worksheet-55855 crossword; book:page18-crossword"
+    },
+    {
+      "id": "q67",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Pseudocode & Algorithm Planning",
+      "question": "True or False: Pseudocode must always be written after the real code is finished, never before.",
+      "answer": false,
+      "explanation": "Pseudocode is written before converting to actual code, in order to plan it first.",
+      "source": "facts:page6"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pseudocode & Algorithm Planning",
+      "question": "Breaking down a big task like building a model into smaller steps is helpful because it...",
+      "options": [
+        "Makes the plan more manageable and clear",
+        "Makes the task impossible",
+        "Removes the need to follow any order",
+        "Confuses the person doing it"
+      ],
+      "answer": 0,
+      "explanation": "Breaking tasks into smaller steps makes the plan more manageable and clear.",
+      "source": "facts:page6"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pseudocode & Algorithm Planning",
+      "question": "What is the main benefit of identifying repeatable steps while planning an algorithm?",
+      "options": [
+        "It simplifies tasks by letting you plan the repeated part once",
+        "It makes the algorithm forget its ending point",
+        "It prevents any planning at all",
+        "It removes the algorithm's starting point"
+      ],
+      "answer": 0,
+      "explanation": "Identifying repeatable steps simplifies planning by letting you handle the repeated part efficiently.",
+      "source": "facts:page6"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pseudocode & Algorithm Planning",
+      "question": "According to the chapter, which comes first when creating a program: pseudocode or the actual code?",
+      "options": [
+        "Pseudocode comes first, then the actual code",
+        "The actual code always comes first",
+        "They must be written at exactly the same time",
+        "Pseudocode replaces the actual code entirely"
+      ],
+      "answer": 0,
+      "explanation": "Pseudocode is written before converting the plan to actual code.",
+      "source": "facts:page6"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pseudocode & Algorithm Planning",
+      "question": "The word used in the crossword and worksheets for 'writing algorithm steps in plain language before making real code' is...",
+      "options": [
+        "Pseudocode",
+        "Precision",
+        "Toolbox",
+        "Workspace"
+      ],
+      "answer": 0,
+      "explanation": "That word is pseudocode, confirmed in both the worksheet and the crossword.",
+      "source": "worksheet-55847 Q1b; worksheet-55855 crossword"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pseudocode & Algorithm Planning",
+      "question": "A recipe describes steps 'boil water, add pasta, wait 10 minutes, drain' before anyone actually cooks. This is best described as...",
+      "options": [
+        "Pseudocode for the cooking algorithm",
+        "A Sprite Lab event",
+        "An automatic door algorithm",
+        "A flowchart shape only, no text"
+      ],
+      "answer": 0,
+      "explanation": "Describing steps in plain language before cooking (coding) them is pseudocode.",
+      "source": "facts:page15"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "What does Code.org Sprite Lab allow you to create?",
+      "options": [
+        "Animated projects using code blocks",
+        "Paper airplanes only",
+        "Physical robots",
+        "Board games with dice"
+      ],
+      "answer": 0,
+      "explanation": "Code.org Sprite Lab allows creating animated projects using code blocks.",
+      "source": "facts:page7"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "What is a sprite in Sprite Lab?",
+      "options": [
+        "A character or object that can move and interact",
+        "A type of computer virus",
+        "A crossword clue",
+        "A physical toy"
+      ],
+      "answer": 0,
+      "explanation": "Sprites are characters or objects that can move and interact in Sprite Lab.",
+      "source": "facts:page7"
+    },
+    {
+      "id": "q75",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "True or False: Sprites are described in the chapter as being like digital puppets you can control.",
+      "answer": true,
+      "explanation": "The chapter's Fun Fact describes sprites as digital puppets you can control.",
+      "source": "facts:page7"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "How many main areas does Sprite Lab have?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Five"
+      ],
+      "answer": 2,
+      "explanation": "Sprite Lab has three main areas: Toolbox, Workspace, and Display Area.",
+      "source": "facts:page8"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "What are Sprite Lab's three main areas?",
+      "options": [
+        "Toolbox, Workspace, and Display Area",
+        "Toolbox, Sprites, and Events",
+        "Workspace, Sprites, and World",
+        "Display Area, Locations, and Behaviours"
+      ],
+      "answer": 0,
+      "explanation": "The three main areas of Sprite Lab are the Toolbox, the Workspace, and the Display Area.",
+      "source": "facts:page8"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "Fill in the blank: The ______ in Sprite Lab contains all the code blocks you can use, organized by colour into categories.",
+      "options": [
+        "Toolbox",
+        "Workspace",
+        "Display Area",
+        "Crossword"
+      ],
+      "answer": 0,
+      "explanation": "The Toolbox contains all the code blocks, organized by colour into categories.",
+      "source": "worksheet-55847 Q1c; worksheet-55855 Q1b"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "What is the Workspace used for in Sprite Lab?",
+      "options": [
+        "Dragging and connecting blocks to build your program",
+        "Storing your finished projects only",
+        "Showing your project running",
+        "Changing your keyboard settings"
+      ],
+      "answer": 0,
+      "explanation": "The Workspace is where you drag and connect blocks to build your program.",
+      "source": "facts:page8"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "What does the Display Area show in Sprite Lab?",
+      "options": [
+        "Your project running, with sprites moving in action",
+        "The list of all code blocks",
+        "A blank white screen only",
+        "Your teacher's name"
+      ],
+      "answer": 0,
+      "explanation": "The Display Area shows your project running, including sprites moving in action.",
+      "source": "facts:page8"
+    },
+    {
+      "id": "q81",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "True or False: In Sprite Lab, the Display Area is where you drag and connect blocks to build your program.",
+      "answer": false,
+      "explanation": "This is False - the Workspace is where you drag and connect blocks; the Display Area shows your program running.",
+      "source": "worksheet-55847 Q2b"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "Which block do you use to create a sprite in Sprite Lab?",
+      "options": [
+        "'make new sprite at'",
+        "'set background to'",
+        "'when clicked'",
+        "'move forward'"
+      ],
+      "answer": 0,
+      "explanation": "Creating a sprite involves finding the 'make new sprite at' block.",
+      "source": "facts:page8"
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "Which of these is a category of code blocks in the Sprite Lab Toolbox?",
+      "options": [
+        "Sprites",
+        "Cooking",
+        "Homework",
+        "Weather"
+      ],
+      "answer": 0,
+      "explanation": "Sprites is one of the Toolbox categories shown in the book.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q84",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "Which of the following are Toolbox categories in Sprite Lab? (Select all that apply)",
+      "options": [
+        "Sprites",
+        "Locations",
+        "Behaviours",
+        "Grades"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The Toolbox organizes blocks into categories like Sprites, Locations, Behaviours, Events, and World. 'Grades' is not one of them.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "The 'Behaviours' category of blocks in Sprite Lab is used to...",
+      "options": [
+        "Make sprites move automatically",
+        "Delete all sprites",
+        "Change the keyboard layout",
+        "Save your project to a USB drive"
+      ],
+      "answer": 0,
+      "explanation": "The Behaviours category makes sprites move automatically.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "The 'Events' category of blocks in Sprite Lab is used to...",
+      "options": [
+        "Make things happen when you click or press keys",
+        "Set where sprites appear only",
+        "Only change backgrounds",
+        "Store your project's title"
+      ],
+      "answer": 0,
+      "explanation": "The Events category makes things happen when you click or press keys.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "The 'World' category of blocks in Sprite Lab helps you set up...",
+      "options": [
+        "Backgrounds and sounds",
+        "Only sprite costumes",
+        "Only the Workspace size",
+        "Homework reminders"
+      ],
+      "answer": 0,
+      "explanation": "The World category helps set up backgrounds and sounds.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "The 'Locations' category of blocks in Sprite Lab is used to...",
+      "options": [
+        "Set where sprites appear",
+        "Play music",
+        "Grade your project",
+        "Delete the Toolbox"
+      ],
+      "answer": 0,
+      "explanation": "The Locations category is used to set where sprites appear.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "In the example program shown in the book, the 'make new sprite at' block is connected below which block?",
+      "options": [
+        "'when run'",
+        "'set background to'",
+        "'move forward'",
+        "'when clicked'"
+      ],
+      "answer": 0,
+      "explanation": "The example program connects 'make new sprite at' below the 'when run' block.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "Which block lets you make your sprite move a certain number of pixels in a direction?",
+      "options": [
+        "'move ... pixels ... direction'",
+        "'set background to'",
+        "'make new sprite at'",
+        "'when run'"
+      ],
+      "answer": 0,
+      "explanation": "The 'move ... pixels ... direction' block moves your sprite a set number of pixels.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "A student wants their sprite to appear and then immediately move 10 pixels East when the program starts. Which order of blocks matches the chapter's example?",
+      "options": [
+        "when run -> make new sprite at -> move ... pixels East -> set background to",
+        "move ... pixels East -> when run -> make new sprite at",
+        "set background to -> move ... pixels East -> when run",
+        "There is no correct order; block order never matters"
+      ],
+      "answer": 0,
+      "explanation": "The book's example connects blocks in this order: when run, make new sprite at, move pixels, then set background to.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "Which block changes the scene shown behind your sprites?",
+      "options": [
+        "'set background to'",
+        "'make new sprite at'",
+        "'move forward'",
+        "'when clicked'"
+      ],
+      "answer": 0,
+      "explanation": "Changing the background uses the 'set background to' block.",
+      "source": "facts:page9"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "How does organizing code blocks by colour and category help programmers?",
+      "options": [
+        "It makes blocks easier to find and understand",
+        "It hides blocks so no one can use them",
+        "It slows down programming on purpose",
+        "It removes the need for a Workspace"
+      ],
+      "answer": 0,
+      "explanation": "Organizing code blocks by category helps in programming by making them easier to find.",
+      "source": "facts:page7"
+    },
+    {
+      "id": "q94",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "Which of these are parts of creating your first Sprite Lab project, according to the chapter? (Select all that apply)",
+      "options": [
+        "Finding and dragging the 'make new sprite at' block",
+        "Attaching it to the 'when run' block",
+        "Choosing a costume from a dropdown",
+        "Deleting the Toolbox entirely"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Creating your first project involves finding the sprite block, attaching it to 'when run', and choosing a costume - not deleting the Toolbox.",
+      "source": "facts:page8; book:page8"
+    },
+    {
+      "id": "q95",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "True or False: The 'when run' block makes things happen when you start your program.",
+      "answer": true,
+      "explanation": "This is confirmed True in the worksheet's true/false section.",
+      "source": "worksheet-55847 Q2c"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "Why might a beginner confuse the Workspace with the Display Area in Sprite Lab?",
+      "options": [
+        "Because both involve seeing something on screen, but one is for building code and the other for running it",
+        "Because they are actually the exact same area",
+        "Because Sprite Lab only has one area total",
+        "Because neither area is ever visible"
+      ],
+      "answer": 0,
+      "explanation": "Both areas are visible on screen, but the Workspace is for building code while the Display Area shows the program running.",
+      "source": "facts:page8; worksheet-55847 Q2b"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "Which block would you use first if you want your program to do something as soon as it starts?",
+      "options": [
+        "'when run'",
+        "'set background to'",
+        "'move forward'",
+        "'make 10 new sprites'"
+      ],
+      "answer": 0,
+      "explanation": "The 'when run' block triggers actions as soon as the program starts.",
+      "source": "facts:page8; book:page8"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Introduction to Code.org Sprite Lab",
+      "question": "Choosing a costume from a dropdown menu after creating a sprite lets you...",
+      "options": [
+        "Pick how the sprite looks",
+        "Delete the sprite",
+        "Change the Workspace size",
+        "Turn off events"
+      ],
+      "answer": 0,
+      "explanation": "Clicking the costume dropdown lets you choose how your sprite looks.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Building the Digital Aquarium",
+      "question": "Which block do you use to change the scene in your digital aquarium, like switching from day to night?",
+      "options": [
+        "'set background to'",
+        "'make new sprite at'",
+        "'when clicked'",
+        "'move forward'"
+      ],
+      "answer": 0,
+      "explanation": "Changing the background in Sprite Lab uses the 'set background to' block.",
+      "source": "facts:page9"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Building the Digital Aquarium",
+      "question": "Creating an aquarium project in Sprite Lab involves...",
+      "options": [
+        "Setting backgrounds and adding fish sprites",
+        "Only writing pseudocode, no sprites",
+        "Deleting the Toolbox",
+        "Only changing the keyboard"
+      ],
+      "answer": 0,
+      "explanation": "Creating an aquarium project involves setting backgrounds and adding fish sprites.",
+      "source": "facts:page9"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Building the Digital Aquarium",
+      "question": "What does adding 'behaviors' to sprites let them do?",
+      "options": [
+        "Move or perform actions automatically",
+        "Disappear permanently",
+        "Change the Toolbox colour",
+        "Turn off the computer"
+      ],
+      "answer": 0,
+      "explanation": "Adding behaviors to sprites lets them move or perform actions automatically.",
+      "source": "facts:page9"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Building the Digital Aquarium",
+      "question": "Adding behaviors to fish sprites so they swim by themselves is a real-life application of simulating...",
+      "options": [
+        "Real-life movements like swimming",
+        "Typing on a keyboard",
+        "Turning off a computer",
+        "Deleting a file"
+      ],
+      "answer": 0,
+      "explanation": "This is a real-life application of simulating movements like swimming.",
+      "source": "facts:page9"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Building the Digital Aquarium",
+      "question": "Which block lets you quickly add many identical sprites, like a school of fish?",
+      "options": [
+        "'make 10 new sprites'",
+        "'set background to'",
+        "'when run'",
+        "'move forward'"
+      ],
+      "answer": 0,
+      "explanation": "The 'make 10 new sprites' block allows adding multiple identical sprites at once.",
+      "source": "facts:page10"
+    },
+    {
+      "id": "q104",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Building the Digital Aquarium",
+      "question": "True or False: Different sea creatures in your aquarium project can have unique behaviours in the animation.",
+      "answer": true,
+      "explanation": "The chapter's Fun Fact states different sea creatures can have unique behaviours in animations.",
+      "source": "facts:page10"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Building the Digital Aquarium",
+      "question": "Adjusting the size of sprites in your digital aquarium mainly affects...",
+      "options": [
+        "The visual appeal/appearance of the aquarium",
+        "The Toolbox categories",
+        "The pseudocode",
+        "The event order"
+      ],
+      "answer": 0,
+      "explanation": "Adjusting sprite sizes enhances the visual appeal of your digital aquarium.",
+      "source": "facts:page10"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Building the Digital Aquarium",
+      "question": "Why might a programmer use 'make 10 new sprites' instead of adding one fish sprite ten separate times?",
+      "options": [
+        "It's a faster way to create many identical sprites at once",
+        "It deletes all existing sprites",
+        "It only works for backgrounds",
+        "It disables sprite behaviours"
+      ],
+      "answer": 0,
+      "explanation": "This block is a faster way to create many identical sprites, like a school of fish, at once.",
+      "source": "facts:page10"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Building the Digital Aquarium",
+      "question": "You can design your own underwater world in Sprite Lab using...",
+      "options": [
+        "Code, including backgrounds and fish sprites",
+        "Only paper and pencil",
+        "Physical fish tanks",
+        "A calculator"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's Fun Fact says you can design your own underwater world with code.",
+      "source": "facts:page9"
+    },
+    {
+      "id": "q108",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Building the Digital Aquarium",
+      "question": "Which of these are steps involved in building the digital aquarium project? (Select all that apply)",
+      "options": [
+        "Setting a background",
+        "Adding fish sprites",
+        "Adjusting sprite sizes for visual appeal",
+        "Deleting the 'when run' block from every project"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Building the aquarium involves setting a background, adding fish sprites, and adjusting sizes - not deleting the 'when run' block.",
+      "source": "facts:page9; facts:page10"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Building the Digital Aquarium",
+      "question": "More types of fish and aquatic creatures being addable to your aquarium is described in the chapter as a...",
+      "options": [
+        "Fun Fact",
+        "Error message",
+        "Crossword clue only",
+        "Real-World Algorithm"
+      ],
+      "answer": 0,
+      "explanation": "The chapter describes this as a Fun Fact.",
+      "source": "facts:page10"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Building the Digital Aquarium",
+      "question": "A student adds 10 identical fish sprites but wants each one to look slightly different in size. What should they adjust?",
+      "options": [
+        "Sprite sizes",
+        "The Toolbox colour scheme",
+        "The pseudocode only",
+        "The event order"
+      ],
+      "answer": 0,
+      "explanation": "Adjusting sprite sizes changes the visual appeal and variation of the aquarium.",
+      "source": "facts:page10"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Building the Digital Aquarium",
+      "question": "Which of these best fits: 'Simulating real-life movements like swimming' in the aquarium project?",
+      "options": [
+        "Adding behaviors to sprites",
+        "Deleting the background",
+        "Removing all events",
+        "Changing the Workspace to Display Area"
+      ],
+      "answer": 0,
+      "explanation": "Adding behaviors is the real-life application described for simulating swimming movements.",
+      "source": "facts:page9"
+    },
+    {
+      "id": "q112",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Building the Digital Aquarium",
+      "question": "True or False: The digital aquarium project only allows exactly one fish sprite at a time.",
+      "answer": false,
+      "explanation": "This is False - 'make 10 new sprites' lets you add many identical sprites, like a school of fish.",
+      "source": "facts:page10"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Building the Digital Aquarium",
+      "question": "Why does the chapter describe designing an aquarium as a good way to practice Sprite Lab skills?",
+      "options": [
+        "It combines backgrounds, sprites, and behaviours into one creative project",
+        "It requires no code at all",
+        "It only uses the Events category",
+        "It cannot use multiple sprites"
+      ],
+      "answer": 0,
+      "explanation": "The aquarium project combines backgrounds, sprites, and behaviours into one creative project.",
+      "source": "facts:page9; facts:page10"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Building the Digital Aquarium",
+      "question": "Switching an aquarium scene from day to night uses which block?",
+      "options": [
+        "'set background to'",
+        "'make 10 new sprites'",
+        "'move forward'",
+        "'when clicked'"
+      ],
+      "answer": 0,
+      "explanation": "Switching from day to night uses the 'set background to' block.",
+      "source": "facts:page9"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Building the Digital Aquarium",
+      "question": "If a student wants a school of 10 identical fish AND wants some fish to swim automatically, which TWO features from the chapter would they combine?",
+      "options": [
+        "'make 10 new sprites' and adding behaviours",
+        "Only the Toolbox colour",
+        "Only the Display Area",
+        "Deleting the background"
+      ],
+      "answer": 0,
+      "explanation": "Combining 'make 10 new sprites' with added behaviours creates a school of fish that swim automatically.",
+      "source": "facts:page9; facts:page10"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Building the Digital Aquarium",
+      "question": "Adding fish sprites and a background to create an underwater scene is an example of using Sprite Lab to...",
+      "options": [
+        "Design a creative animated project",
+        "Solve a crossword puzzle",
+        "Fix a computer virus",
+        "Print a paper airplane"
+      ],
+      "answer": 0,
+      "explanation": "This is an example of using Sprite Lab to design a creative animated project.",
+      "source": "facts:page9"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Events and Interactions",
+      "question": "What is an event in programming, according to the chapter?",
+      "options": [
+        "Something that happens that your program can respond to",
+        "A type of sprite",
+        "A background colour",
+        "A Toolbox category only"
+      ],
+      "answer": 0,
+      "explanation": "This matches both the facts and the worksheet's MCQ definition of an event.",
+      "source": "facts:page12; worksheet-55855 Q1c"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Events and Interactions",
+      "question": "Which of these is an example of an event?",
+      "options": [
+        "Clicking or pressing a key",
+        "A number typed into pseudocode",
+        "The name of a sprite",
+        "A crossword grid"
+      ],
+      "answer": 0,
+      "explanation": "Clicking or pressing a key is given as an example of an event.",
+      "source": "facts:page12; facts:page16"
+    },
+    {
+      "id": "q119",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Events and Interactions",
+      "question": "True or False: Understanding events in Sprite Lab helps make programs interactive.",
+      "answer": true,
+      "explanation": "The chapter states understanding events helps make programs interactive.",
+      "source": "facts:page12"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Events and Interactions",
+      "question": "The block 'when clicked' is an example of...",
+      "options": [
+        "An event",
+        "A Behaviour block only",
+        "A background setting",
+        "A pseudocode step"
+      ],
+      "answer": 0,
+      "explanation": "'when clicked' is an event block that triggers a response.",
+      "source": "facts:page12"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Events and Interactions",
+      "question": "Why does the order of events in a program matter?",
+      "options": [
+        "It can affect the program's outcome, like playing a sound before or after an animation",
+        "Order never matters in programming",
+        "Events always happen in alphabetical order",
+        "Only the first event in a program ever runs"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states the order of events can affect the program's outcome.",
+      "source": "facts:page13"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Events and Interactions",
+      "question": "Interactive events in the digital aquarium project can make it respond to actions, such as...",
+      "options": [
+        "Changing the background to night with a key press",
+        "Deleting the whole aquarium",
+        "Turning off the computer",
+        "Removing all sprites permanently"
+      ],
+      "answer": 0,
+      "explanation": "The chapter gives changing the background to night with a key press as an example.",
+      "source": "facts:page13"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Events and Interactions",
+      "question": "How do interactive features, like events, make games and projects more engaging?",
+      "options": [
+        "They let the program respond to the user's actions",
+        "They remove all decisions from the game",
+        "They always slow the game down",
+        "They stop the game from running"
+      ],
+      "answer": 0,
+      "explanation": "Interactive events let programs respond to user actions, making them more engaging.",
+      "source": "facts:page13"
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Events and Interactions",
+      "question": "What should a programmer do when two events happen at the same time?",
+      "options": [
+        "Prioritize the more important event",
+        "Ignore both events",
+        "Always run the least important event first",
+        "Delete one of the events randomly"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states when two events occur at the same time, you should prioritize important events.",
+      "source": "facts:page17"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Events and Interactions",
+      "question": "An emergency alert and a regular notification both trigger at the same moment. Based on the chapter, which should be shown first?",
+      "options": [
+        "The emergency alert, because important events should be prioritized",
+        "The regular notification, because it appeared second",
+        "Neither should be shown",
+        "Both should be permanently deleted"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's real-life application example is ensuring emergency alerts are shown before regular notifications.",
+      "source": "facts:page17"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Events and Interactions",
+      "question": "Fill in the blank (crossword): '______: Things that happen that your program can respond to (like clicks or key presses).'",
+      "options": [
+        "Events",
+        "Sprites",
+        "Pseudocode",
+        "Toolbox"
+      ],
+      "answer": 0,
+      "explanation": "The crossword clue's answer is events.",
+      "source": "book:page18-crossword"
+    },
+    {
+      "id": "q127",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Events and Interactions",
+      "question": "Which of these are examples of events mentioned in the chapter? (Select all that apply)",
+      "options": [
+        "A mouse click",
+        "A key press",
+        "Writing pseudocode on paper",
+        "'when run' starting the program"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Mouse clicks, key presses, and the program starting via 'when run' are all events. Writing pseudocode on paper is a planning activity, not a live program event.",
+      "source": "facts:page12; facts:page16"
+    },
+    {
+      "id": "q128",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Events and Interactions",
+      "question": "True or False: According to the chapter, events in programming only include mouse clicks and nothing else.",
+      "answer": false,
+      "explanation": "This is False - events also include things like key presses and 'when run' starting the program.",
+      "source": "facts:page12; facts:page16"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Events and Interactions",
+      "question": "The 'Events' category in the Sprite Lab Toolbox is used to...",
+      "options": [
+        "Make things happen when you click or press keys",
+        "Only change the Workspace size",
+        "Draw new sprites permanently",
+        "Delete the Display Area"
+      ],
+      "answer": 0,
+      "explanation": "The Events category makes things happen when you click or press keys.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Events and Interactions",
+      "question": "Playing a sound before an animation starts, compared to playing it after, is an example of how...",
+      "options": [
+        "The order of events can change a program's outcome",
+        "Sounds never matter in programming",
+        "Animations cannot use sound",
+        "Events always happen in reverse order"
+      ],
+      "answer": 0,
+      "explanation": "This example shows how the order of events can change a program's outcome.",
+      "source": "facts:page13"
+    },
+    {
+      "id": "q131",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Events and Interactions",
+      "question": "Which of these situations show an 'event' triggering a program response? (Select all that apply)",
+      "options": [
+        "A player clicking a sprite to make it jump",
+        "A key press changing the background to night",
+        "A programmer writing a shopping list before coding",
+        "A vending machine checking if a coin was inserted"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Clicking a sprite, a key press changing the background, and a vending machine checking a coin are all live event-triggered responses. Writing a shopping list is pseudocode planning, not a live event.",
+      "source": "facts:page6; facts:page12; facts:page13; facts:page16"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Events and Interactions",
+      "question": "According to the chapter, how do events like 'when clicked' enhance user interaction?",
+      "options": [
+        "They let users trigger actions and responses in a program",
+        "They remove the need for sprites",
+        "They stop programs from ever running",
+        "They only work with paper airplanes"
+      ],
+      "answer": 0,
+      "explanation": "Events like 'when clicked' let users trigger actions and responses in a program.",
+      "source": "facts:page12"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Events and Interactions",
+      "question": "In the chapter's aquarium example, what happens when a key is pressed to trigger the night background event?",
+      "options": [
+        "The background changes to night",
+        "All sprites are deleted",
+        "The Toolbox disappears",
+        "Nothing happens at all"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's example describes changing the background to night with a key press.",
+      "source": "facts:page13"
+    },
+    {
+      "id": "q134",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Events and Interactions",
+      "question": "True or False: Programming can respond to clicks, just like buttons in a game.",
+      "answer": true,
+      "explanation": "The chapter's Fun Fact states programming can respond to clicks, just like buttons in a game.",
+      "source": "facts:page16"
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Events and Interactions",
+      "question": "Which best defines an event, matching both the facts and the worksheet MCQ?",
+      "options": [
+        "Something that happens that your program can respond to",
+        "A type of sprite costume",
+        "A background scene only",
+        "A code block colour"
+      ],
+      "answer": 0,
+      "explanation": "This is the exact definition given in both the facts and the worksheet.",
+      "source": "facts:page12; worksheet-55855 Q1c"
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Events and Interactions",
+      "question": "Why is prioritizing important events (like emergency alerts) a good practice when two events happen at once?",
+      "options": [
+        "It ensures the most critical information reaches the user first",
+        "It makes the program crash on purpose",
+        "It hides all notifications forever",
+        "It removes the need for events entirely"
+      ],
+      "answer": 0,
+      "explanation": "Prioritizing important events ensures critical information, like emergency alerts, reaches the user first.",
+      "source": "facts:page17"
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Events and Interactions",
+      "question": "The crossword clue 'Things that happen that your program can respond to (like clicks or key presses)' describes...",
+      "options": [
+        "Events",
+        "Pseudocode",
+        "Sprites",
+        "Efficiency"
+      ],
+      "answer": 0,
+      "explanation": "This is the crossword clue and answer for events.",
+      "source": "book:page18-crossword"
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Events and Interactions",
+      "question": "A program plays a 'success' sound and shows a 'game over' animation at the exact same moment, but only one plays first. What does the chapter say should determine what happens?",
+      "options": [
+        "The order/priority of events should be decided based on importance",
+        "Random chance always decides",
+        "The Toolbox colour decides",
+        "Neither should ever play"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states the order of events matters and important events should be prioritized when they coincide.",
+      "source": "facts:page13; facts:page17"
+    },
+    {
+      "id": "q139",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Real-World Algorithms",
+      "question": "Traffic lights use algorithms to...",
+      "options": [
+        "Change colours in a specific order",
+        "Play music for drivers",
+        "Draw sprites",
+        "Write pseudocode"
+      ],
+      "answer": 0,
+      "explanation": "Traffic lights use algorithms to change colours in a specific order.",
+      "source": "facts:page11"
+    },
+    {
+      "id": "q140",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Real-World Algorithms",
+      "question": "What is the real-life application of a traffic light's timed colour-changing algorithm?",
+      "options": [
+        "Ensuring smooth traffic flow with timed signals",
+        "Making traffic worse on purpose",
+        "Turning off streetlights",
+        "Painting the road"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states this ensures smooth traffic flow with timed signals.",
+      "source": "facts:page11"
+    },
+    {
+      "id": "q141",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Real-World Algorithms",
+      "question": "Automatic doors, like those at supermarkets, use ______ to decide when to open or close.",
+      "options": [
+        "Sensors",
+        "Pseudocode only",
+        "Crossword puzzles",
+        "Paper airplanes"
+      ],
+      "answer": 0,
+      "explanation": "Automatic doors use sensors to decide when to open or close.",
+      "source": "facts:page11"
+    },
+    {
+      "id": "q142",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Real-World Algorithms",
+      "question": "GPS systems calculate routes based on...",
+      "options": [
+        "Your location and destination",
+        "The Toolbox colour",
+        "A random dice roll",
+        "The Display Area size"
+      ],
+      "answer": 0,
+      "explanation": "GPS systems calculate routes based on your location and destination.",
+      "source": "facts:page11"
+    },
+    {
+      "id": "q143",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Real-World Algorithms",
+      "question": "What can GPS algorithms do if you take a wrong turn?",
+      "options": [
+        "Reroute you automatically",
+        "Delete your destination",
+        "Stop working forever",
+        "Ignore the mistake completely"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's Fun Fact states GPS algorithms can reroute you if you take a wrong turn.",
+      "source": "facts:page11"
+    },
+    {
+      "id": "q144",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Real-World Algorithms",
+      "question": "Vending machines use algorithms to...",
+      "options": [
+        "Dispense items and give change",
+        "Only display advertisements",
+        "Draw sprites",
+        "Write shopping lists"
+      ],
+      "answer": 0,
+      "explanation": "Vending machines use algorithms to dispense items and give change.",
+      "source": "facts:page11"
+    },
+    {
+      "id": "q145",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Real-World Algorithms",
+      "question": "What should a vending machine's algorithm check for, according to the chapter and worksheet correction?",
+      "options": [
+        "Whether money was inserted AND whether the item is in stock, then dispense correct change",
+        "Only whether money was inserted",
+        "Only the colour of the coin",
+        "Nothing at all"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet's correction clarifies a vending machine must also check if the item is in stock and dispense correct change.",
+      "source": "facts:page16; worksheet-55847 Q2d"
+    },
+    {
+      "id": "q146",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Real-World Algorithms",
+      "question": "True or False: A vending machine algorithm only needs to check if money was inserted.",
+      "answer": false,
+      "explanation": "This is False - it also needs to check if the item is in stock and dispense correct change.",
+      "source": "worksheet-55847 Q2d"
+    },
+    {
+      "id": "q147",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Real-World Algorithms",
+      "question": "ATMs follow algorithms mainly to...",
+      "options": [
+        "Process transactions and ensure security",
+        "Play games with customers",
+        "Draw sprites for entertainment",
+        "Change traffic light colours"
+      ],
+      "answer": 0,
+      "explanation": "ATMs follow algorithms to process transactions and ensure security.",
+      "source": "facts:page12"
+    },
+    {
+      "id": "q148",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Real-World Algorithms",
+      "question": "Before dispensing cash, what does an ATM's algorithm typically check?",
+      "options": [
+        "Your account balance",
+        "The weather outside",
+        "The Toolbox colour scheme",
+        "A crossword answer"
+      ],
+      "answer": 0,
+      "explanation": "ATMs check your balance before dispensing cash.",
+      "source": "facts:page12"
+    },
+    {
+      "id": "q149",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Real-World Algorithms",
+      "question": "Self-checkout counters use algorithms to...",
+      "options": [
+        "Scan items and process payments",
+        "Only display advertisements",
+        "Draw fish sprites",
+        "Change the background to night"
+      ],
+      "answer": 0,
+      "explanation": "Self-checkout counters use algorithms to scan items and process payments.",
+      "source": "facts:page12"
+    },
+    {
+      "id": "q150",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Real-World Algorithms",
+      "question": "What is a real-life benefit of self-checkout algorithms in stores?",
+      "options": [
+        "Speeding up the checkout process",
+        "Making checkout slower on purpose",
+        "Removing the need for payment",
+        "Deleting customer accounts"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states self-checkout speeds up the checkout process in stores.",
+      "source": "facts:page12"
+    },
+    {
+      "id": "q151",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Real-World Algorithms",
+      "question": "Automatic doors at airports use sensors mainly to...",
+      "options": [
+        "Detect motion and control opening",
+        "Detect the weather",
+        "Play music",
+        "Sell tickets"
+      ],
+      "answer": 0,
+      "explanation": "Automatic doors at airports use sensors to detect motion and control opening.",
+      "source": "facts:page12"
+    },
+    {
+      "id": "q152",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Real-World Algorithms",
+      "question": "Which of these real-world systems are described in the chapter as using algorithms? (Select all that apply)",
+      "options": [
+        "Traffic lights",
+        "Vending machines",
+        "ATMs",
+        "A blank sheet of paper"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Traffic lights, vending machines, and ATMs are all described as using algorithms. A blank sheet of paper is not.",
+      "source": "facts:page11; facts:page12"
+    },
+    {
+      "id": "q153",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Real-World Algorithms",
+      "question": "A shopper scans their own groceries at a self-checkout, and the machine calculates the total and accepts payment. Which real-world algorithm category does this best match?",
+      "options": [
+        "Self-checkout algorithms",
+        "Traffic light timing",
+        "GPS rerouting",
+        "Pseudocode planning"
+      ],
+      "answer": 0,
+      "explanation": "This matches the self-checkout algorithm example in the chapter.",
+      "source": "facts:page12"
+    },
+    {
+      "id": "q154",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Real-World Algorithms",
+      "question": "Why do vending machines need an algorithm rather than just randomly giving out items?",
+      "options": [
+        "To correctly check payment, stock, and give proper change",
+        "Because randomness works better for customers",
+        "Because vending machines cannot use algorithms",
+        "Because change is never needed"
+      ],
+      "answer": 0,
+      "explanation": "Vending machines need algorithms to correctly check payment, stock, and give proper change.",
+      "source": "facts:page11; facts:page16"
+    },
+    {
+      "id": "q155",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Real-World Algorithms",
+      "question": "What happens if a vending machine runs out of the item you selected, based on the chapter's discussion question?",
+      "options": [
+        "The algorithm needs a way to handle that situation, such as refunding you or showing an error",
+        "The machine explodes",
+        "Nothing changes; it dispenses a random item instead",
+        "The machine always gives you free items"
+      ],
+      "answer": 0,
+      "explanation": "The chapter raises this as a discussion point, implying the algorithm must handle out-of-stock situations.",
+      "source": "facts:page11"
+    },
+    {
+      "id": "q156",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Real-World Algorithms",
+      "question": "What is the main purpose of GPS route-calculating algorithms?",
+      "options": [
+        "To find the best path from your location to your destination",
+        "To play music while driving",
+        "To change traffic light colours",
+        "To dispense vending machine snacks"
+      ],
+      "answer": 0,
+      "explanation": "GPS algorithms calculate the best route from your location to your destination.",
+      "source": "facts:page11"
+    },
+    {
+      "id": "q157",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Real-World Algorithms",
+      "question": "Automatic doors at supermarkets opening as you approach show an example of...",
+      "options": [
+        "A sensor-based real-world algorithm",
+        "A crossword puzzle",
+        "Pseudocode only, no real code",
+        "An event with no algorithm involved"
+      ],
+      "answer": 0,
+      "explanation": "This is an example of a sensor-based real-world algorithm.",
+      "source": "facts:page11"
+    },
+    {
+      "id": "q158",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Real-World Algorithms",
+      "question": "Which TWO of these systems both rely on sensors to detect people or motion, according to the chapter? (Select all that apply)",
+      "options": [
+        "Automatic doors at supermarkets",
+        "Automatic doors at airports",
+        "Pseudocode planning",
+        "Writing a shopping list"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Both supermarket and airport automatic doors rely on sensors to detect motion, per the chapter.",
+      "source": "facts:page11; facts:page12"
+    },
+    {
+      "id": "q159",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Real-World Algorithms",
+      "question": "Checking your balance before dispensing cash is a step in which real-world algorithm?",
+      "options": [
+        "An ATM's algorithm",
+        "A vending machine's algorithm",
+        "A traffic light's algorithm",
+        "A GPS's algorithm"
+      ],
+      "answer": 0,
+      "explanation": "This step belongs to an ATM's algorithm.",
+      "source": "facts:page12"
+    },
+    {
+      "id": "q160",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Real-World Algorithms",
+      "question": "Why is it important for ATM algorithms to 'ensure security' during transactions?",
+      "options": [
+        "To protect customers' money and account information",
+        "To make transactions take longer on purpose",
+        "To confuse the customer",
+        "Security is not actually important for ATMs"
+      ],
+      "answer": 0,
+      "explanation": "ATM algorithms ensure security to protect customers' money and account information.",
+      "source": "facts:page12"
+    },
+    {
+      "id": "q161",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Real-World Algorithms",
+      "question": "Which of these best matches: 'Doors at airports opening automatically when people approach'?",
+      "options": [
+        "Automatic doors using motion sensors",
+        "A vending machine dispensing change",
+        "A GPS recalculating a route",
+        "An ATM checking a balance"
+      ],
+      "answer": 0,
+      "explanation": "This matches the automatic doors using motion sensors example.",
+      "source": "facts:page12"
+    },
+    {
+      "id": "q162",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Real-World Algorithms",
+      "question": "True or False: GPS algorithms can reroute you if you take a wrong turn.",
+      "answer": true,
+      "explanation": "The chapter's Fun Fact confirms GPS algorithms can reroute you if you take a wrong turn.",
+      "source": "facts:page11"
+    },
+    {
+      "id": "q163",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Real-World Algorithms",
+      "question": "Which of these is the BEST real-world example matching 'ensuring smooth traffic flow with timed signals'?",
+      "options": [
+        "Traffic lights changing colour in a set order",
+        "A vending machine dispensing snacks",
+        "Pseudocode for a shopping list",
+        "A crossword puzzle about sprites"
+      ],
+      "answer": 0,
+      "explanation": "This is the traffic light example from the chapter.",
+      "source": "facts:page11"
+    },
+    {
+      "id": "q164",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Real-World Algorithms",
+      "question": "Self-checkout counters, ATMs, and vending machines all share which common feature, according to the chapter?",
+      "options": [
+        "They all use algorithms to process actions like payments or transactions",
+        "They all require no computer code",
+        "They all only work with cash",
+        "They all change traffic light colours"
+      ],
+      "answer": 0,
+      "explanation": "All three systems use algorithms to process actions like payments and transactions.",
+      "source": "facts:page11; facts:page12"
+    },
+    {
+      "id": "q165",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Real-World Algorithms",
+      "question": "Which system is described as needing to 'ensure security' while processing transactions?",
+      "options": [
+        "ATMs",
+        "Traffic lights",
+        "GPS",
+        "Crossword puzzles"
+      ],
+      "answer": 0,
+      "explanation": "ATMs are described as processing transactions and ensuring security.",
+      "source": "facts:page12"
+    },
+    {
+      "id": "q166",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Real-World Algorithms",
+      "question": "Self-checkout, ATM, and vending machine algorithms all share which purpose?",
+      "options": [
+        "Automating a transaction process that used to require a human",
+        "Changing traffic light colours",
+        "Rerouting drivers who get lost",
+        "Drawing sprites on a screen"
+      ],
+      "answer": 0,
+      "explanation": "These systems all automate transaction processes (payments, cash, purchases) that once required a human.",
+      "source": "facts:page11; facts:page12"
+    },
+    {
+      "id": "q167",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Real-World Algorithms",
+      "question": "True or False: Traffic lights change colours in a specific, non-random order to help manage traffic flow.",
+      "answer": true,
+      "explanation": "Traffic lights use algorithms to change colours in a specific order, ensuring smooth traffic flow.",
+      "source": "facts:page11"
+    },
+    {
+      "id": "q168",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Real-World Algorithms",
+      "question": "Which of these best explains why GPS rerouting is considered a 'smart' algorithm feature?",
+      "options": [
+        "It can adapt and recalculate a new path when circumstances change, like a wrong turn",
+        "It always gives the same route no matter what",
+        "It never changes its calculations",
+        "It ignores the driver's location completely"
+      ],
+      "answer": 0,
+      "explanation": "GPS rerouting adapts and recalculates a new path when you take a wrong turn.",
+      "source": "facts:page11"
+    },
+    {
+      "id": "q169",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algorithm Efficiency",
+      "question": "What does 'algorithm efficiency' refer to, according to the fill-in-the-blank worksheet?",
+      "options": [
+        "How fast an algorithm runs and how much computer memory it uses",
+        "How colourful an algorithm looks",
+        "How many sprites an algorithm has",
+        "How long an algorithm's name is"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet defines algorithm efficiency as how fast an algorithm runs and how much memory it uses.",
+      "source": "worksheet-55847 Q1d"
+    },
+    {
+      "id": "q170",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algorithm Efficiency",
+      "question": "Searching for a book using a library catalogue system versus scanning every single shelf is an example used to show...",
+      "options": [
+        "Different algorithms can achieve the same result with varying efficiency",
+        "Only one algorithm can ever find a book",
+        "Efficiency does not matter for searching",
+        "Catalogues are always wrong"
+      ],
+      "answer": 0,
+      "explanation": "The chapter uses this comparison to show different algorithms can achieve the same result with varying efficiency.",
+      "source": "facts:page14"
+    },
+    {
+      "id": "q171",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Algorithm Efficiency",
+      "question": "True or False: Checking every single book on every shelf is the MORE efficient way to search for a book, compared to using a catalogue system.",
+      "answer": false,
+      "explanation": "This is False - using the catalogue system is more efficient than checking every shelf.",
+      "source": "worksheet-55855 Q1d"
+    },
+    {
+      "id": "q172",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algorithm Efficiency",
+      "question": "Which method is more efficient for finding a book in a library, according to the chapter?",
+      "options": [
+        "Using the library catalogue system",
+        "Checking every single book on every shelf",
+        "Both are equally efficient",
+        "Neither method works"
+      ],
+      "answer": 0,
+      "explanation": "Using the catalogue system is the more efficient method described in the chapter.",
+      "source": "worksheet-55855 Q1d; facts:page14"
+    },
+    {
+      "id": "q173",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Algorithm Efficiency",
+      "question": "Why do efficient algorithms matter for real-world applications like online banking?",
+      "options": [
+        "They must handle large amounts of data and respond quickly",
+        "Efficiency is not important for banking",
+        "Slower algorithms are always safer",
+        "Banking never uses algorithms"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's discussion question links efficiency to handling large data and quick responses, as in online banking.",
+      "source": "facts:page14"
+    },
+    {
+      "id": "q174",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algorithm Efficiency",
+      "question": "What is one benefit of efficient algorithms in programming projects?",
+      "options": [
+        "They save time and resources",
+        "They always use more memory",
+        "They always take longer to run",
+        "They remove the need for a starting point"
+      ],
+      "answer": 0,
+      "explanation": "Efficient algorithms save time and resources in programming projects.",
+      "source": "facts:page14"
+    },
+    {
+      "id": "q175",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Algorithm Efficiency",
+      "question": "True or False: Two algorithms that accomplish the same task will always take the exact same amount of time.",
+      "answer": false,
+      "explanation": "This is False - some algorithms are more efficient than others even when solving the same problem.",
+      "source": "worksheet-55847 Q2e"
+    },
+    {
+      "id": "q176",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Algorithm Efficiency",
+      "question": "Which of these are TRUE about algorithm efficiency, based on the chapter? (Select all that apply)",
+      "options": [
+        "Different algorithms can solve the same problem with different efficiency",
+        "Efficient code can make applications run faster",
+        "All algorithms always take the same amount of time",
+        "Efficiency involves both speed and memory use"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Efficiency can differ between algorithms, efficient code speeds up applications, and efficiency involves both speed and memory - but algorithms do NOT always take the same amount of time.",
+      "source": "facts:page14; worksheet-55847 Q1d; worksheet-55847 Q2e"
+    },
+    {
+      "id": "q177",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Algorithm Efficiency",
+      "question": "What do programmers strive for when writing algorithms that must handle lots of data quickly?",
+      "options": [
+        "Efficiency",
+        "Confusion",
+        "Randomness",
+        "Slower run times"
+      ],
+      "answer": 0,
+      "explanation": "Programmers strive for efficiency to handle large data and quick responses.",
+      "source": "facts:page14"
+    },
+    {
+      "id": "q178",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algorithm Efficiency",
+      "question": "Fill in the blank (crossword): '______: How fast and smart an algorithm works.'",
+      "options": [
+        "Efficiency",
+        "Sprites",
+        "Events",
+        "Pseudocode"
+      ],
+      "answer": 0,
+      "explanation": "The crossword clue's answer is efficiency.",
+      "source": "worksheet-55855 crossword"
+    },
+    {
+      "id": "q179",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Algorithm Efficiency",
+      "question": "A programmer writes two different search algorithms that both correctly find the same item, but one finishes in half the time. What does this best demonstrate?",
+      "options": [
+        "That efficiency can differ between algorithms solving the same task",
+        "That both algorithms are equally efficient",
+        "That only one algorithm is a real algorithm",
+        "That efficiency never matters"
+      ],
+      "answer": 0,
+      "explanation": "This demonstrates that efficiency can differ between algorithms that solve the same task.",
+      "source": "facts:page14; worksheet-55847 Q2e"
+    },
+    {
+      "id": "q180",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algorithm Efficiency",
+      "question": "Using efficient code to make applications run faster is described in the chapter as a...",
+      "options": [
+        "Real-life Application",
+        "Crossword clue only",
+        "Fun Fact about sprites",
+        "Event"
+      ],
+      "answer": 0,
+      "explanation": "The chapter describes this as a Real-life Application.",
+      "source": "facts:page14"
+    },
+    {
+      "id": "q181",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Algorithm Efficiency",
+      "question": "True or False: Algorithm efficiency refers only to how colourful the Toolbox blocks look.",
+      "answer": false,
+      "explanation": "This is False - efficiency refers to speed and memory use, not colour.",
+      "source": "worksheet-55847 Q1d"
+    },
+    {
+      "id": "q182",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Algorithm Efficiency",
+      "question": "Why is efficiency crucial for something like online banking, according to the chapter's discussion question?",
+      "options": [
+        "Because banking systems must process many transactions quickly and reliably",
+        "Because banking never involves computers",
+        "Because slower is always safer for banks",
+        "Because efficiency has nothing to do with speed"
+      ],
+      "answer": 0,
+      "explanation": "Banking systems must process many transactions quickly and reliably, making efficiency crucial.",
+      "source": "facts:page14"
+    },
+    {
+      "id": "q183",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algorithm Efficiency",
+      "question": "Which two factors together make up 'algorithm efficiency', according to the worksheet fill-in-the-blank?",
+      "options": [
+        "How fast it runs and how much memory it uses",
+        "How many colours it has and how long its name is",
+        "How many sprites it uses and its background colour",
+        "How many crosswords it solves"
+      ],
+      "answer": 0,
+      "explanation": "Efficiency is defined by speed and memory use in the worksheet.",
+      "source": "worksheet-55847 Q1d"
+    },
+    {
+      "id": "q184",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Algorithm Efficiency",
+      "question": "Which of the following would you use to compare the efficiency of two algorithms? (Select all that apply)",
+      "options": [
+        "How fast each one runs",
+        "How much memory each one uses",
+        "How many letters are in the algorithm's name",
+        "Whether the algorithm's name is a real word"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Efficiency is measured by speed and memory use, not by the algorithm's name.",
+      "source": "worksheet-55847 Q1d; facts:page14"
+    },
+    {
+      "id": "q185",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algorithm Efficiency",
+      "question": "Scanning every shelf to find one book, versus using a catalogue system, best illustrates...",
+      "options": [
+        "That some algorithms take longer than others to reach the same result",
+        "That catalogues never work",
+        "That efficiency is unrelated to algorithms",
+        "That shelves are always faster than catalogues"
+      ],
+      "answer": 0,
+      "explanation": "This example shows some algorithms take longer than others to reach the same result.",
+      "source": "facts:page14"
+    },
+    {
+      "id": "q186",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algorithm Efficiency",
+      "question": "Which of these statements about efficiency is TRUE?",
+      "options": [
+        "Efficient algorithms save time and resources",
+        "Inefficient algorithms are always preferred",
+        "Efficiency has nothing to do with memory use",
+        "Only slow algorithms are considered good"
+      ],
+      "answer": 0,
+      "explanation": "Efficient algorithms save time and resources, as stated in the chapter.",
+      "source": "facts:page14"
+    },
+    {
+      "id": "q187",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Algorithm Efficiency",
+      "question": "If an online store's checkout algorithm becomes slow when many people shop at once, what quality is it lacking?",
+      "options": [
+        "Efficiency",
+        "Pseudocode",
+        "A Toolbox",
+        "An event"
+      ],
+      "answer": 0,
+      "explanation": "A slow checkout algorithm under load is lacking efficiency.",
+      "source": "facts:page14"
+    },
+    {
+      "id": "q188",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algorithm Efficiency",
+      "question": "Which real-world scenario from the chapter best demonstrates comparing algorithm efficiency?",
+      "options": [
+        "Searching for a book via catalogue vs. scanning every shelf",
+        "Changing an aquarium background to night",
+        "Folding a paper airplane",
+        "Pressing a key to trigger an event"
+      ],
+      "answer": 0,
+      "explanation": "The library catalogue vs. shelf-scanning example is the chapter's efficiency comparison.",
+      "source": "facts:page14"
+    },
+    {
+      "id": "q189",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Flowcharts",
+      "question": "What do flowcharts do, according to the chapter?",
+      "options": [
+        "Visually represent algorithms, making them easier to understand",
+        "Play sounds automatically",
+        "Replace the need for algorithms entirely",
+        "Store vending machine change"
+      ],
+      "answer": 0,
+      "explanation": "Flowcharts visually represent algorithms, making them easier to understand.",
+      "source": "facts:page18"
+    },
+    {
+      "id": "q190",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Flowcharts",
+      "question": "Who is mentioned in the chapter as using flowcharts to plan processes before building?",
+      "options": [
+        "Engineers",
+        "Vending machines",
+        "Sprites",
+        "Crossword makers"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states engineers use flowcharts to plan processes before building.",
+      "source": "facts:page18"
+    },
+    {
+      "id": "q191",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Flowcharts",
+      "question": "True or False: Flowcharts make algorithms easier to understand by representing them visually.",
+      "answer": true,
+      "explanation": "This is confirmed True in the chapter.",
+      "source": "facts:page18"
+    },
+    {
+      "id": "q192",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Flowcharts",
+      "question": "Why might an engineer use a flowchart before building something?",
+      "options": [
+        "To visually plan the process and catch problems early",
+        "To avoid planning entirely",
+        "To make the algorithm invisible",
+        "To replace all code with pictures forever"
+      ],
+      "answer": 0,
+      "explanation": "Flowcharts let engineers visually plan a process before building, which can help catch problems early.",
+      "source": "facts:page18"
+    },
+    {
+      "id": "q193",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Flowcharts",
+      "question": "A flowchart is best described as...",
+      "options": [
+        "A visual way to represent an algorithm's steps",
+        "A type of vending machine",
+        "A crossword answer",
+        "A Sprite Lab category"
+      ],
+      "answer": 0,
+      "explanation": "A flowchart is a visual way to represent an algorithm's steps.",
+      "source": "facts:page18"
+    },
+    {
+      "id": "q194",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Flowcharts",
+      "question": "How are flowcharts and pseudocode similar, based on the chapter's descriptions of each?",
+      "options": [
+        "Both are tools used to plan or represent an algorithm's steps before or alongside real code",
+        "Both are types of sprites",
+        "Both are physical objects",
+        "Neither has anything to do with algorithms"
+      ],
+      "answer": 0,
+      "explanation": "Both flowcharts and pseudocode are tools for planning or representing an algorithm's steps.",
+      "source": "facts:page6; facts:page18"
+    },
+    {
+      "id": "q195",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Flowcharts",
+      "question": "Creating a detailed algorithm for a morning routine (from waking up to leaving for school) could be represented visually using a...",
+      "options": [
+        "Flowchart",
+        "Vending machine",
+        "ATM",
+        "Crossword grid"
+      ],
+      "answer": 0,
+      "explanation": "A flowchart could visually represent a morning routine algorithm.",
+      "source": "facts:page18"
+    },
+    {
+      "id": "q196",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Flowcharts",
+      "question": "Which best explains why engineers plan processes with flowcharts BEFORE building something?",
+      "options": [
+        "To visually map out steps and decisions first, reducing costly mistakes later",
+        "Because flowcharts are required by law",
+        "Because building always comes before planning",
+        "Because flowcharts replace the need for engineers"
+      ],
+      "answer": 0,
+      "explanation": "Planning with a flowchart first helps map out steps and decisions, reducing mistakes later.",
+      "source": "facts:page18"
+    },
+    {
+      "id": "q197",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Flowcharts",
+      "question": "Which of these are TRUE about flowcharts, according to the chapter? (Select all that apply)",
+      "options": [
+        "They visually represent algorithms",
+        "Engineers use them to plan processes before building",
+        "They make algorithms harder to understand",
+        "They can represent a morning routine algorithm"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Flowcharts visually represent algorithms, are used by engineers, and can represent routines like a morning routine - they make algorithms EASIER, not harder, to understand.",
+      "source": "facts:page18"
+    },
+    {
+      "id": "q198",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Flowcharts",
+      "question": "True or False: According to the chapter, flowcharts make algorithms harder to understand than plain text alone.",
+      "answer": false,
+      "explanation": "This is False - flowcharts are described as making algorithms EASIER to understand by representing them visually.",
+      "source": "facts:page18"
+    },
+    {
+      "id": "q199",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Flowcharts",
+      "question": "Which of these activities from the chapter is a good candidate for being mapped out with a flowchart?",
+      "options": [
+        "A morning routine from waking up to leaving for school",
+        "The colour of a Toolbox category",
+        "The name of a crossword clue",
+        "A single word in pseudocode"
+      ],
+      "answer": 0,
+      "explanation": "A morning routine algorithm is a good candidate for being mapped out visually with a flowchart.",
+      "source": "facts:page18"
+    },
+    {
+      "id": "q200",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Flowcharts",
+      "question": "What is the main real-life application of flowcharts mentioned in the chapter?",
+      "options": [
+        "Engineers using them to plan processes before building",
+        "Vending machines using them to give change",
+        "ATMs using them to check balances",
+        "GPS systems using them to calculate routes"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's real-life application for flowcharts is engineers planning processes before building.",
+      "source": "facts:page18"
+    },
+    {
+      "id": "q201",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "Crossword clue: 'A set of step-by-step instructions to achieve a goal.' What is the answer?",
+      "options": [
+        "Algorithm",
+        "Sprite",
+        "Event",
+        "Toolbox"
+      ],
+      "answer": 0,
+      "explanation": "This crossword clue's answer is algorithm.",
+      "source": "worksheet-55855 crossword; book:page18-crossword"
+    },
+    {
+      "id": "q202",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "Crossword clue: 'Digital puppets that follow your instructions in Sprite Lab.' What is the answer?",
+      "options": [
+        "Sprites",
+        "Pseudocode",
+        "Workspace",
+        "Efficiency"
+      ],
+      "answer": 0,
+      "explanation": "This crossword clue's answer is sprites.",
+      "source": "book:page18-crossword"
+    },
+    {
+      "id": "q203",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "Crossword clue: 'Instructions that are exact and accurate.' What is the answer?",
+      "options": [
+        "Precise",
+        "Random",
+        "Slow",
+        "Colourful"
+      ],
+      "answer": 0,
+      "explanation": "This crossword clue's answer is precise.",
+      "source": "worksheet-55855 crossword"
+    },
+    {
+      "id": "q204",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "Crossword clue: 'The part of Sprite Lab where you connect code blocks together.' What is the answer?",
+      "options": [
+        "Workspace",
+        "Toolbox",
+        "Display Area",
+        "Event"
+      ],
+      "answer": 0,
+      "explanation": "This crossword clue's answer is Workspace.",
+      "source": "worksheet-55855 crossword"
+    },
+    {
+      "id": "q205",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "Crossword clue: 'How fast and smart an algorithm works.' What is the answer?",
+      "options": [
+        "Efficiency",
+        "Pseudocode",
+        "Sprite",
+        "Event"
+      ],
+      "answer": 0,
+      "explanation": "This crossword clue's answer is efficiency.",
+      "source": "worksheet-55855 crossword"
+    },
+    {
+      "id": "q206",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "Crossword clue: 'Writing algorithm steps in plain words before making real code.' What is the answer?",
+      "options": [
+        "Pseudocode",
+        "Efficiency",
+        "Workspace",
+        "Precise"
+      ],
+      "answer": 0,
+      "explanation": "This crossword clue's answer is pseudocode.",
+      "source": "worksheet-55855 crossword; book:page18-crossword"
+    },
+    {
+      "id": "q207",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "Crossword clue: 'Checks that help programs make choices (like Is there enough money?).' What key programming idea does this describe?",
+      "options": [
+        "Conditions",
+        "Sprites",
+        "Backgrounds",
+        "Crosswords"
+      ],
+      "answer": 0,
+      "explanation": "This crossword clue describes conditions.",
+      "source": "book:page18-crossword"
+    },
+    {
+      "id": "q208",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "Crossword clue: 'Things that happen that your program can respond to (like clicks or key presses).' What is the answer?",
+      "options": [
+        "Events",
+        "Sprites",
+        "Pseudocode",
+        "Toolbox"
+      ],
+      "answer": 0,
+      "explanation": "This crossword clue's answer is events.",
+      "source": "book:page18-crossword"
+    },
+    {
+      "id": "q209",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "Which of these words appear as answers in the chapter's crossword puzzles? (Select all that apply)",
+      "options": [
+        "Algorithm",
+        "Pseudocode",
+        "Sprites",
+        "Homework"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Algorithm, pseudocode, and sprites all appear as crossword answers in the chapter. Homework does not.",
+      "source": "worksheet-55855 crossword; book:page18-crossword"
+    },
+    {
+      "id": "q210",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "Which vocabulary word means 'how fast and smart an algorithm works' AND is also defined in the worksheet as 'how fast an algorithm runs and how much computer memory it uses'?",
+      "options": [
+        "Efficiency",
+        "Pseudocode",
+        "Sprite",
+        "Workspace"
+      ],
+      "answer": 0,
+      "explanation": "That word is efficiency, matching both the crossword clue and the worksheet definition.",
+      "source": "worksheet-55855 crossword; worksheet-55847 Q1d"
+    },
+    {
+      "id": "q211",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "In Sprite Lab vocabulary, a 'digital puppet you can control' refers to a...",
+      "options": [
+        "Sprite",
+        "Toolbox",
+        "Event",
+        "Flowchart"
+      ],
+      "answer": 0,
+      "explanation": "Sprites are described as digital puppets you can control.",
+      "source": "facts:page7; book:page18-crossword"
+    },
+    {
+      "id": "q212",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "Which word describes the area of Sprite Lab where you drag and connect blocks together?",
+      "options": [
+        "Workspace",
+        "Display Area",
+        "Toolbox",
+        "Event"
+      ],
+      "answer": 0,
+      "explanation": "The Workspace is where you drag and connect blocks together.",
+      "source": "facts:page8; worksheet-55855 crossword"
+    },
+    {
+      "id": "q213",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "A crossword clue reads: 'Checks that help programs make choices.' Which everyday example from the chapter matches this idea?",
+      "options": [
+        "A vending machine checking if you inserted enough coins",
+        "A sprite moving 10 pixels East",
+        "A flowchart shape",
+        "A background colour"
+      ],
+      "answer": 0,
+      "explanation": "The vending machine checking if enough coins were inserted is the chapter's example of a condition-based check.",
+      "source": "facts:page16; book:page18-crossword"
+    },
+    {
+      "id": "q214",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "Which word means 'a set of step-by-step instructions to solve a problem', appearing repeatedly across the chapter's facts, worksheets, and crosswords?",
+      "options": [
+        "Algorithm",
+        "Sprite",
+        "Toolbox",
+        "Event"
+      ],
+      "answer": 0,
+      "explanation": "That word is algorithm.",
+      "source": "facts:page5; worksheet-55855 crossword"
+    },
+    {
+      "id": "q215",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "True or False: The words 'algorithm' and 'pseudocode' both appear as answers in the chapter's crossword puzzles.",
+      "answer": true,
+      "explanation": "Both words appear as crossword answers across the worksheet and book crosswords.",
+      "source": "worksheet-55855 crossword; book:page18-crossword"
+    },
+    {
+      "id": "q216",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Crossword & Vocabulary Review",
+      "question": "Which vocabulary word best fits: 'the process of writing out algorithm steps in plain language before converting them to actual code'?",
+      "options": [
+        "Pseudocode",
+        "Efficiency",
+        "Toolbox",
+        "Sprite"
+      ],
+      "answer": 0,
+      "explanation": "That word is pseudocode.",
+      "source": "worksheet-55847 Q1b"
+    }
+  ]
+}

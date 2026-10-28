@@ -1,0 +1,3181 @@
+{
+  "schemaVersion": 1,
+  "id": "ai-literacy-ch34-my-ai-checklist",
+  "title": "My AI Checklist",
+  "subject": "AI-Literacy",
+  "grade": 4,
+  "chapter": "34. My AI Checklist",
+  "topic": "Full Book",
+  "description": "Practice on protecting your personal information from apps and AI, and on honestly and responsibly disclosing how AI helped with schoolwork or creative work, drawn from the 'My AI Checklist' worksheet and the true story of artist Boris Eldagsen.",
+  "tags": [
+    "ai-literacy",
+    "grade4",
+    "privacy",
+    "data-collection",
+    "responsible-ai-use",
+    "academic-integrity",
+    "disclosure",
+    "boris-eldagsen",
+    "digital-citizenship"
+  ],
+  "defaultTimeLimitSec": 1800,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Apps & Information Collection",
+      "question": "In the 'My AI Checklist' worksheet, Question 1 asks you to look at some apps and tick every type of information each one might ______.",
+      "options": [
+        "collect",
+        "delete",
+        "block",
+        "translate"
+      ],
+      "answer": 0,
+      "explanation": "Question 1 instructs: 'For each one, tick every type of information it might collect.'",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Apps & Information Collection",
+      "question": "Which of these apps are listed in the apps-and-information checklist table? (Select all that apply)",
+      "options": [
+        "YouTube",
+        "A mobile game",
+        "AI study helper",
+        "Photo filter app",
+        "A calculator app",
+        "An alarm clock app"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "The table lists exactly YouTube, a mobile game, an AI study helper, and a photo filter app.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Apps & Information Collection",
+      "question": "Which of these types of personal information are listed as columns in the checklist table? (Select all that apply)",
+      "options": [
+        "Your name",
+        "Your location",
+        "What you watch/Play",
+        "Your voice",
+        "Your face/Photo",
+        "Your home Wi-Fi password"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "explanation": "The table has exactly five columns: name, location, what you watch/play, voice, and face/photo.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Apps & Information Collection",
+      "question": "How many different apps are shown in the 'My AI Checklist' information table?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "The table lists four apps: YouTube, a mobile game, an AI study helper, and a photo filter app.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Apps & Information Collection",
+      "question": "How many types of personal information are listed as columns in the checklist table?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "There are five columns: name, location, what you watch/play, voice, and face/photo.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Apps & Information Collection",
+      "question": "Which type of information would a Photo Filter app most likely need to work?",
+      "options": [
+        "Your face/Photo",
+        "Your bank PIN",
+        "Your school report card",
+        "Your height"
+      ],
+      "answer": 0,
+      "explanation": "Photo filter apps edit pictures, so they need access to your face/photo to apply the effect.",
+      "source": "worksheet:Q1 reasoning"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Apps & Information Collection",
+      "question": "An AI study helper that answers questions you speak out loud would most likely need to collect...",
+      "options": [
+        "Your voice",
+        "Your family's holiday photos",
+        "Your class timetable",
+        "Your favourite colour"
+      ],
+      "answer": 0,
+      "explanation": "To understand spoken questions, a voice-based helper needs to record and process your voice.",
+      "source": "worksheet:Q1 reasoning"
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Apps & Information Collection",
+      "question": "YouTube recommending videos based on what you have already seen is mainly using...",
+      "options": [
+        "What you watch/Play",
+        "Your face/Photo",
+        "Your voice",
+        "Your home address"
+      ],
+      "answer": 0,
+      "explanation": "Video recommendations are built from your viewing history, matching the 'What you watch/Play' column.",
+      "source": "worksheet:Q1 reasoning"
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Apps & Information Collection",
+      "question": "A mobile game that tracks your scores and playing habits mainly collects...",
+      "options": [
+        "What you watch/Play",
+        "Your face/Photo",
+        "Your voice",
+        "Your bank details"
+      ],
+      "answer": 0,
+      "explanation": "Tracking scores and habits is exactly the kind of 'Play' activity the checklist column describes.",
+      "source": "worksheet:Q1 reasoning"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Apps & Information Collection",
+      "question": "Which of these would a Photo Filter app almost certainly NOT need to collect just to apply a filter to your picture?",
+      "options": [
+        "Your bank password",
+        "Your face/Photo",
+        "A photo you took",
+        "Your permission to use the camera"
+      ],
+      "answer": 0,
+      "explanation": "A bank password has nothing to do with editing photos; it is an unrelated, unnecessary piece of information, even though it may look like a normal thing an app could ask for.",
+      "source": "worksheet:Q1 reasoning"
+    },
+    {
+      "id": "q11",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Apps & Information Collection",
+      "question": "True or False: According to the checklist, every single app in the table must collect all five types of information listed.",
+      "answer": false,
+      "explanation": "The worksheet asks you to tick only the info each app 'might' collect — different apps collect different things, not all five for every app.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q12",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Apps & Information Collection",
+      "question": "True or False: The checklist in Question 1 is meant to help you think about what personal information different apps might gather.",
+      "answer": true,
+      "explanation": "That is exactly the purpose stated in Question 1's instructions.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Apps & Information Collection",
+      "question": "Select all the pieces of information a food delivery app is said to learn about you, according to Question 2.",
+      "options": [
+        "Your name",
+        "Your address",
+        "What you eat",
+        "When you usually order",
+        "Which family member's account you are using",
+        "Your school grades"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "explanation": "Question 2 states the app learns 'your name, your address, what you eat, when you usually order, and which family member's account you are using.'",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Apps & Information Collection",
+      "question": "According to Question 2, what does the food delivery app in the example use AI for?",
+      "options": [
+        "To suggest what you should order",
+        "To do your homework",
+        "To translate menus",
+        "To play music while you eat"
+      ],
+      "answer": 0,
+      "explanation": "The text states the app 'uses AI to suggest what you should order.'",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Apps & Information Collection",
+      "question": "Which country is mentioned in the food delivery app example in Question 2?",
+      "options": [
+        "India",
+        "the USA",
+        "Japan",
+        "the UK"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet says: 'A food delivery app in India uses AI...'",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Apps & Information Collection",
+      "question": "The food delivery app example learns 'which family member's account you are using.' Why might this be a privacy concern?",
+      "options": [
+        "It means the app can link information to more than just you, including other family members",
+        "It means the app will delete the account",
+        "It means the food will be delivered late",
+        "It means the app cannot suggest any food at all"
+      ],
+      "answer": 0,
+      "explanation": "Knowing whose account is used means the app can connect ordering habits to specific people, extending privacy concerns beyond just the one user placing the order.",
+      "source": "worksheet:Q2 reasoning"
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Apps & Information Collection",
+      "question": "Question 2a asks you to circle the pieces of information you would be comfortable sharing. Which options are given to choose from? (Select all)",
+      "options": [
+        "Name",
+        "Address",
+        "Eating habits",
+        "Order time",
+        "Family member's account",
+        "Passport number"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "explanation": "Question 2a lists exactly: Name, Address, Eating habits, Order time, Family member's account.",
+      "source": "worksheet:Q2a"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Apps & Information Collection",
+      "question": "What is the difference the worksheet asks you to think about in Question 2b?",
+      "options": [
+        "The difference between what you WOULD share and what you SHOULD share",
+        "The difference between apps and websites",
+        "The difference between AI and humans",
+        "The difference between fast and slow internet"
+      ],
+      "answer": 0,
+      "explanation": "Question 2b literally asks: 'Is there a difference between what you WOULD share and what you SHOULD share?'",
+      "source": "worksheet:Q2b"
+    },
+    {
+      "id": "q19",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Apps & Information Collection",
+      "question": "True or False: Something you feel comfortable sharing is always something that is safe to share.",
+      "answer": false,
+      "explanation": "Question 2b specifically points out there can be a difference between what you WOULD share (comfort) and what you SHOULD share (safety/appropriateness) — they are not always the same.",
+      "source": "worksheet:Q2b"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Apps & Information Collection",
+      "question": "According to Question 2c, what does the app do if it never asks permission before collecting your data?",
+      "options": [
+        "It collects the information anyway",
+        "It stops working completely",
+        "It asks your parents first",
+        "It deletes your account"
+      ],
+      "answer": 0,
+      "explanation": "The text says directly: 'The app never asks permission — it just collects.'",
+      "source": "worksheet:Q2c"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Apps & Information Collection",
+      "question": "Question 2c raises the question of who is responsible for protecting your information when an app collects data without asking permission. What is this question inviting you to reflect on?",
+      "options": [
+        "Who should be responsible for protecting your personal information",
+        "Which app has the best design",
+        "How fast the app loads",
+        "Which food to order next"
+      ],
+      "answer": 0,
+      "explanation": "Question 2c is explicitly a reflection prompt about who should be responsible for protecting a user's personal information.",
+      "source": "worksheet:Q2c"
+    },
+    {
+      "id": "q22",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Apps & Information Collection",
+      "question": "Select all statements about the apps-and-information checklist (Question 1) that are TRUE.",
+      "options": [
+        "It lists more than one type of app",
+        "It lists more than one type of personal information",
+        "It asks you to tick every type of info an app might collect",
+        "It gives you the definite correct answer for each app so there is nothing to think about"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The worksheet is a reflection/reasoning exercise — it does not hand you a definite official answer for each app, so 'nothing to think about' is false.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Apps & Information Collection",
+      "question": "Which worksheet task comes first in the 'My AI Checklist' activity — the apps information table or the food delivery app example?",
+      "options": [
+        "The apps information table (Question 1)",
+        "The food delivery app example (Question 2)",
+        "The Boris Eldagsen story",
+        "The voice note task"
+      ],
+      "answer": 0,
+      "explanation": "Question 1 (the apps table) precedes Question 2 (the food delivery example) in the worksheet's order.",
+      "source": "worksheet:Q1-Q2"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Apps & Information Collection",
+      "question": "Why does the worksheet follow the apps checklist with a detailed food delivery app example?",
+      "options": [
+        "To show concretely how an app can gather several kinds of personal information at once",
+        "To teach you how to cook",
+        "To test your maths skills",
+        "To advertise a specific delivery company"
+      ],
+      "answer": 0,
+      "explanation": "The detailed food delivery scenario illustrates, with a concrete case, how one app can combine name/address/habits/timing/account data — building on the general checklist idea.",
+      "source": "worksheet:Q1-Q2 reasoning"
+    },
+    {
+      "id": "q25",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Apps & Information Collection",
+      "question": "True or False: The worksheet names a specific food delivery company.",
+      "answer": false,
+      "explanation": "The text only says 'A food delivery app in India' — it does not name any specific brand.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Apps & Information Collection",
+      "question": "What overall skill are Question 1 and Question 2 together mainly building?",
+      "options": [
+        "Noticing what personal information apps and AI tools might collect",
+        "Learning to cook Indian food",
+        "Improving spelling and grammar",
+        "Learning to record a voice note"
+      ],
+      "answer": 0,
+      "explanation": "Both tasks are about spotting what information gets collected, laying groundwork for the chapter's privacy theme.",
+      "source": "worksheet:Q1-Q2 reasoning"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI-Assisted Work & Honesty",
+      "question": "In Question 3, which statement reflects the most responsible way to use AI for schoolwork?",
+      "options": [
+        "If AI writes most of it, I should say it helped.",
+        "If I change a few words in an essay written by AI, it becomes fully mine.",
+        "It doesn't matter if no one finds out.",
+        "AI should never be used for any homework."
+      ],
+      "answer": 0,
+      "explanation": "Being honest about how much AI helped matches the chapter's whole message (as also shown later by the Boris Eldagsen story); the other statements are misconceptions given in the same question.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q28",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "AI-Assisted Work & Honesty",
+      "question": "Select all the statements from Question 3 that are misconceptions (not the most responsible view).",
+      "options": [
+        "If I change a few words in an essay written by AI, it becomes fully mine.",
+        "If AI writes most of it, I should say it helped.",
+        "It doesn't matter if no one finds out."
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Statement 2 ('If AI writes most of it, I should say it helped') reflects honesty; statements 1 and 3 are misconceptions — small edits don't make AI work 'fully yours', and honesty matters even if undetected.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q29",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "AI-Assisted Work & Honesty",
+      "question": "True or False: Changing a few words in an AI-written essay is enough to make the whole essay truly your own work.",
+      "answer": false,
+      "explanation": "The ideas, structure, and most of the wording still came from AI — a few word swaps do not change who really created the content.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q30",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "AI-Assisted Work & Honesty",
+      "question": "True or False: According to the values in this chapter, it is fine to hide your use of AI as long as nobody ever finds out.",
+      "answer": false,
+      "explanation": "The chapter's message (also shown by the Boris Eldagsen story) is that honesty matters regardless of whether you get caught — this is exactly the misconception the worksheet warns against.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI-Assisted Work & Honesty",
+      "question": "Which value is Question 3 in the worksheet mainly testing?",
+      "options": [
+        "Honesty about how much AI helped with your work",
+        "Speed of typing",
+        "Knowledge of Indian geography",
+        "Ability to draw pictures"
+      ],
+      "answer": 0,
+      "explanation": "The three statements are all about how honest a student is about AI's role in their work.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI-Assisted Work & Honesty",
+      "question": "If a student uses AI to write most of an essay but tells the teacher AI helped, which statement from Question 3 are they following?",
+      "options": [
+        "'If AI writes most of it, I should say it helped.'",
+        "'If I change a few words in an essay written by AI, it becomes fully mine.'",
+        "'It doesn't matter if no one finds out.'",
+        "None of the statements"
+      ],
+      "answer": 0,
+      "explanation": "This matches statement 2 exactly: 'If AI writes most of it, I should say it helped.'",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI-Assisted Work & Honesty",
+      "question": "How many statements are given to choose from in Question 3?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "answer": 1,
+      "explanation": "Question 3 gives exactly three statements to tick from.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "AI-Assisted Work & Honesty",
+      "question": "A student edits only three words of an AI-written paragraph and submits it as fully their own. Which statement's mistaken idea are they acting on?",
+      "options": [
+        "'If I change a few words in an essay written by AI, it becomes fully mine.'",
+        "'If AI writes most of it, I should say it helped.'",
+        "'It doesn't matter if no one finds out.'",
+        "No statement — this is fine"
+      ],
+      "answer": 0,
+      "explanation": "This matches the misconception: 'If I change a few words in an essay written by AI, it becomes fully mine.'",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q35",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "AI-Assisted Work & Honesty",
+      "question": "True or False: Question 3 asks you to tick the statement you agree with LEAST.",
+      "answer": false,
+      "explanation": "It actually asks you to 'tick the statement you agree with most.'",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI-Assisted Work & Honesty",
+      "question": "What does Question 3 ask you to do?",
+      "options": [
+        "Tick the statement you agree with most",
+        "Circle five words",
+        "Draw a picture of an app",
+        "Write a new essay"
+      ],
+      "answer": 0,
+      "explanation": "The instruction reads: 'Tick the statement you agree with most.'",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q37",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "AI-Assisted Work & Honesty",
+      "question": "Which of these ideas connect Question 3 to the Boris Eldagsen story later in the worksheet? (Select all)",
+      "options": [
+        "Both are about being honest about how AI was used",
+        "Both mention food delivery apps",
+        "Both talk about telling the truth even when you don't have to",
+        "Both are only about grammar mistakes"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Both Question 3 and the Eldagsen story are fundamentally about honestly disclosing AI's role in your work, and about telling the truth even when it isn't required.",
+      "source": "worksheet:Q3 & story"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "AI-Assisted Work & Honesty",
+      "question": "Why is 'it doesn't matter if no one finds out' considered a misconception in this chapter?",
+      "options": [
+        "Because honesty about AI use matters on its own, not just to avoid being caught",
+        "Because AI always gets found out eventually",
+        "Because teachers can always tell AI-written work",
+        "Because it is technically true and not a misconception"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's values (echoed by Eldagsen's story) treat honesty as important in itself, independent of whether someone happens to notice.",
+      "source": "worksheet:Q3 reasoning"
+    },
+    {
+      "id": "q39",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "AI-Assisted Work & Honesty",
+      "question": "True or False: Question 3 is about choosing between statements related to using AI to help write an essay.",
+      "answer": true,
+      "explanation": "All three statements in Question 3 are about AI helping write an essay.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI-Assisted Work & Honesty",
+      "question": "Which of these best explains why simply changing a few words doesn't make AI-written work 'fully yours'?",
+      "options": [
+        "The main ideas, structure, and most of the content still came from the AI",
+        "Because the teacher will always know",
+        "Because AI writing is always wrong",
+        "Because words can never be changed"
+      ],
+      "answer": 0,
+      "explanation": "The main ideas, structure, and most of the content still came from the AI, even if a few words are changed.",
+      "source": "worksheet:Q3 reasoning"
+    },
+    {
+      "id": "q41",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "AI-Assisted Work & Honesty",
+      "question": "A student says: 'AI helped me a lot, but I only changed some words, so it's basically all mine, and there's no need to mention AI since no one would know anyway.' Which two misconceptions from Question 3 is this student combining? (Select all)",
+      "options": [
+        "'If I change a few words in an essay written by AI, it becomes fully mine.'",
+        "'If AI writes most of it, I should say it helped.'",
+        "'It doesn't matter if no one finds out.'"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "The statement mixes both misconceptions — claiming minor edits equal full ownership, and treating secrecy as an excuse not to disclose.",
+      "source": "worksheet:Q3 reasoning"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI-Assisted Work & Honesty",
+      "question": "In Question 3, which statement encourages disclosing (telling others) that AI helped with your work?",
+      "options": [
+        "'If AI writes most of it, I should say it helped.'",
+        "'If I change a few words in an essay written by AI, it becomes fully mine.'",
+        "'It doesn't matter if no one finds out.'",
+        "None of them"
+      ],
+      "answer": 0,
+      "explanation": "Statement 2, 'If AI writes most of it, I should say it helped', encourages disclosure.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q43",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "AI-Assisted Work & Honesty",
+      "question": "True or False: The worksheet presents three statements in Question 3, and only one of them matches the chapter's honesty message.",
+      "answer": true,
+      "explanation": "Only 'If AI writes most of it, I should say it helped' matches the chapter's honesty message; the other two are misconceptions.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "AI-Assisted Work & Honesty",
+      "question": "A student changes only the introduction of an AI-written essay and keeps everything else. Based on the chapter's message, is this essay now 'fully theirs'?",
+      "options": [
+        "No — most of the content and ideas are still the AI's",
+        "Yes, because they wrote the introduction",
+        "Yes, because they read it before submitting",
+        "Yes, because AI cannot write introductions"
+      ],
+      "answer": 0,
+      "explanation": "Most of the content and ideas are still the AI's, so changing just the introduction does not make the whole essay the student's own work.",
+      "source": "worksheet:Q3 reasoning"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI-Assisted Work & Honesty",
+      "question": "What kind of school work is used as the example in Question 3?",
+      "options": [
+        "An essay",
+        "A science project",
+        "A maths test",
+        "A drawing"
+      ],
+      "answer": 0,
+      "explanation": "Question 3 talks about 'an essay written by AI.'",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI-Assisted Work & Honesty",
+      "question": "How does Question 3 connect to the overall guiding question of the worksheet, 'Does using AI protect me — and represent me?'",
+      "options": [
+        "It checks whether you represent your own work honestly when AI has helped",
+        "It checks whether your essay is grammatically perfect",
+        "It checks how fast you can write",
+        "It checks whether you like reading"
+      ],
+      "answer": 0,
+      "explanation": "Question 3 checks whether a student represents their own work honestly when AI has helped, connecting directly to the 'represent me' part of the guiding question.",
+      "source": "worksheet:Q3 reasoning"
+    },
+    {
+      "id": "q47",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "AI-Assisted Work & Honesty",
+      "question": "True or False: According to the chapter, saying AI helped with your work makes your work worth less.",
+      "answer": false,
+      "explanation": "The chapter's message (through both Question 3 and the Eldagsen story) is that being honest about AI's help is the responsible choice, not something that reduces the value of your work.",
+      "source": "worksheet:Q3 & story reasoning"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI-Assisted Work & Honesty",
+      "question": "Which of these is NOT one of the three statements listed in Question 3?",
+      "options": [
+        "'AI should always write my homework for me.'",
+        "'If I change a few words in an essay written by AI, it becomes fully mine.'",
+        "'If AI writes most of it, I should say it helped.'",
+        "'It doesn't matter if no one finds out.'"
+      ],
+      "answer": 0,
+      "explanation": "'AI should always write my homework for me' is not one of the three statements; the real ones are about changing words, saying AI helped, and not being found out.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI-Assisted Work & Honesty",
+      "question": "Question 3 is part of which worksheet difficulty section?",
+      "options": [
+        "Powering up",
+        "Laying the tracks",
+        "Thinking deeper (at your own pace)",
+        "There are no sections"
+      ],
+      "answer": 0,
+      "explanation": "Question 3 appears at the top of the 'Powering up' section (Level ★★).",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "According to Question 4b, what are the three named 'levels' of AI help listed (besides 'None of these')?",
+      "options": [
+        "The Spark, The Editor, The Researcher",
+        "The Beginner, The Expert, The Master",
+        "The Helper, The Checker, The Finder",
+        "The Starter, The Fixer, The Seeker"
+      ],
+      "answer": 0,
+      "explanation": "Question 4b lists exactly: The Spark, The Editor, The Researcher, and None of these.",
+      "source": "worksheet:Q4b"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "What does 'The Spark' level mean, according to the worksheet?",
+      "options": [
+        "It gave me ideas",
+        "It improved my work",
+        "It helped find information",
+        "It did all my homework"
+      ],
+      "answer": 0,
+      "explanation": "Question 4b defines: 'The Spark (It gave ideas)'.",
+      "source": "worksheet:Q4b"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "What does 'The Editor' level mean, according to the worksheet?",
+      "options": [
+        "It improved my work",
+        "It gave me ideas",
+        "It helped find information",
+        "It deleted my work"
+      ],
+      "answer": 0,
+      "explanation": "Question 4b defines: 'The Editor (It improved my work)'.",
+      "source": "worksheet:Q4b"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "What does 'The Researcher' level mean, according to the worksheet?",
+      "options": [
+        "It helped find information",
+        "It gave me ideas",
+        "It improved my work",
+        "It wrote the whole essay"
+      ],
+      "answer": 0,
+      "explanation": "Question 4b defines: 'The Researcher (It helped find information)'.",
+      "source": "worksheet:Q4b"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "A writing/spelling app that corrects your grammar mistakes is acting mostly as...",
+      "options": [
+        "The Editor",
+        "The Spark",
+        "The Researcher",
+        "None of these"
+      ],
+      "answer": 0,
+      "explanation": "Correcting spelling/grammar matches 'It improved my work', which is exactly how 'The Editor' is defined.",
+      "source": "worksheet:Q4a-b reasoning"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "A tool that gives you an answer to a factual question is acting mostly as...",
+      "options": [
+        "The Researcher",
+        "The Spark",
+        "The Editor",
+        "None of these"
+      ],
+      "answer": 0,
+      "explanation": "'Helped find information' matches 'The Researcher'.",
+      "source": "worksheet:Q4a-b reasoning"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "A tool that just gives you a first idea to start your project, without doing the work for you, is acting mostly as...",
+      "options": [
+        "The Spark",
+        "The Editor",
+        "The Researcher",
+        "None of these"
+      ],
+      "answer": 0,
+      "explanation": "'Gave me ideas' matches 'The Spark'.",
+      "source": "worksheet:Q4a-b reasoning"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "If a digital tool BOTH gave you an idea AND then corrected your grammar, which single level best captures the part where 'it gave me ideas'?",
+      "options": [
+        "The Spark",
+        "The Editor",
+        "The Researcher",
+        "None of these"
+      ],
+      "answer": 0,
+      "explanation": "'Gave me ideas' is specifically the Spark's definition, even if the same tool also helped in other ways.",
+      "source": "worksheet:Q4a-b reasoning"
+    },
+    {
+      "id": "q58",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "Select all of the digital learning tools mentioned as examples in Question 4.",
+      "options": [
+        "Google search",
+        "YouTube for homework help",
+        "A voice assistant",
+        "A writing/spelling app",
+        "A calculator app",
+        "A weather app"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Exactly these four tools are named in Question 4: Google search, YouTube for homework help, a voice assistant, and a writing/spelling app.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "How many 'how did it help you' options are listed to choose from in Question 4a?",
+      "options": [
+        "Four",
+        "Five",
+        "Six",
+        "Three"
+      ],
+      "answer": 1,
+      "explanation": "Question 4a lists exactly five options, plus the 'not used any tool' option makes five total choices.",
+      "source": "worksheet:Q4a"
+    },
+    {
+      "id": "q60",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "Select all the options given in Question 4a for 'How did it help you?'",
+      "options": [
+        "It gave me ideas",
+        "It explained something I didn't understand",
+        "It helped correct spelling/grammar",
+        "It gave me information",
+        "I have not used any tool like this yet",
+        "It wrote my whole essay for me"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "explanation": "Question 4a lists exactly these five choices; 'It wrote my whole essay for me' is not one of them.",
+      "source": "worksheet:Q4a"
+    },
+    {
+      "id": "q61",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "True or False: 'None of these' is one of the choices for Question 4b (choosing a level).",
+      "answer": true,
+      "explanation": "Question 4b's four choices are The Spark, The Editor, The Researcher, and None of these.",
+      "source": "worksheet:Q4b"
+    },
+    {
+      "id": "q62",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "True or False: The three named levels in Question 4b are The Spark, The Editor, and The Researcher.",
+      "answer": true,
+      "explanation": "These are exactly the three named levels given in Question 4b.",
+      "source": "worksheet:Q4b"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "Which level involves a tool making direct improvements or corrections to work you already wrote, rather than starting something new or looking things up?",
+      "options": [
+        "The Editor",
+        "The Spark",
+        "The Researcher",
+        "None of these"
+      ],
+      "answer": 0,
+      "explanation": "'The Editor' is defined as 'It improved my work', which fits fixing/improving already-written work.",
+      "source": "worksheet:Q4b reasoning"
+    },
+    {
+      "id": "q64",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "Select all levels that describe a tool that does NOT simply write the whole assignment for the student.",
+      "options": [
+        "The Spark",
+        "The Editor",
+        "The Researcher"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "All three levels describe forms of assistance (ideas, improvement, information) rather than the AI completing the whole assignment by itself.",
+      "source": "worksheet:Q4b reasoning"
+    },
+    {
+      "id": "q65",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "True or False: According to the worksheet, using a voice assistant automatically means you are at 'The Researcher' level.",
+      "answer": false,
+      "explanation": "The worksheet doesn't assign one fixed level to each named tool — the level depends on HOW the tool helped (ideas vs. improving work vs. finding information), not which tool it was.",
+      "source": "worksheet:Q4 reasoning"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "Question 4 first asks you to think of a tool you used, then asks about...",
+      "options": [
+        "How it helped you, and which 'level' that help matches",
+        "Whether you like the tool's colour scheme",
+        "How much the tool costs",
+        "How fast the tool loads"
+      ],
+      "answer": 0,
+      "explanation": "After naming the tool, Question 4a/4b ask how it helped and which 'level' that help matches.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "In Question 4a, which choice would you tick if you have never used a digital learning tool?",
+      "options": [
+        "I have not used any tool like this yet",
+        "None of these",
+        "The Spark",
+        "The Researcher"
+      ],
+      "answer": 0,
+      "explanation": "Question 4a's last option is exactly 'I have not used any tool like this yet.'",
+      "source": "worksheet:Q4a"
+    },
+    {
+      "id": "q68",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "True or False: 'None of these' appears as an option in both Question 4a and Question 4b, worded identically.",
+      "answer": false,
+      "explanation": "'I have not used any tool like this yet' is the closest option in 4a, while 'None of these' specifically appears as a choice in 4b — they are worded differently in the two sub-questions.",
+      "source": "worksheet:Q4a-b"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "Question 4c asks whether, if you used AI/a digital tool for schoolwork, you...",
+      "options": [
+        "Told your teacher or parent",
+        "Deleted the app",
+        "Changed schools",
+        "Bought a new phone"
+      ],
+      "answer": 0,
+      "explanation": "Question 4c asks: 'If you used it, did you tell your teacher or parent?'",
+      "source": "worksheet:Q4c"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "A student used an AI tool to brainstorm ideas for a story, then wrote the story mostly themselves. Which level best fits, based on the worksheet's definitions?",
+      "options": [
+        "The Spark",
+        "The Editor",
+        "The Researcher",
+        "None of these"
+      ],
+      "answer": 0,
+      "explanation": "'Gave me ideas' is literally the Spark's definition; the tool did not fix grammar or find facts here, so Editor/Researcher fit less well.",
+      "source": "worksheet:Q4b reasoning"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "A student asked an AI tool to explain a maths concept they were stuck on, and it gave them the information they needed. Which level best matches?",
+      "options": [
+        "The Researcher",
+        "The Spark",
+        "The Editor",
+        "None of these"
+      ],
+      "answer": 0,
+      "explanation": "'Helped find information' matches 'The Researcher'.",
+      "source": "worksheet:Q4b reasoning"
+    },
+    {
+      "id": "q72",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "Select all statements that are TRUE about the three levels (Spark, Editor, Researcher).",
+      "options": [
+        "Each one describes a different kind of help a digital tool can give",
+        "They all mean exactly the same thing",
+        "'The Editor' is about improving already-written work",
+        "'The Researcher' is about finding information"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "The three levels are distinct kinds of help, not synonyms of each other.",
+      "source": "worksheet:Q4b reasoning"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "Which worksheet question introduces the Spark/Editor/Researcher levels?",
+      "options": [
+        "Question 4b",
+        "Question 1",
+        "Question 3",
+        "Question 5"
+      ],
+      "answer": 0,
+      "explanation": "The three levels are introduced in Question 4b.",
+      "source": "worksheet:Q4b"
+    },
+    {
+      "id": "q74",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "True or False: The Spark/Editor/Researcher levels are described inside Question 4, which is in the 'Powering up' section.",
+      "answer": true,
+      "explanation": "Question 4 is in the 'Powering up' (Level ★★) section, along with the level definitions.",
+      "source": "worksheet:Q4b"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "Which of the following is closest in meaning to 'The Editor' level?",
+      "options": [
+        "Making existing work better, e.g. fixing spelling and grammar",
+        "Finding brand-new information",
+        "Sparking a first idea",
+        "Deleting the original work completely"
+      ],
+      "answer": 0,
+      "explanation": "'The Editor' means the tool made existing work better, such as fixing spelling and grammar.",
+      "source": "worksheet:Q4b reasoning"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "Which of the following is closest in meaning to 'The Researcher' level?",
+      "options": [
+        "Helping you find facts or information",
+        "Improving grammar in a finished piece",
+        "Giving you a starting idea",
+        "Doing none of the above"
+      ],
+      "answer": 0,
+      "explanation": "'The Researcher' means the tool helped you find facts or information.",
+      "source": "worksheet:Q4b reasoning"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "Which of these best matches 'It explained something I didn't understand' from Question 4a, in everyday terms?",
+      "options": [
+        "A tool clarifying or explaining a concept for you",
+        "A tool deleting your files",
+        "A tool changing your password",
+        "A tool turning off your Wi-Fi"
+      ],
+      "answer": 0,
+      "explanation": "This describes a tool helping you understand a concept — closest in spirit to a tool giving information or clarifying something, even though the worksheet does not force it into one of the three named levels.",
+      "source": "worksheet:Q4a reasoning"
+    },
+    {
+      "id": "q78",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "True or False: Question 4a lists 'I have not used any tool like this yet' as one of its choices.",
+      "answer": true,
+      "explanation": "This is explicitly the fifth listed option in Question 4a.",
+      "source": "worksheet:Q4a"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Levels of AI Help: Spark, Editor, Researcher",
+      "question": "Which of these tools is explicitly named in Question 4 as an example of a digital tool used 'for learning'?",
+      "options": [
+        "Google search",
+        "A photo filter app",
+        "A mobile game",
+        "An alarm clock app"
+      ],
+      "answer": 0,
+      "explanation": "Google search is explicitly named as one of the four example tools in Question 4's introduction.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Telling a Trusted Adult",
+      "question": "Question 4c is directly about...",
+      "options": [
+        "Whether you told a teacher or parent about using AI/a digital tool",
+        "Whether you like your teacher",
+        "Whether you finished your homework",
+        "Whether the app was free"
+      ],
+      "answer": 0,
+      "explanation": "Question 4c asks whether you told your teacher or parent about using AI/a digital tool.",
+      "source": "worksheet:Q4c"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Telling a Trusted Adult",
+      "question": "Why might it matter whether a student tells a teacher or parent about using AI for schoolwork?",
+      "options": [
+        "Being open about AI use is part of being honest about how the work was made",
+        "Teachers always forbid using any digital tools",
+        "Parents need to approve every app on the phone",
+        "It has no real importance"
+      ],
+      "answer": 0,
+      "explanation": "Being open about AI use is part of being honest about how the work was made, matching the chapter's honesty theme.",
+      "source": "worksheet:Q4c reasoning"
+    },
+    {
+      "id": "q82",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Telling a Trusted Adult",
+      "question": "True or False: According to the worksheet, telling no one about your AI use is always the safest choice.",
+      "answer": false,
+      "explanation": "The chapter's overall message (through Question 3 and the Eldagsen story) values telling the truth about how AI was used, not staying silent.",
+      "source": "worksheet:Q3-Q4-story reasoning"
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Telling a Trusted Adult",
+      "question": "Which option in Question 4c shows a student who never actively considered telling anyone?",
+      "options": [
+        "I didn't think about it",
+        "Yes",
+        "No",
+        "Confident"
+      ],
+      "answer": 0,
+      "explanation": "'I didn't think about it' is the option describing a lack of consideration, distinct from 'Yes' or 'No'.",
+      "source": "worksheet:Q4c"
+    },
+    {
+      "id": "q84",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Telling a Trusted Adult",
+      "question": "Select all the choices offered for whether a student disclosed their AI use, in Question 4c.",
+      "options": [
+        "Yes",
+        "No",
+        "I didn't think about it",
+        "I told the whole school",
+        "I posted about it online"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Question 4c offers exactly three choices: Yes, No, and I didn't think about it.",
+      "source": "worksheet:Q4c"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Telling a Trusted Adult",
+      "question": "A student ticks 'No' for Question 4c and then 'Nervous' for Question 4d. What might the worksheet want them to reflect on next?",
+      "options": [
+        "Whether not telling anyone was really the most honest choice",
+        "Whether the app worked properly",
+        "Whether they liked the essay topic",
+        "Whether the food delivery app was accurate"
+      ],
+      "answer": 0,
+      "explanation": "Reflecting on feelings after a 'No' answer nudges the student to reconsider whether staying silent was really the most honest choice, given the chapter's honesty theme.",
+      "source": "worksheet:Q4c-d reasoning"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Telling a Trusted Adult",
+      "question": "How does Question 4d ask you to describe your feelings about your past disclosure choice?",
+      "options": [
+        "Choose Confident or Nervous",
+        "Write an essay",
+        "Draw a picture",
+        "Circle a number from 1-10"
+      ],
+      "answer": 0,
+      "explanation": "Question 4d offers exactly two feeling words: Confident and Nervous.",
+      "source": "worksheet:Q4d"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Telling a Trusted Adult",
+      "question": "In which section (Level) of the worksheet do Questions 4c and 4d appear?",
+      "options": [
+        "Powering up (Level ★★)",
+        "Laying the tracks (Level ★)",
+        "Thinking deeper (Level ★★★)",
+        "They are not in any section"
+      ],
+      "answer": 0,
+      "explanation": "Questions 4c and 4d are part of Question 4, inside the 'Powering up' (Level ★★) section.",
+      "source": "worksheet:Q4c-d"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Telling a Trusted Adult",
+      "question": "What is the connection between Question 4c/d and the Boris Eldagsen story on a later page?",
+      "options": [
+        "Both are about openly telling others when AI has been used",
+        "Both are about food delivery apps",
+        "Both are about mobile games",
+        "Both are about photo filters"
+      ],
+      "answer": 0,
+      "explanation": "Both are about openly telling others (a teacher/parent, or the public) when AI has been used to help create something.",
+      "source": "worksheet:Q4c-d & story"
+    },
+    {
+      "id": "q89",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Telling a Trusted Adult",
+      "question": "Select all reasons someone might have ticked 'I didn't think about it' for Question 4c.",
+      "options": [
+        "They didn't consider disclosure as something they needed to do",
+        "They actively decided to hide their AI use",
+        "They deliberately lied to their teacher",
+        "They were told by the teacher not to use AI"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "'I didn't think about it' describes a lack of consideration, not an active decision to hide or lie — those describe different situations.",
+      "source": "worksheet:Q4c reasoning"
+    },
+    {
+      "id": "q90",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Telling a Trusted Adult",
+      "question": "True or False: Question 4c only offers a single Yes/No choice, with no middle option.",
+      "answer": false,
+      "explanation": "It offers three choices — Yes, No, and I didn't think about it.",
+      "source": "worksheet:Q4c"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Telling a Trusted Adult",
+      "question": "Which value, repeated across Question 3, Question 4, and the Boris Eldagsen story, connects all three parts of the worksheet?",
+      "options": [
+        "Being honest about how AI helped with your work",
+        "Learning to cook",
+        "Improving your football skills",
+        "Memorising app names"
+      ],
+      "answer": 0,
+      "explanation": "All three sections centre on being honest about how AI helped with something.",
+      "source": "worksheet:Q3-Q4-story reasoning"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Telling a Trusted Adult",
+      "question": "Boris Eldagsen chose to reveal his AI use even though he could have stayed silent and kept the prize. Which worksheet question explores a similar choice for students?",
+      "options": [
+        "Question 4c (telling a teacher or parent)",
+        "Question 1 (the apps table)",
+        "Question 2a (circling comfortable info)",
+        "None of them"
+      ],
+      "answer": 0,
+      "explanation": "Question 4c (telling a teacher or parent about AI use) parallels Eldagsen's choice to disclose rather than stay silent.",
+      "source": "worksheet:Q4c & story"
+    },
+    {
+      "id": "q93",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Telling a Trusted Adult",
+      "question": "True or False: The worksheet only raises the idea of disclosure (telling the truth about AI use) in one single question.",
+      "answer": false,
+      "explanation": "Disclosure/honesty comes up in Question 3 (the essay statements), Question 4c (telling a teacher/parent), and again in the Boris Eldagsen story.",
+      "source": "worksheet:Q3-Q4-story"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Telling a Trusted Adult",
+      "question": "Which two feelings does Question 4d offer for reflecting on your disclosure choice?",
+      "options": [
+        "Confident and Nervous",
+        "Happy and Sad",
+        "Calm and Angry",
+        "Proud and Embarrassed"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet states: 'How do you feel about that choice now? Confident/ Nervous.'",
+      "source": "worksheet:Q4d"
+    },
+    {
+      "id": "q95",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Telling a Trusted Adult",
+      "question": "Select all worksheet parts where the idea of 'telling the truth about AI use' appears.",
+      "options": [
+        "Question 3 (the essay statements)",
+        "Question 4c (telling a teacher or parent)",
+        "The Boris Eldagsen story",
+        "Question 1 (the apps table)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Question 1's apps table is about data collection, not disclosure of AI use in a student's own work, so it is not part of this pattern.",
+      "source": "worksheet:Q3-Q4-story reasoning"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Telling a Trusted Adult",
+      "question": "What is Question 4d mainly checking?",
+      "options": [
+        "How the student feels, in hindsight, about their past disclosure choice",
+        "How fast the student can type",
+        "Which app the student prefers",
+        "How many apps the student has downloaded"
+      ],
+      "answer": 0,
+      "explanation": "Question 4d checks how the student feels, in hindsight, about the disclosure choice they made in 4c.",
+      "source": "worksheet:Q4d"
+    },
+    {
+      "id": "q97",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Telling a Trusted Adult",
+      "question": "True or False: Feeling 'Nervous' about a past disclosure choice, as asked in Question 4d, might be a sign that a student is unsure whether it was the most honest choice.",
+      "answer": true,
+      "explanation": "This is a reasonable reflective interpretation the worksheet invites, tying feelings about a choice back to the chapter's honesty theme.",
+      "source": "worksheet:Q4d reasoning"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Privacy Puzzle Problem",
+      "question": "Question 5 asks you to explain the 'privacy puzzle problem' to whom?",
+      "options": [
+        "Your younger sibling",
+        "Your teacher",
+        "Your best friend",
+        "A stranger"
+      ],
+      "answer": 0,
+      "explanation": "Question 5 says: 'Imagine your younger sibling asks you...'",
+      "source": "worksheet:Q5"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Privacy Puzzle Problem",
+      "question": "According to Question 5, how long should the voice note explanation be?",
+      "options": [
+        "60-90 seconds",
+        "5-10 seconds",
+        "10 minutes",
+        "1 second"
+      ],
+      "answer": 0,
+      "explanation": "Question 5 asks for a voice note of '60-90 seconds'.",
+      "source": "worksheet:Q5"
+    },
+    {
+      "id": "q100",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "The Privacy Puzzle Problem",
+      "question": "Select all the voice-recording tools/apps mentioned in Question 5.",
+      "options": [
+        "Voice Memo (iPhone)",
+        "Recorder (Android)",
+        "Any voice tool you have",
+        "A photo filter app",
+        "A mobile game"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Question 5 names Voice Memo (iPhone), Recorder (Android), and 'any voice tool you have'.",
+      "source": "worksheet:Q5"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Privacy Puzzle Problem",
+      "question": "In Question 5, the imagined question your younger sibling asks starts: 'What's the privacy puzzle problem? Why can't I just...'",
+      "options": [
+        "Tell the app my name",
+        "Delete the app",
+        "Play the game",
+        "Watch a video"
+      ],
+      "answer": 0,
+      "explanation": "The full quoted question is: '...Why can't I just tell the app my name?'",
+      "source": "worksheet:Q5"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Privacy Puzzle Problem",
+      "question": "Question 5 asks you to use 'your own words' and 'your own ___' when explaining the idea.",
+      "options": [
+        "Examples",
+        "Handwriting",
+        "Drawings",
+        "Songs"
+      ],
+      "answer": 0,
+      "explanation": "The instruction says: 'in your own words, using your own examples.'",
+      "source": "worksheet:Q5"
+    },
+    {
+      "id": "q103",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "The Privacy Puzzle Problem",
+      "question": "True or False: Question 5 asks you to write a long essay about the privacy puzzle problem.",
+      "answer": false,
+      "explanation": "It asks for a spoken voice note of 60-90 seconds, not a written essay.",
+      "source": "worksheet:Q5"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Privacy Puzzle Problem",
+      "question": "Which section (Level) of the worksheet contains the privacy puzzle problem task?",
+      "options": [
+        "Thinking deeper (at your own pace), Level ★★★",
+        "Laying the tracks, Level ★",
+        "Powering up, Level ★★",
+        "None of the sections"
+      ],
+      "answer": 0,
+      "explanation": "Question 5 is inside the 'Thinking deeper (at your own pace)' section, Level ★★★.",
+      "source": "worksheet:Q5"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Privacy Puzzle Problem",
+      "question": "Why might Question 5 ask you to imagine explaining the idea to a YOUNGER sibling, rather than to an adult?",
+      "options": [
+        "Explaining something in simple terms often means you must really understand it yourself",
+        "Younger siblings always know more about AI",
+        "It is impossible to explain anything to an adult",
+        "Younger siblings cannot use apps"
+      ],
+      "answer": 0,
+      "explanation": "Explaining something in simple terms, as if to a younger person, often means you must really understand it yourself first.",
+      "source": "worksheet:Q5 reasoning"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Privacy Puzzle Problem",
+      "question": "Based on everything the worksheet covers before Question 5 (apps collecting data, the food delivery example, comfortable vs. safe sharing), the 'privacy puzzle' most likely refers to...",
+      "options": [
+        "The tricky balance between what information feels okay to share and what information should actually be shared or protected",
+        "A maths puzzle involving numbers",
+        "A word puzzle about spelling",
+        "A physical jigsaw puzzle"
+      ],
+      "answer": 0,
+      "explanation": "This connects directly to the earlier worksheet content about comfortable vs. safe sharing (Question 2b) and apps collecting personal information (Questions 1 and 2), which is the 'puzzle' of deciding what to share.",
+      "source": "worksheet reasoning"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Privacy Puzzle Problem",
+      "question": "What does Question 5 ask you to use to brainstorm your ideas before recording?",
+      "options": [
+        "The given box on the page",
+        "A separate notebook",
+        "A friend's phone",
+        "An online quiz"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet says: 'Use the given box below to brain storm the ideas.'",
+      "source": "worksheet:Q5"
+    },
+    {
+      "id": "q108",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "The Privacy Puzzle Problem",
+      "question": "True or False: Question 5 gives you an example answer to copy for your voice note.",
+      "answer": false,
+      "explanation": "It asks you to explain the idea 'in your own words, using your own examples' — no example answer is provided to copy.",
+      "source": "worksheet:Q5"
+    },
+    {
+      "id": "q109",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "The Privacy Puzzle Problem",
+      "question": "Select all things Question 5 explicitly asks you to imagine or do.",
+      "options": [
+        "Imagine a younger sibling asking a question",
+        "Pretend they are sitting right next to you",
+        "Record a voice note",
+        "Draw a comic strip"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Drawing a comic strip is not part of the instructions; the task is a spoken explanation, not a drawing.",
+      "source": "worksheet:Q5"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Privacy Puzzle Problem",
+      "question": "Which worksheet question number is the privacy puzzle problem task?",
+      "options": [
+        "Question 5",
+        "Question 3",
+        "Question 2",
+        "Question 1"
+      ],
+      "answer": 0,
+      "explanation": "It is Question 5, the last numbered question in the worksheet.",
+      "source": "worksheet:Q5"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Privacy Puzzle Problem",
+      "question": "The privacy puzzle problem task is the ___ level task in the worksheet, based on its star rating.",
+      "options": [
+        "Highest (3 stars)",
+        "Lowest (1 star)",
+        "Middle (2 stars)",
+        "It has no star rating"
+      ],
+      "answer": 0,
+      "explanation": "It sits in the 'Thinking deeper' section, which is rated the highest, at 3 stars.",
+      "source": "worksheet:Q5"
+    },
+    {
+      "id": "q112",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "The Privacy Puzzle Problem",
+      "question": "True or False: The 'Thinking deeper' section, which includes the privacy puzzle problem task, is rated Level ★ (one star), the same as 'Laying the tracks.'",
+      "answer": false,
+      "explanation": "'Thinking deeper (at your own pace)' is rated Level ★★★ (three stars) — the highest level — while 'Laying the tracks' is Level ★ (one star).",
+      "source": "worksheet sections"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Privacy Puzzle Problem",
+      "question": "Which of these best describes why deciding what to share with an app can feel like a 'puzzle'?",
+      "options": [
+        "Because different pieces of information can seem harmless alone but reveal more when combined, and it's not always obvious what's truly safe",
+        "Because apps are always broken",
+        "Because puzzles are only about pictures",
+        "Because AI cannot collect any information at all"
+      ],
+      "answer": 0,
+      "explanation": "This reasoning connects to the worksheet's own emphasis (in Question 2b) that what feels shareable and what is actually safe to share are not always the same thing.",
+      "source": "worksheet:Q2b & Q5 reasoning"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "What is the title given to the Boris Eldagsen story in the worksheet?",
+      "options": [
+        "The 'Secret Artist' who refused the prize!",
+        "The Honest Robot",
+        "The AI Photographer's Trophy",
+        "The Credit Code Mystery"
+      ],
+      "answer": 0,
+      "explanation": "The story's heading is: 'The 'Secret Artist' who refused the prize!'",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "In what year did Boris Eldagsen win the photography award, according to the worksheet?",
+      "options": [
+        "2023",
+        "2020",
+        "2019",
+        "2025"
+      ],
+      "answer": 0,
+      "explanation": "The story begins: 'In 2023, an artist named Boris Eldagsen won a massive international photography award...'",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "What kind of award did Boris Eldagsen win?",
+      "options": [
+        "A massive international photography award",
+        "A cooking competition",
+        "A spelling bee",
+        "A sports medal"
+      ],
+      "answer": 0,
+      "explanation": "The text says: 'a massive international photography award for a beautiful picture.'",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "What did Boris Eldagsen do as soon as he won the award?",
+      "options": [
+        "He refused to take the prize",
+        "He asked for more money",
+        "He deleted the photo",
+        "He gave the prize to a friend"
+      ],
+      "answer": 0,
+      "explanation": "The text says: 'But as soon as he won, he refused to take the prize!'",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "What did Boris Eldagsen reveal about how he made the winning picture?",
+      "options": [
+        "That he used AI to help create the image",
+        "That he copied another photographer's work",
+        "That his camera was broken",
+        "That he painted it by hand"
+      ],
+      "answer": 0,
+      "explanation": "The text says: 'He revealed that he used AI to help create the image.'",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "Why did Boris Eldagsen say he refused the prize?",
+      "options": [
+        "Because he didn't want to \"cheat\" the other photographers who didn't use AI",
+        "Because the prize money was too small",
+        "Because he didn't like the photograph anymore",
+        "Because the judges asked him to"
+      ],
+      "answer": 0,
+      "explanation": "The text says: 'He said he didn't want to \"cheat\" the other photographers who didn't use AI.'",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "What did Boris Eldagsen use to 'tell the truth' about his image?",
+      "options": [
+        "His \"Credit Code\"",
+        "A lie detector",
+        "A newspaper interview only",
+        "His school report"
+      ],
+      "answer": 0,
+      "explanation": "The text says: 'He used his \"Credit Code\" to tell the truth...'",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "What did Boris Eldagsen believe was more important than winning a trophy?",
+      "options": [
+        "Being an honest human",
+        "Being famous",
+        "Having the best camera",
+        "Getting more prize money"
+      ],
+      "answer": 0,
+      "explanation": "The text says: he believed that 'being an honest human is more important than winning a trophy.'",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "According to the story's message, what must you always be when you use AI to make something?",
+      "options": [
+        "The \"Boss\"",
+        "The Judge",
+        "The Winner",
+        "The Loser"
+      ],
+      "answer": 0,
+      "explanation": "The text says you must always be the 'Boss' and tell the truth about how you made it.",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "What does the story say you must do, in addition to being the 'Boss', when you use AI to make something amazing?",
+      "options": [
+        "Tell the truth about how you made it",
+        "Keep it a secret forever",
+        "Ask AI to redo it",
+        "Never show anyone"
+      ],
+      "answer": 0,
+      "explanation": "The text says: '...you must always be the \"Boss\" and tell the truth about how you made it.'",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "What is the name of the artist in this story?",
+      "options": [
+        "Boris Eldagsen",
+        "Boris Johnson",
+        "Alan Turing",
+        "Ada Lovelace"
+      ],
+      "answer": 0,
+      "explanation": "The story names him: 'an artist named Boris Eldagsen.'",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q125",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "True or False: Boris Eldagsen kept his AI use a secret to protect his prize.",
+      "answer": false,
+      "explanation": "He actually did the opposite — he revealed his AI use himself and refused the prize, rather than hiding it to keep the reward.",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q126",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "True or False: Boris Eldagsen was disqualified by the judges after they discovered he used AI.",
+      "answer": false,
+      "explanation": "The story says HE revealed the AI use himself and refused the prize — the judges did not discover and disqualify him.",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q127",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "True or False: Boris Eldagsen believed that using AI to make art should never be allowed.",
+      "answer": false,
+      "explanation": "The story explicitly says he 'proved that you could use AI to make amazing things' — his point was about honesty, not banning AI art altogether.",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q128",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "True or False: Boris Eldagsen won the award for a photograph.",
+      "answer": true,
+      "explanation": "The story says he won 'a massive international photography award for a beautiful picture.'",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q129",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "True or False: The story is called 'The Secret Artist who refused the prize.'",
+      "answer": true,
+      "explanation": "This matches the story's exact title.",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "Which word from the story is used (in quotation marks) to describe what Eldagsen did NOT want to do to other photographers?",
+      "options": [
+        "\"Cheat\" them",
+        "\"Help\" them",
+        "\"Copy\" them",
+        "\"Ignore\" them"
+      ],
+      "answer": 0,
+      "explanation": "The story uses the word \"cheat\" in quotation marks.",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "Why might the story call Eldagsen the 'Secret Artist' in its title, even though he ended up revealing everything?",
+      "options": [
+        "Because before he spoke up, people didn't know AI had secretly helped make the award-winning image",
+        "Because he never told anyone his real name",
+        "Because he secretly stole the photo from someone else",
+        "Because 'Secret Artist' means he was invisible"
+      ],
+      "answer": 0,
+      "explanation": "The 'secret' refers to the AI's hidden role in creating the image before Eldagsen chose to reveal it — not to Eldagsen's identity being hidden.",
+      "source": "worksheet:story reasoning"
+    },
+    {
+      "id": "q132",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "Select all things that are TRUE about Boris Eldagsen, according to the worksheet.",
+      "options": [
+        "He won an international photography award",
+        "He revealed he used AI for the image",
+        "He refused to accept the prize",
+        "He said honesty was more important than winning a trophy",
+        "He kept using AI in secret afterwards"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Nothing in the story says he continued to hide his AI use afterwards — that option is not supported by the text.",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "What does 'Credit Code' refer to in the story?",
+      "options": [
+        "The way Eldagsen told the truth about how the image was made",
+        "A secret password for his camera",
+        "A discount code for photography classes",
+        "A code used to unlock his phone"
+      ],
+      "answer": 0,
+      "explanation": "It refers to the way Eldagsen told the truth about how the image was made.",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "According to the source link given in the worksheet, which news organisation is the story likely based on?",
+      "options": [
+        "BBC",
+        "CNN",
+        "Reuters",
+        "The New York Times"
+      ],
+      "answer": 0,
+      "explanation": "The source URL points toward a 'bbc.com/news/technology-65301130' article.",
+      "source": "worksheet:story source"
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "What is unusual about the way the source is written in the worksheet?",
+      "options": [
+        "It is a Google search link that points toward a BBC news article, rather than a direct link",
+        "It has no link at all",
+        "It links to a video, not an article",
+        "It links to the photographer's own website"
+      ],
+      "answer": 0,
+      "explanation": "The given source is a Google search link that points toward a BBC news article, rather than a direct link to the article itself.",
+      "source": "worksheet:story source"
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "Which of these best summarises the main lesson of the Boris Eldagsen story for this chapter?",
+      "options": [
+        "You can use AI to create things, but you must be honest about how you made them",
+        "AI should never be used for art",
+        "Photography competitions are unfair",
+        "Only professional artists can use AI"
+      ],
+      "answer": 0,
+      "explanation": "The story's closing message is: you can use AI to create things, but you must be honest about how you made them.",
+      "source": "worksheet:story reasoning"
+    },
+    {
+      "id": "q137",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "Select all the reasons Eldagsen gave (or the story gives) for his choice, according to the text.",
+      "options": [
+        "He didn't want to \"cheat\" photographers who didn't use AI",
+        "He believed being honest is more important than winning a trophy",
+        "He wanted more publicity for his art",
+        "He needed the money from a different competition"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Only these two reasons are stated in the story; publicity and money are not mentioned as his reasons.",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "What does the worksheet say Eldagsen 'proved' through his actions?",
+      "options": [
+        "That you could use AI to make amazing things, but must always be the \"Boss\" and tell the truth about how you made it",
+        "That AI is always better than humans at art",
+        "That photography competitions should be cancelled",
+        "That cameras are more important than AI"
+      ],
+      "answer": 0,
+      "explanation": "The text says he 'proved that you could use AI to make amazing things, but you must always be the \"Boss\" and tell the truth about how you made it.'",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q139",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "True or False: The story suggests that using AI in art is completely fine, as long as you are honest about it.",
+      "answer": true,
+      "explanation": "The story's message is that you CAN use AI to make amazing things, as long as you take responsibility (\"Boss\") and tell the truth about how it was made.",
+      "source": "worksheet:story reasoning"
+    },
+    {
+      "id": "q140",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "A student says: 'Eldagsen's story shows that using AI in a competition is always cheating.' What is wrong with this statement?",
+      "options": [
+        "The story shows the opposite — using AI isn't automatically cheating, but hiding it would be",
+        "The statement is completely correct",
+        "Eldagsen never used AI at all",
+        "The story is not about competitions"
+      ],
+      "answer": 0,
+      "explanation": "The story shows the opposite — using AI isn't automatically cheating, but hiding it would go against the honesty message the story teaches.",
+      "source": "worksheet:story reasoning"
+    },
+    {
+      "id": "q141",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "Select all details mentioned about the award Eldagsen won.",
+      "options": [
+        "It was international",
+        "It was for photography",
+        "It was described as \"massive\"",
+        "It included a large cash prize amount stated in the story"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The story doesn't state a specific cash prize amount.",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q142",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "How does the Boris Eldagsen story connect back to Question 3 (the essay statements)?",
+      "options": [
+        "Both are about being honest when AI has helped create something",
+        "Both are about food delivery apps",
+        "Both are about mobile games",
+        "Both are about voice notes"
+      ],
+      "answer": 0,
+      "explanation": "Both are about being honest when AI has helped create something, whether it is an essay or a photograph.",
+      "source": "worksheet:Q3 & story"
+    },
+    {
+      "id": "q143",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "True or False: According to the story, Eldagsen believed a trophy was more valuable than being honest.",
+      "answer": false,
+      "explanation": "It's the opposite — he believed 'being an honest human is more important than winning a trophy.'",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q144",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "Which decorative image appears near the Boris Eldagsen story in the worksheet?",
+      "options": [
+        "An eye icon",
+        "A photo camera icon",
+        "A trophy icon",
+        "A robot icon"
+      ],
+      "answer": 0,
+      "explanation": "An eye icon appears in the decorative border near the story.",
+      "source": "worksheet:story image"
+    },
+    {
+      "id": "q145",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "What can you infer about photography competitions from this story?",
+      "options": [
+        "Some competitions may not have had clear rules yet about disclosing AI-assisted images",
+        "All competitions ban AI completely",
+        "All competitions require AI-made images",
+        "Photography competitions no longer exist"
+      ],
+      "answer": 0,
+      "explanation": "The fact that Eldagsen had to voluntarily reveal his AI use, and that it created a stir when he did, implies the competition rules didn't clearly address AI-generated images at the time.",
+      "source": "worksheet:story reasoning"
+    },
+    {
+      "id": "q146",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "On which page of the worksheet does the Boris Eldagsen story appear?",
+      "options": [
+        "8",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "The rendered worksheet shows the story on page 8 (the fourth PDF page).",
+      "source": "worksheet:story page"
+    },
+    {
+      "id": "q147",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "The Secret Artist: Boris Eldagsen",
+      "question": "Select all values that the Boris Eldagsen story teaches, based on the text.",
+      "options": [
+        "Honesty about how you made something",
+        "Taking responsibility (being the \"Boss\") for AI-assisted work",
+        "It's fine to hide AI use if you can get away with it",
+        "AI can help create amazing things"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Hiding AI use is the opposite of what the story teaches, so that option does not belong.",
+      "source": "worksheet:story reasoning"
+    },
+    {
+      "id": "q148",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Levels & Structure",
+      "question": "What is the Level (star rating) for the 'Laying the tracks' section?",
+      "options": [
+        "★ (1 star)",
+        "★★ (2 stars)",
+        "★★★ (3 stars)",
+        "No stars"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet shows a 'Level ★' badge (1 star) next to 'Laying the tracks.'",
+      "source": "worksheet:page5 image"
+    },
+    {
+      "id": "q149",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Levels & Structure",
+      "question": "What is the Level (star rating) for the 'Powering up' section?",
+      "options": [
+        "★★ (2 stars)",
+        "★ (1 star)",
+        "★★★ (3 stars)",
+        "No stars"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet shows a 'Level ★★' badge (2 stars) next to 'Powering up.'",
+      "source": "worksheet:page6 image"
+    },
+    {
+      "id": "q150",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Levels & Structure",
+      "question": "What is the Level (star rating) for the 'Thinking deeper (at your own pace)' section?",
+      "options": [
+        "★★★ (3 stars)",
+        "★ (1 star)",
+        "★★ (2 stars)",
+        "No stars"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet shows a 'Level ★★★' badge (3 stars) next to 'Thinking deeper.'",
+      "source": "worksheet:page7 image"
+    },
+    {
+      "id": "q151",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Levels & Structure",
+      "question": "Which section comes FIRST in the 'My AI Checklist' worksheet?",
+      "options": [
+        "Laying the tracks",
+        "Powering up",
+        "Thinking deeper (at your own pace)",
+        "The Boris Eldagsen story"
+      ],
+      "answer": 0,
+      "explanation": "'Laying the tracks' appears first, at the top of page 5.",
+      "source": "worksheet sections"
+    },
+    {
+      "id": "q152",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Levels & Structure",
+      "question": "Which section comes LAST among the three named, star-rated sections?",
+      "options": [
+        "Thinking deeper (at your own pace)",
+        "Laying the tracks",
+        "Powering up",
+        "None"
+      ],
+      "answer": 0,
+      "explanation": "'Thinking deeper (at your own pace)' is the final named section, with the highest star rating.",
+      "source": "worksheet sections"
+    },
+    {
+      "id": "q153",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Levels & Structure",
+      "question": "Which questions are found in the 'Laying the tracks' section?",
+      "options": [
+        "Questions 1 and 2",
+        "Questions 3 and 4",
+        "Question 5 only",
+        "Questions 4 and 5"
+      ],
+      "answer": 0,
+      "explanation": "Questions 1 and 2 appear under the 'Laying the tracks' heading.",
+      "source": "worksheet sections"
+    },
+    {
+      "id": "q154",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Levels & Structure",
+      "question": "Which questions are found in the 'Powering up' section?",
+      "options": [
+        "Questions 3 and 4",
+        "Questions 1 and 2",
+        "Question 5 only",
+        "None"
+      ],
+      "answer": 0,
+      "explanation": "Questions 3 and 4 appear under the 'Powering up' heading.",
+      "source": "worksheet sections"
+    },
+    {
+      "id": "q155",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Levels & Structure",
+      "question": "Which question is found in the 'Thinking deeper (at your own pace)' section?",
+      "options": [
+        "Question 5",
+        "Question 1",
+        "Question 3",
+        "Question 4"
+      ],
+      "answer": 0,
+      "explanation": "Question 5 appears under the 'Thinking deeper' heading.",
+      "source": "worksheet sections"
+    },
+    {
+      "id": "q156",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Worksheet Levels & Structure",
+      "question": "True or False: The number of stars increases as the sections get more challenging.",
+      "answer": true,
+      "explanation": "'Laying the tracks' has 1 star, 'Powering up' has 2 stars, and 'Thinking deeper' has 3 stars — the star count rises with each section.",
+      "source": "worksheet sections"
+    },
+    {
+      "id": "q157",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Worksheet Levels & Structure",
+      "question": "True or False: 'Powering up' has the most stars of the three named sections.",
+      "answer": false,
+      "explanation": "'Thinking deeper (at your own pace)' has the most stars (3), not 'Powering up' (which has 2).",
+      "source": "worksheet sections"
+    },
+    {
+      "id": "q158",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Worksheet Levels & Structure",
+      "question": "Select all section names that appear in the 'My AI Checklist' worksheet.",
+      "options": [
+        "Laying the tracks",
+        "Powering up",
+        "Thinking deeper (at your own pace)",
+        "Getting Started",
+        "Final Boss Level"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Only these three named, star-rated sections appear in the worksheet.",
+      "source": "worksheet sections"
+    },
+    {
+      "id": "q159",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Levels & Structure",
+      "question": "What is the overall guiding question printed at the top of the worksheet?",
+      "options": [
+        "Does using AI protect me — and represent me?",
+        "Is AI always right?",
+        "Can robots think?",
+        "Why do computers crash?"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet's banner reads: 'Does using AI protect me — and represent me?'",
+      "source": "worksheet:page5"
+    },
+    {
+      "id": "q160",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Levels & Structure",
+      "question": "What is the title of the worksheet itself?",
+      "options": [
+        "My AI Checklist!",
+        "Learning is Fun!",
+        "The Secret Artist",
+        "AI and Me"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet's title, shown at the top of page 5, is 'My AI Checklist!'",
+      "source": "worksheet:page5"
+    },
+    {
+      "id": "q161",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Levels & Structure",
+      "question": "What field is left blank at the top of the worksheet for students to fill in?",
+      "options": [
+        "The date",
+        "Their favourite app",
+        "Their teacher's name",
+        "Their school name"
+      ],
+      "answer": 0,
+      "explanation": "The top of the worksheet shows: 'Date: ___ -___ - ___'",
+      "source": "worksheet:page5"
+    },
+    {
+      "id": "q162",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Levels & Structure",
+      "question": "How many numbered questions (1 through 5) are in the 'My AI Checklist' worksheet, not counting the Boris Eldagsen story box?",
+      "options": [
+        "Five",
+        "Three",
+        "Four",
+        "Six"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet has exactly five numbered questions.",
+      "source": "worksheet structure"
+    },
+    {
+      "id": "q163",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Worksheet Levels & Structure",
+      "question": "Where does the Boris Eldagsen story appear relative to the five numbered questions?",
+      "options": [
+        "After all five numbered questions, as an extra story box",
+        "Before Question 1",
+        "Between Question 2 and Question 3",
+        "It replaces Question 5"
+      ],
+      "answer": 0,
+      "explanation": "The story appears on the page after Question 5, as an extra story box, not as a numbered question.",
+      "source": "worksheet structure"
+    },
+    {
+      "id": "q164",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Levels & Structure",
+      "question": "What title appears on the final page of the worksheet PDF (worksheet-2.pdf)?",
+      "options": [
+        "Learning is Fun!",
+        "The End",
+        "Great Job!",
+        "See You Next Time"
+      ],
+      "answer": 0,
+      "explanation": "The closing page reads simply: 'Learning is Fun!'",
+      "source": "worksheet-2.pdf"
+    },
+    {
+      "id": "q165",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Worksheet Levels & Structure",
+      "question": "True or False: The worksheet content is split across two separate PDF files — one with the numbered questions and story, and one closing page.",
+      "answer": true,
+      "explanation": "worksheet.pdf contains the numbered questions and the story; worksheet-2.pdf contains only the closing 'Learning is Fun!' page.",
+      "source": "worksheet structure"
+    },
+    {
+      "id": "q166",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Levels & Structure",
+      "question": "Which subject is this worksheet designed for?",
+      "options": [
+        "AI Literacy",
+        "Mathematics",
+        "English",
+        "Science"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet is filed under the AI Literacy subject for Grade 4.",
+      "source": "chapter.json"
+    },
+    {
+      "id": "q167",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Levels & Structure",
+      "question": "According to the worksheet's own difficulty labels, doing Question 5 (the voice note) is considered...",
+      "options": [
+        "More challenging than Questions 1-4, based on its 3-star rating",
+        "Easier than Question 1",
+        "The very first task on the worksheet",
+        "Not part of the worksheet at all"
+      ],
+      "answer": 0,
+      "explanation": "Question 5 sits in the 3-star 'Thinking deeper' section, the most challenging of the three labelled sections.",
+      "source": "worksheet sections"
+    },
+    {
+      "id": "q168",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Being the 'Boss' of AI",
+      "question": "According to the Boris Eldagsen story, who must always be the 'Boss' when AI is used to create something?",
+      "options": [
+        "The human who used the AI",
+        "The AI itself",
+        "The judges of the competition",
+        "The app developer"
+      ],
+      "answer": 0,
+      "explanation": "The story says 'you must always be the \"Boss\"', referring to the human using the AI.",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q169",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Being the 'Boss' of AI",
+      "question": "What does being the 'Boss' of AI mean, based on the story's message?",
+      "options": [
+        "Taking responsibility for what was made and being honest about how AI helped",
+        "Giving AI complete control over all decisions",
+        "Never using AI under any circumstance",
+        "Letting AI take all the credit"
+      ],
+      "answer": 0,
+      "explanation": "Being the 'Boss' means taking responsibility for what was made and being honest about how AI helped.",
+      "source": "worksheet:story reasoning"
+    },
+    {
+      "id": "q170",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Being the 'Boss' of AI",
+      "question": "True or False: Being the 'Boss' of AI, according to the story, means never letting AI help you at all.",
+      "answer": false,
+      "explanation": "The story says you CAN use AI to make amazing things — being the 'Boss' is about taking responsibility and being honest about the AI's role, not avoiding AI entirely.",
+      "source": "worksheet:story reasoning"
+    },
+    {
+      "id": "q171",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Being the 'Boss' of AI",
+      "question": "Select all worksheet parts that connect to the idea of being the 'Boss' (taking responsibility) for AI-assisted work.",
+      "options": [
+        "Question 3 (choosing the most honest essay statement)",
+        "The Boris Eldagsen story",
+        "Question 4c (telling a teacher or parent)",
+        "Question 1 (the apps information table)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Question 1 is about what information apps collect, not about taking responsibility for AI-assisted schoolwork, so it does not belong here.",
+      "source": "worksheet reasoning"
+    },
+    {
+      "id": "q172",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Being the 'Boss' of AI",
+      "question": "Which single word from the Boris Eldagsen story is used (in quotation marks) for the idea of taking responsibility for AI use?",
+      "options": [
+        "\"Boss\"",
+        "\"Winner\"",
+        "\"Cheat\"",
+        "\"Secret\""
+      ],
+      "answer": 0,
+      "explanation": "The story uses the word \"Boss\" in quotation marks.",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q173",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Being the 'Boss' of AI",
+      "question": "If a student uses an AI tool to help write a story and then tells their teacher exactly how AI helped, are they acting as the 'Boss', according to the chapter's message?",
+      "options": [
+        "Yes, because they are taking responsibility and being honest about the AI's role",
+        "No, because using AI at all means you are not the Boss",
+        "No, because only artists can be the Boss",
+        "Yes, but only if the story wins a prize"
+      ],
+      "answer": 0,
+      "explanation": "Yes, because they are taking responsibility and being honest about the AI's role, matching the story's message.",
+      "source": "worksheet reasoning"
+    },
+    {
+      "id": "q174",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Being the 'Boss' of AI",
+      "question": "Which of these would NOT match the idea of being the 'Boss' of AI, based on the chapter?",
+      "options": [
+        "Hiding that AI helped so no one asks questions",
+        "Telling your teacher AI gave you ideas",
+        "Explaining how a photo was AI-assisted, like Eldagsen did",
+        "Being honest about a tool's role in your work"
+      ],
+      "answer": 0,
+      "explanation": "Hiding that AI helped is the opposite of taking responsibility and being honest, which is what 'being the Boss' means in this chapter.",
+      "source": "worksheet reasoning"
+    },
+    {
+      "id": "q175",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Being the 'Boss' of AI",
+      "question": "True or False: The 'Boss' idea comes from the Boris Eldagsen story in the worksheet.",
+      "answer": true,
+      "explanation": "The word \"Boss\" appears specifically in the closing lines of the Boris Eldagsen story.",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q176",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Being the 'Boss' of AI",
+      "question": "How does the 'Boss' idea relate to Question 3's statement 'If AI writes most of it, I should say it helped'?",
+      "options": [
+        "Both express the same value: taking responsibility by being honest about AI's role",
+        "They contradict each other completely",
+        "One is about food, the other about photography",
+        "They are unrelated ideas"
+      ],
+      "answer": 0,
+      "explanation": "Both express the same value: taking responsibility by being honest about AI's role in the finished work.",
+      "source": "worksheet:Q3 & story"
+    },
+    {
+      "id": "q177",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Being the 'Boss' of AI",
+      "question": "Select all actions that reflect 'being the Boss' of AI, according to the chapter's message.",
+      "options": [
+        "Disclosing that AI helped create your work",
+        "Taking responsibility for the final result",
+        "Refusing to take credit dishonestly, like Eldagsen did",
+        "Letting the AI decide everything without your input or oversight"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Letting AI decide everything without your oversight is the opposite of being 'the Boss,' which means staying in charge and accountable.",
+      "source": "worksheet reasoning"
+    },
+    {
+      "id": "q178",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Being the 'Boss' of AI",
+      "question": "True or False: 'Being the Boss' as described in this chapter means humans should stay in charge of, and accountable for, decisions even when AI helps.",
+      "answer": true,
+      "explanation": "This is exactly the message of the Boris Eldagsen story: use AI, but stay the 'Boss' and be honest.",
+      "source": "worksheet:story reasoning"
+    },
+    {
+      "id": "q179",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Being the 'Boss' of AI",
+      "question": "The main message that ties together Question 3, Question 4, and the Boris Eldagsen story is about...",
+      "options": [
+        "Honesty and responsibility when AI is used to help with work",
+        "How to fix a mobile game",
+        "How to save battery life",
+        "How to choose a photo filter"
+      ],
+      "answer": 0,
+      "explanation": "All three parts of the worksheet return to the same theme: honesty and responsibility when AI is used to help with work.",
+      "source": "worksheet reasoning"
+    },
+    {
+      "id": "q180",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Being the 'Boss' of AI",
+      "question": "Which of these is the best real-world example, from the worksheet, of someone 'being the Boss' of their AI-assisted work?",
+      "options": [
+        "Boris Eldagsen revealing his AI use and refusing the prize",
+        "The food delivery app collecting your address",
+        "A mobile game asking for your location",
+        "A photo filter app editing your picture"
+      ],
+      "answer": 0,
+      "explanation": "Boris Eldagsen revealing his AI use and refusing the prize is the worksheet's clearest real-world example of taking responsibility.",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q181",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Being the 'Boss' of AI",
+      "question": "A student uses AI to help brainstorm ideas, writes the final piece in their own words, and clearly tells their teacher AI gave the initial ideas. Based on the chapter's message, how would this most likely be viewed?",
+      "options": [
+        "As a responsible, honest way to use AI, similar to the value shown by Eldagsen",
+        "As cheating, because any AI use is dishonest",
+        "As irrelevant, since AI wasn't really involved",
+        "As a mistake, because ideas should never come from tools"
+      ],
+      "answer": 0,
+      "explanation": "This matches the chapter's values: using AI as a starting point while being transparent about its role, similar to the value shown by Eldagsen.",
+      "source": "worksheet reasoning"
+    },
+    {
+      "id": "q182",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Being the 'Boss' of AI",
+      "question": "True or False: According to the chapter, honesty about AI use only matters in art competitions, not in schoolwork.",
+      "answer": false,
+      "explanation": "The chapter connects the same honesty value across Question 3 (essay writing), Question 4 (schoolwork disclosure), and the Eldagsen story (an art competition) — showing it applies broadly, not just to competitions.",
+      "source": "worksheet reasoning"
+    },
+    {
+      "id": "q183",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Being the 'Boss' of AI",
+      "question": "What was at stake for Boris Eldagsen when he chose to be honest?",
+      "options": [
+        "An international photography prize he had already won",
+        "His job as a teacher",
+        "His family's savings",
+        "His mobile phone"
+      ],
+      "answer": 0,
+      "explanation": "The story says he had already won the award before he refused it to be honest.",
+      "source": "worksheet:story"
+    },
+    {
+      "id": "q184",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Being the 'Boss' of AI",
+      "question": "Why can Boris Eldagsen's choice be considered a strong example of 'being the Boss', rather than a weak one?",
+      "options": [
+        "Because he gave up something valuable (the prize) specifically to be honest, showing he took real responsibility",
+        "Because he won extra money for being honest",
+        "Because he was forced to admit it by the judges",
+        "Because his photograph was not very good"
+      ],
+      "answer": 0,
+      "explanation": "He gave up something valuable (the prize) specifically to be honest, showing he took real responsibility for his AI-assisted work.",
+      "source": "worksheet:story reasoning"
+    },
+    {
+      "id": "q185",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Being the 'Boss' of AI",
+      "question": "According to the story, could Eldagsen have kept the prize if he had stayed silent about using AI?",
+      "options": [
+        "It's implied he could have, since he chose to reveal it himself",
+        "No, the judges had already found out",
+        "No, AI-made photos are automatically disqualified",
+        "The story does not mention a prize at all"
+      ],
+      "answer": 0,
+      "explanation": "The story emphasizes that HE revealed the AI use and refused the prize himself, implying disclosure was his own choice rather than something forced upon him.",
+      "source": "worksheet:story reasoning"
+    },
+    {
+      "id": "q186",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "My AI Checklist — Big Picture",
+      "question": "What is the chapter title for this worksheet?",
+      "options": [
+        "My AI Checklist",
+        "The Secret Artist",
+        "Learning is Fun",
+        "Privacy Puzzle"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's name is 'My AI Checklist.'",
+      "source": "chapter.json"
+    },
+    {
+      "id": "q187",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "My AI Checklist — Big Picture",
+      "question": "What is the guiding question of 'My AI Checklist'?",
+      "options": [
+        "Does using AI protect me — and represent me?",
+        "Is AI smarter than humans?",
+        "Can AI ever be wrong?",
+        "Should schools use AI?"
+      ],
+      "answer": 0,
+      "explanation": "The banner at the top of the worksheet reads: 'Does using AI protect me — and represent me?'",
+      "source": "worksheet:page5"
+    },
+    {
+      "id": "q188",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "My AI Checklist — Big Picture",
+      "question": "Select all big ideas that the 'My AI Checklist' worksheet explores, based on its questions and story.",
+      "options": [
+        "What personal information apps and AI might collect",
+        "Being honest about how much AI helped with schoolwork",
+        "Taking responsibility (\"being the Boss\") for AI-assisted work",
+        "How to bake a cake"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "These three ideas run through the whole worksheet: data collection, honesty about AI's role, and taking responsibility.",
+      "source": "worksheet overview"
+    },
+    {
+      "id": "q189",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "My AI Checklist — Big Picture",
+      "question": "Which two main concerns does the worksheet's guiding question raise about using AI?",
+      "options": [
+        "Whether it protects you (privacy) and whether it represents you honestly (authenticity)",
+        "Whether it is expensive and whether it is fast",
+        "Whether it is fun and whether it is colourful",
+        "Whether it works offline and whether it needs a password"
+      ],
+      "answer": 0,
+      "explanation": "The guiding question is literally 'Does using AI protect me — and represent me?', which maps to privacy (\"protect me\") and honest representation (\"represent me\").",
+      "source": "worksheet:page5 reasoning"
+    },
+    {
+      "id": "q190",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "My AI Checklist — Big Picture",
+      "question": "True or False: The worksheet's guiding question is only about protecting your personal information, not about honesty.",
+      "answer": false,
+      "explanation": "The guiding question has two parts — \"protect me\" (privacy) AND \"represent me\" (honest representation of your own work) — so it is about both.",
+      "source": "worksheet:page5 reasoning"
+    },
+    {
+      "id": "q191",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "My AI Checklist — Big Picture",
+      "question": "Which worksheet questions are most directly about protecting personal information from apps?",
+      "options": [
+        "Question 1 and Question 2",
+        "Question 3",
+        "Question 4b",
+        "The Boris Eldagsen story"
+      ],
+      "answer": 0,
+      "explanation": "Questions 1 and 2 focus on what information apps and AI tools collect.",
+      "source": "worksheet overview"
+    },
+    {
+      "id": "q192",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "My AI Checklist — Big Picture",
+      "question": "Which parts of the worksheet are most directly about honestly representing your own AI-assisted work?",
+      "options": [
+        "Question 3, Question 4, and the Boris Eldagsen story",
+        "Question 1 only",
+        "Question 2 only",
+        "None of the questions"
+      ],
+      "answer": 0,
+      "explanation": "Question 3, Question 4, and the Boris Eldagsen story all focus on honesty about AI's role in a piece of work.",
+      "source": "worksheet overview"
+    },
+    {
+      "id": "q193",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "My AI Checklist — Big Picture",
+      "question": "Select all real-life scenarios mentioned anywhere in the worksheet.",
+      "options": [
+        "A food delivery app in India",
+        "An artist who won a photography award",
+        "A mobile game",
+        "A voice assistant used for learning"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "All four scenarios are genuinely mentioned in the worksheet's questions or story.",
+      "source": "worksheet overview"
+    },
+    {
+      "id": "q194",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "My AI Checklist — Big Picture",
+      "question": "Which of these best summarises the ENTIRE 'My AI Checklist' worksheet in one sentence?",
+      "options": [
+        "It helps students think about what information AI/apps collect and how to be honest and responsible when AI helps with their work",
+        "It teaches students how to code an app",
+        "It is a maths worksheet about percentages",
+        "It is only about food delivery apps"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet helps students think about what information AI/apps collect and how to be honest and responsible when AI helps with their work.",
+      "source": "worksheet overview"
+    },
+    {
+      "id": "q195",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "My AI Checklist — Big Picture",
+      "question": "True or False: The worksheet moves from lower-star, more guided questions to a higher-star, more independent task by the end.",
+      "answer": true,
+      "explanation": "It starts at 'Laying the tracks' (★, guided questions with tick-boxes) and ends at 'Thinking deeper' (★★★, an open-ended voice-note task done 'at your own pace').",
+      "source": "worksheet sections reasoning"
+    },
+    {
+      "id": "q196",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "My AI Checklist — Big Picture",
+      "question": "Which question type is used most often in Questions 1-4 (tick-boxes/circling short choices, or long written essays)?",
+      "options": [
+        "Tick-boxes and circling short choices",
+        "Long written essays",
+        "Multiple choice exams with negative marking",
+        "Timed maths problems"
+      ],
+      "answer": 0,
+      "explanation": "Questions 1-4 mostly use tick-boxes and circling short choices rather than long written essays.",
+      "source": "worksheet overview"
+    },
+    {
+      "id": "q197",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "My AI Checklist — Big Picture",
+      "question": "How does Question 5 differ in FORMAT from Questions 1-4?",
+      "options": [
+        "It asks for a spoken voice note instead of tick-boxes or circling",
+        "It asks for a drawing instead of writing",
+        "It has no instructions at all",
+        "It is a multiple-choice question"
+      ],
+      "answer": 0,
+      "explanation": "Question 5 asks for a spoken voice note instead of the tick-boxes or circling used earlier.",
+      "source": "worksheet overview"
+    },
+    {
+      "id": "q198",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "My AI Checklist — Big Picture",
+      "question": "Select all statements that are TRUE about how the worksheet is structured overall.",
+      "options": [
+        "It has three difficulty-labelled sections with increasing star ratings",
+        "It ends with a real-world story before the final closing page",
+        "All questions are strictly multiple-choice with one right answer",
+        "It includes a task where you record your own voice"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Many worksheet questions (like 2b, 2c, and Question 5) are open reflection/explanation tasks, not strict single-answer multiple choice, so that option is false.",
+      "source": "worksheet overview"
+    },
+    {
+      "id": "q199",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "My AI Checklist — Big Picture",
+      "question": "True or False: The worksheet is designed for AI Literacy students in Grade 4.",
+      "answer": true,
+      "explanation": "The worksheet's metadata records the subject as AI Literacy and the grade as 4.",
+      "source": "chapter.json"
+    },
+    {
+      "id": "q200",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "My AI Checklist — Big Picture",
+      "question": "What connects Question 2 (the food delivery app) and the Boris Eldagsen story, even though one is about privacy and the other about honesty?",
+      "options": [
+        "Both use a real-world example to make an abstract AI idea concrete and easier to understand",
+        "Both are about photography",
+        "Both are about mobile games",
+        "Both have no connection at all"
+      ],
+      "answer": 0,
+      "explanation": "Both use a real-world example to make an abstract AI idea concrete and easier to understand.",
+      "source": "worksheet overview reasoning"
+    },
+    {
+      "id": "q201",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "My AI Checklist — Big Picture",
+      "question": "Suppose a student, after finishing the whole worksheet, wrote: 'AI is dangerous and should never be used.' Which part of the chapter's message would this misunderstand?",
+      "options": [
+        "The message that AI can be used to make amazing things, as long as you are honest and responsible (the \"Boss\") about it",
+        "The message about food delivery apps",
+        "The message about photo filters",
+        "Nothing — this fully matches the chapter"
+      ],
+      "answer": 0,
+      "explanation": "The chapter (via the Eldagsen story) explicitly says AI can be used to create amazing things — the key requirement is honesty and responsibility, not avoiding AI altogether.",
+      "source": "worksheet overview reasoning"
+    },
+    {
+      "id": "q202",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "My AI Checklist — Big Picture",
+      "question": "Select all of the following that the 'My AI Checklist' worksheet is NOT primarily about.",
+      "options": [
+        "Learning grammar rules for English essays",
+        "Baking recipes",
+        "Reflecting on privacy and honesty when using AI",
+        "Sports training routines"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "The worksheet is about AI literacy — privacy and honesty when using AI — not grammar, cooking, or sports.",
+      "source": "worksheet overview"
+    },
+    {
+      "id": "q203",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "My AI Checklist — Big Picture",
+      "question": "Which of these best fits the phrase 'protect me' in the worksheet's guiding question?",
+      "options": [
+        "Keeping your personal information safe from apps/AI that might overcollect it",
+        "Making your phone faster",
+        "Making your homework longer",
+        "Making your essay more colourful"
+      ],
+      "answer": 0,
+      "explanation": "\"Protect me\" refers to keeping your personal information safe from apps/AI that might overcollect it, as explored in Questions 1 and 2.",
+      "source": "worksheet:page5 reasoning"
+    },
+    {
+      "id": "q204",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "My AI Checklist — Big Picture",
+      "question": "Select all people/characters mentioned by an actual proper name anywhere in the 'My AI Checklist' worksheet.",
+      "options": [
+        "Boris Eldagsen",
+        "A younger sibling (unnamed)",
+        "A teacher or parent (unnamed)",
+        "Ada Lovelace"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Only Boris Eldagsen is mentioned by an actual proper name; the sibling/teacher/parent are referenced generically without names, and Ada Lovelace is not mentioned at all.",
+      "source": "worksheet overview"
+    }
+  ]
+}

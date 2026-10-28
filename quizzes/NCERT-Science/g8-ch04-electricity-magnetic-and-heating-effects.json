@@ -1,0 +1,2775 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-science-g8-ch04-electricity-magnetic-and-heating-effects",
+  "title": "Electricity: Magnetic and Heating Effects",
+  "subject": "Science",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Science/ch04",
+  "chapter": "4. Electricity: Magnetic and Heating Effects",
+  "topic": "Full Chapter",
+  "description": "Grade 8 NCERT Curiosity chapter 4: the magnetic effect of current and electromagnets, the heating effect and resistance, and how Voltaic, dry and rechargeable cells generate electricity.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "science",
+    "electricity",
+    "electromagnet",
+    "heating-effect",
+    "cells-and-batteries"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Magnetic Effect of Current",
+      "question": "In Activity 4.1, what happens to the compass needle placed under the wire when the switch is moved to ON?",
+      "options": [
+        "It deflects from its original direction",
+        "It spins continuously in circles",
+        "It points towards the electric cell",
+        "It stays exactly where it was before"
+      ],
+      "answer": 0,
+      "explanation": "When current flows through the wire, the compass needle is deflected from its original direction; it does not spin continuously or point to the cell.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Magnetic Effect of Current",
+      "question": "When the switch in Activity 4.1 is moved back to OFF, the compass needle…",
+      "options": [
+        "swings but settles pointing east",
+        "returns to its original direction",
+        "stays deflected at the same angle",
+        "deflects to the opposite side"
+      ],
+      "answer": 1,
+      "explanation": "The magnetic effect exists only while current flows. When the current stops the effect disappears and the needle returns to where it pointed before.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Magnetic Effect of Current",
+      "question": "The deflection of a compass needle placed near a current-carrying wire indicates that…",
+      "options": [
+        "the compass needle has lost its magnetism",
+        "the cell is pushing the needle with static charge",
+        "the wire has a magnetic effect while current flows",
+        "the wire has become permanently magnetised"
+      ],
+      "answer": 2,
+      "explanation": "The compass needle is a tiny magnet; it deflects only because the current-carrying wire produces a magnetic field around it. The wire is not permanently magnetised – the effect vanishes when current stops.",
+      "source": "exercise:Q7(ii)"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Magnetic Effect of Current",
+      "question": "The region around a magnet or a current-carrying wire where its magnetic effect can be felt is said to have a…",
+      "options": [
+        "magnetic pole",
+        "electric circuit",
+        "magnetic core",
+        "magnetic field"
+      ],
+      "answer": 3,
+      "explanation": "The chapter defines a magnetic field as the region around a magnet or current-carrying wire where its magnetic effect can be felt, for example by deflecting a compass needle.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Magnetic Effect of Current",
+      "question": "A thin cardboard sheet is placed between the current-carrying wire and the compass in Activity 4.1. What happens when the current flows?",
+      "options": [
+        "The needle still deflects, since the effect acts through non-magnetic materials",
+        "The needle will not deflect, because cardboard blocks magnetic fields",
+        "The needle deflects only if the cardboard is wet and conducting",
+        "The needle deflects twice as much because cardboard concentrates it"
+      ],
+      "answer": 0,
+      "explanation": "The chapter recalls from Grade 6 that a magnetic effect can act through non-magnetic materials kept in between, so cardboard does not block the deflection.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Magnetic Effect of Current",
+      "question": "Which statement about the magnetic effect of electric current is NOT correct?",
+      "options": [
+        "Switching the current ON and OFF repeatedly deflects the needle each time",
+        "The magnetic field remains around the wire after current stops",
+        "A current-carrying conductor produces a magnetic field around it",
+        "The compass needle is itself a tiny magnet that gets deflected"
+      ],
+      "answer": 1,
+      "explanation": "The magnetic field disappears as soon as the current stops flowing – that is why the needle returns to its original direction. The other three statements are all made in the chapter.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q7",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Magnetic Effect of Current",
+      "question": "A compass needle near a wire deflects only while electric current is flowing through the wire.",
+      "answer": true,
+      "explanation": "The deflection appears when current flows and disappears when it stops, showing the magnetic effect exists only during current flow.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q8",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Magnetic Effect of Current",
+      "question": "The magnetic effect of a current-carrying wire can be felt only if the compass actually touches the wire.",
+      "answer": false,
+      "explanation": "The wire produces a magnetic field in the region around it, so a compass placed beneath (not touching) the wire is deflected.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Magnetic Effect of Current",
+      "question": "What is the purpose of the switch in the circuit of Activity 4.1?",
+      "options": [
+        "To hold the wire above the cardboard",
+        "To protect the compass from heating",
+        "To start and stop the flow of current",
+        "To increase the strength of the cell"
+      ],
+      "answer": 2,
+      "explanation": "Moving the switch between ON and OFF lets students start and stop the current while watching how the compass needle responds.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Magnetic Effect of Current",
+      "question": "Why is the longer wire in Activity 4.1 stretched between two nails slightly above the cardboard?",
+      "options": [
+        "So the wire cools faster in the open air",
+        "So the wire does not short-circuit the cell",
+        "So the magnetic field is blocked by the board",
+        "So the compass can be placed just beneath the wire"
+      ],
+      "answer": 3,
+      "explanation": "The wire is fixed slightly above the cardboard so that the magnetic compass can be placed beneath the wire between the two nails and observed.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Magnetic Effect of Current",
+      "question": "A student finds that the compass needle in Activity 4.1 does not deflect at all when the switch is ON. What is the most likely reason?",
+      "options": [
+        "The circuit is broken somewhere, so no current flows",
+        "The cell is too strong for the compass to respond",
+        "The compass is not made of a magnetic material",
+        "The wire is too short to produce any magnetism"
+      ],
+      "answer": 0,
+      "explanation": "The deflection depends on current actually flowing. If there is no deflection, the most likely cause is that current is not flowing because the circuit is incomplete. A stronger cell would give more deflection, not none.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q12",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Magnetic Effect of Current",
+      "question": "Which statements about the magnetic field produced by an electric current are correct?",
+      "options": [
+        "It exists only while current flows",
+        "It is produced by any current-carrying conductor",
+        "It is stored in the wire after the cell is removed",
+        "It appears only when the wire is made of iron"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "A magnetic field is produced around any conductor carrying current and disappears when the current stops. It is not stored, and it does not require an iron wire – the activity uses ordinary connecting wire.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Magnetic Effect of Current",
+      "question": "Which item in Activity 4.1 acts as the detector of the magnetic effect?",
+      "options": [
+        "Cardboard base",
+        "Magnetic compass",
+        "Electric cell",
+        "Safety pin switch"
+      ],
+      "answer": 1,
+      "explanation": "The magnetic compass needle, being a tiny magnet, deflects when a magnetic field is present and so detects the magnetic effect of the current.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Magnetic Effect of Current",
+      "question": "The phenomenon in which a conductor carrying current produces a magnetic field around it is known as the…",
+      "options": [
+        "chemical effect of electric current",
+        "static effect of electric charges",
+        "magnetic effect of electric current",
+        "heating effect of electric current"
+      ],
+      "answer": 2,
+      "explanation": "Production of a magnetic field around a current-carrying conductor is called the magnetic effect of electric current; the heating effect is the warming of a conductor.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q15",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Magnetic Effect of Current",
+      "question": "The magnetic field around a wire becomes stronger after the current has been switched off.",
+      "answer": false,
+      "explanation": "The magnetic field disappears when the current stops flowing; it does not become stronger.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Magnetic Effect of Current",
+      "question": "You have an electric cell and wires but no lamp. How can you still find out whether current is flowing in the circuit?",
+      "options": [
+        "Hold the wire near a lemon and see if it glows",
+        "Count the number of turns in the connecting wire",
+        "Check whether the cell has a metal cap on top",
+        "Place a compass near the wire and watch for deflection"
+      ],
+      "answer": 3,
+      "explanation": "The 'Probe and ponder' question is answered by the magnetic effect: a compass needle near the wire deflects when current flows, so it can indicate current without a lamp.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Magnetic Effect of Current",
+      "question": "Four coils of similar shape and size are made of iron, copper, aluminium and nichrome. When current is passed, compass needles near the coils will show deflection…",
+      "options": [
+        "in all four circuits",
+        "only in the iron coil circuit",
+        "only in the iron and copper coils",
+        "only in iron, copper and aluminium"
+      ],
+      "answer": 0,
+      "explanation": "Any conductor carrying current produces a magnetic field around it, regardless of whether it is iron, copper, aluminium or nichrome. So the compass deflects in all four cases.",
+      "source": "exercise:Q11"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Oersted's Discovery",
+      "question": "In which year did Hans Christian Oersted discover that electricity and magnetism are linked?",
+      "options": [
+        "1800",
+        "1820",
+        "1777",
+        "1851"
+      ],
+      "answer": 1,
+      "explanation": "Oersted (1777–1851) made the discovery in 1820. 1777 and 1851 are the years of his birth and death.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Oersted's Discovery",
+      "question": "Oersted, who discovered the magnetic effect of current, was a university professor in which country?",
+      "options": [
+        "Germany",
+        "England",
+        "Denmark",
+        "Italy"
+      ],
+      "answer": 2,
+      "explanation": "The chapter states that Oersted was a professor at a university in Denmark. Italy is the home of Volta and Galvani.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Oersted's Discovery",
+      "question": "What did Oersted notice during a demonstration that led to his discovery?",
+      "options": [
+        "A wire became hot whenever a compass was placed near it",
+        "A magnet produced a current whenever it was moved near a wire",
+        "An iron nail became a permanent magnet after the circuit was closed",
+        "A compass needle nearby deflected whenever a circuit was closed or opened"
+      ],
+      "answer": 3,
+      "explanation": "While demonstrating, Oersted saw that the needle of a nearby compass deflected each time the electrical circuit was closed or opened.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Oersted's Discovery",
+      "question": "What did Oersted do before publishing his findings?",
+      "options": [
+        "Investigated until he was certain current produced a magnetic field",
+        "Built the first iron-core electromagnet to prove his idea",
+        "Asked several other scientists to repeat the experiment first",
+        "Measured how much heat the current produced in the wire"
+      ],
+      "answer": 0,
+      "explanation": "Oersted investigated the effect and published only when he was certain that an electric current indeed produced a magnetic field. Other scientists repeated it after he published.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Oersted's Discovery",
+      "question": "What happened after Oersted published his findings?",
+      "options": [
+        "Scientists stopped studying magnets as a separate topic",
+        "Other scientists repeated his experiment to check the results",
+        "The discovery was ignored for nearly a hundred years",
+        "Volta immediately used it to build the first battery"
+      ],
+      "answer": 1,
+      "explanation": "Publishing led other scientists to repeat the experiment to see if they got the same results and to investigate the electricity–magnetism link further.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q23",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Oersted's Discovery",
+      "question": "Oersted's discovery showed that electricity and magnetism, earlier thought to be unrelated, are linked.",
+      "answer": true,
+      "explanation": "Before 1820 the two were considered separate; Oersted's observation showed that an electric current produces a magnetic field.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q24",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Oersted's Discovery",
+      "question": "Oersted discovered the magnetic effect of current in 1851 while working in Italy.",
+      "answer": false,
+      "explanation": "The discovery was made in 1820, and Oersted worked in Denmark. 1851 is the year of his death.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Oersted's Discovery",
+      "question": "Oersted lived from 1777 to 1851. Approximately how old was he when he made his discovery in 1820?",
+      "options": [
+        "About 51 years",
+        "About 74 years",
+        "About 43 years",
+        "About 31 years"
+      ],
+      "answer": 2,
+      "explanation": "1820 − 1777 = 43. He lived to about 74 (1851 − 1777), which is the tempting wrong option.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Oersted's Discovery",
+      "question": "Students doing Activity 4.1 are told they have 'made the same discovery' as Oersted. Which discovery is this?",
+      "options": [
+        "An iron nail inside a coil makes a stronger magnet",
+        "A nichrome wire gets warm when current passes through",
+        "Two different metals in lemon juice give a current",
+        "A current-carrying wire deflects a nearby compass needle"
+      ],
+      "answer": 3,
+      "explanation": "Oersted's discovery was that a current-carrying wire deflects a compass needle, i.e. electricity and magnetism are linked. The other options are different findings in the chapter.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q27",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Oersted's Discovery",
+      "question": "Which statements about Hans Christian Oersted are correct?",
+      "options": [
+        "He was a professor at a university in Denmark",
+        "He published his findings after investigating carefully",
+        "He discovered that a moving magnet produces a current",
+        "He invented the dry cell used in torches today"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Oersted was a Danish professor who investigated and then published that current produces a magnetic field. The idea that a moving magnet produces current is mentioned for higher grades, not credited to him; dry cells are unrelated.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Making an Electromagnet",
+      "question": "A current-carrying coil that behaves as a magnet is called…",
+      "options": [
+        "an electromagnet",
+        "a magnetic field",
+        "a heating element",
+        "an electrolyte"
+      ],
+      "answer": 0,
+      "explanation": "By definition, a current-carrying coil that behaves like a magnet is an electromagnet. A heating element produces heat; an electrolyte is the liquid in a cell.",
+      "source": "exercise:Q1(ii)"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Making an Electromagnet",
+      "question": "In Activity 4.2, what is tightly wrapped around the iron nail to make the coil?",
+      "options": [
+        "A thin copper strip",
+        "Flexible insulated wire",
+        "Bare nichrome wire",
+        "A strip of chart paper"
+      ],
+      "answer": 1,
+      "explanation": "About 50 cm of flexible insulated wire is wound around the nail in the form of a coil and secured with tape.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Making an Electromagnet",
+      "question": "Why does Activity 4.2 warn not to keep the wire connected to the cell for more than a few seconds?",
+      "options": [
+        "The paper clips may get demagnetised",
+        "The insulation on the wire may dissolve",
+        "The cell may weaken very quickly otherwise",
+        "The nail may become permanently magnetic"
+      ],
+      "answer": 2,
+      "explanation": "Keeping the coil connected for long drains the cell, so the chapter says to connect only for a few seconds or the cell may weaken quickly.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Making an Electromagnet",
+      "question": "In Activity 4.3, the paper cylinder is rolled to a diameter roughly equal to…",
+      "options": [
+        "the length of a nail",
+        "the size of a lemon",
+        "the width of a compass",
+        "the width of a pencil"
+      ],
+      "answer": 3,
+      "explanation": "A piece of chart paper is rolled into a cylinder about as wide as a pencil, so that an iron nail can later be inserted into it.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Making an Electromagnet",
+      "question": "About how many turns of insulated wire are wound on the paper cylinder in Activity 4.3?",
+      "options": [
+        "About 50 turns",
+        "About 5 turns",
+        "About 100 turns",
+        "About 25 turns"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says to tightly wind around 50 turns of insulated wire on the cylinder to form a cylindrical coil.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Making an Electromagnet",
+      "question": "In Activity 4.3, when current flows through the coil WITHOUT the iron nail, the compass needles…",
+      "options": [
+        "deflect only at one end of the coil",
+        "deflect, showing the coil acts as a magnet",
+        "do not move until the nail is inserted",
+        "point towards the cell's positive terminal"
+      ],
+      "answer": 1,
+      "explanation": "Even without a core, the current-carrying coil behaves like a magnet and deflects the compass needles at both ends; inserting the nail only makes the deflection larger.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Making an Electromagnet",
+      "question": "What change is observed when an iron nail is inserted into the core of the current-carrying coil?",
+      "options": [
+        "The coil becomes warm but not magnetic",
+        "The deflection reverses its direction",
+        "The compass needles deflect much more",
+        "The compass needles stop deflecting"
+      ],
+      "answer": 2,
+      "explanation": "With an iron nail in the core the coil becomes a stronger magnet, so the deflection of the compass needles is much more and it attracts iron clips.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Making an Electromagnet",
+      "question": "Why do most practical electromagnets have an iron core?",
+      "options": [
+        "It keeps the coil from getting hot",
+        "It lets the coil work without a cell",
+        "It stops the poles from reversing",
+        "It makes the electromagnet stronger"
+      ],
+      "answer": 3,
+      "explanation": "An iron core makes the electromagnet much stronger, which is why most practical electromagnets include one.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Making an Electromagnet",
+      "question": "In Activity 4.3 the clips cling to the nail while current flows but fall off when it stops. This shows that the magnetism of the coil is…",
+      "options": [
+        "temporary, lasting only while current flows",
+        "permanent, once the nail has been magnetised",
+        "stored in the clips rather than the coil",
+        "produced by the paper cylinder's friction"
+      ],
+      "answer": 0,
+      "explanation": "The cylindrical coil loses its magnetic effect when current is stopped, so the magnetism is temporary – unlike a permanent bar magnet.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q37",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Making an Electromagnet",
+      "question": "A coil of insulated wire carrying current behaves like a magnet even without an iron nail inside it.",
+      "answer": true,
+      "explanation": "In Activity 4.3 the coil alone deflects the compasses; the nail is inserted later only to make it stronger.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q38",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Making an Electromagnet",
+      "question": "An electromagnet keeps attracting iron clips even after the cell is disconnected.",
+      "answer": false,
+      "explanation": "When the current is stopped, the coil loses its magnetic effect and the clips no longer cling to it.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q39",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Making an Electromagnet",
+      "question": "A coil becomes an electromagnet only when electric current flows through it.",
+      "answer": true,
+      "explanation": "The chapter's exercise statement is true: the coil shows magnetic behaviour only while current flows; without current it is just a coil of wire.",
+      "source": "exercise:Q2(ii)"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Making an Electromagnet",
+      "question": "Which material is used for the core of the electromagnet in Activity 4.3, and why?",
+      "options": [
+        "Zinc, because it forms the negative terminal",
+        "Iron, because it is a magnetic material",
+        "Copper, because it conducts electricity well",
+        "Carbon, because it forms the positive terminal"
+      ],
+      "answer": 1,
+      "explanation": "An iron nail is inserted as the core; iron is a magnetic material and makes the coil a stronger magnet. Carbon and zinc are parts of a dry cell, not of an electromagnet.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q41",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Making an Electromagnet",
+      "question": "Which observations are actually made in Activity 4.3?",
+      "options": [
+        "Compass needles deflect when the coil carries current",
+        "Deflection becomes much larger with an iron nail inside",
+        "Clips stay attached after the current is stopped",
+        "The coil needs two cells before any deflection appears"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The coil deflects the needles with one cell, and the deflection increases greatly with an iron nail. Clips fall off when current stops; a second cell is not needed for deflection.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Making an Electromagnet",
+      "question": "In Sumana's lifting-electromagnet model, what happened when she opened the circuit?",
+      "options": [
+        "The battery heated up and stopped",
+        "The clips stuck more firmly to the nail",
+        "The paper clips fell off the nail",
+        "The nail became a permanent magnet"
+      ],
+      "answer": 2,
+      "explanation": "Closing the circuit made the nail pick up clips like a magnet; opening it stopped the current and the clips fell off.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Making an Electromagnet",
+      "question": "Mohini and Aakarsh were surprised by Sumana's model because…",
+      "options": [
+        "the nail lifted clips even after the circuit was opened",
+        "a copper nail was behaving like a magnetic material",
+        "the battery was lifting the clips without any wire",
+        "clips were attracted with no magnet present, only a circuit"
+      ],
+      "answer": 3,
+      "explanation": "They had learnt that magnets attract iron, but Sumana's model had no magnet – just an iron nail, wire and battery – yet it picked up clips.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Making an Electromagnet",
+      "question": "Neha keeps the coil exactly as in Activity 4.4 but slides the iron nail out, leaving only the coiled wire. Will the coil still deflect the compass?",
+      "options": [
+        "Yes, but the deflection will be less",
+        "Yes, and the deflection will be more",
+        "No, the coil cannot deflect it without the nail",
+        "Yes, and the deflection stays exactly the same"
+      ],
+      "answer": 0,
+      "explanation": "A current-carrying coil is itself a magnet, so it still deflects the compass; but without the iron core it is weaker, so the deflection is less than before.",
+      "source": "exercise:Q10"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Making an Electromagnet",
+      "question": "Sumana forgets to switch OFF her lifting electromagnet. After some time the nail no longer lifts clips, though the wire is still warm. What is the most likely reason?",
+      "options": [
+        "The wire's insulation melted and reversed the poles of the magnet",
+        "The cell weakened as its chemicals got used up, so the current fell",
+        "The iron nail turned into a permanent magnet and repelled the clips",
+        "The paper clips lost their magnetic property due to the warmth"
+      ],
+      "answer": 1,
+      "explanation": "Leaving the circuit closed drains the cell; as its chemicals get used up the current becomes too small to make a strong magnet, though the small current still warms the wire slightly.",
+      "source": "exercise:Q8"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Poles and Strength of Electromagnets",
+      "question": "How many poles does an electromagnet have?",
+      "options": [
+        "Four, one at each turn",
+        "None, only a field",
+        "Two, like a bar magnet",
+        "One, unlike a bar magnet"
+      ],
+      "answer": 2,
+      "explanation": "Just like a bar magnet, an electromagnet has two poles – North and South – one at each end of the coil.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Poles and Strength of Electromagnets",
+      "question": "In Activity 4.4, the north pole of the compass needle is attracted towards end A of the coil. End A is therefore…",
+      "options": [
+        "a north pole",
+        "not a pole",
+        "both poles",
+        "a south pole"
+      ],
+      "answer": 3,
+      "explanation": "Unlike poles attract. If the compass's north pole is attracted to end A, then end A must be a south pole.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Poles and Strength of Electromagnets",
+      "question": "If the south pole of the compass needle is attracted towards end B of the electromagnet, end B is a…",
+      "options": [
+        "north pole",
+        "south pole",
+        "neutral end",
+        "double pole"
+      ],
+      "answer": 0,
+      "explanation": "Since unlike poles attract, the end that attracts the compass's south pole must be a north pole.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Poles and Strength of Electromagnets",
+      "question": "After finding the polarity of end A of the electromagnet, what should you expect at end B?",
+      "options": [
+        "A polarity that keeps changing",
+        "The opposite polarity to end A",
+        "The same polarity as end A",
+        "No polarity at all at end B"
+      ],
+      "answer": 1,
+      "explanation": "The activity shows that the polarity of end B is opposite to that of end A – one end is north, the other south.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Poles and Strength of Electromagnets",
+      "question": "When two magnets are brought close, their unlike poles (North–South)…",
+      "options": [
+        "cancel each other",
+        "heat each other",
+        "attract each other",
+        "repel each other"
+      ],
+      "answer": 2,
+      "explanation": "Unlike poles attract each other; this fact is used to identify the poles of an electromagnet with a compass.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q51",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Poles and Strength of Electromagnets",
+      "question": "Which factors can change the strength of an electromagnet?",
+      "options": [
+        "Amount of current through the coil",
+        "Number of turns in the coil",
+        "Colour of the insulation on the wire",
+        "Length of the connecting wires to the switch"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The strength depends on the amount of current flowing through the coil and the number of turns of the coil (or both). Insulation colour and connecting-wire length are not factors mentioned.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Poles and Strength of Electromagnets",
+      "question": "How can the poles of an electromagnet be reversed?",
+      "options": [
+        "By adding more turns to the coil",
+        "By using a battery of more cells",
+        "By removing the iron nail from the coil",
+        "By reversing the direction of the current"
+      ],
+      "answer": 3,
+      "explanation": "Changing the direction of the current reverses the poles. More turns or more cells change the strength, not the polarity.",
+      "source": "exercise:Q7(iii)"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Poles and Strength of Electromagnets",
+      "question": "Using a battery of 4 cells instead of a single cell with the same coil results in…",
+      "options": [
+        "a larger current and a stronger magnetic field",
+        "the same current but reversed poles",
+        "a smaller deflection of the compass",
+        "a weaker magnet that attracts fewer clips"
+      ],
+      "answer": 0,
+      "explanation": "A battery with more cells gives a larger current, creating a stronger magnetic field, more deflection and more clips attracted.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Poles and Strength of Electromagnets",
+      "question": "Two electromagnets use the same cell. Coil P has 50 turns and coil Q has 100 turns. Which will likely attract more clips?",
+      "options": [
+        "Neither, because turns do not affect strength",
+        "Coil Q, because more turns make a stronger magnet",
+        "Coil P, because fewer turns let more current flow",
+        "Both equally, since the same cell is used"
+      ],
+      "answer": 1,
+      "explanation": "Increasing the number of turns makes the coil a stronger magnet, so the 100-turn coil Q attracts more clips.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Poles and Strength of Electromagnets",
+      "question": "Why does a single cell make only a weak electromagnet?",
+      "options": [
+        "Its electrolyte is a paste, not a liquid",
+        "It cannot send current through a coil",
+        "It provides only a small amount of current",
+        "It has only one pole instead of two"
+      ],
+      "answer": 2,
+      "explanation": "A single cell provides only a small current, so the magnetic field is weak and the coil attracts only a few clips.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q56",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Poles and Strength of Electromagnets",
+      "question": "Increasing the number of turns of a coil makes an electromagnet weaker.",
+      "answer": false,
+      "explanation": "Increasing the number of turns makes the coil a stronger magnet, not weaker.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q57",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Poles and Strength of Electromagnets",
+      "question": "Changing the direction of current through an electromagnet reverses its north and south poles.",
+      "answer": true,
+      "explanation": "The chapter states that the poles of an electromagnet can be reversed by changing the direction of the current.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q58",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Poles and Strength of Electromagnets",
+      "question": "An electromagnet using a single cell attracts more iron paper clips than the same electromagnet with a battery of 2 cells.",
+      "answer": false,
+      "explanation": "A battery of 2 cells gives a larger current and a stronger field, so it attracts more clips than a single cell.",
+      "source": "exercise:Q2(iii)"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Poles and Strength of Electromagnets",
+      "question": "Which statement about the strength of an electromagnet is NOT correct?",
+      "options": [
+        "A battery of more cells gives a larger current than one cell",
+        "More turns on the coil make the coil a stronger magnet",
+        "An iron core inside the coil makes the magnet stronger",
+        "Using more cells reduces the deflection of the compass needle"
+      ],
+      "answer": 3,
+      "explanation": "More cells give a larger current, a stronger field and MORE deflection, so the first statement is wrong. The other three are correct.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Poles and Strength of Electromagnets",
+      "question": "Neha reverses the cell connections of her electromagnet. The compass needle that earlier pointed its north pole at end A will now…",
+      "options": [
+        "turn its south pole towards end A",
+        "still point its north pole at end A",
+        "stop responding to the coil entirely",
+        "point towards the middle of the coil"
+      ],
+      "answer": 0,
+      "explanation": "Reversing the current reverses the poles: end A changes from south to north, so now it attracts the compass's south pole. The deflection reverses.",
+      "source": "exercise:Q7(iii)"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Poles and Strength of Electromagnets",
+      "question": "In 'Think like a scientist', which experiment keeps the number of cells fixed and varies another factor?",
+      "options": [
+        "4 cells with the direction reversed",
+        "2 cells with different numbers of turns",
+        "2 and 4 cells with the same coil",
+        "1 cell with the iron nail taken out"
+      ],
+      "answer": 1,
+      "explanation": "Experiment (ii) uses 2 cells but changes the number of turns of the coil, so only the turns vary; experiment (i) changes the cells with the same coil.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q62",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Poles and Strength of Electromagnets",
+      "question": "Which changes would make the compass deflection near an electromagnet LARGER?",
+      "options": [
+        "Using a battery of more cells",
+        "Adding more turns to the coil",
+        "Reversing the direction of the current",
+        "Removing the iron nail from the coil"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "More cells (more current) and more turns both strengthen the electromagnet. Reversing the current only reverses the poles, and removing the iron core makes it weaker.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Poles and Strength of Electromagnets",
+      "question": "In the experiment '2 and 4 cells with the same coil', which variable is being changed?",
+      "options": [
+        "Material of the core of the coil",
+        "Direction of current in the coil",
+        "Amount of current through the coil",
+        "Number of turns of the coil"
+      ],
+      "answer": 2,
+      "explanation": "Using more cells changes the amount of current flowing through the coil; the coil (number of turns) and core are kept the same.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Earth's Magnetism and Applications",
+      "question": "Why does a freely suspended magnet rest along the north–south direction?",
+      "options": [
+        "Air currents push the magnet northwards",
+        "The Sun's heat attracts the magnet's north pole",
+        "The magnet is pulled by the nearest mountain",
+        "Earth itself behaves like a giant magnet"
+      ],
+      "answer": 3,
+      "explanation": "As learnt in Grade 6 and recalled here, a freely suspended magnet aligns north–south because the Earth behaves like a giant magnet.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Earth's Magnetism and Applications",
+      "question": "According to the chapter, what creates the Earth's magnetic field?",
+      "options": [
+        "Movement of liquid iron in the core producing electric currents",
+        "A giant bar magnet buried at the centre of the Earth",
+        "Solid iron mountains at the north and south poles",
+        "Lightning striking the ground repeatedly over ages"
+      ],
+      "answer": 0,
+      "explanation": "Deep inside the Earth, movement of liquid iron in the core creates electric currents, which generate a magnetic field – the same link between current and magnetism seen in the activities.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Earth's Magnetism and Applications",
+      "question": "Which of the following use the Earth's magnetic field to navigate across continents and oceans?",
+      "options": [
+        "Voltaic cells with two electrodes",
+        "Migratory birds, fish and animals",
+        "Lifting electromagnets in cranes",
+        "Electric kettles and heaters"
+      ],
+      "answer": 1,
+      "explanation": "The 'A step further' box says many migratory birds, fish and animals use the Earth's magnetic field to navigate.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Earth's Magnetism and Applications",
+      "question": "Besides helping navigation, how does the Earth's magnetic field protect life?",
+      "options": [
+        "It stops lightning from reaching the ground",
+        "It heats the core to keep the Earth warm",
+        "It blocks harmful particles coming from space",
+        "It keeps the oceans from freezing over"
+      ],
+      "answer": 2,
+      "explanation": "The Earth's magnetic field acts as a shield, blocking harmful particles from space and helping protect life.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q68",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Earth's Magnetism and Applications",
+      "question": "Earth's magnetic field is produced by a huge permanent bar magnet at its centre.",
+      "answer": false,
+      "explanation": "The field is generated by electric currents created by the movement of liquid iron in the Earth's core, not by a buried bar magnet.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q69",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Earth's Magnetism and Applications",
+      "question": "Earth's magnetic field acts as a shield against harmful particles from space.",
+      "answer": true,
+      "explanation": "The chapter says the Earth's magnetic field blocks harmful particles from space and helps protect life on Earth.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Earth's Magnetism and Applications",
+      "question": "Which of these is NOT listed in the chapter as an application of the magnetic effect of current?",
+      "options": [
+        "Electric bell",
+        "Electric fan",
+        "Electric motor",
+        "Electric kettle"
+      ],
+      "answer": 3,
+      "explanation": "Electromagnets, electric bells, motors, fans and loudspeakers use the magnetic effect. An electric kettle works on the heating effect.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q71",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Earth's Magnetism and Applications",
+      "question": "Which devices work on the magnetic effect of electric current?",
+      "options": [
+        "Electric bell",
+        "Loudspeaker",
+        "Electric iron",
+        "Immersion rod"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Electric bells and loudspeakers are listed as applications of the magnetic effect; electric irons and immersion rods work on the heating effect.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Earth's Magnetism and Applications",
+      "question": "How does a crane operator control a lifting electromagnet?",
+      "options": [
+        "By switching the current ON and OFF",
+        "By heating the coil with nichrome wire",
+        "By changing the shape of the iron core",
+        "By replacing the cell with a dry cell"
+      ],
+      "answer": 0,
+      "explanation": "Switching current ON lifts iron/steel objects; switching it OFF makes the field disappear and releases them.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Earth's Magnetism and Applications",
+      "question": "When the current to a lifting electromagnet is switched OFF…",
+      "options": [
+        "the iron objects become permanently magnetised",
+        "the magnetic field disappears and objects are released",
+        "the objects stay attached until the crane moves",
+        "the magnet becomes stronger for a few seconds"
+      ],
+      "answer": 1,
+      "explanation": "An electromagnet is magnetic only while current flows, so switching OFF removes the field and the lifted objects drop.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Earth's Magnetism and Applications",
+      "question": "Lifting electromagnets are widely used in…",
+      "options": [
+        "kitchens and bathrooms",
+        "farms and fish markets",
+        "factories and scrap yards",
+        "hospitals and schools"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says lifting electromagnets are widely used in factories and scrap yards to move, lift and sort heavy metal items.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Earth's Magnetism and Applications",
+      "question": "Why is an electromagnet more useful than a permanent magnet for lifting and sorting scrap iron?",
+      "options": [
+        "It is always stronger than any permanent magnet",
+        "It needs no electricity supply at all to work",
+        "It attracts aluminium and copper as well as iron",
+        "Its magnetism can be switched off to release the load"
+      ],
+      "answer": 3,
+      "explanation": "The key advantage is control: the operator can switch the current OFF to release objects. It needs electricity, and it attracts only magnetic materials like iron and steel.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Earth's Magnetism and Applications",
+      "question": "The chapter hints that in higher grades you will learn the 'exciting idea' that…",
+      "options": [
+        "a moving magnet can also produce an electric current",
+        "a stationary magnet produces heat in a wire",
+        "a current can flow without a complete circuit",
+        "an electromagnet works without any current"
+      ],
+      "answer": 0,
+      "explanation": "Just as electricity produces magnetism, a moving magnet can lead to an electric current – the basis of power generators.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Earth's Magnetism and Applications",
+      "question": "The deep connection between electricity and magnetism forms the basis of devices such as…",
+      "options": [
+        "immersion rods and hair dryers",
+        "electric motors and power generators",
+        "lemon cells and zinc dry cells",
+        "electric irons and electric kettles"
+      ],
+      "answer": 1,
+      "explanation": "Motors and generators rely on the electricity–magnetism link; cells work on chemical reactions and irons/kettles on the heating effect.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Heating Effect and Resistance",
+      "question": "The special wire tied between the nails in Activity 4.5 is made of…",
+      "options": [
+        "aluminium",
+        "iron",
+        "nichrome",
+        "copper"
+      ],
+      "answer": 2,
+      "explanation": "Activity 4.5 uses a nichrome wire, which offers higher resistance than copper and so heats noticeably.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Heating Effect and Resistance",
+      "question": "In Activity 4.5, the nichrome wire used is about…",
+      "options": [
+        "3 mm thick and 10 cm long",
+        "0.3 mm thick and 100 cm long",
+        "0.6 mm thick and 5 cm long",
+        "0.3 mm thick and 10 cm long"
+      ],
+      "answer": 3,
+      "explanation": "The chapter specifies a nichrome wire of thickness about 0.3 mm (26–28 gauge) and length 10 cm.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Heating Effect and Resistance",
+      "question": "Why does the nichrome wire become warm when current flows through it?",
+      "options": [
+        "Its resistance converts some electrical energy into heat",
+        "The cell pumps hot chemicals along the wire to warm it",
+        "The magnetic field around the wire rubs against the air",
+        "The nails act as heating elements that warm the wire"
+      ],
+      "answer": 0,
+      "explanation": "A conductor opposes (resists) the flow of current; this resistance causes some electrical energy to be converted into heat energy.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Heating Effect and Resistance",
+      "question": "Compared with a copper wire of the same size and length, a nichrome wire…",
+      "options": [
+        "offers the same resistance",
+        "offers higher resistance",
+        "offers lower resistance",
+        "offers no resistance at all"
+      ],
+      "answer": 1,
+      "explanation": "Different conductors offer different resistance; nichrome offers higher resistance than copper of the same size and length, so it heats more.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Heating Effect and Resistance",
+      "question": "The warming of a conductor when electric current passes through it is called the…",
+      "options": [
+        "chemical effect of electric current",
+        "lighting effect of electric current",
+        "heating effect of electric current",
+        "magnetic effect of electric current"
+      ],
+      "answer": 2,
+      "explanation": "Generation of heat in a conductor due to the flow of current is the heating effect of electric current.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heating Effect and Resistance",
+      "question": "Activity 4.5 is repeated with a battery of 2 cells instead of 1 for the same duration. The nichrome wire…",
+      "options": [
+        "heats up less because the cells share the load",
+        "heats up the same since the wire is unchanged",
+        "does not heat at all as the cells cancel out",
+        "heats up more because the current is larger"
+      ],
+      "answer": 3,
+      "explanation": "More heat is generated with 2 cells because the heat produced depends on the magnitude of the current, which is larger with 2 cells.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q84",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Heating Effect and Resistance",
+      "question": "On which of these does the heat generated in a wire depend?",
+      "options": [
+        "Material of the wire",
+        "Duration for which current flows",
+        "Colour of the wire's insulation",
+        "Direction of the current"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Heat generated depends on the material, thickness and length of the wire, the current and the duration of flow. Insulation colour and current direction are not factors.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q85",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Heating Effect and Resistance",
+      "question": "Select the factors that affect how much heat a current-carrying wire produces.",
+      "options": [
+        "Length of the wire",
+        "Magnitude of the current",
+        "Direction of the current",
+        "Number of compasses placed nearby"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The chapter lists material, thickness, length, duration and magnitude of current. Direction of current affects poles of an electromagnet, not heating; compasses merely detect fields.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heating Effect and Resistance",
+      "question": "Which statement about the heating effect of current is NOT correct?",
+      "options": [
+        "Only nichrome wire gets heated when current flows through it",
+        "Different conductors offer different resistance to current",
+        "Heat generated depends on how long the current flows",
+        "An incandescent lamp glows because its filament is heated"
+      ],
+      "answer": 0,
+      "explanation": "Any conductor carrying current gets heated, since every conductor offers some resistance; nichrome simply heats more. The other statements are from the chapter.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heating Effect and Resistance",
+      "question": "While making the electromagnet, students noticed the wire ends got warm. This is because…",
+      "options": [
+        "the paper clips rub against the wire ends and warm them",
+        "the wire's resistance converts some energy to heat",
+        "the magnetic field heats up the surrounding air",
+        "the iron nail transfers its heat to the wire"
+      ],
+      "answer": 1,
+      "explanation": "Even ordinary connecting wire has some resistance, so current passing through it produces heat – the heating effect accompanies the magnetic effect.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Heating Effect and Resistance",
+      "question": "Why does the chapter say to touch the nichrome wire only 'momentarily' and not hold it?",
+      "options": [
+        "To avoid draining the cell faster",
+        "To avoid shocking the compass",
+        "To avoid injury from the heated wire",
+        "To avoid demagnetising the wire"
+      ],
+      "answer": 2,
+      "explanation": "The safety note says not to touch the wire for an extended period, because the heated wire can cause injury.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heating Effect and Resistance",
+      "question": "Two nichrome wires of equal length, one twice as thick as the other, are connected one by one to the same cell for 30 s. The heat produced in them…",
+      "options": [
+        "will be equal, because both wires are made of nichrome",
+        "will be equal, because both carry current for 30 seconds",
+        "will be zero, because thick wires have no resistance",
+        "will differ, because heat depends on the wire's thickness"
+      ],
+      "answer": 3,
+      "explanation": "Heat generated depends on material, thickness, length and duration. Same material and time but different thickness means the heating will differ.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q90",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Heating Effect and Resistance",
+      "question": "Electrical energy is converted into heat because a conductor offers resistance to the flow of current.",
+      "answer": true,
+      "explanation": "Resistance to the flow of current causes some electrical energy to be converted into heat energy in the conductor.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q91",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Heating Effect and Resistance",
+      "question": "A copper wire offers higher resistance than a nichrome wire of the same size and length.",
+      "answer": false,
+      "explanation": "It is the other way round: nichrome offers higher resistance than copper of the same size and length.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Heating Effect and Resistance",
+      "question": "An incandescent lamp glows because…",
+      "options": [
+        "its filament is heated by the electric current",
+        "its filament becomes a magnet and glows",
+        "the gas inside burns like a candle flame",
+        "chemical reactions in the glass give light"
+      ],
+      "answer": 0,
+      "explanation": "As learnt in Grade 7, the filament is heated by the current until it glows – an example of the heating effect.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heating Effect and Resistance",
+      "question": "In Grade 7 the torch lamp sometimes got warm while glowing with an electric cell. Which effect explains this?",
+      "options": [
+        "Attraction between the lamp and the cell",
+        "Heating effect of current in the filament",
+        "Magnetic effect of current in the filament",
+        "Chemical effect of the cell's electrolyte"
+      ],
+      "answer": 1,
+      "explanation": "The filament resists the current and converts electrical energy into heat, which is why the lamp glows and feels warm.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heating Effect and Resistance",
+      "question": "A current flows through a nichrome wire for a short time. (i) The wire becomes warm. (ii) A compass placed below the wire deflects. Which option is correct?",
+      "options": [
+        "Only (ii) is correct",
+        "Neither (i) nor (ii) is correct",
+        "Both (i) and (ii) are correct",
+        "Only (i) is correct"
+      ],
+      "answer": 2,
+      "explanation": "Any current-carrying conductor shows both effects: nichrome's resistance makes it warm (heating effect) and the current produces a magnetic field that deflects the compass (magnetic effect).",
+      "source": "exercise:Q3"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heating Effect and Resistance",
+      "question": "Nichrome wire is commonly used in electrical heating devices because it…",
+      "options": [
+        "is a good conductor of electricity",
+        "is cheaper than copper wire of same size",
+        "is a perfect insulator of electricity",
+        "generates more heat for a given current"
+      ],
+      "answer": 3,
+      "explanation": "Nichrome offers higher resistance than copper, so it generates more heat for a given current – ideal for heating elements. It is a conductor, not an insulator, and cost is not the reason given.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Heating Appliances and Safety",
+      "question": "Which part of an electric heater, iron or kettle actually produces the heat?",
+      "options": [
+        "The heating element",
+        "The magnetic core",
+        "The electrolyte paste",
+        "The compass needle"
+      ],
+      "answer": 0,
+      "explanation": "All these appliances contain a rod or coil of wire called a heating element, which gets hot when current flows.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Heating Appliances and Safety",
+      "question": "A heating element is best described as…",
+      "options": [
+        "a zinc container with a carbon rod",
+        "a rod or coil of wire that gets hot",
+        "a glass container with two rods",
+        "a coil wound around an iron nail"
+      ],
+      "answer": 1,
+      "explanation": "The chapter describes the heating element as a rod or coil of wire; the other options describe a Voltaic cell, an electromagnet and a dry cell.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heating Appliances and Safety",
+      "question": "In some appliances the heating element can be seen glowing red hot. This shows that…",
+      "options": [
+        "the chemicals in the element are burning",
+        "the element has lost all its resistance",
+        "a large amount of heat is produced by the current",
+        "the element has become a strong magnet"
+      ],
+      "answer": 2,
+      "explanation": "The red glow is due to the heating effect – the element becomes so hot that it glows, like a lamp filament.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q99",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Heating Appliances and Safety",
+      "question": "Which of these appliances work on the heating effect of electric current?",
+      "options": [
+        "Electric iron",
+        "Hair dryer",
+        "Electric bell",
+        "Loudspeaker",
+        "Electric motor"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Electric irons and hair dryers are listed with heaters, stoves, kettles and immersion rods as heating-effect appliances; bells, loudspeakers and motors use the magnetic effect.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q100",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Heating Appliances and Safety",
+      "question": "Select the devices that contain a heating element.",
+      "options": [
+        "Electric kettle",
+        "Immersion rod",
+        "Electric fan",
+        "Electromagnet crane"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Kettles and water-heating immersion rods have heating elements; fans and lifting electromagnets work on the magnetic effect.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heating Appliances and Safety",
+      "question": "Which device does NOT belong with the other three?",
+      "options": [
+        "Electric stove",
+        "Electric kettle",
+        "Electric iron",
+        "Electric fan"
+      ],
+      "answer": 3,
+      "explanation": "Stoves, kettles and irons work on the heating effect; an electric fan works on the magnetic effect of current.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Heating Appliances and Safety",
+      "question": "What problem can the heating effect cause when electricity is transmitted through wires?",
+      "options": [
+        "Energy loss in the wires",
+        "Reversal of the magnetic poles",
+        "Faster charging of batteries",
+        "Melting of the electrolyte"
+      ],
+      "answer": 0,
+      "explanation": "The chapter notes that the heating effect can cause energy loss in wires during transmission.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Heating Appliances and Safety",
+      "question": "Overheating in appliances may lead to…",
+      "options": [
+        "the wires losing their resistance completely",
+        "melted plastic in plugs and sockets, or even fires",
+        "the appliance becoming a permanent magnet",
+        "the cell inside the appliance becoming recharged"
+      ],
+      "answer": 1,
+      "explanation": "Overheating may damage plugs and sockets, melting plastic parts, or even lead to fires.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Heating Appliances and Safety",
+      "question": "What is placed in household circuits to minimise incidents caused by overheating?",
+      "options": [
+        "Spare dry cells",
+        "Iron nail cores",
+        "Safety devices",
+        "Extra switches"
+      ],
+      "answer": 2,
+      "explanation": "Household circuits include safety devices to minimise damage from overheating.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Heating Appliances and Safety",
+      "question": "To prevent unnecessary heating in switchboards, wires, plugs and sockets should be…",
+      "options": [
+        "made of nichrome to resist the heat",
+        "wrapped tightly around an iron core",
+        "kept dipped in a weak salt solution",
+        "rated for the current of the connection"
+      ],
+      "answer": 3,
+      "explanation": "Appropriate wires, plugs and sockets rated for the specified current of the connections prevent unnecessary heating.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Heating Appliances and Safety",
+      "question": "In steel-manufacturing industries, the heating effect of electric current is used to…",
+      "options": [
+        "melt and recycle scrap steel in a furnace",
+        "magnetise steel rods for lifting cranes",
+        "charge large lithium-ion batteries",
+        "separate zinc containers from carbon rods"
+      ],
+      "answer": 0,
+      "explanation": "A high-temperature furnace uses electric current to produce heat that melts and recycles scrap steel into usable steel.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Heating Appliances and Safety",
+      "question": "The chapter describes a furnace as…",
+      "options": [
+        "a device that detects magnetic fields",
+        "an enclosed space built to generate heat",
+        "a coil of wire wound on an iron nail",
+        "a container holding an electrolyte"
+      ],
+      "answer": 1,
+      "explanation": "A furnace is defined in the text as an enclosed space built to generate heat.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q108",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Heating Appliances and Safety",
+      "question": "Overheating can melt the plastic parts of plugs and sockets.",
+      "answer": true,
+      "explanation": "The chapter warns that overheating may damage plugs and sockets, where plastic parts may melt.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q109",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Heating Appliances and Safety",
+      "question": "The heating effect of current is always useful and never causes any problems.",
+      "answer": false,
+      "explanation": "It is useful in appliances but can also cause energy loss in transmission, damage to plugs and sockets, and fires.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heating Appliances and Safety",
+      "question": "A thin wire rated for a small current is used to connect a high-current room heater. What is the likely consequence?",
+      "options": [
+        "The heater will produce less heat than normal",
+        "The wire will become a permanent magnet",
+        "The wire may overheat and its insulation may melt",
+        "The heater will work as an electromagnet instead"
+      ],
+      "answer": 2,
+      "explanation": "Wires not rated for the current heat up unnecessarily; the chapter warns that this can melt plastic parts or cause fires.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Voltaic Cell",
+      "question": "Another name for a Voltaic cell is a…",
+      "options": [
+        "Lithium cell",
+        "Carbon cell",
+        "Nichrome cell",
+        "Galvanic cell"
+      ],
+      "answer": 3,
+      "explanation": "A Voltaic cell is also known as a Galvanic cell, after the Italian scientists Volta and Galvani.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Voltaic Cell",
+      "question": "The solution used in a Voltaic cell is called the…",
+      "options": [
+        "electrolyte",
+        "electrode",
+        "conductor",
+        "insulator"
+      ],
+      "answer": 0,
+      "explanation": "The liquid in the cell, usually a weak acid or salt solution, is the electrolyte; the metal rods are electrodes.",
+      "source": "exercise:Q1(i)"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Voltaic Cell",
+      "question": "The metal rods partly dipped in the liquid of a Voltaic cell are called…",
+      "options": [
+        "filaments",
+        "electrodes",
+        "electrolytes",
+        "elements"
+      ],
+      "answer": 1,
+      "explanation": "The two metal rods are electrodes. The liquid is the electrolyte; a filament is part of a lamp; a heating element is in a heater.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Voltaic Cell",
+      "question": "What produces the electricity in a Voltaic cell?",
+      "options": [
+        "A magnetic field created by the two metal rods",
+        "Friction between the liquid and the container",
+        "A chemical reaction between rods and electrolyte",
+        "Heat from the rods warming the electrolyte"
+      ],
+      "answer": 2,
+      "explanation": "A chemical reaction between the electrodes and the electrolyte produces electricity – a cell generates current because of chemical reactions inside it.",
+      "source": "exercise:Q4"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Voltaic Cell",
+      "question": "The two electrodes in a Voltaic cell must be…",
+      "options": [
+        "made of the same metal",
+        "both made of carbon rods",
+        "fully dipped in the liquid",
+        "made of different materials"
+      ],
+      "answer": 3,
+      "explanation": "The cell contains two metal rods made of different materials, partly (not fully) dipped in the electrolyte.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Voltaic Cell",
+      "question": "The electrolyte in a Voltaic cell is usually…",
+      "options": [
+        "a weak acid or a salt solution",
+        "pure distilled drinking water",
+        "a thick moist carbon paste",
+        "melted iron from the core"
+      ],
+      "answer": 0,
+      "explanation": "The electrolyte is usually a weak acid or salt solution. A thick paste is used in dry cells, not Voltaic cells.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Voltaic Cell",
+      "question": "When a Voltaic cell is connected in a circuit, electric current flows through the circuit from…",
+      "options": [
+        "both terminals towards the centre",
+        "the positive terminal to the negative terminal",
+        "the negative terminal to the positive terminal",
+        "the electrolyte directly into the lamp"
+      ],
+      "answer": 1,
+      "explanation": "The chapter states that current flows from the positive terminal through the circuit to the negative terminal.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Voltaic Cell",
+      "question": "Why does a Voltaic cell eventually become 'dead'?",
+      "options": [
+        "The electrolyte freezes solid",
+        "The current reverses direction",
+        "The chemicals inside get used up",
+        "The electrodes become magnetised"
+      ],
+      "answer": 2,
+      "explanation": "Over time the chemicals get used up, the cell stops working and cannot supply any more electricity – it is then called dead.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Voltaic Cell",
+      "question": "Volta and Galvani, after whom Voltaic and Galvanic cells are named, were scientists from…",
+      "options": [
+        "Denmark",
+        "France",
+        "Germany",
+        "Italy"
+      ],
+      "answer": 3,
+      "explanation": "Both Alessandro Volta and Luigi Galvani were Italian scientists; Oersted was from Denmark.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Voltaic Cell",
+      "question": "What did Galvani observe in the late 1700s?",
+      "options": [
+        "A frog's leg kicked when touched by two different metals",
+        "A compass needle moved when a circuit nearby was closed",
+        "A wire grew warm when copper and iron were connected",
+        "A piece of iron became magnetic when placed in a coil"
+      ],
+      "answer": 0,
+      "explanation": "Galvani noticed that a dead frog's leg kicked when touched with two different metals – copper and iron.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Voltaic Cell",
+      "question": "Galvani believed the electricity that made the frog's leg kick came from…",
+      "options": [
+        "the air around",
+        "the frog itself",
+        "the two metals",
+        "the salt water"
+      ],
+      "answer": 1,
+      "explanation": "Galvani thought the electricity came from the frog; Volta disagreed and argued it came from the metals.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Voltaic Cell",
+      "question": "Volta's view was that the electricity came from…",
+      "options": [
+        "the glass of the container",
+        "the heat of the wires",
+        "the metals, not the frog",
+        "the frog's leg muscles"
+      ],
+      "answer": 2,
+      "explanation": "Volta believed the electricity came from the metals and not from the frog, and tested this idea.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Voltaic Cell",
+      "question": "How did Volta test his idea about the source of the electricity?",
+      "options": [
+        "He used two rods of the same metal and got a larger current",
+        "He heated the frog's leg and measured its kicking",
+        "He placed a compass near the frog and watched it deflect",
+        "He used saltwater-soaked paper instead of the frog's leg"
+      ],
+      "answer": 3,
+      "explanation": "Volta replaced the frog's leg with saltwater-soaked paper and still got a current, proving the frog was not the source.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Voltaic Cell",
+      "question": "Volta's experiment showed that the electric current was generated by…",
+      "options": [
+        "a combination of metals and a liquid",
+        "the muscles of a living animal",
+        "friction between two metal rods",
+        "the magnetic field of the Earth"
+      ],
+      "answer": 0,
+      "explanation": "Getting a current with metals and saltwater-soaked paper showed that the combination of metals and liquid generated the current – leading to the first battery.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q125",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Voltaic Cell",
+      "question": "Volta's experiment with saltwater-soaked paper led to the invention of the first battery.",
+      "answer": true,
+      "explanation": "Showing that metals plus a liquid produce current led Volta to invent the first battery.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q126",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Voltaic Cell",
+      "question": "Galvani correctly concluded that the electricity came from the two metals rather than the frog.",
+      "answer": false,
+      "explanation": "Galvani thought the electricity came from the frog; it was Volta who concluded it came from the metals.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Voltaic Cell",
+      "question": "Which statement about a Voltaic cell is NOT correct?",
+      "options": [
+        "It stops working once the chemicals are used up",
+        "Its electrodes are fully submerged in the electrolyte",
+        "It uses two rods made of different materials",
+        "Its electrolyte is usually a weak acid or salt solution"
+      ],
+      "answer": 1,
+      "explanation": "The electrodes are only partly dipped in the electrolyte, not fully submerged. The other statements are correct.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q128",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Voltaic Cell",
+      "question": "Which statements about Volta and Galvani are correct?",
+      "options": [
+        "Galvani thought the electricity came from the frog",
+        "Volta showed that metals plus a liquid produce current",
+        "Galvani invented the first battery",
+        "Volta worked as a professor in Denmark"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Galvani credited the frog; Volta disproved this with saltwater-soaked paper and invented the first battery. Both were Italian; Denmark is Oersted's country.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Voltaic Cell",
+      "question": "Match: which description fits a Voltaic cell?",
+      "options": [
+        "Works on heating effect of current",
+        "Best suited for electric heater",
+        "Works on chemical reactions",
+        "Works on magnetic effect of current"
+      ],
+      "answer": 2,
+      "explanation": "A Voltaic cell generates current through chemical reactions; the electromagnet uses the magnetic effect, the iron the heating effect, and nichrome suits heaters.",
+      "source": "exercise:Q4"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Lemon Cell",
+      "question": "In the lemon cell of Activity 4.6, what are the two electrodes?",
+      "options": [
+        "Zinc rod and carbon rod",
+        "Copper wire and zinc strip",
+        "Iron nail and carbon rod",
+        "Copper wire and iron nail"
+      ],
+      "answer": 3,
+      "explanation": "A copper wire/strip and an iron nail are inserted into each lemon as the two metal electrodes.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Lemon Cell",
+      "question": "What acts as the electrolyte in the lemon cell?",
+      "options": [
+        "Lemon juice",
+        "Copper wire",
+        "Iron nail",
+        "Lemon peel"
+      ],
+      "answer": 0,
+      "explanation": "The lemon juice is the electrolyte which helps conduct electricity between the copper and iron electrodes.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Lemon Cell",
+      "question": "In Activity 4.6, the LED is connected between…",
+      "options": [
+        "the copper wire and iron nail of one single lemon",
+        "copper wire of the first lemon and iron nail of the last",
+        "the copper wires of the first lemon and the last lemon",
+        "the iron nails of the first lemon and the last lemon"
+      ],
+      "answer": 1,
+      "explanation": "The LED is connected between the copper wire of the first lemon and the iron nail of the last lemon, after joining the copper wires and nails of neighbouring lemons.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Lemon Cell",
+      "question": "If the LED does not glow at first in the lemon-cell activity, what should you do?",
+      "options": [
+        "Squeeze the lemons until juice flows",
+        "Replace the iron nails with zinc",
+        "Reverse the LED's connections",
+        "Add more copper wires to each lemon"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says: if the LED does not glow, reverse its connections – an LED passes current only in one direction.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Lemon Cell",
+      "question": "Why might reversing the LED's connections make it glow?",
+      "options": [
+        "Reversing warms the lemon juice and frees charge",
+        "The LED needs a few seconds to charge up fully",
+        "The copper and iron swap roles when reversed",
+        "Current passes through an LED only in one direction"
+      ],
+      "answer": 3,
+      "explanation": "Current can pass through the LED only when its longer (positive) wire is connected to the positive terminal and the shorter to the negative; reversing fixes a wrong connection.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Lemon Cell",
+      "question": "The longer wire of an LED must be connected to…",
+      "options": [
+        "the positive terminal of the battery",
+        "the negative terminal of the battery",
+        "the iron nail of the first lemon",
+        "the middle lemon in the chain"
+      ],
+      "answer": 0,
+      "explanation": "The longer wire is the LED's positive terminal and goes to the battery's positive terminal; the shorter wire goes to the negative terminal.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Lemon Cell",
+      "question": "A glowing LED in Activity 4.6 indicates that…",
+      "options": [
+        "the circuit is broken",
+        "the lemon cell is working",
+        "the LED is overheating",
+        "the lemons are magnetic"
+      ],
+      "answer": 1,
+      "explanation": "The chapter says a glowing LED indicates that your cell is working, i.e. it is producing current.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Lemon Cell",
+      "question": "Instead of lemon juice, what else can be used as the electrolyte in a home-made cell?",
+      "options": [
+        "Cooking oils",
+        "Melted candle wax",
+        "Salt solutions",
+        "Pure water only"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says you may also use salt solutions instead of lemon juice; a weak acid or salt solution is the usual electrolyte.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Lemon Cell",
+      "question": "Cell (a) has an iron nail and copper strip in lemon juice; cell (b) has the same electrodes in pure water. When the switch is closed, the LED will glow…",
+      "options": [
+        "only in (b), because pure water is cleaner",
+        "in both, because the metals are the same",
+        "in neither, because an LED needs a dry cell",
+        "only in (a), because lemon juice is an electrolyte"
+      ],
+      "answer": 3,
+      "explanation": "A cell needs an electrolyte (weak acid or salt solution) to conduct and react with the electrodes. Lemon juice does this; pure water is not listed as an electrolyte, so (b) gives no current.",
+      "source": "exercise:Q9"
+    },
+    {
+      "id": "q139",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Lemon Cell",
+      "question": "Which of these is listed as a common metal pair for Voltaic cells?",
+      "options": [
+        "Zinc and copper",
+        "Iron and aluminium",
+        "Lead and magnesium",
+        "Silver and copper"
+      ],
+      "answer": 0,
+      "explanation": "Listed pairs are zinc/copper, zinc/silver, aluminium/copper, iron/copper, magnesium/copper and lead/copper. Each pair includes copper or zinc.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q140",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Lemon Cell",
+      "question": "Which metal is given as an example of one that acts as a positive electrode?",
+      "options": [
+        "Nickel",
+        "Copper",
+        "Zinc",
+        "Cobalt"
+      ],
+      "answer": 1,
+      "explanation": "The chapter says metals like copper act as positive electrodes, while metals like zinc act as negative electrodes.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q141",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Lemon Cell",
+      "question": "Which metal is given as an example of one that acts as a negative electrode?",
+      "options": [
+        "Silver",
+        "Cobalt",
+        "Zinc",
+        "Copper"
+      ],
+      "answer": 2,
+      "explanation": "Zinc is the example of a negative electrode; copper is the example of a positive electrode.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q142",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Lemon Cell",
+      "question": "Lemon juice helps conduct electricity and acts as the electrolyte in the lemon cell.",
+      "answer": true,
+      "explanation": "The chapter states that the electrolyte is the lemon juice, which helps conduct electricity.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q143",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Lemon Cell",
+      "question": "In the lemon cell, the copper wire and the iron nail must touch each other inside the lemon.",
+      "answer": false,
+      "explanation": "The copper wire and iron nail are inserted keeping them apart by a small distance; they must not touch.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q144",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Lemon Cell",
+      "question": "Which of these are listed in the chapter as common metal pairs for Voltaic cells?",
+      "options": [
+        "Magnesium/copper",
+        "Lead/copper",
+        "Copper/copper",
+        "Nichrome/iron"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Magnesium/copper and lead/copper are listed. The two electrodes must be different materials, so copper/copper is not valid; nichrome/iron is not mentioned.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q145",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Dry Cells",
+      "question": "Why are dry cells called 'dry'?",
+      "options": [
+        "They contain no electrolyte of any kind inside",
+        "They must be stored in a dry place when unused",
+        "Their electrodes are made of dried carbon powder",
+        "The electrolyte is a thick paste, not a liquid"
+      ],
+      "answer": 3,
+      "explanation": "They are called dry because the electrolyte is not a liquid but a thick moist paste. They do still contain an electrolyte.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q146",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Dry Cells",
+      "question": "In a dry cell, the zinc container acts as the…",
+      "options": [
+        "negative terminal",
+        "positive terminal",
+        "electrolyte",
+        "metal cap"
+      ],
+      "answer": 0,
+      "explanation": "The zinc container is the negative terminal; the carbon rod with its metal cap is the positive terminal.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q147",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Dry Cells",
+      "question": "The carbon rod at the centre of a dry cell, covered with a metal cap, acts as the…",
+      "options": [
+        "zinc container",
+        "positive terminal",
+        "negative terminal",
+        "electrolyte paste"
+      ],
+      "answer": 1,
+      "explanation": "The carbon rod covered with a metal cap is the positive terminal of the dry cell.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q148",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Dry Cells",
+      "question": "What surrounds the carbon rod inside a dry cell?",
+      "options": [
+        "A coil of copper wire",
+        "A layer of lemon juice",
+        "A paste-like electrolyte",
+        "A liquid weak acid"
+      ],
+      "answer": 2,
+      "explanation": "The carbon rod is surrounded by the paste-like electrolyte, which is why the cell is called 'dry'.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q149",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Dry Cells",
+      "question": "A dry cell is described as a single-use cell. This means…",
+      "options": [
+        "it can be used by only one person",
+        "it works for exactly one hour",
+        "it can be recharged only once",
+        "once used up it has to be disposed of"
+      ],
+      "answer": 3,
+      "explanation": "Single use means that once the dry cell is used up it cannot be recharged and must be disposed of.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q150",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Dry Cells",
+      "question": "Dry cells are less portable compared to Voltaic cells.",
+      "answer": false,
+      "explanation": "Voltaic cells with liquid electrolytes are inconvenient; dry cells with paste electrolytes are far more portable and are the most widely used cells today.",
+      "source": "exercise:Q2(i)"
+    },
+    {
+      "id": "q151",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Dry Cells",
+      "question": "Which parts of a dry cell play the role that the two electrodes play in a Voltaic cell?",
+      "options": [
+        "Zinc container and carbon rod",
+        "The metal cap and the paste",
+        "The paste and the outer case",
+        "The carbon rod and the paste"
+      ],
+      "answer": 0,
+      "explanation": "The zinc container (negative) and the carbon rod (positive) are the two terminals/electrodes; the paste is the electrolyte.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q152",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Dry Cells",
+      "question": "Which statement about dry cells is NOT correct?",
+      "options": [
+        "The carbon rod is at the centre of the cell",
+        "The dry cell can be recharged many times",
+        "The zinc container is the negative terminal",
+        "The electrolyte is a thick moist paste"
+      ],
+      "answer": 1,
+      "explanation": "A dry cell is single-use and must be disposed of once used up; it cannot be recharged. The other statements describe its structure correctly.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q153",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Dry Cells",
+      "question": "Why are dry cells more widely used today than Voltaic cells?",
+      "options": [
+        "They produce a stronger magnetic field",
+        "They use lemon juice which is cheap",
+        "They are more convenient for everyday use",
+        "They never run out and need no disposal"
+      ],
+      "answer": 2,
+      "explanation": "Voltaic cells were important but not convenient for everyday use; dry cells, with a paste electrolyte, are convenient and widely used.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q154",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Dry Cells",
+      "question": "In a dry cell the zinc container is the negative terminal and the carbon rod is the positive terminal.",
+      "answer": true,
+      "explanation": "This matches the structure described in the chapter and Fig. 4.9.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q155",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Dry Cells",
+      "question": "A dry cell uses a liquid weak acid as its electrolyte, just like a Voltaic cell.",
+      "answer": false,
+      "explanation": "A dry cell's electrolyte is a thick moist paste, not a liquid – that is the whole point of the name 'dry'.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q156",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Dry Cells",
+      "question": "Which statements about dry cells are correct?",
+      "options": [
+        "They are one of the most widely used cells today",
+        "Their electrolyte is a thick moist paste",
+        "They can be recharged by connecting to a charger",
+        "Their outer container is made of copper"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Dry cells are widely used and have a paste electrolyte. They are single-use (not rechargeable) and their container is zinc, not copper.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q157",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rechargeable Batteries",
+      "question": "What is the main advantage of rechargeable batteries?",
+      "options": [
+        "They never wear out even after years",
+        "They do not contain any chemicals",
+        "They are lighter than all dry cells",
+        "They can be recharged and reused many times"
+      ],
+      "answer": 3,
+      "explanation": "Rechargeable batteries can be recharged and reused multiple times, preventing wastage; but they do wear out slowly.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q158",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rechargeable Batteries",
+      "question": "Using rechargeable batteries helps by…",
+      "options": [
+        "preventing wastage and saving money over time",
+        "producing heat for household appliances",
+        "generating magnetic fields for cranes",
+        "working forever without needing a charger"
+      ],
+      "answer": 0,
+      "explanation": "Reusing a battery many times prevents wastage and saves money over time, according to the chapter.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q159",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rechargeable Batteries",
+      "question": "Why does a phone battery need charging more often after a year or two?",
+      "options": [
+        "The charger gradually loses its magnetic effect",
+        "The battery slowly wears out after being charged many times",
+        "The phone's screen uses more energy as the phone gets older",
+        "The electrolyte inside turns from a paste into a liquid"
+      ],
+      "answer": 1,
+      "explanation": "Rechargeable batteries do not last forever; after being charged and used many times they slowly wear out, so they hold less charge.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q160",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rechargeable Batteries",
+      "question": "Which is the most common type of rechargeable battery today?",
+      "options": [
+        "Lemon cell battery",
+        "Voltaic cell battery",
+        "Lithium-ion battery",
+        "Dry cell battery"
+      ],
+      "answer": 2,
+      "explanation": "The lithium-ion (Li-ion) battery is the most common rechargeable battery, found in almost all battery-powered devices.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q161",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rechargeable Batteries",
+      "question": "Lithium-ion batteries rely on special metals such as…",
+      "options": [
+        "zinc and carbon",
+        "copper and iron",
+        "nichrome and lead",
+        "lithium and cobalt"
+      ],
+      "answer": 3,
+      "explanation": "Li-ion batteries use lithium and cobalt; zinc and carbon are dry-cell materials, copper and iron are lemon-cell electrodes.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q162",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rechargeable Batteries",
+      "question": "Why are countries racing to secure supplies and recycle old batteries?",
+      "options": [
+        "Lithium and cobalt are mined only in limited regions",
+        "Rechargeable batteries are the only source of magnetism",
+        "Dry cells have completely stopped being manufactured",
+        "Recycled batteries charge faster than brand-new ones"
+      ],
+      "answer": 0,
+      "explanation": "Lithium and cobalt are mined and processed in limited parts of the world, so countries race to secure supplies, recycle and develop new technologies.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q163",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rechargeable Batteries",
+      "question": "What do solid-state batteries replace?",
+      "options": [
+        "The lithium inside them with cheaper iron rods",
+        "Liquid or paste electrolytes with solid materials",
+        "The metal electrodes with solid plastic rods",
+        "The charging cable with a built-in solar panel"
+      ],
+      "answer": 1,
+      "explanation": "Solid-state batteries replace the liquid or paste-like electrolytes with solid materials.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q164",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Rechargeable Batteries",
+      "question": "Which advantages are expected from future solid-state batteries?",
+      "options": [
+        "Much safer",
+        "Charge faster",
+        "Never need to be replaced",
+        "Work without any electrolyte"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "They are expected to be safer, charge faster and last longer. They still use an electrolyte (a solid one) and 'last longer' does not mean never replaced.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q165",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rechargeable Batteries",
+      "question": "Which of these is listed in the chapter as using rechargeable batteries?",
+      "options": [
+        "Immersion rod",
+        "Electric stove",
+        "Inverter",
+        "Electric kettle"
+      ],
+      "answer": 2,
+      "explanation": "Rechargeable batteries are shown in laptops, phones, cameras, inverters and vehicles; kettles, rods and stoves are heating appliances.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q166",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rechargeable Batteries",
+      "question": "Which statement about rechargeable batteries is NOT correct?",
+      "options": [
+        "They can be reused multiple times",
+        "They slowly wear out after many uses",
+        "They power laptops and electric vehicles",
+        "They last forever if charged properly"
+      ],
+      "answer": 3,
+      "explanation": "Rechargeable batteries also do not last forever – they wear out slowly after many charge cycles. The other statements are correct.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q167",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rechargeable Batteries",
+      "question": "Why does the chapter call improved rechargeable batteries 'very important' for the future?",
+      "options": [
+        "They support the move to environmentally friendly power",
+        "They will replace all electromagnets in factories",
+        "They make lifting cranes lift heavier scrap",
+        "They produce more heat than nichrome elements"
+      ],
+      "answer": 0,
+      "explanation": "Better rechargeable batteries matter as the world moves to developing environmentally friendly sources of electrical power.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q168",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Rechargeable Batteries",
+      "question": "Rechargeable batteries also wear out slowly after being charged and used many times.",
+      "answer": true,
+      "explanation": "The chapter says rechargeable batteries do not last forever and slowly wear out after many charges.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q169",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Rechargeable Batteries",
+      "question": "Solid-state batteries use a thick moist paste as their electrolyte.",
+      "answer": false,
+      "explanation": "Solid-state batteries replace liquid or paste electrolytes with solid materials; the paste is used in dry cells.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q170",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Rechargeable Batteries",
+      "question": "Lithium-ion batteries are found only in electric vehicles.",
+      "answer": false,
+      "explanation": "Li-ion batteries are found in almost all devices that use batteries – phones, laptops, cameras and more, not only vehicles.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q171",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rechargeable Batteries",
+      "question": "Can all cells and batteries be recharged?",
+      "options": [
+        "Yes, if the electrolyte is a paste",
+        "No, dry cells are single-use",
+        "Yes, every cell can be recharged",
+        "No, only Voltaic cells can be"
+      ],
+      "answer": 1,
+      "explanation": "Dry cells are single-use and must be disposed of when used up; only rechargeable batteries can be recharged and reused.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q172",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Battery Disposal and Recycling",
+      "question": "A battery that has stopped working may still contain…",
+      "options": [
+        "a strong permanent magnet made of iron and nickel",
+        "clean water and a long coil of insulated copper wire",
+        "acids and metals such as lead, cadmium or lithium",
+        "fresh electrolyte that can be poured into a new cell"
+      ],
+      "answer": 2,
+      "explanation": "Even a 'dead' battery can contain acids and metals like lead, cadmium, nickel or lithium, which can be harmful or valuable.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q173",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Battery Disposal and Recycling",
+      "question": "Why should used batteries not be thrown in regular garbage?",
+      "options": [
+        "They may recharge themselves in the garbage heap",
+        "They make the garbage pile magnetic and hard to move",
+        "They are needed later to power the garbage trucks",
+        "Their materials may cause fires or harm the environment"
+      ],
+      "answer": 3,
+      "explanation": "The acids and metals inside may cause fires or be harmful to the environment if thrown in regular garbage.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q174",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Battery Disposal and Recycling",
+      "question": "Where does the chapter say used batteries should be disposed of?",
+      "options": [
+        "At special e-waste recycling facilities",
+        "In the kitchen compost bin with food scraps",
+        "In a nearby river or lake far from houses",
+        "In the regular household garbage bin"
+      ],
+      "answer": 0,
+      "explanation": "Many places have special e-waste recycling facilities where used batteries can be disposed of safely.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q175",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Battery Disposal and Recycling",
+      "question": "Why is recycling batteries described as good for the planet and the people?",
+      "options": [
+        "Recycling makes the batteries magnetic again",
+        "Valuable materials are reused and harm is avoided",
+        "Old batteries become stronger after recycling",
+        "Recycled batteries never need charging again"
+      ],
+      "answer": 1,
+      "explanation": "Many battery materials are valuable and can be recycled and reused, while keeping harmful acids and metals out of the environment.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q176",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Battery Disposal and Recycling",
+      "question": "The chapter says a battery that stops working is 'not completely dead'. What does this mean?",
+      "options": [
+        "It will start working again after resting for a day",
+        "It keeps a magnetic field even without current",
+        "It still holds chemicals and metals, harmful or valuable",
+        "It can be shaken to make it supply current again"
+      ],
+      "answer": 2,
+      "explanation": "'Not completely dead' refers to the acids and metals still inside, which can cause harm if dumped or be recovered by recycling – not to the battery working again.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q177",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Battery Disposal and Recycling",
+      "question": "Many materials used in batteries are valuable and can be recycled and reused.",
+      "answer": true,
+      "explanation": "The chapter states that many battery materials are valuable and could be recycled and reused.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q178",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Battery Disposal and Recycling",
+      "question": "It is safe to throw used batteries in regular garbage because they are completely dead.",
+      "answer": false,
+      "explanation": "Used batteries still contain acids and metals that may cause fires or harm the environment; they should go to e-waste facilities.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q179",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Battery Disposal and Recycling",
+      "question": "Which metals does the chapter mention as possibly present in a used battery?",
+      "options": [
+        "Lead",
+        "Cadmium",
+        "Copper",
+        "Nichrome"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Lead, cadmium, nickel and lithium are named. Copper is a lemon-cell electrode and nichrome a heating wire, not listed as battery waste.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q180",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Battery Disposal and Recycling",
+      "question": "If you are not sure how to dispose of a used battery, the chapter advises you to…",
+      "options": [
+        "bury it in the garden",
+        "burn it in a furnace",
+        "put it in a lemon",
+        "ask your teacher"
+      ],
+      "answer": 3,
+      "explanation": "The chapter says: if you are not sure, ask your teacher – and use e-waste recycling facilities.",
+      "source": "text:page16"
+    }
+  ]
+}

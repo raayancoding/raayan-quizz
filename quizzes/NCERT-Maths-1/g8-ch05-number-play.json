@@ -1,0 +1,2164 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-maths-1-g8-ch05-number-play",
+  "title": "Number Play",
+  "subject": "Maths-1",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Maths-1/ch05",
+  "chapter": "5. Number Play",
+  "topic": "Full Chapter",
+  "description": "Parity, remainders and divisibility proved with algebra and visualisation: sums of consecutive numbers, always/sometimes/never statements, shortcuts for 3, 9 and 11, composite divisibility, digital roots and cryptarithms.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "maths",
+    "number-play",
+    "parity",
+    "divisibility",
+    "remainders",
+    "digital-roots",
+    "cryptarithms",
+    "algebraic-proof"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sums of Consecutive Numbers",
+      "question": "The sum of four consecutive numbers is 34. If the smallest is n, which equation must you solve?",
+      "options": [
+        "4n + 6 = 34",
+        "4n + 4 = 34",
+        "4n + 10 = 34",
+        "4n + 3 = 34"
+      ],
+      "answer": 0,
+      "explanation": "The four numbers are n, n + 1, n + 2, n + 3, so their sum is 4n + (1 + 2 + 3) = 4n + 6. Solving 4n + 6 = 34 gives n = 7, i.e. the numbers 7, 8, 9, 10. 4n + 4 and 4n + 10 miscount the extra 1 + 2 + 3.",
+      "source": "exercise:p122-Q1"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sums of Consecutive Numbers",
+      "question": "The sum of four consecutive numbers is 34. What are the numbers?",
+      "options": [
+        "6, 7, 8, 9",
+        "7, 8, 9, 10",
+        "8, 9, 10, 11",
+        "9, 10, 11, 12"
+      ],
+      "answer": 1,
+      "explanation": "7 + 8 + 9 + 10 = 34. The neighbouring sets give 30, 38 and 42, not 34.",
+      "source": "exercise:p122-Q1"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sums of Consecutive Numbers",
+      "question": "Which of these numbers CAN be written as the sum of four consecutive natural numbers?",
+      "options": [
+        "40",
+        "44",
+        "42",
+        "48"
+      ],
+      "answer": 2,
+      "explanation": "Four consecutive numbers add to 4n + 6, which is always 2 more than a multiple of 4. 42 = 40 + 2 works: 9 + 10 + 11 + 12 = 42. 40, 44 and 48 are multiples of 4, so 4n + 6 = 40 would need n = 8.5 — impossible.",
+      "source": "text:page1 (reasoning)"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sums of Consecutive Numbers",
+      "question": "If p is the greatest of five consecutive numbers, the other four numbers are",
+      "options": [
+        "p + 1, p + 2, p + 3, p + 4",
+        "p − 1, p − 3, p − 5, p − 7",
+        "p − 2, p − 4, p − 6, p − 8",
+        "p − 1, p − 2, p − 3, p − 4"
+      ],
+      "answer": 3,
+      "explanation": "Consecutive numbers differ by 1, and p is the largest, so the others sit just below it: p − 1, p − 2, p − 3, p − 4. The options with p + … would be bigger than the greatest number; the ones stepping by 2 describe consecutive odd or even numbers.",
+      "source": "exercise:p122-Q2"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sums of Consecutive Numbers",
+      "question": "The middle number of five consecutive even numbers is 5p. The other four numbers are",
+      "options": [
+        "5p − 4, 5p − 2, 5p + 2, 5p + 4",
+        "5p − 2, 5p − 1, 5p + 1, 5p + 2",
+        "5p − 8, 5p − 4, 5p + 4, 5p + 8",
+        "5p − 5, 5p − 3, 5p + 3, 5p + 5"
+      ],
+      "answer": 0,
+      "explanation": "Consecutive even numbers differ by 2, so two steps below and above 5p give 5p − 4, 5p − 2, 5p + 2, 5p + 4. Steps of 1 would give odd numbers in between; steps of 4 skip every other even number.",
+      "source": "exercise:p133-Q9"
+    },
+    {
+      "id": "q6",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Sums of Consecutive Numbers",
+      "question": "The sum of any four consecutive numbers is always a multiple of 4.",
+      "answer": false,
+      "explanation": "n + (n + 1) + (n + 2) + (n + 3) = 4n + 6, which leaves remainder 2 when divided by 4. For example 3 + 4 + 5 + 6 = 18, not a multiple of 4.",
+      "source": "text:page1 (reasoning)"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sums of Consecutive Numbers",
+      "question": "Why can an even number never be written as the sum of two consecutive numbers?",
+      "options": [
+        "Two consecutive numbers are both odd",
+        "n + (n + 1) = 2n + 1, which is odd",
+        "Two consecutive numbers are both even",
+        "Their sum is always a multiple of 4"
+      ],
+      "answer": 1,
+      "explanation": "Two consecutive numbers are n and n + 1; one is even and one is odd, and their sum 2n + 1 is always odd. So every odd number (3 = 1 + 2, 5 = 2 + 3, …) is such a sum, but no even number is.",
+      "source": "text:page1 (reasoning)"
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Sums of Consecutive Numbers",
+      "question": "Select ALL the numbers that can be written as the sum of two consecutive natural numbers.",
+      "options": [
+        "15",
+        "7",
+        "10",
+        "12"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "15 = 7 + 8 and 7 = 3 + 4. Two consecutive numbers add to 2n + 1, an odd number, so even numbers like 10 and 12 cannot be written this way (they need three or more terms, e.g. 12 = 3 + 4 + 5).",
+      "source": "text:page1"
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sums of Consecutive Numbers",
+      "question": "After 2, 3, 4, which is the next set of three consecutive numbers in which the first is a multiple of 2, the second a multiple of 3 and the third a multiple of 4?",
+      "options": [
+        "8, 9, 10",
+        "6, 7, 8",
+        "14, 15, 16",
+        "10, 11, 12"
+      ],
+      "answer": 2,
+      "explanation": "14 is even, 15 is a multiple of 3 and 16 is a multiple of 4. In 8, 9, 10 the third number 10 is not a multiple of 4; in 6, 7, 8 and 10, 11, 12 the middle number is not a multiple of 3.",
+      "source": "exercise:p133-Q7"
+    },
+    {
+      "id": "q10",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Sums of Consecutive Numbers",
+      "question": "38, 39, 40 is a set of three consecutive numbers whose first member is a multiple of 2, second a multiple of 3 and third a multiple of 4.",
+      "answer": true,
+      "explanation": "38 is even, 39 = 3 × 13 and 40 = 4 × 10. It fits because 38 = 2 + 3 × 12 — such triples recur every 12 numbers, the LCM of 2, 3 and 4.",
+      "source": "exercise:p133-Q7"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parity of ± Expressions",
+      "question": "Taking four consecutive numbers and placing '+' or '−' between them, how many different expressions can be formed?",
+      "options": [
+        "6",
+        "4",
+        "16",
+        "8"
+      ],
+      "answer": 3,
+      "explanation": "There are three gaps between four numbers and each gap gets one of two signs, so 2 × 2 × 2 = 8 expressions. The chapter's tree diagram lists all eight.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parity of ± Expressions",
+      "question": "Evaluate 3 + 4 − 5 + 6.",
+      "options": [
+        "8",
+        "6",
+        "10",
+        "−8"
+      ],
+      "answer": 0,
+      "explanation": "3 + 4 = 7, 7 − 5 = 2, 2 + 6 = 8. The book gives 3 + 4 − 5 + 6 = 8 as its first worked example; 3 − 4 − 5 − 6 = −12 is the other.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Parity of ± Expressions",
+      "question": "For the numbers 5, 6, 7, 8 the book shows 5 + 6 − 7 + 8 = 12 and 5 − 6 − 7 − 8 = −16. Which observation about all eight such expressions is correct?",
+      "options": [
+        "Every value is a positive number",
+        "Every value is an even number",
+        "Every value is a multiple of 4",
+        "Exactly half the values are odd"
+      ],
+      "answer": 1,
+      "explanation": "The chapter's key finding: no matter how the signs are placed between 4 consecutive numbers, every result is even. Some values are negative (−16), and 12 and −16 are multiples of 4 but 5 − 6 + 7 + 8 = 14 is not.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Parity of ± Expressions",
+      "question": "Starting from a + b − c − d, the sign of b is switched to give a − b − c − d. By how much does the value change?",
+      "options": [
+        "b",
+        "2a",
+        "2b",
+        "b − c"
+      ],
+      "answer": 2,
+      "explanation": "(a + b − c − d) − (a − b − c − d) = a + b − c − d − a + b + c + d = 2b. Changing one sign shifts the value by twice that number, which is always even.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Parity of ± Expressions",
+      "question": "Two numbers differ by an even number. What can you conclude about their parities?",
+      "options": [
+        "They are both even",
+        "They are both odd",
+        "They have opposite parities",
+        "They have the same parity"
+      ],
+      "answer": 3,
+      "explanation": "If the difference is even, both numbers are even or both are odd — the same parity. You cannot say which: 7 and 11 differ by 4, and so do 6 and 10.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parity of ± Expressions",
+      "question": "Which of these parity rules is NOT correct?",
+      "options": [
+        "odd + odd = odd",
+        "odd − odd = even",
+        "even + even = even",
+        "odd + even = odd"
+      ],
+      "answer": 0,
+      "explanation": "odd ± odd is always even (e.g. 7 + 5 = 12, 7 − 5 = 2). The other three rules are exactly those listed in Explanation 2.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Parity of ± Expressions",
+      "question": "Take the four numbers 1, 2, 4, 8 (not consecutive). Since 1 + 2 + 4 + 8 = 15, what must be true of 1 − 2 − 4 − 8 without computing it?",
+      "options": [
+        "It is even",
+        "It is odd",
+        "It is positive",
+        "It is a multiple of 3"
+      ],
+      "answer": 1,
+      "explanation": "All eight expressions a ± b ± c ± d share the same parity. 15 is odd, so 1 − 2 − 4 − 8 must be odd too (it equals −13). It is negative, and −13 is not a multiple of 3.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q18",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Parity of ± Expressions",
+      "question": "Negative numbers such as −12 and −16 are even because they have 2 as a factor.",
+      "answer": true,
+      "explanation": "The chapter stresses that evenness is about having a factor of 2, so −2, −4, −6, … are even. That is why 3 − 4 − 5 − 6 = −12 counts as an even result.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q19",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Parity of ± Expressions",
+      "question": "The fact that all expressions a ± b ± c ± d have the same parity holds only when exactly four numbers are used.",
+      "answer": false,
+      "explanation": "The argument works for any count of numbers: switching a sign changes the value by twice a number, i.e. by an even amount, so the parity never changes. Four is just the case explored first.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q20",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Parity of ± Expressions",
+      "question": "Using 3, 4, 5, 6 with '+' and '−' signs, select ALL expressions whose value is negative.",
+      "options": [
+        "3 − 4 − 5 − 6",
+        "3 + 4 − 5 − 6",
+        "3 − 4 − 5 + 6",
+        "3 − 4 + 5 + 6"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "3 − 4 − 5 − 6 = −12 and 3 + 4 − 5 − 6 = −4 are negative. 3 − 4 − 5 + 6 = 0 is neither positive nor negative, and 3 − 4 + 5 + 6 = 10 is positive.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Even Algebraic Expressions",
+      "question": "Which expression gives an even number for every integer value of the letters?",
+      "options": [
+        "3g + 5h",
+        "6m − 3n",
+        "13k − 5k",
+        "7k − 3j"
+      ],
+      "answer": 2,
+      "explanation": "13k − 5k = 8k, which has the factor 2 (indeed 8). 3g + 5h is odd when g = 1, h = 2 (13); 6m − 3n is odd when n is odd; 7k − 3j is odd when k = 1, j = 0 (7).",
+      "source": "text:page4"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Even Algebraic Expressions",
+      "question": "Which factorisation shows that 2u − 4v is always even?",
+      "options": [
+        "2(u − 4v)",
+        "4(u − v)",
+        "u(2 − 4v)",
+        "2(u − 2v)"
+      ],
+      "answer": 3,
+      "explanation": "2u − 4v = 2(u − 2v): the factor 2 outside the bracket guarantees an even value for any integers u and v. 2(u − 4v) expands to 2u − 8v and 4(u − v) to 4u − 4v, which are different expressions.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Even Algebraic Expressions",
+      "question": "For which value of x does x² + 2 give an ODD number?",
+      "options": [
+        "x = 3",
+        "x = 4",
+        "x = 6",
+        "x = 10"
+      ],
+      "answer": 0,
+      "explanation": "x² has the same parity as x, so x² + 2 is odd exactly when x is odd: 3² + 2 = 11. For x = 6, x² + 2 = 38 (even), the book's own example.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q24",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Even Algebraic Expressions",
+      "question": "6m − 3n is an even number for every pair of integers m and n.",
+      "answer": false,
+      "explanation": "6m is always even, but 3n is odd whenever n is odd, and even − odd = odd. For m = 1, n = 1 the value is 3. The expression is even only when n is even.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q25",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Even Algebraic Expressions",
+      "question": "If b is even, then b² + 1 is odd.",
+      "answer": true,
+      "explanation": "An even number squared is even (it still has the factor 2), and adding 1 to an even number gives an odd number, e.g. 4² + 1 = 17.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q26",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Even Algebraic Expressions",
+      "question": "Select ALL the expressions that are even for every integer value of the letter-numbers.",
+      "options": [
+        "2a + 2b",
+        "4k × 3j",
+        "3g + 5h",
+        "x² + 2"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "2a + 2b = 2(a + b) and 4k × 3j = 12kj both have 2 as a factor. 3g + 5h can be odd (g = 1, h = 2 gives 13) and x² + 2 is odd when x is odd (3² + 2 = 11).",
+      "source": "text:page4"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Even Algebraic Expressions",
+      "question": "Which statement about parity of expressions is NOT correct?",
+      "options": [
+        "x² always has exactly the same parity as the number x",
+        "Even for one value of x means even for every value of x",
+        "The sum of two even expressions is always an even expression",
+        "Any expression with 2 as a factor is even for every value"
+      ],
+      "answer": 1,
+      "explanation": "x² + 2 is even for x = 6 (38) but odd for x = 3 (11), so one even example proves nothing. The other three statements are the exact reasoning tools the chapter uses.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Even Algebraic Expressions",
+      "question": "Without computing, which of these is an ODD number?",
+      "options": [
+        "672 − 348",
+        "43 + 37",
+        "708 − 477",
+        "543 − 479"
+      ],
+      "answer": 2,
+      "explanation": "708 is even and 477 is odd, and even − odd = odd. 672 − 348 is even − even, while 43 + 37 and 543 − 479 are odd ± odd — all even.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Even Algebraic Expressions",
+      "question": "Without computing, which of these is an EVEN number?",
+      "options": [
+        "119 × 303",
+        "809 + 214",
+        "708 − 477",
+        "4 × 347 × 3"
+      ],
+      "answer": 3,
+      "explanation": "4 × 347 × 3 contains the factor 4, hence 2, so it is even. 119 × 303 is odd × odd = odd; 809 + 214 and 708 − 477 are odd ± even = odd.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q30",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Even Algebraic Expressions",
+      "question": "119 × 303 is an even number because 303 is a multiple of 3.",
+      "answer": false,
+      "explanation": "Being a multiple of 3 has nothing to do with being even. Both 119 and 303 are odd, and odd × odd = odd, so the product (36057) is odd.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Remainders Mod 4: Pairs to Make Fours",
+      "question": "When an even number is divided by 4, which remainders are possible?",
+      "options": [
+        "0 or 2",
+        "0 or 1",
+        "1 or 3",
+        "0 or 3"
+      ],
+      "answer": 0,
+      "explanation": "Even numbers come in two types: multiples of 4 (remainder 0) and numbers like 2, 6, 10, … that are 2 more than a multiple of 4 (remainder 2). Remainders 1 and 3 belong to odd numbers.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Remainders Mod 4: Pairs to Make Fours",
+      "question": "Which expression describes every even number that is NOT a multiple of 4?",
+      "options": [
+        "4p + 1",
+        "4p + 2",
+        "2p",
+        "4p"
+      ],
+      "answer": 1,
+      "explanation": "Such numbers leave remainder 2 on division by 4, so they are 4p + 2 (2, 6, 10, …). 4p is the multiples of 4, 2p is every even number and 4p + 1 is odd.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Remainders Mod 4: Pairs to Make Fours",
+      "question": "Which pair of even numbers adds up to a multiple of 4?",
+      "options": [
+        "8 + 6",
+        "12 + 10",
+        "6 + 10",
+        "4 + 2"
+      ],
+      "answer": 2,
+      "explanation": "6 and 10 both leave remainder 2, and 2 + 2 = 4 makes a full group: 6 + 10 = 16. In the other pairs one number is a multiple of 4 and the other is not, giving sums 14, 22 and 6.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Remainders Mod 4: Pairs to Make Fours",
+      "question": "(4p + 2) + (4q + 2) simplifies to 4(p + q + 1). In the visualisation, what does the '+ 1' row stand for?",
+      "options": [
+        "An extra row added to make the picture symmetric",
+        "The remainder 2 that is left over at the end",
+        "One of the p rows that has been counted twice over",
+        "The two leftover 2s joining into one more row of 4"
+      ],
+      "answer": 3,
+      "explanation": "Each number leaves a 'half row' of 2 dots; put together, the two 2s form one complete row of 4. That is the extra +1 row, so the total is a full multiple of 4 with no remainder.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Remainders Mod 4: Pairs to Make Fours",
+      "question": "A multiple of 4 is added to an even number that is not a multiple of 4, e.g. 12 + 6. What is the result?",
+      "options": [
+        "A number leaving remainder 2 when divided by 4",
+        "A number that is always a multiple of 4",
+        "A number that is always a multiple of 8",
+        "A number that is always odd, never even"
+      ],
+      "answer": 0,
+      "explanation": "4p + (4q + 2) = 4(p + q) + 2, so the sum leaves remainder 2. 12 + 6 = 18 shows this. The book compares it to adding an even and an odd number, which gives an odd result.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q36",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Remainders Mod 4: Pairs to Make Fours",
+      "question": "The sum of two even numbers is always a multiple of 4.",
+      "answer": false,
+      "explanation": "Only when both are multiples of 4, or both leave remainder 2. 2 + 4 = 6 and 12 + 6 = 18 are even sums that are not multiples of 4.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q37",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Remainders Mod 4: Pairs to Make Fours",
+      "question": "If two even numbers both leave remainder 2 when divided by 4, their sum is a multiple of 4.",
+      "answer": true,
+      "explanation": "(4p + 2) + (4q + 2) = 4(p + q + 1); the two remainders of 2 add up to a whole 4. Examples from the book: 2 + 6 = 8, 6 + 10 = 16, 22 + 6 = 28.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q38",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Remainders Mod 4: Pairs to Make Fours",
+      "question": "Adding three even numbers that are each 2 more than a multiple of 4 gives a multiple of 4.",
+      "answer": false,
+      "explanation": "Three remainders of 2 add up to 6, which leaves remainder 2: 6 + 10 + 14 = 30 is not a multiple of 4. The pairing trick works for two such numbers, not three.",
+      "source": "text:page6 (reasoning)"
+    },
+    {
+      "id": "q39",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Remainders Mod 4: Pairs to Make Fours",
+      "question": "Select ALL the numbers that leave remainder 2 when divided by 4.",
+      "options": [
+        "18",
+        "42",
+        "36",
+        "24"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "18 = 16 + 2 and 42 = 40 + 2, so both leave remainder 2. 36 and 24 are multiples of 4 (remainder 0).",
+      "source": "text:page6"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Remainders Mod 4: Pairs to Make Fours",
+      "question": "18 and 30 are both even and neither is a multiple of 4. Which statement about 18 + 30 is correct?",
+      "options": [
+        "It is not a multiple of 4 because neither of the numbers is",
+        "It is a multiple of 4 because the two remainders of 2 add to 4",
+        "It is a multiple of 8 because both of the numbers are even",
+        "It leaves remainder 2 on division by 4, just like 18 and 30 do"
+      ],
+      "answer": 1,
+      "explanation": "18 + 30 = 48 = 4 × 12. Two numbers of the form 4p + 2 always add to a multiple of 4 — the remainders 2 + 2 complete a group of 4, so the sum does not keep remainder 2. 'Both even' never guarantees a multiple of 8 (6 + 14 = 20).",
+      "source": "text:page6"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Always, Sometimes or Never True",
+      "question": "'If a number is divisible by 8, then 8 also divides any two numbers that add up to it.' Which pair shows this is only SOMETIMES true?",
+      "options": [
+        "72 = 48 + 24",
+        "72 = 40 + 32",
+        "72 = 50 + 22",
+        "72 = 64 + 8"
+      ],
+      "answer": 2,
+      "explanation": "72 is a multiple of 8, but 50 and 22 are not — so the statement can fail. 48 + 24, 40 + 32 and 64 + 8 are splits into two multiples of 8 where it happens to hold.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Always, Sometimes or Never True",
+      "question": "'If a number is divisible by 7, it is also divisible by any multiple of 7.' Which example shows this is NOT always true?",
+      "options": [
+        "42 is divisible by 7 and by 14",
+        "42 is divisible by 7 and by 21",
+        "28 is divisible by 7 and by 14",
+        "42 is divisible by 7 but not by 28"
+      ],
+      "answer": 3,
+      "explanation": "42 = 7 × 6 is divisible by 7 and by 14, but not by 28 = 7 × 4, because 4 is not a factor of 6. 7k is divisible by 7m only when m is a factor of k — so the statement is sometimes true.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Always, Sometimes or Never True",
+      "question": "'If a number is divisible by both 6 and 4, it must be divisible by 24.' Which number shows this is only sometimes true?",
+      "options": [
+        "12",
+        "24",
+        "48",
+        "72"
+      ],
+      "answer": 0,
+      "explanation": "12 is divisible by both 6 and 4 but not by 24. Divisibility by 6 and 4 only guarantees divisibility by their LCM, 12. 24, 48 and 72 happen to be multiples of 24.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Always, Sometimes or Never True",
+      "question": "Why is 'divisible by 9 and by 4 ⇒ divisible by 36' always true, while 'divisible by 6 and by 4 ⇒ divisible by 24' is not?",
+      "options": [
+        "36 is an even number but 24 is an odd number",
+        "LCM(9, 4) = 36 but LCM(6, 4) = 12, not 24",
+        "9 and 4 are both factors of 24 while 6 is not",
+        "6 and 4 are both prime numbers but 9 is not"
+      ],
+      "answer": 1,
+      "explanation": "A number divisible by k and m is divisible by LCM(k, m). 9 and 4 share no factor, so the LCM is 36; 6 and 4 share the factor 2, so the LCM is only 12.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q45",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Always, Sometimes or Never True",
+      "question": "Select ALL the statements that are ALWAYS true.",
+      "options": [
+        "If a number is divisible by 12, it is divisible by every factor of 12",
+        "If a number is divisible by 9 and by 4, it is divisible by 36",
+        "If a number is divisible by 6 and by 4, it is divisible by 24",
+        "If a number is divisible by 7, it is divisible by 14"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "A multiple of k is a multiple of every factor of k, and LCM(9, 4) = 36 — both always true. LCM(6, 4) is only 12 (12 is a counterexample), and 21 is divisible by 7 but not 14.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Always, Sometimes or Never True",
+      "question": "'When you add an odd number to an even number you get a multiple of 6.' This statement is",
+      "options": [
+        "Always true",
+        "Sometimes true",
+        "Never true",
+        "True only when the odd number is 3"
+      ],
+      "answer": 2,
+      "explanation": "All multiples of 6 are even, but odd + even is always odd. Algebraically 2n + (2m + 1) = 6j would force the even number 2(n + m) to equal the odd number 6j − 1 — impossible.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Always, Sometimes or Never True",
+      "question": "In the algebraic proof of statement 8, 2n + (2m + 1) = 6j becomes 2(n + m) = 6j − 1. Why does this settle the matter?",
+      "options": [
+        "Because n + m must then equal exactly 3j",
+        "Because 6j − 1 is always a multiple of 3",
+        "Because j would have to be a negative integer",
+        "An even number can never equal an odd number"
+      ],
+      "answer": 3,
+      "explanation": "The left side 2(n + m) is even and the right side 6j − 1 is odd. No value of n, m, j can make an even number equal an odd one, so the original equation has no solutions.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Always, Sometimes or Never True",
+      "question": "'If a number is not divisible by 18, then it is also not divisible by 9.' Which number is a counterexample?",
+      "options": [
+        "27",
+        "30",
+        "36",
+        "54"
+      ],
+      "answer": 0,
+      "explanation": "27 is not divisible by 18, yet 27 = 9 × 3 is divisible by 9 — so the statement is only sometimes true. 30 is divisible by neither; 36 and 54 are divisible by both.",
+      "source": "exercise:p122-Q3(ii)"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Always, Sometimes or Never True",
+      "question": "Which pair of numbers, neither divisible by 6, has a sum that IS divisible by 6?",
+      "options": [
+        "9 and 11",
+        "8 and 10",
+        "7 and 10",
+        "8 and 9"
+      ],
+      "answer": 1,
+      "explanation": "8 + 10 = 18 = 6 × 3, even though 8 and 10 are not multiples of 6. The other pairs give 20, 17 and 17. So 'if two numbers are not divisible by 6 their sum is not divisible by 6' is only sometimes true.",
+      "source": "exercise:p122-Q3(iii)"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Always, Sometimes or Never True",
+      "question": "8(7b − 3) − 4(11b + 1) simplifies to",
+      "options": [
+        "12b + 28",
+        "100b − 28",
+        "12b − 28",
+        "12b − 20"
+      ],
+      "answer": 2,
+      "explanation": "56b − 24 − 44b − 4 = 12b − 28. Since 12b is a multiple of 12 and 28 leaves remainder 4 (so −28 leaves remainder 8), the expression is never a multiple of 12.",
+      "source": "exercise:p133-Q12(iv)"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Always, Sometimes or Never True",
+      "question": "'If abcdef is a multiple of 6, then badcef is a multiple of 6.' Why is this ALWAYS true?",
+      "options": [
+        "Any rearrangement of digits always keeps a number even",
+        "Six-digit numbers are always multiples of 6 anyway",
+        "Only the first digit of a number affects divisibility by 6",
+        "Swapping digits keeps the digit sum and the units digit f"
+      ],
+      "answer": 3,
+      "explanation": "Divisibility by 6 needs divisibility by 2 (units digit) and by 3 (digit sum). badcef has the same digits, so the same digit sum, and still ends in f — both tests still pass.",
+      "source": "exercise:p133-Q12(iii)"
+    },
+    {
+      "id": "q52",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Always, Sometimes or Never True",
+      "question": "The product of a multiple of 6 and a multiple of 3 is always a multiple of 9.",
+      "answer": true,
+      "explanation": "6a × 3b = 18ab, and 18 = 9 × 2, so the product always contains the factor 9, e.g. 12 × 3 = 36.",
+      "source": "exercise:p133-Q12(i)"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Always, Sometimes or Never True",
+      "question": "Which of these statements is NEVER true?",
+      "options": [
+        "An odd number plus an even number is a multiple of 6",
+        "A number divisible by 6 and 4 is divisible by 24",
+        "A number divisible by 7 is divisible by 14",
+        "A number not divisible by 18 is not divisible by 9"
+      ],
+      "answer": 0,
+      "explanation": "odd + even is odd and multiples of 6 are even, so that never happens. The other three are each sometimes true (24 works, 12 fails; 42 works, 21 fails; 30 works, 27 fails).",
+      "source": "text:page10"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Remainders and Algebraic Forms",
+      "question": "Which expression gives every number that leaves remainder 3 when divided by 5?",
+      "options": [
+        "3k + 5",
+        "5k + 3",
+        "5k − 3",
+        "3k"
+      ],
+      "answer": 1,
+      "explanation": "Multiples of 5 are 5k, and the numbers we want are 3 more than them: 5k + 3 = 3, 8, 13, 18, 23, … 5k − 3 leaves remainder 2, and 3k + 5 lists numbers 2 more than a multiple of 3.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q55",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Remainders and Algebraic Forms",
+      "question": "Select ALL the expressions that describe the numbers leaving remainder 3 on division by 5.",
+      "options": [
+        "3k + 5",
+        "3k − 5",
+        "5k + 3",
+        "5k − 2",
+        "5k − 3"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "explanation": "5k + 3 (k ≥ 0) and 5k − 2 (k ≥ 1) both give 3, 8, 13, 18, 23, … — '3 more' or '2 less' than a multiple of 5. 5k − 3 = 5(k − 1) + 2 gives remainder 2, and 3k ± 5 are built on multiples of 3.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Remainders and Algebraic Forms",
+      "question": "All numbers leaving remainder 2 on division by both 3 and 4 are described by",
+      "options": [
+        "7n + 2",
+        "12n + 4",
+        "12n + 2",
+        "3n + 4n + 2"
+      ],
+      "answer": 2,
+      "explanation": "x − 2 must be a multiple of 3 and of 4, i.e. of their LCM 12, so x = 12n + 2: 14, 26, 38, … Adding the divisors (7n) or doubling the remainder (12n + 4) are common slips.",
+      "source": "exercise:p122-Q4"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Remainders and Algebraic Forms",
+      "question": "The pebble riddle: fewer than 100 pebbles, one left over when grouped in 2s, 3s or 5s, none left over in 7s. How many pebbles?",
+      "options": [
+        "61",
+        "31",
+        "71",
+        "91"
+      ],
+      "answer": 3,
+      "explanation": "LCM(2, 3, 5) = 30, so the count is 30k + 1: 31, 61 or 91. Only 91 = 7 × 13 is divisible by 7 (31 and 61 leave remainders 3 and 5). 71 is not of the form 30k + 1.",
+      "source": "exercise:p122-Q5"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Remainders and Algebraic Forms",
+      "question": "Tathagat adds three numbers that each leave remainder 2 when divided by 6. Why is the sum always a multiple of 6?",
+      "options": [
+        "(6a + 2) + (6b + 2) + (6c + 2) = 6(a + b + c + 1)",
+        "Three even numbers always add to a multiple of 6",
+        "Each of the three numbers is itself a multiple of 6",
+        "The three remainders 2 + 2 + 2 cancel out to zero"
+      ],
+      "answer": 0,
+      "explanation": "The three remainders add to 6, a full extra group, so the sum is 6(a + b + c) + 6 = 6(a + b + c + 1). For example 8 + 14 + 20 = 42 = 6 × 7.",
+      "source": "exercise:p122-Q6"
+    },
+    {
+      "id": "q59",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Remainders and Algebraic Forms",
+      "question": "Adding any TWO numbers that each leave remainder 2 on division by 6 gives a multiple of 6.",
+      "answer": false,
+      "explanation": "(6a + 2) + (6b + 2) = 6(a + b) + 4, which leaves remainder 4. For example 8 + 14 = 22. It takes three such numbers (remainders 2 + 2 + 2 = 6) to complete a group of 6.",
+      "source": "exercise:p122-Q6 (reasoning)"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Remainders and Algebraic Forms",
+      "question": "661 leaves remainder 3 and 4779 leaves remainder 5 when divided by 7. What remainder does 4779 + 661 leave when divided by 7?",
+      "options": [
+        "8",
+        "1",
+        "2",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "4779 + 661 = (7p + 5) + (7q + 3) = 7(p + q) + 8 = 7(p + q + 1) + 1. The remainders 5 + 3 = 8 contain one more group of 7, leaving 1. A remainder can never be 8 when dividing by 7.",
+      "source": "exercise:p123-Q7(i)"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Remainders and Algebraic Forms",
+      "question": "661 leaves remainder 3 and 4779 leaves remainder 5 on division by 7. The remainder of 4779 − 661 on division by 7 is",
+      "options": [
+        "−2",
+        "1",
+        "2",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "(7p + 5) − (7q + 3) = 7(p − q) + 2. Subtracting the remainders 5 − 3 = 2 gives the answer directly.",
+      "source": "exercise:p123-Q7(ii)"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Remainders and Algebraic Forms",
+      "question": "What is the smallest number leaving remainder 2 when divided by 3, remainder 3 when divided by 4 and remainder 4 when divided by 5?",
+      "options": [
+        "61",
+        "29",
+        "119",
+        "59"
+      ],
+      "answer": 3,
+      "explanation": "Each remainder is 1 less than its divisor, so the number is 1 less than a common multiple of 3, 4, 5. The smallest such multiple is LCM = 60, giving 59. 119 = 120 − 1 also works but is not the smallest.",
+      "source": "exercise:p123-Q8"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Remainders and Algebraic Forms",
+      "question": "Why is 59 the SMALLEST number that is 1 short of being divisible by 3, 4 and 5 at once?",
+      "options": [
+        "60 is the smallest common multiple of 3, 4 and 5",
+        "59 is a prime number, so nothing smaller works",
+        "59 is the only such number below one hundred",
+        "3 + 4 + 5 = 12 and 59 is one less than 5 × 12"
+      ],
+      "answer": 0,
+      "explanation": "Numbers 1 short of a common multiple of 3, 4, 5 are 60k − 1: 59, 119, 179, … The smallest common multiple is 60, so the smallest such number is 59. Being prime is a coincidence.",
+      "source": "exercise:p123-Q8"
+    },
+    {
+      "id": "q64",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Remainders and Algebraic Forms",
+      "question": "Select ALL the numbers of the form 5k + 3.",
+      "options": [
+        "28",
+        "43",
+        "35",
+        "52"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "28 = 25 + 3 and 43 = 40 + 3 leave remainder 3 on division by 5. 35 is a multiple of 5 and 52 = 50 + 2 leaves remainder 2.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Divisibility by 2, 4, 5, 8, 10 via Place Value",
+      "question": "Using the expanded form … + 100c + 10b + a, why is a number divisible by 10 exactly when a = 0?",
+      "options": [
+        "Every digit except the units digit is a multiple of 10",
+        "Every place value except the units is a multiple of 10",
+        "Only the units digit of a number can ever be zero",
+        "10b + a is always a multiple of 10 for any digits"
+      ],
+      "answer": 1,
+      "explanation": "10b, 100c, 1000d, … are all multiples of 10, so the whole number is a multiple of 10 if and only if the leftover units part a is 0.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Divisibility by 2, 4, 5, 8, 10 via Place Value",
+      "question": "To check divisibility by 4 we look at the last TWO digits. Which fact makes this work?",
+      "options": [
+        "10 is a multiple of 4, so only the units digit a really matters",
+        "4 is an even number, so even numbers are always divisible by 4",
+        "100 is a multiple of 4, so 100c, 1000d, … are all multiples of 4",
+        "Every whole number has at least two digits in its expanded form"
+      ],
+      "answer": 2,
+      "explanation": "100 = 4 × 25, so every place value from the hundreds upward is a multiple of 4. Only 10b + a — the last two digits — can spoil divisibility. (10 is NOT a multiple of 4, which is why one digit is not enough.)",
+      "source": "text:page12"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Divisibility by 2, 4, 5, 8, 10 via Place Value",
+      "question": "For divisibility by 8 we check the last three digits. Which equation explains why?",
+      "options": [
+        "100 = 8 × 12.5",
+        "10 = 8 + 2",
+        "8 = 2 × 4",
+        "1000 = 8 × 125"
+      ],
+      "answer": 3,
+      "explanation": "Since 1000 = 8 × 125, every place value from thousands upward is a multiple of 8, so only 100c + 10b + a can affect divisibility by 8. 100 is not a multiple of 8, so two digits are not enough.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Divisibility by 2, 4, 5, 8, 10 via Place Value",
+      "question": "Which of these numbers is divisible by 4?",
+      "options": [
+        "2856",
+        "1586",
+        "6686",
+        "990"
+      ],
+      "answer": 0,
+      "explanation": "Check the last two digits: 56 = 4 × 14, so 2856 is divisible by 4. 86 and 90 are not multiples of 4, so 1586, 6686 and 990 are not.",
+      "source": "text:page18 (table)"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Divisibility by 2, 4, 5, 8, 10 via Place Value",
+      "question": "Which of these numbers is divisible by 8?",
+      "options": [
+        "3060",
+        "2856",
+        "990",
+        "1586"
+      ],
+      "answer": 1,
+      "explanation": "Look at the last three digits: 856 = 8 × 107, so 2856 is divisible by 8. 060 (= 60), 990 and 586 are not multiples of 8.",
+      "source": "text:page18 (table)"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Divisibility by 2, 4, 5, 8, 10 via Place Value",
+      "question": "Which number is divisible by 10 but NOT by 4?",
+      "options": [
+        "3060",
+        "128",
+        "990",
+        "275"
+      ],
+      "answer": 2,
+      "explanation": "990 ends in 0 (divisible by 10) but its last two digits 90 are not a multiple of 4. 3060 is divisible by both (60 = 4 × 15); 128 and 275 are not divisible by 10.",
+      "source": "text:page18 (table)"
+    },
+    {
+      "id": "q71",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Divisibility by 2, 4, 5, 8, 10 via Place Value",
+      "question": "Select ALL the numbers divisible by 5.",
+      "options": [
+        "275",
+        "3060",
+        "2856",
+        "406839"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "A number is divisible by 5 exactly when its units digit is 0 or 5: 275 and 3060 qualify. 2856 ends in 6 and 406839 ends in 9.",
+      "source": "text:page18 (table)"
+    },
+    {
+      "id": "q72",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Divisibility by 2, 4, 5, 8, 10 via Place Value",
+      "question": "A number is divisible by 4 whenever its units digit is 4 or 8.",
+      "answer": false,
+      "explanation": "Divisibility by 4 depends on the last two digits, not one: 14 and 18 end in 4 and 8 but are not multiples of 4, while 12 and 16 are. This is because 10 is not a multiple of 4.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q73",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Divisibility by 2, 4, 5, 8, 10 via Place Value",
+      "question": "Every multiple of 10 is also a multiple of both 2 and 5.",
+      "answer": true,
+      "explanation": "10 = 2 × 5, so any number 10k = 2 × (5k) = 5 × (2k) has both 2 and 5 as factors. This is the 'divisible by all the factors of k' property.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Divisibility by 2, 4, 5, 8, 10 via Place Value",
+      "question": "Why does the units-digit test work for 5 (units digit 0 or 5) but not for 9?",
+      "options": [
+        "9 is odd while 5 is a prime number",
+        "Multiples of 9 never end in 0 or 5",
+        "The units digit of a multiple of 9 is always 9",
+        "10 is a multiple of 5 but not a multiple of 9"
+      ],
+      "answer": 3,
+      "explanation": "10b, 100c, … are all multiples of 5, so only the units digit matters for 5. But 10 leaves remainder 1 when divided by 9, so higher places DO affect divisibility by 9 — 99 and 109 both end in 9 yet only 99 is a multiple of 9.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Divisibility by 9 and 3",
+      "question": "What is the remainder when 427 is divided by 9?",
+      "options": [
+        "4",
+        "13",
+        "7",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "4 hundreds leave remainder 4, 2 tens leave 2 and the 7 units leave 7: 4 + 2 + 7 = 13, and 13 leaves 4 when one more 9 is removed. So 427 ÷ 9 has remainder 4.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Divisibility by 9 and 3",
+      "question": "Find the remainder when 7309 is divided by 9, using digit sums.",
+      "options": [
+        "19",
+        "1",
+        "10",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "7 + 3 + 0 + 9 = 19 → 1 + 9 = 10 → 1 + 0 = 1. Repeatedly adding digits down to a single digit gives the remainder, so 7309 is 1 more than a multiple of 9.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Divisibility by 9 and 3",
+      "question": "Which of 123, 405, 8888, 93547 and 358095 is divisible by 9?",
+      "options": [
+        "8888",
+        "123",
+        "405",
+        "358095"
+      ],
+      "answer": 2,
+      "explanation": "Digit sums: 123 → 6, 405 → 9, 8888 → 32, 93547 → 28, 358095 → 30. Only 405 has a digit sum divisible by 9.",
+      "source": "exercise:p126-Q1"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Divisibility by 9 and 3",
+      "question": "What is the smallest multiple of 9 that has no odd digits?",
+      "options": [
+        "468",
+        "666",
+        "882",
+        "288"
+      ],
+      "answer": 3,
+      "explanation": "The digit sum must be a multiple of 9 made from even digits only, so at least 18 (9 is odd). Two even digits give at most 16, so three digits are needed; the smallest arrangement with sum 18 is 2, 8, 8 → 288 = 9 × 32. 468, 666 and 882 are bigger.",
+      "source": "exercise:p126-Q2"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Divisibility by 9 and 3",
+      "question": "Which multiple of 9 is closest to 6000?",
+      "options": [
+        "6003",
+        "5994",
+        "6009",
+        "5999"
+      ],
+      "answer": 0,
+      "explanation": "6000 has digit sum 6, so it is 6 more than a multiple of 9 (5994) and 3 less than the next one (6003). 6003 is nearer. 5999 has digit sum 32 and is not a multiple of 9.",
+      "source": "exercise:p126-Q3"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Divisibility by 9 and 3",
+      "question": "How many multiples of 9 lie between 4300 and 4400?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "4300 has digit sum 7, so the first multiple of 9 above it is 4302; then 4311, 4320, …, 4392 (the next, 4401, is too big). From 4302 to 4392 in steps of 9 gives (4392 − 4302) ÷ 9 + 1 = 11 numbers.",
+      "source": "exercise:p126-Q4"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Divisibility by 9 and 3",
+      "question": "31z5 is a multiple of 9, where z is a digit. What can z be?",
+      "options": [
+        "4 only",
+        "0 only",
+        "0 or 9",
+        "2 or 7"
+      ],
+      "answer": 2,
+      "explanation": "3 + 1 + z + 5 = 9 + z must be a multiple of 9, so z = 0 (sum 9) or z = 9 (sum 18). There are two answers because two multiples of 9 are reachable with a single digit.",
+      "source": "exercise:p132-Q1"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Divisibility by 9 and 3",
+      "question": "Which of these is NOT a multiple of 9?",
+      "options": [
+        "1089",
+        "1908",
+        "8019",
+        "1088"
+      ],
+      "answer": 3,
+      "explanation": "1089, 1908 and 8019 all have digit sum 18 — they are shuffles of the same digits, and shuffling digits never changes the digit sum. 1088 has digit sum 17. This is why Sreelatha's reversed numbers stay multiples of 9.",
+      "source": "exercise:p132-Q4 (reasoning)"
+    },
+    {
+      "id": "q83",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Divisibility by 9 and 3",
+      "question": "Select ALL the multiples of 9.",
+      "options": [
+        "990",
+        "3060",
+        "2856",
+        "639210"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Digit sums: 990 → 18 and 3060 → 9 are multiples of 9. 2856 → 21 and 639210 → 21 are multiples of 3 but not of 9.",
+      "source": "text:page18 (table)"
+    },
+    {
+      "id": "q84",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Divisibility by 9 and 3",
+      "question": "If the sum of the digits of a number is divisible by 3, then the number is divisible by 9.",
+      "answer": false,
+      "explanation": "Digit sum divisible by 3 only guarantees divisibility by 3: 15, 33 and 87 are multiples of 3 whose digit sums (6, 6, 15) are not multiples of 9, and they are not multiples of 9.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Divisibility by 9 and 3",
+      "question": "Which statement about divisibility by 9 is NOT correct?",
+      "options": [
+        "If a number ends in 9, it is divisible by 9",
+        "If a number is divisible by 9, its digit sum is divisible by 9",
+        "If the digit sum is not divisible by 9, the number is not divisible by 9",
+        "If the digit sum is divisible by 9, the number is divisible by 9"
+      ],
+      "answer": 0,
+      "explanation": "Unlike 2, 5 and 10, divisibility by 9 cannot be read from the units digit: 99 is a multiple of 9 but 109 is not. The other three statements are all true — the digit-sum rule works in both directions.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Divisibility by 11",
+      "question": "Which equation shows that 1000 is one LESS than a multiple of 11?",
+      "options": [
+        "1000 = 11 × 90 + 10",
+        "1000 = 11 × 91 − 1",
+        "1000 = 11 × 91 + 1",
+        "1000 = 999 + 1"
+      ],
+      "answer": 1,
+      "explanation": "11 × 91 = 1001, so 1000 = 1001 − 1 is one less than a multiple of 11. The place values alternate: 1 is one more, 10 one less, 100 one more, 1000 one less, …",
+      "source": "text:page16"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Divisibility by 11",
+      "question": "Which place values are each ONE MORE than a multiple of 11?",
+      "options": [
+        "10, 1000, 100000, …",
+        "1, 10, 100, …",
+        "1, 100, 10000, …",
+        "100, 1000, 10000, …"
+      ],
+      "answer": 2,
+      "explanation": "1 = 0 + 1, 100 = 99 + 1, 10000 = 9999 + 1: the units, hundreds, ten-thousands places are 1 more. The tens, thousands, hundred-thousands places (10 = 11 − 1, 1000 = 1001 − 1) are 1 less.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Divisibility by 11",
+      "question": "For 462: 400 is 4 more, 60 is 6 less and 2 is 2 more than multiples of 11. What does this tell you?",
+      "options": [
+        "462 leaves remainder 12 when divided by 11",
+        "462 is 4 more than a multiple of 11",
+        "462 leaves remainder 2 when divided by 11",
+        "462 is divisible by 11 because 4 − 6 + 2 = 0"
+      ],
+      "answer": 3,
+      "explanation": "Excess 4 + 2 = 6 and shortfall 6 cancel exactly, so 462 is a multiple of 11 (462 = 11 × 42).",
+      "source": "text:page16"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Divisibility by 11",
+      "question": "Using alternating signs from the units digit, −3 + 2 − 8 + 1 − 0 + 5 = −3 for 328105. What does −3 mean?",
+      "options": [
+        "328105 is 3 short of a multiple of 11, i.e. remainder 8",
+        "328105 leaves remainder 3 when divided by 11",
+        "328105 is exactly divisible by 11 with no remainder",
+        "328105 leaves remainder −3 when divided by 11"
+      ],
+      "answer": 0,
+      "explanation": "A negative result says the number is that much below a multiple of 11. Being 3 short is the same as being 8 more than the previous multiple, so the remainder is 8.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Divisibility by 11",
+      "question": "If the difference between the two digit-sums in the 11-test is 0 or a multiple of 11, the remainder on dividing by 11 is",
+      "options": [
+        "11",
+        "0",
+        "1",
+        "The difference itself"
+      ],
+      "answer": 1,
+      "explanation": "A difference of 0, 11, −11, 22, … means the excess and shortfall balance to a whole number of 11s, so the number is divisible by 11 with remainder 0.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Divisibility by 11",
+      "question": "Using the shortcut, what is the remainder when 481 is divided by 11?",
+      "options": [
+        "3",
+        "−3",
+        "8",
+        "1"
+      ],
+      "answer": 2,
+      "explanation": "1 − 8 + 4 = −3, so 481 is 3 short of a multiple of 11 (484). Remainders cannot be negative: 3 short means 8 more than the previous multiple, 473. So the remainder is 8.",
+      "source": "text:page17 (exercise iii)"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Divisibility by 11",
+      "question": "Which of these numbers is divisible by 11?",
+      "options": [
+        "90905",
+        "90914",
+        "91904",
+        "90904"
+      ],
+      "answer": 3,
+      "explanation": "90904: 4 − 0 + 9 − 0 + 9 = 22, a multiple of 11, so divisible (90904 = 11 × 8264). 90905 gives 23, 90914 gives 21 and 91904 gives 4 − 0 + 9 − 1 + 9 = 21 — none is a multiple of 11.",
+      "source": "text:page17 (exercise v)"
+    },
+    {
+      "id": "q93",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Divisibility by 11",
+      "question": "Deepak claims that only some multiples of 11 stay multiples of 11 when doubled. His claim is correct.",
+      "answer": false,
+      "explanation": "Every multiple of 11 is 11k, and doubling gives 22k = 11 × (2k), still a multiple of 11. If a is divisible by b, all multiples of a are divisible by b — so his conjecture is false.",
+      "source": "exercise:p133-Q11"
+    },
+    {
+      "id": "q94",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Divisibility by 11",
+      "question": "Select ALL the numbers divisible by 11.",
+      "options": [
+        "275",
+        "639210",
+        "3060",
+        "2856"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "275: 5 − 7 + 2 = 0 and 639210: 0 − 1 + 2 − 9 + 3 − 6 = −11, both multiples of 11. 3060 gives 0 − 6 + 0 − 3 = −9 and 2856 gives 6 − 5 + 8 − 2 = 7.",
+      "source": "text:page18 (table)"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Divisibility by 11",
+      "question": "3p7q8 is divisible by 44. Which pair of digits works?",
+      "options": [
+        "p = 5, q = 2",
+        "p = 7, q = 2",
+        "p = 1, q = 4",
+        "p = 3, q = 2"
+      ],
+      "answer": 0,
+      "explanation": "Divisible by 44 means divisible by 4 (last two digits q8 ∈ {08, 28, 48, 68, 88}) and by 11: 8 + 7 + 3 − (p + q) = 18 − (p + q) must be 0 or ±11, so p + q = 7. p = 5, q = 2 fits (35728 = 44 × 812). The other pairs have p + q = 9, 5 and 5.",
+      "source": "exercise:p133-Q6"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Divisibility by 11",
+      "question": "Why does the alternating-sign method give the same result as 'excess minus shortfall'?",
+      "options": [
+        "Alternating signs always make the final sum come out even",
+        "Plus signs mark the 1-more places and minus signs the 1-less places",
+        "Every second digit of any whole number is a multiple of 11",
+        "The method only works for numbers with an even number of digits"
+      ],
+      "answer": 1,
+      "explanation": "Units, hundreds, ten-thousands, … are 1 more than a multiple of 11 (excess, '+'); tens, thousands, … are 1 less (shortfall, '−'). The alternating sum is simply (sum of excess digits) − (sum of shortfall digits).",
+      "source": "text:page18"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Composite Divisibility: 6, 12, 18, 24, 36, 44",
+      "question": "Which of 38, 225, 186 and 64 is divisible by 6?",
+      "options": [
+        "38",
+        "225",
+        "186",
+        "64"
+      ],
+      "answer": 2,
+      "explanation": "Divisible by 6 means divisible by both 2 and 3. 186 is even and 1 + 8 + 6 = 15 is a multiple of 3, so 186 = 6 × 31. 38 and 64 are even but their digit sums 11 and 10 are not multiples of 3; 225 is odd.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Composite Divisibility: 6, 12, 18, 24, 36, 44",
+      "question": "To check divisibility by 24, which pair of factor tests should you use?",
+      "options": [
+        "4 and 6",
+        "2 and 12",
+        "2 and 6",
+        "3 and 8"
+      ],
+      "answer": 3,
+      "explanation": "3 × 8 = 24 and the two share no common factor, so passing both tests guarantees a factor of 24. 4 and 6 share the factor 2 (LCM 12), as do 2 and 12 (LCM 12) and 2 and 6 (LCM 6).",
+      "source": "text:page19"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Composite Divisibility: 6, 12, 18, 24, 36, 44",
+      "question": "Using prime factorisation, why do the tests for 4 and 6 fail to confirm divisibility by 24 = 2³ × 3?",
+      "options": [
+        "4 = 2² and 6 = 2 × 3 together only guarantee 2² × 3 = 12",
+        "4 and 6 are not prime, so their divisibility tests are unreliable",
+        "There is no proper divisibility test for 6, only for 2 and 3",
+        "24 has four prime factors but 4 and 6 have only three between them"
+      ],
+      "answer": 0,
+      "explanation": "The factor 2 in 6 may be the same 2 already counted in 4, so you are only sure of 2² × 3 = 12. Tests for 3 and 8 = 2³ cover different primes and together force 2³ × 3 = 24.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q100",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Composite Divisibility: 6, 12, 18, 24, 36, 44",
+      "question": "Select ALL the pairs of tests that together confirm a number is divisible by 12.",
+      "options": [
+        "3 and 4",
+        "4 and 6",
+        "2 and 6",
+        "2 and 3"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "LCM(3, 4) = 12 and LCM(4, 6) = 12, so either pair works. LCM(2, 6) = 6 and LCM(2, 3) = 6 only confirm divisibility by 6 (e.g. 18 passes both but is not a multiple of 12).",
+      "source": "text:page19 (reasoning)"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Composite Divisibility: 6, 12, 18, 24, 36, 44",
+      "question": "Which pair of tests confirms divisibility by 36?",
+      "options": [
+        "6 and 6",
+        "4 and 9",
+        "2 and 18",
+        "3 and 12"
+      ],
+      "answer": 1,
+      "explanation": "4 = 2² and 9 = 3² share no prime, and 4 × 9 = 36. 2 and 18 only guarantee LCM 18; 3 and 12 only LCM 12; checking 6 twice tells you nothing new.",
+      "source": "exercise:p133-Q8"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Composite Divisibility: 6, 12, 18, 24, 36, 44",
+      "question": "Which of these is a multiple of 36 between 45,000 and 47,000?",
+      "options": [
+        "45032",
+        "45040",
+        "45036",
+        "45054"
+      ],
+      "answer": 2,
+      "explanation": "A multiple of 36 must pass the tests for 4 (last two digits) and 9 (digit sum). 45036: 36 = 4 × 9 and 4 + 5 + 0 + 3 + 6 = 18 ✓ (45036 = 36 × 1251). 45032 and 45040 have digit sums 14 and 13; 45054 has digit sum 18 but 54 is not a multiple of 4.",
+      "source": "exercise:p133-Q8"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Composite Divisibility: 6, 12, 18, 24, 36, 44",
+      "question": "48a23b is a multiple of 18. Which pair (a, b) works?",
+      "options": [
+        "a = 5, b = 4",
+        "a = 6, b = 3",
+        "a = 7, b = 4",
+        "a = 6, b = 4"
+      ],
+      "answer": 3,
+      "explanation": "18 = 2 × 9: b must be even and 4 + 8 + a + 2 + 3 + b = 17 + a + b must be a multiple of 9, so a + b = 1 or 10. a = 6, b = 4 gives 27 ✓. a = 5, b = 4 gives 26; a = 7, b = 4 gives 28; b = 3 is odd.",
+      "source": "exercise:p132-Q5"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Composite Divisibility: 6, 12, 18, 24, 36, 44",
+      "question": "How many pairs (a, b) make 48a23b a multiple of 18?",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "b ∈ {0, 2, 4, 6, 8} and a + b = 1 or 10 (since 17 + a + b must be 18 or 27). Each even b gives exactly one digit a: (1, 0), (8, 2), (6, 4), (4, 6), (2, 8) — five pairs.",
+      "source": "exercise:p132-Q5"
+    },
+    {
+      "id": "q105",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Composite Divisibility: 6, 12, 18, 24, 36, 44",
+      "question": "2856 is divisible by 24.",
+      "answer": true,
+      "explanation": "2856 is divisible by 8 (last three digits 856 = 8 × 107) and by 3 (digit sum 21), so by 24: 2856 = 24 × 119.",
+      "source": "text:page18 (table)"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Composite Divisibility: 6, 12, 18, 24, 36, 44",
+      "question": "Which statement about 639210 is NOT correct?",
+      "options": [
+        "It is divisible by 11",
+        "It is divisible by 9",
+        "It is divisible by 6",
+        "It is divisible by 5"
+      ],
+      "answer": 1,
+      "explanation": "Digit sum 6 + 3 + 9 + 2 + 1 + 0 = 21 is a multiple of 3 but not of 9. It ends in 0 (divisible by 5 and 2, hence by 6 with the 3), and 0 − 1 + 2 − 9 + 3 − 6 = −11 shows divisibility by 11.",
+      "source": "text:page18 (table)"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Composite Divisibility: 6, 12, 18, 24, 36, 44",
+      "question": "A 6-digit number is divisible by 15, and when its digits are reversed the new number is divisible by 6. Which number could it be?",
+      "options": [
+        "300015",
+        "200020",
+        "200025",
+        "400025"
+      ],
+      "answer": 2,
+      "explanation": "Divisible by 15 ⇒ ends in 0 or 5 and digit sum a multiple of 3; the reverse must be even and still 6 digits, so the number cannot end in 0 (reverse would start with 0) and must START with an even digit. 200025 (sum 9) reverses to 520002 ✓. 300015 reverses to an odd number; 200020 ends in 0; 400025 has digit sum 11.",
+      "source": "exercise:p133-Q10"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Digital Roots",
+      "question": "What is the digital root of 489710?",
+      "options": [
+        "29",
+        "11",
+        "9",
+        "2"
+      ],
+      "answer": 3,
+      "explanation": "4 + 8 + 9 + 7 + 1 + 0 = 29 → 2 + 9 = 11 → 1 + 1 = 2. Keep adding digits until a single digit remains.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Digital Roots",
+      "question": "The digital root of an 8-digit number is 5. What is the digital root of the number 10 more than it?",
+      "options": [
+        "6",
+        "5",
+        "15",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "Adding 10 adds 1 to the digit sum's remainder because 10 = 9 + 1. So the digital root goes from 5 to 6 (e.g. 40000001 → 40000011).",
+      "source": "exercise:p131-Q1"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Digital Roots",
+      "question": "Starting from 10 and repeatedly adding 11 gives 10, 21, 32, 43, 54, 65, … What happens to the digital roots?",
+      "options": [
+        "They stay fixed at 1 for the whole sequence",
+        "They go 1, 3, 5, 7, 9, 2, 4, 6, 8 and then repeat",
+        "They increase by 1 each time: 1, 2, 3, 4, …",
+        "They alternate between 1 and 2 forever"
+      ],
+      "answer": 1,
+      "explanation": "11 is 2 more than 9, so each step adds 2 to the digital root: 1, 3, 5, 7, 9, then 65 → 2, 76 → 4, 87 → 6, 98 → 8, 109 → 1 again.",
+      "source": "exercise:p131-Q2"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Digital Roots",
+      "question": "What is the digital root of 9a + 36b + 13 (for whole numbers a, b)?",
+      "options": [
+        "13",
+        "9",
+        "4",
+        "1"
+      ],
+      "answer": 2,
+      "explanation": "9a + 36b + 13 = 9(a + 4b + 1) + 4. The 9(…) part has digital root 9 (remainder 0), so the whole expression has remainder 4 — digital root 4.",
+      "source": "exercise:p131-Q3"
+    },
+    {
+      "id": "q112",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Digital Roots",
+      "question": "Select ALL the numbers between 600 and 700 whose digital root is 5.",
+      "options": [
+        "617",
+        "644",
+        "625",
+        "650"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "617 → 14 → 5 and 644 → 14 → 5. 625 → 13 → 4 and 650 → 11 → 2. The book lists 608, 617, 626, …, 698 as the numbers with digital root 5.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Digital Roots",
+      "question": "The digital roots of consecutive multiples of 6 (6, 12, 18, 24, …) follow which repeating pattern?",
+      "options": [
+        "3, 6, 9",
+        "6, 2, 8",
+        "6, 9, 3",
+        "6, 3, 9"
+      ],
+      "answer": 3,
+      "explanation": "6 → 6, 12 → 3, 18 → 9, 24 → 6, 30 → 3, 36 → 9 … the cycle is 6, 3, 9. Multiples of 3 give 3, 6, 9.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Digital Roots",
+      "question": "Numbers that are 1 more than a multiple of 6 (7, 13, 19, 25, …) have digital roots that cycle 7, 4, 1. Which digital root can such a number NEVER have?",
+      "options": [
+        "5",
+        "1",
+        "4",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "7 → 7, 13 → 4, 19 → 1, 25 → 7, … Each step adds 6, so the root cycles through 7, 4, 1 only. Roots like 5 never appear, because 6k + 1 can only leave remainders 1, 4 or 7 on division by 9.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q115",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Digital Roots",
+      "question": "A number whose digital root is 6 leaves remainder 0 when divided by 3.",
+      "answer": true,
+      "explanation": "Digital roots 3, 6 and 9 correspond to remainder 0 on division by 3 (1, 4, 7 give remainder 1; 2, 5, 8 give remainder 2). The number is a multiple of 3, e.g. 15 → 6.",
+      "source": "exercise:p131-Q4"
+    },
+    {
+      "id": "q116",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Digital Roots",
+      "question": "Even numbers always have even digital roots.",
+      "answer": false,
+      "explanation": "There is no consistent link between parity and digital root: 10 is even with digital root 1, and 11 is odd with digital root 2. The chapter's exercise asks you to discover exactly this.",
+      "source": "exercise:p131-Q4"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Digital Roots",
+      "question": "Which ancient Indian work mentions the digital-root method (repeatedly adding digits) as a check on arithmetic?",
+      "options": [
+        "Aryabhata's Āryabhaṭīya (c. 499 CE)",
+        "Aryabhata II's Mahāsiddhānta (c. 950 CE)",
+        "Brahmagupta's Brāhmasphuṭasiddhānta",
+        "Bhāskara II's Līlāvatī (c. 1150 CE)"
+      ],
+      "answer": 1,
+      "explanation": "The chapter credits Aryabhata II's Mahāsiddhānta (c. 950 CE) with describing the digital-root method, used to check calculations of arithmetic operations.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Digital Roots",
+      "question": "A number has digital root 9. What is the digital root of the number 10 more than it?",
+      "options": [
+        "10",
+        "9",
+        "1",
+        "0"
+      ],
+      "answer": 2,
+      "explanation": "Adding 10 raises the remainder mod 9 by 1. Digital root 9 means remainder 0, so the new remainder is 1 — e.g. 9 + 10 = 19 → 1 + 9 = 10 → 1.",
+      "source": "exercise:p131-Q1 (extension)"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cryptarithms",
+      "question": "In a cryptarithm, which rule is NOT one of the stated conditions?",
+      "options": [
+        "Each letter stands for one digit",
+        "Each digit is represented by at most one letter",
+        "The first digit of a number is never 0",
+        "Every digit from 0 to 9 must be used"
+      ],
+      "answer": 3,
+      "explanation": "The chapter states three rules: each letter is a digit, no digit is shared by two letters, and a leading digit cannot be 0. There is no requirement to use all ten digits.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cryptarithms",
+      "question": "Solve A1 + 1B = B0. What are A and B?",
+      "options": [
+        "A = 7, B = 9",
+        "A = 8, B = 9",
+        "A = 7, B = 8",
+        "A = 9, B = 7"
+      ],
+      "answer": 0,
+      "explanation": "The units column 1 + B must end in 0, so B = 9 with a carry of 1. Then A + 1 + 1 = 9 gives A = 7: 71 + 19 = 90.",
+      "source": "text:page20 (i)"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cryptarithms",
+      "question": "Solve AB + 37 = 6A.",
+      "options": [
+        "A = 2, B = 6",
+        "A = 2, B = 5",
+        "A = 3, B = 5",
+        "A = 1, B = 5"
+      ],
+      "answer": 1,
+      "explanation": "The tens column needs A + 3 (plus any carry) = 6. If B + 7 ≥ 10 there is a carry, so A = 2 and B + 7 = 12 gives B = 5: 25 + 37 = 62. With A = 3 there could be no carry, forcing B = 3 = A, not allowed.",
+      "source": "text:page20 (ii)"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cryptarithms",
+      "question": "QR + QR + QR = PRR means 3 × QR = PRR. The solution is",
+      "options": [
+        "Q = 5, R = 5, P = 1",
+        "Q = 8, R = 0, P = 2",
+        "Q = 8, R = 5, P = 2",
+        "Q = 7, R = 5, P = 2"
+      ],
+      "answer": 2,
+      "explanation": "3 × R ends in R only for R = 0 or 5; R = 0 would make the result P00 with no carry, needing 3Q = P0, impossible. With R = 5 (carry 1), 3Q + 1 = 25 gives Q = 8: 85 × 3 = 255.",
+      "source": "text:page20 (iv)"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cryptarithms",
+      "question": "For PQ × 8 = RS, Guna rejects 10 and 11 and accepts 12 × 8 = 96. Why can PQ not be 13 or more?",
+      "options": [
+        "13 is a prime number, so it cannot appear in a cryptarithm",
+        "13 × 8 = 96 would repeat the digit 6 in two different letters",
+        "Q cannot be an odd digit when the multiplier is the even number 8",
+        "13 × 8 = 104 already has three digits, so RS could not be 2-digit"
+      ],
+      "answer": 3,
+      "explanation": "For any 2-digit number above 12, the product with 8 is at least 104 — a 3-digit number — so RS could not be 2-digit. 10 × 8 = 80 fails because Q and S would both be 0; 11 repeats a digit.",
+      "source": "text:page20 (v)"
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cryptarithms",
+      "question": "GH × H = 9K, a 2-digit number times its own units digit giving a number in the 90s. Which option is the solution?",
+      "options": [
+        "24 × 4 = 96",
+        "12 × 8 = 96",
+        "16 × 6 = 96",
+        "11 × 9 = 99"
+      ],
+      "answer": 0,
+      "explanation": "The multiplier must equal the units digit H: 24 × 4 ✓ (G = 2, H = 4, K = 6, all different). 12 × 8 has H = 2 ≠ 8; 16 × 6 would make K = 6 = H; 11 × 9 repeats the digit 1 and has H = 1 ≠ 9.",
+      "source": "text:page21 (vi)"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cryptarithms",
+      "question": "In BYE × 6 = RAY, Anshu concludes B = 1. Why?",
+      "options": [
+        "Because 6 × 1 = 6 is a single digit, so B has to be 1 as well",
+        "B = 2 would already make the product at least 1200, a 4-digit number",
+        "Because Y must be even and E must be odd for the product to fit",
+        "Because the product RAY begins with the letter R, not with B"
+      ],
+      "answer": 1,
+      "explanation": "B = 2 would make BYE at least 200, and 200 × 6 = 1200 is already 4 digits; RAY has only 3. So B must be 1.",
+      "source": "text:page21 (vii)"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cryptarithms",
+      "question": "BYE × 6 = RAY with B = 1 and Y even. Which is the solution?",
+      "options": [
+        "127 × 6 = 762",
+        "149 × 6 = 894",
+        "105 × 6 = 630",
+        "120 × 6 = 720"
+      ],
+      "answer": 2,
+      "explanation": "105 × 6 = 630 gives B = 1, Y = 0, E = 5, R = 6, A = 3 — all different, and the product ends in Y = 0 ✓. 127 × 6 = 762 would make R = E = 7; 149 × 6 = 894 makes A = E = 9; 120 × 6 = 720 has Y = 2 in BYE but ends in 0.",
+      "source": "text:page21 (vii)"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cryptarithms",
+      "question": "Solve JK × 6 = KKK.",
+      "options": [
+        "J = 3, K = 7",
+        "J = 1, K = 2",
+        "J = 2, K = 8",
+        "J = 7, K = 4"
+      ],
+      "answer": 3,
+      "explanation": "6 × K must end in K, so K is even: 2, 4, 6 or 8. KKK = 111 × K, so JK = 111K ÷ 6: K = 4 gives 74 ✓ (74 × 6 = 444). K = 2 gives 37 (not ending in 2), K = 6 gives 111, K = 8 gives 148 — not 2-digit numbers ending in K.",
+      "source": "text:page21 (vi)"
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cryptarithms",
+      "question": "In WOW × 5 = MEOW, why must W be 5?",
+      "options": [
+        "W × 5 ends in W only for W = 0 or 5, and a leading digit cannot be 0",
+        "Because 5 is the multiplier, so the first letter must also be 5",
+        "Because MEOW has four letters while WOW has only three letters",
+        "Because O must be 7, and then W has to be 5 for the sum to fit"
+      ],
+      "answer": 0,
+      "explanation": "The units digit of the product is W × 5's units digit, which must equal W: that holds only for 0 and 5. W is the first digit of WOW, so W ≠ 0, hence W = 5 (575 × 5 = 2875).",
+      "source": "exercise:p133-Q15(ii)"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cryptarithms",
+      "question": "In PP × QQ = PRP, what must Q be?",
+      "options": [
+        "2",
+        "1",
+        "4",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "PP = 11P and QQ = 11Q, so the product is 121 × P × Q. A 3-digit result that starts and ends with P needs P × Q = 2, 3 or 4 (242, 363, 484) — in every case Q = 1 and P is 2, 3 or 4. The book's solution is 22 × 11 = 242. With Q = 2, P = 2 gives 22 × 22 = 484, which does not start with 2.",
+      "source": "text:page21 (v)"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Consecutive Products, LCM and Nested Multiples",
+      "question": "Why is the product of two consecutive integers always even?",
+      "options": [
+        "Both of the two consecutive integers are always even numbers",
+        "Their sum is always odd, and an odd sum forces an even product",
+        "One of the two is always even, and a multiple of an even number is even",
+        "Consecutive integers always differ by 2, which is an even number"
+      ],
+      "answer": 2,
+      "explanation": "Of any two consecutive integers one is even, and multiplying anything by an even number keeps the factor 2. E.g. 7 × 8 = 56.",
+      "source": "exercise:p133-Q14"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Consecutive Products, LCM and Nested Multiples",
+      "question": "The product of three consecutive integers is always a multiple of",
+      "options": [
+        "3 but not necessarily 6",
+        "12",
+        "9",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Among three consecutive integers there is at least one multiple of 2 and exactly one multiple of 3, so the product has factors 2 and 3, hence 6. 1 × 2 × 3 = 6 shows it need not be a multiple of 12 or 9.",
+      "source": "exercise:p133-Q14"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Consecutive Products, LCM and Nested Multiples",
+      "question": "What is the largest number that must divide the product of any four consecutive integers?",
+      "options": [
+        "24",
+        "12",
+        "48",
+        "120"
+      ],
+      "answer": 0,
+      "explanation": "Four consecutive integers contain a multiple of 4, another even number, and a multiple of 3, giving 2 × 3 × 4 = 24. 1 × 2 × 3 × 4 = 24 itself shows 48 cannot be guaranteed; 120 is for five consecutive integers.",
+      "source": "exercise:p133-Q14"
+    },
+    {
+      "id": "q133",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Consecutive Products, LCM and Nested Multiples",
+      "question": "The product of any four consecutive integers is a multiple of 48.",
+      "answer": false,
+      "explanation": "1 × 2 × 3 × 4 = 24 is not a multiple of 48. The guaranteed factor is 24 = 2 × 3 × 4 (one multiple of 4 and one other even number give 2³, plus one multiple of 3).",
+      "source": "exercise:p133-Q14"
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Consecutive Products, LCM and Nested Multiples",
+      "question": "Three numbers are added. Their remainders on division by 3 are 1, 1 and 2. Is the sum divisible by 3?",
+      "options": [
+        "Yes — there are three numbers, so the sum is a multiple of 3",
+        "No — the remainders add to 4, which leaves remainder 1",
+        "Yes — the remainders 1, 1, 2 are not all the same number",
+        "No — because one of the remainders is 2 and 2 is prime"
+      ],
+      "answer": 1,
+      "explanation": "The sum's remainder is the remainder of 1 + 1 + 2 = 4, which is 1. The sum is a multiple of 3 only when the remainders are all equal (0,0,0 / 1,1,1 / 2,2,2) or all different (0, 1, 2).",
+      "source": "exercise:p133-Q13"
+    },
+    {
+      "id": "q135",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Consecutive Products, LCM and Nested Multiples",
+      "question": "Three numbers have the given remainders on division by 3. Select ALL cases where their sum is divisible by 3.",
+      "options": [
+        "Remainders 0, 1, 2",
+        "Remainders 1, 1, 1",
+        "Remainders 0, 0, 1",
+        "Remainders 2, 2, 1"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "0 + 1 + 2 = 3 and 1 + 1 + 1 = 3 are multiples of 3. 0 + 0 + 1 = 1 and 2 + 2 + 1 = 5 are not. Rule: all remainders equal, or all three different.",
+      "source": "exercise:p133-Q13"
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Consecutive Products, LCM and Nested Multiples",
+      "question": "How are the multiples of 4, 8 and 32 related?",
+      "options": [
+        "Every multiple of 4 is a multiple of 8, and every multiple of 8 is a multiple of 32",
+        "Multiples of 4, 8 and 32 are three separate sets that never overlap",
+        "Every multiple of 32 is a multiple of 8, and every multiple of 8 is a multiple of 4",
+        "Multiples of 4 and 8 overlap, but multiples of 32 lie completely outside both"
+      ],
+      "answer": 2,
+      "explanation": "32 = 8 × 4 and 8 = 4 × 2, so the sets are nested: multiples of 32 ⊂ multiples of 8 ⊂ multiples of 4. The correct Venn diagram (iv) shows three circles one inside another.",
+      "source": "exercise:p133-Q16"
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Consecutive Products, LCM and Nested Multiples",
+      "question": "Which number is a multiple of 4 and of 8 but NOT of 32?",
+      "options": [
+        "64",
+        "96",
+        "12",
+        "48"
+      ],
+      "answer": 3,
+      "explanation": "48 = 8 × 6 is a multiple of 8 (so also of 4), but 48 ÷ 32 is not whole. 64 = 32 × 2 and 96 = 32 × 3 are multiples of 32; 12 is not a multiple of 8.",
+      "source": "exercise:p133-Q16"
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Consecutive Products, LCM and Nested Multiples",
+      "question": "Which of these is NOT one of the divisibility properties summarised in the chapter?",
+      "options": [
+        "If a is divisible by b and by c, then a is divisible by b × c",
+        "If a is divisible by b, then all multiples of a are divisible by b",
+        "If a is divisible by b, then a is divisible by all the factors of b",
+        "If a divides m and a divides n, then a divides m + n and m − n"
+      ],
+      "answer": 0,
+      "explanation": "Divisibility by b and c only guarantees divisibility by LCM(b, c), not by b × c: 12 is divisible by 4 and 6 but not by 24. The other three are the chapter's summary properties.",
+      "source": "text:page23"
+    },
+    {
+      "id": "q139",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Consecutive Products, LCM and Nested Multiples",
+      "question": "If a divides m and a divides n, then a divides m − n.",
+      "answer": true,
+      "explanation": "If m = ak and n = aj, then m − n = a(k − j), a multiple of a. E.g. 8 divides 56 and 16, and 56 − 16 = 40 = 8 × 5.",
+      "source": "text:page8"
+    }
+  ]
+}

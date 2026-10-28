@@ -1,0 +1,2108 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-maths-1-g8-ch01-a-square-and-a-cube",
+  "title": "A Square and A Cube",
+  "subject": "Maths-1",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Maths-1/ch01",
+  "chapter": "1. A Square and A Cube",
+  "topic": "Full Chapter",
+  "description": "Perfect squares and cubes, their digit and factor patterns, square and cube roots by prime factorisation and estimation, and the history of varga, ghana and mula.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "maths",
+    "squares",
+    "cubes",
+    "square-roots",
+    "cube-roots",
+    "prime-factorisation",
+    "number-patterns"
+  ],
+  "questions": [
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Locker Puzzle & Factors",
+      "question": "A locker is open at the end of the process only if the number of times it is toggled is",
+      "options": [
+        "a multiple of 2",
+        "an odd number",
+        "an even number",
+        "a prime number"
+      ],
+      "answer": 1,
+      "explanation": "Every locker starts closed. Each toggle flips it, so an odd number of toggles leaves it open and an even number leaves it closed. 'A multiple of 2' is just another way of saying even.",
+      "source": "text:page2",
+      "id": "q1"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Locker Puzzle & Factors",
+      "question": "Why does locker 36 remain open at the end?",
+      "options": [
+        "36 is a multiple of 6, so Person 6 is the last to touch it",
+        "36 is toggled by exactly two people, Persons 1 and 36",
+        "36 has an odd number of factors, because 6 pairs with itself",
+        "36 has an even number of factors, because 1 pairs with 36"
+      ],
+      "answer": 2,
+      "explanation": "Factors come in partner pairs (1×36, 2×18, 3×12, 4×9) except 6×6, where the partner is the same number. So 36 has 9 factors — odd — and is toggled 9 times, ending open.",
+      "source": "text:page2",
+      "id": "q2"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Locker Puzzle & Factors",
+      "question": "How many of the 100 lockers remain open at the end?",
+      "options": [
+        "9",
+        "11",
+        "25",
+        "10"
+      ],
+      "answer": 3,
+      "explanation": "Only lockers whose numbers are perfect squares stay open: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100 — ten lockers.",
+      "source": "text:page3",
+      "id": "q3"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Locker Puzzle & Factors",
+      "question": "The passcode 2-3-5-7-11 came from the first five lockers touched exactly twice. These locker numbers are all",
+      "options": [
+        "prime numbers",
+        "square numbers",
+        "odd numbers",
+        "even numbers"
+      ],
+      "answer": 0,
+      "explanation": "A locker is touched once for each factor of its number. Exactly two touches means exactly two factors (1 and itself) — the definition of a prime.",
+      "source": "text:page3",
+      "id": "q4"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Locker Puzzle & Factors",
+      "question": "Suppose the same puzzle is played with 200 people and 200 lockers. How many lockers stay open?",
+      "options": [
+        "20",
+        "14",
+        "15",
+        "13"
+      ],
+      "answer": 1,
+      "explanation": "Open lockers are the perfect squares up to 200. Since 14² = 196 ≤ 200 but 15² = 225 > 200, there are 14 such lockers.",
+      "source": "text:page2 (applied)",
+      "id": "q5"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Locker Puzzle & Factors",
+      "question": "What is the final state of locker 12, and why?",
+      "options": [
+        "Open, because 12 has 5 factors",
+        "Closed, because 12 has 5 factors",
+        "Closed, because 12 has 6 factors",
+        "Open, because 12 has 6 factors"
+      ],
+      "answer": 2,
+      "explanation": "The factors of 12 are 1, 2, 3, 4, 6, 12 — six of them, an even count — so it is toggled six times and ends closed. 12 is not a perfect square, so no factor pairs with itself.",
+      "source": "text:page2",
+      "id": "q6"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Locker Puzzle & Factors",
+      "question": "Every number has an even number of factors.",
+      "answer": false,
+      "explanation": "False. Perfect squares such as 1, 4, 9, 36 have an odd number of factors because one factor pairs with itself (for example 6 × 6 = 36).",
+      "source": "text:page2",
+      "id": "q7"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Locker Puzzle & Factors",
+      "question": "A locker whose number has exactly 3 factors, such as locker 49, remains open at the end.",
+      "answer": true,
+      "explanation": "True. 49 has factors 1, 7 and 49 — three toggles, an odd number — so it ends open. Having exactly three factors means the number is the square of a prime.",
+      "source": "text:page2",
+      "id": "q8"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Locker Puzzle & Factors",
+      "question": "Which statement about the locker puzzle is NOT correct?",
+      "options": [
+        "Locker 1 is toggled only once, by Person 1 alone",
+        "Locker 100 is toggled 9 times and ends open",
+        "Locker 50 is toggled 6 times and ends closed",
+        "Locker 64 ends closed because 64 is an even number"
+      ],
+      "answer": 3,
+      "explanation": "Parity of the locker number is irrelevant; what matters is the count of factors. 64 = 8² has 7 factors (1, 2, 4, 8, 16, 32, 64), so it is toggled 7 times and ends OPEN. The other statements are correct: 1 has one factor, 100 has nine, 50 has six.",
+      "source": "text:page2",
+      "id": "q9"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Locker Puzzle & Factors",
+      "question": "Select all the lockers that remain open at the end of the puzzle.",
+      "options": [
+        "16",
+        "18",
+        "64",
+        "72",
+        "50"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Only perfect-square lockers stay open: 16 = 4² and 64 = 8². 18, 72 and 50 are not squares, so each has an even number of factors and ends closed.",
+      "source": "text:page3",
+      "id": "q10"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Squares & Notation",
+      "question": "The area of a square whose side is 3/5 unit is",
+      "options": [
+        "3/25 sq unit",
+        "9/25 sq unit",
+        "6/10 sq unit",
+        "9/5 sq unit"
+      ],
+      "answer": 1,
+      "explanation": "Area = side × side = (3/5) × (3/5) = 9/25. Both numerator and denominator are squared; 6/10 is a common slip from doubling instead of squaring.",
+      "source": "text:page3",
+      "id": "q11"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Squares & Notation",
+      "question": "Why are the numbers 1, 4, 9, 16, … called square numbers?",
+      "options": [
+        "Each has exactly four factors, matching the four sides of a square figure",
+        "Each can be drawn as a square figure whose side is exactly one unit long",
+        "Each is the perimeter of a square figure that has a whole-number side",
+        "Each is the number of unit squares that fill a square with a whole-number side"
+      ],
+      "answer": 3,
+      "explanation": "A square of side n units contains n × n unit squares — its area. So 1, 4, 9, 16 are the areas of squares with sides 1, 2, 3, 4. Perimeters would be 4, 8, 12, 16, and 9 has three factors, not four.",
+      "source": "text:page3",
+      "id": "q12"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Squares & Notation",
+      "question": "Which of these numbers is NOT a perfect square?",
+      "options": [
+        "226",
+        "169",
+        "196",
+        "256"
+      ],
+      "answer": 0,
+      "explanation": "15² = 225 and 16² = 256, so 226 lies strictly between consecutive squares and cannot be a square — even though it ends in 6. 169 = 13², 196 = 14², 256 = 16².",
+      "source": "text:page4",
+      "id": "q13"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Squares & Notation",
+      "question": "The area of a square field is 441 m². The length of its side is",
+      "options": [
+        "41 m",
+        "21 m",
+        "22 m",
+        "20 m"
+      ],
+      "answer": 1,
+      "explanation": "Side = √441 = 21 m because 21 × 21 = 441. Check: 20² = 400 and 22² = 484, so 21 is the only fit.",
+      "source": "exercise:Q4",
+      "id": "q14"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Squares & Notation",
+      "question": "Which of the following equations is correct?",
+      "options": [
+        "19² = 351",
+        "21² = 421",
+        "17² = 289",
+        "18² = 334"
+      ],
+      "answer": 2,
+      "explanation": "17 × 17 = 289. The others are miscalculations: 18² = 324, 19² = 361 and 21² = 441.",
+      "source": "text:page4",
+      "id": "q15"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Squares & Notation",
+      "question": "Since 6.25 is the square of 2.5, it is a perfect square.",
+      "answer": false,
+      "explanation": "False. 6.25 is a square, but 'perfect squares' are defined as squares of natural numbers (1, 4, 9, 16, …). 2.5 is not a natural number.",
+      "source": "text:page4",
+      "id": "q16"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Squares & Notation",
+      "question": "How many perfect squares have exactly two digits?",
+      "options": [
+        "5",
+        "7",
+        "9",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Two-digit squares are 16, 25, 36, 49, 64, 81 (squares of 4 to 9) — six of them. 1, 4, 9 have one digit and 100 has three.",
+      "source": "text:page4 (table)",
+      "id": "q17"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Squares & Notation",
+      "question": "The largest perfect square less than 1000 is",
+      "options": [
+        "961",
+        "900",
+        "999",
+        "1024"
+      ],
+      "answer": 0,
+      "explanation": "31² = 961 and 32² = 1024 > 1000, so 961 is the largest square below 1000. 900 = 30² is smaller, and 999 ends in 9 but is not a square.",
+      "source": "text:page7",
+      "id": "q18"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Squares & Notation",
+      "question": "Select all expressions whose value is 12².",
+      "options": [
+        "144",
+        "12 × 12",
+        "24",
+        "12 + 12",
+        "122"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "12² means 12 × 12 = 144. Writing '122' or adding/doubling to get 24 are common slips — the small 2 is an exponent, not a digit.",
+      "source": "text:page3",
+      "id": "q19"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Squares & Notation",
+      "question": "In the row 3, 6, 10, 15, 1 every adjacent pair adds to a square. Select the adjacent pairs whose sum is 16.",
+      "options": [
+        "6 and 10",
+        "15 and 1",
+        "3 and 6",
+        "10 and 15"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "6 + 10 = 16 and 15 + 1 = 16. The other adjacent pairs also give squares, but different ones: 3 + 6 = 9 and 10 + 15 = 25.",
+      "source": "text:page18",
+      "id": "q20"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Units Digit of Squares",
+      "question": "Which digits can NEVER appear in the units place of a perfect square?",
+      "options": [
+        "2, 4, 6 and 8",
+        "2, 3, 7 and 8",
+        "1, 4, 5 and 6",
+        "0, 1, 4 and 9"
+      ],
+      "answer": 1,
+      "explanation": "Squaring the digits 0–9 gives units digits 0, 1, 4, 9, 6, 5, 6, 9, 4, 1 only. So 2, 3, 7, 8 never occur; 4, 6, 8 are not all excluded because 4 and 6 do occur.",
+      "source": "text:page4",
+      "id": "q21"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Units Digit of Squares",
+      "question": "Which one of these numbers is a perfect square?",
+      "options": [
+        "2048",
+        "1027",
+        "1089",
+        "2032"
+      ],
+      "answer": 2,
+      "explanation": "2032, 2048 and 1027 end in 2, 8 and 7, digits no square can end with. 1089 = 33² (33 × 33 = 1089).",
+      "source": "exercise:Q1",
+      "id": "q22"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Units Digit of Squares",
+      "question": "A number ends in the digit 6. Which conclusion is correct?",
+      "options": [
+        "It is definitely a perfect square",
+        "It is definitely not a perfect square",
+        "It is a perfect square only if it is even",
+        "It may or may not be a perfect square"
+      ],
+      "answer": 3,
+      "explanation": "16 and 36 end in 6 and are squares, but 26 also ends in 6 and is not. The units digit can only rule a square OUT (digits 2, 3, 7, 8); it can never confirm one.",
+      "source": "text:page4",
+      "id": "q23"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Units Digit of Squares",
+      "question": "Which of these squares does NOT have 6 in the units place?",
+      "options": [
+        "82²",
+        "34²",
+        "46²",
+        "56²"
+      ],
+      "answer": 0,
+      "explanation": "The units digit of a square depends only on the units digit of the number. 4² = 16 and 6² = 36 end in 6, so 34², 46², 56² end in 6; but 2² = 4, so 82² = 6724 ends in 4.",
+      "source": "text:page5",
+      "id": "q24"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Units Digit of Squares",
+      "question": "Which of these squares have 4 as their last digit? Select all that apply.",
+      "options": [
+        "64²",
+        "108²",
+        "292²",
+        "36²"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "Only the units digit matters: 8² = 64 and 2² = 4 end in 4, so 108² and 292² end in 4. Both 64² and 36² end in 6 because 4² = 16 and 6² = 36.",
+      "source": "exercise:Q2",
+      "id": "q25"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Units Digit of Squares",
+      "question": "If a number has 9 in its units place, its square ends in",
+      "options": [
+        "7",
+        "1",
+        "9",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "9 × 9 = 81, so any number ending in 9 has a square ending in 1 — the same as numbers ending in 1, since 1 × 1 = 1.",
+      "source": "text:page4",
+      "id": "q26"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Units Digit of Squares",
+      "question": "The squares 1², 9², 11², 19², 21² and 29² all end in 1. The NEXT two squares ending in 1 are",
+      "options": [
+        "33² and 37²",
+        "31² and 41²",
+        "31² and 39²",
+        "30² and 32²"
+      ],
+      "answer": 2,
+      "explanation": "A square ends in 1 exactly when the number ends in 1 or 9. After 29 the next such numbers are 31 and 39 (31² = 961, 39² = 1521). 41 comes after 39, not before.",
+      "source": "text:page4",
+      "id": "q27"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Units Digit of Squares",
+      "question": "Every perfect square ends in 0, 1, 4, 5, 6 or 9, and every number ending in one of these digits is a perfect square.",
+      "answer": false,
+      "explanation": "False. The first half is true, but the converse fails: 26 ends in 6 and 10 ends in 0, yet neither is a square.",
+      "source": "text:page4",
+      "id": "q28"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Units Digit of Squares",
+      "question": "Which statement about units digits of squares is NOT correct?",
+      "options": [
+        "The units digit alone can prove that a number is NOT a square",
+        "Squares of numbers ending in 4 or 6 always end in the digit 6",
+        "Squares of numbers ending in 1 or 9 always end in the digit 1",
+        "The units digit alone can prove that a number IS a square"
+      ],
+      "answer": 3,
+      "explanation": "A units digit of 2, 3, 7 or 8 proves 'not a square', but a 'good' units digit proves nothing — 26 is the chapter's counter-example. The patterns for 4/6 → 6 and 1/9 → 1 are genuine.",
+      "source": "text:page4",
+      "id": "q29"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Units Digit of Squares",
+      "question": "Which number ends in a digit that squares CAN have, and yet is not a square?",
+      "options": [
+        "26",
+        "25",
+        "36",
+        "16"
+      ],
+      "answer": 0,
+      "explanation": "26 ends in 6, a digit squares may have, but 5² = 25 and 6² = 36 leave no room for 26 to be a square. 16, 25 and 36 are 4², 5², 6².",
+      "source": "text:page4",
+      "id": "q30"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Zeros & Parity of Squares",
+      "question": "If a number has 3 zeros at the end, how many zeros will its square have at the end?",
+      "options": [
+        "5",
+        "6",
+        "3",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "Trailing zeros double on squaring: (a × 1000)² = a² × 1 000 000. For example 7000² = 49 000 000 has six zeros.",
+      "source": "text:page5",
+      "id": "q31"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Zeros & Parity of Squares",
+      "question": "Judging only by the trailing zeros, which of these could be a perfect square?",
+      "options": [
+        "100000",
+        "49000",
+        "810000",
+        "8100000"
+      ],
+      "answer": 2,
+      "explanation": "A square has an even number of trailing zeros. 810000 has four (and is 900²). 8100000 has five, 100000 has five and 49000 has three — all odd, so none is a square.",
+      "source": "text:page5",
+      "id": "q32"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Zeros & Parity of Squares",
+      "question": "The square of an even number is",
+      "options": [
+        "always odd",
+        "sometimes odd",
+        "never even",
+        "always even"
+      ],
+      "answer": 3,
+      "explanation": "An even number has a factor 2, so its square has a factor 4 and is even. Parity is preserved: even² is even and odd² is odd.",
+      "source": "text:page5",
+      "id": "q33"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Zeros & Parity of Squares",
+      "question": "Which statement about trailing zeros is correct?",
+      "options": [
+        "A square has double the trailing zeros of the number squared",
+        "A square has the same trailing zeros as the number squared",
+        "A square has half the trailing zeros of the number squared",
+        "A square always has exactly two zeros at the end of it"
+      ],
+      "answer": 0,
+      "explanation": "100² = 10000 (2 → 4 zeros), 7000² = 49 000 000 (3 → 6 zeros). Each trailing zero is a factor of 10, and squaring multiplies by 10 twice for each.",
+      "source": "text:page5",
+      "id": "q34"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Zeros & Parity of Squares",
+      "question": "A perfect square can end with exactly three zeros.",
+      "answer": false,
+      "explanation": "False. The trailing zeros of a square are twice those of its root, so their count is always even: 0, 2, 4, 6, …",
+      "source": "text:page5",
+      "id": "q35"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Zeros & Parity of Squares",
+      "question": "The square of an odd number is always odd.",
+      "answer": true,
+      "explanation": "True. odd × odd = odd. For example 7² = 49, 11² = 121, 25² = 625.",
+      "source": "text:page5",
+      "id": "q36"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Zeros & Parity of Squares",
+      "question": "700² = 490000 has 4 zeros at the end. How many zeros will 70000² have at the end?",
+      "options": [
+        "16",
+        "8",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "70000 has 4 trailing zeros, so its square has 2 × 4 = 8: 70000² = 4 900 000 000.",
+      "source": "text:page5",
+      "id": "q37"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Zeros & Parity of Squares",
+      "question": "Which of these is definitely NOT a perfect square?",
+      "options": [
+        "25000000",
+        "2500",
+        "2500000",
+        "250000"
+      ],
+      "answer": 2,
+      "explanation": "2500000 has five trailing zeros — an odd count, impossible for a square. The others have an even count and are squares: 250000 = 500², 25000000 = 5000², 2500 = 50².",
+      "source": "text:page5",
+      "id": "q38"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Zeros & Parity of Squares",
+      "question": "If n² is an odd number, what can be said about n?",
+      "options": [
+        "n must be an even number",
+        "n may be even or odd",
+        "n must be a prime number",
+        "n must be an odd number"
+      ],
+      "answer": 3,
+      "explanation": "Even numbers have even squares, so an odd square can only come from an odd n. Being odd does not make n prime (9² = 81 is odd).",
+      "source": "text:page5",
+      "id": "q39"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Zeros & Parity of Squares",
+      "question": "Select the numbers that could be perfect squares, judging by their trailing zeros.",
+      "options": [
+        "40000",
+        "4000",
+        "6400",
+        "640"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Squares need an even number of trailing zeros: 40000 (four zeros, = 200²) and 6400 (two zeros, = 80²). 4000 has three zeros and 640 has one.",
+      "source": "text:page5",
+      "id": "q40"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Squares, Odd Numbers & Patterns",
+      "question": "1 + 3 + 5 + 7 + 9 + 11 + 13 equals",
+      "options": [
+        "42",
+        "49",
+        "36",
+        "64"
+      ],
+      "answer": 1,
+      "explanation": "The sum of the first n odd numbers is n². Here there are 7 terms, so the sum is 7² = 49.",
+      "source": "text:page6",
+      "id": "q41"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Squares, Odd Numbers & Patterns",
+      "question": "The nth odd number is",
+      "options": [
+        "n + 2",
+        "n² − 1",
+        "2n − 1",
+        "2n + 1"
+      ],
+      "answer": 2,
+      "explanation": "Odd numbers are 1, 3, 5, …: the 1st is 2(1) − 1 = 1, the 6th is 2(6) − 1 = 11. 2n + 1 would make the 1st odd number 3.",
+      "source": "text:page6",
+      "id": "q42"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Squares, Odd Numbers & Patterns",
+      "question": "Given 35² = 1225, which number must be added to 1225 to get 36²?",
+      "options": [
+        "72",
+        "36",
+        "70",
+        "71"
+      ],
+      "answer": 3,
+      "explanation": "1225 is the sum of the first 35 odd numbers; adding the 36th odd number, 2 × 36 − 1 = 71, gives 36² = 1296. (Equivalently 35 + 36 = 71.)",
+      "source": "text:page6",
+      "id": "q43"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Squares, Odd Numbers & Patterns",
+      "question": "Given 125² = 15625, the value of 126² is",
+      "options": [
+        "15625 + 251",
+        "15625 + 126",
+        "15625 + 253",
+        "15625 + 262"
+      ],
+      "answer": 0,
+      "explanation": "126² = 125² + (126th odd number) = 15625 + (2 × 126 − 1) = 15625 + 251 = 15876. 253 is the 127th odd number and 126 is just the number itself.",
+      "source": "exercise:Q3",
+      "id": "q44"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Squares, Odd Numbers & Patterns",
+      "question": "Subtracting 1, 3, 5, … from 38 gives 37, 34, 29, 22, 13, 2, −11. What does this show?",
+      "options": [
+        "38 is a sum of 7 odd numbers",
+        "38 is not a perfect square",
+        "38 is a perfect square",
+        "38 is the 7th odd number"
+      ],
+      "answer": 1,
+      "explanation": "A perfect square is reduced to exactly 0 by subtracting consecutive odd numbers from 1. 38 skips 0 (2 then −11), so it is not a sum of the first few odd numbers — not a square.",
+      "source": "text:page6",
+      "id": "q45"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Squares, Odd Numbers & Patterns",
+      "question": "50 can be written as a sum of consecutive odd numbers starting from 1.",
+      "answer": false,
+      "explanation": "False. Only perfect squares can be written this way, and 50 lies between 7² = 49 and 8² = 64. (1 + 3 + … + 13 = 49; adding 15 gives 64.)",
+      "source": "text:page7",
+      "id": "q46"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Squares, Odd Numbers & Patterns",
+      "question": "Given 50² = 2500, what is 49²?",
+      "options": [
+        "2451",
+        "2400",
+        "2401",
+        "2499"
+      ],
+      "answer": 2,
+      "explanation": "50² − 49² is the 50th odd number, 2 × 50 − 1 = 99. So 49² = 2500 − 99 = 2401.",
+      "source": "text:page6 (applied)",
+      "id": "q47"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Squares, Odd Numbers & Patterns",
+      "question": "In the pattern 4² + 5² + 20² = (___)², the missing number is",
+      "options": [
+        "20",
+        "41",
+        "29",
+        "21"
+      ],
+      "answer": 3,
+      "explanation": "16 + 25 + 400 = 441 = 21². In this pattern the third number is the product of the first two (4 × 5 = 20) and the answer is one more than it.",
+      "source": "exercise:Q8",
+      "id": "q48"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Squares, Odd Numbers & Patterns",
+      "question": "In the pattern 1² + 2² + 2² = 3², 2² + 3² + 6² = 7², 3² + 4² + 12² = 13², the missing numbers in 9² + 10² + (___)² = (___)² are",
+      "options": [
+        "90 and 91",
+        "19 and 20",
+        "90 and 100",
+        "81 and 91"
+      ],
+      "answer": 0,
+      "explanation": "The third number is the product of the first two: 9 × 10 = 90. The right side is that product plus one: 91. Check: 81 + 100 + 8100 = 8281 = 91².",
+      "source": "exercise:Q8",
+      "id": "q49"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Squares, Odd Numbers & Patterns",
+      "question": "Select the sums that equal a perfect square.",
+      "options": [
+        "1 + 3 + 5 + 7",
+        "1 + 3 + 5 + 7 + 9 + 11",
+        "3 + 5 + 7",
+        "1 + 3 + 5 + 9",
+        "5 + 7 + 9"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Consecutive odd numbers STARTING FROM 1 sum to a square: 1+3+5+7 = 16 = 4² and 1+…+11 = 36 = 6². 3+5+7 = 15, 1+3+5+9 = 18 (skips 7) and 5+7+9 = 21 are not squares.",
+      "source": "text:page6",
+      "id": "q50"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Between Squares & Triangular Numbers",
+      "question": "How many numbers lie between 16² and 17²?",
+      "options": [
+        "31",
+        "32",
+        "33",
+        "16"
+      ],
+      "answer": 1,
+      "explanation": "Between n² and (n+1)² there are 2n numbers: 2 × 16 = 32. (17² − 16² − 1 = 289 − 256 − 1 = 32.)",
+      "source": "exercise:Q7",
+      "id": "q51"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Between Squares & Triangular Numbers",
+      "question": "How many numbers lie between 99² and 100²?",
+      "options": [
+        "200",
+        "99",
+        "198",
+        "199"
+      ],
+      "answer": 2,
+      "explanation": "10000 − 9801 − 1 = 198, which is also 2 × 99.",
+      "source": "exercise:Q7",
+      "id": "q52"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Between Squares & Triangular Numbers",
+      "question": "If p and q are consecutive perfect squares (p < q), the number of numbers strictly between them is",
+      "options": [
+        "q + p − 1",
+        "q − p + 1",
+        "(q − p) ÷ 2",
+        "q − p − 1"
+      ],
+      "answer": 3,
+      "explanation": "Counting from p + 1 up to q − 1 gives q − p − 1 numbers; q − p counts one of the endpoints as well.",
+      "source": "text:page7 (answer key)",
+      "id": "q53"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Between Squares & Triangular Numbers",
+      "question": "How many perfect squares lie between 101 and 200?",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "121, 144, 169 and 196 (squares of 11 to 14). 100 and 225 fall outside the block.",
+      "source": "text:page7",
+      "id": "q54"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Between Squares & Triangular Numbers",
+      "question": "How many perfect squares lie between 901 and 1000?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "Only 961 = 31². 900 = 30² is just below the block and 1024 = 32² is above it. Squares thin out as numbers grow.",
+      "source": "text:page7",
+      "id": "q55"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Between Squares & Triangular Numbers",
+      "question": "The sum of two consecutive triangular numbers is always",
+      "options": [
+        "a multiple of three",
+        "a number that is a cube",
+        "a perfect square",
+        "a triangular number"
+      ],
+      "answer": 2,
+      "explanation": "1 + 3 = 4, 3 + 6 = 9, 6 + 10 = 16, 10 + 15 = 25: two consecutive triangles fit together to form a square.",
+      "source": "text:page7",
+      "id": "q56"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Between Squares & Triangular Numbers",
+      "question": "Which pair of consecutive triangular numbers adds up to 36?",
+      "options": [
+        "10 and 15",
+        "21 and 28",
+        "6 and 10",
+        "15 and 21"
+      ],
+      "answer": 3,
+      "explanation": "Triangular numbers are 1, 3, 6, 10, 15, 21, 28, … and 15 + 21 = 36 = 6². The pairs 10 + 15 = 25 and 21 + 28 = 49 give other squares.",
+      "source": "text:page7",
+      "id": "q57"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Between Squares & Triangular Numbers",
+      "question": "Between which pair of consecutive squares are there exactly 50 numbers?",
+      "options": [
+        "49² and 50²",
+        "25² and 26²",
+        "50² and 51²",
+        "24² and 25²"
+      ],
+      "answer": 1,
+      "explanation": "Between n² and (n+1)² there are 2n numbers, so 2n = 50 gives n = 25: between 625 and 676 there are 50 numbers. Between 50² and 51² there are 100.",
+      "source": "text:page7 (applied)",
+      "id": "q58"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Between Squares & Triangular Numbers",
+      "question": "Moving from one pair of consecutive squares to the next, the count of numbers between them increases by 2.",
+      "answer": true,
+      "explanation": "True. The count is 2n, so it goes 2, 4, 6, 8, … — between 1 and 4 there are 2 numbers, between 4 and 9 there are 4, and so on.",
+      "source": "text:page7",
+      "id": "q59"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Between Squares & Triangular Numbers",
+      "question": "Select the correct sums of consecutive triangular numbers.",
+      "options": [
+        "1 + 3 = 4",
+        "3 + 6 = 9",
+        "6 + 10 = 15",
+        "10 + 15 = 36"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "1 + 3 = 4 = 2² and 3 + 6 = 9 = 3² are correct. 6 + 10 = 16 (not 15) and 10 + 15 = 25 (not 36).",
+      "source": "text:page7",
+      "id": "q60"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Square Roots",
+      "question": "If y = x², then x is called",
+      "options": [
+        "the cube root of y",
+        "a factor pair of y",
+        "the square root of y",
+        "the square power of y"
+      ],
+      "answer": 2,
+      "explanation": "Taking the square root undoes squaring: since 7² = 49, 7 is the square root of 49.",
+      "source": "text:page8",
+      "id": "q61"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Square Roots",
+      "question": "The integer square roots of 64 are",
+      "options": [
+        "8 and 16",
+        "8 and 4",
+        "4 and 16",
+        "8 and −8"
+      ],
+      "answer": 3,
+      "explanation": "8 × 8 = 64 and (−8) × (−8) = 64, so both are square roots. 4 and 16 are factors of 64 (4 × 16 = 64) but not its roots, since 4² = 16 and 16² = 256.",
+      "source": "text:page8",
+      "id": "q62"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Square Roots",
+      "question": "Why does every perfect square have two integer square roots?",
+      "options": [
+        "Every square can be split into two equal halves",
+        "A negative integer times itself is also a positive square",
+        "Every perfect square has an even number of factors",
+        "Squares end in 0, 1, 4, 5, 6 or 9, giving two possibilities"
+      ],
+      "answer": 1,
+      "explanation": "x² = (−x)², so both x and −x square to the same number: 8² = 64 and (−8)² = 64. In this chapter only the positive root is used.",
+      "source": "text:page8",
+      "id": "q63"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Square Roots",
+      "question": "The area of a square is 1296 cm². Its side is",
+      "options": [
+        "38 cm",
+        "46 cm",
+        "36 cm",
+        "34 cm"
+      ],
+      "answer": 2,
+      "explanation": "36² = 1296 (the chapter computes 36² = 1225 + 71). 34² = 1156 and 38² = 1444 do not match, and 46² ends in 6 but equals 2116.",
+      "source": "text:page6 (applied)",
+      "id": "q64"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Square Roots",
+      "question": "Why is listing squares one by one considered an inefficient way to find a square root?",
+      "options": [
+        "For large numbers far too many squares must be computed",
+        "It can never find the square root of an odd number",
+        "It only works for numbers that end in the digit 6",
+        "It produces the negative root instead of the positive"
+      ],
+      "answer": 0,
+      "explanation": "To check 576 we computed squares from 21 to 24, but a number like 15625 would need over a hundred squares. Prime factorisation or estimation is faster.",
+      "source": "text:page8",
+      "id": "q65"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Square Roots",
+      "question": "Can 327 be a perfect square?",
+      "options": [
+        "Yes, because 3 + 2 + 7 equals 12",
+        "No, because it ends in the digit 7",
+        "Yes, because 18² = 324 is very close",
+        "No, because 327 is an odd number"
+      ],
+      "answer": 1,
+      "explanation": "No square ends in 2, 3, 7 or 8, so 327 is ruled out immediately. Odd numbers can be squares (9, 25) and nearness to 324 proves nothing.",
+      "source": "text:page8",
+      "id": "q66"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Square Roots",
+      "question": "Square root is the inverse operation of squaring.",
+      "answer": true,
+      "explanation": "True. Squaring 9 gives 81 and taking the square root of 81 gives back 9.",
+      "source": "text:page17",
+      "id": "q67"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Square Roots",
+      "question": "The square root of 576 can be found by subtracting 1, 3, 5, … successively and counting that 0 is reached at the 24th step.",
+      "answer": true,
+      "explanation": "True. 576 = 24², and 24² is the sum of the first 24 odd numbers, so exactly 24 subtractions reach 0. It works, but it is slow for big numbers.",
+      "source": "text:page8",
+      "id": "q68"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Square Roots",
+      "question": "Which of these is NOT a square root of 100?",
+      "options": [
+        "−10",
+        "+10",
+        "50",
+        "10"
+      ],
+      "answer": 2,
+      "explanation": "10² = 100 and (−10)² = 100, so 10 (written +10 or 10) and −10 are the square roots. 50 is half of 100, a common confusion between halving and rooting.",
+      "source": "text:page8",
+      "id": "q69"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Square Roots",
+      "question": "Select the TRUE statements about √49 = 7.",
+      "options": [
+        "A square of area 49 sq cm has side 7 cm",
+        "−7 is also a square root of 49",
+        "49 is the square root of 7",
+        "7 is the cube root of 49"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Side = √area, so a 49 sq cm square has side 7 cm, and (−7)² = 49 makes −7 a root too. 49 is the SQUARE of 7, and 7 is not a cube root of 49 (7³ = 343).",
+      "source": "text:page8",
+      "id": "q70"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Prime Factorisation & Squares",
+      "question": "324 = 2 × 2 × 3 × 3 × 3 × 3. Therefore √324 =",
+      "options": [
+        "36",
+        "12",
+        "27",
+        "18"
+      ],
+      "answer": 3,
+      "explanation": "Group the factors into two identical sets: (2 × 3 × 3) × (2 × 3 × 3) = 18 × 18, so √324 = 18. Taking one of each prime (2 × 3 = 6) or all the 3s (27) is a slip.",
+      "source": "text:page9",
+      "id": "q71"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Prime Factorisation & Squares",
+      "question": "Why is 156 = 2 × 2 × 3 × 13 not a perfect square?",
+      "options": [
+        "The factors 3 and 13 cannot be paired",
+        "It has an odd number of factors",
+        "It has four prime factors in total",
+        "The prime 2 appears twice in it"
+      ],
+      "answer": 0,
+      "explanation": "A square needs every prime to appear an even number of times. The 2s pair up, but 3 and 13 each appear once. Having four prime factors or a repeated 2 is fine (36 = 2 × 2 × 3 × 3 is a square).",
+      "source": "text:page9",
+      "id": "q72"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Prime Factorisation & Squares",
+      "question": "Is 1156 a perfect square?",
+      "options": [
+        "No, because it ends in the digit 6",
+        "Yes, since 1156 = 2² × 17² = 34²",
+        "No, because 17 is left unpaired",
+        "Yes, 1156 = 2² × 17 × 17 = 32²"
+      ],
+      "answer": 1,
+      "explanation": "1156 = 2 × 2 × 17 × 17 = (2 × 17)² = 34². The 17 does pair up, and 32² = 1024, not 1156.",
+      "source": "text:page9",
+      "id": "q73"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Prime Factorisation & Squares",
+      "question": "2800 = 2⁴ × 5² × 7. Which conclusion is correct?",
+      "options": [
+        "A perfect square, because every exponent is even",
+        "Not a perfect square, because it ends in 00",
+        "Not a perfect square, because 7 is unpaired",
+        "A perfect square, because 2800 = 50² + 300"
+      ],
+      "answer": 2,
+      "explanation": "2⁴ and 5² pair up, but the single 7 cannot. Ending in 00 is actually consistent with a square; the exponent of 7 is 1, which is odd.",
+      "source": "text:page9",
+      "id": "q74"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Prime Factorisation & Squares",
+      "question": "The smallest number by which 9408 must be multiplied so that the product is a perfect square is",
+      "options": [
+        "2",
+        "7",
+        "6",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "9408 = 2⁶ × 3 × 7². Only the 3 is unpaired, so multiplying by 3 makes every prime appear an even number of times.",
+      "source": "exercise:Q6",
+      "id": "q75"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Prime Factorisation & Squares",
+      "question": "After multiplying 9408 by 3 we get 28224. Its square root is",
+      "options": [
+        "168",
+        "164",
+        "172",
+        "148"
+      ],
+      "answer": 0,
+      "explanation": "28224 = 2⁶ × 3² × 7² = (2³ × 3 × 7)² = (8 × 3 × 7)² = 168².",
+      "source": "exercise:Q6",
+      "id": "q76"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Prime Factorisation & Squares",
+      "question": "The smallest square number divisible by each of 4, 9 and 10 is",
+      "options": [
+        "3600",
+        "900",
+        "360",
+        "180"
+      ],
+      "answer": 1,
+      "explanation": "LCM(4, 9, 10) = 180 = 2² × 3² × 5. The lone 5 must be paired, so the smallest square multiple is 180 × 5 = 900 = 30². 3600 works but is not the smallest.",
+      "source": "exercise:Q5",
+      "id": "q77"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Prime Factorisation & Squares",
+      "question": "Why must 180, the LCM of 4, 9 and 10, be multiplied by 5 (not 2 or 3) to get the smallest square?",
+      "options": [
+        "5 is the largest prime factor that appears here",
+        "180 = 2 × 3 × 5 × 6 and the 6 is left unpaired",
+        "180 = 2² × 3² × 5 and only the 5 is unpaired",
+        "180 is not a multiple of 5 × 5 = 25, so it fails"
+      ],
+      "answer": 2,
+      "explanation": "In 180 the primes 2 and 3 already appear in pairs; the single 5 is the only obstacle, so ×5 is both necessary and sufficient. 6 is not a prime, so the last reasoning is invalid.",
+      "source": "exercise:Q5",
+      "id": "q78"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Prime Factorisation & Squares",
+      "question": "The smallest number by which 2800 must be DIVIDED to get a perfect square is",
+      "options": [
+        "2",
+        "28",
+        "70",
+        "7"
+      ],
+      "answer": 3,
+      "explanation": "2800 = 2⁴ × 5² × 7. Removing the unpaired 7 gives 400 = 20². Dividing by 28 also leaves a square (100), but 7 is the smallest divisor that works; dividing by 70 leaves 40, which is not a square.",
+      "source": "text:page9 (applied)",
+      "id": "q79"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Prime Factorisation & Squares",
+      "question": "The smallest number by which 156 must be multiplied to make it a perfect square is",
+      "options": [
+        "6",
+        "39",
+        "13",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "156 = 2 × 2 × 3 × 13; both 3 and 13 are unpaired, so we need 3 × 13 = 39. Then 156 × 39 = 6084 = 78². Multiplying by 3 or 13 alone leaves one prime unpaired.",
+      "source": "text:page9 (applied)",
+      "id": "q80"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Prime Factorisation & Squares",
+      "question": "Which of these prime factorisations represent perfect squares? Select all that apply.",
+      "options": [
+        "2 × 2 × 5 × 5",
+        "2 × 3 × 3 × 2",
+        "2 × 2 × 2 × 3",
+        "3 × 3 × 3 × 5",
+        "2 × 5 × 5 × 5"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "2 × 2 × 5 × 5 = 10² and 2 × 3 × 3 × 2 = 36 = 6² have every prime an even number of times. The others have an odd count of 2, 3 or 5.",
+      "source": "text:page9",
+      "id": "q81"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Estimating Square Roots",
+      "question": "√1936 lies between 40 and 50 because",
+      "options": [
+        "1936 lies between 1900 and 2000",
+        "1936 is close to 2000 = 50 × 40",
+        "40² = 1600 < 1936 < 2500 = 50²",
+        "the number 1936 ends in the digit 6"
+      ],
+      "answer": 2,
+      "explanation": "Bracketing with known squares: 1600 = 40² is below 1936 and 2500 = 50² is above it, so the root is between 40 and 50. The units digit tells us about the LAST digit of the root, not its size.",
+      "source": "text:page9",
+      "id": "q82"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Estimating Square Roots",
+      "question": "Using (40 + 5)² = 40² + 2 × 40 × 5 + 5², the value of 45² is",
+      "options": [
+        "2025",
+        "1625",
+        "2005",
+        "1925"
+      ],
+      "answer": 0,
+      "explanation": "1600 + 400 + 25 = 2025. Forgetting the middle term 2 × 40 × 5 = 400 gives 1625.",
+      "source": "text:page9",
+      "id": "q83"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Estimating Square Roots",
+      "question": "Since 45² = 2025 is greater than 1936, √1936 must be",
+      "options": [
+        "42",
+        "44",
+        "46",
+        "45"
+      ],
+      "answer": 1,
+      "explanation": "The root lies between 40 and 45 and ends in 4 or 6; the only candidate is 44. Check: 44² = 1936.",
+      "source": "text:page9",
+      "id": "q84"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Estimating Square Roots",
+      "question": "√250 is approximately 16 (slightly less) because",
+      "options": [
+        "250 is exactly one half of 500",
+        "16 × 16 equals 250 exactly",
+        "250 ends in 0, so its root is even",
+        "256 is closer to 250 than 225"
+      ],
+      "answer": 3,
+      "explanation": "250 is 6 away from 16² = 256 and 25 away from 15² = 225, so the root is nearer to 16 — but still a little below it, since 250 < 256.",
+      "source": "text:page10",
+      "id": "q85"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Estimating Square Roots",
+      "question": "Akhil's square cloth has area 125 cm². Can he cut a square handkerchief of side 15 cm from it?",
+      "options": [
+        "No, since 15² = 225 is more than 125",
+        "Yes, since 15 is smaller than 125",
+        "Yes, since 125 ÷ 15 is about 8",
+        "No, since 125 is not a multiple of 15"
+      ],
+      "answer": 0,
+      "explanation": "A 15 cm square needs 225 cm² of cloth, but only 125 cm² is available. Comparing 15 with the area 125 mixes up length and area.",
+      "source": "text:page10",
+      "id": "q86"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Estimating Square Roots",
+      "question": "The largest square handkerchief with an integer side that can be cut from a 125 cm² square cloth has side",
+      "options": [
+        "25 cm",
+        "11 cm",
+        "12 cm",
+        "10 cm"
+      ],
+      "answer": 1,
+      "explanation": "11² = 121 ≤ 125 but 12² = 144 > 125, so 11 cm is the biggest whole-number side that fits.",
+      "source": "text:page10",
+      "id": "q87"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Estimating Square Roots",
+      "question": "To the nearest whole number, √700 is",
+      "options": [
+        "25",
+        "35",
+        "26",
+        "27"
+      ],
+      "answer": 2,
+      "explanation": "26² = 676 and 27² = 729. 700 is 24 above 676 and 29 below 729, so it is nearer 26. (35 is 700 ÷ 20, not a root.)",
+      "source": "text:page10 (applied)",
+      "id": "q88"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Estimating Square Roots",
+      "question": "To the nearest whole number, √1500 is",
+      "options": [
+        "38",
+        "37",
+        "40",
+        "39"
+      ],
+      "answer": 3,
+      "explanation": "38² = 1444 and 39² = 1521. 1500 is 56 above 1444 but only 21 below 1521, so it rounds to 39.",
+      "source": "text:page10 (applied)",
+      "id": "q89"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Estimating Square Roots",
+      "question": "Because 1936 ends in 6, its square root must be 46.",
+      "answer": false,
+      "explanation": "False. A final digit of 6 only narrows the root to 44 or 46. Since 45² = 2025 > 1936, the root is below 45, so √1936 = 44.",
+      "source": "text:page9",
+      "id": "q90"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Estimating Square Roots",
+      "question": "Select the TRUE statements about √250.",
+      "options": [
+        "It lies between 15 and 16",
+        "It is closer to 16 than to 15",
+        "It equals 15.5 exactly",
+        "It lies between 20 and 30"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "225 < 250 < 256 puts the root between 15 and 16, and 250 is nearer 256, so it is nearer 16. It is not exactly 15.5 (15.5² = 240.25) and it is below 20 since 20² = 400.",
+      "source": "text:page10",
+      "id": "q91"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cubic Numbers",
+      "question": "How many cubes of side 1 cm are needed to make a cube of side 3 cm?",
+      "options": [
+        "81",
+        "27",
+        "9",
+        "18"
+      ],
+      "answer": 1,
+      "explanation": "3 × 3 × 3 = 27: three layers, each a 3 × 3 square of 9 unit cubes. 9 is one layer; 81 is 3⁴.",
+      "source": "text:page11",
+      "id": "q92"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cubic Numbers",
+      "question": "A cube of edge 4 units contains 64 unit cubes because",
+      "options": [
+        "4 is added 16 times to count every cube in the solid",
+        "each layer has 4 cubes and there are 16 such layers",
+        "each layer has 4 × 4 = 16 cubes and there are 4 layers",
+        "it has 6 faces with 4 cubes each, plus cubes inside"
+      ],
+      "answer": 2,
+      "explanation": "Layer by layer: a 4 × 4 square of 16 unit cubes, stacked 4 high, gives 4 × 4 × 4 = 64.",
+      "source": "text:page12",
+      "id": "q93"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cubic Numbers",
+      "question": "12³ equals",
+      "options": [
+        "1738",
+        "1728",
+        "1444",
+        "1278"
+      ],
+      "answer": 1,
+      "explanation": "12 × 12 = 144 and 144 × 12 = 1728. 1444 is 38², and 1278 just rearranges digits.",
+      "source": "text:page12 (table)",
+      "id": "q94"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cubic Numbers",
+      "question": "Which digits can appear in the units place of a perfect cube?",
+      "options": [
+        "Only 0, 1, 4, 5, 6 and 9",
+        "Only 1, 4, 5, 6, 7 and 8",
+        "Only 0 and the odd digits",
+        "Any digit from 0 to 9"
+      ],
+      "answer": 3,
+      "explanation": "Cubing 0–9 gives last digits 0, 1, 8, 7, 4, 5, 6, 3, 2, 9 — every digit occurs. Unlike squares, no digit is ruled out.",
+      "source": "text:page13",
+      "id": "q95"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cubic Numbers",
+      "question": "(−6)³ equals",
+      "options": [
+        "−216",
+        "216",
+        "−36",
+        "−18"
+      ],
+      "answer": 0,
+      "explanation": "(−6) × (−6) = 36 and 36 × (−6) = −216. An odd number of negative factors keeps the sign negative, unlike (−6)² = 36.",
+      "source": "text:page13",
+      "id": "q96"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cubic Numbers",
+      "question": "How many perfect cubes have exactly 3 digits?",
+      "options": [
+        "6",
+        "9",
+        "5",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "125, 216, 343, 512 and 729 (cubes of 5 to 9). 64 has two digits and 1000 has four.",
+      "source": "text:page13",
+      "id": "q97"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Cubic Numbers",
+      "question": "No number from 10 to 26 is a perfect cube.",
+      "answer": true,
+      "explanation": "True. 2³ = 8 and 3³ = 27, so there are no cubes between them.",
+      "source": "text:page12",
+      "id": "q98"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Cubic Numbers",
+      "question": "A perfect cube can end with exactly two zeros.",
+      "answer": false,
+      "explanation": "False. Each trailing zero of a number becomes three in its cube (10³ = 1000), so cubes end in 0, 3, 6, 9, … zeros — never exactly two.",
+      "source": "text:page13",
+      "id": "q99"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cubic Numbers",
+      "question": "Why can a perfect cube never end with exactly two zeros?",
+      "options": [
+        "A cube can never end with the digit zero at all",
+        "Cubes of even numbers always end in the digit 8",
+        "Trailing zeros of a cube always come in pairs",
+        "Trailing zeros of a cube come in groups of three"
+      ],
+      "answer": 3,
+      "explanation": "n = a × 10ᵏ gives n³ = a³ × 10³ᵏ, so the count of trailing zeros is a multiple of 3 (0, 3, 6, …). Pairs of zeros belong to squares.",
+      "source": "text:page13",
+      "id": "q100"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cubic Numbers",
+      "question": "Which statement about cubes is NOT correct?",
+      "options": [
+        "The cube of a 2-digit number may be a 3-digit number",
+        "The cube of an odd number is always an odd number",
+        "A perfect cube may end with the digit 8, like 2³",
+        "The cube of a negative number is always negative"
+      ],
+      "answer": 0,
+      "explanation": "The smallest 2-digit number is 10 and 10³ = 1000 already has 4 digits, so a 2-digit cube has 4 to 6 digits (99³ = 970299). The other statements are true.",
+      "source": "exercise:Q3",
+      "id": "q101"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cubic Numbers",
+      "question": "Which is the greatest: 67³ − 66³, 43³ − 42³, 67² − 66² or 43² − 42²?",
+      "options": [
+        "43² − 42²",
+        "67³ − 66³",
+        "43³ − 42³",
+        "67² − 66²"
+      ],
+      "answer": 1,
+      "explanation": "Consecutive cubes differ far more than consecutive squares, and the gap grows with size: 67³ − 66³ = 13267, 43³ − 42³ = 5419, 67² − 66² = 133, 43² − 42² = 85.",
+      "source": "exercise:Q5",
+      "id": "q102"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cube Roots & Prime Factorisation",
+      "question": "3375 = 3 × 3 × 3 × 5 × 5 × 5. Therefore ∛3375 =",
+      "options": [
+        "25",
+        "35",
+        "15",
+        "45"
+      ],
+      "answer": 2,
+      "explanation": "Split into three identical groups: (3 × 5) × (3 × 5) × (3 × 5) = 15³, so the cube root is 15.",
+      "source": "text:page14",
+      "id": "q103"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cube Roots & Prime Factorisation",
+      "question": "Why is 500 = 2 × 2 × 5 × 5 × 5 NOT a perfect cube?",
+      "options": [
+        "The three 5s appear too many times",
+        "500 is even, and cubes are never even",
+        "It has only two different prime factors",
+        "The two 2s cannot form a group of three"
+      ],
+      "answer": 3,
+      "explanation": "A cube needs every prime in triplets. The 5s form a triplet, but only two 2s are present. Having two primes is fine (3375 = 3³ × 5³).",
+      "source": "text:page14",
+      "id": "q104"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cube Roots & Prime Factorisation",
+      "question": "∛27000 equals",
+      "options": [
+        "90",
+        "3",
+        "30",
+        "300"
+      ],
+      "answer": 2,
+      "explanation": "27000 = 27 × 1000 = 3³ × 10³ = 30³. Three trailing zeros in the number become one zero in the root.",
+      "source": "exercise:Q1",
+      "id": "q105"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cube Roots & Prime Factorisation",
+      "question": "∛10648 equals",
+      "options": [
+        "23",
+        "21",
+        "28",
+        "22"
+      ],
+      "answer": 3,
+      "explanation": "10648 ends in 8, so the root ends in 2 (2³ = 8). Also 8 < 10.648 < 27 puts the tens digit at 2. Check: 22³ = 10648.",
+      "source": "exercise:Q1",
+      "id": "q106"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cube Roots & Prime Factorisation",
+      "question": "1323 = 3³ × 7². By what smallest number should 1323 be multiplied to make it a perfect cube?",
+      "options": [
+        "7",
+        "3",
+        "49",
+        "21"
+      ],
+      "answer": 0,
+      "explanation": "The 3s already form a triplet; the 7s need one more to make 7³. 1323 × 7 = 9261 = 21³.",
+      "source": "exercise:Q2",
+      "id": "q107"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cube Roots & Prime Factorisation",
+      "question": "Compared with the number itself, each prime factor appears in the prime factorisation of its cube",
+      "options": [
+        "three more times in all",
+        "three times as often",
+        "two times as often",
+        "equally often as before"
+      ],
+      "answer": 1,
+      "explanation": "6 = 2 × 3 gives 6³ = 2³ × 3³; 12 = 2² × 3 gives 12³ = 2⁶ × 3³. Every exponent is multiplied by 3, not increased by 3.",
+      "source": "text:page15",
+      "id": "q108"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cube Roots & Prime Factorisation",
+      "question": "You are told 1331 is a perfect cube. Without factorising, its cube root is",
+      "options": [
+        "21",
+        "13",
+        "31",
+        "11"
+      ],
+      "answer": 3,
+      "explanation": "1331 ends in 1, so the root ends in 1; and 1 < 1.331 < 8 means the tens digit is 1. So ∛1331 = 11.",
+      "source": "exercise:Q4",
+      "id": "q109"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cube Roots & Prime Factorisation",
+      "question": "∛4913 equals",
+      "options": [
+        "17",
+        "13",
+        "23",
+        "27"
+      ],
+      "answer": 0,
+      "explanation": "4913 ends in 3; only 7³ = 343 ends in 3, so the root ends in 7. Since 1 < 4.913 < 8, the tens digit is 1: the root is 17.",
+      "source": "exercise:Q4",
+      "id": "q110"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cube Roots & Prime Factorisation",
+      "question": "The smallest number by which 500 must be multiplied to get a perfect cube is",
+      "options": [
+        "5",
+        "10",
+        "2",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "500 = 2² × 5³ has only two 2s; one more 2 completes the triplet: 500 × 2 = 1000 = 10³. Multiplying by 4 gives 2000 = 2⁴ × 5³, not a cube.",
+      "source": "text:page14 (applied)",
+      "id": "q111"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Cube Roots & Prime Factorisation",
+      "question": "A number is a perfect cube if its prime factors can be split into three identical groups.",
+      "answer": true,
+      "explanation": "True. 3375 = (3 × 5) × (3 × 5) × (3 × 5) = 15³ is the chapter's example.",
+      "source": "text:page17",
+      "id": "q112"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cube Roots & Prime Factorisation",
+      "question": "'Cube numbers have an odd number of factors.' Which judgement is correct?",
+      "options": [
+        "True; every cube is also a perfect square",
+        "True; 27 has three factors: 1, 3, 27",
+        "False; every cube has exactly three factors",
+        "False; 8 has four factors: 1, 2, 4, 8"
+      ],
+      "answer": 3,
+      "explanation": "Only perfect squares have an odd number of factors. 8 has 4 factors and 27 has 4 (1, 3, 9, 27). Some cubes, like 64 = 8², happen to be squares too, but not all.",
+      "source": "exercise:Q3(v)",
+      "id": "q113"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cube Patterns & Taxicab Numbers",
+      "question": "7 + 9 + 11 = 27 = 3³. Which sum of consecutive odd numbers gives 4³?",
+      "options": [
+        "13 + 15 + 17 + 19",
+        "15 + 17 + 19 + 21",
+        "11 + 13 + 15 + 17",
+        "13 + 15 + 17 + 18"
+      ],
+      "answer": 0,
+      "explanation": "n³ is a sum of n consecutive odd numbers, continuing where the previous group stopped: after 11 come 13, 15, 17, 19 and 13 + 15 + 17 + 19 = 64 = 4³.",
+      "source": "text:page14",
+      "id": "q114"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cube Patterns & Taxicab Numbers",
+      "question": "91 + 93 + 95 + … + 109 (ten consecutive odd numbers) equals",
+      "options": [
+        "10000",
+        "1000",
+        "900",
+        "1100"
+      ],
+      "answer": 1,
+      "explanation": "In the pattern 1, 3+5, 7+9+11, … the group of 10 odd numbers sums to 10³ = 1000. Quick check: ten numbers averaging 100 give 1000.",
+      "source": "text:page14",
+      "id": "q115"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cube Patterns & Taxicab Numbers",
+      "question": "1729 is called the Hardy–Ramanujan number because",
+      "options": [
+        "it was the number of Ramanujan's hospital room in Cambridge",
+        "it is the smallest number that is a sum of two squares in two ways",
+        "Hardy proved that it was the largest possible taxicab number",
+        "it is the smallest number that is a sum of two cubes in two ways"
+      ],
+      "answer": 3,
+      "explanation": "Hardy's taxi was numbered 1729; Ramanujan instantly noted 1729 = 1³ + 12³ = 9³ + 10³, the smallest such number.",
+      "source": "text:page13",
+      "id": "q116"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cube Patterns & Taxicab Numbers",
+      "question": "The taxicab number 4104 can be written as",
+      "options": [
+        "3³ + 15³ = 8³ + 16³",
+        "2³ + 16³ = 9³ + 15³",
+        "4³ + 16³ = 9³ + 15³",
+        "2³ + 16³ = 10³ + 14³"
+      ],
+      "answer": 1,
+      "explanation": "8 + 4096 = 4104 and 729 + 3375 = 4104. The alternatives fail: 64 + 4096 = 4160, 1000 + 2744 = 3744, 27 + 3375 = 3402.",
+      "source": "text:page13 (Try This)",
+      "id": "q117"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cube Patterns & Taxicab Numbers",
+      "question": "The taxicab number 13832 can be written as",
+      "options": [
+        "4³ + 24³ = 18³ + 20³",
+        "3³ + 23³ = 18³ + 20³",
+        "2³ + 24³ = 18³ + 20³",
+        "2³ + 24³ = 16³ + 22³"
+      ],
+      "answer": 2,
+      "explanation": "8 + 13824 = 13832 and 5832 + 8000 = 13832. Check the others: 4096 + 10648 = 14744, 64 + 13824 = 13888, 27 + 12167 = 12194.",
+      "source": "text:page13 (Try This)",
+      "id": "q118"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cube Patterns & Taxicab Numbers",
+      "question": "For perfect squares, the successive differences become constant after how many levels, and with what value?",
+      "options": [
+        "1 level, value 2",
+        "2 levels, value 3",
+        "3 levels, value 6",
+        "2 levels, value 2"
+      ],
+      "answer": 3,
+      "explanation": "Level 1 differences are 3, 5, 7, 9, … and level 2 differences are all 2.",
+      "source": "text:page15",
+      "id": "q119"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cube Patterns & Taxicab Numbers",
+      "question": "For perfect cubes 1, 8, 27, 64, 125, 216 the successive differences become constant at",
+      "options": [
+        "level 3, with value 6",
+        "level 2, with value 6",
+        "level 3, with value 12",
+        "level 2, with value 12"
+      ],
+      "answer": 0,
+      "explanation": "Level 1: 7, 19, 37, 61, 91. Level 2: 12, 18, 24, 30. Level 3: 6, 6, 6. One extra level compared with squares, and the constant is 3! = 6.",
+      "source": "text:page15",
+      "id": "q120"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Cube Patterns & Taxicab Numbers",
+      "question": "Taxicab numbers are numbers that can be expressed as the sum of two cubes in two different ways.",
+      "answer": true,
+      "explanation": "True. 1729, 4104 and 13832 are the first three; the name comes from Hardy's taxi numbered 1729.",
+      "source": "text:page13",
+      "id": "q121"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Cube Patterns & Taxicab Numbers",
+      "question": "Hardy told Ramanujan that 1729 was a very interesting number.",
+      "answer": false,
+      "explanation": "False. Hardy called 1729 'rather a dull number'; it was Ramanujan who replied that it was very interesting.",
+      "source": "text:page13",
+      "id": "q122"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cube Patterns & Taxicab Numbers",
+      "question": "67² − 66² equals",
+      "options": [
+        "131",
+        "67",
+        "1",
+        "133"
+      ],
+      "answer": 3,
+      "explanation": "The difference of consecutive squares is the next odd number, 2n − 1 with n = 67, i.e. 133 = 67 + 66.",
+      "source": "exercise:Q5",
+      "id": "q123"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Cube Patterns & Taxicab Numbers",
+      "question": "Select all the expressions equal to 1729.",
+      "options": [
+        "1³ + 12³",
+        "9³ + 10³",
+        "8³ + 11³",
+        "7³ + 11³"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "1 + 1728 = 1729 and 729 + 1000 = 1729. 8³ + 11³ = 1843 and 7³ + 11³ = 1674.",
+      "source": "text:page13",
+      "id": "q124"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Squares & Roots",
+      "question": "The first known lists of perfect squares and cubes, from around 1700 BCE, were compiled by",
+      "options": [
+        "the Babylonians",
+        "ancient Greeks",
+        "ancient Egyptians",
+        "ancient Romans"
+      ],
+      "answer": 0,
+      "explanation": "Babylonian clay tablets listed squares and cubes to speed up finding square and cube roots.",
+      "source": "text:page15",
+      "id": "q125"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Squares & Roots",
+      "question": "In ancient Sanskrit works, the term varga was used for",
+      "options": [
+        "only the root of a plant and the root of a number",
+        "only the fourth power, called the square of a square",
+        "both the square figure (or its area) and the square power",
+        "only the solid cube and the third power of a number"
+      ],
+      "answer": 2,
+      "explanation": "Varga meant the square figure, its area and also the square of a number — showing the square power has its origin in the geometric square.",
+      "source": "text:page16",
+      "id": "q126"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "History of Squares & Roots",
+      "question": "The fourth power of a number was called",
+      "options": [
+        "varga-varga",
+        "ghana-ghana",
+        "varga-mula",
+        "ghana-mula"
+      ],
+      "answer": 0,
+      "explanation": "Varga-varga (square of the square) is the fourth power. Varga-mula and ghana-mula mean square root and cube root.",
+      "source": "text:page16",
+      "id": "q127"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Squares & Roots",
+      "question": "Why is the word 'root' used for the mathematical operation √?",
+      "options": [
+        "The Arabic word jidhr simply means 'a whole number'",
+        "Sanskrit mula, a plant's root, was also used for roots",
+        "Roots of plants branch out in square-shaped patterns",
+        "The Latin word radix originally meant 'a square figure'"
+      ],
+      "answer": 1,
+      "explanation": "Mula meant root, basis, origin. Arabic (jidhr) and Latin (radix) later copied this plant-root metaphor.",
+      "source": "text:page16",
+      "id": "q128"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "History of Squares & Roots",
+      "question": "Varga-mula and ghana-mula mean, respectively,",
+      "options": [
+        "cube root and square root",
+        "fourth power and cube",
+        "square root and cube root",
+        "square power and cube"
+      ],
+      "answer": 2,
+      "explanation": "Mula = root; varga = square; ghana = cube. So varga-mula is the square root and ghana-mula the cube root.",
+      "source": "text:page16",
+      "id": "q129"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "History of Squares & Roots",
+      "question": "The Arabic and Latin words that copied the Sanskrit use of mula for 'root' are",
+      "options": [
+        "radix and varga",
+        "jidhr and ghana",
+        "pada and radix",
+        "jidhr and radix"
+      ],
+      "answer": 3,
+      "explanation": "Arabic jidhr and Latin radix both mean the root of a plant and were used for mathematical roots. Pada is another Sanskrit word for root.",
+      "source": "text:page16",
+      "id": "q130"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "History of Squares & Roots",
+      "question": "Aryabhata (499 CE) stated that",
+      "options": [
+        "the product of two equal quantities is also called varga",
+        "the pada of a krti is that of which it is a square",
+        "1729 is the sum of two cubes in two different ways",
+        "every perfect square is a sum of consecutive odd numbers"
+      ],
+      "answer": 0,
+      "explanation": "Aryabhata: 'A square figure of four equal sides and the number representing its area are called varga. The product of two equal quantities is also called varga.' The pada statement is Brahmagupta's.",
+      "source": "text:page16",
+      "id": "q131"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "History of Squares & Roots",
+      "question": "Brahmagupta (628 CE) explained that",
+      "options": [
+        "mula, the root of a plant, is also used for the square root",
+        "the pada (root) of a krti (square) is that of which it is a square",
+        "a varga is a square figure of four equal sides and its area",
+        "a ghana is both a solid cube and the third power of a number"
+      ],
+      "answer": 1,
+      "explanation": "Brahmagupta's definition of the root uses pada (foot, basis): the root of a square is the number of which it is the square. The varga definition belongs to Aryabhata.",
+      "source": "text:page16",
+      "id": "q132"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "History of Squares & Roots",
+      "question": "The terms varga and ghana were used in India at least from the third century CE.",
+      "answer": false,
+      "explanation": "False. They were used at least from the third century BCE — several hundred years earlier than 'CE' would suggest.",
+      "source": "text:page16",
+      "id": "q133"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "History of Squares & Roots",
+      "question": "Which of these words were used for a mathematical ROOT? Select all that apply.",
+      "options": [
+        "mula",
+        "pada",
+        "varga",
+        "ghana",
+        "krti"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Mula and pada both meant root (basis, origin). Varga and krti mean square, and ghana means cube.",
+      "source": "text:page16",
+      "id": "q134"
+    }
+  ]
+}

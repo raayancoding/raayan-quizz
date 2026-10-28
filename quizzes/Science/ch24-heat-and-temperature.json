@@ -1,0 +1,4111 @@
+{
+  "schemaVersion": 1,
+  "id": "science-ch24-heat-and-temperature",
+  "title": "Understanding Heat and Temperature",
+  "subject": "Science",
+  "grade": 4,
+  "sourceDir": "output/Science/24_Understanding-Heat-and-Temperature",
+  "chapter": "24. Understanding Heat and Temperature",
+  "topic": "Full Chapter",
+  "description": "What heat is, its natural and artificial sources, how heat moves (touch, moving matter, empty space), conductors and insulators, heat vs temperature, body temperature, everyday temperatures, seasons, farming and absolute zero.",
+  "tags": [
+    "science",
+    "grade4",
+    "heat",
+    "temperature",
+    "thermometer",
+    "conductors",
+    "insulators",
+    "seasons",
+    "greenhouse-effect"
+  ],
+  "questions": [
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What is Heat?",
+      "question": "Heat is a form of ___.",
+      "options": [
+        "energy",
+        "matter",
+        "light",
+        "sound"
+      ],
+      "answer": 0,
+      "explanation": "The book begins by saying that heat is a form of energy — the energy that makes things feel warm or hot.",
+      "source": "book:page2",
+      "id": "q1"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What is Heat?",
+      "question": "Every object around us is made of tiny particles that are too small to see. The book calls these particles:",
+      "options": [
+        "bubbles",
+        "molecules",
+        "crystals",
+        "droplets"
+      ],
+      "answer": 1,
+      "explanation": "The book says every object is made of tiny particles called molecules, which are always moving and bumping into each other.",
+      "source": "book:page2",
+      "id": "q2"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What is Heat?",
+      "question": "What are the tiny particles inside every object always doing?",
+      "options": [
+        "growing slowly bigger",
+        "melting away slowly",
+        "moving and vibrating",
+        "resting completely still"
+      ],
+      "answer": 2,
+      "explanation": "The particles are always moving, always vibrating and bumping into each other — even in cold objects.",
+      "source": "book:page2",
+      "id": "q3"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What is Heat?",
+      "question": "The faster the particles of an object move, the ___ the object gets.",
+      "options": [
+        "colder",
+        "heavier",
+        "darker",
+        "hotter"
+      ],
+      "answer": 3,
+      "explanation": "Faster-moving particles carry more energy, and more energy means the object is hotter.",
+      "source": "book:page2",
+      "id": "q4"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What is Heat?",
+      "question": "Two identical iron balls are at the same temperature, but one is much bigger. Which contains more heat energy?",
+      "options": [
+        "the bigger ball, because it has more particles",
+        "the smaller ball, because it is packed tighter",
+        "both the same, because the temperature is equal",
+        "neither, because iron cannot hold heat"
+      ],
+      "answer": 0,
+      "explanation": "The book says the more particles an object has, the more heat energy it contains. The bigger ball has more particles, so more heat — even at the same temperature.",
+      "source": "book:page2",
+      "id": "q5"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "What is Heat?",
+      "question": "In a block of ice, the tiny particles have stopped moving completely.",
+      "answer": false,
+      "explanation": "False. Even in a block of ice every particle is still moving, just very slowly. The colder something gets, the slower its particles move.",
+      "source": "book:page2",
+      "id": "q6"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "What is Heat?",
+      "question": "The colder something gets, the slower its particles move.",
+      "answer": true,
+      "explanation": "True. Cold objects have slow-moving particles; hot objects have fast-moving particles.",
+      "source": "book:page2",
+      "id": "q7"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What is Heat?",
+      "question": "In which of these would the particles be moving the slowest?",
+      "options": [
+        "a kettle of boiling water",
+        "a block of ice",
+        "a cup of hot tea",
+        "a bowl of warm soup"
+      ],
+      "answer": 1,
+      "explanation": "Colder objects have slower particles. Ice is the coldest item listed, so its particles move the slowest.",
+      "source": "book:page2",
+      "id": "q8"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What is Heat?",
+      "question": "When you feel warmth from sunlight on a winter morning, how does that heat reach your skin?",
+      "options": [
+        "through the ground under your feet",
+        "only after the clouds pass it on",
+        "directly, with nothing carrying it",
+        "along copper wires from the Sun"
+      ],
+      "answer": 2,
+      "explanation": "The book says the Sun's heat reaches you 'without any wire or something carrying it' — it travels through empty space.",
+      "source": "book:page2",
+      "id": "q9"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What is Heat?",
+      "question": "After rubbing your palms together hard for 15 seconds, your cheeks feel warm when you press your palms on them. Why?",
+      "options": [
+        "your skin absorbed extra sunlight",
+        "your palms pulled cold out of your cheeks",
+        "blood stopped flowing to your hands",
+        "rubbing produced heat through friction"
+      ],
+      "answer": 3,
+      "explanation": "Rubbing two surfaces together creates friction, and friction produces heat. The warm palms then pass that heat to your cheeks.",
+      "source": "book:page2",
+      "id": "q10"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What is Heat?",
+      "question": "Predict: after rubbing a pencil eraser back and forth very fast on paper for 20 seconds, the eraser will feel",
+      "options": [
+        "warmer than before",
+        "colder than before",
+        "exactly the same",
+        "wet and sticky"
+      ],
+      "answer": 0,
+      "explanation": "Fast rubbing creates friction, which generates heat, so the eraser warms up — just like your palms did.",
+      "source": "book:page2",
+      "id": "q11"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "What is Heat?",
+      "question": "Select ALL the statements about heat that the book says are true.",
+      "options": [
+        "Heat is a form of energy.",
+        "Faster-moving particles make an object hotter.",
+        "Heat can be seen clearly with our eyes.",
+        "Particles stop moving in any cold object."
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Heat is energy carried by moving particles, and faster particles mean a hotter object. We cannot see heat (only feel it), and even cold particles keep moving, just slowly.",
+      "source": "book:page2",
+      "id": "q12"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What is Heat?",
+      "question": "Why does a hot object have more energy than the SAME object when it is cold?",
+      "options": [
+        "it has fewer particles",
+        "its particles are moving faster",
+        "it now has more particles",
+        "its particles have grown larger"
+      ],
+      "answer": 1,
+      "explanation": "The number of particles in the same object has not changed. What changed is the speed of the particles — faster particles carry more energy.",
+      "source": "book:page2",
+      "id": "q13"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "What is Heat?",
+      "question": "People named and measured heat long before any living creature depended on it.",
+      "answer": false,
+      "explanation": "False. The book says the opposite: long before anyone gave heat a name or measured it, every living creature on Earth already depended on it to survive.",
+      "source": "book:page2",
+      "id": "q14"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What is Heat?",
+      "question": "Which of these can we NOT do with heat, according to the book?",
+      "options": [
+        "generate it",
+        "measure it",
+        "see it",
+        "feel it"
+      ],
+      "answer": 2,
+      "explanation": "The book says we cannot see heat or hold it, but we can feel it, generate it and measure it (as temperature).",
+      "source": "book:page13",
+      "id": "q15"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What is Heat?",
+      "question": "The book says 'the more energy the particles carry, the hotter the object gets'. Which everyday change shows particles gaining energy?",
+      "options": [
+        "juice cooling in a fridge",
+        "ice staying frozen in a freezer",
+        "soup cooling on a table",
+        "water in a kettle warming up"
+      ],
+      "answer": 3,
+      "explanation": "Only the kettle water is getting hotter, which means its particles are moving faster and carrying more energy. The others are cooling or staying cold.",
+      "source": "book:page2",
+      "id": "q16"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Natural Sources of Heat",
+      "question": "Which of the following is the greatest natural source of heat for the Earth?",
+      "options": [
+        "the Sun",
+        "lightning",
+        "the Earth's core",
+        "friction"
+      ],
+      "answer": 0,
+      "explanation": "The Sun is the greatest natural source of heat for our planet; all life on Earth depends on its warmth.",
+      "source": "book:page3, book:page21 A1",
+      "id": "q17"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Natural Sources of Heat",
+      "question": "Just like light, heat has two kinds of sources. They are:",
+      "options": [
+        "nearby and faraway",
+        "natural and artificial",
+        "solid, liquid and gas",
+        "very hot and cold"
+      ],
+      "answer": 1,
+      "explanation": "Heat sources are either natural (occurring on their own) or artificial (human-made).",
+      "source": "book:page3",
+      "id": "q18"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Natural Sources of Heat",
+      "question": "Which animals generate heat from within their own bodies?",
+      "options": [
+        "lizards and snakes",
+        "frogs and lizards",
+        "mammals and birds",
+        "fish and frogs"
+      ],
+      "answer": 2,
+      "explanation": "Mammals and birds make heat inside their bodies as a natural result of their life processes.",
+      "source": "book:page3",
+      "id": "q19"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Natural Sources of Heat",
+      "question": "Fish, frogs and lizards get most of their body heat from",
+      "options": [
+        "the food they digest",
+        "their flight muscles",
+        "shivering their legs",
+        "their surroundings"
+      ],
+      "answer": 3,
+      "explanation": "These animals do not make much heat themselves; they absorb it from warm rocks, sunlight and water around them.",
+      "source": "book:page3",
+      "id": "q20"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Natural Sources of Heat",
+      "question": "A lizard would most likely warm itself by",
+      "options": [
+        "lying on a warm rock in the sun",
+        "shivering its muscles quickly",
+        "growing a thick fur coat",
+        "sweating heavily in the shade"
+      ],
+      "answer": 0,
+      "explanation": "Lizards absorb heat from their surroundings — warm rocks, sunlight and water — rather than producing it inside.",
+      "source": "book:page3",
+      "id": "q21"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Natural Sources of Heat",
+      "question": "All living creatures make their own body heat.",
+      "answer": false,
+      "explanation": "False. All living creatures carry body heat, but not all make it themselves. Fish, frogs and lizards absorb heat from their surroundings.",
+      "source": "book:page3",
+      "id": "q22"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Natural Sources of Heat",
+      "question": "A bolt of lightning generates heat hotter than the surface of the Sun.",
+      "answer": true,
+      "explanation": "True. The book says a bolt of lightning generates enormous heat, hotter than the surface of the Sun.",
+      "source": "book:page3",
+      "id": "q23"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Natural Sources of Heat",
+      "question": "Lightning can naturally start",
+      "options": [
+        "geysers",
+        "forest fires",
+        "hot springs",
+        "ocean currents"
+      ],
+      "answer": 1,
+      "explanation": "Lightning can start forest fires, which the book describes as natural heat events.",
+      "source": "book:page3",
+      "id": "q24"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Natural Sources of Heat",
+      "question": "A forest fire started by a lightning strike is an example of",
+      "options": [
+        "geothermal energy",
+        "heat made by friction",
+        "a natural heat event",
+        "an artificial heat source"
+      ],
+      "answer": 2,
+      "explanation": "Nobody made the fire — lightning started it on its own — so it is a natural heat event.",
+      "source": "book:page3",
+      "id": "q25"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Natural Sources of Heat",
+      "question": "The thermal camera image in the book shows",
+      "options": [
+        "light reflected off their mirrors",
+        "sounds made by talking people",
+        "water vapour floating in air",
+        "heat given off by human bodies"
+      ],
+      "answer": 3,
+      "explanation": "The caption says the thermal camera is detecting the heat naturally generated by human bodies.",
+      "source": "book:page3",
+      "id": "q26"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Natural Sources of Heat",
+      "question": "Select ALL the natural sources of heat.",
+      "options": [
+        "the Sun",
+        "lightning",
+        "a gas stove",
+        "an electric oven"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The Sun and lightning occur on their own, so they are natural. Gas stoves and electric ovens are human-made (artificial).",
+      "source": "book:page3, book:page5",
+      "id": "q27"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Natural Sources of Heat",
+      "question": "According to the book, where does ALL heat ultimately come from?",
+      "options": [
+        "energy released or transferred",
+        "air being squeezed together",
+        "water being frozen into ice",
+        "light being blocked by clouds"
+      ],
+      "answer": 0,
+      "explanation": "The book says all heat ultimately comes from energy being released or transferred.",
+      "source": "book:page3",
+      "id": "q28"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Natural Sources of Heat",
+      "question": "The book compares the sources of heat with the sources of which other thing?",
+      "options": [
+        "wind",
+        "light",
+        "sound",
+        "water"
+      ],
+      "answer": 1,
+      "explanation": "It says 'Just like light, heat has both natural and human-made (artificial) sources.'",
+      "source": "book:page3",
+      "id": "q29"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Natural Sources of Heat",
+      "question": "Which statement about living bodies as a heat source is correct?",
+      "options": [
+        "fish make heat by burning fuel inside them",
+        "lizards make heat even without any sunlight",
+        "mammals make heat as a result of their life processes",
+        "frogs make heat by vibrating flight muscles"
+      ],
+      "answer": 2,
+      "explanation": "Only mammals and birds generate heat from within. Frogs, fish and lizards absorb heat from their surroundings.",
+      "source": "book:page3",
+      "id": "q30"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Natural Sources of Heat",
+      "question": "All life on Earth depends on the warmth the Sun provides.",
+      "answer": true,
+      "explanation": "True. The book states that all life on Earth depends on the warmth the Sun provides.",
+      "source": "book:page3",
+      "id": "q31"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Natural Sources of Heat",
+      "question": "Which of these is NOT a natural source of heat?",
+      "options": [
+        "a bolt of lightning",
+        "a warm mammal's body",
+        "a forest fire from lightning",
+        "a campfire lit for cooking"
+      ],
+      "answer": 3,
+      "explanation": "A campfire is created by humans, so it is an artificial source. The others occur on their own.",
+      "source": "book:page3, book:page5",
+      "id": "q32"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Geothermal Energy",
+      "question": "The heat deep inside the Earth is called",
+      "options": [
+        "geothermal energy",
+        "solar energy",
+        "electrical energy",
+        "friction energy"
+      ],
+      "answer": 0,
+      "explanation": "'Geothermal' means heat from the Earth — the very hot interior of our planet.",
+      "source": "book:page4",
+      "id": "q33"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Geothermal Energy",
+      "question": "The city of Beppu in Japan has over how many hot springs?",
+      "options": [
+        "20,000",
+        "2,000",
+        "200",
+        "20"
+      ],
+      "answer": 1,
+      "explanation": "The book says Beppu has over 2,000 hot springs, with hot water and steam coming up from deep underground.",
+      "source": "book:page4",
+      "id": "q34"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Geothermal Energy",
+      "question": "Which of these is NOT a use of hot-spring heat mentioned for the people of Beppu?",
+      "options": [
+        "bathing",
+        "warming their homes",
+        "running their cars",
+        "cooking"
+      ],
+      "answer": 2,
+      "explanation": "The book lists cooking, bathing and warming homes as uses of Beppu's free heat. Running cars is not mentioned.",
+      "source": "book:page4",
+      "id": "q35"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Geothermal Energy",
+      "question": "Hot water shooting up out of the ground is called a",
+      "options": [
+        "hot spring",
+        "volcano",
+        "glacier",
+        "geyser"
+      ],
+      "answer": 3,
+      "explanation": "A geyser is hot water shooting up from the ground; a hot spring is a natural pool of warm water.",
+      "source": "book:page4",
+      "id": "q36"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Geothermal Energy",
+      "question": "A natural pool of warm water is called a",
+      "options": [
+        "a hot spring",
+        "a tall geyser",
+        "an active volcano",
+        "a rock pool"
+      ],
+      "answer": 0,
+      "explanation": "The book defines hot springs as natural pools of warm water.",
+      "source": "book:page4",
+      "id": "q37"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Geothermal Energy",
+      "question": "Volcanoes are an everyday source of usable geothermal energy.",
+      "answer": false,
+      "explanation": "False. Volcanoes ARE sources of geothermal energy, but the book says they are not an everyday source of usable geothermal energy.",
+      "source": "book:page4",
+      "id": "q38"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Geothermal Energy",
+      "question": "Puga Valley, where India's geothermal heat escapes through hot springs, is in",
+      "options": [
+        "Assam",
+        "Ladakh",
+        "Kerala",
+        "Gujarat"
+      ],
+      "answer": 1,
+      "explanation": "In Puga Valley, Ladakh, heat trapped inside the Earth escapes naturally through hot springs and geysers.",
+      "source": "book:page4",
+      "id": "q39"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Geothermal Energy",
+      "question": "ONGC stands for",
+      "options": [
+        "Open Natural Gas Council",
+        "Oil and Nuclear Grid Corporation",
+        "Oil and Natural Gas Corporation",
+        "Ocean and National Geyser Company"
+      ],
+      "answer": 2,
+      "explanation": "ONGC is the Oil and Natural Gas Corporation, which is building India's first geothermal energy project.",
+      "source": "book:page4",
+      "id": "q40"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Geothermal Energy",
+      "question": "What is the aim of ONGC's project in Puga Valley?",
+      "options": [
+        "pipe hot water all the way to Delhi homes",
+        "cool the whole valley in summer",
+        "bottle the spring water to sell",
+        "turn underground heat into electricity"
+      ],
+      "answer": 3,
+      "explanation": "ONGC is building India's first geothermal energy project to turn the underground heat into clean electricity.",
+      "source": "book:page4",
+      "id": "q41"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Geothermal Energy",
+      "question": "India's first geothermal energy project is being built at",
+      "options": [
+        "Puga Valley",
+        "Beppu",
+        "the Pacific floor",
+        "Antarctica"
+      ],
+      "answer": 0,
+      "explanation": "Puga Valley in Ladakh is the site of India's first geothermal energy project.",
+      "source": "book:page4",
+      "id": "q42"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Geothermal Energy",
+      "question": "On the floor of the Pacific Ocean, boiling hot water shoots from cracks in a place where",
+      "options": [
+        "the air is very thin",
+        "no sunlight has ever reached",
+        "sunlight is at its strongest",
+        "the water is always frozen"
+      ],
+      "answer": 1,
+      "explanation": "These vents are in complete darkness on the ocean floor, where no sunlight has ever reached.",
+      "source": "book:page5",
+      "id": "q43"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Geothermal Energy",
+      "question": "Creatures living around deep-sea vents get their warmth from",
+      "options": [
+        "warm currents flowing down from above",
+        "friction between swimming fish",
+        "heat coming from inside the Earth",
+        "sunlight filtered through the water"
+      ],
+      "answer": 2,
+      "explanation": "The book asks where the heat comes from — it is geothermal heat from the Earth's interior, since no sunlight reaches there and the surface warmth never reaches the bottom.",
+      "source": "book:page5, book:page8",
+      "id": "q44"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Geothermal Energy",
+      "question": "Most of the ocean floor stays freezing cold even though the surface water above it is much warmer.",
+      "answer": true,
+      "explanation": "True. Apart from a few hot vents, most of the ocean floor is freezing cold, and the surface warmth never reaches the bottom.",
+      "source": "book:page8",
+      "id": "q45"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Geothermal Energy",
+      "question": "In which three forms does the Earth's inner heat show up at the surface, according to the book?",
+      "options": [
+        "rain, wind and thunder clouds",
+        "rivers, lakes and salty seas",
+        "lightning, fire and sunlight",
+        "hot springs, geysers and volcanoes"
+      ],
+      "answer": 3,
+      "explanation": "Geothermal heat sometimes comes to the surface as hot springs, geysers and volcanoes.",
+      "source": "book:page4",
+      "id": "q46"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Geothermal Energy",
+      "question": "The hot springs of Puga Valley are heated by sunlight trapped between the mountains.",
+      "answer": false,
+      "explanation": "False. They are heated by heat trapped deep inside the Earth (geothermal energy) escaping to the surface.",
+      "source": "book:page4",
+      "id": "q47"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Geothermal Energy",
+      "question": "Why is the heat used in Beppu described as 'free'?",
+      "options": [
+        "it rises naturally from underground",
+        "the government pays for all of it",
+        "it is made by giant solar panels",
+        "it comes from burning dry wood"
+      ],
+      "answer": 0,
+      "explanation": "Hot water and steam come up from deep underground on their own, so people use this heat without producing it.",
+      "source": "book:page4",
+      "id": "q48"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Artificial Sources of Heat",
+      "question": "Gas stoves and campfires produce heat by",
+      "options": [
+        "absorbing sunlight",
+        "burning fuel",
+        "rubbing surfaces",
+        "using electricity"
+      ],
+      "answer": 1,
+      "explanation": "All human-made fires, like gas stoves and campfires, produce heat by burning fuel.",
+      "source": "book:page5",
+      "id": "q49"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Artificial Sources of Heat",
+      "question": "Fire counts as an ARTIFICIAL source of heat when",
+      "options": [
+        "a volcano throws out hot lava",
+        "the Sun heats up a dark rock",
+        "humans make it for cooking or warmth",
+        "lightning strikes a dry tree"
+      ],
+      "answer": 2,
+      "explanation": "Fire can be natural (lightning, forest fires) or artificial — when humans make it for cooking, warmth and so on.",
+      "source": "book:page5",
+      "id": "q50"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Artificial Sources of Heat",
+      "question": "When you rub your hands together, the heat is created by",
+      "options": [
+        "radiation",
+        "convection",
+        "electricity",
+        "friction"
+      ],
+      "answer": 3,
+      "explanation": "Friction between the two rubbing surfaces creates heat.",
+      "source": "book:page5",
+      "id": "q51"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Artificial Sources of Heat",
+      "question": "Without a matchbox or lighter, campers and hikers start a fire by using",
+      "options": [
+        "friction to create sparks",
+        "sunlight through ice",
+        "a small electric heater",
+        "water from a hot spring"
+      ],
+      "answer": 0,
+      "explanation": "Campers, hikers and soldiers use friction to create sparks and start a fire in the wild.",
+      "source": "book:page5",
+      "id": "q52"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Artificial Sources of Heat",
+      "question": "Our ancestors made fire by",
+      "options": [
+        "mixing sand and water together",
+        "rubbing two dry sticks together",
+        "striking metal lightning rods",
+        "boiling water very quickly"
+      ],
+      "answer": 1,
+      "explanation": "Rubbing two dry sticks together with enough speed and pressure generated heat through friction.",
+      "source": "book:page6",
+      "id": "q53"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Artificial Sources of Heat",
+      "question": "For rubbing sticks to make fire, the sticks had to be rubbed with",
+      "options": [
+        "a strong wind blowing",
+        "plenty of wet leaves",
+        "enough speed and pressure",
+        "cold water poured on them"
+      ],
+      "answer": 2,
+      "explanation": "The book says rubbing two dry sticks with enough speed and pressure generated enough heat to ignite dry grass.",
+      "source": "book:page6",
+      "id": "q54"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Artificial Sources of Heat",
+      "question": "The heat from rubbing sticks was enough to ignite",
+      "options": [
+        "wet leaves",
+        "river stones",
+        "metal spoons",
+        "dry grass"
+      ],
+      "answer": 3,
+      "explanation": "The friction heat was enough to ignite dry grass and make fire.",
+      "source": "book:page6",
+      "id": "q55"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Artificial Sources of Heat",
+      "question": "Which of these is NOT one of the four benefits of fire shown in the 'Discovery of Fire' box?",
+      "options": [
+        "measure temperature",
+        "cook food",
+        "stay warm in winter",
+        "light up darkness"
+      ],
+      "answer": 0,
+      "explanation": "The four benefits shown are: cook food, stay warm in winter, light up darkness and protect from predators.",
+      "source": "book:page6",
+      "id": "q56"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Artificial Sources of Heat",
+      "question": "Fire helped early people protect themselves from",
+      "options": [
+        "loud noises",
+        "predators",
+        "heavy rain",
+        "strong sunlight"
+      ],
+      "answer": 1,
+      "explanation": "One of the four benefits of fire was protection from predators.",
+      "source": "book:page6",
+      "id": "q57"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Artificial Sources of Heat",
+      "question": "Electric heaters, ovens, geysers and room heaters convert",
+      "options": [
+        "light energy into heat",
+        "sound energy into heat",
+        "electrical energy into heat",
+        "heat into electricity"
+      ],
+      "answer": 2,
+      "explanation": "Electrical appliances turn electrical energy into heat energy.",
+      "source": "book:page6",
+      "id": "q58"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Artificial Sources of Heat",
+      "question": "Traditional fire-making by friction is still taught as a survival skill today.",
+      "answer": true,
+      "explanation": "True. Even today, fire-making by friction is taught as a survival skill in many cultures.",
+      "source": "book:page6",
+      "id": "q59"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Artificial Sources of Heat",
+      "question": "Fire can only ever be a natural source of heat.",
+      "answer": false,
+      "explanation": "False. Fire is natural when started by lightning but artificial when humans make it, e.g. a gas stove or campfire.",
+      "source": "book:page5",
+      "id": "q60"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Artificial Sources of Heat",
+      "question": "Which of these is an artificial source of heat?",
+      "options": [
+        "a lightning bolt",
+        "the Sun",
+        "a volcano",
+        "a room heater"
+      ],
+      "answer": 3,
+      "explanation": "A room heater is human-made; lightning, the Sun and volcanoes occur naturally.",
+      "source": "book:page6",
+      "id": "q61"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Artificial Sources of Heat",
+      "question": "Which pair contains TWO artificial sources of heat?",
+      "options": [
+        "a gas stove and an electric oven",
+        "a lightning bolt and the Sun",
+        "a hot spring and a geyser",
+        "a volcano and a forest fire"
+      ],
+      "answer": 0,
+      "explanation": "Gas stoves and electric ovens are human-made. The other pairs are all natural sources.",
+      "source": "book:page5, book:page6",
+      "id": "q62"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Artificial Sources of Heat",
+      "question": "Why did the discovery of fire 'change everything' for early humans?",
+      "options": [
+        "it ended their need for the Sun's warmth",
+        "it gave warmth, cooked food, light and safety",
+        "it let them measure temperature exactly",
+        "it created the first electric heaters"
+      ],
+      "answer": 1,
+      "explanation": "With fire, people could cook food, stay warm in winter, light up the darkness and protect themselves from predators.",
+      "source": "book:page6",
+      "id": "q63"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Artificial Sources of Heat",
+      "question": "A 'geyser' in a bathroom is an electrical appliance, but a geyser in nature is hot water shooting up from the ground.",
+      "answer": true,
+      "explanation": "True. The book lists electric geysers among electrical appliances, and separately describes natural geysers as hot water shooting up from the ground.",
+      "source": "book:page4, book:page6",
+      "id": "q64"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Artificial Sources of Heat",
+      "question": "In the 'Sort it!' activity you write N or A under each picture. Under a picture of a lit gas stove you should write",
+      "options": [
+        "N, because gas comes from the ground",
+        "A, because the stove is metal",
+        "A, because people made the fire",
+        "N, because fire is always natural"
+      ],
+      "answer": 2,
+      "explanation": "A gas stove is a human-made (artificial) fire used for cooking, so it is marked A.",
+      "source": "book:page7",
+      "id": "q65"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Heat Flows from Hot to Cold",
+      "question": "Heat always flows",
+      "options": [
+        "from something cooler to something hotter",
+        "only through the air around objects",
+        "only through water and other liquids",
+        "from something hotter to something cooler"
+      ],
+      "answer": 3,
+      "explanation": "Heat always moves in one direction: from the hotter object to the cooler one, never the other way around.",
+      "source": "book:page8, book:page21 A2",
+      "id": "q66"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Heat Flows from Hot to Cold",
+      "question": "Heat stops flowing between two objects that are touching when",
+      "options": [
+        "both reach the same temperature",
+        "the hotter object becomes empty",
+        "the cooler object starts to melt",
+        "the air around them stops moving"
+      ],
+      "answer": 0,
+      "explanation": "Heat flows from hot to cold until both objects reach the same temperature.",
+      "source": "book:page8",
+      "id": "q67"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Heat Flows from Hot to Cold",
+      "question": "In the investigation, a spoon chilled in ice is placed in a cup of warm water. After a minute the spoon has",
+      "options": [
+        "frozen completely solid",
+        "become warmer",
+        "become even colder",
+        "stayed exactly the same"
+      ],
+      "answer": 1,
+      "explanation": "Heat flows from the warm water into the cold spoon, so the spoon warms up.",
+      "source": "book:page7",
+      "id": "q68"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Heat Flows from Hot to Cold",
+      "question": "In the same investigation, what happens to the warm water while the cold spoon sits in it?",
+      "options": [
+        "it starts boiling quickly",
+        "it does not change at all",
+        "it becomes a little cooler",
+        "it becomes much hotter"
+      ],
+      "answer": 2,
+      "explanation": "The water gives some of its heat to the spoon, so the water cools slightly while the spoon warms.",
+      "source": "book:page7",
+      "id": "q69"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Heat Flows from Hot to Cold",
+      "question": "In the spoon-and-cup investigation, heat travelled",
+      "options": [
+        "from the cool spoon to the warm water",
+        "from the cup into the ice",
+        "from the ice into the room",
+        "from the warm water to the cool spoon"
+      ],
+      "answer": 3,
+      "explanation": "Heat always moves from the hotter thing (warm water) to the cooler thing (cold spoon).",
+      "source": "book:page7",
+      "id": "q70"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Heat Flows from Hot to Cold",
+      "question": "If you waited long enough with the spoon in the cup, you would find that",
+      "options": [
+        "spoon and water reach the same temperature",
+        "the spoon becomes hotter than the water",
+        "the water turns back into ice",
+        "the spoon keeps getting hotter forever"
+      ],
+      "answer": 0,
+      "explanation": "Heat keeps flowing until both objects are at the same temperature, and then the flow stops.",
+      "source": "book:page7, book:page8",
+      "id": "q71"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Heat Flows from Hot to Cold",
+      "question": "Heat can sometimes flow on its own from a cold object to a hot object.",
+      "answer": false,
+      "explanation": "False. Heat flows from hotter to cooler, never the other way around.",
+      "source": "book:page8",
+      "id": "q72"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Heat Flows from Hot to Cold",
+      "question": "Heat is always on the move.",
+      "answer": true,
+      "explanation": "True. The book says heat is always on the move, flowing from hotter to cooler things.",
+      "source": "book:page8",
+      "id": "q73"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Heat Flows from Hot to Cold",
+      "question": "The three ways in which heat moves are through",
+      "options": [
+        "wind, rain, snow and sunshine",
+        "touch, moving matter, empty space",
+        "wires, pipes and water tubes",
+        "solid, liquid and gas states"
+      ],
+      "answer": 1,
+      "explanation": "The book describes heat moving through touch, through moving matter and through empty space.",
+      "source": "book:page8",
+      "id": "q74"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heat Flows from Hot to Cold",
+      "question": "You drop ice cubes into a glass of juice. In which direction does heat move?",
+      "options": [
+        "no heat moves at all",
+        "equally in both directions",
+        "from the juice into the ice",
+        "from the ice into the juice"
+      ],
+      "answer": 2,
+      "explanation": "The juice is warmer than the ice, so heat flows from the juice into the ice. That is why the juice gets colder and the ice melts.",
+      "source": "book:page8, book:page19",
+      "id": "q75"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heat Flows from Hot to Cold",
+      "question": "You press your hand on a cold metal bench. What is really happening?",
+      "options": [
+        "coldness flows from the bench into your hand",
+        "no heat moves between hand and bench",
+        "heat flows from the bench into your hand",
+        "heat leaves your hand and goes into the bench"
+      ],
+      "answer": 3,
+      "explanation": "Heat moves from hot to cold. Your hand is warmer than the bench, so heat flows out of your hand — there is no 'coldness' that flows.",
+      "source": "book:page8, book:page14",
+      "id": "q76"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heat Flows from Hot to Cold",
+      "question": "Which statement about heat flow is NOT true?",
+      "options": [
+        "it can only flow through air",
+        "it flows from hot to cold",
+        "it stops when temperatures are equal",
+        "it never flows from cold to hot"
+      ],
+      "answer": 0,
+      "explanation": "Heat flows through touch, through moving matter and through empty space — not only through air. The other three statements are correct.",
+      "source": "book:page8, book:page21 A2",
+      "id": "q77"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heat Flows from Hot to Cold",
+      "question": "A metal spoon in the sun gets hot in minutes, yet warm surface water never warms the deep ocean floor. The book uses this to suggest that",
+      "options": [
+        "metal cannot hold any heat for long",
+        "heat moves differently in different materials",
+        "heat never moves through water at all",
+        "sunlight is actually cold near water"
+      ],
+      "answer": 1,
+      "explanation": "The puzzle leads to the idea that heat travels more easily through some materials (like metal) than others.",
+      "source": "book:page8",
+      "id": "q78"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Heat Flows from Hot to Cold",
+      "question": "A hot cup of tea left on a table warms the air around it a little as it cools down.",
+      "answer": true,
+      "explanation": "True. The tea is hotter than the air, so heat flows from the tea to the air until they are at the same temperature.",
+      "source": "book:page8",
+      "id": "q79"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Heat Flows from Hot to Cold",
+      "question": "Which of these happens when a hot object and a cold object touch?",
+      "options": [
+        "both objects become much colder",
+        "nothing changes in either object",
+        "the hot one cools, the cold one warms",
+        "both objects become much hotter"
+      ],
+      "answer": 2,
+      "explanation": "Heat moves from the hotter object to the cooler one, so one cools while the other warms.",
+      "source": "book:page7, book:page8",
+      "id": "q80"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Conductors and Insulators",
+      "question": "When two objects are in contact and heat moves directly through the material, heat is moving",
+      "options": [
+        "through moving matter",
+        "through empty space",
+        "through sound waves",
+        "through touch"
+      ],
+      "answer": 3,
+      "explanation": "Heat moving through direct contact between objects is heat travelling 'through touch'.",
+      "source": "book:page8",
+      "id": "q81"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Conductors and Insulators",
+      "question": "Only the tip of a metal spoon is in hot tea, yet the handle soon becomes warm because",
+      "options": [
+        "heat travelled through the metal",
+        "hot air carried the heat upward",
+        "the tea climbed up the spoon",
+        "light from the tea warmed the handle"
+      ],
+      "answer": 0,
+      "explanation": "Heat moved along the metal from the hot end to the cool end.",
+      "source": "book:page8, book:page21 A3",
+      "id": "q82"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Conductors and Insulators",
+      "question": "Materials that let heat travel through them easily are called",
+      "options": [
+        "absorbers",
+        "conductors",
+        "insulators",
+        "reflectors"
+      ],
+      "answer": 1,
+      "explanation": "Conductors, like metals, let heat pass through them easily.",
+      "source": "book:page8, book:page21 B2",
+      "id": "q83"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Conductors and Insulators",
+      "question": "Materials that do NOT let heat pass through easily are called",
+      "options": [
+        "radiators",
+        "magnets",
+        "insulators",
+        "conductors"
+      ],
+      "answer": 2,
+      "explanation": "Insulators — such as wood, plastic and wool — do not let heat pass through easily.",
+      "source": "book:page8, book:page21 B3",
+      "id": "q84"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Conductors and Insulators",
+      "question": "Which of these is a good conductor of heat?",
+      "options": [
+        "a wooden ruler",
+        "a plastic cup",
+        "a woollen scarf",
+        "a steel spoon"
+      ],
+      "answer": 3,
+      "explanation": "Metals like steel are conductors. Wood, plastic and wool are insulators.",
+      "source": "book:page8",
+      "id": "q85"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Conductors and Insulators",
+      "question": "Which of these is NOT an insulator of heat?",
+      "options": [
+        "iron",
+        "wood",
+        "plastic",
+        "wool"
+      ],
+      "answer": 0,
+      "explanation": "Iron is a metal, and metals are conductors. Wood, plastic and wool are insulators.",
+      "source": "book:page8",
+      "id": "q86"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Conductors and Insulators",
+      "question": "A wooden spoon left in the same hot tea stays cool because",
+      "options": [
+        "wood soaks up all of the hot tea",
+        "wood does not pass heat along easily",
+        "wood is much colder than the tea",
+        "wood floats on top of the hot tea"
+      ],
+      "answer": 1,
+      "explanation": "Wood is an insulator — it doesn't pass heat energy along as easily as metal does.",
+      "source": "book:page8",
+      "id": "q87"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Conductors and Insulators",
+      "question": "A metal spoon and a wooden spoon sit in hot soup for the same time. Whose handle feels hotter?",
+      "options": [
+        "both handles feel equally hot",
+        "neither handle gets warm",
+        "the metal spoon's handle",
+        "the wooden spoon's handle"
+      ],
+      "answer": 2,
+      "explanation": "Metal is a conductor and carries heat up to the handle; wood is an insulator and stays cool.",
+      "source": "book:page23 F1a",
+      "id": "q88"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Conductors and Insulators",
+      "question": "Which material is better for the handle of a cooking pot, and why?",
+      "options": [
+        "metal, because it is a conductor",
+        "metal, because it is shiny",
+        "wood, because it is heavier",
+        "wood, because it is an insulator"
+      ],
+      "answer": 3,
+      "explanation": "A handle should stay cool to hold. Wood is an insulator and does not pass heat easily, so it is the better choice.",
+      "source": "book:page23 F1b",
+      "id": "q89"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Conductors and Insulators",
+      "question": "On a cold morning a metal bench feels much colder than a wooden bench, though both have been outside all morning. The best explanation is:",
+      "options": [
+        "heat leaves your hand faster into the metal",
+        "the metal bench has a lower temperature",
+        "the wooden bench has a higher temperature",
+        "the wooden bench gives off its own heat"
+      ],
+      "answer": 0,
+      "explanation": "Both benches are at the same temperature. Metal conducts heat away from your hand quickly, so it FEELS colder. The book's clue marks this as being about heat, not temperature.",
+      "source": "book:page14 clue4",
+      "id": "q90"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Conductors and Insulators",
+      "question": "Wood and plastic are good at letting heat pass through them quickly.",
+      "answer": false,
+      "explanation": "False. Wood and plastic are insulators — they do not let heat pass through easily.",
+      "source": "book:page22 C3",
+      "id": "q91"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Conductors and Insulators",
+      "question": "Wool is an insulator of heat.",
+      "answer": true,
+      "explanation": "True. The book lists wool with wood and plastic as insulators.",
+      "source": "book:page8",
+      "id": "q92"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Conductors and Insulators",
+      "question": "Select ALL the insulators.",
+      "options": [
+        "wool",
+        "plastic",
+        "copper",
+        "iron"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Wool and plastic do not let heat pass easily, so they are insulators. Copper and iron are metals — conductors.",
+      "source": "book:page8",
+      "id": "q93"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Conductors and Insulators",
+      "question": "In the matching exercise, 'Metal' matches with",
+      "options": [
+        "the greatest natural source of heat",
+        "lets heat travel through it very easily",
+        "does not let heat pass through easily",
+        "a device that tells how hot something is"
+      ],
+      "answer": 1,
+      "explanation": "Metal is a conductor, so it lets heat travel through it very easily.",
+      "source": "book:page22 D4",
+      "id": "q94"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Conductors and Insulators",
+      "question": "Why do we wear woollen clothes in winter?",
+      "options": [
+        "wool conducts heat into the body",
+        "wool reflects the sunlight away",
+        "wool keeps body heat from escaping",
+        "wool makes its own body heat"
+      ],
+      "answer": 2,
+      "explanation": "Wool is an insulator: it slows heat leaving the body, helping us conserve our own warmth.",
+      "source": "book:page8, book:page15",
+      "id": "q95"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Conductors and Insulators",
+      "question": "If one end of each object is held in hot tea, which would get warm at the other end fastest?",
+      "options": [
+        "a wooden stick",
+        "a plastic straw",
+        "a woollen thread",
+        "a steel fork"
+      ],
+      "answer": 3,
+      "explanation": "Steel is a metal and conducts heat quickly along its length. The others are insulators.",
+      "source": "book:page8",
+      "id": "q96"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Conductors and Insulators",
+      "question": "In the matching exercise, 'Wool / Plastic' matches with",
+      "options": [
+        "does not let heat pass through easily",
+        "lets heat travel through very easily",
+        "greatest natural source of heat",
+        "a device that tells how hot something is"
+      ],
+      "answer": 0,
+      "explanation": "Wool and plastic are insulators — they do not let heat pass through easily.",
+      "source": "book:page22 D3",
+      "id": "q97"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Conductors and Insulators",
+      "question": "A metal pan heats food quickly, but its metal handle can burn you. Which ONE property explains both facts?",
+      "options": [
+        "metal is always hot",
+        "metal is a conductor",
+        "metal is an insulator",
+        "metal is very heavy"
+      ],
+      "answer": 1,
+      "explanation": "Because metal conducts heat easily, it passes heat into the food quickly — and just as easily into the handle and your hand.",
+      "source": "book:page8, book:page23 F1",
+      "id": "q98"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Heat Through Moving Matter and Empty Space",
+      "question": "When air is heated, it",
+      "options": [
+        "stays still",
+        "disappears",
+        "rises",
+        "sinks"
+      ],
+      "answer": 2,
+      "explanation": "Heated air rises, and cooler air from the surroundings rushes in to take its place.",
+      "source": "book:page9",
+      "id": "q99"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Heat Through Moving Matter and Empty Space",
+      "question": "When warm air rises, the cooler air around it",
+      "options": [
+        "rises above the warm air",
+        "stops moving completely",
+        "turns into water drops",
+        "rushes in to take its place"
+      ],
+      "answer": 3,
+      "explanation": "Cooler air moves in to fill the space left by rising warm air, forming a loop.",
+      "source": "book:page9",
+      "id": "q100"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Heat Through Moving Matter and Empty Space",
+      "question": "The paper spiral held above a candle spins because",
+      "options": [
+        "hot air rising from the candle pushes it",
+        "the candle flame touches the paper",
+        "cold air falls down onto the spiral",
+        "the thread slowly twists on its own"
+      ],
+      "answer": 0,
+      "explanation": "Heated air above the flame rises, cooler air rushes in, and this moving loop of air makes the spiral spin.",
+      "source": "book:page9",
+      "id": "q101"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Heat Through Moving Matter and Empty Space",
+      "question": "When water at the bottom of a pot is heated, it",
+      "options": [
+        "turns into ice",
+        "rises to the top",
+        "sinks to the bottom",
+        "stays where it is"
+      ],
+      "answer": 1,
+      "explanation": "Heated water rises to the top and cooler water moves down to take its place.",
+      "source": "book:page9",
+      "id": "q102"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Heat Through Moving Matter and Empty Space",
+      "question": "The loop of rising warm water and sinking cool water carries warmth",
+      "options": [
+        "only across the top",
+        "only into the lid",
+        "through the whole pot",
+        "only along the bottom"
+      ],
+      "answer": 2,
+      "explanation": "This loop keeps repeating and carries warmth through the whole pot of water.",
+      "source": "book:page9",
+      "id": "q103"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Heat Through Moving Matter and Empty Space",
+      "question": "Heat travelling 'through moving matter' happens in materials that can flow, such as",
+      "options": [
+        "iron and steel",
+        "wood and plastic",
+        "rock and glass",
+        "air and water"
+      ],
+      "answer": 3,
+      "explanation": "The book's examples are heated air rising and heated water rising — both are matter that can move and flow.",
+      "source": "book:page9",
+      "id": "q104"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Heat Through Moving Matter and Empty Space",
+      "question": "The spiral activity should be done away from",
+      "options": [
+        "windows and fans",
+        "doors and walls",
+        "tables and chairs",
+        "books and bags"
+      ],
+      "answer": 0,
+      "explanation": "Moving air from windows and fans would spin the spiral and spoil the test, so do it away from them.",
+      "source": "book:page9",
+      "id": "q105"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Heat Through Moving Matter and Empty Space",
+      "question": "In the spiral activity, the spiral must be kept well above the flame and never touch it.",
+      "answer": true,
+      "explanation": "True. The instructions say to keep the spiral well above the flame and always ask an adult.",
+      "source": "book:page9",
+      "id": "q106"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Heat Through Moving Matter and Empty Space",
+      "question": "The paper spiral spins because the thread is heated and shrinks.",
+      "answer": false,
+      "explanation": "False. The spiral spins because hot air rising from the candle moves past it in a loop with cooler air rushing in.",
+      "source": "book:page9",
+      "id": "q107"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Heat Through Moving Matter and Empty Space",
+      "question": "Hot air from a heater rises to the ceiling and cooler air rushes in until the whole room is warm. Heat is moving",
+      "options": [
+        "through the metal walls",
+        "through moving matter",
+        "through touch",
+        "through empty space"
+      ],
+      "answer": 1,
+      "explanation": "Air moving in a loop (warm up, cool in) is heat travelling through moving matter.",
+      "source": "book:page11 Q3",
+      "id": "q108"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Heat Through Moving Matter and Empty Space",
+      "question": "The Sun's heat reaches the Earth",
+      "options": [
+        "by touching the Earth directly",
+        "through the ocean water",
+        "as rays through empty space",
+        "carried along by the wind"
+      ],
+      "answer": 2,
+      "explanation": "The Sun is millions of kilometres away; its heat travels through empty space as rays (radiation).",
+      "source": "book:page10",
+      "id": "q109"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Heat Through Moving Matter and Empty Space",
+      "question": "Heat from the Sun does NOT need ___ to carry it to us.",
+      "options": [
+        "rays",
+        "energy",
+        "the Sun",
+        "air"
+      ],
+      "answer": 3,
+      "explanation": "The book says the Sun's heat doesn't touch us and doesn't need air to carry it — it travels as rays through empty space.",
+      "source": "book:page10",
+      "id": "q110"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Heat Through Moving Matter and Empty Space",
+      "question": "You stand near a campfire on a cold night and your face feels warm even though the air between is cold. Heat is moving",
+      "options": [
+        "through empty space",
+        "through moving matter",
+        "through touch",
+        "through the ground"
+      ],
+      "answer": 0,
+      "explanation": "The warmth reaches you as rays without touching the flames and without warm air carrying it — that is heat through empty space (radiation).",
+      "source": "book:page10, book:page11 Q1",
+      "id": "q111"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Heat Through Moving Matter and Empty Space",
+      "question": "Heat that travels as rays is called",
+      "options": [
+        "evaporation",
+        "radiation",
+        "conduction",
+        "vibration"
+      ],
+      "answer": 1,
+      "explanation": "The book says heat from the Sun travels through empty space as rays (radiation).",
+      "source": "book:page10",
+      "id": "q112"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heat Through Moving Matter and Empty Space",
+      "question": "Blowing on hot soup cools it down because",
+      "options": [
+        "the air adds more heat to the soup",
+        "the soup's particles stop moving",
+        "moving air carries heat away from the soup",
+        "your breath is colder than ice cubes"
+      ],
+      "answer": 2,
+      "explanation": "The soup is hotter than your breath, so heat flows from the soup into the moving air, which carries it away.",
+      "source": "book:page10",
+      "id": "q113"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heat Through Moving Matter and Empty Space",
+      "question": "Blowing on your cold hands warms them because",
+      "options": [
+        "moving air always warms things",
+        "air stops heat from leaving",
+        "your breath is colder than your hands",
+        "your breath is warmer than your hands"
+      ],
+      "answer": 3,
+      "explanation": "Heat flows from hot to cold. Your warm breath is hotter than your cold hands, so it gives them heat — the opposite of the soup case.",
+      "source": "book:page10",
+      "id": "q114"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Heat Through Moving Matter and Empty Space",
+      "question": "Select ALL the examples of heat moving through MOVING MATTER.",
+      "options": [
+        "water rising to the top of a heated pot",
+        "warm air rising to a room's ceiling",
+        "sunlight warming your skin",
+        "a spoon handle warming in tea"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Rising water and rising air are moving matter. Sunlight is heat through empty space; the spoon is heat through touch.",
+      "source": "book:page9, book:page10",
+      "id": "q115"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heat Through Moving Matter and Empty Space",
+      "question": "Which statement about heat travelling through empty space is TRUE?",
+      "options": [
+        "it reaches us with nothing carrying it",
+        "it needs a solid metal path to follow",
+        "it needs air around it to move through",
+        "it only works inside liquid water"
+      ],
+      "answer": 0,
+      "explanation": "Radiation crosses empty space; the Sun's heat reaches us without air or any material carrying it.",
+      "source": "book:page10",
+      "id": "q116"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Heat Through Moving Matter and Empty Space",
+      "question": "The Sun millions of kilometres away and a campfire a few steps away both warm you in the same way. That way is heat through",
+      "options": [
+        "friction",
+        "empty space",
+        "touch",
+        "moving matter"
+      ],
+      "answer": 1,
+      "explanation": "In both cases the warmth reaches you as rays without contact and without warm air carrying it.",
+      "source": "book:page10",
+      "id": "q117"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Heat Through Moving Matter and Empty Space",
+      "question": "Air that is heated becomes lighter and rises, which is why the spiral spins.",
+      "answer": true,
+      "explanation": "True. Heated air rises and cooler air rushes in; this loop of moving air spins the spiral.",
+      "source": "book:page9",
+      "id": "q118"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Colour, Sunlight and Heat in Nature",
+      "question": "Dark-coloured objects",
+      "options": [
+        "block all sunlight",
+        "give out sunlight",
+        "absorb more sunlight",
+        "reflect more sunlight"
+      ],
+      "answer": 2,
+      "explanation": "Dark objects absorb more sunlight and usually become hotter.",
+      "source": "book:page11",
+      "id": "q119"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Colour, Sunlight and Heat in Nature",
+      "question": "Light-coloured objects",
+      "options": [
+        "absorb sunlight",
+        "store sunlight",
+        "create sunlight",
+        "reflect sunlight"
+      ],
+      "answer": 3,
+      "explanation": "Light-coloured objects reflect sunlight, so they stay cooler.",
+      "source": "book:page11",
+      "id": "q120"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Colour, Sunlight and Heat in Nature",
+      "question": "On a sunny day, which shirt feels hotter?",
+      "options": [
+        "a black shirt",
+        "a white shirt",
+        "both feel the same",
+        "neither feels warm"
+      ],
+      "answer": 0,
+      "explanation": "The black shirt absorbs more sunlight and becomes hotter; the white one reflects it.",
+      "source": "book:page11, book:page23 F2a",
+      "id": "q121"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Colour, Sunlight and Heat in Nature",
+      "question": "In the thermal image, the darker shirts glow",
+      "options": [
+        "deep black",
+        "red and orange",
+        "blue and green",
+        "pure white"
+      ],
+      "answer": 1,
+      "explanation": "Red and orange show more heat; lighter shirts stay cool blue and green.",
+      "source": "book:page11",
+      "id": "q122"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Colour, Sunlight and Heat in Nature",
+      "question": "At night, with no sunlight, would the colour of your shirt still matter for warmth?",
+      "options": [
+        "yes, white shirts glow softly at night",
+        "no, every shirt becomes equally cold",
+        "no, there is no sunlight to absorb or reflect",
+        "yes, black shirts make their own heat"
+      ],
+      "answer": 2,
+      "explanation": "Colour matters only because dark colours absorb sunlight. Without sunlight there is nothing to absorb, so colour makes little difference.",
+      "source": "book:page23 F2b",
+      "id": "q123"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Colour, Sunlight and Heat in Nature",
+      "question": "The Sun's heat evaporates water from",
+      "options": [
+        "rocks and sand",
+        "the clouds only",
+        "the ice caps only",
+        "oceans and lakes"
+      ],
+      "answer": 3,
+      "explanation": "Heat from the Sun evaporates water from oceans and lakes; the vapour rises and forms clouds.",
+      "source": "book:page12",
+      "id": "q124"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Colour, Sunlight and Heat in Nature",
+      "question": "In the water cycle, water vapour rises, cools, forms clouds and falls back as",
+      "options": [
+        "rain",
+        "dust",
+        "dew",
+        "fog"
+      ],
+      "answer": 0,
+      "explanation": "The book says the vapour cools, forms clouds and falls back as rain.",
+      "source": "book:page12",
+      "id": "q125"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Colour, Sunlight and Heat in Nature",
+      "question": "The water cycle would still exist even without heat.",
+      "answer": false,
+      "explanation": "False. The book says the water cycle 'would not exist without heat' — heat drives evaporation.",
+      "source": "book:page12",
+      "id": "q126"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Colour, Sunlight and Heat in Nature",
+      "question": "Winds form because",
+      "options": [
+        "rain falls very heavily",
+        "air moves when it is heated",
+        "the Earth spins faster",
+        "rocks crack apart slowly"
+      ],
+      "answer": 1,
+      "explanation": "You learnt that air moves because of heat; this movement of air leads to winds.",
+      "source": "book:page12",
+      "id": "q127"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Colour, Sunlight and Heat in Nature",
+      "question": "Ocean currents carry ___ across the planet.",
+      "options": [
+        "fish",
+        "clouds",
+        "warmth",
+        "rocks"
+      ],
+      "answer": 2,
+      "explanation": "Heat drives ocean currents that carry warmth across the planet.",
+      "source": "book:page12",
+      "id": "q128"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Colour, Sunlight and Heat in Nature",
+      "question": "Rocks slowly crack over time because they",
+      "options": [
+        "melt in heavy rain showers",
+        "float away in deep flood water",
+        "absorb light from the moon",
+        "expand in heat and shrink in cold"
+      ],
+      "answer": 3,
+      "explanation": "Heat shapes the land: rocks expand when heated and shrink when cold, slowly cracking.",
+      "source": "book:page12",
+      "id": "q129"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Colour, Sunlight and Heat in Nature",
+      "question": "Monsoons are driven by",
+      "options": [
+        "uneven heating of land and sea",
+        "even heating of the whole Earth",
+        "the cooling of the Sun",
+        "the melting of glaciers"
+      ],
+      "answer": 0,
+      "explanation": "The book says monsoons are driven by the uneven heating of land and sea.",
+      "source": "book:page12",
+      "id": "q130"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Colour, Sunlight and Heat in Nature",
+      "question": "Without the Sun's heat, the Earth would be",
+      "options": [
+        "covered in more rain",
+        "a frozen, lifeless rock",
+        "a much hotter planet",
+        "spinning much faster"
+      ],
+      "answer": 1,
+      "explanation": "The book says without the Sun's heat, Earth would be a frozen, lifeless rock.",
+      "source": "book:page12",
+      "id": "q131"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Colour, Sunlight and Heat in Nature",
+      "question": "Select ALL the things the book says are powered by the Sun's heat.",
+      "options": [
+        "the water cycle",
+        "winds",
+        "the Moon's light",
+        "earthquakes"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Heat from the Sun evaporates water (water cycle) and moves air (winds). The Moon's light and earthquakes are not mentioned as effects of heat.",
+      "source": "book:page12",
+      "id": "q132"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Colour, Sunlight and Heat in Nature",
+      "question": "Which is the correct order of steps in the water cycle as described in the book?",
+      "options": [
+        "clouds → evaporate → rain → rise → cool",
+        "rise → rain → evaporate → cool → clouds",
+        "evaporate → rise → cool → clouds → rain",
+        "rain → clouds → evaporate → rise → cool"
+      ],
+      "answer": 2,
+      "explanation": "Heat evaporates water, the vapour rises, cools, forms clouds, and falls back as rain.",
+      "source": "book:page12",
+      "id": "q133"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Colour, Sunlight and Heat in Nature",
+      "question": "Every plant grows because of the Sun's heat.",
+      "answer": true,
+      "explanation": "True. The book says every plant grows because of it and every animal depends on it.",
+      "source": "book:page12",
+      "id": "q134"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Colour, Sunlight and Heat in Nature",
+      "question": "Why does a black car parked in the sun get hotter inside than a white car?",
+      "options": [
+        "black paint is a better insulator",
+        "white paint makes its own cold",
+        "black cars have more particles",
+        "the dark colour absorbs more sunlight"
+      ],
+      "answer": 3,
+      "explanation": "Dark-coloured objects absorb more sunlight and become hotter; light colours reflect sunlight.",
+      "source": "book:page11",
+      "id": "q135"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Greenhouse Effect and Global Warming",
+      "question": "The layer of gases wrapped around the Earth is called the",
+      "options": [
+        "atmosphere",
+        "outer crust",
+        "deep ocean",
+        "hot mantle"
+      ],
+      "answer": 0,
+      "explanation": "The Earth is wrapped in a layer of gases called the atmosphere.",
+      "source": "book:page12",
+      "id": "q136"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Greenhouse Effect and Global Warming",
+      "question": "Some gases in the atmosphere trap the Sun's heat like a blanket. This is called the",
+      "options": [
+        "geothermal effect",
+        "greenhouse effect",
+        "water cycle",
+        "global warming"
+      ],
+      "answer": 1,
+      "explanation": "The natural trapping of heat by gases, keeping Earth warm enough for life, is the greenhouse effect.",
+      "source": "book:page12",
+      "id": "q137"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Greenhouse Effect and Global Warming",
+      "question": "The greenhouse effect keeps the Earth",
+      "options": [
+        "completely frozen",
+        "dry, dusty and bare",
+        "warm enough for life",
+        "too hot for life"
+      ],
+      "answer": 2,
+      "explanation": "The gases act like a blanket, keeping Earth warm enough for life.",
+      "source": "book:page12",
+      "id": "q138"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Greenhouse Effect and Global Warming",
+      "question": "Which human activities add extra greenhouse gases to the atmosphere?",
+      "options": [
+        "planting trees and saving power",
+        "riding bicycles and walking to school",
+        "using buses and trains",
+        "burning fuel and cutting down trees"
+      ],
+      "answer": 3,
+      "explanation": "The book names burning fuel and cutting down trees as activities adding extra greenhouse gases.",
+      "source": "book:page12",
+      "id": "q139"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Greenhouse Effect and Global Warming",
+      "question": "When extra gases trap more heat than needed and slowly make the Earth warmer, it is called",
+      "options": [
+        "global warming",
+        "the greenhouse effect",
+        "geothermal energy",
+        "thermoregulation"
+      ],
+      "answer": 0,
+      "explanation": "Global warming is the extra warming caused by too many greenhouse gases trapping more heat than needed.",
+      "source": "book:page12",
+      "id": "q140"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Greenhouse Effect and Global Warming",
+      "question": "Select ALL the effects of global warming listed in the book.",
+      "options": [
+        "ice melting",
+        "sea level rising",
+        "the Sun cooling down",
+        "the oceans freezing over"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Global warming causes ice to melt, sea level to rise and weather to become more extreme. It does not cool the Sun or freeze the oceans.",
+      "source": "book:page12",
+      "id": "q141"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Greenhouse Effect and Global Warming",
+      "question": "Which of these is NOT listed as an effect of global warming?",
+      "options": [
+        "more extreme weather",
+        "oceans freezing over",
+        "ice melting",
+        "sea level rising"
+      ],
+      "answer": 1,
+      "explanation": "The listed effects are melting ice, rising sea level and more extreme weather.",
+      "source": "book:page12",
+      "id": "q142"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Greenhouse Effect and Global Warming",
+      "question": "Which of these is NOT one of the book's suggested ways to help?",
+      "options": [
+        "planting trees",
+        "using bicycles",
+        "burning more fuel",
+        "saving electricity"
+      ],
+      "answer": 2,
+      "explanation": "The book suggests saving electricity, planting trees and using bicycles or public transport.",
+      "source": "book:page12",
+      "id": "q143"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Greenhouse Effect and Global Warming",
+      "question": "The greenhouse effect itself is harmful and the Earth would be better off without it.",
+      "answer": false,
+      "explanation": "False. The natural greenhouse effect keeps Earth warm enough for life. The problem is EXTRA gases trapping too much heat — that is global warming.",
+      "source": "book:page12",
+      "id": "q144"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Greenhouse Effect and Global Warming",
+      "question": "Cutting down trees adds extra greenhouse gases to the atmosphere.",
+      "answer": true,
+      "explanation": "True. The book lists cutting down trees, along with burning fuel, as adding extra greenhouse gases.",
+      "source": "book:page12",
+      "id": "q145"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Greenhouse Effect and Global Warming",
+      "question": "What is the difference between the greenhouse effect and global warming?",
+      "options": [
+        "they are simply two names for exactly the same thing",
+        "global warming is natural; the greenhouse effect is human-made",
+        "the greenhouse effect cools Earth; global warming heats it",
+        "natural warming vs extra warming caused by humans"
+      ],
+      "answer": 3,
+      "explanation": "The greenhouse effect is the natural blanket that keeps Earth liveable. Global warming is the extra heating caused by humans adding more gases.",
+      "source": "book:page12",
+      "id": "q146"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Greenhouse Effect and Global Warming",
+      "question": "Comparing the gases to a 'blanket' means that they",
+      "options": [
+        "keep heat from escaping into space",
+        "block sunlight from reaching Earth",
+        "cool the Earth's surface down",
+        "make clouds and rain"
+      ],
+      "answer": 0,
+      "explanation": "A blanket keeps your heat in; the gases trap the Sun's heat and stop it escaping.",
+      "source": "book:page12",
+      "id": "q147"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Greenhouse Effect and Global Warming",
+      "question": "'Small actions add up' means that",
+      "options": [
+        "the Sun will fix the problem itself",
+        "everyday choices by each person matter",
+        "only big factories can make a change",
+        "only volcanoes decide the climate"
+      ],
+      "answer": 1,
+      "explanation": "Each of us can help with small actions like saving electricity, planting trees and cycling.",
+      "source": "book:page12",
+      "id": "q148"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Greenhouse Effect and Global Warming",
+      "question": "Using a bicycle or public transport helps slow global warming because it",
+      "options": [
+        "cools down the Sun's hot rays",
+        "freezes the melting polar ice",
+        "burns less fuel for each traveller",
+        "plants trees along the road"
+      ],
+      "answer": 2,
+      "explanation": "Burning fuel adds greenhouse gases; cycling or sharing a bus burns far less fuel per person.",
+      "source": "book:page12",
+      "id": "q149"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Greenhouse Effect and Global Warming",
+      "question": "Global warming is making weather more extreme.",
+      "answer": true,
+      "explanation": "True. The book says global warming is causing ice to melt, sea level to rise and weather to become more extreme.",
+      "source": "book:page12",
+      "id": "q150"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Measuring Temperature",
+      "question": "The device used to measure how hot or cold something is, is a",
+      "options": [
+        "barometer",
+        "speedometer",
+        "odometer",
+        "thermometer"
+      ],
+      "answer": 3,
+      "explanation": "A thermometer gives an exact number for how hot or cold something is.",
+      "source": "book:page13, book:page21 B4",
+      "id": "q151"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Measuring Temperature",
+      "question": "Temperature is measured in a unit whose symbol is",
+      "options": [
+        "°C",
+        "kg",
+        "m",
+        "L"
+      ],
+      "answer": 0,
+      "explanation": "Temperature is measured in degree Celsius (°C). Kilograms, metres and litres measure mass, length and volume.",
+      "source": "book:page13, book:page21 A4",
+      "id": "q152"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Measuring Temperature",
+      "question": "The exact number a thermometer gives is called",
+      "options": [
+        "radiation",
+        "temperature",
+        "heat energy",
+        "friction"
+      ],
+      "answer": 1,
+      "explanation": "The thermometer's reading — like 37°C or 100°C — is called temperature.",
+      "source": "book:page13",
+      "id": "q153"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Measuring Temperature",
+      "question": "Which reading does the book give as an example of normal human body temperature?",
+      "options": [
+        "0°C",
+        "4°C",
+        "37°C",
+        "100°C"
+      ],
+      "answer": 2,
+      "explanation": "The book's example is 37°C for your body temperature and 100°C for boiling water.",
+      "source": "book:page13",
+      "id": "q154"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Measuring Temperature",
+      "question": "A thermometer in boiling water would read about",
+      "options": [
+        "37°C",
+        "180°C",
+        "0°C",
+        "100°C"
+      ],
+      "answer": 3,
+      "explanation": "Water boils at 100°C.",
+      "source": "book:page13, book:page16",
+      "id": "q155"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Measuring Temperature",
+      "question": "What does a thermometer actually measure?",
+      "options": [
+        "temperature, not the amount of heat",
+        "the amount of heat, not temperature",
+        "both heat and temperature equally",
+        "neither heat nor temperature"
+      ],
+      "answer": 0,
+      "explanation": "A thermometer tells how hot or cold something is (temperature). It does not tell how much heat energy the object contains.",
+      "source": "book:page13, book:page14",
+      "id": "q156"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Measuring Temperature",
+      "question": "A thermometer measures the total heat energy inside an object.",
+      "answer": false,
+      "explanation": "False. A thermometer measures temperature (hotness level). Heat energy also depends on how much material there is.",
+      "source": "book:page13, book:page14",
+      "id": "q157"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Measuring Temperature",
+      "question": "We cannot see or hold heat, but we can feel it and generate it.",
+      "answer": true,
+      "explanation": "True. The book says exactly this before asking whether we can measure it too.",
+      "source": "book:page13",
+      "id": "q158"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Measuring Temperature",
+      "question": "You say a cup is 'hot' and your friend says 'very hot'. The better way to settle this is to",
+      "options": [
+        "guess from the colour of the cup",
+        "read the temperature on a thermometer",
+        "touch the cup with both hands",
+        "ask more of your friends to touch it"
+      ],
+      "answer": 1,
+      "explanation": "Feelings differ from person to person; a thermometer gives one exact number.",
+      "source": "book:page13",
+      "id": "q159"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Measuring Temperature",
+      "question": "Two identical containers of warm water, one half full and one full to the brim, are left for five minutes. Which cools faster?",
+      "options": [
+        "both cool at exactly the same rate",
+        "neither one cools at all",
+        "the half-filled one",
+        "the one filled to the brim"
+      ],
+      "answer": 2,
+      "explanation": "The half-filled container has less water, so it holds less heat energy and cools faster.",
+      "source": "book:page13",
+      "id": "q160"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Measuring Temperature",
+      "question": "In the same investigation, which container was holding more heat energy at the start?",
+      "options": [
+        "the half-filled container",
+        "both held the same amount",
+        "neither held any heat",
+        "the one filled to the brim"
+      ],
+      "answer": 3,
+      "explanation": "Both were at the same temperature, but the full container has more water, so it holds more heat energy.",
+      "source": "book:page13",
+      "id": "q161"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Measuring Temperature",
+      "question": "Why does the fuller container cool down more slowly?",
+      "options": [
+        "it has more water, so more heat to lose",
+        "it started at a higher temperature",
+        "its container walls are thicker",
+        "less air can touch its open surface"
+      ],
+      "answer": 0,
+      "explanation": "Both started at the same temperature from the same flask. The fuller one simply contains more heat energy, so it takes longer to cool.",
+      "source": "book:page13",
+      "id": "q162"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Measuring Temperature",
+      "question": "The kilogram is a unit for measuring temperature.",
+      "answer": false,
+      "explanation": "False. Kilogram measures mass. Temperature is measured in degree Celsius (°C).",
+      "source": "book:page21 A4",
+      "id": "q163"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Measuring Temperature",
+      "question": "Which measurement would you make with a thermometer?",
+      "options": [
+        "how long the soup spoon is",
+        "how hot a bowl of soup is",
+        "how heavy a bowl of soup is",
+        "how much soup is in the bowl"
+      ],
+      "answer": 1,
+      "explanation": "A thermometer measures hotness or coldness — temperature.",
+      "source": "book:page13",
+      "id": "q164"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Measuring Temperature",
+      "question": "In the two-container investigation, why did both containers start at the same temperature?",
+      "options": [
+        "they were left for five minutes",
+        "they were both left uncovered",
+        "they were filled from the same flask",
+        "they were the same size and shape"
+      ],
+      "answer": 2,
+      "explanation": "Both were filled with warm water from the same flask, so they began at equal temperature.",
+      "source": "book:page13",
+      "id": "q165"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Measuring Temperature",
+      "question": "Which of these is a correct temperature reading?",
+      "options": [
+        "37 kg",
+        "37 m",
+        "37 L",
+        "37°C"
+      ],
+      "answer": 3,
+      "explanation": "Temperature uses degree Celsius (°C). kg, m and L measure mass, length and volume.",
+      "source": "book:page21 A4",
+      "id": "q166"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Heat vs Temperature",
+      "question": "Temperature tells us",
+      "options": [
+        "how hot or cold something is",
+        "how much energy something has",
+        "how many particles something has",
+        "how heavy something is"
+      ],
+      "answer": 0,
+      "explanation": "Temperature is a measure of hotness or coldness; it does not tell us the amount of heat energy.",
+      "source": "book:page14",
+      "id": "q167"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Heat vs Temperature",
+      "question": "Heat is best described as",
+      "options": [
+        "a colour",
+        "energy",
+        "a number",
+        "a device"
+      ],
+      "answer": 1,
+      "explanation": "Heat is energy. Temperature is the number that tells how hot or cold something is.",
+      "source": "book:page14",
+      "id": "q168"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heat vs Temperature",
+      "question": "Water boils at 100°C. This boiling temperature is",
+      "options": [
+        "lower for a small cup of water",
+        "different every time it boils",
+        "the same for any amount of water",
+        "higher for a bigger pot of water"
+      ],
+      "answer": 2,
+      "explanation": "Temperature does not depend on amount: water boils at 100°C whether you have a cup or a pool.",
+      "source": "book:page14",
+      "id": "q169"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heat vs Temperature",
+      "question": "A large pot of water and a small cup of water are both at 70°C. Which contains more heat energy?",
+      "options": [
+        "the cup, because it is smaller",
+        "both contain the same heat energy",
+        "neither, heat and temperature are the same",
+        "the pot, because it has more water"
+      ],
+      "answer": 3,
+      "explanation": "Same temperature, but the pot has far more water, so it contains far more heat energy.",
+      "source": "book:page21 A5",
+      "id": "q170"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Heat vs Temperature",
+      "question": "Why do you need far more heat to warm a swimming pool than a cup of water to the same temperature?",
+      "options": [
+        "the pool contains much more water",
+        "pool water starts off colder",
+        "the pool is always kept outdoors",
+        "the cup is made of thin metal"
+      ],
+      "answer": 0,
+      "explanation": "Heat depends on amount of material: more water needs more heat energy to reach the same temperature.",
+      "source": "book:page14",
+      "id": "q171"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Heat vs Temperature",
+      "question": "A large swimming pool and a cup of water at the same temperature contain the same amount of heat.",
+      "answer": false,
+      "explanation": "False. They are at the same temperature, but the pool holds far more heat because it contains much more water.",
+      "source": "book:page22 C5",
+      "id": "q172"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Heat vs Temperature",
+      "question": "Temperature tells us how much heat energy an object contains.",
+      "answer": false,
+      "explanation": "False. Temperature only tells how hot or cold something is. The heat energy also depends on how much material there is.",
+      "source": "book:page22 C2",
+      "id": "q173"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Heat vs Temperature",
+      "question": "Clue: 'A thermometer reads 37°C for any healthy human body, child or adult.' This clue describes",
+      "options": [
+        "temperature — children always read hotter",
+        "temperature — the same reading no matter the size",
+        "heat — bigger bodies give higher readings",
+        "heat — grown adults store up more warmth"
+      ],
+      "answer": 1,
+      "explanation": "The reading is the same regardless of body size, which is how temperature behaves — it does not depend on amount.",
+      "source": "book:page14 clue1",
+      "id": "q174"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heat vs Temperature",
+      "question": "Clue: 'A big pot of soup takes much longer to heat up than a small cup, even on the same flame.' This clue describes",
+      "options": [
+        "temperature — the cup boils at a lower number",
+        "heat — the flame gets weaker",
+        "heat — more soup needs more energy",
+        "temperature — the pot is hotter"
+      ],
+      "answer": 2,
+      "explanation": "The bigger pot needs more heat energy to reach the same temperature, so the clue is about heat.",
+      "source": "book:page14 clue2",
+      "id": "q175"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Heat vs Temperature",
+      "question": "Clue: 'Ice cream melts at 0°C, the same number for a scoop or a full tub.' This clue describes",
+      "options": [
+        "heat — the tub needs no energy to melt",
+        "heat — the scoop holds more energy",
+        "temperature — the tub melts at a higher number",
+        "temperature — amount does not change it"
+      ],
+      "answer": 3,
+      "explanation": "The melting point is the same number for any amount, which is a property of temperature.",
+      "source": "book:page14 clue3",
+      "id": "q176"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heat vs Temperature",
+      "question": "A pool and a cup of water at the same temperature feel equally warm to touch. What does touching tell you?",
+      "options": [
+        "the temperature, not the amount of heat",
+        "the amount of heat, not the temperature",
+        "both the heat and the temperature",
+        "how many particles are in the water"
+      ],
+      "answer": 0,
+      "explanation": "Touch senses how hot something is (temperature). It cannot tell you that the pool holds far more heat energy than the cup.",
+      "source": "book:page14",
+      "id": "q177"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heat vs Temperature",
+      "question": "Two cups of tea and one cup of tea are all at 60°C. Which is correct?",
+      "options": [
+        "the single cup holds more heat energy",
+        "two cups together hold more heat than one",
+        "one cup is hotter than the two cups",
+        "all of them hold equal heat energy"
+      ],
+      "answer": 1,
+      "explanation": "Same temperature, but twice the tea means twice the material and so more heat energy.",
+      "source": "book:page14",
+      "id": "q178"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heat vs Temperature",
+      "question": "Which pair is matched correctly?",
+      "options": [
+        "heat → thermometer reading; temperature → energy",
+        "heat → how hot something is; temperature → energy",
+        "heat → energy; temperature → how hot something is",
+        "heat → degree Celsius; temperature → energy"
+      ],
+      "answer": 2,
+      "explanation": "Heat is energy; temperature is the measure of hotness, read in degree Celsius on a thermometer.",
+      "source": "book:page14",
+      "id": "q179"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Heat vs Temperature",
+      "question": "A big pot and a small cup of water are placed on identical flames. Which reaches 70°C first?",
+      "options": [
+        "the big pot",
+        "both at exactly the same time",
+        "neither ever reaches 70°C",
+        "the small cup"
+      ],
+      "answer": 3,
+      "explanation": "The cup has less water, so it needs less heat energy to reach 70°C and gets there first.",
+      "source": "book:page14 clue2",
+      "id": "q180"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Heat vs Temperature",
+      "question": "Water boils at 100°C whether it is in a small kettle or a large pot.",
+      "answer": true,
+      "explanation": "True. Boiling temperature does not depend on the amount of water.",
+      "source": "book:page14",
+      "id": "q181"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heat vs Temperature",
+      "question": "The statement 'Heat and temperature mean the same thing' is",
+      "options": [
+        "false — heat is energy, temperature is hotness",
+        "true — they are two words for one idea",
+        "true, but only when talking about water",
+        "false — they are both measuring devices"
+      ],
+      "answer": 0,
+      "explanation": "People often mix them up, but heat is energy while temperature tells how hot or cold something is.",
+      "source": "book:page14",
+      "id": "q182"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Heat vs Temperature",
+      "question": "A tub of ice cream and a scoop of ice cream both melt at 0°C. Which needs MORE heat to melt completely?",
+      "options": [
+        "neither needs any heat",
+        "the full tub",
+        "the single scoop",
+        "both need the same heat"
+      ],
+      "answer": 1,
+      "explanation": "Same melting temperature, but the tub has far more ice cream, so more heat energy is needed to melt it all.",
+      "source": "book:page14 clue3",
+      "id": "q183"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Body Temperature and Thermoregulation",
+      "question": "The temperature of a healthy human body stays close to",
+      "options": [
+        "47°C",
+        "100°C",
+        "37°C",
+        "27°C"
+      ],
+      "answer": 2,
+      "explanation": "A healthy human body stays close to 37°C.",
+      "source": "book:page15, book:page21 B5",
+      "id": "q184"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Body Temperature and Thermoregulation",
+      "question": "Our body produces heat through",
+      "options": [
+        "sleeping and dreaming only",
+        "standing in the sunlight only",
+        "drinking cold water every day",
+        "breathing, moving and digesting"
+      ],
+      "answer": 3,
+      "explanation": "The book says our body makes heat through every breath, every move and every meal we digest.",
+      "source": "book:page15",
+      "id": "q185"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Body Temperature and Thermoregulation",
+      "question": "A slight rise above 37°C tells the doctor that",
+      "options": [
+        "the immune system is fighting infection",
+        "the body is becoming far too cold",
+        "digestion has stopped working well",
+        "the patient has not eaten any food"
+      ],
+      "answer": 0,
+      "explanation": "A slight fever means the immune system is actively fighting an infection.",
+      "source": "book:page15",
+      "id": "q186"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Body Temperature and Thermoregulation",
+      "question": "A clinical or digital thermometer is placed",
+      "options": [
+        "on the sole of the bare foot",
+        "under the tongue or in the armpit",
+        "on the top of the forehead only",
+        "in the palm of the open hand"
+      ],
+      "answer": 1,
+      "explanation": "Doctors and nurses place it under the tongue or in the armpit for an accurate reading.",
+      "source": "book:page15",
+      "id": "q187"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Body Temperature and Thermoregulation",
+      "question": "Infrared thermometers are used in emergencies and epidemics because they",
+      "options": [
+        "are the most accurate of all",
+        "can also measure body weight",
+        "check people quickly without contact",
+        "must be held under the tongue"
+      ],
+      "answer": 2,
+      "explanation": "Infrared thermometers quickly check people's temperature without touching them.",
+      "source": "book:page15",
+      "id": "q188"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Body Temperature and Thermoregulation",
+      "question": "The body's work of keeping its temperature steady at about 37°C is called",
+      "options": [
+        "thermal radiation",
+        "evaporation",
+        "body digestion",
+        "thermoregulation"
+      ],
+      "answer": 3,
+      "explanation": "Thermoregulation is how our bodies constantly stay at 37°C — not too hot, not too cold.",
+      "source": "book:page15",
+      "id": "q189"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Body Temperature and Thermoregulation",
+      "question": "When we get too hot, we",
+      "options": [
+        "sweat and cool down",
+        "shiver to warm up",
+        "get goose-bumps",
+        "put on warm clothes"
+      ],
+      "answer": 0,
+      "explanation": "Sweating cools the body down when it gets too hot.",
+      "source": "book:page15",
+      "id": "q190"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Body Temperature and Thermoregulation",
+      "question": "When we get too cold, our body makes us",
+      "options": [
+        "feel sleepy",
+        "shiver",
+        "sweat",
+        "feel thirsty"
+      ],
+      "answer": 1,
+      "explanation": "Shivering is the body's way of generating heat when it is cold.",
+      "source": "book:page15",
+      "id": "q191"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Body Temperature and Thermoregulation",
+      "question": "Shivering warms the body because",
+      "options": [
+        "blood stops flowing to the skin",
+        "the body hair grows much thicker",
+        "muscles move rapidly to generate heat",
+        "the skin releases drops of water"
+      ],
+      "answer": 2,
+      "explanation": "When we shiver, our muscles move rapidly and this movement generates heat.",
+      "source": "book:page15",
+      "id": "q192"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Body Temperature and Thermoregulation",
+      "question": "Select ALL the things that happen when we get TOO HOT.",
+      "options": [
+        "we sweat",
+        "we feel thirsty",
+        "we shiver",
+        "we get goose-bumps"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Too hot: we sweat and feel thirsty. Shivering and goose-bumps happen when we are too cold.",
+      "source": "book:page15",
+      "id": "q193"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Body Temperature and Thermoregulation",
+      "question": "Select ALL the things that happen when we get TOO COLD.",
+      "options": [
+        "we shiver",
+        "we get goose-bumps",
+        "we sweat",
+        "we feel very thirsty"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Too cold: we shiver and get goose-bumps. Sweating and thirst are responses to being too hot.",
+      "source": "book:page15",
+      "id": "q194"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Body Temperature and Thermoregulation",
+      "question": "A very high fever must be brought down carefully because too much heat",
+      "options": [
+        "makes us feel thirsty",
+        "causes goose-bumps",
+        "cools the skin down",
+        "affects brain function"
+      ],
+      "answer": 3,
+      "explanation": "The book says getting too hot affects brain function, which is why a very high fever must be brought down carefully.",
+      "source": "book:page15",
+      "id": "q195"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Body Temperature and Thermoregulation",
+      "question": "Sweating is the body's way of warming itself up.",
+      "answer": false,
+      "explanation": "False. Sweating cools the body down when it is too hot. Shivering warms it up.",
+      "source": "book:page15",
+      "id": "q196"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Body Temperature and Thermoregulation",
+      "question": "Dressing warmly helps our body conserve its heat.",
+      "answer": true,
+      "explanation": "True. Warm clothes are insulators that help the body keep the heat it makes.",
+      "source": "book:page15",
+      "id": "q197"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Body Temperature and Thermoregulation",
+      "question": "Honeybees vibrating their flight muscles to make heat is most like a human",
+      "options": [
+        "shivering",
+        "sweating",
+        "feeling thirsty",
+        "wearing a sweater"
+      ],
+      "answer": 0,
+      "explanation": "The book says the bees do exactly what our body does when it shivers — rapid muscle movement generates heat.",
+      "source": "book:page16",
+      "id": "q198"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Body Temperature and Thermoregulation",
+      "question": "Our body temperature changes a lot between a hot summer day and a cold winter morning.",
+      "answer": false,
+      "explanation": "False. Our body stays at almost the same temperature (about 37°C) in summer and winter thanks to thermoregulation.",
+      "source": "book:page14, book:page15",
+      "id": "q199"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Body Temperature and Thermoregulation",
+      "question": "One of the first things a doctor does when you are unwell is",
+      "options": [
+        "check your shoe size",
+        "measure your temperature",
+        "weigh you on a scale",
+        "measure your height"
+      ],
+      "answer": 1,
+      "explanation": "Measuring temperature tells the doctor whether your body is fighting an infection.",
+      "source": "book:page15",
+      "id": "q200"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Body Temperature and Thermoregulation",
+      "question": "Goose-bumps appear when we are",
+      "options": [
+        "too thirsty",
+        "too tired",
+        "too cold",
+        "too hot"
+      ],
+      "answer": 2,
+      "explanation": "Goose-bumps are listed among the body's responses to getting too cold.",
+      "source": "book:page15",
+      "id": "q201"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "Water freezes at",
+      "options": [
+        "4°C",
+        "10°C",
+        "100°C",
+        "0°C"
+      ],
+      "answer": 3,
+      "explanation": "Water freezes at 0°C and boils at 100°C.",
+      "source": "book:page16",
+      "id": "q202"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "A fridge keeps food fresh at about",
+      "options": [
+        "4°C",
+        "0°C",
+        "37°C",
+        "−4°C"
+      ],
+      "answer": 0,
+      "explanation": "A fridge stays at about 4°C to keep food fresh.",
+      "source": "book:page17",
+      "id": "q203"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "An oven bakes bread and cakes at around",
+      "options": [
+        "1800°C",
+        "180°C",
+        "100°C",
+        "80°C"
+      ],
+      "answer": 1,
+      "explanation": "An oven heats up to around 180°C to bake bread and cakes.",
+      "source": "book:page17",
+      "id": "q204"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "Our bodies feel most comfortable between",
+      "options": [
+        "30°C and 38°C",
+        "0°C and 10°C",
+        "20°C and 28°C",
+        "10°C and 18°C"
+      ],
+      "answer": 2,
+      "explanation": "The comfortable range for our bodies is 20°C to 28°C.",
+      "source": "book:page17",
+      "id": "q205"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "If the room temperature drops well below 20°C, you are most likely to",
+      "options": [
+        "switch on a cooler",
+        "open the fridge door",
+        "drink ice-cold water",
+        "reach for a sweater"
+      ],
+      "answer": 3,
+      "explanation": "Below the comfortable 20°C–28°C range we feel cold and reach for a sweater; above it we reach for a cooler.",
+      "source": "book:page17",
+      "id": "q206"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "Cooking vegetables at very high heat for too long can destroy important",
+      "options": [
+        "vitamins like Vitamin C",
+        "minerals like iron",
+        "sugars like glucose",
+        "fats like ghee and butter"
+      ],
+      "answer": 0,
+      "explanation": "The book warns that very high heat for too long destroys vitamins like Vitamin C.",
+      "source": "book:page17",
+      "id": "q207"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "Which cooking method helps keep more nutrients in vegetables?",
+      "options": [
+        "roasting until black",
+        "steaming or lightly cooking",
+        "deep frying for a long time",
+        "boiling for a whole hour"
+      ],
+      "answer": 1,
+      "explanation": "Steaming or lightly cooking vegetables keeps more nutrients intact.",
+      "source": "book:page17",
+      "id": "q208"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "According to the book, our body digests food best when it",
+      "options": [
+        "is asleep",
+        "is thirsty",
+        "stays warm",
+        "is very cold"
+      ],
+      "answer": 2,
+      "explanation": "The book says our body digests best when it stays warm.",
+      "source": "book:page17",
+      "id": "q209"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "Drinking enough water is important for health only if the water is warm.",
+      "answer": false,
+      "explanation": "False. Whether you prefer warm or cool water, drinking ENOUGH water is what matters for digestion and good health.",
+      "source": "book:page17",
+      "id": "q210"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "Emperor penguins in Antarctica huddle through snowstorms that reach",
+      "options": [
+        "−6°C",
+        "−16°C",
+        "60°C",
+        "−60°C"
+      ],
+      "answer": 3,
+      "explanation": "The snowstorms reach −60°C, so the penguins huddle tightly together.",
+      "source": "book:page16",
+      "id": "q211"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "Every few minutes the penguins rotate. This means",
+      "options": [
+        "centre penguins move out and outer ones move in",
+        "the centre penguins stay in the centre",
+        "outer penguins walk away from the group",
+        "all the penguins turn to face the wind"
+      ],
+      "answer": 0,
+      "explanation": "Those from the warm centre shuffle to the cold edge, and the cold ones move inward — no penguin keeps the warmth to itself.",
+      "source": "book:page16",
+      "id": "q212"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "Why does the penguin huddle as a whole stay warm even though individual penguins move around?",
+      "options": [
+        "penguins stop producing body heat when they huddle together",
+        "huddled bodies share heat and are less exposed to cold",
+        "the penguin in the centre makes heat for the whole group",
+        "the snow around the huddle keeps all the heat inside"
+      ],
+      "answer": 1,
+      "explanation": "Each penguin's body heat warms its neighbours, and the tight huddle leaves less surface open to the freezing wind; rotating shares the warm spots.",
+      "source": "book:page23 G1",
+      "id": "q213"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "What would happen if the penguins in the centre never moved outward?",
+      "options": [
+        "the whole group would quickly overheat",
+        "nothing would change for the group",
+        "the outer penguins would become dangerously cold",
+        "every penguin would stay equally warm"
+      ],
+      "answer": 2,
+      "explanation": "The outer penguins face the full storm. If they were never allowed into the centre, they would lose too much heat.",
+      "source": "book:page23 G2",
+      "id": "q214"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "The honeybees raise the temperature inside their ball to about",
+      "options": [
+        "37°C",
+        "57°C",
+        "27°C",
+        "47°C"
+      ],
+      "answer": 3,
+      "explanation": "By vibrating their flight muscles, the bees raise the ball's temperature to about 47°C.",
+      "source": "book:page16",
+      "id": "q215"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "The hornet cannot survive beyond",
+      "options": [
+        "46°C",
+        "48°C",
+        "47°C",
+        "50°C"
+      ],
+      "answer": 0,
+      "explanation": "The hornet cannot survive beyond 46°C, while the bees can survive up to 48°C.",
+      "source": "book:page16",
+      "id": "q216"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "The honeybees can survive up to",
+      "options": [
+        "52°C",
+        "48°C",
+        "46°C",
+        "44°C"
+      ],
+      "answer": 1,
+      "explanation": "Bees survive up to 48°C, two degrees above the hornet's limit of 46°C.",
+      "source": "book:page16",
+      "id": "q217"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "The bees generate heat inside the ball by",
+      "options": [
+        "crushing the hornet's body",
+        "fanning in cool air with wings",
+        "vibrating their flight muscles",
+        "stinging the hornet's body"
+      ],
+      "answer": 2,
+      "explanation": "Hundreds of bees vibrate their flight muscles at the same time, generating heat through movement.",
+      "source": "book:page16",
+      "id": "q218"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "The bees heat the ball to about 47°C. This is just one degree above",
+      "options": [
+        "the bees' own survival limit",
+        "normal human body temperature",
+        "the boiling point of water",
+        "the hornet's survival limit"
+      ],
+      "answer": 3,
+      "explanation": "The hornet dies beyond 46°C; the ball reaches 47°C — 'one degree of difference and the bees know exactly where that line is'.",
+      "source": "book:page16",
+      "id": "q219"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "The honeybees kill the hornet by stinging it many times.",
+      "answer": false,
+      "explanation": "False. No sting, no crush — just heat generated through movement.",
+      "source": "book:page1, book:page16",
+      "id": "q220"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "The hornet trapped inside the bee ball can still breathe.",
+      "answer": true,
+      "explanation": "True. The bees do not crush it and it can still breathe, yet it dies from the heat.",
+      "source": "book:page1",
+      "id": "q221"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "Which statement about the bee ball is NOT true?",
+      "options": [
+        "the hornet is frozen to death",
+        "the bees do not sting it",
+        "the bees do not crush it",
+        "heat is made through movement"
+      ],
+      "answer": 0,
+      "explanation": "The hornet is killed by HEAT, not cold — the ball reaches about 47°C.",
+      "source": "book:page16",
+      "id": "q222"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "Which is colder: a fridge at 4°C or ice water at 0°C?",
+      "options": [
+        "it cannot be compared",
+        "the ice water",
+        "the fridge",
+        "both are equally cold"
+      ],
+      "answer": 1,
+      "explanation": "0°C is lower than 4°C, so ice water is colder than the inside of the fridge.",
+      "source": "book:page16, book:page17",
+      "id": "q223"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "Which of these temperatures is closest to a comfortable room for humans?",
+      "options": [
+        "37°C",
+        "47°C",
+        "24°C",
+        "4°C"
+      ],
+      "answer": 2,
+      "explanation": "Humans feel most comfortable between 20°C and 28°C; 24°C is in that range. 4°C is fridge-cold, 37°C is body heat, 47°C is the bee ball.",
+      "source": "book:page17",
+      "id": "q224"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "The penguins on the outside of the huddle face the full force of the storm.",
+      "answer": true,
+      "explanation": "True. Those on the outside face the full storm while those at the centre stay warm.",
+      "source": "book:page16",
+      "id": "q225"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "In India, summer lasts from",
+      "options": [
+        "July to September",
+        "October to November",
+        "December to February",
+        "March to June"
+      ],
+      "answer": 3,
+      "explanation": "The book's season chart shows Summer as March–June.",
+      "source": "book:page18",
+      "id": "q226"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "In summer, temperatures in most parts of India soar to",
+      "options": [
+        "35°C–48°C",
+        "25°C–35°C",
+        "20°C–30°C",
+        "5°C–20°C"
+      ],
+      "answer": 0,
+      "explanation": "Summer temperatures soar to 35°C–48°C; days are long and the air is dry.",
+      "source": "book:page18",
+      "id": "q227"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "The hot winds that sweep across the plains in summer are called",
+      "options": [
+        "breeze",
+        "loo",
+        "monsoon",
+        "trade winds"
+      ],
+      "answer": 1,
+      "explanation": "Hot winds called loo sweep across the plains in summer.",
+      "source": "book:page18",
+      "id": "q228"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "The monsoon season in India is",
+      "options": [
+        "October to November",
+        "December to February",
+        "July to September",
+        "March to June"
+      ],
+      "answer": 2,
+      "explanation": "The chart shows Monsoon as July–September.",
+      "source": "book:page18",
+      "id": "q229"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "During the monsoon, rain brings temperatures down to",
+      "options": [
+        "35°C–48°C, and the air is dry",
+        "5°C–20°C, with foggy mornings",
+        "20°C–30°C, crisp and comfortable",
+        "25°C–35°C, but the air turns humid"
+      ],
+      "answer": 3,
+      "explanation": "Monsoon: temperatures 25°C–35°C, humid and sticky air, rivers fill up.",
+      "source": "book:page18",
+      "id": "q230"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "Autumn (October–November) brings temperatures of",
+      "options": [
+        "20°C–30°C",
+        "35°C–48°C",
+        "25°C–35°C",
+        "5°C–20°C"
+      ],
+      "answer": 0,
+      "explanation": "In autumn temperature falls to 20°C–30°C and the weather turns comfortable and crisp.",
+      "source": "book:page18",
+      "id": "q231"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "Which set of events belongs to AUTUMN in the book's chart?",
+      "options": [
+        "mornings are foggy, nights are long",
+        "leaves fall, birds migrate, farmers harvest",
+        "rivers fill, frogs emerge, seeds are planted",
+        "hot winds blow, days are long, air is dry"
+      ],
+      "answer": 1,
+      "explanation": "Autumn: leaves start falling, birds migrate and farmers harvest their crops.",
+      "source": "book:page18",
+      "id": "q232"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "In winter, the plains of India cool to",
+      "options": [
+        "25°C–35°C",
+        "−20°C–0°C",
+        "5°C–20°C",
+        "20°C–30°C"
+      ],
+      "answer": 2,
+      "explanation": "Winter: plains cool to 5°C–20°C while mountains drop below −20°C.",
+      "source": "book:page18",
+      "id": "q233"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "In which season do frogs emerge and farmers plant seeds?",
+      "options": [
+        "summer",
+        "autumn",
+        "winter",
+        "monsoon"
+      ],
+      "answer": 3,
+      "explanation": "During the monsoon rivers fill up, frogs emerge and farmers plant seeds.",
+      "source": "book:page18",
+      "id": "q234"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "According to the book, a season is",
+      "options": [
+        "a change in heat reaching us over the year",
+        "a change in the number of days in a month",
+        "a change in the Sun's own temperature",
+        "a change in the Earth's inner heat"
+      ],
+      "answer": 0,
+      "explanation": "A season is what happens when the amount of heat reaching us changes slowly over an entire year.",
+      "source": "book:page18",
+      "id": "q235"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "Indian farmers sow wheat in",
+      "options": [
+        "December–January",
+        "October–November",
+        "June–July",
+        "March–April"
+      ],
+      "answer": 1,
+      "explanation": "Wheat is sown in October–November and harvested in March.",
+      "source": "book:page20",
+      "id": "q236"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "Why is wheat sown when the weather turns cooler?",
+      "options": [
+        "rain is heaviest at that time of year",
+        "the Sun is strongest in those months",
+        "cooler soil slows bacteria and lets roots grow",
+        "the hot loo winds help the seeds sprout"
+      ],
+      "answer": 2,
+      "explanation": "Cooler temperatures slow bacterial growth in the soil and give the seeds time to establish roots.",
+      "source": "book:page20",
+      "id": "q237"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "Wheat is harvested in",
+      "options": [
+        "July, during the monsoon",
+        "November, in mid autumn",
+        "January, in deep winter",
+        "March, before the summer heat"
+      ],
+      "answer": 3,
+      "explanation": "Wheat is harvested in March before the summer heat arrives.",
+      "source": "book:page20",
+      "id": "q238"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "Rice is planted in the rainy season (June–July) because it needs",
+      "options": [
+        "lots of water and warmth",
+        "dry soil and cool temperatures",
+        "frost and short winter days",
+        "strong hot summer winds"
+      ],
+      "answer": 0,
+      "explanation": "Rice needs lots of water and warm temperatures, so it is planted in the rainy season.",
+      "source": "book:page20",
+      "id": "q239"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "Rice is harvested in",
+      "options": [
+        "the monsoon",
+        "autumn",
+        "summer",
+        "winter"
+      ],
+      "answer": 1,
+      "explanation": "Rice is planted in June–July and harvested in autumn.",
+      "source": "book:page20",
+      "id": "q240"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "An early winter, a delayed monsoon or a long heat wave can",
+      "options": [
+        "turn wheat into rice",
+        "stop the seasons completely",
+        "severely affect crop yields",
+        "make crops grow faster"
+      ],
+      "answer": 2,
+      "explanation": "When seasonal temperatures shift unexpectedly, crop yields can be severely affected.",
+      "source": "book:page20",
+      "id": "q241"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "Absolute zero is",
+      "options": [
+        "−100°C",
+        "0°C",
+        "−60°C",
+        "−273°C"
+      ],
+      "answer": 3,
+      "explanation": "Absolute zero, the coldest possible temperature, is −273°C.",
+      "source": "book:page19",
+      "id": "q242"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "Absolute zero is best described as",
+      "options": [
+        "the coldest possible temperature anywhere",
+        "the freezing point of pure water",
+        "the hottest temperature ever measured",
+        "the temperature of a normal fridge"
+      ],
+      "answer": 0,
+      "explanation": "Scientists discovered a coldest possible temperature — nothing anywhere can ever be colder.",
+      "source": "book:page19",
+      "id": "q243"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "As something gets colder and colder towards absolute zero, its particles",
+      "options": [
+        "disappear completely",
+        "move slower and slower",
+        "move faster and faster",
+        "grow bigger and bigger"
+      ],
+      "answer": 1,
+      "explanation": "Heat comes from particles moving; the colder something is, the slower its particles move.",
+      "source": "book:page2, book:page19",
+      "id": "q244"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "Arrange from coldest to hottest: boiling water, absolute zero, ice water, human body.",
+      "options": [
+        "absolute zero, human body, ice water, boiling water",
+        "ice water, human body, absolute zero, boiling water",
+        "absolute zero, ice water, human body, boiling water",
+        "ice water, absolute zero, human body, boiling water"
+      ],
+      "answer": 2,
+      "explanation": "−273°C (absolute zero) < 0°C (ice water) < 37°C (body) < 100°C (boiling water).",
+      "source": "book:page19",
+      "id": "q245"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "How much colder is absolute zero than ice water at 0°C?",
+      "options": [
+        "173 degrees colder",
+        "100 degrees colder",
+        "373 degrees colder",
+        "273 degrees colder"
+      ],
+      "answer": 3,
+      "explanation": "Absolute zero is −273°C, which is 273 degrees below 0°C.",
+      "source": "book:page19",
+      "id": "q246"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "Nothing in the universe can be colder than absolute zero.",
+      "answer": true,
+      "explanation": "True. Absolute zero (−273°C) is the coldest possible temperature; nothing can ever be colder.",
+      "source": "book:page19",
+      "id": "q247"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "In winter, mountain temperatures in India drop below −2°C according to the book.",
+      "answer": false,
+      "explanation": "False. The book says mountains drop below −20°C in winter, not −2°C.",
+      "source": "book:page18",
+      "id": "q248"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "In the 'Moli the Molecule' comic, panel 4 shows Moli",
+      "options": [
+        "approaching absolute zero",
+        "at room temperature",
+        "near the freezing point",
+        "inside boiling hot water"
+      ],
+      "answer": 0,
+      "explanation": "Panel 1 is room temperature, panel 2 near freezing, panel 3 very deep cold, panel 4 approaching absolute zero.",
+      "source": "book:page19",
+      "id": "q249"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "Rice grows best in cool, dry conditions.",
+      "answer": false,
+      "explanation": "False. Rice needs lots of water and warm temperatures, which is why it is planted in the rainy season.",
+      "source": "book:page20",
+      "id": "q250"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "The coldest winter day in a city is 5°C. Compared with absolute zero, this day is",
+      "options": [
+        "5 degrees warmer",
+        "278 degrees warmer",
+        "268 degrees warmer",
+        "273 degrees warmer"
+      ],
+      "answer": 1,
+      "explanation": "From −273°C up to 5°C is 273 + 5 = 278 degrees.",
+      "source": "book:page19",
+      "id": "q251"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "Which two numbers 'shape how we cook, store food and even what weather feels like'?",
+      "options": [
+        "20°C and 28°C",
+        "37°C and 47°C",
+        "0°C and 100°C",
+        "4°C and 180°C"
+      ],
+      "answer": 2,
+      "explanation": "Water freezes at 0°C and boils at 100°C; these two numbers shape cooking, food storage and weather.",
+      "source": "book:page16",
+      "id": "q252"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "Understanding temperature and climate is described as the foundation of feeding a nation.",
+      "answer": true,
+      "explanation": "True. The book says understanding temperature and climate 'is the foundation of feeding a nation'.",
+      "source": "book:page20",
+      "id": "q253"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "What is Heat?",
+      "question": "Select ALL the things that are true about the particles inside an object.",
+      "options": [
+        "they are too small to see",
+        "they bump into each other",
+        "they stop moving when the object is cold",
+        "they are only found in hot objects"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Particles are too small to see and constantly bump into each other. They keep moving even when cold, and every object has them.",
+      "source": "book:page2",
+      "id": "q254"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Geothermal Energy",
+      "question": "Select ALL the places the book links with heat coming from inside the Earth.",
+      "options": [
+        "Puga Valley, Ladakh",
+        "Beppu, Japan",
+        "Antarctica",
+        "the surface of the Sun"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Puga Valley and Beppu both have hot springs heated by the Earth's interior. Antarctica is mentioned for penguins, and the Sun is not geothermal.",
+      "source": "book:page4",
+      "id": "q255"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Artificial Sources of Heat",
+      "question": "Select ALL the appliances the book lists as converting electrical energy into heat.",
+      "options": [
+        "electric heater",
+        "oven",
+        "campfire",
+        "gas stove",
+        "bicycle"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Electric heaters, ovens, geysers and room heaters convert electricity into heat. Campfires and gas stoves burn fuel; a bicycle is not a heat source.",
+      "source": "book:page6",
+      "id": "q256"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Heat Flows from Hot to Cold",
+      "question": "A cold spoon is placed in warm water. Select ALL the statements that are correct.",
+      "options": [
+        "heat flows from the water into the spoon",
+        "the spoon warms up and the water cools a little",
+        "heat flows from the spoon into the water",
+        "the water gets hotter than before"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Heat flows from hotter (water) to cooler (spoon), so the spoon warms and the water cools slightly. It never flows the other way.",
+      "source": "book:page7",
+      "id": "q257"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Conductors and Insulators",
+      "question": "Select ALL the objects that would make a GOOD handle for a hot pan.",
+      "options": [
+        "a wooden handle",
+        "a plastic handle",
+        "an iron handle",
+        "a copper handle"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Wood and plastic are insulators and stay cool; iron and copper are metal conductors that would get hot.",
+      "source": "book:page8, book:page23 F1b",
+      "id": "q258"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Heat Through Moving Matter and Empty Space",
+      "question": "Select ALL the examples of heat travelling through EMPTY SPACE.",
+      "options": [
+        "the Sun warming the Earth",
+        "a campfire warming your face from a distance",
+        "a heater warming a room's air",
+        "a spoon warming in hot tea"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Sun and campfire heat reach you as rays without contact. The heater uses moving air; the spoon is heat through touch.",
+      "source": "book:page10, book:page11",
+      "id": "q259"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Colour, Sunlight and Heat in Nature",
+      "question": "Select ALL the ways the book says heat shapes the land and weather.",
+      "options": [
+        "rocks crack from expanding and shrinking",
+        "monsoons come from uneven heating of land and sea",
+        "mountains grow taller in summer",
+        "rivers flow uphill when heated"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The book says rocks crack as they expand in heat and shrink in cold, and monsoons are driven by uneven heating. The other two are not in the book.",
+      "source": "book:page12",
+      "id": "q260"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Greenhouse Effect and Global Warming",
+      "question": "Select ALL the actions the book suggests to help slow global warming.",
+      "options": [
+        "plant trees",
+        "save electricity",
+        "burn more fuel",
+        "cut down forests"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The book suggests saving electricity, planting trees and using bicycles or public transport. Burning fuel and cutting trees make it worse.",
+      "source": "book:page12",
+      "id": "q261"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Measuring Temperature",
+      "question": "Select ALL the readings that a thermometer could sensibly show for the things named.",
+      "options": [
+        "boiling water: 100°C",
+        "a healthy human body: 37°C",
+        "boiling water: 37°C",
+        "a healthy human body: 100°C"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Water boils at 100°C and a healthy body is close to 37°C. The other two pairs swap the numbers.",
+      "source": "book:page13",
+      "id": "q262"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Heat vs Temperature",
+      "question": "A swimming pool and a cup of water are at the same temperature. Select ALL the TRUE statements.",
+      "options": [
+        "the pool contains more heat energy",
+        "both feel equally warm to the touch",
+        "the cup contains more heat energy",
+        "the pool is at a higher temperature"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Same temperature means they feel equally warm, but the pool holds far more heat because it has much more water.",
+      "source": "book:page14",
+      "id": "q263"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Body Temperature and Thermoregulation",
+      "question": "Select ALL the thermometers the book says doctors and nurses use on people.",
+      "options": [
+        "clinical thermometer",
+        "infrared thermometer",
+        "oven thermometer",
+        "fridge thermometer"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Clinical/digital thermometers go under the tongue or in the armpit; infrared thermometers check people without contact.",
+      "source": "book:page15",
+      "id": "q264"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Everyday Temperatures, Bees and Penguins",
+      "question": "Select ALL the statements that are true about emperor penguins in the book.",
+      "options": [
+        "they huddle through storms of −60°C",
+        "penguins from the centre move to the outside edge",
+        "one leader penguin signals when to rotate",
+        "the outside penguins never get a turn in the centre"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "They huddle through −60°C storms and rotate without any signal or leader, so every penguin gets a turn in the warm centre.",
+      "source": "book:page16",
+      "id": "q265"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "Select ALL the correct crop-and-season pairs from the book.",
+      "options": [
+        "wheat is sown in October–November",
+        "rice is planted in June–July",
+        "wheat is sown in June–July",
+        "rice is planted in December"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Wheat is sown in the cooler months (October–November); rice is planted in the rainy season (June–July).",
+      "source": "book:page20",
+      "id": "q266"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Seasons, Farming and Absolute Zero",
+      "question": "Select ALL the temperatures from the book that are COLDER than ice water (0°C).",
+      "options": [
+        "−60°C in an Antarctic snowstorm",
+        "−20°C on Indian mountains in winter",
+        "4°C inside a fridge",
+        "5°C on the plains in winter"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Negative temperatures are below 0°C, so −60°C and −20°C are colder than ice water. 4°C and 5°C are warmer than 0°C.",
+      "source": "book:page16, book:page17, book:page18",
+      "id": "q267"
+    }
+  ]
+}

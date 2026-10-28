@@ -1,0 +1,2094 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-maths-2-g8-ch02-the-baudhayana-pythagoras-theorem",
+  "title": "The Baudhāyana-Pythagoras Theorem",
+  "subject": "Maths-2",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Maths-2/ch02",
+  "chapter": "2. The Baudhāyana-Pythagoras Theorem",
+  "topic": "Full Chapter",
+  "description": "Doubling and halving squares, √2 and its bounds, combining squares, the Baudhāyana-Pythagoras theorem, Baudhāyana triples, Fermat's Last Theorem and the lotus problem.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "maths",
+    "pythagoras",
+    "baudhayana",
+    "right-triangle",
+    "square-root",
+    "triples"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Doubling a Square",
+      "question": "Baudhāyana's Śulba-Sūtra, which asks how to construct a square of double the area, dates from about which time?",
+      "options": [
+        "800 BCE",
+        "500 BCE",
+        "300 BCE",
+        "1200 CE"
+      ],
+      "answer": 0,
+      "explanation": "The chapter dates Baudhāyana's Śulba-Sūtra to c. 800 BCE. Pythagoras came later (c. 500 BCE) and Euclid's Elements later still (c. 300 BCE).",
+      "source": "text:page1"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Doubling a Square",
+      "question": "If every side of a square is doubled, the area of the new square becomes how many times the original area?",
+      "options": [
+        "2 times",
+        "4 times",
+        "3 times",
+        "8 times"
+      ],
+      "answer": 1,
+      "explanation": "Doubling both the length and the width multiplies the area by 2 × 2 = 4. That is why simply doubling the side does NOT give double the area.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Doubling a Square",
+      "question": "According to Śulba-Sūtra Verse 1.9, a square with double the area of a given square is built on which line segment?",
+      "options": [
+        "one full side of the original square",
+        "half of one side of the original square",
+        "the diagonal of the original square",
+        "the perimeter of the original square"
+      ],
+      "answer": 2,
+      "explanation": "Baudhāyana's verse says: 'The diagonal of a square produces a square of double the area of the original square.' The new square's side is the old square's diagonal.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Doubling a Square",
+      "question": "Why does the square built on the diagonal have exactly double the area of the original square?",
+      "options": [
+        "the original is 4 small congruent triangles; the new one is 8 of them",
+        "the new square is two rectangles, each equal to the original square",
+        "the diagonal is exactly twice as long as a side of the square",
+        "the original is 2 small congruent triangles; the new one is 4 of them"
+      ],
+      "answer": 3,
+      "explanation": "Drawing horizontal and vertical lines splits the original square into 2 congruent right triangles and the dotted square into 4 of the same triangles — 4 is double 2. The diagonal is not twice a side (it is √2 times).",
+      "source": "text:page2"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Doubling a Square",
+      "question": "In the Śulba-Sūtra, Baudhāyana's 'east-west' and 'north-south' lines are best described as:",
+      "options": [
+        "horizontal and vertical lines perpendicular to each other",
+        "the two diagonals of the square, crossing at its centre",
+        "lines drawn parallel to the diagonal of the square",
+        "compass directions marked only at the corners of an altar"
+      ],
+      "answer": 0,
+      "explanation": "The text explains that east-west and north-south lines are horizontal and vertical lines that are perpendicular to each other — handy for cutting the squares into congruent triangles.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Doubling a Square",
+      "question": "Squares are built one on the diagonal of the previous; the first three contain 2, 4 and 8 small triangles. How many small triangles make up the 5th square in this sequence?",
+      "options": [
+        "16",
+        "32",
+        "10",
+        "64"
+      ],
+      "answer": 1,
+      "explanation": "Each square has double the area (and double the triangle count) of the previous one: 2, 4, 8, 16, 32. The 5th square has 32 triangles; 16 is the 4th and 64 the 6th.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Doubling a Square",
+      "question": "A square has side 6 units. What is the area of the square constructed on its diagonal?",
+      "options": [
+        "36 sq units",
+        "144 sq units",
+        "48 sq units",
+        "72 sq units"
+      ],
+      "answer": 3,
+      "explanation": "The square on the diagonal has double the area: 2 × 36 = 72 sq units. 144 would be the area if the side were doubled; 48 confuses doubling the perimeter.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q8",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Doubling a Square",
+      "question": "Doubling the side of a square doubles its area.",
+      "answer": false,
+      "explanation": "False. Doubling the side gives 2 × 2 = 4 times the area. To double the area you must build the new square on the diagonal.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q9",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Doubling a Square",
+      "question": "In the doubling construction, each side of the original square bisects an angle of the new dotted square.",
+      "answer": true,
+      "explanation": "True. The hint notes that the vertical and horizontal sides of the original square bisect the angles of the dotted square, which is why extending them passes through its vertices.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Doubling a Square",
+      "question": "Select ALL the correct statements about the dotted square built on the diagonal of a square.",
+      "options": [
+        "Its side is equal to the diagonal of the original square",
+        "Its area is exactly twice the area of the original square",
+        "Its perimeter is exactly twice the perimeter of the original",
+        "It is made up of 3 of the small congruent triangles"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The side is the diagonal and the area doubles. The perimeter grows only √2 times (not 2 times), and the dotted square is made of 4 small triangles, not 3.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Halving a Square",
+      "question": "To construct a square with half the area of a given square, the tilted inner square has its vertices at which points?",
+      "options": [
+        "the midpoints of the four sides",
+        "the four corners of the big square",
+        "points one-third along each side",
+        "the centre and two opposite corners"
+      ],
+      "answer": 0,
+      "explanation": "Reversing the doubling construction, the smaller tilted square has its corners at the midpoints of the sides of the larger square, giving exactly half the area.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Halving a Square",
+      "question": "A square has half the sidelength of another square. What fraction of the bigger square's area does it have?",
+      "options": [
+        "one half",
+        "one quarter",
+        "one eighth",
+        "three quarters"
+      ],
+      "answer": 1,
+      "explanation": "Halving the side halves both length and width, so the area becomes ½ × ½ = ¼. This is why the half-side square is NOT the half-area square.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Halving a Square",
+      "question": "How many squares of half the sidelength are needed to fill the original square completely?",
+      "options": [
+        "2",
+        "8",
+        "4",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "Each half-side square has one quarter of the area, so four of them fill the original square.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Halving a Square",
+      "question": "Halving a square is described as 'reversing' the doubling construction because:",
+      "options": [
+        "the outer square's side equals the inner square's diagonal",
+        "the inner square's side equals the outer square's diagonal",
+        "the inner square has the same perimeter as the outer one",
+        "the inner square is turned through a full 90 degrees"
+      ],
+      "answer": 0,
+      "explanation": "In doubling, the big square is built on the small square's diagonal. In halving we go backwards: the given (outer) square has a side equal to the diagonal of the required inner square, which is tilted 45°, not 90°.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Halving a Square",
+      "question": "A square of side 10 units has a tilted square drawn inside with vertices at the midpoints of its sides. What is the area of the tilted square?",
+      "options": [
+        "25 sq units",
+        "50 sq units",
+        "100 sq units",
+        "75 sq units"
+      ],
+      "answer": 1,
+      "explanation": "The midpoint square has half the area: 100 ÷ 2 = 50 sq units. 25 would be a square of side 5 (half the side, quarter the area).",
+      "source": "text:page4"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Halving a Square",
+      "question": "The chapter asks you to prove that the folded figure PQRS is a square with half the area. Which approach does it suggest?",
+      "options": [
+        "measure every side and angle with a ruler and a protractor",
+        "note that paper folds always produce perfect right angles",
+        "join QS and PR, find the angles formed, then use triangle congruence",
+        "apply the rectangle area formula directly to PQRS first"
+      ],
+      "answer": 2,
+      "explanation": "The text says: explain by connecting QS and PR, finding the different angles formed, and then using triangle congruence. Measuring is not a proof.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q17",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Halving a Square",
+      "question": "A square whose side is half the original side has half the original area.",
+      "answer": false,
+      "explanation": "False. It has one quarter of the area, because both dimensions are halved. The half-area square is the tilted one through the midpoints.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q18",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Halving a Square",
+      "question": "When the four corners of a square paper are folded inward along creases through the midpoints of the sides, the inner square PQRS has exactly half the area of the paper.",
+      "answer": true,
+      "explanation": "True. The four folded corner triangles together cover PQRS exactly, so PQRS is half the paper's area.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q19",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Halving a Square",
+      "question": "A square has side 8 units. Select ALL squares that have exactly HALF its area.",
+      "options": [
+        "A square of side √32 units",
+        "A square of side 4 units",
+        "The square whose vertices are the midpoints of its sides",
+        "A square of side 6 units"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Half of 64 is 32, so a square of side √32 works, and the midpoint (tilted) square has area 32 too. Side 4 gives 16 (a quarter) and side 6 gives 36.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Isosceles Right Triangle and √2",
+      "question": "In a right triangle, the side opposite the right angle is called the:",
+      "options": [
+        "altitude",
+        "shorter leg",
+        "perpendicular",
+        "hypotenuse"
+      ],
+      "answer": 3,
+      "explanation": "By definition the hypotenuse is the side opposite the right angle; the other two sides are the perpendicular sides (legs).",
+      "source": "text:page5"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Isosceles Right Triangle and √2",
+      "question": "For the isosceles right triangle with legs 1, the text says Area of REST = 2 × Area of PEAR. Why?",
+      "options": [
+        "REST is the square built on the diagonal of the square PEAR",
+        "REST has sides exactly twice as long as those of PEAR",
+        "REST is a rectangle made of two copies of PEAR",
+        "PEAR is half of a square whose side is 2 units"
+      ],
+      "answer": 0,
+      "explanation": "PEAR is the unit square and REST is the square on its diagonal (the hypotenuse), so by the doubling result REST has twice the area: 2 sq units.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Isosceles Right Triangle and √2",
+      "question": "If the square on the hypotenuse has area 2 sq units, so that c² = 2, the hypotenuse c equals:",
+      "options": [
+        "√4",
+        "√2",
+        "2²",
+        "1"
+      ],
+      "answer": 1,
+      "explanation": "A square of area c² = 2 has side c = √2. √4 would be 2, and 2² is 4.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Isosceles Right Triangle and √2",
+      "question": "Using c² = 2a², the hypotenuse of an isosceles right triangle with equal sides 5 units is:",
+      "options": [
+        "√10",
+        "10",
+        "√50",
+        "√25"
+      ],
+      "answer": 2,
+      "explanation": "c² = 2 × 5² = 2 × 25 = 50, so c = √50 (about 7.07). √10 forgets to square 5; 10 doubles the side instead.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Isosceles Right Triangle and √2",
+      "question": "Example 1: an isosceles right triangle has equal sides 12. Its hypotenuse √288 lies between which two whole numbers?",
+      "options": [
+        "17 and 18",
+        "12 and 13",
+        "24 and 25",
+        "16 and 17"
+      ],
+      "answer": 3,
+      "explanation": "16² = 256 and 17² = 289, and 256 < 288 < 289, so √288 is between 16 and 17.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Isosceles Right Triangle and √2",
+      "question": "Example 2: the hypotenuse of an isosceles right triangle is √72. Each of the other two sides is:",
+      "options": [
+        "6",
+        "36",
+        "8",
+        "9"
+      ],
+      "answer": 0,
+      "explanation": "c² = 2a² gives 72 = 2a², so a² = 36 and a = 6. Answering 36 stops at a² instead of taking the square root.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Isosceles Right Triangle and √2",
+      "question": "The hypotenuse of an isosceles right triangle is 10. What is the length of each of the other two sides?",
+      "options": [
+        "√20, between 4 and 5",
+        "√50, between 7 and 8",
+        "exactly 5, half of 10",
+        "√200, between 14 and 15"
+      ],
+      "answer": 1,
+      "explanation": "100 = 2a² gives a² = 50 and a = √50 ≈ 7.07 (7² = 49 < 50 < 64 = 8²). Dividing 10 by 2 or doubling 100 are the common slips.",
+      "source": "exercise:p39-Q3"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Isosceles Right Triangle and √2",
+      "question": "The equal sides of an isosceles right triangle are 3 units. Between which bounds (one decimal place) does the hypotenuse lie?",
+      "options": [
+        "4.1 and 4.2",
+        "4.3 and 4.4",
+        "4.2 and 4.3",
+        "3.4 and 3.5"
+      ],
+      "answer": 2,
+      "explanation": "c = √18 ≈ 4.24. Check: 4.2² = 17.64 < 18 < 18.49 = 4.3².",
+      "source": "exercise:p39-Q2(i)"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Isosceles Right Triangle and √2",
+      "question": "The equal sides of an isosceles right triangle are 4 units. The hypotenuse √32 lies between:",
+      "options": [
+        "5.5 and 5.6",
+        "5.7 and 5.8",
+        "8.0 and 8.1",
+        "5.6 and 5.7"
+      ],
+      "answer": 3,
+      "explanation": "5.6² = 31.36 and 5.7² = 32.49, and 31.36 < 32 < 32.49. (8 would be the answer if you wrongly doubled the side.)",
+      "source": "exercise:p39-Q2(ii)"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Isosceles Right Triangle and √2",
+      "question": "The equal sides of an isosceles right triangle are 8 units. The hypotenuse √128 lies between:",
+      "options": [
+        "11.2 and 11.3",
+        "11.3 and 11.4",
+        "11.4 and 11.5",
+        "16.0 and 16.1"
+      ],
+      "answer": 1,
+      "explanation": "11.3² = 127.69 and 11.4² = 129.96, and 127.69 < 128 < 129.96.",
+      "source": "exercise:p39-Q2(iv)"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Isosceles Right Triangle and √2",
+      "question": "An isosceles right triangle has equal sides 9 units. Which statement about its hypotenuse is NOT correct?",
+      "options": [
+        "the hypotenuse equals 9√2 units",
+        "the hypotenuse lies between 12.7 and 12.8",
+        "the hypotenuse is exactly 18 units",
+        "the hypotenuse squared equals 162"
+      ],
+      "answer": 2,
+      "explanation": "c² = 2 × 81 = 162, so c = √162 = 9√2 ≈ 12.73 (12.7² = 161.29, 12.8² = 163.84). It is not 18 — doubling the side is the classic slip.",
+      "source": "exercise:p39-Q2(v)"
+    },
+    {
+      "id": "q31",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Isosceles Right Triangle and √2",
+      "question": "In an isosceles right triangle with equal sides a, the hypotenuse is a√2.",
+      "answer": true,
+      "explanation": "True. From c² = 2a² we get c = a√2, as the chapter summary states.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q32",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Isosceles Right Triangle and √2",
+      "question": "If the equal sides of an isosceles right triangle are doubled, the hypotenuse becomes four times as long.",
+      "answer": false,
+      "explanation": "False. c = a√2 is proportional to a, so doubling a doubles c. It is the AREA of the square on the hypotenuse that becomes four times.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q33",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Isosceles Right Triangle and √2",
+      "question": "An isosceles right triangle has equal sides 10 units. Select ALL the correct statements.",
+      "options": [
+        "Its hypotenuse is √200 units",
+        "Its hypotenuse lies between 14 and 15 units",
+        "Its hypotenuse is exactly 20 units",
+        "The square on its hypotenuse has area 100 sq units"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "c² = 2 × 100 = 200, so c = √200 ≈ 14.14 (14² = 196 < 200 < 225 = 15²). It is not 20, and the square on the hypotenuse has area 200, not 100.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "√2: Bounds and Irrationality",
+      "question": "Since 1 < √2 < 2, the chapter calls 1 and 2 respectively:",
+      "options": [
+        "an upper bound and a lower bound",
+        "an inner bound and an outer bound",
+        "a least value and a greatest value",
+        "a lower bound and an upper bound"
+      ],
+      "answer": 3,
+      "explanation": "A number below √2 is a lower bound and a number above it is an upper bound. The chapter then tightens these bounds step by step.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "√2: Bounds and Irrationality",
+      "question": "From 1.4² = 1.96 and 1.5² = 2.25 we can conclude that:",
+      "options": [
+        "1.96 < √2 < 2.25",
+        "1.4 < √2 < 1.5",
+        "√2 is exactly 1.45",
+        "1.4 < √2 < 1.45"
+      ],
+      "answer": 1,
+      "explanation": "Because 1.96 < 2 < 2.25, the side whose square is 2 lies between 1.4 and 1.5. The bounds are the sides, not their squares, and we cannot pin √2 to 1.45 from this.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "√2: Bounds and Irrationality",
+      "question": "Given 1.414² = 1.999396 and 1.415² = 2.002225, the correct conclusion is:",
+      "options": [
+        "1.413 < √2 < 1.414",
+        "1.415 < √2 < 1.416",
+        "√2 = 1.4145 exactly",
+        "1.414 < √2 < 1.415"
+      ],
+      "answer": 3,
+      "explanation": "1.999396 < 2 < 2.002225, so √2 lies between 1.414 and 1.415 — the bounds quoted in the chapter summary.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "√2: Bounds and Irrationality",
+      "question": "Why can no terminating decimal starting 1.414… have a square exactly equal to 2?",
+      "options": [
+        "its non-zero last digit makes the square's last decimal digit non-zero",
+        "a terminating decimal is always smaller than its own square",
+        "a terminating decimal cannot be multiplied by itself exactly",
+        "the square of such a decimal always ends in the digit 5 or 6"
+      ],
+      "answer": 0,
+      "explanation": "A terminating decimal has a non-zero last digit, so its square also has a non-zero last digit after the decimal point — it can never be 2.000…. Hence √2 is non-terminating.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "√2: Bounds and Irrationality",
+      "question": "In Euclid's proof, the equation 2n² = m² is impossible because the prime 2 appears:",
+      "options": [
+        "an even number of times on both sides of it",
+        "an odd number of times on the left, even on the right",
+        "an odd number of times on both sides of it",
+        "an even number of times on the left, odd on the right"
+      ],
+      "answer": 1,
+      "explanation": "In a square number every prime occurs an even number of times. Multiplying n² by 2 makes the count of 2s odd on the left, while m² has an even count — a contradiction.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "√2: Bounds and Irrationality",
+      "question": "Euclid's book Elements, which contains the proof that √2 is not a fraction, dates from about:",
+      "options": [
+        "800 BCE",
+        "500 BCE",
+        "300 BCE",
+        "1200 CE"
+      ],
+      "answer": 2,
+      "explanation": "The chapter dates Euclid's Elements to c. 300 BCE. 800 BCE is Baudhāyana and 500 BCE is Pythagoras.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "√2: Bounds and Irrationality",
+      "question": "Which statement about √2 is NOT correct?",
+      "options": [
+        "it cannot be written as m/n with counting numbers m, n",
+        "its decimal expansion never comes to an end",
+        "it lies strictly between 1.414 and 1.415",
+        "it can be written exactly as the fraction 1414/1000"
+      ],
+      "answer": 3,
+      "explanation": "1414/1000 = 1.414 is only a lower bound (1.414² = 1.999396 ≠ 2). √2 has no fraction form and a non-terminating decimal expansion.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "√2: Bounds and Irrationality",
+      "question": "Suppose √2 = m/n for counting numbers m and n. Squaring both sides and clearing the denominator gives:",
+      "options": [
+        "2n² = m²",
+        "2m² = n²",
+        "2 = m² − n²",
+        "m² = 2 + n²"
+      ],
+      "answer": 0,
+      "explanation": "√2 = m/n ⇒ 2 = m²/n² ⇒ 2n² = m². This is the equation whose prime-2 count leads to the contradiction.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q42",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "√2: Bounds and Irrationality",
+      "question": "The decimal expansion √2 = 1.41421356… eventually stops after finitely many digits.",
+      "answer": false,
+      "explanation": "False. The chapter shows that no terminating decimal can square to 2, so the expansion goes on forever.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q43",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "√2: Bounds and Irrationality",
+      "question": "In the prime factorisation of any square number, every prime appears an even number of times.",
+      "answer": true,
+      "explanation": "True. Squaring doubles every exponent in the factorisation, which is the key fact in Euclid's proof.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q44",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "√2: Bounds and Irrationality",
+      "question": "Select ALL the pairs that are valid bounds on √2 (lower bound first).",
+      "options": [
+        "1.4 and 1.5",
+        "1.41 and 1.42",
+        "1.42 and 1.43",
+        "1.3 and 1.4"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "1.4² = 1.96 < 2 < 2.25 = 1.5² and 1.41² = 1.9881 < 2 < 2.0164 = 1.42². But 1.42² is already above 2, and 1.4² = 1.96 is below 2, so the other pairs don't trap √2.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Combining Two Squares",
+      "question": "Śulba-Sūtra Verse 1.12 says the area of the square produced by the diagonal equals:",
+      "options": [
+        "the difference of the squares on the two sides",
+        "the sum of the squares on the two sides",
+        "the product of the two sides, doubled",
+        "twice the square on the longer side"
+      ],
+      "answer": 1,
+      "explanation": "Baudhāyana: 'The area of the square produced by the diagonal is the sum of the areas of the squares produced by the two sides.'",
+      "source": "text:page9"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Combining Two Squares",
+      "question": "To combine squares of sides a and b into one square, Baudhāyana makes a right-angled triangle whose perpendicular sides are:",
+      "options": [
+        "a + b and a − b",
+        "a and a + b",
+        "a and b",
+        "b and b − a"
+      ],
+      "answer": 2,
+      "explanation": "The two perpendicular sides are the sidelengths of the two squares; the square on the hypotenuse then has area a² + b².",
+      "source": "text:page10"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Combining Two Squares",
+      "question": "Verse 2.1: mark a rectangular portion of the larger square using a side of the smaller square. The diagonal of this rectangle is:",
+      "options": [
+        "the side of the smaller of the two squares being combined",
+        "a segment of length a + b, the two sidelengths added together",
+        "the line that cuts the larger square into equal halves",
+        "the side of the square equal to the two squares combined"
+      ],
+      "answer": 3,
+      "explanation": "The rectangle has sides a and b, so its diagonal is the hypotenuse of a right triangle with legs a and b — the side of the combined square.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Combining Two Squares",
+      "question": "When squares of sides a and b (a < b) are joined and the a × b rectangle is marked inside the larger square, the leftover strip of the larger square has width:",
+      "options": [
+        "b − a",
+        "a + b",
+        "2a",
+        "b"
+      ],
+      "answer": 0,
+      "explanation": "The larger square has side b; removing a rectangle of width a leaves a strip of width b − a, which appears repeatedly in the figure.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Combining Two Squares",
+      "question": "In the construction, why is every angle of the new 4-sided figure a right angle?",
+      "options": [
+        "a figure with four equal sides must have four right angles",
+        "angles x and 90 − x from two congruent triangles meet at each corner",
+        "each right triangle is isosceles, so its angles are 45° each",
+        "the diagonal of a rectangle always makes a 90° angle with a side"
+      ],
+      "answer": 1,
+      "explanation": "The acute angles of each congruent right triangle are x and 90° − x. At each corner of the new figure one of each meets, giving 90°. Equal sides alone would only make a rhombus.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Combining Two Squares",
+      "question": "In the paper activity for combining two different squares, two cuts divide the joined figure into how many pieces?",
+      "options": [
+        "2",
+        "4",
+        "5",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "Two cuts make three pieces, which are rearranged into a single larger square of side c.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Combining Two Squares",
+      "question": "Two squares have areas 9 and 16 sq units. Using Baudhāyana's method, the side of the combined square is:",
+      "options": [
+        "7",
+        "5",
+        "25",
+        "√7"
+      ],
+      "answer": 1,
+      "explanation": "Sides are 3 and 4; the right triangle with legs 3 and 4 has hypotenuse 5, since 9 + 16 = 25 = 5². 25 is the area, not the side; 7 adds the sides.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Combining Two Squares",
+      "question": "Squares of sides 6 and 8 are combined into one square by Baudhāyana's method. The area of the new square is:",
+      "options": [
+        "14 sq units",
+        "196 sq units",
+        "100 sq units",
+        "48 sq units"
+      ],
+      "answer": 2,
+      "explanation": "The new area is the sum 36 + 64 = 100 sq units (side 10). 196 = 14² wrongly adds the sides first; 48 is 6 × 8.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q53",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Combining Two Squares",
+      "question": "Baudhāyana's method for combining squares works only when the two squares are the same size.",
+      "answer": false,
+      "explanation": "False. Verse 1.12 gives a general method for squares of different sizes; the same-size case is just the earlier doubling construction.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q54",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Combining Two Squares",
+      "question": "In the combining construction, the side of the new square is the hypotenuse of the right triangle whose legs are a and b.",
+      "answer": true,
+      "explanation": "True. The new square is built on the diagonal of the a × b rectangle, i.e. the hypotenuse of the right triangle with legs a and b.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q55",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Combining Two Squares",
+      "question": "Select ALL the pairs of squares that combine (by Baudhāyana's method) into a square of area 169 sq units.",
+      "options": [
+        "Squares of sides 5 and 12",
+        "Squares of sides 10 and 3",
+        "Squares of areas 144 and 25",
+        "Squares of areas 100 and 60"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "25 + 144 = 169 both for sides 5 and 12 and for areas 25 and 144. Sides 10 and 3 give 109, and areas 100 + 60 = 160.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Theorem and Its History",
+      "question": "Baudhāyana's Theorem on right-angled triangles states that if c is the hypotenuse, then:",
+      "options": [
+        "a + b = c",
+        "a² − b² = c²",
+        "a² + b² = 2c²",
+        "a² + b² = c²"
+      ],
+      "answer": 3,
+      "explanation": "The theorem says the squares on the two shorter sides add up to the square on the hypotenuse: a² + b² = c².",
+      "source": "text:page14"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Theorem and Its History",
+      "question": "The Greek philosopher-mathematician Pythagoras lived around:",
+      "options": [
+        "500 BCE",
+        "800 BCE",
+        "300 BCE",
+        "100 CE"
+      ],
+      "answer": 0,
+      "explanation": "Pythagoras lived c. 500 BCE — a couple of hundred years after Baudhāyana (c. 800 BCE).",
+      "source": "text:page15"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Theorem and Its History",
+      "question": "Pythagoras is described in the chapter as:",
+      "options": [
+        "a Roman architect and engineer",
+        "an Egyptian priest and astronomer",
+        "a Greek philosopher-mathematician",
+        "a Babylonian scribe and surveyor"
+      ],
+      "answer": 2,
+      "explanation": "The text calls Pythagoras the Greek philosopher-mathematician who admired and studied this theorem.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Theorem and Its History",
+      "question": "Why does the chapter use the name 'Baudhāyana-Pythagoras Theorem'?",
+      "options": [
+        "because the two mathematicians worked on it together",
+        "because Pythagoras translated Baudhāyana's Sanskrit verse",
+        "because it merges two different theorems into one statement",
+        "as a transitional name so everyone knows which theorem is meant"
+      ],
+      "answer": 3,
+      "explanation": "The theorem is widely known as the Pythagorean Theorem, so the combined name signals the same theorem while crediting Baudhāyana, who stated it first.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Theorem and Its History",
+      "question": "Which statement about the history of the theorem is NOT correct?",
+      "options": [
+        "Pythagoras lived around 800 BCE, before Baudhāyana",
+        "Baudhāyana was the first to state the theorem in this generality",
+        "Pythagoras admired and studied this theorem",
+        "The theorem is also known as the Pythagorean Theorem"
+      ],
+      "answer": 0,
+      "explanation": "Pythagoras lived c. 500 BCE, a couple of hundred years AFTER Baudhāyana (c. 800 BCE). The other three statements are made in the chapter.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Theorem and Its History",
+      "question": "In a² + b² = c², the letter c must stand for:",
+      "options": [
+        "whichever side is drawn horizontally",
+        "the shorter of the two perpendicular sides",
+        "the side opposite the right angle",
+        "the longer of the two perpendicular sides"
+      ],
+      "answer": 2,
+      "explanation": "c is the hypotenuse — the side opposite the right angle. Swapping c with a leg makes the equation false.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Theorem and Its History",
+      "question": "A right-angled triangle has shorter sides 3 cm and 4 cm. The theorem predicts its hypotenuse is exactly:",
+      "options": [
+        "7 cm",
+        "6 cm",
+        "√7 cm",
+        "5 cm"
+      ],
+      "answer": 3,
+      "explanation": "3² + 4² = 9 + 16 = 25 = c², so c = 5 cm — measuring the drawing gives about 5 cm, the theorem gives exactly 5 cm.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q63",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The Theorem and Its History",
+      "question": "The Baudhāyana-Pythagoras theorem applies to every triangle, not only right-angled ones.",
+      "answer": false,
+      "explanation": "False. The relation a² + b² = c² holds for right-angled triangles, with c the hypotenuse.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q64",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "The Theorem and Its History",
+      "question": "Select ALL the names the chapter uses for the same theorem about right-angled triangles.",
+      "options": [
+        "Pythagorean Theorem",
+        "Baudhāyana-Pythagoras Theorem",
+        "Euclid's Diagonal Theorem",
+        "Fermat's Last Theorem"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The chapter calls it Baudhāyana's Theorem, the Pythagorean Theorem and the Baudhāyana-Pythagoras Theorem. Fermat's Last Theorem is a different statement about higher powers.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Finding Missing Sides",
+      "question": "A right-angled triangle has shorter sides 5 cm and 12 cm. Its hypotenuse is:",
+      "options": [
+        "13 cm",
+        "17 cm",
+        "7 cm",
+        "15 cm"
+      ],
+      "answer": 0,
+      "explanation": "5² + 12² = 25 + 144 = 169 = 13². Adding the sides (17) or subtracting them (7) are not the theorem.",
+      "source": "exercise:p47-Q1"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Finding Missing Sides",
+      "question": "A right-angled triangle has a short side 8 cm and hypotenuse 17 cm. The third side is:",
+      "options": [
+        "9 cm",
+        "15 cm",
+        "19 cm",
+        "25 cm"
+      ],
+      "answer": 1,
+      "explanation": "17² − 8² = 289 − 64 = 225 = 15². Since 17 is the hypotenuse, we subtract; 25 (adding) and 9 (17 − 8) are wrong.",
+      "source": "exercise:p47-Q2"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Finding Missing Sides",
+      "question": "In a right triangle a = 5 and b = 7. The hypotenuse c lies between:",
+      "options": [
+        "7 and 8",
+        "12 and 13",
+        "8 and 9",
+        "9 and 10"
+      ],
+      "answer": 2,
+      "explanation": "c² = 25 + 49 = 74; 8² = 64 < 74 < 81 = 9², so c = √74 is between 8 and 9.",
+      "source": "exercise:p47-Q4(i)"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Finding Missing Sides",
+      "question": "In a right triangle a = 8 and b = 12. The hypotenuse c lies between:",
+      "options": [
+        "13 and 14",
+        "15 and 16",
+        "20 and 21",
+        "14 and 15"
+      ],
+      "answer": 3,
+      "explanation": "c² = 64 + 144 = 208; 14² = 196 < 208 < 225 = 15². Adding the sides to get 20 is not the theorem.",
+      "source": "exercise:p47-Q4(ii)"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Finding Missing Sides",
+      "question": "In a right triangle a = 9 and the hypotenuse c = 15. The side b equals:",
+      "options": [
+        "12",
+        "√306",
+        "6",
+        "24"
+      ],
+      "answer": 0,
+      "explanation": "b² = 15² − 9² = 225 − 81 = 144, so b = 12. √306 comes from wrongly ADDING the squares.",
+      "source": "exercise:p47-Q4(iii)"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Finding Missing Sides",
+      "question": "In a right triangle a = 1.5 and b = 3.5. What is c², the square of the hypotenuse?",
+      "options": [
+        "5.0",
+        "25.0",
+        "14.5",
+        "2.0"
+      ],
+      "answer": 2,
+      "explanation": "c² = 1.5² + 3.5² = 2.25 + 12.25 = 14.5, so c ≈ 3.81 (3.8² = 14.44, 3.9² = 15.21). 5 is just a + b and 25 is (a + b)².",
+      "source": "exercise:p47-Q4(v)"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Finding Missing Sides",
+      "question": "A student finds the third side of a right triangle with a = 9 and c = 15 by computing √(81 + 225) = √306. What is the error?",
+      "options": [
+        "squares can only be added when both of the numbers are odd",
+        "306 is not a perfect square, so the theorem cannot apply here",
+        "15 cannot be a hypotenuse because it is less than 9 + 9",
+        "with c known, the other leg's square is c² − a², not c² + a²"
+      ],
+      "answer": 3,
+      "explanation": "a² + b² = c² rearranges to b² = c² − a² = 225 − 81 = 144, giving b = 12. The hypotenuse is the LARGEST side, so its square is the sum.",
+      "source": "exercise:p47-Q4(iii)"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Finding Missing Sides",
+      "question": "A right triangle has shorter sides 3 and 4. The area of the square drawn on its hypotenuse is:",
+      "options": [
+        "25 sq units",
+        "7 sq units",
+        "49 sq units",
+        "12 sq units"
+      ],
+      "answer": 0,
+      "explanation": "The square on the hypotenuse has area 3² + 4² = 9 + 16 = 25 sq units. 49 = 7² wrongly adds the sides first.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Finding Missing Sides",
+      "question": "To construct a square with TRIPLE the area of a square of side a, which right triangle's hypotenuse should be used as the new side?",
+      "options": [
+        "legs a and 2a, perpendicular to each other",
+        "legs a and a√2 (a side and the diagonal)",
+        "legs a and 3a, perpendicular to each other",
+        "legs a√2 and a√2, perpendicular to each other"
+      ],
+      "answer": 1,
+      "explanation": "a² + (a√2)² = a² + 2a² = 3a². First double the square (diagonal a√2), then combine it with the original square. Legs a and 2a give 5a².",
+      "source": "exercise:p47-Q3"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Finding Missing Sides",
+      "question": "To construct a square with FIVE times the area of a square of side a, use a right triangle with legs:",
+      "options": [
+        "a and 4a",
+        "2a and 2a",
+        "a and 2a",
+        "a and 5a"
+      ],
+      "answer": 2,
+      "explanation": "a² + (2a)² = a² + 4a² = 5a². Legs 2a and 2a give 8a², and a and 4a give 17a².",
+      "source": "exercise:p47-Q3"
+    },
+    {
+      "id": "q75",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Finding Missing Sides",
+      "question": "If a = 9 and c = 15 in a right triangle (c the hypotenuse), the third side is √306.",
+      "answer": false,
+      "explanation": "False. The third side is √(225 − 81) = √144 = 12. Adding the squares is the error.",
+      "source": "exercise:p47-Q4(iii)"
+    },
+    {
+      "id": "q76",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Finding Missing Sides",
+      "question": "A right triangle with shorter sides 5 and 12 has a hypotenuse of 13.",
+      "answer": true,
+      "explanation": "True. 25 + 144 = 169 = 13².",
+      "source": "exercise:p47-Q1"
+    },
+    {
+      "id": "q77",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Finding Missing Sides",
+      "question": "Select ALL the right triangles whose hypotenuse is exactly 13 units.",
+      "options": [
+        "Legs 5 and 12",
+        "Legs 6 and 7",
+        "Legs √69 and 10",
+        "Legs 3 and 10"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "25 + 144 = 169 and 69 + 100 = 169, both 13². Legs 6, 7 give 85 and legs 3, 10 give 109 — neither is 169.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Baudhāyana Triples",
+      "question": "Which of these triples appears in the list Baudhāyana gives in Śulba-Sūtra Verse 1.13?",
+      "options": [
+        "(9, 40, 41)",
+        "(20, 21, 29)",
+        "(11, 60, 61)",
+        "(12, 35, 37)"
+      ],
+      "answer": 3,
+      "explanation": "Verse 1.13 lists (3, 4, 5), (5, 12, 13), (8, 15, 17), (7, 24, 25), (12, 35, 37) and (15, 36, 39). The other three are valid triples but are not in his list.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Baudhāyana Triples",
+      "question": "A Baudhāyana triple (a, b, c) is defined as:",
+      "options": [
+        "three positive integers with a² + b² = c²",
+        "any three integers that can form a triangle",
+        "three consecutive positive integers",
+        "three positive integers with a + b = c"
+      ],
+      "answer": 0,
+      "explanation": "A Baudhāyana (Pythagorean) triple is a set of positive integers that are the sidelengths of a right triangle, i.e. satisfy a² + b² = c².",
+      "source": "text:page16"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Baudhāyana Triples",
+      "question": "Is (30, 40, 50) a Baudhāyana triple?",
+      "options": [
+        "no — 900 + 1600 does not equal 2500",
+        "yes — it is (3, 4, 5) scaled by 10",
+        "yes — because 30 + 40 is greater than 50",
+        "no — only primitive triples are counted"
+      ],
+      "answer": 1,
+      "explanation": "900 + 1600 = 2500 = 50², so yes. In general (ka, kb, kc) is a triple whenever (a, b, c) is.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Baudhāyana Triples",
+      "question": "How many Baudhāyana triples with all numbers ≤ 20 are multiples of (3, 4, 5)?",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "(3, 4, 5), (6, 8, 10), (9, 12, 15) and (12, 16, 20) — four triples. (15, 20, 25) has 25 > 20.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Baudhāyana Triples",
+      "question": "If (a, b, c) is a Baudhāyana triple, why is (ka, kb, kc) also one?",
+      "options": [
+        "(ka)² + (kb)² = k²(a² + b²) = k²c² = (kc)²",
+        "ka + kb = k(a + b) = kc, so the sum still matches",
+        "multiplying by k keeps every one of the numbers an integer",
+        "k² is always a perfect square, so it can be ignored"
+      ],
+      "answer": 0,
+      "explanation": "Taking out the common factor k² and using a² + b² = c² gives (ka)² + (kb)² = (kc)². This is called a scaled version of (a, b, c).",
+      "source": "text:page17"
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Baudhāyana Triples",
+      "question": "A Baudhāyana triple is called primitive when:",
+      "options": [
+        "its three numbers are all smaller than 20",
+        "its numbers share no common factor above 1",
+        "its three numbers are all odd numbers",
+        "its three numbers include at least one prime"
+      ],
+      "answer": 1,
+      "explanation": "Primitive means no common factor above 1: (3, 4, 5) is primitive, (9, 12, 15) is not because 3 divides all three.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Baudhāyana Triples",
+      "question": "Which of these is a PRIMITIVE Baudhāyana triple?",
+      "options": [
+        "(9, 12, 15)",
+        "(6, 8, 10)",
+        "(5, 12, 13)",
+        "(15, 36, 39)"
+      ],
+      "answer": 2,
+      "explanation": "5, 12 and 13 share no common factor. (9, 12, 15) and (6, 8, 10) are scaled (3, 4, 5); (15, 36, 39) is 3 × (5, 12, 13).",
+      "source": "text:page17"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Baudhāyana Triples",
+      "question": "How many primitive Baudhāyana triples have all three numbers ≤ 20?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "(3, 4, 5), (5, 12, 13) and (8, 15, 17). The others ≤ 20 — (6, 8, 10), (9, 12, 15), (12, 16, 20) — are scaled versions of (3, 4, 5).",
+      "source": "text:page17"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Baudhāyana Triples",
+      "question": "(9, 12, 15) has common factor 3. Dividing gives (3, 4, 5), again a triple. Why does dividing by a common factor f always work?",
+      "options": [
+        "(a/f)² + (b/f)² = (a² + b²)/f² = c²/f² = (c/f)²",
+        "dividing can never change whether numbers form a triple",
+        "3 is a prime number, so the division is always exact",
+        "15 ÷ 3 = 5 is odd, and odd hypotenuses always work"
+      ],
+      "answer": 0,
+      "explanation": "Dividing each term by f divides every square by f², so the equation a² + b² = c² is preserved. This is why every triple is a scaled primitive triple.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Baudhāyana Triples",
+      "question": "Which statement is NOT true?",
+      "options": [
+        "every scaled version of (3, 4, 5) is a Baudhāyana triple",
+        "(5, 12, 13) and (8, 15, 17) are both primitive triples",
+        "every triple with numbers ≤ 20 is a multiple of (3, 4, 5)",
+        "(9, 12, 15) is a scaled version of the triple (3, 4, 5)"
+      ],
+      "answer": 2,
+      "explanation": "(5, 12, 13) and (8, 15, 17) have all numbers ≤ 20 but are not multiples of (3, 4, 5). The other three statements are correct.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q88",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Baudhāyana Triples",
+      "question": "(15, 36, 39) is a primitive Baudhāyana triple.",
+      "answer": false,
+      "explanation": "False. It satisfies 225 + 1296 = 1521 = 39², but all three numbers are divisible by 3 — it is 3 × (5, 12, 13), so it is not primitive.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q89",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Baudhāyana Triples",
+      "question": "A scaled version (ka, kb, kc) of a primitive triple, with k > 1, is never itself primitive.",
+      "answer": true,
+      "explanation": "True. All three terms share the common factor k > 1, so the scaled triple is not primitive.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q90",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Baudhāyana Triples",
+      "question": "Select ALL the Baudhāyana triples.",
+      "options": [
+        "(7, 24, 25)",
+        "(8, 15, 17)",
+        "(4, 5, 6)",
+        "(10, 24, 25)"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "49 + 576 = 625 = 25² and 64 + 225 = 289 = 17². But 16 + 25 = 41 ≠ 36, and 100 + 576 = 676 = 26², not 25².",
+      "source": "text:page16"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Generating Triples with Odd Numbers",
+      "question": "The sum of the first n odd numbers, 1 + 3 + 5 + … + (2n − 1), equals:",
+      "options": [
+        "2n − 1",
+        "n(n + 1)",
+        "2n",
+        "n²"
+      ],
+      "answer": 3,
+      "explanation": "1 = 1², 1 + 3 = 2², 1 + 3 + 5 = 3², and so on: the sum of the first n odd numbers is n².",
+      "source": "text:page17"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Generating Triples with Odd Numbers",
+      "question": "The nth odd number is:",
+      "options": [
+        "2n − 1",
+        "2n + 1",
+        "n + 1",
+        "2n"
+      ],
+      "answer": 0,
+      "explanation": "The odd numbers 1, 3, 5, … are 2 × 1 − 1, 2 × 2 − 1, 2 × 3 − 1, …, so the nth is 2n − 1.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Generating Triples with Odd Numbers",
+      "question": "Splitting the sum of the first n odd numbers into the first (n − 1) plus the nth gives the identity:",
+      "options": [
+        "(n − 1)² + (2n − 1) = n² + 1",
+        "(n − 1)² + (2n − 1) = (n + 1)²",
+        "(n − 1)² + (2n − 1) = n²",
+        "(n − 1)² + (2n − 1) = 2n²"
+      ],
+      "answer": 2,
+      "explanation": "(n − 1)² is the sum of the first n − 1 odd numbers and 2n − 1 is the nth, so together they make n². Expanding (n − 1)² + 2n − 1 also gives n².",
+      "source": "text:page18"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Generating Triples with Odd Numbers",
+      "question": "9 is an odd square and is the 5th odd number (9 = 2 × 5 − 1). The Baudhāyana triple this produces is:",
+      "options": [
+        "(3, 5, 9)",
+        "(4, 5, 9)",
+        "(9, 40, 41)",
+        "(3, 4, 5)"
+      ],
+      "answer": 3,
+      "explanation": "With n = 5: (5 − 1)² + 9 = 5², i.e. 4² + 3² = 5², giving (3, 4, 5).",
+      "source": "text:page18"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Generating Triples with Odd Numbers",
+      "question": "25 is an odd square and the 13th odd number. Using (n − 1)² + (2n − 1) = n² with n = 13 gives the triple:",
+      "options": [
+        "(5, 12, 13)",
+        "(5, 13, 25)",
+        "(12, 13, 25)",
+        "(7, 24, 25)"
+      ],
+      "answer": 0,
+      "explanation": "(13 − 1)² + 25 = 13², i.e. 12² + 5² = 13², so the triple is (5, 12, 13).",
+      "source": "text:page18"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Generating Triples with Odd Numbers",
+      "question": "Apply the odd-number method to the odd square 49. Which triple results?",
+      "options": [
+        "(7, 25, 49)",
+        "(7, 24, 25)",
+        "(7, 23, 24)",
+        "(9, 40, 41)"
+      ],
+      "answer": 1,
+      "explanation": "49 = 2n − 1 gives n = 25, so (25 − 1)² + 49 = 25², i.e. 24² + 7² = 25²: the triple is (7, 24, 25).",
+      "source": "exercise:p50-Q1"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Generating Triples with Odd Numbers",
+      "question": "Apply the odd-number method to the odd square 81. Which triple results?",
+      "options": [
+        "(9, 41, 81)",
+        "(9, 39, 40)",
+        "(9, 40, 41)",
+        "(11, 60, 61)"
+      ],
+      "answer": 2,
+      "explanation": "81 = 2n − 1 gives n = 41, so 40² + 9² = 41² (1600 + 81 = 1681). The triple is (9, 40, 41); (11, 60, 61) comes from 121.",
+      "source": "exercise:p50-Q1"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Generating Triples with Odd Numbers",
+      "question": "Continuing the pattern, the odd square 225 = 15² produces which Baudhāyana triple?",
+      "options": [
+        "(15, 113, 225)",
+        "(15, 110, 111)",
+        "(17, 144, 145)",
+        "(15, 112, 113)"
+      ],
+      "answer": 3,
+      "explanation": "225 = 2n − 1 gives n = 113, so 112² + 15² = 113² (12544 + 225 = 12769). (17, 144, 145) is the NEXT one, from 289.",
+      "source": "exercise:p50-Q1"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Generating Triples with Odd Numbers",
+      "question": "Why does the odd-number method never produce a NON-primitive triple?",
+      "options": [
+        "a leg and hypotenuse differ by 1, so share no common factor",
+        "the shorter leg produced is always an odd prime number",
+        "the hypotenuse produced is always an odd prime number",
+        "two different square numbers never share a common factor"
+      ],
+      "answer": 0,
+      "explanation": "The triples are (m, n − 1, n): consecutive integers n − 1 and n have no common factor above 1, so the triple is always primitive.",
+      "source": "exercise:p50-Q2"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Generating Triples with Odd Numbers",
+      "question": "Which PRIMITIVE triple can NOT be produced by the odd-number method?",
+      "options": [
+        "(5, 12, 13)",
+        "(8, 15, 17)",
+        "(7, 24, 25)",
+        "(9, 40, 41)"
+      ],
+      "answer": 1,
+      "explanation": "The method always gives a hypotenuse one more than a leg. In (8, 15, 17) the difference is 2, so it cannot arise this way — an example that the method misses some primitive triples.",
+      "source": "exercise:p50-Q3"
+    },
+    {
+      "id": "q101",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Generating Triples with Odd Numbers",
+      "question": "Every primitive Baudhāyana triple can be produced by the odd-square method.",
+      "answer": false,
+      "explanation": "False. (8, 15, 17) and (20, 21, 29) are primitive, but their hypotenuse is not one more than a leg, so the method cannot produce them.",
+      "source": "exercise:p50-Q3"
+    },
+    {
+      "id": "q102",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Generating Triples with Odd Numbers",
+      "question": "Select ALL the odd numbers that are perfect squares and so give a Baudhāyana triple by the chapter's method.",
+      "options": [
+        "25",
+        "49",
+        "27",
+        "35"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "25 = 5² gives (5, 12, 13) and 49 = 7² gives (7, 24, 25). 27 and 35 are odd but not squares, so the two parts would not both be squares.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fermat's Last Theorem",
+      "question": "Fermat, who was inspired by Baudhāyana triples, was a:",
+      "options": [
+        "German mathematician of the 18th century",
+        "Greek mathematician of the 3rd century BCE",
+        "French mathematician of the 19th century",
+        "French mathematician of the 17th century"
+      ],
+      "answer": 3,
+      "explanation": "The chapter describes Fermat as the great French mathematician who lived during the 17th century.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fermat's Last Theorem",
+      "question": "Fermat's Last Theorem says the equation xⁿ + yⁿ = zⁿ has no natural-number solutions when:",
+      "options": [
+        "n > 2",
+        "n ≥ 2",
+        "n = 2",
+        "n is odd"
+      ],
+      "answer": 0,
+      "explanation": "For n = 2 there are infinitely many solutions (the Baudhāyana triples); Fermat claimed there are none for powers greater than 2.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fermat's Last Theorem",
+      "question": "What observation made Fermat wonder about higher powers?",
+      "options": [
+        "Euclid's proof that √2 is not a fraction",
+        "infinitely many squares are sums of two squares",
+        "the never-ending decimal expansion of √2",
+        "the paper construction for halving a square"
+      ],
+      "answer": 1,
+      "explanation": "Seeing infinitely many square numbers that are sums of two squares, Fermat asked whether a cube could be a sum of two cubes, a fourth power of two fourth powers, and so on.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fermat's Last Theorem",
+      "question": "In the margin of a book Fermat wrote that he had 'a truly marvellous proof' but the margin was too small to contain it. What did he claim?",
+      "options": [
+        "that the statement was actually false for most powers",
+        "that Euclid had already proved it in the Elements",
+        "that he had a proof but no room to write it down",
+        "that a proof would take about 300 more years"
+      ],
+      "answer": 2,
+      "explanation": "Fermat claimed to have a proof but never wrote it down; nobody ever found it, which is why the statement became famous as Fermat's Last Theorem.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fermat's Last Theorem",
+      "question": "Who finally proved Fermat's Last Theorem, and in which year?",
+      "options": [
+        "Andrew Wiles in 1963",
+        "Eric Bell in 1994",
+        "Eric Bell in 1963",
+        "Andrew Wiles in 1994"
+      ],
+      "answer": 3,
+      "explanation": "Andrew Wiles proved it in 1994. In 1963 he was a 10-year-old reading Eric Bell's book The Last Problem about the theorem.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Fermat's Last Theorem",
+      "question": "Which statement about Fermat's Last Theorem is NOT correct?",
+      "options": [
+        "Fermat's own proof was never found",
+        "x³ + y³ = z³ has solutions in natural numbers",
+        "attempts to prove the theorem failed for over 300 years",
+        "x² + y² = z² has infinitely many natural-number solutions"
+      ],
+      "answer": 1,
+      "explanation": "Fermat's Last Theorem says no perfect cube is a sum of two perfect cubes. For squares there are infinitely many solutions (the triples).",
+      "source": "text:page19"
+    },
+    {
+      "id": "q109",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Fermat's Last Theorem",
+      "question": "There is a perfect cube that can be written as the sum of two perfect cubes of natural numbers.",
+      "answer": false,
+      "explanation": "False. This is exactly the n = 3 case of Fermat's Last Theorem, proved by Wiles in 1994.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q110",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Fermat's Last Theorem",
+      "question": "Fermat's Last Theorem was proved roughly 30 years after Andrew Wiles first read about it as a boy.",
+      "answer": true,
+      "explanation": "True. He read about it in 1963 and proved it in 1994 — 31 years later.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q111",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Fermat's Last Theorem",
+      "question": "Select ALL the equations that DO have solutions in natural numbers.",
+      "options": [
+        "x² + y² = z² (e.g. 3, 4, 5)",
+        "x¹ + y¹ = z¹ (e.g. 2 + 3 = 5)",
+        "x³ + y³ = z³",
+        "x⁴ + y⁴ = z⁴"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Squares and first powers have plenty of solutions. By Fermat's Last Theorem, no solutions exist for any power n > 2, including cubes and fourth powers.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Lotus Problem and Applications",
+      "question": "The lotus-in-the-lake problem comes from the Līlāvatī, written by:",
+      "options": [
+        "Baudhāyana of the Śulba-Sūtra",
+        "Euclid of Alexandria",
+        "Bhāskarāchārya (Bhāskara II)",
+        "Pierre de Fermat of France"
+      ],
+      "answer": 2,
+      "explanation": "The chapter translates a problem from Bhāskarāchārya's (Bhāskara II) Līlāvatī about a lotus in a lake with chakra and krauñcha birds.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Lotus Problem and Applications",
+      "question": "In the lotus problem, with x the depth of the lake, the right triangle formed has sides:",
+      "options": [
+        "1, 3 and x",
+        "x, x + 1 and 4",
+        "3, 1 and x",
+        "3, x and x + 1"
+      ],
+      "answer": 3,
+      "explanation": "The stem is x + 1 long (1 unit above water). Upright it is a leg of length x; swayed it is the hypotenuse x + 1; the tip moves 3 units, the other leg.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Lotus Problem and Applications",
+      "question": "The lotus equation 9 + x² = x² + 2x + 1 simplifies to:",
+      "options": [
+        "9 = 2x + 1",
+        "9 = 2x − 1",
+        "8 = 2x + 1",
+        "10 = 2x"
+      ],
+      "answer": 0,
+      "explanation": "Subtracting x² from both sides leaves 9 = 2x + 1, so 2x = 8 and x = 4.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Lotus Problem and Applications",
+      "question": "What is the depth of the lake in the Līlāvatī lotus problem?",
+      "options": [
+        "3 units",
+        "4 units",
+        "5 units",
+        "2 units"
+      ],
+      "answer": 1,
+      "explanation": "From 9 = 2x + 1 we get x = 4. The tip moved 3 units and the whole stem is 5 units.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Lotus Problem and Applications",
+      "question": "In the lotus problem, what is the total length of the lotus stem?",
+      "options": [
+        "4 units",
+        "3 units",
+        "5 units",
+        "1 unit"
+      ],
+      "answer": 2,
+      "explanation": "The stem is x + 1 = 4 + 1 = 5 units — the hypotenuse of the 3, 4, 5 triangle. 4 is only the part under water.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Lotus Problem and Applications",
+      "question": "Which 'very reasonable' assumption makes the lotus problem solvable by the theorem?",
+      "options": [
+        "the lake has a perfectly flat circular shape",
+        "the wind pushes the stem exactly 1 unit sideways",
+        "the lotus flower floats freely on the surface",
+        "the upright stem is perpendicular to the water surface"
+      ],
+      "answer": 3,
+      "explanation": "Assuming the stem is perpendicular to the water in its first position gives a right angle, so the sides 3, x, x + 1 form a right triangle.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Lotus Problem and Applications",
+      "question": "The diagonal of a square with sidelength 5 cm is:",
+      "options": [
+        "√50 cm, about 7.07",
+        "√100 cm, exactly 10",
+        "√25 cm, exactly 5",
+        "√75 cm, about 8.66"
+      ],
+      "answer": 0,
+      "explanation": "The diagonal is the hypotenuse of a right triangle with legs 5 and 5: √(25 + 25) = √50 ≈ 7.07 cm (between 7 and 8).",
+      "source": "exercise:p52-Q1"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Lotus Problem and Applications",
+      "question": "A rhombus has diagonals of length 24 and 70 units. Its sidelength is:",
+      "options": [
+        "47 units",
+        "37 units",
+        "74 units",
+        "35 units"
+      ],
+      "answer": 1,
+      "explanation": "The diagonals of a rhombus bisect each other at right angles, giving legs 12 and 35: √(144 + 1225) = √1369 = 37. Using the full diagonals gives √5476 = 74 — the common slip.",
+      "source": "exercise:p53-Q3"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Lotus Problem and Applications",
+      "question": "Why must the hypotenuse be the longest side of a right triangle?",
+      "options": [
+        "it is always the side opposite the smallest angle",
+        "a slanted line is always longer than a level one",
+        "c² = a² + b² exceeds both a² and b², so c exceeds a and b",
+        "the triangle inequality says a + b is more than c"
+      ],
+      "answer": 2,
+      "explanation": "Since a² and b² are positive, c² = a² + b² > a² and > b², hence c > a and c > b. It is opposite the LARGEST angle (the right angle).",
+      "source": "exercise:p53-Q4"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Lotus Problem and Applications",
+      "question": "A right triangle has one leg 40 and hypotenuse 41. The other leg is:",
+      "options": [
+        "1",
+        "√3281",
+        "81",
+        "9"
+      ],
+      "answer": 3,
+      "explanation": "41² − 40² = 1681 − 1600 = 81 = 9². √3281 adds the squares, and 81 forgets the square root.",
+      "source": "exercise:p52-Q2"
+    },
+    {
+      "id": "q122",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Lotus Problem and Applications",
+      "question": "In the lotus problem, the depth of the lake equals the 3 units the tip of the stem moves sideways.",
+      "answer": false,
+      "explanation": "False. The 3 units is one leg; solving 3² + x² = (x + 1)² gives a depth of 4 units.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q123",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Lotus Problem and Applications",
+      "question": "A rhombus whose diagonals are 24 and 70 has sides of length 37.",
+      "answer": true,
+      "explanation": "True. Half-diagonals 12 and 35 form a right triangle with hypotenuse 37 (144 + 1225 = 1369).",
+      "source": "exercise:p53-Q3"
+    },
+    {
+      "id": "q124",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Lotus Problem and Applications",
+      "question": "Select ALL the rectangles whose sides AND diagonal are all whole numbers.",
+      "options": [
+        "3 by 4",
+        "5 by 12",
+        "4 by 5",
+        "6 by 7"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "3-4 gives diagonal 5 and 5-12 gives 13. 4 by 5 has diagonal √41 and 6 by 7 has √85 — not whole numbers.",
+      "source": "exercise:p53-Q6"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Squares, Grids and Puzzles",
+      "question": "A square has area equal to the DIFFERENCE of the areas of squares with sides 5 and 7. Its side is:",
+      "options": [
+        "2",
+        "√74",
+        "√24",
+        "12"
+      ],
+      "answer": 2,
+      "explanation": "49 − 25 = 24, so the side is √24 ≈ 4.9. Subtracting the sides (2) or adding the squares (√74) are the usual slips.",
+      "source": "exercise:p53-Q7"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Squares, Grids and Puzzles",
+      "question": "Using the dots of a grid as vertices, a square of area 2 sq units can be made by:",
+      "options": [
+        "taking the diagonal of a 1 × 1 cell as its side",
+        "taking the diagonal of a 1 × 2 rectangle as its side",
+        "taking a side of length 2 along the grid lines",
+        "joining the centres of four neighbouring cells"
+      ],
+      "answer": 0,
+      "explanation": "The diagonal of a unit cell has length √2, so the tilted square on it has area 2. A 1 × 2 diagonal gives area 5 and a side of 2 gives area 4.",
+      "source": "exercise:p53-Q8"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Squares, Grids and Puzzles",
+      "question": "Can a square of area 3 sq units be drawn with its vertices on grid dots?",
+      "options": [
+        "yes — use the diagonal of a 1 × 2 rectangle",
+        "no — 3 is not a sum of two square numbers",
+        "yes — a 1 × 3 rectangle has area exactly 3",
+        "yes — join dots that are exactly √3 apart"
+      ],
+      "answer": 1,
+      "explanation": "A segment between grid dots has squared length a² + b² for whole numbers a, b. The only such values near 3 are 1, 2, 4, 5 — never 3, so no such square exists.",
+      "source": "exercise:p53-Q8"
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Squares, Grids and Puzzles",
+      "question": "On a grid extending indefinitely, the possible integer areas of squares with vertices on dots are exactly:",
+      "options": [
+        "every positive whole number without exception",
+        "only the perfect square numbers 1, 4, 9, 16, 25, 36, …",
+        "only the even numbers 2, 4, 6, 8, …",
+        "the numbers of the form a² + b² with whole a and b"
+      ],
+      "answer": 3,
+      "explanation": "A side joining two dots has squared length a² + b², and that squared length IS the area. So areas like 1, 2, 4, 5, 8, 9, 10 occur but 3, 6, 7 do not.",
+      "source": "exercise:p53-Q8(ii)"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Squares, Grids and Puzzles",
+      "question": "Which of these areas can NOT be made by a square with vertices on grid dots?",
+      "options": [
+        "6",
+        "5",
+        "8",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "5 = 1 + 4, 8 = 4 + 4 and 10 = 1 + 9 are sums of two squares, but 6 is not, so no grid square has area 6.",
+      "source": "exercise:p53-Q8(ii)"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Squares, Grids and Puzzles",
+      "question": "In an equilateral triangle of side 6, the altitude bisects the opposite side. The square of the height is therefore:",
+      "options": [
+        "36 − 36 = 0",
+        "36 − 9 = 27",
+        "36 − 18 = 18",
+        "36 + 9 = 45"
+      ],
+      "answer": 1,
+      "explanation": "The altitude makes a right triangle with hypotenuse 6 and base 3 (half of 6), so height² = 6² − 3² = 36 − 9 = 27.",
+      "source": "exercise:p54-Q9"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Squares, Grids and Puzzles",
+      "question": "The area of an equilateral triangle with side 6 units is:",
+      "options": [
+        "exactly 18 sq units",
+        "exactly 9 sq units",
+        "3√27 ≈ 15.6 sq units",
+        "3√45 ≈ 20.1 sq units"
+      ],
+      "answer": 2,
+      "explanation": "Height = √27 ≈ 5.2, so area = ½ × 6 × √27 = 3√27 ≈ 15.6. '18' wrongly uses 6 as the height.",
+      "source": "exercise:p54-Q9"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Squares, Grids and Puzzles",
+      "question": "Three boxes of red, blue and green balls are each labelled WRONGLY. How many boxes must you open to fix every label?",
+      "options": [
+        "exactly two boxes",
+        "all three boxes",
+        "none — the labels suffice",
+        "just one box"
+      ],
+      "answer": 3,
+      "explanation": "Opening one box reveals its colour; since no label is correct, the remaining two colours can be placed by elimination. So one box is enough.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Squares, Grids and Puzzles",
+      "question": "In the boxes puzzle you open the box labelled RED and find BLUE balls. What is in the box labelled BLUE?",
+      "options": [
+        "green balls",
+        "red balls",
+        "blue balls",
+        "it cannot be decided"
+      ],
+      "answer": 0,
+      "explanation": "Blue is now placed. The GREEN-labelled box cannot hold green (wrong label) or blue (taken), so it holds red; the BLUE-labelled box must then hold green.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q134",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Squares, Grids and Puzzles",
+      "question": "A square of area 4 sq units can be drawn on a dot grid with its sides along the grid lines.",
+      "answer": true,
+      "explanation": "True. A 2 × 2 square has area 4; it is one of the areas (a perfect square) that sits squarely on the grid.",
+      "source": "exercise:p53-Q8"
+    },
+    {
+      "id": "q135",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Squares, Grids and Puzzles",
+      "question": "Select ALL the areas that CAN be made by a square whose vertices are grid dots.",
+      "options": [
+        "8 sq units",
+        "10 sq units",
+        "7 sq units",
+        "12 sq units"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "8 = 2² + 2² and 10 = 1² + 3² are sums of two squares, so both are possible; 7 and 12 are not sums of two squares.",
+      "source": "exercise:p53-Q8(ii)"
+    }
+  ]
+}

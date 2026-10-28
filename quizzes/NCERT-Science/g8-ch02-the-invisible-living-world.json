@@ -1,0 +1,2760 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-science-g8-ch02-the-invisible-living-world",
+  "title": "The Invisible Living World",
+  "subject": "Science",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Science/ch02",
+  "chapter": "2. The Invisible Living World",
+  "topic": "Full Chapter",
+  "description": "Cells and their parts, levels of organisation, and the microorganisms — bacteria, fungi, protozoa, algae and viruses — that decompose waste, ferment food, fix nitrogen and make oxygen.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "science",
+    "microorganisms"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Lenses and the Microscope",
+      "question": "Why was the curved piece of glass that magnifies things named a 'lens'?",
+      "options": [
+        "It was shaped like a lentil seed",
+        "It was first ground in a town named Lens",
+        "It was made from lens-shaped river sand",
+        "It was named after its Dutch inventor"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says the glass was thick in the middle and thin at the edges, like a lentil seed — hence 'lens'. The other origins are not what the text gives.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Lenses and the Microscope",
+      "question": "Which description matches the shape of a lens as given in the chapter?",
+      "options": [
+        "Thin in the middle and thick at the edges",
+        "Thick in the middle and thin at the edges",
+        "Flat on one face and hollow on the other",
+        "Equally thick everywhere but gently curved"
+      ],
+      "answer": 1,
+      "explanation": "A lens is thick in the middle and thin at the edge, just like a lentil seed. Reversing this (thin in the middle) is the common mix-up.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Lenses and the Microscope",
+      "question": "In Activity 2.1, letters look larger when seen through a water-filled round-bottom flask. Why?",
+      "options": [
+        "The water dissolves a little ink so letters spread",
+        "The cork traps air that pushes the letters apart",
+        "The water-filled flask behaves like a magnifying glass",
+        "The glass reflects light back towards your eyes"
+      ],
+      "answer": 2,
+      "explanation": "The curved flask full of water acts like a lens (magnifying glass), bending light so the letters appear bigger. Nothing happens to the ink or the air.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Lenses and the Microscope",
+      "question": "Who published the book Micrographia in 1665?",
+      "options": [
+        "Antonie van Leeuwenhoek",
+        "Ananda Mohan Chakrabarty",
+        "Isaac Newton of England",
+        "Robert Hooke of London"
+      ],
+      "answer": 3,
+      "explanation": "Robert Hooke published Micrographia in 1665 with detailed drawings of tiny things seen through his microscope. Leeuwenhoek worked around the same time but did not write this book.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Lenses and the Microscope",
+      "question": "What did Robert Hooke see when he looked at a thin slice of cork?",
+      "options": [
+        "Tiny moving creatures that looked like bacteria",
+        "Many small empty spaces like a honeycomb",
+        "Green grains of pigment packed in rows",
+        "Long branched threads without any colour"
+      ],
+      "answer": 1,
+      "explanation": "Hooke saw many small, empty compartments that reminded him of a honeycomb and called each one a 'cell'. Bacteria were first described by Leeuwenhoek, not Hooke.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Lenses and the Microscope",
+      "question": "Which statement about Robert Hooke is NOT correct?",
+      "options": [
+        "His microscope magnified about 200 to 300 times",
+        "He was a careful observer and a skilled artist",
+        "He drew what he saw in a thin slice of cork",
+        "He was the first to clearly describe bacteria"
+      ],
+      "answer": 3,
+      "explanation": "It was Antonie van Leeuwenhoek who first clearly saw and described bacteria and blood cells. Hooke is known for the cork cells, Micrographia and a 200–300× microscope.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Lenses and the Microscope",
+      "question": "Who is known as the Father of Microbiology?",
+      "options": [
+        "Robert Hooke of London",
+        "Ananda Mohan Chakrabarty",
+        "Antonie van Leeuwenhoek",
+        "Louis Pasteur of France"
+      ],
+      "answer": 2,
+      "explanation": "Leeuwenhoek, a Dutch scientist, built better microscopes and was the first to clearly see and describe bacteria and blood cells, so he is called the Father of Microbiology.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q8",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Lenses and the Microscope",
+      "question": "Robert Hooke was the first person to use the word 'cell' in science to describe the basic unit of life.",
+      "answer": true,
+      "explanation": "Hooke named the honeycomb-like compartments of cork 'cells'; this was the first scientific use of the word.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q9",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Lenses and the Microscope",
+      "question": "Hooke's microscope magnified objects 100 to 400 times.",
+      "answer": false,
+      "explanation": "Hooke's microscope magnified 200 to 300 times. The 100–400 times figure is given later for the microscopes used to view microorganisms in Tables 2.1 and 2.2.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Lenses and the Microscope",
+      "question": "An electron microscope magnifies about 10,00,000 times. Taking Hooke's microscope as 250×, roughly how many times stronger is the electron microscope?",
+      "options": [
+        "About 4,000 times",
+        "About 400 times",
+        "About 40 times",
+        "About 40,000 times"
+      ],
+      "answer": 0,
+      "explanation": "10,00,000 ÷ 250 = 4,000. So the electron microscope magnifies about four thousand times more than Hooke's instrument.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Lenses and the Microscope",
+      "question": "Which comparison of magnifications given in the chapter is correct?",
+      "options": [
+        "A paper microscope shows more detail than a lab microscope",
+        "Hooke's microscope was weaker than any microscope used today",
+        "An electron microscope magnifies a cell only about 1,000 times",
+        "Hooke's 200–300× lies inside the 100–400× range used for microbes"
+      ],
+      "answer": 3,
+      "explanation": "Microbes are viewed with microscopes of 100–400×, and Hooke's 200–300× falls inside that range. Electron microscopes reach about 10,00,000×, and paper microscopes give less detail than lab ones.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q12",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Lenses and the Microscope",
+      "question": "Select ALL the things the chapter credits to Antonie van Leeuwenhoek.",
+      "options": [
+        "Made better lenses",
+        "Published Micrographia",
+        "First to clearly describe bacteria",
+        "Coined the word 'cell'",
+        "Drew the cells of cork"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Leeuwenhoek made better lenses, built more useful microscopes and first described bacteria and blood cells. Micrographia, the word 'cell' and the cork drawings belong to Hooke.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Observing Cells: Onion Peel and Cheek Cells",
+      "question": "Which stain is used on the onion peel in Activity 2.2?",
+      "options": [
+        "Methylene blue",
+        "Glycerin",
+        "Safranin",
+        "Iodine solution"
+      ],
+      "answer": 2,
+      "explanation": "Safranin is a red stain that gives the onion cells a pinkish colour. Methylene blue is used for cheek cells; glycerin is not a stain.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Observing Cells: Onion Peel and Cheek Cells",
+      "question": "Which stain is added to the cheek-cell scraping in Activity 2.3?",
+      "options": [
+        "Safranin stain",
+        "Methylene blue",
+        "Glycerin drop",
+        "Iodine solution"
+      ],
+      "answer": 1,
+      "explanation": "Methylene blue, a blue stain, is added to the cheek cells to increase contrast. Safranin is the red stain used for onion peel.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Observing Cells: Onion Peel and Cheek Cells",
+      "question": "What is the purpose of putting a drop of glycerin on the mounted peel or cheek cells?",
+      "options": [
+        "It stops the cells drying and improves clarity",
+        "It colours the cells so they show up clearly",
+        "It kills any microbes present on the slide",
+        "It glues the coverslip firmly to the slide"
+      ],
+      "answer": 0,
+      "explanation": "Glycerin prevents the cells from drying out and improves clarity for better viewing. Colouring is the job of the stain, not glycerin.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Observing Cells: Onion Peel and Cheek Cells",
+      "question": "Why is a stain added before observing cells under the microscope?",
+      "options": [
+        "It increases contrast so the cells are more visible",
+        "It makes the cells grow larger on the slide",
+        "It stops air bubbles forming under the coverslip",
+        "It preserves the cells for several weeks"
+      ],
+      "answer": 0,
+      "explanation": "Adding a stain increases contrast between the cell parts and the background, improving visibility under the microscope.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Observing Cells: Onion Peel and Cheek Cells",
+      "question": "The coverslip is lowered slowly with a needle, at an angle. What does this prevent?",
+      "options": [
+        "The stain from washing away",
+        "Air bubbles from getting trapped",
+        "The peel from being over-stained",
+        "The glycerin from drying up"
+      ],
+      "answer": 1,
+      "explanation": "Lowering the coverslip slowly at an angle keeps air bubbles from being trapped, which would spoil the view of the cells.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Observing Cells: Onion Peel and Cheek Cells",
+      "question": "In both cell-mounting activities, blotting paper is used to",
+      "options": [
+        "spread the cells evenly on the slide",
+        "dry the cells before staining them",
+        "wipe extra glycerin from the coverslip edges",
+        "press the coverslip flat onto the peel"
+      ],
+      "answer": 2,
+      "explanation": "Blotting paper gently soaks up the extra glycerin around the edges of the coverslip.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Observing Cells: Onion Peel and Cheek Cells",
+      "question": "Under a microscope a student sees polygon-shaped cells with a nucleus but no cell wall, spread loosely on the slide. These are most likely",
+      "options": [
+        "muscle cells",
+        "onion peel cells",
+        "bread mould cells",
+        "human cheek cells"
+      ],
+      "answer": 3,
+      "explanation": "Cheek cells are polygon-shaped and, being animal cells, have no cell wall. Onion peel cells are nearly rectangular, tightly packed and have a cell wall.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Observing Cells: Onion Peel and Cheek Cells",
+      "question": "Which difference would a student actually observe between onion peel cells and cheek cells?",
+      "options": [
+        "Cheek cells have a nucleus; onion cells do not",
+        "Onion cells have a cell wall; cheek cells do not",
+        "Onion cells have no cytoplasm; cheek cells do",
+        "Cheek cells are rectangular; onion cells polygonal"
+      ],
+      "answer": 1,
+      "explanation": "Both kinds of cells have a nucleus and cytoplasm. The key difference is the extra outer cell wall in onion (plant) cells; the shapes are the other way round — onion rectangular, cheek polygonal.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q21",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Observing Cells: Onion Peel and Cheek Cells",
+      "question": "Safranin gives onion peel cells a pinkish colour so that they can be seen clearly.",
+      "answer": true,
+      "explanation": "The chapter says safranin, a red stain, gives the cells a pinkish colour and helps us see them clearly.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q22",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Observing Cells: Onion Peel and Cheek Cells",
+      "question": "In Activity 2.2, methylene blue is used to stain the onion peel cells.",
+      "answer": false,
+      "explanation": "The onion peel is stained with safranin (red). Methylene blue is the stain used for human cheek cells in Activity 2.3.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Observing Cells: Onion Peel and Cheek Cells",
+      "question": "The cheek cells scraped in Activity 2.3 come from the",
+      "options": [
+        "outer skin of the face",
+        "roof of the mouth only",
+        "surface of the tongue",
+        "inner lining of the mouth"
+      ],
+      "answer": 3,
+      "explanation": "The blunt end of a toothpick gently scrapes the inside of the cheek; these cells form the inner lining of the mouth.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q24",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Observing Cells: Onion Peel and Cheek Cells",
+      "question": "Select ALL the steps that are common to BOTH the onion peel activity (2.2) and the cheek cell activity (2.3).",
+      "options": [
+        "Adding a stain",
+        "Using safranin in particular",
+        "Adding a drop of glycerin",
+        "Placing a coverslip",
+        "Pulling a peel with forceps"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "Both activities stain the material, add glycerin and place a coverslip. Safranin and forceps are specific to the onion peel; cheek cells use methylene blue and a toothpick.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parts of a Cell and Their Functions",
+      "question": "Which of these is NOT one of the three basic parts of every cell?",
+      "options": [
+        "Cell membrane",
+        "Cytoplasm",
+        "Cell wall",
+        "Nucleus"
+      ],
+      "answer": 2,
+      "explanation": "The three basic parts are the cell membrane, cytoplasm and nucleus. A cell wall is an extra layer found only in some cells, such as plant cells.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parts of a Cell and Their Functions",
+      "question": "What is the main job of the cell membrane?",
+      "options": [
+        "To separate cells and control what enters and leaves",
+        "To make food for the cell using sunlight energy",
+        "To regulate every activity and the growth of the cell",
+        "To give the cell rigidity, strength and a firm shape"
+      ],
+      "answer": 0,
+      "explanation": "The cell membrane encloses the cytoplasm and nucleus, separates cells, and is porous so useful materials enter and waste leaves. Regulation is the nucleus; rigidity is the cell wall.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parts of a Cell and Their Functions",
+      "question": "Which part of the cell regulates all activities within the cell and also regulates growth?",
+      "options": [
+        "Cytoplasm",
+        "Vacuole",
+        "Cell membrane",
+        "Nucleus"
+      ],
+      "answer": 3,
+      "explanation": "The nucleus regulates all the cell's activities and its growth. Most life processes happen in the cytoplasm, but it is the nucleus that regulates them.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parts of a Cell and Their Functions",
+      "question": "Where do most of the life processes of a cell take place?",
+      "options": [
+        "In the cell wall",
+        "In the nucleus",
+        "In the cytoplasm",
+        "In the membrane"
+      ],
+      "answer": 2,
+      "explanation": "Most life processes occur in the cytoplasm, which contains compounds such as carbohydrates, proteins, fats and mineral salts.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Parts of a Cell and Their Functions",
+      "question": "The cell membrane is described as 'porous'. What does this allow?",
+      "options": [
+        "Movement of the nucleus inside the cell",
+        "Entry of essential materials and exit of waste",
+        "Light to pass in for photosynthesis",
+        "The cell to stay rigid and firm"
+      ],
+      "answer": 1,
+      "explanation": "Being porous, the membrane lets materials needed for life processes enter and waste materials leave the cell.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parts of a Cell and Their Functions",
+      "question": "The nucleus is itself covered by",
+      "options": [
+        "a thin membrane",
+        "a thick cell wall",
+        "a layer of cytoplasm",
+        "a sac-like vacuole"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says the nucleus, the round structure in the middle, is also covered by a thin membrane.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q31",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Parts of a Cell and Their Functions",
+      "question": "The nucleus is the outermost layer of a cell.",
+      "answer": false,
+      "explanation": "The outermost layer of an animal cell is the cell membrane (plant cells have a cell wall outside that). The nucleus is the round structure in the middle.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q32",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Parts of a Cell and Their Functions",
+      "question": "According to the chapter, which of these compounds does the cytoplasm contain? Select all that apply.",
+      "options": [
+        "Proteins",
+        "Chlorophyll",
+        "Fats",
+        "Lactic acid"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "The cytoplasm contains carbohydrates, proteins, fats and mineral salts. Chlorophyll is in plastids (chloroplasts), and lactic acid is a product of Lactobacillus, not a cell component.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Parts of a Cell and Their Functions",
+      "question": "If the nucleus of a cell were damaged, which of the following would be MOST directly affected?",
+      "options": [
+        "Regulation of the cell's activities and growth",
+        "The entry of water through the porous membrane",
+        "The colour of the cell seen under the microscope",
+        "The thickness and rigidity of the cell wall"
+      ],
+      "answer": 0,
+      "explanation": "The nucleus regulates all activities and growth, so damage to it directly affects regulation. Entry of water is a membrane job; colour comes from stains or chlorophyll.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Parts of a Cell and Their Functions",
+      "question": "Which structure gives plant cells rigidity and makes them look firm and compactly arranged?",
+      "options": [
+        "Cytoplasm",
+        "Cell wall",
+        "Nucleus",
+        "Cell membrane"
+      ],
+      "answer": 1,
+      "explanation": "The cell wall provides rigidity and strength, which is why plant cells are arranged compactly and look firm.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q35",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Parts of a Cell and Their Functions",
+      "question": "The space between the cell membrane and the nucleus is filled with cytoplasm.",
+      "answer": true,
+      "explanation": "The chapter defines cytoplasm as the material filling the space between the cell membrane and the nucleus.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Parts of a Cell and Their Functions",
+      "question": "A student says: 'The nucleus does most of the cell's life processes, so it is the most active part.' Which correction is right?",
+      "options": [
+        "The nucleus does nothing; only the membrane is active",
+        "Most life processes occur in the cell wall, not the nucleus",
+        "Most life processes occur in the cytoplasm; the nucleus regulates them",
+        "The nucleus carries out the life processes and also stores food"
+      ],
+      "answer": 2,
+      "explanation": "The chapter places most life processes in the cytoplasm, while the nucleus regulates the cell's activities and growth. The two roles are different.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Plant Cells vs Animal Cells",
+      "question": "Which extra outer layer do onion peel cells have that cheek cells lack?",
+      "options": [
+        "Nuclear membrane",
+        "Vacuole",
+        "Cytoplasm",
+        "Cell wall"
+      ],
+      "answer": 3,
+      "explanation": "Plant cells such as onion peel cells have a cell wall outside the cell membrane; animal cells like cheek cells do not.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Plant Cells vs Animal Cells",
+      "question": "What are plastids?",
+      "options": [
+        "Large empty-looking spaces that store waste in plant cells",
+        "Tiny rod-shaped structures found in cells of all parts of a plant",
+        "Thin branched filaments that lack any chlorophyll",
+        "Round structures in the middle of a cell that regulate growth"
+      ],
+      "answer": 1,
+      "explanation": "Plastids are tiny rod-shaped structures in plant cells. Some (chloroplasts) hold chlorophyll; in non-green parts they store substances. The vacuole is the empty-looking space.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Plant Cells vs Animal Cells",
+      "question": "In the non-green parts of a plant, what do plastids mainly do?",
+      "options": [
+        "Carry out photosynthesis",
+        "Trap nitrogen from air",
+        "Produce lactic acid",
+        "Help store substances"
+      ],
+      "answer": 3,
+      "explanation": "Only green plastids (chloroplasts) do photosynthesis. In non-green parts plastids help in storage of substances.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Plant Cells vs Animal Cells",
+      "question": "Which of these is NOT a role of the large vacuole in a plant cell, according to the chapter?",
+      "options": [
+        "Storing important substances",
+        "Getting rid of waste",
+        "Making food using chlorophyll",
+        "Maintaining the shape of the cell"
+      ],
+      "answer": 2,
+      "explanation": "The vacuole stores substances, removes waste and maintains cell shape, giving strength and support. Food-making (photosynthesis) is done by chloroplasts.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Plant Cells vs Animal Cells",
+      "question": "Which statement about vacuoles is NOT correct?",
+      "options": [
+        "Animal cells always have one large central vacuole",
+        "Plant-cell vacuoles help maintain the shape of the cell",
+        "Vacuoles in animal cells, when present, are usually small",
+        "Small vacuoles store substances dissolved in water"
+      ],
+      "answer": 0,
+      "explanation": "In animal cells vacuoles are usually absent, and when present they are small. It is the plant cell that has a large vacuole.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q42",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Plant Cells vs Animal Cells",
+      "question": "Based on Fig. 2.5, select ALL the parts found in a plant cell but NOT in an animal cell.",
+      "options": [
+        "Cell wall",
+        "Nucleus",
+        "Chloroplast",
+        "Cell membrane",
+        "Cytoplasm"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Cell wall and chloroplasts (and a large vacuole) are plant-cell features. Nucleus, cell membrane and cytoplasm are present in both cell types.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q43",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Plant Cells vs Animal Cells",
+      "question": "Chloroplasts are green because they contain chlorophyll.",
+      "answer": true,
+      "explanation": "Chloroplasts are plastids that contain chlorophyll, which makes them green and lets them carry out photosynthesis.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q44",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Plant Cells vs Animal Cells",
+      "question": "A cell is just a simple bag of liquid.",
+      "answer": false,
+      "explanation": "The chapter stresses that a cell is a complex structure made of many parts, each with its own special function.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Plant Cells vs Animal Cells",
+      "question": "A cell seen under a microscope is green, has a rigid outer covering and one big central space. It is most likely",
+      "options": [
+        "a nerve cell",
+        "a human cheek cell",
+        "a bacterial cell",
+        "a plant leaf cell"
+      ],
+      "answer": 3,
+      "explanation": "Green colour (chloroplasts), a rigid wall and a large vacuole are the hallmarks of a plant cell. Animal cells lack all three, and bacteria have no large vacuole or chloroplasts.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Plant Cells vs Animal Cells",
+      "question": "Which of these is common to BOTH plant and animal cells?",
+      "options": [
+        "Cell wall",
+        "Chloroplast",
+        "Cell membrane",
+        "Large vacuole"
+      ],
+      "answer": 2,
+      "explanation": "Both cell types have a cell membrane, cytoplasm and nucleus. Cell wall, chloroplasts and a large vacuole are plant-only.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Plant Cells vs Animal Cells",
+      "question": "In which part of a plant are plastids most likely to contain chlorophyll?",
+      "options": [
+        "Roots",
+        "Leaves",
+        "Dry seeds",
+        "Inner bark"
+      ],
+      "answer": 1,
+      "explanation": "Chlorophyll-containing plastids (chloroplasts) make parts green; leaves are green. In non-green parts such as roots, plastids store substances instead.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cell Shape and Function",
+      "question": "What is the shape of a human muscle cell?",
+      "options": [
+        "Spindle-shaped",
+        "Long with branches",
+        "Polygon-shaped",
+        "Nearly rectangular"
+      ],
+      "answer": 0,
+      "explanation": "Muscle cells are spindle-shaped. Nerve cells are long and branched, cheek cells polygonal and onion cells rectangular.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cell Shape and Function",
+      "question": "Which description fits a nerve cell (neuron)?",
+      "options": [
+        "Very long with branches",
+        "Short, thick and spindle-shaped",
+        "Flat and polygon-shaped",
+        "Round and tightly packed"
+      ],
+      "answer": 0,
+      "explanation": "A nerve cell is very long and has branches, which help it reach different body parts and pass on messages.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cell Shape and Function",
+      "question": "Why does the long, branched shape of a neuron suit its job?",
+      "options": [
+        "It lets the cell store large amounts of food",
+        "It helps it reach distant parts and pass messages quickly",
+        "It allows the cell to contract and relax in waves",
+        "It protects the inner surface of the cheek"
+      ],
+      "answer": 1,
+      "explanation": "Neurons carry messages; their elongated, branched structure helps them reach different parts of the body and transmit messages fast.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cell Shape and Function",
+      "question": "Inner cheek cells are thin and flat. What function does this shape serve?",
+      "options": [
+        "Pushing food down the food pipe",
+        "Producing digestive juices",
+        "Forming a protective lining",
+        "Carrying water in tubes"
+      ],
+      "answer": 2,
+      "explanation": "Thin, flat cheek cells form a protective lining on the inner surface of the cheek.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cell Shape and Function",
+      "question": "Muscle cells in the food pipe push food to the stomach. Which property makes this wave-like movement possible?",
+      "options": [
+        "They are round and filled with vacuoles",
+        "They are long, branched and rigid",
+        "They are rectangular with a cell wall",
+        "They are thin, flexible and spindle-shaped"
+      ],
+      "answer": 3,
+      "explanation": "The muscle cells contract and relax in waves; this works because they are thin, flexible and spindle-shaped.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cell Shape and Function",
+      "question": "Which statement about cells of the stomach is NOT correct?",
+      "options": [
+        "Muscle cells in the stomach wall help churn the food",
+        "Muscle cells of the stomach produce the digestive acid",
+        "Cells in the inner lining produce digestive juices and acid",
+        "Different types of cells work together to make digestion possible"
+      ],
+      "answer": 1,
+      "explanation": "Acid and digestive juices come from other cells in the stomach's inner lining, not from the muscle cells, whose job is churning.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q54",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Cell Shape and Function",
+      "question": "Nerve cells are also known as neurons.",
+      "answer": true,
+      "explanation": "The chapter states that nerve cells, also known as neurons, carry messages in our body.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q55",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Cell Shape and Function",
+      "question": "All cells in the human body have the same shape and differ only in size.",
+      "answer": false,
+      "explanation": "Human cells vary in shape — muscle cells are spindle-shaped, nerve cells long and branched, cheek cells flat and polygonal — because shape is related to function.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q56",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Cell Shape and Function",
+      "question": "Select ALL the shapes the chapter mentions for plant cells.",
+      "options": [
+        "Rectangular",
+        "Oval",
+        "Spindle-shaped",
+        "Spiral",
+        "Branched"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Plant cells may be rectangular, elongated, oval or tube-like. Spindle is a muscle-cell shape, spiral is a bacterial shape and branched describes nerve cells or fungal filaments.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cell Shape and Function",
+      "question": "The chapter says the unique shape, size and structure of a cell are related to its",
+      "options": [
+        "colour",
+        "location",
+        "age",
+        "function"
+      ],
+      "answer": 3,
+      "explanation": "Cells look different because their shape and structure help them carry out their specific functions.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cell Shape and Function",
+      "question": "A newly discovered cell must carry signals quickly across a long distance in the body. Which shape would you expect it to have?",
+      "options": [
+        "Spindle-shaped",
+        "Thin and flat",
+        "Long and branched",
+        "Round and small"
+      ],
+      "answer": 2,
+      "explanation": "Carrying messages across distances is the role of neurons, whose long, branched shape suits exactly this task.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Levels of Organisation",
+      "question": "Which is the correct order of the levels of organisation in a living organism?",
+      "options": [
+        "Cell → Tissue → Organ → Organ system → Organism",
+        "Tissue → Cell → Organ → Organism → Organ system",
+        "Cell → Organ → Tissue → Organ system → Organism",
+        "Organ → Tissue → Cell → Organ system → Organism"
+      ],
+      "answer": 0,
+      "explanation": "Cells form tissues, tissues form organs, organs form organ systems, and all organ systems together make up the organism.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Levels of Organisation",
+      "question": "A group of similar cells performing a function is called",
+      "options": [
+        "an organ",
+        "an organ system",
+        "an organism",
+        "a tissue"
+      ],
+      "answer": 3,
+      "explanation": "A tissue is a group of similar cells. Different tissues organise to form an organ.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Levels of Organisation",
+      "question": "Different tissues organised together form",
+      "options": [
+        "a cell",
+        "an organ system",
+        "an organ",
+        "an organism"
+      ],
+      "answer": 2,
+      "explanation": "An organ is made of different tissues organised together; several organs make an organ system.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Levels of Organisation",
+      "question": "The stomach contains muscle tissue and lining tissue that produces acid. In the levels of organisation, the stomach is",
+      "options": [
+        "a tissue",
+        "an organ",
+        "an organ system",
+        "an organism"
+      ],
+      "answer": 1,
+      "explanation": "Because the stomach is made of different tissues working together, it is an organ. The whole digestive system, with many organs, is the organ system.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q63",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Levels of Organisation",
+      "question": "A tissue is the basic unit of life.",
+      "answer": false,
+      "explanation": "The cell is the basic unit of life, like a brick in a wall. A tissue is a group of similar cells.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Levels of Organisation",
+      "question": "According to the chapter, the life of a complex multicellular organism begins with",
+      "options": [
+        "a single cell called the egg",
+        "a group of similar tissues",
+        "a fully formed tiny organ",
+        "a colony of many bacteria"
+      ],
+      "answer": 0,
+      "explanation": "Life begins with a single cell — the egg — which divides repeatedly to form a complete many-celled organism.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Levels of Organisation",
+      "question": "Organisms made up of many cells are called",
+      "options": [
+        "multicellular",
+        "acellular",
+        "unicellular",
+        "microbial"
+      ],
+      "answer": 0,
+      "explanation": "Multicellular means many-celled. Animals, including humans, and plants are multicellular.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q66",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Levels of Organisation",
+      "question": "Plants are multicellular organisms but animals are not.",
+      "answer": false,
+      "explanation": "Both plants and animals (including humans) are multicellular; they develop from a single egg cell dividing repeatedly.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Levels of Organisation",
+      "question": "What is the largest known cell in the living world?",
+      "options": [
+        "A human nerve cell",
+        "The yolk of an ostrich egg",
+        "An onion peel cell",
+        "The white of a hen's egg"
+      ],
+      "answer": 1,
+      "explanation": "The yolk of an ostrich egg is a single cell, about 130–170 mm across — the largest known cell. The egg white is non-cellular material.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Levels of Organisation",
+      "question": "Apart from the yolk cell, an ostrich egg contains non-cellular material. What is it for?",
+      "options": [
+        "A layer of chlorophyll to make food for the embryo",
+        "A second cell that divides to form the chick",
+        "A shell for protection and a white liquid that nourishes the cell",
+        "Bacteria that help the yolk digest nutrients"
+      ],
+      "answer": 2,
+      "explanation": "The shell protects, and the white liquid nourishes the developing cell. Neither is a cell.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Levels of Organisation",
+      "question": "The ostrich yolk cell measures about 130–170 mm in diameter. In centimetres this is about",
+      "options": [
+        "1.3–1.7 cm",
+        "0.13–0.17 cm",
+        "130–170 cm",
+        "13–17 cm"
+      ],
+      "answer": 3,
+      "explanation": "10 mm = 1 cm, so 130–170 mm = 13–17 cm — roughly the width of a notebook, a huge size for a single cell.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q70",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Levels of Organisation",
+      "question": "The egg of an organism can divide repeatedly to form a complete living being made of many cells.",
+      "answer": true,
+      "explanation": "The chapter says the egg has the amazing ability to divide repeatedly, forming a multicellular organism.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q71",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Levels of Organisation",
+      "question": "Select ALL the organisms that are multicellular.",
+      "options": [
+        "A human being",
+        "Amoeba",
+        "A mango tree",
+        "A bacterium",
+        "Bread mould"
+      ],
+      "answer": [
+        0,
+        2,
+        4
+      ],
+      "explanation": "Humans, plants and mould (a multicellular fungus) are many-celled. Amoeba and bacteria are single-celled.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Levels of Organisation",
+      "question": "The chapter compares a cell to a brick. Which pairing completes the analogy correctly?",
+      "options": [
+        "Cell is to brick as tissue is to wall",
+        "Cell is to organism as brick is to wall",
+        "Cell is to wall as brick is to organism",
+        "Brick is to cell as organism is to tissue"
+      ],
+      "answer": 1,
+      "explanation": "A cell is the basic unit of a living organism in the same way that a brick is the basic unit of a wall.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Are Microorganisms?",
+      "question": "What are microorganisms?",
+      "options": [
+        "Plants and animals that are smaller than an ant",
+        "Non-living particles floating in pond water",
+        "Any organism that lives inside the human body",
+        "Living beings too small to be seen with the naked eye"
+      ],
+      "answer": 3,
+      "explanation": "'Micro' means very small; microorganisms are tiny living beings that cannot be seen without a microscope.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Are Microorganisms?",
+      "question": "In the word 'microorganism', 'micro' means",
+      "options": [
+        "fast-moving",
+        "living thing",
+        "very small",
+        "invisible"
+      ],
+      "answer": 2,
+      "explanation": "Micro means very small and organism means living being — a very small living being.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Are Microorganisms?",
+      "question": "Which pair of microorganisms is given in the chapter as unicellular?",
+      "options": [
+        "Bacteria and Amoeba",
+        "Mould and algae",
+        "Bread mould and yeast",
+        "Spirulina and mould"
+      ],
+      "answer": 0,
+      "explanation": "Bacteria and Amoeba are made of just one cell. Some fungi (mould) and algae are multicellular.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What Are Microorganisms?",
+      "question": "In Table 2.1 (pond water), which organism was recorded as a single cell with an irregular shape that moves?",
+      "options": [
+        "Bacteria",
+        "Paramecium",
+        "Algae",
+        "Amoeba"
+      ],
+      "answer": 3,
+      "explanation": "Amoeba was recorded as 'single cell, moving, irregular shape'. Paramecium moves using specialised structures; algae are green.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What Are Microorganisms?",
+      "question": "In Table 2.2, a 'branched filament without chlorophyll having a brush-like structure' describes",
+      "options": [
+        "Green algae",
+        "Bread mould (a fungus)",
+        "Mould (a fungus)",
+        "Rod bacteria"
+      ],
+      "answer": 2,
+      "explanation": "Mould was recorded as a brush-like branched filament; bread mould had a sac-like structure. Both lack chlorophyll.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What Are Microorganisms?",
+      "question": "A soil-suspension organism is a branched filament without chlorophyll and has a sac-like structure. According to Table 2.2 it is",
+      "options": [
+        "Spherical algae",
+        "Bread mould",
+        "Mould with brushes",
+        "Rod-shaped bacteria"
+      ],
+      "answer": 1,
+      "explanation": "Bread mould is the sac-like branched filament; the brush-like one is the other mould. Algae are spherical and have chlorophyll.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q79",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "What Are Microorganisms?",
+      "question": "Select ALL the shapes of bacteria listed in Table 2.2.",
+      "options": [
+        "Spherical",
+        "Comma-shaped",
+        "Rod-shaped",
+        "Branched filament",
+        "Spindle-shaped"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Bacteria were recorded as spherical, comma, spiral or rod-shaped. Branched filaments are fungi; spindle shape is a muscle cell.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Are Microorganisms?",
+      "question": "The microscopes used to see the organisms in Tables 2.1 and 2.2 magnify about",
+      "options": [
+        "100 to 400 times",
+        "10 to 40 times",
+        "1,000 to 4,000 times",
+        "10,00,000 times"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says we can only see these microorganisms with a microscope that magnifies them 100 to 400 times.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What Are Microorganisms?",
+      "question": "Which statement about viruses is correct?",
+      "options": [
+        "They are acellular and multiply only inside a living cell",
+        "They are single-celled and move with hair-like structures",
+        "They are multicellular and can infect only plants",
+        "They have a nucleoid like bacteria and live in soil"
+      ],
+      "answer": 0,
+      "explanation": "Viruses are microscopic and acellular (not made of cells). They multiply only when they enter a living cell, and can infect plants, animals or bacteria.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q82",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "What Are Microorganisms?",
+      "question": "Viruses can infect bacterial cells.",
+      "answer": true,
+      "explanation": "The chapter says viruses may infect plants, animals or bacterial cells and may cause disease.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q83",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "What Are Microorganisms?",
+      "question": "Viruses are unicellular microorganisms.",
+      "answer": false,
+      "explanation": "Viruses are acellular — they are not made of cells at all, which is why they reproduce only inside a host cell.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What Are Microorganisms?",
+      "question": "Which statement about microorganisms is NOT correct?",
+      "options": [
+        "Some microorganisms live inside our bodies",
+        "All microorganisms are made of a single cell",
+        "Microorganisms are found in water, soil and air",
+        "Some fungi and algae are multicellular microbes"
+      ],
+      "answer": 1,
+      "explanation": "Not all microbes are unicellular: some fungi (mould) and algae have many cells. The other three statements are from the chapter.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What Are Microorganisms?",
+      "question": "What is the advantage of a low-cost foldable paper microscope mentioned in the chapter?",
+      "options": [
+        "It can show subcellular parts like an electron microscope",
+        "It gives more detail than a high-powered lab microscope",
+        "It makes the microscopic world accessible to many people",
+        "It works without any lens at all"
+      ],
+      "answer": 2,
+      "explanation": "The paper microscope may give less detail than lab microscopes, but being low-cost and foldable it makes microscopy accessible to many.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What Are Microorganisms?",
+      "question": "In Activity 2.5, after stirring soil in water and letting it settle, from where is the drop for the slide taken?",
+      "options": [
+        "From a second fresh beaker",
+        "From the mud at the bottom",
+        "From the middle, after shaking",
+        "From the top layer of the liquid"
+      ],
+      "answer": 3,
+      "explanation": "The suspension is left to settle and a drop is taken from the top layer, so the slide is not clouded by heavy soil particles.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What Are Microorganisms?",
+      "question": "Both pond water (Activity 2.4) and soil suspension (Activity 2.5) showed small moving organisms. What does this indicate?",
+      "options": [
+        "Pond water had been mixed into the soil beforehand",
+        "Microorganisms are present in soil as well as in water",
+        "Only wet places can contain any microorganisms",
+        "Soil organisms are the same species as pond ones"
+      ],
+      "answer": 1,
+      "explanation": "Seeing similar tiny creatures in both samples shows that soil, like water, contains a variety of microorganisms invisible to the unaided eye.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Are Microorganisms?",
+      "question": "Amoeba and Paramecium both belong to which group of microorganisms?",
+      "options": [
+        "Bacteria",
+        "Fungi",
+        "Algae",
+        "Protozoa"
+      ],
+      "answer": 3,
+      "explanation": "Table 2.1 labels both Amoeba and Paramecium as Protozoa.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Microbes Everywhere and Food Preservation",
+      "question": "A lemon left outside develops a powdery, cotton-like growth after some days. What has happened?",
+      "options": [
+        "It has dried into manure",
+        "Its sugar has turned into salt",
+        "It has been infected by microbes",
+        "Its cells have become plastids"
+      ],
+      "answer": 2,
+      "explanation": "The powdery or cotton-like growth on rotting food is microbes (such as mould) that have infected it.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Microbes Everywhere and Food Preservation",
+      "question": "Which pair of EXTREME conditions does the chapter say some microbes can live in?",
+      "options": [
+        "Hot water springs and snow-cold zones",
+        "Deep space and the surface of the Sun",
+        "Boiling oil and hot desert sand dunes",
+        "Pure salt crystals and pure sugar"
+      ],
+      "answer": 0,
+      "explanation": "Some microbes live in extreme climates such as hot water springs and snow-cold zones, as well as at moderate temperatures.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Microbes Everywhere and Food Preservation",
+      "question": "Why do microorganisms not spoil pickles and murabbas?",
+      "options": [
+        "Oil makes the microbes unable to see food",
+        "The spices kill every microbe present",
+        "Pickles are kept sealed away from all air",
+        "High salt or sugar concentration stops them growing"
+      ],
+      "answer": 3,
+      "explanation": "Pickles and murabbas contain spices with a high concentration of salt or sugar, which act as preservatives and do not allow microbes to grow.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q92",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Microbes Everywhere and Food Preservation",
+      "question": "Microorganisms cannot survive in hot water springs.",
+      "answer": false,
+      "explanation": "The chapter gives hot water springs as an example of an extreme condition where some microorganisms do live.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Microbes Everywhere and Food Preservation",
+      "question": "Which of these foods is LEAST likely to be spoiled by microbes?",
+      "options": [
+        "A lemon left outside for a week",
+        "A cut tomato left on the table",
+        "A jar of murabba in thick sugar syrup",
+        "Lukewarm milk left uncovered"
+      ],
+      "answer": 2,
+      "explanation": "High sugar concentration in murabba prevents microbial growth. The other foods are moist and unpreserved, so microbes grow on them.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q94",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Microbes Everywhere and Food Preservation",
+      "question": "Pickles are preserved mainly because the spices kill the microbes.",
+      "answer": false,
+      "explanation": "The chapter attributes preservation to the high concentration of salt or sugar, which does not allow microbes to grow — not to spices killing them.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Microbes Everywhere and Food Preservation",
+      "question": "Which set lists the three microbe shapes mentioned when discussing Tables 2.1 and 2.2 on page 11?",
+      "options": [
+        "Square, cube-shaped, flat",
+        "Spherical, rod-shaped, irregular",
+        "Spindle, branched, tube-like",
+        "Oval, rectangular, polygonal"
+      ],
+      "answer": 1,
+      "explanation": "Microorganisms vary in shape — spherical, rod-shaped or irregular, as seen in the tables. The other sets describe plant or animal cells.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q96",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Microbes Everywhere and Food Preservation",
+      "question": "Some microorganisms live inside the human intestine and help in digestion.",
+      "answer": true,
+      "explanation": "The chapter recalls that our intestine has many bacteria that help in digestion.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q97",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Microbes Everywhere and Food Preservation",
+      "question": "Which of these are given in the chapter as EXTREME conditions where microbes live? Select all that apply.",
+      "options": [
+        "Hot water springs",
+        "Snow-cold zones",
+        "Rooms at moderate temperature",
+        "Jars of sugary murabba"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Hot springs and snow-cold zones are the extreme examples. Moderate temperature is not extreme, and high sugar stops microbes growing.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Microbes Everywhere and Food Preservation",
+      "question": "Like plants and animals, microorganisms show great diversity. Which statement does NOT follow from the chapter?",
+      "options": [
+        "All microbes need moderate temperatures to survive",
+        "Microbes vary in shape, size and structure",
+        "Microbes live in water, soil, air and inside bodies",
+        "Microbes can be found on leaves, stems and roots"
+      ],
+      "answer": 0,
+      "explanation": "Some microbes live in extreme hot or cold places, so 'all need moderate temperatures' is wrong. The other three are stated in the chapter.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Decomposition, Manure and Biogas",
+      "question": "In Activity 2.7, what do fruit and vegetable peels buried in soil turn into after 2–3 weeks?",
+      "options": [
+        "Dark nutrient-rich manure",
+        "Hard, dry pieces of bark",
+        "A green layer of pond algae",
+        "A clear liquid called biogas"
+      ],
+      "answer": 0,
+      "explanation": "The peels become a dark-coloured material — manure — that is rich in nutrients and increases soil fertility.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Decomposition, Manure and Biogas",
+      "question": "Which microorganisms break down plant waste into manure?",
+      "options": [
+        "Viruses and algae",
+        "Fungi and bacteria",
+        "Protozoa only",
+        "Spirulina and Chlorella"
+      ],
+      "answer": 1,
+      "explanation": "Fungi and bacteria in soil act on plant waste and slowly break it down into simpler, nutrient-rich manure.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Decomposition, Manure and Biogas",
+      "question": "What does the chapter call the process by which microbes break down complex substances of fallen leaves into simpler nutrient-rich substances?",
+      "options": [
+        "Photosynthesis",
+        "Fermentation",
+        "Decomposition",
+        "Magnification"
+      ],
+      "answer": 2,
+      "explanation": "This breakdown of complex substances into simpler ones that return to the soil is decomposition.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Decomposition, Manure and Biogas",
+      "question": "According to the chapter, manure formation occurs best at",
+      "options": [
+        "any temperature as long as there is no water",
+        "freezing temperature and complete dryness",
+        "boiling temperature and bright sunlight",
+        "optimal temperature and appropriate moisture"
+      ],
+      "answer": 3,
+      "explanation": "Manure formation occurs at optimal temperature and appropriate moisture level — the conditions microbes need to grow.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Decomposition, Manure and Biogas",
+      "question": "Suppose microorganisms suddenly vanished from Earth. Which consequence follows from the chapter?",
+      "options": [
+        "Plants would grow faster since nothing would attack their roots",
+        "Dead matter would not decompose and soil would lose nutrients",
+        "All food would stay fresh forever and soil would get richer",
+        "Curd and bread could still be made but would taste the same"
+      ],
+      "answer": 1,
+      "explanation": "Microbes decompose dead matter and recycle nutrients to the soil; without them waste would pile up and soil would lose fertility. Curd and bread also depend on microbes.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Decomposition, Manure and Biogas",
+      "question": "In what kind of environment do the microbes that produce biogas live?",
+      "options": [
+        "Ice-cold",
+        "Oxygen-rich",
+        "Bright sunlight",
+        "Oxygen-free"
+      ],
+      "answer": 3,
+      "explanation": "Many bacteria and fungi live in an oxygen-free environment; some of these decompose waste and release biogas.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Decomposition, Manure and Biogas",
+      "question": "Biogas is mainly made of two gases. Which is present in the HIGHER proportion?",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Methane",
+        "Nitrogen"
+      ],
+      "answer": 2,
+      "explanation": "Biogas is primarily carbon dioxide plus a high proportion of methane; methane is the main gas and the fuel component.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q106",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Decomposition, Manure and Biogas",
+      "question": "Select ALL the uses of biogas mentioned in the chapter.",
+      "options": [
+        "Cooking",
+        "Running vehicles",
+        "Preserving pickles",
+        "Generating electricity"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Biogas is used for cooking, heating, generating electricity and even running vehicles. Pickles are preserved by salt or sugar, not gas.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Decomposition, Manure and Biogas",
+      "question": "What did Ananda Mohan Chakrabarty develop in 1971?",
+      "options": [
+        "A bacterium that could break down oil spills",
+        "A microscope that magnified 10,00,000 times",
+        "A yeast strain that makes bread rise much faster",
+        "A chemical fertiliser that is rich in nitrogen"
+      ],
+      "answer": 0,
+      "explanation": "Chakrabarty developed a special bacterium that could break down oil spills, helping to clean the environment.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Decomposition, Manure and Biogas",
+      "question": "What is a patent, as described in the chapter?",
+      "options": [
+        "A book that publishes drawings of new discoveries",
+        "A prize given to a scientist for a famous discovery",
+        "A licence allowing anyone to use a new invention freely",
+        "A right so no one can copy, use or sell an invention without permission"
+      ],
+      "answer": 3,
+      "explanation": "A patent is a copyright given so that no one else can copy, use or sell the invention without the inventor's permission.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Decomposition, Manure and Biogas",
+      "question": "Chakrabarty developed his bacterium in 1971 and received a patent in 1980. How many years passed between the two?",
+      "options": [
+        "19 years",
+        "11 years",
+        "9 years",
+        "1 year"
+      ],
+      "answer": 2,
+      "explanation": "1980 − 1971 = 9 years.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Decomposition, Manure and Biogas",
+      "question": "In the Vedas, the word 'Krimi' refers to",
+      "options": [
+        "the fermentation of milk into sour curd",
+        "tiny entities, both visible and invisible",
+        "the very large yolk cell of an ostrich egg",
+        "the lentil-shaped lens of early microscopes"
+      ],
+      "answer": 1,
+      "explanation": "Ancient texts use 'Krimi' for tiny entities including Drishya (visible) and Adrishya (invisible), with mention of their beneficial and harmful effects.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q111",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Decomposition, Manure and Biogas",
+      "question": "Biogas is mostly carbon dioxide with only a small amount of methane.",
+      "answer": false,
+      "explanation": "Biogas contains carbon dioxide but a HIGH proportion of methane — methane is the main component.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Decomposition, Manure and Biogas",
+      "question": "Exercise 4: Snehal put peels mixed with dried leaves in pit A and the same peels without leaves in pit B, covered both and waited 3 weeks. What is she testing?",
+      "options": [
+        "Whether dried leaves affect how waste turns into manure",
+        "Whether fruit peels can sprout into new plants in soil",
+        "Whether sunlight is needed for the waste to decompose",
+        "Whether the garden soil contains Rhizobium bacteria"
+      ],
+      "answer": 0,
+      "explanation": "The only difference between the pits is the dried leaves, so she is testing their effect on decomposition/manure formation. Both pits are covered, so sunlight is not the variable.",
+      "source": "exercise:Q4"
+    },
+    {
+      "id": "q113",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Decomposition, Manure and Biogas",
+      "question": "Helpful bacteria can also decompose animal wastes such as dung.",
+      "answer": true,
+      "explanation": "The chapter notes that helpful bacteria decompose animal wastes like dung as well as plant waste.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Decomposition, Manure and Biogas",
+      "question": "Exercise 6 asks you to test that microbes need certain conditions for growth. Which of these is NOT one of the conditions named?",
+      "options": [
+        "Bright sunlight",
+        "Optimal temperature",
+        "Air supply",
+        "Moisture level"
+      ],
+      "answer": 0,
+      "explanation": "The exercise names optimal temperature, air and moisture. Sunlight is not listed — indeed Activity 2.7 works with the waste buried under soil.",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Decomposition, Manure and Biogas",
+      "question": "Exercise 7: one bread slice is kept near the sink, the other in the refrigerator for three days. Why does the fridge slice show little or no mould?",
+      "options": [
+        "The fridge has no air for microbes",
+        "The cold slows the growth of microbes",
+        "Light in the fridge kills the microbes",
+        "Bread in the cold turns into manure"
+      ],
+      "answer": 1,
+      "explanation": "Microbes grow well in warm, moist conditions; the low temperature of the refrigerator slows their growth, while the damp warm sink area favours mould.",
+      "source": "exercise:Q7"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Yeast and Fermentation",
+      "question": "Yeast belongs to which group of microorganisms?",
+      "options": [
+        "Protozoa",
+        "Bacteria",
+        "Fungi",
+        "Algae"
+      ],
+      "answer": 2,
+      "explanation": "Yeast is a unicellular fungus.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Yeast and Fermentation",
+      "question": "Why does dough with yeast rise and become fluffy?",
+      "options": [
+        "Yeast produces lactic acid that puffs the dough",
+        "Yeast absorbs water and swells inside the dough",
+        "Sugar reacts with warm air and expands the flour",
+        "Yeast respires and releases carbon dioxide that forms bubbles"
+      ],
+      "answer": 3,
+      "explanation": "Yeast breaks down food during respiration and releases carbon dioxide; the gas bubbles make the dough soft and fluffy.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Yeast and Fermentation",
+      "question": "The dough with yeast develops a slightly different smell. This is because yeast also produces",
+      "options": [
+        "a little lactic acid",
+        "a small amount of alcohol",
+        "a little methane gas",
+        "a trace of chlorophyll"
+      ],
+      "answer": 1,
+      "explanation": "Yeast produces a small amount of alcohol during respiration, which gives the dough its characteristic smell.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Yeast and Fermentation",
+      "question": "Why are sugar and warm water added to the flour in Activity 2.8?",
+      "options": [
+        "Sugar makes bubbles and warm water traps them",
+        "Sugar sweetens the bread and warm water melts the flour",
+        "Sugar kills unwanted bacteria and warm water sterilises",
+        "Sugar is food for the yeast and warmth helps it grow"
+      ],
+      "answer": 3,
+      "explanation": "Yeast respires by breaking down food (sugar) and grows well in warm conditions, so both help it work faster.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Yeast and Fermentation",
+      "question": "In Activity 2.8, why was NO yeast added to bowl B?",
+      "options": [
+        "To make bowl B rise faster than A",
+        "Because bowl B already had enough sugar",
+        "So that the two bowls could be compared",
+        "Because yeast only works in bowl A's flour"
+      ],
+      "answer": 2,
+      "explanation": "Bowl B is the control — identical except for yeast — so any difference in the dough can be attributed to the yeast.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Yeast and Fermentation",
+      "question": "Which bacterium does the chapter name for fermenting idli and dosa batter and bhatura dough?",
+      "options": [
+        "Lactobacillus",
+        "Rhizobium bacteria",
+        "Paramecium",
+        "Spirulina alga"
+      ],
+      "answer": 0,
+      "explanation": "Besides yeast, some bacteria such as Lactobacillus help ferment batter for idli and dosa and dough for bhatura.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q122",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Yeast and Fermentation",
+      "question": "Yeast is a unicellular fungus.",
+      "answer": true,
+      "explanation": "The chapter states that yeast is a unicellular fungus while mould is a multicellular fungus.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q123",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Yeast and Fermentation",
+      "question": "Yeast produces lactic acid, which makes the dough soft and fluffy.",
+      "answer": false,
+      "explanation": "Yeast releases carbon dioxide (and a little alcohol). Lactic acid is produced by Lactobacillus in curd.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Yeast and Fermentation",
+      "question": "Exercise 2(i): Both test tubes had sugar solution; only tube B had yeast. After 3–4 hours in a warm place the balloon on B inflated. Why?",
+      "options": [
+        "Sugar reacted with warm air to form gas",
+        "Water evaporated and filled the balloon",
+        "Warm air expanded inside tube B only",
+        "Yeast produced a gas inside tube B"
+      ],
+      "answer": 3,
+      "explanation": "Only tube B differed by having yeast, and warm air or evaporation would affect both tubes equally. The yeast respired on the sugar and released carbon dioxide.",
+      "source": "exercise:Q2"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Yeast and Fermentation",
+      "question": "Exercise 2(ii): Aanandi shook the gas from the balloon into lime water. What was she trying to find out?",
+      "options": [
+        "Whether yeast was still alive",
+        "Whether the gas was flammable",
+        "Whether the gas was carbon dioxide",
+        "Whether sugar remained in the tube"
+      ],
+      "answer": 2,
+      "explanation": "Lime water is a test for carbon dioxide (it turns milky), so she wanted to confirm the gas produced by yeast was carbon dioxide.",
+      "source": "exercise:Q2"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Yeast and Fermentation",
+      "question": "Exercise 9(iii): If yeast were NOT added to flask A containing warm sugar solution, what would be observed in the lime water in tube B?",
+      "options": [
+        "It would turn milky faster than before",
+        "No change, because no gas would be produced",
+        "It would turn green from algae",
+        "It would boil due to the warm solution"
+      ],
+      "answer": 1,
+      "explanation": "Without yeast there is no respiration and no carbon dioxide, so the lime water stays clear.",
+      "source": "exercise:Q9"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Yeast and Fermentation",
+      "question": "Which statement about yeast is NOT correct?",
+      "options": [
+        "It produces lactic acid that sours dough",
+        "It belongs to the group of organisms called fungi",
+        "It grows well in warm conditions",
+        "It releases carbon dioxide while respiring"
+      ],
+      "answer": 0,
+      "explanation": "Yeast releases carbon dioxide and a little alcohol — not lactic acid, which is a Lactobacillus product. The other three are correct.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q128",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Yeast and Fermentation",
+      "question": "Select ALL the foods the chapter says are made using yeast.",
+      "options": [
+        "Bread",
+        "Cakes",
+        "Curd",
+        "Pastries",
+        "Manure"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Yeasts are used for breads, cakes and pastries. Curd is made by Lactobacillus and manure by decomposer microbes.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Yeast and Fermentation",
+      "question": "In Exercise 2, why was the set-up kept in a warm place away from sunlight?",
+      "options": [
+        "Yeast grows well in warm conditions",
+        "Sunlight would make yeast photosynthesise",
+        "Cold makes balloons expand on their own",
+        "Warmth melts the sugar into gas"
+      ],
+      "answer": 0,
+      "explanation": "Yeast is a fungus that grows well in warmth; it has no chlorophyll, so sunlight is irrelevant to its food-making.",
+      "source": "exercise:Q2"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Curd and Lactobacillus",
+      "question": "Which bacterium in curd ferments milk into curd?",
+      "options": [
+        "Rhizobium bacteria",
+        "Lactobacillus",
+        "Yeast fungus",
+        "Paramecium"
+      ],
+      "answer": 1,
+      "explanation": "Curd contains several bacteria; one of them, Lactobacillus, feeds on the milk sugar and ferments it into curd.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Curd and Lactobacillus",
+      "question": "What does Lactobacillus feed on in milk?",
+      "options": [
+        "Proteins in the milk",
+        "Fat droplets in the milk",
+        "Lactose, the sugar in milk",
+        "Mineral salts in the milk"
+      ],
+      "answer": 2,
+      "explanation": "Lactobacillus feeds on lactose (milk sugar), multiplies and ferments the milk.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Curd and Lactobacillus",
+      "question": "Why does curd taste sour?",
+      "options": [
+        "Salt is added as a preservative",
+        "Yeast produces alcohol in it",
+        "Milk fat turns rancid overnight",
+        "Lactobacillus produces lactic acid"
+      ],
+      "answer": 3,
+      "explanation": "Instead of alcohol (like yeast), these bacteria produce lactic acid, which makes curd sour.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Curd and Lactobacillus",
+      "question": "In Activity 2.9, milk in bowl A (warm) curdled but milk in bowl B (cold) did not. Why?",
+      "options": [
+        "Cold milk has no lactose for the bacteria to eat",
+        "The curd bacteria grow well in warm conditions",
+        "Warm milk contains more fat than cold milk",
+        "Bowl B was not covered as well as bowl A was"
+      ],
+      "answer": 1,
+      "explanation": "Lactobacillus grows well in warm conditions, so curd formed in the warm bowl but not in the cold one.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Curd and Lactobacillus",
+      "question": "Exercise 8: Curd left out for a day becomes more sour. Which explanation fits the chapter?",
+      "options": [
+        "Water evaporates leaving the sugar concentrated",
+        "The curd absorbs sour gases from the air around it",
+        "Yeast from the air adds alcohol to the curd",
+        "Bacteria keep multiplying and making more lactic acid"
+      ],
+      "answer": 3,
+      "explanation": "Lactobacillus continues to feed on lactose and multiply at room temperature, producing more lactic acid and increasing sourness.",
+      "source": "exercise:Q8"
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Curd and Lactobacillus",
+      "question": "Yeast and Lactobacillus both ferment food. What is the key difference in their products?",
+      "options": [
+        "Yeast gives methane; Lactobacillus gives oxygen",
+        "Yeast gives lactic acid; Lactobacillus gives alcohol",
+        "Yeast gives alcohol; Lactobacillus gives lactic acid",
+        "Both give alcohol but in different amounts"
+      ],
+      "answer": 2,
+      "explanation": "Yeast produces carbon dioxide and a little alcohol; Lactobacillus produces lactic acid instead of alcohol.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q136",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Curd and Lactobacillus",
+      "question": "Lactobacillus feeds on lactose, the sugar in milk.",
+      "answer": true,
+      "explanation": "The chapter says this bacterium feeds on the sugar in the milk (lactose), multiplies and ferments it.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Curd and Lactobacillus",
+      "question": "In bowl B (cold), the milk did not curdle but might be slightly sour. How can both observations be explained?",
+      "options": [
+        "Cold slows the bacteria, so only a little lactic acid forms",
+        "Cold milk has twice as much lactose as warm milk",
+        "The bacteria die instantly in cold, leaving sour gas",
+        "Sourness comes from yeast, curdling from bacteria"
+      ],
+      "answer": 0,
+      "explanation": "The bacteria grow poorly in the cold, so a small amount of acid may form (slight sourness) but not enough to curdle the milk.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q138",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Curd and Lactobacillus",
+      "question": "Select ALL the statements that are true of Lactobacillus.",
+      "options": [
+        "It is a bacterium",
+        "It helps in curd formation",
+        "It ferments idli and dosa batter",
+        "It produces alcohol",
+        "It is acellular"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Lactobacillus is a bacterium used for curd and fermenting batter. It produces lactic acid, not alcohol, and being a cell it is not acellular (that describes viruses).",
+      "source": "text:page14"
+    },
+    {
+      "id": "q139",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Curd and Lactobacillus",
+      "question": "Curd becomes sour because of alcohol produced by bacteria.",
+      "answer": false,
+      "explanation": "The sourness comes from lactic acid produced by Lactobacillus. Alcohol is produced by yeast, not by these bacteria.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q140",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Curd and Lactobacillus",
+      "question": "Apart from home curd-making, where else does the chapter say Lactobacillus is used?",
+      "options": [
+        "Trapping nitrogen in the soil",
+        "Making biogas from cattle dung",
+        "Cleaning up oil spills at sea",
+        "Fermentation in the food industry"
+      ],
+      "answer": 3,
+      "explanation": "The Snapshots note that Lactobacillus is used in curd formation at home and in fermentation processes in the food industry.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q141",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rhizobium and Nitrogen",
+      "question": "Where does the bacterium Rhizobium live?",
+      "options": [
+        "In pond water near algae",
+        "In the leaves of wheat plants",
+        "In root nodules of legumes",
+        "In the yolk of eggs"
+      ],
+      "answer": 2,
+      "explanation": "Rhizobium lives in swollen regions called nodules on the roots of legumes such as beans, peas and lentils.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q142",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rhizobium and Nitrogen",
+      "question": "What does Rhizobium do for the plant it lives with?",
+      "options": [
+        "Produces lactic acid that protects the roots",
+        "Traps nitrogen from the air for the plant to use",
+        "Releases oxygen for the roots to breathe with",
+        "Breaks the dead roots down into rich manure"
+      ],
+      "answer": 1,
+      "explanation": "Rhizobium traps nitrogen from the air and converts it into a form plants can use, helping them grow without chemical fertiliser.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q143",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rhizobium and Nitrogen",
+      "question": "Which group of crops have root nodules containing Rhizobium?",
+      "options": [
+        "Legumes such as beans, peas and lentils",
+        "Cereals such as wheat and rice",
+        "Vegetables such as tomato and onion",
+        "Fruits such as lemon and orange"
+      ],
+      "answer": 0,
+      "explanation": "Roots of certain legumes — beans, peas, lentils (and cowpea in Fig. 2.12) — have nodules with Rhizobium.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q144",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rhizobium and Nitrogen",
+      "question": "Exercise 3: A wheat farmer added nitrogen fertiliser but a neighbour growing beans did not. Why could the bean farmer skip it?",
+      "options": [
+        "Rhizobium in bean root nodules supplies nitrogen naturally",
+        "Beans do not need any nitrogen to grow at all",
+        "Bean plants take nitrogen directly from rain water",
+        "Beans grow better in soil that is poor in nutrients"
+      ],
+      "answer": 0,
+      "explanation": "Beans are legumes; Rhizobium in their root nodules traps nitrogen from the air, so extra nitrogen fertiliser is not needed. Wheat has no such nodules.",
+      "source": "exercise:Q3"
+    },
+    {
+      "id": "q145",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rhizobium and Nitrogen",
+      "question": "Why do farmers grow legumes in rotation with other crops?",
+      "options": [
+        "Legumes kill harmful microbes in the soil",
+        "Legumes naturally raise soil nitrogen for the next crop",
+        "Legumes need less water than any other crop",
+        "Legumes shade the soil and keep it cool"
+      ],
+      "answer": 1,
+      "explanation": "Rhizobium in legume roots adds nitrogen to the soil, keeping it healthy for the following crop without chemical fertiliser.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q146",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Rhizobium and Nitrogen",
+      "question": "Rhizobium lives in nodules found on the leaves of legume plants.",
+      "answer": false,
+      "explanation": "The nodules are swollen regions on the ROOTS of legumes, not the leaves.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q147",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Rhizobium and Nitrogen",
+      "question": "Growing legumes in rotation with other crops helps keep the soil healthy for the next crop.",
+      "answer": true,
+      "explanation": "Legumes naturally increase nitrogen in the soil, so rotation keeps it fertile.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q148",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rhizobium and Nitrogen",
+      "question": "Exercise 5 riddle: 'I live in the roots of pulse crops and provide nutrients for their growth.' Who am I?",
+      "options": [
+        "Yeast",
+        "Lactobacillus",
+        "Rhizobium",
+        "Spirulina"
+      ],
+      "answer": 2,
+      "explanation": "Pulses are legumes; the microbe in their root nodules that provides nitrogen nutrients is Rhizobium.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q149",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rhizobium and Nitrogen",
+      "question": "What are root nodules?",
+      "options": [
+        "Green parts of roots with chlorophyll",
+        "Tiny hairs that absorb water from soil",
+        "Dark patches of decaying root tissue",
+        "Swollen regions on roots where Rhizobium lives"
+      ],
+      "answer": 3,
+      "explanation": "Nodules are swollen regions on the roots of legumes in which Rhizobium bacteria live.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q150",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Rhizobium and Nitrogen",
+      "question": "Select ALL the plants that the chapter says have root nodules with Rhizobium.",
+      "options": [
+        "Peas",
+        "Wheat",
+        "Beans",
+        "Rice",
+        "Maize"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Beans and peas (and lentils) are legumes with Rhizobium nodules. Wheat, rice and maize are cereals without them — which is why the wheat farmer in Exercise 3 needs fertiliser.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q151",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rhizobium and Nitrogen",
+      "question": "Which statement about Rhizobium and legumes is NOT correct?",
+      "options": [
+        "Rhizobium traps nitrogen from the air",
+        "Rhizobium makes the plant's leaves produce chlorophyll",
+        "Legumes can grow well without chemical nitrogen fertiliser",
+        "Fig. 2.12 shows nodules on a cowpea plant"
+      ],
+      "answer": 1,
+      "explanation": "Rhizobium's contribution is nitrogen, not chlorophyll. The other three statements are from the chapter.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q152",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Microalgae and Spirulina",
+      "question": "How do microalgae make their food?",
+      "options": [
+        "From lactose in water",
+        "By eating bacteria",
+        "By absorbing manure",
+        "Using sunlight"
+      ],
+      "answer": 3,
+      "explanation": "Microalgae are plant-like; they make their own food using sunlight and release oxygen while doing so.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q153",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Microalgae and Spirulina",
+      "question": "What share of Earth's oxygen supply do microalgae produce, according to the chapter?",
+      "options": [
+        "Exactly one quarter",
+        "About one tenth",
+        "More than half",
+        "Almost none"
+      ],
+      "answer": 2,
+      "explanation": "While making food, microalgae release oxygen and produce more than half of Earth's oxygen supply.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q154",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Microalgae and Spirulina",
+      "question": "Which three microalgae does the chapter name as human health supplements and medicines?",
+      "options": [
+        "Spirulina, Chlorella and Diatoms",
+        "Rhizobium, Amoeba and Paramecium",
+        "Yeast, mould and bread mould",
+        "Lactobacillus, Chlorella and yeast"
+      ],
+      "answer": 0,
+      "explanation": "Spirulina, Chlorella and Diatoms are used by humans as health supplements and medicines.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q155",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Microalgae and Spirulina",
+      "question": "Besides food and oxygen, which two uses of microalgae does the chapter give?",
+      "options": [
+        "Breaking down oil spills and dung",
+        "Making curd and bread",
+        "Fixing nitrogen and making manure",
+        "Cleaning water and making biofuel"
+      ],
+      "answer": 3,
+      "explanation": "Microalgae help clean water and are used to make biofuel.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q156",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Microalgae and Spirulina",
+      "question": "Which of these is NOT listed as a threat to microalgal diversity?",
+      "options": [
+        "Climate change",
+        "Pollution of water bodies",
+        "Growing Spirulina in tanks",
+        "Habitat destruction"
+      ],
+      "answer": 2,
+      "explanation": "Pollution, climate change and habitat destruction threaten microalgae. Farming Spirulina is given as a livelihood and conservation-friendly practice.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q157",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Microalgae and Spirulina",
+      "question": "Spirulina is called a 'superfood'. Which fact from the chapter supports this?",
+      "options": [
+        "It is made up mostly of fat and sugar",
+        "Over 60 per cent of its body weight is protein",
+        "It contains chlorophyll just like a green leaf",
+        "It can be harvested from the tank every day"
+      ],
+      "answer": 1,
+      "explanation": "Spirulina is rich in protein (over 60% of body weight), a good source of vitamin B12, and has only a small amount of fat and sugar.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q158",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Microalgae and Spirulina",
+      "question": "Which statement about growing Spirulina is NOT correct?",
+      "options": [
+        "The tank should be kept in direct sunlight",
+        "The tank is filled with pond water",
+        "It is stirred twice a week",
+        "It is harvested after 3–6 weeks by filtering through a fine cloth"
+      ],
+      "answer": 0,
+      "explanation": "The tank is placed in a bright place but AWAY from direct sunlight, under a shade net or at moderate temperature.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q159",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Microalgae and Spirulina",
+      "question": "Spirulina is a bacterium that traps nitrogen in root nodules.",
+      "answer": false,
+      "explanation": "Spirulina is a microalga used as a superfood. Nitrogen-trapping in root nodules is done by the bacterium Rhizobium.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q160",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Microalgae and Spirulina",
+      "question": "Microalgae serve as a food source for many aquatic animals.",
+      "answer": true,
+      "explanation": "The chapter says microalgae are rich in nutrients and serve as food for many aquatic animals.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q161",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Microalgae and Spirulina",
+      "question": "Select ALL the microalgae named in the chapter.",
+      "options": [
+        "Spirulina",
+        "Chlorella",
+        "Rhizobium",
+        "Lactobacillus",
+        "Amoeba"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Spirulina and Chlorella (and Diatoms) are microalgae. Rhizobium and Lactobacillus are bacteria; Amoeba is a protozoan.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q162",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Microalgae and Spirulina",
+      "question": "Spirulina is stirred twice a week and harvested after 3–6 weeks. How many times would it be stirred in total before harvest?",
+      "options": [
+        "6 to 12 times",
+        "3 to 6 times",
+        "12 to 24 times",
+        "21 to 42 times"
+      ],
+      "answer": 0,
+      "explanation": "Twice a week for 3 weeks is 6 stirs; for 6 weeks it is 12 stirs — so 6 to 12 times.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q163",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Microalgae and Spirulina",
+      "question": "Spirulina contains a large amount of fat and sugar.",
+      "answer": false,
+      "explanation": "Spirulina has only a SMALL amount of fat and sugar; it is rich in protein.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q164",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Comparing Cells: Bacteria, Fungi, Protozoa and Viruses",
+      "question": "Instead of a well-defined nucleus, a bacterial cell has a",
+      "options": [
+        "vacuole",
+        "nucleoid",
+        "chloroplast",
+        "plastid"
+      ],
+      "answer": 1,
+      "explanation": "Bacteria lack a well-defined nucleus and a nuclear membrane; they have a nucleoid region instead (Fig. 2.13).",
+      "source": "text:page17"
+    },
+    {
+      "id": "q165",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Comparing Cells: Bacteria, Fungi, Protozoa and Viruses",
+      "question": "Fungal cells have a cell wall but cannot photosynthesise. Why?",
+      "options": [
+        "They have a nucleoid",
+        "They lack a cell membrane",
+        "They lack chloroplasts",
+        "They have no cytoplasm"
+      ],
+      "answer": 2,
+      "explanation": "Fungi have a cell wall but no chloroplasts, so they cannot make their own food through photosynthesis.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q166",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Comparing Cells: Bacteria, Fungi, Protozoa and Viruses",
+      "question": "According to the Snapshots, which cells have a cell wall around the cell membrane?",
+      "options": [
+        "Fungal and protozoan cells only",
+        "Plant and animal cells only",
+        "Animal and bacterial cells only",
+        "Plant, fungal and bacterial cells"
+      ],
+      "answer": 3,
+      "explanation": "Plant, fungal and bacterial cells have an extra covering, the cell wall. Animal cells do not.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q167",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Comparing Cells: Bacteria, Fungi, Protozoa and Viruses",
+      "question": "To observe subcellular components, the chapter says we need",
+      "options": [
+        "a low-cost foldable paper microscope",
+        "an electron microscope of about 10,00,000×",
+        "a magnifying glass of about 200–300×",
+        "a water-filled round-bottom glass flask"
+      ],
+      "answer": 1,
+      "explanation": "Subcellular structures need very high magnification; an electron microscope magnifies about 10,00,000 times.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q168",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Comparing Cells: Bacteria, Fungi, Protozoa and Viruses",
+      "question": "Which of these cells lacks a nuclear membrane?",
+      "options": [
+        "An onion cell",
+        "A yeast cell",
+        "An Amoeba cell",
+        "A bacterial cell"
+      ],
+      "answer": 3,
+      "explanation": "Bacteria have no well-defined nucleus or nuclear membrane. Yeast, protozoa (Amoeba), algae, plants and animals all have a proper nucleus.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q169",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Comparing Cells: Bacteria, Fungi, Protozoa and Viruses",
+      "question": "Select ALL the organisms that are unicellular.",
+      "options": [
+        "Bacteria",
+        "Protozoa",
+        "Mould",
+        "Pea plant",
+        "Human being"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Bacteria and protozoa are single-celled (so is yeast). Mould is a multicellular fungus, and plants and humans are multicellular.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q170",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Comparing Cells: Bacteria, Fungi, Protozoa and Viruses",
+      "question": "Yeast is unicellular and mould is multicellular, yet both are placed in the same group. Which group?",
+      "options": [
+        "Protozoa",
+        "Bacteria",
+        "Fungi",
+        "Algae"
+      ],
+      "answer": 2,
+      "explanation": "Fungi can be unicellular (yeast) or multicellular (mould); both lack chloroplasts and have a cell wall.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q171",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Comparing Cells: Bacteria, Fungi, Protozoa and Viruses",
+      "question": "Which statement is NOT correct?",
+      "options": [
+        "All microorganisms lack a well-defined nucleus",
+        "Bacteria lack a well-defined nucleus",
+        "Fungi cannot make their own food",
+        "Viruses reproduce only inside a host"
+      ],
+      "answer": 0,
+      "explanation": "Only bacteria lack a well-defined nucleus; yeast, protozoa and algae have one. The other statements are correct.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q172",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Comparing Cells: Bacteria, Fungi, Protozoa and Viruses",
+      "question": "Protozoa have a well-defined nucleus, unlike bacteria.",
+      "answer": true,
+      "explanation": "The chapter says the nucleoid distinguishes bacteria from the cells of yeast, protozoa, algae, fungi, plants and animals, which have a nucleus.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q173",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Comparing Cells: Bacteria, Fungi, Protozoa and Viruses",
+      "question": "Fungi can make their own food because their cells have a cell wall.",
+      "answer": false,
+      "explanation": "Food-making needs chloroplasts, not a cell wall. Fungi have a cell wall but no chloroplasts, so they cannot photosynthesise.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q174",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Comparing Cells: Bacteria, Fungi, Protozoa and Viruses",
+      "question": "Exercise 1: In the diagram comparing animal, plant and bacterial cells, where should 'Nucleoid' be written?",
+      "options": [
+        "Only in animal cell",
+        "Only in plant cell",
+        "Common to all three",
+        "Only in bacterial cell"
+      ],
+      "answer": 3,
+      "explanation": "The nucleoid is the feature unique to bacteria, which lack a true nucleus.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q175",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Comparing Cells: Bacteria, Fungi, Protozoa and Viruses",
+      "question": "Exercise 1: Which label belongs in the region 'Common to all three cells'?",
+      "options": [
+        "Cell wall",
+        "Nucleus",
+        "Cytoplasm",
+        "Chloroplast"
+      ],
+      "answer": 2,
+      "explanation": "All three have cytoplasm and a cell membrane. The nucleus is absent in bacteria, the cell wall is absent in animal cells, and chloroplasts are plant-only.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q176",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Comparing Cells: Bacteria, Fungi, Protozoa and Viruses",
+      "question": "Exercise 1: Which part is present in both plant and bacterial cells but absent in animal cells?",
+      "options": [
+        "Nucleus",
+        "Cell wall",
+        "Chloroplast",
+        "Cell membrane"
+      ],
+      "answer": 1,
+      "explanation": "The cell wall is found in plant and bacterial cells (and fungi) but not animal cells. Chloroplasts are plant-only; the membrane is in all three.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q177",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Comparing Cells: Bacteria, Fungi, Protozoa and Viruses",
+      "question": "Which is true of fungi but NOT of algae?",
+      "options": [
+        "They lack chlorophyll and cannot make food",
+        "They are living things made up of cells",
+        "They can be made of more than one cell",
+        "They can live in soil as well as in water"
+      ],
+      "answer": 0,
+      "explanation": "Algae contain chlorophyll and make food by photosynthesis; fungi lack chloroplasts. Both are cellular, can be multicellular and live in soil or water.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q178",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Comparing Cells: Bacteria, Fungi, Protozoa and Viruses",
+      "question": "Select ALL the statements that correctly describe differences between cell types.",
+      "options": [
+        "Bacteria have a nucleoid, not a true nucleus",
+        "Fungal cells lack chloroplasts",
+        "Viruses are made of a single cell",
+        "Animal cells have a cell wall"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Bacteria have a nucleoid and fungi lack chloroplasts. Viruses are acellular (no cell at all) and animal cells have no cell wall.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q179",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Comparing Cells: Bacteria, Fungi, Protozoa and Viruses",
+      "question": "Which microorganism cannot make its own food AND has a cell wall?",
+      "options": [
+        "Mould",
+        "Spirulina",
+        "Chlorella",
+        "Amoeba"
+      ],
+      "answer": 0,
+      "explanation": "Mould is a fungus: cell wall present, chloroplasts absent. Spirulina and Chlorella are microalgae that photosynthesise; Amoeba is a protozoan.",
+      "source": "text:page17"
+    }
+  ]
+}

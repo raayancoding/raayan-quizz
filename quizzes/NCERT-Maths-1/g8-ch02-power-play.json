@@ -1,0 +1,2017 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-maths-1-g8-ch02-power-play",
+  "title": "Power Play",
+  "subject": "Maths-1",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Maths-1/ch02",
+  "chapter": "2. Power Play",
+  "topic": "Full Chapter",
+  "description": "Exponents and powers from paper folding to the size of the universe: exponential notation, laws of exponents, zero and negative powers, powers of 10, scientific notation, counting combinations, estimation and Indian/international number names.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "maths",
+    "exponents",
+    "powers",
+    "scientific-notation",
+    "exponential-growth",
+    "estimation",
+    "large-numbers"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Paper Folding & Exponential Growth",
+      "question": "In the paper-folding activity, what happens to the thickness of the sheet after each fold?",
+      "options": [
+        "It doubles each time",
+        "It triples each time",
+        "It grows by 0.001 cm",
+        "It squares each time"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's table shows 0.002, 0.004, 0.008 cm … — each fold stacks two layers, so the thickness is multiplied by 2 every time. Adding a fixed 0.001 cm would be linear growth, not what folding does.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Paper Folding & Exponential Growth",
+      "question": "Starting from a sheet 0.001 cm thick, what is the thickness after 10 folds?",
+      "options": [
+        "10.24 cm",
+        "1.024 cm",
+        "0.512 cm",
+        "2.048 cm"
+      ],
+      "answer": 1,
+      "explanation": "After 10 folds the thickness is 0.001 × 2¹⁰ = 0.001 × 1024 = 1.024 cm — 'just above 1 cm'. 0.512 cm is 9 folds, 2.048 cm is 11 folds, and 10.24 cm would need the thickness to grow 10,240 times.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Paper Folding & Exponential Growth",
+      "question": "From any point in the folding, by how many times does the thickness increase after 3 more folds?",
+      "options": [
+        "6 times",
+        "9 times",
+        "8 times",
+        "3 times"
+      ],
+      "answer": 2,
+      "explanation": "Three doublings multiply the thickness by 2 × 2 × 2 = 2³ = 8. '3 times' and '6 times' come from adding or multiplying by 3 instead of doubling three times; 9 would be 3².",
+      "source": "text:page3"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Paper Folding & Exponential Growth",
+      "question": "After 20 folds the paper is about 10.485 m thick and after 26 folds about 670 m. Roughly how thick is it after 25 folds?",
+      "options": [
+        "About 335 m",
+        "About 168 m",
+        "About 670 m",
+        "About 52 m"
+      ],
+      "answer": 0,
+      "explanation": "Fold 26 ≈ 670 m, and one fold earlier is half of that: ≈ 335 m (also 10.485 m × 2⁵ = 10.485 × 32 ≈ 335 m). 168 m is fold 24 and 52 m is fold 22 (roughly); 670 m is fold 26 itself.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Paper Folding & Exponential Growth",
+      "question": "After 30 folds the paper is about 10.7 km thick (near the depth of the Mariana Trench). How many MORE folds are needed before the thickness first exceeds 100 km?",
+      "options": [
+        "7 more folds",
+        "10 more folds",
+        "4 more folds",
+        "3 more folds"
+      ],
+      "answer": 2,
+      "explanation": "Each fold doubles: 10.7 → 21.4 → 42.9 → 85.9 km after 3 folds (still under 100 km), then ≈ 172 km after the 4th. 10 more folds would give 1024 × 10.7 km ≈ 11,000 km, far more than needed.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q6",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Paper Folding & Exponential Growth",
+      "question": "After 46 folds, a 0.001 cm sheet would be more than 7,00,000 km thick — far more than the 3,84,400 km distance to the Moon.",
+      "answer": true,
+      "explanation": "0.001 cm × 2⁴⁶ ≈ 7,03,687 km, which is why the chapter says a sheet folded 46 times 'can reach the Moon' (the Moon is about 3,84,400 km away). Exponential growth makes this true despite the tiny start.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q7",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Paper Folding & Exponential Growth",
+      "question": "Between fold 10 and fold 20 the thickness of the paper grows exactly 10 times, from 1.024 cm to about 10 cm.",
+      "answer": false,
+      "explanation": "Ten folds multiply the thickness by 2¹⁰ = 1024, not 10: it goes from 1.024 cm to about 10.485 m (≈ 1048 cm). Confusing '10 folds' with '10 times' is the classic linear-growth mistake.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Paper Folding & Exponential Growth",
+      "question": "A ladder to the Moon with 20 cm between steps needs about 1,92,20,00,000 steps, while a sheet of paper reaches the Moon in just 46 folds. How does the chapter describe the two kinds of growth?",
+      "options": [
+        "Linear multiplies by a fixed factor each step; exponential adds a fixed amount each step",
+        "Linear doubles each step; exponential adds 20 cm each step and so is much slower",
+        "Both add a fixed amount each step, but exponential growth adds a larger amount",
+        "Linear adds a fixed amount each step; exponential multiplies by a fixed factor each step"
+      ],
+      "answer": 3,
+      "explanation": "Each ladder step adds the same 20 cm (additive = linear growth); each fold multiplies the thickness by 2 (multiplicative = exponential growth). That is why 46 folds beat nearly two billion steps.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Paper Folding & Exponential Growth",
+      "question": "Which of these situations from the chapter are examples of exponential (multiplicative) growth? Select all that apply.",
+      "options": [
+        "Lotuses doubling every day in the magical pond",
+        "Ladder steps spaced 20 cm apart up to the Moon",
+        "Diamonds counted in 'The Stones that Shine' poem",
+        "Walking a 400 km pādayātra at a steady pace",
+        "Stacking sheets of paper one at a time to the Moon"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "The chapter names 'The Stones that Shine', 'Magical Pond' and 'How Many Combinations' as exponential examples — each stage multiplies the count (×2 or ×3). Ladder steps, stacking sheets and steady walking add a fixed amount each time, so they are linear.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Paper Folding & Exponential Growth",
+      "question": "A container holds 5 bottles and one new container arrives every day. The number of bottles after 40 days is:",
+      "options": [
+        "5 × 2⁴⁰ ≈ 5.5 × 10¹²",
+        "5 × 40 = 2 × 10²",
+        "5⁴⁰ ≈ 9 × 10²⁷",
+        "40⁵ ≈ 1 × 10⁸"
+      ],
+      "answer": 1,
+      "explanation": "The stock grows by the same 5 bottles each day — linear growth — so after 40 days there are 5 × 40 = 200 = 2 × 10² bottles. 5⁴⁰ or 5 × 2⁴⁰ would mean the bottles multiply each day, which the question never says.",
+      "source": "exercise:Q2"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Exponential Notation Basics",
+      "question": "In 5⁴ = 625, the number 4 is called the:",
+      "options": [
+        "coefficient",
+        "product",
+        "exponent",
+        "base"
+      ],
+      "answer": 2,
+      "explanation": "In nᵃ the small raised number a is the exponent or power; it tells how many times the base n (here 5) is multiplied by itself: 5 × 5 × 5 × 5 = 625.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Exponential Notation Basics",
+      "question": "Which of these is NOT a correct way of reading 5⁴?",
+      "options": [
+        "5 raised to the power 4",
+        "4th power of 5",
+        "5 to the power 4",
+        "4 raised to the power 5"
+      ],
+      "answer": 3,
+      "explanation": "5⁴ means 5 multiplied by itself 4 times, read as '5 raised to the power 4', '5 to the power 4', '5 power 4' or '4th power of 5'. '4 raised to the power 5' is 4⁵ = 1024, a different number.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Exponential Notation Basics",
+      "question": "Write a × a × a × b × b in exponential form.",
+      "options": [
+        "a³b²",
+        "a²b³",
+        "a⁵b⁵",
+        "(ab)⁵"
+      ],
+      "answer": 0,
+      "explanation": "a appears 3 times and b appears 2 times, so the product is a³b² (read 'a cubed b squared'). a²b³ swaps the exponents and (ab)⁵ = a⁵b⁵ would need five of each.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Exponential Notation Basics",
+      "question": "The chapter warns that 4 + 4 + 4 and 4 × 4 × 4 are different. What is 4³ − 3 × 4?",
+      "options": [
+        "60",
+        "52",
+        "0",
+        "48"
+      ],
+      "answer": 1,
+      "explanation": "4³ = 4 × 4 × 4 = 64 and 3 × 4 = 12, so 64 − 12 = 52. Choosing 0 treats 4³ as 4 + 4 + 4 = 12; 48 and 60 come from 64 − 16 and 64 − 4.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Exponential Notation Basics",
+      "question": "Expressed as a product of prime factors in exponential form, 32400 equals:",
+      "options": [
+        "2⁴ × 3² × 5⁴",
+        "2² × 3⁴ × 5⁴",
+        "2⁴ × 3⁴ × 5²",
+        "2³ × 3⁴ × 5²"
+      ],
+      "answer": 2,
+      "explanation": "Dividing repeatedly: 32400 = 2 × 2 × 2 × 2 × 5 × 5 × 3 × 3 × 3 × 3, so 2⁴ × 5² × 3⁴. Check: 16 × 81 × 25 = 32400. The other options give 16200, 90000 and 2,02,500.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Exponential Notation Basics",
+      "question": "Which statement about powers of −1 is correct?",
+      "options": [
+        "(−1)⁵ = 1 and (−1)⁵⁶ = −1",
+        "(−1)⁵ = −5 and (−1)⁵⁶ = 56",
+        "(−1)⁵ = −1 and (−1)⁵⁶ = −1",
+        "(−1)⁵ = −1 and (−1)⁵⁶ = 1"
+      ],
+      "answer": 3,
+      "explanation": "Multiplying an odd number of −1s leaves a minus sign, so (−1)⁵ is negative (−1); an even number of −1s pair up to give +1, so (−1)⁵⁶ is positive. The exponent never multiplies the base.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Exponential Notation Basics",
+      "question": "3600 written as a product of powers of its prime factors is:",
+      "options": [
+        "2² × 3² × 5⁴",
+        "2³ × 3² × 5²",
+        "2⁴ × 3⁴ × 5²",
+        "2⁴ × 3² × 5²"
+      ],
+      "answer": 3,
+      "explanation": "3600 = 36 × 100 = (2² × 3²) × (2² × 5²) = 2⁴ × 3² × 5². Check: 16 × 9 × 25 = 3600. The others give 22,500, 1800 and 32,400.",
+      "source": "exercise:Figure-it-Out-2(iv)"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Exponential Notation Basics",
+      "question": "The numerical value of 7² × 2³ is:",
+      "options": [
+        "392",
+        "196",
+        "784",
+        "343"
+      ],
+      "answer": 0,
+      "explanation": "7² = 49 and 2³ = 8, so 49 × 8 = 392. 196 is 49 × 4, 784 is 49 × 16 and 343 is 7³.",
+      "source": "exercise:Figure-it-Out-3(ii)"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Exponential Notation Basics",
+      "question": "The numerical value of (−2)⁵ × (−10)⁶ is:",
+      "options": [
+        "3,20,00,000",
+        "−32,00,000",
+        "−2,00,00,000",
+        "−3,20,00,000"
+      ],
+      "answer": 3,
+      "explanation": "(−2)⁵ = −32 (odd power → negative) and (−10)⁶ = 10,00,000 (even power → positive), so the product is −3,20,00,000. The sign is negative because only one factor is negative.",
+      "source": "exercise:Figure-it-Out-3(vi)"
+    },
+    {
+      "id": "q20",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Exponential Notation Basics",
+      "question": "Which of the following exponential forms are written correctly? Select all that apply.",
+      "options": [
+        "y × y = y²",
+        "2 × 2 × a × a = 2² × a²",
+        "6 × 6 × 6 × 6 = 4⁶",
+        "b × b × b × b = 4b"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Count how many times each factor repeats: y twice gives y²; 2 twice and a twice give 2²a². 6 × 6 × 6 × 6 is 6⁴ (base 6, exponent 4), not 4⁶, and b × b × b × b is b⁴, whereas 4b means b + b + b + b.",
+      "source": "exercise:Figure-it-Out-1"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Multiplying Powers & Power of a Power",
+      "question": "In 'The Stones that Shine', the king's 3 daughters each got 3 baskets, each basket had 3 keys and each key opened 3 rooms. How many rooms were there in all?",
+      "options": [
+        "3 × 4 = 12",
+        "3⁴ = 81",
+        "3³ = 27",
+        "3⁵ = 243"
+      ],
+      "answer": 1,
+      "explanation": "Daughters → baskets → keys → rooms is four stages of 'times 3': 3 × 3 × 3 × 3 = 3⁴ = 81 rooms. 27 stops at the keys and 243 goes one stage too far (tables).",
+      "source": "text:page5"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Multiplying Powers & Power of a Power",
+      "question": "Each of the 81 rooms had 3 tables, each table 3 necklaces, each necklace 3 diamonds. How many diamonds were there in total?",
+      "options": [
+        "3⁸ = 6561",
+        "3⁵ = 243",
+        "3⁷ = 2187",
+        "3⁶ = 729"
+      ],
+      "answer": 2,
+      "explanation": "Rooms (3⁴) × tables (3) × necklaces (3) × diamonds (3) = 3⁴ × 3³ = 3⁷ = 81 × 27 = 2187. Seven stages of 'times 3' in all.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Multiplying Powers & Power of a Power",
+      "question": "Which product does NOT equal 3⁷?",
+      "options": [
+        "3² × 3⁵",
+        "3⁴ × 3³",
+        "3¹ × 3⁶",
+        "3³ × 3³"
+      ],
+      "answer": 3,
+      "explanation": "When multiplying powers of the same base the exponents ADD: 2 + 5, 4 + 3 and 1 + 6 all give 7, but 3³ × 3³ = 3⁶ = 729, not 2187.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Multiplying Powers & Power of a Power",
+      "question": "Write p⁴ × p⁶ in exponential form.",
+      "options": [
+        "p¹⁰",
+        "p²⁴",
+        "2p¹⁰",
+        "p⁴⁶"
+      ],
+      "answer": 0,
+      "explanation": "p⁴ × p⁶ = (p × p × p × p) × (p × p × p × p × p × p) = p¹⁰ — ten p's multiplied, so the exponents add. p²⁴ multiplies the exponents and p⁴⁶ just writes them side by side.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Multiplying Powers & Power of a Power",
+      "question": "Using 2⁴ = 16 and 2⁵ = 32, the value of 2⁹ is:",
+      "options": [
+        "128",
+        "512",
+        "256",
+        "1024"
+      ],
+      "answer": 1,
+      "explanation": "2⁹ = 2⁴ × 2⁵ = 16 × 32 = 512. 256 is 2⁸, 1024 is 2¹⁰ and 128 is 2⁷ — each off by one doubling.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Multiplying Powers & Power of a Power",
+      "question": "Which pair of expressions are BOTH equal to 9¹⁴?",
+      "options": [
+        "(9⁷)² and 3⁷",
+        "(9²)⁷ and 3²⁸",
+        "(9²)⁷ and 3¹⁴",
+        "(9⁷)⁷ and 3²⁸"
+      ],
+      "answer": 1,
+      "explanation": "(9²)⁷ = 9¹⁴ and, since 9 = 3², 9¹⁴ = (3²)¹⁴ = 3²⁸. 3¹⁴ is only 9⁷, (9⁷)⁷ = 9⁴⁹, and 3⁷ is far smaller than 9¹⁴.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q27",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Multiplying Powers & Power of a Power",
+      "question": "For counting numbers a and b, (nᵃ)ᵇ and (nᵇ)ᵃ are always equal, both being nᵃˣᵇ.",
+      "answer": true,
+      "explanation": "A power of a power multiplies the exponents, and a × b = b × a, so (nᵃ)ᵇ = (nᵇ)ᵃ = nᵃᵇ — for example 2¹⁰ = (2²)⁵ = (2⁵)².",
+      "source": "text:page6"
+    },
+    {
+      "id": "q28",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Multiplying Powers & Power of a Power",
+      "question": "2¹⁰ can be written as (2⁵)², and since 5 + 2 = 7 this shows that 2¹⁰ = 2⁷.",
+      "answer": false,
+      "explanation": "(2⁵)² = 2⁵ × 2⁵ = 2⁵⁺⁵ = 2¹⁰: a power of a power MULTIPLIES the exponents (5 × 2 = 10). Adding them is the mistake; 2⁷ = 128 while 2¹⁰ = 1024.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q29",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Multiplying Powers & Power of a Power",
+      "question": "Which of these numbers are equal to 2⁴ × 3⁶? Select all that apply.",
+      "options": [
+        "6⁴ × 3²",
+        "6¹⁰",
+        "18² × 6²",
+        "6²⁴"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "6⁴ × 3² = 2⁴ × 3⁴ × 3² = 2⁴ × 3⁶ ✓ and 18² × 6² = (2 × 3²)² × (2 × 3)² = 2² × 3⁴ × 2² × 3² = 2⁴ × 3⁶ ✓ (all three equal 11,664). 6¹⁰ = 2¹⁰ × 3¹⁰ and 6²⁴ = 2²⁴ × 3²⁴ are far larger.",
+      "source": "exercise:Q7"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Multiplying Powers & Power of a Power",
+      "question": "If q is a prime number, which description of q⁴⁶ is correct?",
+      "options": [
+        "A 6th power but not a 4th power",
+        "Both a 4th power and a 6th power",
+        "Neither a 4th power nor a 6th power",
+        "A 4th power but not a 6th power"
+      ],
+      "answer": 2,
+      "explanation": "q⁴⁶ would be a 4th power only if 46 were divisible by 4, and a 6th power only if 46 were divisible by 6. 46 = 2 × 23 is divisible by neither, so the statement 'q⁴⁶ is both' is never true.",
+      "source": "exercise:Q4(v)"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Magical Pond: Powers of Products & Quotients",
+      "question": "In the magical pond the lotuses double every day and the pond is fully covered on day 30. On which day was it half covered?",
+      "options": [
+        "Day 20",
+        "Day 29",
+        "Day 15",
+        "Day 28"
+      ],
+      "answer": 1,
+      "explanation": "Doubling from day 29 to day 30 takes the pond from half full to full, so it was half covered on day 29 — not day 15, which would be true only for linear growth.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Magical Pond: Powers of Products & Quotients",
+      "question": "If one lotus was placed in the doubling pond on day 0, how many lotuses (in exponential form) are there when the pond is half covered?",
+      "options": [
+        "30²",
+        "2¹⁵",
+        "2²⁹",
+        "2³⁰"
+      ],
+      "answer": 2,
+      "explanation": "After 30 doublings there are 2³⁰ lotuses (fully covered); one day earlier, half covered, there are 2²⁹. 30² and 2¹⁵ are unrelated to 30 doublings.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Magical Pond: Powers of Products & Quotients",
+      "question": "Damayanti placed one lotus in the doubling pond for 4 days, then moved all the lotuses to the tripling pond for 4 more days. How many lotuses were there at the end?",
+      "options": [
+        "1024",
+        "2401",
+        "6561",
+        "1296"
+      ],
+      "answer": 3,
+      "explanation": "After 4 days of doubling: 2⁴ = 16. Four days of tripling: 16 × 3⁴ = 2⁴ × 3⁴ = (2 × 3)⁴ = 6⁴ = 1296. 1024 = 2¹⁰, 2401 = 7⁴ and 6561 = 3⁸ are wrong bases or exponents.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q34",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Magical Pond: Powers of Products & Quotients",
+      "question": "If Damayanti had used the tripling pond first and the doubling pond second (4 days each), the final number of lotuses would still be the same.",
+      "answer": true,
+      "explanation": "3⁴ × 2⁴ = 2⁴ × 3⁴ = (3 × 2)⁴ = 6⁴ = 1296 — multiplication is commutative, so the order of the ponds does not change the product. The chapter uses this to arrive at mᵃ × nᵃ = (mn)ᵃ.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Magical Pond: Powers of Products & Quotients",
+      "question": "Use the rule mᵃ × nᵃ = (mn)ᵃ to find 2⁵ × 5⁵.",
+      "options": [
+        "1,00,000",
+        "10,000",
+        "10,00,000",
+        "1,000"
+      ],
+      "answer": 0,
+      "explanation": "2⁵ × 5⁵ = (2 × 5)⁵ = 10⁵ = 1,00,000 (one lakh). Pairing each 2 with a 5 makes a 10, and there are five such pairs.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Magical Pond: Powers of Products & Quotients",
+      "question": "Which statement is NOT correct?",
+      "options": [
+        "2⁵ × 2⁵ = 4⁵",
+        "2⁵ + 2⁵ = 2⁶",
+        "2⁵ × 5⁵ = 10²⁵",
+        "2⁵ × 5⁵ = 10⁵"
+      ],
+      "answer": 2,
+      "explanation": "With the SAME exponent and different bases, the bases multiply and the exponent stays: 2⁵ × 5⁵ = 10⁵, not 10²⁵. 2⁵ × 2⁵ = 2¹⁰ = (2²)⁵ = 4⁵ is fine, and 2⁵ + 2⁵ = 2 × 2⁵ = 2⁶ is also true.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q37",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Magical Pond: Powers of Products & Quotients",
+      "question": "Which of the following are equal to 64? Select all that apply.",
+      "options": [
+        "4³",
+        "2³ × 2²",
+        "(2³)²",
+        "6²"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "4³ = 64 and (2³)² = 2⁶ = 64. 2³ × 2² = 2⁵ = 32 (exponents add, not multiply) and 6² = 36 — a square is not the same as a power of 2.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Magical Pond: Powers of Products & Quotients",
+      "question": "'Cube numbers are also square numbers.' According to the chapter this statement is:",
+      "options": [
+        "Only sometimes true",
+        "Always true",
+        "Never true",
+        "True only for odd numbers"
+      ],
+      "answer": 0,
+      "explanation": "Some cubes are squares — 64 = 4³ = 8² and in general n⁶ = (n²)³ = (n³)² — but 8 = 2³ or 27 = 3³ are not squares. So it is true only for cubes that are also 6th powers.",
+      "source": "exercise:Q4(i)"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Magical Pond: Powers of Products & Quotients",
+      "question": "Which of these numbers is BOTH a perfect square and a perfect cube?",
+      "options": [
+        "625",
+        "216",
+        "729",
+        "512"
+      ],
+      "answer": 2,
+      "explanation": "729 = 27² = 9³ = 3⁶. Numbers that are both squares and cubes are exactly the 6th powers (1, 64, 729, 4096 …). 512 = 8³ and 216 = 6³ are cubes only; 625 = 25² is a square only.",
+      "source": "exercise:Q10"
+    },
+    {
+      "id": "q40",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Magical Pond: Powers of Products & Quotients",
+      "question": "The fifth power of a counting number is divisible by its cube only when the number is even.",
+      "answer": false,
+      "explanation": "n⁵ ÷ n³ = n⁵⁻³ = n², a whole number for EVERY counting number n, odd or even (e.g. 3⁵ ÷ 3³ = 243 ÷ 27 = 9). The chapter marks this statement 'Always True'.",
+      "source": "exercise:Q4(iii)"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Many Combinations",
+      "question": "Estu has 4 dresses and 3 caps. In how many different ways can he combine a dress with a cap?",
+      "options": [
+        "24 ways",
+        "64 ways",
+        "81 ways",
+        "12 ways"
+      ],
+      "answer": 3,
+      "explanation": "For each of the 3 caps there are 4 dress choices: 4 + 4 + 4 = 4 × 3 = 12 combinations. 64 = 4³ and 81 = 3⁴ would mean repeating a choice several times.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How Many Combinations",
+      "question": "Roxie has 7 dresses, 2 hats and 3 pairs of shoes. In how many different ways can she dress up?",
+      "options": [
+        "42 ways",
+        "12 ways",
+        "21 ways",
+        "14 ways"
+      ],
+      "answer": 0,
+      "explanation": "Each choice multiplies the possibilities: 7 × 2 × 3 = 42. Adding (7 + 2 + 3 = 12) or multiplying only two of the three items gives the wrong totals.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Many Combinations",
+      "question": "A 2-digit lock has 100 passwords and a 3-digit lock has 1000. How many passwords must Estu and Roxie try for a 5-digit lock using digits 0–9?",
+      "options": [
+        "5¹⁰ ≈ 97,65,625",
+        "10⁵ = 1,00,000",
+        "5 × 10 = 50",
+        "10⁴ = 10,000"
+      ],
+      "answer": 1,
+      "explanation": "Each of the 5 positions has 10 choices, so 10 × 10 × 10 × 10 × 10 = 10⁵ = 1,00,000 passwords (00000 to 99999). 5 × 10 adds instead of multiplying.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Many Combinations",
+      "question": "Estu wants a lock with 6 slots, each showing a letter from A to Z. How many passwords does such a lock have?",
+      "options": [
+        "26 × 6",
+        "10⁶",
+        "26⁶",
+        "6²⁶"
+      ],
+      "answer": 2,
+      "explanation": "Six positions with 26 choices each give 26 × 26 × 26 × 26 × 26 × 26 = 26⁶ passwords. 6²⁶ swaps base and exponent, and 10⁶ would be a 6-digit numeric lock.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "How Many Combinations",
+      "question": "A digital locker has an alphanumeric passcode of length 5 (letters A–Z or digits 0–9, like G89P0 or 003AZ). How many such codes are possible?",
+      "options": [
+        "26⁵ + 10⁵",
+        "26⁵ × 10⁵",
+        "5³⁶",
+        "36⁵"
+      ],
+      "answer": 3,
+      "explanation": "Each position can be any of 26 letters or 10 digits = 36 characters, so there are 36 × 36 × 36 × 36 × 36 = 36⁵ codes. Codes can mix letters and digits, so separate letter-only and digit-only counts do not work.",
+      "source": "exercise:Q11"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How Many Combinations",
+      "question": "A dairy wants a unique numeric ID (digits 0–9) for each of the 8.5 billion milk packets it makes in a year. What is the smallest number of digits the code needs?",
+      "options": [
+        "10 digits",
+        "9 digits",
+        "11 digits",
+        "8 digits"
+      ],
+      "answer": 0,
+      "explanation": "An n-digit code gives 10ⁿ IDs. 10⁹ = 1 billion is too few for 8.5 billion packets, but 10¹⁰ = 10 billion is enough, so n = 10.",
+      "source": "exercise:Q9"
+    },
+    {
+      "id": "q47",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "How Many Combinations",
+      "question": "A 3-digit lock using the digits 0–9 has 3 × 10 = 30 possible passwords.",
+      "answer": false,
+      "explanation": "Each of the 3 digits has 10 choices and the choices multiply: 10 × 10 × 10 = 10³ = 1000 passwords (000 to 999). Adding or multiplying 3 by 10 badly undercounts.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Many Combinations",
+      "question": "To count 5-digit passwords, the chapter first solves the 2-digit and 3-digit cases. Which problem-solving tip is this?",
+      "options": [
+        "Guess the answer and check it with a calculator",
+        "Try a simpler version of the problem first",
+        "Always start with the hardest case so the rest is easy",
+        "Draw a tree diagram for every single possibility"
+      ],
+      "answer": 1,
+      "explanation": "The chapter explicitly says: 'If you can't solve a problem, try to find a simpler version of the problem that you can solve.' Solving 2- and 3-digit locks reveals the pattern 10ⁿ.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How Many Combinations",
+      "question": "An Indian pincode such as 464001 has 6 digits. If every digit could be anything from 0 to 9, how many different pincodes would be possible?",
+      "options": [
+        "10⁵ = 1 lakh",
+        "6¹⁰ ≈ 6 crore",
+        "10⁶ = 10 lakh",
+        "6 × 10 = 60"
+      ],
+      "answer": 2,
+      "explanation": "Six positions with 10 choices each give 10⁶ = 10,00,000 = 10 lakh codes. Each extra digit multiplies the count by 10, which is why longer codes are 'safer'.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q50",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "How Many Combinations",
+      "question": "Which of these counts are worked out correctly? Select all that apply.",
+      "options": [
+        "4 dresses and 3 caps → 4 × 3 = 12 outfits",
+        "5-digit numeric lock → 5 × 10 = 50 passwords",
+        "6-letter lock (A–Z) → 26⁶ passwords",
+        "2-digit numeric lock → 2¹⁰ = 1024 passwords"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Independent choices multiply: 4 × 3 = 12 and 26 × 26 × … (6 times) = 26⁶. A 5-digit lock has 10⁵ = 1,00,000 passwords (not 50) and a 2-digit lock has 10² = 100 (not 2¹⁰).",
+      "source": "text:page9"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Dividing Powers & the Zero Exponent",
+      "question": "A line of 2⁴ = 16 units is halved three times. Using 2⁴ ÷ 2³, how long is it now?",
+      "options": [
+        "2³ = 8 units",
+        "2² = 4 units",
+        "2⁰ = 1 unit",
+        "2¹ = 2 units"
+      ],
+      "answer": 3,
+      "explanation": "Halving three times divides by 2 × 2 × 2 = 2³, so 2⁴ ÷ 2³ = 2⁴⁻³ = 2¹ = 2 units. 8 and 4 units are after one and two halvings.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Dividing Powers & the Zero Exponent",
+      "question": "What is 2¹⁰⁰ ÷ 2²⁵ in powers of 2?",
+      "options": [
+        "2⁷⁵",
+        "2⁴",
+        "2¹²⁵",
+        "4⁷⁵"
+      ],
+      "answer": 0,
+      "explanation": "Dividing powers of the same base subtracts the exponents: 2¹⁰⁰⁻²⁵ = 2⁷⁵. 2⁴ divides the exponents, 2¹²⁵ adds them, and the base stays 2, not 4.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Dividing Powers & the Zero Exponent",
+      "question": "Simplify 5⁷ ÷ 5⁴ and write it in exponential form.",
+      "options": [
+        "5²⁸",
+        "5³",
+        "5¹¹",
+        "1³"
+      ],
+      "answer": 1,
+      "explanation": "5⁷ ÷ 5⁴ = 5⁷⁻⁴ = 5³ = 125. Adding gives 5¹¹ and multiplying gives 5²⁸; the base does not cancel to 1.",
+      "source": "exercise:Q5(ii)"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Dividing Powers & the Zero Exponent",
+      "question": "How does the chapter justify defining 2⁰ = 1?",
+      "options": [
+        "2⁰ means 2 added to itself zero times, which leaves 1",
+        "The pattern 2³ = 8, 2² = 4 shows the next value must be 1",
+        "2⁰ = 2⁴⁻⁴ = 2⁴ ÷ 2⁴, and a number divided by itself is 1",
+        "Any number multiplied by 0 gives 1, so 2 × 0 = 1"
+      ],
+      "answer": 2,
+      "explanation": "To keep nᵃ ÷ nᵇ = nᵃ⁻ᵇ true when a = b, 2⁰ must equal 2⁴ ÷ 2⁴ = 16 ÷ 16 = 1. In general xᵃ ÷ xᵃ = x⁰ = 1 for x ≠ 0.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Dividing Powers & the Zero Exponent",
+      "question": "In the rule nᵃ ÷ nᵇ = nᵃ⁻ᵇ, why does the chapter insist that n cannot be 0?",
+      "options": [
+        "Because 0 raised to any power equals 1",
+        "Because 0ᵃ is always larger than 0ᵇ",
+        "Because the exponents would become negative",
+        "Because 0⁰, which is 0 ÷ 0, is not defined"
+      ],
+      "answer": 3,
+      "explanation": "If n = 0 and a = b, the rule would give 0ᵃ ÷ 0ᵃ = 0 ÷ 0 = 0⁰, and division by zero is not defined. So x⁰ = 1 is stated only for x ≠ 0.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Dividing Powers & the Zero Exponent",
+      "question": "A line of 2⁴ units is halved 5 times. Its length is:",
+      "options": [
+        "2⁻¹ = 1/2 unit",
+        "2¹ = 2 units",
+        "−2¹ = −2 units",
+        "2⁻⁹ = 1/512 unit"
+      ],
+      "answer": 0,
+      "explanation": "2⁴ ÷ 2⁵ = 2⁴⁻⁵ = 2⁻¹, and expanding gives 16/32 = 1/2. A negative exponent means a fraction, never a negative length.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q57",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Dividing Powers & the Zero Exponent",
+      "question": "x⁰ = 1 for every number x except 0.",
+      "answer": true,
+      "explanation": "xᵃ ÷ xᵃ = xᵃ⁻ᵃ = x⁰, and any non-zero number divided by itself is 1. For x = 0 the division 0 ÷ 0 is undefined, so the rule excludes it.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Dividing Powers & the Zero Exponent",
+      "question": "What is the units digit of 2²²⁴ ÷ 4³²? (Hint: 4 = 2²)",
+      "options": [
+        "8",
+        "6",
+        "2",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "4³² = (2²)³² = 2⁶⁴, so the quotient is 2²²⁴⁻⁶⁴ = 2¹⁶⁰. Units digits of powers of 2 cycle 2, 4, 8, 6 every 4 powers; 160 is a multiple of 4, so the units digit is 6.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Dividing Powers & the Zero Exponent",
+      "question": "Simplify 9⁻⁷ ÷ 9⁴ and write it in exponential form.",
+      "options": [
+        "9³",
+        "9⁻²⁸",
+        "9⁻¹¹",
+        "9⁻³"
+      ],
+      "answer": 2,
+      "explanation": "Subtract the exponents: −7 − 4 = −11, so 9⁻¹¹ = 1/9¹¹. −7 + 4 = −3 would be the answer for 9⁻⁷ × 9⁴.",
+      "source": "exercise:Q5(iii)"
+    },
+    {
+      "id": "q60",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Dividing Powers & the Zero Exponent",
+      "question": "Which of these expressions are equal to 1? Select all that apply.",
+      "options": [
+        "7⁰",
+        "2⁴ ÷ 2⁴",
+        "0⁷",
+        "2 × 2⁻²"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "7⁰ = 1 (any non-zero number to the power 0) and 2⁴ ÷ 2⁴ = 16 ÷ 16 = 1. But 0⁷ = 0 × 0 × … = 0, and 2 × 2⁻² = 2¹⁻² = 2⁻¹ = 1/2.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Negative Exponents & Power Lines",
+      "question": "2⁴ ÷ 2¹⁰ = 2⁻⁶. As a fraction, 2⁻⁶ equals:",
+      "options": [
+        "−64",
+        "−12",
+        "1/12",
+        "1/64"
+      ],
+      "answer": 3,
+      "explanation": "2⁻⁶ = 1/2⁶ = 1/64. A negative exponent means 'one over the positive power'; it does NOT make the number negative or turn 2⁶ into 2 × 6.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Negative Exponents & Power Lines",
+      "question": "Which of these equals 10⁻³?",
+      "options": [
+        "1/1000",
+        "−1000",
+        "1/100",
+        "−1/1000"
+      ],
+      "answer": 0,
+      "explanation": "10⁻³ = 1/10³ = 1/1000 = 0.001. Three in the exponent means three zeros in the denominator.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Negative Exponents & Power Lines",
+      "question": "Simplify 2⁻⁴ × 2⁷ in exponential form.",
+      "options": [
+        "2⁻²⁸",
+        "2¹¹",
+        "2³",
+        "2⁻¹¹"
+      ],
+      "answer": 2,
+      "explanation": "Same base, so add the exponents: −4 + 7 = 3, giving 2³ = 8. The sign of −4 must be kept when adding.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Negative Exponents & Power Lines",
+      "question": "The value of 2⁴ × (−4)⁻² is:",
+      "options": [
+        "−16",
+        "1",
+        "−1",
+        "16"
+      ],
+      "answer": 1,
+      "explanation": "(−4)⁻² = 1/(−4)² = 1/16 (even power → positive), and 2⁴ = 16, so 16 × 1/16 = 1. The negative base does not make the answer negative.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Negative Exponents & Power Lines",
+      "question": "On the power line for 4, 16384 = 4⁷ and 1024 = 4⁵. How many times larger than 1024 is 16384?",
+      "options": [
+        "4¹ = 4 times",
+        "4³ = 64 times",
+        "4¹² times",
+        "4² = 16 times"
+      ],
+      "answer": 3,
+      "explanation": "4⁷ ÷ 4⁵ = 4⁷⁻⁵ = 4² = 16, and indeed 1024 × 16 = 16384. Moving two steps right on the power line multiplies by 4 twice.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Negative Exponents & Power Lines",
+      "question": "(1/343) × (1/343) written as a power of 7 is:",
+      "options": [
+        "7⁹",
+        "7⁻⁹",
+        "7⁶",
+        "7⁻⁶"
+      ],
+      "answer": 3,
+      "explanation": "1/343 = 7⁻³, so 7⁻³ × 7⁻³ = 7⁻⁶. Adding two −3s gives −6; the result is a tiny fraction, 1/1,17,649.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q67",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Negative Exponents & Power Lines",
+      "question": "2⁻¹ equals −2, because the negative sign in the exponent makes the result negative.",
+      "answer": false,
+      "explanation": "2⁻¹ = 1/2 — a negative exponent means a reciprocal, not a negative number. The chapter gets this from 2⁴ ÷ 2⁵ = 16/32 = 1/2.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q68",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Negative Exponents & Power Lines",
+      "question": "The rules nᵃ × nᵇ = nᵃ⁺ᵇ and nᵃ ÷ nᵇ = nᵃ⁻ᵇ continue to hold when a and b are any integers, not just counting numbers.",
+      "answer": true,
+      "explanation": "The chapter asks whether the generalised forms hold for all integers and answers 'Yes' — e.g. 2⁻⁴ × 2⁷ = 2³ and 9⁻⁷ ÷ 9⁴ = 9⁻¹¹ follow the same rules.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Negative Exponents & Power Lines",
+      "question": "Which product equals 32⁻⁵?",
+      "options": [
+        "2⁻¹⁰ × 2⁻¹⁰",
+        "2⁻¹⁰ × 2⁻¹⁵",
+        "2⁻⁵ × 2⁻¹",
+        "4⁻¹² × 2⁻²"
+      ],
+      "answer": 1,
+      "explanation": "32 = 2⁵, so 32⁻⁵ = (2⁵)⁻⁵ = 2⁻²⁵, and 2⁻¹⁰ × 2⁻¹⁵ = 2⁻²⁵. The others give 2⁻⁶, 2⁻²⁶ (since 4⁻¹² = 2⁻²⁴) and 2⁻²⁰.",
+      "source": "exercise:Q3(iii)"
+    },
+    {
+      "id": "q70",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Negative Exponents & Power Lines",
+      "question": "Which of these are equal to 1/16? Select all that apply.",
+      "options": [
+        "2⁻⁴",
+        "(−2)⁴",
+        "4⁻²",
+        "−4²"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "2⁻⁴ = 1/2⁴ = 1/16 and 4⁻² = 1/4² = 1/16. (−2)⁴ = +16 and −4² = −16 — negative bases or signs give whole numbers, not reciprocals.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Powers of 10, Expanded Form & Decimals",
+      "question": "47561 = (4 × 10⁴) + (7 × 10³) + (5 × 10²) + (6 × 10¹) + (1 × 10⁰). In this expanded form, the digit 7 is multiplied by:",
+      "options": [
+        "10⁴",
+        "10²",
+        "10⁷",
+        "10³"
+      ],
+      "answer": 3,
+      "explanation": "7 is in the thousands place, and 1000 = 10³. Each place to the left is one power of 10 higher: 4 is at 10⁴, 5 at 10², 6 at 10¹ and 1 at 10⁰.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Powers of 10, Expanded Form & Decimals",
+      "question": "Which is the correct expanded form of 5642 using powers of 10?",
+      "options": [
+        "5×10³ + 6×10² + 4×10¹ + 2×10⁰",
+        "5×10⁴ + 6×10³ + 4×10² + 2×10¹",
+        "5×10³ + 6×10² + 4×10 + 2×10",
+        "5×10² + 6×10¹ + 4×10⁰ + 2×10⁻¹"
+      ],
+      "answer": 0,
+      "explanation": "5 thousands, 6 hundreds, 4 tens and 2 ones: 5×10³ + 6×10² + 4×10¹ + 2×10⁰. The first distractor is 56420 and the last is 564.2.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Powers of 10, Expanded Form & Decimals",
+      "question": "561.903 = (5 × 10²) + (6 × 10¹) + (1 × 10⁰) + (9 × 10⁻¹) + (0 × 10⁻²) + (3 × 10⁻³). The digit 3 is multiplied by:",
+      "options": [
+        "10⁻¹",
+        "10⁻³",
+        "10⁻²",
+        "10³"
+      ],
+      "answer": 1,
+      "explanation": "3 is in the thousandths place: 3 × 1/1000 = 3 × 10⁻³. Places to the right of the decimal point use negative powers of 10: tenths 10⁻¹, hundredths 10⁻², thousandths 10⁻³.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Powers of 10, Expanded Form & Decimals",
+      "question": "What number is (2 × 10²) + (5 × 10⁰) + (8 × 10⁻²)?",
+      "options": [
+        "250.8",
+        "205.8",
+        "25.08",
+        "205.08"
+      ],
+      "answer": 3,
+      "explanation": "200 + 5 + 0.08 = 205.08. There is no tens term, so a 0 sits in the tens place, and 10⁻² is hundredths, so 8 goes two places after the point (not one).",
+      "source": "text:page12"
+    },
+    {
+      "id": "q75",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Powers of 10, Expanded Form & Decimals",
+      "question": "In the expanded form of 47561 with powers of 10, the units digit 1 is written as 1 × 10⁰.",
+      "answer": true,
+      "explanation": "The ones place is 10⁰ = 1, so the chapter writes the last term as (1 × 10⁰). This keeps the pattern 10⁴, 10³, 10², 10¹, 10⁰ going all the way down.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q76",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Powers of 10, Expanded Form & Decimals",
+      "question": "In 561.903, the digit 9 stands for 9 × 10¹ because it is the first digit after the decimal point.",
+      "answer": false,
+      "explanation": "The first digit after the point is the tenths place: 9 × 1/10 = 9 × 10⁻¹, not 9 × 10¹ = 90. Powers of 10 become negative to the right of the decimal point.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q77",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Powers of 10, Expanded Form & Decimals",
+      "question": "Which of these equations are correct? Select all that apply.",
+      "options": [
+        "10⁰ = 1",
+        "10⁻² = −100",
+        "7 × 10¹ = 70",
+        "4 × 10⁻¹ = 0.04"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "10⁰ = 1 and 7 × 10¹ = 70 are right. 10⁻² = 1/100 = 0.01 (not −100) and 4 × 10⁻¹ = 0.4 (one place, not two).",
+      "source": "text:page12"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Powers of 10, Expanded Form & Decimals",
+      "question": "Given 12² = 144, what is (0.12)²?",
+      "options": [
+        "0.00144",
+        "0.0144",
+        "0.144",
+        "1.44"
+      ],
+      "answer": 1,
+      "explanation": "0.12 = 12 × 10⁻², so (0.12)² = 144 × 10⁻⁴ = 0.0144 — squaring doubles the number of decimal places (2 → 4). 1.44 is (1.2)².",
+      "source": "exercise:Q6(ii)"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Powers of 10, Expanded Form & Decimals",
+      "question": "Given 12² = 144, what is 120²?",
+      "options": [
+        "144000",
+        "12400",
+        "14400",
+        "1440"
+      ],
+      "answer": 2,
+      "explanation": "120 = 12 × 10, so 120² = 144 × 10² = 14400. Multiplying the base by 10 multiplies the square by 100, not 10.",
+      "source": "exercise:Q6(iv)"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Powers of 10, Expanded Form & Decimals",
+      "question": "Given 12² = 144, what is (0.012)²?",
+      "options": [
+        "0.00144",
+        "0.0000144",
+        "0.0144",
+        "0.000144"
+      ],
+      "answer": 3,
+      "explanation": "0.012 = 12 × 10⁻³, so (0.012)² = 144 × 10⁻⁶ = 0.000144 (six decimal places). 0.0144 is (0.12)² and 0.00144 has only five places.",
+      "source": "exercise:Q6(iii)"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scientific Notation",
+      "question": "Which expression writes 5900 in standard scientific form?",
+      "options": [
+        "5.9 × 10³",
+        "59 × 10²",
+        "0.59 × 10⁴",
+        "5.9 × 10²"
+      ],
+      "answer": 0,
+      "explanation": "Scientific form needs a coefficient from 1 up to (but not including) 10 times a power of 10. 5.9 × 10³ fits; 59 × 10² and 0.59 × 10⁴ equal 5900 but their coefficients are not between 1 and 10, and 5.9 × 10² is 590.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scientific Notation",
+      "question": "In scientific notation x × 10ʸ, what condition must the coefficient x satisfy?",
+      "options": [
+        "x ≥ 0 and x < 1",
+        "x ≥ 1 and x < 10",
+        "x > 0 and x ≤ 10",
+        "x ≥ 10 and x < 100"
+      ],
+      "answer": 1,
+      "explanation": "The chapter defines scientific (standard) form as x × 10ʸ with x ≥ 1 and x < 10, and y any integer. That makes the form unique for every number.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scientific Notation",
+      "question": "Express 34,30,000 in standard form.",
+      "options": [
+        "3.43 × 10⁵",
+        "34.3 × 10⁵",
+        "3.43 × 10⁷",
+        "3.43 × 10⁶"
+      ],
+      "answer": 3,
+      "explanation": "34,30,000 has 7 digits, so the exponent is 6: 3.43 × 10⁶ (34.3 lakh = 3.43 million). 34.3 × 10⁵ has the same value but is not standard form.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Scientific Notation",
+      "question": "Mumbai's population of 2 crore is written 2 × 10⁷. Which change makes the number bigger by more?",
+      "options": [
+        "Neither change alters the size of the number",
+        "Changing the exponent 7 to 8 (10 times bigger)",
+        "Changing the coefficient 2 to 3 (one and a half times bigger)",
+        "Both changes increase the population equally"
+      ],
+      "answer": 1,
+      "explanation": "Changing 2 to 3 takes 2 crore to 3 crore (×1.5), but changing 7 to 8 takes 2 crore to 20 crore (×10). That is why the chapter says the exponent is usually more important than the coefficient.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Scientific Notation",
+      "question": "Sun–Saturn is 1.4335 × 10¹² m, Saturn–Uranus is 1.439 × 10¹² m and Sun–Earth is 1.496 × 10¹¹ m. Which distance is the smallest?",
+      "options": [
+        "Sun to Saturn, 1.4335 × 10¹² m",
+        "Saturn to Uranus, 1.439 × 10¹² m",
+        "All three are about the same size",
+        "Sun to Earth, 1.496 × 10¹¹ m"
+      ],
+      "answer": 3,
+      "explanation": "Compare exponents first: 10¹¹ is ten times smaller than 10¹², so Sun–Earth is the smallest even though its coefficient 1.496 is the largest. Among the two 10¹² distances, 1.4335 < 1.439.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q86",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Scientific Notation",
+      "question": "Sheep (2024) number about 10⁹ worldwide and goats about the same. Which expressions give the total number of sheep and goats? Select all that apply.",
+      "options": [
+        "20⁹",
+        "10¹⁸",
+        "2 × 10⁹",
+        "10⁹ + 10⁹",
+        "10¹⁰"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "explanation": "10⁹ + 10⁹ = 2 × 10⁹ (2 arab). Adding the numbers does NOT add the exponents: 10¹⁸ = 10⁹ × 10⁹, 10¹⁰ = 10 × 10⁹, and 20⁹ is 2⁹ × 10⁹ = 512 × 10⁹.",
+      "source": "exercise:Q12"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Scientific Notation",
+      "question": "Which of these is NOT written in correct scientific notation?",
+      "options": [
+        "8 × 10⁶",
+        "0.59 × 10⁴",
+        "5.9 × 10³",
+        "2.08 × 10⁴"
+      ],
+      "answer": 1,
+      "explanation": "0.59 is less than 1, so 0.59 × 10⁴ breaks the rule 1 ≤ x < 10 even though it equals 5900. The correct form is 5.9 × 10³.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Scientific Notation",
+      "question": "With a world population of 8.2 × 10⁹, if each person had 30 pieces of clothing the total would be:",
+      "options": [
+        "2.46 × 10²⁷",
+        "2.46 × 10¹²",
+        "2.46 × 10¹¹",
+        "2.46 × 10¹⁰"
+      ],
+      "answer": 2,
+      "explanation": "8.2 × 30 = 246, so 246 × 10⁹ = 2.46 × 10¹¹. Multiplying the coefficient by 30 bumps the exponent up by 2 when the result is rewritten in standard form.",
+      "source": "exercise:Q13(i)"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Scientific Notation",
+      "question": "Each human body has about 38 trillion (38 × 10¹²) bacterial cells. With 8.2 × 10⁹ humans, the bacteria living in all humans number about:",
+      "options": [
+        "3.116 × 10²³",
+        "3.116 × 10²¹",
+        "3.116 × 10²²",
+        "3.116 × 10¹⁰⁸"
+      ],
+      "answer": 0,
+      "explanation": "38 × 8.2 = 311.6 and 10¹² × 10⁹ = 10²¹, so 311.6 × 10²¹ = 3.116 × 10²³ in standard form (two more places for the 311.6). Exponents add, they are never multiplied.",
+      "source": "exercise:Q13(iii)"
+    },
+    {
+      "id": "q90",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Scientific Notation",
+      "question": "Writing a town's population as 1.42 × 10⁵ means we are sure of it down to the units place.",
+      "answer": false,
+      "explanation": "1.42 × 10⁵ only says 'around 1 lakh 42 thousand'. If we knew it exactly we would write the full 1,42,395; fewer digits in the coefficient means less precision, not more.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Estimation & Thought Experiments",
+      "question": "What is Tulābhāra (Tulābhāram), mentioned in the chapter?",
+      "options": [
+        "Walking a long distance as a spiritual act",
+        "Donating one coin for every year of one's age",
+        "Offering grain equal to a village's yearly need",
+        "Offering goods equal to a person's body weight"
+      ],
+      "answer": 3,
+      "explanation": "Tulābhāra is the old practice, still followed in Southern India, of offering goods equal to the weight of a person — a symbol of bhakti and gratitude that also supports the community. Walking long distances is pādayātra.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Estimation & Thought Experiments",
+      "question": "Assuming Roxie weighs 45 kg and jaggery costs ₹70 per kg, the worth of jaggery equal to her weight is:",
+      "options": [
+        "₹3150",
+        "₹3500",
+        "₹2500",
+        "₹3105"
+      ],
+      "answer": 0,
+      "explanation": "Worth = weight × cost per kg = 45 × 70 = ₹3150. ₹2500 is the wheat answer (50 kg × ₹50), and ₹3500 is 50 × 70.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Estimation & Thought Experiments",
+      "question": "According to the chapter, what is the FIRST step when tackling a question like 'how many 1-rupee coins equal my weight?'",
+      "options": [
+        "Make reasonable assumptions for the unknowns",
+        "Compute the answer and compare with the guess",
+        "Make an instinctive guess without any calculation",
+        "Describe the relationships among the quantities"
+      ],
+      "answer": 2,
+      "explanation": "Step 1 is 'Guessing: make an instinctive (quick) guess … without any calculations'. Only then come describing relationships, making assumptions and computing — and finally checking how close the guess was.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Estimation & Thought Experiments",
+      "question": "Which sequence correctly orders the chapter's estimation method?",
+      "options": [
+        "Compute → guess → assume unknowns → describe relationships",
+        "Assume unknowns → compute → guess → describe relationships",
+        "Describe relationships → compute → guess → assume unknowns",
+        "Guess → describe relationships → assume unknowns → compute → compare"
+      ],
+      "answer": 3,
+      "explanation": "Guess first (to build intuition), then describe how the quantities are related, make reasonable assumptions and approximations for missing data, compute, and check how close the guess was.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Estimation & Thought Experiments",
+      "question": "Suppose a person walks 20 km every single day for 60 years. About how many times could they go around the Earth (40,000 km)?",
+      "options": [
+        "About 1100 times",
+        "About 11 times",
+        "About 1 time",
+        "About 110 times"
+      ],
+      "answer": 1,
+      "explanation": "Distance walked = 20 × 365 × 60 ≈ 4,38,000 km; divided by 40,000 km gives ≈ 11 circumnavigations. Forgetting the 365 days a year gives roughly 1,200 km, less than once round.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Estimation & Thought Experiments",
+      "question": "If you have lived for a million (10⁶) seconds, about how old are you?",
+      "options": [
+        "About 12 days",
+        "About 12 hours",
+        "About 12 weeks",
+        "About 12 months"
+      ],
+      "answer": 0,
+      "explanation": "A day has 86,400 seconds, so 10⁶ ÷ 86,400 ≈ 11.57 days — about 12 days, less than a fortnight. The chapter contrasts this with 10⁹ seconds ≈ 31.7 years.",
+      "source": "text:page21"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Estimation & Thought Experiments",
+      "question": "Estu says he is 4070 days old. About how old is he in years?",
+      "options": [
+        "About 40 years",
+        "About 11 years",
+        "About 13 years",
+        "About 9 years"
+      ],
+      "answer": 1,
+      "explanation": "4070 ÷ 365 ≈ 11.15, so Estu is about 11 years old (the chapter also tells us he is 11). 13 years would be about 4745 days — that is Roxie.",
+      "source": "text:page21"
+    },
+    {
+      "id": "q98",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Estimation & Thought Experiments",
+      "question": "In estimation problems like Tulābhāra, different reasonable assumptions can lead to different answers, and the chapter says this is perfectly all right.",
+      "answer": true,
+      "explanation": "The Note to the Teacher says assumptions 'can vary greatly … and the answers computed using these can also vary. This is perfectly alright.' What matters is modelling the situation sensibly.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Estimation & Thought Experiments",
+      "question": "Roxie, who is just over 13 years (about 4840 days) old, says 'I am 69,70,710 … old'. Which unit makes this true?",
+      "options": [
+        "Hours (about 800 years)",
+        "Days (about 19,000 years)",
+        "Minutes (about 13 years)",
+        "Seconds (about 80 days)"
+      ],
+      "answer": 2,
+      "explanation": "4840 days × 24 × 60 ≈ 69,69,600 minutes, so 69,70,710 minutes is just under 4841 days — her age. In seconds it would be only ~81 days, in hours ~796 years and in days ~19,100 years.",
+      "source": "text:page21"
+    },
+    {
+      "id": "q100",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Estimation & Thought Experiments",
+      "question": "Which of these are part of the chapter's recommended way of answering 'how many…?' estimation questions? Select all that apply.",
+      "options": [
+        "Guess the answer instinctively before calculating",
+        "Make reasonable assumptions for unknown quantities",
+        "Refuse to answer until exact data is available",
+        "Avoid approximations so the answer is exact"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The method is: guess, describe relationships, assume and approximate where data is missing, compute, then compare. The goal is 'a reasonably close estimate', not an exact answer, so waiting for exact data or avoiding approximation is the opposite of the method.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Large Numbers in the Living World",
+      "question": "A crore is equal to:",
+      "options": [
+        "10⁵",
+        "10⁶",
+        "10⁹",
+        "10⁷"
+      ],
+      "answer": 3,
+      "explanation": "A crore is 1,00,00,000 = 10⁷ (eight digits). A lakh is 10⁵, a million 10⁶ and an arab or billion 10⁹.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Large Numbers in the Living World",
+      "question": "Which Indian number name is the same as a billion (10⁹)?",
+      "options": [
+        "Arab",
+        "Crore",
+        "Kharab",
+        "Lakh"
+      ],
+      "answer": 0,
+      "explanation": "An arab is 1,00,00,00,000 = 10⁹ = 1,000,000,000 = a billion. A crore is 10⁷ (10 million) and a kharab is 10¹¹ (100 billion).",
+      "source": "text:page18"
+    },
+    {
+      "id": "q103",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Large Numbers in the Living World",
+      "question": "With about 8 × 10⁹ humans and 4 × 10⁵ African elephants, there are roughly 2,000 people for every African elephant.",
+      "answer": false,
+      "explanation": "8 × 10⁹ ÷ 4 × 10⁵ = 2 × 10⁴ = 20,000 people per elephant, not 2,000. Subtract the exponents: 9 − 5 = 4.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Large Numbers in the Living World",
+      "question": "There are about 2 × 10¹⁶ ants and 8.2 × 10⁹ humans. How many ants are there for every human?",
+      "options": [
+        "About 2.5 × 10⁵",
+        "About 1.6 × 10²⁶",
+        "About 2.5 × 10⁶",
+        "About 2.5 × 10⁷"
+      ],
+      "answer": 2,
+      "explanation": "2 ÷ 8.2 ≈ 0.244 and 10¹⁶ ÷ 10⁹ = 10⁷, so 0.244 × 10⁷ ≈ 2.4 × 10⁶ — about 2.5 million ants per person. Multiplying instead of dividing gives the 10²⁶ answer.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Large Numbers in the Living World",
+      "question": "Sheets of paper are 0.001 cm thick and the Moon is 3,84,400 km away. How many sheets stacked up would reach the Moon?",
+      "options": [
+        "3.844 × 10¹⁶",
+        "3.844 × 10¹³",
+        "3.844 × 10¹⁰",
+        "3.844 × 10⁸"
+      ],
+      "answer": 1,
+      "explanation": "3,84,400 km = 3.844 × 10⁵ km = 3.844 × 10¹⁰ cm; dividing by 10⁻³ cm per sheet gives 3.844 × 10¹³ sheets. Compare: folding the same sheet needs only 46 folds.",
+      "source": "text:page21"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Large Numbers in the Living World",
+      "question": "The world mosquito population is about 11 neel, or 110 trillion. In scientific notation this is:",
+      "options": [
+        "11 × 10¹⁴",
+        "1.1 × 10¹²",
+        "1.1 × 10¹⁴",
+        "1.1 × 10¹³"
+      ],
+      "answer": 2,
+      "explanation": "A trillion is 10¹², so 110 trillion = 1.1 × 10² × 10¹² = 1.1 × 10¹⁴ (a neel is 10¹³, so 11 neel is also 1.1 × 10¹⁴). 11 × 10¹⁴ is ten times too large and not standard form.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Large Numbers in the Living World",
+      "question": "Which comparison is NOT correct?",
+      "options": [
+        "Ants (2 × 10¹⁶) outnumber trees (3 × 10¹²)",
+        "Chickens (3.3 × 10¹⁰) outnumber humans (8.2 × 10⁹)",
+        "Beetles (1 × 10¹⁵) outnumber Antarctic krill (5 × 10¹⁴)",
+        "Camels (3.5 × 10⁷) outnumber water buffaloes (2 × 10⁸)"
+      ],
+      "answer": 3,
+      "explanation": "2 × 10⁸ = 20 crore buffaloes is more than 3.5 × 10⁷ = 3.5 crore camels — the bigger exponent wins. The other three comparisons are right: 10¹⁶ > 10¹², 10¹⁰ > 10⁹ and 10 × 10¹⁴ > 5 × 10¹⁴.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q108",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Large Numbers in the Living World",
+      "question": "One kharab is the same as 100 crore.",
+      "answer": false,
+      "explanation": "100 crore = 10² × 10⁷ = 10⁹ = one arab. A kharab is 100 arab = 10¹¹. Each Indian name is 100 times the previous one: lakh, crore, arab, kharab.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Large Numbers in the Living World",
+      "question": "Earth has about 2 × 10²⁵ drops of water and the observable universe about 2 × 10²³ stars. The drops outnumber the stars by:",
+      "options": [
+        "1000 times",
+        "100 times",
+        "2 times",
+        "10 times"
+      ],
+      "answer": 1,
+      "explanation": "2 × 10²⁵ ÷ 2 × 10²³ = 10²⁵⁻²³ = 10² = 100. Same coefficient, so just subtract the exponents.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q110",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Large Numbers in the Living World",
+      "question": "Which of these populations are of the order 10⁷ (tens of millions / crores)? Select all that apply.",
+      "options": [
+        "Camels, about 3.5 crore",
+        "Horses, about 5.8 crore",
+        "Water buffaloes, over 20 crore",
+        "American alligators, about 50 lakh"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "3.5 crore = 3.5 × 10⁷ and 5.8 crore = 5.8 × 10⁷ are in the 10⁷ row. 20 crore = 2 × 10⁸ and 50 lakh = 5 × 10⁶ belong to neighbouring rows.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Time in Powers of 10",
+      "question": "Light takes about 8 minutes to reach Earth from the Sun. In seconds this is about:",
+      "options": [
+        "8 × 10⁴ seconds",
+        "5 × 10¹ seconds",
+        "5 × 10² seconds",
+        "5 × 10³ seconds"
+      ],
+      "answer": 2,
+      "explanation": "8 minutes = 480 seconds ≈ 5 × 10², so it sits in the 10² row of the chapter's table (10² s ≈ 1.6 minutes). 5 × 10³ s would be over an hour.",
+      "source": "text:page21"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Time in Powers of 10",
+      "question": "Which event in the chapter lasts about 10⁹ seconds (≈ 31.7 years)?",
+      "options": [
+        "Mangalyaan's 298-day trip to Mars",
+        "A mayfly's one-day adult lifespan",
+        "Light travelling from the Sun to Earth",
+        "Halley's comet's 75–79 year orbit"
+      ],
+      "answer": 3,
+      "explanation": "76 years ≈ 2.4 × 10⁹ seconds, so Halley's orbit is in the 10⁹ row. Mangalyaan's trip is ≈ 2.65 × 10⁷ s, a mayfly's day ≈ 9 × 10⁴ s and sunlight's journey ≈ 5 × 10² s.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Time in Powers of 10",
+      "question": "10⁶ seconds is less than a fortnight but 10⁹ seconds is about 31 years. 10⁹ seconds is how many times 10⁶ seconds?",
+      "options": [
+        "10,000 times",
+        "1000 times",
+        "3 times",
+        "100 times"
+      ],
+      "answer": 1,
+      "explanation": "10⁹ ÷ 10⁶ = 10³ = 1000. The exponents differ by only 3, yet the time jumps from about 12 days to about 31 years — a vivid example of how fast powers of 10 grow.",
+      "source": "text:page23"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Time in Powers of 10",
+      "question": "The Himalayas are about 5.5 crore years old. In seconds this is approximately:",
+      "options": [
+        "1.7 × 10¹⁸",
+        "5.5 × 10⁷",
+        "1.7 × 10¹⁵",
+        "1.7 × 10¹²"
+      ],
+      "answer": 2,
+      "explanation": "10¹⁵ seconds ≈ 3.17 crore years, so 5.5 crore years ≈ 5.5 ÷ 3.17 × 10¹⁵ ≈ 1.7 × 10¹⁵ seconds. 5.5 × 10⁷ is the age in years, not seconds.",
+      "source": "text:page23"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Time in Powers of 10",
+      "question": "Counting the 2 × 10²³ stars in the universe at one star per second would take 2 × 10²³ seconds. Since the universe did not exist 10¹⁸ seconds ago, which statement is true?",
+      "options": [
+        "It would take about 10⁵ seconds, a little over a day",
+        "It would take far longer than the universe has existed",
+        "It could be finished within one human lifetime (≈ 10⁹ s)",
+        "It would take about as long as the universe has existed"
+      ],
+      "answer": 1,
+      "explanation": "2 × 10²³ s is more than 10⁵ (a hundred thousand) times the universe's age (< 10¹⁸ s). Exponents make the comparison easy: 23 is far beyond 18, let alone the 9 of a human lifetime.",
+      "source": "text:page24"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Time in Powers of 10",
+      "question": "Earth has 2 × 10²⁵ drops of water at 16 drops per millilitre. Drinking a 200 mL glass every 10 seconds, how long would it take to finish all the water?",
+      "options": [
+        "1.25 × 10²⁴ seconds",
+        "2 × 10²⁶ seconds",
+        "6.25 × 10²² seconds",
+        "6.25 × 10²¹ seconds"
+      ],
+      "answer": 2,
+      "explanation": "Volume = 2 × 10²⁵ ÷ 16 = 1.25 × 10²⁴ mL; glasses = 1.25 × 10²⁴ ÷ 200 = 6.25 × 10²¹; time = 6.25 × 10²¹ × 10 = 6.25 × 10²² seconds. 1.25 × 10²⁴ is the volume in mL, not a time.",
+      "source": "text:page24"
+    },
+    {
+      "id": "q117",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Time in Powers of 10",
+      "question": "10⁸ seconds is about 31.7 years, roughly the lifespan of a dog.",
+      "answer": false,
+      "explanation": "10⁸ seconds ≈ 3.17 years (the chapter pairs it with a dog's 3–15 year lifespan); it is 10⁹ seconds that is ≈ 31.7 years, of the order of a human lifespan.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q118",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Time in Powers of 10",
+      "question": "A billion (10⁹) seconds is roughly 31.7 years, so one billion seconds ago was about 32 years before today.",
+      "answer": true,
+      "explanation": "10⁹ ÷ (86,400 × 365) ≈ 31.7 years ≈ 11,574 days. The chapter's exercise Q14 asks you to work out the exact date from today's date.",
+      "source": "exercise:Q14"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Time in Powers of 10",
+      "question": "The chapter says Neptune takes 60,190 Earth-days (≈ 165 Earth-years, ≈ 5.2 × 10⁹ s) to orbit the Sun, and that this equals 89,666 Neptunian days with a Neptune day of about 16.1 hours. Which statement is NOT correct?",
+      "options": [
+        "A Neptune year has fewer Neptune days than Earth days",
+        "One Neptune year lasts about 5.2 × 10⁹ seconds",
+        "A Neptune day (16.1 h) is shorter than an Earth day",
+        "One Neptune year is about 165 Earth years long"
+      ],
+      "answer": 0,
+      "explanation": "Because a Neptune day (16.1 h) is shorter than an Earth day (24 h), the same orbit contains MORE Neptune days (89,666) than Earth days (60,190). The other three statements match the chapter's figures.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q120",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Time in Powers of 10",
+      "question": "Which of these durations are of the order 10⁷ seconds (≈ 3.8 months)? Select all that apply.",
+      "options": [
+        "Time spent sleeping in a year (about 4 months)",
+        "Mangalyaan's journey to Mars (298 days)",
+        "A low-Earth-orbit satellite's one revolution (90 minutes)",
+        "Halley's comet's orbital period (about 76 years)"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Four months ≈ 10⁷ s and 298 days ≈ 2.65 × 10⁷ s both sit in the 10⁷ row. A 90-minute orbit ≈ 5.5 × 10³ s and 76 years ≈ 2.4 × 10⁹ s.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Number Names: Indian, International & Historical",
+      "question": "In the international system, a thousand billion is called a:",
+      "options": [
+        "Billion",
+        "Kharab",
+        "Trillion",
+        "Quadrillion"
+      ],
+      "answer": 2,
+      "explanation": "1000 × 1,000,000,000 = 10³ × 10⁹ = 10¹² = one trillion. A quadrillion is a thousand trillion (10¹⁵); a kharab is the Indian name for 10¹¹.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Number Names: Indian, International & Historical",
+      "question": "In the Indian system, a hundred arab is called a:",
+      "options": [
+        "Neel",
+        "Padma",
+        "Shankh",
+        "Kharab"
+      ],
+      "answer": 3,
+      "explanation": "100 × 10⁹ = 10¹¹ = one kharab. Continuing by hundreds: neel 10¹³, padma 10¹⁵, shankh 10¹⁷, maha shankh 10¹⁹.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Number Names: Indian, International & Historical",
+      "question": "Which pair names exactly the same number?",
+      "options": [
+        "Shankh and quintillion",
+        "Padma and quadrillion",
+        "Neel and trillion",
+        "Kharab and billion"
+      ],
+      "answer": 1,
+      "explanation": "Padma = 10¹⁵ = quadrillion. Neel is 10¹³ but a trillion is 10¹²; kharab is 10¹¹ but a billion is 10⁹; shankh is 10¹⁷ but a quintillion is 10¹⁸.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Number Names: Indian, International & Historical",
+      "question": "Which was the highest-value banknote ever printed, according to the chapter?",
+      "options": [
+        "Zimbabwe's 100 trillion (10¹⁴) dollar note of 2009",
+        "India's ₹2000 note, its highest current denomination",
+        "Hungary's 1 milliard (10⁹) pengő note of 1946",
+        "Hungary's 1 sextillion (10²¹) pengő note of 1946"
+      ],
+      "answer": 3,
+      "explanation": "The 1 sextillion pengő (10²¹, or 1 milliard bilpengő) note printed in Hungary in 1946 was never issued but holds the record. Zimbabwe's 100 trillion dollar note (10¹⁴) was worth only about $30.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Number Names: Indian, International & Historical",
+      "question": "How many times larger was the face value of Hungary's 1 sextillion pengő note (10²¹) than Zimbabwe's 100 trillion dollar note (10¹⁴)?",
+      "options": [
+        "10⁷ times",
+        "10⁵ times",
+        "10³⁵ times",
+        "10¹⁴ times"
+      ],
+      "answer": 0,
+      "explanation": "10²¹ ÷ 10¹⁴ = 10²¹⁻¹⁴ = 10⁷ = one crore times. Subtract the exponents; multiplying them (10³⁵) is a common slip.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Number Names: Indian, International & Historical",
+      "question": "Which ancient text names the LARGEST power of ten mentioned in the chapter?",
+      "options": [
+        "Mahaviracharya's Ganita-sara-sangraha (24 terms, up to 10²³)",
+        "Kāccāyana's Pali grammar (10¹⁴⁰, asaṅkhyeya)",
+        "Amalasiddhi, a Jaina treatise (10⁹⁶, dasha-ananta)",
+        "Lalitavistara, a Buddhist treatise (10⁵³, tallakshana)"
+      ],
+      "answer": 1,
+      "explanation": "The Pali grammar of Kāccāyana lists names up to 10¹⁴⁰ (asaṅkhyeya), beyond Amalasiddhi's 10⁹⁶, the Lalitavistara's 10⁵³ and Mahaviracharya's 10²³.",
+      "source": "text:page24"
+    },
+    {
+      "id": "q127",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Number Names: Indian, International & Historical",
+      "question": "A hundred crores is an arab, and an arab is the same as a billion (10⁹).",
+      "answer": true,
+      "explanation": "100 × 1,00,00,000 = 1,00,00,00,000 = 10⁹ = an arab, which equals 1,000,000,000, a billion in the international system.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q128",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Number Names: Indian, International & Historical",
+      "question": "In the Indian system each new name — lakh, crore, arab, kharab — is 1000 times the previous one.",
+      "answer": false,
+      "explanation": "Indian names go up by HUNDREDS: 100 thousand = lakh, 100 lakh = crore, 100 crore = arab, 100 arab = kharab. It is the international system that goes up by thousands (million, billion, trillion).",
+      "source": "text:page25"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Number Names: Indian, International & Historical",
+      "question": "In the game 'Tremendous in Ten', Roxie wrote 10¹⁰⁰⁰ + 10¹⁰⁰⁰ + 10¹⁰⁰⁰ + 10¹⁰⁰⁰. This equals:",
+      "options": [
+        "4 × 10⁴⁰⁰⁰",
+        "4 × 10¹⁰⁰⁰",
+        "10⁴⁰⁰⁰",
+        "10¹⁰⁰⁴"
+      ],
+      "answer": 1,
+      "explanation": "Adding four equal numbers is multiplying by 4: 4 × 10¹⁰⁰⁰. Adding does not add the exponents — 10⁴⁰⁰⁰ would be the PRODUCT of the four terms.",
+      "source": "text:page29"
+    },
+    {
+      "id": "q130",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Number Names: Indian, International & Historical",
+      "question": "In Round 2 of 'Tremendous in Ten', Roxie's 10¹⁰⁰⁰ + 10¹⁰⁰⁰ + 10¹⁰⁰⁰ + 10¹⁰⁰⁰ is greater than Estu's (10¹⁰⁰⁰⁰⁰⁰) × 9000.",
+      "answer": false,
+      "explanation": "Roxie's sum is just 4 × 10¹⁰⁰⁰ (1001 digits), while Estu's number is 9 × 10¹⁰⁰⁰⁰⁰³, with over a million digits. The exponent decides, not how many terms are added.",
+      "source": "text:page29"
+    }
+  ]
+}

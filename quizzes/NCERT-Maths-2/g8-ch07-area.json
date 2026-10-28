@@ -1,0 +1,2082 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-maths-2-g8-ch07-area",
+  "title": "Area",
+  "subject": "Maths-2",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Maths-2/ch07",
+  "chapter": "7. Area",
+  "topic": "Full Chapter",
+  "description": "Areas of rectangles, triangles, parallelograms, rhombuses and trapeziums by dissection, equal-area transformations from the Śulba-Sūtras, shortest paths by reflection, and unit conversions for real-life areas.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "maths",
+    "area",
+    "triangles",
+    "parallelogram",
+    "rhombus",
+    "trapezium",
+    "dissection",
+    "units"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Area of Rectangles",
+      "question": "A rectangle has sidelengths 7 cm and 4 cm. How many non-overlapping unit squares (side 1 cm) can be packed into it?",
+      "options": [
+        "28",
+        "24",
+        "22",
+        "11"
+      ],
+      "answer": 0,
+      "explanation": "Area of a rectangle = length × width = 7 × 4 = 28, so 28 unit squares fit. 24 is the 8 × 3 rectangle, 22 is the perimeter and 11 is 7 + 4.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Area of Rectangles",
+      "question": "Two rangoli rectangles are coloured evenly: one is 7 cm × 4 cm and the other is 8 cm × 3 cm. Which needs more rangoli powder?",
+      "options": [
+        "The 8 cm × 3 cm one, since 24 > 28",
+        "The 7 cm × 4 cm one, since 28 > 24",
+        "Both need the same, as 11 = 11",
+        "The 8 cm × 3 cm one, as it is longer"
+      ],
+      "answer": 1,
+      "explanation": "Powder needed depends on area. 7 × 4 = 28 cm² is more than 8 × 3 = 24 cm². Being longer (8 cm) does not make the second rectangle bigger in area.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q3",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Area of Rectangles",
+      "question": "The area of a 7 cm by 4 cm rectangle can be written either as 28 sq. cm or as 28 cm².",
+      "answer": true,
+      "explanation": "Both notations mean the same thing: 28 unit squares of side 1 cm. 'sq. cm' and 'cm²' are two ways of writing square centimetres.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Area of Rectangles",
+      "question": "A rectangle has area 35 in² and one side of length 7 in. What is the length of the other side?",
+      "options": [
+        "6 in",
+        "4 in",
+        "5 in",
+        "28 in"
+      ],
+      "answer": 2,
+      "explanation": "Since area = length × width, the missing side = 35 ÷ 7 = 5 in. Subtracting (35 − 7 = 28) is a common slip; area is a product, not a sum.",
+      "source": "exercise:p3-Q1"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Area of Rectangles",
+      "question": "A square plot of area 50 m² is divided into three rectangular parts. Two of them have areas 29 m² and 11 m². What is the area of the third part?",
+      "options": [
+        "21 m²",
+        "39 m²",
+        "12 m²",
+        "10 m²"
+      ],
+      "answer": 3,
+      "explanation": "The parts together make up the whole: 50 − 29 − 11 = 10 m². 21 and 39 come from subtracting only one of the two given parts.",
+      "source": "exercise:p3-Q1"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Area of Rectangles",
+      "question": "A square is divided into regions 1, 2 and 3. If the sidelength of the square is doubled (keeping the same picture), what happens to the area of each region?",
+      "options": [
+        "Each becomes 4 times as large",
+        "Each becomes 3 times as large",
+        "Each becomes 8 times as large",
+        "Each becomes 2 times as large"
+      ],
+      "answer": 0,
+      "explanation": "Doubling the side doubles both the length and the width of every part of the figure, so every area is multiplied by 2 × 2 = 4 — region 1, 2 and 3 alike.",
+      "source": "exercise:p5-Q5"
+    },
+    {
+      "id": "q7",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Area of Rectangles",
+      "question": "There are only a finite number of ways to divide a square into 4 parts of equal area.",
+      "answer": false,
+      "explanation": "The chapter shows that by compressing one edge and expanding another by the same amount you can alter any division endlessly — there are infinitely many ways.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Area of Rectangles",
+      "question": "A rectangle contains 28 unit squares of side 1 cm. In which unit is its area written?",
+      "options": [
+        "m²",
+        "cm²",
+        "cm",
+        "cm³"
+      ],
+      "answer": 1,
+      "explanation": "Area is counted in unit squares, so the unit is square centimetres, cm². Plain cm measures length; cm³ measures volume; m² would be far too large a unit here.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Area of Rectangles",
+      "question": "Select the statements that correctly describe how area is measured.",
+      "options": [
+        "Area counts the non-overlapping unit squares that fill a region",
+        "A unit square may be split into fractions when a region needs it",
+        "A longer boundary always means a region has a larger area",
+        "The area of a rectangle is twice its length plus its width"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Area is the number of unit squares (possibly fractional) whose area equals the region's. Boundary length (perimeter) is NOT a measure of area, and 2(l + w) is the perimeter, not the area.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Perimeter versus Area",
+      "question": "Why can't the perimeter of a region be used as a measure of its area?",
+      "options": [
+        "Perimeter is always numerically larger than the area",
+        "Perimeter can only be found for rectangles and squares",
+        "Regions with the same perimeter can have different areas",
+        "Perimeter is measured in cm², which cannot count squares"
+      ],
+      "answer": 2,
+      "explanation": "The chapter's reason: two regions can have the same perimeter but different areas (and vice versa), so knowing the perimeter tells you nothing definite about the area.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Perimeter versus Area",
+      "question": "Rectangle P is 10 cm × 1 cm and rectangle Q is 4 cm × 4 cm. Which statement is correct?",
+      "options": [
+        "Q has the greater perimeter but the smaller area",
+        "P and Q have equal perimeters but different areas",
+        "P has the greater perimeter and the greater area",
+        "P has the greater perimeter but the smaller area"
+      ],
+      "answer": 3,
+      "explanation": "P: perimeter 2(10 + 1) = 22 cm, area 10 cm². Q: perimeter 16 cm, area 16 cm². So the larger perimeter (P) goes with the smaller area.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q12",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Perimeter versus Area",
+      "question": "If two regions have equal perimeters, they must also have equal areas.",
+      "answer": false,
+      "explanation": "No — a 10 × 1 rectangle and a 6 × 5 rectangle both have perimeter 22, but areas 10 and 30. Equal perimeter does not force equal area.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Perimeter versus Area",
+      "question": "Four rectangles all have perimeter 20 cm. Which one has the greatest area?",
+      "options": [
+        "5 cm × 5 cm",
+        "9 cm × 1 cm",
+        "6 cm × 4 cm",
+        "8 cm × 2 cm"
+      ],
+      "answer": 0,
+      "explanation": "Areas are 25, 24, 16 and 9 cm². Same perimeter, very different areas — and the most 'square-like' rectangle has the most area.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Perimeter versus Area",
+      "question": "Which pair of rectangles shows Perimeter(R1) > Perimeter(R2) but Area(R1) < Area(R2)?",
+      "options": [
+        "R1: 5 cm × 5 cm, R2: 4 cm × 4 cm",
+        "R1: 9 cm × 1 cm, R2: 4 cm × 3 cm",
+        "R1: 4 cm × 3 cm, R2: 9 cm × 1 cm",
+        "R1: 6 cm × 2 cm, R2: 4 cm × 3 cm"
+      ],
+      "answer": 1,
+      "explanation": "9 × 1: perimeter 20, area 9. 4 × 3: perimeter 14, area 12. So R1 has the bigger perimeter and the smaller area. The 6 × 2 pair has equal areas (12 = 12), and the 5 × 5 pair is bigger in both.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q15",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Perimeter versus Area",
+      "question": "A region with a larger perimeter than another region can still have a smaller area.",
+      "answer": true,
+      "explanation": "Yes. For example a thin 9 × 1 rectangle (perimeter 20, area 9) versus a 4 × 3 rectangle (perimeter 14, area 12).",
+      "source": "text:page3"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Perimeter versus Area",
+      "question": "The perimeter of a region measures which of these?",
+      "options": [
+        "The product of its length and width",
+        "Half of its base times its height",
+        "The length of its boundary",
+        "The number of unit squares in it"
+      ],
+      "answer": 2,
+      "explanation": "Perimeter is the length of the boundary. Counting unit squares (or length × width for a rectangle) gives area, and ½ × base × height is a triangle's area.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Perimeter versus Area",
+      "question": "Select ALL the true statements about the 7 cm × 4 cm and 8 cm × 3 cm rectangles.",
+      "options": [
+        "They have the same perimeter, 22 cm",
+        "Their areas differ by 4 cm²",
+        "They have the same area, 28 cm²",
+        "The 8 × 3 rectangle has the larger area"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Perimeters: 2(7 + 4) = 22 and 2(8 + 3) = 22, equal. Areas: 28 and 24, so they differ by 4 cm² and the 7 × 4 rectangle is the larger.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Perimeter versus Area",
+      "question": "When the side of a square is doubled, what happens to its perimeter and its area?",
+      "options": [
+        "Perimeter becomes 4 times; area doubles",
+        "Perimeter and area both become 4 times",
+        "Perimeter and area both become double",
+        "Perimeter doubles; area becomes 4 times"
+      ],
+      "answer": 3,
+      "explanation": "Perimeter = 4 × side, so it doubles. Area = side × side, so doubling the side multiplies the area by 2 × 2 = 4.",
+      "source": "exercise:p5-Q5"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Paths and Composite Regions",
+      "question": "A path (shaded) is laid around a rectangular park EFGH, and the outer boundary of the path is rectangle ABCD. Which formula gives the area of the path?",
+      "options": [
+        "Area(ABCD) − Area(EFGH)",
+        "Area(ABCD) + Area(EFGH)",
+        "Area(EFGH) − Area(ABCD)",
+        "Area(ABCD) ÷ Area(EFGH)"
+      ],
+      "answer": 0,
+      "explanation": "The path is what remains of the outer rectangle after the park is removed, so Area(path) = Area(outer) − Area(inner).",
+      "source": "exercise:p4-Q2"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Paths and Composite Regions",
+      "question": "A park is 20 m × 10 m. A path 2 m wide runs around it on the outside. What is the area of the path?",
+      "options": [
+        "200 m²",
+        "136 m²",
+        "336 m²",
+        "120 m²"
+      ],
+      "answer": 1,
+      "explanation": "Outer rectangle: (20 + 4) × (10 + 4) = 24 × 14 = 336 m². Park: 200 m². Path = 336 − 200 = 136 m². 120 m² forgets the four 2 × 2 corners.",
+      "source": "exercise:p4-Q2"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Paths and Composite Regions",
+      "question": "A park is l by b, and a path of width w surrounds it on all sides. Which formula gives the area of the path?",
+      "options": [
+        "(l − 2w)(b − 2w) + lb",
+        "(l + w)(b + w) − lb",
+        "(l + 2w)(b + 2w) − lb",
+        "2w(l + b)"
+      ],
+      "answer": 2,
+      "explanation": "The path adds w on BOTH sides of each dimension, so the outer rectangle is (l + 2w) × (b + 2w); subtract the park lb. 2w(l + b) misses the corners.",
+      "source": "exercise:p4-Q2"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Paths and Composite Regions",
+      "question": "The outer rectangle ABCD is slid sideways while the park EFGH stays inside it (so the path is wider on one side and narrower on the other). Does the path's area change?",
+      "options": [
+        "No — because the outer perimeter is unchanged",
+        "Yes — the path becomes wider on one side",
+        "Yes — the four widths are no longer equal",
+        "No — it is still outer area minus inner area"
+      ],
+      "answer": 3,
+      "explanation": "The path's area is Area(ABCD) − Area(EFGH), and neither rectangle changed size. The unequal widths change the shape of the path, not its area. (Perimeter is not the reason.)",
+      "source": "exercise:p4-Q2"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Paths and Composite Regions",
+      "question": "A plot is 14 m × 12 m. Two paths, each 2 m wide, cross it — one parallel to the 14 m side and one parallel to the 12 m side. What is the area of the crosspath?",
+      "options": [
+        "48 m²",
+        "52 m²",
+        "44 m²",
+        "56 m²"
+      ],
+      "answer": 0,
+      "explanation": "Path 1: 14 × 2 = 28 m². Path 2: 12 × 2 = 24 m². Their 2 × 2 = 4 m² crossing is counted twice, so area = 28 + 24 − 4 = 48 m². 52 forgets to subtract the overlap.",
+      "source": "exercise:p4-Q3"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Paths and Composite Regions",
+      "question": "For a crosspath of width w on an l × b plot, the area is lw + bw − w². Why is w² subtracted?",
+      "options": [
+        "One path is shorter than the other by w",
+        "The square where the two paths cross is counted twice",
+        "The four corners of the plot are not part of the path",
+        "The paths become narrower where they meet"
+      ],
+      "answer": 1,
+      "explanation": "lw and bw each include the central w × w square where the paths overlap, so it has been added twice; subtracting w² counts it once.",
+      "source": "exercise:p4-Q3"
+    },
+    {
+      "id": "q25",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Paths and Composite Regions",
+      "question": "Besides the plot's sides 14 m and 12 m, which measurements are needed to find the area of a crosspath?",
+      "options": [
+        "The width of the path parallel to the 14 m side",
+        "The width of the path parallel to the 12 m side",
+        "The length of the diagonal of the plot",
+        "The perimeter of the plot"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Area of crosspath = 14 × w₁ + 12 × w₂ − w₁w₂, so only the two path widths are needed. Diagonal and perimeter play no role.",
+      "source": "exercise:p4-Q3"
+    },
+    {
+      "id": "q26",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Paths and Composite Regions",
+      "question": "Cutting a figure into pieces and rearranging them into a new figure never changes the total area.",
+      "answer": true,
+      "explanation": "This is the idea behind dissection: the pieces keep their areas, so the new figure has exactly the same area as the old one.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Triangles inside Rectangles",
+      "question": "A diagonal is drawn in a 7 cm × 4 cm rectangle. What is the area of each of the two triangles formed?",
+      "options": [
+        "11 cm²",
+        "7 cm²",
+        "14 cm²",
+        "28 cm²"
+      ],
+      "answer": 2,
+      "explanation": "The diagonal divides the rectangle into two congruent triangles, each with half the area: ½ × 7 × 4 = 14 cm².",
+      "source": "text:page3"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Triangles inside Rectangles",
+      "question": "In two identical rectangles ABCD, point X and point Y are chosen anywhere on side AB. Which triangle has the greater area, ∆XDC or ∆YDC?",
+      "options": [
+        "∆XDC, if X is nearer to a corner",
+        "∆YDC, if Y is nearer the middle",
+        "The one whose sides are longer",
+        "Neither — each is half the rectangle"
+      ],
+      "answer": 3,
+      "explanation": "Dropping the altitude from X (or Y) shows the triangle takes exactly half of each of the two smaller rectangles, so each triangle is half of ABCD regardless of where the apex is.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Triangles inside Rectangles",
+      "question": "In Fig. 7.1 the rectangle ABCD has sides 4 and 5 units and X lies on AB. What is the area of ∆XDC?",
+      "options": [
+        "10 sq units",
+        "9 sq units",
+        "18 sq units",
+        "20 sq units"
+      ],
+      "answer": 0,
+      "explanation": "∆XDC is half of the rectangle: ½ × 4 × 5 = 10 sq units. 20 is the whole rectangle; 9 and 18 come from adding instead of multiplying.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Triangles inside Rectangles",
+      "question": "∆XDC (base DC) and ∆YBC (base BC) are drawn in two identical rectangles ABCD. Why are their areas equal even though DC ≠ BC?",
+      "options": [
+        "The two triangles are congruent to each other",
+        "Each triangle is exactly half of the same rectangle",
+        "Each has perimeter equal to half the rectangle's",
+        "They have the same base and the same height"
+      ],
+      "answer": 1,
+      "explanation": "Whichever side is the base, a triangle with its third vertex on the opposite side fills half the rectangle. The bases differ, so 'same base' and congruence are wrong.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q31",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Triangles inside Rectangles",
+      "question": "Half the area of a rectangle fills exactly half the number of its unit squares.",
+      "answer": true,
+      "explanation": "Area is measured by counting unit squares, so halving the area halves the count of unit squares (allowing fractional squares).",
+      "source": "text:page3"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Triangles inside Rectangles",
+      "question": "Dropping the altitude from X splits rectangle ABCD into two smaller rectangles. Which fact then proves that ∆XDC is half of ABCD?",
+      "options": [
+        "The two smaller rectangles are always congruent to one another",
+        "The sides XD and XC are the two diagonals of the rectangle ABCD",
+        "XD and XC are diagonals that halve the two smaller rectangles",
+        "The altitude from X is equal in length to the base DC of the rectangle"
+      ],
+      "answer": 2,
+      "explanation": "XD is a diagonal of the left rectangle and XC of the right one; each diagonal halves its rectangle, so the triangle takes half of each part, i.e. half of the whole.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Triangles inside Rectangles",
+      "question": "Find the area of a right-angled triangle whose perpendicular sides are 3 cm and 4 cm.",
+      "options": [
+        "7 cm²",
+        "5 cm²",
+        "12 cm²",
+        "6 cm²"
+      ],
+      "answer": 3,
+      "explanation": "The perpendicular sides act as base and height: ½ × 3 × 4 = 6 cm². 12 is the full 3 × 4 rectangle; 5 is the hypotenuse length, not an area.",
+      "source": "exercise:p10-Q1"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Triangles inside Rectangles",
+      "question": "Find the area of a triangle with base 5 cm and height 3.2 cm.",
+      "options": [
+        "8 cm²",
+        "4 cm²",
+        "16 cm²",
+        "8.2 cm²"
+      ],
+      "answer": 0,
+      "explanation": "½ × 5 × 3.2 = ½ × 16 = 8 cm². Forgetting the ½ gives 16; adding 5 + 3.2 gives 8.2, which is a slip.",
+      "source": "exercise:p10-Q1"
+    },
+    {
+      "id": "q35",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Triangles inside Rectangles",
+      "question": "A right-angled triangle with perpendicular sides 3 cm and 4 cm has the same area as a 3 cm × 4 cm rectangle.",
+      "answer": false,
+      "explanation": "The triangle is half of that rectangle: 6 cm² versus 12 cm².",
+      "source": "exercise:p10-Q1"
+    },
+    {
+      "id": "q36",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Triangles inside Rectangles",
+      "question": "ABCD is a rectangle with centre O (where the diagonals meet). Which of these triangles have area equal to HALF of the rectangle?",
+      "options": [
+        "∆XDC, with X anywhere on side AB",
+        "∆YBC, with Y anywhere on side AD",
+        "∆AOB, with O the centre of the rectangle",
+        "∆XMC, with M the midpoint of DC and X on AB"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "A triangle on a full side with its apex on the opposite side is half the rectangle. ∆AOB is one of the four equal triangles made by the diagonals (a quarter), and ∆XMC uses only half of DC as base (also a quarter).",
+      "source": "text:page6"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Area Formula for Triangles",
+      "question": "Which formula gives the area of a triangle?",
+      "options": [
+        "2 × base × height",
+        "½ × base × height",
+        "base × height",
+        "½ × base + height"
+      ],
+      "answer": 1,
+      "explanation": "Area of a triangle = ½ × base × height, because the triangle is half of the rectangle built on its base and height. base × height alone is the parallelogram/rectangle formula.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Area Formula for Triangles",
+      "question": "In the derivation, a line l through A parallel to BC is drawn and perpendiculars from B and C meet it at E and D. Why is the triangle's height equal to the rectangle's height?",
+      "options": [
+        "AB is equal in length to side AE",
+        "BC is a diagonal of rectangle BCDE",
+        "BXAE is a rectangle, so AX = BE",
+        "A is the midpoint of the segment ED"
+      ],
+      "answer": 2,
+      "explanation": "With AX ⊥ BC, the figure BXAE has four right angles, so it is a rectangle and its opposite sides AX and BE are equal — the triangle's height equals the rectangle's.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Area Formula for Triangles",
+      "question": "For an obtuse triangle, the chapter writes Area(∆ABC) = ½ × h × DC − ½ × h × DB = ½ × h × BC. Which fact makes DC − DB equal to BC?",
+      "options": [
+        "AD is drawn parallel to the base BC of the triangle",
+        "∆ADB and ∆ADC are congruent right triangles",
+        "D is the midpoint of the side BC of the triangle",
+        "B lies between D and C on the extended base"
+      ],
+      "answer": 3,
+      "explanation": "D is the foot of the perpendicular from A on line BC extended, so B sits between D and C and DC − DB = BC. The two right triangles are not congruent and AD is perpendicular, not parallel, to BC.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q40",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Area Formula for Triangles",
+      "question": "The formula ½ × base × height works only for right-angled triangles.",
+      "answer": false,
+      "explanation": "The chapter shows it holds for all triangles — including obtuse ones, where the area is found as the difference of two right-triangle areas.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Area Formula for Triangles",
+      "question": "A triangle has area 24 cm² and base 8 cm. What is its height?",
+      "options": [
+        "6 cm",
+        "3 cm",
+        "12 cm",
+        "16 cm"
+      ],
+      "answer": 0,
+      "explanation": "Area = ½ × base × height, so 24 = ½ × 8 × h = 4h, giving h = 6 cm. Using 24 ÷ 8 = 3 forgets the ½.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Area Formula for Triangles",
+      "question": "A triangle has sides 5 cm, 5 cm and 6 cm, and the height to the 6 cm side is 4 cm. A student computes ½ × 5 × 6 = 15 cm². What went wrong?",
+      "options": [
+        "The two equal sides should have been added together first",
+        "A slanted side was used instead of the perpendicular height",
+        "The ½ should not be used when the triangle is isosceles",
+        "The 6 cm side cannot be chosen as the base of the triangle"
+      ],
+      "answer": 1,
+      "explanation": "Height means the perpendicular distance from the apex to the base — here 4 cm — so the area is ½ × 6 × 4 = 12 cm². The 5 cm side is slanted, not a height.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q43",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Area Formula for Triangles",
+      "question": "Which sets of measurements are enough, by themselves, to find the area of a triangle?",
+      "options": [
+        "Any one side and the perpendicular height drawn to it",
+        "The sidelengths of the rectangle enclosing it on its base",
+        "Any two sides of the triangle",
+        "The perimeter of the triangle"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Area = ½ × base × height needs a side and its height — which are exactly the enclosing rectangle's sidelengths. Two sides alone (without the angle) or the perimeter cannot fix the area.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q44",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Area Formula for Triangles",
+      "question": "For an obtuse triangle, the area can be found as the difference of the areas of two right-angled triangles.",
+      "answer": true,
+      "explanation": "Area(∆ABC) = Area(∆ADC) − Area(∆ADB), where D is the foot of the perpendicular from A on BC extended; both of these are right triangles.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Altitudes and Equal-Area Triangles",
+      "question": "In ∆ABC, BC = 5, the altitude AX to BC is 3, and AC = 4. What is the length of the altitude BY drawn to AC?",
+      "options": [
+        "3.5 units",
+        "2.5 units",
+        "3.75 units",
+        "7.5 units"
+      ],
+      "answer": 2,
+      "explanation": "Area = ½ × AX × BC = ½ × 3 × 5 = 7.5. Also Area = ½ × BY × AC = 2 BY. So 2 BY = 7.5 and BY = 3.75 units (7.5 is the area, not BY).",
+      "source": "text:page8"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Altitudes and Equal-Area Triangles",
+      "question": "In ∆ABC, BC = 6 units, the altitude AX to BC is 4 units and AC = 8 units. Find the altitude BY to AC.",
+      "options": [
+        "4 units",
+        "12 units",
+        "6 units",
+        "3 units"
+      ],
+      "answer": 3,
+      "explanation": "Area = ½ × 6 × 4 = 12. With base AC: ½ × 8 × BY = 12, so 4 BY = 12 and BY = 3 units. (12 is the area, not the altitude.)",
+      "source": "exercise:p11-Q2"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Altitudes and Equal-Area Triangles",
+      "question": "Both diagonals of a rectangle are drawn, making four triangles. Which statement about them is correct?",
+      "options": [
+        "They have equal areas but are not congruent",
+        "They have unequal areas and unequal shapes",
+        "They all have exactly the same perimeter",
+        "They are all congruent to one another in shape"
+      ],
+      "answer": 0,
+      "explanation": "The chapter shows adjacent triangles have equal bases (OB = OD) and the same altitude, so all four areas are equal — though the triangles clearly have different shapes.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Altitudes and Equal-Area Triangles",
+      "question": "Why do the adjacent triangles 1 and 2 (formed by a rectangle's diagonals) have equal areas?",
+      "options": [
+        "Both are right-angled triangles with the right angle at O",
+        "Bases OB = OD and the same altitude from the common vertex",
+        "They are mirror images of each other across the diagonal",
+        "They share the side OA and the right angle at vertex O"
+      ],
+      "answer": 1,
+      "explanation": "Taking OD and OB as bases, both triangles have the same altitude from the shared vertex, and OB = OD because the diagonals of a rectangle bisect each other.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Altitudes and Equal-Area Triangles",
+      "question": "A line joining a vertex of a triangle to the midpoint of the opposite side divides the triangle into two triangles that have…",
+      "options": [
+        "congruent shapes",
+        "similar shapes",
+        "equal areas",
+        "equal perimeters"
+      ],
+      "answer": 2,
+      "explanation": "This is the chapter's general statement: the two parts share the same height and have equal bases, so their areas are equal (they need not be congruent).",
+      "source": "text:page8"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Altitudes and Equal-Area Triangles",
+      "question": "∆SUB is isosceles with SU = SB, SE is perpendicular to UB, and the area of ∆SEB is 24 sq units. What is the area of ∆SUB?",
+      "options": [
+        "24 sq units",
+        "12 sq units",
+        "96 sq units",
+        "48 sq units"
+      ],
+      "answer": 3,
+      "explanation": "In an isosceles triangle the altitude to the base also bisects it, so ∆SEU and ∆SEB are congruent halves. Area(∆SUB) = 2 × 24 = 48 sq units.",
+      "source": "exercise:p11-Q3"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Altitudes and Equal-Area Triangles",
+      "question": "In the isosceles ∆SUB, why does the perpendicular SE split the triangle into two parts of equal area?",
+      "options": [
+        "In an isosceles triangle the altitude to the base also bisects it",
+        "In every triangle an altitude bisects the opposite side",
+        "SE is exactly half as long as the base UB of the triangle",
+        "SE is parallel to the base UB, so the two halves match"
+      ],
+      "answer": 0,
+      "explanation": "Only in an isosceles triangle is the altitude from the apex also the median; equal bases UE = EB and the common height SE give equal areas.",
+      "source": "exercise:p11-Q3"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Altitudes and Equal-Area Triangles",
+      "question": "M and N are the midpoints of XY and XZ in ∆XYZ. What fraction of the area of ∆XYZ is the area of ∆XMN?",
+      "options": [
+        "1⁄3",
+        "1⁄4",
+        "1⁄8",
+        "1⁄2"
+      ],
+      "answer": 1,
+      "explanation": "Join NY: YN is a median of ∆XYZ, so ∆XNY is half of it. Then NM is a median of ∆XNY, so ∆XMN is half of that — ½ × ½ = ¼.",
+      "source": "exercise:p12-Q7"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Altitudes and Equal-Area Triangles",
+      "question": "In the midpoint problem, after joining NY, why is Area(∆XNY) = ½ Area(∆XYZ)?",
+      "options": [
+        "N is the centre of the triangle XYZ, so NY halves it",
+        "XN and NY are equal in length, making the triangle isosceles",
+        "NY joins vertex Y to the midpoint N of the opposite side XZ",
+        "NY is parallel to the side XM, so the heights are equal"
+      ],
+      "answer": 2,
+      "explanation": "A segment from a vertex to the midpoint of the opposite side (a median) divides a triangle into two equal-area triangles; NY is such a median.",
+      "source": "exercise:p12-Q7"
+    },
+    {
+      "id": "q54",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Altitudes and Equal-Area Triangles",
+      "question": "In any triangle, a median always divides it into two congruent triangles.",
+      "answer": false,
+      "explanation": "A median divides the triangle into two triangles of EQUAL AREA (same height, equal bases), but they are congruent only in special cases such as an isosceles triangle's median to the base.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q55",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Altitudes and Equal-Area Triangles",
+      "question": "The diagonals of a rectangle bisect each other.",
+      "answer": true,
+      "explanation": "This property (OB = OD) is used to show that the four triangles formed by a rectangle's diagonals have equal areas.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parallel Lines and Shortest Paths",
+      "question": "Line l is parallel to BC. Triangles are drawn with base BC and third vertex anywhere on l. What can be said about their areas?",
+      "options": [
+        "Largest when the apex is above the midpoint",
+        "Smallest when the apex is above the midpoint",
+        "Larger when the apex is far to one side",
+        "They are all equal"
+      ],
+      "answer": 3,
+      "explanation": "All these triangles have the same base BC and the same height (the distance between the parallel lines), so ½ × base × height is the same for each.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Parallel Lines and Shortest Paths",
+      "question": "Among triangles with base BC and apex on a line l ∥ BC, which has the minimum perimeter?",
+      "options": [
+        "The one with apex on the perpendicular bisector of BC",
+        "The one with apex above the midpoint of line l itself",
+        "They all have exactly the same perimeter length",
+        "The right-angled one with apex directly above B"
+      ],
+      "answer": 0,
+      "explanation": "The reflection argument shows the shortest path B → A → C occurs when A lies on the straight line BC′, which puts A on the perpendicular bisector of BC — the isosceles triangle.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Parallel Lines and Shortest Paths",
+      "question": "Among triangles with base BC and apex on l ∥ BC, which has the maximum perimeter?",
+      "options": [
+        "The right-angled one with apex directly above vertex C",
+        "None — sliding the apex farther along l keeps increasing it",
+        "The equilateral triangle, whenever it fits between the lines",
+        "The isosceles one with apex above the midpoint of BC"
+      ],
+      "answer": 1,
+      "explanation": "Line l is endless; moving A farther and farther along it makes AB and AC as long as you like, so there is no maximum perimeter (though the area never changes).",
+      "source": "text:page9"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Parallel Lines and Shortest Paths",
+      "question": "In the minimum-perimeter argument, why is it enough to compare only AB + AC for the different triangles?",
+      "options": [
+        "BC is the longest side of every triangle",
+        "The height is the same for all the triangles",
+        "BC is a common side of all the triangles",
+        "AB and AC are always equal in length"
+      ],
+      "answer": 2,
+      "explanation": "Every triangle has the same side BC, so the one with the smallest AB + AC has the smallest perimeter. Equal heights explain equal AREAS, not perimeters.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Parallel Lines and Shortest Paths",
+      "question": "B′ is the reflection of B in line l, and X is the foot of BB′ on l. Why is AB = AB′ for any point A on l?",
+      "options": [
+        "Line l is the perpendicular bisector of segment BC",
+        "A is the midpoint of the segment BB′ on the mirror line",
+        "AB and AB′ are both parallel to the mirror line l",
+        "∆AXB ≅ ∆AXB′ (BX = B′X, right angles at X, AX common)"
+      ],
+      "answer": 3,
+      "explanation": "The mirror puts B′ as far behind l as B is in front, so BX = B′X; with the right angles at X and the common side AX, the two triangles are congruent and AB = AB′.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parallel Lines and Shortest Paths",
+      "question": "Which property of a plane mirror is used to locate the reflection B′ of point B?",
+      "options": [
+        "The image is as far behind the mirror as the object is in front",
+        "The image distance is exactly half of the object distance",
+        "The image always appears closer to you than the object does",
+        "The image forms exactly on the reflecting surface of the mirror"
+      ],
+      "answer": 0,
+      "explanation": "The chapter recalls the experimental law that the distance of the image behind the mirror equals the distance of the object in front of it.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Parallel Lines and Shortest Paths",
+      "question": "Using the reflection C′ of C in line l, where should A be placed on l to make B → A → C as short as possible?",
+      "options": [
+        "Where the perpendicular bisector of BC′ meets l",
+        "Where the straight segment BC′ crosses line l",
+        "At the point of l that is closest to C",
+        "Where the perpendicular from B meets line l"
+      ],
+      "answer": 1,
+      "explanation": "Since AC = AC′, the path B–A–C has the same length as B–A–C′, which is shortest when it is a straight line. So A is the point where BC′ cuts l.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Parallel Lines and Shortest Paths",
+      "question": "Gopal must walk from his house to the river and then to his water tank. Which route is shortest?",
+      "options": [
+        "Walk to the river point nearest the tank, then back along the bank",
+        "Walk straight toward the tank and turn only when reaching the river",
+        "Reflect the tank in the river line; go where the house–image line meets the river",
+        "Walk to the point of the river nearest the house, then straight on to the tank"
+      ],
+      "answer": 2,
+      "explanation": "This is the mirror trick: the path house → river point → tank equals house → river point → (reflected tank), which is shortest along a straight line.",
+      "source": "exercise:p12-Q8"
+    },
+    {
+      "id": "q64",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Parallel Lines and Shortest Paths",
+      "question": "Among all triangles with base BC and apex on a line parallel to BC, the one with the least perimeter is isosceles.",
+      "answer": true,
+      "explanation": "The reflection argument places the best apex A on the straight line BC′, which lies on the perpendicular bisector of BC, so AB = AC.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q65",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Parallel Lines and Shortest Paths",
+      "question": "All triangles with base BC and apex on a line parallel to BC have the same perimeter.",
+      "answer": false,
+      "explanation": "They have the same AREA (same base and height), but their perimeters differ — the isosceles one is smallest and there is no largest.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q66",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Parallel Lines and Shortest Paths",
+      "question": "Select the statements that are true for all triangles with base BC and apex on a line l ∥ BC.",
+      "options": [
+        "They all have the same height",
+        "They all have the same area",
+        "They all have the same perimeter",
+        "They are all congruent to one another"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The distance between the parallel lines is the common height, so the areas are equal. Perimeters and shapes vary with the apex position.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Area of Polygons by Triangles",
+      "question": "Why does knowing how to find the area of a triangle let us find the area of ANY polygon?",
+      "options": [
+        "Every polygon is made of congruent triangles",
+        "All polygons have the same height as a triangle",
+        "A polygon's area is always three times a triangle's",
+        "Any polygon can be divided into triangles"
+      ],
+      "answer": 3,
+      "explanation": "Every polygon can be cut into triangles (for example by drawing diagonals), and the polygon's area is the sum of the triangle areas.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Area of Polygons by Triangles",
+      "question": "Joining B to D in a quadrilateral ABCD divides it into which pieces?",
+      "options": [
+        "Two triangles",
+        "Two rectangles",
+        "Two trapeziums",
+        "Four triangles"
+      ],
+      "answer": 0,
+      "explanation": "A diagonal splits a quadrilateral into exactly two triangles, ∆ABD and ∆CBD, whose areas add up to the quadrilateral's.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Area of Polygons by Triangles",
+      "question": "To find the area of quadrilateral ABCD by joining BD, which measurements are needed?",
+      "options": [
+        "Both diagonals AC and BD of the quadrilateral ABCD",
+        "BD and the perpendicular distances of A and C from BD",
+        "BD together with the lengths of the two sides AB and CD",
+        "The lengths of all four sides of quadrilateral ABCD"
+      ],
+      "answer": 1,
+      "explanation": "Each triangle needs a base and its height: BD is the common base, and the heights are the perpendiculars from A and from C to BD.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Area of Polygons by Triangles",
+      "question": "In quadrilateral ABCD, AC = 22 cm, BM = 3 cm and DN = 3 cm, where BM and DN are perpendicular to AC. What is the area of ABCD?",
+      "options": [
+        "132 cm²",
+        "28 cm²",
+        "66 cm²",
+        "33 cm²"
+      ],
+      "answer": 2,
+      "explanation": "Area = ½ × 22 × 3 + ½ × 22 × 3 = 33 + 33 = 66 cm². 33 counts only one triangle; 132 forgets the halves.",
+      "source": "exercise:p13-Q1"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Area of Polygons by Triangles",
+      "question": "For the quadrilateral with AC = 22 cm and perpendiculars BM = DN = 3 cm, a student writes Area = ½ × 22 × 3 = 33 cm². What has been left out?",
+      "options": [
+        "The second diagonal BD of the quadrilateral",
+        "The factor ½ in the triangle formula",
+        "The perimeter of the quadrilateral ABCD",
+        "The second triangle ∆ADC, with height DN"
+      ],
+      "answer": 3,
+      "explanation": "The diagonal AC splits ABCD into ∆ABC (height BM) and ∆ADC (height DN). The student found only ∆ABC; adding ∆ADC gives 66 cm².",
+      "source": "exercise:p13-Q1"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Area of Polygons by Triangles",
+      "question": "A regular hexagon with centre O is cut by joining O to every vertex. How many triangles are formed?",
+      "options": [
+        "6",
+        "4",
+        "12",
+        "3"
+      ],
+      "answer": 0,
+      "explanation": "Joining the centre to the 6 vertices gives 6 triangles (all congruent), so the area of the hexagon is 6 times one triangle's area.",
+      "source": "exercise:p13-Q3"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Area of Polygons by Triangles",
+      "question": "Which construction gives a quadrilateral whose area is exactly half that of a given quadrilateral?",
+      "options": [
+        "Draw one diagonal and keep one of the triangles",
+        "Join the midpoints of the four sides in order",
+        "Halve every side but keep all the angles",
+        "Join the midpoints of the two diagonals"
+      ],
+      "answer": 1,
+      "explanation": "Cutting off the four corner triangles removes ¼ of each triangle made by a diagonal — ½ of the total — so the midpoint quadrilateral has half the area. Halving every side gives a quarter, and one diagonal piece is a triangle, not a quadrilateral.",
+      "source": "exercise:p13-Q5"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Area of Polygons by Triangles",
+      "question": "Why does joining the midpoints of a quadrilateral's sides cut its area in half?",
+      "options": [
+        "The new quadrilateral is congruent to one of the two diagonal triangles",
+        "The midpoint segments are parallel to the sides, which halves the height",
+        "Each corner triangle is ¼ of the diagonal-triangle it lies in; four make ½",
+        "Each corner triangle is exactly ⅛ of the whole quadrilateral's area"
+      ],
+      "answer": 2,
+      "explanation": "By the midpoint result (∆XMN = ¼ ∆XYZ), the two corners on diagonal BD remove ¼ of (∆ABD + ∆CBD) = ¼ of the whole, and likewise for diagonal AC — ½ in total.",
+      "source": "exercise:p12-Q7"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Area of Polygons by Triangles",
+      "question": "A quadrilateral has a diagonal of 10 cm, and the other two vertices are 4 cm and 6 cm away from it (measured perpendicularly). What is its area?",
+      "options": [
+        "100 cm²",
+        "25 cm²",
+        "240 cm²",
+        "50 cm²"
+      ],
+      "answer": 3,
+      "explanation": "Area = ½ × 10 × 4 + ½ × 10 × 6 = 20 + 30 = 50 cm², i.e. ½ × diagonal × (sum of the two heights).",
+      "source": "exercise:p13-Q1"
+    },
+    {
+      "id": "q76",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Area of Polygons by Triangles",
+      "question": "Whose area can be found by cutting the figure into triangles and adding them up?",
+      "options": [
+        "Any quadrilateral",
+        "Any pentagon",
+        "A circle",
+        "Only regular polygons"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Any polygon — quadrilateral, pentagon or more — can be divided into triangles. A circle has no straight sides and cannot be cut into finitely many triangles.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parallelogram Area",
+      "question": "Which formula gives the area of a parallelogram?",
+      "options": [
+        "base × height",
+        "base × slant side",
+        "½ × product of diagonals",
+        "½ × base × height"
+      ],
+      "answer": 0,
+      "explanation": "A parallelogram can be dissected into a rectangle of the same base and height, so Area = base × height (the height is the perpendicular distance, not the slant side).",
+      "source": "text:page15"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parallelogram Area",
+      "question": "What does the chapter call the process of cutting a figure into pieces and rearranging them into a different figure of equal area?",
+      "options": [
+        "Congruence",
+        "Dissection",
+        "Tessellation",
+        "Reflection"
+      ],
+      "answer": 1,
+      "explanation": "Dissection is the cut-and-rearrange process; the pieces keep their area, so the new figure has the same area as the old one.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Parallelogram Area",
+      "question": "In the dissection of parallelogram ABCD, AX ⊥ CD is drawn, ∆AXD is cut off, and ∆BYC completes ABCX to a rectangle. Which three facts prove ∆BYC ≅ ∆AXD?",
+      "options": [
+        "XC = CY, ∠BYC = ∠AXD = 90°, AB = AD",
+        "BC = AD, AB = DC, ∠BAD = ∠BCD",
+        "BY = AX, ∠BYC = ∠AXD = 90°, BC = AD",
+        "BY = AX, ∠ABY = ∠ADX, BC = AD"
+      ],
+      "answer": 2,
+      "explanation": "BY = AX (opposite sides of rectangle ABYX), both have right angles, and BC = AD (opposite sides of the parallelogram) — the RHS criterion.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Parallelogram Area",
+      "question": "Which congruence criterion is used to show ∆BYC ≅ ∆AXD in the parallelogram dissection?",
+      "options": [
+        "SSS",
+        "ASA",
+        "SAS",
+        "RHS"
+      ],
+      "answer": 3,
+      "explanation": "Right angle, Hypotenuse (BC = AD) and one Side (BY = AX) are matched — that is the RHS criterion for right-angled triangles.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Parallelogram Area",
+      "question": "After the dissection, the rectangle is ABYX. Why is its base XY equal to the parallelogram's base DC?",
+      "options": [
+        "DX = CY, and XC is common to both",
+        "AX and BY are both equal to DC",
+        "X and Y are the midpoints of DC",
+        "XY is a diagonal of the parallelogram"
+      ],
+      "answer": 0,
+      "explanation": "DX = CY (matching sides of the congruent triangles); adding the common part XC to each gives DC = XY.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Parallelogram Area",
+      "question": "A parallelogram has base 5 cm, a slanted side 3 cm, and height 2 cm. What is its area?",
+      "options": [
+        "30 cm²",
+        "10 cm²",
+        "15 cm²",
+        "6 cm²"
+      ],
+      "answer": 1,
+      "explanation": "Area = base × height = 5 × 2 = 10 cm². Multiplying the two sides (5 × 3 = 15) is the classic mistake — the slant side is not the height.",
+      "source": "exercise:p16-Q2"
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Parallelogram Area",
+      "question": "Parallelogram PQRS has sides 12 cm and 6 cm. The height drawn to the 6 cm side is 7.6 cm. What is the height QN drawn to the 12 cm side?",
+      "options": [
+        "4 cm",
+        "7.6 cm",
+        "3.8 cm",
+        "15.2 cm"
+      ],
+      "answer": 2,
+      "explanation": "Area = 6 × 7.6 = 45.6 cm². Using the 12 cm side as base, 12 × QN = 45.6, so QN = 3.8 cm. The longer base needs the shorter height.",
+      "source": "exercise:p16-Q3"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Parallelogram Area",
+      "question": "A rectangle and a parallelogram both have sidelengths 5 cm and 4 cm. Which has the greater area, and why?",
+      "options": [
+        "The rectangle — because it has the larger perimeter",
+        "The parallelogram — its slanted sides make it wider",
+        "Both equal — same sides give the same base × height",
+        "The rectangle — the parallelogram's height is less than 4 cm"
+      ],
+      "answer": 3,
+      "explanation": "Built on the same 5 cm base, the rectangle's height is the full 4 cm (area 20 cm²), while the parallelogram's 4 cm side leans, so its perpendicular height is less than 4 cm.",
+      "source": "exercise:p16-Q4"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Parallelogram Area",
+      "question": "Parallelograms (a) to (g) are drawn on the same base between the same pair of parallel lines. Which statement is correct?",
+      "options": [
+        "All have equal areas; the rectangle has the least perimeter",
+        "All have equal perimeters; the rectangle has the least area",
+        "The most slanted one has the greatest area",
+        "Areas and perimeters are all equal"
+      ],
+      "answer": 0,
+      "explanation": "Same base and same height ⇒ same area. Perimeters differ: the more a parallelogram leans, the longer its slanted sides, so the rectangle has the minimum perimeter.",
+      "source": "exercise:p15-Q1"
+    },
+    {
+      "id": "q86",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Parallelogram Area",
+      "question": "The area of a parallelogram can be found using any side as the base, together with the height drawn to that side.",
+      "answer": true,
+      "explanation": "The chapter shows the parallelogram can also be cut along CZ (height to the other side) and rearranged into a rectangle, so any side and its corresponding height work.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q87",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Parallelogram Area",
+      "question": "A parallelogram with sides 5 cm and 4 cm always has an area of 20 cm².",
+      "answer": false,
+      "explanation": "Only the rectangle with these sides has area 20 cm². A leaning parallelogram has a height less than 4 cm, so its area is less than 20 cm².",
+      "source": "exercise:p16-Q4"
+    },
+    {
+      "id": "q88",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Parallelogram Area",
+      "question": "Select the TRUE statements about dissecting parallelogram ABCD (AX ⊥ DC) into rectangle ABYX.",
+      "options": [
+        "∆AXD is congruent to ∆BYC",
+        "Rectangle ABYX has the same height as the parallelogram",
+        "The rectangle's base XY is shorter than DC",
+        "The parallelogram's area is twice the rectangle's area"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The cut-off triangle fits exactly into the gap (RHS congruence) and AX is the common height. XY = DC and the areas are equal, not doubled.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rhombus Area",
+      "question": "Which formula gives the area of a rhombus in terms of its diagonals?",
+      "options": [
+        "diagonal × side of the rhombus",
+        "½ × product of the diagonals",
+        "product of the diagonals",
+        "½ × sum of the diagonals"
+      ],
+      "answer": 1,
+      "explanation": "Dissecting a rhombus gives a rectangle of sides AC and ½ BD, so Area = ½ × AC × BD — half the product of the diagonals.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rhombus Area",
+      "question": "Find the area of a rhombus whose diagonals are 20 cm and 15 cm.",
+      "options": [
+        "35 cm²",
+        "300 cm²",
+        "150 cm²",
+        "75 cm²"
+      ],
+      "answer": 2,
+      "explanation": "Area = ½ × 20 × 15 = 150 cm². 300 forgets the ½; 35 adds the diagonals.",
+      "source": "exercise:p22-Q1"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rhombus Area",
+      "question": "Rhombus ABCD (diagonals AC and BD) is dissected into rectangle WXYZ. What are the rectangle's sidelengths?",
+      "options": [
+        "XW = AB and WZ = AD",
+        "XW = AC and WZ = BD",
+        "XW = ½ AC and WZ = ½ BD",
+        "XW = AC and WZ = ½ BD"
+      ],
+      "answer": 3,
+      "explanation": "The two isosceles triangles ∆ABD and ∆CBD each become a rectangle of width ½ BD; joined along their heights they form a rectangle AC long and ½ BD wide.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rhombus Area",
+      "question": "Adding Area(∆ADB) = ½ × AO × BD and Area(∆CDB) = ½ × CO × BD gives ½ × BD × (AO + CO). Which fact turns AO + CO into AC?",
+      "options": [
+        "O lies on AC, because the diagonals cut each other",
+        "AO and CO are each equal to half of the diagonal BD",
+        "O is the midpoint of the diagonal BD, not of AC",
+        "AO is perpendicular to CO, meeting at the point O"
+      ],
+      "answer": 0,
+      "explanation": "O is the intersection of the diagonals, so it lies on AC and AO + CO = AC. This gives ½ × BD × AC, the same formula as before.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rhombus Area",
+      "question": "How can a rectangle of length l and width w be converted into a rhombus of equal area by dissection?",
+      "options": [
+        "Make a rhombus with diagonals l and w",
+        "Make a rhombus with diagonals l and 2w",
+        "Make a rhombus with diagonals 2l and 2w",
+        "Make a rhombus with sides l and w"
+      ],
+      "answer": 1,
+      "explanation": "Reverse the rhombus dissection: a rhombus with diagonals l and 2w has area ½ × l × 2w = lw, exactly the rectangle's area.",
+      "source": "exercise:p22-Q2"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rhombus Area",
+      "question": "A rhombus has diagonals 16 cm and 12 cm. Using base × height, what is its height?",
+      "options": [
+        "8.0 cm",
+        "6.4 cm",
+        "9.6 cm",
+        "4.8 cm"
+      ],
+      "answer": 2,
+      "explanation": "Area = ½ × 16 × 12 = 96 cm². Half-diagonals 8 and 6 give side = √(8² + 6²) = 10 cm. So height = 96 ÷ 10 = 9.6 cm.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q95",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Rhombus Area",
+      "question": "Since a rhombus is a parallelogram, base × height also gives its area.",
+      "answer": true,
+      "explanation": "The chapter says the parallelogram formula holds for a rhombus; the diagonal formula is an additional method.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q96",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Rhombus Area",
+      "question": "The area of a rhombus equals the product of its two diagonals.",
+      "answer": false,
+      "explanation": "It is HALF the product of the diagonals — the dissection rectangle has sides AC and ½ BD.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rhombus Area",
+      "question": "A square is a rhombus. If a square has diagonals of 10 cm, what is its area?",
+      "options": [
+        "100 cm²",
+        "25 cm²",
+        "20 cm²",
+        "50 cm²"
+      ],
+      "answer": 3,
+      "explanation": "Area = ½ × 10 × 10 = 50 cm². (100 would need the side, not the diagonal, to be 10 cm.)",
+      "source": "text:page18"
+    },
+    {
+      "id": "q98",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Rhombus Area",
+      "question": "Which properties of a rhombus are used in dissecting it into a rectangle?",
+      "options": [
+        "Its diagonals are perpendicular to each other",
+        "Its diagonals bisect each other",
+        "Its diagonals are equal in length",
+        "All its angles are right angles"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Perpendicular, bisecting diagonals make ∆ABD and ∆CBD isosceles with the half-diagonals as heights. Equal diagonals and right angles belong to a square, not every rhombus.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Trapezium Area",
+      "question": "Which formula gives the area of a trapezium?",
+      "options": [
+        "½ × height × sum of the parallel sides",
+        "½ × height × difference of the parallel sides",
+        "½ × product of the parallel sides",
+        "height × sum of the parallel sides"
+      ],
+      "answer": 0,
+      "explanation": "Area of a trapezium = ½ × h × (a + b), where a and b are the parallel sides and h the perpendicular distance between them.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Trapezium Area",
+      "question": "A trapezium has parallel sides 24 m and 36 m and height 14 m. What is its area?",
+      "options": [
+        "210 m²",
+        "420 m²",
+        "336 m²",
+        "840 m²"
+      ],
+      "answer": 1,
+      "explanation": "½ × 14 × (24 + 36) = 7 × 60 = 420 m². 840 forgets the ½; 336 is 24 × 14 (a rectangle).",
+      "source": "exercise:p22-Q3"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Trapezium Area",
+      "question": "In trapezium WXYZ (WX ∥ ZY), WM and XN are drawn perpendicular to ZY. Why is WXNM a rectangle?",
+      "options": [
+        "WX = MN because WM and XN are both diagonals of the figure",
+        "The base angles at Z and Y are equal, which makes WXNM a square",
+        "∠MWX = ∠NXW = 90°, as co-interior angles with WX ∥ ZY sum to 180°",
+        "WM and XN are equal because W and X are midpoints of the top side"
+      ],
+      "answer": 2,
+      "explanation": "WM is a transversal of the parallels WX and ZY; the interior angles on the same side add to 180°, and one is 90°, so the other is 90° too. Same for XN.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Trapezium Area",
+      "question": "In the derivation the area ½h(x + y + 2a) becomes ½h(a + b) using x + y = b − a. Which length is b?",
+      "options": [
+        "The slanted side WZ of the trapezium",
+        "The height of the trapezium (= WM)",
+        "The shorter parallel side WX (= a)",
+        "The longer parallel side ZY (= x + a + y)"
+      ],
+      "answer": 3,
+      "explanation": "ZY is made of MZ = x, MN = a and NY = y, so b = x + y + a and x + y = b − a. Substituting gives ½h(a + b).",
+      "source": "text:page20"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Trapezium Area",
+      "question": "Two copies of a trapezium (AB ∥ CD) are joined along BC, the second one rotated. Why is the result a quadrilateral and not a 6-sided figure?",
+      "options": [
+        "x + y = 180° (co-interior angles), so ABD′ and A′CD are straight lines",
+        "x = y, because the two copies of the trapezium are congruent",
+        "The rotation turns all four angles of the figure into 90°",
+        "BC becomes a diagonal, and a diagonal always gives four sides"
+      ],
+      "answer": 0,
+      "explanation": "Angles x and y are interior angles on the same side of transversal BC between the parallels AB and CD, so they add to 180° and the sides line up into straight lines.",
+      "source": "text:page21"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Trapezium Area",
+      "question": "The two joined copies form a parallelogram. What are its base and height, if the trapezium has parallel sides a, b and height h?",
+      "options": [
+        "Base b − a, height h",
+        "Base a + b, height h",
+        "Base a + b, height 2h",
+        "Base ½(a + b), height h"
+      ],
+      "answer": 1,
+      "explanation": "The parallelogram has base a + b and the same height h, area h(a + b); the trapezium is half of it: ½h(a + b).",
+      "source": "text:page22"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Trapezium Area",
+      "question": "A regular hexagon is divided into a trapezium, an equilateral triangle and a rhombus. What is the ratio of their areas?",
+      "options": [
+        "4 : 1 : 2",
+        "2 : 1 : 1",
+        "3 : 1 : 2",
+        "3 : 2 : 1"
+      ],
+      "answer": 2,
+      "explanation": "A regular hexagon is 6 equal equilateral triangles. The trapezium is half the hexagon (3 triangles), the rhombus is 2 triangles and the equilateral triangle is 1 — ratio 3 : 1 : 2.",
+      "source": "exercise:p23-Q7"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Trapezium Area",
+      "question": "ZYXW is a trapezium with ZY ∥ WX. A is the midpoint of XY, and ZA extended meets WX extended at B. Why is Area(ZYXW) = Area(∆ZWB)?",
+      "options": [
+        "The trapezium and triangle share the same height and base",
+        "ZA is a median of ∆ZWB, so it halves the triangle",
+        "ZY = XB, because A is the midpoint of ZB",
+        "∆ZYA ≅ ∆BXA, so the cut-off piece exactly refills the gap"
+      ],
+      "answer": 3,
+      "explanation": "A is the midpoint of XY, the vertical angles at A are equal and ZY ∥ WB gives equal alternate angles, so ∆ZYA ≅ ∆BXA (ASA). Swapping these equal pieces turns the trapezium into ∆ZWB.",
+      "source": "exercise:p23-Q8"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Trapezium Area",
+      "question": "Trapezium ABCD is converted into rectangle EFGH by cutting along the perpendiculars through the midpoints I and J of its legs. The rectangle's height equals the trapezium's; what is its width?",
+      "options": [
+        "Half the sum of the parallel sides",
+        "The sum of the parallel sides",
+        "The longer parallel side",
+        "Half the difference of the parallel sides"
+      ],
+      "answer": 0,
+      "explanation": "Equal areas with the same height h means width × h = ½h(a + b), so the width is ½(a + b) — the segment IJ joining the midpoints of the legs.",
+      "source": "exercise:p22-Q5"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Trapezium Area",
+      "question": "Which trapezium has an area of 144 cm²?",
+      "options": [
+        "Height 6 cm, parallel sides 20 cm and 24 cm",
+        "Height 12 cm, parallel sides 10 cm and 14 cm",
+        "Height 12 cm, parallel sides 12 cm and 24 cm",
+        "Height 8 cm, parallel sides 8 cm and 10 cm"
+      ],
+      "answer": 1,
+      "explanation": "½ × 12 × (10 + 14) = 144 cm². The others give 216, 72 and 132 cm².",
+      "source": "exercise:p23-Q6"
+    },
+    {
+      "id": "q109",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Trapezium Area",
+      "question": "The formula ½ × height × (sum of parallel sides) holds only for isosceles trapeziums.",
+      "answer": false,
+      "explanation": "The chapter derives it for a general trapezium (and shows two approaches even for the slanted-over kind); it holds for every trapezium.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q110",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Trapezium Area",
+      "question": "Approach 2 for a slanted trapezium — drawing BG parallel to AD — splits the trapezium into a parallelogram and a triangle.",
+      "answer": true,
+      "explanation": "ABGD becomes a parallelogram (AB ∥ DG and BG ∥ AD) and the remaining piece ∆BGC is a triangle.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q111",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Trapezium Area",
+      "question": "Two copies of a trapezium (parallel sides a, b; height h) are joined along a leg. Select the TRUE statements.",
+      "options": [
+        "The combined figure is a parallelogram",
+        "The combined figure has base a + b",
+        "The combined figure has height 2h",
+        "The combined area is half the trapezium's area"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The figure is a parallelogram of base a + b and height h (not 2h) and area h(a + b) — twice the trapezium's area.",
+      "source": "text:page21"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Śulba-Sūtras and Equal-Area Shapes",
+      "question": "What are the Śulba-Sūtras?",
+      "options": [
+        "Ancient Greek texts on the properties of circles",
+        "Medieval Indian tables used for astronomy",
+        "Ancient Indian geometric texts on constructing altars",
+        "Ancient Chinese manuals for surveying farmland"
+      ],
+      "answer": 2,
+      "explanation": "The chapter describes the Śulba-Sūtras as ancient Indian geometric texts dealing with the construction of altars, which contain many problems on areas.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Śulba-Sūtras and Equal-Area Shapes",
+      "question": "Why did the Śulba-Sūtras contain problems about transforming one shape into another of the same area?",
+      "options": [
+        "Land had to be divided fairly among farmers",
+        "Builders wanted to use the least possible bricks",
+        "Scribes needed to copy drawings onto smaller pages",
+        "Altars had to have an exactly prescribed shape and area"
+      ],
+      "answer": 3,
+      "explanation": "When altars were built they had to have the exact prescribed shape and area, so one often needed to change a given shape into a different one of equal area.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Śulba-Sūtras and Equal-Area Shapes",
+      "question": "Besides the Śulba-Sūtras, in which famous text does the chapter say such equal-area problems are also posed and solved?",
+      "options": [
+        "Euclid's Elements",
+        "Āryabhaṭa's Āryabhaṭīya",
+        "Bhāskara's Līlāvatī",
+        "Archimedes' Sand Reckoner"
+      ],
+      "answer": 0,
+      "explanation": "The chapter notes that problems of transforming a shape into another of equal area are also found in Euclid's Elements.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Śulba-Sūtras and Equal-Area Shapes",
+      "question": "A rectangle has length l and width w. Which triangle has the same area as the rectangle?",
+      "options": [
+        "Base l and height w",
+        "Base l and height 2w",
+        "Base 2l and height 2w",
+        "Base ½l and height w"
+      ],
+      "answer": 1,
+      "explanation": "Triangle area ½ × l × 2w = lw. With height w the triangle would be only half the rectangle; with 2l and 2w it would be double.",
+      "source": "exercise:p11-Q4"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Śulba-Sūtras and Equal-Area Shapes",
+      "question": "A triangle has base b and height h. Which rectangle has the same area as the triangle?",
+      "options": [
+        "Base b and width h",
+        "Base ½b and width ½h",
+        "Base b and width ½h",
+        "Base 2b and width h"
+      ],
+      "answer": 2,
+      "explanation": "Rectangle area b × ½h = ½bh. (Cut the triangle along the line halfway up and rearrange the top piece.) Base b with width h gives double the area.",
+      "source": "exercise:p11-Q5"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Śulba-Sūtras and Equal-Area Shapes",
+      "question": "An isosceles triangle ABC (AB = AC) has altitude AD. ∆ADB and ∆ADC are rearranged into a rectangle. What are the rectangle's sides?",
+      "options": [
+        "AD and BC (the full base)",
+        "AB and AC (the equal sides)",
+        "AB and BD (half the base)",
+        "AD and BD (half the base)"
+      ],
+      "answer": 3,
+      "explanation": "The two congruent right triangles each form half of a rectangle with legs AD and BD; placed together they make one AD × BD rectangle, area ½ × BC × AD, the same as the triangle.",
+      "source": "exercise:p17-Q7"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Śulba-Sūtras and Equal-Area Shapes",
+      "question": "Which has the greater area: two identical equilateral triangles of side s placed together, or a square of side s?",
+      "options": [
+        "The square, because the triangles' total is s × h with h < s",
+        "The two triangles, because together they have six sides",
+        "They are exactly equal, because 2 × ½ × s × s equals s × s",
+        "The two triangles, because their height is more than s"
+      ],
+      "answer": 0,
+      "explanation": "Two triangles give 2 × ½ × s × h = s × h, where the height h of an equilateral triangle is less than its side s. So s × h < s × s, the square's area.",
+      "source": "exercise:p17-Q9"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Śulba-Sūtras and Equal-Area Shapes",
+      "question": "How can an isosceles trapezium be converted into a rectangle by dissection?",
+      "options": [
+        "Cut off both end triangles and simply throw them away",
+        "Cut off one end triangle and fit it, flipped, against the other end",
+        "Cut along the midline and stack the two halves together",
+        "Cut along one diagonal and swap the two triangles over"
+      ],
+      "answer": 1,
+      "explanation": "Dropping perpendiculars from the top vertices leaves a middle rectangle and two congruent right triangles; one triangle flipped onto the other makes a second rectangle, giving one rectangle in total.",
+      "source": "exercise:p22-Q4"
+    },
+    {
+      "id": "q120",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Śulba-Sūtras and Equal-Area Shapes",
+      "question": "The Śulba-Sūtras give methods to change one shape into another of equal area.",
+      "answer": true,
+      "explanation": "Altar construction required exact areas, so the Śulba-Sūtras solve problems such as turning a rectangle into a triangle (or rhombus, or isosceles triangle) of the same area.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q121",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Śulba-Sūtras and Equal-Area Shapes",
+      "question": "A rectangle and a triangle with the same base and the same height have equal areas.",
+      "answer": false,
+      "explanation": "The triangle has HALF the rectangle's area. To match areas the triangle needs double the height (or the rectangle half the width).",
+      "source": "exercise:p11-Q4"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Śulba-Sūtras and Equal-Area Shapes",
+      "question": "To convert a rectangle into an isosceles triangle of equal area by dissection, the triangle should have…",
+      "options": [
+        "base and height both twice the rectangle's sides",
+        "base half of one side and height equal to the other",
+        "base twice one side and height equal to the other side",
+        "base equal to one side and height equal to the other"
+      ],
+      "answer": 2,
+      "explanation": "Reverse the isosceles-triangle dissection: a rectangle AD × BD becomes a triangle with base 2 × BD and height AD, area ½ × 2BD × AD = AD × BD.",
+      "source": "exercise:p17-Q8"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Units and Real-Life Areas",
+      "question": "An A4 sheet has sidelengths 21 cm and 29.7 cm. What is its area?",
+      "options": [
+        "62.37 cm²",
+        "101.4 cm²",
+        "6237 cm²",
+        "623.7 cm²"
+      ],
+      "answer": 3,
+      "explanation": "21 × 29.7 = 623.7 cm². (101.4 is the perimeter in cm; the other two have the decimal point misplaced.)",
+      "source": "text:page23"
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Units and Real-Life Areas",
+      "question": "Given 1 in = 2.54 cm, express 5 in in centimetres.",
+      "options": [
+        "12.7 cm",
+        "1.97 cm",
+        "127 cm",
+        "7.54 cm"
+      ],
+      "answer": 0,
+      "explanation": "5 × 2.54 = 12.7 cm. Adding (5 + 2.54) or dividing (5 ÷ 2.54 ≈ 1.97) are the common slips.",
+      "source": "text:page23"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Units and Real-Life Areas",
+      "question": "Express 11.43 cm in inches (1 in = 2.54 cm).",
+      "options": [
+        "5.5 in",
+        "4.5 in",
+        "29.03 in",
+        "4.05 in"
+      ],
+      "answer": 1,
+      "explanation": "11.43 ÷ 2.54 = 4.5 in (since 4 × 2.54 = 10.16 and 0.5 × 2.54 = 1.27). Multiplying instead gives 29.03.",
+      "source": "text:page23"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Units and Real-Life Areas",
+      "question": "How many cm² make 1 in²?",
+      "options": [
+        "5.08 cm²",
+        "64.516 cm²",
+        "6.4516 cm²",
+        "2.54 cm²"
+      ],
+      "answer": 2,
+      "explanation": "A square inch is 2.54 cm by 2.54 cm, so 1 in² = 2.54² = 6.4516 cm². (64.516 cm² is 10 in².)",
+      "source": "text:page23"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Units and Real-Life Areas",
+      "question": "Convert 10 in² to cm².",
+      "options": [
+        "6.4516 cm²",
+        "645.16 cm²",
+        "25.4 cm²",
+        "64.516 cm²"
+      ],
+      "answer": 3,
+      "explanation": "10 × 6.4516 = 64.516 cm². Using 2.54 instead of 2.54² gives the wrong 25.4.",
+      "source": "text:page24"
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Units and Real-Life Areas",
+      "question": "Convert 161.29 cm² to in².",
+      "options": [
+        "25 in²",
+        "2.5 in²",
+        "63.5 in²",
+        "409.68 in²"
+      ],
+      "answer": 0,
+      "explanation": "Every 6.4516 cm² is one in², so 161.29 ÷ 6.4516 = 25 in². Dividing by 2.54 (giving 63.5) is the trap — area needs the squared factor.",
+      "source": "text:page24"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Units and Real-Life Areas",
+      "question": "How many in² are there in 1 ft²? (1 ft = 12 in)",
+      "options": [
+        "1,728 in²",
+        "144 in²",
+        "12 in²",
+        "24 in²"
+      ],
+      "answer": 1,
+      "explanation": "1 ft² = 12 in × 12 in = 144 in². 12 forgets to square; 1,728 is 12³.",
+      "source": "text:page24"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Units and Real-Life Areas",
+      "question": "How many square feet make 1 acre?",
+      "options": [
+        "435,600 ft²",
+        "43,650 ft²",
+        "43,560 ft²",
+        "4,356 ft²"
+      ],
+      "answer": 2,
+      "explanation": "The chapter states 1 acre = 43,560 ft². Acres are used for larger areas of land.",
+      "source": "text:page24"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Units and Real-Life Areas",
+      "question": "How many m² are there in 1 km²?",
+      "options": [
+        "100,000 m²",
+        "10,000 m²",
+        "10,000,000 m²",
+        "1,000,000 m²"
+      ],
+      "answer": 3,
+      "explanation": "1 km = 1000 m, so 1 km² = 1000 × 1000 = 1,000,000 m² (10⁶). Squaring 1000 wrongly as 10⁷ or 10⁵ gives the other values.",
+      "source": "text:page24"
+    },
+    {
+      "id": "q132",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Units and Real-Life Areas",
+      "question": "Which of these are local units of AREA used in parts of India, as listed in the chapter?",
+      "options": [
+        "bigha",
+        "cent",
+        "kilogram",
+        "furlong",
+        "litre"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The chapter lists bigha, gaj, katha, dhur, cent and ankanam as local area units. A kilogram measures mass, a furlong length and a litre volume.",
+      "source": "text:page24"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Units and Real-Life Areas",
+      "question": "Why is 1 in² equal to 2.54² cm² rather than 2.54 cm²?",
+      "options": [
+        "Both length and width of the square convert, so 2.54 is used twice",
+        "The factor is squared only when the area is bigger than 1 in²",
+        "An inch is officially defined as 2.54² centimetres in length",
+        "Square units are always exactly 2 times the length units"
+      ],
+      "answer": 0,
+      "explanation": "A square inch is 2.54 cm long AND 2.54 cm wide, so its area is 2.54 × 2.54 = 6.4516 cm² — the conversion factor appears once for each dimension.",
+      "source": "text:page23"
+    },
+    {
+      "id": "q134",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Units and Real-Life Areas",
+      "question": "1 ft² equals 12 in².",
+      "answer": false,
+      "explanation": "1 ft² = 12 in × 12 in = 144 in², because both sides of the square foot are 12 inches.",
+      "source": "text:page24"
+    },
+    {
+      "id": "q135",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Units and Real-Life Areas",
+      "question": "Larger areas of land are measured in acres, and 1 acre = 43,560 ft².",
+      "answer": true,
+      "explanation": "This is stated directly in the chapter; even larger areas (towns, cities) are measured in km².",
+      "source": "text:page24"
+    }
+  ]
+}

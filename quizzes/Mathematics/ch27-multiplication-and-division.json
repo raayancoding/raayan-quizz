@@ -1,0 +1,1869 @@
+{
+  "schemaVersion": 1,
+  "id": "mathematics-ch27-multiplication-and-division",
+  "title": "Multiplication and Division",
+  "subject": "Mathematics",
+  "grade": 4,
+  "chapter": "27. Multiplication and Division",
+  "topic": "Full Book",
+  "description": "Practice multiplication tables, multi-digit multiplication methods, smart mental-math tricks, long division, estimation, and multi-step word problems from the Multiplication and Division chapter.",
+  "tags": [
+    "mathematics",
+    "grade4",
+    "multiplication",
+    "division",
+    "word-problems",
+    "column-method",
+    "long-division",
+    "estimation",
+    "mental-math",
+    "place-value"
+  ],
+  "defaultTimeLimitSec": 1200,
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Multiplication Tables & Skip Counting",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "What multiplication fact represents 8 + 8 + 8 + 8 + 8?",
+      "options": [
+        "4 × 8",
+        "5 × 8",
+        "5 × 9",
+        "8 × 8"
+      ],
+      "answer": 1,
+      "explanation": "Repeated addition of the same number can always be written as multiplication: the number 8 is added 5 times, so 8+8+8+8+8 = 5 × 8 = 40. Counting how many times the number repeats tells you the multiplier.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q2",
+      "topic": "Multiplication Tables & Skip Counting",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "On the number line 0 → 8 → 16 → 24 → 32 → 40 (each jump is +8), which multiplication fact does the landing point 32 represent?",
+      "options": [
+        "3 × 8",
+        "4 × 8",
+        "5 × 8",
+        "6 × 8"
+      ],
+      "answer": 1,
+      "explanation": "Each jump of +8 is one more group of 8. Starting at 0: after 1 jump = 8 (1×8), after 2 jumps = 16 (2×8), after 3 jumps = 24 (3×8), after 4 jumps = 32 (4×8). So landing on 32 means 4 jumps of 8, i.e. 4 × 8 = 32.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q3",
+      "topic": "Multiplication Tables & Skip Counting",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "In the skip-counting-by-3s circle activity, you connect the LAST DIGIT of every multiple of 3: 0→3→6→9→2→5→8→1→4→7→0. What is the last digit of 9 × 3?",
+      "options": [
+        "9",
+        "27",
+        "7",
+        "0"
+      ],
+      "answer": 2,
+      "explanation": "9 × 3 = 27, and the circle activity only tracks the ones digit of each multiple. The ones digit of 27 is 7, which matches the position reached after 9 skips of 3 in the circle (0,3,6,9,2,5,8,1,4,7).",
+      "source": "book:page13"
+    },
+    {
+      "id": "q4",
+      "topic": "Multiplication Tables & Skip Counting",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "The skip-counting-by-2s circle starts 0,2,4,6,8 and then wraps to which digit next?",
+      "options": [
+        "9",
+        "0",
+        "1",
+        "2"
+      ],
+      "answer": 1,
+      "explanation": "Skip counting by 2s using only the ones digit: 0,2,4,6,8,10(→0). After 8 the next multiple of 2 is 10, whose ones digit is 0, so the circle path returns to 0.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q5",
+      "topic": "Multiplication Tables & Skip Counting",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Using the building-tables method 6 × 17 = 6 × 10 + 6 × 7, what is 6 × 17?",
+      "options": [
+        "76",
+        "96",
+        "102",
+        "112"
+      ],
+      "answer": 2,
+      "explanation": "Split 17 into 10 + 7. Multiply each part by 6: 6×10 = 60 and 6×7 = 42. Add the two results: 60 + 42 = 102. So 6 × 17 = 102.",
+      "source": "book:page14"
+    },
+    {
+      "id": "q6",
+      "topic": "Multiplication Tables & Skip Counting",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Using the building-tables method 8 × 17 = 8 × 10 + 8 × 7, what is 8 × 17?",
+      "options": [
+        "120",
+        "136",
+        "144",
+        "126"
+      ],
+      "answer": 1,
+      "explanation": "Split 17 into 10 + 7. 8×10 = 80 and 8×7 = 56. Add them: 80 + 56 = 136. So 8 × 17 = 136.",
+      "source": "book:page14"
+    },
+    {
+      "id": "q7",
+      "topic": "Multiplication Tables & Skip Counting",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Using the finger trick for the 9-times table (fold the 6th finger; fingers to the left give the tens digit, fingers to the right give the ones digit), what is 6 × 9?",
+      "options": [
+        "45",
+        "48",
+        "54",
+        "63"
+      ],
+      "answer": 2,
+      "explanation": "Fold the 6th finger counting from the left. There are 5 fingers to the left of the folded finger (tens digit = 5) and 4 fingers to the right (ones digit = 4), giving 54. Check: 6 × 9 = 54. ✓",
+      "source": "book:page37"
+    },
+    {
+      "id": "q8",
+      "topic": "Properties of Multiplication",
+      "difficulty": "simple",
+      "type": "boolean",
+      "question": "True or False: The commutative property of multiplication means 9 × 5 = 5 × 9 — the product stays the same when you change the order of the numbers being multiplied.",
+      "answer": true,
+      "explanation": "This is the commutative property. 9 × 5 = 45 and 5 × 9 = 45 — both give the same product, so changing the order of the multiplicand and multiplier never changes the answer.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q9",
+      "topic": "Properties of Multiplication",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "What is the value of the blank in 43 × ____ = 43?",
+      "options": [
+        "0",
+        "1",
+        "43",
+        "2"
+      ],
+      "answer": 1,
+      "explanation": "Any number multiplied by 1 stays the same — this is the identity property of multiplication (n × 1 = n). Since 43 × 1 = 43, the blank must be 1.",
+      "source": "book:page19 (worksheet)"
+    },
+    {
+      "id": "q10",
+      "topic": "Properties of Multiplication",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "What is the value of the blank in 33 × ____ = 0?",
+      "options": [
+        "0",
+        "1",
+        "33",
+        "It cannot be found"
+      ],
+      "answer": 0,
+      "explanation": "Any number multiplied by 0 gives 0 — this is the zero property of multiplication (n × 0 = 0). Since 33 is not 0, the ONLY way to make the product 0 is to multiply by 0.",
+      "source": "worksheet:73082 Walk Along Practice 1, Q1a"
+    },
+    {
+      "id": "q11",
+      "topic": "Properties of Multiplication",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "142 × 0 = ____",
+      "options": [
+        "0",
+        "142",
+        "1",
+        "1,420"
+      ],
+      "answer": 0,
+      "explanation": "The zero property of multiplication says any number multiplied by 0 always equals 0, no matter how large the number is. So 142 × 0 = 0.",
+      "source": "worksheet:73082 Walk Along Practice 1, Q1d"
+    },
+    {
+      "id": "q12",
+      "topic": "Properties of Multiplication",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "What number goes in the blank: 24 × ____ × 6 = 24 × 6 × 13?",
+      "options": [
+        "6",
+        "13",
+        "24",
+        "18"
+      ],
+      "answer": 1,
+      "explanation": "Both sides of the equation must have the same three factors: 24, 6, and one more number, in some order. The commutative property says you can multiply numbers in ANY order and get the same product, so the missing factor on the left must match the one on the right: 13.",
+      "source": "worksheet:73082 Walk Along Practice 1, Q1f"
+    },
+    {
+      "id": "q13",
+      "topic": "Properties of Multiplication",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "The array method splits 18 × 15 into four smaller products: 8×5, 10×5, 8×10, and 10×10, then adds them: 40 + 50 + 80 + 100. What is 18 × 15?",
+      "options": [
+        "230",
+        "260",
+        "270",
+        "280"
+      ],
+      "answer": 2,
+      "explanation": "Add the four partial products: 40 + 50 + 80 + 100 = 270. This works because 18 = 8+10 and 15 = 5+10, and multiplying every part of 18 by every part of 15 (then adding) gives the same answer as multiplying the whole numbers: 18 × 15 = 270.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q14",
+      "topic": "Properties of Multiplication",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "159 × 1 = ____",
+      "options": [
+        "0",
+        "1",
+        "159",
+        "160"
+      ],
+      "answer": 2,
+      "explanation": "The identity property of multiplication says any number multiplied by 1 stays exactly the same. So 159 × 1 = 159.",
+      "source": "worksheet:73082 Walk Along Practice 1, Q1e"
+    },
+    {
+      "id": "q15",
+      "topic": "Properties of Multiplication",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "Statement (I): Multiplying a number by 1 always gives 1. Statement (II): Multiplying a number by 0 always gives zero. Which option correctly describes these statements?",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 3,
+      "explanation": "Statement (I) is FALSE — multiplying by 1 keeps the number the SAME (e.g. 7 × 1 = 7, not 1). Statement (II) is TRUE — multiplying any number by 0 always gives 0 (e.g. 7 × 0 = 0). So the correct option is: (I) is false and (II) is true.",
+      "source": "book:page30 (Statement question)"
+    },
+    {
+      "id": "q16",
+      "topic": "Multi-digit Multiplication: Expansion & Box Method",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Using the expansion method, 1,257 × 6 is split into (1,000 × 6) + (200 × 6) + (50 × 6) + (7 × 6). What is 1,257 × 6?",
+      "options": [
+        "7,000",
+        "7,452",
+        "7,542",
+        "7,642"
+      ],
+      "answer": 2,
+      "explanation": "Multiply each place value by 6: 1,000×6=6,000, 200×6=1,200, 50×6=300, 7×6=42. Add them all: 6,000 + 1,200 + 300 + 42 = 7,542.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q17",
+      "topic": "Multi-digit Multiplication: Expansion & Box Method",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Using the 2-part split method, 1,257 is broken into 1,000 and 257 to multiply by 6. What is 257 × 6?",
+      "options": [
+        "1200",
+        "1422",
+        "1542",
+        "1642"
+      ],
+      "answer": 2,
+      "explanation": "257 × 6 = 1,542. Adding this to 1,000 × 6 = 6,000 gives the full answer: 6,000 + 1,542 = 7,542, matching 1,257 × 6.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q18",
+      "topic": "Multi-digit Multiplication: Expansion & Box Method",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "In the box method for 2,906 × 32, the number 2,906 is split into 2,000 + 900 + 0 + 6, and 32 is split into 30 + 2. What is 2,000 × 30?",
+      "options": [
+        "6,000",
+        "60,000",
+        "6,00,000",
+        "20,000"
+      ],
+      "answer": 1,
+      "explanation": "Multiply 2,000 by 30: 2,000 × 30 = 60,000. (Multiply the non-zero digits 2×3=6, then attach the total zeros from both numbers: 2,000 has 3 zeros and 30 has 1 zero, so 4 zeros in all: 60,000.)",
+      "source": "book:page6"
+    },
+    {
+      "id": "q19",
+      "topic": "Multi-digit Multiplication: Expansion & Box Method",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Continuing the box method for 2,906 × 32: 2,000 × 30 = 60,000 and 2,000 × 2 = 4,000. What is the total contribution of the 2,000 column (60,000 + 4,000)?",
+      "options": [
+        "64,000",
+        "60,400",
+        "24,000",
+        "84,000"
+      ],
+      "answer": 0,
+      "explanation": "Add the two partial products for the 2,000 column: 60,000 + 4,000 = 64,000. This matches the box method table's printed running total.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q20",
+      "topic": "Multi-digit Multiplication: Expansion & Box Method",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "In the same box method for 2,906 × 32, what is 900 × 30 (the next column, multiplying the 900 part of 2,906 by the 30 part of 32)?",
+      "options": [
+        "2,700",
+        "27,000",
+        "2,70,000",
+        "9,000"
+      ],
+      "answer": 1,
+      "explanation": "900 × 30: multiply 9 × 3 = 27, then attach the zeros — 900 has 2 zeros and 30 has 1 zero, so 3 zeros total: 27,000.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q21",
+      "topic": "Multi-digit Multiplication: Expansion & Box Method",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "In the expansion-method box for 517 × 815, one row splits 815 into 800 + 10 + 5 and multiplies each part by 500, giving 4,00,000 + 5,000 + 2,500. What is this row's total (500 × 815)?",
+      "options": [
+        "4,00,000",
+        "4,07,500",
+        "4,12,500",
+        "4,17,500"
+      ],
+      "answer": 1,
+      "explanation": "Add the three partial products: 4,00,000 + 5,000 + 2,500 = 4,07,500. Check directly: 500 × 815 = 4,07,500.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q22",
+      "topic": "Multi-digit Multiplication: Expansion & Box Method",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "The full product 517 × 815 (found using the column method) is 4,21,355, and 500 × 815 = 4,07,500. Using this, what is 17 × 815?",
+      "options": [
+        "11,855",
+        "12,855",
+        "13,855",
+        "14,855"
+      ],
+      "answer": 2,
+      "explanation": "Since 517 = 500 + 17, the full product splits as 517×815 = (500×815) + (17×815). So 17×815 = 4,21,355 − 4,07,500 = 13,855. Check: 815×17 = 815×10 + 815×7 = 8,150 + 5,705 = 13,855. ✓",
+      "source": "book:page6-7 (cross-check)"
+    },
+    {
+      "id": "q23",
+      "topic": "Multi-digit Multiplication: Column Method",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Using the column method, we multiply 1,257 by the ones digit of the multiplier first. If the multiplier is 6, what is 1,257 × 6 in the column method?",
+      "options": [
+        "7,452",
+        "7,542",
+        "7,642",
+        "6,542"
+      ],
+      "answer": 1,
+      "explanation": "Multiply 1,257 by 6 directly: 1,257 × 6 = 7,542. This matches the expansion method's answer (6,000 + 1,542), confirming the column method gives the same result faster.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q24",
+      "topic": "Multi-digit Multiplication: Column Method",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "In the column method for 2,906 × 32, we first multiply 2,906 by the ones digit (2) to get 5,812, then multiply 2,906 by the tens digit (3, worth 30) to get 87,180. What is 2,906 × 32?",
+      "options": [
+        "87,180",
+        "92,992",
+        "93,180",
+        "90,992"
+      ],
+      "answer": 1,
+      "explanation": "Add the two partial products: 5,812 + 87,180 = 92,992. So 2,906 × 32 = 92,992.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q25",
+      "topic": "Multi-digit Multiplication: Column Method",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "In the column method for 2,906 × 32, why is 2,906 × 3 written as 87,180 and not 8,718?",
+      "options": [
+        "Because the 3 is actually worth 30 (the tens place), so the partial product must be shifted one place to the left (multiplied by 10)",
+        "Because there was a mistake in the book",
+        "Because 2,906 × 3 really does equal 87,180",
+        "Because we always add an extra zero at the end for no reason"
+      ],
+      "answer": 0,
+      "explanation": "The digit 3 sits in the TENS place of 32, so it really represents 30, not 3. 2,906 × 3 = 8,718, and since we're really multiplying by 30, we shift the result one place left (× 10), giving 87,180.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q26",
+      "topic": "Multi-digit Multiplication: Column Method",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "In the column method for 517 × 815, the three partial products are 517×5=2,585, 517×10=5,170 (shown as 5,170 shifted one place), and 517×800=4,13,600 (shifted two places). What is 517 × 815?",
+      "options": [
+        "4,10,355",
+        "4,15,355",
+        "4,21,355",
+        "4,25,355"
+      ],
+      "answer": 2,
+      "explanation": "Add all three partial products: 2,585 + 5,170 + 4,13,600 = 4,21,355. So 517 × 815 = 4,21,355.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q27",
+      "topic": "Multi-digit Multiplication: Column Method",
+      "difficulty": "tough",
+      "type": "multiple",
+      "question": "In the column multiplication of a 3-digit number by a 3-digit number (like 517 × 815), which of the following are TRUE about the process? (select all that apply)",
+      "options": [
+        "We multiply the multiplicand by the ones digit of the multiplier first",
+        "Each new partial product is shifted one place further to the left than the one before it",
+        "We only ever need to multiply by the ones digit, never the tens or hundreds digit",
+        "The final answer is the sum of all the partial products"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "In column multiplication: we start with the ones digit of the multiplier, then the tens digit (one shift left), then the hundreds digit (two shifts left), and finally ADD every partial product together for the final answer. It is false that we only multiply by the ones digit — every digit of the multiplier is used.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q28",
+      "topic": "Multi-digit Multiplication: Column Method",
+      "difficulty": "simple",
+      "type": "boolean",
+      "question": "True or False: In the column method, digits with the same place value (ones under ones, tens under tens, and so on) must be aligned in the same column before multiplying.",
+      "answer": true,
+      "explanation": "Correct alignment of place values is essential in the column method — misaligning ones/tens/hundreds columns will give a wrong sum when the partial products are added.",
+      "source": "book:page7 (method description)"
+    },
+    {
+      "id": "q29",
+      "topic": "Multi-digit Multiplication: Column Method",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Which of these correctly shows the column-method breakdown for multiplying 768 by 23 (23 = 20 + 3)?",
+      "options": [
+        "768 × 3, then 768 × 20, then add the two results",
+        "768 × 2, then 768 × 3, then add the two results",
+        "768 × 23 in one single step with no partial products",
+        "23 × 7, then 23 × 6, then 23 × 8, then add all three"
+      ],
+      "answer": 0,
+      "explanation": "The multiplier 23 breaks into ones (3) and tens (20). We multiply the multiplicand (768) by each part — 768 × 3 and 768 × 20 — then add the two partial products for the final answer.",
+      "source": "book:page7 (method reasoning)"
+    },
+    {
+      "id": "q30",
+      "topic": "Multi-digit Multiplication: Column Method",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "What is 2,906 × 3 (the raw digit-by-digit product needed before it gets shifted to represent × 30 in the column method for 2,906 × 32)?",
+      "options": [
+        "8,718",
+        "8,618",
+        "8,818",
+        "8,918"
+      ],
+      "answer": 0,
+      "explanation": "2,906 × 3 = 8,718. In the full column method this gets shifted one place left to become 87,180, since the 3 is really in the tens place (worth 30).",
+      "source": "book:page7"
+    },
+    {
+      "id": "q31",
+      "topic": "Multiplying by 10, 100, 1000 and Multiples",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "What pattern do you notice: 23×5=115, 23×50=1,150, 23×500=11,500. What should 23×5,000 be?",
+      "options": [
+        "11,500",
+        "1,15,000",
+        "11,050",
+        "21,500"
+      ],
+      "answer": 1,
+      "explanation": "Each time we multiply the second number by 10, the product also gets 10 times bigger, which means one more zero is attached to the end. 23×500=11,500, so 23×5,000 (10× bigger) = 1,15,000.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q32",
+      "topic": "Multiplying by 10, 100, 1000 and Multiples",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "If 23 × 10 = 230, what is 23 × 100?",
+      "options": [
+        "230",
+        "2300",
+        "23000",
+        "2030"
+      ],
+      "answer": 1,
+      "explanation": "Multiplying by 100 shifts the digits two places to the left (or you can think of it as attaching two zeros to 23): 23 × 100 = 2,300.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q33",
+      "topic": "Multiplying by 10, 100, 1000 and Multiples",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "If 23 × 100 = 2,300, what is 23 × 1,000?",
+      "options": [
+        "2300",
+        "23,000",
+        "2,30,000",
+        "2030"
+      ],
+      "answer": 1,
+      "explanation": "Multiplying by 1,000 shifts the digits three places to the left (attach three zeros to 23): 23 × 1,000 = 23,000.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q34",
+      "topic": "Multiplying by 10, 100, 1000 and Multiples",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Using the smart-application method, 23 × 20 = 23 × 2 × 10. What is 23 × 20?",
+      "options": [
+        "230",
+        "460",
+        "920",
+        "56"
+      ],
+      "answer": 1,
+      "explanation": "First multiply 23 × 2 = 46, then multiply by 10 (attach one zero): 46 × 10 = 460. So 23 × 20 = 460.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q35",
+      "topic": "Multiplying by 10, 100, 1000 and Multiples",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Using 417 × 2,000 = 417 × 2 × 1,000, what is 417 × 2,000?",
+      "options": [
+        "834",
+        "83,400",
+        "8,34,000",
+        "8,340"
+      ],
+      "answer": 2,
+      "explanation": "First multiply 417 × 2 = 834, then multiply by 1,000 (attach three zeros): 834 × 1,000 = 8,34,000. So 417 × 2,000 = 8,34,000.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q36",
+      "topic": "Multiplying by 10, 100, 1000 and Multiples",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "The book splits 417 × 2,300 into 417 × 2,000 (= 8,34,000) plus 417 × 300 (= 1,25,100). What is 417 × 2,300?",
+      "options": [
+        "8,34,000",
+        "9,59,100",
+        "11,25,100",
+        "95,91,000"
+      ],
+      "answer": 1,
+      "explanation": "Add the two partial products: 8,34,000 + 1,25,100 = 9,59,100. So 417 × 2,300 = 9,59,100.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q37",
+      "topic": "Multiplying by 10, 100, 1000 and Multiples",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Column-matching: if 1,000 × 35 = 35,000, then what does 35 × ______ = 350 need in the blank?",
+      "options": [
+        "1",
+        "10",
+        "100",
+        "1000"
+      ],
+      "answer": 1,
+      "explanation": "35 × 10 = 350 — multiplying by 10 shifts the digits one place, attaching one zero to 35 to get 350.",
+      "source": "worksheet:73082 Walk Along Practice 2, Q1 matching"
+    },
+    {
+      "id": "q38",
+      "topic": "Smart Multiplication Near Round Numbers",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Using the smart method, 23 × 99 = 23 × (100 − 1) = 23×100 − 23. What is 23 × 99?",
+      "options": [
+        "2277",
+        "2300",
+        "2254",
+        "2323"
+      ],
+      "answer": 0,
+      "explanation": "Multiply 23 × 100 = 2,300, then subtract 23 (since 99 is 1 less than 100): 2,300 − 23 = 2,277. So 23 × 99 = 2,277.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q39",
+      "topic": "Smart Multiplication Near Round Numbers",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Using the smart method, 23 × 102 = 23 × (100 + 2) = 23×100 + 23×2. What is 23 × 102?",
+      "options": [
+        "2323",
+        "2346",
+        "2300",
+        "2369"
+      ],
+      "answer": 1,
+      "explanation": "Multiply 23 × 100 = 2,300, then add 23 × 2 = 46 (since 102 is 2 more than 100): 2,300 + 46 = 2,346. So 23 × 102 = 2,346.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q40",
+      "topic": "Smart Multiplication Near Round Numbers",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "Using the smart method, 23 × 999 = 23 × (1,000 − 1) = 23×1,000 − 23. What is 23 × 999?",
+      "options": [
+        "22,977",
+        "23,000",
+        "22,954",
+        "23,023"
+      ],
+      "answer": 0,
+      "explanation": "Multiply 23 × 1,000 = 23,000, then subtract 23 (since 999 is 1 less than 1,000): 23,000 − 23 = 22,977. So 23 × 999 = 22,977.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q41",
+      "topic": "Smart Multiplication Near Round Numbers",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Using the smart method, 272 × 98 = 272 × (100 − 2). What is 272 × 98?",
+      "options": [
+        "26,656",
+        "27,200",
+        "26,456",
+        "27,456"
+      ],
+      "answer": 0,
+      "explanation": "Multiply 272 × 100 = 27,200, then subtract 272 × 2 = 544 (since 98 is 2 less than 100): 27,200 − 544 = 26,656. So 272 × 98 = 26,656.",
+      "source": "worksheet:73082 solution (Walk Along Practice 2, Q2a)"
+    },
+    {
+      "id": "q42",
+      "topic": "Smart Multiplication Near Round Numbers",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Using the smart method, 532 × 101 = 532 × (100 + 1) = 532×100 + 532. What is 532 × 101?",
+      "options": [
+        "53,200",
+        "53,732",
+        "53,632",
+        "54,732"
+      ],
+      "answer": 1,
+      "explanation": "Multiply 532 × 100 = 53,200, then add 532 (since 101 is 1 more than 100): 53,200 + 532 = 53,732. So 532 × 101 = 53,732.",
+      "source": "worksheet:73082 solution (My Mastery Journey 1, Q3a)"
+    },
+    {
+      "id": "q43",
+      "topic": "Smart Multiplication Near Round Numbers",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Using the smart method, 314 × 99 = 314 × (100 − 1) = 31,400 − 314. What is 314 × 99?",
+      "options": [
+        "31,086",
+        "31,400",
+        "31,714",
+        "30,914"
+      ],
+      "answer": 0,
+      "explanation": "31,400 − 314 = 31,086. So 314 × 99 = 31,086.",
+      "source": "worksheet:73082 solution (My Mastery Journey 1, Q3b)"
+    },
+    {
+      "id": "q44",
+      "topic": "Smart Multiplication Near Round Numbers",
+      "difficulty": "simple",
+      "type": "boolean",
+      "question": "True or False: To multiply a number by 99, a quick trick is to multiply that number by 100 and then subtract the number once.",
+      "answer": true,
+      "explanation": "Since 99 = 100 − 1, multiplying by 99 is the same as multiplying by 100 and then subtracting the original number once (n × 99 = n × 100 − n). This is much faster than multiplying by 99 directly.",
+      "source": "book:page10 (smart application pattern)"
+    },
+    {
+      "id": "q45",
+      "topic": "Doubling & Doubling-Halving Strategies",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Doubling strategy: to multiply by an even number, split the even number into 2 × (half of it). Using this, 18 × 6 = 2 × 9 × 6. What should you compute first?",
+      "options": [
+        "18 × 6 directly",
+        "9 × 6, then double the result",
+        "2 × 6, then multiply by 9",
+        "2 × 18, then divide by 6"
+      ],
+      "answer": 1,
+      "explanation": "The strategy works by computing the smaller product first (9 × 6 = 54) and then doubling it (2 × 54 = 108) to get 18 × 6 = 108, since 18 = 2 × 9.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q46",
+      "topic": "Doubling & Doubling-Halving Strategies",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Using the doubling strategy, what is 36 × 7 (hint: 36 = 2 × 18)?",
+      "options": [
+        "232",
+        "242",
+        "252",
+        "262"
+      ],
+      "answer": 2,
+      "explanation": "Split 36 into 2 × 18. First compute 18 × 7 = 126, then double it: 2 × 126 = 252. So 36 × 7 = 252.",
+      "source": "book:page11 (Try 36×7)"
+    },
+    {
+      "id": "q47",
+      "topic": "Doubling & Doubling-Halving Strategies",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "In the doubling-and-halving strategy for 8 × 45, we repeatedly halve 8 and double 45: (8,45) → (4,90) → (2,180) → (1,360). What is 8 × 45?",
+      "options": [
+        "340",
+        "350",
+        "360",
+        "370"
+      ],
+      "answer": 2,
+      "explanation": "We keep halving the first number and doubling the second until the first number becomes 1. At (1, 360), the product is simply 1 × 360 = 360. So 8 × 45 = 360.",
+      "source": "book:page28"
+    },
+    {
+      "id": "q48",
+      "topic": "Doubling & Doubling-Halving Strategies",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "In the doubling-and-halving strategy for 44 × 31, the halve-double table gives rows (22,62), (11,124), (5,248), (2,496), (1,992). Since halving 11 and 5 leaves a remainder of 1 each time, we must ADD the doubled values from the ODD rows (11 and 5) to the final row's value. What is 44 × 31?",
+      "options": [
+        "1244",
+        "1364",
+        "1244",
+        "1484"
+      ],
+      "answer": 1,
+      "explanation": "Take the final row's product (1 × 992 = 992) and add the doubled values from the two ODD-half rows: 124 (from the row where half=11, which is odd) and 248 (from the row where half=5, which is odd). 992 + 248 + 124 = 1,364. So 44 × 31 = 1,364.",
+      "source": "book:page28"
+    },
+    {
+      "id": "q49",
+      "topic": "Doubling & Doubling-Halving Strategies",
+      "difficulty": "tough",
+      "type": "boolean",
+      "question": "True or False: In the doubling-and-halving strategy, when you halve an odd number you must keep track of the leftover doubled value and add it back in at the end, because halving an odd number doesn't split it evenly.",
+      "answer": true,
+      "explanation": "When the number being halved is odd, there's a leftover of 1 which represents one extra copy of the OTHER number (before doubling). The book's method says to add this doubled partner back at the end to get the correct final answer.",
+      "source": "book:page28 (Remember box)"
+    },
+    {
+      "id": "q50",
+      "topic": "Doubling & Doubling-Halving Strategies",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Using the doubling strategy, what is 24 × 8 (hint: 24 = 2 × 12)?",
+      "options": [
+        "172",
+        "182",
+        "192",
+        "202"
+      ],
+      "answer": 2,
+      "explanation": "Split 24 into 2 × 12. First compute 12 × 8 = 96, then double it: 2 × 96 = 192. So 24 × 8 = 192.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q51",
+      "topic": "Estimating Products",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Estimate 217 × 899 by rounding each number to the nearest 100 first. What is the estimate?",
+      "options": [
+        "1,80,000",
+        "2,00,000",
+        "1,90,000",
+        "2,20,000"
+      ],
+      "answer": 0,
+      "explanation": "Round 217 to the nearest 100 → 200. Round 899 to the nearest 100 → 900. Multiply the rounded numbers: 200 × 900 = 1,80,000. So the estimate is 1,80,000.",
+      "source": "book:page14 (Do as directed Q4c)"
+    },
+    {
+      "id": "q52",
+      "topic": "Estimating Products",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "To estimate 102 × 48, round 102 to the nearest 10 or 100 (→100) and 48 to the nearest 10 (→50). What is the estimated product?",
+      "options": [
+        "5000",
+        "4800",
+        "5100",
+        "4900"
+      ],
+      "answer": 0,
+      "explanation": "Round 102 to 100 and 48 to 50, then multiply the rounded numbers: 100 × 50 = 5,000. That's the estimated product.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q53",
+      "topic": "Estimating Products",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "To estimate 1,235 × 448, round 1,235 to the nearest 100 (→1,200) and 448 to the nearest 100 (→400). What is the estimated product?",
+      "options": [
+        "4,80,000",
+        "4,94,000",
+        "5,00,000",
+        "4,60,000"
+      ],
+      "answer": 0,
+      "explanation": "Round 1,235 to 1,200 and 448 to 400, then multiply the rounded numbers: 1,200 × 400 = 4,80,000. That's the estimated product.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q54",
+      "topic": "Estimating Products",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Estimate 72 × 16 by rounding each number to the nearest 10 (72→70, 16→20). What is the estimate?",
+      "options": [
+        "1200",
+        "1400",
+        "1000",
+        "1600"
+      ],
+      "answer": 1,
+      "explanation": "Round 72 to 70 and 16 to 20, then multiply the rounded numbers: 70 × 20 = 1,400.",
+      "source": "book:page12 (Do as directed Q4a)"
+    },
+    {
+      "id": "q55",
+      "topic": "Estimating Products",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Estimate 918 × 26 by rounding 918 to the nearest 10 (→920) and 26 to the nearest 10 (→30). What is the estimate?",
+      "options": [
+        "27,600",
+        "27,540",
+        "25,760",
+        "29,760"
+      ],
+      "answer": 0,
+      "explanation": "Round 918 to 920 and 26 to 30, then multiply the rounded numbers: 920 × 30 = 27,600. So the estimate using nearest-10 rounding is 27,600.",
+      "source": "book:page12 (Do as directed Q4b)"
+    },
+    {
+      "id": "q56",
+      "topic": "Estimating Products",
+      "difficulty": "tricky",
+      "type": "boolean",
+      "question": "True or False: Estimating a product is only useful for checking if an EXACT calculated answer is reasonable — it can never be used on its own to answer a real-world question.",
+      "answer": false,
+      "explanation": "This is FALSE. Estimation is often used on its OWN to quickly answer real-world questions when an exact number isn't needed — for example, estimating how many bags of onions 43 trucks can carry, or roughly how many rubies a jeweller used, without doing the exact multiplication.",
+      "source": "book:page31, page37 (worksheet estimation word problems)"
+    },
+    {
+      "id": "q57",
+      "topic": "Estimating Products",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Lara bought 33 packets of cookies, each packet having 29 cookies. Which is the better ESTIMATE of how many cookies she bought — round 33 to 30 and 29 to 30, then multiply?",
+      "options": [
+        "600",
+        "900",
+        "1000",
+        "300"
+      ],
+      "answer": 1,
+      "explanation": "Round 33 to 30 and 29 to 30, then multiply the rounded numbers: 30 × 30 = 900. So the better estimate is 900, not 600.",
+      "source": "worksheet:73082 Walk Along Practice 6/7, Q4a"
+    },
+    {
+      "id": "q58",
+      "topic": "Multiplication Puzzles",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "In the letter-puzzle A23 × 8 = 6584 (each letter/digit represents a specific number), if A23 × 8 gives a 4-digit answer ending in 584, and we know 923 × 8 = 7,384 while 823 × 8 = 6,584 — what is A?",
+      "options": [
+        "8",
+        "9",
+        "7",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "Try A=8: 823 × 8 = 6,584, which matches the given product exactly. So A = 8.",
+      "source": "worksheet:73082 solution (Q5a puzzle)"
+    },
+    {
+      "id": "q59",
+      "topic": "Multiplication Puzzles",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "In the missing-digit puzzle 1A23 × 4 = 4,092, which digit does A represent?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "9"
+      ],
+      "answer": 0,
+      "explanation": "Divide the product by the known multiplier: 4,092 ÷ 4 = 1,023. So the multiplicand 1A23 must be 1,023, which means A = 0. Check: 1,023 × 4 = 4,092. ✓",
+      "source": "book:page15 (missing digit puzzle b)"
+    },
+    {
+      "id": "q60",
+      "topic": "Multiplication Puzzles",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "In the missing-digit puzzle A78 × 6 = 4,668, which digit does A represent?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "Divide the product by the known multiplier: 4,668 ÷ 6 = 778. So the multiplicand A78 must be 778, which means A = 7. Check: 778 × 6 = 4,668. ✓",
+      "source": "book:page15 (missing digit puzzle c)"
+    },
+    {
+      "id": "q61",
+      "topic": "Multiplication Puzzles",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Statement puzzle: An even number multiplied by ANY number is always even. An odd number multiplied by an odd number can be even or odd. Which option is correct?",
+      "options": [
+        "Both statements are true",
+        "Both statements are false",
+        "The first is true and the second is false",
+        "The first is false and the second is true"
+      ],
+      "answer": 2,
+      "explanation": "An even number times anything is always even (e.g. 4×3=12, 4×5=20) — TRUE. But an odd number times an odd number is ALWAYS odd, never even (e.g. 3×5=15, 7×9=63) — so the second statement is FALSE.",
+      "source": "book:page15 (Statement 6)"
+    },
+    {
+      "id": "q62",
+      "topic": "Multiplication Puzzles",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "In the crossed-letters puzzle: D × K = 36,000, E × L = 2,700, H × B = 40,000, M × G = 21,000, and D × E = 81,000. If one valid solution uses D = 900 and E = 90, does D × E = 81,000 check out?",
+      "options": [
+        "Yes, 900 × 90 = 81,000",
+        "No, 900 × 90 = 8,100",
+        "No, 900 × 90 = 810,000",
+        "Cannot be determined"
+      ],
+      "answer": 0,
+      "explanation": "900 × 90 = 81,000. Multiply the non-zero digits (9×9=81) and attach the total zeros (2 from 900 plus 1 from 90 = 3 zeros): 81,000. This confirms D=900, E=90 is a valid solution.",
+      "source": "worksheet:73082 solution (Q5 puzzle, one possible answer)"
+    },
+    {
+      "id": "q63",
+      "topic": "Division Basics & Properties",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Lisa has 42 balls which she distributes equally among 6 children. In the division fact 42 ÷ 6 = 7, what is 42 called?",
+      "options": [
+        "Divisor",
+        "Quotient",
+        "Dividend",
+        "Remainder"
+      ],
+      "answer": 2,
+      "explanation": "In a division fact, the DIVIDEND is the total amount being shared (42 balls), the DIVISOR is the number of groups (6 children), and the QUOTIENT is the result (7 balls per child).",
+      "source": "book:page16"
+    },
+    {
+      "id": "q64",
+      "topic": "Division Basics & Properties",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "In 42 ÷ 6 = 7, which multiplication fact is closely related to this division fact?",
+      "options": [
+        "6 × 7 = 42",
+        "7 × 8 = 56",
+        "6 × 6 = 36",
+        "42 × 1 = 42"
+      ],
+      "answer": 0,
+      "explanation": "Multiplication and division are inverse operations. Since 6 × 7 = 42, we know 42 ÷ 6 = 7 and also 42 ÷ 7 = 6.",
+      "source": "book:page16"
+    },
+    {
+      "id": "q65",
+      "topic": "Division Basics & Properties",
+      "difficulty": "simple",
+      "type": "boolean",
+      "question": "True or False: When a division leaves no remainder, the dividend must be a multiple of the divisor.",
+      "answer": true,
+      "explanation": "Example: 42 ÷ 6 = 7 with remainder 0, and indeed 42 appears in the 6-times table (6×7=42), so 42 is a multiple of 6.",
+      "source": "book:page16"
+    },
+    {
+      "id": "q66",
+      "topic": "Division Basics & Properties",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "12 × 4 = 48 gives us two related division facts. What are they?",
+      "options": [
+        "48÷4=12 and 48÷12=4",
+        "48÷12=3 and 48÷4=10",
+        "12÷4=3 and 48÷12=4",
+        "4÷12=48 and 48÷4=12"
+      ],
+      "answer": 0,
+      "explanation": "Since 12 × 4 = 48, the two inverse division facts are 48 ÷ 4 = 12 and 48 ÷ 12 = 4.",
+      "source": "book:page17"
+    },
+    {
+      "id": "q67",
+      "topic": "Division Basics & Properties",
+      "difficulty": "tricky",
+      "type": "boolean",
+      "question": "True or False: 12 × 0 = 0 gives us two division facts: 0 ÷ 12 = 0 and 0 ÷ 0 = 12.",
+      "answer": false,
+      "explanation": "This is FALSE. 12 × 0 = 0 only gives ONE valid division fact: 0 ÷ 12 = 0. Dividing 0 by 0 does NOT make sense (it is undefined), so we don't write 0 ÷ 0 = 12 as a valid fact.",
+      "source": "book:page17"
+    },
+    {
+      "id": "q68",
+      "topic": "Division Basics & Properties",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "What is 7,845 ÷ 1?",
+      "options": [
+        "7,845",
+        "1",
+        "0",
+        "78,450"
+      ],
+      "answer": 0,
+      "explanation": "Any number divided by 1 stays the same. So 7,845 ÷ 1 = 7,845.",
+      "source": "worksheet:73082 solution (Statement question)"
+    },
+    {
+      "id": "q69",
+      "topic": "Division Basics & Properties",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Statement (I): When 7,845 is divided by 1, the quotient is 7,845. Statement (II): Any number divided by itself gives the quotient as the number itself. Which option is correct?",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 2,
+      "explanation": "Statement (I) is TRUE — dividing by 1 always leaves the number unchanged. Statement (II) is FALSE — any (non-zero) number divided by ITSELF always gives 1, not the number itself (e.g. 8 ÷ 8 = 1, not 8).",
+      "source": "worksheet:73082 (Walk Along Practice 5, Q5)"
+    },
+    {
+      "id": "q70",
+      "topic": "Division Basics & Properties",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "12 tens ÷ 4 = ____ tens.",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "12 ÷ 4 = 3, so 12 tens ÷ 4 = 3 tens. (This is the same as saying 120 ÷ 4 = 30.)",
+      "source": "worksheet:73082 (Walk Along Practice 4/5, fill in blanks)"
+    },
+    {
+      "id": "q71",
+      "topic": "Short & Long Division Methods",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Using the short division method, 95 ÷ 5: first divide 9 by 5 to get quotient 1, remainder 4; put the 4 above the ones digit, making 45; then 45 ÷ 5 = 9. What is 95 ÷ 5?",
+      "options": [
+        "Q=18, R=1",
+        "Q=19, R=0",
+        "Q=17, R=1",
+        "Q=19, R=1"
+      ],
+      "answer": 1,
+      "explanation": "Step 1: 9÷5 = 1 remainder 4 (tens digit of quotient = 1). Step 2: bring the remainder 4 next to the ones digit 5, making 45; 45÷5 = 9 (ones digit of quotient = 9). So 95 ÷ 5 = 19, remainder 0.",
+      "source": "book:page18"
+    },
+    {
+      "id": "q72",
+      "topic": "Short & Long Division Methods",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Using short division, 768 ÷ 4: 7÷4=1 remainder 3; bring down to make 36, 36÷4=9; then 8÷4=2. What is 768 ÷ 4?",
+      "options": [
+        "Q=182, R=0",
+        "Q=192, R=0",
+        "Q=192, R=1",
+        "Q=182, R=1"
+      ],
+      "answer": 1,
+      "explanation": "Step 1: 7÷4=1 rem 3 (hundreds digit=1). Step 2: 36÷4=9 (tens digit=9). Step 3: 8÷4=2, no remainder (ones digit=2). So 768 ÷ 4 = 192, remainder 0.",
+      "source": "book:page18"
+    },
+    {
+      "id": "q73",
+      "topic": "Short & Long Division Methods",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Using short division, 86 ÷ 11: since 8 can't be divided by 11, we divide the whole number 86 by 11 to get quotient 7 and remainder 9. What is 86 ÷ 11?",
+      "options": [
+        "Q=7, R=9",
+        "Q=8, R=2",
+        "Q=7, R=8",
+        "Q=6, R=20"
+      ],
+      "answer": 0,
+      "explanation": "11 × 7 = 77, and 86 − 77 = 9. So 86 ÷ 11 = 7, remainder 9.",
+      "source": "book:page18"
+    },
+    {
+      "id": "q74",
+      "topic": "Short & Long Division Methods",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "Using short division, 732 ÷ 12: since 7 can't be divided by 12, divide 73 by 12 to get quotient 6 remainder 1, then bring down to make 12, and 12÷12=1. What is 732 ÷ 12?",
+      "options": [
+        "Q=61, R=0",
+        "Q=60, R=12",
+        "Q=61, R=1",
+        "Q=62, R=0"
+      ],
+      "answer": 0,
+      "explanation": "Step 1: 73÷12=6 rem 1 (tens digit=6). Step 2: bring down the 2 to make 12; 12÷12=1 rem 0 (ones digit=1). So 732 ÷ 12 = 61, remainder 0.",
+      "source": "book:page18"
+    },
+    {
+      "id": "q75",
+      "topic": "Short & Long Division Methods",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "The Long Division Process has 4 repeating steps in order. Which sequence is correct?",
+      "options": [
+        "Divide → Multiply → Subtract → Bring down",
+        "Multiply → Divide → Bring down → Subtract",
+        "Subtract → Divide → Multiply → Bring down",
+        "Bring down → Divide → Subtract → Multiply"
+      ],
+      "answer": 0,
+      "explanation": "The long division algorithm always repeats these 4 steps in this exact order: (1) Divide — estimate how many times the divisor fits, (2) Multiply — multiply that estimate by the divisor, (3) Subtract — subtract from the current dividend portion, (4) Bring down — bring down the next digit, then repeat.",
+      "source": "book:page20 (Long Division Process diagram)"
+    },
+    {
+      "id": "q76",
+      "topic": "Short & Long Division Methods",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Using long division, 3,575 ÷ 5 gives quotient 715 and remainder 0. Verify using the division algorithm: Dividend = Quotient × Divisor + Remainder. Does 715 × 5 + 0 = 3,575?",
+      "options": [
+        "Yes, 715 × 5 = 3,575",
+        "No, 715 × 5 = 3,570",
+        "No, 715 × 5 = 3,580",
+        "Cannot verify without redoing the division"
+      ],
+      "answer": 0,
+      "explanation": "715 × 5 = 3,575, and adding the remainder (0) gives 3,575, exactly matching the dividend. This confirms the division is correct.",
+      "source": "book:page21"
+    },
+    {
+      "id": "q77",
+      "topic": "Short & Long Division Methods",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "Using long division, 9,698 ÷ 9 gives quotient 1,077 and remainder 5. Verify: does 1,077 × 9 + 5 = 9,698?",
+      "options": [
+        "Yes: 9,693 + 5 = 9,698",
+        "No: 1,077 × 9 = 9,698 exactly",
+        "No: 1,077 × 9 = 9,703",
+        "No: 1,077 × 9 + 5 = 9,682"
+      ],
+      "answer": 0,
+      "explanation": "1,077 × 9 = 9,693. Adding the remainder 5 gives 9,693 + 5 = 9,698, which matches the dividend exactly — confirming 9,698 ÷ 9 = 1,077 remainder 5.",
+      "source": "book:page22"
+    },
+    {
+      "id": "q78",
+      "topic": "Short & Long Division Methods",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Using long division, 3,045 ÷ 15 gives quotient 203 and remainder 0. What is 203 × 15?",
+      "options": [
+        "3,030",
+        "3,045",
+        "3,060",
+        "3,015"
+      ],
+      "answer": 1,
+      "explanation": "203 × 15 = 203 × 10 + 203 × 5 = 2,030 + 1,015 = 3,045, matching the dividend exactly (remainder 0).",
+      "source": "book:page22"
+    },
+    {
+      "id": "q79",
+      "topic": "Short & Long Division Methods",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "Using long division, 2,498 ÷ 21 gives quotient 118 and remainder 20. Verify: does 118 × 21 + 20 = 2,498?",
+      "options": [
+        "Yes: 2,478 + 20 = 2,498",
+        "No: 118 × 21 = 2,498 exactly",
+        "No: 118 × 21 = 2,508",
+        "No: 118 × 21 + 20 = 2,488"
+      ],
+      "answer": 0,
+      "explanation": "118 × 21 = 2,478. Adding the remainder 20 gives 2,478 + 20 = 2,498, matching the dividend — confirming 2,498 ÷ 21 = 118 remainder 20.",
+      "source": "book:page23"
+    },
+    {
+      "id": "q80",
+      "topic": "Short & Long Division Methods",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "Using long division, 7,340 ÷ 83 gives quotient 88 and remainder 36 (verify: 88 × 83 = 7,304, and 7,304 + 36 = 7,340 ✓). To estimate the first digit of the quotient, the book rounds 734 ÷ 83 to 700 ÷ 80. What estimated quotient digit does this give?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "700 ÷ 80 ≈ 8 (since 80 × 8 = 640, close to 700, and 80 × 9 = 720 is also close, but the book confirms 83 × 8 = 664 ≤ 700 works while 83 × 9 = 747 is too big for the relevant digits). So the estimated quotient digit is 8, matching the actual quotient's tens digit.",
+      "source": "book:page24 (verified: dividend read from digit grid as 7,340)"
+    },
+    {
+      "id": "q81",
+      "topic": "Dividing by 10, 100, 1000",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "When you divide 1,234 by 10, the LAST digit (4) becomes the remainder, and the remaining digits (123) become the quotient. What is 1,234 ÷ 10?",
+      "options": [
+        "Q=123, R=4",
+        "Q=124, R=3",
+        "Q=12, R=34",
+        "Q=1,234, R=0"
+      ],
+      "answer": 0,
+      "explanation": "Dividing by 10 splits off the last (ones) digit as the remainder: the ones digit 4 becomes the remainder, and the remaining digits 123 become the quotient. So 1,234 ÷ 10 = 123, remainder 4.",
+      "source": "book:page26"
+    },
+    {
+      "id": "q82",
+      "topic": "Dividing by 10, 100, 1000",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "When you divide 1,234 by 100, the LAST TWO digits (34) become the remainder, and the remaining digits (12) become the quotient. What is 1,234 ÷ 100?",
+      "options": [
+        "Q=12, R=34",
+        "Q=123, R=4",
+        "Q=1, R=234",
+        "Q=12, R=4"
+      ],
+      "answer": 0,
+      "explanation": "Dividing by 100 splits off the last two digits as the remainder: 34 becomes the remainder, and the remaining digits 12 become the quotient. So 1,234 ÷ 100 = 12, remainder 34.",
+      "source": "book:page26"
+    },
+    {
+      "id": "q83",
+      "topic": "Dividing by 10, 100, 1000",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "When you divide 1,234 by 1,000, the LAST THREE digits (234) become the remainder, and the remaining digit (1) becomes the quotient. What is 1,234 ÷ 1,000?",
+      "options": [
+        "Q=1, R=234",
+        "Q=12, R=34",
+        "Q=123, R=4",
+        "Q=1,234, R=0"
+      ],
+      "answer": 0,
+      "explanation": "Dividing by 1,000 splits off the last three digits as the remainder: 234 becomes the remainder, and the remaining digit 1 becomes the quotient. So 1,234 ÷ 1,000 = 1, remainder 234.",
+      "source": "book:page26"
+    },
+    {
+      "id": "q84",
+      "topic": "Dividing by 10, 100, 1000",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "What is 300 ÷ 100 (quotient and remainder), without doing actual long division?",
+      "options": [
+        "Q=3, R=0",
+        "Q=30, R=0",
+        "Q=3, R=100",
+        "Q=300, R=0"
+      ],
+      "answer": 0,
+      "explanation": "Splitting off the last two digits (00) as the remainder leaves the digit 3 as the quotient, and the remainder is 0. So 300 ÷ 100 = 3, remainder 0.",
+      "source": "worksheet:73082 (Walk Along Practice 5, Q1b)"
+    },
+    {
+      "id": "q85",
+      "topic": "Dividing by 10, 100, 1000",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "What is 5,477 ÷ 100 (quotient and remainder)?",
+      "options": [
+        "Q=54, R=77",
+        "Q=54, R=7",
+        "Q=547, R=7",
+        "Q=55, R=-23"
+      ],
+      "answer": 0,
+      "explanation": "The last two digits (77) become the remainder, and the remaining digits (54) become the quotient. So 5,477 ÷ 100 = 54, remainder 77.",
+      "source": "worksheet:73082 (Walk Along Practice 5, Q1f)"
+    },
+    {
+      "id": "q86",
+      "topic": "Dividing by 10, 100, 1000",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "What is 7,247 ÷ 1,000 (quotient and remainder)?",
+      "options": [
+        "Q=7, R=247",
+        "Q=72, R=47",
+        "Q=724, R=7",
+        "Q=7,247, R=0"
+      ],
+      "answer": 0,
+      "explanation": "The last three digits (247) become the remainder, and the remaining digit (7) becomes the quotient. So 7,247 ÷ 1,000 = 7, remainder 247.",
+      "source": "worksheet:73082 (Walk Along Practice 5, Q1h)"
+    },
+    {
+      "id": "q87",
+      "topic": "Dividing by 10, 100, 1000",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "What is 5,000 ÷ 10 (quotient and remainder)?",
+      "options": [
+        "Q=500, R=0",
+        "Q=50, R=0",
+        "Q=5,000, R=0",
+        "Q=500, R=10"
+      ],
+      "answer": 0,
+      "explanation": "5,000 ÷ 10: the ones digit (0) becomes the remainder (0), and the remaining digits (500) become the quotient. So 5,000 ÷ 10 = 500, remainder 0.",
+      "source": "worksheet:73082 (Walk Along Practice 5, Q1j)"
+    },
+    {
+      "id": "q88",
+      "topic": "Estimating Quotients",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "To estimate 4,956 ÷ 17, round 4,956 to the nearest 100 (→5,000) and 17 to the nearest 10 (→20). What is the estimated quotient?",
+      "options": [
+        "200",
+        "250",
+        "300",
+        "500"
+      ],
+      "answer": 1,
+      "explanation": "Round 4,956 to 5,000 and 17 to 20, then divide the rounded numbers: 5,000 ÷ 20 = 250. That's the estimated quotient.",
+      "source": "book:page29"
+    },
+    {
+      "id": "q89",
+      "topic": "Estimating Quotients",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "To estimate 9,490 ÷ 15, round 9,490 to the nearest 100 (→9,500) and 15 to the nearest 10 (→20). What is the estimated quotient?",
+      "options": [
+        "400",
+        "450",
+        "475",
+        "500"
+      ],
+      "answer": 2,
+      "explanation": "Round 9,490 to 9,500 and 15 to 20, then divide: 9,500 ÷ 20 = 475. That's the estimated quotient.",
+      "source": "book:page29"
+    },
+    {
+      "id": "q90",
+      "topic": "Estimating Quotients",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "To estimate 5,500 ÷ 50, round the divisor to the nearest 10 (already 50). What is 5,500 ÷ 50?",
+      "options": [
+        "11",
+        "110",
+        "100",
+        "10"
+      ],
+      "answer": 1,
+      "explanation": "5,500 ÷ 50 = 110. (Check: 50 × 110 = 5,500.)",
+      "source": "book:page29"
+    },
+    {
+      "id": "q91",
+      "topic": "Estimating Quotients",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Why is it useful to estimate a quotient BEFORE doing the exact long division?",
+      "options": [
+        "It replaces the need to ever do exact division",
+        "It gives you a quick way to check whether your exact answer is 'in the right ballpark'",
+        "It is always exactly equal to the real answer",
+        "It only works for even numbers"
+      ],
+      "answer": 1,
+      "explanation": "Estimating first gives you a rough expected answer. After doing the exact long division, you can compare your precise answer to the estimate — if they're wildly different, you likely made a mistake somewhere.",
+      "source": "book:page29 (estimation strategy)"
+    },
+    {
+      "id": "q92",
+      "topic": "Estimating Quotients",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "To estimate 7,578 ÷ 25, round 7,578 to the nearest 100 (→7,600) and 25 to the nearest 10 (→30). What is the estimated quotient (round to a whole number)?",
+      "options": [
+        "220",
+        "240",
+        "253",
+        "300"
+      ],
+      "answer": 2,
+      "explanation": "Round 7,578 to 7,600 and 25 to 30, then divide: 7,600 ÷ 30 ≈ 253 (since 30 × 253 = 7,590, very close to 7,600). That's the estimated quotient.",
+      "source": "book:page29"
+    },
+    {
+      "id": "q93",
+      "topic": "Word Problems: Multiplication and Division",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "There are 12 stickers in each packet. Anil buys 8 such packets. How many stickers did Anil buy altogether?",
+      "options": [
+        "84",
+        "96",
+        "20",
+        "104"
+      ],
+      "answer": 1,
+      "explanation": "Total stickers = number of packets × stickers per packet = 8 × 12 = 96.",
+      "source": "book:page31"
+    },
+    {
+      "id": "q94",
+      "topic": "Word Problems: Multiplication and Division",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "There are 253 books in each cupboard in a public library. Find the total number of books in 39 such cupboards.",
+      "options": [
+        "9,867",
+        "9,807",
+        "10,917",
+        "9,757"
+      ],
+      "answer": 0,
+      "explanation": "Total books = 253 × 39. Using the column method: 253×39 = 253×40 − 253 = 10,120 − 253 = 9,867.",
+      "source": "book:page31 (Home Connect Q1)"
+    },
+    {
+      "id": "q95",
+      "topic": "Word Problems: Multiplication and Division",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Ashi has arranged 78 plants in 6 rows for a party, with the same number in each row. How many plants are there in each row?",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "answer": 1,
+      "explanation": "Plants per row = total plants ÷ number of rows = 78 ÷ 6 = 13.",
+      "source": "book:page31 (Home Connect Q5)"
+    },
+    {
+      "id": "q96",
+      "topic": "Word Problems: Multiplication and Division",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "For Environment Day, 450 saplings were planted equally by 45 students. How many saplings did each student plant?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "45"
+      ],
+      "answer": 1,
+      "explanation": "Saplings per student = 450 ÷ 45 = 10.",
+      "source": "book:page32 (Home Connect Q8)"
+    },
+    {
+      "id": "q97",
+      "topic": "Word Problems: Multiplication and Division",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "In a library, 520 books are arranged equally in 4 bookracks. How many books are in EACH rack?",
+      "options": [
+        "120",
+        "125",
+        "130",
+        "135"
+      ],
+      "answer": 2,
+      "explanation": "Books per rack = 520 ÷ 4 = 130.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q98",
+      "topic": "Word Problems: Multiplication and Division",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Continuing: if the same number of books (130) is kept in each rack, how many books would be needed to fill 32 such bookracks?",
+      "options": [
+        "3,160",
+        "4,160",
+        "4,060",
+        "4,260"
+      ],
+      "answer": 1,
+      "explanation": "Total books for 32 racks = books per rack × number of racks = 130 × 32 = 4,160.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q99",
+      "topic": "Word Problems: Multiplication and Division",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "Jaya found a plank of wood, cut off 12 cm from the broken end, then cut the REMAINING piece into 3 equal pieces of 20 cm each. Using the backward strategy, what was the ORIGINAL length of the plank?",
+      "options": [
+        "60 cm",
+        "72 cm",
+        "68 cm",
+        "80 cm"
+      ],
+      "answer": 1,
+      "explanation": "Work backward from the final pieces: 3 equal pieces of 20 cm = 3 × 20 = 60 cm (the remaining piece after the first cut). Add back the 12 cm that was cut off first: 60 + 12 = 72 cm was the original length.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q100",
+      "topic": "Word Problems: Multiplication and Division",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "Shaili gave away 138 shells to her sister, then shared the REMAINING shells equally among her 6 cousins, and each cousin received 22 shells. Using the backward strategy, how many shells did Shaili ORIGINALLY have?",
+      "options": [
+        "230",
+        "264",
+        "270",
+        "276"
+      ],
+      "answer": 2,
+      "explanation": "Work backward: shells shared among 6 cousins = 22 × 6 = 132 (the amount remaining after giving shells to her sister). Add back the 138 shells given to her sister first: 132 + 138 = 270 shells originally.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q101",
+      "topic": "Number Patterns",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "In the sequence 5, 12, 19, ____, ____, the rule is 'add 7'. What are the next two terms?",
+      "options": [
+        "24, 31",
+        "25, 32",
+        "26, 33",
+        "27, 34"
+      ],
+      "answer": 1,
+      "explanation": "Following the rule 'add 7' each time: 19 + 7 = 26, and 26 + 7 = 33. So the next two terms are 26 and 33.",
+      "source": "worksheet:73082 (Walk Along Practice 6, Q1a)"
+    },
+    {
+      "id": "q102",
+      "topic": "Number Patterns",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "In the sequence 1,800; 1,750; 1,700; ____; ____, the rule is 'subtract 50'. What are the next two terms?",
+      "options": [
+        "1,650; 1,600",
+        "1,600; 1,550",
+        "1,675; 1,625",
+        "1,700; 1,650"
+      ],
+      "answer": 0,
+      "explanation": "Following the rule 'subtract 50' each time: 1,700 − 50 = 1,650, and 1,650 − 50 = 1,600. So the next two terms are 1,650 and 1,600.",
+      "source": "worksheet:73082 (Walk Along Practice 6, Q1b)"
+    },
+    {
+      "id": "q103",
+      "topic": "Number Patterns",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "If the rule for a sequence is 'subtract 2 and then multiply by 5', what is the next number after 17?",
+      "options": [
+        "65",
+        "75",
+        "70",
+        "85"
+      ],
+      "answer": 1,
+      "explanation": "First subtract 2 from 17: 17 − 2 = 15. Then multiply by 5: 15 × 5 = 75. So the next number is 75.",
+      "source": "worksheet:73082 (Walk Along Practice 6, Q2)"
+    },
+    {
+      "id": "q104",
+      "topic": "Number Patterns",
+      "difficulty": "simple",
+      "type": "boolean",
+      "question": "True or False: In a number sequence formed by a fixed rule (like 'add 7' each time), you can always find the rule by looking at the difference between consecutive terms.",
+      "answer": true,
+      "explanation": "For simple arithmetic sequences (where the same amount is added or subtracted each time), the difference between any two consecutive terms is always the same and reveals the rule — e.g. 12−5=7 and 19−12=7 both confirm the rule 'add 7'.",
+      "source": "worksheet:73082 (Walk Along Practice 6, pattern reasoning)"
+    },
+    {
+      "id": "q105",
+      "topic": "Real-World Word Problems",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "A whale weighs 24 times as much as an average elephant. If an elephant weighs 2,500 kg, what is the weight of the whale?",
+      "options": [
+        "50,000",
+        "60,000",
+        "55,000",
+        "65,000"
+      ],
+      "answer": 1,
+      "explanation": "Weight of whale = 24 × 2,500. Multiply the non-zero digits (24×25=600) and attach the two zeros from 2,500: 60,000 kg.",
+      "source": "worksheet:73082 (Sea creature calculation Q1a)"
+    },
+    {
+      "id": "q106",
+      "topic": "Real-World Word Problems",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "An alligator can grow over 2,000 teeth during its lifetime, but has only about 80 teeth in its jaws at any one time. Estimate how many times the alligator replaces its teeth (2,000 ÷ 80).",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "40"
+      ],
+      "answer": 1,
+      "explanation": "Estimated number of replacements = 2,000 ÷ 80 = 25.",
+      "source": "worksheet:73082 (Sea creature calculation Q1c)"
+    },
+    {
+      "id": "q107",
+      "topic": "Real-World Word Problems",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "Seahorses beat their fins about 50 times per second. How many times do they beat their fins in 2 hours? (Hint: 2 hours = 2 × 60 × 60 seconds)",
+      "options": [
+        "1,80,000",
+        "3,60,000",
+        "3,00,000",
+        "7,20,000"
+      ],
+      "answer": 1,
+      "explanation": "2 hours = 2 × 3,600 seconds = 7,200 seconds. Total fin beats = 50 × 7,200 = 3,60,000.",
+      "source": "worksheet:73082 (Sea creature calculation Q1d)"
+    },
+    {
+      "id": "q108",
+      "topic": "Real-World Word Problems",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "Box B weighs 13 kg. Box A weighs 3 times as much as Box B. Box C weighs half the TOTAL weight of Boxes A and B. What is the combined weight of all 3 boxes?",
+      "options": [
+        "65",
+        "78",
+        "91",
+        "104"
+      ],
+      "answer": 1,
+      "explanation": "Box A = 3 × 13 = 39 kg. A + B = 39 + 13 = 52 kg. Box C = half of 52 = 26 kg. All three boxes together = 39 + 13 + 26 = 78 kg.",
+      "source": "worksheet:73082 (Walk Along Practice 7, weights problem)"
+    },
+    {
+      "id": "q109",
+      "topic": "Real-World Word Problems",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "A farmer's potato plants: 4 plants died, and each of the REMAINING plants grew 14 potatoes. The farmer picked 84 potatoes in total. How many plants did the farmer start with?",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "answer": 2,
+      "explanation": "Remaining plants = 84 ÷ 14 = 6 plants (after 4 died). Original number of plants = 6 + 4 = 10.",
+      "source": "worksheet:73082 (Word problem, backward reasoning)"
+    },
+    {
+      "id": "q110",
+      "topic": "Real-World Word Problems",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Aarav has 1,148 bundles of newspapers, each bundle containing 210 newspapers. How many newspapers does Aarav have in all?",
+      "options": [
+        "2,40,080",
+        "2,41,080",
+        "2,42,080",
+        "2,39,080"
+      ],
+      "answer": 1,
+      "explanation": "Total newspapers = 1,148 × 210 = 1,148 × 200 + 1,148 × 10 = 2,29,600 + 11,480 = 2,41,080.",
+      "source": "worksheet:73082 (Word problem)"
+    },
+    {
+      "id": "q111",
+      "topic": "Real-World Word Problems",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "'I think of a number, double it, subtract 20, and get 16.' What number did I start with?",
+      "options": [
+        "16",
+        "18",
+        "20",
+        "22"
+      ],
+      "answer": 1,
+      "explanation": "Work backward: add 20 to 16 to undo the subtraction: 16 + 20 = 36. Then undo the doubling by halving: 36 ÷ 2 = 18. So the starting number was 18. Check: 18 × 2 = 36, 36 − 20 = 16. ✓",
+      "source": "worksheet:73082 (Guess My Number Challenge)"
+    },
+    {
+      "id": "q112",
+      "topic": "Real-World Word Problems",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "An art museum has 843 paintings to arrange into sections of exactly 17 paintings each, with none left over. How MANY MORE paintings are needed to complete the last section?",
+      "options": [
+        "7",
+        "10",
+        "14",
+        "17"
+      ],
+      "answer": 0,
+      "explanation": "843 ÷ 17 = 49 remainder 10 (since 49 × 17 = 833, and 843 − 833 = 10). The 50th section already has 10 paintings but needs 17, so 17 − 10 = 7 more paintings are needed.",
+      "source": "worksheet:73082 (Word problem)"
+    },
+    {
+      "id": "q113",
+      "topic": "Real-World Word Problems",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Anya arranged the Hindi section with 3,096 books in 18 equal rows. How many books are in each row?",
+      "options": [
+        "162",
+        "168",
+        "172",
+        "178"
+      ],
+      "answer": 2,
+      "explanation": "Books per row = 3,096 ÷ 18 = 172.",
+      "source": "worksheet:73082 (Anya the librarian word problem)"
+    },
+    {
+      "id": "q114",
+      "topic": "Real-World Word Problems",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "If a number is multiplied by 100 and then 1,999 is added to it, the result is the GREATEST 4-digit number (9,999). What is the number?",
+      "options": [
+        "70",
+        "75",
+        "80",
+        "85"
+      ],
+      "answer": 2,
+      "explanation": "Set up the equation: (number × 100) + 1,999 = 9,999. So number × 100 = 9,999 − 1,999 = 8,000. Dividing: number = 8,000 ÷ 100 = 80.",
+      "source": "worksheet:73082 (word problem)"
+    },
+    {
+      "id": "q115",
+      "topic": "Real-World Word Problems",
+      "difficulty": "simple",
+      "type": "single",
+      "question": "Oranges are sold at ₹96 per dozen (12 oranges). What is the cost of ONE orange?",
+      "options": [
+        "₹6",
+        "₹7",
+        "₹8",
+        "₹9"
+      ],
+      "answer": 2,
+      "explanation": "Cost per orange = 96 ÷ 12 = ₹8.",
+      "source": "worksheet:73082 (word problem)"
+    },
+    {
+      "id": "q116",
+      "topic": "Real-World Word Problems",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "A bar graph shows Speedy Wheels Ltd. manufactured 38,295 cars in 2023 and 43,327 cars in 2025. How many MORE cars were manufactured in 2025 compared to 2023?",
+      "options": [
+        "4032",
+        "5032",
+        "5132",
+        "5232"
+      ],
+      "answer": 1,
+      "explanation": "Difference = 43,327 − 38,295 = 5,032 more cars in 2025.",
+      "source": "worksheet:73082 (bar graph word problem)"
+    },
+    {
+      "id": "q117",
+      "topic": "Real-World Word Problems",
+      "difficulty": "tough",
+      "type": "single",
+      "question": "Diana won a box of candies. She gave 12 candies each to her 6 friends, gave 20 candies to her brother, and had 8 candies left. How many candies were in the box originally?",
+      "options": [
+        "80",
+        "88",
+        "90",
+        "100"
+      ],
+      "answer": 3,
+      "explanation": "Candies given to friends = 12 × 6 = 72. Add candies to brother: 72 + 20 = 92. Add the candies left over: 92 + 8 = 100 candies originally.",
+      "source": "worksheet:73082 (word problem)"
+    },
+    {
+      "id": "q118",
+      "topic": "Real-World Word Problems",
+      "difficulty": "tricky",
+      "type": "single",
+      "question": "A group planned to trek to a destination. At the first halt, 23 trekkers returned. At the second halt, another 46 dropped out. Finally, only 35 trekkers reached the destination. How many trekkers started the trek?",
+      "options": [
+        "94",
+        "104",
+        "114",
+        "69"
+      ],
+      "answer": 1,
+      "explanation": "Work backward (add up everyone who left plus who finished): 35 (finished) + 46 (2nd halt dropout) + 23 (1st halt dropout) = 104 trekkers started the trek.",
+      "source": "worksheet:73082 (word problem, backward strategy)"
+    }
+  ]
+}

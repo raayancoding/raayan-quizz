@@ -1,0 +1,2063 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-maths-1-g8-ch07-proportional-reasoning-1",
+  "title": "Proportional Reasoning-1",
+  "subject": "Maths-1",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Maths-1/ch07",
+  "chapter": "7. Proportional Reasoning-1",
+  "topic": "Full Chapter",
+  "description": "Ratios, proportions, the Rule of Three, sharing in a ratio, changing mixtures and unit conversions from NCERT Ganita Prakash Grade 8 Chapter 7.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "maths",
+    "ratio",
+    "proportion",
+    "rule-of-three",
+    "unit-conversion"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Similar Images & Proportional Change",
+      "question": "In the chapter's set of five tiger images of different sizes, which images looked similar to one another?",
+      "options": [
+        "Images A, C and D",
+        "Images A, B and C",
+        "Images B, D and E",
+        "Images C, D and E"
+      ],
+      "answer": 0,
+      "explanation": "A (60 × 40), C (30 × 20) and D (90 × 60) all have width : height = 3 : 2, so they look alike. B is elongated and E is compressed.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Similar Images & Proportional Change",
+      "question": "Image A is 60 mm × 40 mm and image C is 30 mm × 20 mm. By what factor did BOTH the width and the height change from A to C?",
+      "options": [
+        "¼ (both were quartered)",
+        "½ (both were halved)",
+        "⅓ (both became a third)",
+        "2 (both were doubled)"
+      ],
+      "answer": 1,
+      "explanation": "30 ÷ 60 = ½ and 20 ÷ 40 = ½. Because width and height changed by the same factor, A and C look similar.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Similar Images & Proportional Change",
+      "question": "Image B (40 mm × 20 mm) was obtained from A (60 mm × 40 mm) by taking 20 mm off both the width and the height. Why does B look distorted?",
+      "options": [
+        "Its height is 2/3 of A's but its width is only 1/2 of A's — different factors",
+        "A rectangle can never look similar to another rectangle of a smaller size",
+        "Its width is 2/3 of A's but its height is only 1/2 of A's — different factors",
+        "Both sides lost exactly 20 mm, so the factors of change are also equal"
+      ],
+      "answer": 2,
+      "explanation": "40/60 = 2/3 but 20/40 = 1/2. Subtracting the same amount does not multiply both sides by the same factor, so the shape stretches (B looks elongated).",
+      "source": "text:page2"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Similar Images & Proportional Change",
+      "question": "By what factor do the width and height of image D (90 mm × 60 mm) change compared with image A (60 mm × 40 mm)?",
+      "options": [
+        "2/3 for both",
+        "4/3 for both",
+        "5/4 for both",
+        "3/2 for both"
+      ],
+      "answer": 3,
+      "explanation": "90 ÷ 60 = 3/2 and 60 ÷ 40 = 3/2. Same factor for both, so D is similar to A (D is the enlarged version).",
+      "source": "text:page2"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Similar Images & Proportional Change",
+      "question": "A 60 mm × 40 mm photo is resized so that it still looks similar. Which new size is correct?",
+      "options": [
+        "45 mm × 30 mm",
+        "50 mm × 30 mm",
+        "45 mm × 25 mm",
+        "80 mm × 60 mm"
+      ],
+      "answer": 0,
+      "explanation": "45/60 = 3/4 and 30/40 = 3/4 — same factor. In 50 × 30 the factors are 5/6 and 3/4; in 45 × 25 they are 3/4 and 5/8; 80 × 60 is 4 : 3, not 3 : 2.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Similar Images & Proportional Change",
+      "question": "Which statement about the five tiger images is NOT correct?",
+      "options": [
+        "Image D is the largest of the three similar-looking images",
+        "Image B looks compressed and fatter than the other images",
+        "Images A, C and D all have the width-to-height ratio 3 : 2",
+        "Image E has a width-to-height ratio of 1 : 1 in simplest form"
+      ],
+      "answer": 1,
+      "explanation": "The chapter says the tiger appears ELONGATED in B and compressed and fatter in E (the square). The other three statements match the measurement table.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q7",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Similar Images & Proportional Change",
+      "question": "Image E (60 mm × 60 mm) looks different from image A because E is a square while A has a width-to-height ratio of 3 : 2.",
+      "answer": true,
+      "explanation": "60 : 60 reduces to 1 : 1, so E is a square; A is 60 : 40 = 3 : 2. Different simplest ratios mean the shapes are not similar.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q8",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Similar Images & Proportional Change",
+      "question": "Subtracting the same number of millimetres from both the width and the height of a rectangle always produces a similar rectangle.",
+      "answer": false,
+      "explanation": "Image B shows the opposite: 20 mm was subtracted from both sides of A, yet the factors became 2/3 and 1/2, so B looks distorted. Only multiplying both sides by the same factor keeps similarity.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Similar Images & Proportional Change",
+      "question": "Select ALL the changes to a 60 mm × 40 mm image that keep it similar to the original.",
+      "options": [
+        "Multiply both width and height by ½",
+        "Multiply both width and height by 3/2",
+        "Subtract 20 mm from both width and height",
+        "Add 20 mm to both width and height",
+        "Double only the width"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Similarity needs the SAME multiplying factor on both sides (×½ gives C, ×3/2 gives D). Adding or subtracting the same amount, or scaling one side only, changes the ratio.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Ratios, Terms and Simplest Form",
+      "question": "In the ratio 60 : 40, what are the numbers 60 and 40 called?",
+      "options": [
+        "The parts of the whole",
+        "The units of the ratio",
+        "The terms of the ratio",
+        "The factors of the ratio"
+      ],
+      "answer": 2,
+      "explanation": "The chapter defines the two numbers in a : b as the terms of the ratio.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Ratios, Terms and Simplest Form",
+      "question": "What does a ratio written as a : b tell us?",
+      "options": [
+        "The first quantity exceeds the second quantity by exactly a − b units",
+        "The second quantity is always a times as large as the first quantity",
+        "The two quantities together add up to a + b units in every situation",
+        "For every a units of the first quantity there are b units of the second"
+      ],
+      "answer": 3,
+      "explanation": "Example: image A is 60 : 40, so for every 60 mm of width there are 40 mm of height. A ratio compares by multiplication, not by difference.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Ratios, Terms and Simplest Form",
+      "question": "To reduce a ratio to its simplest form, we divide both terms by their…",
+      "options": [
+        "HCF",
+        "LCM",
+        "sum",
+        "product"
+      ],
+      "answer": 0,
+      "explanation": "Dividing both terms by their highest common factor (HCF) gives the smallest whole-number terms, e.g. 60 : 40 ÷ 20 → 3 : 2.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Ratios, Terms and Simplest Form",
+      "question": "What is the simplest form of the ratio 90 : 60 (image D)?",
+      "options": [
+        "5 : 3",
+        "3 : 2",
+        "9 : 6",
+        "2 : 3"
+      ],
+      "answer": 1,
+      "explanation": "The HCF of 90 and 60 is 30; 90 ÷ 30 = 3 and 60 ÷ 30 = 2. (9 : 6 still shares the factor 3; 2 : 3 reverses the order.)",
+      "source": "text:page3"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Ratios, Terms and Simplest Form",
+      "question": "In the chapter's school there are 5 teachers and 170 students. What is the teacher-to-student ratio in simplest form?",
+      "options": [
+        "1 : 35",
+        "1 : 17",
+        "5 : 17",
+        "1 : 34"
+      ],
+      "answer": 3,
+      "explanation": "Divide both terms by 5: 170 ÷ 5 = 34, so 5 : 170 = 1 : 34.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Ratios, Terms and Simplest Form",
+      "question": "Anagh mixes 600 mL of orange juice with 900 mL of apple juice. What is the ratio of orange juice to apple juice in simplest form?",
+      "options": [
+        "2 : 3",
+        "3 : 2",
+        "6 : 9",
+        "2 : 5"
+      ],
+      "answer": 0,
+      "explanation": "HCF of 600 and 900 is 300: 600 ÷ 300 = 2, 900 ÷ 300 = 3. Keep the order orange : apple. (2 : 5 is the fraction of the whole drink, not the ratio.)",
+      "source": "exercise:p176-Q1"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Ratios, Terms and Simplest Form",
+      "question": "In Anagh's drink (600 mL orange, 900 mL apple), what FRACTION of the whole drink is orange juice?",
+      "options": [
+        "1/2",
+        "2/5",
+        "2/3",
+        "3/5"
+      ],
+      "answer": 1,
+      "explanation": "The whole is 600 + 900 = 1500 mL; 600/1500 = 2/5. The ratio 2 : 3 compares orange to apple, not orange to the whole — 2/3 is the common slip.",
+      "source": "exercise:p176-Q1"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Ratios, Terms and Simplest Form",
+      "question": "Which of these ratios is NOT written in its simplest form?",
+      "options": [
+        "3 : 4",
+        "5 : 4",
+        "21 : 6",
+        "7 : 12"
+      ],
+      "answer": 2,
+      "explanation": "21 and 6 share the factor 3, so 21 : 6 = 7 : 2. In 7 : 12, 3 : 4 and 5 : 4 the terms have HCF 1.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q18",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Ratios, Terms and Simplest Form",
+      "question": "The ratio 40 : 60 describes the same relationship as 60 : 40 because both use the same two numbers.",
+      "answer": false,
+      "explanation": "Order matters: 60 : 40 means 60 of the first for every 40 of the second (3 : 2), while 40 : 60 is 2 : 3. The exercise item 7 : 12 :: 12 : 7 is false for the same reason.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q19",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Ratios, Terms and Simplest Form",
+      "question": "Dividing both terms of a ratio by the same number gives a ratio that is proportional to the original ratio.",
+      "answer": true,
+      "explanation": "60 : 40 ÷ 20 gives 3 : 2 and 90 : 60 ÷ 30 also gives 3 : 2 — dividing by a common factor keeps the ratios proportional.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Checking if Ratios are Proportional",
+      "question": "Which symbol does the chapter use to show that two ratios are proportional, as in 60 : 40 __ 30 : 20?",
+      "options": [
+        "'::' (double colon)",
+        "':' (single colon)",
+        "'=' (equals sign)",
+        "'≈' (approximately)"
+      ],
+      "answer": 0,
+      "explanation": "a : b :: c : d indicates that the ratios a : b and c : d are proportional, e.g. 60 : 40 :: 30 : 20.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Checking if Ratios are Proportional",
+      "question": "When two ratios are the same in their simplest forms, we say that the ratios are…",
+      "options": [
+        "in succession",
+        "in proportion",
+        "in reduction",
+        "in difference"
+      ],
+      "answer": 1,
+      "explanation": "Two ratios with the same simplest form are called proportional, or in proportion.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Checking if Ratios are Proportional",
+      "question": "Are the ratios 3 : 4 and 72 : 96 proportional?",
+      "options": [
+        "No — 72 : 96 reduces to 6 : 8",
+        "Yes — because 72 − 3 = 96 − 4",
+        "Yes — 72 : 96 reduces to 3 : 4",
+        "No — 72 : 96 reduces to 3 : 5"
+      ],
+      "answer": 2,
+      "explanation": "Divide 72 and 96 by their HCF 24 to get 3 : 4, the same as the first ratio. Proportionality is about equal factors, not equal differences.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Checking if Ratios are Proportional",
+      "question": "Nitin built a 60 ft wall with 3 bags of cement; Hari built a 40 ft wall with 2 bags. What should Nitin conclude?",
+      "options": [
+        "Hari's wall is weaker because 2 bags is less than 3 bags",
+        "Nitin's wall is weaker because 60 : 3 is larger than 40 : 2",
+        "Hari's wall is stronger because 40 : 2 reduces to 10 : 1",
+        "Both ratios reduce to 20 : 1, so the walls are equally strong"
+      ],
+      "answer": 3,
+      "explanation": "60 : 3 = 20 : 1 and 40 : 2 = 20 : 1 — each used the same cement per foot of wall, so Nitin should not worry.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Checking if Ratios are Proportional",
+      "question": "Why is the statement 8 : 3 :: 24 : 6 FALSE?",
+      "options": [
+        "24 is 3 × 8 but 6 is only 2 × 3 — the terms changed by different factors",
+        "The cross products 8 × 6 and 3 × 24 are both equal to 48",
+        "24 − 8 = 16 but 6 − 3 = 3 — the differences are not equal",
+        "24 : 6 reduces to 8 : 3 but 8 : 3 cannot be reduced further"
+      ],
+      "answer": 0,
+      "explanation": "For a true proportion both terms must change by the same factor. 8 → 24 is ×3 while 3 → 6 is ×2 (cross products 48 ≠ 72). Differences are irrelevant.",
+      "source": "exercise:p165-Q1"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Checking if Ratios are Proportional",
+      "question": "Is 24 : 8 :: 9 : 3 a true proportion?",
+      "options": [
+        "Yes, since 24 − 9 = 15 and 8 − 3 = 5",
+        "Yes, both reduce to 3 : 1",
+        "No, 24 : 8 reduces to 4 : 1",
+        "No, 24 is not a multiple of 9"
+      ],
+      "answer": 1,
+      "explanation": "24 ÷ 8 = 3 and 9 ÷ 3 = 3, so both are 3 : 1 (cross products 24 × 3 = 72 = 8 × 9). The factor between the ratios is 3/8 — it need not be a whole number.",
+      "source": "exercise:p165-Q1"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Checking if Ratios are Proportional",
+      "question": "In a brick-wall pattern, one repeating block has 2 + 3 + 4 grey bricks and 3 + 2 + 1 coloured bricks. What is the ratio of grey to coloured bricks in simplest form?",
+      "options": [
+        "2 : 3",
+        "4 : 3",
+        "3 : 2",
+        "9 : 6"
+      ],
+      "answer": 2,
+      "explanation": "Grey = 9, coloured = 6, so 9 : 6; dividing by the HCF 3 gives 3 : 2. Because the pattern repeats, the whole wall has the same ratio.",
+      "source": "exercise:p166-Q6"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Checking if Ratios are Proportional",
+      "question": "In the second brick-wall pattern, one block has 16 grey bricks and 12 coloured bricks. What is the ratio of grey to coloured bricks in simplest form?",
+      "options": [
+        "3 : 4",
+        "8 : 6",
+        "3 : 2",
+        "4 : 3"
+      ],
+      "answer": 3,
+      "explanation": "16 : 12, divided by the HCF 4, is 4 : 3. (8 : 6 is not fully reduced; 3 : 4 reverses the order.)",
+      "source": "exercise:p166-Q6"
+    },
+    {
+      "id": "q28",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Checking if Ratios are Proportional",
+      "question": "Select ALL the statements of proportion that are TRUE.",
+      "options": [
+        "4 : 7 :: 12 : 21",
+        "8 : 3 :: 24 : 6",
+        "21 : 6 :: 35 : 10",
+        "12 : 18 :: 28 : 12",
+        "7 : 12 :: 12 : 7"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "4 : 7 → ×3 gives 12 : 21 (4 × 21 = 7 × 12 = 84). 21 : 6 and 35 : 10 both reduce to 7 : 2 (21 × 10 = 6 × 35 = 210). The others fail the cross-product test.",
+      "source": "exercise:p165-Q1"
+    },
+    {
+      "id": "q29",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Checking if Ratios are Proportional",
+      "question": "7 : 12 :: 12 : 7 is a true proportion because both ratios use the same two numbers.",
+      "answer": false,
+      "explanation": "Order matters. 7 : 12 and 12 : 7 are different relationships, and cross-multiplying gives 7 × 7 = 49 ≠ 12 × 12 = 144.",
+      "source": "exercise:p165-Q1"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Finding the Missing Term",
+      "question": "Kesang used 10 spoons of sugar for 6 glasses of lemonade. How many spoons keep the same sweetness for 18 glasses?",
+      "options": [
+        "30 spoons",
+        "22 spoons",
+        "36 spoons",
+        "28 spoons"
+      ],
+      "answer": 0,
+      "explanation": "6 : 10 :: 18 : ?. The first term grew by the factor 18 ÷ 6 = 3, so the sugar must also triple: 10 × 3 = 30. Adding 12 (6 → 18) to get 22 is the additive slip.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Finding the Missing Term",
+      "question": "Which ratio with second term 42 is proportional to 14 : 21?",
+      "options": [
+        "21 : 42",
+        "24 : 42",
+        "28 : 42",
+        "35 : 42"
+      ],
+      "answer": 2,
+      "explanation": "42 is 2 × 21, so the first term must be 2 × 14 = 28. (21 : 42 = 1 : 2 and 35 : 42 = 5 : 6 are different from 2 : 3.)",
+      "source": "text:page6"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Finding the Missing Term",
+      "question": "Fill the blank so that 6 : ___ is proportional to 14 : 21.",
+      "options": [
+        "13",
+        "12",
+        "7",
+        "9"
+      ],
+      "answer": 3,
+      "explanation": "14y = 6 gives y = 6/14 = 3/7, and 21 × 3/7 = 9. Subtracting 8 from both terms (14 → 6, 21 → 13) is the trap — ratios change by multiplication.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Finding the Missing Term",
+      "question": "Fill the blank so that 2 : ___ is proportional to 14 : 21.",
+      "options": [
+        "2",
+        "3",
+        "9",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "14 ÷ 7 = 2, so divide 21 by the same 7 to get 3. In fact 2 : 3 is the simplest form of 14 : 21.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Finding the Missing Term",
+      "question": "The ratios 3 : 4, 12 : ___, 20 : ___ and 27 : ___ are proportional to 18 : 24. What is the missing term in 12 : ___?",
+      "options": [
+        "15",
+        "14",
+        "16",
+        "18"
+      ],
+      "answer": 2,
+      "explanation": "18 : 24 = 3 : 4, so the second term is 4/3 of the first: 12 × 4/3 = 16. (18 would come from adding 6, the slip.)",
+      "source": "exercise:p165-Q3"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Finding the Missing Term",
+      "question": "Which value makes 20 : ___ proportional to 18 : 24?",
+      "options": [
+        "81/3",
+        "78/3",
+        "84/3",
+        "80/3"
+      ],
+      "answer": 3,
+      "explanation": "The second term is 4/3 of the first: 20 × 4/3 = 80/3 = 26⅔. Proportional terms need not be whole numbers; 81/3 = 27 and 84/3 = 28 are near-misses.",
+      "source": "exercise:p165-Q3"
+    },
+    {
+      "id": "q36",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Finding the Missing Term",
+      "question": "Select ALL the ratios that are proportional to 4 : 9.",
+      "options": [
+        "8 : 18",
+        "12 : 27",
+        "8 : 13",
+        "9 : 4",
+        "16 : 32"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Multiply both terms by the same factor: ×2 → 8 : 18, ×3 → 12 : 27 (the book also gives ×4 → 16 : 36). 8 : 13 adds 4 to both; 9 : 4 reverses the order; 16 : 32 is 1 : 2.",
+      "source": "exercise:p165-Q2"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adding vs Multiplying Terms",
+      "question": "When Neelima was 3, her mother was 10 times her age. What was the ratio of Neelima's age to her mother's age in simplest form?",
+      "options": [
+        "1 : 13",
+        "1 : 10",
+        "1 : 9",
+        "3 : 10"
+      ],
+      "answer": 1,
+      "explanation": "Mother's age = 3 × 10 = 30, so the ratio is 3 : 30 = 1 : 10.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adding vs Multiplying Terms",
+      "question": "Nine years later Neelima is 12 and her mother is 39. What is the ratio of their ages now in simplest form?",
+      "options": [
+        "3 : 13",
+        "12 : 39",
+        "4 : 13",
+        "1 : 10"
+      ],
+      "answer": 2,
+      "explanation": "12 : 39 ÷ 3 = 4 : 13. It is no longer 1 : 10 because 9 years were ADDED to both ages, not multiplied.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adding vs Multiplying Terms",
+      "question": "Why did the Neelima–mother age ratio change from 1 : 10 to 4 : 13?",
+      "options": [
+        "The mother's age was not exactly 10 times 12 because of a rounding slip",
+        "The starting ratio 1 : 10 was never in its simplest form to begin with",
+        "Ages must always be compared in months rather than in years",
+        "9 was added to both terms, not multiplied — so the ratio is not preserved"
+      ],
+      "answer": 3,
+      "explanation": "Adding (or subtracting) the same number to both terms changes a ratio; only multiplying both terms by the same factor keeps it proportional.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adding vs Multiplying Terms",
+      "question": "Harmain is 1 year old and her brother is 5. How old will Harmain be when the ratio of her age to her brother's is 1 : 2?",
+      "options": [
+        "4 years",
+        "3 years",
+        "5 years",
+        "6 years"
+      ],
+      "answer": 0,
+      "explanation": "After x years (1 + x) : (5 + x) = 1 : 2 → 2(1 + x) = 5 + x → x = 3. Harmain will be 1 + 3 = 4 (and her brother 8). '3 years' is the time, not her age.",
+      "source": "exercise:p176-Q6"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adding vs Multiplying Terms",
+      "question": "In how many years from now will Harmain (1) be exactly half her brother's (5) age?",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "2"
+      ],
+      "answer": 1,
+      "explanation": "2(1 + x) = 5 + x gives x = 3: in 3 years the ages are 4 and 8. The common slip is answering 4, which is Harmain's age at that time.",
+      "source": "exercise:p176-Q6"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adding vs Multiplying Terms",
+      "question": "At which later pair of ages will Neelima and her mother again be in the ratio 1 : 10?",
+      "options": [
+        "Neelima 12, mother 39",
+        "Neelima 30, mother 57",
+        "No later pair of ages",
+        "Neelima 6, mother 60"
+      ],
+      "answer": 2,
+      "explanation": "Both gain the same number of years, so the 27-year gap stays fixed while the ratio keeps changing — 1 : 10 (gap 27 at 3 and 30) never returns. 6 and 60 would need a 54-year gap.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q43",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Adding vs Multiplying Terms",
+      "question": "Adding the same number to both terms of a ratio always gives a ratio proportional to the original.",
+      "answer": false,
+      "explanation": "3 : 30 = 1 : 10, but adding 9 gives 12 : 39 = 4 : 13 — a different ratio. The chapter states the ratio 'is not necessarily proportional' after adding.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q44",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Adding vs Multiplying Terms",
+      "question": "Multiplying both terms of a ratio by the same fraction, such as 3/7, gives a ratio proportional to the original.",
+      "answer": true,
+      "explanation": "14 : 21 × 3/7 gives 6 : 9, which the chapter shows is proportional to 14 : 21. The factor need not be a whole number.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q45",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Adding vs Multiplying Terms",
+      "question": "Select ALL the operations that keep a ratio proportional to 14 : 21.",
+      "options": [
+        "Multiplying both terms by 2",
+        "Dividing both terms by 7",
+        "Adding 7 to both terms",
+        "Subtracting 7 from both terms",
+        "Multiplying only the second term by 2"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "×2 gives 28 : 42 and ÷7 gives 2 : 3, both proportional. Adding/subtracting 7 (21 : 28, 7 : 14) or scaling one term only changes the ratio.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Filter Coffee: Stronger or Lighter",
+      "question": "Manjunath's regular filter coffee uses 15 mL decoction with 35 mL milk. What is the decoction-to-milk ratio in simplest form?",
+      "options": [
+        "5 : 7",
+        "3 : 5",
+        "1 : 3",
+        "3 : 7"
+      ],
+      "answer": 3,
+      "explanation": "HCF of 15 and 35 is 5: 15 ÷ 5 = 3, 35 ÷ 5 = 7.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Filter Coffee: Stronger or Lighter",
+      "question": "For 'stronger' coffee he mixes 20 mL decoction with 30 mL milk. What is this ratio in simplest form?",
+      "options": [
+        "2 : 3",
+        "3 : 2",
+        "2 : 5",
+        "1 : 4"
+      ],
+      "answer": 0,
+      "explanation": "20 : 30 ÷ 10 = 2 : 3. (1 : 4 is the light coffee 10 : 40.)",
+      "source": "text:page6"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Filter Coffee: Stronger or Lighter",
+      "question": "Why is the 20 : 30 coffee stronger than the regular 15 : 35 coffee?",
+      "options": [
+        "20 : 30 has a bigger HCF than 15 : 35, so the coffee is stronger",
+        "There is more decoction for every mL of milk (2/3 instead of 3/7)",
+        "20 + 30 = 50 is the same total volume as 15 + 35, so it tastes stronger",
+        "Milk alone decides strength, and 30 mL is less than 35 mL"
+      ],
+      "answer": 1,
+      "explanation": "Strength depends on the proportion of decoction to milk: 2/3 ≈ 0.67 mL of decoction per mL of milk versus 3/7 ≈ 0.43 for regular coffee.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Filter Coffee: Stronger or Lighter",
+      "question": "In the table, 300 mL decoction is mixed with 600 mL milk. Compared with regular coffee (15 : 35), this coffee is…",
+      "options": [
+        "Regular — 300 : 600 reduces to 3 : 7 just like 15 : 35",
+        "Regular — 300 and 600 are both 20 times the regular amounts",
+        "Stronger — 1 : 2 has more decoction per mL of milk than 3 : 7",
+        "Lighter — 1 : 2 has less decoction per mL of milk than 3 : 7"
+      ],
+      "answer": 2,
+      "explanation": "300 : 600 = 1 : 2 = 0.5 decoction per mL of milk; regular is 3/7 ≈ 0.43. More decoction per mL of milk means stronger. (20 × 35 = 700, not 600.)",
+      "source": "text:page7"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Filter Coffee: Stronger or Lighter",
+      "question": "150 mL decoction with 500 mL milk gives which kind of coffee compared with regular 15 : 35?",
+      "options": [
+        "Stronger",
+        "Regular",
+        "Cannot tell",
+        "Lighter"
+      ],
+      "answer": 3,
+      "explanation": "150 : 500 = 3 : 10 = 0.3 decoction per mL of milk, less than regular's 3/7 ≈ 0.43, so it is lighter.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Filter Coffee: Stronger or Lighter",
+      "question": "24 mL decoction with 56 mL milk is…",
+      "options": [
+        "Regular (same as 3 : 7)",
+        "Stronger (same as 2 : 3)",
+        "Lighter (same as 1 : 4)",
+        "Lighter (same as 3 : 10)"
+      ],
+      "answer": 0,
+      "explanation": "24 : 56 ÷ 8 = 3 : 7, exactly the regular recipe 15 : 35.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Filter Coffee: Stronger or Lighter",
+      "question": "Which statement about 100 mL decoction with 300 mL milk is correct?",
+      "options": [
+        "Exactly the same strength as the light recipe 10 : 40",
+        "Lighter than regular 3 : 7 but stronger than light 1 : 4",
+        "Lighter than both the regular coffee and the light recipe",
+        "Stronger than both the regular coffee and the light recipe"
+      ],
+      "answer": 1,
+      "explanation": "100 : 300 = 1 : 3 ≈ 0.33 decoction per mL of milk. That is below regular (3/7 ≈ 0.43) but above the light recipe (1/4 = 0.25).",
+      "source": "text:page7"
+    },
+    {
+      "id": "q53",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Filter Coffee: Stronger or Lighter",
+      "question": "Select ALL the mixes (decoction : milk, in mL) that are STRONGER than regular coffee 15 : 35.",
+      "options": [
+        "300 : 600",
+        "200 : 400",
+        "150 : 500",
+        "24 : 56",
+        "100 : 300"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "300 : 600 and 200 : 400 are both 1 : 2 (0.5 decoction per mL of milk) > 3/7. 150 : 500 (0.3) and 100 : 300 (0.33) are lighter; 24 : 56 equals 3 : 7 (regular).",
+      "source": "text:page7"
+    },
+    {
+      "id": "q54",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Filter Coffee: Stronger or Lighter",
+      "question": "Light coffee made with 10 mL decoction and 40 mL milk has a decoction-to-milk ratio of 1 : 4 in simplest form.",
+      "answer": true,
+      "explanation": "10 : 40 ÷ 10 = 1 : 4, which has less decoction per mL of milk than regular 3 : 7, so it is lighter.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q55",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Filter Coffee: Stronger or Lighter",
+      "question": "Coffee made with 200 mL decoction and 400 mL milk is lighter than regular coffee because it uses far more milk (400 mL instead of 35 mL).",
+      "answer": false,
+      "explanation": "Strength depends on the RATIO, not the absolute amount of milk. 200 : 400 = 1 : 2 has more decoction per mL of milk than 3 : 7, so it is stronger.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rule of Three & Cross Multiplication",
+      "question": "If a : b :: c : d, which equation always holds?",
+      "options": [
+        "ac = bd",
+        "a + d = b + c",
+        "ad = bc",
+        "ab = cd"
+      ],
+      "answer": 2,
+      "explanation": "Because c = fa and d = fb for the same factor f, c/a = d/b; multiplying both sides by ab gives bc = ad. This is cross multiplication.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rule of Three & Cross Multiplication",
+      "question": "In a : b :: c : d, the unknown fourth term d equals…",
+      "options": [
+        "ac/b",
+        "ab/c",
+        "ad/b",
+        "bc/a"
+      ],
+      "answer": 3,
+      "explanation": "From ad = bc, divide both sides by a: d = bc/a — multiply the two middle terms and divide by the first.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rule of Three & Cross Multiplication",
+      "question": "In a 'Rule of Three' problem, how many of the four proportional quantities are known?",
+      "options": [
+        "Three known, one unknown",
+        "Two known, two unknown",
+        "Four known, one unknown",
+        "One known, three unknown"
+      ],
+      "answer": 0,
+      "explanation": "Four quantities are linked proportionally; three are given and the fourth must be found — hence the name Rule of Three (Trairāśika).",
+      "source": "text:page9"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rule of Three & Cross Multiplication",
+      "question": "In Āryabhaṭa's Rule of Three, the given 'measure' (our term a) is called the…",
+      "options": [
+        "ichchhāphala",
+        "pramāṇa",
+        "phala",
+        "ichchhā"
+      ],
+      "answer": 1,
+      "explanation": "pramāṇa = measure (a), phala = fruit (b), ichchhā = requisition (c), ichchhāphala = yield (d).",
+      "source": "text:page10"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rule of Three & Cross Multiplication",
+      "question": "Which sentence states Āryabhaṭa's rule for finding the yield (ichchhāphala)?",
+      "options": [
+        "Multiply the phala by the pramāṇa and divide by the ichchhā",
+        "Add the phala to the ichchhā and divide by the pramāṇa",
+        "Multiply the phala by the ichchhā and divide by the pramāṇa",
+        "Multiply the pramāṇa by the ichchhā and divide by the phala"
+      ],
+      "answer": 2,
+      "explanation": "ichchhāphala = (phala × ichchhā) ÷ pramāṇa, which is exactly d = bc/a in modern notation.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rule of Three & Cross Multiplication",
+      "question": "For the mid-day meal, 15 kg of rice feeds 120 students. On a rainy day only 80 students come. How much rice should the cook make?",
+      "options": [
+        "12 kg",
+        "8 kg",
+        "5 kg",
+        "10 kg"
+      ],
+      "answer": 3,
+      "explanation": "120 : 15 :: 80 : ?. The factor is 80/120 = 2/3, so rice = 15 × 2/3 = 10 kg (or 15 × 80 ÷ 120 = 10).",
+      "source": "text:page9"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rule of Three & Cross Multiplication",
+      "question": "A car covers 90 km in 150 minutes. At the same speed, how far does it travel in 4 hours?",
+      "options": [
+        "144 km",
+        "135 km",
+        "160 km",
+        "120 km"
+      ],
+      "answer": 0,
+      "explanation": "Convert 4 h to 240 min, then 150 : 90 :: 240 : x → x = 240 × 90 ÷ 150 = 144 km. (Using 4 instead of 240 would give a meaningless answer.)",
+      "source": "text:page11"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rule of Three & Cross Multiplication",
+      "question": "WHY does ad = bc hold whenever a : b :: c : d?",
+      "options": [
+        "Because a × b always equals c × d when ratios are proportional",
+        "Because d is always the largest of the four terms in a proportion",
+        "c = f × a and d = f × b for the same factor f, so c/a = d/b",
+        "Because a + d always equals b + c when ratios are proportional"
+      ],
+      "answer": 2,
+      "explanation": "Both terms change by the same factor f, giving f = c/a = d/b; multiplying both sides by ab yields bc = ad.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q64",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Rule of Three & Cross Multiplication",
+      "question": "Select ALL the correct matches between Āryabhaṭa's terms and a : b :: c : d.",
+      "options": [
+        "phala corresponds to b (the fruit)",
+        "ichchhā corresponds to c (the requisition)",
+        "pramāṇa corresponds to d (the yield)",
+        "ichchhāphala corresponds to a (the measure)",
+        "phala corresponds to c (the requisition)"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "pramāṇa = a (measure), phala = b (fruit), ichchhā = c (requisition), ichchhāphala = d (yield).",
+      "source": "text:page10"
+    },
+    {
+      "id": "q65",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Rule of Three & Cross Multiplication",
+      "question": "In a : b :: c : d, the term c must always be a whole-number multiple of a.",
+      "answer": false,
+      "explanation": "The factor can be a fraction: in 120 : 15 :: 80 : 10 the factor is 2/3, and in 14 : 21 :: 6 : 9 it is 3/7.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Same Units, Fair Comparison",
+      "question": "Why is 150 : 90 :: 4 : ? the WRONG way to set up the car problem (90 km in 150 minutes, distance in 4 hours)?",
+      "options": [
+        "90 km should first be converted into metres before forming the ratio",
+        "Distance should be written first in both ratios, not time",
+        "4 hours is far too small a number to compare with 150 minutes",
+        "150 is in minutes but 4 is in hours — both ratios must use the same unit"
+      ],
+      "answer": 3,
+      "explanation": "Time appears in both ratios, so it must be in the same unit: 4 hours = 240 minutes, giving 150 : 90 :: 240 : ?.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Same Units, Fair Comparison",
+      "question": "How many minutes are there in 4 hours?",
+      "options": [
+        "240",
+        "400",
+        "180",
+        "200"
+      ],
+      "answer": 0,
+      "explanation": "4 × 60 = 240 minutes — the conversion needed before applying the Rule of Three in Example 9.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Same Units, Fair Comparison",
+      "question": "Himachal tea: 200 g for ₹200. Meghalaya tea: 1 kg for ₹800. In grams, what are the two weight-to-price ratios in simplest form?",
+      "options": [
+        "5 : 4 and 1 : 1",
+        "1 : 1 and 5 : 4",
+        "1 : 1 and 1 : 800",
+        "1 : 1 and 4 : 5"
+      ],
+      "answer": 1,
+      "explanation": "200 : 200 = 1 : 1. Convert 1 kg to 1000 g: 1000 : 800 = 5 : 4. The ratios are not proportional.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Same Units, Fair Comparison",
+      "question": "Which tea is more expensive, and why?",
+      "options": [
+        "Neither — the ratios 1 : 1 and 5 : 4 are proportional, so prices match",
+        "Meghalaya — a 1 kg packet always costs more than a 200 g packet",
+        "Himachal — 1 kg would cost ₹1,000, more than Meghalaya's ₹800",
+        "Meghalaya — ₹800 for a packet is more than ₹200 for a packet"
+      ],
+      "answer": 2,
+      "explanation": "Compare the price for the SAME weight: 200 g is 1/5 kg, so 1 kg of Himachal tea costs 200 × 5 = ₹1,000 > ₹800.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Same Units, Fair Comparison",
+      "question": "The Earth travels about 940 million km around the Sun in a year. Roughly how far does it travel in one week?",
+      "options": [
+        "About 18.1 million km",
+        "About 2.6 million km",
+        "About 78.3 million km",
+        "About 94 million km"
+      ],
+      "answer": 0,
+      "explanation": "A year has 52 weeks: 940,000,000 ÷ 52 ≈ 18,076,923 km. Dividing by 365 (≈2.6 million) or 12 (≈78 million) uses the wrong unit.",
+      "source": "exercise:p170-Q1"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Same Units, Fair Comparison",
+      "question": "A mason needs about 1450 bricks for a 10 ft wall. The outer and inner walls of a house total 108 ft. How many bricks are needed?",
+      "options": [
+        "16,200",
+        "15,660",
+        "14,500",
+        "15,450"
+      ],
+      "answer": 1,
+      "explanation": "10 : 1450 :: 108 : x → x = 1450 × 108 ÷ 10 = 15,660 bricks.",
+      "source": "exercise:p170-Q2"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Same Units, Fair Comparison",
+      "question": "Delhi: 1,484 sq km, about 30 million people. Mumbai: 550 sq km, about 20 million. Which city is more crowded?",
+      "options": [
+        "Delhi — its area of 1,484 sq km is much larger than Mumbai's",
+        "Mumbai — about 20,000 people per sq km versus about 36,000 in Delhi",
+        "Mumbai — about 36,000 people per sq km versus about 20,000 in Delhi",
+        "Delhi — 30 million people is more than 20 million people"
+      ],
+      "answer": 2,
+      "explanation": "Compare people per sq km: Delhi 30,000,000 ÷ 1484 ≈ 20,216; Mumbai 20,000,000 ÷ 550 ≈ 36,364. Mumbai packs more people into each sq km.",
+      "source": "exercise:p176-Q3"
+    },
+    {
+      "id": "q73",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Same Units, Fair Comparison",
+      "question": "To decide which tea is more expensive, the chapter compares the prices for the same weight of tea.",
+      "answer": true,
+      "explanation": "Prices are only comparable for equal weights; that is why the cost of 1 kg of Himachal tea (₹1,000) is worked out and compared with ₹800.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q74",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Same Units, Fair Comparison",
+      "question": "The weight-to-price ratio of Meghalaya tea can be written as 1 : 800 and compared directly with Himachal's 200 : 200.",
+      "answer": false,
+      "explanation": "1 : 800 mixes kilograms with the grams used for Himachal. Convert to grams first: 1000 : 800 = 5 : 4.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "When Rule of Three Does Not Apply",
+      "question": "Puneeth's father rode from Lucknow to Kanpur in 2 hours at 50 km/h. Why can't 50 : 2 :: 75 : ? give the time at 75 km/h?",
+      "options": [
+        "75 km/h is not a whole-number multiple of 50 km/h",
+        "Speed and time are measured in two different units",
+        "The distance between Lucknow and Kanpur is not given",
+        "Time DECREASES as speed increases — not a direct proportion"
+      ],
+      "answer": 3,
+      "explanation": "The Rule of Three assumes both quantities grow by the same factor. Here a faster speed means LESS time, so the proportion model fails.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "When Rule of Three Does Not Apply",
+      "question": "Using the chapter's data (2 hours at 50 km/h), how far is Kanpur from Lucknow?",
+      "options": [
+        "100 km",
+        "150 km",
+        "75 km",
+        "125 km"
+      ],
+      "answer": 0,
+      "explanation": "Distance = speed × time = 50 × 2 = 100 km.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "When Rule of Three Does Not Apply",
+      "question": "How long would Puneeth's father take at 75 km/h for the 100 km trip?",
+      "options": [
+        "2 hours 40 minutes",
+        "1 hour 20 minutes",
+        "3 hours",
+        "1 hour 30 minutes"
+      ],
+      "answer": 1,
+      "explanation": "100 ÷ 75 = 4/3 hours = 80 minutes. The wrong Rule of Three (50 : 2 :: 75 : 3) gives 3 hours — more time for a faster ride, which is absurd.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "When Rule of Three Does Not Apply",
+      "question": "Shampoo sachet: 6 mL for ₹2. Small bottle: 180 mL for ₹154. Is price proportional to volume?",
+      "options": [
+        "Yes — both ratios reduce to 1 : 77",
+        "No — 6 : 180 is 1 : 77 but 2 : 154 is 1 : 30",
+        "No — 6 : 180 is 1 : 30 but 2 : 154 is 1 : 77",
+        "Yes — both ratios reduce to 1 : 30"
+      ],
+      "answer": 2,
+      "explanation": "Volume grows 30 times but price grows 77 times, so the ratios are not proportional.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "When Rule of Three Does Not Apply",
+      "question": "Sachet 6 mL ₹2; small 180 mL ₹154; medium 340 mL ₹276; large 1000 mL ₹540. Which container is CHEAPEST per mL?",
+      "options": [
+        "Small bottle (180 mL for ₹154)",
+        "Medium bottle (340 mL for ₹276)",
+        "Large bottle (1000 mL for ₹540)",
+        "Sachet (6 mL for ₹2)"
+      ],
+      "answer": 3,
+      "explanation": "Price per mL: sachet 2/6 ≈ ₹0.33, small ≈ ₹0.86, medium ≈ ₹0.81, large ₹0.54. Surprisingly the sachet is cheapest per mL in this sample table.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "When Rule of Three Does Not Apply",
+      "question": "From the same shampoo table, which container is the MOST expensive per mL?",
+      "options": [
+        "Small bottle (180 mL for ₹154)",
+        "Sachet (6 mL for ₹2)",
+        "Medium bottle (340 mL for ₹276)",
+        "Large bottle (1000 mL for ₹540)"
+      ],
+      "answer": 0,
+      "explanation": "154 ÷ 180 ≈ ₹0.86 per mL, higher than medium (≈ ₹0.81), large (₹0.54) and sachet (≈ ₹0.33).",
+      "source": "text:page13"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "When Rule of Three Does Not Apply",
+      "question": "A tractor ploughs 4 times faster than a pair of oxen, which take 6 hours per acre. How long does the tractor take per acre?",
+      "options": [
+        "2 hours",
+        "4 hours",
+        "1.5 hours",
+        "24 hours"
+      ],
+      "answer": 2,
+      "explanation": "Faster means LESS time: 6 ÷ 4 = 1.5 hours. Multiplying (6 × 4 = 24) is the Rule-of-Three trap for an inverse situation.",
+      "source": "exercise:p176-Q11"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "When Rule of Three Does Not Apply",
+      "question": "The farmer's field is 20 acres. How long would the pair of oxen and the tractor each take?",
+      "options": [
+        "Oxen 120 hours, tractor 480 hours",
+        "Oxen 26 hours, tractor 6.5 hours",
+        "Oxen 30 hours, tractor 120 hours",
+        "Oxen 120 hours, tractor 30 hours"
+      ],
+      "answer": 3,
+      "explanation": "Oxen: 20 × 6 = 120 h. Tractor: 20 × 1.5 = 30 h (one quarter of the oxen's time).",
+      "source": "exercise:p176-Q11"
+    },
+    {
+      "id": "q83",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "When Rule of Three Does Not Apply",
+      "question": "Every problem that gives three related numbers and asks for a fourth can be solved with the Rule of Three.",
+      "answer": false,
+      "explanation": "The speed–time problem (50 km/h, 2 h, 75 km/h) looks like a Rule of Three but is not: time falls as speed rises, so 50 : 2 :: 75 : ? is invalid.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sharing in a Given Ratio",
+      "question": "Two friends share 12 counters equally. What is the ratio of their counters in simplest form?",
+      "options": [
+        "1 : 1",
+        "1 : 2",
+        "2 : 1",
+        "1 : 6"
+      ],
+      "answer": 0,
+      "explanation": "Each gets 6, so the ratio is 6 : 6 = 1 : 1.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sharing in a Given Ratio",
+      "question": "If your partner takes 5 of the 12 counters, what is the ratio of your partner's counters to yours?",
+      "options": [
+        "5 : 6",
+        "5 : 7",
+        "5 : 12",
+        "7 : 5"
+      ],
+      "answer": 1,
+      "explanation": "You get 12 − 5 = 7, so partner : you = 5 : 7 (already in simplest form).",
+      "source": "text:page15"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sharing in a Given Ratio",
+      "question": "12 counters are shared in the ratio 3 : 1. How many does each person get?",
+      "options": [
+        "6 and 2",
+        "10 and 2",
+        "9 and 3",
+        "8 and 4"
+      ],
+      "answer": 2,
+      "explanation": "Hand out 3 and 1 repeatedly: three rounds use all 12, giving 9 and 3. Equivalently 12 ÷ 4 = 3 per group, so 3 × 3 = 9 and 1 × 3 = 3.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sharing in a Given Ratio",
+      "question": "A quantity x is divided in the ratio m : n. What is the first part?",
+      "options": [
+        "n × x/(m + n)",
+        "m × x/(m + n)",
+        "m × x/n",
+        "x/(m + n)"
+      ],
+      "answer": 1,
+      "explanation": "x is split into m + n equal groups of size x/(m + n); the first share has m of these groups. x/(m + n) alone is just one group.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sharing in a Given Ratio",
+      "question": "Prashanti invested ₹75,000 and Bhuvan ₹25,000. A profit of ₹4,000 is shared in the ratio of their investments. What is Prashanti's share?",
+      "options": [
+        "₹2,500",
+        "₹1,000",
+        "₹3,000",
+        "₹2,000"
+      ],
+      "answer": 2,
+      "explanation": "75000 : 25000 = 3 : 1, so 4 groups of 4000 ÷ 4 = 1000; Prashanti gets 3 × 1000 = ₹3,000 and Bhuvan ₹1,000.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sharing in a Given Ratio",
+      "question": "Divide ₹4,500 into two parts in the ratio 2 : 3.",
+      "options": [
+        "₹2,250 and ₹2,250",
+        "₹1,500 and ₹3,000",
+        "₹2,000 and ₹2,500",
+        "₹1,800 and ₹2,700"
+      ],
+      "answer": 3,
+      "explanation": "2 + 3 = 5 groups of 4500 ÷ 5 = 900. Parts: 2 × 900 = 1800 and 3 × 900 = 2700.",
+      "source": "exercise:p175-Q1"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sharing in a Given Ratio",
+      "question": "Acid and water are mixed in the ratio 1 : 5. How much of each is in 240 mL of the solution?",
+      "options": [
+        "40 mL acid, 200 mL water",
+        "48 mL acid, 192 mL water",
+        "40 mL acid, 240 mL water",
+        "60 mL acid, 180 mL water"
+      ],
+      "answer": 0,
+      "explanation": "6 groups of 240 ÷ 6 = 40 mL: acid 1 × 40 = 40 mL, water 5 × 40 = 200 mL. Treating 240 as the water (not the whole) is the slip.",
+      "source": "exercise:p175-Q2"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sharing in a Given Ratio",
+      "question": "Soft idlis need rice and urad dal in the ratio 2 : 1. For 6 cups of mixture, how much of each is needed?",
+      "options": [
+        "4 cups rice, 1 cup dal",
+        "4 cups rice, 2 cups dal",
+        "3 cups rice, 3 cups dal",
+        "2 cups rice, 4 cups dal"
+      ],
+      "answer": 1,
+      "explanation": "3 groups of 6 ÷ 3 = 2 cups: rice 2 × 2 = 4 cups, dal 1 × 2 = 2 cups.",
+      "source": "exercise:p175-Q4"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sharing in a Given Ratio",
+      "question": "A crane 155 cm tall has its neck and the rest of its body in the ratio 4 : 6. How long is its neck?",
+      "options": [
+        "39 cm",
+        "52 cm",
+        "62 cm",
+        "93 cm"
+      ],
+      "answer": 2,
+      "explanation": "Neck = 4/(4 + 6) × 155 = 4/10 × 155 = 62 cm; the rest is 93 cm. Picking 93 confuses neck with body.",
+      "source": "exercise:p176-Q4"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sharing in a Given Ratio",
+      "question": "A ₹10 coin has mass 7.74 g and is copper and nickel in the ratio 3 : 1. What is the mass of copper in it?",
+      "options": [
+        "1.935 g",
+        "2.580 g",
+        "5.160 g",
+        "5.805 g"
+      ],
+      "answer": 3,
+      "explanation": "Copper = 3/4 × 7.74 = 5.805 g; nickel = 1/4 × 7.74 = 1.935 g.",
+      "source": "exercise:p176-Q12"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sharing in a Given Ratio",
+      "question": "Copper costs ₹906 per kg and nickel ₹1,341 per kg. What is the approximate total value of the metal in the 7.74 g ₹10 coin?",
+      "options": [
+        "About ₹7.85",
+        "About ₹5.26",
+        "About ₹10.00",
+        "About ₹2.59"
+      ],
+      "answer": 0,
+      "explanation": "Copper: 5.805 g × 906/1000 ≈ ₹5.26; nickel: 1.935 g × 1341/1000 ≈ ₹2.59; total ≈ ₹7.85 — less than the coin's face value.",
+      "source": "exercise:p176-Q12"
+    },
+    {
+      "id": "q95",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Sharing in a Given Ratio",
+      "question": "Dividing 12 counters in the ratio 3 : 1 means one person gets 3 counters and the other gets 1.",
+      "answer": false,
+      "explanation": "3 : 1 is the ratio of the shares, not the shares themselves: 12 ÷ (3 + 1) = 3 per group, so the shares are 9 and 3.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q96",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Sharing in a Given Ratio",
+      "question": "42 counters are shared in the ratio 4 : 3. Select ALL the correct statements.",
+      "options": [
+        "There are 7 groups in total",
+        "Each group has 6 counters",
+        "The larger share is 28 counters",
+        "The smaller share is 21 counters",
+        "Each group has 7 counters"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "4 + 3 = 7 groups of 42 ÷ 7 = 6 counters each; shares are 24 and 18. 28 and 21 come from wrong group sizes.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Changing a Mixture's Ratio",
+      "question": "A 40 kg mixture has sand and cement in the ratio 3 : 1. How much sand does it contain?",
+      "options": [
+        "20 kg",
+        "30 kg",
+        "10 kg",
+        "25 kg"
+      ],
+      "answer": 1,
+      "explanation": "Sand = 3/(3 + 1) × 40 = 30 kg; cement = 1/4 × 40 = 10 kg.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Changing a Mixture's Ratio",
+      "question": "How much cement must be ADDED to the original 40 kg mixture (3 : 1) to make the ratio 5 : 2?",
+      "options": [
+        "12 kg",
+        "5 kg",
+        "4 kg",
+        "2 kg"
+      ],
+      "answer": 3,
+      "explanation": "New cement needed is 12 kg and 10 kg is already present, so add 12 − 10 = 2 kg. (12 kg is the total, not the addition.)",
+      "source": "text:page17"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Changing a Mixture's Ratio",
+      "question": "In Example 12, why does the sand remain 30 kg in the new mixture?",
+      "options": [
+        "Only cement is added — the quantity of sand is not changed",
+        "Sand is always 3/4 of any sand-and-cement mixture",
+        "The new ratio 5 : 2 also gives 30 kg of sand for a 40 kg mixture",
+        "Both sand and cement are added in the ratio 5 : 2"
+      ],
+      "answer": 0,
+      "explanation": "The question adds cement only, so sand stays at 30 kg and the cement must rise to 2/5 × 30 = 12 kg. (5/7 of 40 is about 28.6, not 30.)",
+      "source": "text:page17"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Changing a Mixture's Ratio",
+      "question": "Blue and yellow paints are mixed in the ratio 3 : 5. How much of each is needed for 40 mL of green paint?",
+      "options": [
+        "15 mL blue, 20 mL yellow",
+        "15 mL blue, 25 mL yellow",
+        "25 mL blue, 15 mL yellow",
+        "16 mL blue, 24 mL yellow"
+      ],
+      "answer": 1,
+      "explanation": "8 groups of 40 ÷ 8 = 5 mL: blue 3 × 5 = 15 mL, yellow 5 × 5 = 25 mL.",
+      "source": "exercise:p175-Q3"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Changing a Mixture's Ratio",
+      "question": "To the 40 mL of green paint (15 mL blue, 25 mL yellow) 20 mL of yellow is added. What is the new blue-to-yellow ratio?",
+      "options": [
+        "1 : 2",
+        "3 : 7",
+        "1 : 3",
+        "3 : 5"
+      ],
+      "answer": 2,
+      "explanation": "Blue stays 15 mL; yellow becomes 25 + 20 = 45 mL. 15 : 45 = 1 : 3 — lighter green than 3 : 5.",
+      "source": "exercise:p175-Q3"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Changing a Mixture's Ratio",
+      "question": "A bucket of orange paint is red and yellow in the ratio 3 : 5. A second, equal-sized bucket full of yellow paint is poured in. What is the new red-to-yellow ratio?",
+      "options": [
+        "3 : 6",
+        "3 : 10",
+        "1 : 2",
+        "3 : 13"
+      ],
+      "answer": 3,
+      "explanation": "Red is 3/8 of a bucket and yellow 5/8; adding a whole bucket of yellow gives 5/8 + 1 = 13/8. So red : yellow = 3/8 : 13/8 = 3 : 13.",
+      "source": "exercise:p175-Q5"
+    },
+    {
+      "id": "q103",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Changing a Mixture's Ratio",
+      "question": "Adding more of only one ingredient to a mixture leaves the ratio of the ingredients unchanged.",
+      "answer": false,
+      "explanation": "Adding 20 mL of yellow changed blue : yellow from 3 : 5 to 1 : 3; adding 2 kg of cement changed 3 : 1 to 5 : 2. Only adding BOTH in the same ratio keeps it unchanged.",
+      "source": "exercise:p175-Q3"
+    },
+    {
+      "id": "q104",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Changing a Mixture's Ratio",
+      "question": "After adding 2 kg of cement in Example 12, the mixture weighs 42 kg with 30 kg sand and 12 kg cement, which is in the ratio 5 : 2.",
+      "answer": true,
+      "explanation": "30 : 12 ÷ 6 = 5 : 2, and 30 + 12 = 42 kg.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q105",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Changing a Mixture's Ratio",
+      "question": "Select ALL the actions that CHANGE the ratio of a 3 : 5 blue-to-yellow paint mix.",
+      "options": [
+        "Adding 20 mL of yellow paint only",
+        "Doubling both the blue and the yellow",
+        "Adding 10 mL of blue paint only",
+        "Halving both the blue and the yellow",
+        "Making 80 mL with 30 mL blue and 50 mL yellow"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Adding one colour alone changes the ratio. Doubling or halving both, or using 30 : 50 (= 3 : 5), keeps the ratio the same.",
+      "source": "exercise:p175-Q3"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Unit Conversions & Temperature",
+      "question": "According to the chapter's conversion table, 1 metre equals how many feet?",
+      "options": [
+        "3.281",
+        "2.471",
+        "10.764",
+        "3.028"
+      ],
+      "answer": 0,
+      "explanation": "1 metre = 3.281 feet. 2.471 is acres per hectare and 10.764 is square feet per square metre.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Unit Conversions & Temperature",
+      "question": "1 hectare equals how many square metres?",
+      "options": [
+        "2,471",
+        "10,000",
+        "43,560",
+        "1,000"
+      ],
+      "answer": 1,
+      "explanation": "1 hectare = 10,000 square metres (and 2.471 acres). 43,560 is the number of square feet in an acre.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Unit Conversions & Temperature",
+      "question": "1 acre equals how many square feet?",
+      "options": [
+        "10,000",
+        "24,710",
+        "43,560",
+        "10,764"
+      ],
+      "answer": 2,
+      "explanation": "1 acre = 43,560 square feet — the figure used in the manure and land-price exercises.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Unit Conversions & Temperature",
+      "question": "1 litre equals…",
+      "options": [
+        "1,000 mL or 1,000 cc",
+        "100 mL or 100 cc",
+        "1,000 mL or 100 cc",
+        "10,000 mL or 1,000 cc"
+      ],
+      "answer": 0,
+      "explanation": "1 mL = 1 cubic centimetre, so 1 litre = 1,000 mL = 1,000 cc.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Unit Conversions & Temperature",
+      "question": "Using Fahrenheit = 9/5 × Celsius + 32, what is 25 °C in Fahrenheit?",
+      "options": [
+        "88 °F",
+        "77 °F",
+        "57 °F",
+        "45 °F"
+      ],
+      "answer": 1,
+      "explanation": "9/5 × 25 = 45; 45 + 32 = 77 °F. Forgetting the +32 gives 45; adding 32 without scaling gives 57.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Unit Conversions & Temperature",
+      "question": "Using Celsius = 5/9 × (Fahrenheit − 32), what is 50 °F in Celsius?",
+      "options": [
+        "18 °C",
+        "28 °C",
+        "22 °C",
+        "10 °C"
+      ],
+      "answer": 3,
+      "explanation": "50 − 32 = 18; 5/9 × 18 = 10 °C. Stopping at 18 or scaling 50 directly (≈ 28) are the common slips.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Unit Conversions & Temperature",
+      "question": "Why is the Celsius–Fahrenheit conversion NOT a simple proportion like metres to feet?",
+      "options": [
+        "0 °C is 32 °F, not 0 °F — the added 32 means doubling °C does not double °F",
+        "Fahrenheit degrees are larger than Celsius degrees, so no ratio exists",
+        "The factor 9/5 is a fraction, and proportions need whole-number factors",
+        "A temperature cannot be measured in two different systems at the same time"
+      ],
+      "answer": 0,
+      "explanation": "In a proportion 0 maps to 0 and the terms change by one factor. Temperature has a shift of 32, so e.g. 25 °C → 77 °F but 50 °C → 122 °F (not 154 °F).",
+      "source": "text:page18"
+    },
+    {
+      "id": "q113",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Unit Conversions & Temperature",
+      "question": "Since 1 mL equals 1 cubic centimetre, a 500 mL mug holds 500 cc of water.",
+      "answer": true,
+      "explanation": "The chapter's table gives 1 millilitre (mL) = 1 cubic centimetre (cc), so 500 mL = 500 cc.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q114",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Unit Conversions & Temperature",
+      "question": "Doubling a temperature in degrees Celsius always doubles the temperature in degrees Fahrenheit.",
+      "answer": false,
+      "explanation": "25 °C = 77 °F but 50 °C = 9/5 × 50 + 32 = 122 °F, not 154 °F. The +32 shift breaks the proportion.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q115",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Unit Conversions & Temperature",
+      "question": "Select ALL the conversions that match the chapter's table.",
+      "options": [
+        "1 square metre = 10.764 square feet",
+        "1 hectare = 2.471 acres",
+        "1 acre = 10,000 square metres",
+        "1 metre = 2.471 feet",
+        "1 litre = 100 cubic centimetres"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The table gives 1 sq m = 10.764 sq ft and 1 hectare = 2.471 acres. A hectare (not an acre) is 10,000 sq m; 1 m = 3.281 ft; 1 litre = 1,000 cc.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Applied Problems from the Exercises",
+      "question": "Līlāvatī: 2½ palas of saffron cost 3/7 niskas. How much saffron can be bought for 9 niskas?",
+      "options": [
+        "7.5 palas",
+        "52.5 palas",
+        "21 palas",
+        "26.25 palas"
+      ],
+      "answer": 1,
+      "explanation": "3/7 : 2½ :: 9 : x → x = 2.5 × 9 ÷ (3/7) = 2.5 × 21 = 52.5 palas. 21 is only the factor by which the money grew.",
+      "source": "exercise:p176-Q5"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Applied Problems from the Exercises",
+      "question": "This year 204 people are going, with 54 per bus. How many buses are needed, and will they all be full?",
+      "options": [
+        "4 buses; 12 seats stay empty",
+        "4 buses; all seats are full",
+        "3 buses; all seats are full",
+        "5 buses; 66 seats stay empty"
+      ],
+      "answer": 0,
+      "explanation": "204 ÷ 54 ≈ 3.78, so 3 buses are not enough — 4 are needed. 4 × 54 = 216 seats, leaving 216 − 204 = 12 empty.",
+      "source": "exercise:p176-Q2"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Applied Problems from the Exercises",
+      "question": "Equal volumes of gold and water have masses in the ratio 37 : 2. If 1 litre of water has mass 1 kg, what is the mass of 1 litre of gold?",
+      "options": [
+        "19.5 kg",
+        "18.5 kg",
+        "37 kg",
+        "74 kg"
+      ],
+      "answer": 1,
+      "explanation": "37 : 2 :: x : 1 → x = 37 × 1 ÷ 2 = 18.5 kg. Reading 37 directly ignores the '2' in the water term.",
+      "source": "exercise:p176-Q7"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Applied Problems from the Exercises",
+      "question": "A tap fills a 500 mL mug in 15 seconds. How long does it take to fill a 10-litre bucket?",
+      "options": [
+        "50 minutes",
+        "2.5 minutes",
+        "5 minutes",
+        "3 minutes"
+      ],
+      "answer": 2,
+      "explanation": "10 L = 10,000 mL = 20 mugs, so 20 × 15 = 300 seconds = 5 minutes. Treating 10 L as 10 mugs gives 2.5 minutes.",
+      "source": "exercise:p176-Q9"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Applied Problems from the Exercises",
+      "question": "Good practice is 10 tonnes of cow manure per acre. A plot is 200 ft by 500 ft. About how much manure is needed? (1 acre = 43,560 sq ft)",
+      "options": [
+        "About 10 tonnes",
+        "About 100 tonnes",
+        "About 2.3 tonnes",
+        "About 23 tonnes"
+      ],
+      "answer": 3,
+      "explanation": "Area = 100,000 sq ft = 100,000 ÷ 43,560 ≈ 2.3 acres, so manure ≈ 2.3 × 10 ≈ 23 tonnes (the key gives 22,956.8 kg).",
+      "source": "exercise:p176-Q8"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Applied Problems from the Exercises",
+      "question": "One acre of land costs ₹15,00,000. What is the cost of 2,400 square feet of the same land?",
+      "options": [
+        "About ₹82,645",
+        "About ₹62,500",
+        "About ₹1,50,000",
+        "About ₹36,000"
+      ],
+      "answer": 0,
+      "explanation": "43,560 : 15,00,000 :: 2,400 : x → x = 15,00,000 × 2400 ÷ 43,560 ≈ ₹82,645.",
+      "source": "exercise:p176-Q10"
+    },
+    {
+      "id": "q122",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Applied Problems from the Exercises",
+      "question": "In the bus problem, 204 ÷ 54 is not a whole number, so the fourth bus will not be completely full.",
+      "answer": true,
+      "explanation": "3 buses hold only 162; 4 buses hold 216, so 12 seats remain vacant.",
+      "source": "exercise:p176-Q2"
+    },
+    {
+      "id": "q123",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Applied Problems from the Exercises",
+      "question": "The Earth travels about 940 million km in a year, so in a week it travels about 940 ÷ 12 ≈ 78 million km.",
+      "answer": false,
+      "explanation": "A year has 52 weeks, not 12. 940 million ÷ 52 ≈ 18.1 million km per week; dividing by 12 gives the distance per MONTH.",
+      "source": "exercise:p170-Q1"
+    },
+    {
+      "id": "q124",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Applied Problems from the Exercises",
+      "question": "Select ALL the results that correctly follow from the chapter's exercises.",
+      "options": [
+        "1 litre of gold has a mass of 18.5 kg",
+        "A 200 ft × 500 ft plot is about 2.3 acres",
+        "The 10-litre bucket fills in 3 minutes",
+        "2,400 sq ft of land costs about ₹1,50,000",
+        "Four buses leave 42 seats empty"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Gold: 37/2 = 18.5 kg. Plot: 100,000 ÷ 43,560 ≈ 2.3 acres. The bucket takes 5 minutes, the land costs about ₹82,645 and 4 buses leave 12 seats empty.",
+      "source": "exercise:p176"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Summary & Binairo Puzzle",
+      "question": "Which statement from the chapter summary is NOT correct?",
+      "options": [
+        "In a : b, for every a units of the first quantity there are b units of the second",
+        "Two ratios are proportional if their terms differ by the same amount",
+        "If x is divided in the ratio m : n, the first part is m × x/(m + n)",
+        "a : b :: c : d means that ad = bc"
+      ],
+      "answer": 1,
+      "explanation": "Proportional ratios have terms that change by the same FACTOR (ad = bc), not by the same difference — the Neelima example shows adding breaks the ratio.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q126",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Chapter Summary & Binairo Puzzle",
+      "question": "If a : b :: c : d, select ALL the relations that must be true.",
+      "options": [
+        "ad = bc",
+        "c/a = d/b",
+        "a + c = b + d",
+        "a − b = c − d",
+        "ab = cd"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Both terms change by the same factor f, so c/a = d/b = f, and cross-multiplying gives ad = bc. Sums, differences and the products ab, cd are not fixed.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q127",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Chapter Summary & Binairo Puzzle",
+      "question": "The summary states that a : b and c : d are proportional, written a : b :: c : d, if ad = bc.",
+      "answer": true,
+      "explanation": "This is the cross-multiplication condition derived in Section 7.4 and repeated in the summary.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Chapter Summary & Binairo Puzzle",
+      "question": "The logic puzzle Binairo described at the end of the chapter is also known as…",
+      "options": [
+        "Kakuro",
+        "Hitori",
+        "Takuzu",
+        "Sudoku"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says 'Binairo, also known as Takuzu, is a logic puzzle with simple rules.'",
+      "source": "text:page20"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Chapter Summary & Binairo Puzzle",
+      "question": "In Binairo, what must be true of every row and every column?",
+      "options": [
+        "It has more horizontal lines than vertical lines",
+        "It has at least one horizontal and one vertical line",
+        "It has only horizontal lines or only vertical lines",
+        "It has an equal number of horizontal and vertical lines"
+      ],
+      "answer": 3,
+      "explanation": "Rule 1: each row and each column must contain an equal number of horizontal and vertical lines.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Chapter Summary & Binairo Puzzle",
+      "question": "In Binairo, at most how many identical lines (all horizontal or all vertical) may sit next to each other?",
+      "options": [
+        "Two",
+        "Three",
+        "One",
+        "Four"
+      ],
+      "answer": 0,
+      "explanation": "Rule 2: more than two horizontal or vertical lines can't be adjacent, so at most two in a row.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Summary & Binairo Puzzle",
+      "question": "In a 6 × 6 Binairo grid, how many horizontal lines must each row contain?",
+      "options": [
+        "4",
+        "3",
+        "6",
+        "2"
+      ],
+      "answer": 1,
+      "explanation": "Each row needs equal numbers of the two symbols, so 6 ÷ 2 = 3 horizontal and 3 vertical lines.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Summary & Binairo Puzzle",
+      "question": "Writing H for horizontal and V for vertical, which 6-cell row obeys the Binairo rules?",
+      "options": [
+        "HVHVHH",
+        "VVHHVV",
+        "HHVVHV",
+        "HHHVVV"
+      ],
+      "answer": 2,
+      "explanation": "HHVVHV has 3 H and 3 V with no run longer than two. HHHVVV has three H adjacent; HVHVHH has 4 H; VVHHVV has 4 V.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q133",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Chapter Summary & Binairo Puzzle",
+      "question": "In Binairo, two rows may be identical as long as every column is different.",
+      "answer": false,
+      "explanation": "Rule 3 requires each row to be unique AND each column to be unique.",
+      "source": "text:page20"
+    }
+  ]
+}

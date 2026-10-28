@@ -1,0 +1,4379 @@
+{
+  "schemaVersion": 1,
+  "id": "science-ch22-cycles-of-life",
+  "title": "Cycles of Life: From Pollination to People",
+  "subject": "Science",
+  "grade": 4,
+  "sourceDir": "output/Science/22_Cycles-of-Life-From-Pollination-to-People",
+  "chapter": "22. Cycles of Life",
+  "topic": "Full Chapter",
+  "description": "Comprehensive practice on life cycles: flower parts and pollination, seeds, dormancy and germination, seed dispersal, non-flowering plants, butterfly metamorphosis, bird and human life cycles, and how all cycles connect.",
+  "tags": [
+    "science",
+    "grade4",
+    "life-cycles",
+    "pollination",
+    "germination",
+    "seed-dispersal",
+    "metamorphosis",
+    "birds",
+    "human-life-cycle"
+  ],
+  "questions": [
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Is a Life Cycle?",
+      "question": "According to the book, what is a life cycle?",
+      "options": [
+        "The series of changes a living thing goes through until it produces new life",
+        "The number of years a living thing is expected to stay alive in the wild",
+        "The change of weather that makes the same flowers bloom every monsoon",
+        "The path a seed follows as it is carried away from its parent plant"
+      ],
+      "answer": 0,
+      "explanation": "The book defines a life cycle as the series of changes a living thing goes through from the beginning of its life to the point where it produces new life, and then the cycle repeats.",
+      "source": "book:page2",
+      "id": "q1"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Is a Life Cycle?",
+      "question": "Which four things do ALL life cycles share, according to the book?",
+      "options": [
+        "Petals, sepals, stamen and pistil",
+        "Birth, growth, reproduction and death",
+        "Egg, larva, pupa and adult butterfly",
+        "Water, warmth, oxygen and sunlight"
+      ],
+      "answer": 1,
+      "explanation": "Even though a butterfly, a human and a fern have very different life cycles, all share the same basic pattern: birth, growth, reproduction and death. The other lists are butterfly stages, germination needs and flower parts.",
+      "source": "book:page2",
+      "id": "q2"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What Is a Life Cycle?",
+      "question": "The book compares a life cycle to which shape, because it has no real beginning or end?",
+      "options": [
+        "A ladder of steps",
+        "A tall triangle",
+        "A circle",
+        "A straight line"
+      ],
+      "answer": 2,
+      "explanation": "A life cycle is 'like a circle, it has no real beginning and no real end' — it keeps coming back to the start.",
+      "source": "book:page2",
+      "id": "q3"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "What Is a Life Cycle?",
+      "question": "A life cycle has a clear beginning and a clear end, just like a straight line.",
+      "answer": false,
+      "explanation": "False. The book says a life cycle is like a circle with no real beginning and no real end — it repeats generation after generation.",
+      "source": "book:page2",
+      "id": "q4"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "What Is a Life Cycle?",
+      "question": "A butterfly's life cycle, a human's life cycle and a fern's life cycle all look exactly the same.",
+      "answer": false,
+      "explanation": "False. The book says not all life cycles look the same — a butterfly's is very different from a human's, and a fern's is different again. Only the basic pattern (birth, growth, reproduction, death) is shared.",
+      "source": "book:page2",
+      "id": "q5"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "What Is a Life Cycle?",
+      "question": "All life cycles share the same basic pattern: birth, growth, reproduction and death.",
+      "answer": true,
+      "explanation": "True. This four-part pattern is the one thing every life cycle in the book has in common, whether it belongs to a plant, an insect or a person.",
+      "source": "book:page2",
+      "id": "q6"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What Is a Life Cycle?",
+      "question": "What makes a life cycle different from a straight-line change like ice melting into water?",
+      "options": [
+        "It happens much faster than melting",
+        "It only happens to non-living things",
+        "It cannot be observed by anyone",
+        "It loops back to a new beginning"
+      ],
+      "answer": 3,
+      "explanation": "The book's review asks this exact question. Ice melting is a one-way change, but a life cycle loops back: the new life it produces starts the whole cycle again.",
+      "source": "book:page23 A1",
+      "id": "q7"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Is a Life Cycle?",
+      "question": "Which example from the book shows a life cycle?",
+      "options": [
+        "A tiny puppy growing into a big dog",
+        "Ice melting into water on a hot day",
+        "A ball rolling down a sloping road",
+        "A cloud drifting across the sky"
+      ],
+      "answer": 0,
+      "explanation": "The book opens with examples of life cycles you have already noticed: a puppy growing into a dog, a green mango ripening, and the same flowers blooming every monsoon. Melting ice is a straight-line change, not a life cycle.",
+      "source": "book:page2",
+      "id": "q8"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What Is a Life Cycle?",
+      "question": "Why does the book say that the same flowers blooming in the same garden every monsoon is NOT a coincidence?",
+      "options": [
+        "Flowers remember the season from the previous year",
+        "It is a life cycle repeating generation after generation",
+        "The gardener plants the very same seeds each year",
+        "Monsoon rain carries pollen in from far-away gardens"
+      ],
+      "answer": 1,
+      "explanation": "The book says these are not coincidences — they are life cycles, 'nature's way of making sure living things continue to exist, generation after generation.'",
+      "source": "book:page2",
+      "id": "q9"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "What Is a Life Cycle?",
+      "question": "Select ALL the examples the book uses as signs of a life cycle.",
+      "options": [
+        "A green mango slowly turning yellow and sweet",
+        "A tiny puppy growing into a big dog",
+        "A stone getting warm in the afternoon sunlight",
+        "A kite climbing higher in the wind"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The ripening mango and the growing puppy are the book's own examples of life cycles. A warming stone and a flying kite are not living things, so they have no life cycle.",
+      "source": "book:page2",
+      "id": "q10"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What Is a Life Cycle?",
+      "question": "Which statement about a life cycle is NOT true?",
+      "options": [
+        "It repeats itself generation after generation",
+        "It can look different in a butterfly and a human",
+        "It ends for good when one living thing dies",
+        "It has the same basic pattern in all living things"
+      ],
+      "answer": 2,
+      "explanation": "A life cycle does not end for good — the living thing produces new life before it dies, so the cycle repeats. The other three statements all come straight from the book.",
+      "source": "book:page2",
+      "id": "q11"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "What Is a Life Cycle?",
+      "question": "Nature uses life cycles to make sure living things continue to exist, generation after generation.",
+      "answer": true,
+      "explanation": "True. The book calls life cycles 'nature's way of making sure living things continue to exist, generation after generation.'",
+      "source": "book:page2",
+      "id": "q12"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What Is a Life Cycle?",
+      "question": "Which word does the book use for the stage when a living thing makes new life?",
+      "options": [
+        "Germination",
+        "Incubation",
+        "Seed dispersal",
+        "Reproduction"
+      ],
+      "answer": 3,
+      "explanation": "Reproduction is the stage when a living thing produces new life. Germination is a seed sprouting, incubation is keeping eggs warm, and dispersal is seeds moving away from the parent.",
+      "source": "book:page2",
+      "id": "q13"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "What Is a Life Cycle?",
+      "question": "According to the book, a life cycle repeats only in plants, not in animals.",
+      "answer": false,
+      "explanation": "False. The book follows life cycles through plants, butterflies, birds and humans — every living thing's cycle repeats with each new generation.",
+      "source": "book:page2",
+      "id": "q14"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What Is a Life Cycle?",
+      "question": "The book says the cycle returns to the start 'not as a repeat, but as a ___'.",
+      "options": [
+        "renewal",
+        "reversal",
+        "reminder",
+        "rehearsal"
+      ],
+      "answer": 0,
+      "explanation": "Each turn of the life-cycle wheel brings new life, so the book calls it a renewal — a fresh start — rather than an exact repeat.",
+      "source": "book:page22",
+      "id": "q15"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What Is a Life Cycle?",
+      "question": "Which ride does the book compare life cycles to, because it keeps turning again and again?",
+      "options": [
+        "A burning candle",
+        "A giant wheel",
+        "A flowing river",
+        "A ticking clock"
+      ],
+      "answer": 1,
+      "explanation": "The book says: 'Remember the giant wheel? It keeps turning, again and again. Life cycles work the same way.' Every seed, egg and child is another turn of the wheel.",
+      "source": "book:page22",
+      "id": "q16"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parts of a Flower",
+      "question": "Which part of a flower is colourful and attracts pollinators?",
+      "options": [
+        "Stamen",
+        "Pistil",
+        "Petals",
+        "Sepals"
+      ],
+      "answer": 2,
+      "explanation": "Petals are 'the attractors' — colourful and often scented, their job is to attract bees, butterflies and other pollinators.",
+      "source": "book:page3",
+      "id": "q17"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parts of a Flower",
+      "question": "What is the job of the sepals?",
+      "options": [
+        "Attract bees with bright colour",
+        "Make tiny grains of pollen",
+        "Catch pollen on a sticky tip",
+        "Protect the bud before it opens"
+      ],
+      "answer": 3,
+      "explanation": "Sepals are 'the protectors': small green leaf-like parts that cover and protect the flower bud before it opens, then fold back when the flower blooms.",
+      "source": "book:page3",
+      "id": "q18"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parts of a Flower",
+      "question": "Which part is the MALE part of the flower?",
+      "options": [
+        "Stamen",
+        "Pistil",
+        "Sepal",
+        "Petal"
+      ],
+      "answer": 0,
+      "explanation": "The stamen is the male part. Its top part, the anther, makes pollen. The pistil is the female part.",
+      "source": "book:page3",
+      "id": "q19"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parts of a Flower",
+      "question": "Which part is the FEMALE part of the flower?",
+      "options": [
+        "Sepal",
+        "Pistil",
+        "Stamen",
+        "Anther"
+      ],
+      "answer": 1,
+      "explanation": "The pistil is the female part. It has a sticky stigma that catches pollen and leads down to the ovary where seeds form.",
+      "source": "book:page3",
+      "id": "q20"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parts of a Flower",
+      "question": "What does the anther produce?",
+      "options": [
+        "Seeds",
+        "Spores",
+        "Pollen",
+        "Nectar"
+      ],
+      "answer": 2,
+      "explanation": "The anther is the top part of the stamen and it makes tiny yellow grains called pollen. Seeds form in the ovary, and spores belong to ferns and mosses, not flowers.",
+      "source": "book:page3",
+      "id": "q21"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parts of a Flower",
+      "question": "Which sticky part of the flower catches pollen?",
+      "options": [
+        "Anther",
+        "Ovary",
+        "Sepal",
+        "Stigma"
+      ],
+      "answer": 3,
+      "explanation": "The stigma is the sticky top of the pistil. Pollen that lands on it travels down to the ovary.",
+      "source": "book:page3, page6 C1",
+      "id": "q22"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parts of a Flower",
+      "question": "In which part of the flower do seeds form?",
+      "options": [
+        "Ovary",
+        "Anther",
+        "Stigma",
+        "Petal"
+      ],
+      "answer": 0,
+      "explanation": "The stigma leads down to the ovary, 'where seeds form'. Every fruit you eat began as a flower's ovary.",
+      "source": "book:page3, page4",
+      "id": "q23"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parts of a Flower",
+      "question": "The anther is the top part of which flower part?",
+      "options": [
+        "The petal",
+        "The stamen",
+        "The pistil",
+        "The sepal"
+      ],
+      "answer": 1,
+      "explanation": "The stamen (male part) has a top part called the anther, which makes pollen.",
+      "source": "book:page3",
+      "id": "q24"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Parts of a Flower",
+      "question": "How does the book describe sepals?",
+      "options": [
+        "Pale and white, in the centre",
+        "Yellow and powdery, on a stalk",
+        "Small and green, below the petals",
+        "Bright and red, above the petals"
+      ],
+      "answer": 2,
+      "explanation": "Sepals are 'small green leaf-like parts below the petals'. The yellow powdery part on a stalk is the anther of the stamen.",
+      "source": "book:page3",
+      "id": "q25"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Parts of a Flower",
+      "question": "The stigma is the part of the stamen that produces pollen.",
+      "answer": false,
+      "explanation": "False. Pollen is produced by the anther, which is part of the stamen. The stigma belongs to the pistil and its job is to catch pollen, not make it.",
+      "source": "book:page3",
+      "id": "q26"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Parts of a Flower",
+      "question": "Sepals fold back when the flower blooms.",
+      "answer": true,
+      "explanation": "True. Sepals cover the bud before it opens and then fold back when the flower blooms.",
+      "source": "book:page3",
+      "id": "q27"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Parts of a Flower",
+      "question": "Pollen grains are tiny yellow grains made by the anther.",
+      "answer": true,
+      "explanation": "True. The book says the anther 'makes tiny yellow grains called pollen', and pollen is needed to help the plant make seeds.",
+      "source": "book:page3",
+      "id": "q28"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Parts of a Flower",
+      "question": "A flower's petals are colourful and scented mainly to please people who smell them.",
+      "answer": false,
+      "explanation": "False. The book says it may seem that way, but 'that is not the case' — bright colours, sweet smell and nectar are there to attract pollinators such as bees and butterflies.",
+      "source": "book:page3",
+      "id": "q29"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Parts of a Flower",
+      "question": "In the Try-it investigation, the 'tall stalk with something powdery and yellow on top' is which part?",
+      "options": [
+        "The pistil with its stigma",
+        "The sepal under the petals",
+        "The ovary at the centre",
+        "The stamen with its anther"
+      ],
+      "answer": 3,
+      "explanation": "The powdery yellow material is pollen, which is made by the anther on top of the stamen. Rubbing your finger on it leaves yellow pollen on your skin.",
+      "source": "book:page3 Try it",
+      "id": "q30"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Parts of a Flower",
+      "question": "In the Try-it investigation, the 'small green part that was hugging the flower before it opened' is which part?",
+      "options": [
+        "The sepal",
+        "The petal",
+        "The anther",
+        "The stigma"
+      ],
+      "answer": 0,
+      "explanation": "Sepals are the small green parts that cover and protect the flower bud before it opens — exactly what the investigation describes.",
+      "source": "book:page2 Try it, page3",
+      "id": "q31"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Parts of a Flower",
+      "question": "When you pull a flower apart one layer at a time from the OUTSIDE, in which order would you meet the parts?",
+      "options": [
+        "Stamen, pistil, sepals, petals",
+        "Sepals, petals, stamen, pistil",
+        "Petals, sepals, pistil, stamen",
+        "Pistil, stamen, petals, sepals"
+      ],
+      "answer": 1,
+      "explanation": "Sepals are the outermost protectors below the petals, then come the colourful petals, then the stamens, and finally the pistil, the part 'in the very centre that looks different from the rest'.",
+      "source": "book:page2-3 Try it",
+      "id": "q32"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Parts of a Flower",
+      "question": "A flower that blooms at night to attract moths is most likely to have which petals?",
+      "options": [
+        "Dark green petals with sweet nectar",
+        "Tiny yellow petals with sticky pollen",
+        "Pale petals with a strong fragrance",
+        "Bright red petals with a faint scent"
+      ],
+      "answer": 2,
+      "explanation": "Moths fly at night when colour is hard to see, so night-blooming flowers 'use pale petals and strong fragrance to attract moths'.",
+      "source": "book:page3",
+      "id": "q33"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Parts of a Flower",
+      "question": "Select ALL the parts that belong to the pistil (female part).",
+      "options": [
+        "Stigma",
+        "Ovary",
+        "Anther",
+        "Petal"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The pistil has a sticky stigma leading down to the ovary. The anther is part of the stamen (male part) and petals are the attractors.",
+      "source": "book:page3",
+      "id": "q34"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Parts of a Flower",
+      "question": "Select ALL the true statements about the stamen.",
+      "options": [
+        "It is the male part of the flower",
+        "Its anther makes pollen",
+        "It has a sticky stigma at the top",
+        "It is where the seeds form"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The stamen is the male part and its anther makes pollen. The sticky stigma and the ovary where seeds form both belong to the pistil.",
+      "source": "book:page3",
+      "id": "q35"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parts of a Flower",
+      "question": "Which flower does the book suggest using for the pull-it-apart investigation?",
+      "options": [
+        "A rose",
+        "A lotus",
+        "A marigold",
+        "A hibiscus"
+      ],
+      "answer": 3,
+      "explanation": "The investigation says: 'What you need: One real flower like Hibiscus, a magnifying glass, and a paper plate.'",
+      "source": "book:page2 Try it",
+      "id": "q36"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Parts of a Flower",
+      "question": "What happens when you rub your finger on the yellow powdery top of a stamen?",
+      "options": [
+        "Yellow pollen sticks to your finger",
+        "Sweet nectar drips onto your finger",
+        "The petal folds back and closes up",
+        "A seed drops out of the flower"
+      ],
+      "answer": 0,
+      "explanation": "The powder is pollen, tiny yellow grains made by the anther. It sticks to your finger just as it sticks to a visiting bee.",
+      "source": "book:page3 Try it",
+      "id": "q37"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "What is pollination?",
+      "options": [
+        "Change of an animal's shape as it grows up",
+        "Transfer of pollen from an anther to a stigma",
+        "Movement of seeds away from the parent plant",
+        "Waking of a seed that absorbs water and sprouts"
+      ],
+      "answer": 1,
+      "explanation": "Pollination is 'the transfer of pollen from the anther of one flower to the stigma of the same or another flower'. The others describe seed dispersal, germination and metamorphosis.",
+      "source": "book:page4, page24 B1",
+      "id": "q38"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "What are the three main ways pollen travels?",
+      "options": [
+        "By roots, by leaves, or through the stem",
+        "By rain, by rivers, or along the sea",
+        "By wind, by animals, or within the same flower",
+        "By water, by sunlight, or through the soil"
+      ],
+      "answer": 2,
+      "explanation": "The book lists three ways: by wind, by animals, or within the same flower. Rivers and the sea carry seeds (dispersal), not pollen.",
+      "source": "book:page4",
+      "id": "q39"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "Why do pollinators such as bees and butterflies visit flowers?",
+      "options": [
+        "To eat the petals",
+        "To lay their eggs",
+        "To collect seeds",
+        "To drink nectar"
+      ],
+      "answer": 3,
+      "explanation": "Pollinators visit flowers to drink nectar. As they do, pollen sticks to their bodies and is carried to the next flower.",
+      "source": "book:page4",
+      "id": "q40"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "Which description fits a wind-pollinated flower?",
+      "options": [
+        "Small, not brightly coloured, no strong smell",
+        "Large, brightly coloured, strong sweet smell",
+        "Pale, night-blooming, strong fruity smell",
+        "Colourful, full of nectar, sticky pollen"
+      ],
+      "answer": 0,
+      "explanation": "Wind-pollinated flowers are usually small, not brightly coloured, have no strong smell, produce no nectar, and often grow in groups. They do not need to attract anyone.",
+      "source": "book:page4",
+      "id": "q41"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "Which of these plants is wind-pollinated?",
+      "options": [
+        "Rose",
+        "Wheat",
+        "Mango",
+        "Apple"
+      ],
+      "answer": 1,
+      "explanation": "Wheat, grass, maize, rice, bamboo and pine are the book's wind-pollinated examples. Mango, apple and rose rely on animals.",
+      "source": "book:page4",
+      "id": "q42"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "Which of these plants relies on animals for pollination?",
+      "options": [
+        "Maize (corn)",
+        "Grass",
+        "Hibiscus",
+        "Bamboo"
+      ],
+      "answer": 2,
+      "explanation": "Rose, mango, sunflower, apple, hibiscus and cotton are animal-pollinated. Bamboo, maize and grass are wind-pollinated.",
+      "source": "book:page4",
+      "id": "q43"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "Why do wind-pollinated plants make such LARGE amounts of pollen?",
+      "options": [
+        "So animals have plenty of pollen to eat as their food",
+        "So the heavy pollen sinks quickly into the soil below",
+        "So the flowers look bright yellow from far away",
+        "So at least some drifts to another flower of the same kind"
+      ],
+      "answer": 3,
+      "explanation": "Wind is not a reliable carrier, so these plants make large amounts of light, dry pollen 'so that at least some of it can drift to another flower of the same species'.",
+      "source": "book:page4",
+      "id": "q44"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "What is pollen from a wind-pollinated plant like?",
+      "options": [
+        "Light and dry",
+        "Sticky and wet",
+        "Heavy and oily",
+        "Sweet and soft"
+      ],
+      "answer": 0,
+      "explanation": "Wind-pollinated plants make light, dry pollen that can drift on the air. Animal-pollinated flowers make sticky pollen that clings to visitors.",
+      "source": "book:page4",
+      "id": "q45"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "Why is the pollen of an animal-pollinated flower sticky?",
+      "options": [
+        "So it tastes sweet and attracts more insects",
+        "So it clings to the body of a visiting animal",
+        "So it drifts easily on the wind to other flowers",
+        "So it can sink down into the ovary by itself"
+      ],
+      "answer": 1,
+      "explanation": "Animal-pollinated flowers have 'sticky pollen that clings to a visitor's body', so the pollen travels with the animal to the next flower.",
+      "source": "book:page4",
+      "id": "q46"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "Which feature tells you a flower depends on WIND, not animals, for pollination?",
+      "options": [
+        "Plenty of sweet, sugary nectar",
+        "Sticky, clinging pollen grains",
+        "Small size and no strong smell",
+        "Bright and colourful petals"
+      ],
+      "answer": 2,
+      "explanation": "This is the book's review question. Wind-pollinated flowers are small and have no strong smell; bright petals, nectar and sticky pollen are all signs of animal pollination.",
+      "source": "book:page23 A2",
+      "id": "q47"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "A farmer's wheat field needs no bees to produce grain, but his mango orchard next to it does. Why?",
+      "options": [
+        "Wheat has no flowers at all while mango grows large flowers",
+        "Mango trees are too tall for the wind to reach their flowers",
+        "Wheat makes seeds without pollen while mango needs pollen",
+        "Wheat is wind-pollinated while mango relies on animal pollinators"
+      ],
+      "answer": 3,
+      "explanation": "Wheat is one of the book's wind-pollinated plants, so the wind carries its pollen. Mango is animal-pollinated, so it depends on bees, butterflies or bats to move its pollen.",
+      "source": "book:page24 D1, D3",
+      "id": "q48"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "Bats are major pollinators of which fruits in many parts of the world?",
+      "options": [
+        "Bananas and mangoes",
+        "Wheat and basmati rice",
+        "Pine and bamboo",
+        "Grass and maize"
+      ],
+      "answer": 0,
+      "explanation": "The 'Night pollinators' box says bats are major pollinators of fruits such as bananas and mangoes.",
+      "source": "book:page5",
+      "id": "q49"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "What kind of flowers attract bats?",
+      "options": [
+        "Yellow flowers that produce no nectar at all",
+        "Pale, night-blooming flowers with strong fruity smells",
+        "Bright red day flowers with lots of sticky pollen",
+        "Tiny green flowers that grow in large groups"
+      ],
+      "answer": 1,
+      "explanation": "Bats come out at night, so they are attracted to pale, night-blooming flowers with strong fruity smells that they can find in the dark.",
+      "source": "book:page5",
+      "id": "q50"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "A flower opens only at night, has pale petals and a strong fragrance. Which visitors is it most likely trying to attract?",
+      "options": [
+        "Butterflies",
+        "Squirrels",
+        "Moths",
+        "Bees"
+      ],
+      "answer": 2,
+      "explanation": "The book says some flowers bloom at night and 'use pale petals and strong fragrance to attract moths'. Bees and butterflies visit during the day.",
+      "source": "worksheet-L2 Q1.4",
+      "id": "q51"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "Why is pollen important for a plant?",
+      "options": [
+        "It is the food the plant stores in its roots",
+        "It protects the flower bud before it opens",
+        "It carries water from the soil to the petals",
+        "It is needed to help the plant make seeds"
+      ],
+      "answer": 3,
+      "explanation": "The book says plainly: 'Pollen is needed to help the plant make seeds.' Without pollination there are no seeds, fruits or new plants.",
+      "source": "worksheet-L2 Q3.5, book:page3",
+      "id": "q52"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "Every fruit you have ever eaten began as which part of a flower?",
+      "options": [
+        "The ovary",
+        "The sepal",
+        "The anther",
+        "The petal"
+      ],
+      "answer": 0,
+      "explanation": "The book says every fruit — mango, tomato, banana, watermelon — began as a flower's ovary, the place where seeds form.",
+      "source": "book:page4",
+      "id": "q53"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "According to the book, why does a fruit form around the seeds?",
+      "options": [
+        "To give the flower's petals a bright new colour",
+        "To protect the seeds and attract animals to carry them away",
+        "To stop pollen from reaching the sticky stigma",
+        "To keep the seeds dormant forever inside the plant"
+      ],
+      "answer": 1,
+      "explanation": "The fruit 'forms to protect the seeds inside, and to attract animals to eat it and carry those seeds far away' — so fruit helps with seed dispersal.",
+      "source": "book:page4",
+      "id": "q54"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "Wind-pollinated flowers usually produce lots of sweet nectar.",
+      "answer": false,
+      "explanation": "False. Wind-pollinated flowers produce NO nectar and have no strong smell — they do not need to attract animals.",
+      "source": "book:page4",
+      "id": "q55"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "Pollination can happen within the same flower.",
+      "answer": true,
+      "explanation": "True. The book lists three ways pollen travels: by wind, by animals, or within the same flower.",
+      "source": "book:page4",
+      "id": "q56"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "Bats pollinate flowers mainly during the day.",
+      "answer": false,
+      "explanation": "False. Bats are night pollinators, attracted to pale, night-blooming flowers with strong fruity smells.",
+      "source": "book:page5",
+      "id": "q57"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "Pine is an example of a wind-pollinated plant.",
+      "answer": true,
+      "explanation": "True. Pine appears in the book's list of wind-pollinated plants, and its male cones release large amounts of pollen carried by the wind.",
+      "source": "book:page4, page12",
+      "id": "q58"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "Animal-pollinated flowers often grow in large groups so the wind can reach them easily.",
+      "answer": false,
+      "explanation": "False. Growing in groups is a feature of WIND-pollinated flowers. Animal-pollinated flowers rely on colour, scent and nectar instead.",
+      "source": "book:page4",
+      "id": "q59"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "Select ALL the wind-pollinated plants.",
+      "options": [
+        "Rice",
+        "Bamboo",
+        "Cotton",
+        "Apple"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Rice and bamboo are in the book's wind-pollinated list. Cotton and apple are animal-pollinated.",
+      "source": "book:page4",
+      "id": "q60"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "Select ALL the features of an animal-pollinated flower.",
+      "options": [
+        "Colourful petals",
+        "Sticky pollen",
+        "No nectar at all",
+        "Grows in large groups"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Animal-pollinated flowers have colourful petals, a noticeable scent, nectar and sticky pollen. 'No nectar' and 'grows in groups' describe wind-pollinated flowers.",
+      "source": "book:page4",
+      "id": "q61"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "In the paper-flower investigation, what did the cotton ball represent?",
+      "options": [
+        "A seed being dispersed by an animal",
+        "A flower's sticky stigma catching pollen",
+        "A bee carrying pollen between flowers",
+        "The wind blowing pollen off a flower"
+      ],
+      "answer": 2,
+      "explanation": "You pressed the cotton ball ('bee') into Flower A, pollen stuck to it, and then you moved it to Flower B — so you were acting like a pollinator.",
+      "source": "book:page5-6 Try it",
+      "id": "q62"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "In the paper-flower investigation, what did the yellow chalk powder or turmeric stand for?",
+      "options": [
+        "Nectar",
+        "Seeds",
+        "Spores",
+        "Pollen"
+      ],
+      "answer": 3,
+      "explanation": "The pinch of yellow powder placed in the centre of Flower A was the 'pollen' that the cotton-ball 'bee' carried to Flower B.",
+      "source": "book:page5 Try it",
+      "id": "q63"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "The book calls pollination 'one of nature's most remarkable ___'.",
+      "options": [
+        "partnerships",
+        "accidents",
+        "competitions",
+        "disguises"
+      ],
+      "answer": 0,
+      "explanation": "Pollination is a partnership: the pollinator gets nectar to drink and the plant gets its pollen carried to another flower.",
+      "source": "book:page4",
+      "id": "q64"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "Which is NOT a usual feature of a wind-pollinated flower?",
+      "options": [
+        "Growing together in large groups",
+        "Sticky pollen that clings to visitors",
+        "Small flowers that are not bright",
+        "No strong smell and no nectar"
+      ],
+      "answer": 1,
+      "explanation": "Sticky pollen belongs to animal-pollinated flowers. Wind-pollinated flowers make light, dry pollen and are small, dull, unscented and grow in groups.",
+      "source": "book:page4",
+      "id": "q65"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pollination: Wind vs Animal",
+      "question": "When a bee drinks nectar and then flies to another flower, what is the bee actually doing for the plant?",
+      "options": [
+        "Spreading spores so new plants can grow",
+        "Keeping the flower warm like a parent bird",
+        "Carrying pollen on its body to the next flower",
+        "Carrying seeds from the fruit to new ground"
+      ],
+      "answer": 2,
+      "explanation": "As the bee drinks nectar, pollen sticks to its body and is carried to the next flower it visits — this is pollination.",
+      "source": "book:page4",
+      "id": "q66"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Seeds and Dormancy",
+      "question": "What is dormancy?",
+      "options": [
+        "The stage when a seed sprouts a root",
+        "The time a seed spends floating on water",
+        "The moment a seed's coat splits open",
+        "A resting state, a kind of deep pause"
+      ],
+      "answer": 3,
+      "explanation": "A seed is 'a living thing in a resting state called dormancy, a kind of deep pause'. It is alive but switched off, waiting for the right conditions.",
+      "source": "book:page7",
+      "id": "q67"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Seeds and Dormancy",
+      "question": "What lies inside a dormant seed?",
+      "options": [
+        "A tiny embryo, a miniature plant switched off",
+        "A drop of nectar to feed visiting insects",
+        "A pinch of pollen waiting for the wind",
+        "A cluster of spores ready to be released"
+      ],
+      "answer": 0,
+      "explanation": "Inside a seed lies 'a tiny embryo: a fully formed miniature plant, switched off and waiting for the right conditions to begin growing'.",
+      "source": "book:page7",
+      "id": "q68"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Seeds and Dormancy",
+      "question": "Why is dormancy called a survival strategy?",
+      "options": [
+        "Dormant seeds float better and travel further by water",
+        "Sprouting too soon on dry or frozen ground could mean death",
+        "A dormant seed can make its own food using sunlight",
+        "A resting seed is too hard for any animal to eat"
+      ],
+      "answer": 1,
+      "explanation": "If the seed sprouted at the wrong time — on dry or frozen ground — the young plant would die. So the seed waits, sometimes for years, until conditions are just right.",
+      "source": "book:page7",
+      "id": "q69"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Seeds and Dormancy",
+      "question": "Where did scientists find the 2,000-year-old date palm seed that they grew into a tree?",
+      "options": [
+        "In a cave in the Seychelles",
+        "Inside a temple in India",
+        "In an ancient jar in Israel",
+        "Under a pyramid in Egypt"
+      ],
+      "answer": 2,
+      "explanation": "The book says scientists found a 2,000-year-old date palm seed in an ancient jar in Israel and grew it into a tree.",
+      "source": "book:page7",
+      "id": "q70"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Seeds and Dormancy",
+      "question": "Which is the world's largest seed?",
+      "options": [
+        "Orchid seed",
+        "Mango seed",
+        "Mustard seed",
+        "Coco de mer"
+      ],
+      "answer": 3,
+      "explanation": "The world's largest seed is the Coco de mer from the Seychelles. Orchid seeds are the world's smallest.",
+      "source": "book:page8",
+      "id": "q71"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Seeds and Dormancy",
+      "question": "Up to how much can a Coco de mer seed weigh?",
+      "options": [
+        "25 kg",
+        "2.5 kg",
+        "250 kg",
+        "15 kg"
+      ],
+      "answer": 0,
+      "explanation": "The Coco de mer from the Seychelles can weigh up to 25 kg — heavier than many children!",
+      "source": "book:page8",
+      "id": "q72"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Seeds and Dormancy",
+      "question": "Which plants have the world's smallest seeds?",
+      "options": [
+        "Coconut palms",
+        "Certain orchids",
+        "Date palms",
+        "Mung bean plants"
+      ],
+      "answer": 1,
+      "explanation": "Certain orchids have seeds so tiny that a single gram can hold over a million seeds.",
+      "source": "book:page8",
+      "id": "q73"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Seeds and Dormancy",
+      "question": "About how many orchid seeds can fit in a single gram?",
+      "options": [
+        "About a thousand",
+        "Exactly fifty",
+        "Over a million",
+        "About a hundred"
+      ],
+      "answer": 2,
+      "explanation": "Orchid seeds are so tiny that 'a single gram can hold over a million seeds'.",
+      "source": "book:page8",
+      "id": "q74"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Seeds and Dormancy",
+      "question": "A dry mung bean seed that shows no movement and no growth is dead.",
+      "answer": false,
+      "explanation": "False. The book says most people would guess it is dead, 'but it isn't'. The seed is alive in a resting state called dormancy.",
+      "source": "book:page7",
+      "id": "q75"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Seeds and Dormancy",
+      "question": "A seed may wait for months or even years before it germinates.",
+      "answer": true,
+      "explanation": "True. The seed waits, 'sometimes for months or even years, until conditions outside are just right'.",
+      "source": "book:page7",
+      "id": "q76"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Seeds and Dormancy",
+      "question": "The giant Coco de mer seed and a tiny orchid seed are built from completely different parts.",
+      "answer": false,
+      "explanation": "False. The book says both 'contain the same basic parts, doing the same basic job' — size does not change what a seed is.",
+      "source": "book:page8",
+      "id": "q77"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Seeds and Dormancy",
+      "question": "What do the world's largest seed and the world's smallest seeds have in common?",
+      "options": [
+        "The same weight of about one gram each",
+        "Both come from the Seychelles islands",
+        "Both need sunlight before they can sprout",
+        "The same basic parts doing the same basic job"
+      ],
+      "answer": 3,
+      "explanation": "Despite the huge size difference, the book says both contain the same basic parts doing the same basic job.",
+      "source": "book:page8",
+      "id": "q78"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Seeds and Dormancy",
+      "question": "Which dried seeds does the book ask you to look at as examples of dormancy?",
+      "options": [
+        "Mung bean or mustard",
+        "Coconut or lotus",
+        "Wheat grain or rice",
+        "Pine cone or cedar"
+      ],
+      "answer": 0,
+      "explanation": "The book says: 'Look at a dried mung bean or mustard seed. It's hard, dry, and still' — yet it is alive.",
+      "source": "book:page7",
+      "id": "q79"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Seeds and Dormancy",
+      "question": "Which part of a seed stores the food the embryo needs until its first green leaves appear?",
+      "options": [
+        "The baby shoot",
+        "The cotyledon",
+        "The seed coat",
+        "The baby root"
+      ],
+      "answer": 1,
+      "explanation": "The book says that until the seedling breaks through the soil, 'the cotyledon's stored food is all it needs'.",
+      "source": "book:page8",
+      "id": "q80"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Seeds and Dormancy",
+      "question": "When you open a soaked bean seed, which THREE things does the book ask you to find?",
+      "options": [
+        "Green sepal, petal and stamen",
+        "Egg, larva, pupa and adult",
+        "Baby root, baby shoot, food store",
+        "Sticky stigma, anther and ovary"
+      ],
+      "answer": 2,
+      "explanation": "The Try-it says: 'open one soaked seed into two halves. Try to find the baby root, the baby shoot, and the food store.'",
+      "source": "book:page9 Try it",
+      "id": "q81"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Seeds and Dormancy",
+      "question": "A seed has been lying dry and still in a cupboard for two years. What is the BEST description of it?",
+      "options": [
+        "Dead, because it has not grown for so long",
+        "Already a seedling that stopped growing",
+        "Rotten, because seeds live only a few months",
+        "Alive but dormant, awaiting right conditions"
+      ],
+      "answer": 3,
+      "explanation": "Seeds can stay dormant for months or years. The 2,000-year-old date palm seed proves a dry, still seed can still be alive.",
+      "source": "book:page7",
+      "id": "q82"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Germination",
+      "question": "What is the process called by which a seed reawakens, absorbs water and sprouts into a new seedling?",
+      "options": [
+        "Germination",
+        "Dispersal",
+        "Pollination",
+        "Incubation"
+      ],
+      "answer": 0,
+      "explanation": "Germination is 'the process by which a seed reawakens, absorbs water and sprouts, growing into a new seedling'.",
+      "source": "worksheet-L1 Q1.1",
+      "id": "q83"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Germination",
+      "question": "Which THREE things does a seed need from its surroundings before it germinates?",
+      "options": [
+        "Oxygen, nectar and sunlight",
+        "Water, warmth and oxygen",
+        "Water, sunlight and soil",
+        "Sunlight, warmth and pollen"
+      ],
+      "answer": 1,
+      "explanation": "A seed needs three signals that say 'It is safe to grow now': water, warmth and oxygen. Sunlight is NOT on the list.",
+      "source": "book:page8",
+      "id": "q84"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Germination",
+      "question": "Which of these is NOT needed for a seed to germinate?",
+      "options": [
+        "Gentle warmth",
+        "Fresh oxygen",
+        "Direct sunlight",
+        "Plenty of water"
+      ],
+      "answer": 2,
+      "explanation": "The book asks 'Did you notice what is not on the list?' — sunlight. Most seeds germinate underground where there is little or no light.",
+      "source": "book:page8",
+      "id": "q85"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Germination",
+      "question": "Why does a germinating seed NOT need sunlight?",
+      "options": [
+        "It makes its own light from the enzymes inside it",
+        "Sunlight would dry out the soft seed coat too quickly",
+        "The seed coat is too thick for any light to pass through",
+        "It germinates underground using the cotyledon's stored food"
+      ],
+      "answer": 3,
+      "explanation": "Most seeds germinate underground where there is no sunlight; the stored food in the cotyledon is all the seed needs until its first green leaves appear.",
+      "source": "book:page8",
+      "id": "q86"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Germination",
+      "question": "What does WATER do for a germinating seed?",
+      "options": [
+        "Softens the seed coat and activates enzymes",
+        "Keeps the embryo cool and slows reactions",
+        "Carries the seed away from the parent plant",
+        "Gives the seedling its green colour"
+      ],
+      "answer": 0,
+      "explanation": "Water 'softens the seed coat and activates the enzymes that begin digesting the stored food. Without water, nothing starts.'",
+      "source": "book:page8",
+      "id": "q87"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Germination",
+      "question": "What temperature range do most seeds prefer for germination?",
+      "options": [
+        "10–15°C",
+        "20–30°C",
+        "0–10°C",
+        "40–50°C"
+      ],
+      "answer": 1,
+      "explanation": "Each species has an ideal range, but the book says most seeds prefer 20–30°C.",
+      "source": "book:page8",
+      "id": "q88"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Germination",
+      "question": "What happens to a seed if it is TOO HOT?",
+      "options": [
+        "The seed coat hardens",
+        "It germinates faster",
+        "The embryo dies",
+        "Reactions slow down"
+      ],
+      "answer": 2,
+      "explanation": "The book says: 'Too cold and reactions slow; too hot and the embryo dies.'",
+      "source": "book:page8",
+      "id": "q89"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Germination",
+      "question": "What happens to a seed if it is TOO COLD?",
+      "options": [
+        "Its embryo dies at once",
+        "Its food store doubles",
+        "It sprouts a shoot first",
+        "Its reactions slow down"
+      ],
+      "answer": 3,
+      "explanation": "Cold does not kill the seed straight away — 'too cold and reactions slow'. Too much heat is what kills the embryo.",
+      "source": "book:page8",
+      "id": "q90"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Germination",
+      "question": "Why does a germinating seed need OXYGEN?",
+      "options": [
+        "Energy for breaking down food and building cells needs oxygen",
+        "Oxygen softens the hard seed coat so the root can push out",
+        "Oxygen gives the first leaves their green colour",
+        "Oxygen carries the pollen to the stigma of the flower"
+      ],
+      "answer": 0,
+      "explanation": "The germinating seed is 'working hard, breaking down food, building cells. All of that requires energy, and energy needs oxygen.'",
+      "source": "book:page8",
+      "id": "q91"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Germination",
+      "question": "When does sunlight become important for a new plant?",
+      "options": [
+        "Only when the plant is ready to make flowers",
+        "After the seedling breaks through the soil",
+        "Before the seed absorbs any water at all",
+        "While the seed is still dormant underground"
+      ],
+      "answer": 1,
+      "explanation": "Sunlight 'becomes important only after the seedling breaks through the soil and its first green leaves appear'.",
+      "source": "book:page8",
+      "id": "q92"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Germination",
+      "question": "Until its first green leaves appear, what does a seedling live on?",
+      "options": [
+        "Nectar from nearby flowers",
+        "Pollen blown by the wind",
+        "The cotyledon's stored food",
+        "Sunlight caught by its coat"
+      ],
+      "answer": 2,
+      "explanation": "Until the seedling reaches the light, 'the cotyledon's stored food is all it needs'.",
+      "source": "book:page8",
+      "id": "q93"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Germination",
+      "question": "Into how many precise steps does the book divide germination?",
+      "options": [
+        "Three",
+        "Four",
+        "Six",
+        "Five"
+      ],
+      "answer": 3,
+      "explanation": "The book calls germination 'a sequence of five precise steps that transform a dormant seed into a seedling pushing towards the sun'.",
+      "source": "book:page9",
+      "id": "q94"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Germination",
+      "question": "When a new plant begins to grow, which way do the roots and shoots grow?",
+      "options": [
+        "Roots grow downward, shoots grow upward",
+        "Roots grow upward, shoots grow downward",
+        "Both roots and shoots grow sideways",
+        "Both roots and shoots grow downward"
+      ],
+      "answer": 0,
+      "explanation": "The book says that after germination 'roots grow downward, shoots grow upward, and a new plant begins its life cycle'.",
+      "source": "book:page22",
+      "id": "q95"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Germination",
+      "question": "Why does a seed remain dormant instead of germinating right away?",
+      "options": [
+        "It cannot absorb any water at all",
+        "It waits for safe conditions to sprout",
+        "It has no embryo inside it yet",
+        "It needs sunlight to become alive"
+      ],
+      "answer": 1,
+      "explanation": "This is the book's review question. The seed already has an embryo and can absorb water; it waits so it does not sprout on dry or frozen ground where it would die.",
+      "source": "book:page23 A3",
+      "id": "q96"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Germination",
+      "question": "A seed can germinate underground without sunlight.",
+      "answer": true,
+      "explanation": "True. Most seeds germinate underground where there is little or no light; sunlight only matters once green leaves appear.",
+      "source": "book:page12 Checkpoint 2.1",
+      "id": "q97"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Germination",
+      "question": "A seed needs water, warmth and oxygen to germinate.",
+      "answer": true,
+      "explanation": "True. These are the three signals that tell a seed it is safe to grow.",
+      "source": "book:page12 Checkpoint 2.2",
+      "id": "q98"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Germination",
+      "question": "A seed will still germinate even if one of its three signals is missing.",
+      "answer": false,
+      "explanation": "False. The book says: 'If even one signal is missing, the seed stays dormant.'",
+      "source": "book:page8",
+      "id": "q99"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Germination",
+      "question": "Every plant species has exactly the same ideal temperature range for germination.",
+      "answer": false,
+      "explanation": "False. 'Each species has an ideal temperature range', though most seeds prefer 20–30°C.",
+      "source": "book:page8",
+      "id": "q100"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Germination",
+      "question": "Select ALL the signals a seed needs before it will germinate.",
+      "options": [
+        "Water",
+        "Oxygen",
+        "Sunlight",
+        "Fertiliser"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Water, warmth and oxygen are the three signals. Sunlight is not needed until the seedling is above the soil, and fertiliser is not on the book's list.",
+      "source": "book:page8",
+      "id": "q101"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Germination",
+      "question": "Which statement about germination is NOT true?",
+      "options": [
+        "Too much heat kills the embryo",
+        "Oxygen is needed to release energy",
+        "A seed needs sunlight to sprout",
+        "Water softens the seed coat"
+      ],
+      "answer": 2,
+      "explanation": "Sunlight is the one thing NOT on the seed's list of needs. Water, a safe temperature and oxygen are all required.",
+      "source": "book:page8",
+      "id": "q102"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Germination",
+      "question": "In the bean-seed investigation, how long should you soak the seeds?",
+      "options": [
+        "One hour",
+        "One week",
+        "One month",
+        "Overnight"
+      ],
+      "answer": 3,
+      "explanation": "Step 1 of the investigation is 'Soak the bean seeds overnight' before opening one to find the baby root, baby shoot and food store.",
+      "source": "book:page9 Try it",
+      "id": "q103"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Germination",
+      "question": "A gardener keeps a seed warm and gives it plenty of water, but seals it in an airtight jar. What will most likely happen?",
+      "options": [
+        "It stays dormant because it has no oxygen",
+        "It germinates faster because it is protected",
+        "It sprouts but grows only roots, not shoots",
+        "It germinates because water and warmth are enough"
+      ],
+      "answer": 0,
+      "explanation": "A seed needs all three signals — water, warmth AND oxygen. With no oxygen there is no energy for growth, so the seed stays dormant.",
+      "source": "book:page8",
+      "id": "q104"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Seed Dispersal",
+      "question": "What is seed dispersal?",
+      "options": [
+        "Release of spores from the brown dots under a fern leaf",
+        "Movement of seeds away from the parent plant to new places",
+        "Transfer of pollen from one flower to another flower",
+        "Waking of a dormant seed when it absorbs water"
+      ],
+      "answer": 1,
+      "explanation": "Seed dispersal is 'the movement of seeds away from the parent plant to new locations, where they can germinate and grow without competing with the parent'.",
+      "source": "book:page10",
+      "id": "q105"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Seed Dispersal",
+      "question": "Why is it a problem if seeds fall directly below the parent plant?",
+      "options": [
+        "They will be eaten by the parent plant's roots",
+        "They get too much shade and turn into spores",
+        "They compete with the parent for light, water and space",
+        "They cannot germinate without the parent's pollen"
+      ],
+      "answer": 2,
+      "explanation": "Seeds under the parent 'will have to compete with it for sunlight, water, and space', so nature has ways to spread seeds to new places.",
+      "source": "book:page10",
+      "id": "q106"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Seed Dispersal",
+      "question": "A bird eats ripe berries from a bush and flies across a field. Where are the seeds most likely to be left?",
+      "options": [
+        "Back inside the same berry on the bush",
+        "Only in the bird's nest high in a tree",
+        "Stuck to the bird's feathers and beak",
+        "In its droppings, far from the parent bush"
+      ],
+      "answer": 3,
+      "explanation": "The bird digests the fruit and passes the seeds out in its droppings far away — this is how fruits help seeds travel.",
+      "source": "worksheet-L2 Q1.3",
+      "id": "q107"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Seed Dispersal",
+      "question": "Which of these seeds is carried by WATER, according to the answer key?",
+      "options": [
+        "Coconut",
+        "Mango",
+        "Wheat",
+        "Sunflower"
+      ],
+      "answer": 0,
+      "explanation": "Coconut, water lily and lotus seeds float and are carried by rivers, rain, ponds or the sea.",
+      "source": "worksheet-L1 Q3.4",
+      "id": "q108"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Seed Dispersal",
+      "question": "How do coconut, water lily and lotus seeds travel to new places?",
+      "options": [
+        "They are eaten by birds and dropped later",
+        "They float along rivers, ponds or the sea",
+        "They stick to animal fur with tiny hooks",
+        "They drift on the wind with fluffy hairs"
+      ],
+      "answer": 1,
+      "explanation": "The answer key says these seeds 'float and are carried by rivers, rain, ponds or the sea'.",
+      "source": "worksheet-L1 Q3.4",
+      "id": "q109"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Seed Dispersal",
+      "question": "Megha finds a seed that is light and fluffy with tiny hair-like strands. How does it most likely travel?",
+      "options": [
+        "By animals, stuck to their fur",
+        "By birds, inside their droppings",
+        "By wind, drifting through the air",
+        "By water, floating on a river"
+      ],
+      "answer": 2,
+      "explanation": "Light, fluffy seeds with hair-like strands are built to catch the wind and drift far from the parent plant.",
+      "source": "book:page25 Connect 2a",
+      "id": "q110"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Seed Dispersal",
+      "question": "Megha's other seed is hard, heavy and covered in tiny hooks that stick to her sock. How does it most likely travel?",
+      "options": [
+        "By floating down a stream to the sea",
+        "By drifting on the wind like a feather",
+        "By bursting out of a dry seed pod",
+        "By hooking onto passing animals"
+      ],
+      "answer": 3,
+      "explanation": "Hooks that stick to a sock would also stick to an animal's fur, so the seed is carried away until it falls off somewhere new.",
+      "source": "book:page25 Connect 2a",
+      "id": "q111"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Seed Dispersal",
+      "question": "If Megha plants both seeds in the same pot right next to each other, will they both grow well?",
+      "options": [
+        "No — they would compete for light, water and space",
+        "Yes — two seeds always help each other grow",
+        "Yes — hooked seeds and fluffy seeds never compete",
+        "No — seeds can never grow in a small pot"
+      ],
+      "answer": 0,
+      "explanation": "The whole point of dispersal is to avoid competition. Two plants crowded together must share the same sunlight, water and space, so neither grows as well.",
+      "source": "book:page25 Connect 2b, page10",
+      "id": "q112"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Seed Dispersal",
+      "question": "How do fruits help seeds travel?",
+      "options": [
+        "Fruits catch pollen from passing insects",
+        "Animals eat the fruits and carry the seeds elsewhere",
+        "Fruits float on the wind like tiny parachutes",
+        "Fruits keep the seeds dormant for many years"
+      ],
+      "answer": 1,
+      "explanation": "The 'Cycles Connect' page says: 'Animals eat fruits and carry the seeds to new places, helping new plants grow away from the parent plant.'",
+      "source": "book:page22",
+      "id": "q113"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Seed Dispersal",
+      "question": "A mango tree produces flowers which become fruits with new seeds. Which stage of the life cycle is the flowering stage?",
+      "options": [
+        "Growth only",
+        "Death and decay",
+        "Reproduction",
+        "Birth and growth"
+      ],
+      "answer": 2,
+      "explanation": "The flowering stage belongs to reproduction, because the tree is making new seeds.",
+      "source": "worksheet-L2 Q4.1a",
+      "id": "q114"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Seed Dispersal",
+      "question": "After a mango tree forms new seeds, how does the life cycle begin again?",
+      "options": [
+        "The tree drops all its leaves and grows new flowers",
+        "The seeds turn back into pollen and travel by wind",
+        "The fruits reattach to the branch and ripen again",
+        "The seeds spread to new places and germinate"
+      ],
+      "answer": 3,
+      "explanation": "The answer key says: 'The new seeds are spread to new places and germinate into new plants, so the cycle repeats.'",
+      "source": "worksheet-L2 Q4.1b",
+      "id": "q115"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Seed Dispersal",
+      "question": "A farmer wants many new strawberry plants from one healthy plant. Which method should the farmer use?",
+      "options": [
+        "Vegetative reproduction through runners",
+        "Pollination by bees and butterflies",
+        "Dispersal of seeds by the wind",
+        "Releasing spores from leaf capsules"
+      ],
+      "answer": 0,
+      "explanation": "The answer key says the farmer should use vegetative reproduction through runners, 'because runners grow along the ground and form new plants wherever they take root'.",
+      "source": "worksheet-L2 Q4 answer key",
+      "id": "q116"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Seed Dispersal",
+      "question": "Why do strawberry runners work well for making new plants?",
+      "options": [
+        "They release pollen that the wind carries far away",
+        "They grow along the ground and root to form new plants",
+        "They float on water and sprout wherever they land",
+        "They are carried in bird droppings to new fields"
+      ],
+      "answer": 1,
+      "explanation": "Runners are stems that grow along the ground; wherever they take root, a new strawberry plant forms — no seeds needed.",
+      "source": "worksheet-L2 Q4 answer key",
+      "id": "q117"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Seed Dispersal",
+      "question": "Seed dispersal means seeds falling directly below the parent plant.",
+      "answer": false,
+      "explanation": "False. Dispersal is the opposite — seeds moving AWAY from the parent so they do not compete with it.",
+      "source": "book:page10",
+      "id": "q118"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Seed Dispersal",
+      "question": "Coconut seeds can float and be carried by water.",
+      "answer": true,
+      "explanation": "True. Coconut, water lily and lotus seeds float and travel by rivers, ponds or the sea.",
+      "source": "worksheet-L1 Q3.4",
+      "id": "q119"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Seed Dispersal",
+      "question": "Seeds that pass through a bird are destroyed and can never grow.",
+      "answer": false,
+      "explanation": "False. Seeds in bird droppings land far from the parent plant and can germinate there — this is one way fruits help seeds travel.",
+      "source": "worksheet-L2 Q1.3, book:page22",
+      "id": "q120"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Seed Dispersal",
+      "question": "Seed dispersal helps new plants grow away from the parent plant.",
+      "answer": true,
+      "explanation": "True. This is one of the book's own Checkpoint statements, and it is correct.",
+      "source": "book:page12 Checkpoint 2.4",
+      "id": "q121"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Seed Dispersal",
+      "question": "Select ALL the seeds the answer key says are carried by water.",
+      "options": [
+        "Coconut",
+        "Lotus",
+        "Wheat",
+        "Pine"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Coconut, water lily and lotus are the water-carried examples. Wheat and pine are wind-pollinated plants, not water-dispersed seeds.",
+      "source": "worksheet-L1 Q3.4",
+      "id": "q122"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Seed Dispersal",
+      "question": "Which of these is NOT a resource the book says seeds must compete for if they stay near the parent?",
+      "options": [
+        "Water",
+        "Space",
+        "Pollen",
+        "Sunlight"
+      ],
+      "answer": 2,
+      "explanation": "The book names sunlight, water and space. Pollen is for making seeds, not something a seedling competes for.",
+      "source": "book:page10",
+      "id": "q123"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Non-flowering Plants: Ferns, Mosses and Conifers",
+      "question": "What do non-flowering plants reproduce WITHOUT?",
+      "options": [
+        "Water or warmth",
+        "Roots or leaves",
+        "Spores or cones",
+        "Flowers or seeds"
+      ],
+      "answer": 3,
+      "explanation": "Non-flowering plants such as ferns and mosses 'reproduce without flowers or seeds', using spores instead.",
+      "source": "book:page11",
+      "id": "q124"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Non-flowering Plants: Ferns, Mosses and Conifers",
+      "question": "What are the little brown dots under a fern leaf called?",
+      "options": [
+        "Sori",
+        "Cones",
+        "Petals",
+        "Capsules"
+      ],
+      "answer": 0,
+      "explanation": "The little brown dots under a fern leaf are called sori, and they hold spores.",
+      "source": "worksheet-L1 Q1.4",
+      "id": "q125"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Non-flowering Plants: Ferns, Mosses and Conifers",
+      "question": "What do the sori of a fern hold?",
+      "options": [
+        "Nectar",
+        "Spores",
+        "Seeds",
+        "Pollen"
+      ],
+      "answer": 1,
+      "explanation": "Sori hold spores. When ready, they split open and release the spores into the air.",
+      "source": "book:page11",
+      "id": "q126"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Non-flowering Plants: Ferns, Mosses and Conifers",
+      "question": "Where must a fern spore land to grow into a new fern?",
+      "options": [
+        "On a flower's stigma",
+        "Inside a pine cone",
+        "On damp soil",
+        "On a dry rock"
+      ],
+      "answer": 2,
+      "explanation": "If a spore lands on damp soil, it can grow into a new fern plant.",
+      "source": "book:page11",
+      "id": "q127"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Non-flowering Plants: Ferns, Mosses and Conifers",
+      "question": "Mosses are described in the book as some of the ___ plants on Earth.",
+      "options": [
+        "tallest",
+        "rarest",
+        "sweetest",
+        "oldest"
+      ],
+      "answer": 3,
+      "explanation": "The book says mosses are 'some of the oldest plants on Earth'.",
+      "source": "book:page11",
+      "id": "q128"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Non-flowering Plants: Ferns, Mosses and Conifers",
+      "question": "Where does a moss keep its spores?",
+      "options": [
+        "In tiny capsules on thin stalks",
+        "In brown dots under its leaves",
+        "In the scales of a woody cone",
+        "In the ovary of a small flower"
+      ],
+      "answer": 0,
+      "explanation": "Moss spores 'are kept in tiny capsules on thin stalks'. The brown dots under leaves are the sori of ferns.",
+      "source": "book:page11",
+      "id": "q129"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Non-flowering Plants: Ferns, Mosses and Conifers",
+      "question": "Why do mosses grow in damp, shadowy places?",
+      "options": [
+        "Because the wind cannot reach there",
+        "Because they need water to reproduce",
+        "Because sunlight kills their spores",
+        "Because their roots are very deep"
+      ],
+      "answer": 1,
+      "explanation": "The book says 'mosses need water to reproduce, so they grow in damp, shadowy places'.",
+      "source": "book:page11",
+      "id": "q130"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Non-flowering Plants: Ferns, Mosses and Conifers",
+      "question": "Which of these trees is a conifer?",
+      "options": [
+        "Rose",
+        "Wheat",
+        "Pine",
+        "Mango"
+      ],
+      "answer": 2,
+      "explanation": "Pine trees, cedars and firs are called conifers. They produce seeds on cones instead of inside fruits.",
+      "source": "book:page12",
+      "id": "q131"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Non-flowering Plants: Ferns, Mosses and Conifers",
+      "question": "Which tree has seeds that sit naked on the scales of a cone?",
+      "options": [
+        "Rose",
+        "Mango",
+        "Sunflower",
+        "Pine"
+      ],
+      "answer": 3,
+      "explanation": "Conifers like pine have seeds that are not enclosed in fruits — they sit naked on the scales of a cone.",
+      "source": "worksheet-L1 Q1.5",
+      "id": "q132"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Non-flowering Plants: Ferns, Mosses and Conifers",
+      "question": "How is pollen carried from male cones to female cones in a conifer?",
+      "options": [
+        "By the wind",
+        "By honey bees",
+        "By fruit bats",
+        "By rainwater"
+      ],
+      "answer": 0,
+      "explanation": "Male cones release large amounts of pollen 'which is carried by the wind to female cones'.",
+      "source": "book:page12",
+      "id": "q133"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Non-flowering Plants: Ferns, Mosses and Conifers",
+      "question": "On which cones do conifer seeds develop after fertilisation?",
+      "options": [
+        "Neither — seeds form in fruit",
+        "Female cones",
+        "Male cones",
+        "Both cones equally"
+      ],
+      "answer": 1,
+      "explanation": "After fertilisation, seeds develop on the female cones. When the cones open, the seeds are released.",
+      "source": "book:page12",
+      "id": "q134"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Non-flowering Plants: Ferns, Mosses and Conifers",
+      "question": "When are conifer seeds released?",
+      "options": [
+        "When bees visit the cones",
+        "When the cone's petals wilt",
+        "When the cones open",
+        "When the cones fall into water"
+      ],
+      "answer": 2,
+      "explanation": "The book says: 'When the cones open, the seeds are released.' Cones have no petals and do not need bees.",
+      "source": "book:page12",
+      "id": "q135"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Non-flowering Plants: Ferns, Mosses and Conifers",
+      "question": "Ferns reproduce using seeds.",
+      "answer": false,
+      "explanation": "False. This is one of the book's Checkpoint statements and it is false — ferns reproduce using spores held in sori.",
+      "source": "book:page12 Checkpoint 2.3",
+      "id": "q136"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Non-flowering Plants: Ferns, Mosses and Conifers",
+      "question": "Mosses need water to reproduce.",
+      "answer": true,
+      "explanation": "True. This Checkpoint statement is correct; that is why mosses live in damp, shadowy places.",
+      "source": "book:page12 Checkpoint 2.5",
+      "id": "q137"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Non-flowering Plants: Ferns, Mosses and Conifers",
+      "question": "Conifer seeds are enclosed inside fleshy fruits.",
+      "answer": false,
+      "explanation": "False. Conifers 'produce seeds, but their seeds are not enclosed inside fruits. Their seeds sit naked on the scales of a cone.'",
+      "source": "book:page12",
+      "id": "q138"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Non-flowering Plants: Ferns, Mosses and Conifers",
+      "question": "Both ferns and mosses use spores to reproduce.",
+      "answer": true,
+      "explanation": "True. Ferns keep spores in sori under their leaves; mosses keep spores in capsules on thin stalks.",
+      "source": "book:page11",
+      "id": "q139"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Non-flowering Plants: Ferns, Mosses and Conifers",
+      "question": "Select ALL the conifers named in the book.",
+      "options": [
+        "Pine",
+        "Cedar",
+        "Mango",
+        "Rose"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Pine trees, cedars and firs are the book's conifers. Mango and rose are flowering plants.",
+      "source": "book:page12",
+      "id": "q140"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Non-flowering Plants: Ferns, Mosses and Conifers",
+      "question": "Select ALL the plants that reproduce using spores.",
+      "options": [
+        "Fern",
+        "Moss",
+        "Pine",
+        "Wheat"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Ferns and mosses use spores. Pine makes seeds on cones; wheat is a flowering plant that makes seeds.",
+      "source": "book:page11",
+      "id": "q141"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Non-flowering Plants: Ferns, Mosses and Conifers",
+      "question": "How is the way a fern reproduces DIFFERENT from the way a mango tree reproduces?",
+      "options": [
+        "The fern needs bees to carry its spores; the mango needs the wind",
+        "The fern grows seeds inside cones; the mango grows seeds in sori",
+        "The fern needs sunlight to reproduce; the mango needs water",
+        "Fern uses spores, no flowers or seeds; mango uses flowers and seeds"
+      ],
+      "answer": 3,
+      "explanation": "Mango is a flowering plant — pollination and seeds. Ferns are non-flowering and release spores that grow on damp soil.",
+      "source": "book:page11",
+      "id": "q142"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Non-flowering Plants: Ferns, Mosses and Conifers",
+      "question": "Which of these is NOT a non-flowering plant?",
+      "options": [
+        "Sunflower",
+        "Fern plant",
+        "Moss plant",
+        "Pine tree"
+      ],
+      "answer": 0,
+      "explanation": "Ferns and mosses reproduce by spores and conifers like pine by cones — all without flowers. A sunflower is a flowering, animal-pollinated plant.",
+      "source": "book:page11-12",
+      "id": "q143"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Non-flowering Plants: Ferns, Mosses and Conifers",
+      "question": "Unlike a fern, a conifer DOES make something. What is it?",
+      "options": [
+        "Flowers, with bright petals",
+        "Seeds, but not inside a fruit",
+        "Spores, kept in brown sori",
+        "Fruits, with no seeds inside"
+      ],
+      "answer": 1,
+      "explanation": "Conifers produce real seeds — but they sit naked on cone scales rather than inside a fruit. Ferns make spores, not seeds.",
+      "source": "book:page11-12",
+      "id": "q144"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Non-flowering Plants: Ferns, Mosses and Conifers",
+      "question": "Fill in the blank from the book's review: 'Ferns and mosses reproduce using ___ instead of seeds.'",
+      "options": [
+        "runners",
+        "pollen",
+        "spores",
+        "cones"
+      ],
+      "answer": 2,
+      "explanation": "Both ferns and mosses release spores that can grow into new plants if they land in a damp place.",
+      "source": "book:page24 B2",
+      "id": "q145"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "The word 'metamorphosis' comes from Greek words meaning 'change' and ___.",
+      "options": [
+        "'wing'",
+        "'life'",
+        "'grow'",
+        "'form'"
+      ],
+      "answer": 3,
+      "explanation": "The word comes from Greek words meaning 'change' and 'form' — a change of body form.",
+      "source": "worksheet-L1 Q2.5",
+      "id": "q146"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "What is metamorphosis?",
+      "options": [
+        "A process in which an animal's body changes shape as it grows",
+        "A process in which a seed reawakens and sprouts into a new seedling",
+        "A process in which a baby grows bigger but keeps the same shape",
+        "A process in which parent birds keep their eggs warm"
+      ],
+      "answer": 0,
+      "explanation": "Metamorphosis is 'a biological process in which an animal's body changes shape and structure as it grows', for example from a larva into an adult.",
+      "source": "book:page13",
+      "id": "q147"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "Which of these animals does NOT undergo metamorphosis?",
+      "options": [
+        "Moth",
+        "Elephant",
+        "Butterfly",
+        "Frog"
+      ],
+      "answer": 1,
+      "explanation": "Humans, dogs and elephants are born looking like small versions of the adults and simply grow bigger. Insects (like butterflies and moths) and frogs undergo metamorphosis.",
+      "source": "book:page13",
+      "id": "q148"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "Which TWO groups of animals does the book say undergo metamorphosis?",
+      "options": [
+        "Birds and humans",
+        "Fish and snakes",
+        "Insects and frogs",
+        "Dogs and elephants"
+      ],
+      "answer": 2,
+      "explanation": "The book says 'many animals such as insects and frogs undergo metamorphosis'. Humans, dogs and elephants do not.",
+      "source": "book:page13, worksheet-L1 Q4.1b",
+      "id": "q149"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "What are the four stages of a butterfly's life cycle in the correct order?",
+      "options": [
+        "Egg, pupa, larva, adult",
+        "Larva, egg, pupa, adult",
+        "Egg, larva, adult, pupa",
+        "Egg, larva, pupa, adult"
+      ],
+      "answer": 3,
+      "explanation": "The four stages are egg, larva (caterpillar), pupa (chrysalis) and adult butterfly.",
+      "source": "worksheet-L1 Q3.1",
+      "id": "q150"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "Why does a female butterfly choose one exact plant species for her eggs?",
+      "options": [
+        "That plant will be food for the caterpillars after they hatch",
+        "That plant has the sweetest nectar for the adult butterfly",
+        "That plant's flowers are pale and bloom only at night",
+        "That plant has the strongest stem for the chrysalis to hang"
+      ],
+      "answer": 0,
+      "explanation": "She picks the plant 'because it will provide food for the caterpillar after they hatch'.",
+      "source": "book:page13",
+      "id": "q151"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "How does a female butterfly check that she has found the right plant?",
+      "options": [
+        "She rubs pollen on the leaves",
+        "She tastes the leaves with her feet",
+        "She smells the flowers with her antennae",
+        "She drinks the nectar with her proboscis"
+      ],
+      "answer": 1,
+      "explanation": "The book says 'she tastes leaves with her feet to make sure it is the right plant'.",
+      "source": "book:page13",
+      "id": "q152"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "Why does a female butterfly lay her eggs on the UNDERSIDE of a leaf?",
+      "options": [
+        "To make the eggs easy for birds to find",
+        "To help the eggs catch pollen from the wind",
+        "To keep the eggs safe from rain and predators",
+        "To let sunlight warm the eggs quickly"
+      ],
+      "answer": 2,
+      "explanation": "The underside of a leaf keeps the eggs 'safe from rain and predators'.",
+      "source": "worksheet-L2 Q3.1",
+      "id": "q153"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "What is a caterpillar's ONE main job?",
+      "options": [
+        "To fly",
+        "To mate",
+        "To sleep",
+        "To eat"
+      ],
+      "answer": 3,
+      "explanation": "When the egg hatches, the caterpillar comes out 'with one main job: eat'. It eats almost constantly.",
+      "source": "book:page13",
+      "id": "q154"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "Why does a caterpillar shed its skin several times?",
+      "options": [
+        "It grows so fast it needs room for a bigger body",
+        "Its old skin turns into the hard chrysalis",
+        "Its skin becomes the wings of the adult",
+        "Birds cannot see it while it changes skin"
+      ],
+      "answer": 0,
+      "explanation": "A caterpillar eats almost constantly and grows so fast that 'it sheds its skin several times to make room for a bigger body underneath'.",
+      "source": "worksheet-L1 Q3.5",
+      "id": "q155"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "Why does a caterpillar eat almost constantly?",
+      "options": [
+        "To keep the leaf warm for the other eggs",
+        "To grow fast and store energy for the big change",
+        "To make nectar for the adult butterfly to drink",
+        "To grow its wings while it is still a larva"
+      ],
+      "answer": 1,
+      "explanation": "All this eating 'stores up energy for the big change ahead' — the transformation inside the chrysalis.",
+      "source": "worksheet-L2 Q3.2",
+      "id": "q156"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "What is the hard case formed by the caterpillar at the pupa stage called?",
+      "options": [
+        "Egg tooth",
+        "Seed coat",
+        "Chrysalis",
+        "Cocoon shell"
+      ],
+      "answer": 2,
+      "explanation": "The caterpillar forms a hard case called a chrysalis. From outside it seems still, but major changes happen inside.",
+      "source": "book:page14",
+      "id": "q157"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "What actually happens to the caterpillar's body inside the chrysalis?",
+      "options": [
+        "It grows wings directly on its existing body",
+        "It simply gets bigger and grows a hard shell",
+        "Nothing changes until the shell cracks open",
+        "Most breaks down and surviving cells rebuild a new body"
+      ],
+      "answer": 3,
+      "explanation": "Special chemicals break down most of the caterpillar's body into liquid; clusters of special cells survive and use that material to build wings, antennae and legs.",
+      "source": "book:page23 A4, page14",
+      "id": "q158"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "A butterfly has just come out of its chrysalis with soft, folded wings. What happens to its wings soon after?",
+      "options": [
+        "They expand and harden",
+        "They fall off",
+        "They turn into legs",
+        "They stay soft for life"
+      ],
+      "answer": 0,
+      "explanation": "The adult emerges with soft, folded wings 'that soon expand and harden' so it can fly.",
+      "source": "worksheet-L2 Q1.5",
+      "id": "q159"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "What is the long tube-like mouthpart of an adult butterfly called?",
+      "options": [
+        "Egg tooth",
+        "Proboscis",
+        "Antenna",
+        "Chrysalis"
+      ],
+      "answer": 1,
+      "explanation": "The adult butterfly drinks nectar 'through a long tube-like mouthpart called a proboscis'.",
+      "source": "book:page14",
+      "id": "q160"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "How does the proboscis help an adult butterfly?",
+      "options": [
+        "It helps the butterfly break out of the chrysalis",
+        "It carries pollen back to the caterpillar",
+        "It lets the butterfly drink nectar from flowers",
+        "It lets the butterfly taste leaves for its eggs"
+      ],
+      "answer": 2,
+      "explanation": "The proboscis is a drinking tube: the adult 'drinks nectar from flowers, instead of chewing leaves like a caterpillar'.",
+      "source": "worksheet-L2 Q3.4",
+      "id": "q161"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "What does an adult butterfly do to begin the cycle again?",
+      "options": [
+        "Sheds its skin and grows",
+        "Forms a hard chrysalis",
+        "Eats leaves constantly",
+        "Finds a mate and lays eggs"
+      ],
+      "answer": 3,
+      "explanation": "After its wings harden, the adult 'finds a mate and lays eggs, beginning the cycle again'.",
+      "source": "book:page14",
+      "id": "q162"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "An insect hatches from an egg as a worm-like larva, later forms a hard case, and finally comes out as an adult with wings. What is this process called?",
+      "options": [
+        "Metamorphosis",
+        "Direct development",
+        "Germination",
+        "Incubation"
+      ],
+      "answer": 0,
+      "explanation": "Larva → hard case (pupa) → winged adult is a complete change of body form: metamorphosis.",
+      "source": "worksheet-L2 Q1.2",
+      "id": "q163"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "A caterpillar eats leaves all day, while the adult butterfly only drinks nectar. Why do they need such different food?",
+      "options": [
+        "They are really two different animals that happen to look related",
+        "The caterpillar grows and stores energy; the adult mainly flies, mates and lays eggs",
+        "The caterpillar has a proboscis; the adult has chewing jaws for leaves",
+        "The caterpillar needs sugar for its wings; the adult needs leaves for its legs"
+      ],
+      "answer": 1,
+      "explanation": "The larva's job is eating and growing to store energy for the change; the adult's job is to fly, find a mate and lay eggs, and nectar is the quick fuel for that.",
+      "source": "book:page24 D2, page13-14",
+      "id": "q164"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "From the OUTSIDE, a chrysalis appears still. What does the book say is really happening?",
+      "options": [
+        "The caterpillar is slowly eating the case",
+        "Wings are growing on the outside of the case",
+        "Major changes are happening inside",
+        "The caterpillar is resting, nothing changes"
+      ],
+      "answer": 2,
+      "explanation": "'From the outside, it appears still, but major changes are happening inside' — the body is being rebuilt.",
+      "source": "book:page14",
+      "id": "q165"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "A newly hatched caterpillar looks like a small adult butterfly.",
+      "answer": false,
+      "explanation": "False. The book says the caterpillar 'doesn't look like the adult butterfly at all' — that is what makes it metamorphosis.",
+      "source": "book:page13",
+      "id": "q166"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "The word 'metamorphosis' comes from Greek words.",
+      "answer": true,
+      "explanation": "True. It comes from Greek words meaning 'change' and 'form'.",
+      "source": "book:page13",
+      "id": "q167"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "Frogs undergo metamorphosis.",
+      "answer": true,
+      "explanation": "True. The book names insects and frogs as animals that undergo metamorphosis.",
+      "source": "book:page13",
+      "id": "q168"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "A caterpillar chews leaves, while the adult butterfly drinks nectar.",
+      "answer": true,
+      "explanation": "True. The adult drinks nectar through its proboscis 'instead of chewing leaves like a caterpillar'.",
+      "source": "book:page14",
+      "id": "q169"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "Butterfly eggs are laid on TOP of leaves so that sunlight can warm them.",
+      "answer": false,
+      "explanation": "False. Eggs are laid on the UNDERSIDE of a leaf, safe from rain and predators.",
+      "source": "book:page13",
+      "id": "q170"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "The chrysalis (pupa) is the stage in which the butterfly eats the most.",
+      "answer": false,
+      "explanation": "False. The larva (caterpillar) is the eating stage. Inside the chrysalis the body is being broken down and rebuilt, not fed.",
+      "source": "book:page13-14",
+      "id": "q171"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "Select ALL the adult body parts built from the broken-down material inside the chrysalis.",
+      "options": [
+        "Wings",
+        "Antennae",
+        "Hard shell",
+        "Egg tooth"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The surviving cells build 'the wings, antennae, and legs of the adult butterfly'. An egg tooth belongs to a bird chick, and the chrysalis itself is the hard case.",
+      "source": "book:page14",
+      "id": "q172"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "Select ALL the animals that undergo metamorphosis.",
+      "options": [
+        "Butterfly",
+        "Frog",
+        "Elephant",
+        "Dog"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Butterflies (insects) and frogs change body form as they grow. Elephants and dogs are born as small versions of the adults.",
+      "source": "book:page13",
+      "id": "q173"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "A puppy looks like a small dog from the day it is born. What is this kind of growth called?",
+      "options": [
+        "Complete metamorphosis",
+        "Seed germination",
+        "Egg incubation",
+        "Direct development"
+      ],
+      "answer": 3,
+      "explanation": "Growing bigger without a dramatic change of shape is called direct development.",
+      "source": "worksheet-L1 Q4.1a",
+      "id": "q174"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "Which pair correctly matches a butterfly stage with its other name?",
+      "options": [
+        "Larva — caterpillar",
+        "Pupa — caterpillar",
+        "Larva — chrysalis",
+        "Adult — chrysalis"
+      ],
+      "answer": 0,
+      "explanation": "The larva is the caterpillar, and the pupa is the chrysalis.",
+      "source": "worksheet-L1 Q3.1",
+      "id": "q175"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Metamorphosis: The Butterfly Life Cycle",
+      "question": "Which stage of the butterfly life cycle is described as 'the changing stage'?",
+      "options": [
+        "The adult",
+        "The pupa",
+        "The egg",
+        "The larva"
+      ],
+      "answer": 1,
+      "explanation": "The book labels the stages: egg (the beginning), larva (the eating stage), pupa (the changing stage) and adult (the flying stage).",
+      "source": "book:page13-14",
+      "id": "q176"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "Do birds go through metamorphosis?",
+      "options": [
+        "Yes — but only large birds like eagles",
+        "No — because birds never grow after hatching",
+        "No — a chick is a small version of its parents",
+        "Yes — a chick changes into a completely new form"
+      ],
+      "answer": 2,
+      "explanation": "'Birds don't go through metamorphosis. A chick hatches looking like a small version of its parents and gradually grows into an adult.'",
+      "source": "book:page15",
+      "id": "q177"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "Which THREE special features does the book give for bird life cycles?",
+      "options": [
+        "Soft-shelled egg, no parental care, slow growth",
+        "Chrysalis, proboscis and soft folded wings",
+        "Spores, tiny capsules and damp soil",
+        "Hard-shelled egg, parental care, fast growth"
+      ],
+      "answer": 3,
+      "explanation": "Bird life cycles have 'a hard-shelled egg, strong parental care, and fast growth'.",
+      "source": "book:page15",
+      "id": "q178"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "A bird's egg has a hard shell with tiny pores. What passes through these pores?",
+      "options": [
+        "Air",
+        "Water",
+        "Sunlight",
+        "Pollen"
+      ],
+      "answer": 0,
+      "explanation": "The hard shell protects the chick 'but lets air pass through tiny pores'.",
+      "source": "worksheet-L1 Q1.2",
+      "id": "q179"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "What do the yolk and the egg white give the chick?",
+      "options": [
+        "Both give the chick its feathers",
+        "The yolk gives food, the egg white gives water",
+        "The yolk gives water, the egg white gives food",
+        "The yolk gives air, the egg white gives warmth"
+      ],
+      "answer": 1,
+      "explanation": "The answer key says: 'The yolk gives food to the chick and the egg white gives it water.'",
+      "source": "worksheet-L1 Q3.2",
+      "id": "q180"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "What is incubation?",
+      "options": [
+        "A young bird learning how to fly",
+        "A caterpillar forming a hard case",
+        "Parents sitting on eggs to keep them warm",
+        "A chick breaking out of its shell"
+      ],
+      "answer": 2,
+      "explanation": "'Parent birds keep the eggs warm by sitting on them, this process is called incubation.'",
+      "source": "book:page15",
+      "id": "q181"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "A chick breaks its shell using a sharp point on its beak called the egg ___.",
+      "options": [
+        "hook",
+        "nail",
+        "horn",
+        "tooth"
+      ],
+      "answer": 3,
+      "explanation": "When fully developed, the chick breaks the shell using a sharp point on its beak called an egg tooth.",
+      "source": "worksheet-L1 Q2.4",
+      "id": "q182"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "A chick that has just broken out of its shell is called a ___.",
+      "options": [
+        "hatchling",
+        "fledgling",
+        "nestling",
+        "duckling"
+      ],
+      "answer": 0,
+      "explanation": "A hatchling is a chick that has just hatched. A fledgling is older and learning to fly.",
+      "source": "worksheet-L1 Q2.2",
+      "id": "q183"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "A young bird that is learning to fly is called a ___.",
+      "options": [
+        "gosling",
+        "fledgling",
+        "hatchling",
+        "nestling"
+      ],
+      "answer": 1,
+      "explanation": "'A young bird learning to fly is called a fledgling.'",
+      "source": "worksheet-L1 Q2.3",
+      "id": "q184"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "Which bird does the book give as an example of a chick that hatches with open eyes, soft feathers, and can walk right away?",
+      "options": [
+        "Eagle",
+        "Albatross",
+        "Duck",
+        "Sparrow"
+      ],
+      "answer": 2,
+      "explanation": "Some chicks hatch blind and featherless, 'others, such as ducks, hatch with open eyes, soft feathers, and can walk right away'.",
+      "source": "book:page15",
+      "id": "q185"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "What do chicks that hatch blind and featherless need?",
+      "options": [
+        "No care at all",
+        "Only warmth from the sun",
+        "A long tube-like mouthpart",
+        "Full parental care"
+      ],
+      "answer": 3,
+      "explanation": "Chicks that hatch blind and featherless need 'full parental care' until they grow feathers and get stronger.",
+      "source": "book:page15",
+      "id": "q186"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "What do parent birds do during the nestling and fledgling stage?",
+      "options": [
+        "Feed and protect the chick while it learns to hop, find food and fly",
+        "Leave the nest so the chick must find its own food at once",
+        "Keep sitting on the chick to incubate it for many months",
+        "Carry the chick in their beaks to a new nest each day"
+      ],
+      "answer": 0,
+      "explanation": "'Parents feed and protect it while it learns to hop, find food, and fly.'",
+      "source": "book:page15",
+      "id": "q187"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "Why do many adult birds lay their eggs at a time when food is easy to find?",
+      "options": [
+        "So the eggs blend in with ripe fruit nearby",
+        "So parents can find food for the chicks easily",
+        "So the eggs stay cool in the hot season",
+        "So the chicks can fly away sooner"
+      ],
+      "answer": 1,
+      "explanation": "Egg-laying is 'often timed to when food is easy to find' so parents can feed the hungry chicks.",
+      "source": "worksheet-L2 Q3.3",
+      "id": "q188"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "What is the correct order of a bird's life cycle?",
+      "options": [
+        "Hatchling → egg → adult → fledgling",
+        "Egg → larva → pupa → adult",
+        "Egg → hatchling → fledgling → adult",
+        "Egg → fledgling → hatchling → adult"
+      ],
+      "answer": 2,
+      "explanation": "The book's diagram shows: 1. Egg, 2. Hatchling, 3. Fledgling, 4. Adult. Egg-larva-pupa-adult is a butterfly's cycle.",
+      "source": "book:page15",
+      "id": "q189"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "In the Checkpoint ordering task, which event should be numbered 1 (first)?",
+      "options": [
+        "The chick breaks out using its egg tooth",
+        "The hatchling grows feathers and learns to fly",
+        "The adult finds a mate and builds a nest",
+        "Parent birds sit on the eggs to keep them warm"
+      ],
+      "answer": 3,
+      "explanation": "Incubation comes first, then hatching, then the fledgling stage, and finally the adult breeding to start the next cycle.",
+      "source": "book:page16 Checkpoint 3",
+      "id": "q190"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "Is a bird's life cycle an example of metamorphosis?",
+      "options": [
+        "No — the chick is already shaped like its parents",
+        "Yes — the hatchling has no feathers and the adult does",
+        "Yes — the egg stage is like a chrysalis",
+        "No — because birds do not have a life cycle"
+      ],
+      "answer": 0,
+      "explanation": "Metamorphosis means a change of body shape and structure. A chick is already shaped like its parents, so birds do NOT undergo metamorphosis.",
+      "source": "book:page25 Q3e, page15",
+      "id": "q191"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "Why does a mother bird build a nest BEFORE laying her eggs?",
+      "options": [
+        "To hide herself from the hungry fledglings",
+        "To keep the eggs safe and warm during incubation",
+        "To store food for when the chicks can fly",
+        "To attract bees and other pollinators to the tree"
+      ],
+      "answer": 1,
+      "explanation": "The nest holds the eggs together so the parent can sit on them to keep them warm (incubation) and protect them.",
+      "source": "book:page25 Q3d, page15",
+      "id": "q192"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "Which is one way the human life cycle is SIMILAR to a bird's life cycle?",
+      "options": [
+        "Both have a stage where they shed their skin to grow",
+        "Both drink nectar through a long tube-like mouthpart",
+        "Neither goes through metamorphosis; young look like small adults",
+        "Both hatch from a hard-shelled egg with tiny pores"
+      ],
+      "answer": 2,
+      "explanation": "The answer key lists similarities: both go through birth/hatching, growth, reproduction and death; neither undergoes metamorphosis; and the young of both receive care from parents.",
+      "source": "worksheet-L1 Q4.2",
+      "id": "q193"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "A chick breaks its shell using its egg tooth.",
+      "answer": true,
+      "explanation": "True. The egg tooth is a sharp point on the chick's beak used to break the shell.",
+      "source": "book:page15",
+      "id": "q194"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "The egg white gives the chick food, and the yolk gives it water.",
+      "answer": false,
+      "explanation": "False. It is the other way round: the yolk gives food and the egg white gives water.",
+      "source": "worksheet-L1 Q3.2",
+      "id": "q195"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "A fledgling is a bird that has just broken out of its shell.",
+      "answer": false,
+      "explanation": "False. A bird that has just hatched is a hatchling. A fledgling is a young bird learning to fly.",
+      "source": "worksheet-L1 Q2.2-2.3",
+      "id": "q196"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "Birds go through metamorphosis just like butterflies.",
+      "answer": false,
+      "explanation": "False. Chicks hatch looking like small versions of their parents and simply grow — no metamorphosis.",
+      "source": "book:page15",
+      "id": "q197"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "Incubation means a parent bird sits on the eggs to keep them warm.",
+      "answer": true,
+      "explanation": "True. This warmth lets the chick develop inside the egg.",
+      "source": "book:page15",
+      "id": "q198"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "Select ALL the correct egg-part and job pairs.",
+      "options": [
+        "Yolk — gives food",
+        "Egg white — gives water",
+        "Shell — gives nectar",
+        "Pores — give sunlight"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Yolk = food, egg white = water. The shell protects the chick and its pores let AIR through, not nectar or sunlight.",
+      "source": "book:page15",
+      "id": "q199"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "At which stage does a bird grow feathers and begin learning to fly?",
+      "options": [
+        "Egg stage",
+        "Hatchling stage",
+        "Adult stage",
+        "Fledgling stage"
+      ],
+      "answer": 3,
+      "explanation": "'As the chick grows, feathers develop and it becomes stronger' — this is the nestling/fledgling stage, after hatching and before adulthood.",
+      "source": "book:page25 Q3c, page15",
+      "id": "q200"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Bird Life Cycle: Eggs, Care and Flight",
+      "question": "Which statement about a bird's egg is NOT true?",
+      "options": [
+        "The shell is sealed so no air can pass",
+        "The yolk is the chick's store of food",
+        "The egg white provides the chick water",
+        "The hard shell protects the chick"
+      ],
+      "answer": 0,
+      "explanation": "The shell protects the chick but has tiny pores that let air pass through — it is not completely sealed.",
+      "source": "book:page15",
+      "id": "q201"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bird Life Cycles Can Be Very Different",
+      "question": "Which bird's FATHER keeps the egg warm on his feet during the freezing Antarctic winter?",
+      "options": [
+        "Wandering albatross",
+        "Emperor penguin",
+        "Bald eagle",
+        "House sparrow"
+      ],
+      "answer": 1,
+      "explanation": "The table says the emperor penguin father keeps the egg warm on his feet during the freezing Antarctic winter.",
+      "source": "worksheet-L2 Q2.1, book:page16",
+      "id": "q202"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bird Life Cycles Can Be Very Different",
+      "question": "Which bird is one of the longest-living birds on Earth?",
+      "options": [
+        "House sparrow",
+        "Chicken",
+        "Wandering albatross",
+        "Emperor penguin"
+      ],
+      "answer": 2,
+      "explanation": "The wandering albatross is 'one of the longest-living birds on Earth'.",
+      "source": "worksheet-L2 Q2.2, book:page16",
+      "id": "q203"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bird Life Cycles Can Be Very Different",
+      "question": "Which bird's chicks can walk soon after hatching?",
+      "options": [
+        "House sparrow",
+        "Bald eagle",
+        "Albatross",
+        "Chicken"
+      ],
+      "answer": 3,
+      "explanation": "Chicken chicks take only a few hours to start walking.",
+      "source": "worksheet-L2 Q2.3, book:page16",
+      "id": "q204"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bird Life Cycles Can Be Very Different",
+      "question": "Which bird's parents continue feeding the young even after they learn to fly?",
+      "options": [
+        "Bald eagle",
+        "Chicken",
+        "House sparrow",
+        "Emperor penguin"
+      ],
+      "answer": 0,
+      "explanation": "The table says bald eagle parents 'continue feeding young birds even after they learn to fly'.",
+      "source": "worksheet-L2 Q2.4, book:page16",
+      "id": "q205"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bird Life Cycles Can Be Very Different",
+      "question": "Which bird's chicks hatch blind and helpless?",
+      "options": [
+        "Wandering albatross",
+        "House sparrow",
+        "Chicken",
+        "Bald eagle"
+      ],
+      "answer": 1,
+      "explanation": "House sparrow chicks hatch blind and helpless, yet grow up in about 2 weeks.",
+      "source": "worksheet-L2 Q2.5, book:page16",
+      "id": "q206"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Bird Life Cycles Can Be Very Different",
+      "question": "How long does a house sparrow's egg take to hatch?",
+      "options": [
+        "About 35 days",
+        "About 65 days",
+        "11–14 days",
+        "About 21 days"
+      ],
+      "answer": 2,
+      "explanation": "The table gives 11–14 days for the house sparrow — the shortest in the list.",
+      "source": "book:page16",
+      "id": "q207"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Bird Life Cycles Can Be Very Different",
+      "question": "About how long does a chicken's egg take to hatch?",
+      "options": [
+        "11–14 days",
+        "About 35 days",
+        "About 80 days",
+        "About 21 days"
+      ],
+      "answer": 3,
+      "explanation": "A chicken egg takes about 21 days to hatch.",
+      "source": "book:page16",
+      "id": "q208"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Bird Life Cycles Can Be Very Different",
+      "question": "About how long does an emperor penguin's egg take to hatch?",
+      "options": [
+        "About 65 days",
+        "About 21 days",
+        "About 35 days",
+        "About 80 days"
+      ],
+      "answer": 0,
+      "explanation": "An emperor penguin's egg takes about 65 days, kept warm on the father's feet.",
+      "source": "book:page16",
+      "id": "q209"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Bird Life Cycles Can Be Very Different",
+      "question": "About how long does a bald eagle's egg take to hatch?",
+      "options": [
+        "About 80 days",
+        "About 35 days",
+        "11–14 days",
+        "About 65 days"
+      ],
+      "answer": 1,
+      "explanation": "A bald eagle's egg takes about 35 days to hatch.",
+      "source": "book:page16",
+      "id": "q210"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Bird Life Cycles Can Be Very Different",
+      "question": "About how long does a wandering albatross egg take to hatch?",
+      "options": [
+        "About 35 days",
+        "About 65 days",
+        "About 80 days",
+        "About 21 days"
+      ],
+      "answer": 2,
+      "explanation": "The wandering albatross egg takes about 80 days — the longest in the table.",
+      "source": "book:page16",
+      "id": "q211"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Bird Life Cycles Can Be Very Different",
+      "question": "How long does a house sparrow take to grow up?",
+      "options": [
+        "About 9 months",
+        "5–6 months",
+        "10–12 weeks",
+        "About 2 weeks"
+      ],
+      "answer": 3,
+      "explanation": "House sparrows grow up in about 2 weeks — very fast compared with penguins or albatrosses.",
+      "source": "book:page16",
+      "id": "q212"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Bird Life Cycles Can Be Very Different",
+      "question": "How long does an emperor penguin chick take to grow up?",
+      "options": [
+        "5–6 months",
+        "About 2 weeks",
+        "10–12 weeks",
+        "About 9 months"
+      ],
+      "answer": 0,
+      "explanation": "Emperor penguin chicks take 5–6 months to grow.",
+      "source": "book:page16",
+      "id": "q213"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Bird Life Cycles Can Be Very Different",
+      "question": "How long does a wandering albatross chick take to grow up?",
+      "options": [
+        "About 5–6 months",
+        "About 9 months",
+        "About 2 weeks",
+        "10–12 weeks"
+      ],
+      "answer": 1,
+      "explanation": "A wandering albatross takes about 9 months — the longest growing time in the table.",
+      "source": "book:page16",
+      "id": "q214"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Bird Life Cycles Can Be Very Different",
+      "question": "How long does a bald eagle chick take to grow up?",
+      "options": [
+        "5–6 months",
+        "About 9 months",
+        "10–12 weeks",
+        "About 2 weeks"
+      ],
+      "answer": 2,
+      "explanation": "Bald eagle young take 10–12 weeks to grow, and parents keep feeding them even after they fly.",
+      "source": "book:page16",
+      "id": "q215"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Bird Life Cycles Can Be Very Different",
+      "question": "Which bird in the book's table has the egg that takes the LONGEST to hatch?",
+      "options": [
+        "Emperor penguin",
+        "Bald eagle",
+        "Chicken",
+        "Wandering albatross"
+      ],
+      "answer": 3,
+      "explanation": "Albatross about 80 days > penguin about 65 > eagle about 35 > chicken about 21 > sparrow 11–14.",
+      "source": "book:page16",
+      "id": "q216"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Bird Life Cycles Can Be Very Different",
+      "question": "Which bird in the table has the egg that hatches the FASTEST?",
+      "options": [
+        "House sparrow",
+        "Chicken",
+        "Bald eagle",
+        "Emperor penguin"
+      ],
+      "answer": 0,
+      "explanation": "The house sparrow's 11–14 days is the shortest hatching time in the table.",
+      "source": "book:page16",
+      "id": "q217"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Bird Life Cycles Can Be Very Different",
+      "question": "Chicken chicks can start walking within a few hours of hatching.",
+      "answer": true,
+      "explanation": "True. The table says chickens take 'a few hours to start walking'.",
+      "source": "book:page16",
+      "id": "q218"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Bird Life Cycles Can Be Very Different",
+      "question": "The emperor penguin MOTHER keeps the egg warm on her feet through the Antarctic winter.",
+      "answer": false,
+      "explanation": "False. It is the FATHER who keeps the egg warm on his feet during the freezing Antarctic winter.",
+      "source": "book:page16",
+      "id": "q219"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Bird Life Cycles Can Be Very Different",
+      "question": "Not all baby birds grow in the same way — some hatch helpless while others can walk soon after hatching.",
+      "answer": true,
+      "explanation": "True. Sparrows hatch blind and helpless, but chickens and ducks can walk almost at once.",
+      "source": "book:page16",
+      "id": "q220"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Bird Life Cycles Can Be Very Different",
+      "question": "Bald eagle young are fully grown in about 2 weeks.",
+      "answer": false,
+      "explanation": "False. Bald eagles take 10–12 weeks to grow. It is the house sparrow that grows up in about 2 weeks.",
+      "source": "book:page16",
+      "id": "q221"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Bird Life Cycles Can Be Very Different",
+      "question": "Select ALL the birds that take MONTHS (not weeks) to grow up, according to the table.",
+      "options": [
+        "Emperor penguin",
+        "Wandering albatross",
+        "House sparrow",
+        "Chicken"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Emperor penguins take 5–6 months and albatrosses about 9 months. Sparrows grow up in about 2 weeks and chickens walk within hours.",
+      "source": "book:page16",
+      "id": "q222"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Bird Life Cycles Can Be Very Different",
+      "question": "Which statement about the birds in the table is NOT true?",
+      "options": [
+        "The eagle's parents feed it even after it can fly",
+        "The chicken's egg takes longer to hatch than the eagle's",
+        "The sparrow grows up faster than the penguin",
+        "The albatross egg takes longer to hatch than the penguin's"
+      ],
+      "answer": 1,
+      "explanation": "A chicken egg hatches in about 21 days, an eagle's in about 35 — so the chicken's is shorter, not longer.",
+      "source": "book:page16",
+      "id": "q223"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "Into how many stages do scientists divide human life?",
+      "options": [
+        "Four",
+        "Six",
+        "Five",
+        "Three"
+      ],
+      "answer": 2,
+      "explanation": "Scientists divide human life into five stages: infancy, childhood, adolescence, adulthood and old age.",
+      "source": "worksheet-L1 Q1.3",
+      "id": "q224"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "What is 'direct development'?",
+      "options": [
+        "Growth in which the body changes shape completely, like a caterpillar",
+        "Growth of a seed into a seedling using stored food",
+        "Growth of feathers on a chick while it learns to fly",
+        "Growth without dramatic change — a baby simply grows bigger"
+      ],
+      "answer": 3,
+      "explanation": "In humans 'a baby simply grows, slowly and steadily, into an adult who looks similar, just bigger. This is called direct development, growth without dramatic change.'",
+      "source": "book:page17",
+      "id": "q225"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "What is the approximate age range of INFANCY?",
+      "options": [
+        "0–2 years",
+        "2–10 years",
+        "10–18 years",
+        "18–60 years"
+      ],
+      "answer": 0,
+      "explanation": "Infancy is 0–2 years: the brain doubles, bones harden and the baby learns to see, hear, move and say first words.",
+      "source": "book:page18",
+      "id": "q226"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "What is the approximate age range of CHILDHOOD?",
+      "options": [
+        "60+ years",
+        "2–10 years",
+        "0–2 years",
+        "10–18 years"
+      ],
+      "answer": 1,
+      "explanation": "Childhood is 2–10 years: steady growth, milk teeth replaced, and learning language, reading, maths and social skills.",
+      "source": "book:page18",
+      "id": "q227"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "What is the approximate age range of ADOLESCENCE?",
+      "options": [
+        "18–60 years",
+        "0–2 years",
+        "10–18 years",
+        "2–10 years"
+      ],
+      "answer": 2,
+      "explanation": "Adolescence is 10–18 years: growth spurt, hormones, body shape changes, identity and independence.",
+      "source": "book:page18",
+      "id": "q228"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "What is the approximate age range of ADULTHOOD?",
+      "options": [
+        "10–18 years",
+        "60+ years",
+        "2–10 years",
+        "18–60 years"
+      ],
+      "answer": 3,
+      "explanation": "Adulthood is 18–60 years: full size is reached, with gradual slowing after the mid-40s.",
+      "source": "book:page18",
+      "id": "q229"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "At what age does OLD AGE begin, according to the book's table?",
+      "options": [
+        "60+ years",
+        "40+ years",
+        "50+ years",
+        "70+ years"
+      ],
+      "answer": 0,
+      "explanation": "Old age is listed as 60+ years: slower healing, weaker bones, reduced energy — and a time for experience, teaching and sharing knowledge.",
+      "source": "book:page18",
+      "id": "q230"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "Which body change happens in INFANCY?",
+      "options": [
+        "Healing becomes slower",
+        "The brain doubles and bones harden",
+        "Milk teeth are replaced by adult teeth",
+        "A growth spurt and hormones"
+      ],
+      "answer": 1,
+      "explanation": "In infancy the brain doubles, bones harden and there is rapid weight gain. Milk teeth are replaced in childhood; the growth spurt is adolescence; slower healing is old age.",
+      "source": "book:page18",
+      "id": "q231"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "In which stage are milk teeth replaced?",
+      "options": [
+        "Adolescence",
+        "Adulthood",
+        "Childhood",
+        "Infancy"
+      ],
+      "answer": 2,
+      "explanation": "Childhood (2–10 years) brings steady growth, replacement of milk teeth and better coordination.",
+      "source": "book:page18",
+      "id": "q232"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "Which stage is marked by a growth spurt, hormones and changes in body shape?",
+      "options": [
+        "Childhood",
+        "Adulthood",
+        "Old age",
+        "Adolescence"
+      ],
+      "answer": 3,
+      "explanation": "Adolescence (10–18 years) is the stage of growth spurt, hormones and body-shape changes, with growth in identity, independence and deeper thinking.",
+      "source": "book:page18",
+      "id": "q233"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "Which stage is described as 'reaches full size; gradual slowing after mid-40s'?",
+      "options": [
+        "Adulthood",
+        "Adolescence",
+        "Old age",
+        "Childhood"
+      ],
+      "answer": 0,
+      "explanation": "Adulthood (18–60 years) is when the body reaches full size, with gradual slowing after the mid-40s.",
+      "source": "book:page18",
+      "id": "q234"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "What kinds of growth does the book list for OLD AGE?",
+      "options": [
+        "Language, reading, maths and social skills",
+        "Experience, teaching and sharing knowledge",
+        "Seeing, hearing, moving and first words",
+        "Identity, independence and deeper thinking"
+      ],
+      "answer": 1,
+      "explanation": "Old age is a time for 'experience, teaching, sharing knowledge, helping others'. The other lists belong to infancy, adolescence and childhood.",
+      "source": "book:page18",
+      "id": "q235"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "About how many bones is a baby born with?",
+      "options": [
+        "About 100",
+        "About 500",
+        "About 300",
+        "About 206"
+      ],
+      "answer": 2,
+      "explanation": "Babies are born with about 300 bones, while adults have 206.",
+      "source": "book:page18, page24 B3",
+      "id": "q236"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "How many bones does an adult have?",
+      "options": [
+        "300",
+        "260",
+        "150",
+        "206"
+      ],
+      "answer": 3,
+      "explanation": "Adults have 206 bones because some of the baby's roughly 300 bones fuse together as we grow.",
+      "source": "book:page18",
+      "id": "q237"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "Why do adults have FEWER bones than babies?",
+      "options": [
+        "Some bones fuse to form stronger bones",
+        "Some bones fall out like milk teeth",
+        "Some bones shrink and disappear in old age",
+        "Babies are counted twice by mistake"
+      ],
+      "answer": 0,
+      "explanation": "'As we grow, some bones fuse together to form stronger bones, including the skull.'",
+      "source": "book:page18",
+      "id": "q238"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "How does the book describe a baby's skull?",
+      "options": [
+        "Thin plates that fall off and regrow each year",
+        "Soft pieces that slowly fuse to protect the brain",
+        "One hard bone that never changes shape or size",
+        "A hollow shell with tiny pores that let air in"
+      ],
+      "answer": 1,
+      "explanation": "The skull 'starts as soft pieces and slowly fuse together, to protect the brain'.",
+      "source": "book:page18",
+      "id": "q239"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "Which animal can jump and hide soon after hatching, already knowing how to survive?",
+      "options": [
+        "Elephant calf",
+        "Puppy",
+        "Grasshopper",
+        "Human baby"
+      ],
+      "answer": 2,
+      "explanation": "The book contrasts the grasshopper, which can jump and hide soon after hatching, with a human baby who cannot walk, talk or care for itself.",
+      "source": "book:page19",
+      "id": "q240"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "Why do humans have such a long childhood?",
+      "options": [
+        "Our bones take years to harden fully",
+        "We have fewer bones than other animals",
+        "We must wait for our milk teeth to grow",
+        "Our brains take years to develop"
+      ],
+      "answer": 3,
+      "explanation": "'Our brains take years to develop, giving us time to learn and understand the world.'",
+      "source": "book:page19",
+      "id": "q241"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "Why do human babies need many years of care compared with a butterfly caterpillar?",
+      "options": [
+        "Human brains take years to develop survival skills",
+        "Humans have weaker bones than caterpillars",
+        "Humans do not grow at all after they are born",
+        "Caterpillars do not have any parents to help them"
+      ],
+      "answer": 0,
+      "explanation": "This is the book's review question. Humans must learn speaking, reading, problem-solving and staying safe — skills that take a developing brain many years.",
+      "source": "book:page23 A5",
+      "id": "q242"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "What pattern does the book notice about animals with larger, more complex brains?",
+      "options": [
+        "More babies, longer to grow up, no parental care",
+        "Fewer babies, longer to grow up, much more parental care",
+        "More babies, faster growth, less parental care",
+        "Fewer babies, faster growth, no parental care"
+      ],
+      "answer": 1,
+      "explanation": "'Animals with larger, more complex brains tend to have fewer babies, take longer to grow up, and receive much more parental care.'",
+      "source": "book:page20",
+      "id": "q243"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "About how many eggs does the frog in the book lay before walking away?",
+      "options": [
+        "40",
+        "40,000",
+        "4,000",
+        "400"
+      ],
+      "answer": 2,
+      "explanation": "'The frog lays 4,000 eggs and walks away' — the opposite of the elephant, whose whole herd raises one calf.",
+      "source": "book:page20",
+      "id": "q244"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "How does the elephant care for its young, according to the book?",
+      "options": [
+        "It lays thousands of eggs and leaves them behind",
+        "It has one calf and leaves it alone to grow up",
+        "It has many calves raised by the father",
+        "It has one calf and the whole herd helps raise it"
+      ],
+      "answer": 3,
+      "explanation": "'The elephant has one calf and the whole herd helps raise it.'",
+      "source": "book:page20",
+      "id": "q245"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "Priya is 9. Two milk teeth fell out and new ones grew, and she is much better at reading and sums. Which stage is she in?",
+      "options": [
+        "Childhood",
+        "Infancy",
+        "Adolescence",
+        "Adulthood"
+      ],
+      "answer": 0,
+      "explanation": "Age 9, milk teeth being replaced, and rapid progress in reading and maths are all signs of childhood (2–10 years).",
+      "source": "book:page24-25 E1a",
+      "id": "q246"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "Mr. Verma is 65, walks a little slower, and his bones take longer to heal. Which stage is he in?",
+      "options": [
+        "Childhood",
+        "Old age",
+        "Adulthood",
+        "Adolescence"
+      ],
+      "answer": 1,
+      "explanation": "Age 65 is 60+, and slower healing and weaker bones are the book's old-age body changes.",
+      "source": "book:page24-25 E1b",
+      "id": "q247"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "Which part of the case shows Mr. Verma living out old age as a time for 'teaching, sharing knowledge, helping others'?",
+      "options": [
+        "His bones taking longer to heal after a fall",
+        "Being 65 years old, past the start of old age",
+        "Teaching Priya card games and sharing childhood stories",
+        "Walking a little slower than he used to in the past"
+      ],
+      "answer": 2,
+      "explanation": "Teaching card games and sharing stories is exactly the 'experience, teaching, sharing knowledge' kind of growth the book lists for old age.",
+      "source": "book:page25 E1c",
+      "id": "q248"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "Humans go through metamorphosis as they grow.",
+      "answer": false,
+      "explanation": "False. Humans grow by direct development — a baby grows steadily into a similar-looking, bigger adult.",
+      "source": "book:page17",
+      "id": "q249"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "An adult has more bones than a newborn baby.",
+      "answer": false,
+      "explanation": "False. A baby has about 300 bones and an adult only 206, because bones fuse together as we grow.",
+      "source": "book:page18",
+      "id": "q250"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "Adolescence is roughly the years from 10 to 18.",
+      "answer": true,
+      "explanation": "True. The table gives adolescence as 10–18 years.",
+      "source": "book:page18",
+      "id": "q251"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "Milk teeth are replaced during infancy.",
+      "answer": false,
+      "explanation": "False. Milk teeth are replaced in childhood (2–10 years). Infancy (0–2) is when the brain doubles and bones harden.",
+      "source": "book:page18",
+      "id": "q252"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "Humans have the longest childhood, the most parental care, and the most to learn.",
+      "answer": true,
+      "explanation": "True. The book says humans are 'at the far end of this pattern'.",
+      "source": "book:page20",
+      "id": "q253"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "Select ALL the body changes of INFANCY.",
+      "options": [
+        "Brain doubles in size",
+        "Bones harden",
+        "Milk teeth are replaced",
+        "Growth spurt begins"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Infancy: brain doubles, bones harden, rapid weight gain. Milk-teeth replacement is childhood; the growth spurt is adolescence.",
+      "source": "book:page18",
+      "id": "q254"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "Select ALL the kinds of growth the book lists for OLD AGE.",
+      "options": [
+        "Teaching others",
+        "Sharing knowledge",
+        "Saying first words",
+        "A growth spurt"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Old age brings experience, teaching, sharing knowledge and helping others. First words are infancy; the growth spurt is adolescence.",
+      "source": "book:page18",
+      "id": "q255"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "Match the description to the stage: 'Rapid brain growth; first words appear; completely dependent on parents.'",
+      "options": [
+        "Childhood",
+        "Adolescence",
+        "Old age",
+        "Infancy"
+      ],
+      "answer": 3,
+      "explanation": "Rapid brain growth and first words are the hallmarks of infancy (0–2 years).",
+      "source": "book:page19 Checkpoint 4.1",
+      "id": "q256"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "Match the description to the stage: 'Slower healing; weaker bones; sharing wisdom and experience.'",
+      "options": [
+        "Old age",
+        "Adulthood",
+        "Adolescence",
+        "Infancy"
+      ],
+      "answer": 0,
+      "explanation": "Slower healing and weaker bones, together with sharing wisdom, describe old age (60+).",
+      "source": "book:page19 Checkpoint 4.4",
+      "id": "q257"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Human Life Cycle: Five Stages",
+      "question": "Which statement about human growth is NOT true?",
+      "options": [
+        "A long childhood lets the brain develop",
+        "A baby changes shape completely, like a caterpillar",
+        "The skull starts as soft pieces that fuse together",
+        "Humans can keep learning at every age of life"
+      ],
+      "answer": 1,
+      "explanation": "Humans grow by direct development, not metamorphosis. The other three statements are all from the book.",
+      "source": "book:page17-19",
+      "id": "q258"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Stays the Same Through Life",
+      "question": "What does the book call the 'tiny instructions' inside your body?",
+      "options": [
+        "Hormones",
+        "Cells",
+        "DNA",
+        "Enzymes"
+      ],
+      "answer": 2,
+      "explanation": "'Inside your body are tiny instructions called DNA.' They help decide features like eye colour and hair type.",
+      "source": "book:page21",
+      "id": "q259"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Stays the Same Through Life",
+      "question": "Which features does DNA help decide, according to the book?",
+      "options": [
+        "Favourite food, best friend and hobbies",
+        "Number of teeth, bones and fingers",
+        "Reading speed, maths skill and memory",
+        "Eye colour, hair type and height pattern"
+      ],
+      "answer": 3,
+      "explanation": "DNA helps decide features such as eye colour, hair type and height pattern.",
+      "source": "worksheet-L1 Q3.3",
+      "id": "q260"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Stays the Same Through Life",
+      "question": "Does a person's DNA change as they grow older?",
+      "options": [
+        "No — it stays the same throughout life",
+        "Yes — it changes at every life stage",
+        "Yes — but only after old age begins",
+        "No — it disappears after childhood"
+      ],
+      "answer": 0,
+      "explanation": "The answer key says DNA 'stays the same throughout a person's life'.",
+      "source": "worksheet-L1 Q3.3",
+      "id": "q261"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Stays the Same Through Life",
+      "question": "Which body systems does the book say keep working at EVERY stage of life?",
+      "options": [
+        "Roots grow down, shoots grow up, leaves open",
+        "Heart pumps blood, lungs breathe, brain controls",
+        "Milk teeth fall out, bones fuse, skull hardens",
+        "Wings expand, antennae grow, legs form"
+      ],
+      "answer": 1,
+      "explanation": "'At every stage of life: your heart pumps blood, your lungs help you breathe, your brain controls your body.'",
+      "source": "book:page21",
+      "id": "q262"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What Stays the Same Through Life",
+      "question": "A 70-year-old joins a class and learns to use a tablet easily. Which statement best explains this?",
+      "options": [
+        "Only young children can learn new things",
+        "A person's DNA changes as they get older",
+        "The brain keeps making new connections through life",
+        "The brain stops growing after childhood ends"
+      ],
+      "answer": 2,
+      "explanation": "Humans can learn at every age because 'the brain keeps building new connections throughout life'.",
+      "source": "worksheet-L2 Q1.1",
+      "id": "q263"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Stays the Same Through Life",
+      "question": "According to the book, who can learn new skills and ideas?",
+      "options": [
+        "Only children at school",
+        "Only adults who have jobs",
+        "Only babies in infancy",
+        "People of every age"
+      ],
+      "answer": 3,
+      "explanation": "'Humans can learn at every age. A child may learn to read, an adult may learn to cook or drive. Older people can also learn new skills and ideas.'",
+      "source": "book:page21",
+      "id": "q264"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Stays the Same Through Life",
+      "question": "The book says humans are ___ beings at every age.",
+      "options": [
+        "social",
+        "solitary",
+        "silent",
+        "sleepy"
+      ],
+      "answer": 0,
+      "explanation": "'Humans are social beings at every age.' Babies need care, children learn from family and teachers, adults support each other, and older people share wisdom.",
+      "source": "book:page21",
+      "id": "q265"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What Stays the Same Through Life",
+      "question": "According to the book, what do OLDER people contribute to others?",
+      "options": [
+        "They build new nests each year",
+        "They share wisdom and experience",
+        "They need care from adults",
+        "They learn from family and teachers"
+      ],
+      "answer": 1,
+      "explanation": "'Older people share wisdom and experience.' Babies need care; children learn from family and teachers.",
+      "source": "book:page21",
+      "id": "q266"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What Stays the Same Through Life",
+      "question": "According to the book, from whom do children learn?",
+      "options": [
+        "Only from other children",
+        "Only from doctors",
+        "Family and teachers",
+        "Only from books"
+      ],
+      "answer": 2,
+      "explanation": "'Children learn from family and teachers.'",
+      "source": "book:page21",
+      "id": "q267"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "What Stays the Same Through Life",
+      "question": "Your DNA changes as you grow older.",
+      "answer": false,
+      "explanation": "False. Your DNA stays the same throughout your life, even though many other things change.",
+      "source": "book:page21",
+      "id": "q268"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "What Stays the Same Through Life",
+      "question": "The brain keeps building new connections throughout life.",
+      "answer": true,
+      "explanation": "True. This is why people can keep learning at every age.",
+      "source": "book:page21",
+      "id": "q269"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "What Stays the Same Through Life",
+      "question": "Only children can learn new things.",
+      "answer": false,
+      "explanation": "False. Humans can learn at every age — an adult may learn to cook or drive, and older people learn new skills and ideas too.",
+      "source": "book:page21, worksheet-L2 Q1.1",
+      "id": "q270"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "What Stays the Same Through Life",
+      "question": "Your heart pumps blood at every stage of your life.",
+      "answer": true,
+      "explanation": "True. The heart, lungs and brain keep working every day at every stage.",
+      "source": "book:page21",
+      "id": "q271"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "What Stays the Same Through Life",
+      "question": "Select ALL the features the book says are decided by DNA.",
+      "options": [
+        "Eye colour",
+        "Hair type",
+        "Favourite food",
+        "School marks"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "DNA helps decide eye colour, hair type and height pattern. Favourite food and school marks are not on the list.",
+      "source": "book:page21",
+      "id": "q272"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "What Stays the Same Through Life",
+      "question": "Select ALL the things that stay the SAME throughout your life, according to the book.",
+      "options": [
+        "Your DNA",
+        "Your heart keeps pumping blood",
+        "The number of bones in your body",
+        "Your height"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "DNA and your working body systems stay constant. Bones go from about 300 to 206 as they fuse, and height changes as you grow.",
+      "source": "book:page18, page21",
+      "id": "q273"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What Stays the Same Through Life",
+      "question": "Which of these is NOT something that stays the same through life?",
+      "options": [
+        "Your DNA's special instructions",
+        "Your lungs helping you breathe",
+        "Your ability to keep learning",
+        "The number of bones in your body"
+      ],
+      "answer": 3,
+      "explanation": "Bones fuse as you grow, so the count falls from about 300 to 206. DNA, body systems and the ability to learn all stay with you.",
+      "source": "book:page18, page21",
+      "id": "q274"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What Stays the Same Through Life",
+      "question": "Which of these does the book list as one of the FOUR things that stay the same through life?",
+      "options": [
+        "Humans need one another",
+        "Humans keep all their milk teeth",
+        "Humans never change height",
+        "Humans stop learning as adults"
+      ],
+      "answer": 0,
+      "explanation": "The four things are: your DNA, your body keeps working, you can keep learning, and humans need one another.",
+      "source": "book:page21",
+      "id": "q275"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cycles Connect: The Big Picture",
+      "question": "How do flowers and pollinators help each other?",
+      "options": [
+        "Pollinators get pollen to eat; plants get warmth from them",
+        "Pollinators get nectar; plants get their pollen spread to make seeds",
+        "Pollinators get seeds; plants get water carried to their roots",
+        "Pollinators get shelter; plants get spores carried away"
+      ],
+      "answer": 1,
+      "explanation": "'Bees and butterflies drink nectar, and pollen sticks to their bodies. As they move between flowers, they spread pollen, helping plants produce seeds while getting food themselves.'",
+      "source": "book:page22",
+      "id": "q276"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cycles Connect: The Big Picture",
+      "question": "What might happen to a mango tree if butterflies and bees suddenly disappeared?",
+      "options": [
+        "Its seeds would be dispersed further by the wind",
+        "It would start reproducing with spores instead",
+        "It would produce fewer fruits and seeds",
+        "It would grow faster with no insects eating it"
+      ],
+      "answer": 2,
+      "explanation": "Mango is animal-pollinated. Without pollinators, 'many plants will produce fewer fruits and seeds, making food less available for everyone'.",
+      "source": "book:page22",
+      "id": "q277"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cycles Connect: The Big Picture",
+      "question": "In which TWO ways does the book say humans are connected to plant life cycles?",
+      "options": [
+        "We carry pollen on our skin and spread seeds in our droppings",
+        "We incubate seeds in our homes and hatch them like eggs",
+        "We make nectar for bees and build nests for birds",
+        "We eat plant foods and breathe the oxygen plants produce"
+      ],
+      "answer": 3,
+      "explanation": "'We eat fruits, vegetables, and grains, and breathe the oxygen that plants produce.'",
+      "source": "book:page22",
+      "id": "q278"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cycles Connect: The Big Picture",
+      "question": "What would happen to our food if pollinators disappeared?",
+      "options": [
+        "Many plants would make fewer fruits and seeds",
+        "Food would stay exactly the same because farmers use wind",
+        "There would be more food because insects would stop eating crops",
+        "Only wheat and rice would disappear from our plates"
+      ],
+      "answer": 0,
+      "explanation": "'Many of the foods we eat depend on pollinators, if they disappear, many plants will produce fewer fruits and seeds, making food less available for everyone.'",
+      "source": "book:page22",
+      "id": "q279"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cycles Connect: The Big Picture",
+      "question": "According to the 'Cycles Connect' page, a new plant begins to grow when a seed receives enough of what?",
+      "options": [
+        "Fruit, shade and rain",
+        "Water, air and warmth",
+        "Sunlight, soil and nectar",
+        "Pollen, spores and light"
+      ],
+      "answer": 1,
+      "explanation": "'A new plant begins to grow when a seed receives enough water, air, and warmth to germinate.'",
+      "source": "book:page22",
+      "id": "q280"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cycles Connect: The Big Picture",
+      "question": "What does the book say each seed growing into a tree, each egg hatching, and each child growing up represents?",
+      "options": [
+        "A straight line of change",
+        "A coincidence of nature",
+        "Another turn of the wheel",
+        "The end of the life cycle"
+      ],
+      "answer": 2,
+      "explanation": "'Every seed that grows into a tree, every egg that hatches into a bird, every child who grows into an adult, is another turn of the wheel.'",
+      "source": "book:page22",
+      "id": "q281"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cycles Connect: The Big Picture",
+      "question": "Complete the book's summary of plant life: 'from flower to ___ to seed to new plant'.",
+      "options": [
+        "spore",
+        "fruit",
+        "petal",
+        "pollen"
+      ],
+      "answer": 3,
+      "explanation": "The book says: 'So far, we have followed life through the plant world, from flower to pollen to seed to new plant.'",
+      "source": "book:page12",
+      "id": "q282"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Cycles Connect: The Big Picture",
+      "question": "Life cycles happen separately in nature, with no connections between plants and animals.",
+      "answer": false,
+      "explanation": "False. 'Life cycles do not happen separately in nature. Plants, animals, insects, and humans are all connected.'",
+      "source": "book:page22",
+      "id": "q283"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Cycles Connect: The Big Picture",
+      "question": "Fruits help seeds travel to new places.",
+      "answer": true,
+      "explanation": "True. Animals eat fruits and carry the seeds to new places, helping new plants grow away from the parent.",
+      "source": "book:page22",
+      "id": "q284"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Cycles Connect: The Big Picture",
+      "question": "Humans breathe oxygen that plants produce.",
+      "answer": true,
+      "explanation": "True. This is one of the ways the book says humans are connected to plant life cycles.",
+      "source": "book:page22",
+      "id": "q285"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Cycles Connect: The Big Picture",
+      "question": "Plants need pollinators, but pollinators get nothing in return from flowers.",
+      "answer": false,
+      "explanation": "False. Pollinators drink nectar — they get food while they spread pollen. It is a partnership.",
+      "source": "book:page22, page4",
+      "id": "q286"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Cycles Connect: The Big Picture",
+      "question": "Select ALL the ways the book says humans depend on plants.",
+      "options": [
+        "Eating fruits, vegetables and grains",
+        "Breathing the oxygen plants produce",
+        "Getting pollen stuck to our bodies",
+        "Hatching from hard-shelled eggs"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "We eat plant foods and breathe plant-made oxygen. Carrying pollen is what bees do, and hatching from eggs is what birds do.",
+      "source": "book:page22",
+      "id": "q287"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cycles Connect: The Big Picture",
+      "question": "Which chain shows the plant life cycle in the order the book describes it?",
+      "options": [
+        "Flower → pollen → seed → new plant",
+        "Seed → flower → pollen → new plant",
+        "Pollen → new plant → flower → seed",
+        "New plant → seed → pollen → flower"
+      ],
+      "answer": 0,
+      "explanation": "The book follows life 'from flower to pollen to seed to new plant'. The flower is pollinated, makes seeds, and the seeds grow into new plants.",
+      "source": "book:page12",
+      "id": "q288"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cycles Connect: The Big Picture",
+      "question": "Which of these is NOT a connection described on the 'Cycles Connect' page?",
+      "options": [
+        "Humans breathe oxygen from plants",
+        "Birds incubate seeds so they can germinate",
+        "Flowers feed pollinators with nectar",
+        "Animals carry seeds inside fruits"
+      ],
+      "answer": 1,
+      "explanation": "Birds incubate eggs, not seeds. The other three are real connections the book describes between plants, animals and people.",
+      "source": "book:page22",
+      "id": "q289"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Cycles Connect: The Big Picture",
+      "question": "Select ALL the things a pollinator does for a plant while drinking nectar.",
+      "options": [
+        "Carries pollen stuck to its body to another flower",
+        "Helps the plant produce seeds",
+        "Spreads the plant's spores through the air",
+        "Keeps the flower bud warm like a nest"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "As the pollinator drinks nectar, pollen sticks to it and is carried to the next flower, which lets the plant make seeds. Spores belong to ferns; warmth is for eggs.",
+      "source": "book:page22",
+      "id": "q290"
+    }
+  ]
+}

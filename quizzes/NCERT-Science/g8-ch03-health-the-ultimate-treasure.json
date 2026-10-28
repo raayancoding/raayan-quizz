@@ -1,0 +1,2808 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-science-g8-ch03-health-the-ultimate-treasure",
+  "title": "Health: The Ultimate Treasure",
+  "subject": "Science",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Science/ch03",
+  "chapter": "3. Health: The Ultimate Treasure",
+  "topic": "Full Chapter",
+  "description": "Grade 8 NCERT Curiosity chapter on health, communicable and non-communicable diseases, immunity, vaccines, antibiotics and antibiotic resistance.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "science",
+    "health",
+    "diseases",
+    "immunity",
+    "vaccines",
+    "antibiotics"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Meaning of Health",
+      "question": "According to the WHO definition quoted in the chapter, health is a state of complete well-being in which three areas?",
+      "options": [
+        "Physical, mental and social well-being",
+        "Physical, nutritional and economic",
+        "Mental, emotional and financial",
+        "Social, spiritual and environmental"
+      ],
+      "answer": 0,
+      "explanation": "The WHO defines health as 'a state of complete physical, mental, and social well-being, and not merely the absence of disease'. Fig. 3.1 shows these three aspects.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q2",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Meaning of Health",
+      "question": "According to the WHO, health is simply the absence of disease.",
+      "answer": false,
+      "explanation": "WHO says health is 'not merely the absence of disease' — it also includes complete physical, mental and social well-being.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Meaning of Health",
+      "question": "Which statement best reflects the chapter's view of what it means to be healthy?",
+      "options": [
+        "Having no disease and visiting a doctor for a check-up once every year",
+        "Feeling good physically, staying positive and keeping strong relationships",
+        "Being physically fit and eating a strictly balanced diet every single day",
+        "Taking medicines regularly and avoiding all strenuous outdoor activities"
+      ],
+      "answer": 1,
+      "explanation": "Section 3.1 says health also includes feeling good physically, staying positive, and having strong relationships — body, mind and social life together. The other options reduce health to only one aspect.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Meaning of Health",
+      "question": "In the Activity 3.1 story, which of these was a CAUSE of the boy's health problems rather than an effect?",
+      "options": [
+        "Headaches that would not go away",
+        "Losing weight over several weeks",
+        "Loneliness and extra time on his phone",
+        "Poor sleep night after night"
+      ],
+      "answer": 2,
+      "explanation": "He felt lonely with no friends and busy parents, and coped by spending more time on his phone and social media. The headaches, weight loss and poor sleep were the effects that followed.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Meaning of Health",
+      "question": "In Activity 3.1, the student's troubles began with which aspect of health being affected?",
+      "options": [
+        "Physical well-being",
+        "Nutritional status",
+        "Immune function",
+        "Social well-being"
+      ],
+      "answer": 3,
+      "explanation": "The chain started with loneliness — no friends in a new city (social well-being). Only later did physical problems like headaches, weight loss and poor sleep appear.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Meaning of Health",
+      "question": "Ayurveda, as described in 'Our scientific heritage', teaches that true health is a balance of what?",
+      "options": [
+        "Body, mind and surroundings",
+        "Diet, sleep and exercise",
+        "Heart, lungs and brain",
+        "Food, water and air"
+      ],
+      "answer": 0,
+      "explanation": "The sidebar states that Ayurveda teaches true health is a balance of body, mind, and surroundings.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Meaning of Health",
+      "question": "In Ayurveda, the term 'ritucharya' refers to which of the following?",
+      "options": [
+        "A daily routine",
+        "A seasonal routine",
+        "A body constitution",
+        "A breathing exercise"
+      ],
+      "answer": 1,
+      "explanation": "Ritucharya is the seasonal routine; dinacharya is the daily routine and prakriti is one's body constitution. Pranayama is the breathing exercise mentioned elsewhere.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Meaning of Health",
+      "question": "According to the Ayurveda sidebar, food should be suited to one's 'prakriti'. What does prakriti mean?",
+      "options": [
+        "One's daily routine",
+        "A seasonal diet plan",
+        "One's body constitution",
+        "A kind of meditation"
+      ],
+      "answer": 2,
+      "explanation": "The text says eating fresh, wholesome food suited to one's prakriti (body constitution) is essential.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q9",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Meaning of Health",
+      "question": "In Ayurveda, 'dinacharya' means following a seasonal routine.",
+      "answer": false,
+      "explanation": "Dinacharya is the daily routine. The seasonal routine is called ritucharya.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Meaning of Health",
+      "question": "Which of these is NOT mentioned in the chapter as a feature of a healthy person?",
+      "options": [
+        "Performs tasks efficiently",
+        "Copes well in hard situations",
+        "Adjusts well with peers",
+        "Never catches an infection"
+      ],
+      "answer": 3,
+      "explanation": "The chapter says a healthy person performs tasks more efficiently, copes well in difficult situations and adjusts well with peer groups and society. It never claims a healthy person is immune to all infections.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q11",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Meaning of Health",
+      "question": "Which of these are named in the Ayurveda sidebar as supporting overall well-being? (Select all that apply)",
+      "options": [
+        "Restful sleep",
+        "A calm mind",
+        "Fasting for several days",
+        "Daily vitamin supplements"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The sidebar lists regular exercise, cleanliness, restful sleep and a calm mind (through yoga, meditation, mindfulness). Fasting and supplements are not mentioned.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Meaning of Health",
+      "question": "According to the chapter summary (Snapshots), how are health and happiness related?",
+      "options": [
+        "Each one improves the other",
+        "Happiness depends only on health",
+        "Health depends only on happiness",
+        "They are not related to each other"
+      ],
+      "answer": 0,
+      "explanation": "Snapshots say being happy helps us stay active and healthy, and good health improves our mood — so the link runs both ways.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Healthy Lifestyle & Environment",
+      "question": "Which of these is listed in Activity 3.2 as a habit that is NOT good for health?",
+      "options": [
+        "Meditating daily",
+        "Skipping breakfast",
+        "Eating whole grains",
+        "Playing outdoors"
+      ],
+      "answer": 1,
+      "explanation": "Skipping meals, especially breakfast, is in the list of unhealthy habits. Meditation, whole grains and outdoor play are all recommended.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q14",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Healthy Lifestyle & Environment",
+      "question": "The chapter recommends limiting screen time and spending more time in nature.",
+      "answer": true,
+      "explanation": "Section 3.2.1 lists 'Limit screen time and spend more time in nature' among the ways to maintain a healthy lifestyle.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Healthy Lifestyle & Environment",
+      "question": "The chapter says our health depends on many factors that fall under two broad headings. Which two?",
+      "options": [
+        "Heredity and income",
+        "Diet and medicines",
+        "Lifestyle and environment",
+        "Age and gender"
+      ],
+      "answer": 2,
+      "explanation": "The text says these factors include our lifestyle (how we live) and our environment (our surroundings).",
+      "source": "text:page3"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Healthy Lifestyle & Environment",
+      "question": "What is 'pranayama', as mentioned in Section 3.2.1?",
+      "options": [
+        "A seasonal eating routine",
+        "A type of vaccine drop",
+        "A traditional herbal oil",
+        "A simple breathing exercise"
+      ],
+      "answer": 3,
+      "explanation": "The chapter advises practising yoga or simple breathing exercises like pranayama regularly.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Healthy Lifestyle & Environment",
+      "question": "Which of these appear in Fig. 3.2 'How to be healthy'? (Select all that apply)",
+      "options": [
+        "Eat a balanced diet",
+        "Manage stress",
+        "Take antibiotics every week",
+        "Avoid all screen time entirely"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Fig. 3.2 lists: eat a balanced diet, stay physically active, say 'No' to smoking or alcohol, manage stress, get enough sleep. Weekly antibiotics are harmful and the chapter says to limit, not abolish, screen time.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Healthy Lifestyle & Environment",
+      "question": "In Activity 3.3, why may people living near the playground in Fig. 3.3b fall sick more often?",
+      "options": [
+        "It is dirty and full of flies and mosquitos that spread disease",
+        "Its dusty ground makes people tire out very quickly",
+        "It gives too little open space for proper exercise",
+        "Loud noise from such places damages their hearing"
+      ],
+      "answer": 0,
+      "explanation": "Fig. 3.3b is polluted, dirty, unhygienic and full of flies and mosquitos — insects that act as vectors — so people there may fall sick more often.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Healthy Lifestyle & Environment",
+      "question": "What does AQI stand for, and what does it tell us?",
+      "options": [
+        "Air Quantity Indicator — how much air is present",
+        "Air Quality Index — how clean the air is",
+        "Aqua Quality Index — how clean the water is",
+        "Allergy Quotient Index — how allergic a person is"
+      ],
+      "answer": 1,
+      "explanation": "The Air Quality Index (AQI) helps us know how clean the air is.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Healthy Lifestyle & Environment",
+      "question": "According to the chapter, air pollution from vehicles and factories in cities can cause problems like which of these?",
+      "options": [
+        "Typhoid or cholera",
+        "Malaria or dengue",
+        "Coughing or asthma",
+        "Scurvy or goitre"
+      ],
+      "answer": 2,
+      "explanation": "Polluted air affects breathing — coughing or asthma. Typhoid/cholera are water-borne, malaria/dengue are mosquito-borne, scurvy/goitre are deficiency diseases.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Healthy Lifestyle & Environment",
+      "question": "'Even if we eat well and live in a clean place, we may not feel good if we are lonely or upset.' What point is the chapter making?",
+      "options": [
+        "Diet has little effect on our health",
+        "Clean places tend to make us lonely",
+        "Physical health is the only real health",
+        "Mental and social health matter too"
+      ],
+      "answer": 3,
+      "explanation": "The sentence shows health is not only about the body — feelings and relationships matter. Spending time with friends and family keeps our minds healthy.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q22",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Healthy Lifestyle & Environment",
+      "question": "The chapter advises eating plenty of processed and sugary foods as part of a balanced diet.",
+      "answer": false,
+      "explanation": "Section 3.2.1 says to eat plenty of fruits, vegetables and whole grains and to AVOID processed, fatty or sugary food and drinks.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Healthy Lifestyle & Environment",
+      "question": "Which of these activities would the chapter count as part of a healthy lifestyle?",
+      "options": [
+        "Cycling to a friend's house",
+        "Scrolling social media at night",
+        "Eating fast food every day",
+        "Sleeping very late on weekdays"
+      ],
+      "answer": 0,
+      "explanation": "Staying physically active by walking, running, cycling or playing outdoors is recommended; the other three are listed as unhealthy habits.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q24",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Healthy Lifestyle & Environment",
+      "question": "Healthy habits support a healthy body but have no effect on the mind.",
+      "answer": false,
+      "explanation": "The chapter says healthy habits support a healthy body AS WELL AS a healthy mind.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Healthy Lifestyle & Environment",
+      "question": "The chapter asks whether you have found it hard to breathe in a smoky or dusty place. What idea does this illustrate?",
+      "options": [
+        "Smoke spreads communicable diseases",
+        "Clean air is important for health",
+        "Dust acts as a vector for pathogens",
+        "Breathing hard strengthens the lungs"
+      ],
+      "answer": 1,
+      "explanation": "The example shows that clean air and water are important for our health; polluted air can cause coughing or asthma. Smoke and dust are not pathogens or vectors.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Signs, Symptoms & Disease",
+      "question": "According to Section 3.3, what is a 'symptom'?",
+      "options": [
+        "Something measured, like temperature",
+        "The pathogen that causes a disease",
+        "Something the patient feels, like pain",
+        "A medicine given to treat illness"
+      ],
+      "answer": 2,
+      "explanation": "A symptom is what we feel (like pain or tiredness); a sign is something that can be seen or measured.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Signs, Symptoms & Disease",
+      "question": "Which of the following is a SIGN of being unwell?",
+      "options": [
+        "Feeling tired",
+        "Feeling dizzy",
+        "Feeling pain",
+        "High blood pressure"
+      ],
+      "answer": 3,
+      "explanation": "High blood pressure can be measured, so it is a sign. Tiredness, dizziness and pain are felt by the patient — symptoms.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Signs, Symptoms & Disease",
+      "question": "Which of these is a symptom rather than a sign?",
+      "options": [
+        "Tiredness",
+        "Rash",
+        "Fever",
+        "Swelling"
+      ],
+      "answer": 0,
+      "explanation": "Tiredness is felt by the patient (a symptom). A rash and swelling can be seen and a fever can be measured — all signs.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q29",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Signs, Symptoms & Disease",
+      "question": "Select the items the chapter would classify as SIGNS (things seen or measured).",
+      "options": [
+        "Fever",
+        "Dizziness",
+        "Rash",
+        "Pain"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Fever (measured temperature) and rash (seen) are signs. Dizziness and pain are felt, so they are symptoms.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q30",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Signs, Symptoms & Disease",
+      "question": "Fever is classified as a symptom because the patient feels hot.",
+      "answer": false,
+      "explanation": "The chapter gives high body temperature when we have fever as an example of a SIGN — it can be measured.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Signs, Symptoms & Disease",
+      "question": "How does the chapter define a disease?",
+      "options": [
+        "Any infection caused by a germ that has entered the body",
+        "A condition affecting the normal working of the body or mind",
+        "A condition that always spreads from person to person",
+        "A weakness caused only by a lack of nutrients in the diet"
+      ],
+      "answer": 1,
+      "explanation": "A disease is a condition that affects the normal working of the body or mind. Not all diseases are infections or spread, and not all are deficiency diseases.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Signs, Symptoms & Disease",
+      "question": "Why are signs and symptoms useful, according to the chapter?",
+      "options": [
+        "They show that the disease must be communicable",
+        "They prove that the body's immunity has failed",
+        "They help doctors understand what is making us unwell",
+        "They decide which antibiotic should be prescribed"
+      ],
+      "answer": 2,
+      "explanation": "The text says signs and symptoms help doctors understand what might be making us unwell.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Signs, Symptoms & Disease",
+      "question": "When we feel unwell, what does the chapter say this means?",
+      "options": [
+        "A pathogen has definitely entered the body",
+        "An organ has permanently stopped working",
+        "The immune system has been destroyed",
+        "Something inside us may not be working as it should"
+      ],
+      "answer": 3,
+      "explanation": "Feeling unwell means something inside may not be working as it should — it could be an infection, but could also be lifestyle or nutrition related.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q34",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Signs, Symptoms & Disease",
+      "question": "A sign is something that can be seen or measured, such as a rash or high body temperature.",
+      "answer": true,
+      "explanation": "This is exactly how Section 3.3 defines a sign.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Signs, Symptoms & Disease",
+      "question": "A doctor measures a child's temperature at 39 °C, and the child says 'my head hurts'. How would the chapter classify these?",
+      "options": [
+        "Temperature is a sign; headache is a symptom",
+        "Both are signs because the doctor notes them",
+        "Both are symptoms because the child is unwell",
+        "Temperature is a symptom; headache is a sign"
+      ],
+      "answer": 0,
+      "explanation": "Temperature can be measured (sign); the headache is felt by the child (symptom).",
+      "source": "text:page4"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Signs, Symptoms & Disease",
+      "question": "According to Section 3.4, a disease can happen when which of the following occurs?",
+      "options": [
+        "Only when pathogens multiply inside the body of a person",
+        "One or more organs or organ systems stop functioning properly",
+        "Only when the diet lacks a specific vitamin or mineral",
+        "Only when someone shares items with an infected person"
+      ],
+      "answer": 1,
+      "explanation": "The chapter says a disease can happen when one or more organs or organ systems stop functioning properly — whether due to germs, poor nutrition or lifestyle.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q37",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Signs, Symptoms & Disease",
+      "question": "All diseases last for a short time and need no regular care.",
+      "answer": false,
+      "explanation": "Some diseases last a short time, while others continue for a long time and need regular treatment or care.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Communicable vs Non-communicable",
+      "question": "Diseases that are caused by pathogens and can spread from one person to another are called what?",
+      "options": [
+        "Chronic diseases",
+        "Deficiency diseases",
+        "Communicable diseases",
+        "Lifestyle diseases"
+      ],
+      "answer": 2,
+      "explanation": "Diseases caused by pathogens are called communicable diseases; they can spread from person to person.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Communicable vs Non-communicable",
+      "question": "Which of these is a non-communicable disease?",
+      "options": [
+        "Typhoid",
+        "Dengue",
+        "Measles",
+        "Asthma"
+      ],
+      "answer": 3,
+      "explanation": "Asthma is not caused by a pathogen and does not spread between people. Typhoid, dengue and measles are communicable.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Communicable vs Non-communicable",
+      "question": "Which of these is a communicable disease?",
+      "options": [
+        "Chickenpox",
+        "Diabetes",
+        "Cancer",
+        "Goitre"
+      ],
+      "answer": 0,
+      "explanation": "Chickenpox is caused by a virus and spreads through air. Diabetes and cancer are lifestyle-linked NCDs; goitre is a deficiency disease.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q41",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Communicable vs Non-communicable",
+      "question": "Select the communicable diseases from this list.",
+      "options": [
+        "Flu",
+        "COVID-19",
+        "Diabetes",
+        "Asthma"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Flu and COVID-19 are listed as communicable diseases caused by pathogens. Diabetes and asthma are non-communicable.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q42",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Communicable vs Non-communicable",
+      "question": "Non-communicable diseases do not spread from one person to another.",
+      "answer": true,
+      "explanation": "The chapter says NCDs like cancer, diabetes or asthma are not caused by pathogens and do not spread from one person to another.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Communicable vs Non-communicable",
+      "question": "On what basis does the chapter group diseases into two major types?",
+      "options": [
+        "Their duration and their severity",
+        "Their causes and how they spread",
+        "The organ affected and the age group",
+        "Their symptoms and their treatment"
+      ],
+      "answer": 1,
+      "explanation": "Diseases are grouped into communicable and non-communicable based on their causes and how they spread.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Communicable vs Non-communicable",
+      "question": "Non-communicable diseases are usually linked to which of the following?",
+      "options": [
+        "Viruses, bacteria and protozoa",
+        "Insects, water and contaminated food",
+        "Lifestyle, diet and/or environment",
+        "Vaccines, antibiotics and medicines"
+      ],
+      "answer": 2,
+      "explanation": "NCDs are usually linked to lifestyle, diet and/or environment, not to pathogens or their carriers.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Communicable vs Non-communicable",
+      "question": "Which of these is NOT given in the chapter as a reason why NCDs have become more common in India?",
+      "options": [
+        "People are eating more processed food",
+        "People are getting less exercise",
+        "People are living longer lives",
+        "People are being vaccinated more often"
+      ],
+      "answer": 3,
+      "explanation": "The chapter attributes the rise to changes in how people live — more processed food, less exercise and longer lives. Vaccination is not mentioned as a cause.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q46",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Communicable vs Non-communicable",
+      "question": "Today, most deaths in India are caused by communicable diseases.",
+      "answer": false,
+      "explanation": "The chapter states that today most deaths in India are caused by non-communicable diseases (NCDs).",
+      "source": "text:page5"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Communicable vs Non-communicable",
+      "question": "Which statement is NOT correct?",
+      "options": [
+        "Communicable diseases are never caused by pathogens",
+        "Communicable diseases can spread between people",
+        "Non-communicable diseases are linked to lifestyle",
+        "Typhoid and dengue are communicable diseases"
+      ],
+      "answer": 0,
+      "explanation": "All communicable diseases ARE caused by pathogens — so the first statement is wrong. The other three match the chapter.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Communicable vs Non-communicable",
+      "question": "A person gets a bacterial disease from contaminated water, not directly from another person. Is the disease communicable?",
+      "options": [
+        "No — only diseases spread by direct contact count",
+        "Yes — all diseases caused by pathogens are communicable",
+        "No — water-borne diseases are non-communicable",
+        "Yes — but only if the patient also develops fever"
+      ],
+      "answer": 1,
+      "explanation": "The chapter says all communicable diseases are caused by pathogens, and some spread through contaminated water or food. The route does not change the category.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Communicable vs Non-communicable",
+      "question": "Why does the chapter say it helps to understand the difference between communicable and non-communicable diseases?",
+      "options": [
+        "It tells us which antibiotic will cure each disease",
+        "It tells us how long each disease will last in a patient",
+        "It helps us know how diseases spread and how to prevent them",
+        "It tells us which organ system is affected by a disease"
+      ],
+      "answer": 2,
+      "explanation": "Understanding the difference between these two types helps us know how diseases spread and how to prevent them.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pathogens & Transmission",
+      "question": "What are disease-causing organisms called?",
+      "options": [
+        "Vectors",
+        "Parasites",
+        "Antibiotics",
+        "Pathogens"
+      ],
+      "answer": 3,
+      "explanation": "Disease-causing organisms such as bacteria, viruses, fungi, worms and protozoa are called pathogens. Vectors carry them; antibiotics kill bacteria.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pathogens & Transmission",
+      "question": "Which of these pathogens does the chapter describe as 'single-celled organisms'?",
+      "options": [
+        "Protozoa",
+        "Worms",
+        "Fungi",
+        "Mosquitos"
+      ],
+      "answer": 0,
+      "explanation": "The chapter mentions protozoa (single-celled organisms) among disease-causing germs. Mosquitos are vectors, not pathogens.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q52",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Pathogens & Transmission",
+      "question": "Which of these are listed in the chapter as types of pathogens? (Select all that apply)",
+      "options": [
+        "Fungi",
+        "Worms",
+        "Mosquitos",
+        "Houseflies"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Pathogens listed are bacteria, viruses, fungi, worms and protozoa. Mosquitos and houseflies are vectors that spread pathogens.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pathogens & Transmission",
+      "question": "Insects like mosquitos and houseflies that spread pathogens are called what?",
+      "options": [
+        "Pathogens",
+        "Vectors",
+        "Parasites",
+        "Toxins"
+      ],
+      "answer": 1,
+      "explanation": "Insects that spread pathogens are called vectors (Fig. 3.4).",
+      "source": "text:page6"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pathogens & Transmission",
+      "question": "Sharing a towel or handkerchief with an infected person is which mode of transmission?",
+      "options": [
+        "Direct contact",
+        "Through the air",
+        "Indirect contact",
+        "Through a vector"
+      ],
+      "answer": 2,
+      "explanation": "Sharing personal items of an infected person is indirect contact. Shaking hands is direct contact.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pathogens & Transmission",
+      "question": "Shaking hands with an infected person is an example of which mode of transmission?",
+      "options": [
+        "Indirect contact",
+        "Vector-borne spread",
+        "Spread by food",
+        "Direct contact"
+      ],
+      "answer": 3,
+      "explanation": "The chapter gives shaking hands as an example of direct contact.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pathogens & Transmission",
+      "question": "When an infected person coughs or sneezes, pathogens are mainly spread through which medium?",
+      "options": [
+        "Air",
+        "Water",
+        "Vectors",
+        "Soil"
+      ],
+      "answer": 0,
+      "explanation": "One common way is through air, when an infected person coughs or sneezes.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pathogens & Transmission",
+      "question": "Fig. 3.4 includes a 'rabid animal' as a source of infection. What does this show?",
+      "options": [
+        "Diseases spread only from one person to another",
+        "A disease can pass from an animal to a healthy person",
+        "Diseases are spread only by insects like mosquitos",
+        "Diseases spread only through contaminated food"
+      ],
+      "answer": 1,
+      "explanation": "Fig. 3.4 shows transmission routes including a rabid animal infecting a healthy person — so pathogens can come from animals, not just other people.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q58",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Pathogens & Transmission",
+      "question": "A housefly can act as a vector of disease.",
+      "answer": true,
+      "explanation": "The chapter names mosquitos and houseflies as insects that spread pathogens — i.e., vectors.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pathogens & Transmission",
+      "question": "Worms that live inside the digestive system and feed on our nutrients are described as what?",
+      "options": [
+        "Vectors",
+        "Predators",
+        "Parasites",
+        "Scavengers"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says such worms live as parasites — organisms that live in or on another living being.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pathogens & Transmission",
+      "question": "Which of these is NOT given as a way intestinal worms usually spread?",
+      "options": [
+        "Contaminated soil",
+        "Contaminated food",
+        "Infected animals",
+        "Coughing and sneezing"
+      ],
+      "answer": 3,
+      "explanation": "Worms usually spread through contaminated food, water, soil, or contact with infected people or animals — not through the air.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q61",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Pathogens & Transmission",
+      "question": "All communicable diseases are caused by pathogens.",
+      "answer": true,
+      "explanation": "Section 3.4.1 opens with exactly this statement.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pathogens & Transmission",
+      "question": "Which listed precaution works mainly by physically removing pathogens?",
+      "options": [
+        "Washing hands with soap and water",
+        "Staying at home and resting when unwell",
+        "Getting vaccinated as a young child",
+        "Taking antibiotics a doctor prescribes"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says washing hands with soap and water removes pathogens. Resting limits spread, vaccines train immunity, antibiotics kill bacteria.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Airborne Diseases",
+      "question": "According to Table 3.1, what is the causal agent of tuberculosis (TB)?",
+      "options": [
+        "Virus",
+        "Bacteria",
+        "Protozoa",
+        "Worms"
+      ],
+      "answer": 1,
+      "explanation": "Table 3.1 lists bacteria as the causal agent of TB, with the lungs as the site of infection.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Airborne Diseases",
+      "question": "What causes the common cold and influenza, according to Table 3.1?",
+      "options": [
+        "Bacteria",
+        "Fungi",
+        "A virus",
+        "Protozoa"
+      ],
+      "answer": 2,
+      "explanation": "Common cold and influenza are viral diseases of the respiratory tract.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Airborne Diseases",
+      "question": "Which organ is the site of infection for tuberculosis in Table 3.1?",
+      "options": [
+        "Intestine",
+        "Liver",
+        "Skin",
+        "Lungs"
+      ],
+      "answer": 3,
+      "explanation": "TB infects the lungs. The intestine is the site for cholera/typhoid, the liver for hepatitis A.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Airborne Diseases",
+      "question": "A patient has a cough, fever, fatigue, loss of appetite and night sweats. Which disease in Table 3.1 matches?",
+      "options": [
+        "Tuberculosis",
+        "Chickenpox",
+        "Common cold",
+        "Measles"
+      ],
+      "answer": 0,
+      "explanation": "Night sweats, fatigue and loss of appetite with cough and fever are the listed symptoms of TB.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Airborne Diseases",
+      "question": "Fever, sore throat and reddish rashes on the neck and ears are the symptoms of which disease?",
+      "options": [
+        "Chickenpox",
+        "Measles",
+        "Dengue",
+        "Influenza"
+      ],
+      "answer": 1,
+      "explanation": "Table 3.1 lists these as measles symptoms. Chickenpox gives itchy skin and blisters; dengue gives joint pain.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Airborne Diseases",
+      "question": "Which of these airborne diseases in Table 3.1 is NOT caused by a virus?",
+      "options": [
+        "Measles",
+        "Chickenpox",
+        "Tuberculosis",
+        "Influenza"
+      ],
+      "answer": 2,
+      "explanation": "TB is bacterial; measles, chickenpox and influenza are all viral.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q69",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Airborne Diseases",
+      "question": "Which preventive measures are listed for chickenpox in Table 3.1? (Select all that apply)",
+      "options": [
+        "Complete isolation of the patient",
+        "Vaccination",
+        "Drinking boiled water",
+        "Using mosquito nets"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Chickenpox prevention: complete isolation, covering mouth and nose, vaccination. Boiled water and mosquito nets are for water-borne and vector-borne diseases.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q70",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Airborne Diseases",
+      "question": "Table 3.1 lists vaccination as a preventive measure for the common cold.",
+      "answer": false,
+      "explanation": "For common cold/influenza the table lists washing hands, not sharing personal items and covering mouth and nose — vaccination is not listed there (it is listed for chickenpox, measles and TB).",
+      "source": "text:page6"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Airborne Diseases",
+      "question": "Which set of symptoms belongs to chickenpox?",
+      "options": [
+        "High fever, sweating and periodic chills",
+        "Diarrhoea with severe dehydration",
+        "Cough, night sweats and loss of appetite",
+        "Mild fever, itchy skin, rashes and blisters"
+      ],
+      "answer": 3,
+      "explanation": "Chickenpox: mild fever, itchy skin, rashes, blisters. The others describe malaria, cholera and TB.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q72",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Airborne Diseases",
+      "question": "Measles affects the skin and the respiratory tract.",
+      "answer": true,
+      "explanation": "Table 3.1 gives 'Skin, respiratory tract' as the sites of infection for measles.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Airborne Diseases",
+      "question": "Which preventive measure is listed for common cold/influenza but NOT in the measles row of Table 3.1?",
+      "options": [
+        "Not sharing personal items",
+        "Covering mouth and nose",
+        "Isolation of the patient",
+        "Vaccination"
+      ],
+      "answer": 0,
+      "explanation": "Cold/flu: wash hands, don't share personal items, cover mouth and nose. Measles: isolation, covering, hygiene, vaccination — item-sharing is not listed for measles.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Airborne Diseases",
+      "question": "For which disease does Table 3.1 list 'avoiding close contact with infected people'?",
+      "options": [
+        "Hepatitis A",
+        "Tuberculosis",
+        "Cholera",
+        "Malaria"
+      ],
+      "answer": 1,
+      "explanation": "TB prevention includes avoiding close contact with TB-infected people, covering mouth and nose, hygiene and vaccination.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Water & Food-borne Diseases",
+      "question": "Which organ does hepatitis A infect, according to Table 3.1?",
+      "options": [
+        "Lungs",
+        "Intestine",
+        "Liver",
+        "Skin"
+      ],
+      "answer": 2,
+      "explanation": "Hepatitis A is a viral disease of the liver, which is why jaundice is among its symptoms.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Water & Food-borne Diseases",
+      "question": "What is the causal agent of cholera?",
+      "options": [
+        "Virus",
+        "Worms",
+        "Protozoa",
+        "Bacteria"
+      ],
+      "answer": 3,
+      "explanation": "Cholera is caused by bacteria that infect the intestine, causing diarrhoea and dehydration.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Water & Food-borne Diseases",
+      "question": "Jaundice, nausea and pain in the upper right abdomen point to which disease in Table 3.1?",
+      "options": [
+        "Hepatitis A",
+        "Typhoid",
+        "Cholera",
+        "Ascariasis"
+      ],
+      "answer": 0,
+      "explanation": "These are listed symptoms of hepatitis A, a liver infection. Typhoid gives headache and abdominal discomfort; cholera gives diarrhoea and dehydration.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Water & Food-borne Diseases",
+      "question": "'Diarrhoea and dehydration' are the symptoms listed for which disease?",
+      "options": [
+        "Hepatitis A",
+        "Cholera",
+        "Dengue",
+        "Measles"
+      ],
+      "answer": 1,
+      "explanation": "Cholera's listed symptoms are diarrhoea and dehydration.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Water & Food-borne Diseases",
+      "question": "Which of these water/food-borne diseases is caused by a virus?",
+      "options": [
+        "Cholera",
+        "Typhoid",
+        "Hepatitis A",
+        "Ascariasis"
+      ],
+      "answer": 2,
+      "explanation": "Hepatitis A is viral. Cholera and typhoid are bacterial; ascariasis is caused by roundworms.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Water & Food-borne Diseases",
+      "question": "Ascariasis is caused by which pathogen?",
+      "options": [
+        "Bacteria",
+        "Protozoa",
+        "A virus",
+        "Roundworms"
+      ],
+      "answer": 3,
+      "explanation": "Table 3.1 lists ascariasis (roundworms) with worms as the causal agent, infecting the intestine.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q81",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Water & Food-borne Diseases",
+      "question": "Which symptoms of ascariasis are listed in Table 3.1? (Select all that apply)",
+      "options": [
+        "Worms in stool",
+        "Anaemia",
+        "Jaundice",
+        "Night sweats"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Ascariasis: worms in stool, loss of appetite, poor growth, diarrhoea, weight loss, anaemia. Jaundice belongs to hepatitis A; night sweats to TB.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q82",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Water & Food-borne Diseases",
+      "question": "Table 3.1 lists vaccination as a preventive measure against ascariasis.",
+      "answer": false,
+      "explanation": "Ascariasis prevention is hygiene, sanitary habits, properly cooked food and boiled water — no vaccination is listed (unlike cholera, typhoid and hepatitis A).",
+      "source": "text:page7"
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Water & Food-borne Diseases",
+      "question": "Which preventive measure is shared by cholera, typhoid and ascariasis in Table 3.1?",
+      "options": [
+        "Boiled drinking water and properly cooked food",
+        "Mosquito nets and insect repellents",
+        "Complete isolation of the infected patient",
+        "Wearing long-sleeved clothes outdoors"
+      ],
+      "answer": 0,
+      "explanation": "All three spread through contaminated food and water, so the table recommends properly cooked food, boiled drinking water and good sanitary habits.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Water & Food-borne Diseases",
+      "question": "Headache, abdominal discomfort, fever and diarrhoea are the listed symptoms of which disease?",
+      "options": [
+        "Cholera",
+        "Typhoid",
+        "Hepatitis A",
+        "Malaria"
+      ],
+      "answer": 1,
+      "explanation": "These match typhoid in Table 3.1. Cholera lists only diarrhoea and dehydration; hepatitis A includes jaundice.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q85",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Water & Food-borne Diseases",
+      "question": "Typhoid is caused by bacteria that infect the intestine.",
+      "answer": true,
+      "explanation": "Table 3.1: typhoid — bacteria — intestine.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Water & Food-borne Diseases",
+      "question": "Why does boiling drinking water help prevent cholera but not malaria?",
+      "options": [
+        "Cholera is viral while malaria is bacterial",
+        "Boiling kills protozoa but not bacteria",
+        "Cholera spreads via water; malaria via mosquitos",
+        "Malaria pathogens survive boiling water"
+      ],
+      "answer": 2,
+      "explanation": "Cholera bacteria spread through contaminated water, so boiling helps. Malaria protozoa are transmitted by mosquito bites, so water treatment does not stop it.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Vector-borne Diseases",
+      "question": "What is the causal agent of malaria?",
+      "options": [
+        "Virus",
+        "Bacteria",
+        "Worms",
+        "Protozoa"
+      ],
+      "answer": 3,
+      "explanation": "Table 3.1 lists protozoa as the causal agent of malaria, spread by mosquitos.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Vector-borne Diseases",
+      "question": "What is the causal agent of dengue fever?",
+      "options": [
+        "Virus",
+        "Protozoa",
+        "Bacteria",
+        "Fungi"
+      ],
+      "answer": 0,
+      "explanation": "Dengue is caused by a virus; malaria (also mosquito-borne) is caused by protozoa.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Vector-borne Diseases",
+      "question": "By what other name does Table 3.1 refer to dengue fever?",
+      "options": [
+        "Night sweat fever",
+        "Break bone fever",
+        "Periodic chill fever",
+        "Yellow skin fever"
+      ],
+      "answer": 1,
+      "explanation": "Dengue fever is also called 'Break bone fever', reflecting its severe muscle and joint pain.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Vector-borne Diseases",
+      "question": "High fever, profuse sweating and periodic chills are the symptoms of which disease?",
+      "options": [
+        "Dengue",
+        "Typhoid",
+        "Malaria",
+        "Tuberculosis"
+      ],
+      "answer": 2,
+      "explanation": "These are the listed malaria symptoms. Dengue lists headache, muscle/joint pain and nausea.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Vector-borne Diseases",
+      "question": "What is the site of infection for both malaria and dengue in Table 3.1?",
+      "options": [
+        "Lungs and throat",
+        "Liver and intestine",
+        "Skin and lungs",
+        "Skin and blood"
+      ],
+      "answer": 3,
+      "explanation": "Both mosquito-borne diseases list 'Skin, blood' as the site of infection.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q92",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Vector-borne Diseases",
+      "question": "Which preventive measures are listed for dengue in Table 3.1? (Select all that apply)",
+      "options": [
+        "Avoiding areas with still water",
+        "Wearing long-sleeved clothes",
+        "Drinking boiled water",
+        "Isolation of the patient"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Dengue prevention: mosquito nets and repellents, long-sleeved clothes, controlling mosquito breeding, avoiding still water. Boiled water and isolation are for other disease groups.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q93",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Vector-borne Diseases",
+      "question": "Malaria and dengue are both caused by viruses.",
+      "answer": false,
+      "explanation": "Dengue is viral, but malaria is caused by protozoa.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Vector-borne Diseases",
+      "question": "Which preventive step is listed for dengue but NOT for malaria in Table 3.1?",
+      "options": [
+        "Avoiding areas with still water",
+        "Use of mosquito nets",
+        "Wearing long-sleeved clothes",
+        "Control of mosquito breeding"
+      ],
+      "answer": 0,
+      "explanation": "Both rows share nets, repellents, long sleeves and breeding control; only the dengue row adds 'avoiding areas with still water'.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Vector-borne Diseases",
+      "question": "Why does controlling mosquito breeding near your home help prevent malaria?",
+      "options": [
+        "It kills protozoa living in the soil nearby",
+        "It reduces the vectors that carry the pathogen",
+        "It removes bacteria from drinking water",
+        "It stops the virus spreading in the air"
+      ],
+      "answer": 1,
+      "explanation": "Mosquitos are the vectors that transfer malaria protozoa; fewer mosquitos means fewer infective bites.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Vector-borne Diseases",
+      "question": "A notice-board clipping says the arrival of the monsoon increases malaria and dengue cases. Which explanation fits the chapter best?",
+      "options": [
+        "Rain washes pathogens into the air",
+        "Cooler weather weakens immunity",
+        "Still water lets mosquitos breed more",
+        "Floods contaminate food with protozoa"
+      ],
+      "answer": 2,
+      "explanation": "Both diseases are spread by mosquitos, which breed in still water that collects during the monsoon — which is why the table advises controlling breeding and avoiding still water.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q97",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Vector-borne Diseases",
+      "question": "Wearing long-sleeved clothes is a listed precaution against mosquito-borne diseases.",
+      "answer": true,
+      "explanation": "Both the malaria and dengue rows in Table 3.1 list wearing long-sleeved clothes.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Vector-borne Diseases",
+      "question": "Which set of symptoms belongs to dengue fever?",
+      "options": [
+        "Diarrhoea, dehydration and loss of appetite",
+        "Cough, fatigue, night sweats and fever",
+        "Mild fever, itchy skin, rashes and blisters",
+        "Fever, headache, muscle and joint pain, nausea"
+      ],
+      "answer": 3,
+      "explanation": "Table 3.1 lists fever, headache, muscle and joint pain and nausea for dengue. The others describe cholera/ascariasis, TB and chickenpox.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Non-communicable Diseases",
+      "question": "Scurvy, anaemia and goitre are examples of which group of diseases?",
+      "options": [
+        "Deficiency diseases",
+        "Communicable diseases",
+        "Vector-borne diseases",
+        "Bacterial infections"
+      ],
+      "answer": 0,
+      "explanation": "They are caused by a lack of specific nutrients in the diet — deficiency diseases, which are non-communicable.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Non-communicable Diseases",
+      "question": "What causes deficiency diseases?",
+      "options": [
+        "Pathogens entering through food",
+        "Lack of specific nutrients in the diet",
+        "Excess screen time and stress",
+        "Lack of exercise and sleep"
+      ],
+      "answer": 1,
+      "explanation": "Deficiency diseases like scurvy, anaemia and goitre result from a lack of specific nutrients.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q101",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Non-communicable Diseases",
+      "question": "Deficiency diseases such as goitre are communicable because they are related to food.",
+      "answer": false,
+      "explanation": "Deficiency diseases are non-communicable — they are caused by a lack of nutrients, not by pathogens, and do not spread between people.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Non-communicable Diseases",
+      "question": "Diseases that persist for a long time (more than 3 months) are called what?",
+      "options": [
+        "Acute diseases",
+        "Deficiency diseases",
+        "Chronic diseases",
+        "Infectious diseases"
+      ],
+      "answer": 2,
+      "explanation": "The chapter calls diseases like cancer, diabetes and asthma that persist for more than 3 months chronic diseases.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Non-communicable Diseases",
+      "question": "Which statement about diabetes is NOT correct according to the chapter?",
+      "options": [
+        "It is becoming more common in children",
+        "India has one of the highest numbers of cases",
+        "It is linked to a lack of physical activity",
+        "It is caused by a virus spread through food"
+      ],
+      "answer": 3,
+      "explanation": "Diabetes is non-communicable, linked to hormonal imbalances, unhealthy eating, lack of activity and obesity — not to a virus.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q104",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Non-communicable Diseases",
+      "question": "Which signs and symptoms of diabetes are listed in Table 3.2? (Select all that apply)",
+      "options": [
+        "Frequent urination",
+        "Slow healing",
+        "Night sweats",
+        "Jaundice"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Table 3.2 lists frequent urination, excessive thirst, weight loss, tiredness and slow healing. Night sweats (TB) and jaundice (hepatitis A) belong to communicable diseases.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Non-communicable Diseases",
+      "question": "What lifestyle change does Table 3.2 suggest for obesity?",
+      "options": [
+        "Balanced diet and regular exercise",
+        "Vaccination and boiled water",
+        "Antibiotics and complete rest",
+        "Mosquito nets and repellents"
+      ],
+      "answer": 0,
+      "explanation": "For obesity the suggested change is eating a balanced diet and exercising regularly.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Non-communicable Diseases",
+      "question": "Kamal Ranadive's work showed that which factors can raise the risk of cancer?",
+      "options": [
+        "Viruses, bacteria and protozoa",
+        "Tobacco, diet and pollution",
+        "Mosquitos, flies and worms",
+        "Screen time, stress and noise"
+      ],
+      "answer": 1,
+      "explanation": "The 'Be a scientist' box says her work showed how tobacco, diet and pollution can raise the risk of cancer.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Non-communicable Diseases",
+      "question": "Kamal Ranadive studied how which two things are linked to cancer?",
+      "options": [
+        "Bacteria and fungi",
+        "Worms and protozoa",
+        "Hormones and certain viruses",
+        "Minerals and vitamins"
+      ],
+      "answer": 2,
+      "explanation": "She studied how hormones and certain viruses are linked to cancer, helping improve its treatment and prevention.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q108",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Non-communicable Diseases",
+      "question": "Non-communicable diseases are the most common cause of death in India.",
+      "answer": true,
+      "explanation": "Section 3.4.2 states NCDs are the most common cause of death in India.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Non-communicable Diseases",
+      "question": "According to the chapter, which of these contributes to the development of diabetes?",
+      "options": [
+        "Exposure to mosquito bites in the monsoon",
+        "Sharing personal items with a patient",
+        "Not boiling drinking water in summer",
+        "Hormonal imbalances and being overweight"
+      ],
+      "answer": 3,
+      "explanation": "Diabetes develops from hormonal imbalances, unhealthy eating, lack of physical activity, and being overweight or obese. The other options describe communicable-disease routes.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Non-communicable Diseases",
+      "question": "Excessive thirst, weight loss, tiredness and frequent urination are listed in Table 3.2 for which disease?",
+      "options": [
+        "Diabetes",
+        "Obesity",
+        "Asthma",
+        "High blood pressure"
+      ],
+      "answer": 0,
+      "explanation": "Table 3.2 gives these as the signs and symptoms of diabetes.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Non-communicable Diseases",
+      "question": "Which disease is chronic, non-communicable and is linked in the chapter to air pollution?",
+      "options": [
+        "Tuberculosis",
+        "Asthma",
+        "Influenza",
+        "Cholera"
+      ],
+      "answer": 1,
+      "explanation": "Asthma is listed as a chronic NCD, and Section 3.2.2 says city air pollution can cause coughing or asthma. The others are communicable.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Immunity & Vaccines",
+      "question": "What is the natural ability of our body to fight diseases called?",
+      "options": [
+        "Resistance",
+        "Infection",
+        "Immunity",
+        "Diagnosis"
+      ],
+      "answer": 2,
+      "explanation": "The natural ability of our body to fight diseases is known as immunity, provided by the immune system.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Immunity & Vaccines",
+      "question": "Vaccines provide which kind of immunity, according to the chapter?",
+      "options": [
+        "Natural immunity",
+        "Passive immunity",
+        "Inherited immunity",
+        "Acquired immunity"
+      ],
+      "answer": 3,
+      "explanation": "A vaccine trains the immune system, providing acquired immunity — protection developed after exposure to a pathogen or a vaccine.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Immunity & Vaccines",
+      "question": "How does the chapter define acquired immunity?",
+      "options": [
+        "Protection developed after exposure to a pathogen or a vaccine",
+        "Protection a baby is born with, inherited from its parents",
+        "Protection given by taking antibiotics after an infection",
+        "Protection that always disappears after a few weeks"
+      ],
+      "answer": 0,
+      "explanation": "Acquired immunity is protection developed after exposure to a pathogen or a vaccine.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q115",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Immunity & Vaccines",
+      "question": "From what can vaccines be made, according to the chapter? (Select all that apply)",
+      "options": [
+        "Weakened or dead pathogens",
+        "Harmless parts of the pathogen",
+        "Antibiotics that kill bacteria",
+        "Herbs and natural oils"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Vaccines are made from weakened or dead pathogens or from inactive/harmless parts of the pathogen. Antibiotics and herbs are treatments, not vaccines.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Immunity & Vaccines",
+      "question": "How do some newer vaccines work, according to the chapter?",
+      "options": [
+        "They inject live, fully active pathogens into blood",
+        "They instruct our cells to make a harmless germ part",
+        "They kill the bacteria directly inside the body",
+        "They replace the immune system with new cells"
+      ],
+      "answer": 1,
+      "explanation": "Some newer vaccines instruct our own body cells to make a harmless part of the germ, which the immune system then learns to fight.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Immunity & Vaccines",
+      "question": "What does a tetanus shot contain?",
+      "options": [
+        "Live tetanus bacteria",
+        "A weakened tetanus virus",
+        "An inactivated bacterial toxin",
+        "An antibiotic against bacteria"
+      ],
+      "answer": 2,
+      "explanation": "The tetanus shot contains an inactivated bacterial toxin that helps the immune system develop protection without causing the disease.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q118",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Immunity & Vaccines",
+      "question": "Vaccines are curative — they treat a disease once a person has fallen sick.",
+      "answer": false,
+      "explanation": "Vaccines are preventive, not curative. They help minimise serious disease before it happens but do not treat it once someone is already sick.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Immunity & Vaccines",
+      "question": "Which statement about vaccines is NOT correct?",
+      "options": [
+        "Vaccines are carefully tested for safety",
+        "Vaccination also protects people around you",
+        "Vaccines help people from infants to the elderly",
+        "Vaccines cure a disease after it has begun"
+      ],
+      "answer": 3,
+      "explanation": "Vaccines are preventive, not curative. The other three statements come directly from the chapter.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Immunity & Vaccines",
+      "question": "A vaccine helps our body fight a disease by training the immune system to do what?",
+      "options": [
+        "Recognise and attack harmful germs",
+        "Produce antibiotics against bacteria",
+        "Stop all germs from entering the body",
+        "Remove toxins from the blood"
+      ],
+      "answer": 0,
+      "explanation": "A vaccine trains the immune system to recognise and attack harmful germs.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Immunity & Vaccines",
+      "question": "The Rotavirus vaccine, which Maharaj Kishan Bhan helped develop, protects children from what?",
+      "options": [
+        "Measles",
+        "Diarrhoea",
+        "Polio",
+        "Tetanus"
+      ],
+      "answer": 1,
+      "explanation": "The 'Be a scientist' box says the Rotavirus vaccine protects children from diarrhoea.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q122",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Immunity & Vaccines",
+      "question": "India is one of the world's largest vaccine producers.",
+      "answer": true,
+      "explanation": "The 'Ever heard of…' box says India manufactures vaccines on a massive scale and supplies many countries.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Immunity & Vaccines",
+      "question": "Why do some people get sick more often than others living in the same environment?",
+      "options": [
+        "Their height differs",
+        "Their blood group differs",
+        "Their immunity differs",
+        "Their food tastes differ"
+      ],
+      "answer": 2,
+      "explanation": "The chapter explains this by immunity — the natural ability of the body to fight diseases differs between people.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Immunity & Vaccines",
+      "question": "Getting vaccinated 'not only protects you but also the people around you'. Why?",
+      "options": [
+        "The vaccine passes through the air to nearby people",
+        "Vaccines cure anyone who is already sick nearby",
+        "A vaccinated person can no longer carry any germ",
+        "A vaccinated person is less likely to spread the infection"
+      ],
+      "answer": 3,
+      "explanation": "Vaccines help prevent illness and reduce the spread of infections, so fewer people around a vaccinated person get exposed.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Smallpox & History of Vaccination",
+      "question": "Who discovered the first vaccine?",
+      "options": [
+        "Edward Jenner",
+        "Alexander Fleming",
+        "Kamal Ranadive",
+        "Maharaj Kishan Bhan"
+      ],
+      "answer": 0,
+      "explanation": "English doctor Edward Jenner invented the first vaccine in the late 1700s against smallpox. Fleming discovered penicillin.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Smallpox & History of Vaccination",
+      "question": "Jenner's first vaccine protected people against which disease?",
+      "options": [
+        "Cowpox",
+        "Smallpox",
+        "Measles",
+        "Polio"
+      ],
+      "answer": 1,
+      "explanation": "Jenner used cowpox material to protect people against smallpox.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Smallpox & History of Vaccination",
+      "question": "What was Jenner's hypothesis, as given in 'Think like a scientist'?",
+      "options": [
+        "Milkmaids were naturally immune to all diseases",
+        "Smallpox was spread from cows to the milkmaids",
+        "Content in cowpox blister pus protected against smallpox",
+        "Cowpox and smallpox were exactly the same disease"
+      ],
+      "answer": 2,
+      "explanation": "Hypothesis: content in the pus of cowpox blisters protected people from smallpox.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Smallpox & History of Vaccination",
+      "question": "How did Jenner test his hypothesis?",
+      "options": [
+        "Gave a boy smallpox sap, then exposed him to cowpox",
+        "Gave cows smallpox and then observed the milkmaids",
+        "Isolated milkmaids from cows for several months",
+        "Gave a boy cowpox sap, then exposed him to smallpox"
+      ],
+      "answer": 3,
+      "explanation": "He injected cowpox sap into a boy, who later showed no illness when exposed to smallpox.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Smallpox & History of Vaccination",
+      "question": "Why did having cowpox protect milkmaids from smallpox, according to the chapter?",
+      "options": [
+        "The two viruses are related",
+        "Cowpox killed the smallpox virus",
+        "Cowpox is the stronger disease",
+        "Cows cannot catch smallpox"
+      ],
+      "answer": 0,
+      "explanation": "Jenner's observation is explained as 'likely because the two viruses are related' — so immunity to one protected against the other.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Smallpox & History of Vaccination",
+      "question": "In the traditional Indian practice of variolation, material was taken from what?",
+      "options": [
+        "A cowpox blister",
+        "A smallpox sore",
+        "A dead bacterium",
+        "A healthy person"
+      ],
+      "answer": 1,
+      "explanation": "Variolation used material from a smallpox sore to scratch the skin and create a mild infection.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Smallpox & History of Vaccination",
+      "question": "What were the people who performed variolation in India known as?",
+      "options": [
+        "Vaidyas",
+        "Hakims",
+        "Teekedaars",
+        "Milkmaids"
+      ],
+      "answer": 2,
+      "explanation": "The 'Our scientific heritage' box says those who performed variolation were known as teekedaars.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q132",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Smallpox & History of Vaccination",
+      "question": "Variolation created a mild cowpox infection to build immunity against smallpox.",
+      "answer": false,
+      "explanation": "Variolation used material from a SMALLPOX sore, not cowpox. Using cowpox was Jenner's innovation.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Smallpox & History of Vaccination",
+      "question": "According to the graph in the chapter, in which year was smallpox eradicated?",
+      "options": [
+        "1965",
+        "1950",
+        "1980",
+        "1979"
+      ],
+      "answer": 3,
+      "explanation": "The graph marks '1979: Smallpox eradicated'; 1965 marks the vaccine campaign.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Smallpox & History of Vaccination",
+      "question": "What event does the graph of countries reporting smallpox mark in 1965?",
+      "options": [
+        "The vaccine campaign",
+        "Smallpox eradication",
+        "Jenner's first test",
+        "The ban on variolation"
+      ],
+      "answer": 0,
+      "explanation": "The graph labels 1965 as the vaccine campaign, after which the number of reporting countries fell to zero by 1979.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q135",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Smallpox & History of Vaccination",
+      "question": "Mass vaccination eventually helped eradicate smallpox worldwide.",
+      "answer": true,
+      "explanation": "The 'Application' step in Think like a scientist says exactly this.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Smallpox & History of Vaccination",
+      "question": "Which order correctly follows the 'Think like a scientist' steps for Jenner's work?",
+      "options": [
+        "Hypothesis → observation → application → experiment → result",
+        "Observation → hypothesis → experiment → result → application",
+        "Experiment → observation → result → hypothesis → application",
+        "Application → observation → hypothesis → experiment → result"
+      ],
+      "answer": 1,
+      "explanation": "Jenner observed milkmaids, hypothesised cowpox pus was protective, experimented on a boy, found resistance, and the application was mass vaccination.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Smallpox & History of Vaccination",
+      "question": "What is the key difference between variolation and Jenner's vaccination?",
+      "options": [
+        "Variolation used cowpox; Jenner used smallpox material",
+        "Variolation was injected; Jenner used drops by mouth",
+        "Variolation used smallpox material; Jenner used cowpox",
+        "Variolation began in India after Jenner's vaccine"
+      ],
+      "answer": 2,
+      "explanation": "Variolation scratched smallpox-sore material into the skin; Jenner used the milder, related cowpox. Variolation existed in India long before modern vaccines.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Antibiotics & Resistance",
+      "question": "Antibiotics kill which type of pathogen?",
+      "options": [
+        "Viruses",
+        "Protozoa",
+        "Worms",
+        "Bacteria"
+      ],
+      "answer": 3,
+      "explanation": "Antibiotics work only against bacterial infections; they do not work against viruses or protozoa.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q139",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Antibiotics & Resistance",
+      "question": "Antibiotics are effective against viral infections such as the common cold.",
+      "answer": false,
+      "explanation": "Antibiotics do not work against viruses — the chapter specifically recommends not taking them for a cold, cough or flu.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q140",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Antibiotics & Resistance",
+      "question": "Why do antibiotics work only against bacteria?",
+      "options": [
+        "They target bacterial cell parts unlike human cells",
+        "Bacteria are the only pathogens that have cells",
+        "Viruses are too large for antibiotics to reach",
+        "Protozoa live outside the body, out of reach"
+      ],
+      "answer": 0,
+      "explanation": "Antibiotics target parts of bacterial cells that are different from human or other animal cells, so they cannot act on viruses or protozoa.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q141",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Antibiotics & Resistance",
+      "question": "What was the first antibiotic?",
+      "options": [
+        "Tetanus toxin",
+        "Penicillin",
+        "Rotavirus",
+        "Variolation"
+      ],
+      "answer": 1,
+      "explanation": "Penicillin, discovered in 1928, was the first antibiotic used to treat bacterial infections.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q142",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Antibiotics & Resistance",
+      "question": "Who discovered penicillin?",
+      "options": [
+        "Edward Jenner",
+        "Kamal Ranadive",
+        "Alexander Fleming",
+        "Maharaj Kishan Bhan"
+      ],
+      "answer": 2,
+      "explanation": "Alexander Fleming, a bacteriologist from London, discovered penicillin in 1928.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q143",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Antibiotics & Resistance",
+      "question": "In which year was penicillin discovered?",
+      "options": [
+        "1798",
+        "1965",
+        "1979",
+        "1928"
+      ],
+      "answer": 3,
+      "explanation": "Penicillin was discovered in 1928. 1965 and 1979 relate to the smallpox campaign and eradication.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q144",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Antibiotics & Resistance",
+      "question": "What did Fleming observe on a discarded petri dish?",
+      "options": [
+        "A mould stopped the bacteria from growing",
+        "A virus on the dish killed the bacteria",
+        "Cowpox prevented smallpox in milkmaids",
+        "Boiled water stopped bacteria spreading"
+      ],
+      "answer": 0,
+      "explanation": "He noticed a mould stopped the bacteria from growing and realised it released a substance that killed them.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q145",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Antibiotics & Resistance",
+      "question": "What is antibiotic resistance?",
+      "options": [
+        "A person becoming allergic to an antibiotic",
+        "Bacteria surviving an antibiotic that once killed them",
+        "A virus learning to survive an antibiotic",
+        "The body refusing to absorb an antibiotic"
+      ],
+      "answer": 1,
+      "explanation": "Antibiotic resistance is when bacteria that were earlier killed by an antibiotic survive and multiply despite treatment with it.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q146",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Antibiotics & Resistance",
+      "question": "According to Fig. 3.5, what drives the development of antibiotic resistance?",
+      "options": [
+        "Completing the full prescribed course of antibiotics",
+        "Washing hands and wearing masks far too often",
+        "Taking antibiotics when not required or in incomplete doses",
+        "Getting vaccinated against bacterial diseases"
+      ],
+      "answer": 2,
+      "explanation": "Fig. 3.5(a) names 'taking antibiotics when they are not required or taking incomplete dose' as the starting point.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q147",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Antibiotics & Resistance",
+      "question": "How should antibiotics be used wisely, according to the chapter? (Select all that apply)",
+      "options": [
+        "Only when prescribed by a doctor",
+        "For the right duration",
+        "Whenever we have a sore throat",
+        "Shared with family when left over"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Use antibiotics only when prescribed, in the correct dose and for the right duration. Self-medicating or sharing promotes resistance.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q148",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Antibiotics & Resistance",
+      "question": "Fig. 3.5(b) says antibiotics also kill 'good bacteria protecting the body'. Why does this matter?",
+      "options": [
+        "Good bacteria turn into harmful viruses",
+        "The body stops making any immunity",
+        "The antibiotics become even stronger",
+        "Resistant bacteria then grow and take over"
+      ],
+      "answer": 3,
+      "explanation": "Once good bacteria are killed, the few antibiotic-resistant bacteria grow and take over, and some pass resistance to other bacteria.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q149",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Antibiotics & Resistance",
+      "question": "In Fig. 3.5(a), how do resistant bacteria from animals reach crops in a field?",
+      "options": [
+        "Through soil via manure or animal faeces",
+        "Through rainwater falling from clouds",
+        "Through pollen carried by honey bees",
+        "Through pesticides sprayed on crops"
+      ],
+      "answer": 0,
+      "explanation": "The figure shows spread through soil in a crop field via manure/animal faeces, then reaching the human digestive system through crop produce.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q150",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Antibiotics & Resistance",
+      "question": "Some bacteria can transfer antibiotic resistance to other bacteria.",
+      "answer": true,
+      "explanation": "Fig. 3.5(b) states that some bacteria transfer antibiotic resistance to other bacteria, causing more problems.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q151",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Antibiotics & Resistance",
+      "question": "A pharmacist refuses to sell antibiotics for a sore throat without a prescription. Which reason matches the chapter?",
+      "options": [
+        "Sore throats are always caused by protozoa",
+        "Unneeded antibiotics promote resistant bacteria",
+        "Antibiotics cure only vector-borne diseases",
+        "Antibiotics are vaccines needing cold storage"
+      ],
+      "answer": 1,
+      "explanation": "Fig. 3.5(b) shows this exact scene: taking antibiotics without a prescription will develop antibiotic resistance.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q152",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Antibiotics & Resistance",
+      "question": "What consequences of antibiotic resistance does the chapter list?",
+      "options": [
+        "Bacteria become weaker and far easier to kill",
+        "Vaccines stop working against viral diseases",
+        "Harder-to-treat infections, longer illness, even death",
+        "Immunity against all pathogens is lost forever"
+      ],
+      "answer": 2,
+      "explanation": "Resistance makes common infections harder to treat and increases the risk of complications, prolonged illness and even death.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q153",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Antibiotics & Resistance",
+      "question": "Giving unnecessary antibiotic injections to cattle can contribute to antibiotic resistance.",
+      "answer": true,
+      "explanation": "Fig. 3.5 shows exposure through animal food products and advises not giving antibiotics to cattle unnecessarily.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q154",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Treatment & Traditional Medicine",
+      "question": "Which traditional medicine systems does the chapter name?",
+      "options": [
+        "Yoga, pranayama and meditation",
+        "Variolation, vaccination and isolation",
+        "Penicillin, antibiotics and vaccines",
+        "Ayurveda, Siddha and Unani"
+      ],
+      "answer": 3,
+      "explanation": "Traditional medicine systems like Ayurveda, Siddha and Unani have been used in India for many years.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q155",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Treatment & Traditional Medicine",
+      "question": "What do traditional medicine systems use to manage illnesses, according to the chapter?",
+      "options": [
+        "Natural substances like herbs, oils and minerals",
+        "Weakened or dead pathogens given as drops",
+        "Antibiotics and antiviral medicines",
+        "Inactivated toxins taken from bacteria"
+      ],
+      "answer": 0,
+      "explanation": "They use natural substances like herbs, oils and minerals and focus on a healthy lifestyle and balanced diet.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q156",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Treatment & Traditional Medicine",
+      "question": "The chapter says traditional medicine systems are effective for all diseases at all stages.",
+      "answer": false,
+      "explanation": "The chapter says they can help with some conditions and everyday well-being but may NOT be effective for all diseases and at all stages.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q157",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Treatment & Traditional Medicine",
+      "question": "What do therapies for non-communicable diseases focus on?",
+      "options": [
+        "Killing the pathogens with antibiotics",
+        "Managing symptoms and improving quality of life",
+        "Isolating the patient from other people",
+        "Boosting immunity through vaccination"
+      ],
+      "answer": 1,
+      "explanation": "Therapies for NCDs focus on managing symptoms and improving quality of life through medication, lifestyle changes and rehabilitation.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q158",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Treatment & Traditional Medicine",
+      "question": "Which of these does the chapter list as therapies for non-communicable diseases? (Select all that apply)",
+      "options": [
+        "Medication",
+        "Lifestyle changes",
+        "Antibiotics",
+        "Vaccination"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "NCD therapies: medication, lifestyle changes and rehabilitation. Antibiotics treat bacterial infections and vaccines prevent communicable diseases.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q159",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Treatment & Traditional Medicine",
+      "question": "What does the chapter say is key to controlling the progression of non-communicable diseases?",
+      "options": [
+        "Complete isolation and bed rest",
+        "Vaccination and boiled water",
+        "Early diagnosis and continuous care",
+        "Antibiotics and mosquito nets"
+      ],
+      "answer": 2,
+      "explanation": "Early diagnosis and continuous care are key to control disease progression and prevent complications.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q160",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Treatment & Traditional Medicine",
+      "question": "According to Section 3.5.1, when do we fall ill and need to visit a doctor for medicines?",
+      "options": [
+        "Whenever we feel even slightly tired",
+        "Only after a vaccine has been given",
+        "Only for non-communicable diseases",
+        "When the immune system fails to protect us"
+      ],
+      "answer": 3,
+      "explanation": "If our immune system fails to protect us against an infectious disease, we fall ill and need to visit a doctor.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q161",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Treatment & Traditional Medicine",
+      "question": "'Prevention is better than cure' applies to both communicable and non-communicable diseases.",
+      "answer": true,
+      "explanation": "Section 3.5 says it is important to protect ourselves from both communicable and non-communicable diseases.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q162",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Treatment & Traditional Medicine",
+      "question": "In the Bhadrak district (Odisha) case study, what improved after the sanitation campaign?",
+      "options": [
+        "Fewer cases of diarrhoea and infections in children",
+        "Fewer dengue and malaria cases from mosquitos",
+        "Fewer cases of diabetes and heart disease",
+        "Fewer people smoking or drinking alcohol"
+      ],
+      "answer": 0,
+      "explanation": "Building and using toilets reduced open defecation and improved child health, with fewer cases of diarrhoea and infections.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q163",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Treatment & Traditional Medicine",
+      "question": "What inference does the chapter draw from the Odisha sanitation case study?",
+      "options": [
+        "Vaccines are the only way to prevent diarrhoea",
+        "Good sanitation greatly reduces communicable disease spread",
+        "Toilets have no effect on child health outcomes",
+        "Non-communicable diseases fall when toilets are built"
+      ],
+      "answer": 1,
+      "explanation": "Simple steps like good sanitation can greatly reduce the spread of communicable diseases.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q164",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Treatment & Traditional Medicine",
+      "question": "'Rehabilitation' is mentioned in the chapter as part of the therapy for which group of diseases?",
+      "options": [
+        "Vector-borne diseases",
+        "Water-borne diseases",
+        "Non-communicable diseases",
+        "Airborne infections"
+      ],
+      "answer": 2,
+      "explanation": "Therapies for NCDs use medication, lifestyle changes and rehabilitation.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q165",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Treatment & Traditional Medicine",
+      "question": "A patient has a long-standing NCD. Which approach would the chapter recommend?",
+      "options": [
+        "A full antibiotic course to remove the pathogen quickly",
+        "Complete isolation so it does not spread to the family",
+        "A booster vaccine to train the immune system to cure it",
+        "Early diagnosis plus continuous care and lifestyle changes"
+      ],
+      "answer": 3,
+      "explanation": "NCDs are not caused by pathogens, so antibiotics, isolation and vaccines do not apply; management relies on diagnosis, continuous care, medication and lifestyle changes.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q166",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Exercises & Data Interpretation",
+      "question": "Exercise 1 shows cold and flu, typhoid, diabetes, asthma and chickenpox. Select the NON-communicable ones.",
+      "options": [
+        "Diabetes",
+        "Asthma",
+        "Typhoid",
+        "Chickenpox",
+        "Cold and flu"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Diabetes and asthma are not caused by pathogens and do not spread. Typhoid, chickenpox and cold/flu are communicable.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q167",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Exercises & Data Interpretation",
+      "question": "Exercise 2: Among typhoid, asthma, diabetes and measles, which pair are the non-communicable diseases?",
+      "options": [
+        "Asthma and diabetes",
+        "Typhoid and asthma",
+        "Typhoid and measles",
+        "Asthma and measles"
+      ],
+      "answer": 0,
+      "explanation": "Option (b) — (ii) asthma and (iii) diabetes. Typhoid and measles are caused by pathogens and are communicable.",
+      "source": "exercise:Q2"
+    },
+    {
+      "id": "q168",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Exercises & Data Interpretation",
+      "question": "Exercise 3: During a flu outbreak at school, which immediate action best matches the chapter's advice?",
+      "options": [
+        "Give every student a course of antibiotics right away",
+        "Ask sick students to rest at home and encourage masks",
+        "Spray insect repellent in each classroom every day",
+        "Boil all drinking water and cook food thoroughly"
+      ],
+      "answer": 1,
+      "explanation": "Flu is viral and airborne: staying home when unwell, covering mouth and nose and wearing masks reduce spread. Antibiotics don't work on viruses; repellents and boiling target other routes.",
+      "source": "exercise:Q3"
+    },
+    {
+      "id": "q169",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Exercises & Data Interpretation",
+      "question": "Exercise 3: Your bench-mate shows flu symptoms. Which response is considerate AND protective?",
+      "options": [
+        "Move away loudly and tell others to avoid them",
+        "Offer them your leftover antibiotic tablets",
+        "Politely suggest a mask and resting at home",
+        "Share your water bottle so they feel included"
+      ],
+      "answer": 2,
+      "explanation": "The chapter advises covering mouth and nose, resting at home when unwell and not sharing personal items — done kindly, without being rude.",
+      "source": "exercise:Q3"
+    },
+    {
+      "id": "q170",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Exercises & Data Interpretation",
+      "question": "Exercise 3: How can you protect yourself and others from flu during an outbreak? (Select all that apply)",
+      "options": [
+        "Wash hands frequently",
+        "Avoid sharing personal items",
+        "Sleep under a mosquito net",
+        "Take leftover antibiotics"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Table 3.1 lists hand-washing, not sharing personal items and covering mouth and nose for cold/flu. Nets target mosquitos; antibiotics do not act on viruses.",
+      "source": "exercise:Q3"
+    },
+    {
+      "id": "q171",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Exercises & Data Interpretation",
+      "question": "Exercise 4: Your family is travelling to a city where malaria is prevalent. Which precautions match Table 3.1?",
+      "options": [
+        "Carry only boiled water and avoid any uncooked food",
+        "Get a tetanus shot and avoid shaking anyone's hand",
+        "Wear a mask in crowds and isolate yourself on return",
+        "Carry mosquito nets, repellents and long-sleeved clothes"
+      ],
+      "answer": 3,
+      "explanation": "Malaria is mosquito-borne, so nets, repellents, long sleeves and avoiding mosquito-breeding areas are the listed precautions.",
+      "source": "exercise:Q4"
+    },
+    {
+      "id": "q172",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Exercises & Data Interpretation",
+      "question": "Exercise 4: What could happen if travellers ignore health advisories in a malaria-prone area?",
+      "options": [
+        "They may be bitten by mosquitos and fall ill with malaria",
+        "They may catch malaria by drinking the local tap water",
+        "They may spread malaria by shaking hands with people",
+        "They will gradually become immune to malaria naturally"
+      ],
+      "answer": 0,
+      "explanation": "Malaria spreads through mosquito bites, not water or handshakes; unprotected travellers risk infection.",
+      "source": "exercise:Q4"
+    },
+    {
+      "id": "q173",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Exercises & Data Interpretation",
+      "question": "Exercise 6: Saniya says 'Antibiotics can cure any infection'. Which question would best help Vinita show she is wrong?",
+      "options": [
+        "Which scientist first discovered the antibiotic?",
+        "Do antibiotics work against viruses like cold or flu?",
+        "How many vaccines are produced in India each year?",
+        "Which organ does the hepatitis A virus infect?"
+      ],
+      "answer": 1,
+      "explanation": "Antibiotics act only on bacteria, not viruses or protozoa — so asking about viral infections exposes the error. The other questions do not test her claim.",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q174",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Exercises & Data Interpretation",
+      "question": "Exercise 7: In which three months were dengue cases highest in the hospital data?",
+      "options": [
+        "June, July and August",
+        "August, September and October",
+        "July, August and September",
+        "May, June and July"
+      ],
+      "answer": 2,
+      "explanation": "July, August and September each reported 65 cases — the highest in the table.",
+      "source": "exercise:Q7"
+    },
+    {
+      "id": "q175",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Exercises & Data Interpretation",
+      "question": "Exercise 7: In which month were dengue cases lowest?",
+      "options": [
+        "February",
+        "December",
+        "March",
+        "January"
+      ],
+      "answer": 3,
+      "explanation": "January had 10 cases, the lowest; February had 12 and December 20.",
+      "source": "exercise:Q7"
+    },
+    {
+      "id": "q176",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Exercises & Data Interpretation",
+      "question": "Exercise 7: Which environmental factor best explains the peak in dengue cases during July–September?",
+      "options": [
+        "Monsoon rains leave still water where mosquitos breed",
+        "Summer heat kills the dengue virus in the air",
+        "Cold winter nights weaken people's immunity",
+        "Festivals cause more sharing of personal items"
+      ],
+      "answer": 0,
+      "explanation": "Dengue is mosquito-borne; monsoon months create still water for breeding — matching the notice-board clip linking monsoon to dengue.",
+      "source": "exercise:Q7"
+    },
+    {
+      "id": "q177",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Exercises & Data Interpretation",
+      "question": "Exercise 7: By how many cases did dengue rise from May to June?",
+      "options": [
+        "22",
+        "18",
+        "25",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "May had 22 cases and June had 40, so the rise is 40 − 22 = 18.",
+      "source": "exercise:Q7"
+    },
+    {
+      "id": "q178",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Exercises & Data Interpretation",
+      "question": "Exercise 7: How many times higher were the dengue cases in July than in January?",
+      "options": [
+        "5.5",
+        "6",
+        "6.5",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "July had 65 cases and January 10, so 65 ÷ 10 = 6.5 times.",
+      "source": "exercise:Q7"
+    },
+    {
+      "id": "q179",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Exercises & Data Interpretation",
+      "question": "Exercise 7: What was the total number of dengue cases in the three peak months?",
+      "options": [
+        "185",
+        "165",
+        "200",
+        "195"
+      ],
+      "answer": 3,
+      "explanation": "July, August and September each had 65 cases: 65 × 3 = 195.",
+      "source": "exercise:Q7"
+    },
+    {
+      "id": "q180",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Exercises & Data Interpretation",
+      "question": "Exercise 9: Why is it recommended NOT to take an antibiotic for a viral infection like a cold or flu?",
+      "options": [
+        "Antibiotics do not act on viruses and misuse breeds resistance",
+        "Viruses are killed only by traditional herbal medicines",
+        "Antibiotics make viral infections spread faster by air",
+        "Viruses are far too small to be found by any medicine"
+      ],
+      "answer": 0,
+      "explanation": "Antibiotics target bacterial cells, so they cannot act on viruses; taking them when not required also leads to antibiotic resistance.",
+      "source": "exercise:Q9"
+    },
+    {
+      "id": "q181",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Exercises & Data Interpretation",
+      "question": "Exercise 10: Which of these may spread if drinking water is contaminated by excreta from an infected person? (Select all that apply)",
+      "options": [
+        "Hepatitis A",
+        "Cholera",
+        "Tuberculosis",
+        "Chickenpox"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Table 3.1 groups hepatitis A and cholera under diseases spread through contaminated water and food. TB and chickenpox spread through the air.",
+      "source": "exercise:Q10"
+    },
+    {
+      "id": "q182",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Exercises & Data Interpretation",
+      "question": "Exercise 11: Why is the immune response much stronger on a second exposure to the same pathogen?",
+      "options": [
+        "The pathogen is always weaker on the second entry",
+        "The immune system learned to recognise it the first time",
+        "Antibiotics from the first illness still remain in blood",
+        "The second exposure always carries far fewer germs"
+      ],
+      "answer": 1,
+      "explanation": "The chapter explains that exposure to a pathogen (or vaccine) trains the immune system to recognise and attack it — acquired immunity — so the response is faster and stronger next time.",
+      "source": "exercise:Q11"
+    }
+  ]
+}

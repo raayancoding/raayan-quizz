@@ -1,0 +1,3353 @@
+{
+  "schemaVersion": 1,
+  "id": "ict-ch06-friendly-robot-helpers",
+  "title": "Friendly Robot Helpers",
+  "subject": "ICT",
+  "grade": 4,
+  "chapter": "6. Friendly Robot Helpers",
+  "topic": "Full Book",
+  "description": "Practice AI, Machine Learning, and Internet of Things concepts from Friendly Robot Helpers -- voice assistants, self-driving cars, Indian AI pioneers, data types, pattern recognition, Teachable Machine, food-recognition AI, IoT basics, smart cities and smart home devices.",
+  "tags": [
+    "ict",
+    "grade4",
+    "artificial-intelligence",
+    "machine-learning",
+    "internet-of-things",
+    "smart-devices",
+    "pattern-recognition",
+    "data-types",
+    "indian-ai-pioneers",
+    "smart-homes",
+    "smart-cities",
+    "sustainability"
+  ],
+  "defaultTimeLimitSec": 1800,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Smart Devices & Voice Assistants",
+      "question": "Which voice assistant is shown saying \"Hey, Siri\" in the chapter opener picture, ready to listen to commands?",
+      "options": [
+        "Alexa",
+        "Google Assistant",
+        "Siri",
+        "Cortana"
+      ],
+      "answer": 2,
+      "explanation": "The chapter opener image shows a phone screen saying \"Hey, Siri\" — Siri is Apple's voice assistant.",
+      "source": "book:page30 (Embark)"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Smart Devices & Voice Assistants",
+      "question": "What can you ask Alexa to do, according to the chapter?",
+      "options": [
+        "Only tell you the time",
+        "Play music or set reminders for you",
+        "Cook your food",
+        "Drive your car"
+      ],
+      "answer": 1,
+      "explanation": "The chapter's real-life application says you can ask Alexa to play music or set reminders for you.",
+      "source": "facts:page1"
+    },
+    {
+      "id": "q3",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Smart Devices & Voice Assistants",
+      "question": "Smart devices like Siri and Alexa can recognize and respond to voice commands.",
+      "answer": true,
+      "explanation": "This is stated directly in the chapter's facts about smart devices.",
+      "source": "facts:page1"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Smart Devices & Voice Assistants",
+      "question": "A smart thermostat is an example of a smart device that can:",
+      "options": [
+        "Adjust the room temperature automatically",
+        "Cook dinner",
+        "Play movies",
+        "Clean the floor"
+      ],
+      "answer": 0,
+      "explanation": "The chapter explains a smart thermostat can adjust the temperature automatically.",
+      "source": "facts:page1"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Smart Devices & Voice Assistants",
+      "question": "How do voice assistants like Siri and Alexa manage to respond correctly to different people's voice commands?",
+      "options": [
+        "They only work for one specific voice",
+        "Using artificial intelligence that helps them understand different accents and languages",
+        "A human operator answers every question live",
+        "They guess randomly"
+      ],
+      "answer": 1,
+      "explanation": "The chapter's fun fact says AI helps these devices understand different accents and languages.",
+      "source": "facts:page1 (fun fact)"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Smart Devices & Voice Assistants",
+      "question": "Which device was pictured with a Wi-Fi symbol and brush-like parts in the chapter opener, suggesting it can clean floors on its own?",
+      "options": [
+        "Smart doorbell",
+        "Robot vacuum cleaner",
+        "Smart camera",
+        "Smart speaker"
+      ],
+      "answer": 1,
+      "explanation": "The chapter opener 'Embark' image includes a Wi-Fi-connected robot vacuum cleaner among the smart devices.",
+      "source": "book:page30"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Smart Devices & Voice Assistants",
+      "question": "The chapter opener activity called \"Embark\" asks you to:",
+      "options": [
+        "Solve a crossword puzzle",
+        "Identify smart devices/icons and discuss what makes them smart",
+        "Draw a robot",
+        "Take a test"
+      ],
+      "answer": 1,
+      "explanation": "The Embark section shows pictures of smart devices (Siri, Alexa, robot vacuum, thermostat, car) to get you thinking about what makes them 'smart'.",
+      "source": "book:page30"
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Smart Devices & Voice Assistants",
+      "question": "Select ALL of these that were shown as pictures in the \"Embark\" activity at the start of the chapter.",
+      "options": [
+        "Alexa logo",
+        "Smart home hub icon",
+        "Self-driving car dashboard",
+        "A pizza oven"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The opener shows Siri, Alexa, a smart home hub, a smart thermostat, and a self-driving car dashboard — not a pizza oven.",
+      "source": "book:page30"
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Smart Devices & Voice Assistants",
+      "question": "Smart devices are part of daily life. Which of these is given as an example in the chapter?",
+      "options": [
+        "Smart shoes",
+        "Smart thermostats and smart homes",
+        "Smart umbrellas",
+        "Smart pencils"
+      ],
+      "answer": 1,
+      "explanation": "The chapter names smart thermostats and smart homes as everyday examples of smart devices.",
+      "source": "facts:page1"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Smart Devices & Voice Assistants",
+      "question": "What is the \"Curiosity Cloud\" question at the start of the chapter mainly asking you to think about?",
+      "options": [
+        "How much self-driving cars cost",
+        "What is the most important safety feature a self-driving car should have",
+        "How to build a smart thermostat",
+        "Why Alexa needs Wi-Fi"
+      ],
+      "answer": 1,
+      "explanation": "The Curiosity Cloud prompt asks: 'What safety features would you include in a self-driving car?'",
+      "source": "book:page30 / facts:page1"
+    },
+    {
+      "id": "q11",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Smart Devices & Voice Assistants",
+      "question": "According to the chapter, self-driving cars use AI to navigate and drive safely.",
+      "answer": true,
+      "explanation": "This is stated directly among the chapter's facts.",
+      "source": "facts:page1"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Smart Devices & Voice Assistants",
+      "question": "Which statement best explains why Siri and Alexa are considered \"smart\" rather than just a regular speaker?",
+      "options": [
+        "They are more expensive than normal speakers",
+        "They use AI to understand voice commands in different accents and languages and respond appropriately",
+        "They only play music, nothing else",
+        "They need no electricity"
+      ],
+      "answer": 1,
+      "explanation": "It is their use of AI to understand and respond to varied speech (accents/languages) that makes them 'smart', not price or looks.",
+      "source": "facts:page1"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Smart Devices & Voice Assistants",
+      "question": "A smart home hub icon, shown in the chapter opener, connects many devices such as lights, thermostats, and locks. What best describes its role?",
+      "options": [
+        "It replaces the need for any devices",
+        "It connects and coordinates multiple smart devices in a home",
+        "It is used only for security cameras",
+        "It has nothing to do with IoT"
+      ],
+      "answer": 1,
+      "explanation": "A smart home hub links and coordinates different connected devices in a home, which is a core IoT idea.",
+      "source": "book:page30"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Smart Devices & Voice Assistants",
+      "question": "Why might a self-driving car need to recognize traffic signals, pedestrians, and obstacles rather than just the brand of nearby cars?",
+      "options": [
+        "Because recognizing car brands is more useful for driving safely",
+        "Because safety while driving depends on reacting correctly to the road environment, not car brands",
+        "Because AI cannot recognize traffic signals",
+        "Because pedestrians never affect driving decisions"
+      ],
+      "answer": 1,
+      "explanation": "Safe driving decisions depend on the road environment (signals, people, obstacles) — car brand is irrelevant to safety.",
+      "source": "worksheet-L2 Q1d (reasoning)"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Smart Devices & Voice Assistants",
+      "question": "Which of these is NOT mentioned in the chapter as a smart device?",
+      "options": [
+        "Smart watch",
+        "Smart thermostat",
+        "Smart refrigerator",
+        "Smart bicycle pump"
+      ],
+      "answer": 3,
+      "explanation": "The chapter discusses smart watches, thermostats, and refrigerators, but never a smart bicycle pump.",
+      "source": "facts:page1/page15/page16 (absence check)"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Self-Driving Cars & AI Safety",
+      "question": "According to the chapter opener image, what does a self-driving car's dashboard display?",
+      "options": [
+        "Only a fuel gauge",
+        "Alerts and self-driving indicators",
+        "Nothing, it is a blank screen",
+        "A television screen playing cartoons"
+      ],
+      "answer": 1,
+      "explanation": "The opener image shows a self-driving car dashboard with alerts/indicators reflecting its AI-driven navigation.",
+      "source": "book:page30"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Self-Driving Cars & AI Safety",
+      "question": "If you were designing a self-driving car, what would be MOST important for it to recognize, according to the worksheet's answer key?",
+      "options": [
+        "The brand of other cars on the road",
+        "Traffic signals, pedestrians, and road obstacles",
+        "The colour of nearby buildings",
+        "The music playing in other vehicles"
+      ],
+      "answer": 1,
+      "explanation": "The worksheet answer key confirms 'Traffic signals, pedestrians, and road obstacles' as the correct choice.",
+      "source": "worksheet-L2 Q1d (answer key)"
+    },
+    {
+      "id": "q18",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Self-Driving Cars & AI Safety",
+      "question": "A self-driving car recognizing traffic signals and pedestrians is an example of AI helping keep people safe.",
+      "answer": true,
+      "explanation": "Recognizing road elements correctly allows the car's AI to make safe driving decisions.",
+      "source": "worksheet-L2 Q1d (reasoning)"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Self-Driving Cars & AI Safety",
+      "question": "Why is \"the colour of nearby buildings\" a poor answer to what a self-driving car should recognize for safety?",
+      "options": [
+        "Because buildings are the most dangerous obstacle",
+        "Because building colour has no effect on driving decisions, unlike traffic signals or pedestrians",
+        "Because AI cannot see colours",
+        "Because self-driving cars avoid buildings entirely"
+      ],
+      "answer": 1,
+      "explanation": "Building colour is irrelevant to safe driving; only elements like signals, pedestrians and obstacles matter.",
+      "source": "worksheet-L2 Q1d (distractor analysis)"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Self-Driving Cars & AI Safety",
+      "question": "The \"Curiosity Cloud\" activity asks you to imagine designing a self-driving car. This connects to which broader chapter idea?",
+      "options": [
+        "That AI should replace all human drivers immediately",
+        "That thoughtful design and human judgement matter when applying AI to real-world safety problems",
+        "That self-driving cars have no need for sensors",
+        "That crosswords are the best way to learn about cars"
+      ],
+      "answer": 1,
+      "explanation": "The prompt encourages thinking carefully about safety features, echoing the chapter's theme that humans must guide and design AI responsibly.",
+      "source": "book:page30 (synthesis)"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Self-Driving Cars & AI Safety",
+      "question": "What technology helps self-driving cars navigate and drive safely, according to the chapter?",
+      "options": [
+        "GPS alone",
+        "Artificial Intelligence (AI)",
+        "Manual maps only",
+        "Human remote drivers"
+      ],
+      "answer": 1,
+      "explanation": "The chapter states self-driving cars use AI to navigate and drive safely.",
+      "source": "facts:page1"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Self-Driving Cars & AI Safety",
+      "question": "Self-driving cars are an example of AI being used in which real-world area?",
+      "options": [
+        "Transportation",
+        "Cooking",
+        "Gardening",
+        "Painting"
+      ],
+      "answer": 0,
+      "explanation": "Self-driving cars apply AI to the transportation domain.",
+      "source": "facts:page1"
+    },
+    {
+      "id": "q23",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Self-Driving Cars & AI Safety",
+      "question": "Select ALL the features a self-driving car would need to drive safely, based on the chapter's worksheet answer.",
+      "options": [
+        "Recognizing pedestrians",
+        "Recognizing traffic signals",
+        "Recognizing the music playing inside other cars",
+        "Recognizing road obstacles"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "The answer key confirms pedestrians, traffic signals, and road obstacles matter for safety — music in other cars does not.",
+      "source": "worksheet-L2 Q1d"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Self-Driving Cars & AI Safety",
+      "question": "Why is AI-based pattern recognition (like recognizing shapes and objects) important for self-driving cars?",
+      "options": [
+        "It helps the car identify people, signs, and obstacles quickly to react safely",
+        "It helps the car choose a paint colour",
+        "It has nothing to do with driving",
+        "It only helps with parking"
+      ],
+      "answer": 0,
+      "explanation": "Pattern recognition lets the car's AI quickly identify road elements so it can react safely — a link between the chapter's pattern recognition and self-driving car sections.",
+      "source": "facts:page7 + worksheet-L2 Q1d (synthesis)"
+    },
+    {
+      "id": "q25",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Self-Driving Cars & AI Safety",
+      "question": "According to the worksheet, designing a self-driving car to recognize \"the brand of other cars\" is more important for safety than recognizing pedestrians.",
+      "answer": false,
+      "explanation": "The answer key shows the opposite: pedestrians, traffic signals, and obstacles matter far more than car brands for safety.",
+      "source": "worksheet-L2 Q1d"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Self-Driving Cars & AI Safety",
+      "question": "A key reason AI is trusted to help drive cars is that it can:",
+      "options": [
+        "Process information and react to the road quickly",
+        "Replace the need for roads",
+        "Avoid needing any sensors",
+        "Only work in daylight"
+      ],
+      "answer": 0,
+      "explanation": "AI's ability to sense and react quickly to road conditions is central to self-driving car safety.",
+      "source": "facts:page1 (synthesis)"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Self-Driving Cars & AI Safety",
+      "question": "The chapter's opening pictures group Siri, a robot vacuum, a smart home hub, Alexa, a smart thermostat, and a self-driving car dashboard together mainly to show that:",
+      "options": [
+        "All of these are examples of everyday smart, AI-powered devices",
+        "All of these devices are exactly the same",
+        "Only cars use AI",
+        "None of them use AI"
+      ],
+      "answer": 0,
+      "explanation": "The chapter opener groups these very different devices together to illustrate how widespread AI-powered smart devices are in daily life.",
+      "source": "book:page30 (synthesis)"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What is AI and Machine Learning",
+      "question": "What does AI stand for?",
+      "options": [
+        "Automated Internet",
+        "Artificial Intelligence",
+        "Applied Information",
+        "Automatic Input"
+      ],
+      "answer": 1,
+      "explanation": "AI stands for Artificial Intelligence, the technology that helps machines learn and solve problems.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What is AI and Machine Learning",
+      "question": "According to the chapter's \"Memory Trick,\" how can you remember the difference between AI and ML?",
+      "options": [
+        "\"AI is the BRAIN, ML is the TRAINING.\"",
+        "\"AI is the BODY, ML is the MIND.\"",
+        "\"AI is the TRAINING, ML is the BRAIN.\"",
+        "\"AI and ML are the same thing.\""
+      ],
+      "answer": 0,
+      "explanation": "The chapter gives this exact memory trick to distinguish AI (the overall brain/technology) from ML (how it is trained).",
+      "source": "facts:page2 (memory trick)"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What is AI and Machine Learning",
+      "question": "Based on the \"AI is the BRAIN, ML is the TRAINING\" memory trick, which statement is most accurate?",
+      "options": [
+        "ML is a separate technology unrelated to AI",
+        "ML is the process/type of AI that helps machines learn and improve from data",
+        "AI cannot exist without the internet",
+        "ML only works with images"
+      ],
+      "answer": 1,
+      "explanation": "ML is described as a type of AI focused on learning from data — the 'training' part of the AI 'brain'.",
+      "source": "facts:page2 (reasoning)"
+    },
+    {
+      "id": "q31",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "What is AI and Machine Learning",
+      "question": "Machine Learning (ML) is a type of AI that helps machines learn from data.",
+      "answer": true,
+      "explanation": "This is stated directly in the chapter's facts.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What is AI and Machine Learning",
+      "question": "Fill in the blank (from the worksheet): \"Machine Learning helps machines learn from ______.\"",
+      "options": [
+        "Books",
+        "Data",
+        "Robots",
+        "Electricity"
+      ],
+      "answer": 1,
+      "explanation": "The worksheet's filled-in answer key reads: 'Machine Learning helps machines learn from data.'",
+      "source": "worksheet-L1 Q1a (answer key)"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What is AI and Machine Learning",
+      "question": "According to the worksheet, \"AI helps machines see, hear, and recognize ______ like humans do.\"",
+      "options": [
+        "Colours",
+        "Patterns",
+        "Money",
+        "Weather"
+      ],
+      "answer": 1,
+      "explanation": "The worksheet's answer key fills this blank with 'patterns'.",
+      "source": "worksheet-L1 Q1c (answer key)"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What is AI and Machine Learning",
+      "question": "When was Artificial Intelligence actually introduced, according to the corrected worksheet answer?",
+      "options": [
+        "In the 2000s",
+        "In 1956",
+        "In 2020",
+        "In the 1800s"
+      ],
+      "answer": 1,
+      "explanation": "The worksheet's True/False answer key corrects the false statement: 'AI was introduced in 1956, not the 2000s.'",
+      "source": "worksheet-L1 Q2a (answer key)"
+    },
+    {
+      "id": "q35",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "What is AI and Machine Learning",
+      "question": "AI was invented in the 2000s.",
+      "answer": false,
+      "explanation": "The answer key corrects this: AI was actually introduced in 1956, not the 2000s.",
+      "source": "worksheet-L1 Q2a (answer key)"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What is AI and Machine Learning",
+      "question": "The chapter's \"Heritage Route\" says two people laid AI's foundation. Which name appears in the L2 worksheet's word search, tied to this history?",
+      "options": [
+        "Motwani",
+        "Samuel",
+        "Alexa",
+        "Fei-Fei"
+      ],
+      "answer": 1,
+      "explanation": "The Heritage Route page says 'Samuel and McCarthy laid AI's foundation,' and SAMUEL is one of the L2 word-search words.",
+      "source": "book:page33 (Heritage Route) + worksheet-L2 word search"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What is AI and Machine Learning",
+      "question": "Which statement correctly describes Machine Learning (ML)?",
+      "options": [
+        "ML lets computers get better at tasks by learning from data",
+        "ML is a type of computer hardware",
+        "ML means machines never change their behaviour",
+        "ML has nothing to do with AI"
+      ],
+      "answer": 0,
+      "explanation": "ML allows computers to improve at tasks over time by learning from data.",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What is AI and Machine Learning",
+      "question": "According to the chapter, YouTube uses Machine Learning to:",
+      "options": [
+        "Charge you for videos",
+        "Recommend videos you might like",
+        "Delete old videos",
+        "Slow down your internet"
+      ],
+      "answer": 1,
+      "explanation": "The chapter's fun fact states YouTube uses ML to recommend videos you might like.",
+      "source": "facts:page3 (fun fact)"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What is AI and Machine Learning",
+      "question": "The chapter compares a computer 'practicing' to recognize speech with a person practicing:",
+      "options": [
+        "Cooking",
+        "Cycling",
+        "Painting",
+        "Swimming"
+      ],
+      "answer": 1,
+      "explanation": "The example compares practicing cycling to how computers practice recognizing speech.",
+      "source": "facts:page3 (example)"
+    },
+    {
+      "id": "q40",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "What is AI and Machine Learning",
+      "question": "Machine Learning (ML) improves AI's performance and decision-making over time.",
+      "answer": true,
+      "explanation": "This is stated directly in the chapter's facts.",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What is AI and Machine Learning",
+      "question": "Which best explains why \"AI is the technology that enables machines to think like humans\" needs a caveat, based on the chapter?",
+      "options": [
+        "Because it is completely false and AI does nothing like humans",
+        "Because smart devices can recognize patterns but don't actually think or feel like humans — humans still guide and control them",
+        "Because only humans use AI",
+        "Because AI thinks better than humans in every way"
+      ],
+      "answer": 1,
+      "explanation": "The chapter clarifies that while AI can recognize patterns, it doesn't truly think or feel — humans are still needed to guide and control it.",
+      "source": "facts:page2 (Interesting Information) + facts:page3"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What is AI and Machine Learning",
+      "question": "Which of these is an example, from the chapter, of AI performing a task that usually needs human help?",
+      "options": [
+        "AI recognizing your face to unlock your phone",
+        "AI growing plants",
+        "AI driving buses only in India",
+        "AI cooking rice"
+      ],
+      "answer": 0,
+      "explanation": "The chapter gives face-unlock as an example of AI doing a task that usually needs a human to check identity.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q43",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "What is AI and Machine Learning",
+      "question": "Select ALL the fields the chapter says AI is used in.",
+      "options": [
+        "E-commerce",
+        "Video games",
+        "Healthcare (diagnosing diseases)",
+        "Painting houses"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The chapter names e-commerce, video games, and healthcare (diagnosing diseases) as fields where AI is used — not house painting.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What is AI and Machine Learning",
+      "question": "Which idea completes this sentence from the chapter: \"Smart devices can recognize patterns but don't think or feel like humans\" — because:",
+      "options": [
+        "Humans are needed to guide and control these devices",
+        "Devices are always smarter than humans",
+        "Devices never make mistakes",
+        "Devices do not use any data"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's Interesting Information note explains that humans are needed to guide and control these devices.",
+      "source": "facts:page2 (Interesting Information)"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What is AI and Machine Learning",
+      "question": "The crossword answer for the clue matching AI's full name, meaning 'made by humans rather than occurring naturally,' is:",
+      "options": [
+        "NATURAL",
+        "ARTIFICIAL",
+        "MACHINE",
+        "SMART"
+      ],
+      "answer": 1,
+      "explanation": "The crossword's 5 Down answer is ARTIFICIAL, for the clue 'Type of intelligence that makes machines think like humans.'",
+      "source": "worksheet-L1 crossword (5 Down)"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI in Everyday Life",
+      "question": "Which of these is an example of AI helping in healthcare, according to the chapter?",
+      "options": [
+        "AI recommending movies",
+        "AI helping diagnose diseases",
+        "AI cooking meals",
+        "AI painting pictures"
+      ],
+      "answer": 1,
+      "explanation": "The chapter states AI can help diagnose diseases in healthcare.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q47",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "AI in Everyday Life",
+      "question": "AI is used in various fields including e-commerce and video games.",
+      "answer": true,
+      "explanation": "This is stated directly in the chapter's facts.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI in Everyday Life",
+      "question": "Why can recognizing your face to unlock your phone be called a task that \"usually needs human help\"?",
+      "options": [
+        "Because normally a human would need to visually check who you are, but now AI can do it",
+        "Because phones cannot be unlocked at all",
+        "Because only adults can unlock phones",
+        "Because face unlock has nothing to do with AI"
+      ],
+      "answer": 0,
+      "explanation": "Verifying someone's identity by their face used to require a human to look and check — AI now automates that recognition task.",
+      "source": "facts:page2/page3 (reasoning)"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI in Everyday Life",
+      "question": "The crossword clue \"Smart vacuum cleaner that learns your home layout\" (8 Across) matches the chapter's subject, and the answer is:",
+      "options": [
+        "HUMAN",
+        "ROBOT",
+        "SENSOR",
+        "MOTOR"
+      ],
+      "answer": 1,
+      "explanation": "The crossword's 8 Across answer is ROBOT, matching the chapter title 'Friendly Robot Helpers.'",
+      "source": "worksheet-L1 crossword (8 Across)"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI in Everyday Life",
+      "question": "The crossword clue \"Type of learning that helps computers get smarter from experience\" (10 Across) has the answer:",
+      "options": [
+        "MACHINE",
+        "COMPUTER",
+        "GADGET",
+        "DEVICE"
+      ],
+      "answer": 0,
+      "explanation": "The crossword's 10 Across answer is MACHINE, referring to Machine Learning.",
+      "source": "worksheet-L1 crossword (10 Across)"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "AI in Everyday Life",
+      "question": "Which crossword answer (4 letters, \"down\") names the voice assistant featured in the chapter opener image?",
+      "options": [
+        "ALEXA",
+        "SIRI",
+        "BIXBY",
+        "CORTANA"
+      ],
+      "answer": 1,
+      "explanation": "The crossword's 9 Down answer is SIRI, for the clue 'Popular voice assistant made by Apple.'",
+      "source": "worksheet-L1 crossword (9 Down)"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI in Everyday Life",
+      "question": "Why does the chapter emphasize that AI \"helps\" rather than fully \"replaces\" human tasks like diagnosing diseases?",
+      "options": [
+        "Because AI cannot be used in hospitals at all",
+        "Because AI supports and speeds up decisions, but humans still guide, verify and control the process",
+        "Because doctors are not allowed to use computers",
+        "Because AI always makes the final medical decision alone"
+      ],
+      "answer": 1,
+      "explanation": "The chapter stresses that humans are needed to guide and control smart devices, even in healthcare.",
+      "source": "facts:page2 (synthesis)"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI in Everyday Life",
+      "question": "Video games and e-commerce (online shopping) are both examples of:",
+      "options": [
+        "Fields where AI has no use",
+        "Fields where AI is used",
+        "Types of robots",
+        "Types of smart data"
+      ],
+      "answer": 1,
+      "explanation": "The chapter lists e-commerce and video games among fields where AI is used.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI in Everyday Life",
+      "question": "The crossword answer (5 letters, \"across\") for the clue \"Devices connect and share information to work together\" is:",
+      "options": [
+        "SMART",
+        "ALEXA",
+        "SENSOR",
+        "ROBOT"
+      ],
+      "answer": 0,
+      "explanation": "The crossword's 6 Across answer is SMART, describing connected 'smart' devices.",
+      "source": "worksheet-L1 crossword (6 Across)"
+    },
+    {
+      "id": "q55",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "AI in Everyday Life",
+      "question": "According to the chapter, AI can perform every task better than a human in every situation with no need for supervision.",
+      "answer": false,
+      "explanation": "The chapter explicitly notes smart devices don't think or feel like humans, and humans are needed to guide and control them.",
+      "source": "facts:page2 (Interesting Information)"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI in Everyday Life",
+      "question": "What connects \"AI helps machines learn and solve problems\" with the example \"AI can recognize your face to unlock your phone\"?",
+      "options": [
+        "Face unlock is a real-life example of AI solving the practical problem of identity verification",
+        "They are unrelated facts",
+        "Face unlock does not use AI",
+        "Solving problems means only maths problems"
+      ],
+      "answer": 0,
+      "explanation": "Face unlock demonstrates AI applying its problem-solving ability to a real, everyday need.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI in Everyday Life",
+      "question": "Which of these is NOT listed in the chapter as a field where AI is used?",
+      "options": [
+        "Healthcare",
+        "E-commerce",
+        "Video games",
+        "Deep-sea mining"
+      ],
+      "answer": 3,
+      "explanation": "The chapter names healthcare, e-commerce, and video games, but never deep-sea mining.",
+      "source": "facts:page2 (absence check)"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Indian AI Pioneers and India's AI Mission",
+      "question": "Whose algorithms, according to the chapter, helped create Google's search engine?",
+      "options": [
+        "Pranav Mistry",
+        "Dr. Rajeev Motwani",
+        "Dr. Fei-Fei Li",
+        "Arthur Samuel"
+      ],
+      "answer": 1,
+      "explanation": "The chapter's fun fact credits Dr. Rajeev Motwani's work with aiding the creation of Google's search engine.",
+      "source": "facts:page4 + book:page33 (Heritage Route)"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Indian AI Pioneers and India's AI Mission",
+      "question": "What AI-related invention is Pranav Mistry credited with in the chapter?",
+      "options": [
+        "ImageNet",
+        "SixthSense — a device that turns any surface into a touchscreen",
+        "Google's search engine",
+        "Teachable Machine"
+      ],
+      "answer": 1,
+      "explanation": "The chapter's Heritage Route credits Pranav Mistry with inventing SixthSense.",
+      "source": "book:page33 (Heritage Route)"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Indian AI Pioneers and India's AI Mission",
+      "question": "What did Dr. Fei-Fei Li build, according to the chapter's \"Heritage Route\"?",
+      "options": [
+        "SixthSense",
+        "ImageNet, which taught computers to recognize millions of images",
+        "Google Search",
+        "Alexa"
+      ],
+      "answer": 1,
+      "explanation": "The chapter credits Dr. Fei-Fei Li with building ImageNet.",
+      "source": "book:page33 (Heritage Route)"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Indian AI Pioneers and India's AI Mission",
+      "question": "How is AI helping farmers in India, according to the chapter?",
+      "options": [
+        "By predicting crop diseases, helping farmers like those in Punjab and Maharashtra",
+        "By driving tractors automatically everywhere",
+        "By replacing all farmers",
+        "By selling crops online only"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states AI helps predict crop diseases, benefiting farmers in states like Punjab and Maharashtra.",
+      "source": "facts:page4"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Indian AI Pioneers and India's AI Mission",
+      "question": "According to the chapter, AI can help students in remote villages by:",
+      "options": [
+        "Tutoring them in their own language",
+        "Giving them free phones",
+        "Building their schools",
+        "Replacing their teachers completely"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says AI can tutor students in remote villages in their own language.",
+      "source": "facts:page4"
+    },
+    {
+      "id": "q63",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Indian AI Pioneers and India's AI Mission",
+      "question": "AI is used to translate educational content into multiple languages so it can help more students.",
+      "answer": true,
+      "explanation": "This is stated directly in the chapter's facts.",
+      "source": "facts:page4"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Indian AI Pioneers and India's AI Mission",
+      "question": "India's government initiative mentioned in the chapter that creates AI solutions for agriculture, healthcare, and education is called:",
+      "options": [
+        "Digital India",
+        "AI for All",
+        "Skill India",
+        "Smart Bharat"
+      ],
+      "answer": 1,
+      "explanation": "The chapter's Heritage Route names India's AI Mission as the 'AI for All' initiative.",
+      "source": "book:page33 (Heritage Route)"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Indian AI Pioneers and India's AI Mission",
+      "question": "In healthcare, how does India's \"AI for All\" mission use AI, according to the chapter?",
+      "options": [
+        "To analyze X-rays in rural areas where doctors are scarce",
+        "To replace all doctors",
+        "To build hospitals",
+        "To sell medicines online"
+      ],
+      "answer": 0,
+      "explanation": "The chapter explains AI is used to analyze X-rays in rural areas where doctors are scarce.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Indian AI Pioneers and India's AI Mission",
+      "question": "How many official Indian languages does the chapter mention that AI-powered apps can recognize?",
+      "options": [
+        "10",
+        "15",
+        "22",
+        "30"
+      ],
+      "answer": 2,
+      "explanation": "The chapter's 'From Our Streets to Global Innovation' box mentions apps recognizing 22 official Indian languages.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Indian AI Pioneers and India's AI Mission",
+      "question": "The chapter describes Indian smart devices working \"despite power cuts and limited internet\" as an example of:",
+      "options": [
+        "Poor design",
+        "Clever, resourceful problem-solving (\"jugaad\" innovation)",
+        "A failure of AI",
+        "Something unrelated to India"
+      ],
+      "answer": 1,
+      "explanation": "The chapter frames this resourcefulness as a form of clever, homegrown ('jugaad') innovation.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q68",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Indian AI Pioneers and India's AI Mission",
+      "question": "Indian AI startups are described in the chapter as innovating to address local challenges.",
+      "answer": true,
+      "explanation": "This is stated directly in the chapter's facts.",
+      "source": "facts:page4"
+    },
+    {
+      "id": "q69",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Indian AI Pioneers and India's AI Mission",
+      "question": "Select ALL the areas the chapter says India's \"AI for All\" mission targets.",
+      "options": [
+        "Agriculture",
+        "Healthcare",
+        "Education",
+        "Space tourism"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The chapter's Heritage Route names agriculture, healthcare, and education as the mission's target areas — not space tourism.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Indian AI Pioneers and India's AI Mission",
+      "question": "Dr. Rajeev Motwani's years of birth and death, as shown in the chapter, are:",
+      "options": [
+        "1962–2009",
+        "1950–1999",
+        "1975–2020",
+        "1980–2015"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's Heritage Route lists Dr. Rajeev Motwani's years as 1962–2009.",
+      "source": "book:page33 (Heritage Route)"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Indian AI Pioneers and India's AI Mission",
+      "question": "What is one reason the chapter gives that AI helps farmers in states like Punjab and Maharashtra specifically?",
+      "options": [
+        "AI predicts crop diseases so farmers can act early to protect their harvest",
+        "AI sells their crops for a fixed price",
+        "AI stops all farming activities",
+        "AI only helps farmers outside India"
+      ],
+      "answer": 0,
+      "explanation": "AI's crop-disease prediction is a real-life application benefiting farmers in these states.",
+      "source": "facts:page4"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Indian AI Pioneers and India's AI Mission",
+      "question": "Which of these three Indian-linked AI pioneers is described as building a system to recognize millions of images?",
+      "options": [
+        "Pranav Mistry",
+        "Dr. Fei-Fei Li",
+        "Dr. Rajeev Motwani",
+        "Arthur Samuel"
+      ],
+      "answer": 1,
+      "explanation": "Dr. Fei-Fei Li built ImageNet, which taught computers to recognize millions of images.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q73",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Indian AI Pioneers and India's AI Mission",
+      "question": "According to the chapter, only global tech giants like Google contribute to AI, and India has not contributed anything.",
+      "answer": false,
+      "explanation": "The chapter highlights Indian scientists (Motwani, Fei-Fei Li, Pranav Mistry) building AI's future and India's 'AI for All' mission.",
+      "source": "book:page33 (misconception check)"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Indian AI Pioneers and India's AI Mission",
+      "question": "Which university-linked AI figure did the chapter connect to Google's search engine, distinct from the \"Heritage Route\" pioneers of ImageNet or SixthSense?",
+      "options": [
+        "Dr. Rajeev Motwani",
+        "Dr. Fei-Fei Li",
+        "Pranav Mistry",
+        "Arthur Samuel"
+      ],
+      "answer": 0,
+      "explanation": "Dr. Rajeev Motwani's algorithms are credited with aiding Google's search engine, distinct from ImageNet (Fei-Fei Li) and SixthSense (Pranav Mistry).",
+      "source": "facts:page4 + book:page33"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Types of Data in Machine Learning",
+      "question": "Structured data is data that is:",
+      "options": [
+        "Organized in tables or lists",
+        "Completely random",
+        "Only images",
+        "Never used in ML"
+      ],
+      "answer": 0,
+      "explanation": "Structured data is neatly organized in tables or lists, according to the chapter's data table.",
+      "source": "facts:page6 / book:page35 (table)"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Types of Data in Machine Learning",
+      "question": "Which is an example of structured data, according to the chapter?",
+      "options": [
+        "A photo of a cat",
+        "A list of items in a store with prices",
+        "A song",
+        "A video"
+      ],
+      "answer": 1,
+      "explanation": "The chapter gives a list of store items with prices as an example of structured data.",
+      "source": "facts:page6"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Types of Data in Machine Learning",
+      "question": "Unstructured data includes:",
+      "options": [
+        "Images and text without a set format",
+        "Only numbers in a table",
+        "Only dates",
+        "Only prices"
+      ],
+      "answer": 0,
+      "explanation": "Unstructured data is unorganized information such as images and text without a fixed format.",
+      "source": "facts:page6"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Types of Data in Machine Learning",
+      "question": "Why does unstructured data (like images and text) need special tools to understand, according to the chapter?",
+      "options": [
+        "Because it has no set format, unlike neatly organized tables",
+        "Because it is always more accurate than structured data",
+        "Because computers cannot store it",
+        "Because it never contains useful information"
+      ],
+      "answer": 0,
+      "explanation": "The chapter notes special tools are needed to understand unstructured data because it lacks a fixed format.",
+      "source": "facts:page6 (Interesting Information)"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Types of Data in Machine Learning",
+      "question": "Time-series data is data:",
+      "options": [
+        "Collected over time, like hourly temperature readings",
+        "Only about animals",
+        "Only from books",
+        "Never useful for predictions"
+      ],
+      "answer": 0,
+      "explanation": "Time-series data is information collected over time, with dates or times, like hourly temperature readings.",
+      "source": "facts:page6"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Types of Data in Machine Learning",
+      "question": "According to the book's data table, what does time-series data help with?",
+      "options": [
+        "Helping to predict what might happen in the future",
+        "Sorting animals into groups",
+        "Counting money only",
+        "Recognizing faces"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's table explains time-series data helps predict future trends.",
+      "source": "book:page35 (table)"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Types of Data in Machine Learning",
+      "question": "Which of these is the BEST example of time-series data?",
+      "options": [
+        "A chart of ice cream sales each year",
+        "A single photo of ice cream",
+        "A list of ice cream flavours",
+        "A drawing of ice cream"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's table lists 'a chart of ice cream sales each year' as an example of time-series data.",
+      "source": "book:page35 (table)"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Types of Data in Machine Learning",
+      "question": "Categorical data is data that is:",
+      "options": [
+        "Sorted into groups or types, like colours or types of animals",
+        "Only numbers",
+        "Only about time",
+        "Never organized"
+      ],
+      "answer": 0,
+      "explanation": "Categorical data is information sorted into groups or types, according to the chapter's table.",
+      "source": "book:page35 (table)"
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Types of Data in Machine Learning",
+      "question": "Which is an example of categorical data from the book's table?",
+      "options": [
+        "Heights of students",
+        "Colours (red, blue, green) or types of animals (cat, dog)",
+        "Hourly temperature readings",
+        "A chart of sales"
+      ],
+      "answer": 1,
+      "explanation": "The chapter's table gives colours and animal types as categorical data examples.",
+      "source": "book:page35 (table)"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Types of Data in Machine Learning",
+      "question": "Numerical data refers to:",
+      "options": [
+        "Numbers that can be counted or measured",
+        "Only pictures",
+        "Only categories",
+        "Only sounds"
+      ],
+      "answer": 0,
+      "explanation": "Numerical data in machine learning refers to measurable quantities.",
+      "source": "facts:page18"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Types of Data in Machine Learning",
+      "question": "Which of these is an example of numerical data mentioned in the chapter?",
+      "options": [
+        "Heights of students",
+        "Colours of shirts",
+        "Types of pets",
+        "Photos of animals"
+      ],
+      "answer": 0,
+      "explanation": "The chapter gives heights of students (and bank account balances) as numerical data examples.",
+      "source": "facts:page18"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Types of Data in Machine Learning",
+      "question": "According to the chapter's data table, numerical data helps machines:",
+      "options": [
+        "Guess numbers, like how tall someone might be",
+        "Recognize colours only",
+        "Predict the weather only",
+        "Store photos"
+      ],
+      "answer": 0,
+      "explanation": "The table shows numerical data helps machines guess numbers, such as how tall someone might be.",
+      "source": "book:page35 (table)"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Types of Data in Machine Learning",
+      "question": "A table listing \"colours (red, blue, green)\" and \"types of animals (cat, dog)\" both belong to which data type — NOT numerical, even though animals could theoretically be counted?",
+      "options": [
+        "Structured data",
+        "Categorical data",
+        "Time-series data",
+        "Unstructured data"
+      ],
+      "answer": 1,
+      "explanation": "Colours and animal types are grouped into categories, which is exactly what makes them categorical data, not numerical.",
+      "source": "book:page35 (table)"
+    },
+    {
+      "id": "q88",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Types of Data in Machine Learning",
+      "question": "All data used in Machine Learning must be organized in tables.",
+      "answer": false,
+      "explanation": "The worksheet's corrected answer explains ML uses many types of data, including structured tables, unstructured images and text.",
+      "source": "worksheet-L1 Q2d (answer key)"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Types of Data in Machine Learning",
+      "question": "According to the worksheet's corrected answer, what data types does Machine Learning use, other than tables?",
+      "options": [
+        "Only sounds",
+        "Unstructured data like images and text, along with structured tables",
+        "Only numbers",
+        "Nothing else"
+      ],
+      "answer": 1,
+      "explanation": "The answer key explains Machine Learning uses many types of data including structured tables, unstructured images and text.",
+      "source": "worksheet-L1 Q2d (answer key)"
+    },
+    {
+      "id": "q90",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Types of Data in Machine Learning",
+      "question": "Select ALL the data types mentioned in the chapter's data table.",
+      "options": [
+        "Structured",
+        "Unstructured",
+        "Time-Series",
+        "Categorical",
+        "Numerical",
+        "Emotional"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "explanation": "The chapter's table names five data types: Structured, Unstructured, Time-Series, Categorical, and Numerical — 'Emotional' is not one of them.",
+      "source": "book:page35 (table)"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Types of Data in Machine Learning",
+      "question": "Bank account balances and student heights are both examples of which data type?",
+      "options": [
+        "Categorical data",
+        "Numerical data",
+        "Time-series data",
+        "Unstructured data"
+      ],
+      "answer": 1,
+      "explanation": "Both are measurable numbers, matching the chapter's definition of numerical data.",
+      "source": "facts:page18 / book:page35 (table)"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Types of Data in Machine Learning",
+      "question": "Machine Learning relies on data to learn and make decisions. According to the chapter, what generally helps improve the accuracy of ML, similar to practicing a sport?",
+      "options": [
+        "Using less data",
+        "More data",
+        "Turning off the computer",
+        "Using only categorical data"
+      ],
+      "answer": 1,
+      "explanation": "The chapter compares more data improving ML accuracy to practicing a sport more.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Types of Data in Machine Learning",
+      "question": "Which type of data would \"a chart of ice cream sales each year\" and \"hourly temperature readings\" both belong to?",
+      "options": [
+        "Categorical data",
+        "Time-series data",
+        "Structured data only",
+        "Unstructured data"
+      ],
+      "answer": 1,
+      "explanation": "Both examples are collected over time, matching the chapter's definition of time-series data.",
+      "source": "book:page35 (table)"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Types of Data in Machine Learning",
+      "question": "Why is a photo of a birthday cake considered unstructured data rather than structured data?",
+      "options": [
+        "Because photos have no fixed table/row-column format like a list of prices",
+        "Because photos are never used in Machine Learning",
+        "Because photos are a type of time-series data",
+        "Because photos are always inaccurate"
+      ],
+      "answer": 0,
+      "explanation": "Photos lack the neat, fixed format of tables/lists, which is what defines unstructured data in the chapter.",
+      "source": "facts:page6 / book:page35 (reasoning)"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pattern Recognition",
+      "question": "Pattern recognition helps computers:",
+      "options": [
+        "Find similarities in data",
+        "Delete data",
+        "Make data disappear",
+        "Slow down computers"
+      ],
+      "answer": 0,
+      "explanation": "The chapter defines pattern recognition as helping computers find similarities in data.",
+      "source": "facts:page6"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pattern Recognition",
+      "question": "According to the chapter, pattern recognition is like recognizing that:",
+      "options": [
+        "Apples and oranges are both fruits",
+        "Cats can fly",
+        "Robots are alive",
+        "Data is always structured"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's example compares pattern recognition to noticing apples and oranges are both fruits.",
+      "source": "facts:page6"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pattern Recognition",
+      "question": "Which of these uses pattern recognition, according to the chapter?",
+      "options": [
+        "Image processing",
+        "Speech recognition",
+        "Medical imaging",
+        "All of the above"
+      ],
+      "answer": 3,
+      "explanation": "The chapter states pattern recognition is used in image processing, speech recognition, medical imaging, and more.",
+      "source": "facts:page7"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pattern Recognition",
+      "question": "Facial recognition technology helps identify people by their:",
+      "options": [
+        "Voice",
+        "Facial features",
+        "Fingerprints only",
+        "Height"
+      ],
+      "answer": 1,
+      "explanation": "Facial recognition technology helps identify people by their facial features, according to the chapter.",
+      "source": "facts:page7"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pattern Recognition",
+      "question": "What is facial recognition technology commonly used for, according to the chapter?",
+      "options": [
+        "Unlocking devices in security systems",
+        "Cooking food",
+        "Watering plants",
+        "Predicting the weather"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's fun fact says this is used in security systems to unlock devices.",
+      "source": "facts:page7 (fun fact)"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pattern Recognition",
+      "question": "Speech recognition is the technology that:",
+      "options": [
+        "Turns spoken words into text",
+        "Turns text into pictures",
+        "Turns pictures into sound",
+        "Has nothing to do with AI"
+      ],
+      "answer": 0,
+      "explanation": "Speech recognition turns spoken words into text, according to the chapter.",
+      "source": "facts:page7"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pattern Recognition",
+      "question": "Virtual assistants use speech recognition to:",
+      "options": [
+        "Understand spoken commands",
+        "Take photos",
+        "Cook meals",
+        "Charge your phone"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states virtual assistants use speech recognition to understand commands.",
+      "source": "facts:page7 (example)"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pattern Recognition",
+      "question": "How does medical imaging use pattern recognition, according to the chapter?",
+      "options": [
+        "It helps doctors understand body scans better",
+        "It replaces doctors completely",
+        "It only prints photos",
+        "It has no connection to AI"
+      ],
+      "answer": 0,
+      "explanation": "The chapter and worksheet confirm pattern recognition could help doctors understand body scans better.",
+      "source": "facts:page7 / worksheet-L1 Q2e (answer key)"
+    },
+    {
+      "id": "q103",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Pattern Recognition",
+      "question": "Pattern recognition could help doctors understand body scans better.",
+      "answer": true,
+      "explanation": "This is confirmed in the worksheet's answer key.",
+      "source": "worksheet-L1 Q2e (answer key)"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pattern Recognition",
+      "question": "What is \"Quick, Draw!\" in the chapter's Cyber Station activity?",
+      "options": [
+        "A game where AI guesses what you're drawing based on patterns",
+        "A tool for editing photos",
+        "A cooking app",
+        "A word search puzzle"
+      ],
+      "answer": 0,
+      "explanation": "Quick, Draw! is described as a game/AI activity that lets AI guess what you're drawing based on patterns.",
+      "source": "facts:page8 / book:page37 (Cyber Station 1)"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pattern Recognition",
+      "question": "According to the chapter, how does AI improve at recognizing drawings over time in Quick, Draw!?",
+      "options": [
+        "It learns from lots of examples every time someone plays",
+        "It never improves",
+        "It only works for one drawing style",
+        "It forgets previous drawings"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's fun fact says AI learns more about drawing patterns every time someone plays Quick, Draw!",
+      "source": "facts:page8 (fun fact)"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pattern Recognition",
+      "question": "Why might the AI in Quick, Draw! have trouble recognizing an unusual or unique drawing style?",
+      "options": [
+        "Because the AI has seen fewer similar examples of that particular style, making the pattern harder to match",
+        "Because the AI refuses to try",
+        "Because drawings are not related to pattern recognition",
+        "Because Quick, Draw! is not a real AI tool"
+      ],
+      "answer": 0,
+      "explanation": "Since AI learns from examples, an unusual style with fewer matching examples is harder for it to recognize.",
+      "source": "facts:page8 / book:page37 (reasoning)"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pattern Recognition",
+      "question": "Recognizing that apples and oranges are \"both fruits\" is an example of what chapter concept?",
+      "options": [
+        "Time-series data",
+        "Pattern recognition",
+        "Structured data only",
+        "Robotics"
+      ],
+      "answer": 1,
+      "explanation": "This is the chapter's own example of pattern recognition.",
+      "source": "facts:page6"
+    },
+    {
+      "id": "q108",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Pattern Recognition",
+      "question": "Pattern recognition is used in image processing, speech recognition, and medical imaging.",
+      "answer": true,
+      "explanation": "This is stated directly in the chapter's facts.",
+      "source": "facts:page7"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pattern Recognition",
+      "question": "The chapter compares learning pattern recognition to a real-life experience. Which comparison is used?",
+      "options": [
+        "Learning to identify fruits by seeing them many times",
+        "Learning to swim",
+        "Learning a new language from a textbook only",
+        "Learning to ride a bicycle without practice"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's 'Real-life Connection' compares this to learning to identify fruits by seeing them many times.",
+      "source": "facts:page7 (Real-life Connection)"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Teachable Machine, Quick Draw and Training AI Models",
+      "question": "In the chapter's case study, what is Maya trying to do?",
+      "options": [
+        "Teach a computer to recognize different animals",
+        "Teach a computer to cook",
+        "Teach a computer to draw",
+        "Teach a computer to drive"
+      ],
+      "answer": 0,
+      "explanation": "Maya's project is described as teaching a computer to recognize different animals.",
+      "source": "book:page49 (Case Study)"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Teachable Machine, Quick Draw and Training AI Models",
+      "question": "What is the FIRST step Maya takes in her project?",
+      "options": [
+        "She tests the computer",
+        "She collects lots of pictures of animals like cats, dogs, and birds",
+        "She improves the model",
+        "She deletes the pictures"
+      ],
+      "answer": 1,
+      "explanation": "The case study says Maya first collects lots of pictures of animals.",
+      "source": "book:page49"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Teachable Machine, Quick Draw and Training AI Models",
+      "question": "After collecting pictures, what does Maya do next?",
+      "options": [
+        "She organizes and prepares the pictures so they are ready to be used",
+        "She immediately sells the pictures",
+        "She throws the pictures away",
+        "She calls a scientist"
+      ],
+      "answer": 0,
+      "explanation": "The case study describes Maya organizing and preparing the pictures next.",
+      "source": "book:page49"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Teachable Machine, Quick Draw and Training AI Models",
+      "question": "What should Maya do immediately after collecting and organizing the animal pictures?",
+      "options": [
+        "Maya should feed the pictures to the computer so it can learn",
+        "Maya should throw away the pictures as they won't be needed any more",
+        "Maya should test the computer before it has learned",
+        "Maya should make the pictures hazy"
+      ],
+      "answer": 0,
+      "explanation": "The case study's answer key confirms Maya should feed the pictures to the computer so it can learn.",
+      "source": "book:page49 (Q1)"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Teachable Machine, Quick Draw and Training AI Models",
+      "question": "Why does Maya test the computer after training it?",
+      "options": [
+        "To see if it can recognize new animal pictures correctly",
+        "To make sure the pictures are hazy",
+        "To delete all the data she collected",
+        "To stop the computer from making any guesses"
+      ],
+      "answer": 0,
+      "explanation": "The case study's answer key confirms Maya tests the computer to see if it can recognize new animal pictures correctly.",
+      "source": "book:page49 (Q2)"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Teachable Machine, Quick Draw and Training AI Models",
+      "question": "If the computer makes mistakes in recognizing animals, what should Maya do?",
+      "options": [
+        "Ignore the mistakes and move on",
+        "Remove all the data and restart the work",
+        "Improve the model by adding or adjusting pictures",
+        "Turn off the computer and stop the project"
+      ],
+      "answer": 2,
+      "explanation": "The case study's answer key confirms Maya should improve the model by adding or adjusting pictures.",
+      "source": "book:page49 (Q3)"
+    },
+    {
+      "id": "q116",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Teachable Machine, Quick Draw and Training AI Models",
+      "question": "According to the case study, once a computer model is trained, it never needs to be tested or improved again.",
+      "answer": false,
+      "explanation": "Maya tests the computer and improves it if it makes mistakes — training is not a one-time, final step.",
+      "source": "book:page49"
+    },
+    {
+      "id": "q117",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Teachable Machine, Quick Draw and Training AI Models",
+      "question": "Select ALL the steps Maya follows in her project, in the order they are described.",
+      "options": [
+        "Collect pictures of animals",
+        "Organize and prepare the pictures",
+        "Feed the pictures to the computer to help it learn",
+        "Sell the pictures online"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Maya collects, organizes/prepares, and feeds the pictures to the computer — she never sells them.",
+      "source": "book:page49"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Teachable Machine, Quick Draw and Training AI Models",
+      "question": "Why does Maya test the computer with NEW animal pictures rather than the same pictures she trained it with?",
+      "options": [
+        "To check whether the computer can generalize and recognize animals it hasn't seen exact copies of before",
+        "Because new pictures are always more colourful",
+        "Because old pictures get deleted automatically",
+        "Because the computer refuses to see the same picture twice"
+      ],
+      "answer": 0,
+      "explanation": "Testing with new pictures checks whether the model has genuinely learned to recognize the pattern, not just memorized the training pictures.",
+      "source": "book:page49 (reasoning)"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Teachable Machine, Quick Draw and Training AI Models",
+      "question": "What game lets AI guess what you're drawing in a short time, based on lots of patterns it has learned?",
+      "options": [
+        "Teachable Machine",
+        "Quick, Draw!",
+        "Word Search",
+        "Crossword"
+      ],
+      "answer": 1,
+      "explanation": "Quick, Draw! is the game described in the chapter where AI guesses your drawing.",
+      "source": "facts:page8"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Teachable Machine, Quick Draw and Training AI Models",
+      "question": "According to the fun fact in the chapter, what happens every time someone plays Quick, Draw!?",
+      "options": [
+        "AI learns more about drawing patterns",
+        "The game deletes previous drawings",
+        "The internet slows down",
+        "Nothing changes"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's fun fact says every time you play Quick, Draw!, AI learns more about drawing patterns.",
+      "source": "facts:page8 (fun fact)"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Teachable Machine, Quick Draw and Training AI Models",
+      "question": "What is Teachable Machine described as in the chapter?",
+      "options": [
+        "A tool to help computers learn to recognize things",
+        "A tool for playing music",
+        "A tool for cooking recipes",
+        "A type of smart doorbell"
+      ],
+      "answer": 0,
+      "explanation": "The chapter describes Teachable Machine as a tool to help computers learn to recognize things.",
+      "source": "facts:page8"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Teachable Machine, Quick Draw and Training AI Models",
+      "question": "The chapter compares using Teachable Machine to:",
+      "options": [
+        "Teaching a friend by showing them examples",
+        "Building a house",
+        "Watching TV",
+        "Reading a dictionary"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's example compares Teachable Machine to teaching a friend by showing them examples.",
+      "source": "facts:page8 (example)"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Teachable Machine, Quick Draw and Training AI Models",
+      "question": "Which best explains why Teachable Machine needs MANY example pictures (not just one) for each thing it should recognize?",
+      "options": [
+        "More examples help the computer notice the common pattern rather than one-off details, similar to how more data improves ML accuracy",
+        "One picture is always enough for any AI model",
+        "Extra pictures make the computer slower with no benefit",
+        "Teachable Machine does not use pictures at all"
+      ],
+      "answer": 0,
+      "explanation": "This mirrors the chapter's broader point that more data helps ML models improve accuracy, just like practicing more improves a skill.",
+      "source": "facts:page8 + facts:page5 (synthesis)"
+    },
+    {
+      "id": "q124",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Teachable Machine, Quick Draw and Training AI Models",
+      "question": "A Teachable Machine model, like Maya's animal recognizer, can be improved by adding more or adjusted pictures if it makes mistakes.",
+      "answer": true,
+      "explanation": "Both the Teachable Machine idea and Maya's case study confirm models can be improved with more/adjusted data.",
+      "source": "book:page49 + facts:page8"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Teachable Machine, Quick Draw and Training AI Models",
+      "question": "What do Quick, Draw! and Maya's animal-recognition project have in common?",
+      "options": [
+        "Both are examples of AI learning to recognize patterns by practicing with many examples",
+        "Both involve driving cars",
+        "Both are about cooking",
+        "Both require no data at all"
+      ],
+      "answer": 0,
+      "explanation": "Both show AI improving its pattern recognition through repeated exposure to examples.",
+      "source": "facts:page8 + book:page49 (synthesis)"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Teachable Machine, Quick Draw and Training AI Models",
+      "question": "In Maya's project, feeding pictures to the computer \"to help it learn what each animal looks like\" is best described as:",
+      "options": [
+        "Testing the model",
+        "Training the model",
+        "Deleting the model",
+        "Ignoring the model"
+      ],
+      "answer": 1,
+      "explanation": "Feeding examples to the computer so it learns is the training step of the process.",
+      "source": "book:page49 (synthesis)"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Teachable Machine, Quick Draw and Training AI Models",
+      "question": "In Quick, Draw!, roughly how long do you get to draw something like a cat, tree, or sun before the AI guesses?",
+      "options": [
+        "5 seconds",
+        "20 seconds",
+        "2 minutes",
+        "1 hour"
+      ],
+      "answer": 1,
+      "explanation": "The chapter's Cyber Station activity describes drawing for about 20 seconds while AI tries to guess.",
+      "source": "book:page37 (Cyber Station 1)"
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Food Recognition AI and Smart Nutrition",
+      "question": "According to the chapter, what can AI-powered apps do with a photo of your meal?",
+      "options": [
+        "Identify the food and tell its nutritional value",
+        "Delete the photo",
+        "Order more food automatically without asking",
+        "Play a song"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states AI can identify food and tell its nutritional value using recognition technology.",
+      "source": "facts:page9"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Food Recognition AI and Smart Nutrition",
+      "question": "Smart refrigerators can:",
+      "options": [
+        "Track food items and suggest recipes",
+        "Cook the food themselves",
+        "Grow vegetables",
+        "Drive to the store"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states smart refrigerators can track food items and suggest recipes.",
+      "source": "facts:page9"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Food Recognition AI and Smart Nutrition",
+      "question": "According to the chapter, smart refrigerators alert you when:",
+      "options": [
+        "You are low on fruits or vegetables",
+        "The weather changes",
+        "Someone rings the doorbell",
+        "Your phone battery is low"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says smart refrigerators alert you when you're low on fruits or vegetables.",
+      "source": "facts:page9"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Food Recognition AI and Smart Nutrition",
+      "question": "How does AI help ensure balanced meals, according to the chapter?",
+      "options": [
+        "By suggesting varied food options",
+        "By making all meals taste the same",
+        "By removing vegetables from your diet",
+        "By cooking only rice every day"
+      ],
+      "answer": 0,
+      "explanation": "AI ensures balanced meals by suggesting varied food options, according to the chapter.",
+      "source": "facts:page9"
+    },
+    {
+      "id": "q132",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Food Recognition AI and Smart Nutrition",
+      "question": "According to the chapter, AI can help maintain a balanced diet, like a balanced thali.",
+      "answer": true,
+      "explanation": "This comparison is stated directly in the chapter's facts.",
+      "source": "facts:page9"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Food Recognition AI and Smart Nutrition",
+      "question": "In the book's \"Nutrition Junction\" example, what might an AI nutrition app suggest instead of extra rice, based on a healthier balance?",
+      "options": [
+        "Ragi roti",
+        "More sugar",
+        "Ice cream",
+        "Nothing at all"
+      ],
+      "answer": 0,
+      "explanation": "The Nutrition Junction page shows the app suggesting ragi roti as a healthier alternative to extra rice.",
+      "source": "book:page38 (Nutrition Junction)"
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Food Recognition AI and Smart Nutrition",
+      "question": "What kind of information can an AI-powered food app calculate from a photo of a meal, according to the chapter?",
+      "options": [
+        "Calories, proteins, and vitamins",
+        "The price of the meal only",
+        "The restaurant's name",
+        "The chef's name"
+      ],
+      "answer": 0,
+      "explanation": "The Nutrition Junction page shows the app calculating calories, proteins, and vitamins from a meal photo.",
+      "source": "book:page38"
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Food Recognition AI and Smart Nutrition",
+      "question": "Why does the chapter compare AI's role in nutrition to \"a balanced thali\"?",
+      "options": [
+        "Because a thali contains a variety of foods in the right proportions, just as AI suggests varied, balanced food options",
+        "Because a thali is a type of computer",
+        "Because AI cannot recognize thalis",
+        "Because thalis have nothing to do with nutrition"
+      ],
+      "answer": 0,
+      "explanation": "A thali's balance of different foods mirrors AI's goal of suggesting varied, balanced meal options.",
+      "source": "facts:page9 (Interesting Information)"
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Food Recognition AI and Smart Nutrition",
+      "question": "Which everyday kitchen appliance in the chapter uses AI to track food items and remind you of expiry dates?",
+      "options": [
+        "Smart refrigerator",
+        "Smart doorbell",
+        "Smart camera",
+        "Smart watch"
+      ],
+      "answer": 0,
+      "explanation": "The chapter describes a smart refrigerator tracking food and reminding you of expiry dates.",
+      "source": "facts:page16"
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Food Recognition AI and Smart Nutrition",
+      "question": "A smart refrigerator suggesting recipes \"based on available ingredients\" is an example of:",
+      "options": [
+        "Pattern recognition/AI being applied to a real household task",
+        "A robot cleaning your house",
+        "A self-driving car feature",
+        "Time-series data collection only"
+      ],
+      "answer": 0,
+      "explanation": "Suggesting recipes from available ingredients applies AI's recognition abilities to a practical household task.",
+      "source": "facts:page16 (synthesis)"
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Food Recognition AI and Smart Nutrition",
+      "question": "AI-powered food-recognition apps can identify foods like dal, roti, and sabzi from:",
+      "options": [
+        "A photo of the meal",
+        "A sound recording",
+        "A weather report",
+        "A text message"
+      ],
+      "answer": 0,
+      "explanation": "The Nutrition Junction page shows AI identifying dal, roti, and sabzi from a photo of the meal.",
+      "source": "book:page38"
+    },
+    {
+      "id": "q139",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Food Recognition AI and Smart Nutrition",
+      "question": "According to the chapter, AI-powered food apps can only count calories and cannot suggest healthier food swaps.",
+      "answer": false,
+      "explanation": "The chapter shows apps both calculating nutrition AND suggesting healthier swaps, like ragi roti instead of extra rice.",
+      "source": "facts:page9 + book:page38"
+    },
+    {
+      "id": "q140",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Food Recognition AI and Smart Nutrition",
+      "question": "Which best explains why identifying food from a photo (image) requires AI pattern recognition rather than simple data lookup?",
+      "options": [
+        "Because photos are unstructured data, and the AI must recognize visual patterns of dal/roti/sabzi rather than reading a label",
+        "Because dal, roti and sabzi never appear in photos",
+        "Because pattern recognition has nothing to do with food",
+        "Because photos are structured data like a table"
+      ],
+      "answer": 0,
+      "explanation": "Photos are unstructured data, so recognizing food in them relies on the chapter's pattern recognition concept, not a simple table lookup.",
+      "source": "facts:page6 + facts:page9 (synthesis)"
+    },
+    {
+      "id": "q141",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Food Recognition AI and Smart Nutrition",
+      "question": "A smart fridge that tracks protein-rich foods and alerts you when vegetables run low is helping you with:",
+      "options": [
+        "Healthy eating and nutrition",
+        "Watching movies",
+        "Playing video games",
+        "Driving"
+      ],
+      "answer": 0,
+      "explanation": "This function directly supports healthy eating and nutrition tracking.",
+      "source": "facts:page9/page16"
+    },
+    {
+      "id": "q142",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Internet of Things (IoT) Basics",
+      "question": "What does IoT stand for?",
+      "options": [
+        "Internet of Technology",
+        "Internet of Things",
+        "International of Things",
+        "Information of Things"
+      ],
+      "answer": 1,
+      "explanation": "The worksheet's answer key confirms IoT stands for Internet of Things.",
+      "source": "worksheet-L2 Q1a (answer key)"
+    },
+    {
+      "id": "q143",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Internet of Things (IoT) Basics",
+      "question": "The Internet of Things (IoT) connects devices to:",
+      "options": [
+        "Work together using the internet",
+        "Stop working",
+        "Play music only",
+        "Replace humans completely"
+      ],
+      "answer": 0,
+      "explanation": "The chapter defines IoT as connecting devices to work together using the internet.",
+      "source": "facts:page10"
+    },
+    {
+      "id": "q144",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Internet of Things (IoT) Basics",
+      "question": "According to the chapter's \"Golden Rule,\" what makes something an IoT device?",
+      "options": [
+        "If a device can connect, share, and act",
+        "If a device is expensive",
+        "If a device has a screen",
+        "If a device is battery-powered"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's Golden Rule states: if a device can connect, share, and act, it's an IoT device.",
+      "source": "facts:page10 (Golden Rule)"
+    },
+    {
+      "id": "q145",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Internet of Things (IoT) Basics",
+      "question": "IoT devices commonly use which of these to communicate, according to the answer key?",
+      "options": [
+        "Telephone lines only",
+        "Wi-Fi and Bluetooth connections",
+        "Postal mail",
+        "Human operators relaying messages"
+      ],
+      "answer": 1,
+      "explanation": "The worksheet's answer key confirms IoT devices communicate using Wi-Fi and Bluetooth connections.",
+      "source": "worksheet-L2 Q1c (answer key)"
+    },
+    {
+      "id": "q146",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Internet of Things (IoT) Basics",
+      "question": "IoT devices use sensors to gather information such as:",
+      "options": [
+        "Temperature and movement",
+        "Only colours",
+        "Only sounds",
+        "Nothing useful"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says IoT devices use sensors to gather information like temperature and movement.",
+      "source": "facts:page11"
+    },
+    {
+      "id": "q147",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Internet of Things (IoT) Basics",
+      "question": "Which example from the chapter shows IoT devices sharing information to perform tasks?",
+      "options": [
+        "A light bulb that turns on automatically when it gets dark",
+        "A robot vacuum cleaning",
+        "Facial recognition",
+        "A crossword puzzle"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's real-life example is a light bulb that turns on automatically when it gets dark.",
+      "source": "facts:page11"
+    },
+    {
+      "id": "q148",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Internet of Things (IoT) Basics",
+      "question": "What is the main purpose of IoT, according to the chapter?",
+      "options": [
+        "To connect devices for sharing data and working together",
+        "To replace the internet entirely",
+        "To make devices more expensive",
+        "To stop devices from communicating"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states the main purpose of IoT is connecting devices for sharing data and working together.",
+      "source": "facts:page14"
+    },
+    {
+      "id": "q149",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Internet of Things (IoT) Basics",
+      "question": "IoT devices need sensors to gather information about their environment.",
+      "answer": true,
+      "explanation": "This is confirmed directly in the worksheet's answer key.",
+      "source": "worksheet-L1 Q2c (answer key)"
+    },
+    {
+      "id": "q150",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Internet of Things (IoT) Basics",
+      "question": "Which of these is given as an example application of IoT in the chapter?",
+      "options": [
+        "Smart homes",
+        "Smart health devices",
+        "Cars",
+        "All of the above"
+      ],
+      "answer": 3,
+      "explanation": "The chapter lists smart homes, health devices, and cars as examples of IoT applications.",
+      "source": "facts:page14"
+    },
+    {
+      "id": "q151",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Internet of Things (IoT) Basics",
+      "question": "IoT is used in agriculture and cities for what purpose, according to the chapter?",
+      "options": [
+        "Monitoring crops and managing traffic",
+        "Painting buildings",
+        "Selling clothes",
+        "Writing books"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states IoT is used in agriculture for monitoring crops and in cities for managing traffic.",
+      "source": "facts:page11"
+    },
+    {
+      "id": "q152",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Internet of Things (IoT) Basics",
+      "question": "Sensors in IoT devices gather specific information like:",
+      "options": [
+        "Temperature or light",
+        "Movie titles",
+        "Song lyrics",
+        "Book titles"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states sensors gather specific information like temperature or light.",
+      "source": "facts:page18"
+    },
+    {
+      "id": "q153",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Internet of Things (IoT) Basics",
+      "question": "Why is a \"refrigerator that reminds you to buy milk\" considered an IoT device rather than just a regular refrigerator?",
+      "options": [
+        "Because it connects, senses/tracks information, and acts (reminding you) — matching IoT's golden rule",
+        "Because it is always more colourful",
+        "Because it never needs electricity",
+        "Because it has nothing to do with sensors"
+      ],
+      "answer": 0,
+      "explanation": "This fridge follows the Golden Rule: it connects, shares/tracks information, and acts by reminding you.",
+      "source": "facts:page14 (synthesis)"
+    },
+    {
+      "id": "q154",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Internet of Things (IoT) Basics",
+      "question": "IoT devices communicate using which of the following, according to the chapter?",
+      "options": [
+        "Sensors, data sharing, and information analysis",
+        "Only physical letters",
+        "Only in-person conversation",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states IoT devices communicate using sensors, data sharing, and information analysis.",
+      "source": "facts:page17"
+    },
+    {
+      "id": "q155",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Internet of Things (IoT) Basics",
+      "question": "'A smart thermostat informs the heater to turn on when it's cold' is an example of what IoT concept?",
+      "options": [
+        "Devices communicating and sharing information to act together",
+        "A crossword puzzle",
+        "Pattern recognition in food",
+        "Machine Learning data types"
+      ],
+      "answer": 0,
+      "explanation": "This example shows IoT devices communicating and coordinating to act on sensed information.",
+      "source": "facts:page17"
+    },
+    {
+      "id": "q156",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Internet of Things (IoT) Basics",
+      "question": "IoT makes daily life more convenient by allowing devices to work together.",
+      "answer": true,
+      "explanation": "This is stated directly in the chapter's facts.",
+      "source": "facts:page17"
+    },
+    {
+      "id": "q157",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Internet of Things (IoT) Basics",
+      "question": "Select ALL of these that are TRUE about IoT devices, based on the chapter.",
+      "options": [
+        "They can connect, share, and act autonomously",
+        "They always require a human to relay every message",
+        "They commonly use Wi-Fi or Bluetooth",
+        "They use sensors to gather information"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "IoT devices connect/share/act on their own, and use sensors and Wi-Fi/Bluetooth — they do NOT need a human to relay every message.",
+      "source": "facts:page10/page17/page18 + worksheet-L2 Q1c"
+    },
+    {
+      "id": "q158",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Internet of Things (IoT) Basics",
+      "question": "What does the \"act\" part of the IoT golden rule (\"connect, share, and act\") mean for a device like a smart thermostat?",
+      "options": [
+        "It can automatically adjust the temperature based on what it senses",
+        "It can only display information with no automatic response",
+        "It refuses to respond to sensed data",
+        "It has no connection to the internet"
+      ],
+      "answer": 0,
+      "explanation": "Acting means the device responds automatically, like a thermostat adjusting temperature based on sensed data.",
+      "source": "facts:page10/page11 (synthesis)"
+    },
+    {
+      "id": "q159",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Internet of Things (IoT) Basics",
+      "question": "Which pair correctly matches an IoT capability with its example from the chapter?",
+      "options": [
+        "Sensing — a smart thermostat sensing temperature changes",
+        "Cooking — a smart doorbell cooking food",
+        "Painting — a smart fridge painting walls",
+        "Swimming — a smart watch swimming"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's real example matches sensing with a smart thermostat sensing temperature changes.",
+      "source": "facts:page11"
+    },
+    {
+      "id": "q160",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "First IoT Device and Smart Cities",
+      "question": "What was the first IoT device, according to the chapter?",
+      "options": [
+        "A smart doorbell",
+        "A modified Coca-Cola vending machine",
+        "A smart phone",
+        "A robot vacuum"
+      ],
+      "answer": 1,
+      "explanation": "The chapter states the first IoT device was a modified Coca-Cola vending machine.",
+      "source": "facts:page13"
+    },
+    {
+      "id": "q161",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "First IoT Device and Smart Cities",
+      "question": "According to the chapter's \"Trail Treasure,\" at which university was the first internet-connected vending machine located?",
+      "options": [
+        "Harvard",
+        "Carnegie Mellon",
+        "Stanford",
+        "MIT"
+      ],
+      "answer": 1,
+      "explanation": "The Trail Treasure box and the crossword's 4 Across answer (CARNEGIE) both point to Carnegie Mellon University.",
+      "source": "book:page42 (Trail Treasure) + worksheet-L1 crossword (4 Across)"
+    },
+    {
+      "id": "q162",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "First IoT Device and Smart Cities",
+      "question": "What did the first IoT device (the vending machine) report remotely?",
+      "options": [
+        "Inventory and drink temperature",
+        "The weather",
+        "Traffic conditions",
+        "Stock market prices"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states it reported inventory and drink temperature remotely.",
+      "source": "facts:page13"
+    },
+    {
+      "id": "q163",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "First IoT Device and Smart Cities",
+      "question": "Smart city parameters mentioned in the chapter include energy management and:",
+      "options": [
+        "Waste management",
+        "Only sports management",
+        "Only movie management",
+        "Only fashion management"
+      ],
+      "answer": 0,
+      "explanation": "The chapter names energy management and waste management as smart city parameters.",
+      "source": "facts:page13"
+    },
+    {
+      "id": "q164",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "First IoT Device and Smart Cities",
+      "question": "How can IoT help a city manage waste and hygiene more efficiently, based on the chapter?",
+      "options": [
+        "By connecting sensors and devices to monitor and coordinate waste collection/management",
+        "By stopping people from producing waste",
+        "By removing all bins from the city",
+        "IoT has no role in city waste management"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says IoT can be used to improve hygiene and waste management in cities.",
+      "source": "facts:page13"
+    },
+    {
+      "id": "q165",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "First IoT Device and Smart Cities",
+      "question": "IoT can be used to improve hygiene and waste management in cities.",
+      "answer": true,
+      "explanation": "This is stated directly in the chapter's facts.",
+      "source": "facts:page13"
+    },
+    {
+      "id": "q166",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "First IoT Device and Smart Cities",
+      "question": "Which crossword answer (8 letters, \"across\") names the university connected to the very first IoT device?",
+      "options": [
+        "STANFORD",
+        "CARNEGIE",
+        "HARVARD",
+        "PRINCETON"
+      ],
+      "answer": 1,
+      "explanation": "The crossword's 4 Across answer is CARNEGIE, tied to Carnegie Mellon University.",
+      "source": "worksheet-L1 crossword (4 Across)"
+    },
+    {
+      "id": "q167",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "First IoT Device and Smart Cities",
+      "question": "Why is the Coca-Cola vending machine considered historically important in the chapter's IoT story, even though it seems like an ordinary machine?",
+      "options": [
+        "Because it was one of the very first devices to connect to the internet and report information remotely, making it an early example of IoT",
+        "Because it was the most expensive vending machine ever made",
+        "Because it could recognize faces",
+        "Because it used Machine Learning to recommend drinks"
+      ],
+      "answer": 0,
+      "explanation": "Its historical importance is being one of the earliest internet-connected devices — an early real-world IoT example.",
+      "source": "facts:page13 (synthesis)"
+    },
+    {
+      "id": "q168",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "First IoT Device and Smart Cities",
+      "question": "According to the chapter, efficient use of energy in a smart city helps:",
+      "options": [
+        "Save power",
+        "Waste more electricity",
+        "Increase pollution",
+        "Slow down traffic"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states efficient energy use helps save power in smart cities.",
+      "source": "facts:page13"
+    },
+    {
+      "id": "q169",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "First IoT Device and Smart Cities",
+      "question": "Which of these is a legitimate example of a \"smart city\" application, based on the chapter?",
+      "options": [
+        "Smart irrigation systems that monitor soil moisture to conserve water",
+        "A robot that only plays music",
+        "A crossword that has no theme",
+        "A voice assistant that cannot connect to Wi-Fi"
+      ],
+      "answer": 0,
+      "explanation": "Smart irrigation monitoring soil moisture is an example connecting IoT/smart tech to city/resource management themes in the chapter.",
+      "source": "facts:page12 + facts:page13"
+    },
+    {
+      "id": "q170",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "First IoT Device and Smart Cities",
+      "question": "The chapter's \"Think about this\" prompt for the IoT/smart city section asks you to consider:",
+      "options": [
+        "How IoT could help your city become smarter",
+        "How to bake a cake",
+        "How to draw a robot",
+        "How to play Quick, Draw!"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's prompt directly asks: 'How could IoT help your city become smarter?'",
+      "source": "facts:page13"
+    },
+    {
+      "id": "q171",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "First IoT Device and Smart Cities",
+      "question": "According to the chapter, smart cities only focus on energy management and have no connection to waste management.",
+      "answer": false,
+      "explanation": "The chapter lists BOTH energy management and waste management (among other parameters) as part of smart cities.",
+      "source": "facts:page13"
+    },
+    {
+      "id": "q172",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "First IoT Device and Smart Cities",
+      "question": "Managing energy and waste efficiently in a city using connected devices and sensors is an example of applying which broader technology discussed in the chapter?",
+      "options": [
+        "Internet of Things (IoT)",
+        "Only crossword puzzles",
+        "Only smartphone cameras",
+        "None of the technologies discussed"
+      ],
+      "answer": 0,
+      "explanation": "Smart city management relies on the IoT concepts discussed throughout the chapter.",
+      "source": "facts:page13 (synthesis)"
+    },
+    {
+      "id": "q173",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "First IoT Device and Smart Cities",
+      "question": "What is one likely reason the chapter includes the historical fact about the first IoT vending machine?",
+      "options": [
+        "To show that IoT has grown from a simple early idea (a machine reporting inventory) into the large connected systems used in smart homes and cities today",
+        "To explain how vending machines are built",
+        "To teach how to fix a vending machine",
+        "To argue that IoT began very recently, in the 2020s"
+      ],
+      "answer": 0,
+      "explanation": "The historical fact frames IoT as an idea that has grown over time, from a single vending machine to today's smart homes and cities.",
+      "source": "facts:page13 (synthesis)"
+    },
+    {
+      "id": "q174",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "First IoT Device and Smart Cities",
+      "question": "Which crossword answer correctly completes: \"IoT devices use these to gather information about temperature and light\" (3 Down)?",
+      "options": [
+        "SENSORS",
+        "SIRI",
+        "ROBOT",
+        "DATA"
+      ],
+      "answer": 0,
+      "explanation": "The crossword's 3 Down answer is SENSORS.",
+      "source": "worksheet-L1 crossword (3 Down)"
+    },
+    {
+      "id": "q175",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "First IoT Device and Smart Cities",
+      "question": "The word \"SENSORS\" is a crossword answer in the chapter's worksheet, referring to what IoT devices use to gather information like temperature and light.",
+      "answer": true,
+      "explanation": "This matches the crossword's 3 Down clue and answer exactly.",
+      "source": "worksheet-L1 crossword (3 Down)"
+    },
+    {
+      "id": "q176",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Smart Home Devices",
+      "question": "Smart homes connect devices like lights and refrigerators to:",
+      "options": [
+        "The internet",
+        "Nothing",
+        "Only each other, never the internet",
+        "A landline phone"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states smart homes connect devices like lights and refrigerators to the internet.",
+      "source": "facts:page12"
+    },
+    {
+      "id": "q177",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Smart Home Devices",
+      "question": "What can smart health devices monitor, according to the chapter?",
+      "options": [
+        "Heart rate, steps, and sleep quality",
+        "Only heart rate",
+        "Only sleep",
+        "Only steps"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states smart health devices monitor heart rate, steps, and sleep quality.",
+      "source": "facts:page12"
+    },
+    {
+      "id": "q178",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Smart Home Devices",
+      "question": "Fitness trackers can adapt to your habits to suggest:",
+      "options": [
+        "Healthier routines",
+        "New phone models",
+        "Video games",
+        "Recipes only"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states fitness trackers adapt to your habits to suggest healthier routines.",
+      "source": "facts:page12"
+    },
+    {
+      "id": "q179",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Smart Home Devices",
+      "question": "How does IoT promote sustainability in smart homes, according to the chapter?",
+      "options": [
+        "By helping manage resources efficiently, like conserving water with smart irrigation",
+        "By using more electricity",
+        "By ignoring the environment",
+        "By replacing all appliances every year"
+      ],
+      "answer": 0,
+      "explanation": "IoT promotes sustainability by helping manage resources efficiently, e.g. smart irrigation conserving water.",
+      "source": "facts:page12"
+    },
+    {
+      "id": "q180",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Smart Home Devices",
+      "question": "A smart TV, according to the chapter, can:",
+      "options": [
+        "Stream videos and suggest shows based on your preferences",
+        "Cook your dinner",
+        "Water your plants",
+        "Drive your car"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states smart TVs stream videos and suggest shows based on your preferences.",
+      "source": "facts:page15"
+    },
+    {
+      "id": "q181",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Smart Home Devices",
+      "question": "Smart watches can:",
+      "options": [
+        "Track health metrics and remind you to stay active",
+        "Cook food",
+        "Clean the floor",
+        "Water the garden"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states smart watches track health metrics and remind you to stay active.",
+      "source": "facts:page15"
+    },
+    {
+      "id": "q182",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Smart Home Devices",
+      "question": "What can a smart speaker do, according to the chapter?",
+      "options": [
+        "Control other devices and answer questions",
+        "Cook a meal",
+        "Drive a car",
+        "Water plants"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states smart speakers can control other devices and answer questions.",
+      "source": "facts:page15"
+    },
+    {
+      "id": "q183",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Smart Home Devices",
+      "question": "A smart camera, as described in the chapter, does more than just take pictures or videos because it:",
+      "options": [
+        "Understands what it's seeing and alerts people when something unusual happens",
+        "Prints photos automatically",
+        "Deletes old videos automatically",
+        "Sends letters"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's Smart Camera box explains it understands what it's seeing and alerts people when something unusual happens.",
+      "source": "book:page45 (Smart Camera)"
+    },
+    {
+      "id": "q184",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Smart Home Devices",
+      "question": "A smart refrigerator with a touchscreen can:",
+      "options": [
+        "Track food, suggest recipes, and remind you of expiry dates",
+        "Cook meals automatically",
+        "Grow its own vegetables",
+        "Drive to the store"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's Smart Refrigerator box describes tracking food, suggesting recipes, and reminding you of expiry dates.",
+      "source": "book:page45 (Smart Refrigerator) / facts:page16"
+    },
+    {
+      "id": "q185",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Smart Home Devices",
+      "question": "A smart doorbell allows you to:",
+      "options": [
+        "Communicate remotely with visitors via live video",
+        "Bake cookies",
+        "Water your lawn",
+        "Play music only"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's Smart Doorbell box describes remote communication with visitors via live video.",
+      "source": "facts:page16 / book:page45"
+    },
+    {
+      "id": "q186",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Smart Home Devices",
+      "question": "Smart home technology can make life convenient but may raise privacy concerns.",
+      "answer": true,
+      "explanation": "This is stated directly in the chapter's facts.",
+      "source": "facts:page19"
+    },
+    {
+      "id": "q187",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Smart Home Devices",
+      "question": "Which best explains why \"privacy concerns\" are mentioned alongside smart home convenience in the chapter?",
+      "options": [
+        "Because connected devices collect and share data about your home, which needs to be handled responsibly",
+        "Because smart devices never work",
+        "Because privacy has nothing to do with technology",
+        "Because smart devices only work without electricity"
+      ],
+      "answer": 0,
+      "explanation": "Since smart devices collect/share data, the chapter flags privacy as something to be mindful of.",
+      "source": "facts:page19 (synthesis)"
+    },
+    {
+      "id": "q188",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Smart Home Devices",
+      "question": "Smart devices are often controlled using:",
+      "options": [
+        "Smartphone apps",
+        "Only physical buttons",
+        "Only voice, never apps",
+        "Nothing; they cannot be controlled"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states smart devices are often controlled using smartphone apps.",
+      "source": "facts:page19"
+    },
+    {
+      "id": "q189",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Smart Home Devices",
+      "question": "Select ALL the smart home devices mentioned in the chapter.",
+      "options": [
+        "Smart camera",
+        "Smart refrigerator",
+        "Smart doorbell",
+        "Smart bicycle"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The chapter describes smart cameras, refrigerators, and doorbells — never a smart bicycle.",
+      "source": "facts:page16 / book:page45"
+    },
+    {
+      "id": "q190",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Smart Home Devices",
+      "question": "What is the shared benefit of smart cameras, smart refrigerators, and smart doorbells, according to the chapter?",
+      "options": [
+        "They all use AI/IoT to alert, inform, or help you remotely, making everyday tasks and safety easier",
+        "They all require no electricity",
+        "They all replace human decision-making entirely",
+        "They all only work outdoors"
+      ],
+      "answer": 0,
+      "explanation": "Each of these devices uses AI/IoT to help you remotely, whether alerting, tracking, or communicating.",
+      "source": "book:page45 (synthesis)"
+    },
+    {
+      "id": "q191",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Smart Home Devices",
+      "question": "Which device tracks food and reminds you of expiry dates?",
+      "options": [
+        "Smart doorbell",
+        "Smart refrigerator",
+        "Smart camera",
+        "Smart speaker"
+      ],
+      "answer": 1,
+      "explanation": "The chapter states the smart refrigerator tracks food and reminds you of expiry dates.",
+      "source": "facts:page16"
+    },
+    {
+      "id": "q192",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sustainability and Energy Efficiency",
+      "question": "Why should smart devices be energy-efficient, according to the chapter?",
+      "options": [
+        "To help the environment",
+        "To look nicer",
+        "To cost more money",
+        "To work slower"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states smart devices should be energy-efficient to help the environment.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q193",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sustainability and Energy Efficiency",
+      "question": "According to the chapter, LED smart bulbs use how much less energy than old bulbs?",
+      "options": [
+        "10% less",
+        "25% less",
+        "50% less",
+        "75% less"
+      ],
+      "answer": 3,
+      "explanation": "The chapter states LED smart bulbs use 75% less energy than old bulbs.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q194",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sustainability and Energy Efficiency",
+      "question": "Why is recycling materials important when designing robots and smart devices, according to the chapter?",
+      "options": [
+        "It reduces the amount of waste in landfills",
+        "It makes devices heavier",
+        "It makes devices more expensive",
+        "It has no effect"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states recycled materials reduce the amount of waste in landfills.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q195",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Sustainability and Energy Efficiency",
+      "question": "Recycled materials reduce the amount of waste in landfills.",
+      "answer": true,
+      "explanation": "This is stated directly in the chapter's facts.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q196",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sustainability and Energy Efficiency",
+      "question": "Smart irrigation systems help conserve water by:",
+      "options": [
+        "Monitoring soil moisture",
+        "Ignoring the weather",
+        "Watering all day regardless of need",
+        "Using more energy"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states smart irrigation systems help conserve water by monitoring soil moisture.",
+      "source": "facts:page12"
+    },
+    {
+      "id": "q197",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sustainability and Energy Efficiency",
+      "question": "Which of these is an example of a sustainable/eco-friendly smart technology mentioned in the chapter?",
+      "options": [
+        "LED smart bulbs",
+        "A smart doorbell only for security",
+        "A crossword puzzle",
+        "A word search"
+      ],
+      "answer": 0,
+      "explanation": "LED smart bulbs are specifically named as an energy-saving, eco-friendly technology in the chapter.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q198",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sustainability and Energy Efficiency",
+      "question": "How does IoT promote sustainability, according to the chapter?",
+      "options": [
+        "By helping manage resources efficiently, such as conserving water or energy",
+        "By requiring devices to run constantly with no monitoring",
+        "By increasing landfill waste",
+        "By discouraging recycling"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states IoT promotes sustainability by helping manage resources efficiently.",
+      "source": "facts:page12"
+    },
+    {
+      "id": "q199",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sustainability and Energy Efficiency",
+      "question": "Which statement best explains why LED smart bulbs and smart irrigation systems are grouped together in the chapter's theme of \"sustainability\"?",
+      "options": [
+        "Both are examples of smart technology designed to reduce resource waste (energy or water)",
+        "Both are used only for cooking",
+        "Both are unrelated to the environment",
+        "Both increase electricity bills significantly"
+      ],
+      "answer": 0,
+      "explanation": "Both technologies reduce resource waste (LED bulbs save energy, smart irrigation saves water), matching the chapter's sustainability theme.",
+      "source": "facts:page5 + facts:page12 (synthesis)"
+    },
+    {
+      "id": "q200",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Sustainability and Energy Efficiency",
+      "question": "According to the chapter, designing energy-efficient and recyclable smart devices helps protect the environment.",
+      "answer": true,
+      "explanation": "This aligns directly with the chapter's facts about energy efficiency and recycling.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q201",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sustainability and Energy Efficiency",
+      "question": "Using more data to improve ML accuracy is compared to practicing a sport. What environmental idea does the chapter link to reducing landfill waste?",
+      "options": [
+        "Recycling materials when designing robots and smart devices",
+        "Watching more videos",
+        "Buying more devices",
+        "Using less Wi-Fi"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states recycled materials reduce the amount of waste in landfills.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q202",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sustainability and Energy Efficiency",
+      "question": "According to the chapter, both smart irrigation systems and LED smart bulbs share a common goal of:",
+      "options": [
+        "Reducing resource use (water or energy) to support sustainability",
+        "Making homes look more colourful",
+        "Increasing screen time",
+        "Replacing all human gardeners"
+      ],
+      "answer": 0,
+      "explanation": "Both technologies aim to use fewer resources (water or energy), supporting the chapter's sustainability theme.",
+      "source": "facts:page5/page12 (synthesis)"
+    },
+    {
+      "id": "q203",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI/ML/IoT Vocabulary (Crossword and Word Search)",
+      "question": "According to the crossword, what do smart devices collect and use to learn patterns? (2 Across)",
+      "options": [
+        "Data",
+        "Money",
+        "Music",
+        "Photos only"
+      ],
+      "answer": 0,
+      "explanation": "The crossword's 2 Across answer is DATA.",
+      "source": "worksheet-L1 crossword (2 Across)"
+    },
+    {
+      "id": "q204",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI/ML/IoT Vocabulary (Crossword and Word Search)",
+      "question": "In the crossword, the answer for \"Devices connect and share information to work together\" (6 Across) is a 5-letter word describing many of the chapter's devices. What is it?",
+      "options": [
+        "SMART",
+        "LARGE",
+        "HEAVY",
+        "OLDER"
+      ],
+      "answer": 0,
+      "explanation": "The crossword's 6 Across answer is SMART.",
+      "source": "worksheet-L1 crossword (6 Across)"
+    },
+    {
+      "id": "q205",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI/ML/IoT Vocabulary (Crossword and Word Search)",
+      "question": "The crossword clue \"Smart vacuum cleaner that learns your home layout\" (8 Across) has the answer:",
+      "options": [
+        "SENSOR",
+        "ROBOT",
+        "MACHINE",
+        "SIRI"
+      ],
+      "answer": 1,
+      "explanation": "The crossword's 8 Across answer is ROBOT.",
+      "source": "worksheet-L1 crossword (8 Across)"
+    },
+    {
+      "id": "q206",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI/ML/IoT Vocabulary (Crossword and Word Search)",
+      "question": "The crossword clue \"Type of learning that helps computers get smarter from experience\" (10 Across) has the answer:",
+      "options": [
+        "MACHINE",
+        "HUMAN",
+        "ROBOT",
+        "DATA"
+      ],
+      "answer": 0,
+      "explanation": "The crossword's 10 Across answer is MACHINE, referring to Machine Learning.",
+      "source": "worksheet-L1 crossword (10 Across)"
+    },
+    {
+      "id": "q207",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI/ML/IoT Vocabulary (Crossword and Word Search)",
+      "question": "The crossword clue \"Computer finds similarities and regularities in data\" (1 Down) has the answer:",
+      "options": [
+        "PATTERN",
+        "SENSOR",
+        "DATA",
+        "MACHINE"
+      ],
+      "answer": 0,
+      "explanation": "The crossword's 1 Down answer is PATTERN.",
+      "source": "worksheet-L1 crossword (1 Down)"
+    },
+    {
+      "id": "q208",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI/ML/IoT Vocabulary (Crossword and Word Search)",
+      "question": "The crossword clue \"Type of intelligence that makes machines think like humans\" (5 Down) has the answer:",
+      "options": [
+        "ARTIFICIAL",
+        "NATURAL",
+        "HUMAN",
+        "DIGITAL"
+      ],
+      "answer": 0,
+      "explanation": "The crossword's 5 Down answer is ARTIFICIAL.",
+      "source": "worksheet-L1 crossword (5 Down)"
+    },
+    {
+      "id": "q209",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI/ML/IoT Vocabulary (Crossword and Word Search)",
+      "question": "The crossword clue \"Popular voice assistant made by Apple\" (9 Down) has the answer:",
+      "options": [
+        "ALEXA",
+        "SIRI",
+        "CORTANA",
+        "BIXBY"
+      ],
+      "answer": 1,
+      "explanation": "The crossword's 9 Down answer is SIRI.",
+      "source": "worksheet-L1 crossword (9 Down)"
+    },
+    {
+      "id": "q210",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI/ML/IoT Vocabulary (Crossword and Word Search)",
+      "question": "The crossword clue \"Type of car that can drive itself using AI\" (7 Down) has a 4-letter answer:",
+      "options": [
+        "AUTO",
+        "CARS",
+        "DRIVE",
+        "MOVE"
+      ],
+      "answer": 0,
+      "explanation": "The crossword's 7 Down answer is AUTO.",
+      "source": "worksheet-L1 crossword (7 Down)"
+    },
+    {
+      "id": "q211",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "AI/ML/IoT Vocabulary (Crossword and Word Search)",
+      "question": "In the L1 crossword, the word \"CARNEGIE\" (4 Across) refers to the university where the first internet-connected vending machine was located.",
+      "answer": true,
+      "explanation": "This matches the crossword's 4 Across clue and answer exactly.",
+      "source": "worksheet-L1 crossword (4 Across)"
+    },
+    {
+      "id": "q212",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "AI/ML/IoT Vocabulary (Crossword and Word Search)",
+      "question": "Select ALL of these words that appear in the L2 worksheet's word search puzzle.",
+      "options": [
+        "ARTIFICIAL",
+        "SAMUEL",
+        "FRIDGE",
+        "DINOSAUR"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The L2 word search includes ARTIFICIAL, ROBOT, FRIDGE, INTERNET, PATTERN, IOT, ALEXA, SMART, WATCH, and SAMUEL — not DINOSAUR.",
+      "source": "worksheet-L2 word search"
+    },
+    {
+      "id": "q213",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI/ML/IoT Vocabulary (Crossword and Word Search)",
+      "question": "The L2 worksheet's word search includes the word \"SAMUEL.\" Based on the chapter's \"Heritage Route,\" this most likely refers to:",
+      "options": [
+        "A scientist who, along with McCarthy, laid the foundation of AI",
+        "A type of smart fridge",
+        "A brand of robot vacuum",
+        "A crossword clue about food"
+      ],
+      "answer": 0,
+      "explanation": "The Heritage Route page says 'Samuel and McCarthy laid AI's foundation,' matching the word-search word SAMUEL.",
+      "source": "worksheet-L2 word search + book:page33 (Heritage Route)"
+    },
+    {
+      "id": "q214",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "AI/ML/IoT Vocabulary (Crossword and Word Search)",
+      "question": "Which of these words appears in the BOOK'S OWN \"Fun Time\" word search (not the worksheet), describing devices that operate independently once set up?",
+      "options": [
+        "AUTONOMOUS",
+        "FRIDGE",
+        "SAMUEL",
+        "ALEXA"
+      ],
+      "answer": 0,
+      "explanation": "The book's own Fun Time word search (page 50) includes the word AUTONOMOUS.",
+      "source": "book:page50 (Fun Time word search)"
+    },
+    {
+      "id": "q215",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "AI/ML/IoT Vocabulary (Crossword and Word Search)",
+      "question": "Select ALL of these words that appear in the book's own \"Fun Time\" word search puzzle.",
+      "options": [
+        "STRUCTURED",
+        "CATEGORICAL",
+        "SENSOR",
+        "DINOSAUR"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The book's Fun Time word search includes STRUCTURED, HUB, INTERNET, AUTONOMOUS, WIFI, SENSOR, SERVER, CATEGORICAL, PATTERN, SMARTHOME, and SMARTSPECKER — not DINOSAUR.",
+      "source": "book:page50 (Fun Time word search)"
+    },
+    {
+      "id": "q216",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "AI/ML/IoT Vocabulary (Crossword and Word Search)",
+      "question": "The book's \"Fun Time\" word search includes the word \"SMARTHOME,\" related to connecting home devices to the internet.",
+      "answer": true,
+      "explanation": "This matches the book's own word search (page 50) exactly.",
+      "source": "book:page50 (Fun Time word search)"
+    }
+  ]
+}

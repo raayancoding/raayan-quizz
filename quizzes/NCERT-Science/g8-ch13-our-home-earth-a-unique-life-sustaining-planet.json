@@ -1,0 +1,2676 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-science-g8-ch13-our-home-earth-a-unique-life-sustaining-planet",
+  "title": "Our Home: Earth, a Unique Life Sustaining Planet",
+  "subject": "Science",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Science/ch13",
+  "chapter": "13. Our Home: Earth, a Unique Life Sustaining Planet",
+  "topic": "Full Chapter",
+  "description": "Why Earth alone sustains life — its position, size, atmosphere and magnetic field, the interacting Earth systems, reproduction and the threats of the triple planetary crisis.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "science",
+    "earth",
+    "habitable-zone",
+    "greenhouse-effect",
+    "reproduction",
+    "climate-change"
+  ],
+  "questions": [
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Earth: A Unique Planet",
+      "question": "The image at the start of the chapter, taken by an ISRO Earth Observation Satellite, was built by combining roughly how many smaller images?",
+      "options": [
+        "Nearly 3000 images",
+        "Nearly 300 images",
+        "Nearly 30 images",
+        "Nearly 30,000 images"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says the satellite picture was made by combining nearly 3000 smaller images, like pieces of a mosaic.",
+      "source": "text:page2",
+      "id": "q1"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Earth: A Unique Planet",
+      "question": "Why is the ISRO satellite picture of Earth described as a 'false colour' image?",
+      "options": [
+        "The camera could not record colours, so they were painted on afterwards",
+        "Colours stand for different kinds of information, not true appearance",
+        "Clouds hid the surface, so the colours were guessed from printed maps",
+        "It was taken at night, so the colours were added later by a computer"
+      ],
+      "answer": 1,
+      "explanation": "In a false colour image scientists deliberately use different colours to show different types of information (e.g. plants, ocean temperature); it is not how Earth would look to the eye.",
+      "source": "text:page2",
+      "id": "q2"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Earth: A Unique Planet",
+      "question": "Select the things the chapter says satellite images can help detect.",
+      "options": [
+        "Oil spills",
+        "Age of rocks deep underground",
+        "Wind direction",
+        "Depth of the Earth's inner core"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Satellite images can detect ocean temperature, oil spills and wind direction, and help study plants on land and tiny organisms in the ocean. They do not reveal the age of deep rocks or the depth of the core.",
+      "source": "text:page2",
+      "id": "q3"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Earth: A Unique Planet",
+      "question": "Which TWO of these does the chapter list among the things Earth provides us?",
+      "options": [
+        "The air we breathe",
+        "The soil that helps grow crops",
+        "The light from distant stars",
+        "The heat from its inner core"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The chapter says Earth gives us the air we breathe, the water we drink, the soil for growing crops, and materials like rock and timber for building.",
+      "source": "text:page3",
+      "id": "q4"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Earth: A Unique Planet",
+      "question": "If the Earth were the size of an apple, the crust would be as thin as which part of the apple?",
+      "options": [
+        "the apple's core",
+        "half of the apple",
+        "the apple's skin",
+        "the apple's stalk"
+      ],
+      "answer": 2,
+      "explanation": "Fig. 13.1 compares the crust to the thin skin of an apple — the layer where all life exists is tiny compared with the whole planet.",
+      "source": "text:page2",
+      "id": "q5"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Earth: A Unique Planet",
+      "question": "From the tallest mountain to the deepest ocean trench, all known life on Earth is found in which layer?",
+      "options": [
+        "The upper mantle",
+        "The outer core",
+        "The lower mantle",
+        "The crust"
+      ],
+      "answer": 3,
+      "explanation": "All mountains, rivers, forests, animals and people are found on the crust — a very thin layer on the planet's surface.",
+      "source": "text:page2",
+      "id": "q6"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Earth: A Unique Planet",
+      "question": "Which sequence lists the Earth's layers correctly from the surface inwards (Fig. 13.1)?",
+      "options": [
+        "Crust, upper mantle, lower mantle, outer core, inner core",
+        "Crust, outer core, upper mantle, lower mantle, inner core",
+        "Crust, lower mantle, upper mantle, inner core, outer core",
+        "Upper mantle, crust, lower mantle, outer core, inner core"
+      ],
+      "answer": 0,
+      "explanation": "Fig. 13.1 labels, from outside in: crust, upper mantle, lower mantle, outer core, inner core. The crust is outermost and the inner core is at the centre.",
+      "source": "text:page2",
+      "id": "q7"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Earth: A Unique Planet",
+      "question": "Table 13.1 notes that the air we breathe stays around the Earth even though gas particles move freely and gases have no fixed volume.",
+      "answer": true,
+      "explanation": "This is the first 'taken for granted' feature in Table 13.1 — Earth's gravity keeps the atmosphere from flying off into space even though gases spread freely.",
+      "source": "text:page3",
+      "id": "q8"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Earth: A Unique Planet",
+      "question": "Life on Earth is spread through the whole planet, from the crust right down to the core.",
+      "answer": false,
+      "explanation": "All life exists only in a very thin surface layer — the crust. Compared with the size of the Earth this layer is as thin as an apple's skin.",
+      "source": "text:page2",
+      "id": "q9"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Earth: A Unique Planet",
+      "question": "Table 13.1 pairs 'we can stand on the ground held by gravity' with which surprising everyday fact?",
+      "options": [
+        "Our bones never break under our own body weight",
+        "Our heart can still pump blood up to our head",
+        "The ground never sinks under very heavy buildings",
+        "Objects we drop always fall at exactly the same speed"
+      ],
+      "answer": 1,
+      "explanation": "The table points out that although gravity holds us down (Chapter 5), our heart manages to pump blood upwards to the head — an interesting feature we take for granted.",
+      "source": "text:page3",
+      "id": "q10"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Earth: A Unique Planet",
+      "question": "Which materials does the chapter say the Earth provides for building homes, buildings and roads?",
+      "options": [
+        "Coal and oil",
+        "Salt and iron",
+        "Rock and timber",
+        "Sand and glass"
+      ],
+      "answer": 2,
+      "explanation": "The text says the Earth provides materials like rock and timber with which we build our homes, buildings and roads.",
+      "source": "text:page3",
+      "id": "q11"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Earth: A Unique Planet",
+      "question": "Which statement about the Earth's crust is NOT correct?",
+      "options": [
+        "It is where all known life exists",
+        "It is tiny compared to Earth's size",
+        "It is compared to the thin skin of an apple",
+        "It makes up most of the Earth's volume"
+      ],
+      "answer": 3,
+      "explanation": "The crust is a very thin outer layer, tiny compared with the whole Earth — it does NOT make up most of the planet's volume. The other three statements come straight from the chapter.",
+      "source": "text:page2",
+      "id": "q12"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Planets of the Solar System",
+      "question": "How many planets go around the Sun in our solar system?",
+      "options": [
+        "Eight",
+        "Seven",
+        "Nine",
+        "Ten"
+      ],
+      "answer": 0,
+      "explanation": "Our solar system has eight planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune.",
+      "source": "text:page3",
+      "id": "q13"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Planets of the Solar System",
+      "question": "Which planet is the fourth from the Sun?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Earth"
+      ],
+      "answer": 1,
+      "explanation": "In order of increasing distance from the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune — so Mars is fourth.",
+      "source": "text:page3",
+      "id": "q14"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Planets of the Solar System",
+      "question": "Which group contains ONLY the small, rocky planets?",
+      "options": [
+        "Jupiter, Saturn, Uranus, Neptune",
+        "Mercury, Venus, Jupiter, Mars",
+        "Mercury, Venus, Earth, Mars",
+        "Earth, Mars, Saturn, Neptune"
+      ],
+      "answer": 2,
+      "explanation": "Mercury, Venus, Earth and Mars are relatively small and rocky; Jupiter, Saturn, Uranus and Neptune are large planets mostly made of gases.",
+      "source": "text:page4",
+      "id": "q15"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Planets of the Solar System",
+      "question": "In Table 13.2 the eighth planet has an average temperature of about −200 °C and a radius 4 times Earth's. Which planet is it?",
+      "options": [
+        "Uranus",
+        "Saturn",
+        "Jupiter",
+        "Neptune"
+      ],
+      "answer": 3,
+      "explanation": "Row 8 of Table 13.2 is the planet farthest from the Sun — Neptune — with −200 °C and radius 4 (compared to Earth = 1).",
+      "source": "text:page4",
+      "id": "q16"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Planets of the Solar System",
+      "question": "Table 13.2 gives the fifth planet from the Sun a radius about 11 times that of Earth. Which planet is this?",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune"
+      ],
+      "answer": 0,
+      "explanation": "The fifth planet from the Sun is Jupiter, the largest planet, with a radius about 11 times Earth's.",
+      "source": "text:page4",
+      "id": "q17"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Planets of the Solar System",
+      "question": "According to Table 13.2, which planet has NO atmosphere?",
+      "options": [
+        "Venus",
+        "Mercury",
+        "Neptune",
+        "Earth"
+      ],
+      "answer": 1,
+      "explanation": "Table 13.2 marks Mercury as having no atmosphere; the text later confirms 'Mercury has no atmosphere at all'.",
+      "source": "text:page4",
+      "id": "q18"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Planets of the Solar System",
+      "question": "How does the chapter describe the shape of the planets' orbits around the Sun?",
+      "options": [
+        "highly elongated ovals",
+        "perfectly square paths",
+        "nearly circular",
+        "spiral paths inward"
+      ],
+      "answer": 2,
+      "explanation": "The eight planets go around the Sun in nearly circular orbits. This keeps the sunlight a planet receives fairly steady through the year.",
+      "source": "text:page3",
+      "id": "q19"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Planets of the Solar System",
+      "question": "Jupiter, Saturn, Uranus and Neptune are large planets mostly made of gases.",
+      "answer": true,
+      "explanation": "The chapter divides the planets into four small rocky ones (Mercury to Mars) and four large, mostly gaseous ones (Jupiter to Neptune).",
+      "source": "text:page4",
+      "id": "q20"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Planets of the Solar System",
+      "question": "Mercury, being closest to the Sun, has the highest average temperature of all the planets.",
+      "answer": false,
+      "explanation": "Venus (450 °C) is hotter than Mercury (170 °C). Venus's thick carbon dioxide atmosphere traps heat through the greenhouse effect.",
+      "source": "text:page4",
+      "id": "q21"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Planets of the Solar System",
+      "question": "Table 13.2 gives Venus's radius as 0.95 compared to Earth's 1. What does this tell you?",
+      "options": [
+        "Venus is slightly larger than Earth",
+        "Venus is less than half Earth's size",
+        "Venus is almost twice Earth's size",
+        "Venus is slightly smaller than Earth"
+      ],
+      "answer": 3,
+      "explanation": "The radius column compares each planet to Earth (= 1). A value of 0.95 means Venus is only a little smaller than Earth.",
+      "source": "text:page4",
+      "id": "q22"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Planets of the Solar System",
+      "question": "A planet lies farther from the Sun than Earth. Based on the general trend in Table 13.2, what would you expect?",
+      "options": [
+        "It is colder than Earth on average",
+        "It is hotter than Earth on average",
+        "It has the same temperature as Earth",
+        "It must have a thicker atmosphere"
+      ],
+      "answer": 0,
+      "explanation": "Planets get their energy from the Sun, so moving farther from the Sun generally makes a planet colder (Venus is the exception, because of its atmosphere).",
+      "source": "text:page4",
+      "id": "q23"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Planets of the Solar System",
+      "question": "Select the TWO planets that are small and rocky.",
+      "options": [
+        "Mars",
+        "Saturn",
+        "Venus",
+        "Uranus"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Mars and Venus belong to the rocky group (with Mercury and Earth). Saturn and Uranus are large gas planets.",
+      "source": "text:page4",
+      "id": "q24"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Planets of the Solar System",
+      "question": "Mercury averages 170 °C while Venus averages 450 °C. Which statement explains this correctly?",
+      "options": [
+        "Venus is closer to the Sun than Mercury, so it receives more energy",
+        "Venus's thick CO2 atmosphere traps heat; Mercury has none to trap it",
+        "Mercury's rocky surface reflects all the sunlight back into space",
+        "Venus is larger, and bigger planets always hold on to more heat"
+      ],
+      "answer": 1,
+      "explanation": "Venus is the hottest planet not because it is closest (Mercury is) but because its thick, almost entirely CO2 atmosphere traps heat. Mercury has no atmosphere at all.",
+      "source": "text:page4",
+      "id": "q25"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Greenhouse Effect",
+      "question": "The air on Venus is almost entirely made up of which gas?",
+      "options": [
+        "Water vapour",
+        "Nitrogen gas",
+        "Carbon dioxide",
+        "Methane gas"
+      ],
+      "answer": 2,
+      "explanation": "The air on Venus is almost entirely carbon dioxide, which does not let heat escape — causing a very strong greenhouse effect.",
+      "source": "text:page5",
+      "id": "q26"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Greenhouse Effect",
+      "question": "On Earth, how do gases like carbon dioxide trap heat?",
+      "options": [
+        "By reflecting sunlight before it reaches the ground",
+        "By blocking ultraviolet rays like the ozone layer does",
+        "By holding warm air in place as a closed glass room does",
+        "By absorbing radiation given off by the warmed Earth"
+      ],
+      "answer": 3,
+      "explanation": "After the Sun warms the Earth, the Earth gives off radiation; greenhouse gases absorb this radiation so the heat does not escape.",
+      "source": "text:page5",
+      "id": "q27"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Greenhouse Effect",
+      "question": "How does a greenhouse for growing plants differ from the greenhouse effect on Venus or Earth?",
+      "options": [
+        "It traps warmed air because it is a closed space",
+        "It traps heat by gases absorbing Earth's radiation",
+        "It cools the air inside by blocking all the sunlight",
+        "It works only at night when the ground radiates"
+      ],
+      "answer": 0,
+      "explanation": "A plant greenhouse is a closed space, usually with glass walls, so warmed air cannot leave. On a planet, gases absorb radiation — both keep things warm but in different ways.",
+      "source": "text:page5",
+      "id": "q28"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The Greenhouse Effect",
+      "question": "The greenhouse effect plays an important role in maintaining the right temperature on Earth.",
+      "answer": true,
+      "explanation": "Though mild, Earth's greenhouse effect keeps the temperature just high enough for water to stay liquid.",
+      "source": "text:page5",
+      "id": "q29"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "The Greenhouse Effect",
+      "question": "A plant greenhouse and Venus's atmosphere warm things in exactly the same way.",
+      "answer": false,
+      "explanation": "They work differently: a plant greenhouse simply traps warmed air in a closed glass space, while Venus's CO2 absorbs radiation given off by the warmed surface.",
+      "source": "text:page5",
+      "id": "q30"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Greenhouse Effect",
+      "question": "If Earth had no atmosphere, what does the chapter say would happen to its heat?",
+      "options": [
+        "It would build up and Earth would become far too hot",
+        "It would be lost to space and Earth would become too cold",
+        "It would stay the same because the Sun still shines on it",
+        "It would move into the core and heat the mantle instead"
+      ],
+      "answer": 1,
+      "explanation": "Without an atmosphere the Earth would lose heat to space and become too cold. The greenhouse effect helps keep the Earth warm.",
+      "source": "text:page9",
+      "id": "q31"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Greenhouse Effect",
+      "question": "Which statement about the greenhouse effect is NOT correct?",
+      "options": [
+        "It makes Venus even hotter than Mercury is",
+        "It keeps Earth warm enough for liquid water to exist",
+        "It is caused mainly by oxygen in the atmosphere",
+        "It is produced by gases like carbon dioxide"
+      ],
+      "answer": 2,
+      "explanation": "Greenhouse gases are gases like carbon dioxide (and methane), not oxygen. The other statements are correct according to the chapter.",
+      "source": "text:page5",
+      "id": "q32"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Greenhouse Effect",
+      "question": "Which is the correct order of events in Earth's greenhouse effect?",
+      "options": [
+        "CO2 absorbs sunlight; Earth warms; Earth radiates; heat escapes",
+        "Earth radiates; Sun warms Earth; CO2 reflects heat; heat is kept",
+        "Sun warms CO2; CO2 warms Earth; Earth radiates; heat escapes",
+        "Sun warms Earth; Earth radiates; CO2 absorbs radiation; heat is kept"
+      ],
+      "answer": 3,
+      "explanation": "The Sun warms the Earth first; the warmed Earth gives off radiation; carbon dioxide absorbs that radiation; so the heat is retained rather than escaping.",
+      "source": "text:page5",
+      "id": "q33"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "The Greenhouse Effect",
+      "question": "Which TWO are needed for the greenhouse effect shown in Fig. 13.2 on Earth?",
+      "options": [
+        "Radiation given off by the warmed Earth",
+        "Carbon dioxide in the atmosphere",
+        "Glass walls surrounding the planet",
+        "Molten iron moving in the core"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Earth's greenhouse effect needs the Earth to radiate heat after being warmed by the Sun, and greenhouse gases such as CO2 to absorb it. Glass walls belong to a plant greenhouse; molten iron relates to the magnetic field.",
+      "source": "text:page5",
+      "id": "q34"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Greenhouse Effect",
+      "question": "What is the name for the trapping of heat by gases in a planet's atmosphere?",
+      "options": [
+        "Greenhouse effect",
+        "Habitable zone",
+        "Ozone layer effect",
+        "Geodiversity"
+      ],
+      "answer": 0,
+      "explanation": "The trapping of heat by atmospheric gases such as carbon dioxide is called the greenhouse effect.",
+      "source": "text:page5",
+      "id": "q35"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Habitable Zone and Liquid Water",
+      "question": "According to the chapter, what is the MOST important reason the Earth can support life?",
+      "options": [
+        "Its magnetic field",
+        "Its distance from the Sun",
+        "Its nearly circular orbit",
+        "Its large size and gravity"
+      ],
+      "answer": 1,
+      "explanation": "The most important reason is Earth's distance from the Sun — just right for the temperature to allow liquid water.",
+      "source": "text:page5",
+      "id": "q36"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Habitable Zone and Liquid Water",
+      "question": "If the Earth were much closer to the Sun, what would happen to its water?",
+      "options": [
+        "all water would freeze",
+        "water would stay liquid",
+        "all water would evaporate",
+        "oceans would get deeper"
+      ],
+      "answer": 2,
+      "explanation": "Closer to the Sun it would be too hot and all the water would evaporate; farther away it would be too cold and all the water would freeze.",
+      "source": "text:page5",
+      "id": "q37"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Habitable Zone and Liquid Water",
+      "question": "If the Earth were much farther from the Sun, the chapter says that:",
+      "options": [
+        "all the water would evaporate",
+        "water would become salty",
+        "water would stay liquid",
+        "all the water would freeze"
+      ],
+      "answer": 3,
+      "explanation": "Too far from the Sun it would be too cold and all the water would freeze, making life as we know it impossible.",
+      "source": "text:page5",
+      "id": "q38"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Habitable Zone and Liquid Water",
+      "question": "The habitable zone around a star is also known as the:",
+      "options": [
+        "Goldilocks zone",
+        "Greenhouse zone",
+        "Blue zone",
+        "Solar zone"
+      ],
+      "answer": 0,
+      "explanation": "The range of distances where water remains liquid is called the habitable zone, or sometimes the 'Goldilocks zone' — not too hot, not too cold, just right.",
+      "source": "text:page6",
+      "id": "q39"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Habitable Zone and Liquid Water",
+      "question": "Which is the correct description of a star's habitable zone?",
+      "options": [
+        "Range of distances where a planet has a magnetic field",
+        "Range of distances from a star where water stays liquid",
+        "Region of a planet's crust where life is actually found",
+        "Zone of a planet's atmosphere that contains the ozone layer"
+      ],
+      "answer": 1,
+      "explanation": "The habitable zone is the range of distances from the Sun (or another star) over which water remains in liquid form.",
+      "source": "text:page6",
+      "id": "q40"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Habitable Zone and Liquid Water",
+      "question": "According to the chapter, no life form at all can survive in frozen environments.",
+      "answer": false,
+      "explanation": "The chapter says some microbes, like certain bacteria, can survive in frozen environments — but liquid water is still essential for life to evolve.",
+      "source": "text:page6",
+      "id": "q41"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Habitable Zone and Liquid Water",
+      "question": "Why is the Earth called the Blue Planet?",
+      "options": [
+        "Its atmosphere is mostly blue nitrogen",
+        "Its oceans reflect the blue magnetic field",
+        "Most of its surface is covered with water",
+        "Its sky appears blue when seen from space"
+      ],
+      "answer": 2,
+      "explanation": "Seen from space, Earth looks blue because of the vast amount of water covering most of its surface — hence 'Blue Planet'.",
+      "source": "text:page6",
+      "id": "q42"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Habitable Zone and Liquid Water",
+      "question": "Where does Mars lie in relation to the Sun's habitable zone?",
+      "options": [
+        "At the centre of the habitable zone",
+        "Far outside the habitable zone",
+        "Closer to the Sun than the zone",
+        "At the edge of the habitable zone"
+      ],
+      "answer": 3,
+      "explanation": "Mars lies at the edge of the Sun's habitable zone, which is one reason it might once have had liquid water.",
+      "source": "text:page6",
+      "id": "q43"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Habitable Zone and Liquid Water",
+      "question": "What have the spacecraft and rovers sent to Mars found so far regarding life?",
+      "options": [
+        "No proof of life so far",
+        "Fossils of simple plants",
+        "Living bacteria in lakes",
+        "Clear signs of flowing rivers today"
+      ],
+      "answer": 0,
+      "explanation": "Rovers have explored the surface, but no proof of life has been found yet. Scientists only think Mars MAY have had liquid water in the past.",
+      "source": "text:page6",
+      "id": "q44"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Habitable Zone and Liquid Water",
+      "question": "Why does Mars continue to interest scientists?",
+      "options": [
+        "It currently has oceans like Earth's",
+        "It may once have had liquid water and lakes",
+        "It has a thicker atmosphere than Earth",
+        "It has a stronger magnetic field than Earth"
+      ],
+      "answer": 1,
+      "explanation": "Scientists think Mars may have had liquid water — maybe even lakes — and conditions for simple life in the past. Its atmosphere today is 100 times thinner than Earth's.",
+      "source": "text:page6",
+      "id": "q45"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Habitable Zone and Liquid Water",
+      "question": "The chapter says science stays open to change when we learn more.",
+      "answer": true,
+      "explanation": "Using Mars as an example, the chapter notes that science doesn't always have final answers and stays open to change as new clues are found.",
+      "source": "text:page6",
+      "id": "q46"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Habitable Zone and Liquid Water",
+      "question": "What is one major reason Mars cannot currently support life like Earth?",
+      "options": [
+        "It has far too many erupting volcanoes",
+        "It orbits much too close to the Sun",
+        "It lacks a thick atmosphere and liquid water",
+        "Its magnetic field is far too strong"
+      ],
+      "answer": 2,
+      "explanation": "Mars's atmosphere is 100 times thinner than Earth's and it has no liquid water today. It is at the edge of the habitable zone, not too close to the Sun.",
+      "source": "exercise:Q1",
+      "id": "q47"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Habitable Zone and Liquid Water",
+      "question": "Earth's distance from the Sun allows water to remain mostly in liquid form.",
+      "answer": true,
+      "explanation": "Being at the right distance keeps temperatures in the range where water stays liquid — essential for the development and sustenance of life.",
+      "source": "text:page6",
+      "id": "q48"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Size, Gravity and Atmosphere",
+      "question": "What is the effect of Earth's nearly circular orbit on life?",
+      "options": [
+        "Days and nights are of equal length all year round",
+        "The Earth never gets any closer to the Sun at all",
+        "The magnetic field keeps pointing the same way",
+        "Sunlight and heat stay nearly steady through the year"
+      ],
+      "answer": 3,
+      "explanation": "A nearly circular orbit keeps the amount of sunlight and heat nearly steady throughout the year, preventing extreme summers and winters at most places.",
+      "source": "text:page6",
+      "id": "q49"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Size, Gravity and Atmosphere",
+      "question": "If the Earth were smaller but had the same density, what might happen to its atmosphere?",
+      "options": [
+        "It would escape into space due to weaker gravity",
+        "It would become much thicker and hotter",
+        "It would freeze solid onto the surface",
+        "It would cause far stronger winds to blow"
+      ],
+      "answer": 0,
+      "explanation": "A smaller Earth would have weaker gravity, too weak to hold on to the gases of the atmosphere, which would escape into space — as happened on Mars and Mercury.",
+      "source": "exercise:Q3",
+      "id": "q50"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Size, Gravity and Atmosphere",
+      "question": "How does the atmosphere of Mars compare with Earth's?",
+      "options": [
+        "About 10 times thinner",
+        "About 100 times thinner",
+        "About the same thickness",
+        "About 100 times thicker"
+      ],
+      "answer": 1,
+      "explanation": "On Mars the atmosphere is 100 times thinner than on Earth, and Mercury has no atmosphere at all.",
+      "source": "text:page7",
+      "id": "q51"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Size, Gravity and Atmosphere",
+      "question": "If the Earth were much larger with much stronger gravity, the chapter suggests that:",
+      "options": [
+        "its atmosphere would escape",
+        "its water would all evaporate",
+        "gravity could crush our bones",
+        "the orbit would become oval"
+      ],
+      "answer": 2,
+      "explanation": "A very large planet would pull us down with such force that our bones could be crushed. Escaping atmosphere is the problem of a planet that is too SMALL.",
+      "source": "text:page7",
+      "id": "q52"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Size, Gravity and Atmosphere",
+      "question": "An ozone molecule is made of how many oxygen atoms?",
+      "options": [
+        "Two oxygen atoms",
+        "One oxygen atom",
+        "Four oxygen atoms",
+        "Three oxygen atoms"
+      ],
+      "answer": 3,
+      "explanation": "Ozone is a three-atom oxygen molecule formed from some of the oxygen in the atmosphere.",
+      "source": "text:page7",
+      "id": "q53"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Size, Gravity and Atmosphere",
+      "question": "What is the main protective role of the ozone layer?",
+      "options": [
+        "Blocks harmful UV rays from the Sun",
+        "Traps heat like a greenhouse gas",
+        "Pushes away cosmic rays and solar wind",
+        "Supplies oxygen for us to breathe"
+      ],
+      "answer": 0,
+      "explanation": "The ozone layer acts like a shield, blocking harmful ultraviolet (UV) rays that can damage living cells. Deflecting charged particles is the magnetic field's job.",
+      "source": "text:page7",
+      "id": "q54"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Size, Gravity and Atmosphere",
+      "question": "The ozone layer protects the Earth by deflecting high-energy particles coming from the Sun.",
+      "answer": false,
+      "explanation": "The ozone layer blocks ultraviolet rays. It is the Earth's magnetic field that pushes away high-energy particles such as the solar wind.",
+      "source": "text:page7",
+      "id": "q55"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Size, Gravity and Atmosphere",
+      "question": "In which year was India's Mangalyaan (Mars Orbiter Mission) launched?",
+      "options": [
+        "2015",
+        "2013",
+        "2005",
+        "1992"
+      ],
+      "answer": 1,
+      "explanation": "Mangalyaan was launched in 2013 by ISRO and showed that India could do space science with smart, low-cost technology.",
+      "source": "text:page7",
+      "id": "q56"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Size, Gravity and Atmosphere",
+      "question": "Mangalyaan carried tools to study which features of Mars?",
+      "options": [
+        "the two moons of Mars and their many craters",
+        "the planet's rings and its magnetic poles",
+        "the atmosphere, surface and signs of past water",
+        "living organisms hidden in Martian soil"
+      ],
+      "answer": 2,
+      "explanation": "The orbiter carried tools to study Mars's atmosphere, surface and signs of past water — helping ask whether Mars was ever suitable for life.",
+      "source": "text:page7",
+      "id": "q57"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Size, Gravity and Atmosphere",
+      "question": "Which statement about Mangalyaan is NOT correct?",
+      "options": [
+        "It was launched by ISRO in 2013",
+        "It is also called the Mars Orbiter Mission",
+        "It used smart, low-cost technology",
+        "It landed a rover on the Martian surface"
+      ],
+      "answer": 3,
+      "explanation": "Mangalyaan was an ORBITER — it studied Mars from orbit and did not land a rover. The other three statements match the chapter.",
+      "source": "text:page7",
+      "id": "q58"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Size, Gravity and Atmosphere",
+      "question": "Oxygen in the atmosphere is needed by almost all forms of life on Earth.",
+      "answer": true,
+      "explanation": "The presence of oxygen allows us to breathe and is needed by almost all life forms; some oxygen also forms the protective ozone layer.",
+      "source": "text:page7",
+      "id": "q59"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Size, Gravity and Atmosphere",
+      "question": "Select the TWO conditions the chapter links to the Earth being the 'right size'.",
+      "options": [
+        "Gravity strong enough to hold on to the atmosphere",
+        "Gravity weak enough not to crush living beings",
+        "A perfectly circular orbit around the Sun",
+        "A thick layer of carbon dioxide like Venus"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Earth's size gives gravity that is just enough to keep the atmosphere from escaping, yet not so strong that creatures would be crushed by their own weight.",
+      "source": "text:page7",
+      "id": "q60"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Size, Gravity and Atmosphere",
+      "question": "If there were no atmosphere on the Earth, which of these would follow?",
+      "options": [
+        "Earth would lose heat to space and become too cold",
+        "The Earth's gravity would become much weaker",
+        "The Earth's orbit would become more elongated",
+        "The Earth's core would stop producing a magnetic field"
+      ],
+      "answer": 0,
+      "explanation": "Without an atmosphere there is no greenhouse effect: heat radiated by the Earth would escape to space, the planet would be too cold, and liquid water and breathable oxygen would be lost.",
+      "source": "exercise:Q11",
+      "id": "q61"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Size, Gravity and Atmosphere",
+      "question": "Mercury has an atmosphere about 100 times thinner than Earth's.",
+      "answer": false,
+      "explanation": "It is Mars whose atmosphere is 100 times thinner than Earth's; Mercury has no atmosphere at all.",
+      "source": "text:page7",
+      "id": "q62"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Earth's Magnetic Field",
+      "question": "A freely suspended magnet always settles in a fixed direction because:",
+      "options": [
+        "The Sun pulls the magnet toward itself",
+        "Earth itself behaves like a giant magnet",
+        "Air currents push the magnet steadily",
+        "The magnet is attracted by the Moon"
+      ],
+      "answer": 1,
+      "explanation": "The Earth behaves like a giant magnet, so a freely suspended magnet aligns with the Earth's magnetic field.",
+      "source": "text:page8",
+      "id": "q63"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Earth's Magnetic Field",
+      "question": "What is believed to be the origin of the Earth's magnetic field?",
+      "options": [
+        "Spinning of the crust around the mantle",
+        "Flow of ocean water across the globe",
+        "Movement of molten iron in the core",
+        "Solar wind striking the atmosphere"
+      ],
+      "answer": 2,
+      "explanation": "It is believed that the movement of molten iron in Earth's core may be the origin of its magnetic field.",
+      "source": "text:page8",
+      "id": "q64"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Earth's Magnetic Field",
+      "question": "High-energy particles that come from far across the universe are called:",
+      "options": [
+        "Solar winds",
+        "Radio waves",
+        "Ozone gases",
+        "Cosmic rays"
+      ],
+      "answer": 3,
+      "explanation": "Particles from far across the universe are cosmic rays; those coming from the Sun are the solar wind.",
+      "source": "text:page8",
+      "id": "q65"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Earth's Magnetic Field",
+      "question": "High-energy particles that come from the Sun are called the:",
+      "options": [
+        "Solar wind",
+        "Cosmic rays",
+        "Ozone layer",
+        "Moonlight"
+      ],
+      "answer": 0,
+      "explanation": "The stream of particles from the Sun is called the solar wind; cosmic rays come from far across the universe.",
+      "source": "text:page8",
+      "id": "q66"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Earth's Magnetic Field",
+      "question": "Select the TWO harmful effects that space particles could have, according to the chapter.",
+      "options": [
+        "Damage the atmosphere",
+        "Reduce the ozone layer",
+        "Increase Earth's gravity",
+        "Cool down the Earth's core"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Cosmic rays and the solar wind can damage the atmosphere and reduce the ozone layer, letting in more harmful UV rays. They do not affect gravity or the core.",
+      "source": "text:page8",
+      "id": "q67"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Earth's Magnetic Field",
+      "question": "If space particles reduced the ozone layer, what would be the direct consequence for life?",
+      "options": [
+        "Less sunlight reaches the surface",
+        "More harmful UV rays reach Earth",
+        "Earth's gravity becomes weaker",
+        "Oceans would start to evaporate"
+      ],
+      "answer": 1,
+      "explanation": "A thinner ozone layer lets in more harmful ultraviolet rays, which can damage living cells and affect life on Earth.",
+      "source": "text:page8",
+      "id": "q68"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Earth's Magnetic Field",
+      "question": "Imagine the Earth's magnetic field suddenly disappeared. What problem would arise?",
+      "options": [
+        "The Earth would gradually drift out of its orbit around the Sun",
+        "All compasses would point towards the Sun instead of north",
+        "More harmful particles would damage the atmosphere and ozone",
+        "The atmosphere would become much thicker and far warmer"
+      ],
+      "answer": 2,
+      "explanation": "The magnetic field pushes cosmic rays and solar wind away. Without it, these particles would damage the atmosphere, thin the ozone layer and let in more UV — harming life. Orbits depend on gravity, not magnetism.",
+      "source": "exercise:Q8",
+      "id": "q69"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Earth's Magnetic Field",
+      "question": "The Earth's magnetic field pushes many harmful space particles away, keeping the atmosphere safe.",
+      "answer": true,
+      "explanation": "The magnetic field acts like a protective shield, deflecting many high-energy particles and so protecting the atmosphere and life.",
+      "source": "text:page8",
+      "id": "q70"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Earth's Magnetic Field",
+      "question": "Cosmic rays are high-energy particles that come from the Sun.",
+      "answer": false,
+      "explanation": "Particles from the Sun are called the solar wind. Cosmic rays come from far across the universe.",
+      "source": "text:page8",
+      "id": "q71"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Earth's Magnetic Field",
+      "question": "Which of these is NOT listed by the chapter as a factor that helps make Earth a planet where life can thrive?",
+      "options": [
+        "Its position in the solar system",
+        "Its size and atmosphere",
+        "Its magnetic field",
+        "Its many volcanoes"
+      ],
+      "answer": 3,
+      "explanation": "The chapter sums up the factors as Earth's position (allowing liquid water), its size, its atmosphere and its magnetic field. Volcanoes are not mentioned.",
+      "source": "text:page8",
+      "id": "q72"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Earth's Magnetic Field",
+      "question": "Select the TWO protective 'shields' the chapter describes.",
+      "options": [
+        "Ozone layer blocking ultraviolet rays",
+        "Magnetic field deflecting charged particles",
+        "Crust blocking cosmic rays",
+        "Hydrosphere absorbing the solar wind"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The ozone layer shields life from UV rays, and the magnetic field shields the atmosphere from high-energy particles. The crust and hydrosphere are not described as shields.",
+      "source": "text:page8",
+      "id": "q73"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Air, Water and Sunlight",
+      "question": "In photosynthesis, plants take in which materials to make food?",
+      "options": [
+        "Carbon dioxide from air and water from soil",
+        "Oxygen from air and minerals from rocks",
+        "Nitrogen from air and water from rain",
+        "Carbon dioxide from soil and water from air"
+      ],
+      "answer": 0,
+      "explanation": "In the presence of sunlight, plants take carbon dioxide from the air and water from the soil to prepare food, releasing oxygen.",
+      "source": "text:page8",
+      "id": "q74"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Air, Water and Sunlight",
+      "question": "Which gas released during photosynthesis is needed by living things for respiration?",
+      "options": [
+        "Carbon dioxide",
+        "Oxygen",
+        "Nitrogen",
+        "Methane"
+      ],
+      "answer": 1,
+      "explanation": "Photosynthesis releases oxygen, which humans, animals and plants use for respiration.",
+      "source": "text:page9",
+      "id": "q75"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Air, Water and Sunlight",
+      "question": "About what fraction of the Earth's surface is covered with water?",
+      "options": [
+        "About 50 per cent",
+        "About 30 per cent",
+        "About 70 per cent",
+        "About 90 per cent"
+      ],
+      "answer": 2,
+      "explanation": "Water covers about 70 per cent of the Earth's surface — in ponds, lakes, rivers, springs, seas, oceans and groundwater.",
+      "source": "text:page9",
+      "id": "q76"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Air, Water and Sunlight",
+      "question": "What does the term 'hydrosphere' refer to?",
+      "options": [
+        "All the air around Earth",
+        "All living things on Earth",
+        "All rocks and soil on Earth",
+        "All the water on Earth"
+      ],
+      "answer": 3,
+      "explanation": "All the water on Earth — in oceans, rivers, lakes, groundwater and so on — forms the hydrosphere.",
+      "source": "text:page9",
+      "id": "q77"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Air, Water and Sunlight",
+      "question": "Because water is a good solvent, what role does it play in plants?",
+      "options": [
+        "transports nutrients from soil to leaves",
+        "blocks UV rays from reaching leaves",
+        "produces oxygen inside the leaves",
+        "holds the plant upright in the wind"
+      ],
+      "answer": 0,
+      "explanation": "Water dissolves nutrients and carries them from the soil to the leaves of plants.",
+      "source": "text:page9",
+      "id": "q78"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Air, Water and Sunlight",
+      "question": "Select the TWO roles of water in animals that the chapter mentions.",
+      "options": [
+        "Regulates body temperature",
+        "Aids digestion",
+        "Produces genetic material",
+        "Blocks cosmic rays"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "In animals, water regulates body temperature, aids digestion and ensures hydration — all essential for health and life.",
+      "source": "text:page9",
+      "id": "q79"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Air, Water and Sunlight",
+      "question": "Water vapour forms clouds that bring rain or snow. What does this rain or snow do?",
+      "options": [
+        "Forms the ozone layer in the atmosphere",
+        "Refills rivers, lakes and underground water",
+        "Breaks rocks down into soil minerals",
+        "Carries pollen from flower to flower"
+      ],
+      "answer": 1,
+      "explanation": "Rain and snow refill rivers, lakes and underground water, keeping the hydrosphere going.",
+      "source": "text:page9",
+      "id": "q80"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Air, Water and Sunlight",
+      "question": "Which statement about the hydrosphere is NOT correct?",
+      "options": [
+        "It is home to organisms from planktons to whales",
+        "Freshwater from it is needed to grow crops worldwide",
+        "Scientists have fully explored life in the deep oceans",
+        "It includes groundwater as well as the oceans and seas"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says we still know little about what lives deep in the oceans — many life forms are still being discovered.",
+      "source": "text:page9",
+      "id": "q81"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Air, Water and Sunlight",
+      "question": "Rainfall affects the kinds of plants and animals that can live in a place.",
+      "answer": true,
+      "explanation": "The chapter says rainfall affects which plants and animals can live in a place, and moving air shapes weather and rainfall.",
+      "source": "text:page9",
+      "id": "q82"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Air, Water and Sunlight",
+      "question": "The greenhouse effect on Earth is so strong that most of Earth's water exists as vapour.",
+      "answer": false,
+      "explanation": "Earth's greenhouse effect is MILD — just enough to keep the temperature high enough for water to remain liquid, not to turn it into vapour.",
+      "source": "text:page9",
+      "id": "q83"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Air, Water and Sunlight",
+      "question": "The chapter calls Earth's greenhouse effect 'mild'. Why is even this mild effect important?",
+      "options": [
+        "It makes Earth the hottest planet in the solar system",
+        "It stops all heat from ever leaving the Earth",
+        "It blocks ultraviolet radiation from the Sun",
+        "It keeps temperature just high enough for liquid water"
+      ],
+      "answer": 3,
+      "explanation": "The mild greenhouse effect keeps the temperature just high enough for water to remain liquid; without it Earth would lose heat to space and freeze.",
+      "source": "text:page9",
+      "id": "q84"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Air, Water and Sunlight",
+      "question": "According to the chapter, moving air shapes:",
+      "options": [
+        "weather and rainfall",
+        "the ozone shield",
+        "the magnetic field",
+        "the Earth's orbit"
+      ],
+      "answer": 0,
+      "explanation": "Moving air shapes weather and rainfall, which in turn influence farming, water supply and life on land.",
+      "source": "text:page9",
+      "id": "q85"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Geosphere, Soil and Biosphere",
+      "question": "What is the geosphere?",
+      "options": [
+        "Liquid parts: oceans, rivers, lakes",
+        "Solid parts: rocks, soils, minerals",
+        "Gas layer: air around the Earth",
+        "Living parts: plants, animals, microbes"
+      ],
+      "answer": 1,
+      "explanation": "The solid parts of the Earth — rocks, soils and minerals — are known as the geosphere.",
+      "source": "text:page9",
+      "id": "q86"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Geosphere, Soil and Biosphere",
+      "question": "Which nutrients does the chapter name as being present in soil for plants to grow?",
+      "options": [
+        "Oxygen and hydrogen",
+        "Carbon and chlorine",
+        "Nitrogen and potassium",
+        "Calcium and sodium"
+      ],
+      "answer": 2,
+      "explanation": "Soil is rich in nutrients like nitrogen and potassium that plants need to grow.",
+      "source": "text:page9",
+      "id": "q87"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Geosphere, Soil and Biosphere",
+      "question": "Where do the nutrients in soil come from?",
+      "options": [
+        "Rainwater carrying salts up from the oceans",
+        "Carbon dioxide absorbed from the atmosphere",
+        "Sunlight absorbed by the surface of the soil",
+        "Slow breakdown of rocks and remains of living things"
+      ],
+      "answer": 3,
+      "explanation": "Soil nutrients come from the slow breakdown of rocks and the remains of plants and animals.",
+      "source": "text:page9",
+      "id": "q88"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Geosphere, Soil and Biosphere",
+      "question": "Select the TWO things the chapter says minerals of the crust give us.",
+      "options": [
+        "Salt",
+        "Coal",
+        "Timber",
+        "Oxygen"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Minerals give us salt, coal, oil and metals like iron and copper. Timber comes from trees and oxygen from the atmosphere.",
+      "source": "text:page9",
+      "id": "q89"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Geosphere, Soil and Biosphere",
+      "question": "Which of these is an example of geodiversity?",
+      "options": [
+        "Different landforms like mountains, valleys, and deserts",
+        "Variety of bird calls heard chirping in a forest",
+        "Changing weather patterns during the monsoon months",
+        "Number of different types of fish living in a pond"
+      ],
+      "answer": 0,
+      "explanation": "Geodiversity is the variety of landforms, rocks, soils and the processes that shape them. Variety of birds or fish is biodiversity; weather is not geodiversity.",
+      "source": "exercise:Q2",
+      "id": "q90"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Geosphere, Soil and Biosphere",
+      "question": "What does the biosphere include?",
+      "options": [
+        "Only the plants and animals living on land",
+        "All living beings and the places they live",
+        "Only the water bodies and their creatures",
+        "All the non-living rocks and minerals"
+      ],
+      "answer": 1,
+      "explanation": "The biosphere is all living beings together with the places where they live — land, water and air.",
+      "source": "text:page10",
+      "id": "q91"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Geosphere, Soil and Biosphere",
+      "question": "What role do decomposers play in nature's system?",
+      "options": [
+        "Make food using sunlight and carbon dioxide",
+        "Eat plants and pass the energy on to predators",
+        "Break down dead matter and return nutrients to soil",
+        "Trap heat in the atmosphere like CO2 does"
+      ],
+      "answer": 2,
+      "explanation": "Decomposers break down dead matter and return nutrients to the soil, completing the cycle between plants, animals and soil.",
+      "source": "text:page10",
+      "id": "q92"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Geosphere, Soil and Biosphere",
+      "question": "Cutting down a forest can affect several things, according to the chapter. Which is NOT among them?",
+      "options": [
+        "The rainfall that the region receives",
+        "The soil and the quality of the air",
+        "The animals living in that place",
+        "The Earth's magnetic field strength"
+      ],
+      "answer": 3,
+      "explanation": "The chapter lists rainfall, soil, air quality and the animals living there. The magnetic field comes from molten iron in the core and is unaffected by forests.",
+      "source": "text:page10",
+      "id": "q93"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Geosphere, Soil and Biosphere",
+      "question": "Geodiversity helps create unique habitats where different types of life can thrive.",
+      "answer": true,
+      "explanation": "The variety of landforms, rocks and soils, and the processes that shape them, create unique habitats for life.",
+      "source": "text:page10",
+      "id": "q94"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Geosphere, Soil and Biosphere",
+      "question": "Soil, rocks and water are only a lifeless background and do not shape how life develops.",
+      "answer": false,
+      "explanation": "The chapter stresses that non-living parts like soil, rocks and water 'aren't just a background' — they help shape the story of life itself.",
+      "source": "text:page10",
+      "id": "q95"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Geosphere, Soil and Biosphere",
+      "question": "The chapter says Earth is like a 'giant teamwork project'. What keeps the planet habitable?",
+      "options": [
+        "Everything working together in balance",
+        "The Sun's energy acting entirely alone",
+        "The oxygen in the atmosphere by itself",
+        "Humans carefully managing all of nature"
+      ],
+      "answer": 0,
+      "explanation": "Life survives not because of one thing but because land, air, water and living things support and affect one another in balance.",
+      "source": "text:page10",
+      "id": "q96"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Geosphere, Soil and Biosphere",
+      "question": "A city cuts down a large patch of forest for roads and buildings. Which effect is most likely, based on the chapter?",
+      "options": [
+        "A noticeably stronger magnetic field over the city",
+        "Changed rainfall and loss of local plants and animals",
+        "A much thicker ozone layer forming above the city",
+        "A cooler local climate because trees no longer block wind"
+      ],
+      "answer": 1,
+      "explanation": "Even a small change like cutting a forest can impact rainfall, soil, air quality and the animals that live there. Forests do not affect the magnetic field or ozone layer.",
+      "source": "exercise:Q6",
+      "id": "q97"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reproduction, Genes and Variation",
+      "question": "Which process ensures the continuity of life on Earth?",
+      "options": [
+        "Respiration",
+        "Photosynthesis",
+        "Reproduction",
+        "Pollination"
+      ],
+      "answer": 2,
+      "explanation": "If plants and animals did not reproduce, life would eventually disappear. Reproduction ensures each type of organism continues to exist.",
+      "source": "text:page10",
+      "id": "q98"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reproduction, Genes and Variation",
+      "question": "According to the chapter, what are genes?",
+      "options": [
+        "Nutrients stored inside the soil",
+        "Gases stored in the atmosphere",
+        "Minerals stored in the Earth's crust",
+        "Instructions stored inside every cell"
+      ],
+      "answer": 3,
+      "explanation": "Genes (genetic material) are instructions stored inside every cell — like a detailed instruction manual for making blood, bones, muscles or skin.",
+      "source": "text:page11",
+      "id": "q99"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reproduction, Genes and Variation",
+      "question": "What does the example of camels developing humps to store fat illustrate?",
+      "options": [
+        "Changes passed on can help survival in new environments",
+        "Offspring are always exact copies of their parents",
+        "Animals choose the features they want to develop",
+        "Deserts cause genes to disappear from cells"
+      ],
+      "answer": 0,
+      "explanation": "Reproduction allows small changes in the instructions passed down; over time such changes — like humps storing fat — can help survival in a new environment.",
+      "source": "text:page11",
+      "id": "q100"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reproduction, Genes and Variation",
+      "question": "Some bacteria have become resistant to antibiotics. What does the chapter use this to show?",
+      "options": [
+        "Antibiotics make bacteria reproduce asexually",
+        "Even microbes evolve through small changes passed on",
+        "Bacteria copy instructions from human cells to survive",
+        "Microbes cannot change over generations"
+      ],
+      "answer": 1,
+      "explanation": "The chapter says even microbes evolve — antibiotic resistance helps bacteria persist, an example of changes helping survival.",
+      "source": "text:page11",
+      "id": "q101"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Reproduction, Genes and Variation",
+      "question": "Which statement about reproduction is NOT correct?",
+      "options": [
+        "It keeps each kind of organism continuing",
+        "It allows small changes to pass to offspring",
+        "It only ever produces exact copies of the parent",
+        "Over generations it can lead to new life forms"
+      ],
+      "answer": 2,
+      "explanation": "Reproduction does more than copy — it also allows small changes to pass down, which can add up to new features and even new types of living beings. Only ASEXUAL reproduction gives exact copies.",
+      "source": "text:page11",
+      "id": "q102"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Reproduction, Genes and Variation",
+      "question": "In asexual reproduction, a single parent produces new individuals that are exact copies of itself.",
+      "answer": true,
+      "explanation": "Asexual reproduction involves one parent whose offspring are exact copies in terms of the instructions inside the cell.",
+      "source": "text:page11",
+      "id": "q103"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Reproduction, Genes and Variation",
+      "question": "In sexual reproduction, each offspring is an exact copy of one of its two parents.",
+      "answer": false,
+      "explanation": "Instructions from two parents combine, so offspring share traits with both parents but are not exactly like either.",
+      "source": "text:page11",
+      "id": "q104"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reproduction, Genes and Variation",
+      "question": "Why does a calf always grow into a cow, and a kitten into a cat?",
+      "options": [
+        "The mother feeds the calf only on cow's milk for years",
+        "The calf grows up in the same field as its mother did",
+        "The calf carefully copies the behaviour of adult cows",
+        "Parents pass instructions on how to develop from a single cell"
+      ],
+      "answer": 3,
+      "explanation": "Parents pass genetic instructions to their offspring on how to develop from a single cell, ensuring the young resemble them.",
+      "source": "text:page10",
+      "id": "q105"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Reproduction, Genes and Variation",
+      "question": "How can reproduction lead to BOTH similarity (a cow gives birth to a cow) AND variation (differences in colour or height)?",
+      "options": [
+        "Sexual reproduction mixes instructions from two parents",
+        "Asexual reproduction mixes instructions from two parents",
+        "Variation comes only from the food offspring eat",
+        "Similarity comes from parents teaching their young"
+      ],
+      "answer": 0,
+      "explanation": "In sexual reproduction instructions from two parents combine — keeping useful features (similarity) while allowing new ones to appear (variation).",
+      "source": "text:page11",
+      "id": "q106"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Reproduction, Genes and Variation",
+      "question": "Which TWO examples does the chapter give of changes that helped living things survive?",
+      "options": [
+        "Camels developing humps to store fat",
+        "Bacteria becoming resistant to antibiotics",
+        "Cats growing wings to escape dogs",
+        "Cows learning to lay eggs"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The chapter cites camels' humps (fat storage for deserts) and antibiotic-resistant bacteria as changes that helped survival.",
+      "source": "text:page11",
+      "id": "q107"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reproduction, Genes and Variation",
+      "question": "Inside a cell, what guides the formation of bones, muscles or skin?",
+      "options": [
+        "Different foods eaten by the parent",
+        "Different instructions within the genes",
+        "Different temperatures of the body",
+        "Different minerals in drinking water"
+      ],
+      "answer": 1,
+      "explanation": "Genes contain different instructions — some tell the cell how to make blood, others guide the formation of bones, muscles or skin.",
+      "source": "text:page11",
+      "id": "q108"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Reproduction, Genes and Variation",
+      "question": "Over many generations, small differences arising from sexual reproduction can add up to big differences and even new life forms.",
+      "answer": true,
+      "explanation": "The mixing of instructions keeps useful features while allowing new ones; over many generations these small differences can lead to new life forms.",
+      "source": "text:page11",
+      "id": "q109"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Asexual Reproduction",
+      "question": "What is vegetative propagation?",
+      "options": [
+        "Growing a new plant from a seed in the soil",
+        "Joining pollen and ovule to form a zygote",
+        "Growing a new plant from a leaf, stem or root",
+        "Spreading seeds through birds and animals"
+      ],
+      "answer": 2,
+      "explanation": "Many plants reproduce when a part — leaf, stem or root — is planted in soil. This is vegetative propagation, a form of asexual reproduction.",
+      "source": "text:page11",
+      "id": "q110"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Asexual Reproduction",
+      "question": "Select the TWO plant parts used in Activity 13.3 to grow new plants.",
+      "options": [
+        "Stem cutting of a money plant",
+        "'Eyes' of a sprouted potato",
+        "Seeds of a mango",
+        "Flower of a rose"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Activity 13.3 uses a money-plant stem cutting, the 'eyes' of a sprouted potato, or a piece of ginger — all vegetative propagation.",
+      "source": "text:page12",
+      "id": "q111"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Asexual Reproduction",
+      "question": "Bamboo and sugarcane grow into new plants although their seeds are rarely seen. How?",
+      "options": [
+        "They produce seeds only underground",
+        "They are pollinated by wind at night",
+        "They grow from gametes in the soil",
+        "They reproduce by vegetative propagation"
+      ],
+      "answer": 3,
+      "explanation": "Plants like bamboo and sugarcane grow from parts of the plant (stem pieces) — vegetative propagation — so seeds are not needed.",
+      "source": "text:page12",
+      "id": "q112"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Asexual Reproduction",
+      "question": "How do single-celled organisms like bacteria and amoeba reproduce?",
+      "options": [
+        "Dividing into two identical individuals",
+        "Growing buds that break off the body",
+        "Regrowing from small cut fragments",
+        "Joining male and female gametes"
+      ],
+      "answer": 0,
+      "explanation": "Bacteria and amoeba divide into two identical individuals — asexual reproduction in single-celled organisms.",
+      "source": "text:page12",
+      "id": "q113"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Asexual Reproduction",
+      "question": "How does Hydra, a simple animal, reproduce asexually?",
+      "options": [
+        "Dividing into two equal halves",
+        "Growing tiny buds that break off",
+        "Regrowing from a cut fragment",
+        "Laying fertilised eggs in water"
+      ],
+      "answer": 1,
+      "explanation": "Hydra grows tiny buds on its body that break off and grow into new individuals.",
+      "source": "text:page12",
+      "id": "q114"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Asexual Reproduction",
+      "question": "Scientists study Planaria to understand which process?",
+      "options": [
+        "Photosynthesis in animals",
+        "Pollination in flowers",
+        "Regeneration in animals",
+        "Antibiotic resistance"
+      ],
+      "answer": 2,
+      "explanation": "Planaria, a flatworm, can regrow from a fragment of its body, so scientists study it to understand regeneration.",
+      "source": "text:page12",
+      "id": "q115"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Asexual Reproduction",
+      "question": "Which organism is matched CORRECTLY with its asexual method?",
+      "options": [
+        "Hydra — divide into two identical cells",
+        "Amoeba — grow buds on the body",
+        "Planaria — produce pollen grains",
+        "Algae — regrow from small cut parts"
+      ],
+      "answer": 3,
+      "explanation": "Algae can regrow from small cut parts. Hydra buds, amoeba divides into two, and Planaria regrows from a fragment — pollen belongs to flowering plants.",
+      "source": "text:page12",
+      "id": "q116"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Asexual Reproduction",
+      "question": "Only plants can reproduce asexually; all animals need two parents.",
+      "answer": false,
+      "explanation": "Microbes (bacteria, amoeba) and simple animals like Hydra and Planaria also reproduce asexually.",
+      "source": "text:page12",
+      "id": "q117"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Asexual Reproduction",
+      "question": "In Activity 13.3, what are you asked to record each day?",
+      "options": [
+        "Days taken for roots, stem and leaves to appear",
+        "Change in colour of the soil each morning",
+        "Number of insects visiting the growing plant",
+        "Amount of water evaporating from the glass"
+      ],
+      "answer": 0,
+      "explanation": "You watch the planted parts daily and note how many days it takes for roots, stem and leaves to appear, and when the first new leaf comes.",
+      "source": "text:page12",
+      "id": "q118"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Asexual Reproduction",
+      "question": "Activity 13.3 suggests putting the money-plant cutting in a glass container. Why?",
+      "options": [
+        "Glass supplies the nutrients the plant needs",
+        "It makes root growth easy to observe",
+        "Glass blocks sunlight so roots grow faster",
+        "Water in glass stays warmer than soil"
+      ],
+      "answer": 1,
+      "explanation": "A transparent glass container lets you observe the roots as they appear — the activity is about observing growth.",
+      "source": "text:page12",
+      "id": "q119"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Asexual Reproduction",
+      "question": "A piece of ginger planted in soil grows into a new plant. Which type of reproduction is this?",
+      "options": [
+        "Sexual, by pollination and fertilisation",
+        "Asexual, by budding like hydra",
+        "Asexual, by vegetative propagation",
+        "Sexual, by joining two mating types"
+      ],
+      "answer": 2,
+      "explanation": "A new plant growing from a stem piece (ginger) is vegetative propagation — asexual, with a single parent.",
+      "source": "text:page12",
+      "id": "q120"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Asexual Reproduction",
+      "question": "Select the TWO plants the chapter names as growing by vegetative propagation.",
+      "options": [
+        "Ginger",
+        "Bamboo",
+        "Banyan (from a bird-dropped seed)",
+        "Mango grown from a seed"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Ginger, potato, money plant, bamboo and sugarcane are the chapter's vegetative propagation examples. The banyan in the wall crack grew from a seed — sexual reproduction.",
+      "source": "exercise:Q12",
+      "id": "q121"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Gametes and Reproduction in Plants",
+      "question": "How much of a parent's genetic material does a gamete carry?",
+      "options": [
+        "All of the parent's genetic material",
+        "Twice the parent's genetic material",
+        "None of the parent's genetic material",
+        "Half of the parent's genetic material"
+      ],
+      "answer": 3,
+      "explanation": "Gametes are specialised reproductive cells carrying only half the parent's genetic material; two gametes join to give a complete set.",
+      "source": "text:page12",
+      "id": "q122"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Gametes and Reproduction in Plants",
+      "question": "Why doesn't the amount of genetic instructions double in every generation of sexual reproduction?",
+      "options": [
+        "Each gamete carries only half, so joining makes a full set",
+        "Offspring throw away the extra copies soon after birth",
+        "Only one of the two parents passes on its instructions",
+        "Cells shrink the instructions as the baby grows bigger"
+      ],
+      "answer": 0,
+      "explanation": "Each parent's gamete carries half of its genetic material; when male and female gametes join, the new cell has one complete set — half from each parent.",
+      "source": "text:page12",
+      "id": "q123"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Gametes and Reproduction in Plants",
+      "question": "Where are pollen grains, the male gametes of a flowering plant, found?",
+      "options": [
+        "The ovule",
+        "The anther",
+        "The fruit",
+        "The stem"
+      ],
+      "answer": 1,
+      "explanation": "Pollen grains are found inside the anther of a flower; ovules, the female gametes, are deep inside the flower.",
+      "source": "text:page13",
+      "id": "q124"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Gametes and Reproduction in Plants",
+      "question": "Which are the female gametes of a flowering plant?",
+      "options": [
+        "Pollen grains inside the anther",
+        "Petals around the flower",
+        "Ovules deep inside the flower",
+        "Seeds inside the fruit"
+      ],
+      "answer": 2,
+      "explanation": "Ovules, found deep inside the flower, are the female gametes; pollen grains are the male gametes.",
+      "source": "text:page13",
+      "id": "q125"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Gametes and Reproduction in Plants",
+      "question": "What is pollination?",
+      "options": [
+        "Joining of male and female gametes",
+        "Forming a seed from a zygote",
+        "Spreading seeds by birds",
+        "Carrying pollen to another flower"
+      ],
+      "answer": 3,
+      "explanation": "Pollination is the carrying of pollen to another flower by wind, insects or animals. The joining of gametes is fertilisation.",
+      "source": "text:page13",
+      "id": "q126"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Gametes and Reproduction in Plants",
+      "question": "After fertilisation in a flower, what develops into the fruit?",
+      "options": [
+        "The fleshy part of the flower around the ovule",
+        "The zygote that forms right after fertilisation",
+        "The anther after it has released its pollen",
+        "The pollen grain after it lands on a flower"
+      ],
+      "answer": 0,
+      "explanation": "The zygote becomes the seed, while the fleshy part of the flower around the ovule develops into the fruit.",
+      "source": "text:page13",
+      "id": "q127"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Gametes and Reproduction in Plants",
+      "question": "How might a banyan seedling come to sprout in a crack in a wall?",
+      "options": [
+        "Wind carried the pollen grain into the crack",
+        "A bird ate the fruit and excreted the seed there",
+        "The wall absorbed nutrients from the rain",
+        "A root of a nearby banyan grew into the wall"
+      ],
+      "answer": 1,
+      "explanation": "Birds and animals eat fruit and drop seeds far from the parent plant; a banyan seed excreted by a bird can sprout in a wall crack after rain.",
+      "source": "exercise:Q5",
+      "id": "q128"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Gametes and Reproduction in Plants",
+      "question": "Tiny plants appear in cracks on a school wall after the monsoon. What helped them grow there?",
+      "options": [
+        "Strong sunlight baking the seeds in the wall",
+        "Cement dust supplying nitrogen to the seeds",
+        "Rainwater, allowing seeds to use stored nutrients",
+        "Cold weather freezing the seeds beforehand"
+      ],
+      "answer": 2,
+      "explanation": "When seeds get water, they use their stored nutrients to grow roots and shoots. The monsoon rains supplied the water the seeds needed.",
+      "source": "exercise:Q5",
+      "id": "q129"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Gametes and Reproduction in Plants",
+      "question": "Select the TWO pollen carriers the chapter mentions.",
+      "options": [
+        "Wind",
+        "Insects",
+        "Rivers",
+        "Sunlight"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Pollen is carried to another flower by wind, insects or animals.",
+      "source": "text:page13",
+      "id": "q130"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Gametes and Reproduction in Plants",
+      "question": "Flowering plants have male and female parts.",
+      "answer": true,
+      "explanation": "Even flowering plants have male parts (anther with pollen) and female parts (ovules).",
+      "source": "text:page12",
+      "id": "q131"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Gametes and Reproduction in Plants",
+      "question": "Pollen grains are the female gametes of a flowering plant.",
+      "answer": false,
+      "explanation": "Pollen grains in the anther are the MALE gametes; ovules are the female gametes.",
+      "source": "text:page13",
+      "id": "q132"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Gametes and Reproduction in Plants",
+      "question": "In sexual reproduction, why are offspring different from their parents?",
+      "options": [
+        "They grow up in quite different climates and places",
+        "They eat quite different kinds of food while growing",
+        "They acquire brand-new instructions after their birth",
+        "They get mixed instructions (genes) from both parents"
+      ],
+      "answer": 3,
+      "explanation": "Each gamete carries a different set of instructions, and these mix in a new way each time — so each child is unique, sharing traits with both parents.",
+      "source": "exercise:Q4",
+      "id": "q133"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Gametes and Reproduction in Plants",
+      "question": "Some bacteria and yeast have two 'mating types'. What do these act like?",
+      "options": [
+        "The two parents in sexual reproduction",
+        "The two halves of a dividing amoeba",
+        "The buds growing on a hydra's body",
+        "The anther and the fruit of a flower"
+      ],
+      "answer": 0,
+      "explanation": "The two mating types act like the two parents (male and female) in sexual reproduction.",
+      "source": "text:page12",
+      "id": "q134"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Gametes and Reproduction in Plants",
+      "question": "When a seed gets water, it uses stored nutrients to grow roots and shoots.",
+      "answer": true,
+      "explanation": "Seeds use their stored nutrients to grow roots and shoots once they receive water — as seen in germination.",
+      "source": "text:page13",
+      "id": "q135"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reproduction in Animals",
+      "question": "What is the male gamete called in animals?",
+      "options": [
+        "Egg",
+        "Sperm",
+        "Pollen",
+        "Ovule"
+      ],
+      "answer": 1,
+      "explanation": "In animals the gametes are sperm (male) and eggs (female).",
+      "source": "text:page13",
+      "id": "q136"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reproduction in Animals",
+      "question": "Where does fertilisation take place in fish and frogs?",
+      "options": [
+        "Inside the female's body",
+        "Inside the egg after laying",
+        "In water, outside the body",
+        "In the soil near the pond"
+      ],
+      "answer": 2,
+      "explanation": "Male and female fish or frogs eject sperm and eggs into the water, where they combine to form the zygote.",
+      "source": "text:page13",
+      "id": "q137"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reproduction in Animals",
+      "question": "In birds and mammals, where and how does fertilisation occur?",
+      "options": [
+        "In open water where the eggs and sperm are released",
+        "Inside the laid egg during the hatching period",
+        "On the ground shortly after the egg has been laid",
+        "Inside the female's body when sperm swim to the egg"
+      ],
+      "answer": 3,
+      "explanation": "Sperm are deposited inside the female's body and fertilisation takes place when the sperm swim towards the egg.",
+      "source": "text:page13",
+      "id": "q138"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reproduction in Animals",
+      "question": "In birds, when does the zygote develop into an embryo?",
+      "options": [
+        "After the egg is laid, during hatching",
+        "Inside the mother before laying",
+        "In water after the eggs are released",
+        "Inside the mother until the chick is born"
+      ],
+      "answer": 0,
+      "explanation": "In birds the fertilised egg is laid, and the zygote develops into an embryo after laying, during the hatching process.",
+      "source": "text:page14",
+      "id": "q139"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Reproduction in Animals",
+      "question": "Why must a bird put so much 'food' into each egg it lays?",
+      "options": [
+        "The chick eats the shell after hatching",
+        "The embryo must be fed until it hatches",
+        "The mother needs the food while sitting",
+        "The food keeps the egg from freezing"
+      ],
+      "answer": 1,
+      "explanation": "The food in the egg has to last for the developing embryo until it hatches — one strategy for supplying nutrition to the embryo.",
+      "source": "text:page14",
+      "id": "q140"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reproduction in Animals",
+      "question": "In most mammals, who provides the food and oxygen the developing baby needs?",
+      "options": [
+        "The yolk stored inside the egg",
+        "The water in which the egg floats",
+        "The mother's body, until birth",
+        "The father through the gametes"
+      ],
+      "answer": 2,
+      "explanation": "In most mammals the embryo develops inside the female's body, and the mother's body provides all the food and oxygen until birth.",
+      "source": "text:page14",
+      "id": "q141"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Reproduction in Animals",
+      "question": "Why don't dogs or cows lay eggs like hens do?",
+      "options": [
+        "They produce no reproductive gametes at all",
+        "Their eggs would be far too heavy to be laid",
+        "They reproduce asexually by growing buds",
+        "Their embryos develop inside the mother's body"
+      ],
+      "answer": 3,
+      "explanation": "Dogs and cows are mammals: the zygote develops into an embryo inside the mother, who supplies food and oxygen until birth — so no egg is laid.",
+      "source": "text:page14",
+      "id": "q142"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Reproduction in Animals",
+      "question": "Select the TWO animals whose zygote develops into an embryo in water.",
+      "options": [
+        "Frog",
+        "Fish",
+        "Sparrow",
+        "Cow"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "In fish and frogs both fertilisation and development of the zygote into an embryo happen in water. Birds develop in laid eggs; mammals inside the mother.",
+      "source": "text:page13",
+      "id": "q143"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Reproduction in Animals",
+      "question": "In birds, the zygote develops into an embryo inside the mother's body before the egg is laid.",
+      "answer": false,
+      "explanation": "In birds the development of the zygote into an embryo happens AFTER the egg is laid, during hatching.",
+      "source": "text:page14",
+      "id": "q144"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Reproduction in Animals",
+      "question": "Which feature do birds and mammals SHARE in reproduction?",
+      "options": [
+        "Sperm are deposited inside the female's body",
+        "The embryo develops outside the mother's body",
+        "Eggs and sperm are released into water",
+        "The young are born live rather than hatched"
+      ],
+      "answer": 0,
+      "explanation": "In both birds and mammals sperm are deposited inside the female and fertilisation happens there; after that step the two groups differ.",
+      "source": "text:page13",
+      "id": "q145"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reproduction in Animals",
+      "question": "What is a zygote?",
+      "options": [
+        "The specialised cell carrying half the genes",
+        "The cell formed when male and female gametes join",
+        "The fleshy part that becomes the fruit",
+        "The male gamete produced by the anther"
+      ],
+      "answer": 1,
+      "explanation": "When male and female gametes join they form a zygote — a new cell with a complete set of instructions.",
+      "source": "text:page13",
+      "id": "q146"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Reproduction in Animals",
+      "question": "Select the TWO ways the chapter describes embryos receiving nutrition.",
+      "options": [
+        "Food stored in the egg (birds)",
+        "The mother's body (most mammals)",
+        "Nutrients absorbed from pond water",
+        "Sunlight passing through the egg shell"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Birds pack food into each egg to last until hatching; in most mammals the mother's body supplies food and oxygen until birth.",
+      "source": "text:page14",
+      "id": "q147"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Climate Change and Biodiversity Loss",
+      "question": "Which three challenges make up the 'triple planetary crisis'?",
+      "options": [
+        "Earthquakes, floods, volcanic eruptions",
+        "Overpopulation, poverty and widespread disease",
+        "Climate change, biodiversity loss, pollution",
+        "Deforestation, mining, overfishing"
+      ],
+      "answer": 2,
+      "explanation": "The biggest environmental challenges — climate change, biodiversity loss and pollution — are together called the triple planetary crisis.",
+      "source": "text:page14",
+      "id": "q148"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Climate Change and Biodiversity Loss",
+      "question": "Burning fossil fuels releases which greenhouse gases named in the chapter?",
+      "options": [
+        "Oxygen gas and nitrogen gas",
+        "Ozone and water vapour",
+        "Hydrogen and helium",
+        "Carbon dioxide and methane"
+      ],
+      "answer": 3,
+      "explanation": "Burning coal and oil releases greenhouse gases like carbon dioxide and methane, which trap more heat and cause global warming.",
+      "source": "text:page14",
+      "id": "q149"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Climate Change and Biodiversity Loss",
+      "question": "Why can't the Earth absorb the extra carbon from burning fossil fuels?",
+      "options": [
+        "It was locked underground for millions of years and is released too fast",
+        "Plants have completely stopped photosynthesis in warmer weather",
+        "Ocean planktons absorb only oxygen and never carbon dioxide",
+        "Methane in the air blocks trees from taking in carbon dioxide"
+      ],
+      "answer": 0,
+      "explanation": "Fossil fuels release extra carbon locked underground for millions of years; the Earth cannot absorb it fast enough, so heat builds up.",
+      "source": "text:page14",
+      "id": "q150"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Climate Change and Biodiversity Loss",
+      "question": "Which TWO absorb carbon dioxide as they grow, helping Earth keep its carbon balance?",
+      "options": [
+        "Trees and plants",
+        "Tiny ocean planktons",
+        "Coal deposits underground",
+        "Melting ice caps"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Normally trees, plants and even tiny ocean planktons absorb carbon dioxide as they grow, keeping a balance.",
+      "source": "text:page14",
+      "id": "q151"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Climate Change and Biodiversity Loss",
+      "question": "If a small rise in temperature melts the ice caps, what does the chapter say could follow?",
+      "options": [
+        "Oceans become fresh and fish disappear",
+        "Sea levels rise and coastal cities may flood",
+        "The ozone layer becomes much thicker",
+        "The Earth's orbit changes its shape"
+      ],
+      "answer": 1,
+      "explanation": "Melting ice caps raise sea levels, which could flood many coastal cities; extreme weather and loss of species may also follow.",
+      "source": "text:page14",
+      "id": "q152"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Climate Change and Biodiversity Loss",
+      "question": "What does the chapter call 'climate change'?",
+      "options": [
+        "Daily changes in temperature between the day and the night",
+        "The regular seasonal change from summer to winter every year",
+        "Long-term changes in temperature, rainfall and weather patterns",
+        "Sudden thunderstorms caused by fast-moving masses of air"
+      ],
+      "answer": 2,
+      "explanation": "Climate change means long-term changes in temperature, rainfall and weather patterns — not daily or seasonal variation.",
+      "source": "text:page14",
+      "id": "q153"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Climate Change and Biodiversity Loss",
+      "question": "If grasses vanish from a habitat, what chain of effects does the chapter describe?",
+      "options": [
+        "Tigers and foxes thrive because deer are easier to find",
+        "Grasshoppers increase since deer no longer compete with them",
+        "Soil becomes richer as grass stops using up its nutrients",
+        "Deer and grasshoppers struggle, then tigers and foxes lose food"
+      ],
+      "answer": 3,
+      "explanation": "Herbivores like deer and grasshoppers that feed on grass struggle; without herbivores, predators like tigers and foxes lose their food too.",
+      "source": "text:page14",
+      "id": "q154"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Climate Change and Biodiversity Loss",
+      "question": "Burning fossil fuels like coal and oil releases greenhouse gases.",
+      "answer": true,
+      "explanation": "Coal and oil release carbon dioxide and methane when burnt, trapping extra heat in the atmosphere.",
+      "source": "text:page14",
+      "id": "q155"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Climate Change and Biodiversity Loss",
+      "question": "Even a large rise in global temperature has little effect on sea levels or weather.",
+      "answer": false,
+      "explanation": "The chapter says even a SMALL increase can melt ice caps, raise sea levels, cause extreme weather and make many species disappear.",
+      "source": "text:page14",
+      "id": "q156"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Climate Change and Biodiversity Loss",
+      "question": "A friend says, 'The Earth has always had climate changes, so today's warming is nothing new.' Which reply best uses the chapter?",
+      "options": [
+        "Burning fossil fuels now releases locked carbon faster than Earth can absorb",
+        "The Earth has never before experienced any kind of climate change",
+        "Warming today is caused mainly by the Sun moving closer to Earth",
+        "Climate change only affects the ice caps, so it is not really new"
+      ],
+      "answer": 0,
+      "explanation": "Today's warming is driven by human burning of fossil fuels, releasing carbon locked away for millions of years faster than plants and planktons can absorb it.",
+      "source": "exercise:Q7",
+      "id": "q157"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Climate Change and Biodiversity Loss",
+      "question": "A village's temperature has been rising and its rainfall has become unpredictable. What is the likely cause?",
+      "options": [
+        "A weakening of the Earth's magnetic field",
+        "Climate change driven by increased greenhouse gases",
+        "The Earth moving out of the habitable zone",
+        "A thickening of the ozone layer over the village"
+      ],
+      "answer": 1,
+      "explanation": "Long-term changes in temperature and rainfall patterns are climate change, caused by extra greenhouse gases trapping heat.",
+      "source": "exercise:Q10",
+      "id": "q158"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Climate Change and Biodiversity Loss",
+      "question": "Normally trees, plants and ocean planktons absorb carbon dioxide as they grow, keeping Earth's carbon in balance.",
+      "answer": true,
+      "explanation": "The chapter says Earth normally keeps a balance because trees, plants and tiny ocean planktons absorb CO2 as they grow.",
+      "source": "text:page14",
+      "id": "q159"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pollution, Agreements and Action",
+      "question": "Air pollution from factories, vehicles and burning fuels can lead to:",
+      "options": [
+        "earthquakes and floods",
+        "tides and currents",
+        "smog and acid rain",
+        "ozone and oxygen"
+      ],
+      "answer": 2,
+      "explanation": "Air pollution can cause breathing problems, damage crops, and lead to smog and acid rain.",
+      "source": "text:page15",
+      "id": "q160"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pollution, Agreements and Action",
+      "question": "In which year was the Montreal Protocol agreed?",
+      "options": [
+        "1992",
+        "2005",
+        "2015",
+        "1987"
+      ],
+      "answer": 3,
+      "explanation": "The Montreal Protocol (1987) helped reduce harmful chemicals like CFCs, allowing the ozone layer to slowly recover.",
+      "source": "text:page15",
+      "id": "q161"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pollution, Agreements and Action",
+      "question": "What did the Montreal Protocol achieve?",
+      "options": [
+        "Reduced CFCs, helping the ozone layer recover",
+        "Reduced carbon dioxide, slowing global warming",
+        "Reduced plastic waste in the oceans",
+        "Reduced methane from farms and factories"
+      ],
+      "answer": 0,
+      "explanation": "The Montreal Protocol reduced chlorofluorocarbons (CFCs), letting the ozone layer slowly recover.",
+      "source": "text:page15",
+      "id": "q162"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pollution, Agreements and Action",
+      "question": "What did the Earth Summit of 1992 lead to?",
+      "options": [
+        "A worldwide ban on CFCs to protect the ozone layer",
+        "International efforts on climate change and biodiversity",
+        "A legally binding goal to limit warming to below 1.5 °C",
+        "Firm commitments to switch entirely to renewable energy"
+      ],
+      "answer": 1,
+      "explanation": "The Earth Summit (1992) led to international efforts on climate change and biodiversity. CFCs were the Montreal Protocol; the 1.5 °C goal came with the Paris Agreement.",
+      "source": "text:page15",
+      "id": "q163"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pollution, Agreements and Action",
+      "question": "What goal did the Paris Agreement (2015) set?",
+      "options": [
+        "Limit global warming to below 5 °C",
+        "Stop all use of fossil fuels by 2025",
+        "Limit global warming to below 1.5 °C",
+        "Recover the ozone layer by 2050"
+      ],
+      "answer": 2,
+      "explanation": "The Paris Agreement set a goal to limit global warming to below 1.5 °C — but as of 2025 the world is not on track to meet it.",
+      "source": "text:page15",
+      "id": "q164"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pollution, Agreements and Action",
+      "question": "The Kyoto Protocol, which committed countries to reduce greenhouse gas emissions, dates from:",
+      "options": [
+        "1987",
+        "1992",
+        "2015",
+        "2005"
+      ],
+      "answer": 3,
+      "explanation": "The Kyoto Protocol (2005) and the Paris Agreement (2015) committed countries to cut emissions. 1987 is Montreal; 1992 is the Earth Summit.",
+      "source": "text:page15",
+      "id": "q165"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pollution, Agreements and Action",
+      "question": "Which statement about global environmental agreements is NOT correct?",
+      "options": [
+        "As of 2025 the world is on track to meet the Paris goal",
+        "The Montreal Protocol of 1987 targeted harmful CFCs",
+        "Kyoto and Paris committed countries to cut emissions",
+        "The Earth Summit took place in the year 1992"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says that as of 2025 the world is NOT on track to limit warming to below 1.5 °C — much more action is needed.",
+      "source": "text:page15",
+      "id": "q166"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Pollution, Agreements and Action",
+      "question": "Select the TWO sources of water and soil pollution the chapter names.",
+      "options": [
+        "Factory, farm and plastic waste",
+        "Excess fertilisers",
+        "Cosmic rays from space",
+        "Solar wind from the Sun"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Factory, farm and plastic waste harm aquatic life, while excess fertilisers and poor waste disposal pollute soil.",
+      "source": "text:page15",
+      "id": "q167"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pollution, Agreements and Action",
+      "question": "What effects do excess fertilisers and poor waste disposal have on soil?",
+      "options": [
+        "Increase crop yield while cleaning the surrounding groundwater",
+        "Reduce crop yield and spread harmful substances through the food chain",
+        "Thicken the ozone layer and greatly reduce ultraviolet radiation",
+        "Strengthen the soil so that plants need much less water to grow"
+      ],
+      "answer": 1,
+      "explanation": "Excess fertilisers and poor waste disposal pollute soil, reduce crop yield and spread harmful substances through the food chain.",
+      "source": "text:page15",
+      "id": "q168"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pollution, Agreements and Action",
+      "question": "Which pair are examples of renewable energy given in the chapter?",
+      "options": [
+        "Coal and oil",
+        "Petrol and gas",
+        "Solar and wind",
+        "Wood and charcoal"
+      ],
+      "answer": 2,
+      "explanation": "Protecting the climate means using renewable energy like solar and wind instead of fossil fuels.",
+      "source": "text:page15",
+      "id": "q169"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Pollution, Agreements and Action",
+      "question": "Because the Earth's systems are separate, damage to the hydrosphere does not affect the biosphere.",
+      "answer": false,
+      "explanation": "The hydrosphere, biosphere, atmosphere and geosphere are all connected — damage to one can affect the others.",
+      "source": "text:page15",
+      "id": "q170"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pollution, Agreements and Action",
+      "question": "Why does the chapter say preserving biodiversity is key?",
+      "options": [
+        "More species means more carbon dioxide released",
+        "It thickens the ozone layer over forests",
+        "It increases the Earth's magnetic field",
+        "Diverse ecosystems are stronger and more balanced"
+      ],
+      "answer": 3,
+      "explanation": "Diverse ecosystems are stronger and more balanced, so preserving biodiversity helps sustain life.",
+      "source": "text:page16",
+      "id": "q171"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pollution, Agreements and Action",
+      "question": "Which small changes does the chapter say could endanger life on Earth?",
+      "options": [
+        "Slightly less oxygen or ozone, or a slightly higher temperature",
+        "A slightly stronger magnetic field or a bit more yearly rainfall",
+        "A few more volcanic eruptions or earthquakes occurring each year",
+        "A very slight change in the length of a day or a year"
+      ],
+      "answer": 0,
+      "explanation": "A little less or more oxygen, a little lower or higher temperature, or a little less ozone could endanger life — the balance is delicate.",
+      "source": "text:page15",
+      "id": "q172"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Pollution, Agreements and Action",
+      "question": "Select the TWO actions the chapter lists for protecting the climate.",
+      "options": [
+        "Using renewable energy like solar and wind",
+        "Choosing environmentally friendly ways to travel",
+        "Burning more coal for cheaper electricity",
+        "Clearing forests to build solar farms"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Protecting the climate means cutting greenhouse gases: renewable energy, improving energy use, and environmentally friendly travel.",
+      "source": "text:page15",
+      "id": "q173"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Pollution, Agreements and Action",
+      "question": "Reusing, repairing and recycling items like clothes and plastic reduce pollution and waste.",
+      "answer": true,
+      "explanation": "The chapter says everyone can help — reusing, repairing and recycling reduce pollution and waste, and small actions add up.",
+      "source": "text:page16",
+      "id": "q174"
+    }
+  ]
+}

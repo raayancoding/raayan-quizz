@@ -1,0 +1,2168 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-maths-1-g8-ch03-a-story-of-numbers",
+  "title": "A Story of Numbers",
+  "subject": "Maths-1",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Maths-1/ch03",
+  "chapter": "3. A Story of Numbers",
+  "topic": "Full Chapter",
+  "description": "How humans learned to count and write numbers — from tally marks and Gumulgal twos through Roman, Egyptian, Mesopotamian, Mayan and Chinese systems to the Hindu place value system with zero.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "maths",
+    "number-systems",
+    "place-value",
+    "history-of-numbers",
+    "bases",
+    "roman-numerals",
+    "zero"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Origins and Spread of Hindu Numerals",
+      "question": "According to Reema's father, roughly how long ago did the Mesopotamian civilisation flourish in western Asia?",
+      "options": [
+        "About 4000 years ago",
+        "About 2000 years ago",
+        "About 800 years ago",
+        "About 10,000 years ago"
+      ],
+      "answer": 0,
+      "explanation": "The chapter opens with the father explaining that Mesopotamia (mostly present-day Iraq) flourished around 4000 years ago. 2000 years ago is when the ten-digit system developed in India, and 10,000 years ago is the Stone Age setting used later for counting cows.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Origins and Spread of Hindu Numerals",
+      "question": "Which ancient Indian text is named in the chapter for listing number names based on powers of 10 (eka, dasha, shata, sahasra...)?",
+      "options": [
+        "The Brāhmasphuṭasiddhānta",
+        "The Yajurveda Samhita",
+        "The Bakhshali manuscript",
+        "The Āryabhaṭīya"
+      ],
+      "answer": 1,
+      "explanation": "The Yajurveda Samhita listed names for one, ten, hundred, thousand, ten thousand and so on, up to 10¹² and beyond. The other three are later works about computation and zero, not the source of these oral number names.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Origins and Spread of Hindu Numerals",
+      "question": "Where does the first known instance of writing numbers with ten digits, including a 0 written as a dot, occur?",
+      "options": [
+        "In Al-Khwārizmī's book on calculation",
+        "In Brahmagupta's Brāhmasphuṭasiddhānta",
+        "In the Bakhshali manuscript",
+        "In Aryabhata's Āryabhaṭīya"
+      ],
+      "answer": 2,
+      "explanation": "The Bakhshali manuscript (c. 3rd century CE) is the first known instance of all ten digits including a dot for zero. Aryabhata (499 CE) was the first to fully explain the system, and Brahmagupta (628 CE) codified zero as a number — both came later.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Origins and Spread of Hindu Numerals",
+      "question": "Which book by the Persian mathematician Al-Khwārizmī helped popularise the Indian numerals in the Arab world?",
+      "options": [
+        "On the Use of the Hindu Numerals (c. 830)",
+        "Brahmagupta's Brāhmasphuṭasiddhānta (c. 628)",
+        "Aryabhata's Āryabhaṭīya treatise (c. 499 CE)",
+        "On the Calculation with Hindu Numerals (c. 825)"
+      ],
+      "answer": 3,
+      "explanation": "Al-Khwārizmī wrote 'On the Calculation with Hindu Numerals' around 825. 'On the Use of the Hindu Numerals' (c. 830) was by the philosopher Al-Kindi, an easy mix-up; the other two are Indian works.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Origins and Spread of Hindu Numerals",
+      "question": "By about which year had the Hindu numerals reached Europe and parts of Africa from the Arab world?",
+      "options": [
+        "Around 1700 CE",
+        "Around 1100 CE",
+        "Around 800 CE",
+        "Around 1200 CE"
+      ],
+      "answer": 1,
+      "explanation": "The chapter gives 1100 CE for transmission to Europe and Africa. 800 CE is when the Arab world received them, around 1200 Fibonacci argued for their adoption, and the 17th century is when Europe could no longer avoid them.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Origins and Spread of Hindu Numerals",
+      "question": "Why did European scholars call the Indian numerals 'Arabic numerals'?",
+      "options": [
+        "Al-Kindi named them after his own homeland",
+        "Roman numerals were already called Hindu numerals",
+        "They had learned the numerals from Arab scholars",
+        "Arab scholars had invented the ten digit shapes"
+      ],
+      "answer": 2,
+      "explanation": "Europeans learned the system from the Arab world, so the name reflected their own perspective. Arab scholars such as Al-Khwārizmī and Al-Kindi themselves called them 'Hindu numerals', crediting India.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Origins and Spread of Hindu Numerals",
+      "question": "In the term 'Hindu numerals', what does the chapter say the word 'Hindu' refers to?",
+      "options": [
+        "The religion that Aryabhata and Brahmagupta followed",
+        "The Arabic word meaning 'calculation' or 'algorithm'",
+        "The Latin title of Fibonacci's book on numbers",
+        "The geography and people the numbers came from"
+      ],
+      "answer": 3,
+      "explanation": "The chapter explicitly notes that 'Hindu' here does not refer to a religion but to a geography/people from whom the numerals came — the same sense in which Arab scholars used it.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q8",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Origins and Spread of Hindu Numerals",
+      "question": "Arab scholars such as Al-Khwārizmī and Al-Kindi referred to the numerals we use today as 'Hindu numerals'.",
+      "answer": true,
+      "explanation": "Yes — the Arab scholars credited the source, calling them Hindu numerals; it was European scholars who later called them 'Arabic numerals'.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q9",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Origins and Spread of Hindu Numerals",
+      "question": "After Fibonacci made the case for Indian numerals around 1200, Europe adopted them within a few decades.",
+      "answer": false,
+      "explanation": "False. Roman numerals were so ingrained that the Indian numerals did not gain widespread use for several more centuries; only by the 17th century did not adopting them become impossible.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q10",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Origins and Spread of Hindu Numerals",
+      "question": "Pierre-Simon Laplace said that the Indian method of writing numbers with ten symbols 'placed arithmetic foremost among useful inventions'.",
+      "answer": true,
+      "explanation": "The quotation from Laplace (1749–1827) praises the Indian system for the way it facilitated calculations and placed arithmetic foremost among useful inventions.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q11",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Origins and Spread of Hindu Numerals",
+      "question": "Select the TWO events that are correctly matched with their approximate dates in the chapter.",
+      "options": [
+        "Aryabhata fully explains the ten-symbol system — c. 499 CE",
+        "Fibonacci urges Europe to adopt Indian numerals — c. 1200",
+        "Al-Khwārizmī writes his book on Hindu numerals — c. 1100",
+        "Indian numerals reach Europe and Africa — c. 800 CE"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Aryabhata (499 CE) and Fibonacci (c. 1200) are correct. Al-Khwārizmī's book was c. 825, not 1100, and the numerals reached Europe around 1100 CE, not 800 CE (800 CE is when they reached the Arab world).",
+      "source": "text:page2"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Mechanism of Counting",
+      "question": "In Method 1, keeping one stick for every cow is called a one-to-one mapping. What does that mean?",
+      "options": [
+        "Sticks are grouped into tens and ones",
+        "Each cow is matched to exactly one stick",
+        "Each stick stands for five cows at once",
+        "Cows are counted using letter sounds"
+      ],
+      "answer": 1,
+      "explanation": "A one-to-one mapping associates each cow with its own stick so that no two cows share the same stick. The final pile of sticks then tells the size of the herd.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Mechanism of Counting",
+      "question": "What is the obvious limitation of counting with the sounds of the English letters a to z (Method 2)?",
+      "options": [
+        "It cannot be spoken aloud, only written on surfaces",
+        "It groups objects in fives, which is hard to see",
+        "It cannot count collections of more than 26 objects",
+        "It needs as many letters as objects being counted"
+      ],
+      "answer": 2,
+      "explanation": "There are only 26 letters, so a collection with more than 26 objects cannot be counted this way. Needing as many items as objects is the drawback of sticks, not letters.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Mechanism of Counting",
+      "question": "Using only sticks, how could you find how many MORE cows you need to equal your neighbour's herd (Q3)?",
+      "options": [
+        "Count both piles aloud using letter names and subtract",
+        "Replace every five sticks with a notch and compare notches",
+        "Multiply your pile by the neighbour's pile of sticks",
+        "Pair your sticks with theirs; the unmatched sticks show the gap"
+      ],
+      "answer": 3,
+      "explanation": "Match sticks one-to-one between the two piles. The sticks left over in the neighbour's pile with no partner show exactly how many cows you are short — no number names needed.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Mechanism of Counting",
+      "question": "The chapter calls a standard sequence of objects, names or symbols with a fixed order, used for counting, a:",
+      "options": [
+        "a number system",
+        "a set of numerals",
+        "a landmark number",
+        "a base-n grouping"
+      ],
+      "answer": 0,
+      "explanation": "A number system is the standard fixed-order sequence we map objects onto when counting. A numeral is a written symbol within such a system; landmark numbers and bases are later refinements.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Mechanism of Counting",
+      "question": "Which statement about the three counting methods is NOT correct?",
+      "options": [
+        "Method 3's symbols were used in Europe before the Hindu system",
+        "Roman symbols avoid the need for new symbols for very large numbers",
+        "Sticks give an unending sequence but are clumsy for big collections",
+        "Letter sounds are convenient but the sequence is not unending"
+      ],
+      "answer": 1,
+      "explanation": "The Roman system (Method 3) had the drawback that one cannot write arbitrarily large numbers without introducing more and more symbols. The other three statements are exactly what the chapter says.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Mechanism of Counting",
+      "question": "Which group of people is mentioned as having all three forms of number representation — objects, names and written symbols?",
+      "options": [
+        "The Gumulgal",
+        "The Romans",
+        "The Egyptians",
+        "The Chinese"
+      ],
+      "answer": 3,
+      "explanation": "The chapter notes that some groups had numbers as objects and names, while others like the Chinese had all three forms: physical objects, names and written symbols.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Mechanism of Counting",
+      "question": "Using only sticks (no number names), which procedure correctly SUBTRACTS one collection from another?",
+      "options": [
+        "Remove as many sticks as the second collection, then count the rest",
+        "Put both collections together and count all the sticks",
+        "Make groups of equal numbers of sticks and count the groups",
+        "Lay sticks in rows equal to the second collection and count rows"
+      ],
+      "answer": 0,
+      "explanation": "Subtraction with sticks means removing from the first collection a stick for each stick in the second, then counting the remainder. Putting together is addition; grouping equal piles is multiplication or division.",
+      "source": "exercise:p54-Q1"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Mechanism of Counting",
+      "question": "The book's answer extends the letter system as a, b, ..., z, then aa, bb, cc, ... With a to z standing for 1 to 26 and 'aa' for 27, what does 'cc' stand for?",
+      "options": [
+        "53",
+        "29",
+        "28",
+        "30"
+      ],
+      "answer": 1,
+      "explanation": "aa = 27, bb = 28, cc = 29 — each doubled letter continues the sequence one at a time. 53 would be the wrong guess of 'c = 3, so cc = 26 + 27'.",
+      "source": "exercise:p54-Q2"
+    },
+    {
+      "id": "q20",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The Mechanism of Counting",
+      "question": "The symbols occurring in a written number system are called numerals.",
+      "answer": true,
+      "explanation": "Numerals are the written symbols of a number system — for example 0, 1, 5, 36 and 193 are numerals of the Hindu number system.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q21",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "The Mechanism of Counting",
+      "question": "In this chapter, a 'number system' can only be made of written symbols, never of objects or spoken names.",
+      "answer": false,
+      "explanation": "False. The chapter defines a number system as a standard sequence of objects, OR names, OR written symbols with a fixed order — sticks and letter sounds both count.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q22",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "The Mechanism of Counting",
+      "question": "Which TWO statements are true of the stick method (Method 1)?",
+      "options": [
+        "It is an unending standard sequence",
+        "It needs as many sticks as there are objects",
+        "It can only count up to 26 objects",
+        "It is the system later called Roman numerals"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Sticks are unending (add one more) but inconvenient because you need one stick per object. The 26 limit belongs to letter sounds, and the Roman system is Method 3.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Tally Marks and Early Counting",
+      "question": "What are tally marks, as described in the chapter?",
+      "options": [
+        "Letters of an alphabet spoken in a fixed order",
+        "Knots tied on a rope, one for each animal counted",
+        "Notches cut on a surface such as a bone or cave wall",
+        "Pebbles arranged in rows of five on the ground"
+      ],
+      "answer": 2,
+      "explanation": "Tally marks are notches — marks cut on a surface like a bone or a cave wall — with one mark made for each object counted.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Tally Marks and Early Counting",
+      "question": "Which description matches the Lebombo bone?",
+      "options": [
+        "Found in Congo, notches in columns, 20,000–35,000 years old",
+        "Found in Mesopotamia, wedge marks, about 4000 years old",
+        "Found in India, dot for zero, from the 3rd century CE",
+        "Found in South Africa, 29 notches, about 44,000 years old"
+      ],
+      "answer": 3,
+      "explanation": "The Lebombo bone from South Africa has 29 notches and is about 44,000 years old — one of the oldest mathematical artefacts. The Congo description is the Ishango bone.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Tally Marks and Early Counting",
+      "question": "Which statement about the ancient bones is NOT correct?",
+      "options": [
+        "Bones with tally marks go back more than 20,000 years",
+        "The Lebombo bone has 29 notches and was found in Congo",
+        "The Lebombo bone is older than the Ishango bone",
+        "The Ishango bone's notches may indicate a calendar system"
+      ],
+      "answer": 1,
+      "explanation": "The Lebombo bone was found in South Africa, not Congo (that is the Ishango bone). It is indeed older (≈44,000 vs 20,000–35,000 years), and the Ishango notches in columns possibly indicate calendars.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Tally Marks and Early Counting",
+      "question": "How does the tally-mark method differ from the stick method of counting?",
+      "options": [
+        "Tally marks can count only up to 26 objects",
+        "Sticks map one-to-one but tally marks do not",
+        "A mark is cut for each object instead of adding a stick",
+        "Marks are grouped by landmark numbers but sticks are not"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says tally marking is very similar to using sticks — one mark per object — except that a mark is made instead of adding a stick. Both are one-to-one mappings.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Tally Marks and Early Counting",
+      "question": "The chapter describes a group of people who used (and still use) their body parts as their number system. Where do they live?",
+      "options": [
+        "Southern Africa",
+        "Central America",
+        "Western Asia (Iraq)",
+        "Papua New Guinea"
+      ],
+      "answer": 3,
+      "explanation": "A group of people in Papua New Guinea used and still use their hands and other body parts as a standard sequence for counting.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q28",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Tally Marks and Early Counting",
+      "question": "The Ishango bone is older than the Lebombo bone.",
+      "answer": false,
+      "explanation": "False. The Lebombo bone (≈44,000 years) is described as 'an even older tally stick' than the Ishango bone (20,000–35,000 years).",
+      "source": "text:page8"
+    },
+    {
+      "id": "q29",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Tally Marks and Early Counting",
+      "question": "The 29 notches on the Lebombo bone may have served as a lunar calendar.",
+      "answer": true,
+      "explanation": "The chapter says the Lebombo bone may have served as a tally stick or a lunar calendar.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Counting in Groups: Gumulgal",
+      "question": "In the Gumulgal number system, urapon = 1 and ukasar = 2. What number is 'ukasar-ukasar-urapon'?",
+      "options": [
+        "6",
+        "5",
+        "4",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "ukasar-ukasar-urapon = 2 + 2 + 1 = 5. The Gumulgal counted in twos and built names by adding twos and a possible one.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Counting in Groups: Gumulgal",
+      "question": "What did the Gumulgal call any number greater than 6?",
+      "options": [
+        "urapon",
+        "ahage",
+        "ras",
+        "ukasar-ras"
+      ],
+      "answer": 2,
+      "explanation": "The Gumulgal had names only up to 6 (ukasar-ukasar-ukasar); any number greater than 6 was simply called 'ras'. 'ahage' is a Bakairi word for 2.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Counting in Groups: Gumulgal",
+      "question": "How do historians explain that the Gumulgal (Australia), Bakairi (South America) and Bushmen (South Africa) have equivalent number systems?",
+      "options": [
+        "They may share common ancestors who used this system",
+        "Traders carried the system between the three continents",
+        "Counting in twos is the only system humans can invent",
+        "The Romans spread their system of fives to all three"
+      ],
+      "answer": 0,
+      "explanation": "The groups are far apart with no trace of contact, so one theory is that they had common ancestors who used the system, and their descendants migrated to these places.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Counting in Groups: Gumulgal",
+      "question": "Which of these group sizes is NOT listed in the chapter as a commonly used group size in number systems?",
+      "options": [
+        "20",
+        "7",
+        "2",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "The chapter lists 2, 5, 10 and 20 as commonly used group sizes. Seven is not among them (base-7 appears only as an exercise to compute landmark numbers).",
+      "source": "text:page10"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Counting in Groups: Gumulgal",
+      "question": "Most humans find it difficult to know the size of a group at a single glance when it has:",
+      "options": [
+        "8 or more objects",
+        "10 or more objects",
+        "5 or more objects",
+        "3 or more objects"
+      ],
+      "answer": 2,
+      "explanation": "The chapter's activity concludes that most humans find it difficult to count groups having 5 or more objects in a single glance — a perceptual limit.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Counting in Groups: Gumulgal",
+      "question": "According to the chapter, what might have prompted people to replace every group of five tally marks with a new symbol?",
+      "options": [
+        "Bones were too small to hold more than five notches",
+        "Five is the number of landmark numbers in a base system",
+        "Trade laws required goods to be counted in fives",
+        "Our limit of perceiving about five objects at a glance"
+      ],
+      "answer": 3,
+      "explanation": "The human limit for immediately recognising the size of a collection (about 5) could have led tally users to replace each group of 5 marks with a new symbol — the idea seen in Roman V.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Counting in Groups: Gumulgal",
+      "question": "If a system counts ONLY in groups of 5, how many groups of 5 are needed to represent 1345?",
+      "options": [
+        "269 groups",
+        "268 groups",
+        "270 groups",
+        "265 groups"
+      ],
+      "answer": 0,
+      "explanation": "1345 ÷ 5 = 269 exactly. Writing a symbol 269 times shows why counting in a single group size becomes cumbersome for larger numbers.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Counting in Groups: Gumulgal",
+      "question": "In the Gumulgal system (urapon = 1, ukasar = 2), what is (ukasar-ukasar-ukasar-ukasar-urapon) + (ukasar-ukasar-ukasar-urapon)?",
+      "options": [
+        "ukasar repeated 8 times then urapon",
+        "ukasar repeated 8 times",
+        "ukasar repeated 7 times then urapon",
+        "ukasar repeated 16 times"
+      ],
+      "answer": 1,
+      "explanation": "The numbers are 9 and 7; 9 + 7 = 16 = 2 × 8, so the sum is eight ukasars. Note that the two urapons combine into one extra ukasar — forgetting this gives 7 ukasars + urapon.",
+      "source": "exercise:p60-Q2(i)"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Counting in Groups: Gumulgal",
+      "question": "In the Gumulgal system, (ukasar-ukasar-ukasar-ukasar-urapon) − (ukasar-ukasar-ukasar) equals:",
+      "options": [
+        "urapon-urapon",
+        "ukasar-ukasar-urapon",
+        "ukasar-urapon",
+        "ukasar-ukasar"
+      ],
+      "answer": 2,
+      "explanation": "9 − 6 = 3 = 2 + 1 = ukasar-urapon. Removing three ukasars from four ukasars and an urapon leaves one ukasar and one urapon.",
+      "source": "exercise:p60-Q2(ii)"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Counting in Groups: Gumulgal",
+      "question": "In the Gumulgal system, (ukasar-ukasar-ukasar-ukasar-urapon) × (ukasar-ukasar) is:",
+      "options": [
+        "ukasar repeated 18 times",
+        "ukasar repeated 4 times",
+        "ukasar repeated 8 times then urapon",
+        "ukasar repeated 9 times"
+      ],
+      "answer": 3,
+      "explanation": "9 × 2 = 18, and 18 = 2 × 9, so the product is nine ukasars. Writing ukasar 18 times would be 36 — a common slip of counting ones instead of twos.",
+      "source": "exercise:p60-Q2(iii)"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Counting in Groups: Gumulgal",
+      "question": "In the Gumulgal system, (ukasar repeated 8 times) ÷ (ukasar-ukasar) equals:",
+      "options": [
+        "ukasar-ukasar",
+        "ukasar-ukasar-ukasar-ukasar",
+        "ukasar-ukasar-ukasar",
+        "ukasar-ukasar-urapon"
+      ],
+      "answer": 0,
+      "explanation": "Eight ukasars = 16 and ukasar-ukasar = 4; 16 ÷ 4 = 4 = 2 + 2 = ukasar-ukasar. The tempting 'four ukasars' (8) comes from dividing by ukasar (2) instead of by ukasar-ukasar (4).",
+      "source": "exercise:p60-Q2(iv)"
+    },
+    {
+      "id": "q41",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Counting in Groups: Gumulgal",
+      "question": "The Gumulgal had distinct number names for numbers up to 10.",
+      "answer": false,
+      "explanation": "False. Gumulgal names went only up to 6 (ukasar-ukasar-ukasar); anything greater than 6 was called 'ras'.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Roman Numerals",
+      "question": "Using the Roman grouping into 10s, then 5s, then 1s, how is 27 written?",
+      "options": [
+        "XVVII",
+        "XXVII",
+        "XXVI",
+        "XXIIX"
+      ],
+      "answer": 1,
+      "explanation": "27 = 10 + 10 + 5 + 1 + 1, so it is XXVII. XXVI is 26; the other two do not follow the rule of taking as many 10s, then 5s, then 1s as possible.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Roman Numerals",
+      "question": "Which Roman symbol stands for 500?",
+      "options": [
+        "C",
+        "M",
+        "D",
+        "L"
+      ],
+      "answer": 2,
+      "explanation": "The landmark numbers are I=1, V=5, X=10, L=50, C=100, D=500 and M=1000. D is 500; L is 50, C is 100 and M is 1000.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Roman Numerals",
+      "question": "Following the pattern that 4 is written IV (1 less than 5), 40 is written as:",
+      "options": [
+        "LX",
+        "XXL",
+        "VL",
+        "XL"
+      ],
+      "answer": 3,
+      "explanation": "40 is 10 less than 50, so it is XL (X before L). LX would be 60. The chapter notes people were not always consistent and sometimes wrote XXXX.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Roman Numerals",
+      "question": "Writing 2367 as 1000 + 1000 + 100 + 100 + 100 + 50 + 10 + 5 + 1 + 1, which Roman numeral results?",
+      "options": [
+        "MMCCCLXVII",
+        "MMCCCLXII",
+        "MMCCLXVII",
+        "MMMCCLXVII"
+      ],
+      "answer": 0,
+      "explanation": "Two Ms, three Cs, one L, one X, one V and two Is give MMCCCLXVII. MMCCCLXII (missing the V) would be 2362, MMCCLXVII is 2267 and MMMCCLXVII is 3267.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Roman Numerals",
+      "question": "What is 2999 in Roman numerals?",
+      "options": [
+        "MMCMXIX",
+        "MMCMXCIX",
+        "MMCMXCVIX",
+        "MMMCMXCIX"
+      ],
+      "answer": 1,
+      "explanation": "2999 = 2000 (MM) + 900 (CM) + 90 (XC) + 9 (IX) = MMCMXCIX. MMMCMXCIX is 3999, MMCMXIX is 2919, and 'VIX' is not a valid grouping.",
+      "source": "exercise:p59-Q1(ii)"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Roman Numerals",
+      "question": "What is 715 in Roman numerals?",
+      "options": [
+        "CCCXV",
+        "DCCXIV",
+        "DCCXV",
+        "DCCVX"
+      ],
+      "answer": 2,
+      "explanation": "715 = 500 (D) + 100 + 100 (CC) + 10 (X) + 5 (V) = DCCXV. DCCXIV is 714, CCCXV is 315, and 'VX' is not a valid grouping.",
+      "source": "exercise:p59-Q1(iv)"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Roman Numerals",
+      "question": "The Roman number system seems to have evolved from which earlier system, and roughly when?",
+      "options": [
+        "The Hindu system, around the 3rd century CE",
+        "The ancient Greek system, around the 8th century BCE",
+        "The Egyptian system, around 3000 BCE in Egypt",
+        "The Mesopotamian system, about 4000 years ago"
+      ],
+      "answer": 1,
+      "explanation": "The chapter says the Roman system seems to have evolved out of the ancient Greek number system in around the 8th century BCE in Rome, spreading with the Roman empire.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Roman Numerals",
+      "question": "What number does the Roman numeral XLIV represent?",
+      "options": [
+        "46",
+        "66",
+        "44",
+        "64"
+      ],
+      "answer": 2,
+      "explanation": "XL = 40 (10 less than 50) and IV = 4 (1 less than 5), so XLIV = 44. Reading XL as 60 (LX) gives the wrong 64 or 66.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Roman Numerals",
+      "question": "The chapter calls numbers with their own basic symbol 'landmark numbers'. Which of these is NOT a Roman landmark number?",
+      "options": [
+        "1,000",
+        "500",
+        "100",
+        "5,000"
+      ],
+      "answer": 3,
+      "explanation": "The Roman landmark numbers listed are 1, 5, 10, 50, 100, 500 and 1000. There is no basic symbol for 5000, which is exactly why very large numbers are hard to write in this system.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q51",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Roman Numerals",
+      "question": "In the Roman system, 50 is normally written as XXXXX.",
+      "answer": false,
+      "explanation": "False. Instead of XXXXX, a new symbol L was given to 50. (40, however, was sometimes written as XXXX.)",
+      "source": "text:page11"
+    },
+    {
+      "id": "q52",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Roman Numerals",
+      "question": "Roman numerals spread throughout Europe with the expansion of the Roman empire.",
+      "answer": true,
+      "explanation": "The chapter states that the system spread throughout Europe with the expansion of the Roman empire and was used for centuries.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Roman Arithmetic",
+      "question": "Adding CCXXXII + CCCCXIII without converting, you collect 6 Cs, 4 Xs and 5 Is. Why does the chapter regroup the Cs?",
+      "options": [
+        "Because five Cs (100s) make a D (500)",
+        "Because a C can never be repeated twice",
+        "Because six Cs must be written as DC·C",
+        "Because Cs and Xs must be added separately"
+      ],
+      "answer": 0,
+      "explanation": "Six Cs are 600; five of them are regrouped as D (500), leaving DC. The whole sum is 232 + 413 = 645 = DCXLV.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Roman Arithmetic",
+      "question": "LXXXVII + LXXVIII equals which Roman numeral?",
+      "options": [
+        "CXLV",
+        "CLXXV",
+        "CLXV",
+        "CLV"
+      ],
+      "answer": 2,
+      "explanation": "87 + 78 = 165 = 100 + 50 + 10 + 5 = CLXV. Directly: two Ls make a C, the five Xs make an L, VV = X, and the five Is make a V.",
+      "source": "exercise:p60(b)"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Roman Arithmetic",
+      "question": "The product of the landmark numbers V × L is:",
+      "options": [
+        "CCCL",
+        "LV",
+        "DL",
+        "CCL"
+      ],
+      "answer": 3,
+      "explanation": "5 × 50 = 250 = 100 + 100 + 50 = CCL. Notice the product of two landmark numbers is NOT itself a landmark number here — unlike in a base system.",
+      "source": "exercise:p60-landmark products"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Roman Arithmetic",
+      "question": "L × D would be written as M repeated 25 times. What is this product in Hindu numerals?",
+      "options": [
+        "20,000",
+        "25,000",
+        "2,500",
+        "5,000"
+      ],
+      "answer": 1,
+      "explanation": "50 × 500 = 25,000. Since the largest symbol is M (1000), one needs 25 Ms — a vivid example of why Roman multiplication and large numbers are awkward.",
+      "source": "exercise:p60-landmark products"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Roman Arithmetic",
+      "question": "VII × IX in Roman numerals is:",
+      "options": [
+        "LXVIII",
+        "XLIII",
+        "LXIII",
+        "LXII"
+      ],
+      "answer": 2,
+      "explanation": "7 × 9 = 63 = 50 + 10 + 1 + 1 + 1 = LXIII. LXVIII is 68 and XLIII is 43.",
+      "source": "exercise:p60-landmark products"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Roman Arithmetic",
+      "question": "CCXXXI × MDCCCLII equals which number?",
+      "options": [
+        "427,712",
+        "428,812",
+        "417,812",
+        "427,812"
+      ],
+      "answer": 3,
+      "explanation": "CCXXXI = 231 and MDCCCLII = 1852. 231 × 1852 = 231,000 + 184,800 + 12,012 = 427,812. The distractors come from slips in one partial product.",
+      "source": "text:page13-Try This"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Roman Arithmetic",
+      "question": "Why is multiplication hard in the Roman system, according to the chapter?",
+      "options": [
+        "Landmark × landmark need not give another landmark number",
+        "Roman numerals cannot represent any even numbers",
+        "There is no symbol for 100 or 1000 in the system",
+        "Only numbers below 39 can be multiplied together"
+      ],
+      "answer": 0,
+      "explanation": "In a base system landmark × landmark gives another landmark (10 × 100 = 1000), but in the Roman system V × L = 250 has no single symbol, so multiplication needs messy regrouping.",
+      "source": "text:page21"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Roman Arithmetic",
+      "question": "Which calculating tool did people using the Roman system rely on for arithmetic?",
+      "options": [
+        "Clay tablets",
+        "The abacus",
+        "Tally bones",
+        "Rod numerals"
+      ],
+      "answer": 1,
+      "explanation": "People using Roman numerals used a calculating tool called the abacus, though only specially trained people could use it.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q61",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Roman Arithmetic",
+      "question": "The chapter says each number system in history developed as a direct improvement on the previous one.",
+      "answer": false,
+      "explanation": "False. The chapter warns that it should NOT be understood that one system historically developed as an improvement over the previous one; the real story is much more complex.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q62",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Roman Arithmetic",
+      "question": "Which TWO features of the Hindu number system make it more efficient than Roman numerals, per the book's answer?",
+      "options": [
+        "It is a place value system",
+        "It has a symbol and concept for zero",
+        "It has more landmark symbols than the Roman system",
+        "It uses letters of the alphabet as its digits"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The book's comparison lists place value, the concept of zero, and ease of calculation for the Hindu system versus fixed values, no zero and difficult calculation for Roman numerals. More symbols or letter-digits are not advantages.",
+      "source": "exercise:p61-Q3"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Egyptian System",
+      "question": "Around when did the Egyptians develop the written number system described in the chapter?",
+      "options": [
+        "Around 500 BCE",
+        "Around 200 BCE",
+        "Around 3000 BCE",
+        "Around 800 CE"
+      ],
+      "answer": 2,
+      "explanation": "The Egyptian system dates from around 3000 BCE. 200 BCE is when the Hindu system had a symbol for zero, and 800 CE is when the Indian numerals reached the Arab world.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Egyptian System",
+      "question": "What is special about the sequence of landmark numbers in the Egyptian system?",
+      "options": [
+        "Each landmark number is 5 more than the previous one",
+        "Landmark numbers alternate between 5s and 10s",
+        "Each landmark number is 60 times the previous one",
+        "Each landmark number is 10 times the previous one"
+      ],
+      "answer": 3,
+      "explanation": "Starting from 1, each Egyptian landmark number is 10 times the previous — 1, 10, 100, 1000... — so they are all powers of 10. Alternating 5s and 10s is the Roman pattern; 60 is Mesopotamian.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Egyptian System",
+      "question": "324 = 100 + 100 + 100 + 10 + 10 + 4 ones. How many symbols in total does the Egyptian numeral for 324 use?",
+      "options": [
+        "9 symbols",
+        "3 symbols",
+        "10 symbols",
+        "7 symbols"
+      ],
+      "answer": 0,
+      "explanation": "Three hundred-symbols + two ten-symbols + four one-strokes = 9 symbols. The Hindu numeral needs just 3 digits, but the Egyptian numeral repeats each symbol as many times as needed.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Egyptian System",
+      "question": "In the Egyptian numeral for 10458 (= 10000 + 400 + 50 + 8), which landmark symbol does NOT appear at all?",
+      "options": [
+        "The symbol for 10",
+        "The symbol for 1000",
+        "The symbol for 10000",
+        "The symbol for 100"
+      ],
+      "answer": 1,
+      "explanation": "10458 has one 10000, four 100s, five 10s and eight 1s — there is no 1000 in the grouping, so that symbol is simply absent (a blank the Egyptians never needed to mark).",
+      "source": "exercise:p62-Q1"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Egyptian System",
+      "question": "How many symbols are needed to write 70707 in the Egyptian system?",
+      "options": [
+        "7",
+        "28",
+        "21",
+        "15"
+      ],
+      "answer": 2,
+      "explanation": "70707 = 7 × 10000 + 7 × 100 + 7 × 1, so seven 10000-symbols, seven 100-symbols and seven 1-strokes: 21 symbols. There are no 1000s or 10s.",
+      "source": "exercise:p62-Q1"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Egyptian System",
+      "question": "Which of these numbers needs the FEWEST symbols when written in the Egyptian system?",
+      "options": [
+        "1111",
+        "1023",
+        "784",
+        "2660"
+      ],
+      "answer": 0,
+      "explanation": "1111 uses one symbol of each kind: 4 symbols. 1023 needs 1 + 2 + 3 = 6, 2660 needs 14 and 784 needs 7 + 8 + 4 = 19. The size of a number does not decide its symbol count — its digits do.",
+      "source": "exercise:p62-Q1"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Egyptian System",
+      "question": "Can an Egyptian numeral contain the same symbol 10 or more times? Why?",
+      "options": [
+        "Yes — but only the one-stroke symbol may appear ten or more times",
+        "No — ten of any landmark symbol are regrouped as the next landmark",
+        "Yes — any symbol may be repeated as often as a scribe needs",
+        "No — scribes were only allowed to carve five of a symbol"
+      ],
+      "answer": 1,
+      "explanation": "Since 10 times any landmark number gives the next landmark number, ten copies of a symbol are always replaced by one symbol of the next landmark. So each symbol appears at most 9 times.",
+      "source": "exercise:p69-Q1"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Egyptian System",
+      "question": "What was the main shortcoming of the Egyptian system noted in the chapter?",
+      "options": [
+        "Addition required converting to Roman numerals first",
+        "It had no fixed order for writing its landmark symbols",
+        "Ever larger numbers needed an unending supply of new symbols",
+        "It could not represent any number greater than one hundred"
+      ],
+      "answer": 2,
+      "explanation": "The Egyptian system worked well up to a crore (10⁷), but representing larger and larger numbers required inventing new symbols for higher and higher powers of 10 — the original challenge resurfacing.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Egyptian System",
+      "question": "Up to roughly what size did the Egyptian system give relatively efficient number representations?",
+      "options": [
+        "Up to a lakh (10⁵)",
+        "Up to a thousand (10³)",
+        "Up to a billion (10⁹)",
+        "Up to a crore (10⁷)"
+      ],
+      "answer": 3,
+      "explanation": "The chapter says the Egyptian system enabled relatively efficient representation for numbers till a crore (10⁷) before new symbols would be required.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q72",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The Egyptian System",
+      "question": "The Egyptian number system is a base-10 (decimal) system.",
+      "answer": true,
+      "explanation": "Yes — its landmark numbers are 1, 10, 100, 1000, ..., all powers of 10, so it is base-10, also called decimal.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q73",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "The Egyptian System",
+      "question": "In the Egyptian system, the position where a symbol is written decides which power of 10 it stands for.",
+      "answer": false,
+      "explanation": "False. Each Egyptian landmark number had its own distinct symbol, so meaning did not depend on position. Position-based meaning is the later idea of place value (Mesopotamian, Mayan, Chinese, Hindu).",
+      "source": "text:page15"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Idea of a Base",
+      "question": "A number system is called base-n when its first landmark number is 1 and every next landmark number is obtained by:",
+      "options": [
+        "multiplying the current landmark number by a fixed number n",
+        "adding the fixed number n to the current landmark number",
+        "doubling the current landmark number n times",
+        "writing the current landmark number n positions to the left"
+      ],
+      "answer": 0,
+      "explanation": "In a base-n system each landmark number is n times the previous one, so the landmark numbers are 1, n, n², n³, ... — the powers of n.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Idea of a Base",
+      "question": "In the base-5 system created in the chapter, what is the fourth landmark number?",
+      "options": [
+        "100",
+        "125",
+        "25",
+        "625"
+      ],
+      "answer": 1,
+      "explanation": "The landmark numbers are 5⁰ = 1, 5¹ = 5, 5² = 25, 5³ = 125, 5⁴ = 625. Counting from 1 as the first, the fourth is 125.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Idea of a Base",
+      "question": "Which grouping of 143 is the correct one for the base-5 system (where 5 of a landmark must be regrouped)?",
+      "options": [
+        "one 125, two 5s, eight 1s",
+        "one 125, one 25, three 1s",
+        "one 125, three 5s, three 1s",
+        "five 25s, three 5s, three 1s"
+      ],
+      "answer": 2,
+      "explanation": "143 = 125 + 5 + 5 + 5 + 1 + 1 + 1. 'Five 25s' and 'eight 1s' also add to 143 but are invalid — five 25s must become one 125 and five 1s must become a 5. 'One 125, one 25, three 1s' is 153.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Idea of a Base",
+      "question": "How many symbols in total are needed to write 293 in the chapter's base-5 system?",
+      "options": [
+        "8",
+        "10",
+        "7",
+        "9"
+      ],
+      "answer": 3,
+      "explanation": "293 = 2 × 125 + 1 × 25 + 3 × 5 + 3 × 1 (250 + 25 + 15 + 3). Symbols: 2 + 1 + 3 + 3 = 9.",
+      "source": "exercise:p63-Q1"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Idea of a Base",
+      "question": "Is there a number that cannot be represented in the chapter's base-5 system? The book's answer is:",
+      "options": [
+        "Yes — numbers above 3125, as there is no larger symbol",
+        "Yes — any number with 5 or more of one landmark",
+        "Yes — zero, because the system has no symbol for it",
+        "No — every whole number can be grouped into powers of 5"
+      ],
+      "answer": 2,
+      "explanation": "The book answers that zero cannot be represented since there is no symbol for 'nothing'. Numbers above 3125 would just need a new landmark symbol, and 5 of a landmark can always be regrouped.",
+      "source": "exercise:p63-Q2"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Idea of a Base",
+      "question": "Which of these is a landmark number of a base-7 system?",
+      "options": [
+        "243",
+        "333",
+        "350",
+        "343"
+      ],
+      "answer": 3,
+      "explanation": "Base-7 landmark numbers are 7⁰ = 1, 7, 49, 343, 2401, ... 343 = 7³. 243 is 3⁵, a tempting near-miss.",
+      "source": "exercise:p63-Q3"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Idea of a Base",
+      "question": "A base-10 number system is also called a:",
+      "options": [
+        "decimal system",
+        "sexagesimal system",
+        "positional system",
+        "landmark system"
+      ],
+      "answer": 0,
+      "explanation": "Base-10 is called the decimal system. Sexagesimal means base-60 (Mesopotamian), and positional refers to place value, which base-10 systems like the Egyptian one need not have.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Idea of a Base",
+      "question": "Which statement about base-n systems is NOT true?",
+      "options": [
+        "The landmark numbers of a base-n system are the powers of n",
+        "The landmark numbers of base-5 include 5, 10, 15 and 20",
+        "In base-n, each landmark number is n times the previous one",
+        "The first landmark number of every base-n system is 1"
+      ],
+      "answer": 1,
+      "explanation": "Base-5 landmark numbers are powers of 5 (1, 5, 25, 125...), not multiples of 5. The other three statements are the chapter's definition.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Idea of a Base",
+      "question": "The book's own base-4 system uses ∟ for 1, ∆ for 4 and □ for 16. How is 11 written?",
+      "options": [
+        "□ ∟ ∟ ∟",
+        "∆ ∟ ∟ ∟ ∟ ∟ ∟ ∟",
+        "∆ ∆ ∟ ∟ ∟",
+        "∆ ∆ ∆ ∟ ∟"
+      ],
+      "answer": 2,
+      "explanation": "11 = 4 + 4 + 1 + 1 + 1 → two ∆ and three ∟. ∆∆∆∟∟ is 14, □∟∟∟ is 19, and seven ∟ should be regrouped (four ∟ = ∆).",
+      "source": "exercise:p70-Q2"
+    },
+    {
+      "id": "q83",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "The Idea of a Base",
+      "question": "Which TWO of these numbers are landmark numbers of a base-4 system?",
+      "options": [
+        "16",
+        "64",
+        "24",
+        "8",
+        "12"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Base-4 landmark numbers are 1, 4, 16, 64, 256 — the powers of 4. 8, 12 and 24 are multiples of 4 but not powers of 4.",
+      "source": "exercise:p70-Q2"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Base-n Arithmetic and the Abacus",
+      "question": "Adding two Egyptian numerals gives 15 ten-symbols and 15 one-strokes. After regrouping, what number is the sum?",
+      "options": [
+        "155",
+        "1515",
+        "160",
+        "165"
+      ],
+      "answer": 3,
+      "explanation": "15 ones = 1 ten + 5 ones; now 16 tens = 1 hundred + 6 tens. Result: 1 hundred, 6 tens, 5 ones = 165 (which is just 150 + 15).",
+      "source": "text:page17"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Base-n Arithmetic and the Abacus",
+      "question": "Why is addition in a base-n system simpler than in the Roman system?",
+      "options": [
+        "Roman numerals have more symbols to keep track of",
+        "Base systems write numbers with far fewer symbols",
+        "Every landmark regroups by the same size n into the next",
+        "Base systems never need any regrouping at all"
+      ],
+      "answer": 2,
+      "explanation": "In the Roman system the grouping size changes (5 Is → V, but only 2 Vs → X), so regrouping needs care. In a base-n system every landmark regroups by the same n, making the process uniform.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Base-n Arithmetic and the Abacus",
+      "question": "On the abacus board described in the chapter, what did a counter placed ABOVE a line contribute?",
+      "options": [
+        "A value of 5 of that line's power of 10",
+        "A value of 10 of that line's power of 10",
+        "A value of 1, like a counter on the line",
+        "Nothing — it marked a blank position"
+      ],
+      "answer": 0,
+      "explanation": "Each line stood for a power of 10, and a counter above a line contributed a value of 5 (of that power). This is how the 6 ones in 3426 were shown: one counter above (5) and one on the line (1).",
+      "source": "text:page22"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Base-n Arithmetic and the Abacus",
+      "question": "On the abacus, 3426 shows its 6 ones using how many counters on the units line?",
+      "options": [
+        "Three counters above the line (2 each)",
+        "Two: one above the line (5) and one on it (1)",
+        "Six separate counters placed on the line",
+        "One counter above the line, standing for all 6"
+      ],
+      "answer": 1,
+      "explanation": "Because a counter above the line is worth 5, six ones need just one counter above (5) plus one on the line (1) — two counters instead of six.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Base-n Arithmetic and the Abacus",
+      "question": "Using the abacus for 2907 + 43, the 7 ones and 3 ones make 10. What is the final sum?",
+      "options": [
+        "2910",
+        "3350",
+        "2950",
+        "2940"
+      ],
+      "answer": 2,
+      "explanation": "7 + 3 = 10 ones, which become one counter on the tens line; 0 + 4 + 1 = 5 tens. The total is 2950.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Base-n Arithmetic and the Abacus",
+      "question": "What is a simple rule for multiplying a number by 5 in the chapter's base-5 system?",
+      "options": [
+        "Write the whole number five times in a row",
+        "Add a one-symbol at the end of the number",
+        "Replace each symbol by five copies of itself",
+        "Shift each symbol to the symbol of the next landmark"
+      ],
+      "answer": 3,
+      "explanation": "Multiplying by the base turns each landmark into the next (1→5, 5→25, 25→125), so every symbol simply shifts up one landmark — exactly like the Egyptian rule for multiplying by 10.",
+      "source": "exercise:p70-Q3"
+    },
+    {
+      "id": "q90",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Base-n Arithmetic and the Abacus",
+      "question": "In the chapter's base-5 system, 5 times a landmark number gives the next landmark number.",
+      "answer": true,
+      "explanation": "Yes — the chapter reminds us of this while adding base-5 numerals: five copies of a symbol regroup into one of the next landmark.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q91",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Base-n Arithmetic and the Abacus",
+      "question": "In the Roman system, the product of two landmark numbers is always another landmark number.",
+      "answer": false,
+      "explanation": "False. For example V × L = 250 and V × D = 2500 have no single Roman symbol. This only holds when landmark numbers are powers of one base.",
+      "source": "text:page21"
+    },
+    {
+      "id": "q92",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Base-n Arithmetic and the Abacus",
+      "question": "Which TWO properties make a base-n system efficient for arithmetic, according to the chapter?",
+      "options": [
+        "The product of two landmark numbers is another landmark number",
+        "Every landmark regroups into the next by the same size n",
+        "The position of a symbol decides its value",
+        "Only one symbol is ever needed for all numbers"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Uniform regrouping makes addition simple and landmark products being landmarks makes multiplication simple. Position-based value is place value (a separate later idea), and no system uses just one symbol.",
+      "source": "text:page21"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Mesopotamian Place Value",
+      "question": "The Mesopotamian base-60 system is also called the:",
+      "options": [
+        "positional system",
+        "sexagesimal system",
+        "decimal system",
+        "vigesimal system"
+      ],
+      "answer": 1,
+      "explanation": "Base-60 is the sexagesimal system (also known as the Babylonian system). Decimal is base-10; 'positional' describes place value in general.",
+      "source": "text:page23"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Mesopotamian Place Value",
+      "question": "Where can the influence of the Mesopotamian sexagesimal system still be seen today?",
+      "options": [
+        "100 paise in a rupee and 100 cm in a metre",
+        "360 degrees in a full turn of a wheel",
+        "1 hour = 60 minutes and 1 minute = 60 seconds",
+        "12 months in a year and 7 days in a week"
+      ],
+      "answer": 2,
+      "explanation": "The chapter points to our units of time — 60 minutes in an hour, 60 seconds in a minute — as a surviving trace of base 60.",
+      "source": "text:page23"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Mesopotamian Place Value",
+      "question": "Grouping 640 into Mesopotamian landmark numbers gives:",
+      "options": [
+        "(6) × 100 + 40",
+        "(1) × 600 + 40",
+        "(10) × 64",
+        "(10) × 60 + 40"
+      ],
+      "answer": 3,
+      "explanation": "640 = 10 × 60 + 40: ten 60s and one 40. The compact representation reads 'ten 60s and one 40', dropping the Egyptian-style ten separate 60-symbols.",
+      "source": "text:page24"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Mesopotamian Place Value",
+      "question": "The expression (1) × 3600 + (70) × 60 + 2 must be regrouped because no power of 60 may occur 60 or more times. What number is it?",
+      "options": [
+        "7820",
+        "7802",
+        "7602",
+        "4202"
+      ],
+      "answer": 1,
+      "explanation": "70 sixties = 60 sixties + 10 sixties = one 3600 + 10 sixties. So it becomes (2) × 3600 + (10) × 60 + 2 = 7200 + 600 + 2 = 7802.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Mesopotamian Place Value",
+      "question": "How is 200 grouped for the Mesopotamian system?",
+      "options": [
+        "3 sixties and 2 ones",
+        "20 sixties and 0 ones",
+        "3 sixties and 20 ones",
+        "2 sixties and 80 ones"
+      ],
+      "answer": 2,
+      "explanation": "200 = 3 × 60 + 20. Writing 2 × 60 + 80 is invalid because 80 ones exceed 59 and must be regrouped.",
+      "source": "exercise:p73-Q1(iii)"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Mesopotamian Place Value",
+      "question": "Among 63, 132, 200 and 3605, which needs a BLANK (or placeholder) in its Mesopotamian representation?",
+      "options": [
+        "63 = 1 × 60 + 3",
+        "132 = 2 × 60 + 12",
+        "200 = 3 × 60 + 20",
+        "3605 = 1 × 3600 + 5"
+      ],
+      "answer": 3,
+      "explanation": "3605 = 1 × 3600 + 0 × 60 + 5 — the 60s position is empty and needs a blank or placeholder. 63 = 1×60+3, 132 = 2×60+12 and 200 = 3×60+20 have no empty position.",
+      "source": "exercise:p73-Q1(v)"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Mesopotamian Place Value",
+      "question": "Why can the Mesopotamian system NOT be considered a fully developed place value system?",
+      "options": [
+        "Its numerals were written from bottom to top",
+        "Inconsistent blank spacing, and no placeholder at the end",
+        "It had no landmark numbers and relied only on tally marks",
+        "It used a different symbol for every power of 60"
+      ],
+      "answer": 1,
+      "explanation": "Spacing for blanks varied between scribes, causing ambiguity, and even the later placeholder symbol was used mainly in the middle of numbers, not at the end — so 60 and 3600 could look alike.",
+      "source": "text:page26"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Mesopotamian Place Value",
+      "question": "A number system with a base that uses the POSITION of each symbol to determine its landmark number is called a:",
+      "options": [
+        "landmark system",
+        "tally system",
+        "sexagesimal system",
+        "place value system"
+      ],
+      "answer": 3,
+      "explanation": "Such a system is called a positional or place value system — the Mesopotamian system is the chapter's first example. Sexagesimal only means base-60.",
+      "source": "text:page26"
+    },
+    {
+      "id": "q101",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Mesopotamian Place Value",
+      "question": "The later Mesopotamians used their placeholder symbol mainly at the end of numbers, such as for 3600.",
+      "answer": false,
+      "explanation": "False. The placeholder was primarily used in the middle of numbers, not at the end, so a number like 3600 still remained ambiguous.",
+      "source": "text:page27"
+    },
+    {
+      "id": "q102",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Mesopotamian Place Value",
+      "question": "Using only the symbols for 1 and 10, the Mesopotamians could write every number from 1 to 59.",
+      "answer": true,
+      "explanation": "Yes — combinations of the wedge for 1 and the hook for 10 express 1 to 59, and these groups are then placed in positions for each power of 60.",
+      "source": "text:page24"
+    },
+    {
+      "id": "q103",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Mesopotamian Place Value",
+      "question": "Which TWO are theories the chapter mentions for why the Mesopotamians chose base 60?",
+      "options": [
+        "A link to periods of important events, like the 30-day lunar month",
+        "The ease of representing fractions",
+        "Sixty is the total of fingers and toes of three people",
+        "The Egyptians had already been using base 60"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The chapter lists connections with periods of events (lunar month, Sun's apparent revolution), ease of fractions, and their earlier landmark sequence collapsing to powers of 60. Egypt used base 10, and the finger-toe idea is not in the chapter.",
+      "source": "text:page23"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Mayan and Chinese Systems",
+      "question": "The Mayan civilisation, which designed its own place value system, flourished in:",
+      "options": [
+        "Central America, between the 3rd and 10th centuries CE",
+        "South America, between the 8th and 3rd centuries BCE",
+        "Western Asia, about 4000 years ago, in Mesopotamia",
+        "Central America, around the 17th century CE"
+      ],
+      "answer": 0,
+      "explanation": "The Mayans made great intellectual progress in Central America between the 3rd and 10th centuries CE, designing a place value system independently of Asia.",
+      "source": "text:page27"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Mayan and Chinese Systems",
+      "question": "What did the Mayan placeholder symbol for zero look like?",
+      "options": [
+        "A wedge",
+        "A seashell",
+        "A dot",
+        "A horizontal bar"
+      ],
+      "answer": 1,
+      "explanation": "The Mayan zero looked like a seashell. A dot stood for 1 and a bar for 5; the wedge belongs to the Mesopotamian system.",
+      "source": "text:page27"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Mayan and Chinese Systems",
+      "question": "In Mayan notation (dot = 1, bar = 5), how is 17 written?",
+      "options": [
+        "3 bars and 3 dots",
+        "1 bar and 12 dots",
+        "3 bars and 2 dots",
+        "2 bars and 7 dots"
+      ],
+      "answer": 2,
+      "explanation": "17 = 5 + 5 + 5 + 2, so three bars and two dots. Five dots would always be regrouped into a bar, so 7 or 12 dots is invalid.",
+      "source": "text:page29"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Mayan and Chinese Systems",
+      "question": "What are the first three Mayan landmark numbers given in the chapter?",
+      "options": [
+        "1, 20 and 400",
+        "1, 10 and 100",
+        "1, 60 and 3600",
+        "1, 20 and 360"
+      ],
+      "answer": 3,
+      "explanation": "The Mayan landmark numbers were 1, 20 and then 360 — not 400 as a true base-20 would give, which puzzles scholars and may relate to their calendar.",
+      "source": "text:page29"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Mayan and Chinese Systems",
+      "question": "In the Mayan representation of 721, which grouping is used?",
+      "options": [
+        "(2) × 360 + (0) × 20 + (1) × 1",
+        "(1) × 360 + (18) × 20 + (1) × 1",
+        "(2) × 360 + (1) × 20 + (1) × 1",
+        "(36) × 20 + (1) × 1"
+      ],
+      "answer": 0,
+      "explanation": "721 = 720 + 1 = 2 × 360 + 0 × 20 + 1, so the 20s position holds a seashell zero. '36 twenties' is invalid (a position holds at most 19), and 1 × 360 + 18 × 20 also equals 720 but 18 twenties = 360 must be regrouped into a second 360. (2)×360 + (1)×20 + 1 is 741.",
+      "source": "exercise:p76-Q4"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Mayan and Chinese Systems",
+      "question": "Why does the Mayan system lack the computational advantages of a base system?",
+      "options": [
+        "Its numbers were written vertically instead of horizontally",
+        "Its third landmark is 360, so it is not a true base-20 system",
+        "It had no placeholder symbol for an empty position",
+        "It used only two different symbols, a dot and a bar for five"
+      ],
+      "answer": 1,
+      "explanation": "Because 360 is not 20², the landmark numbers are not all powers of one base, so landmark products are not landmarks and the base advantages are lost. The dot/bar and vertical writing are not the problem.",
+      "source": "text:page29"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Mayan and Chinese Systems",
+      "question": "In the Mayan vertical layout, which set of symbols is written LOWEST?",
+      "options": [
+        "The set showing the number of 360s",
+        "The placeholder for zero, always",
+        "The set showing the number of 1s",
+        "The set showing the number of 20s"
+      ],
+      "answer": 2,
+      "explanation": "Symbols were stacked with the lowest set for the 1s, the set above it for the 20s, and the set above that for the 360s.",
+      "source": "text:page29"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Mayan and Chinese Systems",
+      "question": "The Chinese rod numerals were a decimal system developed by at least the 3rd century AD and used until the:",
+      "options": [
+        "10th century",
+        "3rd century BCE",
+        "19th century",
+        "17th century"
+      ],
+      "answer": 3,
+      "explanation": "Rod numerals developed in China by at least the 3rd century AD and were used till the 17th century.",
+      "source": "text:page29"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Mayan and Chinese Systems",
+      "question": "In the rod numeral for 2634, which positions use the zong (vertical) form of the digits?",
+      "options": [
+        "The units and hundreds (4 and 6)",
+        "The tens and thousands (3 and 2)",
+        "All four positions",
+        "Only the units position (4)"
+      ],
+      "answer": 0,
+      "explanation": "Zongs represent units, hundreds, tens of thousands...; hengs represent tens, thousands, hundreds of thousands. So 2634 reads 2 (heng), 6 (zong), 3 (heng), 4 (zong).",
+      "source": "text:page30"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Mayan and Chinese Systems",
+      "question": "If only zong rods were used with no clear spacing, 41 would appear as five rods in a row. Which reading is IMPOSSIBLE for that numeral?",
+      "options": [
+        "122",
+        "33",
+        "23",
+        "32"
+      ],
+      "answer": 1,
+      "explanation": "Five rods could be split as 4|1, 2|3, 3|2 or 1|2|2 and so on — but 33 would need six rods. Alternating zong and heng avoids this ambiguity between adjacent places.",
+      "source": "exercise:p80-Q1"
+    },
+    {
+      "id": "q114",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Mayan and Chinese Systems",
+      "question": "The Mayan number system is a true base-20 system.",
+      "answer": false,
+      "explanation": "False. Its landmark numbers go 1, 20, 360 — the third is not 20² = 400 — so the chapter says it is not an actual base-20 system.",
+      "source": "text:page29"
+    },
+    {
+      "id": "q115",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Mayan and Chinese Systems",
+      "question": "Which TWO of these numbers need a seashell (zero) in the 20s position when written in the Mayan system?",
+      "options": [
+        "361",
+        "721",
+        "77",
+        "100"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "361 = 1×360 + 0×20 + 1 and 721 = 2×360 + 0×20 + 1 both have an empty 20s position. 77 = 3×20 + 17 has no zero, and 100 = 5×20 + 0 has its zero in the UNITS position.",
+      "source": "exercise:p76"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Hindu System and Zero",
+      "question": "The Hindu number system has had a symbol for zero since at least:",
+      "options": [
+        "499 CE",
+        "628 CE",
+        "3rd century CE",
+        "200 BCE"
+      ],
+      "answer": 3,
+      "explanation": "The chapter says the Hindu system had a symbol for 0 at least as early as 200 BCE. 499 CE and 628 CE are the dates of Aryabhata's and Brahmagupta's works, and the Bakhshali manuscript is 3rd century CE.",
+      "source": "text:page31"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Hindu System and Zero",
+      "question": "In the Hindu system the numeral 375 is read as:",
+      "options": [
+        "(3) × 10² + (7) × 10 + (5) × 1",
+        "(3) × 100 + (7) × 1 + (5) × 10",
+        "(3 + 7 + 5) × 10",
+        "(3) × 10³ + (7) × 10² + (5) × 10"
+      ],
+      "answer": 0,
+      "explanation": "375 = 3 hundreds + 7 tens + 5 ones. Position decides the power of 10: the rightmost digit counts 1s, then 10s, then 100s.",
+      "source": "text:page31"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Hindu System and Zero",
+      "question": "Which mathematician explicitly used the properties '0 + any number = that number' and '0 × any number = 0' in computations in 499 CE?",
+      "options": [
+        "Fibonacci, in his arguments to Europe",
+        "Aryabhata, in the Āryabhaṭīya",
+        "Brahmagupta, in the Brāhmasphuṭasiddhānta",
+        "Al-Khwārizmī, in his book on Hindu numerals"
+      ],
+      "answer": 1,
+      "explanation": "Aryabhata used these arithmetic properties of zero in the Āryabhaṭīya (499 CE). Brahmagupta (628 CE) later codified zero as a number in its own right.",
+      "source": "text:page32"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Hindu System and Zero",
+      "question": "Who codified the use of 0 as a number on which arithmetic operations can be performed, and in which work?",
+      "options": [
+        "Al-Kindi, On the Use of the Hindu Numerals (c. 830)",
+        "Laplace, in his praise of the Indian system",
+        "Brahmagupta, Brāhmasphuṭasiddhānta (628 CE)",
+        "Aryabhata, Āryabhaṭīya (499 CE)"
+      ],
+      "answer": 2,
+      "explanation": "Brahmagupta's Brāhmasphuṭasiddhānta (628 CE) codified zero as a number like any other. Aryabhata used zero's properties earlier but the codification is credited to Brahmagupta.",
+      "source": "text:page32"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Hindu System and Zero",
+      "question": "The chapter says Brahmagupta's numbers formed a 'ring'. Which operation is NOT part of the closure that defines a ring here?",
+      "options": [
+        "Addition",
+        "Subtraction",
+        "Multiplication",
+        "Division"
+      ],
+      "answer": 3,
+      "explanation": "A ring is a set closed under addition, subtraction and multiplication — any two numbers combined by these give another number in the set. Division is not included (e.g. 1 ÷ 2 is not a whole number).",
+      "source": "text:page32"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Hindu System and Zero",
+      "question": "Why does the Hindu system avoid the ambiguities of the Mesopotamian system?",
+      "options": [
+        "It uses 0 as a digit and exactly one digit in each position",
+        "It uses a larger base, so fewer positions are needed",
+        "It writes numbers vertically so positions cannot merge",
+        "It gives every power of 10 its own distinct symbol"
+      ],
+      "answer": 0,
+      "explanation": "Zero as a digit removes blank-space confusion, and a single digit per position means every position is clearly marked. Distinct symbols per power is the Egyptian approach, not the Hindu one.",
+      "source": "text:page31"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Hindu System and Zero",
+      "question": "Which is the correct order of the five ideas in the 'Evolution of Ideas in Number Representation' box?",
+      "options": [
+        "place value → base → landmark numbers → groups → zero",
+        "groups → landmark numbers → base → place value → zero",
+        "landmark numbers → groups → base → zero → place value",
+        "groups → base → landmark numbers → place value → zero"
+      ],
+      "answer": 1,
+      "explanation": "The box lists: (1) count in groups of a single number, (2) group using landmark numbers, (3) choose powers of a number as landmarks — a base, (4) use positions — place value, (5) 0 as a digit and a number.",
+      "source": "text:page32"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Hindu System and Zero",
+      "question": "Which statement about the Hindu number system is NOT correct?",
+      "options": [
+        "It writes all numbers with just ten symbols",
+        "Zero is treated on par with the other digits",
+        "It is a place value system with base 10",
+        "It needs a new symbol for each higher power of 10"
+      ],
+      "answer": 3,
+      "explanation": "The whole point of place value is that NO new symbols are needed for higher powers — positions carry that information. Needing a new symbol per power was the Egyptian shortcoming.",
+      "source": "text:page34"
+    },
+    {
+      "id": "q124",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The Hindu System and Zero",
+      "question": "The Hindu number system is a place value system with ten digits, in which 0 is treated on par with the other digits.",
+      "answer": true,
+      "explanation": "Yes — the summary describes it as a place value system with (usually) 10 digits including 0, which is treated on par with the other digits.",
+      "source": "text:page34"
+    },
+    {
+      "id": "q125",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "The Hindu System and Zero",
+      "question": "Indian mathematicians used zero only as a placeholder and never treated it as a number in its own right.",
+      "answer": false,
+      "explanation": "False. In Indian mathematics zero was given the status of a number on par with others — Aryabhata used its arithmetic properties and Brahmagupta codified operations with it.",
+      "source": "text:page32"
+    },
+    {
+      "id": "q126",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "The Hindu System and Zero",
+      "question": "Which TWO of these civilisations used place value representations, according to the summary?",
+      "options": [
+        "Mesopotamian",
+        "Mayan",
+        "Egyptian",
+        "Roman"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Place value was used by the Mesopotamian (Babylonian), Mayan, Chinese and Indian civilisations. The Egyptian and Roman systems used distinct symbols for landmark numbers without positional meaning.",
+      "source": "text:page34"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Writing Numbers in Other Bases",
+      "question": "Writing the base-10 numeral 25 in base-8 (as the book does) gives:",
+      "options": [
+        "41",
+        "31",
+        "13",
+        "25"
+      ],
+      "answer": 1,
+      "explanation": "25 = 3 × 8 + 1, so the base-8 digits are 3 and 1: '31'. Reading it as thirty-one is a slip — in base-8 '31' means three 8s and one 1.",
+      "source": "exercise:p80-Q4"
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Writing Numbers in Other Bases",
+      "question": "Writing the base-10 numeral 25 in base-5 gives:",
+      "options": [
+        "120",
+        "55",
+        "100",
+        "50"
+      ],
+      "answer": 2,
+      "explanation": "25 = 1 × 5² + 0 × 5 + 0 × 1, so it is written '100' in base-5 — one 25, no 5s, no 1s. Each 0 is a placeholder digit.",
+      "source": "exercise:p80-Q4"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Writing Numbers in Other Bases",
+      "question": "Writing the base-10 numeral 25 in base-2 gives:",
+      "options": [
+        "10101",
+        "11010",
+        "10011",
+        "11001"
+      ],
+      "answer": 3,
+      "explanation": "25 = 16 + 8 + 1 = 1×2⁴ + 1×2³ + 0×2² + 0×2¹ + 1×2⁰ → 11001. 10101 is 21, 11010 is 26 and 10011 is 19.",
+      "source": "exercise:p80-Q4"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Writing Numbers in Other Bases",
+      "question": "In the book's base-2 place value system with urapon = 0 and ukasar = 1, what number is 'uk uk ur'?",
+      "options": [
+        "6",
+        "5",
+        "3",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "uk uk ur = 1×2² + 1×2¹ + 0×2⁰ = 4 + 2 + 0 = 6. Compare the Gumulgal 'ukasar-ukasar-urapon', which means 2 + 2 + 1 = 5 — same words, different system!",
+      "source": "exercise:p80-Q2"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Writing Numbers in Other Bases",
+      "question": "Which of these cannot be a digit in a base-8 Hindu-style numeral?",
+      "options": [
+        "7",
+        "5",
+        "8",
+        "0"
+      ],
+      "answer": 2,
+      "explanation": "In base-8 the digits run from 0 to 7 (0 ≤ aᵢ ≤ 7 in the book's formula). Eight of anything is regrouped into the next position, so 8 itself is never a digit.",
+      "source": "exercise:p80-Q4"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Writing Numbers in Other Bases",
+      "question": "If humans had 8 fingers and used base-8, the landmark numbers would be:",
+      "options": [
+        "1, 8, 16, 24, ...",
+        "1, 8, 80, 800, ...",
+        "0, 8, 64, 512, ...",
+        "1, 8, 64, 512, ..."
+      ],
+      "answer": 3,
+      "explanation": "Landmark numbers are the powers of the base: 8⁰ = 1, 8¹ = 8, 8² = 64, 8³ = 512. Multiples of 8 (16, 24) are not powers, and 0 is never a landmark number.",
+      "source": "exercise:p80-Q4"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Writing Numbers in Other Bases",
+      "question": "Using the same method as the book, the base-10 number 41 written as a base-5 Hindu-style numeral is:",
+      "options": [
+        "121",
+        "131",
+        "141",
+        "113"
+      ],
+      "answer": 1,
+      "explanation": "41 = 1 × 25 + 3 × 5 + 1 × 1, so the digits are 1, 3, 1 → '131'. Check: 25 + 15 + 1 = 41. '141' would be 25 + 20 + 1 = 46.",
+      "source": "text:page33 (same method, new number)"
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Writing Numbers in Other Bases",
+      "question": "Using the book's base-8 method, what base-10 number does the base-8 numeral '123' represent?",
+      "options": [
+        "38",
+        "66",
+        "83",
+        "123"
+      ],
+      "answer": 2,
+      "explanation": "'123' in base-8 = 1 × 64 + 2 × 8 + 3 × 1 = 64 + 16 + 3 = 83. Reading it as one hundred twenty-three ignores that the places are powers of 8.",
+      "source": "text:page33 (same method, new number)"
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Writing Numbers in Other Bases",
+      "question": "Why does the chapter suggest the ancient Indians likely chose base 10?",
+      "options": [
+        "Ten is the smallest number with a symbol for zero",
+        "The Egyptians had already fixed base 10",
+        "Ten is the number of letters in 'Yajurveda'",
+        "Humans have 10 fingers to count on"
+      ],
+      "answer": 3,
+      "explanation": "The chapter says base 10 was likely chosen because humans have 10 fingers and so can count on them — which is why it asks what we would do with 8 fingers.",
+      "source": "text:page33"
+    },
+    {
+      "id": "q136",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Writing Numbers in Other Bases",
+      "question": "25 written in base-8 is '31' because 25 = 3 × 8 + 1.",
+      "answer": true,
+      "explanation": "Yes — three 8s and one 1 give the base-8 digits 3 and 1, so 25 (base-10) = 31 (base-8).",
+      "source": "exercise:p80-Q4"
+    },
+    {
+      "id": "q137",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Writing Numbers in Other Bases",
+      "question": "In the book's base-2 system, 'uk ur' means 2, and in the Gumulgal system 'ukasar-urapon' means 2 as well.",
+      "answer": false,
+      "explanation": "False. In base-2, uk ur = 1×2 + 0 = 2, but in the Gumulgal system ukasar-urapon = 2 + 1 = 3. Same words, different systems — the book's table contrasts exactly this.",
+      "source": "exercise:p80-Q2"
+    },
+    {
+      "id": "q138",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "The Egyptian System",
+      "question": "Which TWO of these numbers need FEWER than 10 symbols when written in the Egyptian system?",
+      "options": [
+        "1023",
+        "1111",
+        "784",
+        "2660",
+        "70707"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "1023 needs 1 + 2 + 3 = 6 symbols and 1111 needs 4. But 784 needs 7 + 8 + 4 = 19, 2660 needs 14 and 70707 needs 21 — the count depends on the digits, not on the size of the number.",
+      "source": "exercise:p62-Q1"
+    },
+    {
+      "id": "q139",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Mesopotamian Place Value",
+      "question": "Which TWO statements about the Mesopotamian system are correct?",
+      "options": [
+        "Numbers from 1 to 59 were built from just the symbols for 1 and 10",
+        "A blank space showed that a power of 60 did not occur",
+        "It was a base-10 system like the Egyptian system",
+        "Its placeholder symbol was always written at the end of numbers"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The wedge (1) and hook (10) build 1–59, and a blank marked an empty position for a power of 60. The system was base-60, not base-10, and the later placeholder was used mainly in the middle of numbers, not at the end.",
+      "source": "text:page26"
+    },
+    {
+      "id": "q140",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Writing Numbers in Other Bases",
+      "question": "Select the TWO correct ways of writing the base-10 number 25 in another base.",
+      "options": [
+        "31 in base-8",
+        "100 in base-5",
+        "10101 in base-2",
+        "33 in base-7"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "25 = 3 × 8 + 1 → 31 (base-8) and 25 = 1 × 25 → 100 (base-5). 10101 in base-2 is 16 + 4 + 1 = 21, and 33 in base-7 is 3 × 7 + 3 = 24.",
+      "source": "exercise:p80-Q4"
+    }
+  ]
+}

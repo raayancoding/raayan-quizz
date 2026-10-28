@@ -1,0 +1,3415 @@
+{
+  "schemaVersion": 1,
+  "id": "science-ch23-air-in-action",
+  "title": "Air in Action",
+  "subject": "Science",
+  "grade": 4,
+  "sourceDir": "output/Science/23_Air-in-action",
+  "chapter": "23. Air in Action",
+  "topic": "Full Chapter",
+  "description": "What air is made of, how air supports burning (the fire triangle, flame colour, miners' lamps, candles under jars), how air exerts pressure (straws, breathing, ears, altitude) and how wind, sea breezes and the monsoon are made.",
+  "tags": [
+    "science",
+    "grade4",
+    "air",
+    "composition-of-air",
+    "fire-triangle",
+    "air-pressure",
+    "wind",
+    "sea-breeze",
+    "monsoon"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Air is a Mixture of Gases",
+      "question": "According to the book, air is best described as",
+      "options": [
+        "a mixture of several gases",
+        "one single pure substance",
+        "mostly oxygen and some dust",
+        "a thin liquid spread out"
+      ],
+      "answer": 0,
+      "explanation": "The book says air feels like one thing but is actually made up of several gases mixed together, each present in a different amount.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Air is a Mixture of Gases",
+      "question": "In the '100 cups of air' picture, how many cups would be filled with nitrogen?",
+      "options": [
+        "99 cups",
+        "78 cups",
+        "21 cups",
+        "50 cups"
+      ],
+      "answer": 1,
+      "explanation": "Nitrogen is the largest part of air: 78 of every 100 cups.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Air is a Mixture of Gases",
+      "question": "In the '100 cups of air' picture, how many cups would be filled with oxygen?",
+      "options": [
+        "10 cups",
+        "4 cups",
+        "21 cups",
+        "78 cups"
+      ],
+      "answer": 2,
+      "explanation": "Oxygen fills about 21 of the 100 cups; it is the gas our body needs.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Air is a Mixture of Gases",
+      "question": "Which gas in air has an amount that changes all the time, with more near the sea and very little in a desert?",
+      "options": [
+        "Nitrogen",
+        "Carbon dioxide",
+        "Oxygen",
+        "Water vapour"
+      ],
+      "answer": 3,
+      "explanation": "The amount of water vapour varies: more cups near the sea or in the rainy season, very few in a desert.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Air is a Mixture of Gases",
+      "question": "Which gas in air do plants use with sunlight to make their own food?",
+      "options": [
+        "Carbon dioxide",
+        "Nitrogen",
+        "Water vapour",
+        "Oxygen"
+      ],
+      "answer": 0,
+      "explanation": "Less than one cup of air is carbon dioxide, but plants use it with sunlight in photosynthesis.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Air is a Mixture of Gases",
+      "question": "Which gas is present only as a small trace and 'doesn't react with anything, it simply exists quietly'?",
+      "options": [
+        "Carbon dioxide",
+        "Argon",
+        "Oxygen",
+        "Water vapour"
+      ],
+      "answer": 1,
+      "explanation": "Argon is the small trace left over; it does not react with anything and is just part of the mixture.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Air is a Mixture of Gases",
+      "question": "Where would you expect to find the MOST cups of water vapour in air?",
+      "options": [
+        "Inside a sealed gas cylinder",
+        "In a cold, empty storeroom",
+        "Near the sea in the rainy season",
+        "In the middle of a dry desert"
+      ],
+      "answer": 2,
+      "explanation": "The book says water vapour increases near the sea or in the rainy season and is very low in a desert.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Air is a Mixture of Gases",
+      "question": "Which list puts the gases in order from MOST to LEAST in air?",
+      "options": [
+        "Oxygen, nitrogen, carbon dioxide",
+        "Carbon dioxide, oxygen, nitrogen",
+        "Oxygen, carbon dioxide, nitrogen",
+        "Nitrogen, oxygen, carbon dioxide"
+      ],
+      "answer": 3,
+      "explanation": "Nitrogen is 78 cups, oxygen 21 cups and carbon dioxide less than one cup.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Air is a Mixture of Gases",
+      "question": "The 100-cups activity asks you to imagine",
+      "options": [
+        "sorting the air so each cup holds one gas",
+        "each cup holding the full mix of gases",
+        "boiling the air until it becomes water",
+        "counting the dust grains in every cup"
+      ],
+      "answer": 0,
+      "explanation": "The idea is to sort all the gas so each cup contains just one gas; that shows how much of each gas is in air.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Air is a Mixture of Gases",
+      "question": "If nitrogen and oxygen fill 99 of the 100 cups, the last cup is shared by",
+      "options": [
+        "only argon and nothing else at all",
+        "argon, carbon dioxide and water vapour",
+        "extra oxygen that was left over",
+        "only water vapour and nothing else"
+      ],
+      "answer": 1,
+      "explanation": "The small remainder of air is made of argon, carbon dioxide and a changing amount of water vapour.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Air is a Mixture of Gases",
+      "question": "The book says air fills",
+      "options": [
+        "only places where wind blows",
+        "only balloons and pumped tyres",
+        "even the empty corners of a room",
+        "only the spaces high in the sky"
+      ],
+      "answer": 2,
+      "explanation": "Air is all around us; it fills spaces around trees, buildings and even the empty corners of a room.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q12",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Air is a Mixture of Gases",
+      "question": "Air is one single substance that is the same everywhere.",
+      "answer": false,
+      "explanation": "False. Air is a mixture of several gases, and the amounts can even change from place to place.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q13",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Air is a Mixture of Gases",
+      "question": "Nitrogen fills about 78 of every 100 cups of air.",
+      "answer": true,
+      "explanation": "True. Nitrogen is the biggest part of air at about 78%.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q14",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Air is a Mixture of Gases",
+      "question": "Oxygen makes up about half of the air around us.",
+      "answer": false,
+      "explanation": "False. Oxygen is only about 21 cups out of 100, not half.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q15",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Air is a Mixture of Gases",
+      "question": "Carbon dioxide fills more cups of air than oxygen does.",
+      "answer": false,
+      "explanation": "False. Carbon dioxide is less than one cup in 100; oxygen is 21 cups.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q16",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Air is a Mixture of Gases",
+      "question": "Which TWO gases together make up about 99 of the 100 cups of air?",
+      "options": [
+        "Nitrogen",
+        "Oxygen",
+        "Argon",
+        "Carbon dioxide"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Nitrogen (78) and oxygen (21) add up to 99 cups; argon and carbon dioxide are tiny amounts.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Air is a Mixture of Gases",
+      "question": "Select the TWO true statements about carbon dioxide in air.",
+      "options": [
+        "It is less than one cup in 100",
+        "Plants use it with sunlight to make food",
+        "It is the gas our muscles need to work",
+        "It is the largest part of the air"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Carbon dioxide is a tiny part of air, used by plants in photosynthesis. Oxygen powers muscles and nitrogen is the largest part.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Breathing: Oxygen and Nitrogen",
+      "question": "About what percentage of the air we breathe IN is oxygen?",
+      "options": [
+        "About 78%",
+        "About 16%",
+        "About 4%",
+        "About 21%"
+      ],
+      "answer": 3,
+      "explanation": "Our lungs extract the ~21% oxygen from each breath and send the rest back out.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Breathing: Oxygen and Nitrogen",
+      "question": "About how much oxygen is in the air we breathe OUT?",
+      "options": [
+        "About 16%",
+        "About 0%",
+        "About 21%",
+        "About 78%"
+      ],
+      "answer": 0,
+      "explanation": "Exhaled air still has about 16% oxygen; we do not use up all the oxygen we inhale.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Breathing: Oxygen and Nitrogen",
+      "question": "About how much carbon dioxide is in the air we breathe out?",
+      "options": [
+        "About 78%",
+        "About 4%",
+        "About 21%",
+        "About 16%"
+      ],
+      "answer": 1,
+      "explanation": "Exhaled air has about 4% carbon dioxide, produced by your cells.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Breathing: Oxygen and Nitrogen",
+      "question": "What fraction of exhaled air is nitrogen?",
+      "options": [
+        "About 4%",
+        "About 0%",
+        "About 78%",
+        "About 16%"
+      ],
+      "answer": 2,
+      "explanation": "Nitrogen goes in and out unchanged, so exhaled air is still about 78% nitrogen.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Breathing: Oxygen and Nitrogen",
+      "question": "Why do we actually need nitrogen in the air?",
+      "options": [
+        "To power our muscles, brain and heart",
+        "To help green plants make their food",
+        "To make candle flames burn brighter",
+        "To keep oxygen from being too concentrated"
+      ],
+      "answer": 3,
+      "explanation": "Nitrogen dilutes oxygen. Pure oxygen continuously is toxic to cells, so the unreactive nitrogen provides safe dilution.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Breathing: Oxygen and Nitrogen",
+      "question": "What happens if a person breathes pure oxygen continuously over time?",
+      "options": [
+        "It becomes toxic to the cells",
+        "The cells grow much stronger",
+        "The lungs stop needing to breathe",
+        "Nothing changes in the body"
+      ],
+      "answer": 0,
+      "explanation": "The book states that pure oxygen continuously is toxic to cells over time, which is why we need diluted oxygen.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Breathing: Oxygen and Nitrogen",
+      "question": "Which statement about breathing is CORRECT?",
+      "options": [
+        "Our lungs use up every bit of oxygen we breathe in",
+        "Air is mostly nitrogen; we use only part of its oxygen",
+        "Air is mostly oxygen because that is what we need",
+        "We breathe in pure oxygen and breathe out nitrogen"
+      ],
+      "answer": 1,
+      "explanation": "A common mix-up is thinking we breathe pure oxygen. Air is 78% nitrogen, and exhaled air still has 16% oxygen.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Breathing: Oxygen and Nitrogen",
+      "question": "Compared with the air you breathed in, the air you breathe out has",
+      "options": [
+        "no nitrogen left",
+        "no carbon dioxide",
+        "more water vapour",
+        "more oxygen"
+      ],
+      "answer": 2,
+      "explanation": "Exhaled air has less oxygen (16%), more carbon dioxide (4%) and more water vapour than inhaled air.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Breathing: Oxygen and Nitrogen",
+      "question": "Which gas does your body need to power your muscles, brain and heart?",
+      "options": [
+        "Nitrogen",
+        "Argon",
+        "Carbon dioxide",
+        "Oxygen"
+      ],
+      "answer": 3,
+      "explanation": "Oxygen is the gas your body needs to power your muscles, brain and heart.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Breathing: Oxygen and Nitrogen",
+      "question": "Exhaled air has about 4% carbon dioxide. Where does this carbon dioxide come from?",
+      "options": [
+        "It is produced by your cells",
+        "It leaks in from the outside air",
+        "Nitrogen turns into carbon dioxide",
+        "The lungs make it from water vapour"
+      ],
+      "answer": 0,
+      "explanation": "The carbon dioxide in exhaled air is produced by your cells and carried out when you breathe.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Breathing: Oxygen and Nitrogen",
+      "question": "What would happen if nitrogen were NOT diluting the oxygen in the air?",
+      "options": [
+        "Water vapour would disappear",
+        "Things would catch fire too easily",
+        "Plants would stop making food",
+        "Air would become heavier"
+      ],
+      "answer": 1,
+      "explanation": "Nitrogen keeps oxygen from being too concentrated; without it, things would catch fire too easily.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q29",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Breathing: Oxygen and Nitrogen",
+      "question": "The air you breathe out contains 0% oxygen.",
+      "answer": false,
+      "explanation": "False. Exhaled air still contains about 16% oxygen.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q30",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Breathing: Oxygen and Nitrogen",
+      "question": "Our lungs take oxygen from each breath and send the rest of the air back out.",
+      "answer": true,
+      "explanation": "True. The lungs extract about 21% oxygen and send the rest back out.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q31",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Breathing: Oxygen and Nitrogen",
+      "question": "Without nitrogen in the air, things would be LESS likely to catch fire.",
+      "answer": false,
+      "explanation": "False. Nitrogen dilutes oxygen; without it things would catch fire too easily.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q32",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Breathing: Oxygen and Nitrogen",
+      "question": "Breathing pure oxygen all the time would be good for our cells.",
+      "answer": false,
+      "explanation": "False. Pure oxygen continuously is toxic to cells over time.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q33",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Breathing: Oxygen and Nitrogen",
+      "question": "Select the TWO true facts about exhaled air.",
+      "options": [
+        "It is still about 78% nitrogen",
+        "It has about 16% oxygen",
+        "It has about 21% oxygen",
+        "It contains no water vapour"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Exhaled air: ~78% nitrogen, ~16% oxygen, ~4% carbon dioxide and more water vapour than inhaled air.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Gases from Air and Their Uses",
+      "question": "Where, according to the book, is air separated into different gases?",
+      "options": [
+        "In deep caves",
+        "Inside our lungs",
+        "In factories",
+        "In hospitals"
+      ],
+      "answer": 2,
+      "explanation": "In factories, air is separated into gases like nitrogen, oxygen and argon and stored in cylinders.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Gases from Air and Their Uses",
+      "question": "Which gas is used in welding to protect the hot metal?",
+      "options": [
+        "Nitrogen",
+        "Oxygen",
+        "Water vapour",
+        "Argon"
+      ],
+      "answer": 3,
+      "explanation": "Argon protects the hot metal from air during welding, keeping the joint strong.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Gases from Air and Their Uses",
+      "question": "Which gas is used to fill car and truck tyres?",
+      "options": [
+        "Nitrogen",
+        "Argon",
+        "Oxygen",
+        "Carbon dioxide"
+      ],
+      "answer": 0,
+      "explanation": "Nitrogen keeps the tyre pressure steady, even when the tyre gets hot on the road.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Gases from Air and Their Uses",
+      "question": "Which gas is used in hospitals to help patients breathe?",
+      "options": [
+        "Carbon dioxide",
+        "Oxygen",
+        "Argon",
+        "Nitrogen"
+      ],
+      "answer": 1,
+      "explanation": "Oxygen cylinders help patients who have trouble breathing on their own.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Gases from Air and Their Uses",
+      "question": "Why is argon used in welding?",
+      "options": [
+        "It helps the metal pieces melt more quickly",
+        "It cools the metal down as soon as it is joined",
+        "It protects hot metal from air, keeping the joint strong",
+        "It makes the torch flame much hotter than usual"
+      ],
+      "answer": 2,
+      "explanation": "Argon does not react, so it shields the hot metal from air and the joint stays strong.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Gases from Air and Their Uses",
+      "question": "Why is nitrogen used to fill truck tyres?",
+      "options": [
+        "It makes the tyre much lighter than air would",
+        "It stops the rubber from ever wearing out",
+        "It helps the tyre grip the wet road better",
+        "It keeps tyre pressure steady when the tyre heats up"
+      ],
+      "answer": 3,
+      "explanation": "Nitrogen keeps the tyre pressure steady even when it gets hot on the road.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Gases from Air and Their Uses",
+      "question": "Separating air into nitrogen, oxygen and argon in factories is given as proof that",
+      "options": [
+        "air is a mixture of gases",
+        "air is a single pure gas",
+        "air cannot be stored",
+        "air is mostly oxygen"
+      ],
+      "answer": 0,
+      "explanation": "If air can be split into separate gases, it must be a mixture, not one substance.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Gases from Air and Their Uses",
+      "question": "A cylinder is being connected to a welding torch to protect the joint. Which gas is most likely inside?",
+      "options": [
+        "Carbon dioxide",
+        "Argon",
+        "Oxygen",
+        "Nitrogen"
+      ],
+      "answer": 1,
+      "explanation": "Argon is the gas used in welding; nitrogen goes into tyres and oxygen into hospital cylinders.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Gases from Air and Their Uses",
+      "question": "In the pie-chart activity, if the whole pie is 100 parts, the oxygen slice should be about",
+      "options": [
+        "50 parts",
+        "1 part",
+        "21 parts",
+        "78 parts"
+      ],
+      "answer": 2,
+      "explanation": "Oxygen is about 21 of 100 parts; nitrogen is 78 and all the rest share about 1 part.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Gases from Air and Their Uses",
+      "question": "What is welding?",
+      "options": [
+        "Filling tyres with a steady gas",
+        "Helping patients to breathe",
+        "Separating air into gases",
+        "Joining two metal pieces with a torch"
+      ],
+      "answer": 3,
+      "explanation": "The book explains welding as joining two metal pieces together with a torch.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q44",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Gases from Air and Their Uses",
+      "question": "Gases separated from air are stored in separate cylinders for later use.",
+      "answer": true,
+      "explanation": "True. Nitrogen, oxygen and argon are stored in separate cylinders and used whenever needed.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q45",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Gases from Air and Their Uses",
+      "question": "Oxygen is used to fill truck tyres because it keeps the pressure steady.",
+      "answer": false,
+      "explanation": "False. Nitrogen, not oxygen, is used to fill car and truck tyres.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q46",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Gases from Air and Their Uses",
+      "question": "Argon is used in hospitals to help patients breathe.",
+      "answer": false,
+      "explanation": "False. Oxygen is used in hospitals; argon is used in welding.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q47",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Gases from Air and Their Uses",
+      "question": "Which TWO uses of gases from air are described in the book?",
+      "options": [
+        "Argon for welding",
+        "Nitrogen for tyres",
+        "Carbon dioxide for cooking",
+        "Water vapour for cleaning"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The book describes argon in welding, nitrogen in tyres and oxygen in hospitals.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Air in Closed Spaces",
+      "question": "What does the caver's small beeping device check?",
+      "options": [
+        "The gases in the air around the caver",
+        "How many tools the caver carries",
+        "How much water the caver has left",
+        "How bright the headlamp is shining"
+      ],
+      "answer": 0,
+      "explanation": "The device checks the gases in the air, making sure oxygen is enough and carbon dioxide hasn't built up.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Air in Closed Spaces",
+      "question": "Where does the composition of air usually stay steady?",
+      "options": [
+        "Inside sealed grain storage bins",
+        "In open spaces where wind blows freely",
+        "Deep inside caves with still air",
+        "In closed rooms with poor ventilation"
+      ],
+      "answer": 1,
+      "explanation": "Near open spaces where wind blows freely, air stays about 78 nitrogen, 21 oxygen and a little of the rest.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Air in Closed Spaces",
+      "question": "In closed, still places where air cannot mix freely, oxygen can",
+      "options": [
+        "turn into nitrogen",
+        "stay exactly the same",
+        "drop lower than usual",
+        "rise higher than usual"
+      ],
+      "answer": 2,
+      "explanation": "In closed spaces oxygen can drop and other gases can build up without anyone noticing right away.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Air in Closed Spaces",
+      "question": "Which of these is NOT listed in the book as a place where the air balance can quietly change?",
+      "options": [
+        "Deep inside a cave",
+        "A crowded, closed room",
+        "A sealed grain storage bin",
+        "An open, windy beach"
+      ],
+      "answer": 3,
+      "explanation": "Caves, crowded places, poorly ventilated rooms and sealed grain bins are listed; open windy places keep a steady mix.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Air in Closed Spaces",
+      "question": "The caver's device makes sure that",
+      "options": [
+        "oxygen is enough and carbon dioxide has not built up",
+        "nitrogen is low and argon is high enough",
+        "the cave is dry and the ropes are strong",
+        "there is enough light to see the walls"
+      ],
+      "answer": 0,
+      "explanation": "It checks that oxygen is still enough to breathe and carbon dioxide hasn't built up too much.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Air in Closed Spaces",
+      "question": "Why is the device so important even if a caver leaves everything else behind?",
+      "options": [
+        "The device also works as a torch",
+        "Air changes can happen without anyone noticing",
+        "Caves are always completely dark inside",
+        "Ropes and helmets are easy to replace"
+      ],
+      "answer": 1,
+      "explanation": "Oxygen can drop and other gases build up quietly in closed spaces, so a device is needed to notice the danger.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Air in Closed Spaces",
+      "question": "Besides the beeping device, what do cavers carry into a deep cave?",
+      "options": [
+        "Cylinders of pure oxygen",
+        "Fans to blow fresh air",
+        "Ropes, helmets and headlamps",
+        "Candles, matches and lamps"
+      ],
+      "answer": 2,
+      "explanation": "Cavers carry ropes, helmets, headlamps and the small beeping device.",
+      "source": "book:page1"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Air in Closed Spaces",
+      "question": "A classroom is packed with students and the windows have been shut for hours. Using the book, what can happen to its air?",
+      "options": [
+        "Nitrogen slowly turns into fresh oxygen",
+        "The air becomes just like outdoor air",
+        "All the water vapour disappears",
+        "Oxygen may drop and other gases may build up"
+      ],
+      "answer": 3,
+      "explanation": "A crowded, closed room with poor ventilation is one of the places where oxygen can drop and other gases build up.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Air in Closed Spaces",
+      "question": "In open air the usual mix is about",
+      "options": [
+        "78 nitrogen, 21 oxygen, a little of the rest",
+        "21 nitrogen, 78 oxygen, a little of the rest",
+        "50 nitrogen, 50 oxygen and nothing else",
+        "78 oxygen, 21 carbon dioxide, a little argon"
+      ],
+      "answer": 0,
+      "explanation": "The steady composition is about 78 cups nitrogen, 21 cups oxygen and a little of the other gases.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q57",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Air in Closed Spaces",
+      "question": "The caver's device was checking for tools and water.",
+      "answer": false,
+      "explanation": "False. It was checking the gases in the air around the caver.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q58",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Air in Closed Spaces",
+      "question": "In closed rooms with poor ventilation, other gases can build up more than usual.",
+      "answer": true,
+      "explanation": "True. Where air can't move or mix freely, oxygen can drop and other gases can build up.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q59",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Air in Closed Spaces",
+      "question": "Changes in the air of a closed space are easy to notice right away without any device.",
+      "answer": false,
+      "explanation": "False. The book says this balance can change 'without anyone noticing right away'.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q60",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Air in Closed Spaces",
+      "question": "Sealed grain storage bins are mentioned as places where oxygen can drop.",
+      "answer": true,
+      "explanation": "True. Sealed grain storage bins are one of the examples given.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q61",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Air in Closed Spaces",
+      "question": "Select the TWO things the caver's device makes sure of.",
+      "options": [
+        "Oxygen is still enough to breathe",
+        "Carbon dioxide has not built up too much",
+        "Nitrogen has not run out",
+        "Argon is reacting properly"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The device checks oxygen is enough and carbon dioxide hasn't built up; nitrogen and argon are not the concern.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Fire Triangle",
+      "question": "The book says fire is not a thing but",
+      "options": [
+        "a kind of bright liquid",
+        "an event, a chemical reaction",
+        "a solid made of hot ash",
+        "a gas stored in the fuel"
+      ],
+      "answer": 1,
+      "explanation": "Fire is a chemical reaction happening continuously between a fuel and oxygen, releasing heat and light.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Fire Triangle",
+      "question": "Which of these is NOT one of the three sides of the fire triangle?",
+      "options": [
+        "Heat",
+        "Oxygen",
+        "Nitrogen",
+        "Fuel"
+      ],
+      "answer": 2,
+      "explanation": "The three requirements for fire are fuel, heat and oxygen.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Fire Triangle",
+      "question": "Fire is a reaction between a fuel and which gas in air?",
+      "options": [
+        "Nitrogen",
+        "Argon",
+        "Water vapour",
+        "Oxygen"
+      ],
+      "answer": 3,
+      "explanation": "Fire is a chemical reaction between a fuel and air, specifically oxygen.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Fire Triangle",
+      "question": "As fire burns, it releases",
+      "options": [
+        "heat and light",
+        "fuel and oxygen",
+        "water and soil",
+        "wind and rain"
+      ],
+      "answer": 0,
+      "explanation": "The reaction between fuel and oxygen releases heat and light as it goes.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Fire Triangle",
+      "question": "Why do scientists describe the requirements for fire as a triangle?",
+      "options": [
+        "Three people are needed to light it",
+        "Removing any one side makes it collapse",
+        "Flames are shaped like triangles",
+        "Fire needs exactly three minutes"
+      ],
+      "answer": 1,
+      "explanation": "Just as a triangle collapses if you remove one side, fire stops the moment any one condition disappears.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Fire Triangle",
+      "question": "A firefighter covers a burning oil pan with a metal lid. Which side of the fire triangle is removed?",
+      "options": [
+        "Heat",
+        "Light",
+        "Oxygen",
+        "Fuel"
+      ],
+      "answer": 2,
+      "explanation": "The lid cuts off the air supply, so the fire has no oxygen to react with and goes out.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Fire Triangle",
+      "question": "You pour water on a campfire and it goes out. Which side of the fire triangle is removed?",
+      "options": [
+        "Fuel",
+        "Oxygen",
+        "Smoke",
+        "Heat"
+      ],
+      "answer": 3,
+      "explanation": "Water cools the fire below the temperature it needs, so the triangle collapses from the heat side.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Fire Triangle",
+      "question": "A gas stove knob is turned OFF and the flame dies. Which side was removed?",
+      "options": [
+        "Fuel",
+        "Heat",
+        "Oxygen",
+        "Light"
+      ],
+      "answer": 0,
+      "explanation": "Turning the knob off stops the gas, which is the fuel, so the fire cannot continue.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Fire Triangle",
+      "question": "A campfire goes out when all the wood has been used up. Which part of the fire triangle was removed?",
+      "options": [
+        "Air pressure",
+        "Fuel",
+        "Oxygen",
+        "Heat"
+      ],
+      "answer": 1,
+      "explanation": "Wood is the fuel. When it is used up, the fire has nothing left to burn.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Fire Triangle",
+      "question": "You cover a burning diya with a steel bowl and the flame goes out in a few seconds. Why?",
+      "options": [
+        "The bowl made the diya too cold to burn",
+        "The bowl blocked the heat from escaping",
+        "The bowl cut off the supply of oxygen",
+        "The bowl used up all the fuel inside"
+      ],
+      "answer": 2,
+      "explanation": "The bowl stops fresh air reaching the flame, so the oxygen runs low and the fire triangle breaks.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Fire Triangle",
+      "question": "What happens 'the moment the reaction cannot sustain itself'?",
+      "options": [
+        "The fire gets much hotter",
+        "The fuel turns into oxygen",
+        "The flame changes to blue",
+        "The fire simply stops"
+      ],
+      "answer": 3,
+      "explanation": "Fire is a continuous reaction; when it can no longer keep going, the fire simply stops.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Fire Triangle",
+      "question": "Sand is thrown over a small fire and it is smothered. Which side of the triangle is most likely removed?",
+      "options": [
+        "Oxygen",
+        "Fuel",
+        "Heat",
+        "Light"
+      ],
+      "answer": 0,
+      "explanation": "Like a lid on an oil pan, sand covers the fire and stops air (oxygen) reaching it.",
+      "source": "book:page9 (apply)"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Fire Triangle",
+      "question": "Complete the blank: The three things every fire needs are oxygen, ____ and ____.",
+      "options": [
+        "argon and nitrogen",
+        "heat and fuel",
+        "smoke and light",
+        "wood and wind"
+      ],
+      "answer": 1,
+      "explanation": "Every fire needs oxygen, heat and fuel; these are the three sides of the fire triangle.",
+      "source": "book:page20"
+    },
+    {
+      "id": "q75",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The Fire Triangle",
+      "question": "The book describes fire as an event, not a thing.",
+      "answer": true,
+      "explanation": "True. Fire is a chemical reaction that keeps happening between fuel and oxygen.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q76",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The Fire Triangle",
+      "question": "Removing any one side of the fire triangle puts the fire out.",
+      "answer": true,
+      "explanation": "True. Fire collapses the moment any one condition disappears.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q77",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "The Fire Triangle",
+      "question": "A fire can keep burning if it has fuel and heat but no oxygen.",
+      "answer": false,
+      "explanation": "False. All three sides are needed; without oxygen the fire goes out.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q78",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "The Fire Triangle",
+      "question": "Pouring water on a campfire mainly removes the fuel.",
+      "answer": false,
+      "explanation": "False. Water removes the heat side; the wood (fuel) is still there.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q79",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "The Fire Triangle",
+      "question": "Select the TWO items that are sides of the fire triangle.",
+      "options": [
+        "Fuel",
+        "Heat",
+        "Air pressure",
+        "Nitrogen"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The triangle has fuel, heat and oxygen. Air pressure and nitrogen are not part of it.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Flame Colour and Burning",
+      "question": "A blue flame on a gas stove means the fire is",
+      "options": [
+        "too cold to burn",
+        "making lots of soot",
+        "getting plenty of oxygen",
+        "running out of fuel"
+      ],
+      "answer": 2,
+      "explanation": "A blue flame means plenty of oxygen, efficient burning and more heat.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Flame Colour and Burning",
+      "question": "A yellow or orange stove flame means",
+      "options": [
+        "too much oxygen",
+        "too much heat",
+        "no fuel at all",
+        "not enough oxygen"
+      ],
+      "answer": 3,
+      "explanation": "A yellow or orange flame means there is not enough oxygen and the fuel isn't burning cleanly.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Flame Colour and Burning",
+      "question": "When a flame burns yellow, tiny particles of what are produced?",
+      "options": [
+        "Soot",
+        "Argon",
+        "Water",
+        "Sand"
+      ],
+      "answer": 0,
+      "explanation": "With too little oxygen the fuel does not burn cleanly, and tiny particles of soot are produced.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Flame Colour and Burning",
+      "question": "Which flame produces MORE heat?",
+      "options": [
+        "A weak flame",
+        "A blue flame",
+        "A yellow flame",
+        "An orange flame"
+      ],
+      "answer": 1,
+      "explanation": "A blue flame burns efficiently with plenty of oxygen and produces more heat.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Flame Colour and Burning",
+      "question": "Your stove flame has turned from blue to yellow. What should you conclude?",
+      "options": [
+        "The stove is producing more heat",
+        "There is extra oxygen around it",
+        "The fuel is not burning cleanly",
+        "The gas is burning very efficiently"
+      ],
+      "answer": 2,
+      "explanation": "A yellow flame signals too little oxygen: the fuel isn't burning cleanly and soot forms.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Flame Colour and Burning",
+      "question": "According to the book, what decides whether a stove flame 'lives or dies'?",
+      "options": [
+        "The colour of the pan",
+        "The size of the kitchen",
+        "The brand of the stove",
+        "The air around it"
+      ],
+      "answer": 3,
+      "explanation": "The flame and the air around it work together every second; the air decides whether the flame lives or dies.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q86",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Flame Colour and Burning",
+      "question": "A blue flame means the fire is getting plenty of oxygen.",
+      "answer": true,
+      "explanation": "True. Blue means efficient burning with lots of oxygen.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q87",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Flame Colour and Burning",
+      "question": "An orange flame burns more efficiently than a blue one.",
+      "answer": false,
+      "explanation": "False. Orange or yellow means not enough oxygen; blue is the efficient flame.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q88",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Flame Colour and Burning",
+      "question": "Soot is produced when fuel burns cleanly with plenty of oxygen.",
+      "answer": false,
+      "explanation": "False. Soot forms when there is not enough oxygen and fuel burns unclean.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q89",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Flame Colour and Burning",
+      "question": "Select the TWO signs that a stove flame is burning efficiently.",
+      "options": [
+        "Blue colour",
+        "More heat produced",
+        "Tiny soot particles",
+        "Yellow colour"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "An efficient flame is blue and gives more heat; soot and yellow colour show poor burning.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Miners' Lamps Read the Air",
+      "question": "What did miners long ago carry to check whether the air was safe?",
+      "options": [
+        "Simple oil lamps",
+        "Electronic sensors",
+        "Beeping devices",
+        "Small candles"
+      ],
+      "answer": 0,
+      "explanation": "Miners carried oil lamps that gave light and also helped them 'read the air'.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Miners' Lamps Read the Air",
+      "question": "A bright, steady lamp flame told miners that",
+      "options": [
+        "the lamp was running out of oil",
+        "the air could support burning",
+        "the air had become dangerous",
+        "it was time to turn back"
+      ],
+      "answer": 1,
+      "explanation": "A bright, steady flame meant the air could support burning and was safe.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Miners' Lamps Read the Air",
+      "question": "If a miner's flame became weak or small, it was",
+      "options": [
+        "a signal to light more lamps",
+        "proof that oxygen had increased",
+        "a warning that the air had changed",
+        "a sign that the air was very fresh"
+      ],
+      "answer": 2,
+      "explanation": "A weak flame warned miners that something in the air had changed.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Miners' Lamps Read the Air",
+      "question": "What would miners do if the lamp flame went out?",
+      "options": [
+        "Light the lamp again and go deeper",
+        "Run quickly to finish the work",
+        "Wait for the flame to come back",
+        "Stop, check and turn back if needed"
+      ],
+      "answer": 3,
+      "explanation": "A flame going out was a serious signal; miners would stop, check and turn back if needed.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Miners' Lamps Read the Air",
+      "question": "Who designed a safer lamp for miners in 1815?",
+      "options": [
+        "Humphry Davy",
+        "Isaac Newton",
+        "Thomas Edison",
+        "Michael Faraday"
+      ],
+      "answer": 0,
+      "explanation": "In 1815, Humphry Davy designed a safer lamp that helped miners detect dangerous conditions underground.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Miners' Lamps Read the Air",
+      "question": "In which year was the safer miner's lamp designed?",
+      "options": [
+        "1851",
+        "1815",
+        "1915",
+        "1715"
+      ],
+      "answer": 1,
+      "explanation": "The Did You Know box says Humphry Davy designed the safer lamp in 1815.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Miners' Lamps Read the Air",
+      "question": "What measures gases in the air for workers today?",
+      "options": [
+        "Candles in jars",
+        "Glass water jars",
+        "Electronic sensors",
+        "Oil lamp flames"
+      ],
+      "answer": 2,
+      "explanation": "Today, electronic sensors measure gases in the air; long ago a tiny flame did the same job.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Miners' Lamps Read the Air",
+      "question": "What does the book mean by 'the lamp didn't just give light, it read the air'?",
+      "options": [
+        "The lamp could print out a gas report",
+        "The light made the air easier to see",
+        "The lamp warmed the cold mine air",
+        "The flame's behaviour showed if the air was safe"
+      ],
+      "answer": 3,
+      "explanation": "By watching whether the flame was bright, weak or out, miners learned about the air around them.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Miners' Lamps Read the Air",
+      "question": "Why is the miners' lamp called 'science in action'?",
+      "options": [
+        "They used observations to stay safe",
+        "They did experiments in a laboratory",
+        "They measured gases with instruments",
+        "They wrote down chemical formulas"
+      ],
+      "answer": 0,
+      "explanation": "Watching the flame and acting on it is using observations to make safe decisions.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Miners' Lamps Read the Air",
+      "question": "Which flame sign was the MOST serious for miners?",
+      "options": [
+        "The flame was small",
+        "The flame went out",
+        "The flame was bright",
+        "The flame was steady"
+      ],
+      "answer": 1,
+      "explanation": "A flame that went out was a signal to stop and turn back; a weak flame was only a warning.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q100",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Miners' Lamps Read the Air",
+      "question": "Long ago, miners had machines that measured gases precisely.",
+      "answer": false,
+      "explanation": "False. Long before machines could measure gases, miners used oil-lamp flames.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q101",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Miners' Lamps Read the Air",
+      "question": "Humphry Davy designed a safer miner's lamp in 1815.",
+      "answer": true,
+      "explanation": "True. This is given in the Did You Know box.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q102",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Miners' Lamps Read the Air",
+      "question": "If a miner's flame went out, the miners would hurry deeper to finish quickly.",
+      "answer": false,
+      "explanation": "False. They would stop, check and turn back if needed.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q103",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Miners' Lamps Read the Air",
+      "question": "Modern electronic sensors do the same job the tiny flame once did.",
+      "answer": true,
+      "explanation": "True. The Then and Now box compares the oil lamp with the modern oxygen sensor.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q104",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Miners' Lamps Read the Air",
+      "question": "Select the TWO correct flame signals used by miners.",
+      "options": [
+        "Bright steady flame = air supports burning",
+        "Flame goes out = stop and turn back",
+        "Weak flame = air is extra rich in oxygen",
+        "Bright flame = danger, leave at once"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Bright meant safe, weak meant warning, and a flame going out meant stop and turn back.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Blowing on a Candle",
+      "question": "What does a GENTLE flow of air do to a candle flame?",
+      "options": [
+        "Blows the hot fuel vapour far away",
+        "Turns the flame yellow and smoky",
+        "Brings fresh oxygen so it burns brighter",
+        "Cools it until the flame goes out"
+      ],
+      "answer": 2,
+      "explanation": "A gentle flow brings fresh oxygen; more oxygen means the fuel burns more efficiently and the flame grows brighter.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Blowing on a Candle",
+      "question": "What does a STRONG blast of air do to a candle flame?",
+      "options": [
+        "Feeds it more oxygen to grow",
+        "Adds more wax to the wick",
+        "Makes it burn a brighter blue",
+        "Cools it and blows the fuel vapour away"
+      ],
+      "answer": 3,
+      "explanation": "A strong blast cools the flame below the needed temperature and blows the hot fuel vapour away.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Blowing on a Candle",
+      "question": "When you blow out a candle, the fire triangle collapses from which side?",
+      "options": [
+        "Heat",
+        "Fuel",
+        "Oxygen",
+        "Light"
+      ],
+      "answer": 0,
+      "explanation": "The strong blast cools the flame below the temperature needed, so the triangle breaks on the heat side.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Blowing on a Candle",
+      "question": "'Same air, two opposite results.' What does the result depend on?",
+      "options": [
+        "How much nitrogen is in the air",
+        "Which side of the triangle is affected",
+        "How tall the candle and wick are",
+        "What colour the candle wax is"
+      ],
+      "answer": 1,
+      "explanation": "Gentle air adds oxygen; a strong blast removes heat. The outcome depends on which side of the triangle is affected.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Blowing on a Candle",
+      "question": "Air is what fire needs, so why doesn't blowing hard make the candle brighter?",
+      "options": [
+        "Blowing adds carbon dioxide only",
+        "The flame cannot use moving air",
+        "The blast removes heat and fuel vapour",
+        "The blast removes all the nitrogen"
+      ],
+      "answer": 2,
+      "explanation": "A strong blast cools the flame and blows the hot fuel vapour away from the burning zone.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Blowing on a Candle",
+      "question": "You gently fan a campfire and it grows bigger. Why?",
+      "options": [
+        "Fanning adds more wood to the fire",
+        "Fanning raises the heat of the air",
+        "Fanning removes carbon dioxide",
+        "More oxygen makes the fuel burn efficiently"
+      ],
+      "answer": 3,
+      "explanation": "Like a gentle flow on a candle, fanning brings fresh oxygen so the fuel burns more efficiently.",
+      "source": "book:page8 (apply)"
+    },
+    {
+      "id": "q111",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Blowing on a Candle",
+      "question": "A gentle breeze can make a flame burn brighter and stronger.",
+      "answer": true,
+      "explanation": "True. A gentle flow of air brings fresh oxygen to the flame.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q112",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Blowing on a Candle",
+      "question": "Blowing hard on a candle puts it out by removing all the oxygen.",
+      "answer": false,
+      "explanation": "False. A strong blast removes heat and fuel vapour; it collapses the triangle from the heat side.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q113",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Blowing on a Candle",
+      "question": "A strong blast blows the hot fuel vapour away from the burning zone.",
+      "answer": true,
+      "explanation": "True. This is one of the two effects of a strong blast.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q114",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Blowing on a Candle",
+      "question": "Select the TWO things a strong blast of air does to a flame.",
+      "options": [
+        "Cools the flame below the needed temperature",
+        "Blows the hot fuel vapour away",
+        "Adds extra fuel to the wick",
+        "Raises the flame's temperature"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "A strong blast cools the flame and blows the hot fuel vapour away from the burning zone.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Candle Under a Jar",
+      "question": "What happens when a glass jar is placed over a burning candle?",
+      "options": [
+        "The flame slowly goes out",
+        "The flame burns brighter",
+        "The flame turns blue",
+        "The flame grows taller"
+      ],
+      "answer": 0,
+      "explanation": "The candle uses up the oxygen trapped inside the jar, and once it runs low the flame goes out.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Candle Under a Jar",
+      "question": "What did the glass jar limit to make the flame behave this way?",
+      "options": [
+        "The light coming from outside",
+        "The oxygen available to the flame",
+        "The heat of the candle wick",
+        "The fuel in the candle wax"
+      ],
+      "answer": 1,
+      "explanation": "The jar traps a fixed amount of air, so the oxygen runs out and the flame dies.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Candle Under a Jar",
+      "question": "When a candle under a jar goes out, which side of the fire triangle has broken?",
+      "options": [
+        "Heat",
+        "Light",
+        "Oxygen",
+        "Fuel"
+      ],
+      "answer": 2,
+      "explanation": "Fuel and heat are still there, but without oxygen the fire triangle breaks.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Candle Under a Jar",
+      "question": "A cold metal spoon held inside the jar gets tiny droplets on it. What are they?",
+      "options": [
+        "Melted wax thrown up by the candle",
+        "Oil left behind on the glass jar",
+        "Carbon dioxide that turned to liquid",
+        "Water from the candle's water vapour"
+      ],
+      "answer": 3,
+      "explanation": "The droplets are water vapour, one of the gases the candle produces as it burns.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Candle Under a Jar",
+      "question": "As a candle burns, it uses up oxygen and releases",
+      "options": [
+        "carbon dioxide and water vapour",
+        "nitrogen and a little argon",
+        "fresh oxygen and nitrogen",
+        "argon and extra water vapour"
+      ],
+      "answer": 0,
+      "explanation": "A candle doesn't just 'burn'; it uses up oxygen and releases carbon dioxide and water vapour instead.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Candle Under a Jar",
+      "question": "Which is TRUE at the moment a candle under a jar goes out?",
+      "options": [
+        "Carbon dioxide inside turned to water",
+        "Fuel and heat remain but oxygen has run low",
+        "The fuel ran out because the wax melted",
+        "The jar cooled the flame below its temperature"
+      ],
+      "answer": 1,
+      "explanation": "The book says fuel and heat are still there, but without oxygen the triangle breaks.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Candle Under a Jar",
+      "question": "Like the miner's flame, a candle can act as a signal telling us",
+      "options": [
+        "how hot the room has become",
+        "how much water vapour is around",
+        "whether there is enough oxygen in the air",
+        "how much nitrogen is in the air"
+      ],
+      "answer": 2,
+      "explanation": "The candle uses fire as a signal of whether there is enough oxygen in the air to keep it alive.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Candle Under a Jar",
+      "question": "In the jar investigation, which observation is evidence of a gas the candle produced?",
+      "options": [
+        "The flame getting brighter and taller",
+        "The jar becoming lighter to lift",
+        "The wax at the top turning black",
+        "Droplets of water on the cold spoon"
+      ],
+      "answer": 3,
+      "explanation": "Water droplets on the spoon show water vapour produced by the burning candle.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q123",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Candle Under a Jar",
+      "question": "A candle under a jar goes out because the jar removes the fuel.",
+      "answer": false,
+      "explanation": "False. The candle uses up the oxygen in the jar; the fuel is still there.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q124",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Candle Under a Jar",
+      "question": "Water droplets on the cold spoon come from water vapour the candle produced.",
+      "answer": true,
+      "explanation": "True. Water vapour is one of the gases released as the candle burns.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q125",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Candle Under a Jar",
+      "question": "A burning candle releases oxygen into the jar.",
+      "answer": false,
+      "explanation": "False. A burning candle uses up oxygen and releases carbon dioxide and water vapour.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q126",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Candle Under a Jar",
+      "question": "A candle under a jar uses up the oxygen trapped inside.",
+      "answer": true,
+      "explanation": "True. Once the oxygen runs low, the flame goes out.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q127",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Candle Under a Jar",
+      "question": "Select the TWO things a candle does as it burns.",
+      "options": [
+        "Uses up oxygen",
+        "Releases water vapour",
+        "Produces fresh oxygen",
+        "Produces nitrogen"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "A candle uses up oxygen and releases carbon dioxide and water vapour.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Air Pressure Works",
+      "question": "What causes air pressure?",
+      "options": [
+        "Air molecules bouncing off every surface",
+        "Wind blowing from the sea to the land",
+        "Sunlight warming the ground",
+        "Water vapour forming clouds"
+      ],
+      "answer": 0,
+      "explanation": "Millions of tiny pushes from moving air molecules bouncing off surfaces, every second, is air pressure.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Air Pressure Works",
+      "question": "In which directions does air push?",
+      "options": [
+        "Only upward from the ground",
+        "Up, down, sideways and inward at once",
+        "Only downward because of gravity",
+        "Only sideways where wind blows"
+      ],
+      "answer": 1,
+      "explanation": "Air pushes upward, downward, sideways and inward, all at the same time, with equal force.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Air Pressure Works",
+      "question": "Why don't we usually feel air pressing on our skin?",
+      "options": [
+        "Our skin is too thick to feel it",
+        "Air only pushes on hard objects",
+        "The pushes from all sides balance out",
+        "Air is too light to push anything"
+      ],
+      "answer": 2,
+      "explanation": "Air pushes on us equally from every direction, so the pushes balance and it feels like no push at all.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How Air Pressure Works",
+      "question": "When the pressure balance breaks, things move toward",
+      "options": [
+        "the side with higher pressure",
+        "the side that is warmer",
+        "the side with more molecules",
+        "the side with lower pressure"
+      ],
+      "answer": 3,
+      "explanation": "The stronger push wins, so things move toward the side with lower pressure.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How Air Pressure Works",
+      "question": "In the glass-and-card trick, why does the card NOT fall when the glass is turned upside down?",
+      "options": [
+        "Outside air pushes up on the card",
+        "The water glues the card to the glass",
+        "The glass becomes lighter when inverted",
+        "Gravity stops pulling on the water"
+      ],
+      "answer": 0,
+      "explanation": "Air pushes in all directions, so the outside air pushes upward on the card strongly enough to hold the water in.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How Air Pressure Works",
+      "question": "You blow up a balloon and it becomes firm and round. What pushes outward on its walls?",
+      "options": [
+        "The air outside pushing it into shape",
+        "The air pressure inside the balloon",
+        "The weight of the rubber stretching",
+        "Gravity pulling the air downward"
+      ],
+      "answer": 1,
+      "explanation": "The air you blew in presses outward on the balloon walls, keeping it firm and round.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How Air Pressure Works",
+      "question": "When you open a sealed packet of chips you hear a hiss. Which way does the air move?",
+      "options": [
+        "Both ways equally, so nothing changes",
+        "Downward only, because of gravity",
+        "Outward, because pressure inside is higher",
+        "Inward, because packets are low pressure"
+      ],
+      "answer": 2,
+      "explanation": "Air moves from high to low pressure; the packet's inside is at higher pressure, so air rushes out.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "How Air Pressure Works",
+      "question": "If one side of an object has FEWER air molecules than the other, that side",
+      "options": [
+        "pushes more",
+        "gets hotter",
+        "gets heavier",
+        "pushes less"
+      ],
+      "answer": 3,
+      "explanation": "Fewer molecules means fewer bounces, so that side pushes less and the other side's push wins.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "How Air Pressure Works",
+      "question": "The book says the invisible push of air is strong enough to",
+      "options": [
+        "hold up aeroplanes and crush cans",
+        "melt ice and boil water",
+        "light a candle flame on its own",
+        "turn nitrogen into oxygen"
+      ],
+      "answer": 0,
+      "explanation": "Even though we can't feel it, air pressure can hold up aeroplanes and crush cans.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Air Pressure Works",
+      "question": "Fill in the blank: Air pushes from ____ directions at the same time, which is why we do not feel it.",
+      "options": [
+        "low",
+        "all",
+        "two",
+        "upward"
+      ],
+      "answer": 1,
+      "explanation": "Air pushes from all directions at once, and the balanced pushes cancel out.",
+      "source": "book:page20"
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How Air Pressure Works",
+      "question": "You squeeze a dropper, dip it in water and let go. The water rises in. Which side had lower pressure?",
+      "options": [
+        "Both sides equally",
+        "Neither side at all",
+        "Inside the dropper",
+        "Outside the dropper"
+      ],
+      "answer": 2,
+      "explanation": "Squeezing pushed air out, so the inside had fewer molecules and lower pressure; outside air pushed water in.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q139",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "How Air Pressure Works",
+      "question": "A suction cup sticks to a smooth tile. Which side has lower pressure and what makes it stick?",
+      "options": [
+        "Outside the cup; the tile pulls it in",
+        "Inside the cup; the rubber glues itself",
+        "Outside the cup; gravity holds it up",
+        "Inside the cup; outside air pushes it on"
+      ],
+      "answer": 3,
+      "explanation": "Pressing the cup pushes air out, so the inside has lower pressure and the outside air presses the cup onto the tile.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q140",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How Air Pressure Works",
+      "question": "A bicycle tyre bursts with a loud bang. What happened to the pressure balance?",
+      "options": [
+        "High-pressure air inside rushed out",
+        "Outside air rushed into the tyre",
+        "Inside and outside stayed equal",
+        "The tyre air turned into nitrogen"
+      ],
+      "answer": 0,
+      "explanation": "The air inside was at higher pressure than outside, so when the tyre split it rushed out toward the lower pressure.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q141",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "How Air Pressure Works",
+      "question": "Air pressure pushes only downward.",
+      "answer": false,
+      "explanation": "False. Air pushes upward, downward, sideways and inward all at the same time.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q142",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "How Air Pressure Works",
+      "question": "Billions of air molecules fit in a single breath.",
+      "answer": true,
+      "explanation": "True. Air molecules are so tiny that billions fit in one breath.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q143",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "How Air Pressure Works",
+      "question": "We usually notice air's push only when the air is trapped, like in a tyre.",
+      "answer": true,
+      "explanation": "True. We notice the push when air is trapped, but open air pushes constantly too.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q144",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "How Air Pressure Works",
+      "question": "Free, open air does not push on anything until it is trapped.",
+      "answer": false,
+      "explanation": "False. Even free, open air is constantly pushing on everything it touches.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q145",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "How Air Pressure Works",
+      "question": "Select the TWO true statements about air molecules.",
+      "options": [
+        "They move constantly in random directions",
+        "They are too tiny to be seen",
+        "They stay still unless wind blows",
+        "They can be seen with a magnifying glass"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Air molecules are too tiny to see and are constantly moving and bouncing off surfaces.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q146",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Straws, Breathing and Ears",
+      "question": "When you sip through a straw, pulling your cheeks in creates",
+      "options": [
+        "a vacuum in the drink itself",
+        "lower pressure inside your mouth",
+        "higher pressure inside your mouth",
+        "more air molecules in your mouth"
+      ],
+      "answer": 1,
+      "explanation": "Pulling your cheeks in pulls air out of the straw, leaving fewer molecules and lower pressure in your mouth.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q147",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Straws, Breathing and Ears",
+      "question": "What actually moves the drink UP the straw?",
+      "options": [
+        "The straw sucking the liquid by itself",
+        "The drink being lighter than air",
+        "Outside air pushing on the drink's surface",
+        "Your mouth pulling the liquid upward"
+      ],
+      "answer": 2,
+      "explanation": "Outside air at full pressure pushes harder on the drink than the air in your mouth does, so the drink moves up.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q148",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Straws, Breathing and Ears",
+      "question": "Can your mouth pull liquid up a straw by itself?",
+      "options": [
+        "Yes, the tongue lifts the liquid",
+        "Yes, the cheeks pull it directly",
+        "No, the straw pumps it upward",
+        "No, outside air pushes the drink up"
+      ],
+      "answer": 3,
+      "explanation": "You only lower the pressure in your mouth; the higher outside pressure pushes the drink up.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q149",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Straws, Breathing and Ears",
+      "question": "When you breathe in, the space inside your chest expands and",
+      "options": [
+        "pressure in your lungs drops",
+        "pressure in your lungs rises",
+        "air is pulled by the ribs",
+        "oxygen turns to nitrogen"
+      ],
+      "answer": 0,
+      "explanation": "Expanding the chest lowers the pressure inside the lungs below the outside pressure.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q150",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Straws, Breathing and Ears",
+      "question": "Why does air rush into your lungs when you breathe in?",
+      "options": [
+        "The air outside is always warmer",
+        "Outside air is at higher pressure",
+        "Your lungs pull it in like a magnet",
+        "Nitrogen is heavier than oxygen"
+      ],
+      "answer": 1,
+      "explanation": "Outside air is at higher pressure than the air in your expanded lungs, so it rushes in, like the drink up the straw.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q151",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Straws, Breathing and Ears",
+      "question": "Using the same rule, what must happen when you breathe OUT?",
+      "options": [
+        "Pressure stays equal and air flows anyway",
+        "Air in the lungs stops moving completely",
+        "Lung pressure rises above outside and air flows out",
+        "Outside pressure rises and pushes air in"
+      ],
+      "answer": 2,
+      "explanation": "Air moves from high to low pressure; breathing out makes the lung pressure higher, so air flows out.",
+      "source": "book:page12 (reasoning)"
+    },
+    {
+      "id": "q152",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Straws, Breathing and Ears",
+      "question": "In which situation might your ears feel blocked and then pop?",
+      "options": [
+        "While sipping a straw",
+        "In a closed room",
+        "Near a candle flame",
+        "In a fast lift"
+      ],
+      "answer": 3,
+      "explanation": "The book lists a fast lift, a mountain road and a plane as places your ears may pop.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q153",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Straws, Breathing and Ears",
+      "question": "As you go higher in a plane, what happens to the pressure outside your ears?",
+      "options": [
+        "It drops below the pressure inside",
+        "It rises above the pressure inside",
+        "It stays exactly the same",
+        "It becomes equal to zero"
+      ],
+      "answer": 0,
+      "explanation": "Going higher, the outside air pressure drops, so for a moment the pressure inside the ears is higher.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q154",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Straws, Breathing and Ears",
+      "question": "What makes your ears 'pop'?",
+      "options": [
+        "The outside air becomes heavier",
+        "A passage opens and the pressure balances",
+        "Air molecules escape from the brain",
+        "Your ears make more air inside"
+      ],
+      "answer": 1,
+      "explanation": "Swallowing or yawning opens a tiny passage in the ear that lets the pressure balance out—pop!",
+      "source": "book:page12"
+    },
+    {
+      "id": "q155",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Straws, Breathing and Ears",
+      "question": "Wind from the cool sea to hot land and drink moving up a straw—what do these have in common?",
+      "options": [
+        "Both happen only near the sea",
+        "Both need water vapour to work",
+        "Air moves from high to low pressure",
+        "Both need sunlight to happen"
+      ],
+      "answer": 2,
+      "explanation": "In both, air (or liquid pushed by air) moves from the high-pressure side to the low-pressure side.",
+      "source": "book:page20"
+    },
+    {
+      "id": "q156",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Straws, Breathing and Ears",
+      "question": "Which action lets the pressure in your ears balance out?",
+      "options": [
+        "Holding your breath",
+        "Covering your ears",
+        "Blowing out a candle",
+        "Swallowing or yawning"
+      ],
+      "answer": 3,
+      "explanation": "When you swallow or yawn, a tiny passage inside the ear opens and lets the pressure balance.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q157",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Straws, Breathing and Ears",
+      "question": "Your mouth pulls the liquid up the straw all by itself.",
+      "answer": false,
+      "explanation": "False. Outside air pushing on the drink moves it toward the lower pressure in your mouth.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q158",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Straws, Breathing and Ears",
+      "question": "Without a difference in pressure, breathing would not be possible.",
+      "answer": true,
+      "explanation": "True. Air rushes into the lungs only because the outside pressure is higher.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q159",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Straws, Breathing and Ears",
+      "question": "As you go up in a plane, the air pressure outside increases.",
+      "answer": false,
+      "explanation": "False. As you go higher, the air pressure outside drops.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q160",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Straws, Breathing and Ears",
+      "question": "Your ears can detect pressure changes you can't see, hear or feel in any other way.",
+      "answer": true,
+      "explanation": "True. The book calls ears 'pressure detectors'.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q161",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Straws, Breathing and Ears",
+      "question": "Select the TWO situations where the book says your ears may pop.",
+      "options": [
+        "A fast lift",
+        "A plane",
+        "Sipping a straw",
+        "Sitting in the shade"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "A fast lift, a mountain road and a plane are given as examples; the others are not.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q162",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Altitude and Air Pressure",
+      "question": "High above sea level, the air pressure is",
+      "options": [
+        "lower",
+        "higher",
+        "the same",
+        "zero"
+      ],
+      "answer": 0,
+      "explanation": "At places high above sea level the air pressure is lower.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q163",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Altitude and Air Pressure",
+      "question": "At high altitude, each breath contains",
+      "options": [
+        "more argon",
+        "less oxygen",
+        "more oxygen",
+        "no nitrogen"
+      ],
+      "answer": 1,
+      "explanation": "Lower pressure means less oxygen is available in each breath, so the body works harder.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q164",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Altitude and Air Pressure",
+      "question": "After weeks of training in the mountains, how does the body adapt?",
+      "options": [
+        "It needs less water",
+        "It breathes less often",
+        "It makes more red blood cells",
+        "It grows bigger lungs"
+      ],
+      "answer": 2,
+      "explanation": "The body adapts by making more red blood cells, which carry oxygen around the body.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q165",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Altitude and Air Pressure",
+      "question": "What is the job of red blood cells mentioned in the book?",
+      "options": [
+        "Making heat inside the muscles",
+        "Removing nitrogen from the lungs",
+        "Storing water for long runs",
+        "Carrying oxygen around the body"
+      ],
+      "answer": 3,
+      "explanation": "Red blood cells help carry oxygen around the body.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q166",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Altitude and Air Pressure",
+      "question": "When athletes return to sea level after mountain training, they",
+      "options": [
+        "use oxygen more effectively and perform better",
+        "struggle because there is too little oxygen",
+        "lose all the extra red blood cells at once",
+        "need oxygen tanks to breathe normally"
+      ],
+      "answer": 0,
+      "explanation": "Back at higher pressure with more red blood cells, their bodies use oxygen more effectively.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q167",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Altitude and Air Pressure",
+      "question": "What is the percentage of oxygen in air at the summit of Mount Everest?",
+      "options": [
+        "About 0%",
+        "About 21%",
+        "About 7%",
+        "About 78%"
+      ],
+      "answer": 1,
+      "explanation": "Misconception alert: oxygen stays about 21% at any altitude; what drops is the air pressure.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q168",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Altitude and Air Pressure",
+      "question": "What actually causes altitude sickness?",
+      "options": [
+        "Too much nitrogen at the mountain top",
+        "The cold turning oxygen into water",
+        "Lower air pressure, not lower oxygen percentage",
+        "A lower percentage of oxygen in the air"
+      ],
+      "answer": 2,
+      "explanation": "Lower pressure packs fewer total molecules into each breath; the oxygen percentage does not change.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q169",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Altitude and Air Pressure",
+      "question": "At the summit of Everest, the air pressure is about",
+      "options": [
+        "one half of sea level",
+        "the same as sea level",
+        "twice that of sea level",
+        "one third of sea level"
+      ],
+      "answer": 3,
+      "explanation": "Air pressure at the summit is about 1/3 of that at sea level.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q170",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Altitude and Air Pressure",
+      "question": "Why do climbers gasp and need oxygen tanks on Everest?",
+      "options": [
+        "Fewer total air molecules in each breath",
+        "Oxygen is missing from mountain air",
+        "Nitrogen replaces oxygen when it is cold",
+        "Their red blood cells stop working"
+      ],
+      "answer": 0,
+      "explanation": "Lower pressure means fewer molecules per breath, so less oxygen reaches the body even though the percentage is the same.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q171",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Altitude and Air Pressure",
+      "question": "How long do athletes spend training in the mountains before the body adapts, according to the book?",
+      "options": [
+        "Many long years",
+        "Several weeks",
+        "Just a few hours",
+        "About two days"
+      ],
+      "answer": 1,
+      "explanation": "After spending several weeks training in the mountains, the body makes more red blood cells.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q172",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Altitude and Air Pressure",
+      "question": "Mount Everest's air has a much lower percentage of oxygen than sea-level air.",
+      "answer": false,
+      "explanation": "False. Oxygen stays at about 21% at any altitude; the air pressure is what drops.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q173",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Altitude and Air Pressure",
+      "question": "At the summit of Everest, air pressure is about one third of that at sea level.",
+      "answer": true,
+      "explanation": "True. The book gives the figure of about 1/3.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q174",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Altitude and Air Pressure",
+      "question": "Athletes train in the mountains because the air there has more oxygen in each breath.",
+      "answer": false,
+      "explanation": "False. Mountain air gives LESS oxygen per breath, which makes the body adapt.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q175",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Altitude and Air Pressure",
+      "question": "After weeks at high altitude, the body makes more red blood cells.",
+      "answer": true,
+      "explanation": "True. This is how the body adapts to less oxygen per breath.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q176",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Altitude and Air Pressure",
+      "question": "Select the TWO true statements about air at high altitude.",
+      "options": [
+        "Air pressure is lower",
+        "Fewer air molecules fit in each breath",
+        "Oxygen drops to about 10% of the air",
+        "The air is mostly carbon dioxide"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Pressure is lower so each breath holds fewer molecules; the oxygen percentage stays about 21%.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q177",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Wind Is Made",
+      "question": "What is wind?",
+      "options": [
+        "Water vapour rising into clouds",
+        "Oxygen moving out of the lungs",
+        "Air flowing from high to low pressure",
+        "Air standing still over hot land"
+      ],
+      "answer": 2,
+      "explanation": "Air always flows from high pressure toward low pressure; that flowing air is wind.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q178",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Wind Is Made",
+      "question": "When a surface heats up, the air above it",
+      "options": [
+        "cools, shrinks and sinks",
+        "stays dense and heavy",
+        "turns into water vapour",
+        "warms, spreads out and rises"
+      ],
+      "answer": 3,
+      "explanation": "Warm air spreads out and rises, leaving fewer molecules near the ground.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q179",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How Wind Is Made",
+      "question": "When warm air rises, what happens to the pressure near the ground?",
+      "options": [
+        "It drops",
+        "It rises",
+        "It doubles",
+        "It stays the same"
+      ],
+      "answer": 0,
+      "explanation": "Rising warm air leaves a gap with fewer molecules and less weight pressing down, so pressure drops.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q180",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How Wind Is Made",
+      "question": "In a cooler area, the air stays",
+      "options": [
+        "spread out, so pressure is high",
+        "dense and heavy, so pressure is high",
+        "light and thin, so pressure is low",
+        "warm and rising, so pressure is low"
+      ],
+      "answer": 1,
+      "explanation": "Cool air is dense and heavy, so the pressure stays high there.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q181",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Wind Is Made",
+      "question": "Circle the right word: The air over the hot land will",
+      "options": [
+        "freeze",
+        "stop",
+        "rise",
+        "sink"
+      ],
+      "answer": 2,
+      "explanation": "Hot land warms the air above it, which spreads out and rises.",
+      "source": "book:page18"
+    },
+    {
+      "id": "q182",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Wind Is Made",
+      "question": "Circle the right word: Rising air over the hot land creates ____ pressure over the land.",
+      "options": [
+        "high",
+        "equal",
+        "zero",
+        "low"
+      ],
+      "answer": 3,
+      "explanation": "Rising air leaves fewer molecules near the ground, so low pressure forms over the land.",
+      "source": "book:page18"
+    },
+    {
+      "id": "q183",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Wind Is Made",
+      "question": "Circle the right word: The air over the cool sea will",
+      "options": [
+        "stay dense",
+        "rise up",
+        "boil away",
+        "disappear"
+      ],
+      "answer": 0,
+      "explanation": "Cool air over the sea stays dense and heavy.",
+      "source": "book:page18"
+    },
+    {
+      "id": "q184",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Wind Is Made",
+      "question": "Circle the right word: Dense air over the cool sea creates ____ pressure over the sea.",
+      "options": [
+        "equal",
+        "high",
+        "low",
+        "no"
+      ],
+      "answer": 1,
+      "explanation": "Dense, heavy air means high pressure sits over the sea.",
+      "source": "book:page18"
+    },
+    {
+      "id": "q185",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Wind Is Made",
+      "question": "Circle the right word: Wind blows from",
+      "options": [
+        "cold to hot pressure",
+        "wet to dry pressure",
+        "high to low pressure",
+        "low to high pressure"
+      ],
+      "answer": 2,
+      "explanation": "Air always moves from high pressure toward low pressure.",
+      "source": "book:page18"
+    },
+    {
+      "id": "q186",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Wind Is Made",
+      "question": "What drives air across huge distances to make wind?",
+      "options": [
+        "Gravity",
+        "Rain",
+        "Sound",
+        "Heat"
+      ],
+      "answer": 3,
+      "explanation": "Wind is air moving across huge distances, driven by heat.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q187",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How Wind Is Made",
+      "question": "A bottle left in bright sunlight feels like it wants to pop its cap, while one in the shade doesn't. Why?",
+      "options": [
+        "Warm air inside spreads out and pushes harder",
+        "Sunlight adds more air into the bottle",
+        "The shade bottle has lost all its air",
+        "Light makes the plastic weaker"
+      ],
+      "answer": 0,
+      "explanation": "Heat makes the air inside warm and spread out, so it presses harder on the cap than the cool air in the shaded bottle.",
+      "source": "book:page20"
+    },
+    {
+      "id": "q188",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "How Wind Is Made",
+      "question": "On a cloudy day, the wind near the coast is weaker than on a sunny day. Why?",
+      "options": [
+        "Clouds add many more air molecules over the land",
+        "Land heats less, so the pressure difference is smaller",
+        "Clouds physically block the wind from blowing",
+        "The sea becomes much hotter than the land does"
+      ],
+      "answer": 1,
+      "explanation": "With less sunshine the land does not heat as much, air rises less, and the high-low pressure difference is smaller.",
+      "source": "book:page20"
+    },
+    {
+      "id": "q189",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "How Wind Is Made",
+      "question": "Which is the DIRECT cause of wind?",
+      "options": [
+        "Trees waving their branches back and forth",
+        "Clouds pushing the air down to the ground",
+        "A difference in air pressure between two places",
+        "The spinning of the Earth under the air"
+      ],
+      "answer": 2,
+      "explanation": "Air flows from high to low pressure; that pressure difference, created by uneven heating, is what makes wind.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q190",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "How Wind Is Made",
+      "question": "You open a fridge door. Using the book's rule, which way does air move?",
+      "options": [
+        "Warm room air rushes in because it is denser",
+        "No air moves because the fridge is sealed",
+        "Air moves both ways in exactly equal amounts",
+        "Cool, dense fridge air spills out toward the warm room"
+      ],
+      "answer": 3,
+      "explanation": "Cool air is dense and heavy (higher pressure), so it flows toward the warmer, lower-pressure air of the kitchen.",
+      "source": "book:page15 (reasoning)"
+    },
+    {
+      "id": "q191",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "How Wind Is Made",
+      "question": "Wind blows from low pressure toward high pressure.",
+      "answer": false,
+      "explanation": "False. Air always flows from high pressure toward low pressure.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q192",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "How Wind Is Made",
+      "question": "Warm air rises and leaves lower pressure behind it.",
+      "answer": true,
+      "explanation": "True. Rising warm air leaves a gap with fewer molecules, so pressure drops.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q193",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "How Wind Is Made",
+      "question": "Cool air is dense and heavy, so pressure stays high where air is cool.",
+      "answer": true,
+      "explanation": "True. In cooler areas, air stays dense and heavy and the pressure is high.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q194",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "How Wind Is Made",
+      "question": "The air over a hot surface sinks toward the ground.",
+      "answer": false,
+      "explanation": "False. Air over a hot surface warms, spreads out and rises.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q195",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "How Wind Is Made",
+      "question": "Select the TWO things that happen over hot land.",
+      "options": [
+        "The air rises",
+        "Low pressure forms",
+        "The air becomes dense",
+        "High pressure forms"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Hot land warms the air, which rises and leaves low pressure; dense air and high pressure belong to the cool sea.",
+      "source": "book:page16"
+    },
+    {
+      "id": "q196",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sea Breeze and the Monsoon",
+      "question": "By midday, what happens over the hot land at the coast?",
+      "options": [
+        "Air rises and low pressure forms",
+        "Air sinks and high pressure forms",
+        "Air stays dense and heavy",
+        "Air stops moving completely"
+      ],
+      "answer": 0,
+      "explanation": "The land absorbs hours of sunshine, air over it rises, and low pressure forms over the land.",
+      "source": "book:page16"
+    },
+    {
+      "id": "q197",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sea Breeze and the Monsoon",
+      "question": "Compared with land, the sea heats up",
+      "options": [
+        "only at night",
+        "far more slowly",
+        "much more quickly",
+        "at the same speed"
+      ],
+      "answer": 1,
+      "explanation": "Water takes much longer to warm than sand or soil, so the sea stays cooler.",
+      "source": "book:page16"
+    },
+    {
+      "id": "q198",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sea Breeze and the Monsoon",
+      "question": "In the afternoon, a sea breeze blows from",
+      "options": [
+        "the mountains to the coast",
+        "the clouds to the ground",
+        "the sea toward the land",
+        "the land toward the sea"
+      ],
+      "answer": 2,
+      "explanation": "High pressure over the sea plus low pressure over the land makes cool sea air rush toward the land.",
+      "source": "book:page16"
+    },
+    {
+      "id": "q199",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sea Breeze and the Monsoon",
+      "question": "Which city is NOT listed in the book as one that experiences the sea breeze?",
+      "options": [
+        "Mumbai",
+        "Chennai",
+        "Kochi",
+        "Delhi"
+      ],
+      "answer": 3,
+      "explanation": "The book names Mumbai, Chennai, Kochi and Puri, all coastal cities.",
+      "source": "book:page16"
+    },
+    {
+      "id": "q200",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sea Breeze and the Monsoon",
+      "question": "Complete the sea breeze 'formula': High pressure over the sea + ____ = sea breeze.",
+      "options": [
+        "low pressure over the land",
+        "low pressure over the sea",
+        "high pressure over the land",
+        "equal pressure everywhere"
+      ],
+      "answer": 0,
+      "explanation": "High pressure over the sea and low pressure over the land makes cool sea air rush toward the land.",
+      "source": "book:page16"
+    },
+    {
+      "id": "q201",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sea Breeze and the Monsoon",
+      "question": "The book calls the monsoon",
+      "options": [
+        "a sea breeze without any water",
+        "a giant version of a sea breeze",
+        "a tiny version of a sea breeze",
+        "a sea breeze blowing backward"
+      ],
+      "answer": 1,
+      "explanation": "The monsoon is like a sea breeze but thousands of kilometres wide and carrying enormous water vapour.",
+      "source": "book:page17"
+    },
+    {
+      "id": "q202",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sea Breeze and the Monsoon",
+      "question": "Every summer, where does a massive low-pressure area form?",
+      "options": [
+        "Over the Western Ghats",
+        "Over the Himalayas",
+        "Over the Indian landmass",
+        "Over the Indian Ocean"
+      ],
+      "answer": 2,
+      "explanation": "The Indian landmass heats intensely, air rises, and a massive low-pressure area forms over India.",
+      "source": "book:page17"
+    },
+    {
+      "id": "q203",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sea Breeze and the Monsoon",
+      "question": "In the monsoon, moist ocean air flows",
+      "options": [
+        "southward away from land",
+        "straight up into space",
+        "in circles over the sea",
+        "northward toward the land"
+      ],
+      "answer": 3,
+      "explanation": "Moist ocean air flows northward toward the land, like a sea breeze thousands of kilometres wide.",
+      "source": "book:page17"
+    },
+    {
+      "id": "q204",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sea Breeze and the Monsoon",
+      "question": "Where does the moist air rise, cool and drop its rain, according to the book?",
+      "options": [
+        "Over the Western Ghats",
+        "Over the Indian Ocean",
+        "Over the city of Puri",
+        "Over the Thar Desert"
+      ],
+      "answer": 0,
+      "explanation": "As moist air rises over the Western Ghats it cools, water vapour condenses into clouds and rain falls.",
+      "source": "book:page17"
+    },
+    {
+      "id": "q205",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sea Breeze and the Monsoon",
+      "question": "What drives the monsoon, according to the book?",
+      "options": [
+        "The sea becoming hotter than the land",
+        "Land and ocean heating at different speeds",
+        "Clouds forming over the Himalayas",
+        "Oxygen rising from the ocean"
+      ],
+      "answer": 1,
+      "explanation": "The monsoon is driven by the difference in how fast land and the ocean heat up.",
+      "source": "book:page17"
+    },
+    {
+      "id": "q206",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sea Breeze and the Monsoon",
+      "question": "How is the monsoon DIFFERENT from an afternoon sea breeze?",
+      "options": [
+        "It is driven by the cold of winter instead of summer heat",
+        "It happens only in the evening after the land cools down",
+        "It is thousands of km wide and carries far more water vapour",
+        "It blows from the hot land out toward the cooler sea"
+      ],
+      "answer": 2,
+      "explanation": "Both work the same way, but the monsoon is thousands of kilometres wide and carries enormous amounts of water vapour.",
+      "source": "book:page17"
+    },
+    {
+      "id": "q207",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sea Breeze and the Monsoon",
+      "question": "What condenses into clouds when the moist monsoon air rises and cools?",
+      "options": [
+        "Carbon dioxide",
+        "Nitrogen",
+        "Argon",
+        "Water vapour"
+      ],
+      "answer": 3,
+      "explanation": "As the moist air cools, water vapour condenses into clouds and rain falls.",
+      "source": "book:page17"
+    },
+    {
+      "id": "q208",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sea Breeze and the Monsoon",
+      "question": "The book says the cool afternoon sea breeze is made entirely by",
+      "options": [
+        "air pressure",
+        "ocean waves",
+        "the moon",
+        "passing ships"
+      ],
+      "answer": 0,
+      "explanation": "Every coastal city's afternoon breeze is 'made entirely by air pressure'.",
+      "source": "book:page16"
+    },
+    {
+      "id": "q209",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Sea Breeze and the Monsoon",
+      "question": "Water takes much longer to warm than sand or soil.",
+      "answer": true,
+      "explanation": "True. This is why the sea stays cooler than the land by midday.",
+      "source": "book:page16"
+    },
+    {
+      "id": "q210",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Sea Breeze and the Monsoon",
+      "question": "In the afternoon the sea breeze blows from the land toward the sea.",
+      "answer": false,
+      "explanation": "False. Cool sea air rushes toward the hot land, so the breeze blows from sea to land.",
+      "source": "book:page16"
+    },
+    {
+      "id": "q211",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Sea Breeze and the Monsoon",
+      "question": "In summer the Indian Ocean heats up faster than the Indian landmass.",
+      "answer": false,
+      "explanation": "False. The ocean heats more slowly, so it stays relatively cooler with high pressure over it.",
+      "source": "book:page17"
+    },
+    {
+      "id": "q212",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Sea Breeze and the Monsoon",
+      "question": "Moist monsoon air cools as it rises over the Western Ghats.",
+      "answer": true,
+      "explanation": "True. Rising air cools, water vapour condenses, and rain falls.",
+      "source": "book:page17"
+    },
+    {
+      "id": "q213",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Sea Breeze and the Monsoon",
+      "question": "Select the TWO cities the book names as experiencing the sea breeze.",
+      "options": [
+        "Mumbai",
+        "Chennai",
+        "Delhi",
+        "Jaipur"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Mumbai, Chennai, Kochi and Puri are the coastal cities named.",
+      "source": "book:page16"
+    },
+    {
+      "id": "q214",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Sea Breeze and the Monsoon",
+      "question": "Select the TWO true statements about the monsoon.",
+      "options": [
+        "Low pressure forms over India",
+        "High pressure sits over the Indian Ocean",
+        "Ocean air flows southward away from India",
+        "Dry air sinks over the Western Ghats"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Hot land gives low pressure; the cooler ocean has high pressure; moist air flows north and rises over the Ghats.",
+      "source": "book:page17"
+    },
+    {
+      "id": "q215",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Chapter Review",
+      "question": "Which gas makes up the largest part of the air we breathe?",
+      "options": [
+        "Water vapour",
+        "Nitrogen",
+        "Oxygen",
+        "Carbon dioxide"
+      ],
+      "answer": 1,
+      "explanation": "Nitrogen is about 78% of air, the largest part.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q216",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Chapter Review",
+      "question": "Fill in the blank: The gas in air that does almost nothing and is present in the smallest usable trace is ____.",
+      "options": [
+        "nitrogen",
+        "carbon dioxide",
+        "argon",
+        "oxygen"
+      ],
+      "answer": 2,
+      "explanation": "Argon is a small trace that doesn't react with anything.",
+      "source": "book:page20"
+    },
+    {
+      "id": "q217",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Chapter Review",
+      "question": "Fill in the blank: When air over a surface gets warm, it ____ and leaves a gap of lower pressure behind.",
+      "options": [
+        "sinks",
+        "freezes",
+        "spreads",
+        "rises"
+      ],
+      "answer": 3,
+      "explanation": "Warm air rises, leaving fewer molecules near the ground and lower pressure.",
+      "source": "book:page20"
+    },
+    {
+      "id": "q218",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Chapter Review",
+      "question": "Fill in the blank: When hot air over land rises and moves away, it creates a ____ pressure zone that cooler air rushes in to fill.",
+      "options": [
+        "low",
+        "high",
+        "wet",
+        "cold"
+      ],
+      "answer": 0,
+      "explanation": "Rising hot air leaves low pressure, and nearby cooler high-pressure air rushes in.",
+      "source": "book:page20"
+    },
+    {
+      "id": "q219",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Review",
+      "question": "Nitrogen makes up 78% of air but your body does not use it. Why is it still important?",
+      "options": [
+        "It makes the air easier to see",
+        "It dilutes oxygen to a safe level",
+        "It gives the body extra energy",
+        "It helps plants make their food"
+      ],
+      "answer": 1,
+      "explanation": "Nitrogen keeps oxygen from being too concentrated; pure oxygen would be toxic and things would catch fire too easily.",
+      "source": "book:page20"
+    },
+    {
+      "id": "q220",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Review",
+      "question": "On the live tracker app mentioned in the book, what can you watch during the monsoon season?",
+      "options": [
+        "Athletes training in the mountains",
+        "Candles burning under glass jars",
+        "Monsoon clouds travelling across India",
+        "Oxygen levels inside deep caves"
+      ],
+      "answer": 2,
+      "explanation": "The tracker shows wind and clouds moving; in monsoon season you can watch the monsoon clouds travel across India.",
+      "source": "book:page17"
+    },
+    {
+      "id": "q221",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Review",
+      "question": "Which belief from the chapter is a MISCONCEPTION?",
+      "options": [
+        "A blue flame gets plenty of oxygen",
+        "Air moves from high to low pressure",
+        "Nitrogen is the largest part of air",
+        "Everest air has a lower oxygen percentage"
+      ],
+      "answer": 3,
+      "explanation": "Oxygen stays about 21% at any altitude; it is the pressure that drops. The other three statements are true.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q222",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Review",
+      "question": "Which pair correctly matches an example with the air property it shows?",
+      "options": [
+        "Candle under a jar — air supports burning",
+        "Sea breeze — air supports burning",
+        "Straw — air is a mixture of gases",
+        "Argon welding — air exerts pressure"
+      ],
+      "answer": 0,
+      "explanation": "The candle shows air supports burning; sea breeze and straw show pressure; argon welding shows air is a mixture.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q223",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Review",
+      "question": "Which word from the word box completes: 'Air pushes from ____ directions at the same time'?",
+      "options": [
+        "heat",
+        "all",
+        "low",
+        "rises"
+      ],
+      "answer": 1,
+      "explanation": "Air pushes from all directions at once, which is why we don't feel it on our skin.",
+      "source": "book:page20"
+    },
+    {
+      "id": "q224",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Review",
+      "question": "Which THEN and NOW pair does the book give for reading the air?",
+      "options": [
+        "Straw then, dropper now",
+        "Fire then, water now",
+        "Oil lamp then, oxygen sensor now",
+        "Candle then, glass jar now"
+      ],
+      "answer": 2,
+      "explanation": "The Then and Now box compares the miners' oil lamp with the modern electronic oxygen sensor.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q225",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Chapter Review",
+      "question": "The closing paragraph says air helps us breathe, feeds flames and pushes on everything.",
+      "answer": true,
+      "explanation": "True. It also says air turns into the winds and rains that shape our lives.",
+      "source": "book:page18"
+    },
+    {
+      "id": "q226",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Chapter Review",
+      "question": "The book says air is only 'in action' when there is a storm.",
+      "answer": false,
+      "explanation": "False. From a candle flame to a beach breeze, air is always in action, everywhere.",
+      "source": "book:page18"
+    },
+    {
+      "id": "q227",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Chapter Review",
+      "question": "The word box is: argon, heat, rises, low, all, fuel, water vapour, carbon dioxide. Which TWO words are NOT needed for any blank?",
+      "options": [
+        "water vapour",
+        "carbon dioxide",
+        "argon",
+        "rises"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The blanks use all, rises, argon, heat, fuel and low; water vapour and carbon dioxide are extra.",
+      "source": "book:page20"
+    },
+    {
+      "id": "q228",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Chapter Review",
+      "question": "Select the TWO events explained by a difference in air pressure.",
+      "options": [
+        "A drink rising up a straw",
+        "A cool afternoon sea breeze",
+        "A stove flame burning blue",
+        "Argon protecting a weld"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Straws and sea breezes work by pressure differences; flame colour and welding are about burning and gas use.",
+      "source": "book:page20"
+    },
+    {
+      "id": "q229",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Chapter Review",
+      "question": "According to the closing paragraph, select TWO ways air is 'in action'.",
+      "options": [
+        "Helping us breathe",
+        "Turning into winds and rains",
+        "Changing nitrogen into oxygen",
+        "Making plants grow without sunlight"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Air helps us breathe, feeds flames, pushes on everything, and becomes winds and rains.",
+      "source": "book:page18"
+    }
+  ]
+}

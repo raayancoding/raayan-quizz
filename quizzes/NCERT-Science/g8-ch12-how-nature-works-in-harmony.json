@@ -1,0 +1,2715 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-science-g8-ch12-how-nature-works-in-harmony",
+  "title": "How Nature Works in Harmony",
+  "subject": "Science",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Science/ch12",
+  "chapter": "12. How Nature Works in Harmony",
+  "topic": "Full Chapter",
+  "description": "Habitats and their biotic and abiotic components, populations, communities and ecosystems, producers, consumers and decomposers, food chains, trophic levels and food webs, species relationships, cascading changes, ecosystem benefits and threats, protected areas and sustainable farming.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "science",
+    "ecosystem",
+    "food-chain",
+    "food-web",
+    "habitat",
+    "biodiversity",
+    "sustainable-farming"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Habitats: Biotic and Abiotic Components",
+      "question": "According to the chapter, what is a habitat?",
+      "options": [
+        "The place where an organism lives",
+        "The group of organisms of one kind",
+        "The food an organism depends upon",
+        "The climate zone of a whole region"
+      ],
+      "answer": 0,
+      "explanation": "The chapter defines a habitat simply as the place where an organism lives — it can even be as small as the bark of a tree. A group of one kind of organism is a population, not a habitat.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Habitats: Biotic and Abiotic Components",
+      "question": "Which example does the chapter give to show that a habitat can be very small?",
+      "options": [
+        "The canopy of a banyan",
+        "The bark of a tree",
+        "The edge of a pond",
+        "A patch of farm soil"
+      ],
+      "answer": 1,
+      "explanation": "The text says a habitat 'could even be just the bark of a tree'. The other places are habitats too, but the bark is the specific tiny example the chapter uses.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Habitats: Biotic and Abiotic Components",
+      "question": "The living beings recorded in a habitat (fish, grass, trees, birds) are termed its —",
+      "options": [
+        "Physical conditions",
+        "Trophic components",
+        "Biotic components",
+        "Abiotic components"
+      ],
+      "answer": 2,
+      "explanation": "Living beings are the biotic components; non-living things such as water and soil are the abiotic components. 'Physical conditions' refers to abiotic factors like air, sunlight and temperature.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Habitats: Biotic and Abiotic Components",
+      "question": "From Table 12.1, which pair lists one biotic and one abiotic component of the pond habitat?",
+      "options": [
+        "Grass and trees",
+        "Soil and water",
+        "Birds and fish",
+        "Fish and water"
+      ],
+      "answer": 3,
+      "explanation": "In the pond column, fish is a living being (biotic) and water is a non-living thing (abiotic). Grass/trees and birds/fish are both-biotic pairs; soil/water are both abiotic.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Habitats: Biotic and Abiotic Components",
+      "question": "In a pond, from where do fish obtain their abiotic need of oxygen?",
+      "options": [
+        "The water around them",
+        "Small water plants",
+        "Small pond animals",
+        "Mud at the pond bottom"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says fish obtain biotic needs such as food from small plants and animals, and abiotic needs such as oxygen from water.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Habitats: Biotic and Abiotic Components",
+      "question": "According to the chapter, from which sources does a pond fish obtain its BIOTIC needs?",
+      "options": [
+        "Food from small plants",
+        "Food from small animals",
+        "Oxygen from the water",
+        "Space to grow in",
+        "Shelter among stones"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Biotic needs are those met by other living things — food from small plants and animals. Oxygen from water is an abiotic need; space and shelter are conditions the pond provides, not biotic sources.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Habitats: Biotic and Abiotic Components",
+      "question": "A snake that comes out at night and a rodent active by day live in the same forest. What does this show?",
+      "options": [
+        "Night animals need a cooler habitat than day animals do",
+        "Organisms coexist by using one habitat under different conditions",
+        "Organisms in one habitat always face identical conditions",
+        "Snakes and rodents cannot share a single habitat for long"
+      ],
+      "answer": 1,
+      "explanation": "The forest is warm by day and cool by night, so the two animals face different conditions in the same place. The chapter calls this coexisting in harmony — not identical conditions.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q8",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Habitats: Biotic and Abiotic Components",
+      "question": "Different habitats offer different living conditions, and every organism needs specific conditions to survive.",
+      "answer": true,
+      "explanation": "This is the conclusion drawn from Activity 12.1: pond and forest provide different conditions, which is why some organisms live on land and others in water.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q9",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Habitats: Biotic and Abiotic Components",
+      "question": "In the chapter's forest example, the habitat is cool during the day and warm at night.",
+      "answer": false,
+      "explanation": "It is the reverse: the forest 'might be warm during the day and cool at night'. The snake (night) and rodent (day) therefore meet different temperatures.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Habitats: Biotic and Abiotic Components",
+      "question": "Which pair names two plants that the chapter lists as living in a pond?",
+      "options": [
+        "Algae and snails",
+        "Diatoms and ducks",
+        "Lotus and dragonflies",
+        "Duckweed and lotus"
+      ],
+      "answer": 3,
+      "explanation": "The pond plants named are algae, diatoms, duckweeds and lotus. Snails, ducks and dragonflies are animals, so the other pairs mix a plant with an animal.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Habitats: Biotic and Abiotic Components",
+      "question": "Which statement about the two habitats compared in Activity 12.1 is NOT correct?",
+      "options": [
+        "The non-living things are the same in both habitats",
+        "Both habitats contain living beings as well as non-living things",
+        "The types of living beings differ between the two habitats",
+        "A pond and a forest each provide conditions suited to their organisms"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says both habitats have living and non-living things, but 'the types of living beings are different and the non-living things also vary'. So the non-living things are not the same.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Population and Community",
+      "question": "A group of fish of the same kind living together in a pond is called a —",
+      "options": [
+        "Food chain",
+        "Population",
+        "Community",
+        "Ecosystem"
+      ],
+      "answer": 1,
+      "explanation": "A population is a group of the same type of organism in a habitat at a given time. A community has many different populations; an ecosystem also includes abiotic components.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Population and Community",
+      "question": "What does a community comprise?",
+      "options": [
+        "All abiotic conditions present in a habitat",
+        "Organisms of one kind counted at one time",
+        "Different populations sharing the same habitat",
+        "Individuals of one species sharing a habitat"
+      ],
+      "answer": 2,
+      "explanation": "A community is made of different populations (plants, animals, microorganisms) in the same habitat. One species' individuals form a population; abiotic conditions are not part of a community.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Population and Community",
+      "question": "In Activity 12.2, students counted 20 plants of one kind in a 1 m × 1 m plot. What does the number 20 represent?",
+      "options": [
+        "The community of that plant in the plot",
+        "The ecosystem of that plant in the plot",
+        "The trophic level of that plant in the plot",
+        "The population of that plant in the plot"
+      ],
+      "answer": 3,
+      "explanation": "Counting individuals of one type at a given place and time gives its population. A community would need different kinds of organisms; a trophic level is a feeding position.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Population and Community",
+      "question": "Which of these is NOT part of the chapter's definition of a population?",
+      "options": [
+        "The organisms must feed at the same trophic level",
+        "The organisms must all be of the same kind",
+        "The organisms must live in the same habitat",
+        "The organisms are considered at a given time"
+      ],
+      "answer": 0,
+      "explanation": "A population is 'a group of the same type of organisms in a habitat at a given time'. Trophic level is a food-chain idea and is not part of the definition.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Population and Community",
+      "question": "If a habitat had only one type of living organism, what does the chapter say could happen?",
+      "options": [
+        "A new community, since the organisms would soon become different",
+        "Competition and scarcity, since all need the same food, water and space",
+        "Rapid growth and plenty, since no other species competes for food",
+        "A stable balance, since one species cannot cause an imbalance"
+      ],
+      "answer": 1,
+      "explanation": "Identical organisms have identical requirements, so they compete for the same food, water and space — leading to possible scarcity, not plenty or stability.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q17",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Population and Community",
+      "question": "A community is made up of different populations that share the same habitat.",
+      "answer": true,
+      "explanation": "The chapter states that a community comprises different populations sharing the same habitat, which interact and depend on one another.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q18",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Population and Community",
+      "question": "The plants, animals and microorganisms of a habitat together form its population.",
+      "answer": false,
+      "explanation": "Together they form the community. A population is only one type of organism; the biotic components as a whole make up the community.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q19",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Population and Community",
+      "question": "Which of these belong to the COMMUNITY of a habitat?",
+      "options": [
+        "The plants growing there",
+        "The microorganisms living there",
+        "The sunlight falling there",
+        "The temperature there"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The community is formed by the biotic components — plants, animals and microorganisms. Sunlight and temperature are abiotic components and belong to the ecosystem, not the community.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Population and Community",
+      "question": "Refer to Fig. 12.19 (population inside community inside ecosystem). Which statement is WRONG?",
+      "options": [
+        "A community is larger than a population",
+        "A community is smaller than an ecosystem",
+        "A population is part of a community",
+        "An ecosystem is part of a community"
+      ],
+      "answer": 3,
+      "explanation": "The nesting is population → community → ecosystem. A community is part of an ecosystem, not the other way round, so statement (iii) in the exercise is the wrong one.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Population and Community",
+      "question": "Fig. 12.7 shows levels of organisation from smallest to largest. Which order is correct?",
+      "options": [
+        "Individual → Population → Community → Ecosystem",
+        "Individual → Community → Population → Ecosystem",
+        "Population → Individual → Community → Ecosystem",
+        "Individual → Population → Ecosystem → Community"
+      ],
+      "answer": 0,
+      "explanation": "One organism is an individual; many of the same kind form a population; different populations form a community; the community plus abiotic components forms an ecosystem.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Population and Community",
+      "question": "A pond holds a population of fish, a population of frogs and a population of snails. Together these populations are called —",
+      "options": [
+        "A trophic level",
+        "A community",
+        "A population",
+        "An individual"
+      ],
+      "answer": 1,
+      "explanation": "Several different populations sharing one habitat make up a community. 'Population' applies to only one kind of organism at a time.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pollination and the Pond-Fish Study",
+      "question": "Which part of a flower is the male reproductive part?",
+      "options": [
+        "Sepal",
+        "Petal",
+        "Stamen",
+        "Carpel"
+      ],
+      "answer": 2,
+      "explanation": "Stamens are the male parts that burst to release pollen; carpels are the female parts. Sepals are green leafy structures and petals are the coloured parts.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pollination and the Pond-Fish Study",
+      "question": "What does the chapter call pollination?",
+      "options": [
+        "Carrying pollen from stamens to carpels of the same or different flowers",
+        "Bursting of stamens to release yellow pollen grains into the wind",
+        "Formation of fruits and seeds inside the carpel after flowering",
+        "Movement of nectar from the petals to visiting insects and birds"
+      ],
+      "answer": 0,
+      "explanation": "Pollination is the transfer of pollen from stamens to carpels (of the same and/or different flowers). Fruit and seed formation follows pollination but is not pollination itself.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q25",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Pollination and the Pond-Fish Study",
+      "question": "Which of these are named in the chapter as carriers of pollen?",
+      "options": [
+        "Bats",
+        "Birds",
+        "Earthworms",
+        "Fungi"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Wind, water, insects, bats and birds help carry pollen. Earthworms live in soil and fungi are decomposers — neither is listed as a pollinator.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pollination and the Pond-Fish Study",
+      "question": "Pollination is described as essential for —",
+      "options": [
+        "Absorption of water by roots",
+        "Formation of fruits and seeds",
+        "Growth of sepals and petals",
+        "Release of oxygen by leaves"
+      ],
+      "answer": 1,
+      "explanation": "The chapter states that pollination 'is essential for the formation of fruits and seeds'.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pollination and the Pond-Fish Study",
+      "question": "In Activity 12.3, Pond A (with fish) had fewer dragonflies than Pond B. Why?",
+      "options": [
+        "Fish compete with dragonflies for pollen",
+        "Fish drive bees and butterflies away",
+        "Fish eat dragonfly larvae in the pond",
+        "Fish eat the adult dragonflies above the water"
+      ],
+      "answer": 2,
+      "explanation": "Fish eat dragonfly larvae, so fewer larvae grow into adults and the pond with fish has fewer dragonflies.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pollination and the Pond-Fish Study",
+      "question": "With fewer dragonflies around a pond, what did the study find?",
+      "options": [
+        "Fewer bees, flies and butterflies survive",
+        "More dragonfly larvae in the water",
+        "Fewer flowering plants near the pond",
+        "More bees, flies and butterflies survive"
+      ],
+      "answer": 3,
+      "explanation": "Dragonflies eat flies, bees and butterflies; with fewer dragonflies, more of these insects were found near the pond.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pollination and the Pond-Fish Study",
+      "question": "Why may flowers near a pond WITH fish produce more seeds than flowers near a pond without fish?",
+      "options": [
+        "More pollinators survive because fish reduce the dragonflies that eat them",
+        "Fish fertilise the nearby soil, so plants make more flowers and seeds",
+        "Dragonflies pollinate flowers, and fish help dragonflies breed",
+        "Fish eat the bees and butterflies that would damage the flowers"
+      ],
+      "answer": 0,
+      "explanation": "Fish → fewer dragonfly larvae → fewer dragonflies → more bees, flies and butterflies → more pollination → more seeds. Dragonflies are predators of pollinators, not pollinators themselves.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pollination and the Pond-Fish Study",
+      "question": "In Fig. 12.4, red arrows are direct effects and green arrows indirect. The effect of fish on the St. John's wort plant is —",
+      "options": [
+        "Indirect and negative",
+        "Indirect and positive",
+        "Direct and positive",
+        "Direct and negative"
+      ],
+      "answer": 1,
+      "explanation": "Fish do not touch the plant; they act through dragonflies and pollinators. Since more seeds are produced near fish ponds, the overall effect on the plant is indirect and positive.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pollination and the Pond-Fish Study",
+      "question": "Which of these is a DIRECT effect in the pond study?",
+      "options": [
+        "Fish increasing pollinator numbers",
+        "Fish improving flower numbers",
+        "Fish eating dragonfly larvae",
+        "Fish increasing seed production"
+      ],
+      "answer": 2,
+      "explanation": "Fish directly eat larvae. The rise in pollinators, flowers and seeds happens through a chain of other organisms, so those are indirect effects.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q32",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Pollination and the Pond-Fish Study",
+      "question": "In the pond study, the pond with fish had more dragonflies than the pond without fish.",
+      "answer": false,
+      "explanation": "Pond A with fish had FEWER dragonflies, because fish eat dragonfly larvae.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q33",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Pollination and the Pond-Fish Study",
+      "question": "Dragonflies usually eat flies, bees and butterflies.",
+      "answer": true,
+      "explanation": "The chapter says dragonflies usually eat flies, bees and butterflies — that is why fewer dragonflies means more of these pollinators.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pollination and the Pond-Fish Study",
+      "question": "Suppose humans overfish Pond A and remove most of its fish. Predict the chain of changes.",
+      "options": [
+        "Dragonflies fall, pollinators rise, nearby seed production rises",
+        "Dragonflies rise, pollinators rise, nearby seed production rises",
+        "Dragonflies fall, pollinators fall, nearby seed production drops",
+        "Dragonflies rise, pollinators fall, nearby seed production drops"
+      ],
+      "answer": 3,
+      "explanation": "Removing fish lets more dragonfly larvae survive, so dragonflies increase, eat more bees and butterflies, and fewer flowers get pollinated — seed production falls.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Biotic-Abiotic Interactions",
+      "question": "'A frog eats insects.' Under which criterion of Activity 12.4 does this interaction fall?",
+      "options": [
+        "Between a population and its community",
+        "Among the biotic components only",
+        "Between biotic and abiotic components",
+        "Between two abiotic components only"
+      ],
+      "answer": 1,
+      "explanation": "Both frog and insects are living, so this is an interaction among biotic components (Criterion 3).",
+      "source": "text:page7"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Biotic-Abiotic Interactions",
+      "question": "'Earthworms live in moist soil.' This is an interaction —",
+      "options": [
+        "Between two abiotic components only",
+        "Between a population and its community",
+        "Between biotic and abiotic components",
+        "Among the biotic components only"
+      ],
+      "answer": 2,
+      "explanation": "Earthworms (biotic) depend on moist soil (abiotic), so it is a biotic–abiotic interaction (Criterion 1).",
+      "source": "text:page7"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Biotic-Abiotic Interactions",
+      "question": "'Frogs and fish may compete for small insect larvae.' Which type of interaction is this?",
+      "options": [
+        "Among the biotic components only",
+        "Between biotic and abiotic components",
+        "Between two abiotic components only",
+        "Between a population and its community"
+      ],
+      "answer": 0,
+      "explanation": "Frogs, fish and larvae are all living things, so competition for food is an interaction among biotic components.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Biotic-Abiotic Interactions",
+      "question": "'A fish lays eggs in water.' Table 12.3 places this under which criterion?",
+      "options": [
+        "Between a population and its community",
+        "Between biotic and abiotic components",
+        "Among the biotic components only",
+        "Between two abiotic components only"
+      ],
+      "answer": 1,
+      "explanation": "The fish (biotic) uses water (abiotic) for reproduction, which Criterion 1 describes as abiotic components influencing life processes like reproduction.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Biotic-Abiotic Interactions",
+      "question": "'A fish lays eggs in water near vegetation to protect them from other fish or frogs.' Table 12.3 classifies this as an interaction —",
+      "options": [
+        "Between two abiotic components only",
+        "Between a population and its community",
+        "Among the biotic components only",
+        "Between biotic and abiotic components"
+      ],
+      "answer": 2,
+      "explanation": "Although water is involved, the reason for the behaviour is protection from other fish and frogs — living things. The table therefore lists it under interactions among biotic components.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Biotic-Abiotic Interactions",
+      "question": "'Air current is blowing slowly on the water surface creating gentle waves.' This is an interaction —",
+      "options": [
+        "Among the biotic components only",
+        "Between biotic and abiotic components",
+        "Between a population and its community",
+        "Between two abiotic components only"
+      ],
+      "answer": 3,
+      "explanation": "Air and water are both abiotic, so this is an interaction between two abiotic components that changes a physical feature of the habitat.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Biotic-Abiotic Interactions",
+      "question": "'The soil near the pond is moist.' Which criterion fits this observation?",
+      "options": [
+        "Between two abiotic components only",
+        "Among the biotic components only",
+        "Between biotic and abiotic components",
+        "Between a population and its community"
+      ],
+      "answer": 0,
+      "explanation": "Moist soil results from soil (abiotic) interacting with water (abiotic). Table 12.3 lists it under Criterion 2.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Biotic-Abiotic Interactions",
+      "question": "Which type of interaction may influence the PHYSICAL characteristics of a habitat?",
+      "options": [
+        "Between a population and its community",
+        "Between two abiotic components only",
+        "Among the biotic components only",
+        "Between biotic and abiotic components"
+      ],
+      "answer": 1,
+      "explanation": "Criterion 2 says interactions between two abiotic components (e.g. sunlight heating the day) may influence the physical characteristics of a habitat.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q43",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Biotic-Abiotic Interactions",
+      "question": "Which of these examples does Table 12.3 list under Criterion 1 (biotic–abiotic interactions)?",
+      "options": [
+        "Many microbes are present in the pond",
+        "A fish lays eggs in water",
+        "A water snake eats fish",
+        "The soil near the pond is moist"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Microbes in pond water and fish laying eggs in water involve a living thing and water. The snake eating fish is biotic–biotic; moist soil near the pond is abiotic–abiotic.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q44",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Biotic-Abiotic Interactions",
+      "question": "In Table 12.3, 'a water snake eats fish' is an example of an interaction between biotic and abiotic components.",
+      "answer": false,
+      "explanation": "Both snake and fish are living organisms, so this is an interaction among biotic components (Criterion 3).",
+      "source": "text:page7"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Biotic-Abiotic Interactions",
+      "question": "Which abiotic inputs does the chapter say plants need to produce food?",
+      "options": [
+        "Sunlight, oxygen and soil moisture",
+        "Carbon dioxide, oxygen and nutrients",
+        "Sunlight, carbon dioxide and water",
+        "Oxygen, nitrogen and soil minerals"
+      ],
+      "answer": 2,
+      "explanation": "The chapter states that sunlight, carbon dioxide and water are essential for producing food in plants. Oxygen is used for respiration, not food making.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q46",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Biotic-Abiotic Interactions",
+      "question": "Which of these show BIOTIC components influencing ABIOTIC components?",
+      "options": [
+        "Plants release oxygen during photosynthesis",
+        "Roots hold soil in place and prevent erosion",
+        "Soil supplies essential nutrients to plants",
+        "Water provides fish with dissolved oxygen"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Plants changing the air (oxygen) and roots protecting soil are living things affecting non-living ones. Soil feeding plants and water supplying oxygen are abiotic components helping biotic ones.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Biotic-Abiotic Interactions",
+      "question": "Which statement about biotic and abiotic components is NOT correct?",
+      "options": [
+        "Abiotic components are never changed by living things",
+        "Water is essential for every living organism in an ecosystem",
+        "Plants retain soil moisture and help cool the atmosphere",
+        "Many nutrients in soil come from the decomposition process"
+      ],
+      "answer": 0,
+      "explanation": "The chapter stresses that abiotic components are also influenced by biotic ones — plants release oxygen, roots prevent erosion and plants cool the atmosphere.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Biotic-Abiotic Interactions",
+      "question": "If all plants were removed from a hill slope, which change does the chapter's reasoning predict?",
+      "options": [
+        "Air would get cooler as fewer plants release heat",
+        "Soil would erode more easily as roots no longer hold it",
+        "Soil would become richer as fewer roots take nutrients",
+        "Soil would stay moister as no leaves shade it"
+      ],
+      "answer": 1,
+      "explanation": "Roots hold soil in place and prevent erosion, and plants retain soil moisture and cool the atmosphere. Removing them makes erosion likely and the soil drier.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q49",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Biotic-Abiotic Interactions",
+      "question": "Air provides carbon dioxide for respiration in plants and animals.",
+      "answer": false,
+      "explanation": "Air provides OXYGEN for respiration. Carbon dioxide is used by plants, along with sunlight and water, to make food.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Biotic-Abiotic Interactions",
+      "question": "Which option correctly pairs a need with the abiotic component that supplies it?",
+      "options": [
+        "Carbon dioxide for food — soil",
+        "Medium for roots — water",
+        "Oxygen for respiration — air",
+        "Nutrients for growth — sunlight"
+      ],
+      "answer": 2,
+      "explanation": "Air gives oxygen for respiration; soil provides the medium and nutrients; sunlight, carbon dioxide and water are needed for making food.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Ecosystems: Types and Levels",
+      "question": "Biotic and abiotic components of a habitat interacting with each other form —",
+      "options": [
+        "A population",
+        "A community",
+        "A food chain",
+        "An ecosystem"
+      ],
+      "answer": 3,
+      "explanation": "An ecosystem is formed by the interaction of biotic components (plants, animals, microbes) with abiotic components (air, water, soil, sunlight, temperature).",
+      "source": "text:page8"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Ecosystems: Types and Levels",
+      "question": "In Fig. 12.6, which ecosystem is described as human-made?",
+      "options": [
+        "Forest",
+        "Farmland",
+        "Grassland",
+        "Mountains"
+      ],
+      "answer": 1,
+      "explanation": "The chapter notes that farmland is a human-made ecosystem, while mountains, forests and grassland are natural terrestrial ecosystems.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Ecosystems: Types and Levels",
+      "question": "Which statement about ecosystems is NOT correct?",
+      "options": [
+        "Ponds, rivers and lakes are aquatic ecosystems",
+        "Different ecosystems may overlap and interact",
+        "Ecosystems are always large areas like forests and rivers",
+        "A large banyan tree can be treated as an ecosystem"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says ecosystems 'can be large or small' — even a single large tree like a banyan, mango or pilkhan counts as one.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q54",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Ecosystems: Types and Levels",
+      "question": "Which of these are TERRESTRIAL ecosystems according to the chapter?",
+      "options": [
+        "Forest",
+        "Farm",
+        "Pond",
+        "Lake"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Terrestrial (land) ecosystems include forests, farms and large trees. Ponds and lakes are aquatic ecosystems.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Ecosystems: Types and Levels",
+      "question": "Fig. 12.6 shows a small river among mountains, forests, grassland and farmland. What does the figure illustrate?",
+      "options": [
+        "A single large terrestrial ecosystem",
+        "A food web linking river and farmland",
+        "A community of populations in a river",
+        "Overlap of aquatic and terrestrial ecosystems"
+      ],
+      "answer": 3,
+      "explanation": "The river is aquatic while the mountains, forests, grassland and farmland are terrestrial. The figure shows these ecosystems overlapping and interacting.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q56",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Ecosystems: Types and Levels",
+      "question": "Ecosystems can be large or small.",
+      "answer": true,
+      "explanation": "A forest is a large ecosystem while a single pilkhan or banyan tree can be a small one, so ecosystems vary in size.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q57",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Ecosystems: Types and Levels",
+      "question": "A single pilkhan tree is too small to be considered an ecosystem.",
+      "answer": false,
+      "explanation": "The chapter names 'large trees like banyan, mango, or pilkhan' as examples of terrestrial ecosystems — size does not disqualify them.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Ecosystems: Types and Levels",
+      "question": "Organisms in an ecosystem interact with abiotic components for —",
+      "options": [
+        "Food, shelter and protection",
+        "Pollination, migration and nesting",
+        "Competition, parasitism and mutualism",
+        "Decomposition, respiration and growth"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states that organisms interact with abiotic components for food, shelter and protection. Competition, parasitism and mutualism are interactions among biotic components.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Ecosystems: Types and Levels",
+      "question": "The Snapshots list terrestrial ecosystems as forests, grasslands and —",
+      "options": [
+        "Streams",
+        "Deserts",
+        "Oceans",
+        "Lagoons"
+      ],
+      "answer": 1,
+      "explanation": "Snapshots: ecosystems can be terrestrial (forests, grasslands, deserts) or aquatic (ponds, lakes, sea, oceans).",
+      "source": "text:page18"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Ecosystems: Types and Levels",
+      "question": "In the sequence Individual → Population → Community → Ecosystem, at which level are ABIOTIC components first included?",
+      "options": [
+        "Community",
+        "Individual",
+        "Ecosystem",
+        "Population"
+      ],
+      "answer": 2,
+      "explanation": "Individuals, populations and communities are all made only of living things. Only the ecosystem includes abiotic components such as air, water and soil.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Ecosystems: Types and Levels",
+      "question": "Which set names human-made ecosystems created to meet human needs?",
+      "options": [
+        "Rivers, lakes and ponds",
+        "Forests, grasslands and deserts",
+        "Mountains, scrublands and wetlands",
+        "Fish ponds, farms and parks"
+      ],
+      "answer": 3,
+      "explanation": "Section 12.9.1 lists fish ponds, farms and parks as artificial ecosystems created by humans.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Ecosystems: Types and Levels",
+      "question": "How do human-made ecosystems differ from natural ones?",
+      "options": [
+        "They need human care and management",
+        "They have no abiotic components at all",
+        "They never support any biodiversity",
+        "They cannot help reduce pollution"
+      ],
+      "answer": 0,
+      "explanation": "Well-designed human-made ecosystems can reduce pollution and support biodiversity, but unlike natural ecosystems they need human care and management.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Producers and Consumers",
+      "question": "Organisms that make their own food by photosynthesis are called —",
+      "options": [
+        "Predators or carnivores",
+        "Producers or autotrophs",
+        "Consumers or heterotrophs",
+        "Decomposers or saprotrophs"
+      ],
+      "answer": 1,
+      "explanation": "Plants make their own food, so they are producers or autotrophs (auto = self, troph = food).",
+      "source": "text:page9"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Producers and Consumers",
+      "question": "The word 'autotroph' comes from roots meaning —",
+      "options": [
+        "Rotten + food",
+        "Plant + food",
+        "Self + food",
+        "Other + food"
+      ],
+      "answer": 2,
+      "explanation": "Auto = self and troph = food: autotrophs feed themselves. Hetero = other (heterotrophs) and sapro = rotten (saprotrophs).",
+      "source": "text:page9"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Producers and Consumers",
+      "question": "Organisms that eat only plants are called —",
+      "options": [
+        "Herbivores",
+        "Carnivores",
+        "Omnivores",
+        "Autotrophs"
+      ],
+      "answer": 0,
+      "explanation": "Herbivores such as deer and hare eat only plants. Carnivores eat only animals and omnivores eat both.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Producers and Consumers",
+      "question": "Which animal does the chapter name as an omnivore?",
+      "options": [
+        "Leopard",
+        "Fox",
+        "Deer",
+        "Hare"
+      ],
+      "answer": 1,
+      "explanation": "The chapter gives crows, foxes and mice as omnivores. Deer and hare are herbivores; the leopard is a carnivore.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Producers and Consumers",
+      "question": "Which pair lists only herbivores named in the chapter?",
+      "options": [
+        "Leopard and fox",
+        "Mouse and deer",
+        "Deer and hare",
+        "Crow and fox"
+      ],
+      "answer": 2,
+      "explanation": "Deer and hare eat only plants. Crows, foxes and mice are omnivores, and the leopard is a carnivore.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Producers and Consumers",
+      "question": "A student records a crow as 'feeds on plants: Yes' and 'feeds on animals: Yes' in Table 12.4. The crow should be classified as —",
+      "options": [
+        "A herbivore",
+        "A carnivore",
+        "A producer",
+        "An omnivore"
+      ],
+      "answer": 3,
+      "explanation": "Organisms that eat both plants and animals are omnivores — the chapter lists crows among them.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Producers and Consumers",
+      "question": "Which statement about producers and consumers is NOT correct?",
+      "options": [
+        "Mice are herbivores because they eat only plant seeds",
+        "Heterotrophs depend on other organisms for their food",
+        "A leopard that eats only animals is a carnivore",
+        "Green plants that make their own food are autotrophs"
+      ],
+      "answer": 0,
+      "explanation": "The chapter classifies mice as omnivores (eating both plants and animals), not herbivores.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q70",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Producers and Consumers",
+      "question": "Deer and hare are herbivores because they eat only plants.",
+      "answer": true,
+      "explanation": "The chapter gives deer and hare as examples of herbivores — organisms that eat only plants.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q71",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Producers and Consumers",
+      "question": "Crows, foxes and mice are carnivores because they eat other animals.",
+      "answer": false,
+      "explanation": "They eat both plants and animals, so the chapter classifies them as omnivores, not carnivores.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q72",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Producers and Consumers",
+      "question": "Which of these organisms are heterotrophs?",
+      "options": [
+        "Deer",
+        "Vulture",
+        "Tree",
+        "Grass"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Deer and vultures cannot make their own food and depend on other organisms. Trees and grass perform photosynthesis, so they are autotrophs.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Producers and Consumers",
+      "question": "In Table 12.4, which organism would have 'Yes' in the 'Performs photosynthesis' column?",
+      "options": [
+        "Vulture",
+        "Tree",
+        "Mushroom",
+        "Squirrel"
+      ],
+      "answer": 1,
+      "explanation": "Only the tree is a green plant that performs photosynthesis. Mushrooms are fungi that grow on dead matter; squirrels and vultures are animals.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Producers and Consumers",
+      "question": "Why would a mushroom NOT be listed as a producer?",
+      "options": [
+        "It feeds on both plants and animals like an omnivore",
+        "It hunts and eats small animals like a carnivore",
+        "It does not make its own food but grows on dead matter",
+        "It eats only plants and plant products like a herbivore"
+      ],
+      "answer": 2,
+      "explanation": "Mushrooms are fungi that grow on dead plants or trees, breaking down dead matter — they are decomposers, not producers or consumers in the usual sense.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Food Chains and Trophic Levels",
+      "question": "What is a food chain?",
+      "options": [
+        "A simple sequence showing who eats whom in an ecosystem",
+        "A network of many interlinked feeding relationships",
+        "A list of all the organisms living in one habitat",
+        "A pyramid showing the number of each organism"
+      ],
+      "answer": 0,
+      "explanation": "A food chain is a linear sequence of 'who eats whom'. Interlinked chains form a food web, and a pyramid shows numbers at each level.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Food Chains and Trophic Levels",
+      "question": "In the food chain Grass → Hare → Leopard, the arrows point —",
+      "options": [
+        "From the largest organism to the smallest one",
+        "From the organism that is eaten to the one that eats it",
+        "From the eater to the organism that it eats",
+        "From the producer towards the source of sunlight"
+      ],
+      "answer": 1,
+      "explanation": "Grass is eaten by the hare and the hare by the leopard, so each arrow goes from the food to its consumer.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Food Chains and Trophic Levels",
+      "question": "In Grass → Grasshopper → Frog → Snake → Eagle, at which trophic level is the frog?",
+      "options": [
+        "Fourth",
+        "Fifth",
+        "Third",
+        "Second"
+      ],
+      "answer": 2,
+      "explanation": "Grass is at the first level, the grasshopper (herbivore) at the second, and the frog (small carnivore) at the third.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Food Chains and Trophic Levels",
+      "question": "In Grass → Grasshopper → Frog → Snake → Eagle, which organism is at the FOURTH trophic level?",
+      "options": [
+        "Frog",
+        "Eagle",
+        "Grasshopper",
+        "Snake"
+      ],
+      "answer": 3,
+      "explanation": "Counting from grass (1), grasshopper (2), frog (3), the snake is at the fourth level and the eagle at the fifth.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Food Chains and Trophic Levels",
+      "question": "Large carnivores such as tigers or vultures occupy —",
+      "options": [
+        "The first level, like producers",
+        "The level above small carnivores",
+        "The level below small carnivores",
+        "The same level as herbivores"
+      ],
+      "answer": 1,
+      "explanation": "The chapter places small carnivores like frogs at the third level and large carnivores like tigers or vultures at the next level above them.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Food Chains and Trophic Levels",
+      "question": "In Activity 12.7, which organism has the LARGEST number in the crop field and so forms the base of the pyramid?",
+      "options": [
+        "Eagle",
+        "Grass",
+        "Millet",
+        "Mouse"
+      ],
+      "answer": 2,
+      "explanation": "The highest count is placed at the base. The millet plants are most numerous, mice fewer, and eagles the fewest at the top.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Food Chains and Trophic Levels",
+      "question": "Why is the eagle at the top of the pyramid in Activity 12.7?",
+      "options": [
+        "It has the largest body among the three",
+        "It is the only one of the three that can fly",
+        "It eats millet as well as mice",
+        "It has the lowest number among the three"
+      ],
+      "answer": 3,
+      "explanation": "The pyramid is built by arranging numbers: the highest number at the base and the lowest at the top. Eagles are fewest, so they sit at the top.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Food Chains and Trophic Levels",
+      "question": "A deer eating leaves in a forest occupies which trophic level?",
+      "options": [
+        "Second",
+        "First",
+        "Third",
+        "Fourth"
+      ],
+      "answer": 0,
+      "explanation": "Herbivores like hares and deer are at the second level, feeding on producers at the first level.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q83",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Food Chains and Trophic Levels",
+      "question": "In a food chain, herbivores occupy the first trophic level because they are the most numerous consumers.",
+      "answer": false,
+      "explanation": "Producers (green plants) occupy the first trophic level; herbivores are at the second.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Food Chains and Trophic Levels",
+      "question": "Consider Grass → Grasshopper → Frog → Snake. If frogs disappear, what happens to grasshoppers and snakes?",
+      "options": [
+        "Both grasshoppers and snakes decrease",
+        "Grasshoppers increase, snakes decrease",
+        "Grasshoppers decrease, snakes increase",
+        "Both grasshoppers and snakes increase"
+      ],
+      "answer": 1,
+      "explanation": "Frogs eat grasshoppers, so without frogs grasshoppers multiply. Snakes eat frogs, so they lose their food and their numbers fall.",
+      "source": "exercise:Q4"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Food Chains and Trophic Levels",
+      "question": "Why would grasshopper numbers rise if frogs vanished from the chain Grass → Grasshopper → Frog → Snake?",
+      "options": [
+        "Grass would grow faster without frogs",
+        "Snakes would stop hunting them",
+        "Their predator in the chain is gone",
+        "They would also eat the snakes' food"
+      ],
+      "answer": 2,
+      "explanation": "In this chain frogs are the only organism that eats grasshoppers, so removing frogs removes the check on the grasshopper population.",
+      "source": "exercise:Q4"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Food Chains and Trophic Levels",
+      "question": "Which organism is common to both food chains described for the grassland (Grass → Hare → Leopard and Grass → Grasshopper → Frog → Snake → Eagle)?",
+      "options": [
+        "Hare",
+        "Frog",
+        "Snake",
+        "Grass"
+      ],
+      "answer": 3,
+      "explanation": "Grass is the producer at the start of both chains; the other organisms appear in only one of them.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Food Chains and Trophic Levels",
+      "question": "In the crop-field chain Millet → Mouse → Eagle, the mouse is —",
+      "options": [
+        "A consumer at the second trophic level",
+        "A producer at the first trophic level",
+        "A consumer at the third trophic level",
+        "A decomposer at the top trophic level"
+      ],
+      "answer": 0,
+      "explanation": "The mouse eats millet (the producer), so here it acts as a consumer at the second level; the eagle eating mice is at the third.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Food Webs",
+      "question": "Interlinked food chains in an ecosystem form a network called a —",
+      "options": [
+        "Trophic level",
+        "Food web",
+        "Food chain",
+        "Food pyramid"
+      ],
+      "answer": 1,
+      "explanation": "When food chains are interlinked, the network formed is a food web.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Food Webs",
+      "question": "Why do food chains in an ecosystem become interlinked?",
+      "options": [
+        "Producers are always found at the top of every food chain",
+        "Decomposers connect only the top carnivores in each chain",
+        "Each organism may be eaten by two or more types of organisms",
+        "Each organism eats exactly one other type of organism only"
+      ],
+      "answer": 2,
+      "explanation": "The chapter explains that each organism may be eaten by two or more kinds of organisms, so chains cross and link into a web.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Food Webs",
+      "question": "In the Fig. 12.11 food web (grasses, grasshopper, bird, frog, snake, hawk, fox, hare, mouse, owl), which is the producer?",
+      "options": [
+        "Grasshopper",
+        "Mouse",
+        "Hare",
+        "Grasses"
+      ],
+      "answer": 3,
+      "explanation": "Only the grasses make their own food; all the animals listed are consumers.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q91",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Food Webs",
+      "question": "Which organisms in the Fig. 12.11 food web are predators rather than plant-eaters?",
+      "options": [
+        "Hawk",
+        "Snake",
+        "Hare",
+        "Grasses"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Hawks and snakes eat other animals. The hare is a herbivore and grasses are producers.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Food Webs",
+      "question": "In Fig. 12.20, grass and plants feed hares and deer, which in turn feed foxes and eagles. If disease cuts the hare population, what is likely?",
+      "options": [
+        "Foxes and eagles get less food, so their numbers may fall",
+        "Deer numbers fall because they depend on hares for food",
+        "Grass declines since fewer hares spread its seeds",
+        "Foxes and eagles increase as they stop competing with hares"
+      ],
+      "answer": 0,
+      "explanation": "Hares are prey for foxes and eagles; fewer hares means less food for these predators. Deer do not eat hares, and grass would if anything be grazed less.",
+      "source": "exercise:Q9"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Food Webs",
+      "question": "With fewer hares in the Fig. 12.20 web, what might happen to the deer?",
+      "options": [
+        "Deer will increase because they inherit the hares' grass",
+        "Predators may hunt deer more, putting pressure on deer numbers",
+        "Deer will have fewer plants because hares no longer trim the grass",
+        "Deer numbers are unaffected because nothing links them to hares"
+      ],
+      "answer": 1,
+      "explanation": "Foxes and eagles that lose hares as prey may turn more to deer, the other herbivore in the web — so deer are linked to hares indirectly through shared predators.",
+      "source": "exercise:Q9"
+    },
+    {
+      "id": "q94",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Food Webs",
+      "question": "In a food web, one organism can be connected to several others through feeding relationships.",
+      "answer": true,
+      "explanation": "A food web shows that each organism may be eaten by, or eat, two or more kinds of organisms.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q95",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Food Webs",
+      "question": "A food web is a single straight line showing who eats whom.",
+      "answer": false,
+      "explanation": "A single straight line is a food chain. A food web is a network formed when many chains are interlinked.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Food Webs",
+      "question": "Which statement about food webs is NOT correct?",
+      "options": [
+        "One organism may be eaten by two or more kinds of organisms",
+        "Food webs represent feeding relationships in an ecosystem",
+        "Removing one organism affects only its direct predator",
+        "A food web is formed when food chains are interlinked"
+      ],
+      "answer": 2,
+      "explanation": "Because organisms are linked in many directions, removing one has cascading effects through the web — as the frog-leg and pond examples show — not just on one predator.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Food Webs",
+      "question": "Which option correctly compares a food chain and a food web?",
+      "options": [
+        "A chain is linear; a web is a network of interlinked chains",
+        "A chain is a network; a web is a single linear sequence",
+        "A chain includes decomposers; a web never does",
+        "A web has one producer; a chain has many producers"
+      ],
+      "answer": 0,
+      "explanation": "The chapter describes a food chain as a linear sequence and a food web as the network formed when chains interlink.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q98",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Food Webs",
+      "question": "In Fig. 12.20, which organisms feed DIRECTLY on grass and plants?",
+      "options": [
+        "Hare",
+        "Deer",
+        "Fox",
+        "Eagle"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Hares and deer are the herbivores eating grass and plants. Foxes and eagles are predators feeding on the herbivores.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Decomposers and Migratory Birds",
+      "question": "Organisms that break down dead plants and animals into simpler substances are called —",
+      "options": [
+        "Consumers or heterotrophs",
+        "Predators or carnivores",
+        "Decomposers or saprotrophs",
+        "Producers or autotrophs"
+      ],
+      "answer": 2,
+      "explanation": "Fungi and bacteria that decompose dead matter are decomposers or saprotrophs (sapro = rotten, troph = food).",
+      "source": "text:page12"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Decomposers and Migratory Birds",
+      "question": "In the word 'saprotroph', what does 'sapro' mean?",
+      "options": [
+        "Oneself",
+        "Another",
+        "Living",
+        "Rotten"
+      ],
+      "answer": 3,
+      "explanation": "Sapro = rotten and troph = food — saprotrophs feed on rotten (dead) matter.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Decomposers and Migratory Birds",
+      "question": "What does decomposition return to the soil?",
+      "options": [
+        "Important nutrients",
+        "Oxygen for roots",
+        "Sunlight energy",
+        "Pollen and seeds"
+      ],
+      "answer": 0,
+      "explanation": "Breaking down dead matter returns important nutrients to the soil, which plants then use — this is why decomposers are called nutrient recyclers.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Decomposers and Migratory Birds",
+      "question": "Beetles and flies found on elephant dung help the ecosystem by —",
+      "options": [
+        "Protecting the dung from fungi and bacteria",
+        "Breaking it down and recycling nutrients",
+        "Spreading seeds contained in the dung",
+        "Pollinating the plants growing nearby"
+      ],
+      "answer": 1,
+      "explanation": "The chapter says these tiny insects help break down droppings and recycle nutrients back into the environment.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Decomposers and Migratory Birds",
+      "question": "If all decomposers suddenly disappeared from a forest, what would happen?",
+      "options": [
+        "Herbivores would increase since more dead plants are available",
+        "The soil would become richer as dead matter stays on it",
+        "Dead matter would pile up and soil nutrients would not be renewed",
+        "Plants would grow faster since nothing would consume them"
+      ],
+      "answer": 2,
+      "explanation": "Decomposers break dead matter into simpler substances that return nutrients to the soil. Without them, dead matter accumulates and the soil is not replenished.",
+      "source": "exercise:Q2"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Decomposers and Migratory Birds",
+      "question": "Why is an ecosystem with only producers and no consumers or decomposers not possible?",
+      "options": [
+        "Producers would stop photosynthesis without animals to pollinate them",
+        "Producers need consumers to carry their seeds or they cannot reproduce",
+        "Producers would run out of sunlight without consumers to share it",
+        "Without decomposers, dead matter would never be broken down to recycle nutrients"
+      ],
+      "answer": 3,
+      "explanation": "Nutrients in soil come largely from decomposition. Without decomposers, dead producers would lock up nutrients and the soil would be depleted; consumers also pass energy and matter along.",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q105",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Decomposers and Migratory Birds",
+      "question": "In nature, nothing is wasted — everything is reused.",
+      "answer": true,
+      "explanation": "The chapter concludes the decomposition section with exactly this idea: decomposers recycle nutrients so nothing is wasted.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q106",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Decomposers and Migratory Birds",
+      "question": "Decomposers such as fungi and bacteria make their own food like producers do.",
+      "answer": false,
+      "explanation": "Decomposers feed on dead matter; they are saprotrophs, not autotrophs.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Decomposers and Migratory Birds",
+      "question": "Why do migratory birds fly to different habitats in India?",
+      "options": [
+        "To avoid harsh climate and search for food",
+        "To pollinate crops growing on Indian farms",
+        "To escape predators living in their homeland",
+        "To breed only in the wetlands of India"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says migratory birds come to avoid harsh climate and in search of food.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Decomposers and Migratory Birds",
+      "question": "How do migratory birds help farmers?",
+      "options": [
+        "They loosen the soil while searching for worms",
+        "They prey on insect pests and control pest populations",
+        "They spread fertiliser by dropping dung on the fields",
+        "They scare away cattle that trample the crops"
+      ],
+      "answer": 1,
+      "explanation": "Migratory birds are predators of insect pests, helping farmers control pests and indirectly supporting healthy crop growth.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Decomposers and Migratory Birds",
+      "question": "Demoiselle Cranes visit which place during the winter months?",
+      "options": [
+        "Keibul Lamjao in Manipur",
+        "Bandipur in Karnataka",
+        "Khichan in Jodhpur",
+        "Chilika in Odisha"
+      ],
+      "answer": 2,
+      "explanation": "The chapter mentions Demoiselle Cranes visiting the water body of Khichan village in Jodhpur district in winter.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Decomposers and Migratory Birds",
+      "question": "The chapter says migratory birds 'link two habitats'. How?",
+      "options": [
+        "They carry water from one habitat to another in their bodies",
+        "They build nests using materials from both of the habitats",
+        "They force other birds to move between the two habitats",
+        "They act as pollinators or seed dispersers along their migration path"
+      ],
+      "answer": 3,
+      "explanation": "As they travel, migratory birds pollinate and disperse seeds along their path, connecting the habitats they pass through.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q111",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Decomposers and Migratory Birds",
+      "question": "Which roles of migratory birds in an ecosystem does the chapter mention?",
+      "options": [
+        "Pollinators",
+        "Seed dispersers",
+        "Decomposers",
+        "Producers"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Migratory birds keep balance as pollinators or seed dispersers and as predators of pests. They are not decomposers or producers.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cascading Changes and Human Intervention",
+      "question": "In Fig. 12.13, what starts the chain of changes in the pond?",
+      "options": [
+        "Plants in the pond die due to pollution",
+        "Fish die because of heavy overfishing",
+        "Insects increase due to the warm weather",
+        "Farmers spray pesticides on their crops"
+      ],
+      "answer": 0,
+      "explanation": "The chain begins with many pond plants dying because of pollution; everything else follows from this.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cascading Changes and Human Intervention",
+      "question": "When fewer plants remain in the pond, what is the immediate effect?",
+      "options": [
+        "More fish survive in the water",
+        "Less oxygen is produced in the water",
+        "More oxygen is produced in the water",
+        "The water becomes much warmer"
+      ],
+      "answer": 1,
+      "explanation": "Plants release oxygen, so with fewer plants less oxygen is produced in the water, leading to a drop in the fish population.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cascading Changes and Human Intervention",
+      "question": "Which sequence correctly shows the chain in Fig. 12.13?",
+      "options": [
+        "Plants die → more insects → less oxygen → fish die → crops damaged",
+        "Less oxygen → crops damaged → plants die → fish die → more insects",
+        "Plants die → less oxygen → fish die → more insects → crops damaged",
+        "Fish die → plants die → less oxygen → more insects → crops damaged"
+      ],
+      "answer": 2,
+      "explanation": "Pollution kills plants, oxygen falls, fish die, fewer consumers means insects increase, and the insects spread to farms where they damage crops.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cascading Changes and Human Intervention",
+      "question": "Why do insects increase in number after the fish die in the Fig. 12.13 chain?",
+      "options": [
+        "Dead fish provide extra food for the insects",
+        "Low-oxygen water favours insect breeding",
+        "Pesticides from farms attract insects to the pond",
+        "Fewer consumers remain in the pond to eat them"
+      ],
+      "answer": 3,
+      "explanation": "The chapter says a reduced fish population means fewer consumers in the pond, so insects increase in number.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cascading Changes and Human Intervention",
+      "question": "What are farmers compelled to do at the end of the Fig. 12.13 chain?",
+      "options": [
+        "Use pesticides to grow their crops",
+        "Dig new ponds for breeding fish",
+        "Plant more plants in the pond",
+        "Stop growing crops near the pond"
+      ],
+      "answer": 0,
+      "explanation": "Insects spreading from the pond to farmlands force farmers to use pesticides, which may again harm the environment.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cascading Changes and Human Intervention",
+      "question": "The decline in frog populations due to harvesting led to —",
+      "options": [
+        "A rise in fish populations",
+        "A fall in pesticide use",
+        "A rise in agricultural pests",
+        "A fall in agricultural pests"
+      ],
+      "answer": 2,
+      "explanation": "Frogs eat insects, so fewer frogs meant more agricultural pests, which forced farmers to use more synthetic pesticides.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cascading Changes and Human Intervention",
+      "question": "How did the Government of India respond to the ecological damage from frog harvesting?",
+      "options": [
+        "It banned the use of synthetic pesticides",
+        "It started breeding frogs on farms",
+        "It imported frogs from other countries",
+        "It banned the export of frog legs"
+      ],
+      "answer": 3,
+      "explanation": "The Government banned frog-leg exports to prevent further ecological damage.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cascading Changes and Human Intervention",
+      "question": "What general lesson does the frog-leg case illustrate?",
+      "options": [
+        "Removing one organism can trigger cascading effects",
+        "Exports always damage natural ecosystems",
+        "Pesticides are the main cause of frog decline",
+        "Frogs are the only insect-eaters on farms"
+      ],
+      "answer": 0,
+      "explanation": "Harvesting frogs led to more pests, more pesticides, and harm to soil, water and health — one change led to many others.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q120",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Cascading Changes and Human Intervention",
+      "question": "An ecosystem's balance is dynamic, not fixed, and can be disrupted by natural or human-made changes.",
+      "answer": true,
+      "explanation": "The chapter states that ecological balance is dynamic and can be disrupted by natural or human-made changes.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q121",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Cascading Changes and Human Intervention",
+      "question": "Ecological balance means populations in an ecosystem stay exactly fixed and never change.",
+      "answer": false,
+      "explanation": "Balance is dynamic — populations and resources stay stable through interactions, but they are not fixed.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cascading Changes and Human Intervention",
+      "question": "Students noticed fewer butterflies in the school garden. Which reason is best supported by the chapter?",
+      "options": [
+        "An increase in mushroom growth in the beds",
+        "Pesticide use or fewer flowering plants nearby",
+        "Too many earthworms living in the garden soil",
+        "More sunlight reaching the garden beds each day"
+      ],
+      "answer": 1,
+      "explanation": "The chapter links pesticides to harm for natural insect populations and links flowering plants to pollinators; losing either reduces butterflies.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cascading Changes and Human Intervention",
+      "question": "Which step would help bring more butterflies back to the campus?",
+      "options": [
+        "Spray synthetic pesticides to kill pests",
+        "Replace flowering plants with one lawn grass",
+        "Grow more flowering plants and avoid pesticides",
+        "Remove all dragonflies from the garden pond"
+      ],
+      "answer": 2,
+      "explanation": "Flowering plants provide nectar and pollen for butterflies, while pesticides and monoculture harm pollinators.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Competition and Species Relationships",
+      "question": "Besides feeding relationships, organisms compete for common resources such as —",
+      "options": [
+        "Predators, parasites and diseases",
+        "Oxygen, nitrogen and carbon dioxide",
+        "Mates, nests and migration routes",
+        "Food, water, physical space or sunlight"
+      ],
+      "answer": 3,
+      "explanation": "The chapter lists food, water, physical space and sunlight as the common resources organisms compete for.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Competition and Species Relationships",
+      "question": "What role does competition play in an ecosystem?",
+      "options": [
+        "It controls population size and keeps the balance",
+        "It lets one species multiply without any limit",
+        "It removes all weaker species from the habitat",
+        "It increases the total resources in the habitat"
+      ],
+      "answer": 0,
+      "explanation": "Competition helps control population size; without it one species could multiply too much and cause an imbalance.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Competition and Species Relationships",
+      "question": "A relationship in which both organisms benefit is called —",
+      "options": [
+        "Competitive relationship",
+        "Mutualistic relationship",
+        "Commensal relationship",
+        "Parasitic relationship"
+      ],
+      "answer": 1,
+      "explanation": "Mutualism: both benefit, e.g. honeybees and flowers.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Competition and Species Relationships",
+      "question": "Orchids growing on trees illustrate which type of relationship?",
+      "options": [
+        "Parasitic relationship",
+        "Competitive relationship",
+        "Commensal relationship",
+        "Mutualistic relationship"
+      ],
+      "answer": 2,
+      "explanation": "The orchid gets physical support while the tree branch is unaffected — one benefits, the other is not affected.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Competition and Species Relationships",
+      "question": "Ticks on the body of a dog illustrate which relationship?",
+      "options": [
+        "Mutualistic relationship",
+        "Commensal relationship",
+        "Competitive relationship",
+        "Parasitic relationship"
+      ],
+      "answer": 3,
+      "explanation": "The tick feeds on the dog's blood and benefits, while the dog is harmed (skin irritation) — parasitism.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Competition and Species Relationships",
+      "question": "In the orchid-on-tree example, how is the tree branch affected?",
+      "options": [
+        "Weakened",
+        "Unaffected",
+        "Benefitted",
+        "Harmed"
+      ],
+      "answer": 1,
+      "explanation": "Fig. 12.16 states the tree branch is unaffected while the orchid gets physical support — the defining feature of commensalism.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Competition and Species Relationships",
+      "question": "Which statement about relationships between species is NOT correct?",
+      "options": [
+        "In commensalism one benefits and the other is unaffected",
+        "In parasitism one benefits while the other is harmed",
+        "In commensalism the other organism is slightly harmed",
+        "In mutualism both organisms benefit"
+      ],
+      "answer": 2,
+      "explanation": "In commensalism the second organism is not affected at all. Harm to one partner is the mark of parasitism.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Competition and Species Relationships",
+      "question": "A bird builds its nest on a tree branch and gains shelter, while the tree is neither helped nor harmed. This most resembles a —",
+      "options": [
+        "Mutualistic relationship",
+        "Parasitic relationship",
+        "Competitive relationship",
+        "Commensal relationship"
+      ],
+      "answer": 3,
+      "explanation": "Like the orchid on a tree, one organism benefits and the other is unaffected — commensalism.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Competition and Species Relationships",
+      "question": "In the bee–flower relationship, what does the FLOWER gain?",
+      "options": [
+        "It gets pollinated",
+        "It gets nectar",
+        "It gets support",
+        "It gets protection"
+      ],
+      "answer": 0,
+      "explanation": "Fig. 12.16: the bee gets nectar, the flower gets pollinated — both are benefitted.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q133",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Competition and Species Relationships",
+      "question": "In commensalism, both organisms benefit from the relationship.",
+      "answer": false,
+      "explanation": "In commensalism one organism benefits while the other is unaffected; both benefitting is mutualism.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q134",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Competition and Species Relationships",
+      "question": "Without competition, one species could multiply too much and cause an imbalance in the ecosystem.",
+      "answer": true,
+      "explanation": "The chapter says competition helps control population size and keeps the ecosystem balanced.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Competition and Species Relationships",
+      "question": "What did A.J.T. Johnsingh's research prove?",
+      "options": [
+        "Tigers and leopards avoid deer and wild boar",
+        "Tracking systems disturb predator behaviour",
+        "A healthy prey population is key to predator survival",
+        "Predators control prey only in small forests"
+      ],
+      "answer": 2,
+      "explanation": "He showed that predators like tigers and leopards rely on prey such as deer and wild boar, so healthy prey numbers are essential for predators.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q136",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Competition and Species Relationships",
+      "question": "According to the chapter, which prey animals did Johnsingh find tigers and leopards rely on?",
+      "options": [
+        "Deer",
+        "Wild boar",
+        "Hare",
+        "Elephant"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The box names deer and wild boar as the prey that tigers and leopards rely on.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q137",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Benefits of Ecosystems and the Sundarbans",
+      "question": "Which of these does the chapter list as things forests provide?",
+      "options": [
+        "Timber",
+        "Fibres",
+        "Fish",
+        "Salt"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Forests provide fresh air, fertile soil, food, fibres, timber and medicines. Water and fish-type food come from aquatic ecosystems.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Benefits of Ecosystems and the Sundarbans",
+      "question": "The Sundarbans have the world's largest —",
+      "options": [
+        "Mangrove forests",
+        "Coral reefs",
+        "Grasslands",
+        "Freshwater lakes"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states the Sundarbans have the largest mangrove forests in the world.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q139",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Benefits of Ecosystems and the Sundarbans",
+      "question": "The Sundarbans are located where which two rivers meet?",
+      "options": [
+        "Godavari and Krishna",
+        "Ganges and Brahmaputra",
+        "Ganges and Yamuna",
+        "Brahmaputra and Indus"
+      ],
+      "answer": 1,
+      "explanation": "The Sundarbans lie where the Ganges and Brahmaputra rivers meet, between India and Bangladesh.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q140",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Benefits of Ecosystems and the Sundarbans",
+      "question": "In which year did UNESCO declare the Sundarbans a World Heritage Site?",
+      "options": [
+        "1997",
+        "1980",
+        "1987",
+        "1978"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says UNESCO declared the Sundarbans a World Heritage Site in 1987.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q141",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Benefits of Ecosystems and the Sundarbans",
+      "question": "How do the Sundarbans protect people?",
+      "options": [
+        "By blocking rivers so floods never reach villages",
+        "By absorbing all the rain that falls on the coast",
+        "By keeping fish away from the coastal farmlands",
+        "By slowing strong winds and waves during storms and floods"
+      ],
+      "answer": 3,
+      "explanation": "The mangroves slow down strong winds and waves during storms and floods, and the trees also absorb carbon dioxide and release oxygen.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q142",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Benefits of Ecosystems and the Sundarbans",
+      "question": "Selvam's village in Cuddalore was less affected by the 2004 tsunami than nearby villages. How did mangroves help?",
+      "options": [
+        "They slowed the force of the waves before they reached the village",
+        "They absorbed all the sea water so none reached the village",
+        "They warned villagers early by swaying strongly in the wind",
+        "Their roots raised the land above the level of the tsunami"
+      ],
+      "answer": 0,
+      "explanation": "Mangrove forests slow down strong winds and waves, so a village behind them receives weaker waves than exposed villages.",
+      "source": "exercise:Q3"
+    },
+    {
+      "id": "q143",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Benefits of Ecosystems and the Sundarbans",
+      "question": "Which threats to the Sundarbans does the chapter mention?",
+      "options": [
+        "Cutting mangroves for fuelwood and farming",
+        "Industrial waste and untreated sewage in rivers",
+        "Melting glaciers upstream",
+        "Oil spills from cargo ships"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The chapter names cutting mangroves for fuelwood and farming, illegal hunting, overuse of resources, and pollution from industrial waste and untreated sewage.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q144",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Benefits of Ecosystems and the Sundarbans",
+      "question": "The trees of the Sundarbans absorb carbon dioxide from the air and release oxygen.",
+      "answer": true,
+      "explanation": "The chapter notes that Sundarbans trees absorb carbon dioxide and release oxygen, one of the ways they protect us.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q145",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Benefits of Ecosystems and the Sundarbans",
+      "question": "The Sundarbans lie between India and Myanmar.",
+      "answer": false,
+      "explanation": "They lie between India and Bangladesh, where the Ganges and Brahmaputra meet.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q146",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Benefits of Ecosystems and the Sundarbans",
+      "question": "Besides food and materials, what other value do ecosystems offer according to the chapter?",
+      "options": [
+        "Protection from all natural disasters",
+        "Aesthetic and recreational value",
+        "Synthetic fertilisers and pesticides",
+        "Unlimited groundwater for irrigation"
+      ],
+      "answer": 1,
+      "explanation": "Ecosystems also offer aesthetic and recreational value that supports our well-being.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q147",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Benefits of Ecosystems and the Sundarbans",
+      "question": "Which statement about the Sundarbans is NOT correct?",
+      "options": [
+        "Mangrove trees there are cut for fuelwood and farming",
+        "It lies where the Ganges and Brahmaputra meet",
+        "Its World Heritage status has removed all threats",
+        "It is home to many endangered plants and animals"
+      ],
+      "answer": 2,
+      "explanation": "Despite UNESCO status, the chapter says the Sundarbans are 'under a serious threat' from tree cutting, hunting, overuse and pollution.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q148",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Benefits of Ecosystems and the Sundarbans",
+      "question": "According to the chapter, what disturbs the balance in nature?",
+      "options": [
+        "Using resources for aesthetic purposes",
+        "Studying ecosystems with modern tracking",
+        "Visiting forests for recreation",
+        "Overusing or misusing natural resources"
+      ],
+      "answer": 3,
+      "explanation": "The chapter says that when we overuse or misuse natural resources, we disturb the balance in nature.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q149",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Threats and Protected Areas",
+      "question": "Which problems does the chapter list as damaging ecosystems across India?",
+      "options": [
+        "Deforestation",
+        "Spread of invasive species",
+        "Growth of mangroves",
+        "Visits by migratory birds"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Deforestation, overuse of resources, invasive species, unsustainable land use and pollution are listed. Mangroves and migratory birds help ecosystems.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q150",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Threats and Protected Areas",
+      "question": "What are protected areas?",
+      "options": [
+        "Land or water set aside to conserve wildlife and their habitats",
+        "Farms where crops are grown using only organic manure",
+        "Cities where pollution levels are strictly limited by law",
+        "Zoos where endangered animals are bred and kept in cages"
+      ],
+      "answer": 0,
+      "explanation": "Protected areas are parts of land or water set aside to conserve wildlife and their habitats, such as national parks and sanctuaries.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q151",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Threats and Protected Areas",
+      "question": "Which protected area named in the chapter is in Odisha?",
+      "options": [
+        "Eaglenest Sanctuary",
+        "Chilika Lake",
+        "Manas National Park",
+        "Hemis National Park"
+      ],
+      "answer": 1,
+      "explanation": "Chilika Lake is in Odisha. Manas is in Assam, Hemis in Leh and Eaglenest in Arunachal Pradesh.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q152",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Threats and Protected Areas",
+      "question": "The Nilgiri Biosphere Reserve is located in the —",
+      "options": [
+        "Himalayas",
+        "Aravalli hills",
+        "Western Ghats",
+        "Eastern Ghats"
+      ],
+      "answer": 2,
+      "explanation": "The chapter lists Nilgiri Biosphere Reserve (Western Ghats) among India's famous protected areas.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q153",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Threats and Protected Areas",
+      "question": "Which protected area is correctly matched with its location?",
+      "options": [
+        "Eaglenest Wildlife Sanctuary — Odisha",
+        "Hemis National Park — Leh",
+        "Manas National Park — Uttarakhand",
+        "Jim Corbett National Park — Assam"
+      ],
+      "answer": 1,
+      "explanation": "Hemis is in Leh. Manas is in Assam, Jim Corbett in Uttarakhand, and Eaglenest in Arunachal Pradesh.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q154",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Threats and Protected Areas",
+      "question": "Which of these are types of protected areas named in the chapter?",
+      "options": [
+        "National parks",
+        "Biosphere reserves",
+        "Botanical gardens",
+        "Public parks"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The chapter names national parks, wildlife sanctuaries, biosphere reserves and community conserved areas as protected areas.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q155",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Threats and Protected Areas",
+      "question": "Protected areas help protect entire habitats, including endangered animals, birds and rare plants.",
+      "answer": true,
+      "explanation": "The chapter says these places help protect entire habitats including endangered animals, birds and many rare plants.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q156",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Threats and Protected Areas",
+      "question": "Eaglenest Wildlife Sanctuary is located in Uttarakhand.",
+      "answer": false,
+      "explanation": "Eaglenest Wildlife Sanctuary is in Arunachal Pradesh; Jim Corbett National Park is the one in Uttarakhand.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q157",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Threats and Protected Areas",
+      "question": "Which statement about threats to ecosystems is NOT correct?",
+      "options": [
+        "Pollution threatens rivers, wetlands and coastal areas",
+        "Community conserved areas are a type of protected area",
+        "Invasive species help restore damaged grasslands and wetlands",
+        "Unsustainable land use damages Indian ecosystems"
+      ],
+      "answer": 2,
+      "explanation": "The chapter lists the spread of invasive species among the problems damaging ecosystems, not as a remedy.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q158",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Threats and Protected Areas",
+      "question": "Why do elephants wander into farms and villages?",
+      "options": [
+        "They are attracted by the noise of farm machinery",
+        "Farmers plant bananas to lure them away from forests",
+        "Corridors direct them straight into villages and farms",
+        "Vegetation is scarce and waterholes dry up in their habitat"
+      ],
+      "answer": 3,
+      "explanation": "When vegetation is scarce and waterholes dry up, elephants search for food like bananas and sugarcane in nearby farms and plantations.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q159",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Threats and Protected Areas",
+      "question": "What is the purpose of the corridors marked by wildlife ecologists?",
+      "options": [
+        "To connect forest habitats so animals move safely between them",
+        "To fence elephants inside a single protected forest area",
+        "To guide elephants into farms where they can find food",
+        "To separate large predators from their prey animals"
+      ],
+      "answer": 0,
+      "explanation": "Corridors connect forest habitats, enabling elephants and other wildlife to travel between large forest areas without conflict with human settlements.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q160",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Threats and Protected Areas",
+      "question": "Which cause-and-effect chain does the chapter give for human–elephant conflict?",
+      "options": [
+        "Habitat loss → more rainfall → forests expand → elephants leave villages",
+        "Tree cutting and rainfall change → forests shrink → habitat loss → animals enter villages",
+        "Corridors built → forests shrink → elephants lose habitat → crops are damaged",
+        "Crop damage → forest clearing → rainfall change → elephants adapt to farms"
+      ],
+      "answer": 1,
+      "explanation": "Changes in rainfall and temperature plus cutting trees dry and shrink forests; losing habitat pushes animals into human habitats.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q161",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Threats and Protected Areas",
+      "question": "In which of these states do elephants often enter farms and villages, according to the chapter?",
+      "options": [
+        "Odisha",
+        "Jharkhand",
+        "Gujarat",
+        "Punjab"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The chapter names Odisha, Jharkhand, West Bengal, Assam and Chhattisgarh.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q162",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sustainable Farming",
+      "question": "The Green Revolution increased food production through the use of —",
+      "options": [
+        "Organic manure and natural farming methods",
+        "Kunapa Jala and other composted materials",
+        "Crop rotation and mixed cropping systems",
+        "Tractors, synthetic fertilisers and pesticides"
+      ],
+      "answer": 3,
+      "explanation": "In the mid-20th century, tractors, machines, synthetic fertilisers and pesticides raised food production — the Green Revolution.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q163",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Sustainable Farming",
+      "question": "Why are Green Revolution farming methods now considered unsustainable?",
+      "options": [
+        "Overuse of synthetic chemicals",
+        "Excessive groundwater extraction",
+        "Use of composted manure",
+        "Growing many crop types together"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The chapter cites overuse of synthetic chemicals, excessive groundwater extraction and growing only one type of crop. Compost and mixed crops are sustainable practices.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q164",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sustainable Farming",
+      "question": "How can overuse of synthetic fertilisers reduce soil fertility?",
+      "options": [
+        "By decreasing friendly microorganisms and lowering humus",
+        "By increasing earthworms that eat away the humus",
+        "By raising soil moisture so nutrients wash away",
+        "By attracting pests that consume soil organic matter"
+      ],
+      "answer": 0,
+      "explanation": "Overuse decreases friendly soil microorganisms and lowers organic matter (humus), which binds soil particles.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q165",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sustainable Farming",
+      "question": "What role does humus play in soil?",
+      "options": [
+        "It reflects sunlight to cool the soil",
+        "It binds soil particles together",
+        "It kills pests living in the soil",
+        "It supplies oxygen to plant roots"
+      ],
+      "answer": 1,
+      "explanation": "Humus (organic matter) helps bind soil particles; without enough humus, soil becomes prone to erosion.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q166",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sustainable Farming",
+      "question": "If humus in a field falls sharply, what does the chapter say is likely?",
+      "options": [
+        "Soil pests decrease in number",
+        "Soil microbes multiply quickly",
+        "The soil becomes prone to erosion",
+        "The soil holds much more water"
+      ],
+      "answer": 2,
+      "explanation": "Humus binds soil particles, so losing it leaves the soil loose and prone to erosion.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q167",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sustainable Farming",
+      "question": "How can heavy pesticide use eventually INCREASE pest numbers?",
+      "options": [
+        "It makes crops sweeter, attracting more pests from nearby",
+        "It kills the microorganisms that the pests feed on",
+        "It warms the soil, which speeds up the breeding of pests",
+        "It reduces natural predators that normally keep pests in check"
+      ],
+      "answer": 3,
+      "explanation": "Fig. 12.18 shows natural control of pests by predators such as beetles; pesticides reduce these predators, so pest populations ultimately increase.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q168",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sustainable Farming",
+      "question": "What is monoculture?",
+      "options": [
+        "Growing the same crop repeatedly",
+        "Growing many crops in one field",
+        "Growing crops without fertilisers",
+        "Growing crops only in one season"
+      ],
+      "answer": 0,
+      "explanation": "Growing the same crop repeatedly is called monoculture; it can reduce biodiversity and affect pollinators.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q169",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sustainable Farming",
+      "question": "According to the chapter, monoculture can reduce —",
+      "options": [
+        "Decomposers and sunlight",
+        "Biodiversity and pollinators",
+        "Groundwater and tractors",
+        "Rainfall and temperature"
+      ],
+      "answer": 1,
+      "explanation": "Monoculture reduces biodiversity and affects pollinators, which are crucial for food production.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q170",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sustainable Farming",
+      "question": "Heavy irrigation and repeated ploughing can disturb which soil organisms?",
+      "options": [
+        "Frogs and tortoises",
+        "Hares and squirrels",
+        "Earthworms and snails",
+        "Bees and butterflies"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says these practices disturb soil organisms like earthworms and snails, which help maintain ecological balance.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q171",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sustainable Farming",
+      "question": "What is Kunapa Jala?",
+      "options": [
+        "A method of ploughing to remove pests from the soil",
+        "A liquid fertiliser made by fermenting animal and plant waste",
+        "A synthetic pesticide introduced in the Green Revolution",
+        "An irrigation technique described in ancient texts"
+      ],
+      "answer": 1,
+      "explanation": "Kunapa Jala is a liquid fertiliser made from animal and plant waste by fermentation, which breaks complex substances into simpler ones.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q172",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Sustainable Farming",
+      "question": "Synthetic fertilisers and pesticides helped India become food secure.",
+      "answer": true,
+      "explanation": "The chapter acknowledges that they played a vital role in improving crop production and food security, even though long-term use harms soil.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q173",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Sustainable Farming",
+      "question": "Organic and natural farming methods aim to increase the use of synthetic fertilisers.",
+      "answer": false,
+      "explanation": "They aim to REDUCE synthetic fertiliser use and support sustainable farming with minimal interference in natural ecosystems.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q174",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sustainable Farming",
+      "question": "'Human-made ecosystems like agricultural fields are necessary, but they must be made sustainable.' Which practice supports this?",
+      "options": [
+        "Extracting more groundwater to irrigate heavily",
+        "Spraying more pesticide whenever pests resist",
+        "Using organic manure and reducing synthetic chemicals",
+        "Growing a single commercial crop every season"
+      ],
+      "answer": 2,
+      "explanation": "Farms feed us but overuse of chemicals, groundwater and monoculture degrade soil; organic manure and fewer chemicals keep farming sustainable.",
+      "source": "exercise:Q8"
+    },
+    {
+      "id": "q175",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sustainable Farming",
+      "question": "Fig. 12.18 shows a beetle feeding on pests. What does the figure illustrate?",
+      "options": [
+        "Pollination of crops by beetles",
+        "Decomposition of dung by beetles",
+        "Damage to crop leaves by beetles",
+        "Natural control of pests by predators"
+      ],
+      "answer": 3,
+      "explanation": "The caption reads 'Natural control of pests by predators — Beetle feeding on pests', showing why killing predators with pesticides backfires.",
+      "source": "text:page17"
+    }
+  ]
+}

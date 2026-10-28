@@ -1,0 +1,2130 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-maths-1-g8-ch04-quadrilaterals",
+  "title": "Quadrilaterals",
+  "subject": "Maths-1",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Maths-1/ch04",
+  "chapter": "4. Quadrilaterals",
+  "topic": "Full Chapter",
+  "description": "Grade 8 practice on rectangles, squares, parallelograms, rhombuses, kites and trapeziums — their definitions, diagonal properties, angle facts and the congruence proofs behind them.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "maths",
+    "geometry",
+    "quadrilaterals",
+    "parallelogram",
+    "rhombus",
+    "kite",
+    "trapezium",
+    "congruence"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Quadrilaterals and Angle Sum",
+      "question": "The word 'quadrilateral' comes from two Latin words. What do 'quadri' and 'latus' mean?",
+      "options": [
+        "four and side",
+        "four and angle",
+        "square and side",
+        "corner and line"
+      ],
+      "answer": 0,
+      "explanation": "The chapter explains that 'quadri' means four and 'latus' refers to sides — a quadrilateral is a four-sided figure.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Quadrilaterals and Angle Sum",
+      "question": "What is the sum of all the angles of any quadrilateral?",
+      "options": [
+        "540°",
+        "360°",
+        "180°",
+        "270°"
+      ],
+      "answer": 1,
+      "explanation": "Drawing one diagonal splits any quadrilateral into two triangles, each with angle sum 180°, so the total is 2 × 180° = 360°.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Quadrilaterals and Angle Sum",
+      "question": "How does the chapter prove that the angles of quadrilateral SOME add up to 360°?",
+      "options": [
+        "Measure the four angles of several quadrilaterals and add the results up",
+        "Extend each side to form exterior angles that together make 360°",
+        "Draw diagonal SM to split it into two triangles, each with angle sum 180°",
+        "Draw both diagonals to split it into four triangles, each with angle sum 180°"
+      ],
+      "answer": 2,
+      "explanation": "Diagonal SM creates ΔSEM and ΔSOM. Their six angles total 180° + 180° = 360°, and regrouping them gives exactly the four angles of the quadrilateral. Four triangles from two diagonals would give 720° and need the central angles subtracted.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Quadrilaterals and Angle Sum",
+      "question": "The angles of a quadrilateral are 70°, 110° and 85°. What is the fourth angle?",
+      "options": [
+        "85°",
+        "105°",
+        "115°",
+        "95°"
+      ],
+      "answer": 3,
+      "explanation": "70 + 110 + 85 = 265, and 360 − 265 = 95°. Picking 85° repeats a given angle; 105° comes from subtracting from 370.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q5",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Quadrilaterals and Angle Sum",
+      "question": "It is possible to construct a quadrilateral with three right angles and a fourth angle of 100°.",
+      "answer": false,
+      "explanation": "Three right angles already use 270°, so the fourth angle must be 360° − 270° = 90°. A fourth angle of 100° would make the total 370°, which is impossible.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Quadrilaterals and Angle Sum",
+      "question": "In exercise Q10 one vertex of quadrilateral ABCD is pushed inward so the shape is 'dented'. What happens to its angle sum?",
+      "options": [
+        "Still 360°, since joining BD still gives two triangles",
+        "Less than 360°, because one angle folds inwards",
+        "More than 360°, because one angle exceeds 180°",
+        "Exactly 180°, since it becomes one big triangle"
+      ],
+      "answer": 0,
+      "explanation": "The answer key joins BD: ΔADB and ΔBDC each have angle sum 180°, so the dented quadrilateral still totals 360°. The inward (reflex) angle is simply larger than 180°, but the total does not change.",
+      "source": "exercise:p107-Q10"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Quadrilaterals and Angle Sum",
+      "question": "The angles of a quadrilateral are x, 2x, 3x and 4x. What is x?",
+      "options": [
+        "30°",
+        "36°",
+        "40°",
+        "45°"
+      ],
+      "answer": 1,
+      "explanation": "x + 2x + 3x + 4x = 10x = 360°, so x = 36°. Using 180° (a triangle's sum) would wrongly give 18°; 40° would make the total 400°.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Quadrilaterals and Angle Sum",
+      "question": "Select the TWO statements that are true about angle sums.",
+      "options": [
+        "Every quadrilateral's angles add up to 360°",
+        "Every triangle's angles add up to 180°",
+        "A quadrilateral's angles add up to 180°",
+        "A quadrilateral can have four angles of 100° each",
+        "A quadrilateral's angle sum depends on its side lengths"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "A triangle totals 180° and a quadrilateral (two triangles) totals 360°, regardless of side lengths. Four angles of 100° would total 400°, which is impossible.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q9",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Quadrilaterals and Angle Sum",
+      "question": "A quadrilateral in which all four angles are equal must have each angle equal to 90°, so it is a rectangle.",
+      "answer": true,
+      "explanation": "Four equal angles share 360°, so each is 360° ÷ 4 = 90°. A quadrilateral with all angles 90° is a rectangle by the chapter's definition (exercise Q11(vi) is True).",
+      "source": "exercise:p107-Q11"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rectangle Definitions and the Carpenter's Problem",
+      "question": "What is the FIRST definition of a rectangle given in the chapter?",
+      "options": [
+        "Opposite sides are parallel and also equal",
+        "Diagonals are equal and perpendicular",
+        "All angles are 90° and opposite sides are equal",
+        "All angles are 90° and all sides are equal"
+      ],
+      "answer": 2,
+      "explanation": "The opening definition states two conditions: all angles are right angles and opposite sides have equal length. 'All sides equal' describes a square; 'parallel and equal' describes a parallelogram.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rectangle Definitions and the Carpenter's Problem",
+      "question": "The carpenter already has one 8 cm strip. How long should the other strip be to form a rectangle?",
+      "options": [
+        "4 cm",
+        "16 cm",
+        "6 cm",
+        "8 cm"
+      ],
+      "answer": 3,
+      "explanation": "Deduction 1 shows the diagonals of a rectangle are always equal, so the second strip must also be 8 cm. 4 cm is the half-diagonal, not the full strip.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rectangle Definitions and the Carpenter's Problem",
+      "question": "Where should the two strips be joined so that the thread through their ends forms a rectangle?",
+      "options": [
+        "At their midpoints",
+        "At their endpoints",
+        "At one-third of their length",
+        "At any point on each strip"
+      ],
+      "answer": 0,
+      "explanation": "Deduction 2 proves the diagonals of a rectangle bisect each other, so each strip must be crossed at its midpoint — the strips must be equal AND joined at their midpoints.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rectangle Definitions and the Carpenter's Problem",
+      "question": "Which of the following is NOT one of the chapter's equivalent definitions of a rectangle?",
+      "options": [
+        "A quadrilateral with all angles 90° and opposite sides equal",
+        "A quadrilateral whose opposite sides are parallel and equal",
+        "A quadrilateral in which all the angles are 90°",
+        "A quadrilateral whose diagonals are equal and bisect each other"
+      ],
+      "answer": 1,
+      "explanation": "Opposite sides parallel and equal only guarantees a parallelogram (exercise Q5 answers 'No'). The other three are all shown in the chapter to capture exactly the rectangles.",
+      "source": "exercise:p94-Q5"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rectangle Definitions and the Carpenter's Problem",
+      "question": "Why can the definition of a rectangle be shortened to just 'all angles are 90°'?",
+      "options": [
+        "Because a quadrilateral with equal opposite sides always has 90° angles",
+        "Because the diagonal definition makes the side lengths completely irrelevant",
+        "Because all angles being 90° already forces the opposite sides to be equal",
+        "Because the sides of any quadrilateral are always equal in opposite pairs"
+      ],
+      "answer": 2,
+      "explanation": "Deduction 4 joins diagonal BD and proves ΔBAD ≅ ΔDCB (AAS), so AD = CB and DC = BA. Hence 'opposite sides equal' need not be stated separately.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q15",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Rectangle Definitions and the Carpenter's Problem",
+      "question": "The chapter gives a definition of a rectangle that uses only its diagonals: they are equal and bisect each other.",
+      "answer": true,
+      "explanation": "After the Carpenter's Problem the chapter states: 'A rectangle is a quadrilateral whose diagonals are equal and bisect each other.'",
+      "source": "text:page8"
+    },
+    {
+      "id": "q16",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Rectangle Definitions and the Carpenter's Problem",
+      "question": "A quadrilateral whose opposite sides are parallel and equal must be a rectangle.",
+      "answer": false,
+      "explanation": "Exercise Q5 answers 'No': such a quadrilateral is a parallelogram, which need not have right angles. So this cannot be used as a definition of a rectangle.",
+      "source": "exercise:p94-Q5"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rectangle Definitions and the Carpenter's Problem",
+      "question": "You have two sticks of equal length and a thread but no paper. How do you make an exact 90° angle?",
+      "options": [
+        "Cross the sticks at their ends and run the thread around the two free ends",
+        "Lay the sticks side by side and stretch the thread diagonally across them",
+        "Cross the sticks at a quarter of their length and join the thread to the ends",
+        "Cross the sticks at their midpoints and run the thread around the four ends"
+      ],
+      "answer": 3,
+      "explanation": "Equal sticks crossing at their midpoints are equal diagonals that bisect each other, so the thread forms a rectangle ACBD and every corner, e.g. ∠C, is 90°.",
+      "source": "exercise:p94-Q4"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rectangle Definitions and the Carpenter's Problem",
+      "question": "According to the chapter, who uses the equal-diagonals method to get rectangular shapes in practice?",
+      "options": [
+        "Carpenters in Europe and house-builders in Mozambique",
+        "Carpenters in India and farmers in Kenya and Ghana",
+        "Boat-builders in Europe and farmers in Mozambique",
+        "Carpenters in Mozambique and farmers in Europe"
+      ],
+      "answer": 0,
+      "explanation": "The chapter notes that carpenters in Europe use the method for rectangular frames and farmers in Mozambique use it to lay a rectangular base for houses.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q19",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Rectangle Definitions and the Carpenter's Problem",
+      "question": "Select the TWO things about the wooden strips that make the thread form a rectangle.",
+      "options": [
+        "The strips are equal in length",
+        "The strips are joined at their midpoints",
+        "The strips cross at right angles",
+        "The strips are joined at their ends",
+        "One strip is twice as long as the other"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "A rectangle needs equal diagonals that bisect each other. Crossing at right angles is only needed for a square; any angle works for a rectangle.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rectangle Diagonals: Deductions 1-3",
+      "question": "Deduction 1 proves AC = BD in rectangle ABCD using which congruence?",
+      "options": [
+        "ΔABC ≅ ΔBCD by SSS",
+        "ΔADC ≅ ΔDAB by SAS",
+        "ΔADC ≅ ΔDAB by AAS",
+        "ΔAOB ≅ ΔCOD by SAS"
+      ],
+      "answer": 1,
+      "explanation": "AB = CD, ∠BAD = ∠CDA = 90° (the included angles) and AD is common, so SAS applies and AC = BD as corresponding parts.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rectangle Diagonals: Deductions 1-3",
+      "question": "In Deduction 1, two of the matching facts are AB = CD and ∠BAD = ∠CDA = 90°. What is the third?",
+      "options": [
+        "BD is common to both triangles",
+        "∠ABC = ∠DCB = 90° in both",
+        "AD is common to both triangles",
+        "AC is common to both triangles"
+      ],
+      "answer": 2,
+      "explanation": "ΔADC and ΔDAB share side AD. AC and BD are the diagonals being compared — they cannot be assumed equal before the proof.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q22",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Rectangle Diagonals: Deductions 1-3",
+      "question": "Select the TWO facts used to show ΔADC ≅ ΔDAB in Deduction 1.",
+      "options": [
+        "AB = CD",
+        "∠BAD = ∠CDA = 90°",
+        "AC = BD",
+        "∠1 = ∠2",
+        "OA = OC"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The SAS proof uses AB = CD, the right angles at A and D, and the common side AD. AC = BD is the conclusion, not a given; ∠1 = ∠2 and OA = OC belong to Deduction 2.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rectangle Diagonals: Deductions 1-3",
+      "question": "Deduction 2 shows ΔAOB ≅ ΔCOD. Which condition and key fact does it use?",
+      "options": [
+        "SAS, with the right angles at A and B",
+        "SSS, with OA = OC and OB = OD given",
+        "ASA, with the angles at A and C both 90°",
+        "AAS, with vertically opposite angles at O"
+      ],
+      "answer": 3,
+      "explanation": "∠AOB = ∠COD (vertically opposite), ∠1 = ∠2 (each 90° − ∠3) and AB = CD give AAS. OA = OC is what is being proved, so it cannot be a given.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rectangle Diagonals: Deductions 1-3",
+      "question": "In Deduction 2, why is ∠1 (at A) equal to ∠2 (at C)?",
+      "options": [
+        "Both equal 90° − ∠3, one from ∠B = 90° and one from ΔBCD's angle sum",
+        "Both are vertically opposite angles made by the crossing diagonals",
+        "Both are alternate angles made by diagonal BD with the parallel sides",
+        "Both are half of the 90° angle because the diagonals bisect the angles"
+      ],
+      "answer": 0,
+      "explanation": "∠3 + ∠1 = 90° because ∠B is a right angle, and ∠3 + ∠2 + 90° = 180° in ΔBCD gives ∠3 + ∠2 = 90°. So ∠1 = ∠2 = 90° − ∠3. The diagonals of a rectangle do not bisect its angles.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rectangle Diagonals: Deductions 1-3",
+      "question": "What does Deduction 2 conclude about O, the intersection of the diagonals of a rectangle?",
+      "options": [
+        "O divides each diagonal in the ratio 1 : 2",
+        "O is the midpoint of both diagonals",
+        "O is the midpoint of one diagonal only",
+        "O is equidistant from all four sides"
+      ],
+      "answer": 1,
+      "explanation": "Since ΔAOB ≅ ΔCOD, OA = OC and OB = OD, so O is the midpoint of AC and of BD — the diagonals bisect each other.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rectangle Diagonals: Deductions 1-3",
+      "question": "Equal diagonals bisect each other at 60°. In ΔAOB, where OA = OB and ∠AOB = 60°, what is each base angle a?",
+      "options": [
+        "45°",
+        "120°",
+        "60°",
+        "30°"
+      ],
+      "answer": 2,
+      "explanation": "a + a + 60 = 180 gives 2a = 120, so a = 60°. (ΔAOB is in fact equilateral.) 30° is the base angle of the neighbouring triangle with a 120° apex.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rectangle Diagonals: Deductions 1-3",
+      "question": "In the same figure, ΔAOD has apex angle ∠AOD = 120° with OA = OD. What is each base angle b?",
+      "options": [
+        "60°",
+        "45°",
+        "40°",
+        "30°"
+      ],
+      "answer": 3,
+      "explanation": "b + b + 120 = 180 gives 2b = 60, so b = 30°. Each angle of the quadrilateral is then a + b = 60° + 30° = 90°.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rectangle Diagonals: Deductions 1-3",
+      "question": "Equal diagonals bisect each other at an angle x. If a is a base angle of ΔAOB and b a base angle of ΔAOD, then:",
+      "options": [
+        "a = 90° − x/2 and b = x/2",
+        "a = x/2 and b = 90° − x/2",
+        "a = 180° − x and b = x",
+        "a = 90° − x and b = 90° + x"
+      ],
+      "answer": 0,
+      "explanation": "2a + x = 180 gives a = 90 − x/2; 2b + (180 − x) = 180 gives b = x/2. Their sum a + b = 90°, so every angle of the quadrilateral is a right angle whatever x is.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q29",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Rectangle Diagonals: Deductions 1-3",
+      "question": "If two equal diagonals bisect each other, the quadrilateral is a rectangle only when the angle between the diagonals is 60° or 90°.",
+      "answer": false,
+      "explanation": "The general argument with angle x shows every corner is (90° − x/2) + x/2 = 90° for ANY x. So the figure is a rectangle no matter what the angle between the diagonals is.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rectangle Diagonals: Deductions 1-3",
+      "question": "Two 8 cm diagonals bisect each other and cross at 40°. What quadrilateral is formed?",
+      "options": [
+        "Trapezium",
+        "Rectangle",
+        "Rhombus",
+        "Kite"
+      ],
+      "answer": 1,
+      "explanation": "Equal diagonals that bisect each other always give a rectangle (exercise Q2 parts (i), (ii) and (iv)). Only when the angle is 90° does it become a square.",
+      "source": "exercise:p94-Q2"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rectangle Properties and Parallel Sides",
+      "question": "Why are the sides AD and BC of rectangle ABCD parallel?",
+      "options": [
+        "AD = BC — equal segments are always parallel to each other",
+        "∠A + ∠C = 180° — alternate angles on transversal AC",
+        "∠A + ∠B = 180° — co-interior angles on transversal AB",
+        "∠A = ∠C — opposite angles of the rectangle are equal"
+      ],
+      "answer": 2,
+      "explanation": "AB is a transversal to AD and BC, and ∠A + ∠B = 90° + 90° = 180°. When interior angles on the same side of a transversal add to 180°, the lines are parallel.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rectangle Properties and Parallel Sides",
+      "question": "Which statement is Property 4 of a rectangle?",
+      "options": [
+        "Diagonals are equal and perpendicular",
+        "Diagonals bisect each other at right angles",
+        "Diagonals bisect the angles of the rectangle",
+        "Diagonals are equal and bisect each other"
+      ],
+      "answer": 3,
+      "explanation": "Property 4 states the diagonals of a rectangle are of equal length and bisect each other. Perpendicular diagonals and angle-bisecting diagonals are extra properties of a square.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q33",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Rectangle Properties and Parallel Sides",
+      "question": "The diagonals of every rectangle bisect its angles.",
+      "answer": false,
+      "explanation": "Only in a square (Property 5 of a square) do the diagonals bisect the corner angles into 45° halves. In a non-square rectangle a diagonal splits a 90° corner into unequal parts, e.g. 30° and 60°.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rectangle Properties and Parallel Sides",
+      "question": "Which of these is NOT a property of every rectangle?",
+      "options": [
+        "Diagonals meet at 90°",
+        "Diagonals are equal",
+        "Opposite sides parallel",
+        "All angles are 90°"
+      ],
+      "answer": 0,
+      "explanation": "Perpendicular diagonals belong to squares and rhombuses, not to every rectangle. Equal diagonals, parallel opposite sides and right angles hold for all rectangles.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rectangle Properties and Parallel Sides",
+      "question": "Rectangle PQRS has diagonals meeting at O with ∠POS = 110°. What is ∠OQR?",
+      "options": [
+        "110°",
+        "35°",
+        "55°",
+        "70°"
+      ],
+      "answer": 1,
+      "explanation": "∠QOR = ∠POS = 110° (vertically opposite). OQ = OR because the diagonals are equal and bisect each other, so ∠OQR = ∠ORQ = (180° − 110°) ÷ 2 = 35°.",
+      "source": "exercise:p94-Q1"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rectangle Properties and Parallel Sides",
+      "question": "In rectangle ABCD, ∠ABD = 30°. What is ∠ADB?",
+      "options": [
+        "45°",
+        "90°",
+        "60°",
+        "30°"
+      ],
+      "answer": 2,
+      "explanation": "ΔABD is right-angled at A, so ∠ADB = 180° − 90° − 30° = 60°. The answer key lists ∠ADB = 60° and ∠BDC = 30°.",
+      "source": "exercise:p94-Q1"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rectangle Properties and Parallel Sides",
+      "question": "In rectangle ABCD, ∠ABD = 30°. Which other angle also equals 30°?",
+      "options": [
+        "∠ADB",
+        "∠CAD",
+        "∠ACB",
+        "∠BDC"
+      ],
+      "answer": 3,
+      "explanation": "AB ∥ DC with transversal BD, so ∠BDC = ∠ABD = 30° (alternate angles). ∠ADB, ∠CAD and ∠ACB are all 60° in the answer key.",
+      "source": "exercise:p94-Q1"
+    },
+    {
+      "id": "q38",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Rectangle Properties and Parallel Sides",
+      "question": "Select the TWO statements that are true for every rectangle.",
+      "options": [
+        "Each diagonal splits it into two congruent triangles",
+        "The diagonals are of equal length",
+        "The diagonals cross at right angles",
+        "All four sides are of equal length",
+        "The diagonals bisect the corner angles"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Deduction 1 shows a diagonal creates congruent triangles and that the diagonals are equal. Right-angle crossing, equal sides and angle bisection are square-only properties.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Squares and Their Diagonals",
+      "question": "How does the chapter define a square?",
+      "options": [
+        "All angles are 90° and all sides are equal",
+        "All angles are 90° and opposite sides are equal",
+        "All sides are equal and opposite angles are equal",
+        "Diagonals are equal and bisect each other"
+      ],
+      "answer": 0,
+      "explanation": "A square is a quadrilateral with all angles 90° AND all sides equal — a special rectangle. The second option is a rectangle, the third a rhombus.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Squares and Their Diagonals",
+      "question": "In Deduction 5, ΔBOA ≅ ΔBOC in square ABCD is shown by which congruence condition?",
+      "options": [
+        "ASA",
+        "SSS",
+        "SAS",
+        "AAS"
+      ],
+      "answer": 1,
+      "explanation": "BA = BC (sides of the square), OA = OC (diagonals bisect each other) and BO is common — three sides, so SSS.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Squares and Their Diagonals",
+      "question": "Why must the diagonals of a square meet at 90°?",
+      "options": [
+        "The diagonals are equal in length, and equal diagonals always cross at right angles",
+        "Each diagonal bisects a 90° corner, so the two diagonals must also meet at 90°",
+        "∠BOA = ∠BOC (congruent triangles) and they form a straight angle, so each is 90°",
+        "∠BOA and ∠BOC are vertically opposite angles, so each must be half of 180°"
+      ],
+      "answer": 2,
+      "explanation": "ΔBOA ≅ ΔBOC gives ∠BOA = ∠BOC, and ∠BOA + ∠BOC = 180° (a straight angle), so each is 90°. Equal diagonals alone give only a rectangle.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Squares and Their Diagonals",
+      "question": "What angle does a diagonal of a square make with each side it meets?",
+      "options": [
+        "30°",
+        "60°",
+        "90°",
+        "45°"
+      ],
+      "answer": 3,
+      "explanation": "In ΔADC, ∠1 + ∠3 + 90° = 180° and AD = DC gives ∠1 = ∠3, so each is 45° — the diagonals bisect the square's right angles.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Squares and Their Diagonals",
+      "question": "To make the thread form a SQUARE, how must the carpenter join the two equal 8 cm strips?",
+      "options": [
+        "At their midpoints and at right angles",
+        "At their midpoints at any angle",
+        "At their ends and at right angles",
+        "At their midpoints at 45° to each other"
+      ],
+      "answer": 0,
+      "explanation": "Equal diagonals bisecting each other give a rectangle; adding the condition that they cross at 90° (Deduction 5) makes all sides equal, giving a square.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q44",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Squares and Their Diagonals",
+      "question": "Every property of a rectangle also holds for a square.",
+      "answer": true,
+      "explanation": "A square is a special rectangle (all angles 90°), so all rectangle properties — equal opposite sides, parallel sides, equal bisecting diagonals — apply to it as well.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q45",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Squares and Their Diagonals",
+      "question": "A quadrilateral whose diagonals are equal and bisect each other must be a square.",
+      "answer": false,
+      "explanation": "Exercise Q11(i) is False: equal bisecting diagonals give a rectangle. For a square the diagonals must ALSO be perpendicular to each other.",
+      "source": "exercise:p107-Q11"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Squares and Their Diagonals",
+      "question": "A quadrilateral has four equal sides and one angle of 90°. Is it a square? Why?",
+      "options": [
+        "No — four equal sides only ever guarantee a rhombus, not a square",
+        "Yes — as a rhombus its adjacent angles sum to 180°, so all become 90°",
+        "No — the three remaining angles can still differ from 90° in a rhombus",
+        "Yes — one right angle in any quadrilateral forces all four to be 90°"
+      ],
+      "answer": 1,
+      "explanation": "Four equal sides make a rhombus, where adjacent angles are supplementary and opposite angles equal. One 90° angle forces its neighbours to 90° and its opposite to 90°, so all four are right angles: a square.",
+      "source": "exercise:p107-Q8"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Squares and Their Diagonals",
+      "question": "PL and AM are two perpendicular diameters of a circle with centre O. What figure is APML?",
+      "options": [
+        "Rectangle",
+        "Kite",
+        "Square",
+        "Rhombus"
+      ],
+      "answer": 2,
+      "explanation": "The diameters are equal, bisect each other at the centre O, and are perpendicular — equal diagonals bisecting at 90° give a square.",
+      "source": "exercise:p94-Q3"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Squares and Their Diagonals",
+      "question": "CASE is a square and U, V, W, X are the midpoints of its sides. What quadrilateral is UVWX?",
+      "options": [
+        "A rhombus that is not a square",
+        "A rectangle that is not a square",
+        "A kite that is not a rhombus",
+        "A square"
+      ],
+      "answer": 3,
+      "explanation": "Each corner triangle is right-angled isosceles, so all four sides UV = VW = WX = XU (= x/√2) and the 45° + 45° angles leave 90° at each inner corner: a square.",
+      "source": "exercise:p107-Q7"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Squares and Their Diagonals",
+      "question": "In exercise Q7 the square has side x. Using the right-angled corner triangle, UV² equals:",
+      "options": [
+        "x²/4 + x²/4 = x²/2",
+        "x²/4 + x² = 5x²/4",
+        "x/2 × x/2 = x²/4",
+        "x²/2 + x²/2 = x²"
+      ],
+      "answer": 0,
+      "explanation": "CU = CV = x/2, so UV² = (x/2)² + (x/2)² = x²/4 + x²/4 = x²/2 by Pythagoras. Using a full side x for one leg, or multiplying the legs instead of squaring and adding, are the common slips.",
+      "source": "exercise:p107-Q7"
+    },
+    {
+      "id": "q50",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Squares and Their Diagonals",
+      "question": "Which TWO properties belong to a square but NOT to every rectangle?",
+      "options": [
+        "Diagonals meet at right angles",
+        "Diagonals bisect the corner angles",
+        "Diagonals are equal in length",
+        "Diagonals bisect each other",
+        "Opposite sides are parallel"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Square Properties 4 and 5 add perpendicular diagonals and angle-bisecting diagonals. Equal diagonals, mutual bisection and parallel sides hold for every rectangle.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Classifying Quadrilaterals: Venn Diagrams",
+      "question": "In the Venn diagram of squares and rectangles, how are the two regions drawn?",
+      "options": [
+        "The two regions are drawn separately and do not touch",
+        "The square region lies entirely inside the rectangle region",
+        "The rectangle region lies entirely inside the square region",
+        "The two regions overlap only partly, like two linked rings"
+      ],
+      "answer": 1,
+      "explanation": "Every square is a rectangle but not every rectangle is a square, so the set of squares sits completely inside the set of rectangles.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Classifying Quadrilaterals: Venn Diagrams",
+      "question": "The 'I am an Indian and I am a Malayali' cartoon illustrates which idea?",
+      "options": [
+        "A single quadrilateral is allowed to carry only one name in geometry",
+        "Sets of shapes are always drawn as rectangles inside a Venn diagram",
+        "An object can belong to a smaller set and also to the bigger set containing it",
+        "Two different sets can never have a member in common at the same time"
+      ],
+      "answer": 2,
+      "explanation": "Just as a Malayali is also an Indian, a square is also a rectangle — belonging to the smaller set does not stop it belonging to the larger one.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Classifying Quadrilaterals: Venn Diagrams",
+      "question": "Why is a rectangle also a parallelogram?",
+      "options": [
+        "Its diagonals are equal, which is what the definition asks",
+        "Its angles are all 90°, which the definition requires",
+        "Its opposite sides are equal, which is what the definition asks",
+        "Its opposite sides are parallel, which is all the definition asks"
+      ],
+      "answer": 3,
+      "explanation": "A parallelogram is defined only by having opposite sides parallel. A rectangle has this (Property 3), so it is a special parallelogram with all angles 90°.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Classifying Quadrilaterals: Venn Diagrams",
+      "question": "Which statement is NOT correct?",
+      "options": [
+        "Every parallelogram is a rectangle",
+        "Every square is also a rhombus",
+        "Every rhombus is a parallelogram",
+        "Every square is a rectangle"
+      ],
+      "answer": 0,
+      "explanation": "A parallelogram need not have right angles, so it is not necessarily a rectangle. The other three inclusions are all shown in the chapter's Venn diagrams.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Classifying Quadrilaterals: Venn Diagrams",
+      "question": "Which quadrilateral is both a kite and a parallelogram?",
+      "options": [
+        "Kite only",
+        "Rhombus",
+        "Rectangle",
+        "Trapezium"
+      ],
+      "answer": 1,
+      "explanation": "The answer key names the rhombus (and square): all sides equal gives adjacent pairs equal (kite) and opposite sides parallel (parallelogram).",
+      "source": "exercise:p107-Q4"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Classifying Quadrilaterals: Venn Diagrams",
+      "question": "What is the correct relationship between kites and rhombuses?",
+      "options": [
+        "Kites and rhombuses are exactly the same set of shapes",
+        "No kite can ever be a rhombus and no rhombus a kite",
+        "Every rhombus is a kite, but not every kite is a rhombus",
+        "Every kite is a rhombus, but not every rhombus is a kite"
+      ],
+      "answer": 2,
+      "explanation": "A rhombus has all sides equal, so its adjacent pairs are equal — it is a kite. A kite with sides 6, 6, 9, 9 is not a rhombus.",
+      "source": "exercise:p107-Q4"
+    },
+    {
+      "id": "q57",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Classifying Quadrilaterals: Venn Diagrams",
+      "question": "Which TWO of these shapes always have all four sides equal?",
+      "options": [
+        "Rhombus",
+        "Square",
+        "Rectangle",
+        "Parallelogram",
+        "Kite"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "A rhombus is defined by four equal sides and a square is a rhombus with right angles. Rectangles, parallelograms and kites can have unequal sides.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q58",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Classifying Quadrilaterals: Venn Diagrams",
+      "question": "Every rhombus is a parallelogram.",
+      "answer": true,
+      "explanation": "Deduction 9 shows a diagonal of a rhombus makes equal alternate angles with the opposite sides, so both pairs are parallel — a rhombus is a parallelogram.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Classifying Quadrilaterals: Venn Diagrams",
+      "question": "A quadrilateral's diagonals bisect each other, are equal, AND are perpendicular. What is it?",
+      "options": [
+        "A rectangle that is not a square",
+        "A rhombus that is not a square",
+        "A kite that is not a rhombus",
+        "A square"
+      ],
+      "answer": 3,
+      "explanation": "Equal + bisecting gives a rectangle; bisecting + perpendicular gives a rhombus. Both together force a square.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Classifying Quadrilaterals: Venn Diagrams",
+      "question": "Exercise Q11(vii) says 'Isosceles trapeziums are parallelograms'. The key's verdict and reason?",
+      "options": [
+        "False — the other pair of opposite sides need not be parallel",
+        "True — equal non-parallel sides make both pairs parallel",
+        "True — all trapeziums are parallelograms by definition",
+        "False — a trapezium never has any parallel sides"
+      ],
+      "answer": 0,
+      "explanation": "An isosceles trapezium has only one pair of parallel sides; its equal sides are the non-parallel ones. So it is not a parallelogram.",
+      "source": "exercise:p107-Q11"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parallelogram Angles",
+      "question": "How does the chapter define a parallelogram?",
+      "options": [
+        "A quadrilateral with two pairs of adjacent equal sides",
+        "A quadrilateral whose opposite sides are parallel",
+        "A quadrilateral whose opposite sides are equal",
+        "A quadrilateral whose diagonals are equal"
+      ],
+      "answer": 1,
+      "explanation": "A parallelogram is defined by parallel opposite sides. Equal opposite sides turn out to be a property (Deduction 7), not the definition; adjacent equal pairs describe a kite.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parallelogram Angles",
+      "question": "In parallelogram ABCD, ∠A = 30°. What is ∠D?",
+      "options": [
+        "60°",
+        "120°",
+        "150°",
+        "30°"
+      ],
+      "answer": 2,
+      "explanation": "AB ∥ CD with AD as transversal, so ∠A + ∠D = 180° (co-interior angles) and ∠D = 150°. The angle equal to 30° is the opposite one, ∠C.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Parallelogram Angles",
+      "question": "Why does ∠A + ∠D = 180° hold in parallelogram ABCD?",
+      "options": [
+        "AD ∥ BC and AB is a transversal, so they are alternate angles",
+        "The diagonals bisect each other, splitting 360° into equal parts",
+        "∠A and ∠D are vertically opposite angles at the same vertex",
+        "AB ∥ CD and AD is a transversal, so they are co-interior angles"
+      ],
+      "answer": 3,
+      "explanation": "∠A and ∠D lie on the same side of transversal AD between the parallel lines AB and CD, so they are interior angles on the same side and add to 180°.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parallelogram Angles",
+      "question": "In parallelogram PQRS, ∠P = 110°. What is ∠Q?",
+      "options": [
+        "70°",
+        "110°",
+        "80°",
+        "35°"
+      ],
+      "answer": 0,
+      "explanation": "Adjacent angles of a parallelogram add to 180°, so ∠Q = 180° − 110° = 70°. The answer key gives ∠Q = ∠S = 70° and ∠R = 110°.",
+      "source": "exercise:p102-Q1"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Parallelogram Angles",
+      "question": "A parallelogram has one angle of 40°. What is the sum of the two angles adjacent to it?",
+      "options": [
+        "180°",
+        "280°",
+        "140°",
+        "320°"
+      ],
+      "answer": 1,
+      "explanation": "Each adjacent angle is 180° − 40° = 140°, so the two together make 280°. The key for exercise Q1(i) lists the angles as 40°, 140°, 40°, 140°.",
+      "source": "exercise:p102-Q1"
+    },
+    {
+      "id": "q66",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Parallelogram Angles",
+      "question": "In a parallelogram, the opposite angles are equal and the adjacent angles add up to 180°.",
+      "answer": true,
+      "explanation": "This is Property 3 of a parallelogram, proved in Deduction 6 using co-interior angles on the parallel sides.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q67",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Parallelogram Angles",
+      "question": "A quadrilateral in which the opposite angles are equal must be a parallelogram.",
+      "answer": true,
+      "explanation": "Exercise Q11(v) is True. If ∠A = ∠C = x and ∠B = ∠D = y then 2x + 2y = 360°, so x + y = 180°; equal co-interior angle sums make both pairs of opposite sides parallel.",
+      "source": "exercise:p107-Q11"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Parallelogram Angles",
+      "question": "When constructing the parallelogram with AB = 4 cm, AD = 5 cm and ∠A = 30°, what is Step 2?",
+      "options": [
+        "Draw arcs of radius 5 cm from D and radius 4 cm from B; mark where they meet as C",
+        "Draw the diagonal from A and mark the point C exactly 9 cm away from A",
+        "Draw a line through D parallel to AB and a line through B parallel to AD; they meet at C",
+        "Draw a line through D perpendicular to AB and a line through B perpendicular to AD"
+      ],
+      "answer": 2,
+      "explanation": "Parallel lines through D and B complete the parallelogram at C. Perpendiculars would build a rectangle; the arc radii are swapped (CD should be 4 cm and BC 5 cm).",
+      "source": "text:page15"
+    },
+    {
+      "id": "q69",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Parallelogram Angles",
+      "question": "In parallelogram ABCD, ∠A = 30°. Select the TWO correct statements.",
+      "options": [
+        "∠B = 150°",
+        "∠C = 30°",
+        "∠D = 30°",
+        "∠B = 30°",
+        "∠C = 150°"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "∠B is adjacent to ∠A so ∠B = 150°; ∠C is opposite so ∠C = 30°. ∠D is also adjacent, so ∠D = 150°, not 30°.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Parallelogram Sides and Diagonals",
+      "question": "Deduction 7 shows ΔABD ≅ ΔCDB in a parallelogram using which condition?",
+      "options": [
+        "SSS — three pairs of equal sides, with BD common to both",
+        "SAS — two sides and the included angle between them equal",
+        "ASA — using the two right angles at B and D with side BD",
+        "AAS — an opposite angle, an alternate angle, and common side BD"
+      ],
+      "answer": 3,
+      "explanation": "The single-arc angles are equal (opposite angles of the parallelogram), the double-arc angles are alternate angles from AD ∥ BC, and BD is common — AAS. Sides cannot be assumed equal since that is what is being proved.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parallelogram Sides and Diagonals",
+      "question": "Which statement is Property 1 of a parallelogram (about its sides)?",
+      "options": [
+        "Opposite sides are equal",
+        "All sides are equal",
+        "Adjacent sides are equal",
+        "Opposite sides are perpendicular"
+      ],
+      "answer": 0,
+      "explanation": "Property 1: the opposite sides of a parallelogram are equal. All sides equal is a rhombus; adjacent sides equal is a kite.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parallelogram Sides and Diagonals",
+      "question": "A parallelogram has adjacent sides 4 cm and 5 cm. What are its other two sides?",
+      "options": [
+        "4.5 cm and 4.5 cm",
+        "4 cm and 5 cm",
+        "4 cm and 4 cm",
+        "5 cm and 5 cm"
+      ],
+      "answer": 1,
+      "explanation": "Opposite sides of a parallelogram are equal, so the side opposite the 4 cm side is 4 cm and the side opposite the 5 cm side is 5 cm.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q73",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Parallelogram Sides and Diagonals",
+      "question": "The diagonals of a parallelogram are always equal in length.",
+      "answer": false,
+      "explanation": "The chapter asks you to check your constructed parallelogram and notes that its diagonals need NOT be equal. Equal diagonals happen only in rectangles.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Parallelogram Sides and Diagonals",
+      "question": "In Deduction 8 (parallelogram EASY), ΔAOE ≅ ΔYOS is proved by which condition?",
+      "options": [
+        "SAS",
+        "AAS",
+        "ASA",
+        "SSS"
+      ],
+      "answer": 2,
+      "explanation": "AE = YS (opposite sides) is the included side between two pairs of equal alternate angles, so the condition is ASA.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Parallelogram Sides and Diagonals",
+      "question": "Which statement is Property 4 of a parallelogram (about its diagonals)?",
+      "options": [
+        "They are equal in length",
+        "They meet at right angles",
+        "They bisect the angles",
+        "They bisect each other"
+      ],
+      "answer": 3,
+      "explanation": "Deduction 8 proves OA = OY and OE = OS, so the diagonals bisect each other. They need not be equal, perpendicular or angle-bisecting.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q76",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Parallelogram Sides and Diagonals",
+      "question": "A quadrilateral whose diagonals bisect each other must be a parallelogram.",
+      "answer": true,
+      "explanation": "Exercise Q11(iii) is True: with OA = OC, OB = OD and vertically opposite angles, SAS gives congruent triangles whose alternate angles show both pairs of opposite sides are parallel.",
+      "source": "exercise:p107-Q11"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Parallelogram Sides and Diagonals",
+      "question": "Exercise Q9: what type of quadrilateral has both pairs of opposite sides equal, and why?",
+      "options": [
+        "A parallelogram — SSS gives equal alternate angles, so both side-pairs are parallel",
+        "A rectangle — equal opposite sides force all four of the angles to be exactly 90°",
+        "A rhombus — having equal opposite sides means all four sides must be equal",
+        "A kite — equal opposite sides are the same thing as equal adjacent sides"
+      ],
+      "answer": 0,
+      "explanation": "Drawing diagonal AC, ΔABC ≅ ΔCDA by SSS. The equal alternate angles give AB ∥ CD and BC ∥ AD, so the figure is a parallelogram (not necessarily a rectangle or rhombus).",
+      "source": "exercise:p107-Q9"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Parallelogram Sides and Diagonals",
+      "question": "Is it wrong to write ΔABD ≅ ΔCBD instead of ΔABD ≅ ΔCDB in Deduction 7?",
+      "options": [
+        "No — the order of letters never matters in congruence",
+        "Yes — vertex order must match: A↔C, B↔D, D↔B",
+        "No — both names list the same two triangles",
+        "Yes — B cannot appear in both triangle names"
+      ],
+      "answer": 1,
+      "explanation": "In a congruence statement the letters must list corresponding vertices. A matches C, B matches D and D matches B, so ΔCDB is the correct order and ΔCBD would pair the wrong parts.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q79",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Parallelogram Sides and Diagonals",
+      "question": "Which TWO statements are true for the diagonals of EVERY parallelogram?",
+      "options": [
+        "They bisect each other",
+        "Each diagonal splits it into two congruent triangles",
+        "They are equal in length",
+        "They are perpendicular",
+        "They bisect the angles"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Deduction 7 shows a diagonal makes two congruent triangles and Deduction 8 shows the diagonals bisect each other. Equality, perpendicularity and angle bisection need special parallelograms.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rhombus: Angles and Diagonals",
+      "question": "How does the chapter define a rhombus?",
+      "options": [
+        "Opposite sides are equal and parallel",
+        "Diagonals are equal and bisect each other",
+        "All sides have the same length",
+        "All angles have the same measure"
+      ],
+      "answer": 2,
+      "explanation": "A rhombus is a quadrilateral in which all the sides have the same length. Equal angles would describe a rectangle.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rhombus: Angles and Diagonals",
+      "question": "Rhombus ABCD has ∠A = 50° and diagonal BD makes four equal angles a with the sides. What is a?",
+      "options": [
+        "50°",
+        "40°",
+        "130°",
+        "65°"
+      ],
+      "answer": 3,
+      "explanation": "In ΔADB, a + a + 50° = 180°, so 2a = 130° and a = 65°. 130° is the obtuse angle of the rhombus, not the half-angle.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rhombus: Angles and Diagonals",
+      "question": "Why is every rhombus a parallelogram (Deduction 9)?",
+      "options": [
+        "A diagonal makes equal alternate angles with each pair of opposite sides, so they are parallel",
+        "All four of its sides are equal, and sides of equal length are always parallel to each other",
+        "Its diagonals are equal, and equal diagonals make opposite sides parallel",
+        "Its opposite angles are equal, and the definition of a parallelogram is about angles"
+      ],
+      "answer": 0,
+      "explanation": "In rhombus GAME, ΔGAE ≅ ΔMAE gives a = b = c = d. Equal alternate angles on transversal AE show EM ∥ GA and GE ∥ AM, so GAME is a parallelogram.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rhombus: Angles and Diagonals",
+      "question": "In rhombus GAME, ΔGAE ≅ ΔMAE is established by:",
+      "options": [
+        "ASA (angles at A and E, side AE)",
+        "SSS (GA = MA, GE = ME, AE common)",
+        "SAS (GA = MA, ∠G = ∠M, AE common)",
+        "AAS (two angles and side AE)"
+      ],
+      "answer": 1,
+      "explanation": "All sides of a rhombus are equal, so GA = MA and GE = ME, and AE is shared — three sides, SSS. ∠G = ∠M is a conclusion of this congruence, not a given.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rhombus: Angles and Diagonals",
+      "question": "In Deduction 10, ∠GOE = ∠MOE and together they make a straight angle. What is each?",
+      "options": [
+        "60°",
+        "180°",
+        "90°",
+        "45°"
+      ],
+      "answer": 2,
+      "explanation": "ΔGEO ≅ ΔMEO gives ∠GOE = ∠MOE; since they add to 180°, each is 90°. This is Property 6: the diagonals of a rhombus meet at right angles.",
+      "source": "text:page21"
+    },
+    {
+      "id": "q85",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Rhombus: Angles and Diagonals",
+      "question": "The diagonals of a rhombus are always equal in length.",
+      "answer": false,
+      "explanation": "The chapter's rhombus properties say the diagonals bisect each other at 90° and bisect the angles — but not that they are equal. Only a square (a rhombus with right angles) has equal diagonals.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q86",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Rhombus: Angles and Diagonals",
+      "question": "The diagonals of a rhombus bisect each other at right angles and also bisect the angles of the rhombus.",
+      "answer": true,
+      "explanation": "These are Properties 4, 5 and 6 of a rhombus: the diagonals bisect each other, bisect its angles, and intersect at 90°.",
+      "source": "text:page21"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rhombus: Angles and Diagonals",
+      "question": "In rhombus UVWX, diagonal VX makes an angle of 30° with side UV (∠XVU = 30°). What is ∠U?",
+      "options": [
+        "60°",
+        "150°",
+        "30°",
+        "120°"
+      ],
+      "answer": 3,
+      "explanation": "The diagonal bisects ∠V, so ∠UVW = 2 × 30° = 60°. Adjacent angles add to 180°, so ∠U = 180° − 60° = 120° (and ∠W = 120°).",
+      "source": "exercise:p102-Q1"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rhombus: Angles and Diagonals",
+      "question": "In rhombus AOIE, diagonal EO makes 20° with side EI (∠OEI = 20°). What is ∠A?",
+      "options": [
+        "140°",
+        "160°",
+        "40°",
+        "20°"
+      ],
+      "answer": 0,
+      "explanation": "∠E = 2 × 20° = 40° because the diagonal bisects the angle. ∠A is adjacent to ∠E, so ∠A = 180° − 40° = 140°; the key also gives ∠I = 140°.",
+      "source": "exercise:p102-Q1"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rhombus: Angles and Diagonals",
+      "question": "Exercise Q11(iv): 'A quadrilateral whose diagonals are perpendicular must be a rhombus.' Verdict and reason?",
+      "options": [
+        "True — perpendicular diagonals force all sides to be equal",
+        "False — a kite also has perpendicular diagonals",
+        "True — only a rhombus has perpendicular diagonals",
+        "False — a rectangle also has perpendicular diagonals"
+      ],
+      "answer": 1,
+      "explanation": "The key says False: 'It may be a kite also.' A kite's diagonals are perpendicular but its four sides are not all equal.",
+      "source": "exercise:p107-Q11"
+    },
+    {
+      "id": "q90",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Rhombus: Angles and Diagonals",
+      "question": "Which TWO properties hold for every rhombus but NOT for every parallelogram?",
+      "options": [
+        "Diagonals meet at 90°",
+        "Diagonals bisect the angles",
+        "Diagonals bisect each other",
+        "Opposite angles are equal",
+        "Opposite sides are parallel"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Rhombus Properties 5 and 6 (angle-bisecting, perpendicular diagonals) are extra. Bisecting diagonals, equal opposite angles and parallel sides are shared with all parallelograms.",
+      "source": "text:page21"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Kites",
+      "question": "The chapter labels a kite ABCD so that which sides are equal?",
+      "options": [
+        "AB = BC = CD = DA",
+        "AB ∥ CD and BC = DA",
+        "AB = BC and CD = DA",
+        "AB = CD and BC = DA"
+      ],
+      "answer": 2,
+      "explanation": "A kite has two pairs of equal ADJACENT sides: AB = BC and CD = DA. Equal opposite sides (AB = CD, BC = DA) describe a parallelogram.",
+      "source": "text:page24"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Kites",
+      "question": "In the chapter's kite made from two 6-9-12 triangles, the 12 cm sides are glued together. What are the kite's side lengths?",
+      "options": [
+        "6, 9, 12, 12 cm",
+        "6, 6, 12, 12 cm",
+        "9, 9, 12, 12 cm",
+        "6, 6, 9, 9 cm"
+      ],
+      "answer": 3,
+      "explanation": "The shared 12 cm side becomes the diagonal BD and disappears from the boundary, leaving 6 cm and 9 cm from each triangle — adjacent pairs 6, 6 and 9, 9.",
+      "source": "text:page24"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Kites",
+      "question": "Kite Property 1 says diagonal BD does what to the other diagonal AC?",
+      "options": [
+        "Bisects AC and is perpendicular to it",
+        "Is equal to AC and bisects it",
+        "Is bisected by AC and is perpendicular to it",
+        "Is parallel to AC and equal to it"
+      ],
+      "answer": 0,
+      "explanation": "Property 1(ii): BD bisects AC (AO = OC) and is perpendicular to it. BD itself is generally not bisected and the diagonals are not equal.",
+      "source": "text:page24"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Kites",
+      "question": "In kite ABCD (AB = BC, CD = DA), which angles does the diagonal BD bisect?",
+      "options": [
+        "All four angles of the kite",
+        "∠ABC and ∠ADC",
+        "∠BAD and ∠BCD",
+        "∠ABC and ∠BAD"
+      ],
+      "answer": 1,
+      "explanation": "BD joins the two vertices where the equal sides meet, so it bisects ∠ABC and ∠ADC. The other two angles are not bisected (unless the kite is a rhombus).",
+      "source": "text:page24"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Kites",
+      "question": "To prove the kite property, which pair of triangles does the chapter's hint ask you to compare?",
+      "options": [
+        "ΔABC and ΔADC",
+        "ΔAOB and ΔAOD",
+        "ΔAOB and ΔCOB",
+        "ΔAOD and ΔCOB"
+      ],
+      "answer": 2,
+      "explanation": "The hint is 'Is ΔAOB ≅ ΔCOB?' — these triangles share BO, have AB = CB, and lie on either side of diagonal BD, giving AO = OC and right angles at O.",
+      "source": "text:page24"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Kites",
+      "question": "How does the answer key construct a kite with diagonals 6 cm and 8 cm?",
+      "options": [
+        "Draw PQ = 6 cm, draw a line through its midpoint at 60°, place R and S so RS = 8 cm",
+        "Draw PQ = 6 cm and RS = 8 cm so that they cross at their midpoints at any angle",
+        "Draw PQ = 6 cm, then draw RS = 8 cm parallel to PQ at a distance of 3 cm from it",
+        "Draw PQ = 6 cm, draw its perpendicular bisector, place R and S on it so RS = 8 cm"
+      ],
+      "answer": 3,
+      "explanation": "A kite's diagonals are perpendicular and one bisects the other. So RS lies on the perpendicular bisector of PQ with RS = 8 cm (RS itself need not be bisected).",
+      "source": "exercise:p107-Q2"
+    },
+    {
+      "id": "q97",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Kites",
+      "question": "In a kite, both diagonals bisect each other.",
+      "answer": false,
+      "explanation": "Only one diagonal is bisected: BD bisects AC (AO = OC), but AC does not in general bisect BD. Mutual bisection would make it a parallelogram.",
+      "source": "text:page24"
+    },
+    {
+      "id": "q98",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Kites",
+      "question": "The chapter summary describes a kite as a quadrilateral with two non-overlapping adjacent pairs of sides of the same length.",
+      "answer": true,
+      "explanation": "The summary says exactly this — 'two non-overlapping adjacent pairs of sides having the same length', matching AB = BC and CD = DA.",
+      "source": "text:page29"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Kites",
+      "question": "Which of these is NOT necessarily true for a kite?",
+      "options": [
+        "Opposite sides are parallel",
+        "One diagonal bisects the other",
+        "The diagonals are perpendicular",
+        "Two pairs of adjacent sides are equal"
+      ],
+      "answer": 0,
+      "explanation": "A kite has no parallel sides in general — the 6-6-9-9 kite has none. Perpendicular diagonals, one bisecting the other, and equal adjacent pairs are its defining features.",
+      "source": "text:page24"
+    },
+    {
+      "id": "q100",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Kites",
+      "question": "Select the TWO true statements about kite ABCD with AB = BC and CD = DA.",
+      "options": [
+        "BD is perpendicular to AC",
+        "BD bisects AC",
+        "AC bisects BD",
+        "AB is parallel to CD",
+        "BD is equal to AC"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Property 1: BD bisects AC and is perpendicular to it. AC does not bisect BD, the diagonals are not equal, and a kite has no parallel sides in general.",
+      "source": "text:page24"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Trapezium and Isosceles Trapezium",
+      "question": "How does the chapter define a trapezium?",
+      "options": [
+        "Two pairs of equal adjacent sides",
+        "At least one pair of parallel opposite sides",
+        "Exactly two pairs of parallel opposite sides",
+        "No pair of parallel sides at all"
+      ],
+      "answer": 1,
+      "explanation": "A trapezium relaxes the parallelogram condition: it needs AT LEAST one pair of parallel opposite sides.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Trapezium and Isosceles Trapezium",
+      "question": "In trapezium PQRS with PQ ∥ SR, which angle relations does Property 1 give?",
+      "options": [
+        "∠S = ∠P and ∠R = ∠Q",
+        "∠P + ∠R = 180° and ∠Q + ∠S = 180°",
+        "∠S + ∠P = 180° and ∠R + ∠Q = 180°",
+        "∠P + ∠Q = 180° and ∠S + ∠R = 180°"
+      ],
+      "answer": 2,
+      "explanation": "PS and QR are transversals to the parallel sides PQ and SR, so the co-interior angles ∠S + ∠P and ∠R + ∠Q each add to 180°.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Trapezium and Isosceles Trapezium",
+      "question": "Trapezium PQRS has PQ ∥ RS, ∠P = 135° and ∠Q = 105°. What is ∠R?",
+      "options": [
+        "45°",
+        "105°",
+        "65°",
+        "75°"
+      ],
+      "answer": 3,
+      "explanation": "∠R + ∠Q = 180° (co-interior), so ∠R = 180° − 105° = 75°. 45° is ∠S, the angle paired with ∠P.",
+      "source": "exercise:p107-Q3"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Trapezium and Isosceles Trapezium",
+      "question": "Trapezium PQRS has PQ ∥ RS, ∠P = 135° and ∠Q = 105°. What is ∠S?",
+      "options": [
+        "45°",
+        "75°",
+        "55°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "∠S + ∠P = 180°, so ∠S = 180° − 135° = 45°. Check: 135 + 105 + 75 + 45 = 360.",
+      "source": "exercise:p107-Q3"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Trapezium and Isosceles Trapezium",
+      "question": "What is an isosceles trapezium?",
+      "options": [
+        "A trapezium whose diagonals are perpendicular",
+        "A trapezium whose non-parallel sides are equal",
+        "A trapezium whose parallel sides are equal",
+        "A trapezium with two right angles at one base"
+      ],
+      "answer": 1,
+      "explanation": "When the two non-parallel sides have the same length, the trapezium is called isosceles. Equal parallel sides would make it a parallelogram.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Trapezium and Isosceles Trapezium",
+      "question": "ABCD is an isosceles trapezium with AD = BC and ∠D = 100°. What is ∠A?",
+      "options": [
+        "90°",
+        "60°",
+        "80°",
+        "100°"
+      ],
+      "answer": 2,
+      "explanation": "∠A + ∠D = 180° (co-interior), so ∠A = 80°. By Property 2 the angles opposite the equal sides are equal, so ∠B = ∠A = 80° too.",
+      "source": "exercise:p107-Q3"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Trapezium and Isosceles Trapezium",
+      "question": "To prove ∠U = ∠V in isosceles trapezium UVWX, perpendiculars XY and WZ are dropped to UV. Why is XWZY a rectangle?",
+      "options": [
+        "XY = WZ, and any quadrilateral with two equal opposite sides is a rectangle",
+        "XW = YZ, and equal opposite sides are enough to make a rectangle",
+        "The diagonals of XWZY are equal, which is the chapter's definition of a rectangle",
+        "XW ∥ YZ and XY, WZ are transversals, so co-interior angles make a = b = 90°"
+      ],
+      "answer": 3,
+      "explanation": "Since XW ∥ UV, a = 180° − ∠XYZ = 90° and b = 180° − ∠WZY = 90°. With the two right angles at Y and Z, all four angles are 90°, so XWZY is a rectangle.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Trapezium and Isosceles Trapezium",
+      "question": "What is Property 2 of an isosceles trapezium?",
+      "options": [
+        "The angles opposite the equal sides are equal",
+        "The diagonals bisect each other at their midpoints",
+        "The equal sides are parallel to each other",
+        "All four of its angles are equal to each other"
+      ],
+      "answer": 0,
+      "explanation": "ΔUXY ≅ ΔVWZ gives ∠U = ∠V: in an isosceles trapezium the angles opposite to the equal sides are equal.",
+      "source": "text:page26"
+    },
+    {
+      "id": "q109",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Trapezium and Isosceles Trapezium",
+      "question": "In an isosceles trapezium, the two parallel sides must be of equal length.",
+      "answer": false,
+      "explanation": "It is the NON-parallel sides that are equal. If the parallel sides were also equal the figure would be a parallelogram, not a trapezium with just one parallel pair.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Trapezium and Isosceles Trapezium",
+      "question": "Trapezium PQRS has PQ ∥ SR with ∠P = 135° and ∠Q = 105°. What is ∠R + ∠S?",
+      "options": [
+        "60°",
+        "120°",
+        "240°",
+        "180°"
+      ],
+      "answer": 1,
+      "explanation": "The four angles total 360°, so ∠R + ∠S = 360° − (135° + 105°) = 120°. Indeed ∠R = 75° and ∠S = 45°.",
+      "source": "exercise:p107-Q3"
+    },
+    {
+      "id": "q111",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Trapezium and Isosceles Trapezium",
+      "question": "In trapezium PQRS with PQ ∥ SR, which TWO angle pairs must add up to 180°?",
+      "options": [
+        "∠P and ∠S",
+        "∠Q and ∠R",
+        "∠P and ∠Q",
+        "∠P and ∠R",
+        "∠S and ∠R"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The non-parallel sides PS and QR act as transversals, so ∠P + ∠S = 180° and ∠Q + ∠R = 180°. Angles along a parallel side (∠P, ∠Q) need not be supplementary.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reasoning, Proof and Congruence",
+      "question": "According to the chapter, what is a conjecture?",
+      "options": [
+        "A statement that has been shown false by one example",
+        "A measurement taken from several real-world shapes",
+        "A statement we are highly confident about but have not yet proved",
+        "A statement that has been proved true by deduction"
+      ],
+      "answer": 2,
+      "explanation": "Observations and measurements let us form a conjecture — a statement we feel sure about but cannot yet be certain always holds. Only a proof settles it.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Reasoning, Proof and Congruence",
+      "question": "Why is measuring many rectangles NOT enough to be sure their diagonals always bisect each other?",
+      "options": [
+        "Rulers and protractors are never accurate enough to measure a diagonal exactly",
+        "Rectangles drawn on paper are never exactly the same as geometric rectangles",
+        "The property has been checked to hold only for the first 1000 rectangles drawn",
+        "Measurements only support a conjecture; a proof is needed to be sure for all cases"
+      ],
+      "answer": 3,
+      "explanation": "The chapter asks: can we be sure the 1000th rectangle also has the property? Only by justifying (proving) the statement, as in Deduction 2, can we be certain.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reasoning, Proof and Congruence",
+      "question": "Is it wrong to write ΔBAD ≅ ΔCDB instead of ΔBAD ≅ ΔDCB in Deduction 4?",
+      "options": [
+        "Yes — the vertex order must match: B↔D, A↔C, D↔B",
+        "No — both names list the same three vertices",
+        "Yes — a triangle name must always start with A",
+        "No — congruence does not depend on the order of letters"
+      ],
+      "answer": 0,
+      "explanation": "Congruence statements pair corresponding vertices in order. B corresponds to D, A to C and D to B, so ΔDCB is correct; ΔCDB would claim BA = CD's wrong partner.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Reasoning, Proof and Congruence",
+      "question": "Why can't AO = CO, ∠AOB = ∠COD and AD = CB be used to prove ΔAOD ≅ ΔCOB?",
+      "options": [
+        "Three equal parts can never be enough to prove two triangles congruent",
+        "∠AOB is not an angle of ΔAOD; the angle needed is ∠AOD = ∠COB",
+        "AO = CO has not been proved and is not true in a rectangle",
+        "AD = CB is a property that has not yet been proved for rectangles"
+      ],
+      "answer": 1,
+      "explanation": "The angle must belong to the triangles being compared. ∠AOB lies in ΔAOB, not ΔAOD; the matching vertically opposite angles for these triangles are ∠AOD and ∠COB.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reasoning, Proof and Congruence",
+      "question": "Deduction 4 (all angles 90° ⇒ opposite sides equal) uses which congruence condition for ΔBAD ≅ ΔDCB?",
+      "options": [
+        "SSS",
+        "ASA",
+        "AAS",
+        "SAS"
+      ],
+      "answer": 2,
+      "explanation": "Right angles at A and C, ∠1 = ∠2 (both 90° − ∠3) and the common side BD give two angles and a non-included side: AAS, just as in Deduction 2.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q117",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Reasoning, Proof and Congruence",
+      "question": "The chapter uses the SAS condition in Deduction 1 and the SSS condition in Deduction 5.",
+      "answer": true,
+      "explanation": "Deduction 1 (equal diagonals of a rectangle) uses SAS with the right angles included; Deduction 5 (square diagonals at 90°) uses SSS on ΔBOA and ΔBOC.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Reasoning, Proof and Congruence",
+      "question": "In Deduction 2, the 'blue' angles ∠AOB and ∠COD are equal because they are:",
+      "options": [
+        "Alternate interior angles",
+        "Co-interior (allied) angles",
+        "Corresponding angles",
+        "Vertically opposite angles"
+      ],
+      "answer": 3,
+      "explanation": "The diagonals cross at O, so ∠AOB and ∠COD are vertically opposite and therefore equal. Alternate angles need a transversal across parallel lines.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reasoning, Proof and Congruence",
+      "question": "Both Deduction 2 (rectangle) and Deduction 8 (parallelogram) prove the diagonals bisect each other. What does the parallelogram proof rely on?",
+      "options": [
+        "Alternate angles from parallel sides (ASA)",
+        "Right angles at the vertices (AAS)",
+        "Equal diagonals of the parallelogram (SSS)",
+        "Perpendicular diagonals (SAS)"
+      ],
+      "answer": 0,
+      "explanation": "A parallelogram has no right angles to use, so Deduction 8 uses the two pairs of alternate angles made by the diagonals with the parallel sides, plus AE = YS, giving ASA.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q120",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Reasoning, Proof and Congruence",
+      "question": "Select the TWO statements that the chapter PROVES (not just conjectures).",
+      "options": [
+        "Diagonals of a rectangle bisect each other",
+        "Opposite angles of a parallelogram are equal",
+        "Diagonals of a parallelogram are always equal",
+        "Diagonals of a kite bisect each other"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Deduction 2 proves the first and Deduction 6 the second. The other two are false: parallelogram diagonals need not be equal, and in a kite only one diagonal is bisected.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Constructing Quadrilaterals from Diagonals",
+      "question": "To draw a quadrilateral with equal 8 cm diagonals bisecting at 30°, you draw AB = 8 cm, midpoint O and a line at 30° through O. Where do C and D go?",
+      "options": [
+        "4 cm from A and B respectively",
+        "4 cm from O on either side",
+        "8 cm from O on either side",
+        "2 cm from O on either side"
+      ],
+      "answer": 1,
+      "explanation": "The second diagonal must also be 8 cm and be bisected at O, so OC = OD = 4 cm. Then ADBC is the required quadrilateral (a rectangle).",
+      "source": "exercise:p94-Q2"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Constructing Quadrilaterals from Diagonals",
+      "question": "For a parallelogram with diagonals 7 cm and 5 cm meeting at 140°, the key draws AB = 7 cm with midpoint O. What radius is used for the arcs locating C and D?",
+      "options": [
+        "5 cm",
+        "7 cm",
+        "2.5 cm",
+        "3.5 cm"
+      ],
+      "answer": 2,
+      "explanation": "The 5 cm diagonal is bisected at O, so OC = OD = 2.5 cm. 3.5 cm is half of the 7 cm diagonal already drawn.",
+      "source": "exercise:p102-Q2"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Constructing Quadrilaterals from Diagonals",
+      "question": "Which steps construct a rhombus with diagonals 4 cm and 5 cm?",
+      "options": [
+        "Draw AB = 5 cm, a line at 60° through midpoint O, mark C and D 2 cm from O",
+        "Draw AB = 5 cm, its perpendicular through midpoint O, mark C and D 4 cm from O",
+        "Draw AB = 4 cm, its perpendicular through midpoint O, mark C and D 5 cm from O",
+        "Draw AB = 5 cm, its perpendicular through midpoint O, mark C and D 2 cm from O"
+      ],
+      "answer": 3,
+      "explanation": "Rhombus diagonals bisect each other at right angles, so the 4 cm diagonal is drawn perpendicular to AB with OC = OD = 2 cm. Marking 4 cm from O would give an 8 cm diagonal.",
+      "source": "exercise:p102-Q3"
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Constructing Quadrilaterals from Diagonals",
+      "question": "How do you construct a square with a 6 cm diagonal without a protractor?",
+      "options": [
+        "Draw AB = 6 cm, construct its perpendicular bisector with a compass, mark C and D 3 cm from O",
+        "Draw AB = 6 cm, draw any line through its midpoint O, mark C and D 3 cm from O",
+        "Draw AB = 6 cm, construct its perpendicular bisector with a compass, mark C and D 6 cm from O",
+        "Draw AB = 3 cm, construct its perpendicular bisector with a compass, mark C and D 3 cm from O"
+      ],
+      "answer": 0,
+      "explanation": "A square's diagonals are equal and bisect each other at 90°. The compass-drawn perpendicular bisector replaces the protractor, and OC = OD = 3 cm makes CD = 6 cm = AB.",
+      "source": "exercise:p107-Q6"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Constructing Quadrilaterals from Diagonals",
+      "question": "When building shapes from their diagonals, what separates a rhombus from a general parallelogram?",
+      "options": [
+        "Parallelogram diagonals must bisect each other; rhombus diagonals need not bisect",
+        "Rhombus diagonals must be perpendicular; parallelogram diagonals may meet at any angle",
+        "Rhombus diagonals must be equal; parallelogram diagonals need not be equal at all",
+        "Parallelogram diagonals must be perpendicular; rhombus diagonals may meet at any angle"
+      ],
+      "answer": 1,
+      "explanation": "Both have diagonals that bisect each other (Property 4). The rhombus adds Property 6 — the diagonals meet at 90° — which is why the parallelogram in exercise Q2 could use 140°.",
+      "source": "text:page21"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Constructing Quadrilaterals from Diagonals",
+      "question": "On a geoboard, two rubber bands of EQUAL length are placed perpendicular to each other, crossing at their midpoints, as diagonals. Joining the ends gives a:",
+      "options": [
+        "Rhombus",
+        "Kite",
+        "Square",
+        "Rectangle"
+      ],
+      "answer": 2,
+      "explanation": "Equal diagonals that bisect each other give a rectangle; being perpendicular as well makes all sides equal, so the figure is a square.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Constructing Quadrilaterals from Diagonals",
+      "question": "In the geoboard activity, ONE of the two equal perpendicular diagonals is extended by 2 cm at both ends. What is the new quadrilateral?",
+      "options": [
+        "Rectangle — diagonals are still equal and bisect each other",
+        "Kite — only one diagonal is now bisected by the other",
+        "Square — extending both ends equally keeps it a square",
+        "Rhombus — diagonals still bisect at 90° but are no longer equal"
+      ],
+      "answer": 3,
+      "explanation": "Extending both ends by the same 2 cm keeps the midpoint fixed, so the diagonals still bisect each other at right angles, but one is now longer: a rhombus, not a square.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q128",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Constructing Quadrilaterals from Diagonals",
+      "question": "Which TWO conditions on the diagonals are needed to guarantee a rectangle?",
+      "options": [
+        "They are equal in length",
+        "They bisect each other",
+        "They are perpendicular to each other",
+        "They bisect the angles",
+        "They meet at 60°"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The Carpenter's Problem shows equal diagonals that bisect each other always form a rectangle, at any angle. Perpendicularity would additionally make it a square.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Joining Triangles to Make Quadrilaterals",
+      "question": "Two cardboard equilateral triangles with 8 cm sides are joined along a side. What do you get?",
+      "options": [
+        "A rhombus with all sides 8 cm",
+        "A square with all sides 8 cm",
+        "A rectangle with sides 8 cm and 16 cm",
+        "A trapezium with three sides of 8 cm"
+      ],
+      "answer": 0,
+      "explanation": "The shared side disappears, leaving four sides of 8 cm each — a rhombus. It is not a square because its angles are 60° and 120°, not 90°.",
+      "source": "text:page23"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Joining Triangles to Make Quadrilaterals",
+      "question": "What are the angles of the quadrilateral made by joining two equilateral triangles with 4 cm sides?",
+      "options": [
+        "60°, 100°, 60°, 140°",
+        "60°, 120°, 60°, 120°",
+        "60°, 60°, 60°, 60°",
+        "90°, 90°, 90°, 90°"
+      ],
+      "answer": 1,
+      "explanation": "Each triangle angle is 60°. Two corners keep a single 60°, while the two corners where triangles meet have 60° + 60° = 120°. Check: 60 + 120 + 60 + 120 = 360.",
+      "source": "exercise:p107-Q1"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Joining Triangles to Make Quadrilaterals",
+      "question": "Two isosceles triangles with sides 8, 8, 6 cm are joined along their 6 cm sides. What quadrilateral results?",
+      "options": [
+        "Parallelogram (sides 8, 6, 8, 6 cm)",
+        "Isosceles trapezium (sides 8, 6, 8, 6 cm)",
+        "Rhombus (all sides 8 cm)",
+        "Kite (sides 8, 8, 6, 6 cm)"
+      ],
+      "answer": 2,
+      "explanation": "Gluing the 6 cm sides hides them, so the boundary is the four 8 cm sides — a rhombus. Joining along an 8 cm side instead would leave 6 cm sides on the boundary.",
+      "source": "text:page23"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Joining Triangles to Make Quadrilaterals",
+      "question": "Two isosceles 8-8-6 triangles are joined along an 8 cm side as mirror images of each other. What quadrilateral results?",
+      "options": [
+        "Rhombus with all sides 8 cm",
+        "Rectangle with sides 8 cm and 6 cm",
+        "Square with all sides 6 cm",
+        "Kite with sides 8, 8, 6, 6 cm"
+      ],
+      "answer": 3,
+      "explanation": "The glued 8 cm side becomes a diagonal. Each triangle contributes a free 8 cm and 6 cm side; mirroring puts the two 8 cm sides together at one end and the two 6 cm sides at the other — a kite.",
+      "source": "text:page23"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Joining Triangles to Make Quadrilaterals",
+      "question": "Two scalene triangles with sides 6, 9, 12 cm are joined along their 12 cm sides as mirror images. The result is a:",
+      "options": [
+        "Kite",
+        "Rhombus",
+        "Rectangle",
+        "Square"
+      ],
+      "answer": 0,
+      "explanation": "The chapter shows this exact join: adjacent sides come out equal (6, 6 and 9, 9), which is the definition of a kite. A rhombus would need all four sides equal.",
+      "source": "text:page24"
+    },
+    {
+      "id": "q134",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Joining Triangles to Make Quadrilaterals",
+      "question": "Joining two congruent equilateral triangles along a side always gives a rhombus.",
+      "answer": true,
+      "explanation": "All four remaining sides equal the triangle's side, so the figure is a rhombus (with angles 60° and 120°). The chapter's 8 cm example shows this.",
+      "source": "text:page23"
+    },
+    {
+      "id": "q135",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Joining Triangles to Make Quadrilaterals",
+      "question": "Joining two congruent scalene triangles along a common side always gives a kite.",
+      "answer": false,
+      "explanation": "Only a mirror-image join gives a kite. Rotating one triangle 180° about the midpoint of the shared side gives a parallelogram instead — the chapter asks for the 'different ways' precisely because the result varies.",
+      "source": "text:page24"
+    },
+    {
+      "id": "q136",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Joining Triangles to Make Quadrilaterals",
+      "question": "Which TWO quadrilaterals can be made by joining two congruent 8-8-6 isosceles triangles along a full side?",
+      "options": [
+        "Rhombus",
+        "Kite",
+        "Square",
+        "Rectangle"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Joining along the 6 cm sides gives a rhombus; joining along an 8 cm side as mirror images gives a kite. A square or rectangle would need 90° angles, which an 8-8-6 triangle does not supply.",
+      "source": "text:page23"
+    }
+  ]
+}

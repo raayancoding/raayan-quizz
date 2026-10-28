@@ -1,0 +1,2145 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-maths-2-g8-ch06-algebra-play",
+  "title": "Algebra Play",
+  "subject": "Maths-2",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Maths-2/ch06",
+  "chapter": "6. Algebra Play",
+  "topic": "Full Chapter",
+  "description": "Using letter-numbers to explain and invent 'Think of a Number' and date tricks, number pyramids, calendar and algebra grids, the largest-product rule, reverse-digit divisibility tricks and classic word puzzles.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "maths",
+    "algebra",
+    "tricks",
+    "number-pyramids",
+    "calendar-magic",
+    "divisibility",
+    "word-problems",
+    "algebraic-proof"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Think of a Number Tricks",
+      "question": "In the Grade 7 trick — think of a number, double it, add 4, divide by 2, subtract the original number — what is the final result for every starting number?",
+      "options": [
+        "Always 2",
+        "Always 4",
+        "The number itself",
+        "Twice the number"
+      ],
+      "answer": 0,
+      "explanation": "Writing the number as x: 2x → 2x + 4 → x + 2 → x + 2 − x = 2. The x cancels, so the result is 2 whatever you start with.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Think of a Number Tricks",
+      "question": "In the same trick, after the step 'divide by 2' the expression in terms of the chosen number x is",
+      "options": [
+        "2x + 2",
+        "x + 2",
+        "x + 4",
+        "2x + 4"
+      ],
+      "answer": 1,
+      "explanation": "Before dividing we have 2x + 4. Dividing the whole expression by 2 gives x + 2 (both terms are halved). 2x + 4 is the expression before this step.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Think of a Number Tricks",
+      "question": "To make the Grade 7 trick always end in 3 instead of 2, which single change works?",
+      "options": [
+        "Add 3 instead of 4",
+        "Add 5 instead of 4",
+        "Add 6 instead of 4",
+        "Divide by 3 instead of 2"
+      ],
+      "answer": 2,
+      "explanation": "(2x + 6) ÷ 2 = x + 3, and subtracting x leaves 3. Adding 3 would give x + 1.5; dividing by 3 would not cancel the 2x.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Think of a Number Tricks",
+      "question": "A new trick: think of a number, triple it, add 12, divide by 3, subtract the original number. What is the result?",
+      "options": [
+        "Always 12",
+        "Always 3",
+        "Depends on the number",
+        "Always 4"
+      ],
+      "answer": 3,
+      "explanation": "3x + 12 divided by 3 is x + 4; subtracting x leaves 4. The 12 is divided by 3 too, so the answer is not 12.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Think of a Number Tricks",
+      "question": "Which of these step sequences does NOT give the same final value for every starting number?",
+      "options": [
+        "Add 5, double, subtract 10, divide by 2",
+        "Double, add 4, divide by 2, subtract the original",
+        "Multiply by 4, add 8, divide by 4, subtract the original",
+        "Triple, add 9, divide by 3, subtract the original"
+      ],
+      "answer": 0,
+      "explanation": "Add 5, double, subtract 10, halve gives (2x + 10 − 10) ÷ 2 = x — the chosen number, which changes each time. The other three end in 2, 2 and 3 respectively because x cancels.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q6",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Think of a Number Tricks",
+      "question": "The trick 'double, add 4, divide by 2, subtract the original number' always gives 2 because the letter-number x cancels in x + 2 − x.",
+      "answer": true,
+      "explanation": "Yes — algebra shows the final expression x + 2 − x = 2 has no x left in it, so every starting number leads to 2.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q7",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Think of a Number Tricks",
+      "question": "If 'add 4' is changed to 'add 8' in the Grade 7 trick, the final answer becomes 8.",
+      "answer": false,
+      "explanation": "False. (2x + 8) ÷ 2 = x + 4, and subtracting x leaves 4, not 8 — the added number gets halved.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Think of a Number Tricks",
+      "question": "Why does algebra help explain a 'Think of a Number' trick?",
+      "options": [
+        "It lets the performer guess the chosen number faster",
+        "It shows the result does not depend on the number chosen",
+        "It makes the arithmetic steps quicker to carry out",
+        "It proves the trick only works for small numbers"
+      ],
+      "answer": 1,
+      "explanation": "Replacing the chosen number by a letter-number x and simplifying shows whether x cancels; if it does, the result is the same for every starting number.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Think of a Number Tricks",
+      "question": "Think of a number, add the next whole number, add 9, divide by 2, subtract the original number. What do you get?",
+      "options": [
+        "9",
+        "10",
+        "5",
+        "4.5"
+      ],
+      "answer": 2,
+      "explanation": "x + (x + 1) + 9 = 2x + 10; halving gives x + 5; subtracting x leaves 5. Forgetting that 10 is also halved gives the wrong answer 10.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Think of a Number Tricks",
+      "question": "Select ALL the step sequences that always end at 2.",
+      "options": [
+        "Double, add 4, halve, subtract the original",
+        "Multiply by 4, add 8, divide by 4, subtract the original",
+        "Double, add 2, halve, subtract the original",
+        "Add 4, double, subtract the original"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "(2x + 4)/2 − x = 2 and (4x + 8)/4 − x = 2. But (2x + 2)/2 − x = 1, and (x + 4)·2 − x = x + 8 still depends on x.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Think of a Number Tricks",
+      "question": "Shubham wants a trick whose final answer is always the chosen number PLUS 1, so he can reveal the number. Which sequence works?",
+      "options": [
+        "Double, add 1, divide by 2",
+        "Add 1, double, divide by 2, subtract the original",
+        "Double, add 2, subtract the original",
+        "Double, add 2, divide by 2"
+      ],
+      "answer": 3,
+      "explanation": "(2x + 2) ÷ 2 = x + 1. 'Double, add 1, halve' gives x + 0.5; 'add 1, double, halve, subtract' gives 1; 'double, add 2, subtract' gives x + 2.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q12",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Think of a Number Tricks",
+      "question": "Dividing 2x + 4 by 2 gives x + 4, because only the term containing x is halved.",
+      "answer": false,
+      "explanation": "False. Division applies to every term: (2x + 4) ÷ 2 = x + 2. Halving only one term is a common slip.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Think of a Number Tricks",
+      "question": "According to the chapter summary, algebra is an indispensable tool for",
+      "options": [
+        "justifying mathematical statements",
+        "memorising multiplication tables",
+        "drawing accurate geometric figures",
+        "measuring lengths and angles exactly"
+      ],
+      "answer": 0,
+      "explanation": "The summary says algebra models numerical situations and is indispensable in justifying mathematical statements — for example proving why a trick always works.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Date Trick",
+      "question": "Let the month be M and the day be D. After the steps ×5, +6, ×4, +9, ×5, + day, the final answer is",
+      "options": [
+        "100M + 165D",
+        "100M + 165 + D",
+        "20M + 33 + D",
+        "100M + 24 + D"
+      ],
+      "answer": 1,
+      "explanation": "5M → 5M + 6 → 20M + 24 → 20M + 33 → 100M + 165 → 100M + 165 + D. The day is added, not multiplied.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Date Trick",
+      "question": "Mukta's answer was 291. Subtracting 165 gives 126. Which date did she think of?",
+      "options": [
+        "12 June",
+        "26 December",
+        "26 January",
+        "21 June"
+      ],
+      "answer": 2,
+      "explanation": "126 = 100M + D with D at most 31, so the last two digits 26 are the day and the 1 in front is the month: 26 January (Republic Day).",
+      "source": "text:page3"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Date Trick",
+      "question": "Mukta reports 1390 after following the same steps. Which date did she start with?",
+      "options": [
+        "13 September",
+        "12 December",
+        "25 November",
+        "25 December"
+      ],
+      "answer": 3,
+      "explanation": "1390 − 165 = 1225 → month 12, day 25. Forgetting to subtract 165 or misreading 1225 as 12/2 gives the wrong dates.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Date Trick",
+      "question": "A friend's final answer is 1269. What was the date?",
+      "options": [
+        "4 November",
+        "11 April",
+        "12 September",
+        "4 December"
+      ],
+      "answer": 0,
+      "explanation": "1269 − 165 = 1104 → M = 11, D = 04, i.e. 4 November. The last two digits are always the day.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Date Trick",
+      "question": "A friend's final answer is 394. What was the date?",
+      "options": [
+        "22 September",
+        "29 February",
+        "3 September",
+        "29 March"
+      ],
+      "answer": 1,
+      "explanation": "394 − 165 = 229 → M = 2, D = 29: 29 February. Reading 229 as 22/9 ignores that the day takes the last two digits.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Date Trick",
+      "question": "Why can the last two digits of 100M + D be read directly as the day?",
+      "options": [
+        "The month is always a single digit, so it uses only one place",
+        "Multiplying by 5 twice always makes a number ending in 00",
+        "The day is at most 31, so it never needs more than two digits",
+        "Adding 165 shifts the day into the hundreds place"
+      ],
+      "answer": 2,
+      "explanation": "Because D ≤ 31, it fits in the last two places and never 'carries' into the month's part 100M. Months can be two digits (10–12), so the first option is wrong.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Date Trick",
+      "question": "Where does the constant 165 in 100M + 165 + D come from?",
+      "options": [
+        "6 × 4 × 5 + 9",
+        "(6 + 9) × 4 + 5",
+        "6 × 4 + 9 × 5",
+        "(6 × 4 + 9) × 5"
+      ],
+      "answer": 3,
+      "explanation": "The 6 is multiplied by 4 (giving 24), then 9 is added (33), then everything is multiplied by 5: 33 × 5 = 165. The other expressions give 129, 65 and 69.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Date Trick",
+      "question": "Suppose the step 'Add 6' is replaced by 'Add 7' and everything else stays the same. What should Shubham now subtract from the final answer?",
+      "options": [
+        "185",
+        "170",
+        "166",
+        "175"
+      ],
+      "answer": 0,
+      "explanation": "5M + 7 → 20M + 28 → 20M + 37 → 100M + 185 + D. So 185 must be subtracted to leave 100M + D.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Date Trick",
+      "question": "A friend secretly picks 15 August and follows all the steps. What final answer will they report?",
+      "options": [
+        "815",
+        "980",
+        "1673",
+        "985"
+      ],
+      "answer": 1,
+      "explanation": "100 × 8 + 15 = 815, plus 165 gives 980. Reporting 815 forgets the constant; 1673 comes from swapping month and day.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q23",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "The Date Trick",
+      "question": "Following the steps for 2 October gives the final answer 1167.",
+      "answer": true,
+      "explanation": "100 × 10 + 2 = 1002, and 1002 + 165 = 1167. True.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q24",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "The Date Trick",
+      "question": "The largest final answer the date trick can give is 1396, which comes from 25 December.",
+      "answer": false,
+      "explanation": "False. 1396 does come from 12/31 (1231 + 165), but that is 31 December. 25 December gives 1390.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Date Trick",
+      "question": "If the trick ended with 10M + D instead of 100M + D, what would go wrong?",
+      "options": [
+        "The month would vanish from the final answer completely",
+        "The final answer would be negative for small days",
+        "Different dates could give the same number, like 1/26 and 3/6",
+        "Days bigger than 10 could no longer be used in the trick"
+      ],
+      "answer": 2,
+      "explanation": "10 × 1 + 26 = 36 and 10 × 3 + 6 = 36 — two dates, one answer. With 100M the day (≤ 31) can never overlap the month's digits.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q26",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "The Date Trick",
+      "question": "Which of these numbers appear in Mukta's working for 26/01 (steps ×5, +6, ×4, +9, ×5, + day)?",
+      "options": [
+        "44",
+        "48",
+        "265",
+        "270"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "1 × 5 = 5, 5 + 6 = 11, 11 × 4 = 44, 44 + 9 = 53, 53 × 5 = 265, 265 + 26 = 291. 48 and 270 never occur.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Number Pyramids",
+      "question": "What is the rule for filling a number pyramid?",
+      "options": [
+        "Each number is the product of the two numbers directly below it",
+        "Each number is the difference of the two numbers directly below it",
+        "Each number is the sum of the two numbers directly above it",
+        "Each number is the sum of the two numbers directly below it"
+      ],
+      "answer": 3,
+      "explanation": "The chapter defines a number pyramid so that every number equals the sum of the two directly beneath it.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Number Pyramids",
+      "question": "A three-row pyramid has bottom row 1, 9, 4. What is the middle row?",
+      "options": [
+        "10 and 13",
+        "9 and 13",
+        "10 and 14",
+        "9 and 36"
+      ],
+      "answer": 0,
+      "explanation": "1 + 9 = 10 and 9 + 4 = 13. (Multiplying 9 × 4 = 36 is the wrong rule.)",
+      "source": "text:page3"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Number Pyramids",
+      "question": "With bottom row 1, 9, 4 and middle row 10, 13, the top number is",
+      "options": [
+        "14",
+        "23",
+        "22",
+        "36"
+      ],
+      "answer": 1,
+      "explanation": "10 + 13 = 23. Adding only the bottom corners (1 + 4 + 9 = 14) or multiplying is wrong.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Number Pyramids",
+      "question": "A pyramid has top 10, left-middle 4 and bottom-left 1 (other boxes empty). What is its bottom row?",
+      "options": [
+        "1, 3, 6",
+        "1, 4, 6",
+        "1, 3, 3",
+        "1, 3, 7"
+      ],
+      "answer": 2,
+      "explanation": "Right-middle = 10 − 4 = 6; bottom-middle = 4 − 1 = 3; bottom-right = 6 − 3 = 3. Check: 1 + 3 = 4, 3 + 3 = 6, 4 + 6 = 10.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Number Pyramids",
+      "question": "A pyramid has top 60 and bottom row 12, c, 8. Which equation does the pyramid rule give?",
+      "options": [
+        "12 + 8 + c = 60",
+        "20 + c = 60",
+        "2c − 20 = 60",
+        "20 + 2c = 60"
+      ],
+      "answer": 3,
+      "explanation": "Middle row is 12 + c and c + 8; their sum (12 + c) + (c + 8) = 20 + 2c must equal 60.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Number Pyramids",
+      "question": "Solving 20 + 2c = 60 gives c =",
+      "options": [
+        "20",
+        "40",
+        "10",
+        "24"
+      ],
+      "answer": 0,
+      "explanation": "2c = 60 − 20 = 40, so c = 20. Stopping at 40 forgets to divide by 2.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Number Pyramids",
+      "question": "Why does 2c (not c) appear in the equation for the pyramid with bottom row 12, c, 8?",
+      "options": [
+        "The top 60 must be shared equally by the two middle boxes",
+        "c is part of both middle numbers, so it is counted twice",
+        "Every bottom number counts twice in a three-row pyramid",
+        "The rule says to double a middle number before adding"
+      ],
+      "answer": 1,
+      "explanation": "The middle entries are 12 + c and c + 8; c appears in each, so the top contains 2c. The corner numbers 12 and 8 appear only once.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Number Pyramids",
+      "question": "A four-row pyramid has bottom row 7, ?, 5, 9 and top 40. What is the missing number?",
+      "options": [
+        "6",
+        "4",
+        "3",
+        "19"
+      ],
+      "answer": 2,
+      "explanation": "Top = a + 3b + 3c + d = 7 + 3b + 15 + 9 = 31 + 3b = 40, so b = 3. Rows: 7, 3, 5, 9 → 10, 8, 14 → 18, 22 → 40.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q35",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Number Pyramids",
+      "question": "In a three-row pyramid with bottom row 5, 7, 9 the top number is 28.",
+      "answer": true,
+      "explanation": "Middle row 12 and 16; 12 + 16 = 28. Also a + 2b + c = 5 + 14 + 9 = 28.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q36",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Number Pyramids",
+      "question": "If the bottom row of a three-row pyramid is 12, 20, 8, the top number is 40.",
+      "answer": false,
+      "explanation": "False. The middle row is 32 and 28, giving 60. Adding only the bottom row (12 + 20 + 8 = 40) is not the rule.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Number Pyramids",
+      "question": "A three-row pyramid has top 50 and bottom row x, 10, 15. Find x.",
+      "options": [
+        "25",
+        "20",
+        "5",
+        "15"
+      ],
+      "answer": 3,
+      "explanation": "x + 2(10) + 15 = 50 → x + 35 = 50 → x = 15. Using x + 10 + 15 = 50 (forgetting the middle counts twice) gives 25.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q38",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Number Pyramids",
+      "question": "Which of these bottom rows give a three-row pyramid with top 24? Select all.",
+      "options": [
+        "11, 3, 7",
+        "7, 3, 11",
+        "3, 7, 11",
+        "11, 7, 3"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Top = a + 2b + c. 11 + 6 + 7 = 24 and 7 + 6 + 11 = 24 (swapping ends changes nothing). 3 + 14 + 11 = 28 and 11 + 14 + 3 = 28.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pyramid Formulas & Fibonacci",
+      "question": "The simplest pyramid has bottom row a, b. Its top is",
+      "options": [
+        "a + b",
+        "ab",
+        "a − b",
+        "2a + b"
+      ],
+      "answer": 0,
+      "explanation": "The number above two boxes is their sum, a + b.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pyramid Formulas & Fibonacci",
+      "question": "For a three-row pyramid with bottom row a, b, c, the top is",
+      "options": [
+        "a + b + c",
+        "a + 2b + c",
+        "2a + b + 2c",
+        "a + 2b + 2c"
+      ],
+      "answer": 1,
+      "explanation": "Middle row is a + b and b + c; adding gives a + 2b + c. The middle number is counted twice.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pyramid Formulas & Fibonacci",
+      "question": "Write the top of a four-row pyramid with bottom row a, b, c, d.",
+      "options": [
+        "a + 2b + 2c + d",
+        "a + 4b + 4c + d",
+        "a + 3b + 3c + d",
+        "2a + 3b + 3c + 2d"
+      ],
+      "answer": 2,
+      "explanation": "Rows: a + b, b + c, c + d → a + 2b + c, b + 2c + d → a + 3b + 3c + d. The ends count once, the inner numbers three times.",
+      "source": "exercise:Q2"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pyramid Formulas & Fibonacci",
+      "question": "Without building the pyramid, find the top when the bottom row is 8, 13, 4.",
+      "options": [
+        "25",
+        "42",
+        "34",
+        "38"
+      ],
+      "answer": 3,
+      "explanation": "a + 2b + c = 8 + 26 + 4 = 38. Simply adding the row (25) forgets the double middle.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pyramid Formulas & Fibonacci",
+      "question": "Find the top of the three-row pyramid with bottom row 11, 3, 7.",
+      "options": [
+        "24",
+        "21",
+        "28",
+        "27"
+      ],
+      "answer": 0,
+      "explanation": "11 + 2 × 3 + 7 = 24.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pyramid Formulas & Fibonacci",
+      "question": "Find the top of the three-row pyramid with bottom row 14, 25, 10.",
+      "options": [
+        "49",
+        "74",
+        "64",
+        "84"
+      ],
+      "answer": 1,
+      "explanation": "14 + 2 × 25 + 10 = 74. Adding the row gives 49; forgetting one of the corners gives 64.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pyramid Formulas & Fibonacci",
+      "question": "Find the top of the four-row pyramid with bottom row 21, 8, 19, 13.",
+      "options": [
+        "88",
+        "61",
+        "115",
+        "142"
+      ],
+      "answer": 2,
+      "explanation": "21 + 3 × 8 + 3 × 19 + 13 = 21 + 24 + 57 + 13 = 115. Using coefficients 1, 2, 2, 1 gives 88; just adding gives 61.",
+      "source": "exercise:Q3"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pyramid Formulas & Fibonacci",
+      "question": "Find the top of the four-row pyramid with bottom row 5, 9, 7, 11.",
+      "options": [
+        "32",
+        "54",
+        "72",
+        "64"
+      ],
+      "answer": 3,
+      "explanation": "5 + 27 + 21 + 11 = 64. Rows: 14, 16, 18 → 30, 34 → 64.",
+      "source": "exercise:Q3"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pyramid Formulas & Fibonacci",
+      "question": "The first three Virahāṅka-Fibonacci numbers 1, 2, 3 are the bottom row of a three-row pyramid. The top number is",
+      "options": [
+        "8",
+        "5",
+        "6",
+        "13"
+      ],
+      "answer": 0,
+      "explanation": "Middle row 3 and 5; top 8. All numbers (1, 2, 3, 5, 8) are Virahāṅka-Fibonacci numbers.",
+      "source": "exercise:Q4"
+    },
+    {
+      "id": "q48",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Pyramid Formulas & Fibonacci",
+      "question": "With 1, 2, 3 in the bottom row, every number in the pyramid (3, 5 and 8) is a Virahāṅka-Fibonacci number.",
+      "answer": true,
+      "explanation": "1 + 2 = 3, 2 + 3 = 5, 3 + 5 = 8 — exactly the next terms of the sequence 1, 2, 3, 5, 8, …",
+      "source": "exercise:Q4"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pyramid Formulas & Fibonacci",
+      "question": "If the first four Virahāṅka-Fibonacci numbers 1, 2, 3, 5 form the bottom row of a four-row pyramid, the top is",
+      "options": [
+        "13",
+        "21",
+        "34",
+        "11"
+      ],
+      "answer": 1,
+      "explanation": "Rows: 3, 5, 8 → 8, 13 → 21. Also 1 + 3·2 + 3·3 + 5 = 21. Adding the row gives only 11.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pyramid Formulas & Fibonacci",
+      "question": "Why is every number in such a pyramid a Virahāṅka-Fibonacci number?",
+      "options": [
+        "Any two Fibonacci numbers always add to another Fibonacci number, like 1 + 3",
+        "The pyramid rule doubles the middle entry, which is exactly the Fibonacci rule",
+        "Consecutive Fibonacci pairs sum to the next one, so each row stays consecutive Fibonacci",
+        "Only Fibonacci numbers can appear in a pyramid whose bottom row adds to a Fibonacci number"
+      ],
+      "answer": 2,
+      "explanation": "A row of consecutive Fibonacci numbers produces, by adding neighbours, the next consecutive Fibonacci numbers (e.g. 1, 2, 3, 5 → 3, 5, 8). Not every pair sums to a Fibonacci number (1 + 3 = 4).",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pyramid Formulas & Fibonacci",
+      "question": "An n-row pyramid has the first n Virahāṅka-Fibonacci numbers at the bottom. The top number is",
+      "options": [
+        "the (n + 1)th Fibonacci number",
+        "the 2nth Fibonacci number",
+        "the sum of the first n Fibonacci numbers",
+        "the (2n − 1)th Fibonacci number"
+      ],
+      "answer": 3,
+      "explanation": "Each row starts two places further along the sequence, so after n − 1 rows the top is the (2n − 1)th term: n = 3 gives the 5th (8), n = 4 the 7th (21).",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q52",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Pyramid Formulas & Fibonacci",
+      "question": "With the first 29 Virahāṅka-Fibonacci numbers in the bottom row of a 29-row pyramid, the top is the 30th Fibonacci number.",
+      "answer": false,
+      "explanation": "False. Every row shifts two places along the sequence, so the top is the (2 × 29 − 1) = 57th Fibonacci number, though all entries are Fibonacci numbers.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q53",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Pyramid Formulas & Fibonacci",
+      "question": "Select the TRUE statements about the pyramid whose bottom row is 1, 2, 3, 5.",
+      "options": [
+        "The rows above are 3, 5, 8 and then 8, 13",
+        "The top number is 21",
+        "The top number is 1 + 2 + 3 + 5 = 11",
+        "Some numbers in the pyramid are not Fibonacci numbers"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Adding neighbours: 3, 5, 8 → 8, 13 → 21. Every entry is a Fibonacci number, and the top is not the plain sum of the bottom row.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Calendar Magic",
+      "question": "In a 2 × 2 calendar grid whose top-left number is a, the other three numbers are",
+      "options": [
+        "a + 1, a + 7, a + 8",
+        "a + 1, a + 2, a + 3",
+        "a + 1, a + 6, a + 7",
+        "a + 7, a + 14, a + 21"
+      ],
+      "answer": 0,
+      "explanation": "The next day is a + 1; the same weekdays one week later are a + 7 and a + 8.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Calendar Magic",
+      "question": "The sum of the four numbers in a 2 × 2 calendar grid with top-left a is",
+      "options": [
+        "4a + 8",
+        "4a + 16",
+        "4a + 10",
+        "a + 16"
+      ],
+      "answer": 1,
+      "explanation": "a + (a + 1) + (a + 7) + (a + 8) = 4a + 16.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Calendar Magic",
+      "question": "Your friend says the four numbers in their 2 × 2 grid add to 36. Which grid is it?",
+      "options": [
+        "9, 10, 16, 17",
+        "4, 5, 11, 12",
+        "5, 6, 12, 13",
+        "6, 7, 13, 14"
+      ],
+      "answer": 2,
+      "explanation": "4a + 16 = 36 → a = 5, so the grid is 5, 6, 12, 13. Taking 36 ÷ 4 = 9 as the top-left is a common slip.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Calendar Magic",
+      "question": "A 2 × 2 grid adds to 100. What are its numbers?",
+      "options": [
+        "25, 26, 32, 33",
+        "20, 21, 27, 28",
+        "22, 23, 29, 30",
+        "21, 22, 28, 29"
+      ],
+      "answer": 3,
+      "explanation": "4a + 16 = 100 → 4a = 84 → a = 21. Check: 21 + 22 + 28 + 29 = 100.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Calendar Magic",
+      "question": "Which total CANNOT be the sum of a 2 × 2 calendar grid?",
+      "options": [
+        "54",
+        "40",
+        "76",
+        "100"
+      ],
+      "answer": 0,
+      "explanation": "The sum is 4a + 16 = 4(a + 4), always a multiple of 4. 54 is not; 40, 76 and 100 come from a = 6, 15 and 21.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Calendar Magic",
+      "question": "Why is the number directly below a in a calendar equal to a + 7?",
+      "options": [
+        "A calendar page always has exactly 7 rows of dates",
+        "A week has 7 days, so the row below is one week later",
+        "A month has about 30 days and 30 ÷ 4 is close to 7",
+        "The grid has 4 numbers and 4 + 3 makes 7"
+      ],
+      "answer": 1,
+      "explanation": "Each calendar row is a week, so the date straight below any date is 7 days later.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Calendar Magic",
+      "question": "In a 3 × 3 calendar grid with top-left a, the sum of all nine numbers is",
+      "options": [
+        "9a + 36",
+        "9a + 56",
+        "9a + 72",
+        "9a + 81"
+      ],
+      "answer": 2,
+      "explanation": "The offsets are 0, 1, 2, 7, 8, 9, 14, 15, 16, which add to 72. So the sum is 9a + 72 = 9 × (centre number).",
+      "source": "text:page8"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Calendar Magic",
+      "question": "A 3 × 3 calendar grid adds to 171. What is its centre number?",
+      "options": [
+        "17",
+        "18",
+        "21",
+        "19"
+      ],
+      "answer": 3,
+      "explanation": "The sum of a 3 × 3 grid is 9 times its centre, so the centre is 171 ÷ 9 = 19 (top-left 11).",
+      "source": "text:page8"
+    },
+    {
+      "id": "q62",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Calendar Magic",
+      "question": "In any 2 × 2 calendar grid, the two diagonals have equal sums.",
+      "answer": true,
+      "explanation": "a + (a + 8) = 2a + 8 and (a + 1) + (a + 7) = 2a + 8. True.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q63",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Calendar Magic",
+      "question": "If a 2 × 2 grid sums to 36, the top-left number is 36 ÷ 4 = 9.",
+      "answer": false,
+      "explanation": "False. 36 ÷ 4 = 9 is the average, which equals a + 4. The top-left is 5 (from 4a + 16 = 36).",
+      "source": "text:page7"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Calendar Magic",
+      "question": "Five dates forming a plus sign with centre c add up to",
+      "options": [
+        "5c",
+        "5c + 16",
+        "4c + 16",
+        "5c + 7"
+      ],
+      "answer": 0,
+      "explanation": "The dates are c − 7, c − 1, c, c + 1, c + 7; the offsets cancel, leaving 5c.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Calendar Magic",
+      "question": "A 2 × 2 grid adds to 76. What is its smallest number?",
+      "options": [
+        "19",
+        "15",
+        "11",
+        "14"
+      ],
+      "answer": 1,
+      "explanation": "4a + 16 = 76 → a = 15. 19 is 76 ÷ 4, the average, not the smallest.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q66",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Calendar Magic",
+      "question": "Which statements about the sum 4a + 16 of a 2 × 2 calendar grid are correct?",
+      "options": [
+        "The sum is always a multiple of 4",
+        "The sum ÷ 4 equals the top-left number plus 4",
+        "The sum ÷ 4 equals the bottom-right number",
+        "The sum is always an odd number"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "4a + 16 = 4(a + 4), so it is a multiple of 4 and its quarter is a + 4. The bottom-right is a + 8, and the sum is even.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algebra Grids",
+      "question": "In an algebra grid, the number in the last column of each row is",
+      "options": [
+        "the product of the shapes' values to its left",
+        "the largest of the shapes' values to its left",
+        "the sum of the shapes' values to its left",
+        "the difference of the shapes' values to its left"
+      ],
+      "answer": 2,
+      "explanation": "The chapter states: in each row, the last column is the sum of the values to its left.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algebra Grids",
+      "question": "A row reads ★ + ★ + ★ = 27. The value of ★ is",
+      "options": [
+        "3",
+        "24",
+        "81",
+        "9"
+      ],
+      "answer": 3,
+      "explanation": "Three equal shapes add to 27, so ★ = 27 ÷ 3 = 9.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Algebra Grids",
+      "question": "Another row reads ● + ● + ★ = 19 and ★ = 9. The value of ● is",
+      "options": [
+        "5",
+        "10",
+        "14",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "2● + 9 = 19 → 2● = 10 → ● = 5. Stopping at 10 forgets there are two ●.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Algebra Grids",
+      "question": "When solving an algebra grid, which row is the best one to tackle first?",
+      "options": [
+        "The row with the largest total",
+        "The row containing only one kind of shape",
+        "The row with the smallest total",
+        "The row with the most different shapes"
+      ],
+      "answer": 1,
+      "explanation": "A row with a single shape gives that shape's value directly (e.g. 3★ = 27). Its value can then be substituted into the other rows.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Algebra Grids",
+      "question": "Rows: ▲ + ▲ + ▲ = 27 and ▲ + ■ + ■ = 21. The value of ■ is",
+      "options": [
+        "7",
+        "12",
+        "6",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "▲ = 9, so 9 + 2■ = 21 → 2■ = 12 → ■ = 6. Dividing 21 by 3 (7) treats the shapes as equal.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Algebra Grids",
+      "question": "With ▲ = 9 and ■ = 6, the row ▲ + ■ + ◆ = 18 gives ◆ =",
+      "options": [
+        "6",
+        "12",
+        "15",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "9 + 6 + ◆ = 18 → ◆ = 3.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q73",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Algebra Grids",
+      "question": "If ○ + ○ + □ = 19 and □ + □ + □ = 27, then ○ = 5.",
+      "answer": true,
+      "explanation": "□ = 9, so 2○ = 19 − 9 = 10 and ○ = 5.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q74",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Algebra Grids",
+      "question": "If ○ + ○ + □ = 19 and □ = 9, then ○ = 19 − 9 = 10.",
+      "answer": false,
+      "explanation": "False. 19 − 9 = 10 is the value of ○ + ○, so ○ = 5.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Algebra Grids",
+      "question": "Which pair of rows alone CANNOT determine the values of ○ and □?",
+      "options": [
+        "○ + □ = 14 and ○ + ○ + □ + □ = 28",
+        "□ + □ + □ = 27 and ○ + □ = 14",
+        "○ + ○ = 10 and ○ + □ = 14",
+        "○ + ○ + □ = 19 and ○ + □ + □ = 23"
+      ],
+      "answer": 0,
+      "explanation": "The second row is just double the first, so it gives no new information; many pairs (e.g. 5 and 9, or 6 and 8) fit. The other pairs each pin down one shape and then the other.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q76",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Algebra Grids",
+      "question": "Rows: ▲ + ▲ + ▲ = 27, ▲ + ■ + ■ = 21, ■ + ■ + ◆ = 15. Select the correct values.",
+      "options": [
+        "▲ = 9",
+        "■ = 6",
+        "◆ = 9",
+        "■ = 7"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "▲ = 27 ÷ 3 = 9; then 2■ = 12 so ■ = 6; then ◆ = 15 − 12 = 3, not 9.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Largest Product",
+      "question": "How many different ways are there to place three different digits in □□ × □, using each digit once?",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "3 choices for the first box, then 2 ways to place the remaining two digits: 3 × 2 = 6.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Largest Product",
+      "question": "Using the digits 2, 3 and 5 once each in □□ × □, the largest product is",
+      "options": [
+        "52 × 3 = 156",
+        "53 × 2 = 106",
+        "32 × 5 = 160",
+        "35 × 2 = 70"
+      ],
+      "answer": 2,
+      "explanation": "The six products are 115, 75, 160, 70, 156 and 106; the largest is 32 × 5 = 160.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Largest Product",
+      "question": "Compare 53 × 2 and 52 × 3. Which is larger, and by how much?",
+      "options": [
+        "53 × 2, by 50",
+        "52 × 3, by 5",
+        "They are equal",
+        "52 × 3, by 50"
+      ],
+      "answer": 3,
+      "explanation": "52 × 3 = 156 and 53 × 2 = 106, a difference of 50.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Largest Product",
+      "question": "The chapter writes 32 × 5 = (3 × 10 × 5) + (2 × 5) and 52 × 3 = (5 × 10 × 3) + (2 × 3). Which part decides that 32 × 5 is larger?",
+      "options": [
+        "The second terms: 2 × 5 > 2 × 3",
+        "The first terms: 3 × 10 × 5 > 5 × 10 × 3",
+        "Both terms are larger in 32 × 5",
+        "The tens digit 3 is bigger than 5"
+      ],
+      "answer": 0,
+      "explanation": "The first terms are equal (150 each). Only the units parts differ: 10 versus 6, so 32 × 5 wins.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Largest Product",
+      "question": "To get the largest product in □□ × □ with three digits, the rule is",
+      "options": [
+        "largest digit as the tens digit; other two in increasing order",
+        "largest digit as the multiplier; other two in decreasing order",
+        "smallest digit as the multiplier; other two in decreasing order",
+        "largest digit as the multiplier; other two in increasing order"
+      ],
+      "answer": 1,
+      "explanation": "The chapter shows the largest digit should multiply, and the remaining digits form the multiplicand with the bigger one in the tens place (qp × r for p < q < r).",
+      "source": "text:page10"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Largest Product",
+      "question": "Fill the digits 1, 3 and 7 in □□ × □ to make the largest product.",
+      "options": [
+        "71 × 3 = 213",
+        "73 × 1 = 73",
+        "31 × 7 = 217",
+        "13 × 7 = 91"
+      ],
+      "answer": 2,
+      "explanation": "Largest digit 7 as multiplier, 3 then 1 as multiplicand: 31 × 7 = 217, beating 71 × 3 = 213.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Largest Product",
+      "question": "Fill the digits 3, 5 and 9 in □□ × □ to make the largest product.",
+      "options": [
+        "93 × 5 = 465",
+        "95 × 3 = 285",
+        "35 × 9 = 315",
+        "53 × 9 = 477"
+      ],
+      "answer": 3,
+      "explanation": "53 × 9 = 477 is larger than 93 × 5 = 465. The largest digit 9 should be the multiplier.",
+      "source": "exercise:Q2"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Largest Product",
+      "question": "Using the digits 2, 7 and 8 once each, the largest product in □□ × □ is",
+      "options": [
+        "72 × 8 = 576",
+        "82 × 7 = 574",
+        "87 × 2 = 174",
+        "78 × 2 = 156"
+      ],
+      "answer": 0,
+      "explanation": "72 × 8 = 576 beats 82 × 7 = 574 by just 2 — the second terms 2 × 8 and 2 × 7 decide.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Largest Product",
+      "question": "For digits p < q < r, the chapter shows the largest product is",
+      "options": [
+        "rq × p",
+        "qp × r",
+        "rp × q",
+        "pq × r"
+      ],
+      "answer": 1,
+      "explanation": "qp × r = 10qr + pr, while rp × q = 10rq + pq; since r > q, pr > pq, so qp × r is largest.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Largest Product",
+      "question": "Why is rp × q larger than rq × p (with p < q < r)?",
+      "options": [
+        "The multiplicand rp is larger than rq, so its product is larger",
+        "The multiplier p is larger than the multiplier q",
+        "Both contain pq, but 10rq is more than 10rp since q > p",
+        "Both products share 10rp, and the extra rq beats pq"
+      ],
+      "answer": 2,
+      "explanation": "(10r + p) × q = 10rq + pq and (10r + q) × p = 10rp + pq. The pq parts match; 10rq > 10rp because q > p. (Note rq > rp, so the first distractor is backwards.)",
+      "source": "text:page10"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Largest Product",
+      "question": "Comparing qp × r = 10qr + pr with rp × q = 10rq + pq, what decides the winner?",
+      "options": [
+        "10qr > 10rq",
+        "pq > pr because p < q",
+        "The first terms differ by 10",
+        "pr > pq because r > q"
+      ],
+      "answer": 3,
+      "explanation": "10qr and 10rq are the same number. The products differ only in pr versus pq, and r > q makes pr larger.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q88",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "The Largest Product",
+      "question": "With digits 4, 6 and 8, the largest product in □□ × □ is 64 × 8 = 512.",
+      "answer": true,
+      "explanation": "Largest digit 8 as multiplier, 6 then 4 in the multiplicand: 512, beating 84 × 6 = 504 and 86 × 4 = 344.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q89",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "The Largest Product",
+      "question": "With digits 1, 2 and 9, the largest product in □□ × □ is 91 × 2 = 182.",
+      "answer": false,
+      "explanation": "False. 21 × 9 = 189 is larger. The largest digit should be the multiplier, not the tens digit.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Largest Product",
+      "question": "Which statement about the six arrangements of 2, 3 and 5 in □□ × □ is NOT correct?",
+      "options": [
+        "The smallest product uses 5 as the multiplier",
+        "In each pair with the same multiplier, the larger tens digit wins",
+        "52 × 3 is bigger than 53 × 2",
+        "All six products are different numbers"
+      ],
+      "answer": 0,
+      "explanation": "The smallest product is 35 × 2 = 70, whose multiplier is 2. The other three statements are true (products 115, 75, 160, 70, 156, 106).",
+      "source": "text:page9"
+    },
+    {
+      "id": "q91",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "The Largest Product",
+      "question": "Select the products that are among the six arrangements of the digits 2, 3 and 5 in □□ × □.",
+      "options": [
+        "25 × 3",
+        "23 × 5",
+        "35 × 3",
+        "52 × 2"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Each digit must be used exactly once. 35 × 3 and 52 × 2 repeat a digit.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reverse-the-Digits Tricks",
+      "question": "Mukta's trick: take a 2-digit number with different digits, reverse it, find the difference and divide by 9. The remainder is",
+      "options": [
+        "always 1",
+        "always 0",
+        "the tens digit",
+        "different each time"
+      ],
+      "answer": 1,
+      "explanation": "The difference is 9(b − a) (or 9(a − b)), a multiple of 9, so dividing by 9 leaves no remainder.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reverse-the-Digits Tricks",
+      "question": "A 2-digit number with tens digit a and units digit b is written algebraically as",
+      "options": [
+        "a + b",
+        "10b + a",
+        "10a + b",
+        "a × b"
+      ],
+      "answer": 2,
+      "explanation": "The tens digit is worth ten times itself: 10a + b. 10b + a is the reversed number.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reverse-the-Digits Tricks",
+      "question": "If b > a, the difference between the reversed number ba and the original ab is",
+      "options": [
+        "9(a + b)",
+        "11(b − a)",
+        "b − a",
+        "9(b − a)"
+      ],
+      "answer": 3,
+      "explanation": "(10b + a) − (10a + b) = 9b − 9a = 9(b − a).",
+      "source": "text:page11"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reverse-the-Digits Tricks",
+      "question": "For 47 and 74, the difference 27 divided by 9 gives 3. This quotient equals",
+      "options": [
+        "the digit difference 7 − 4",
+        "the digit sum 7 + 4",
+        "the tens digit of 47",
+        "the units digit of 27"
+      ],
+      "answer": 0,
+      "explanation": "The difference is 9(b − a), so dividing by 9 leaves b − a = 7 − 4 = 3.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Reverse-the-Digits Tricks",
+      "question": "What happens in the trick if the tens digit a is bigger than the units digit b?",
+      "options": [
+        "The difference is negative, so the trick fails",
+        "The difference is 9(a − b), still a multiple of 9",
+        "The difference becomes 11(a − b) instead",
+        "The difference is divisible by 9 only when a − b is even"
+      ],
+      "answer": 1,
+      "explanation": "ab − ba = (10a + b) − (10b + a) = 9(a − b). Subtracting the smaller from the larger always leaves a multiple of 9.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reverse-the-Digits Tricks",
+      "question": "Instead of the difference, add a 2-digit number to its reverse. The sum is",
+      "options": [
+        "11(a − b)",
+        "9(a + b)",
+        "11(a + b)",
+        "10(a + b) + 1"
+      ],
+      "answer": 2,
+      "explanation": "(10a + b) + (10b + a) = 11a + 11b = 11(a + b), so the sum is always divisible by 11.",
+      "source": "exercise:Q2"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reverse-the-Digits Tricks",
+      "question": "31 + 13 = 44 = 11 × 4. The quotient 4 is",
+      "options": [
+        "3 − 1",
+        "3 × 1",
+        "4 × 1",
+        "3 + 1"
+      ],
+      "answer": 3,
+      "explanation": "The sum is 11(a + b), so dividing by 11 gives the digit sum 3 + 1 = 4.",
+      "source": "exercise:Q2"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Reverse-the-Digits Tricks",
+      "question": "Which statement about a 2-digit number and its reverse is NOT correct?",
+      "options": [
+        "Their difference is always a multiple of 18",
+        "Their difference is always a multiple of 9",
+        "Their sum is always a multiple of 11",
+        "Their sum divided by 11 is the sum of the digits"
+      ],
+      "answer": 0,
+      "explanation": "The difference is 9(b − a); it is a multiple of 18 only when the digit difference is even — 74 − 47 = 27 is not. The other three statements are always true.",
+      "source": "exercise:Q2"
+    },
+    {
+      "id": "q100",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Reverse-the-Digits Tricks",
+      "question": "For 91 and 19, dividing the difference by 9 gives 8.",
+      "answer": true,
+      "explanation": "91 − 19 = 72 and 72 ÷ 9 = 8 = 9 − 1.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q101",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Reverse-the-Digits Tricks",
+      "question": "63 + 36 = 99 shows that the sum of a 2-digit number and its reverse is always a multiple of 9.",
+      "answer": false,
+      "explanation": "False. The sum is 11(a + b), always a multiple of 11; 99 happens to be a multiple of 9 because 6 + 3 = 9. For 31 + 13 = 44 there is no factor 9.",
+      "source": "exercise:Q2"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Reverse-the-Digits Tricks",
+      "question": "Which pair of a number and its reverse has a difference of 45?",
+      "options": [
+        "54 and 45",
+        "61 and 16",
+        "73 and 37",
+        "92 and 29"
+      ],
+      "answer": 1,
+      "explanation": "The difference is 9 × (digit difference); 45 = 9 × 5 needs digits differing by 5: 61 − 16 = 45. The others give 9, 36 and 63.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q103",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Reverse-the-Digits Tricks",
+      "question": "Which of these 'number + reverse' sums equal 121?",
+      "options": [
+        "47 + 74",
+        "38 + 83",
+        "45 + 54",
+        "39 + 93"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The sum is 11 × (digit sum). 4 + 7 = 11 and 3 + 8 = 11 give 121; 45 + 54 = 99 and 39 + 93 = 132.",
+      "source": "exercise:Q2"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cyclic & Repeated Digits",
+      "question": "For a 3-digit number abc, the sum abc + bca + cab equals",
+      "options": [
+        "100(a + b + c)",
+        "37(a + b + c)",
+        "111(a + b + c)",
+        "3(a + b + c)"
+      ],
+      "answer": 2,
+      "explanation": "Each digit appears once in the hundreds, tens and units places: (100 + 10 + 1)(a + b + c) = 111(a + b + c).",
+      "source": "exercise:Q3"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cyclic & Repeated Digits",
+      "question": "Why is abc + bca + cab always divisible by 37?",
+      "options": [
+        "Because 111 = 37 + 73",
+        "Because a + b + c is a multiple of 37",
+        "Because 999 = 27 × 37",
+        "Because 111 = 3 × 37"
+      ],
+      "answer": 3,
+      "explanation": "The sum is 111(a + b + c) and 111 = 3 × 37, so 37 (and 3) always divide it. 999 = 27 × 37 is true but is not the reason here.",
+      "source": "exercise:Q3"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cyclic & Repeated Digits",
+      "question": "123 + 231 + 312 = ?",
+      "options": [
+        "666",
+        "555",
+        "646",
+        "696"
+      ],
+      "answer": 0,
+      "explanation": "123 + 231 + 312 = 666 = 111 × 6 = 37 × 18.",
+      "source": "exercise:Q3"
+    },
+    {
+      "id": "q107",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Cyclic & Repeated Digits",
+      "question": "The sum abc + bca + cab is always divisible by 3 as well as by 37.",
+      "answer": true,
+      "explanation": "111(a + b + c) = 3 × 37 × (a + b + c), so both 3 and 37 always divide it.",
+      "source": "exercise:Q3"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cyclic & Repeated Digits",
+      "question": "Repeating the digits of abc to make abcabc is the same as multiplying abc by",
+      "options": [
+        "1000",
+        "1001",
+        "111",
+        "101"
+      ],
+      "answer": 1,
+      "explanation": "abcabc = abc × 1000 + abc = abc × 1001.",
+      "source": "exercise:Q4"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Cyclic & Repeated Digits",
+      "question": "7 × 11 × 13 = ?",
+      "options": [
+        "1011",
+        "1101",
+        "1001",
+        "911"
+      ],
+      "answer": 2,
+      "explanation": "7 × 11 = 77 and 77 × 13 = 1001. This is why dividing abcabc by 7, 11 and 13 returns abc.",
+      "source": "exercise:Q4"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Cyclic & Repeated Digits",
+      "question": "Divide 123123 by 7, then by 11, then by 13. The result is",
+      "options": [
+        "1",
+        "321",
+        "1001",
+        "123"
+      ],
+      "answer": 3,
+      "explanation": "123123 = 123 × 1001 = 123 × 7 × 11 × 13, so the three divisions leave 123.",
+      "source": "exercise:Q4"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cyclic & Repeated Digits",
+      "question": "Which number is NOT a divisor of every number of the form abcabc?",
+      "options": [
+        "37",
+        "77",
+        "91",
+        "143"
+      ],
+      "answer": 0,
+      "explanation": "abcabc = 1001 × abc and 1001 = 7 × 11 × 13, so 77, 91 and 143 always divide it. 37 does not divide 1001 (e.g. 100100 is not a multiple of 37).",
+      "source": "exercise:Q4"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Cyclic & Repeated Digits",
+      "question": "(345 + 453 + 534) ÷ 37 = ?",
+      "options": [
+        "12",
+        "36",
+        "111",
+        "48"
+      ],
+      "answer": 1,
+      "explanation": "The sum is 111 × 12 = 1332, and 1332 ÷ 37 = 36 = 3 × 12 (three times the digit sum).",
+      "source": "exercise:Q3"
+    },
+    {
+      "id": "q113",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Cyclic & Repeated Digits",
+      "question": "Since 1001 = 7 × 11 × 13, dividing abcabc by 1001 gives the 2-digit number ab.",
+      "answer": false,
+      "explanation": "False. abcabc ÷ 1001 = abc, the whole 3-digit number, e.g. 123123 ÷ 1001 = 123.",
+      "source": "exercise:Q4"
+    },
+    {
+      "id": "q114",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Cyclic & Repeated Digits",
+      "question": "Which statements are always true for a number of the form abcabc?",
+      "options": [
+        "It is divisible by 13",
+        "It is divisible by 1001",
+        "It is divisible by 37",
+        "It is divisible by 9"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "abcabc = abc × 1001 = abc × 7 × 11 × 13. Divisibility by 37 or 9 depends on abc itself.",
+      "source": "exercise:Q4"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Farm, Family & Cows Problems",
+      "question": "Shrines puzzle: a person starts with x flowers, dips (doubling) and places y flowers at each of three shrines, with nothing left. Which equation describes this?",
+      "options": [
+        "8x − 3y = y",
+        "6x − 8y = y",
+        "8x − 6y = y",
+        "8x − 6y = 0"
+      ],
+      "answer": 2,
+      "explanation": "After pond 1: 2x, place y → 2x − y. Pond 2: 4x − 2y, place y → 4x − 3y. Pond 3: 8x − 6y, and all of this (= y) goes to shrine 3.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Farm, Family & Cows Problems",
+      "question": "In the shrines puzzle, the smallest number of flowers the person could have started with is",
+      "options": [
+        "8",
+        "14",
+        "6",
+        "7"
+      ],
+      "answer": 3,
+      "explanation": "8x = 7y, so the smallest whole solution is x = 7, y = 8: 7 → 14 − 8 = 6 → 12 − 8 = 4 → 8, placed at shrine 3.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Farm, Family & Cows Problems",
+      "question": "In the smallest case of the shrines puzzle, how many flowers were placed in each shrine?",
+      "options": [
+        "8",
+        "7",
+        "4",
+        "16"
+      ],
+      "answer": 0,
+      "explanation": "With x = 7 the person places y = 8 at each shrine (8x = 7y gives y = 8).",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Farm, Family & Cows Problems",
+      "question": "A farm has horses and hens: 55 heads and 150 legs. How many horses are there?",
+      "options": [
+        "35",
+        "20",
+        "15",
+        "25"
+      ],
+      "answer": 1,
+      "explanation": "h + n = 55 and 4h + 2n = 150. Doubling the first: 2h + 2n = 110; subtracting gives 2h = 40, h = 20 (and 35 hens).",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Farm, Family & Cows Problems",
+      "question": "Without letter-numbers: if all 55 animals were hens there would be 110 legs. The extra 40 legs mean",
+      "options": [
+        "40 horses, one for each extra leg",
+        "10 horses, as each horse has 4 legs",
+        "20 horses, as each horse adds 2 extra legs",
+        "20 hens, as each hen has 2 legs"
+      ],
+      "answer": 2,
+      "explanation": "Swapping a hen for a horse adds 4 − 2 = 2 legs, so 40 extra legs come from 40 ÷ 2 = 20 horses.",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q120",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Farm, Family & Cows Problems",
+      "question": "The farm with 55 heads and 150 legs has 35 horses and 20 hens.",
+      "answer": false,
+      "explanation": "False — it is the other way round: 20 horses and 35 hens (80 + 70 = 150 legs).",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Farm, Family & Cows Problems",
+      "question": "A mother is 5 times her daughter's age; in 6 years she will be 3 times her daughter's age. The daughter is now",
+      "options": [
+        "5",
+        "12",
+        "3",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "5d + 6 = 3(d + 6) → 5d + 6 = 3d + 18 → 2d = 12 → d = 6. Check: 30 and 6 now; 36 and 12 in six years.",
+      "source": "exercise:Q7"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Farm, Family & Cows Problems",
+      "question": "Which equation models the mother–daughter problem (daughter now d years old)?",
+      "options": [
+        "5d + 6 = 3(d + 6)",
+        "5d = 3(d + 6)",
+        "5(d + 6) = 3d + 6",
+        "5d + 6 = 3d + 6"
+      ],
+      "answer": 0,
+      "explanation": "Mother now 5d; in 6 years both are 6 years older: 5d + 6 and d + 6, with 5d + 6 = 3(d + 6).",
+      "source": "exercise:Q7"
+    },
+    {
+      "id": "q123",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Farm, Family & Cows Problems",
+      "question": "The mother is 30 now and will be 36 when her daughter is 12.",
+      "answer": true,
+      "explanation": "Daughter 6, mother 5 × 6 = 30. In 6 years: 36 and 12, and 36 = 3 × 12.",
+      "source": "exercise:Q7"
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Farm, Family & Cows Problems",
+      "question": "Naina has twice as many cows as Gauri; if Naina gave Gauri 3 cows they would have equal numbers. Their cows are",
+      "options": [
+        "Gauri 3, Naina 6",
+        "Gauri 6, Naina 12",
+        "Gauri 9, Naina 18",
+        "Gauri 4, Naina 8"
+      ],
+      "answer": 1,
+      "explanation": "2g − 3 = g + 3 → g = 6, so Naina has 12. Check: 12 − 3 = 9 = 6 + 3.",
+      "source": "exercise:Q8"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Farm, Family & Cows Problems",
+      "question": "If Gauri has g cows, which equation describes 'if Naina gave Gauri three cows they would be equal'?",
+      "options": [
+        "2g − 3 = g",
+        "2g = g + 3",
+        "2g − 3 = g + 3",
+        "2g + 3 = g − 3"
+      ],
+      "answer": 2,
+      "explanation": "Naina loses 3 (2g − 3) and Gauri gains 3 (g + 3). Forgetting that Gauri gains gives 2g − 3 = g and the wrong answer 3.",
+      "source": "exercise:Q8"
+    },
+    {
+      "id": "q126",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Farm, Family & Cows Problems",
+      "question": "A different farm has 30 heads and 80 legs (horses and hens). Select the TRUE statements.",
+      "options": [
+        "There are 10 horses",
+        "There are 20 hens",
+        "If all were hens there would be 80 legs",
+        "There are 15 horses"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "All hens would give 60 legs; the extra 20 legs mean 10 horses, so 20 hens. Check: 40 + 40 = 80.",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Dosa Cart, Odd Fractions & Genie",
+      "question": "Dosa cart: rent ₹5000 a day, ₹10 per dosa. To make ₹2000 profit selling 100 dosas, the price per dosa should be",
+      "options": [
+        "₹70",
+        "₹60",
+        "₹90",
+        "₹80"
+      ],
+      "answer": 3,
+      "explanation": "Costs: 5000 + 10 × 100 = 6000. Profit 2000 needs 8000 in sales, so 8000 ÷ 100 = ₹80. Ignoring the ₹10 per dosa gives ₹70.",
+      "source": "exercise:Q9"
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Dosa Cart, Odd Fractions & Genie",
+      "question": "If customers pay only ₹50 a dosa, how many dosas must be sold daily for a ₹2000 profit?",
+      "options": [
+        "175",
+        "140",
+        "125",
+        "160"
+      ],
+      "answer": 0,
+      "explanation": "50n − 5000 − 10n = 2000 → 40n = 7000 → n = 175. 125 is only the break-even point; 140 ignores the ₹10 cost.",
+      "source": "exercise:Q9"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Dosa Cart, Odd Fractions & Genie",
+      "question": "At ₹50 a dosa, selling 100 dosas in a day gives",
+      "options": [
+        "a profit of ₹1000",
+        "a loss of ₹1000",
+        "neither profit nor loss",
+        "a loss of ₹2000"
+      ],
+      "answer": 1,
+      "explanation": "Sales 5000; costs 5000 + 1000 = 6000; result −1000, a loss.",
+      "source": "exercise:Q9"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Dosa Cart, Odd Fractions & Genie",
+      "question": "Evaluate (1 + 3 + 5) ÷ (7 + 9 + 11).",
+      "options": [
+        "1/2",
+        "1/4",
+        "1/3",
+        "3/7"
+      ],
+      "answer": 2,
+      "explanation": "9 ÷ 27 = 1/3, the same as 1/3 and (1 + 3)/(5 + 7) = 4/12.",
+      "source": "exercise:Q10"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Dosa Cart, Odd Fractions & Genie",
+      "question": "Why does every fraction in the sequence 1/3, (1 + 3)/(5 + 7), (1 + 3 + 5)/(7 + 9 + 11), … equal 1/3?",
+      "options": [
+        "The top is n and the bottom is always exactly 3n",
+        "The top adds to 2n and the bottom adds to 6n",
+        "Each bottom term is three times the matching top term",
+        "The top is n² and the bottom is (2n)² − n² = 3n²"
+      ],
+      "answer": 3,
+      "explanation": "The first n odd numbers add to n²; the next n odd numbers add to (2n)² − n² = 3n². The ratio n²/3n² is 1/3.",
+      "source": "exercise:Q10"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Dosa Cart, Odd Fractions & Genie",
+      "question": "The next fraction in the sequence is (1 + 3 + 5 + 7) ÷ (9 + 11 + 13 + 15). Its numerator and denominator are",
+      "options": [
+        "16 and 48",
+        "16 and 44",
+        "10 and 22",
+        "16 and 52"
+      ],
+      "answer": 0,
+      "explanation": "1 + 3 + 5 + 7 = 16 = 4² and 9 + 11 + 13 + 15 = 48 = 3 × 16, so the fraction is again 1/3.",
+      "source": "exercise:Q10"
+    },
+    {
+      "id": "q133",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Dosa Cart, Odd Fractions & Genie",
+      "question": "The fractions 1/3, 4/12, 9/27, … slowly increase towards 1/2.",
+      "answer": false,
+      "explanation": "False. Each equals n²/(3n²) = 1/3 exactly; the sequence is constant.",
+      "source": "exercise:Q10"
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Dosa Cart, Odd Fractions & Genie",
+      "question": "Karim's coins double each round and he pays the genie 8 coins; after three rounds he has exactly 8 left. How many coins did he start with?",
+      "options": [
+        "8",
+        "7",
+        "14",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "8c − 48 = 8 → c = 7. Check: 7 → 14 − 8 = 6 → 12 − 8 = 4 → 8, which all goes to the genie.",
+      "source": "exercise:Q11"
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Dosa Cart, Odd Fractions & Genie",
+      "question": "If Karim starts with c coins and pays 8 per round, his coins after two full rounds are",
+      "options": [
+        "4c − 16",
+        "4c − 8",
+        "4c − 24",
+        "2c − 16"
+      ],
+      "answer": 2,
+      "explanation": "Round 1: 2c − 8. Round 2: 2(2c − 8) − 8 = 4c − 24.",
+      "source": "exercise:Q11"
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Dosa Cart, Odd Fractions & Genie",
+      "question": "For Karim (7 coins) to end each round with MORE coins than he started, the cost per round must be",
+      "options": [
+        "less than 8 coins",
+        "less than 14 coins",
+        "exactly 7 coins",
+        "less than 7 coins"
+      ],
+      "answer": 3,
+      "explanation": "After a round he has 2c − k; this exceeds c only when k < c = 7. With k = 7 his coins never change, and k = 8 drains them.",
+      "source": "exercise:Q11"
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Dosa Cart, Odd Fractions & Genie",
+      "question": "Suppose Karim had 14 coins. For the genie to take everything in three rounds, the cost per round should be",
+      "options": [
+        "16",
+        "14",
+        "15",
+        "28"
+      ],
+      "answer": 0,
+      "explanation": "8c − 6k = k → k = 8c/7 = 16. Check: 14 → 28 − 16 = 12 → 24 − 16 = 8 → 16, all paid to the genie.",
+      "source": "exercise:Q11"
+    },
+    {
+      "id": "q138",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Dosa Cart, Odd Fractions & Genie",
+      "question": "If the cost per round equals the number of coins Karim starts with, his coins never change.",
+      "answer": true,
+      "explanation": "2c − c = c after every round, so he neither gains nor loses.",
+      "source": "exercise:Q11"
+    },
+    {
+      "id": "q139",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Dosa Cart, Odd Fractions & Genie",
+      "question": "Select the TRUE statements about Karim's game (doubling, then paying 8 coins each round).",
+      "options": [
+        "After the first round he has 6 coins",
+        "After the second round he has 4 coins",
+        "After the third doubling he has 16 coins",
+        "He started with 8 coins"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Starting with 7: 14 − 8 = 6, then 12 − 8 = 4, then doubling gives 8 (not 16), which is exactly the fee.",
+      "source": "exercise:Q11"
+    }
+  ]
+}

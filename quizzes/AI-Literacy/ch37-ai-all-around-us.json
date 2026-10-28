@@ -1,0 +1,2468 @@
+{
+  "schemaVersion": 1,
+  "id": "ai-literacy-ch37-ai-all-around-us",
+  "title": "AI All Around Us",
+  "subject": "AI-Literacy",
+  "grade": 4,
+  "sourceDir": "output/AI-Literacy/37_AI-All-Around-Us",
+  "chapter": "37. AI All Around Us",
+  "topic": "Full Chapter",
+  "description": "How AI learns from examples: the four-step plant-disease timeline, why correction matters, what data different AI tools need, Arjun's adaptive LearnSpark app, the real Plantix crop-disease app, and how people's choices shape what AI learns.",
+  "tags": [
+    "ai-literacy",
+    "grade4",
+    "machine-learning",
+    "training-data",
+    "examples",
+    "adaptive-learning",
+    "plantix",
+    "ai-in-everyday-life"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How AI Learns: The Four Steps",
+      "question": "When an AI learns to recognise plant diseases from photos, which step happens FIRST?",
+      "options": [
+        "Scientists feed it thousands of labelled plant photos",
+        "It studies the patterns of healthy and diseased leaves",
+        "It gets corrected after making some early mistakes",
+        "It names the disease in a brand-new plant photo"
+      ],
+      "answer": 0,
+      "explanation": "Learning starts with examples. Scientists first feed the AI thousands of labelled photos of healthy and diseased plants (Step B); only then can it study patterns, be corrected, and finally judge new photos.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How AI Learns: The Four Steps",
+      "question": "Which step is the LAST one in the plant-disease AI timeline?",
+      "options": [
+        "The AI compares diseased leaves with healthy ones",
+        "The AI correctly identifies a disease in a new photo",
+        "The AI is corrected and slowly gets more accurate",
+        "The AI is given many labelled photos to study"
+      ],
+      "answer": 1,
+      "explanation": "Step A comes last: after training, the AI sees a new, unknown plant photo and correctly identifies that it has a fungal disease. That is the AI finally doing its job.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How AI Learns: The Four Steps",
+      "question": "In Step B, what exactly do the scientists give the AI?",
+      "options": [
+        "A few hundred photos of farmers working in their green fields",
+        "One perfect close-up photo of a single very sick plant leaf",
+        "Thousands of labelled photos of healthy and diseased plants",
+        "A printed list of every plant disease together with its cure"
+      ],
+      "answer": 2,
+      "explanation": "Step B says scientists feed the AI thousands of photos of healthy plants and diseased plants, all labelled. Lots of labelled examples are what the AI learns from.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How AI Learns: The Four Steps",
+      "question": "The worksheet says the training photos were 'all labelled'. What does labelled mean here?",
+      "options": [
+        "Each photo has the farmer's name written on it",
+        "Each photo is numbered from one to a thousand",
+        "Each photo is printed in bright colours",
+        "Each photo is marked as healthy or diseased"
+      ],
+      "answer": 3,
+      "explanation": "A label tells the AI the correct answer for that example — this plant is healthy, that one is diseased. Without labels the AI would not know what each photo shows.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How AI Learns: The Four Steps",
+      "question": "What does the AI do in Step C of the timeline?",
+      "options": [
+        "It studies what a diseased leaf looks like compared to a healthy one",
+        "It waters the diseased plants so that they recover quickly",
+        "It sends the photos back to the scientists for checking",
+        "It deletes photos that are blurry or taken in the dark"
+      ],
+      "answer": 0,
+      "explanation": "Step C is pattern study: the AI looks for the differences between a diseased leaf and a healthy leaf, such as spots, colour or shape, so it can spot those patterns later.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How AI Learns: The Four Steps",
+      "question": "Which sentence describes Step D?",
+      "options": [
+        "The AI asks the farmer to say which disease the plant has got",
+        "The AI makes mistakes at first, gets corrected, and slowly improves",
+        "The AI is switched off until a new set of labelled photos arrives",
+        "The AI prints a long report about every plant photo it has seen"
+      ],
+      "answer": 1,
+      "explanation": "Step D is the practice-and-correction stage: early mistakes are corrected and the AI's accuracy gradually improves.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How AI Learns: The Four Steps",
+      "question": "Which is the correct order of the four steps?",
+      "options": [
+        "B → D → C → A",
+        "C → B → D → A",
+        "B → C → D → A",
+        "A → B → C → D"
+      ],
+      "answer": 2,
+      "explanation": "First the AI is fed labelled photos (B), then it studies patterns (C), then it makes mistakes and gets corrected (D), and finally it identifies a disease in a new photo (A).",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How AI Learns: The Four Steps",
+      "question": "Which step shows that the AI is finally doing its real job?",
+      "options": [
+        "Step B, when it receives the labelled photos",
+        "Step C, when it studies leaf patterns",
+        "Step D, when it is corrected after mistakes",
+        "Step A, when it identifies a new photo correctly"
+      ],
+      "answer": 3,
+      "explanation": "Steps B, C and D are all training. Only in Step A does the AI face a new, unknown photo and give a correct diagnosis — the task it was built for.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How AI Learns: The Four Steps",
+      "question": "Why must Step C (studying patterns) come AFTER Step B (getting labelled photos)?",
+      "options": [
+        "The AI cannot find patterns before it has examples to study",
+        "The scientists need time to print the photos first",
+        "Patterns can only be studied after the AI is corrected",
+        "The AI must first identify a new photo correctly"
+      ],
+      "answer": 0,
+      "explanation": "Patterns are found inside examples. Until the AI has been given labelled photos, there is nothing for it to compare, so pattern study has to wait for the data.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "How AI Learns: The Four Steps",
+      "question": "In Step A, which kind of disease does the AI correctly spot in the new photo?",
+      "options": [
+        "Insect damage",
+        "A fungal disease",
+        "A viral disease",
+        "A bacterial disease"
+      ],
+      "answer": 1,
+      "explanation": "The worksheet says the AI sees a new, unknown plant photo and correctly identifies that it has a fungal disease. The other disease types are not mentioned.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How AI Learns: The Four Steps",
+      "question": "What is the AI looking for when it compares diseased and healthy leaves?",
+      "options": [
+        "Owners",
+        "Seasons",
+        "Patterns",
+        "Prices"
+      ],
+      "answer": 2,
+      "explanation": "Step C says the AI studies the patterns — the visible differences that separate a diseased leaf from a healthy one.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How AI Learns: The Four Steps",
+      "question": "If Step B were skipped completely, what would the AI be missing?",
+      "options": [
+        "A screen to display its answers",
+        "A farmer to use the finished app",
+        "The internet connection it runs on",
+        "The examples it needs to learn from"
+      ],
+      "answer": 3,
+      "explanation": "Every AI learns from examples. Skipping Step B means no labelled photos, so there would be nothing to study, nothing to be corrected on, and no way to recognise disease later.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "How AI Learns: The Four Steps",
+      "question": "Which of these is NOT one of the four steps in the worksheet timeline?",
+      "options": [
+        "The AI plants healthy new seeds in the field",
+        "The AI studies patterns in healthy and sick leaves",
+        "The AI gets corrected when it makes mistakes",
+        "The AI identifies a disease in an unknown photo"
+      ],
+      "answer": 0,
+      "explanation": "The four steps are: feed labelled photos, study patterns, get corrected, identify a new photo. Planting seeds is farm work, not part of how the AI learns.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How AI Learns: The Four Steps",
+      "question": "Why does the AI need THOUSANDS of photos rather than just a few?",
+      "options": [
+        "Each disease appears in exactly one thousand photos",
+        "More examples help it spot the patterns more reliably",
+        "The scientists are paid for every photo they upload",
+        "The app must fill its memory before it can start"
+      ],
+      "answer": 1,
+      "explanation": "The worksheet says the more examples an AI studies, the better it becomes. Thousands of photos give it enough variety to learn what disease really looks like.",
+      "source": "worksheet:Q1, worksheet:Q2"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How AI Learns: The Four Steps",
+      "question": "What has changed about the AI by the end of Step D?",
+      "options": [
+        "It has memorised every farmer's name",
+        "It has become a human plant expert",
+        "Its accuracy has gradually improved",
+        "It has stopped needing any photos"
+      ],
+      "answer": 2,
+      "explanation": "Step D says the AI gets corrected and gradually its accuracy improves. It is still an AI that learned from photos — just a much more accurate one.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "How AI Learns: The Four Steps",
+      "question": "A friend says Step D should come before Step C. Why is that wrong?",
+      "options": [
+        "Correction is not really part of how an AI learns anything at all",
+        "Step D can only happen after the farmers start using the finished app",
+        "The letters D and C must always stay in alphabetical order in a list",
+        "The AI must study patterns before it can be tested and corrected"
+      ],
+      "answer": 3,
+      "explanation": "Mistakes and corrections (D) happen when the AI tries to use the patterns it studied in Step C. It cannot be corrected on something it has not yet learned.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q17",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "How AI Learns: The Four Steps",
+      "question": "In the plant-disease timeline, the AI studies patterns to tell a diseased leaf from a healthy one.",
+      "answer": true,
+      "explanation": "True. Step C is exactly this: the AI studies what a diseased leaf looks like compared to a healthy one.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q18",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "How AI Learns: The Four Steps",
+      "question": "The scientists trained the plant-disease AI with only about ten photos.",
+      "answer": false,
+      "explanation": "False. Step B says the scientists fed the AI thousands of labelled photos of healthy and diseased plants.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q19",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "How AI Learns: The Four Steps",
+      "question": "In the final step, the AI identifies a disease in a photo it has already seen during training.",
+      "answer": false,
+      "explanation": "False. Step A says the AI sees a NEW, unknown plant photo. Recognising disease in something it has never seen is what proves it has learned.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q20",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "How AI Learns: The Four Steps",
+      "question": "The plant-disease AI is perfect from the very start and never needs correcting.",
+      "answer": false,
+      "explanation": "False. Step D says the AI makes mistakes at first and gets corrected; only then does its accuracy gradually improve.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q21",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "How AI Learns: The Four Steps",
+      "question": "Which TWO of these happen during the AI's training, BEFORE it is ready to work?",
+      "options": [
+        "Scientists feed it labelled plant photos",
+        "It studies patterns in the photos",
+        "It diagnoses a brand-new unknown photo",
+        "A farmer harvests a healthy crop"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Being fed labelled photos and studying patterns are training stages. Diagnosing a new photo is the AI finally working, and harvesting is the farmer's job, not the AI's learning.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Correction Matters",
+      "question": "Why is Step D (making mistakes and being corrected) important?",
+      "options": [
+        "Corrected mistakes are how the AI gets more accurate",
+        "It gives the scientists a break from uploading photos",
+        "It makes the AI run much faster on an older phone",
+        "It lets the AI decide which farmers may use the app"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet says the AI makes mistakes at first, gets corrected, and gradually its accuracy improves. Without that feedback it has no way to know what it got wrong.",
+      "source": "worksheet:Q1a"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Correction Matters",
+      "question": "What would most likely happen if the AI was NEVER corrected when it made a mistake?",
+      "options": [
+        "It would become faster but much smaller",
+        "It would keep repeating the same mistakes",
+        "It would learn the right answer on its own",
+        "It would refuse to look at any more photos"
+      ],
+      "answer": 1,
+      "explanation": "An AI only knows it was wrong when someone corrects it. Without correction it would keep making the same wrong diagnoses and its accuracy would not improve.",
+      "source": "worksheet:Q1a"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Correction Matters",
+      "question": "Who corrects the AI when it makes mistakes during training?",
+      "options": [
+        "The AI corrects itself alone",
+        "The weather in Karnataka",
+        "People who check its answers",
+        "The plants being photographed"
+      ],
+      "answer": 2,
+      "explanation": "People (such as the scientists) check what the AI said against the true label and correct it. The chapter's opening question reminds us that people's choices shape what AI learns.",
+      "source": "worksheet:Q1a (synthesis)"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why Correction Matters",
+      "question": "Step D is most like which everyday learning situation?",
+      "options": [
+        "A student copies all the answers from the back of the textbook",
+        "A student never gets any marked homework returned by the teacher",
+        "A student skips every practice session and goes straight to the exam",
+        "A teacher marks a wrong answer and the student learns from it"
+      ],
+      "answer": 3,
+      "explanation": "Being corrected after a mistake and improving gradually is just like a teacher marking work so the learner can fix it next time.",
+      "source": "worksheet:Q1a (synthesis)"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Correction Matters",
+      "question": "In the worksheet, which state's farmers use the plant-disease AI?",
+      "options": [
+        "Karnataka",
+        "Kerala",
+        "Punjab",
+        "Gujarat"
+      ],
+      "answer": 0,
+      "explanation": "Question 1b says the plant-disease AI is used by farmers in Karnataka.",
+      "source": "worksheet:Q1b"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Correction Matters",
+      "question": "Why would a farmer find the AI more useful than asking an expert every time?",
+      "options": [
+        "The AI makes the diseased plant healthy by itself",
+        "The AI answers instantly, any time, right from a phone",
+        "The AI can also plough the field for the farmer",
+        "The AI knows more than every expert in the world"
+      ],
+      "answer": 1,
+      "explanation": "An expert may be far away or busy, but a phone app can check a photo immediately whenever the farmer needs it — the Plantix box says it diagnoses in seconds.",
+      "source": "worksheet:Q1b"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why Correction Matters",
+      "question": "An expert lives far from the farmer's village. How does the AI help with that problem?",
+      "options": [
+        "It calls the expert and books a visit for next month",
+        "It sends the sick plant to the expert by post",
+        "It gives advice on the spot without any travelling",
+        "It drives the farmer to the expert's office"
+      ],
+      "answer": 2,
+      "explanation": "The farmer photographs the plant and gets a diagnosis right there, saving the time and cost of reaching a distant expert.",
+      "source": "worksheet:Q1b"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Why Correction Matters",
+      "question": "Does the plant-disease AI mean experts are no longer needed at all?",
+      "options": [
+        "Yes — once trained, the AI knows more than any expert",
+        "Yes — experts are only needed for animals, not plants",
+        "No — the AI only works when an expert is standing beside it",
+        "No — experts labelled its training photos and can check hard cases"
+      ],
+      "answer": 3,
+      "explanation": "The AI learned from photos that experts labelled, and it still makes some mistakes. It saves the farmer from asking an expert every time, but humans remain important.",
+      "source": "worksheet:Q1b (synthesis)"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Correction Matters",
+      "question": "The word 'gradually' in Step D means the AI's accuracy improves…",
+      "options": [
+        "Little by little over time",
+        "All at once in one second",
+        "Only on the very first day",
+        "Only when it rains"
+      ],
+      "answer": 0,
+      "explanation": "Gradually means slowly, step by step. Each correction makes the AI a little better until it becomes reliable.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Why Correction Matters",
+      "question": "Which is NOT a reason a Karnataka farmer would prefer the app over asking an expert each time?",
+      "options": [
+        "The farmer can check a plant at any time of day",
+        "The app already knew every disease without any training",
+        "The app gives a quick answer on the farmer's own phone",
+        "The farmer does not have to wait for an expert visit"
+      ],
+      "answer": 1,
+      "explanation": "The app had to be trained on thousands of labelled photos first — it did not know anything by itself. The other three are genuine advantages for the farmer.",
+      "source": "worksheet:Q1b"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why Correction Matters",
+      "question": "What happens to the AI's accuracy as training with correction continues?",
+      "options": [
+        "It stays zero",
+        "It becomes random",
+        "It improves",
+        "It drops"
+      ],
+      "answer": 2,
+      "explanation": "Step D says the AI's accuracy gradually improves as its mistakes are corrected.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Correction Matters",
+      "question": "Who is the main person helped by the plant-disease AI in the worksheet?",
+      "options": [
+        "The scientist",
+        "The teacher",
+        "The shopkeeper",
+        "The farmer"
+      ],
+      "answer": 3,
+      "explanation": "The worksheet says the AI is used by farmers in Karnataka, who get help diagnosing plant diseases.",
+      "source": "worksheet:Q1b"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why Correction Matters",
+      "question": "A new plant AI gives a wrong answer and nobody tells it. What should we expect next time it sees a similar leaf?",
+      "options": [
+        "It will very likely make the same mistake again",
+        "It will have fixed the mistake by itself",
+        "It will refuse to answer about leaves",
+        "It will ask the farmer for the right answer"
+      ],
+      "answer": 0,
+      "explanation": "Without correction the AI has no feedback, so the wrong pattern stays. This is exactly why Step D matters.",
+      "source": "worksheet:Q1a"
+    },
+    {
+      "id": "q35",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Why Correction Matters",
+      "question": "An AI that is never corrected will still improve its accuracy on its own.",
+      "answer": false,
+      "explanation": "False. The worksheet shows accuracy improves because mistakes get corrected. No correction means no improvement.",
+      "source": "worksheet:Q1a"
+    },
+    {
+      "id": "q36",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Why Correction Matters",
+      "question": "Being corrected after a mistake helps the AI's accuracy improve gradually.",
+      "answer": true,
+      "explanation": "True. This is exactly what Step D describes: mistakes, corrections, and gradually better accuracy.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q37",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Why Correction Matters",
+      "question": "The plant-disease AI in the worksheet is used only by farmers living in big cities.",
+      "answer": false,
+      "explanation": "False. It is used by farmers in Karnataka, and its value is precisely that farmers do not need to reach an expert every time.",
+      "source": "worksheet:Q1b"
+    },
+    {
+      "id": "q38",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Why Correction Matters",
+      "question": "Asking an expert every single time would be slower for the farmer than checking with the AI.",
+      "answer": true,
+      "explanation": "True. Experts may be far away or busy, while the app gives an instant answer from the phone — that is why the farmer finds it more useful.",
+      "source": "worksheet:Q1b"
+    },
+    {
+      "id": "q39",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Why Correction Matters",
+      "question": "Which TWO are good reasons the farmer finds the AI more useful than an expert each time?",
+      "options": [
+        "It gives a quick answer on the spot",
+        "No travelling to find an expert is needed",
+        "It waters the crops automatically",
+        "It sells the harvest at the market"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Speed and convenience are the real advantages. Watering crops and selling harvests are not things the plant-disease AI does.",
+      "source": "worksheet:Q1b"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI Tools and the Data They Learn From",
+      "question": "According to the worksheet, what does EVERY AI learn from?",
+      "options": [
+        "The weather",
+        "Examples (data)",
+        "Rules in a book",
+        "Its own dreams"
+      ],
+      "answer": 1,
+      "explanation": "The worksheet states: 'Every AI learns from examples (data). The more examples it studies, the better it becomes.'",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI Tools and the Data They Learn From",
+      "question": "What happens when an AI studies MORE examples?",
+      "options": [
+        "It forgets the earlier examples",
+        "It stops needing electricity",
+        "It becomes better at its job",
+        "It becomes slower and confused"
+      ],
+      "answer": 2,
+      "explanation": "The worksheet says the more examples an AI studies, the better it becomes.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI Tools and the Data They Learn From",
+      "question": "What kind of data would a Smart Plant Finder App most likely learn from?",
+      "options": [
+        "Recordings of children reading stories",
+        "Movie dialogues in two different languages",
+        "Lists of maths questions and answers",
+        "Photos of plants labelled with their names"
+      ],
+      "answer": 3,
+      "explanation": "The Smart Plant Finder identifies plants from photos, so it needs many plant photos each labelled with the plant's name.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI Tools and the Data They Learn From",
+      "question": "What kind of data would a Movie Language Converter AI most likely learn from?",
+      "options": [
+        "Sentences and dialogues in two languages",
+        "Photos of leaves, flowers and tree bark",
+        "Children's maths test scores and grades",
+        "Maps of all the cinema halls in a city"
+      ],
+      "answer": 0,
+      "explanation": "To convert a movie's language, the AI must learn from many pairs of sentences — the same words in both languages.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI Tools and the Data They Learn From",
+      "question": "What kind of data would a Reading Skill Checker for Learners most likely learn from?",
+      "options": [
+        "Pictures of healthy plants and sick plants",
+        "Recordings of many learners reading aloud",
+        "Photos of school libraries and bookshelves",
+        "Movie posters printed in different languages"
+      ],
+      "answer": 1,
+      "explanation": "A reading checker needs examples of reading — recordings of learners reading smoothly or with mistakes — to learn what good and weak reading sound like.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI Tools and the Data They Learn From",
+      "question": "How do labelled plant photos help the Smart Plant Finder do its job?",
+      "options": [
+        "It uses the photos as wallpaper for the app screen",
+        "It counts the photos to decide how popular a plant is",
+        "It matches a new photo to patterns it learned from known plants",
+        "It prints the photos and sends them to a botanist"
+      ],
+      "answer": 2,
+      "explanation": "Just like the plant-disease AI, the finder studies patterns in labelled photos, then compares a new photo to those patterns to name the plant.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI Tools and the Data They Learn From",
+      "question": "How does language data help the Movie Language Converter?",
+      "options": [
+        "It learns which actors are most popular in each country",
+        "It learns how long each movie should be from start to end",
+        "It learns which cinema hall has the most comfortable seats",
+        "It learns which words mean the same in both languages"
+      ],
+      "answer": 3,
+      "explanation": "By studying many matching sentences, the AI learns how an idea is expressed in each language, so it can convert new dialogue.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI Tools and the Data They Learn From",
+      "question": "How do reading recordings help the Reading Skill Checker?",
+      "options": [
+        "It learns to tell smooth reading from reading with mistakes",
+        "It learns the names and ages of all the learners in the class",
+        "It learns which storybooks cost the least money to buy",
+        "It learns how to draw all the pictures printed in the storybook"
+      ],
+      "answer": 0,
+      "explanation": "From many examples of reading, the AI learns patterns of fluent reading and common errors, so it can judge how well a new learner reads and suggest help.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "AI Tools and the Data They Learn From",
+      "question": "Which of these tools would get the LEAST help from a big collection of photos?",
+      "options": [
+        "A flower-naming camera app",
+        "Movie Language Converter AI",
+        "Smart Plant Finder App",
+        "Plant-disease AI for farmers"
+      ],
+      "answer": 1,
+      "explanation": "A language converter works with words, not pictures. The other three all identify things from photos, so photo data is exactly what they need.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "AI Tools and the Data They Learn From",
+      "question": "Which data would be LEAST useful for training a Reading Skill Checker?",
+      "options": [
+        "Recordings of reading mistakes",
+        "Lists of words learners stumble on",
+        "Photos of the school building",
+        "Recordings of fluent reading"
+      ],
+      "answer": 2,
+      "explanation": "A reading checker needs examples about reading. Photos of a building tell it nothing about how well someone reads.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI Tools and the Data They Learn From",
+      "question": "What other word does the worksheet use for 'examples' that an AI learns from?",
+      "options": [
+        "Rules",
+        "Codes",
+        "Tests",
+        "Data"
+      ],
+      "answer": 3,
+      "explanation": "The worksheet writes 'examples (data)' — data is the examples an AI studies.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI Tools and the Data They Learn From",
+      "question": "A Movie Language Converter was trained only on English movies. What would it probably struggle to do?",
+      "options": [
+        "Convert dialogue into other languages",
+        "Play the movie at its normal speed",
+        "Show the movie in full colour on screen",
+        "Remember the title of the movie it saw"
+      ],
+      "answer": 0,
+      "explanation": "Without examples of other languages it has no patterns for them. An AI can only learn from the examples it is given.",
+      "source": "worksheet:Q2 (synthesis)"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "AI Tools and the Data They Learn From",
+      "question": "Which TWO AI tools from the chapter both learn mainly from photos?",
+      "options": [
+        "Reading Skill Checker and LearnSpark App",
+        "Smart Plant Finder and the plant-disease AI",
+        "Movie Language Converter and Reading Skill Checker",
+        "LearnSpark App and Movie Language Converter"
+      ],
+      "answer": 1,
+      "explanation": "Both the plant finder and the plant-disease AI identify plants from photos. The others work with words, speech or maths answers.",
+      "source": "worksheet:Q1, worksheet:Q2"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI Tools and the Data They Learn From",
+      "question": "Which AI tool in the worksheet identifies plants from photos?",
+      "options": [
+        "Reading Skill Checker",
+        "LearnSpark App",
+        "Smart Plant Finder App",
+        "Movie Language Converter"
+      ],
+      "answer": 2,
+      "explanation": "The worksheet table describes the Smart Plant Finder App as a tool that identifies plants from photos.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI Tools and the Data They Learn From",
+      "question": "An AI that studied only a FEW examples will most likely be…",
+      "options": [
+        "Exactly as accurate as one that studied many",
+        "More accurate because it is less confused",
+        "Unable to switch on at all",
+        "Less accurate than one that studied many"
+      ],
+      "answer": 3,
+      "explanation": "The worksheet links examples to quality: the more examples an AI studies, the better it becomes. Few examples mean weaker learning.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "AI Tools and the Data They Learn From",
+      "question": "A Reading Skill Checker gives feedback to learners. Which is the best description of what it learned to do?",
+      "options": [
+        "Judge how well someone reads, so it can suggest help",
+        "Read the story aloud in the learner's place",
+        "Choose which storybook the library should buy",
+        "Translate the story into another language"
+      ],
+      "answer": 0,
+      "explanation": "Its job is checking reading skill for learners, which means recognising good and weak reading from the examples it studied.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q56",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "AI Tools and the Data They Learn From",
+      "question": "The Reading Skill Checker would learn best from movie subtitles.",
+      "answer": false,
+      "explanation": "False. It checks how learners read, so it needs examples of learners reading — not movie subtitles, which suit a language converter.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q57",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "AI Tools and the Data They Learn From",
+      "question": "The more examples an AI studies, the better it becomes.",
+      "answer": true,
+      "explanation": "True. This is a direct statement from the worksheet about how every AI learns.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q58",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "AI Tools and the Data They Learn From",
+      "question": "A Smart Plant Finder could be trained using photos labelled with plant names.",
+      "answer": true,
+      "explanation": "True. Labelled photos are exactly the kind of data a photo-based identifier needs, just like the plant-disease AI in Question 1.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q59",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "AI Tools and the Data They Learn From",
+      "question": "Different AI tools can learn from the same kind of data no matter what job they do.",
+      "answer": false,
+      "explanation": "False. The worksheet table shows each tool needs data that matches its job — photos for a plant finder, language pairs for a converter, reading recordings for a reading checker.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q60",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "AI Tools and the Data They Learn From",
+      "question": "Which TWO would help a Smart Plant Finder learn its job?",
+      "options": [
+        "Photos of leaves labelled with plant names",
+        "Photos of flowers labelled with plant names",
+        "Recordings of birds singing at dawn",
+        "A list of popular movie titles"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "A plant finder needs labelled plant photos of all kinds. Bird songs and movie titles have nothing to do with recognising plants.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q61",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "AI Tools and the Data They Learn From",
+      "question": "Which TWO tools from the worksheet work mainly with language (spoken or written words)?",
+      "options": [
+        "Movie Language Converter AI",
+        "Reading Skill Checker for Learners",
+        "Smart Plant Finder App",
+        "Plant-disease AI for farmers"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Converting a movie's language and checking reading are both about words. The two plant tools work with photos.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "LearnSpark: Adjusting to Arjun",
+      "question": "In which city does Arjun live?",
+      "options": [
+        "Kochi",
+        "Pune",
+        "Delhi",
+        "Mysuru"
+      ],
+      "answer": 1,
+      "explanation": "The worksheet introduces Arjun as a Grade 4 learner in Pune.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "LearnSpark: Adjusting to Arjun",
+      "question": "What does Arjun practise on the LearnSpark App?",
+      "options": [
+        "Science",
+        "Drawing",
+        "Maths",
+        "Hindi"
+      ],
+      "answer": 2,
+      "explanation": "Arjun practises maths every evening on LearnSpark; the first questions are easy multiplication.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "LearnSpark: Adjusting to Arjun",
+      "question": "What kind of questions did LearnSpark give Arjun at first?",
+      "options": [
+        "Hard division word problems",
+        "Spelling tests in English",
+        "Science puzzles about plants",
+        "Easy multiplication questions"
+      ],
+      "answer": 3,
+      "explanation": "The app starts with easy multiplication questions and only later makes them harder.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "LearnSpark: Adjusting to Arjun",
+      "question": "What does the app do when Arjun gets answers WRONG?",
+      "options": [
+        "It shows easier questions again",
+        "It gives him even harder ones",
+        "It closes for the rest of the day",
+        "It sends a message to his teacher"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet says when he gets answers wrong, the app shows easier ones again.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "LearnSpark: Adjusting to Arjun",
+      "question": "What does the app do when Arjun answers CORRECTLY?",
+      "options": [
+        "It gives him an easier question instead",
+        "It moves him to more challenging problems",
+        "It repeats the exact same question again",
+        "It switches him over to an English lesson"
+      ],
+      "answer": 1,
+      "explanation": "When he answers correctly, the app moves him to more challenging problems.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "LearnSpark: Adjusting to Arjun",
+      "question": "Worksheet Q3a: what is the AI in LearnSpark doing to Arjun's questions over time?",
+      "options": [
+        "Letting an office teacher choose each one",
+        "Repeating the same questions in a fixed order",
+        "Adjusting difficulty based on how he performs",
+        "Randomly making them harder just for fun"
+      ],
+      "answer": 2,
+      "explanation": "The best answer is that the app adjusts difficulty based on Arjun's performance. Questions get harder after correct answers and easier after wrong ones — that is learning his level.",
+      "source": "worksheet:Q3a"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "LearnSpark: Adjusting to Arjun",
+      "question": "Why is 'a teacher at LearnSpark's office is choosing questions for him' NOT the best answer?",
+      "options": [
+        "Teachers are not allowed to work for learning apps based in Pune",
+        "A teacher would only ever choose easy questions for a Grade 4 child",
+        "His sister would then have to get exactly the same questions as him",
+        "The changes follow each answer instantly, with no person picking"
+      ],
+      "answer": 3,
+      "explanation": "The app reacts to every answer Arjun gives, right away, for him and his sister separately. That is a learning program at work, not a person picking questions one by one.",
+      "source": "worksheet:Q3a"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "LearnSpark: Adjusting to Arjun",
+      "question": "Why is 'randomly making them harder for fun' NOT the best answer?",
+      "options": [
+        "The changes follow his right and wrong answers, so are not random",
+        "The app only ever makes the questions easier for him, never harder",
+        "Maths practice apps are not allowed to include anything that is fun",
+        "The questions never change at all once a learner starts LearnSpark"
+      ],
+      "answer": 0,
+      "explanation": "Harder after correct, easier after wrong — that is a clear pattern linked to Arjun's answers, the opposite of random.",
+      "source": "worksheet:Q3a"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "LearnSpark: Adjusting to Arjun",
+      "question": "Why does Arjun's sister get different questions on the same app?",
+      "options": [
+        "Girls get different maths questions",
+        "The app learns each user's level separately",
+        "The app is broken on her phone",
+        "She chose a different subject"
+      ],
+      "answer": 1,
+      "explanation": "The app adjusts to how each person answers. Since she answers differently from Arjun, the app learns a different level for her.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "LearnSpark: Adjusting to Arjun",
+      "question": "What does Arjun's dad think the app is doing?",
+      "options": [
+        "Asking his teacher what to show next",
+        "Choosing questions based on the time of day",
+        "Learning from how Arjun answers each question",
+        "Copying questions from his school textbook"
+      ],
+      "answer": 2,
+      "explanation": "His dad says, 'Maybe the app learns from how you answer each question.'",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "LearnSpark: Adjusting to Arjun",
+      "question": "What is the AI in LearnSpark really 'learning' about Arjun?",
+      "options": [
+        "His favourite colour and his favourite games",
+        "The name and address of his school in Pune",
+        "How many friends he has in his class",
+        "His level — what he is ready to learn next"
+      ],
+      "answer": 3,
+      "explanation": "Arjun's own question was 'How does the app know what I am ready to learn next?' — the AI is learning his level from his answers.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "LearnSpark: Adjusting to Arjun",
+      "question": "Which grade is Arjun in?",
+      "options": [
+        "Grade 4",
+        "Grade 2",
+        "Grade 6",
+        "Grade 8"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet calls Arjun a Grade 4 learner in Pune.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "LearnSpark: Adjusting to Arjun",
+      "question": "When does Arjun practise maths on the app?",
+      "options": [
+        "Once a month",
+        "Every evening",
+        "Only on Sundays",
+        "During lunch break"
+      ],
+      "answer": 1,
+      "explanation": "The worksheet says Arjun practises maths every evening on LearnSpark App.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "LearnSpark: Adjusting to Arjun",
+      "question": "Suppose Arjun suddenly gets many answers wrong in a row. What would LearnSpark most likely do?",
+      "options": [
+        "Give him his sister's questions",
+        "Stop asking maths questions",
+        "Show him easier questions again",
+        "Jump to the hardest questions"
+      ],
+      "answer": 2,
+      "explanation": "The worksheet rule is clear: wrong answers lead to easier questions, so the app would step back to his comfort level.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "LearnSpark: Adjusting to Arjun",
+      "question": "Which phrase best describes the kind of AI in LearnSpark?",
+      "options": [
+        "It copies questions from a textbook",
+        "It picks questions at random",
+        "It gives everyone the same test",
+        "It adapts the questions to the learner"
+      ],
+      "answer": 3,
+      "explanation": "Adjusting difficulty to each learner's performance is adapting, or personalising, the practice.",
+      "source": "worksheet:Q3a"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "LearnSpark: Adjusting to Arjun",
+      "question": "After a few days on LearnSpark, Arjun's questions became…",
+      "options": [
+        "Harder",
+        "Easier",
+        "Shorter",
+        "Fewer"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet says after a few days the questions become harder because he kept answering correctly.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q78",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "LearnSpark: Adjusting to Arjun",
+      "question": "Arjun's sister gets exactly the same questions as Arjun on LearnSpark.",
+      "answer": false,
+      "explanation": "False. The worksheet says she uses the same app but gets different questions, because the app learns each user's level.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q79",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "LearnSpark: Adjusting to Arjun",
+      "question": "After a few days on the app, Arjun's questions became harder.",
+      "answer": true,
+      "explanation": "True. He answered correctly, so the app moved him to more challenging problems.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q80",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "LearnSpark: Adjusting to Arjun",
+      "question": "Arjun is a Grade 4 learner in Pune who practises maths every evening.",
+      "answer": true,
+      "explanation": "True. The worksheet introduces Arjun exactly this way before describing how LearnSpark adjusts his questions.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q81",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "LearnSpark: Adjusting to Arjun",
+      "question": "LearnSpark makes questions harder after wrong answers to push Arjun to try more.",
+      "answer": false,
+      "explanation": "False. It is the other way round: wrong answers lead to easier questions, and correct answers lead to harder ones.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q82",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "LearnSpark: Adjusting to Arjun",
+      "question": "Which TWO things change the difficulty of Arjun's next question?",
+      "options": [
+        "Arjun answering correctly",
+        "Arjun answering wrongly",
+        "The time of the evening",
+        "His sister's answers"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The app adjusts to Arjun's own right and wrong answers. His sister's answers shape HER questions, not his.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q83",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "What LearnSpark Learns From",
+      "question": "Worksheet Q3b: tick ALL the examples this AI could be learning from.",
+      "options": [
+        "Which questions Arjun got right and wrong",
+        "How long Arjun spent on each question",
+        "Arjun's favourite colour",
+        "How often Arjun uses the app",
+        "The brand of Arjun's school bag"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Right/wrong answers, time spent and how often he practises all say something about Arjun's maths learning. His favourite colour and school bag have nothing to do with it.",
+      "source": "worksheet:Q3b"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What LearnSpark Learns From",
+      "question": "Which of these is NOT useful for LearnSpark to learn Arjun's maths level?",
+      "options": [
+        "How often he uses the app",
+        "Arjun's favourite colour",
+        "Which questions he got right",
+        "How long he took on each one"
+      ],
+      "answer": 1,
+      "explanation": "Favourite colour says nothing about maths skill. The other three tell the app how Arjun is doing.",
+      "source": "worksheet:Q3b"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What LearnSpark Learns From",
+      "question": "Why is Arjun's favourite colour useless for the app's job?",
+      "options": [
+        "Arjun changes his favourite colour daily",
+        "Colours are only useful for art apps",
+        "It has nothing to do with his maths skill",
+        "The app cannot display colours"
+      ],
+      "answer": 2,
+      "explanation": "The app's job is to find his maths level. Only data about how he answers maths questions helps with that.",
+      "source": "worksheet:Q3b"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What LearnSpark Learns From",
+      "question": "How could 'how long Arjun spent on each question' help the AI?",
+      "options": [
+        "It tells the app what time to send reminders",
+        "It lets the app charge his parents per minute",
+        "It shows which colour he likes on the screen",
+        "It shows which questions he found hard or easy"
+      ],
+      "answer": 3,
+      "explanation": "A long pause may mean a question was hard even if he eventually got it right — useful for judging his level.",
+      "source": "worksheet:Q3b"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What LearnSpark Learns From",
+      "question": "In the flow chart, what happens after 'If Arjun gets it right →'?",
+      "options": [
+        "The app gives a harder question",
+        "The app gives an easier question",
+        "The app ends the session",
+        "The app repeats the same question"
+      ],
+      "answer": 0,
+      "explanation": "Correct answers move Arjun to more challenging problems, so the arrow leads to a harder question.",
+      "source": "worksheet:Q3c"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What LearnSpark Learns From",
+      "question": "In the flow chart, what happens after 'If Arjun gets it wrong →'?",
+      "options": [
+        "The app switches to English",
+        "The app gives an easier question",
+        "The app gives a harder question",
+        "The app deletes his score"
+      ],
+      "answer": 1,
+      "explanation": "When he gets answers wrong, the app shows easier ones again.",
+      "source": "worksheet:Q3c"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What LearnSpark Learns From",
+      "question": "The flow chart ends with 'Over time the AI learns…' — learns what?",
+      "options": [
+        "The names of all of Arjun's classmates",
+        "How to solve maths without using any data",
+        "Arjun's level and what he is ready for next",
+        "Arjun's favourite colour and weekend hobbies"
+      ],
+      "answer": 2,
+      "explanation": "The whole loop exists so the app can work out what Arjun is ready to learn next — his level.",
+      "source": "worksheet:Q3c"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What LearnSpark Learns From",
+      "question": "What is the FIRST box in the LearnSpark flow chart?",
+      "options": [
+        "The AI learns his level",
+        "The app gives a harder question",
+        "The app gives an easier question",
+        "Arjun answers a question"
+      ],
+      "answer": 3,
+      "explanation": "The flow starts with 'Arjun answers a question'; everything else depends on whether that answer is right or wrong.",
+      "source": "worksheet:Q3c"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What LearnSpark Learns From",
+      "question": "The LearnSpark flow chart is best described as a…",
+      "options": [
+        "Loop that repeats with every question",
+        "One-time event that happens only once",
+        "List of rules the teacher wrote",
+        "Timetable for Arjun's evenings"
+      ],
+      "answer": 0,
+      "explanation": "Each answer leads to a new question, which leads to another answer — the cycle repeats, and over time the AI learns his level.",
+      "source": "worksheet:Q3c"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What LearnSpark Learns From",
+      "question": "Which order correctly describes the flow chart?",
+      "options": [
+        "Right or wrong → AI learns level → answer → harder or easier",
+        "Answer → right or wrong → harder or easier → AI learns level",
+        "AI learns level → answer → harder or easier → right or wrong",
+        "Harder or easier → AI learns level → answer → right or wrong"
+      ],
+      "answer": 1,
+      "explanation": "Arjun answers first; the right/wrong result decides the next question's difficulty; repeating this over time teaches the AI his level.",
+      "source": "worksheet:Q3c"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What LearnSpark Learns From",
+      "question": "If the app tracks how OFTEN Arjun uses it, what could that tell the AI?",
+      "options": [
+        "What his sister's level is",
+        "Which school he goes to",
+        "How much practice he is getting",
+        "Which colour he likes best"
+      ],
+      "answer": 2,
+      "explanation": "Frequency of use shows how much he practises, which is useful information about his learning — unlike favourite colour.",
+      "source": "worksheet:Q3b"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What LearnSpark Learns From",
+      "question": "Arjun's answers are to LearnSpark what ______ are to the plant-disease AI.",
+      "options": [
+        "Local farmers",
+        "Fungal spores",
+        "Mobile phones",
+        "Labelled photos"
+      ],
+      "answer": 3,
+      "explanation": "Both are the examples (data) each AI learns from: the plant AI studies labelled photos; LearnSpark studies Arjun's answers.",
+      "source": "worksheet:Q1, worksheet:Q3 (synthesis)"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What LearnSpark Learns From",
+      "question": "Why does the AI need MANY of Arjun's answers before it knows his level?",
+      "options": [
+        "One answer could be luck; many answers show a pattern",
+        "The app can only count answers in neat groups of ten",
+        "Arjun's dad asked the app to wait for a few days first",
+        "The app must first check all of his sister's answers"
+      ],
+      "answer": 0,
+      "explanation": "Just as the plant AI needs thousands of photos, LearnSpark needs many answers to see a reliable pattern. The worksheet says the change came 'after a few days'.",
+      "source": "worksheet:Q3 (synthesis)"
+    },
+    {
+      "id": "q96",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "What LearnSpark Learns From",
+      "question": "Arjun's favourite colour is one of the examples LearnSpark learns from.",
+      "answer": false,
+      "explanation": "False. Favourite colour has nothing to do with his maths performance, so it is the distractor in Q3b.",
+      "source": "worksheet:Q3b"
+    },
+    {
+      "id": "q97",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "What LearnSpark Learns From",
+      "question": "Which questions Arjun got right and wrong is an example the app learns from.",
+      "answer": true,
+      "explanation": "True. His right and wrong answers are the main data the app uses to adjust difficulty.",
+      "source": "worksheet:Q3b"
+    },
+    {
+      "id": "q98",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "What LearnSpark Learns From",
+      "question": "It took a few days of answers before LearnSpark started giving Arjun harder questions.",
+      "answer": true,
+      "explanation": "True. The worksheet says 'after a few days, the questions become harder' — the AI learns his level over time from many answers, not from one.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q99",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "What LearnSpark Learns From",
+      "question": "In the flow chart, a wrong answer leads to an easier question.",
+      "answer": true,
+      "explanation": "True. 'If Arjun gets it wrong → easier question' is one branch of the flow chart.",
+      "source": "worksheet:Q3c"
+    },
+    {
+      "id": "q100",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "What LearnSpark Learns From",
+      "question": "Which TWO would the app NOT need in order to learn Arjun's maths level?",
+      "options": [
+        "Arjun's favourite colour",
+        "The name of Arjun's pet",
+        "Which questions he got wrong",
+        "How long he spent on each"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Colour and pet names say nothing about maths. Wrong answers and time spent are useful signals of his level.",
+      "source": "worksheet:Q3b"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "How many photos of sick plants did the Plantix app learn from?",
+      "options": [
+        "5,000,000",
+        "500,000",
+        "5,000",
+        "50,000"
+      ],
+      "answer": 1,
+      "explanation": "The box says Plantix learned from 500,000 photos of sick plants.",
+      "source": "worksheet:Plantix box"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "How quickly does Plantix diagnose a crop disease?",
+      "options": [
+        "In about a week",
+        "In one month",
+        "In seconds",
+        "In a few hours"
+      ],
+      "answer": 2,
+      "explanation": "The heading says it now diagnoses crop disease in seconds.",
+      "source": "worksheet:Plantix box"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "Up to what share of global crops is lost every year to pests and diseases?",
+      "options": [
+        "4%",
+        "14%",
+        "90%",
+        "40%"
+      ],
+      "answer": 3,
+      "explanation": "The box says up to 40% of global crops are lost annually to pests and diseases.",
+      "source": "worksheet:Plantix box"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "How much does the Plantix smartphone app cost farmers?",
+      "options": [
+        "It is free",
+        "One rupee a day",
+        "A monthly fee",
+        "A yearly fee"
+      ],
+      "answer": 0,
+      "explanation": "The box describes Plantix as a free smartphone app.",
+      "source": "worksheet:Plantix box"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "What does a farmer do with Plantix to get help?",
+      "options": [
+        "Call an expert through the app",
+        "Photograph the affected plant",
+        "Type a long description of it",
+        "Post a leaf sample to a lab"
+      ],
+      "answer": 1,
+      "explanation": "Users photograph affected plants and receive an instant diagnosis and treatment advice.",
+      "source": "worksheet:Plantix box"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "What TWO things does Plantix give back to the farmer after a photo?",
+      "options": [
+        "A weather report and a map",
+        "A loan and a tractor rental",
+        "A diagnosis and treatment advice",
+        "A new seed packet and a bill"
+      ],
+      "answer": 2,
+      "explanation": "The box says users receive instant diagnosis and treatment advice.",
+      "source": "worksheet:Plantix box"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "What accuracy does Plantix achieve?",
+      "options": [
+        "Around 40–50%",
+        "Exactly 100%",
+        "Around 10–15%",
+        "Around 85–90%"
+      ],
+      "answer": 3,
+      "explanation": "The box says Plantix achieves around 85–90% accuracy.",
+      "source": "worksheet:Plantix box"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "Farmers in which country are especially affected by crop losses, according to the box?",
+      "options": [
+        "India",
+        "Brazil",
+        "Japan",
+        "Kenya"
+      ],
+      "answer": 0,
+      "explanation": "The text says crop losses greatly affect farmers, especially in India.",
+      "source": "worksheet:Plantix box"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "What does '85–90% accuracy' tell us about Plantix?",
+      "options": [
+        "It only works on 85 to 90 different kinds of plants",
+        "It is right most of the time but still makes mistakes",
+        "It is right exactly 85 times every single day it is used",
+        "It is wrong more often than it is right about diseases"
+      ],
+      "answer": 1,
+      "explanation": "Out of 100 diagnoses, roughly 85 to 90 are correct — very useful, but not perfect, so a farmer should stay alert for the odd mistake.",
+      "source": "worksheet:Plantix box"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "Plantix says a crop is healthy, but the farmer can clearly see it wilting. What is the wise thing to do?",
+      "options": [
+        "Delete the app at once because it is completely useless",
+        "Photograph a different, healthy plant and send that instead",
+        "Treat it as a possible mistake and check with an expert",
+        "Trust the app completely because it is always right"
+      ],
+      "answer": 2,
+      "explanation": "With 85–90% accuracy, some answers will be wrong. People stay in charge: a doubtful result is worth checking with a human expert.",
+      "source": "worksheet:Plantix box (synthesis)"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "Why is Plantix able to be so accurate?",
+      "options": [
+        "It was programmed with a single perfect rule",
+        "It asks a farmer to confirm every answer",
+        "It only diagnoses one type of plant",
+        "It was trained on hundreds of thousands of images"
+      ],
+      "answer": 3,
+      "explanation": "The box says it is powered by AI trained on hundreds of thousands of images — and the more examples an AI studies, the better it becomes.",
+      "source": "worksheet:Plantix box, worksheet:Q2"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "Plantix learned from 500,000 photos of what?",
+      "options": [
+        "Sick plants",
+        "Happy farmers",
+        "Farm tractors",
+        "Rain clouds"
+      ],
+      "answer": 0,
+      "explanation": "The heading says it learned from 500,000 photos of sick plants — the examples it needed to recognise disease.",
+      "source": "worksheet:Plantix box"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "Which organisation is given as the source of the Plantix information?",
+      "options": [
+        "WHO",
+        "GSMA",
+        "NASA",
+        "ISRO"
+      ],
+      "answer": 1,
+      "explanation": "The box cites 'GSMA — Detecting and managing crop pests and diseases with AI: Insights from Plantix'.",
+      "source": "worksheet:Plantix box"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "The '500,000 photos' part of the Plantix story matches which step of the worksheet timeline?",
+      "options": [
+        "Step D — being corrected after mistakes",
+        "Step C — comparing healthy and sick leaves",
+        "Step B — feeding the AI many labelled photos",
+        "Step A — identifying a new unknown photo"
+      ],
+      "answer": 2,
+      "explanation": "Feeding the AI a huge collection of plant photos is the data step, Step B of the timeline.",
+      "source": "worksheet:Q1, worksheet:Plantix box"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "A farmer photographing a wilting plant and getting a diagnosis in seconds matches which timeline step?",
+      "options": [
+        "Step B — scientists feed in labelled photos",
+        "Step C — the AI studies leaf patterns",
+        "Step D — the AI is corrected after mistakes",
+        "Step A — the trained AI identifies a new photo"
+      ],
+      "answer": 3,
+      "explanation": "The farmer's photo is new and unknown to the AI; giving a correct diagnosis for it is Step A, the AI doing its job.",
+      "source": "worksheet:Q1, worksheet:Plantix box"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "What does the word 'annually' mean in 'crops are lost annually'?",
+      "options": [
+        "Every year",
+        "Every day",
+        "Every hour",
+        "Every decade"
+      ],
+      "answer": 0,
+      "explanation": "Annually means once a year, so up to 40% of crops are lost each year.",
+      "source": "worksheet:Plantix box"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "Why does losing crops to disease matter so much for farmers in India?",
+      "options": [
+        "Farmers in India do not own smartphones",
+        "Lost crops mean lost food and lost income for them",
+        "Indian farmers only grow one kind of crop",
+        "Diseased crops cannot be photographed"
+      ],
+      "answer": 1,
+      "explanation": "The box says crop losses greatly affect farmers, especially in India — a damaged crop is their food and earnings.",
+      "source": "worksheet:Plantix box"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "Plantix has been 'successfully tested in multiple countries'. What does that suggest?",
+      "options": [
+        "Each country had to build its very own Plantix app",
+        "It was never actually used by any real farmers at all",
+        "It learned disease patterns that work in many places",
+        "It only works on the plants that grow inside India"
+      ],
+      "answer": 2,
+      "explanation": "Being tested successfully in many countries shows the patterns it learned from its huge photo collection apply widely, not only in one place.",
+      "source": "worksheet:Plantix box"
+    },
+    {
+      "id": "q119",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "Plantix is 100% accurate at diagnosing crop disease.",
+      "answer": false,
+      "explanation": "False. The box says it achieves around 85–90% accuracy — very good, but it still makes some mistakes.",
+      "source": "worksheet:Plantix box"
+    },
+    {
+      "id": "q120",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "Plantix has been successfully tested in multiple countries worldwide.",
+      "answer": true,
+      "explanation": "True. The box states this directly.",
+      "source": "worksheet:Plantix box"
+    },
+    {
+      "id": "q121",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "Farmers must pay a monthly fee to use Plantix.",
+      "answer": false,
+      "explanation": "False. Plantix is described as a free smartphone app.",
+      "source": "worksheet:Plantix box"
+    },
+    {
+      "id": "q122",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "Up to 40% of the world's crops are lost each year to pests and diseases.",
+      "answer": true,
+      "explanation": "True. This is the figure given in the Plantix box.",
+      "source": "worksheet:Plantix box"
+    },
+    {
+      "id": "q123",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "Plantix was trained on hundreds of thousands of plant images and still gets some diagnoses wrong.",
+      "answer": true,
+      "explanation": "True. It learned from 500,000 photos, yet its accuracy is around 85–90%, so a few answers are still mistakes.",
+      "source": "worksheet:Plantix box"
+    },
+    {
+      "id": "q124",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Plantix: A Real-World Plant Doctor",
+      "question": "Which TWO does a farmer receive from Plantix after sending a photo?",
+      "options": [
+        "A diagnosis of the disease",
+        "Advice on how to treat it",
+        "Free seeds by post",
+        "A weather forecast"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The box says users receive instant diagnosis and treatment advice. Seeds and weather are not part of what Plantix offers.",
+      "source": "worksheet:Plantix box"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "People's Choices Shape AI",
+      "question": "The chapter opens with a question: if AI learns from examples people give it, then what shapes what AI learns?",
+      "options": [
+        "The brand of the computer the AI runs on",
+        "The weather on the day the AI is trained",
+        "The colour of the AI's app icon",
+        "People's choices about which examples to give"
+      ],
+      "answer": 3,
+      "explanation": "Because an AI learns from the examples people provide, the choices people make about those examples decide what the AI ends up knowing.",
+      "source": "worksheet:opening question"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "People's Choices Shape AI",
+      "question": "Who decides which examples an AI gets to learn from?",
+      "options": [
+        "People",
+        "The AI itself",
+        "The plants",
+        "Nobody"
+      ],
+      "answer": 0,
+      "explanation": "People choose, collect and label the examples. The opening question highlights that these choices affect what AI learns.",
+      "source": "worksheet:opening question"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "People's Choices Shape AI",
+      "question": "People trained a plant AI using photos of only ONE kind of plant. What is the likely result?",
+      "options": [
+        "It learns the other plants on its own overnight",
+        "It struggles to recognise other kinds of plants",
+        "It becomes an expert on every plant in the world",
+        "It refuses to look at the one plant it learned"
+      ],
+      "answer": 1,
+      "explanation": "An AI only knows what its examples taught it. Narrow choices by people lead to narrow knowledge in the AI.",
+      "source": "worksheet:opening question (synthesis)"
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "People's Choices Shape AI",
+      "question": "Some training photos were labelled wrongly — sick plants marked 'healthy'. What happens to the AI?",
+      "options": [
+        "It ignores every photo with a label on it",
+        "Nothing changes because labels do not matter",
+        "It learns wrong patterns and gives wrong answers",
+        "It notices the mistake and fixes the labels itself"
+      ],
+      "answer": 2,
+      "explanation": "The AI trusts its labels. Wrong labels teach it the wrong thing, so people's careful choices while labelling really matter.",
+      "source": "worksheet:opening question (synthesis)"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "People's Choices Shape AI",
+      "question": "Who is mainly responsible for making sure an AI learns well?",
+      "options": [
+        "The AI itself, because it is the one doing the learning",
+        "The farmers who use the finished app in their fields",
+        "The smartphone that the app is installed on",
+        "The people choosing and correcting its examples"
+      ],
+      "answer": 3,
+      "explanation": "People choose the examples (Step B) and provide the corrections (Step D). The AI can only learn from what people give it.",
+      "source": "worksheet:opening question, worksheet:Q1 (synthesis)"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "People's Choices Shape AI",
+      "question": "In the comic-strip task, how much does the AI know at the START of its learning journey?",
+      "options": [
+        "Zero knowledge",
+        "Half of its job",
+        "Everything already",
+        "Only the farmer's name"
+      ],
+      "answer": 0,
+      "explanation": "The task says to show the journey 'from having zero knowledge' to getting good at its job.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "People's Choices Shape AI",
+      "question": "Besides the learning journey, what must the comic strip also show?",
+      "options": [
+        "Where the AI is stored",
+        "Who benefits from the AI",
+        "How much the AI costs",
+        "Which company sells the AI"
+      ],
+      "answer": 1,
+      "explanation": "The worksheet says: 'Also show who benefits from it.'",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "People's Choices Shape AI",
+      "question": "Which tools does the worksheet suggest for making the comic strip?",
+      "options": [
+        "Scratch, Blockly or Python",
+        "WhatsApp, YouTube or Maps",
+        "Canva, Freeform or Google Slides",
+        "Paint, Excel or Notepad"
+      ],
+      "answer": 2,
+      "explanation": "The task says to use Canva / Freeform / Google Slides to create the comic strip.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "People's Choices Shape AI",
+      "question": "Which is the correct order of the AI's learning journey in the comic strip?",
+      "options": [
+        "Good at its job → corrected → mistakes → zero knowledge",
+        "Mistakes → zero knowledge → good at its job → corrected",
+        "Corrected → good at its job → zero knowledge → mistakes",
+        "Zero knowledge → mistakes → corrected → good at its job"
+      ],
+      "answer": 3,
+      "explanation": "The worksheet lists the stages: zero knowledge, making mistakes, getting corrected, finally getting good at its job.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "People's Choices Shape AI",
+      "question": "Which comic-strip stage matches Step D of the plant-disease timeline?",
+      "options": [
+        "Getting corrected after mistakes",
+        "Starting with zero knowledge",
+        "Finally being good at its job",
+        "Showing who benefits"
+      ],
+      "answer": 0,
+      "explanation": "Step D is 'makes mistakes at first, gets corrected, accuracy improves' — the same as the 'making mistakes, getting corrected' part of the comic.",
+      "source": "worksheet:Q1, worksheet:Q4"
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "People's Choices Shape AI",
+      "question": "The task says you can give the AI 'a face, a name, and a personality'. Why?",
+      "options": [
+        "Because AIs choose their own names while they are trained",
+        "To make the comic fun, not because the AI is a person",
+        "Because every real AI already has its own face and a name",
+        "Because the AI will read the finished comic and enjoy it"
+      ],
+      "answer": 1,
+      "explanation": "The worksheet says 'make it fun'. A cartoon face is a storytelling trick; the AI is still a program that learns from examples.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "People's Choices Shape AI",
+      "question": "Whose AI should you pick for the comic strip?",
+      "options": [
+        "One that has not been invented yet",
+        "One from a science-fiction movie",
+        "One that you or anyone in your family uses",
+        "One that only scientists are allowed to use"
+      ],
+      "answer": 2,
+      "explanation": "The task says: 'Choose any one AI that you or anyone in the family uses.'",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "People's Choices Shape AI",
+      "question": "Which is the BEST choice when people give examples to an AI?",
+      "options": [
+        "A few examples, all of the same kind",
+        "Lots of examples with no labels at all",
+        "Only examples the AI already got right",
+        "Many different, correctly labelled examples"
+      ],
+      "answer": 3,
+      "explanation": "Variety plus correct labels let the AI learn true patterns; few, narrow or unlabelled examples lead to a weak or mistaken AI.",
+      "source": "worksheet:opening question, worksheet:Q2 (synthesis)"
+    },
+    {
+      "id": "q138",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "People's Choices Shape AI",
+      "question": "An AI chooses its own training examples with no human involved.",
+      "answer": false,
+      "explanation": "False. People give the AI its examples; the opening question says people's choices affect what AI learns.",
+      "source": "worksheet:opening question"
+    },
+    {
+      "id": "q139",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "People's Choices Shape AI",
+      "question": "People's choices about examples affect what an AI learns.",
+      "answer": true,
+      "explanation": "True. This is the idea behind the chapter's opening question.",
+      "source": "worksheet:opening question"
+    },
+    {
+      "id": "q140",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "People's Choices Shape AI",
+      "question": "The comic strip should show an AI that is perfect from its very first day.",
+      "answer": false,
+      "explanation": "False. The journey must start from zero knowledge and pass through mistakes and corrections before the AI becomes good at its job.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q141",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "People's Choices Shape AI",
+      "question": "If people give an AI mostly bad examples, the AI can still learn the right thing by itself.",
+      "answer": false,
+      "explanation": "False. An AI learns from whatever it is given. Bad examples teach bad patterns — that is why people's choices matter.",
+      "source": "worksheet:opening question"
+    },
+    {
+      "id": "q142",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "People's Choices Shape AI",
+      "question": "Which TWO things must your comic strip include?",
+      "options": [
+        "The AI making mistakes and being corrected",
+        "Who benefits from the AI",
+        "The AI's price in rupees",
+        "The AI's battery life"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The task asks for the learning journey (mistakes, corrections, getting good) and who benefits. Price and battery life are not part of it.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q143",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI All Around Us: Big Picture",
+      "question": "What do ALL the AIs in this chapter — plant AI, LearnSpark, Plantix — have in common?",
+      "options": [
+        "They learn from examples",
+        "They are used only in Pune",
+        "They cost money to use",
+        "They work without any data"
+      ],
+      "answer": 0,
+      "explanation": "Each one learns from data: labelled photos, Arjun's answers, 500,000 plant photos. That is the chapter's central idea.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q144",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "AI All Around Us: Big Picture",
+      "question": "Which of these is NOT an AI tool mentioned anywhere in the chapter?",
+      "options": [
+        "Smart Plant Finder App",
+        "Weather Forecast Robot",
+        "LearnSpark App",
+        "Plantix"
+      ],
+      "answer": 1,
+      "explanation": "LearnSpark, Plantix and the Smart Plant Finder all appear in the worksheet. No weather robot is mentioned.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q145",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI All Around Us: Big Picture",
+      "question": "What is the name of the FIRST level of the worksheet?",
+      "options": [
+        "Thinking deeper",
+        "Learning is Fun",
+        "Laying the tracks",
+        "Powering up"
+      ],
+      "answer": 2,
+      "explanation": "The levels are 'Laying the tracks' (timeline), 'Powering up' (tools table and Arjun) and 'Thinking deeper' (comic strip).",
+      "source": "worksheet:levels"
+    },
+    {
+      "id": "q146",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI All Around Us: Big Picture",
+      "question": "What phrase appears next to the 'Thinking deeper' level?",
+      "options": [
+        "Against the clock",
+        "With a partner",
+        "In the lab",
+        "At your own pace"
+      ],
+      "answer": 3,
+      "explanation": "The worksheet labels it 'Thinking deeper (at your own pace)'.",
+      "source": "worksheet:levels"
+    },
+    {
+      "id": "q147",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI All Around Us: Big Picture",
+      "question": "Both LearnSpark and the plant-disease AI get better by…",
+      "options": [
+        "Using feedback about right and wrong answers",
+        "Being switched off for a few days",
+        "Reading a printed instruction manual",
+        "Copying what a human expert types"
+      ],
+      "answer": 0,
+      "explanation": "The plant AI is corrected when wrong; LearnSpark adjusts to Arjun's right and wrong answers. Feedback drives both.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q148",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "AI All Around Us: Big Picture",
+      "question": "Do the AIs in this chapter need humans at all?",
+      "options": [
+        "Only at the very end, to switch them off",
+        "Yes — humans give examples, labels and corrections",
+        "No — they learn completely on their own",
+        "Only Plantix needs humans; the others do not"
+      ],
+      "answer": 1,
+      "explanation": "Scientists label photos, people correct mistakes, and learners' answers feed LearnSpark. Human input is built into every step.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q149",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI All Around Us: Big Picture",
+      "question": "Which worksheet level contains the comic-strip task?",
+      "options": [
+        "Powering up",
+        "Fun time",
+        "Thinking deeper",
+        "Laying the tracks"
+      ],
+      "answer": 2,
+      "explanation": "Question 4, the comic strip, sits under 'Thinking deeper (at your own pace)'.",
+      "source": "worksheet:levels"
+    },
+    {
+      "id": "q150",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI All Around Us: Big Picture",
+      "question": "Which worksheet level contains the mixed-up plant-disease timeline?",
+      "options": [
+        "Powering up",
+        "Thinking deeper",
+        "Fun time",
+        "Laying the tracks"
+      ],
+      "answer": 3,
+      "explanation": "Question 1, the timeline, is in the first level, 'Laying the tracks'.",
+      "source": "worksheet:levels"
+    },
+    {
+      "id": "q151",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI All Around Us: Big Picture",
+      "question": "The 'Powering up' level includes which tasks?",
+      "options": [
+        "The AI-tools data table and Arjun's LearnSpark story",
+        "The plant-disease timeline and the comic strip",
+        "The Plantix news box and the opening question",
+        "Only the comic strip about a family AI"
+      ],
+      "answer": 0,
+      "explanation": "Questions 2 (AI tools table) and 3 (Arjun) are both under 'Powering up'.",
+      "source": "worksheet:levels"
+    },
+    {
+      "id": "q152",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI All Around Us: Big Picture",
+      "question": "Which sentence best sums up the whole chapter?",
+      "options": [
+        "AI learns best when it is given no data to study at all",
+        "AI learns from examples, is corrected, and helps people",
+        "AI is always right and never needs any people at all",
+        "AI only exists inside science labs and in the movies"
+      ],
+      "answer": 1,
+      "explanation": "Every activity — timeline, tools table, Arjun, Plantix — shows AI learning from data, being corrected, and benefiting farmers or learners.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q153",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "AI All Around Us: Big Picture",
+      "question": "A new AI is meant to identify birds from their songs. Using the chapter's ideas, what does it need FIRST?",
+      "options": [
+        "A long list of bird names and nothing else besides that",
+        "A farmer in Karnataka who can test it in the fields",
+        "Many bird-song recordings labelled with the bird's name",
+        "A large cage with a few real birds kept inside it"
+      ],
+      "answer": 2,
+      "explanation": "Just like the plant AI needs labelled photos, a bird-song AI needs labelled sound examples to study patterns from.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q154",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "AI All Around Us: Big Picture",
+      "question": "A spelling app gives harder words after you spell correctly and easier ones after mistakes. Which chapter example is it most like?",
+      "options": [
+        "Plantix",
+        "Smart Plant Finder",
+        "Movie Language Converter",
+        "LearnSpark App"
+      ],
+      "answer": 3,
+      "explanation": "That is exactly how LearnSpark adjusts Arjun's maths questions to his level.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q155",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI All Around Us: Big Picture",
+      "question": "The chapter title is 'AI All Around Us'. Which list best shows where AI appears in the chapter?",
+      "options": [
+        "Farming, maths practice, reading and movies",
+        "Only inside big science laboratories",
+        "Only in video games and cartoon shows",
+        "Only in hospitals and big city banks"
+      ],
+      "answer": 0,
+      "explanation": "The chapter shows AI in crop disease (farming), LearnSpark (maths), the Reading Skill Checker and the Movie Language Converter.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q156",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI All Around Us: Big Picture",
+      "question": "Which pair correctly matches an AI to the people it helps?",
+      "options": [
+        "Plantix → teachers; LearnSpark → scientists",
+        "Plantix → farmers; LearnSpark → learners",
+        "Plantix → learners; LearnSpark → farmers",
+        "Plantix → movie makers; LearnSpark → doctors"
+      ],
+      "answer": 1,
+      "explanation": "Plantix diagnoses crop disease for farmers; LearnSpark adjusts maths practice for learners like Arjun.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q157",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "AI All Around Us: Big Picture",
+      "question": "An AI was trained on a handful of blurry photos and never corrected. Which chapter rule explains why it will do badly?",
+      "options": [
+        "AIs cannot learn anything at all from looking at photos",
+        "AIs must always be given exactly 500,000 photos to work",
+        "Few poor examples and no correction mean weak learning",
+        "AIs only work on photos that were taken in Karnataka"
+      ],
+      "answer": 2,
+      "explanation": "The worksheet says more examples make an AI better and correction improves accuracy. This AI had neither.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q158",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "AI All Around Us: Big Picture",
+      "question": "LearnSpark and Plantix both learn from examples.",
+      "answer": true,
+      "explanation": "True. LearnSpark learns from Arjun's answers; Plantix learned from 500,000 plant photos. Every AI learns from data.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q159",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "AI All Around Us: Big Picture",
+      "question": "An AI gets better when it is given FEWER examples to study.",
+      "answer": false,
+      "explanation": "False. The worksheet says the more examples an AI studies, the better it becomes.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q160",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "AI All Around Us: Big Picture",
+      "question": "'Laying the tracks' is the most difficult level of the worksheet.",
+      "answer": false,
+      "explanation": "False. It is the first, starter level; 'Thinking deeper' is the most demanding one.",
+      "source": "worksheet:levels"
+    },
+    {
+      "id": "q161",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "AI All Around Us: Big Picture",
+      "question": "The chapter shows AI being useful in both farming and learning.",
+      "answer": true,
+      "explanation": "True. Plantix and the plant-disease AI help farmers; LearnSpark and the Reading Skill Checker help learners.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q162",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "AI All Around Us: Big Picture",
+      "question": "Which TWO are AI tools described in this chapter?",
+      "options": [
+        "LearnSpark App",
+        "Plantix",
+        "A pocket calculator",
+        "A printed textbook"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "LearnSpark and Plantix are the chapter's AI examples. Calculators and textbooks do not learn from examples.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q163",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "AI All Around Us: Big Picture",
+      "question": "Which TWO groups of people benefit from the AIs in this chapter?",
+      "options": [
+        "Farmers checking crop disease",
+        "Learners practising maths",
+        "Astronauts in space stations",
+        "Pilots flying aeroplanes"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The chapter's AIs help farmers (plant-disease AI, Plantix) and learners (LearnSpark, Reading Skill Checker).",
+      "source": "(synthesis)"
+    }
+  ]
+}

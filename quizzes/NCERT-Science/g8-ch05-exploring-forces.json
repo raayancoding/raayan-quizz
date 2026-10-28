@@ -1,0 +1,2679 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-science-g8-ch05-exploring-forces",
+  "title": "Exploring Forces",
+  "subject": "Science",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Science/ch05",
+  "chapter": "5. Exploring Forces",
+  "topic": "Full Chapter",
+  "description": "Push and pull, effects of force, contact and non-contact forces (muscular, friction, magnetic, electrostatic, gravitational), weight vs mass, the spring balance, and buoyant force with floating and sinking.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "science",
+    "forces",
+    "friction",
+    "gravity",
+    "magnetism",
+    "electrostatics",
+    "weight",
+    "mass",
+    "buoyancy"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Is a Force",
+      "question": "In science, what is the push or pull applied on an object generally called?",
+      "options": [
+        "A force",
+        "A motion",
+        "A weight",
+        "A charge"
+      ],
+      "answer": 0,
+      "explanation": "The chapter defines force as the push or pull applied on an object. Weight is one particular force, motion is what a force can change, and charge is what builds up on rubbed objects.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Is a Force",
+      "question": "What is the SI unit of force and its symbol?",
+      "options": [
+        "kilogram, symbol kg",
+        "newton, symbol N",
+        "gram, symbol g",
+        "metre, symbol m"
+      ],
+      "answer": 1,
+      "explanation": "The SI unit of force is the newton (written with a small 'n') and its symbol is N. Kilogram and gram are units of mass; the metre is a unit of length.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What Is a Force",
+      "question": "According to the chapter, how many objects must interact, at the very least, for a force to come into play?",
+      "options": [
+        "Exactly one object",
+        "At least three objects",
+        "At least two objects",
+        "No object is needed"
+      ],
+      "answer": 2,
+      "explanation": "A force is a push or pull on an object resulting from its interaction with ANOTHER object, so at least two objects must interact.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What Is a Force",
+      "question": "Ragini says 'the wind is pushing me hard' while cycling against it. In this interaction, which two objects are involved?",
+      "options": [
+        "Ragini's bicycle and the road surface",
+        "The Sun and the moving air around them",
+        "Ragini's legs and the bicycle pedals",
+        "The moving air and Ragini on her bicycle"
+      ],
+      "answer": 3,
+      "explanation": "The wind (moving air) interacts with Ragini and her bicycle and pushes against them; that is why they must pedal harder. The other pairs are different interactions.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q5",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "What Is a Force",
+      "question": "If an object is at rest, it must mean that no force at all is acting on it.",
+      "answer": false,
+      "explanation": "The 'A step further' box says an object at rest means the forces acting on it are balancing one another, not that there are no forces.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What Is a Force",
+      "question": "A book lies at rest on a table. What does the chapter say about the forces acting on it?",
+      "options": [
+        "The forces acting on it balance one another",
+        "No force of any kind acts on the book",
+        "Only friction is acting on the book",
+        "The forces on it keep changing direction"
+      ],
+      "answer": 0,
+      "explanation": "Rest does not mean absence of force; it means the forces acting on the object balance each other. Balanced forces are studied in higher grades.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Is a Force",
+      "question": "When you push a table with your hand, which two objects are said to be interacting?",
+      "options": [
+        "Your hand and the floor",
+        "Your hand and the table",
+        "The table and the floor",
+        "Your hand and the air"
+      ],
+      "answer": 1,
+      "explanation": "The chapter's example: your hand is one object applying force on another object, the table; the two are interacting.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q8",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "What Is a Force",
+      "question": "When you push a table, the force you feel on your own hand disappears the moment you stop pushing.",
+      "answer": true,
+      "explanation": "The box says that the moment you stopped pushing, the force on your hand disappeared - as soon as the interaction ceases, the force does too.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What Is a Force",
+      "question": "Whenever two objects interact, which statement about the forces is correct?",
+      "options": [
+        "Only the object that moves experiences a force",
+        "Only the heavier object experiences a force",
+        "Each object experiences a force from the other",
+        "The force stays even after the interaction ends"
+      ],
+      "answer": 2,
+      "explanation": "Whenever two objects interact, each experiences a force from the other, and both forces vanish as soon as the interaction ceases.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What Is a Force",
+      "question": "Which of these is NOT given in the chapter as an everyday example of applying a force?",
+      "options": [
+        "Reading a storybook quietly",
+        "Opening a kitchen drawer",
+        "Rolling out a chapati",
+        "Kicking a football hard"
+      ],
+      "answer": 0,
+      "explanation": "Opening a drawer, rolling a chapati and kicking a football are all listed as situations where a force is applied; quietly reading a book is not one of them.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q11",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "What Is a Force",
+      "question": "Select the TWO statements about force that agree with the chapter.",
+      "options": [
+        "A force results from the interaction of at least two objects",
+        "The SI unit of force is the newton",
+        "A single isolated object can exert a force on itself",
+        "Force is the same thing as the mass of an object",
+        "A force can act only when two objects are touching"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Force needs at least two interacting objects and is measured in newton. An isolated object cannot exert force on itself, mass is not force, and non-contact forces act without touching.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Effects of Force",
+      "question": "In Table 5.1, a friend holds your moving bicycle from behind to stop it. What effect of force is this?",
+      "options": [
+        "Changing the shape of the bicycle frame",
+        "Stopping or decreasing the speed of the bicycle",
+        "Changing the direction of the bicycle",
+        "Making the bicycle start moving from rest"
+      ],
+      "answer": 1,
+      "explanation": "Table 5.1 lists this action as a pull whose effect is stopping or decreasing the speed of the bicycle.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Effects of Force",
+      "question": "Holding a moving bicycle from behind to stop it is classified in Table 5.1 as which kind of force?",
+      "options": [
+        "A push on the bicycle",
+        "A push and then a pull",
+        "A pull on the bicycle",
+        "Neither a push nor a pull"
+      ],
+      "answer": 2,
+      "explanation": "Table 5.1 marks 'your friend holding your moving bicycle from behind to stop it' as a Pull.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Effects of Force",
+      "question": "Hitting a moving ball with a bat is listed in Table 5.1 with which effect?",
+      "options": [
+        "Changing the shape of the moving ball",
+        "Bringing the moving ball fully to rest",
+        "Reducing the mass of the moving ball",
+        "Changing the direction of the moving ball"
+      ],
+      "answer": 3,
+      "explanation": "Table 5.1: hitting a moving ball with a bat is a push that changes the direction of the moving ball.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Effects of Force",
+      "question": "What effect of force is shown when you press an inflated balloon?",
+      "options": [
+        "A change in the shape of the balloon",
+        "A change in the speed of the balloon",
+        "A change in the mass of the balloon",
+        "A change in the colour of the balloon"
+      ],
+      "answer": 0,
+      "explanation": "Table 5.1 lists pressing an inflated balloon as a push whose effect is a change in shape.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q16",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Effects of Force",
+      "question": "Select ALL the effects that, according to the chapter, a force applied on an object may produce.",
+      "options": [
+        "Make an object move from rest",
+        "Change the speed of a moving object",
+        "Change the direction of motion of an object",
+        "Change the amount of matter in the object",
+        "Change the colour of the object",
+        "Change the material the object is made of"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "A force may make an object move from rest, change its speed, change its direction of motion, or change its shape. It does not change the amount of matter, colour or material.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Effects of Force",
+      "question": "Rolling a chapati with a rolling pin mainly shows which effect of force?",
+      "options": [
+        "A change in the speed of the dough",
+        "A change in the shape of the dough",
+        "A change in the direction of the dough",
+        "The dough starting to move from rest"
+      ],
+      "answer": 1,
+      "explanation": "Rolling flattens and spreads the dough - the force changes its shape.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q18",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Effects of Force",
+      "question": "A force can bring about a change in the shape of an object.",
+      "answer": true,
+      "explanation": "Changing shape is one of the listed effects of force, e.g. pressing a balloon or rolling a chapati.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q19",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Effects of Force",
+      "question": "A force can change either the speed or the direction of a moving object, but never both at the same time.",
+      "answer": false,
+      "explanation": "The Snapshots say force can change an object's speed, direction of motion, or both. A force may cause some or all of its effects together.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Effects of Force",
+      "question": "A fielder catches a fast-moving cricket ball and holds it. The main effect of the fielder's force on the ball is to",
+      "options": [
+        "reduce its speed to zero",
+        "change its shape permanently",
+        "increase its speed further",
+        "change its mass"
+      ],
+      "answer": 0,
+      "explanation": "Stopping a moving ball means its speed is reduced to zero - a change in speed. The ball's shape and mass are not what the force is changing here.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Effects of Force",
+      "question": "Which statement about the effects of force is NOT correct?",
+      "options": [
+        "A force can make a resting object start to move",
+        "A force always causes all its effects at once",
+        "A force can change the direction in which an object moves",
+        "A force can change the shape of an object"
+      ],
+      "answer": 1,
+      "explanation": "A force may cause some OR all of its effects - not always all of them together. The other three are listed effects of force.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Effects of Force",
+      "question": "A ball rolling on flat ground slows down and stops even though nobody touches it. What does the chapter conclude from this?",
+      "options": [
+        "No force is acting; it stops on its own",
+        "The mass of the ball is decreasing",
+        "The ball's weight pulls it backwards",
+        "Some force must be acting on the ball"
+      ],
+      "answer": 3,
+      "explanation": "Since a force is essential to change speed, and the speed decreases, some force must be acting - it turns out to be friction.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Effects of Force",
+      "question": "Which action by Sonali and Ragini during their ride is an example of force changing the DIRECTION of motion?",
+      "options": [
+        "Turning the handles to pass the herd of sheep",
+        "Pressing the bicycle bells near the sheep herd",
+        "Pumping air into the bicycle tyres at home",
+        "Enjoying the view from the top of the hill"
+      ],
+      "answer": 0,
+      "explanation": "Turning the handles changes the direction of the bicycle. Pumping air changes the tyre's shape, and pressing a bell does not alter the ride's direction.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q24",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Effects of Force",
+      "question": "Select the TWO situations in which the force changes the SHAPE of the object.",
+      "options": [
+        "Pressing an inflated balloon",
+        "Rolling a chapati",
+        "A fielder stopping a ball",
+        "Turning an autorickshaw's handle",
+        "Applying brakes on a bicycle"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Pressing a balloon and rolling a chapati change shape. Stopping a ball and braking change speed; turning a handle changes direction.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Contact and Non-contact Forces",
+      "question": "Forces that act only when there is physical contact between the objects are called",
+      "options": [
+        "non-contact forces",
+        "contact forces",
+        "balanced forces",
+        "distance forces"
+      ],
+      "answer": 1,
+      "explanation": "The chapter defines contact forces as forces that act only when there is physical contact between the objects, e.g. muscular force and friction.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Contact and Non-contact Forces",
+      "question": "Which of the following is a non-contact force?",
+      "options": [
+        "Muscular force",
+        "Frictional force",
+        "Magnetic force",
+        "Force from a stick"
+      ],
+      "answer": 2,
+      "explanation": "A magnet exerts force from a distance, so magnetic force is a non-contact force. Muscular force, friction and pushing with a stick all need contact.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q27",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Contact and Non-contact Forces",
+      "question": "Select the TWO contact forces named in the chapter.",
+      "options": [
+        "Muscular force",
+        "Frictional force",
+        "Magnetic force",
+        "Gravitational force",
+        "Electrostatic force"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Muscular force and friction need physical contact. Magnetic, gravitational and electrostatic forces act from a distance (non-contact).",
+      "source": "text:page16"
+    },
+    {
+      "id": "q28",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Contact and Non-contact Forces",
+      "question": "Select ALL the non-contact forces described in the chapter.",
+      "options": [
+        "Magnetic force",
+        "Gravitational force",
+        "Electrostatic force",
+        "Muscular force",
+        "Frictional force",
+        "Buoyant force"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Magnetic, gravitational and electrostatic forces act without contact. Muscular force and friction need contact; buoyant force is applied by a liquid touching the object.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Contact and Non-contact Forces",
+      "question": "Pushing a heavy box with a long stick is best described as",
+      "options": [
+        "a non-contact force at a distance",
+        "a gravitational force on the box",
+        "an electrostatic force on the box",
+        "a contact force applied indirectly"
+      ],
+      "answer": 3,
+      "explanation": "Contact can be direct (hands) or indirect (a stick or rope). A stick still makes physical contact with the box, so it is a contact force.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q30",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Contact and Non-contact Forces",
+      "question": "A force applied on a bucket through a rope is a non-contact force because your hand never touches the bucket.",
+      "answer": false,
+      "explanation": "The chapter says contact can be indirect, through a stick or rope. The rope touches the bucket, so it is still a contact force.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Contact and Non-contact Forces",
+      "question": "Which statement about contact and non-contact forces is NOT correct?",
+      "options": [
+        "Two magnets must touch for magnetic force to act",
+        "Contact forces need the objects to be touching",
+        "Non-contact forces can act from a distance",
+        "Friction is one of the types of contact force"
+      ],
+      "answer": 0,
+      "explanation": "Magnetic force is a non-contact force - a magnet exerts force on another magnet without touching it (Activity 5.5). The other statements are correct.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q32",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Contact and Non-contact Forces",
+      "question": "Gravitational force is a contact force because falling objects eventually touch the ground.",
+      "answer": false,
+      "explanation": "Gravitational force acts on an object without the Earth being in contact with it, so it is a non-contact force.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Contact and Non-contact Forces",
+      "question": "Which pair consists of TWO non-contact forces?",
+      "options": [
+        "Muscular force and magnetic force",
+        "Frictional force and gravitational force",
+        "Magnetic force and electrostatic force",
+        "Muscular force and frictional force"
+      ],
+      "answer": 2,
+      "explanation": "Magnetic and electrostatic forces both act from a distance. Each other pair contains at least one contact force (muscular or frictional).",
+      "source": "text:page16"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Contact and Non-contact Forces",
+      "question": "According to the Snapshots, forces can act",
+      "options": [
+        "only when objects touch",
+        "only from a distance",
+        "only on moving objects",
+        "with or without contact"
+      ],
+      "answer": 3,
+      "explanation": "The Snapshots state 'Forces can act with or without contact', covering contact and non-contact forces.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Contact and Non-contact Forces",
+      "question": "A ball thrown upward is no longer touching anything, yet a force acts on it. Which force?",
+      "options": [
+        "Gravitational force",
+        "Muscular force",
+        "Frictional force from the hand",
+        "Buoyant force of the hand"
+      ],
+      "answer": 0,
+      "explanation": "Gravity is a non-contact force - the Earth pulls the ball down even though nothing touches it.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Contact and Non-contact Forces",
+      "question": "A compass needle turns to point North. Which force is at work, and is it contact or non-contact?",
+      "options": [
+        "Muscular force; contact",
+        "Magnetic force; non-contact",
+        "Frictional force; contact",
+        "Electrostatic force; non-contact"
+      ],
+      "answer": 1,
+      "explanation": "Exercise Q1 matches 'a compass needle pointing North' with magnetic force, which acts without contact.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Muscular Force",
+      "question": "The force resulting from the action of muscles in our body is called",
+      "options": [
+        "magnetic force",
+        "frictional force",
+        "muscular force",
+        "buoyant force"
+      ],
+      "answer": 2,
+      "explanation": "The chapter names the force caused by the action of muscles - in walking, lifting, jumping - as muscular force.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Muscular Force",
+      "question": "Muscular force occurs when muscles",
+      "options": [
+        "only contract, never relax",
+        "only elongate, never shorten",
+        "remain fixed in length",
+        "contract and elongate"
+      ],
+      "answer": 3,
+      "explanation": "The text says muscular force occurs when muscles contract and elongate while doing any activity.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Muscular Force",
+      "question": "Which process inside the body is given as an example of muscular force?",
+      "options": [
+        "Pushing food through the alimentary canal",
+        "Light entering the eye to form an image",
+        "Hair growing longer over several weeks",
+        "Sound waves reaching the eardrum"
+      ],
+      "answer": 0,
+      "explanation": "The 'Ever heard of' box says muscular force helps us chew food and push it through the alimentary canal during digestion.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q40",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Muscular Force",
+      "question": "The expansion and contraction of heart muscles that circulate blood is an example of muscular force.",
+      "answer": true,
+      "explanation": "The box states that expansion and contraction of heart muscles allows blood to circulate - a use of muscular force essential for survival.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q41",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Muscular Force",
+      "question": "Select the TWO body functions the chapter mentions as using muscular force.",
+      "options": [
+        "Chewing food",
+        "Circulating blood by the heart",
+        "Seeing colours",
+        "Hearing sounds",
+        "Feeling warmth"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The 'Ever heard of' box mentions chewing food, pushing food through the alimentary canal and the heart's muscles circulating blood.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Muscular Force",
+      "question": "A child lifting a school bag is an example of which type of force?",
+      "options": [
+        "Magnetic force",
+        "Muscular force",
+        "Frictional force",
+        "Electrostatic force"
+      ],
+      "answer": 1,
+      "explanation": "Exercise Q1 matches 'a child lifting a school bag' with muscular force - the child's muscles do the lifting.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Muscular Force",
+      "question": "Which of these is NOT listed in the chapter as an activity caused by muscular force?",
+      "options": [
+        "Walking to school",
+        "Jumping over a rope",
+        "Floating in a pool",
+        "Stretching your arms"
+      ],
+      "answer": 2,
+      "explanation": "Walking, running, lifting, pushing, jumping and stretching are listed. Floating still is explained by buoyant force, not by muscle action.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Muscular Force",
+      "question": "Birds flying, fish swimming and insects crawling all move using which force?",
+      "options": [
+        "Muscular force",
+        "Magnetic force",
+        "Buoyant force",
+        "Electrostatic force"
+      ],
+      "answer": 0,
+      "explanation": "Animals, birds, fish and insects use muscular force for movement and survival (Fig. 5.3).",
+      "source": "text:page5"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Muscular Force",
+      "question": "When you lift a heavy bag with your muscles, which other force must your muscular force work against?",
+      "options": [
+        "Electrostatic force",
+        "Gravitational force",
+        "Magnetic force",
+        "Frictional force"
+      ],
+      "answer": 1,
+      "explanation": "The Earth pulls the bag downward (its weight); your muscular force must pull upward against this gravitational force.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Friction",
+      "question": "The force that comes into play when an object moves or tries to move over another surface is called",
+      "options": [
+        "muscular force",
+        "buoyant force",
+        "force of friction",
+        "electrostatic force"
+      ],
+      "answer": 2,
+      "explanation": "This is the chapter's definition of friction - it arises when one surface moves or tries to move over another.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Friction",
+      "question": "In which direction does friction act on a sliding object?",
+      "options": [
+        "Along the direction of motion",
+        "Straight up, away from the surface",
+        "Towards the centre of the Earth",
+        "Opposite to the direction of motion"
+      ],
+      "answer": 3,
+      "explanation": "Friction always acts opposite to the direction in which the object is moving or trying to move.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Friction",
+      "question": "According to the chapter, friction arises because of",
+      "options": [
+        "irregularities in the surfaces in contact",
+        "static charges on the two surfaces",
+        "magnetic poles in the two surfaces",
+        "the Earth pulling the object down"
+      ],
+      "answer": 0,
+      "explanation": "Friction arises due to irregularities in the two surfaces; they lock into each other and oppose motion of one surface over the other.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q49",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Friction",
+      "question": "Even surfaces that appear smooth have a large number of minute irregularities.",
+      "answer": true,
+      "explanation": "Fig. 5.6 and the text explain that even apparently smooth surfaces have many minute irregularities that cause friction.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Friction",
+      "question": "In Activity 5.4 the same object, pushed the same way, stops at different distances on glass, cloth, wood, tile and sand. What is concluded?",
+      "options": [
+        "Friction is the same for all surfaces",
+        "Friction depends on the nature of the surfaces",
+        "The object's weight changes on each surface",
+        "Friction acts only on rough surfaces"
+      ],
+      "answer": 1,
+      "explanation": "Different stopping distances on different surfaces show that the force of friction depends on the nature of the surfaces in contact.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Friction",
+      "question": "If the same object is pushed with the same force, on which surface would you expect it to slide the FARTHEST?",
+      "options": [
+        "A layer of dry sand",
+        "A piece of rough cloth",
+        "A smooth glass sheet",
+        "A rough wooden plank"
+      ],
+      "answer": 2,
+      "explanation": "Friction is greater on rough surfaces, so the object stops soonest on rough surfaces and travels farthest on the smooth glass.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q52",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Friction",
+      "question": "Due to friction, the speed of a ball rolling on flat ground increases.",
+      "answer": false,
+      "explanation": "Friction opposes motion, so it DEcreases the speed of the rolling ball until it stops (Exercise Q2 (ii) is False).",
+      "source": "exercise:Q2"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Friction",
+      "question": "Why do we sometimes slip on smooth surfaces like ice or polished floors?",
+      "options": [
+        "Smooth surfaces exert a stronger pull of gravity",
+        "Smooth surfaces become electrically charged",
+        "Smooth surfaces push our feet upward strongly",
+        "Smooth surfaces give our feet very little friction"
+      ],
+      "answer": 3,
+      "explanation": "Friction depends on the nature of surfaces and is small on smooth ones; with little friction to oppose sliding, our feet slip.",
+      "source": "exercise:Q7"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Friction",
+      "question": "A ball released from point P rolls down an incline and stops at point A on a horizontal surface. How could you make it stop BEFORE reaching A when released from the same point?",
+      "options": [
+        "Make the horizontal surface rougher",
+        "Make the horizontal surface smoother",
+        "Polish the surface until it shines",
+        "Pour a little oil on the surface"
+      ],
+      "answer": 0,
+      "explanation": "A rougher surface increases friction, so the ball loses speed faster and stops earlier. Smoothing or oiling would reduce friction and let it go farther.",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Friction",
+      "question": "For the same ball released from point P, which change would make it stop AFTER crossing point A?",
+      "options": [
+        "Spread a layer of sand on the horizontal surface",
+        "Replace the horizontal surface with a smoother one",
+        "Cover the horizontal surface with rough cloth",
+        "Make the horizontal surface much rougher"
+      ],
+      "answer": 1,
+      "explanation": "Less friction means less opposition to motion, so on a smoother surface the ball travels farther and crosses A.",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q56",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Friction",
+      "question": "Friction acts only on objects that are already moving, never on an object that is merely trying to move.",
+      "answer": false,
+      "explanation": "The definition says friction acts when an object moves OR tries to move over another surface, opposite to the direction in which it is moving or trying to move.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Friction",
+      "question": "Why are aeroplanes, ships, boats and high-speed trains designed with specific shapes?",
+      "options": [
+        "To increase friction so they can stop quickly",
+        "To make them heavier and more stable",
+        "To reduce the gravitational pull on them",
+        "To cut down friction from the air or water"
+      ],
+      "answer": 3,
+      "explanation": "Air and water exert friction on objects moving through them, so these vehicles are shaped to reduce that friction.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q58",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Friction",
+      "question": "Liquids and gases do not exert any force of friction on objects moving through them.",
+      "answer": false,
+      "explanation": "The 'A step further' box says air, water and other liquids also exert force of friction on objects moving through them.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Friction",
+      "question": "In Activity 5.3 the object is pushed one way and then in the opposite direction; it stops both times. What does this tell us about friction?",
+      "options": [
+        "It acts only when the object moves to the right",
+        "It opposes motion in whichever direction it slides",
+        "It acts in the same direction as the push",
+        "It stops acting once the direction is reversed"
+      ],
+      "answer": 1,
+      "explanation": "Whichever direction the object slides, friction acts opposite to that motion and brings it to rest.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Friction",
+      "question": "Friction is greater on which kind of surface?",
+      "options": [
+        "Smooth surfaces",
+        "Polished floors",
+        "Rough surfaces",
+        "Wet glass sheets"
+      ],
+      "answer": 2,
+      "explanation": "The chapter concludes 'Friction is greater on rough surfaces'.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q61",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Friction",
+      "question": "Select the TWO statements about friction that are correct.",
+      "options": [
+        "It opposes the motion of the object",
+        "It is a contact force",
+        "It acts along the direction of motion",
+        "It can act from a distance",
+        "It is always attractive like gravity"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Friction opposes motion and is a contact force arising from surfaces touching. It does not act along the motion or from a distance.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Friction",
+      "question": "A cricket ball rolling across the field stops on its own just before the boundary. Which force stopped it?",
+      "options": [
+        "Gravitational force",
+        "Muscular force",
+        "Magnetic force",
+        "Frictional force"
+      ],
+      "answer": 3,
+      "explanation": "Exercise Q1 matches 'a cricket ball stopping on its own just before the boundary line' with frictional force.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Friction",
+      "question": "In Activity 5.4, what is deliberately CHANGED between trials while the object and the push are kept the same?",
+      "options": [
+        "The surface the object slides on",
+        "The size of the object being pushed",
+        "The direction of the push",
+        "The mass of the pushed object"
+      ],
+      "answer": 0,
+      "explanation": "The variable tested is the nature of the surface (glass, cloth, wood, tile, sand); object and push are kept the same so stopping distance reflects friction.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Friction",
+      "question": "Predict: the same lunch box, given the same push, on a ceramic tile and then on sand. What will happen?",
+      "options": [
+        "It travels farther on sand than on the tile",
+        "It goes farther on the tile than on the sand",
+        "It travels the same distance on both",
+        "It does not move at all on the smooth tile"
+      ],
+      "answer": 1,
+      "explanation": "Sand is rougher than tile and offers more friction, so the box stops sooner on sand.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Friction",
+      "question": "Which statement about friction is NOT correct?",
+      "options": [
+        "Friction is lower on smoother surfaces",
+        "Friction opposes the direction of motion",
+        "Friction is completely absent on glass",
+        "Friction is a type of contact force"
+      ],
+      "answer": 2,
+      "explanation": "Glass is smooth but still has minute irregularities, so friction is small, not zero - the object still stops eventually. The other statements are correct.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q66",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Friction",
+      "question": "Select the TWO changes that would REDUCE the friction on a sliding object.",
+      "options": [
+        "Using a smoother surface",
+        "Streamlining the object's shape when moving through air",
+        "Spreading sand on the surface",
+        "Using a rougher cloth surface",
+        "Pushing the object in the opposite direction"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Smoother surfaces have fewer irregularities, and streamlined shapes reduce friction from air/water. Sand or rough cloth increase friction; reversing the push does not reduce it.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Magnetic Force",
+      "question": "The force exerted by a magnet on another magnet or a magnetic material is called",
+      "options": [
+        "electrostatic force",
+        "frictional force",
+        "gravitational force",
+        "magnetic force"
+      ],
+      "answer": 3,
+      "explanation": "This is the chapter's definition of magnetic force, a non-contact force.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Magnetic Force",
+      "question": "When like poles of two magnets (North-North or South-South) are brought close, they",
+      "options": [
+        "repel each other",
+        "attract each other",
+        "neither attract nor repel",
+        "first attract, then repel"
+      ],
+      "answer": 0,
+      "explanation": "Like poles repel; unlike poles attract.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Magnetic Force",
+      "question": "Unlike poles of two magnets (North-South) brought close together will",
+      "options": [
+        "repel each other",
+        "attract each other",
+        "lose their magnetism",
+        "become electrically charged"
+      ],
+      "answer": 1,
+      "explanation": "Unlike poles (North-South) attract each other.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Magnetic Force",
+      "question": "In Activity 5.5 the upper ring magnet floats above the lower one. If you now flip BOTH magnets over, what happens?",
+      "options": [
+        "It drops, because unlike poles now face each other",
+        "It flies right off the top end of the wooden stick",
+        "It still floats; like poles still face each other",
+        "It stops behaving like a magnet from then on"
+      ],
+      "answer": 2,
+      "explanation": "Flipping both magnets keeps like poles facing each other, so they still repel and the upper magnet keeps floating.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Magnetic Force",
+      "question": "When you push the floating ring magnet down gently and feel a force on it, this demonstrates that",
+      "options": [
+        "a magnet needs contact to act",
+        "the stick is pushing the magnet up",
+        "the magnet has become charged",
+        "a magnet acts without touching"
+      ],
+      "answer": 3,
+      "explanation": "You feel the repulsion between the magnets even though they are not in contact - a non-contact force.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q72",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Magnetic Force",
+      "question": "Magnetic force can be either attractive or repulsive.",
+      "answer": true,
+      "explanation": "Unlike poles attract and like poles repel; the chapter contrasts this with gravity, which is only attractive.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q73",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Magnetic Force",
+      "question": "A magnet can exert a force on a magnetic material only after it touches the material.",
+      "answer": false,
+      "explanation": "A magnet exerts force on another magnet or a magnetic material from a distance, which is why magnetic force is a non-contact force.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Magnetic Force",
+      "question": "Why does the chapter mention electromagnets while discussing magnetic force?",
+      "options": [
+        "They behave like magnets",
+        "They cancel out magnetic force",
+        "They are a type of friction",
+        "They only attract charged paper"
+      ],
+      "answer": 0,
+      "explanation": "The chapter recalls that electromagnets, studied earlier, behave like magnets and so exert magnetic force too.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q75",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Magnetic Force",
+      "question": "Select the TWO correct statements about magnets.",
+      "options": [
+        "Like poles repel each other",
+        "A magnet attracts objects made of magnetic materials",
+        "A magnet attracts objects of every material",
+        "Magnets must touch an object to exert force",
+        "Unlike poles repel each other"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Like poles repel and magnets attract magnetic materials. They do not attract everything, act without contact, and unlike poles attract.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Magnetic Force",
+      "question": "Which of these pairs will REPEL each other?",
+      "options": [
+        "North pole and South pole",
+        "North pole and North pole",
+        "South pole and North pole",
+        "A magnet and an iron nail"
+      ],
+      "answer": 1,
+      "explanation": "Only like poles repel. N-S or S-N attract, and a magnet attracts a nail made of magnetic material.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Magnetic Force",
+      "question": "In which Grade 6 chapter of Curiosity did students first learn about magnets?",
+      "options": [
+        "Materials Around Us",
+        "Temperature and Its Measurement",
+        "Exploring Magnets",
+        "Exploring Forces"
+      ],
+      "answer": 2,
+      "explanation": "The text refers back to the chapter 'Exploring Magnets' in Curiosity, Grade 6.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Electrostatic Force",
+      "question": "A plastic scale rubbed with polythene is brought near small pieces of paper. What happens?",
+      "options": [
+        "The paper pieces are pushed away from the scale",
+        "The paper pieces catch fire and burn away",
+        "Nothing at all happens to the paper pieces",
+        "The paper pieces are pulled to it and stick"
+      ],
+      "answer": 3,
+      "explanation": "The paper pieces get pulled towards the charged scale and stick to it - electrostatic attraction.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Electrostatic Force",
+      "question": "Charges that build up on rubbed surfaces and do not move by themselves are called",
+      "options": [
+        "static charges",
+        "moving charges",
+        "magnetic charges",
+        "frictional charges"
+      ],
+      "answer": 0,
+      "explanation": "They are called static charges because they do not move by themselves.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Electrostatic Force",
+      "question": "The two kinds of static charges are called",
+      "options": [
+        "north and south poles",
+        "positive and negative",
+        "stronger and weaker",
+        "attracting and pulling"
+      ],
+      "answer": 1,
+      "explanation": "The chapter says the two kinds of static charges are said to be 'positive' and 'negative'. North and south are magnetic poles.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Electrostatic Force",
+      "question": "Two balloons rubbed with a woollen cloth are brought near each other. What happens?",
+      "options": [
+        "They move together and stick fast",
+        "They stay exactly where they were",
+        "They move apart from each other",
+        "They start spinning round and round"
+      ],
+      "answer": 2,
+      "explanation": "Both balloons acquire similar charges, and like charges repel, so they move apart (Exercise Q3).",
+      "source": "exercise:Q3"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Electrostatic Force",
+      "question": "Why do two balloons rubbed with the same woollen cloth repel each other?",
+      "options": [
+        "Both get opposite charges and unlike charges repel",
+        "Rubbing turns them into magnets with like poles",
+        "The air between them pushes them apart",
+        "Both get similar charges and like charges repel"
+      ],
+      "answer": 3,
+      "explanation": "Charged in the same way, the balloons acquire similar charges; the chapter infers that like charges repel.",
+      "source": "exercise:Q3"
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Electrostatic Force",
+      "question": "When the woollen cloth used for rubbing is brought near a rubbed balloon, they",
+      "options": [
+        "attract, having opposite charges",
+        "repel, as they carry similar charges",
+        "neither attract nor repel at all",
+        "both lose their charges instantly"
+      ],
+      "answer": 0,
+      "explanation": "The rubbing and rubbed objects acquire opposite kinds of charge, and unlike charges attract.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q84",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Electrostatic Force",
+      "question": "There is no force between two charged objects placed a small distance apart.",
+      "answer": false,
+      "explanation": "Charged objects exert electrostatic force on each other even without contact - they attract or repel (Exercise Q2 (iii) is False).",
+      "source": "exercise:Q2"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Electrostatic Force",
+      "question": "The force exerted by a charged body on another charged body or an uncharged body is called",
+      "options": [
+        "magnetic force",
+        "electrostatic force",
+        "gravitational force",
+        "buoyant force"
+      ],
+      "answer": 1,
+      "explanation": "This is the chapter's definition of electrostatic force, a non-contact force.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q86",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Electrostatic Force",
+      "question": "Electrostatic force is a non-contact force.",
+      "answer": true,
+      "explanation": "The force between charged bodies comes into play even when the objects are not in contact.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Electrostatic Force",
+      "question": "Which precaution does Activity 5.6 give after rubbing the plastic scale?",
+      "options": [
+        "Heat the scale gently before use",
+        "Wet the paper pieces before testing",
+        "Do not touch the rubbed part",
+        "Rub the scale again with a metal spoon"
+      ],
+      "answer": 2,
+      "explanation": "The activity says: do not touch the rubbed part with your hand or any metal object, and do not touch the paper pieces.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Electrostatic Force",
+      "question": "The charged scale attracts UNCHARGED paper pieces. What does this show about electrostatic force?",
+      "options": [
+        "It acts only between two charged objects",
+        "It acts only on magnetic materials",
+        "It acts only on metal objects",
+        "It acts on charged and uncharged objects"
+      ],
+      "answer": 3,
+      "explanation": "A charged object attracts uncharged objects made of certain materials, such as paper - so electrostatic force acts on uncharged bodies too.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Electrostatic Force",
+      "question": "After rubbing, the rubbing object and the rubbed object acquire",
+      "options": [
+        "opposite kinds of charges",
+        "the same kind of charge",
+        "no electric charge at all",
+        "like poles of a magnet"
+      ],
+      "answer": 0,
+      "explanation": "Both get charged but with opposite kinds of charge - which is why the cloth and balloon attract.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q90",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Electrostatic Force",
+      "question": "After rubbing a balloon with a woollen cloth, only the balloon becomes charged while the cloth stays uncharged.",
+      "answer": false,
+      "explanation": "Both the rubbing object (cloth) and the rubbed object (balloon) get charged, with opposite kinds of charge.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Electrostatic Force",
+      "question": "A balloon rubbed on a woollen cloth attracts strands of hair. Which force is this?",
+      "options": [
+        "Magnetic force",
+        "Electrostatic force",
+        "Gravitational force",
+        "Frictional force"
+      ],
+      "answer": 1,
+      "explanation": "Exercise Q1 matches the rubbed balloon attracting hair strands with electrostatic force.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q92",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Electrostatic Force",
+      "question": "Select the TWO inferences the chapter draws from the balloon experiments (Activity 5.7).",
+      "options": [
+        "Like charges repel each other",
+        "Unlike charges attract each other",
+        "Charges flow between the balloons on their own",
+        "The balloons turn into magnets",
+        "Only the woollen cloth gets charged"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Similarly charged balloons repelled (like charges repel) and the balloon and cloth attracted (unlike charges attract).",
+      "source": "text:page10"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Electrostatic Force",
+      "question": "According to the 'A step further' box, what do charges constitute when they move?",
+      "options": [
+        "A magnetic pole",
+        "A static charge",
+        "An electric current",
+        "A frictional force"
+      ],
+      "answer": 2,
+      "explanation": "Moving charges constitute an electric current - the same current that lights a lamp or produces heating and magnetic effects.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Electrostatic Force",
+      "question": "Predict: a THIRD balloon that has NOT been rubbed is brought near a rubbed, charged balloon. What happens?",
+      "options": [
+        "They repel each other",
+        "No force acts between them",
+        "Both balloons lose charge",
+        "They attract each other"
+      ],
+      "answer": 3,
+      "explanation": "A charged object attracts an uncharged object made of certain materials, so the charged balloon attracts the uncharged one.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q95",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Electrostatic Force",
+      "question": "Static charges are so named because they keep moving across the surface of the charged object.",
+      "answer": false,
+      "explanation": "They are called static because they do NOT move by themselves.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Gravitational Force and Vertical Motion",
+      "question": "The force with which the Earth attracts objects towards itself is called",
+      "options": [
+        "electrostatic force",
+        "gravitational force",
+        "magnetic force",
+        "buoyant force"
+      ],
+      "answer": 1,
+      "explanation": "The Earth's attraction on objects is the gravitational force, also called force of gravity or simply gravity.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Gravitational Force and Vertical Motion",
+      "question": "Gravitational force is always",
+      "options": [
+        "repulsive",
+        "a contact force",
+        "attractive",
+        "equal to zero"
+      ],
+      "answer": 2,
+      "explanation": "Unlike magnetic and electrostatic forces, gravitational force is always attractive.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Gravitational Force and Vertical Motion",
+      "question": "Which forces can be EITHER attractive or repulsive?",
+      "options": [
+        "Gravitational and magnetic forces",
+        "Gravitational force only",
+        "Electrostatic and gravitational forces",
+        "Magnetic and electrostatic forces"
+      ],
+      "answer": 3,
+      "explanation": "Magnetic and electrostatic forces can attract or repel; gravitational force is only attractive.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q99",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Gravitational Force and Vertical Motion",
+      "question": "Gravity is a non-contact force.",
+      "answer": true,
+      "explanation": "The gravitational force acts without the Earth being in contact with the object it attracts.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Gravitational Force and Vertical Motion",
+      "question": "While a ball thrown vertically upward is going up, its speed",
+      "options": [
+        "goes on decreasing",
+        "goes on increasing",
+        "stays the same",
+        "becomes zero at once"
+      ],
+      "answer": 0,
+      "explanation": "Under gravity the upward speed decreases until the ball momentarily stops at the top.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Gravitational Force and Vertical Motion",
+      "question": "What happens to a ball at the topmost point of its vertical throw?",
+      "options": [
+        "It stays there until it is pushed",
+        "It stops momentarily, then falls",
+        "It keeps moving up but slowly",
+        "It moves sideways in the air"
+      ],
+      "answer": 1,
+      "explanation": "The ball slows, stops momentarily at the top, changes direction and falls straight down.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Gravitational Force and Vertical Motion",
+      "question": "A ball is thrown upward. At its topmost position, which force acts on it and in which direction?",
+      "options": [
+        "No force, since the ball is at rest",
+        "Gravitational force, acting upward",
+        "Gravitational force, acting downward",
+        "Muscular force, acting upward"
+      ],
+      "answer": 2,
+      "explanation": "Even when momentarily at rest at the top, the Earth's gravitational pull acts downward - that is what makes the ball come back down.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Gravitational Force and Vertical Motion",
+      "question": "While the ball moves DOWNWARD, in which direction does the friction of the air act on it?",
+      "options": [
+        "Downward, along with gravity",
+        "Sideways, across the motion",
+        "Air exerts no friction on it",
+        "Upward, opposite to the motion"
+      ],
+      "answer": 3,
+      "explanation": "Air exerts friction on objects moving through it, and friction acts opposite to the direction of motion - so upward while the ball falls.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Gravitational Force and Vertical Motion",
+      "question": "An object is in non-uniform motion (its speed or direction keeps changing). Is a force acting on it?",
+      "options": [
+        "Yes - no such change happens without a force",
+        "No - motion needs no force once started",
+        "Only if the object is moving downward",
+        "Only if the object touches something"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states that a change in speed or direction never takes place without the action of a force (Exercise Q8).",
+      "source": "exercise:Q8"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Gravitational Force and Vertical Motion",
+      "question": "When an object is dropped from a height, what path does it take?",
+      "options": [
+        "A curved path to one side",
+        "A straight vertical path down",
+        "A zig-zag path downward",
+        "A straight path upward first"
+      ],
+      "answer": 1,
+      "explanation": "Fig. 5.11(a): a dropped object takes a straight vertical path downwards before touching the ground.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Gravitational Force and Vertical Motion",
+      "question": "While the thrown ball is coming back down, its speed",
+      "options": [
+        "goes on decreasing",
+        "remains constant",
+        "goes on increasing",
+        "drops to zero midway"
+      ],
+      "answer": 2,
+      "explanation": "During the downward part of vertical motion the speed goes on increasing under gravity.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Gravitational Force and Vertical Motion",
+      "question": "A ripe fruit falls from a tree. Which force is responsible?",
+      "options": [
+        "Electrostatic force",
+        "Frictional force",
+        "Magnetic force",
+        "Gravitational force"
+      ],
+      "answer": 3,
+      "explanation": "Exercise Q1 matches 'a fruit falling from a tree' with gravitational force.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q108",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Gravitational Force and Vertical Motion",
+      "question": "In vertical motion, the direction of a thrown ball's motion changes at its topmost point.",
+      "answer": true,
+      "explanation": "The ball moves up, stops momentarily, and its direction of motion changes to downward.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Gravitational Force and Vertical Motion",
+      "question": "Which statement about gravitational force is NOT correct?",
+      "options": [
+        "It can repel very light objects",
+        "It is a non-contact force",
+        "It is always an attractive force",
+        "It pulls objects towards the Earth"
+      ],
+      "answer": 0,
+      "explanation": "Gravity is always attractive, for every object. The other three statements are from the chapter.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q110",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Gravitational Force and Vertical Motion",
+      "question": "Select the TWO correct statements about a ball thrown vertically upward.",
+      "options": [
+        "Its speed decreases while going up",
+        "Its speed increases while coming down",
+        "Its speed stays constant throughout",
+        "Its direction never changes",
+        "It stops permanently at the top"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Speed decreases going up and increases coming down; the direction changes at the top, where the stop is only momentary.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Gravitational Force and Vertical Motion",
+      "question": "An object moving straight up or down under the influence of gravity is said to undergo",
+      "options": [
+        "circular motion",
+        "vertical motion",
+        "static charge",
+        "upthrust"
+      ],
+      "answer": 1,
+      "explanation": "The chapter calls motion in a vertical direction under the influence of gravitational force 'vertical motion'.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Weight and Mass",
+      "question": "The weight of an object is defined as",
+      "options": [
+        "the amount of matter it is made of",
+        "the amount of space it takes up",
+        "the speed at which it falls down",
+        "the force with which Earth pulls it"
+      ],
+      "answer": 3,
+      "explanation": "Weight is the force with which the Earth pulls an object towards itself; mass is the amount of matter.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Weight and Mass",
+      "question": "What is the SI unit of weight?",
+      "options": [
+        "newton (N)",
+        "kilogram (kg)",
+        "gram (g)",
+        "metre (m)"
+      ],
+      "answer": 0,
+      "explanation": "Weight is a force, so its SI unit is the newton (N), like any other force.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Weight and Mass",
+      "question": "Mass is",
+      "options": [
+        "the pull of the Earth on an object",
+        "the amount of matter in an object",
+        "the stretch of a spring balance",
+        "the upward push from a liquid"
+      ],
+      "answer": 1,
+      "explanation": "Mass is the amount of matter in an object, measured in grams or kilograms.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Weight and Mass",
+      "question": "Mass is measured in which units?",
+      "options": [
+        "newton (N) or kilonewton",
+        "metre (m) or kilometre",
+        "gram (g) or kilogram (kg)",
+        "litre (L) or millilitre"
+      ],
+      "answer": 2,
+      "explanation": "Mass is measured in grams (g) or kilograms (kg); newton is the unit of force/weight.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Weight and Mass",
+      "question": "Which of these can change from place to place?",
+      "options": [
+        "Mass only",
+        "Both mass and weight",
+        "Neither mass nor weight",
+        "Weight only"
+      ],
+      "answer": 3,
+      "explanation": "Weight can vary because gravitational force varies, but mass stays the same everywhere.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Weight and Mass",
+      "question": "The weight of an object on the Moon is about one-sixth of its weight on the Earth. What causes this?",
+      "options": [
+        "The Moon's gravitational pull is weaker",
+        "The object loses some matter on the Moon",
+        "The Moon has stronger friction",
+        "The object's mass becomes one-sixth"
+      ],
+      "answer": 0,
+      "explanation": "Weight depends on the gravitational force, which is much smaller on the Moon; the object's mass is unchanged (Exercise Q9).",
+      "source": "exercise:Q9"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Weight and Mass",
+      "question": "Does the MASS of an object also become one-sixth when taken to the Moon?",
+      "options": [
+        "Yes, mass becomes one-sixth too",
+        "No, the mass stays the same",
+        "Yes, mass becomes six times",
+        "Only if the object is heavy"
+      ],
+      "answer": 1,
+      "explanation": "Mass is the amount of matter and does not change with place; only weight changes (Exercise Q9).",
+      "source": "exercise:Q9"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Weight and Mass",
+      "question": "From the chapter's table, a 1 kg object weighs 10 N on Earth. What is its weight on the Moon?",
+      "options": [
+        "3.8 N",
+        "9 N",
+        "1.6 N",
+        "25.4 N"
+      ],
+      "answer": 2,
+      "explanation": "The table gives 1.6 N on the Moon; 3.8 N is Mars, 9 N is Venus and 25.4 N is Jupiter.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Weight and Mass",
+      "question": "On which body in the chapter's table does a 1 kg object have the GREATEST weight?",
+      "options": [
+        "Venus",
+        "the Moon",
+        "Earth",
+        "Jupiter"
+      ],
+      "answer": 3,
+      "explanation": "Jupiter: 25.4 N, more than Earth (10 N), Venus (9 N) and Mars (3.8 N).",
+      "source": "text:page14"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Weight and Mass",
+      "question": "According to the table, what is the weight of a 1 kg object on Venus?",
+      "options": [
+        "9 N",
+        "10 N",
+        "3.8 N",
+        "1.6 N"
+      ],
+      "answer": 0,
+      "explanation": "The table lists 9 N on Venus; 10 N is Earth, 3.8 N is Mars and 1.6 N is the Moon.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Weight and Mass",
+      "question": "An object weighs 20 N on Earth. Using the chapter's table (1 kg: 10 N on Earth, 1.6 N on Moon), what would it weigh on the Moon?",
+      "options": [
+        "7.6 N",
+        "3.2 N",
+        "18 N",
+        "50.8 N"
+      ],
+      "answer": 1,
+      "explanation": "20 N on Earth means a mass of 2 kg; on the Moon each kg weighs 1.6 N, so 2 x 1.6 = 3.2 N. (7.6 N would be Mars, 18 N Venus, 50.8 N Jupiter.)",
+      "source": "text:page14"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Weight and Mass",
+      "question": "Using the table (1 kg weighs 3.8 N on Mars), what is the weight of a 2 kg object on Mars?",
+      "options": [
+        "3.2 N",
+        "20 N",
+        "7.6 N",
+        "18 N"
+      ],
+      "answer": 2,
+      "explanation": "2 kg x 3.8 N per kg = 7.6 N. 3.2 N would be on the Moon, 20 N on Earth and 18 N on Venus.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q124",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Weight and Mass",
+      "question": "A 1 kg object has a mass of 1 kg on the Earth, on the Moon and on Jupiter alike.",
+      "answer": true,
+      "explanation": "The table shows the mass staying 1 kg everywhere while the weight differs - mass does not change with place.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q125",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Weight and Mass",
+      "question": "Saying 'the weight of the wheat bag is 10 kg' is scientifically correct.",
+      "answer": false,
+      "explanation": "Kilogram is a unit of mass; in scientific use weight must be given in newton. The chapter says the everyday usage is not correct scientifically.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Weight and Mass",
+      "question": "Why can the weight of an object differ very slightly at different places on the Earth?",
+      "options": [
+        "The object's mass changes slightly with place",
+        "Friction is different at different places",
+        "Air pressure changes the weight of objects",
+        "Gravitational pull varies slightly across Earth"
+      ],
+      "answer": 3,
+      "explanation": "The chapter says gravitational force can vary very slightly from place to place on Earth, so weight can change while mass does not.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Weight and Mass",
+      "question": "Why is it acceptable, for practical purposes, to 'weigh' an object to find its mass?",
+      "options": [
+        "Weight stays almost the same everywhere on Earth",
+        "Weight and mass are the same quantity",
+        "Mass cannot be measured in any other way",
+        "Weight is measured in kilograms anyway"
+      ],
+      "answer": 0,
+      "explanation": "Since weight remains almost the same everywhere on the Earth, measuring weight gives a reliable indication of mass.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q128",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Weight and Mass",
+      "question": "Select the TWO statements about MASS that are correct.",
+      "options": [
+        "It stays the same at every place",
+        "It is measured in grams or kilograms",
+        "It is measured in newton",
+        "It becomes smaller on the Moon",
+        "It is a kind of force"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Mass is the amount of matter, measured in g or kg, and is the same everywhere. Weight, not mass, is a force in newton that changes on the Moon.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Weight and Mass",
+      "question": "Which statement about mass and weight is NOT correct?",
+      "options": [
+        "Weight is a force",
+        "Mass is the amount of matter in an object",
+        "Mass is measured in newton",
+        "Weight can differ on different planets"
+      ],
+      "answer": 2,
+      "explanation": "Mass is measured in grams or kilograms; it is weight (a force) that is measured in newton.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Spring Balance and Measuring Weight",
+      "question": "Which simple device does the chapter use to measure weight?",
+      "options": [
+        "A spring balance",
+        "A beam balance",
+        "A thermometer",
+        "A measuring tape"
+      ],
+      "answer": 0,
+      "explanation": "A spring balance measures weight (force); a beam balance compares masses.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Spring Balance and Measuring Weight",
+      "question": "How does a spring balance indicate the weight of an object hung from its hook?",
+      "options": [
+        "By the colour the spring turns",
+        "By the amount the spring stretches",
+        "By how fast the object falls",
+        "By the sound the spring makes"
+      ],
+      "answer": 1,
+      "explanation": "When an object is hung from the hook the spring stretches, and the amount of stretching gives the weight.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Spring Balance and Measuring Weight",
+      "question": "What is the range of the spring balance shown in Fig. 5.13?",
+      "options": [
+        "0 to 5 N",
+        "0 to 1 N",
+        "0 to 10 N",
+        "0 to 100 N"
+      ],
+      "answer": 2,
+      "explanation": "Activity 5.10: the maximum weight it can measure is 10 N, so its range is 0 to 10 N.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Spring Balance and Measuring Weight",
+      "question": "On the Fig. 5.13 balance, the bigger marks are 1 N apart with 5 small divisions between them. What is the smallest weight it can read?",
+      "options": [
+        "0.5 N",
+        "5 N",
+        "2 N",
+        "0.2 N"
+      ],
+      "answer": 3,
+      "explanation": "One small division = 1 N / 5 = 0.2 N, so the smallest reading is 0.2 N.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Spring Balance and Measuring Weight",
+      "question": "A different spring balance has bigger marks 2 N apart with 4 small divisions between them. What is its smallest reading?",
+      "options": [
+        "0.5 N",
+        "0.2 N",
+        "0.25 N",
+        "2 N"
+      ],
+      "answer": 0,
+      "explanation": "Smallest reading = difference between big marks / number of divisions = 2 N / 4 = 0.5 N.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Spring Balance and Measuring Weight",
+      "question": "A spring balance has bigger marks 1 N apart and 10 small divisions between them. One small division represents",
+      "options": [
+        "0.2 N",
+        "0.1 N",
+        "1 N",
+        "10 N"
+      ],
+      "answer": 1,
+      "explanation": "1 N / 10 divisions = 0.1 N per small division.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Spring Balance and Measuring Weight",
+      "question": "Why should you not hang an object heavier than the maximum value a spring balance can measure?",
+      "options": [
+        "The object's mass will change",
+        "The spring will become magnetic",
+        "The spring balance may get damaged",
+        "The reading will be too accurate"
+      ],
+      "answer": 2,
+      "explanation": "Activity 5.12 warns that objects heavier than the maximum may damage the spring balance.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q137",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Spring Balance and Measuring Weight",
+      "question": "The gram scale on a spring balance is marked assuming the balance is used on the Earth.",
+      "answer": true,
+      "explanation": "The mass values were marked assuming the balance is used on Earth with Earth's gravitational force attracting the object.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q138",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Spring Balance and Measuring Weight",
+      "question": "A spring balance can measure any weight, however large, as long as the object is hung carefully.",
+      "answer": false,
+      "explanation": "Each spring balance has a range (e.g. 0-10 N); heavier objects may damage it.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q139",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Spring Balance and Measuring Weight",
+      "question": "In Activity 5.9 different objects stretch the spring by different amounts. What does this indicate?",
+      "options": [
+        "The spring changes its own nature every time",
+        "All the objects have exactly the same weight",
+        "The spring is being affected by a hidden magnet",
+        "Earth pulls different objects with different forces"
+      ],
+      "answer": 3,
+      "explanation": "Different stretches show that the Earth pulls different objects with different forces - their weights differ.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q140",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Spring Balance and Measuring Weight",
+      "question": "In Activity 5.9, which quantity is CHANGED from trial to trial, while the spring and nail stay the same?",
+      "options": [
+        "The object hung from the spring",
+        "The length of the unstretched spring",
+        "The nail the spring hangs from",
+        "The place where the activity is done"
+      ],
+      "answer": 0,
+      "explanation": "Objects of different masses (pencil box, tiffin box, stone) are hung one by one; the resulting stretch is what is observed.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q141",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Spring Balance and Measuring Weight",
+      "question": "Why would the gram (mass) scale of a spring balance NOT give correct values if used far from Earth?",
+      "options": [
+        "Springs stop stretching away from the Earth",
+        "It was marked using Earth's gravitational pull",
+        "Mass itself changes when away from the Earth",
+        "The hook becomes weightless and falls off"
+      ],
+      "answer": 1,
+      "explanation": "The mass values are marked assuming the Earth's gravitational force acts; elsewhere the pull differs, so the stretch would not match the marked mass.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q142",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Spring Balance and Measuring Weight",
+      "question": "On the Fig. 5.13 balance (0.2 N per small division), the pointer rests 3 small divisions past the 4 N mark. What is the reading?",
+      "options": [
+        "4.6 N",
+        "4.3 N",
+        "4.5 N",
+        "7 N"
+      ],
+      "answer": 0,
+      "explanation": "3 divisions x 0.2 N = 0.6 N beyond 4 N, giving 4.6 N.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q143",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Spring Balance and Measuring Weight",
+      "question": "How is the smallest value a spring balance can read worked out?",
+      "options": [
+        "Multiply the range by the number of divisions",
+        "Divide the big-mark gap by the number of divisions",
+        "Count the total number of bigger marks on the scale",
+        "Read off the largest number printed on the scale"
+      ],
+      "answer": 1,
+      "explanation": "Activity 5.11: weight difference between two bigger marks (1 N) divided by the number of small divisions (5) gives 0.2 N.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q144",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Spring Balance and Measuring Weight",
+      "question": "Select the TWO things you must check before using an unfamiliar spring balance.",
+      "options": [
+        "Its range (the maximum weight it can measure)",
+        "The value of its smallest division",
+        "The colour of its spring",
+        "The brand name printed on it",
+        "Whether it attracts iron nails"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The chapter says ranges and smallest divisions differ between balances, so always look carefully at the instrument before use.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q145",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Buoyant Force, Floating and Sinking",
+      "question": "The force applied by a liquid on an object in the upward direction is known as",
+      "options": [
+        "gravitational force",
+        "the force of friction",
+        "buoyant force (upthrust)",
+        "electrostatic force"
+      ],
+      "answer": 2,
+      "explanation": "The chapter names the upward force from a liquid 'upthrust or buoyant force'.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q146",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Buoyant Force, Floating and Sinking",
+      "question": "When you push a tightly closed empty bottle into a bucket of water, what do you feel?",
+      "options": [
+        "A downward pull on the bottle",
+        "The bottle getting heavier",
+        "No force at all on the bottle",
+        "An upward push on the bottle"
+      ],
+      "answer": 3,
+      "explanation": "Activity 5.13: you feel an upward push, showing water applies an upward force on the bottle.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q147",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Buoyant Force, Floating and Sinking",
+      "question": "An object placed in a liquid SINKS when",
+      "options": [
+        "gravitational force exceeds the buoyant force",
+        "buoyant force exceeds the gravitational force",
+        "the two forces are exactly equal",
+        "no gravitational force acts on it"
+      ],
+      "answer": 0,
+      "explanation": "If the gravitational force is more than the buoyant force, the object sinks; if equal, it floats.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q148",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Buoyant Force, Floating and Sinking",
+      "question": "An object FLOATS in a liquid when",
+      "options": [
+        "the gravitational force is larger",
+        "gravity and buoyant force are equal",
+        "the buoyant force becomes zero",
+        "the object has no mass at all"
+      ],
+      "answer": 1,
+      "explanation": "The chapter says if the two forces are equal, the object floats.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q149",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Buoyant Force, Floating and Sinking",
+      "question": "The chapter mentions one factor that buoyant force depends on. Which is it?",
+      "options": [
+        "The colour of the liquid",
+        "The temperature of the air",
+        "The density of the liquid",
+        "The shape of the container"
+      ],
+      "answer": 2,
+      "explanation": "One factor on which buoyant force depends is the density of the liquid (studied in a later chapter).",
+      "source": "text:page15"
+    },
+    {
+      "id": "q150",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Buoyant Force, Floating and Sinking",
+      "question": "According to Archimedes' Principle, the upward force on an immersed object equals",
+      "options": [
+        "the weight of the object itself",
+        "the mass of the liquid in the container",
+        "the volume of the object",
+        "the weight of the liquid it displaces"
+      ],
+      "answer": 3,
+      "explanation": "Archimedes discovered that an immersed object experiences an upward force equal to the weight of the liquid it displaces.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q151",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Buoyant Force, Floating and Sinking",
+      "question": "A coin sinks in water but a bigger wooden block floats. Which explanation matches the chapter?",
+      "options": [
+        "Coin: weight exceeds upthrust; block: weight equals upthrust",
+        "The coin is heavier than the block, so only it sinks",
+        "The block is bigger, and big objects always float",
+        "Water pushes the coin down but pushes the block up"
+      ],
+      "answer": 0,
+      "explanation": "An object sinks when gravity exceeds the buoyant force and floats when they are equal. The block displaces water equal to its weight; the coin does not (Exercise Q4).",
+      "source": "exercise:Q4"
+    },
+    {
+      "id": "q152",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Buoyant Force, Floating and Sinking",
+      "question": "Why can the rock pumice float on water?",
+      "options": [
+        "It is made of an unusually light metal",
+        "Trapped gas makes it less dense than water",
+        "It becomes electrically charged in water",
+        "It repels water by magnetic force"
+      ],
+      "answer": 1,
+      "explanation": "Pumice forms when gas-rich lava cools quickly, trapping bubbles; the porous rock is less dense than water and floats.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q153",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Buoyant Force, Floating and Sinking",
+      "question": "All liquids apply an upward force on objects placed in them.",
+      "answer": true,
+      "explanation": "The chapter says all liquids apply a similar upward force (buoyant force), not only water.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q154",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Buoyant Force, Floating and Sinking",
+      "question": "A mug feels lighter inside a bucket of water because the water pushes it upward.",
+      "answer": true,
+      "explanation": "The buoyant force of the water acts upward on the mug, making it feel lighter.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q155",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Buoyant Force, Floating and Sinking",
+      "question": "An object floats whenever its weight is greater than the weight of the liquid it displaces.",
+      "answer": false,
+      "explanation": "By Archimedes' Principle, if the weight of displaced liquid is smaller than the object's weight the object SINKS; it floats when they are equal.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q156",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Buoyant Force, Floating and Sinking",
+      "question": "Three objects of the same size and shape but different materials float in water, dipping to different depths. Which is the heaviest?",
+      "options": [
+        "The one dipping the least",
+        "All three weigh the same",
+        "It cannot be told from depth",
+        "The one dipping the deepest"
+      ],
+      "answer": 3,
+      "explanation": "A floating object's weight equals the weight of water it displaces; dipping deeper displaces more water, so the deepest one is heaviest (Exercise Q10, reasoning from Archimedes' Principle).",
+      "source": "exercise:Q10"
+    },
+    {
+      "id": "q157",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Buoyant Force, Floating and Sinking",
+      "question": "Select the TWO forces acting on an object placed in a liquid, as described in the chapter.",
+      "options": [
+        "Gravitational force acting downward",
+        "Buoyant force acting upward",
+        "Magnetic force acting sideways",
+        "Electrostatic force acting upward",
+        "Muscular force acting downward"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Gravity pulls the object down while the liquid applies an upward buoyant force; their comparison decides floating or sinking.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q158",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Buoyant Force, Floating and Sinking",
+      "question": "Which statement about buoyant force is NOT correct?",
+      "options": [
+        "An object sinks if buoyant force exceeds gravity",
+        "Buoyant force acts upward on the object",
+        "Buoyant force depends on the liquid's density",
+        "Buoyant force is also called upthrust"
+      ],
+      "answer": 0,
+      "explanation": "It is the other way round: an object sinks when gravitational force exceeds the buoyant force.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q159",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Buoyant Force, Floating and Sinking",
+      "question": "You release a closed empty bottle that you had pushed under water. What happens?",
+      "options": [
+        "It sinks slowly to the bottom",
+        "It stays where you released it",
+        "It bounces back up to the surface",
+        "It spins but does not rise"
+      ],
+      "answer": 2,
+      "explanation": "Activity 5.13: on release the bottle bounces back to the surface because of the upward force from the water.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q160",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Buoyant Force, Floating and Sinking",
+      "question": "Buoyant force is listed in the chapter's Snapshots as one of the non-contact forces.",
+      "answer": false,
+      "explanation": "The Snapshots list magnetic, gravitational and electrostatic as non-contact forces; buoyant force is the upward force applied by a liquid in contact with the object.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q161",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Forces in Everyday Life",
+      "question": "Why does it feel harder to pedal a bicycle uphill than on flat ground?",
+      "options": [
+        "Friction disappears on slopes, so pedalling is wasted",
+        "The bicycle's mass increases as it climbs",
+        "Air exerts no friction while going uphill",
+        "Gravity pulls the bicycle down the slope"
+      ],
+      "answer": 3,
+      "explanation": "The Earth's gravitational pull acts on the bicycle; on a slope part of this pull acts against the climb, so the rider must push the pedals harder.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q162",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Forces in Everyday Life",
+      "question": "A boat gradually slows down after its engine is switched off. Which force causes this?",
+      "options": [
+        "Friction from the water",
+        "Gravitational force",
+        "Buoyant force of water",
+        "Electrostatic force"
+      ],
+      "answer": 0,
+      "explanation": "Water exerts friction on objects moving through it, opposing their motion and slowing them.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q163",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Forces in Everyday Life",
+      "question": "A comb run through dry hair attracts tiny bits of paper. This is an example of",
+      "options": [
+        "magnetic force",
+        "electrostatic force",
+        "gravitational force",
+        "buoyant force"
+      ],
+      "answer": 1,
+      "explanation": "Rubbing charges the comb, and a charged object attracts uncharged pieces of paper - electrostatic force.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q164",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Forces in Everyday Life",
+      "question": "Which pair of quantities are BOTH measured in newton?",
+      "options": [
+        "Mass and weight",
+        "Force and mass",
+        "Force and weight",
+        "Mass and length"
+      ],
+      "answer": 2,
+      "explanation": "Weight is a force, so both are measured in newton; mass is measured in grams or kilograms.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q165",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Forces in Everyday Life",
+      "question": "Select the TWO actions from Table 5.1 that are classified as a PUSH.",
+      "options": [
+        "Hitting a moving ball with a bat",
+        "Pressing an inflated balloon",
+        "A friend holding your moving bicycle from behind",
+        "Opening a drawer towards you",
+        "Stretching a rubber band"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Table 5.1 marks hitting a ball and pressing a balloon as pushes; holding a bicycle from behind is a pull, as are opening a drawer and stretching a band.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q166",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Forces in Everyday Life",
+      "question": "Sonali and Ragini's bicycles sped downhill without pedalling. Which TWO forces were acting on the moving bicycles along the slope?",
+      "options": [
+        "Gravity down the slope and friction against motion",
+        "Magnetic force and electrostatic force together",
+        "Muscular force and the buoyant force of air",
+        "Only gravity, with no friction acting at all"
+      ],
+      "answer": 0,
+      "explanation": "Gravity pulls the bicycles down the slope while friction from the road and air acts opposite to their motion.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q167",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Forces in Everyday Life",
+      "question": "A step-by-step chain: rubbing a balloon with wool -> ? -> balloon sticks to a wall. Fill in the missing step.",
+      "options": [
+        "The balloon becomes a magnet",
+        "Static charges build up on it",
+        "The balloon loses its weight",
+        "Friction disappears from the balloon"
+      ],
+      "answer": 1,
+      "explanation": "Rubbing certain materials builds up static charges; the charged balloon then attracts uncharged objects like the wall.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q168",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Forces in Everyday Life",
+      "question": "Which of the following is a FALSE statement about the forces in this chapter?",
+      "options": [
+        "Friction can act on an object moving through air",
+        "A charged object can attract an uncharged object",
+        "Gravitational force can repel objects from Earth",
+        "Like magnetic poles repel each other"
+      ],
+      "answer": 2,
+      "explanation": "Gravity is always attractive. Air friction, attraction of uncharged objects by charged ones, and like poles repelling are all correct.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q169",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Forces in Everyday Life",
+      "question": "A spring balance reads 5 N when a stone hangs from it. What does this 5 N represent?",
+      "options": [
+        "The mass of the stone",
+        "The friction on the stone",
+        "The upthrust on the stone",
+        "The weight of the stone"
+      ],
+      "answer": 3,
+      "explanation": "A spring balance's newton scale shows weight - the force with which the Earth pulls the stone.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q170",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Forces in Everyday Life",
+      "question": "A student says: 'The wind pushed us, so wind force must be a non-contact force like gravity.' What is wrong with this reasoning?",
+      "options": [
+        "Moving air touches the rider, so it is a contact force",
+        "Wind is actually a form of magnetic force acting",
+        "Gravity is a contact force, so the comparison fails",
+        "Wind cannot apply any force at all on a rider"
+      ],
+      "answer": 0,
+      "explanation": "The air physically pushes against the rider's body; air exerts friction and pushes through contact. Non-contact forces (gravity, magnetic, electrostatic) act from a distance.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q171",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Forces in Everyday Life",
+      "question": "Pressing a bicycle bell and kicking a football are both examples of applying a push.",
+      "answer": true,
+      "explanation": "Pressing and kicking are pushes applied by muscular force.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q172",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Forces in Everyday Life",
+      "question": "Select the TWO forces that act on a rubbed balloon floating still in a bucket of water (ignore air).",
+      "options": [
+        "Gravitational force downward",
+        "Buoyant force upward",
+        "Magnetic force from the water",
+        "Muscular force from the balloon",
+        "Frictional force from the bucket's air"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Gravity acts downward on any object; the water applies an upward buoyant force. Water is not magnetic and a balloon has no muscles.",
+      "source": "text:page15"
+    }
+  ]
+}

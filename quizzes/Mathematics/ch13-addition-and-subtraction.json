@@ -1,0 +1,1861 @@
+{
+  "schemaVersion": 1,
+  "id": "mathematics-ch13-addition-and-subtraction",
+  "title": "Addition and Subtraction",
+  "subject": "Mathematics",
+  "grade": 4,
+  "sourceDir": "output/Mathematics/13_Addition-and-Subtraction",
+  "chapter": "13. Addition and Subtraction",
+  "topic": "Full Chapter",
+  "description": "Adding and subtracting 5- and 6-digit numbers with and without regrouping, bar models and expanded form, properties of addition and subtraction, missing digits, inverse operations, one- and two-step word problems, estimation by rounding, backward strategy and computational thinking — with worked explanations.",
+  "tags": [
+    "mathematics",
+    "grade4",
+    "addition",
+    "subtraction",
+    "regrouping",
+    "place-value",
+    "word-problems",
+    "estimation",
+    "bar-models"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Addition and Subtraction Around Us",
+      "question": "Philately is the hobby of collecting which of these?",
+      "options": [
+        "Postage stamps",
+        "Rare old coins",
+        "Picture postcards",
+        "Foreign banknotes"
+      ],
+      "answer": 0,
+      "explanation": "The book explains that philately is the collection of postage stamps from different countries, times or designs. When your grandfather hands you his stamps, your collection grows — that is addition.",
+      "source": "book:page47"
+    },
+    {
+      "id": "q2",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Addition and Subtraction Around Us",
+      "question": "Returning an item at the billing counter means its price is added to the total bill.",
+      "answer": false,
+      "explanation": "When we return an item during billing, its cost is subtracted from the total, not added. Buying more items is what adds to the bill.",
+      "source": "book:page47"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Addition and Subtraction Around Us",
+      "question": "A toy shop had 1,23,450 toys in stock and 75,000 more arrived from the factory. How many toys are in stock now?",
+      "options": [
+        "1,88,450",
+        "1,98,550",
+        "1,08,450",
+        "1,98,450"
+      ],
+      "answer": 3,
+      "explanation": "Add the new toys to the old stock: 1,23,450 + 75,000 = 1,98,450. Ones to thousands add without carrying; 2 ten-thousands + 7 ten-thousands = 9, and the lakh stays 1.",
+      "source": "book:page47"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Addition and Subtraction Around Us",
+      "question": "The shop had 1,98,450 toys and sent 1,15,000 toys to the shops. How many toys were left?",
+      "options": [
+        "83,450",
+        "84,450",
+        "93,450",
+        "83,550"
+      ],
+      "answer": 0,
+      "explanation": "Sending toys away is subtraction: 1,98,450 − 1,15,000 = 83,450. Subtract place by place: 8 − 5 = 3 ten-thousands and 1 lakh − 1 lakh = 0, so the answer has only 5 digits.",
+      "source": "book:page47"
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Addition and Subtraction Around Us",
+      "question": "Select ALL the situations in which we would subtract.",
+      "options": [
+        "Returning an item during billing",
+        "Withdrawing money from a bank account",
+        "Depositing money into a bank account",
+        "Receiving your grandfather's stamp collection"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Returning an item and withdrawing money both make an amount smaller, so we subtract. Depositing money and receiving stamps make a collection or balance bigger, which is addition.",
+      "source": "book:page47"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Addition and Subtraction Around Us",
+      "question": "A book shop sold books worth ₹1,00,000 on Monday. On Tuesday the sales were ₹13,000 less. What were Tuesday's sales?",
+      "options": [
+        "97,000",
+        "87,000",
+        "87,100",
+        "86,000"
+      ],
+      "answer": 1,
+      "explanation": "'₹13,000 less' tells us to subtract: 1,00,000 − 13,000 = 87,000. Borrow from the lakh: 1 lakh = 9 ten-thousands + 10 thousands. Then 10 − 3 = 7 thousands and 9 − 1 = 8 ten-thousands.",
+      "source": "book:page48"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Vocabulary, Bar Models and Expanded Form",
+      "question": "In 6,478 + 2,411 = 8,889, what are the numbers 6,478 and 2,411 called?",
+      "options": [
+        "Totals",
+        "Minuends",
+        "Addends",
+        "Differences"
+      ],
+      "answer": 2,
+      "explanation": "The numbers being added are the addends; their result is the sum. Minuend and difference are subtraction words.",
+      "source": "book:page48"
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Vocabulary, Bar Models and Expanded Form",
+      "question": "In 6,478 − 2,411 = 4,067, which number is the minuend?",
+      "options": [
+        "6,478",
+        "2,411",
+        "4,067",
+        "8,889"
+      ],
+      "answer": 0,
+      "explanation": "The minuend is the number we subtract from (the larger number written first). 2,411 is the subtrahend and 4,067 is the difference.",
+      "source": "book:page48"
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Vocabulary, Bar Models and Expanded Form",
+      "question": "In a bar model for ADDITION, how are the two bars for the addends drawn?",
+      "options": [
+        "Stacked one below the other",
+        "Crossed over each other",
+        "One inside the other",
+        "Side by side in one row"
+      ],
+      "answer": 3,
+      "explanation": "For addition the bars are placed next to each other to show the two quantities being joined; a white bar below shows the total. Stacking bars one below the other is used for subtraction.",
+      "source": "book:page49"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Vocabulary, Bar Models and Expanded Form",
+      "question": "Why are the bars stacked one below the other in a SUBTRACTION bar model?",
+      "options": [
+        "To show a part taken away from a whole",
+        "To show two parts being joined",
+        "To make the drawing look taller",
+        "Because the numbers are 4-digit"
+      ],
+      "answer": 0,
+      "explanation": "Subtraction means taking a portion away from a whole. Stacking the second bar under the first shows the part removed, and the remaining white part is the difference.",
+      "source": "book:page58"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Vocabulary, Bar Models and Expanded Form",
+      "question": "What is the expanded form of 52,765?",
+      "options": [
+        "52,000 + 700 + 600 + 50 + 5",
+        "50,000 + 2,000 + 700 + 60 + 5",
+        "50,000 + 2,000 + 70 + 60 + 5",
+        "50,000 + 200 + 700 + 60 + 5"
+      ],
+      "answer": 1,
+      "explanation": "Each digit is written with its place value: 5 ten-thousands = 50,000, 2 thousands = 2,000, 7 hundreds = 700, 6 tens = 60 and 5 ones = 5.",
+      "source": "book:page49"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Vocabulary, Bar Models and Expanded Form",
+      "question": "What is the expanded form of 6,57,324?",
+      "options": [
+        "6,00,000 + 5,000 + 7,000 + 300 + 20 + 4",
+        "60,000 + 50,000 + 7,000 + 300 + 20 + 4",
+        "6,00,000 + 50,000 + 7,000 + 300 + 20 + 4",
+        "6,00,000 + 50,000 + 700 + 300 + 20 + 4"
+      ],
+      "answer": 2,
+      "explanation": "6 is in the lakhs place (6,00,000), 5 in ten-thousands (50,000), 7 in thousands (7,000), 3 hundreds, 2 tens and 4 ones.",
+      "source": "book:page50"
+    },
+    {
+      "id": "q13",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Vocabulary, Bar Models and Expanded Form",
+      "question": "In expanded form, 50,310 is written as 50,000 + 300 + 10 + 1.",
+      "answer": false,
+      "explanation": "The ones digit of 50,310 is 0, so there is no '+ 1'. The expanded form is 50,000 + 300 + 10 (+ 0). The book reminds us that empty places stand for zero.",
+      "source": "book:page50"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adding Without Regrouping",
+      "question": "Add: 52,765 + 36,134",
+      "options": [
+        "88,799",
+        "88,999",
+        "87,899",
+        "88,899"
+      ],
+      "answer": 3,
+      "explanation": "Add from the ones: 5 + 4 = 9, 6 + 3 = 9, 7 + 1 = 8, 2 + 6 = 8, 5 + 3 = 8. No column reaches 10, so no regrouping: 88,899.",
+      "source": "book:page49"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adding Without Regrouping",
+      "question": "Add: 6,57,324 + 3,11,334",
+      "options": [
+        "9,68,658",
+        "9,68,758",
+        "9,67,658",
+        "9,69,658"
+      ],
+      "answer": 0,
+      "explanation": "Column by column from the right: 4 + 4 = 8, 2 + 3 = 5, 3 + 3 = 6, 7 + 1 = 8, 5 + 1 = 6, 6 + 3 = 9. The sum is 9,68,658 with no carrying needed.",
+      "source": "book:page50"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adding Without Regrouping",
+      "question": "Add: 6,07,189 + 50,310 + 2,500",
+      "options": [
+        "6,59,899",
+        "6,59,999",
+        "6,69,999",
+        "6,58,999"
+      ],
+      "answer": 1,
+      "explanation": "Line up the ones under the ones: 9 + 0 + 0 = 9, 8 + 1 + 0 = 9, 1 + 3 + 5 = 9, 7 + 0 + 2 = 9, 0 + 5 = 5 ten-thousands, 6 lakhs. Sum = 6,59,999.",
+      "source": "book:page50"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adding Without Regrouping",
+      "question": "When adding numbers in columns, which place do we add first?",
+      "options": [
+        "Lakhs",
+        "Tens",
+        "Ones",
+        "Thousands"
+      ],
+      "answer": 2,
+      "explanation": "We always start at the ones place on the right and move left through tens, hundreds, thousands and so on, so that any carry goes to the next place.",
+      "source": "book:page49"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adding Without Regrouping",
+      "question": "Why does the book draw the place-value table up to the lakhs place when adding two 5-digit numbers?",
+      "options": [
+        "Lakhs must always be written",
+        "To leave room for the plus sign",
+        "Because 5-digit numbers have lakhs",
+        "Their sum may be a 6-digit number"
+      ],
+      "answer": 3,
+      "explanation": "Two 5-digit numbers can add up to a 6-digit number (for example 64,875 + 34,546 = 99,421 is close to it, and 55,555 + 66,666 = 1,22,221 crosses into lakhs), so a lakhs column is kept ready.",
+      "source": "book:page49"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adding Without Regrouping",
+      "question": "When adding 6,07,189; 50,310 and 2,500 in columns, what must we be most careful about?",
+      "options": [
+        "Lining up ones under ones, tens under tens",
+        "Writing the largest number at the bottom",
+        "Starting from the lakhs place on the left",
+        "Adding the three numbers two at a time"
+      ],
+      "answer": 0,
+      "explanation": "The numbers have different numbers of digits, so each must be aligned by place value from the right. An incorrect arrangement (left-aligned) gives a wrong answer.",
+      "source": "book:page50"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adding Without Regrouping",
+      "question": "Adding the expanded forms of two numbers gives 80,000 + 8,000 + 800 + 90 + 9. What is the sum?",
+      "options": [
+        "78,899",
+        "88,899",
+        "98,899",
+        "88,898"
+      ],
+      "answer": 1,
+      "explanation": "Put the place values back together: 80,000 + 8,000 = 88,000; + 800 = 88,800; + 90 = 88,890; + 9 = 88,899. This is the expanded-form answer for 52,765 + 36,134.",
+      "source": "book:page49"
+    },
+    {
+      "id": "q21",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Adding Without Regrouping",
+      "question": "The rules for adding 5-digit and 6-digit numbers are the same as those for adding 4-digit numbers.",
+      "answer": true,
+      "explanation": "The book states this directly: we still start at the ones place, then tens, hundreds and so on. Only the number of columns grows.",
+      "source": "book:page49"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adding With Regrouping",
+      "question": "Find the sum of 64,875 and 34,546.",
+      "options": [
+        "99,321",
+        "98,421",
+        "99,421",
+        "99,411"
+      ],
+      "answer": 2,
+      "explanation": "Ones 5 + 6 = 11 (write 1, carry 1), tens 1 + 7 + 4 = 12 (write 2, carry 1), hundreds 1 + 8 + 5 = 14 (write 4, carry 1), thousands 1 + 4 + 4 = 9, ten-thousands 6 + 3 = 9. Sum = 99,421.",
+      "source": "book:page51"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adding With Regrouping",
+      "question": "In 64,875 + 34,546, the ones place gives 5 + 6 = 11. What do we write and carry?",
+      "options": [
+        "Write 1, carry 1 to the tens",
+        "Write 11 in the ones place",
+        "Write 1, carry 1 to the hundreds",
+        "Write 0, carry 1 to the tens"
+      ],
+      "answer": 0,
+      "explanation": "11 ones = 1 ten + 1 one. The 1 one is written in the ones column and the 1 ten is carried to the tens column.",
+      "source": "book:page51"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adding With Regrouping",
+      "question": "Add: 4,69,839 + 4,53,278",
+      "options": [
+        "9,22,117",
+        "9,23,107",
+        "9,23,117",
+        "9,13,117"
+      ],
+      "answer": 2,
+      "explanation": "Ones 9 + 8 = 17 (carry 1), tens 1 + 3 + 7 = 11 (carry 1), hundreds 1 + 8 + 2 = 11 (carry 1), thousands 1 + 9 + 3 = 13 (carry 1), ten-thousands 1 + 6 + 5 = 12 (carry 1), lakhs 1 + 4 + 4 = 9. Sum = 9,23,117.",
+      "source": "book:page52"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adding With Regrouping",
+      "question": "Add 55,555 and 66,666.",
+      "options": [
+        "1,22,221",
+        "1,22,211",
+        "1,12,221",
+        "1,22,222"
+      ],
+      "answer": 0,
+      "explanation": "Every column gives 5 + 6 = 11 plus a carry: ones 11 (write 1), then 1 + 11 = 12 in each of the next four columns (write 2, carry 1), and the final carry makes the lakh. Sum = 1,22,221.",
+      "source": "worksheet WAP-1 Q2b"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adding With Regrouping",
+      "question": "What is the sum of 2,31,225 and 19,668?",
+      "options": [
+        "2,40,893",
+        "2,50,893",
+        "2,50,883",
+        "2,50,793"
+      ],
+      "answer": 1,
+      "explanation": "Ones 5 + 8 = 13 (carry 1), tens 1 + 2 + 6 = 9, hundreds 2 + 6 = 8, thousands 1 + 9 = 10 (carry 1), ten-thousands 1 + 3 + 1 = 5, lakhs 2. Sum = 2,50,893.",
+      "source": "worksheet WAP-1 Q2a"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adding With Regrouping",
+      "question": "Add: 5,22,424 + 4,10,563 + 3,25,431",
+      "options": [
+        "12,58,318",
+        "12,48,418",
+        "12,58,408",
+        "12,58,418"
+      ],
+      "answer": 3,
+      "explanation": "Ones 4 + 3 + 1 = 8, tens 2 + 6 + 3 = 11 (carry 1), hundreds 1 + 4 + 5 + 4 = 14 (carry 1), thousands 1 + 2 + 0 + 5 = 8, ten-thousands 2 + 1 + 2 = 5, lakhs 5 + 4 + 3 = 12. Sum = 12,58,418 — a 7-digit answer.",
+      "source": "worksheet MMJ-1 Q1b"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adding With Regrouping",
+      "question": "What is 13,569 more than 2,24,320?",
+      "options": [
+        "2,37,789",
+        "2,37,889",
+        "2,38,889",
+        "2,10,751"
+      ],
+      "answer": 1,
+      "explanation": "'More than' means add: 2,24,320 + 13,569. Ones 0 + 9 = 9, tens 2 + 6 = 8, hundreds 3 + 5 = 8, thousands 4 + 3 = 7, ten-thousands 2 + 1 = 3, lakhs 2. Sum = 2,37,889.",
+      "source": "book:page53"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adding With Regrouping",
+      "question": "For 64,875 + 34,546 the expanded forms add to 90,000 + 8,000 + 1,300 + 110 + 11. What is 1,300 + 110 + 11 after regrouping?",
+      "options": [
+        "1,411",
+        "1,321",
+        "1,421",
+        "1,431"
+      ],
+      "answer": 2,
+      "explanation": "11 = 1 ten + 1 one, so 110 + 11 = 121 = 1 hundred + 2 tens + 1 one; then 1,300 + 100 = 1,400. Altogether 1,421, which is why the final sum is 99,421.",
+      "source": "book:page51"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adding With Regrouping",
+      "question": "When do we need to regroup (carry) while adding a column?",
+      "options": [
+        "When the column total is exactly 9",
+        "Only in the lakhs column",
+        "When both digits are even",
+        "When the column total is 10 or more"
+      ],
+      "answer": 3,
+      "explanation": "If the digits in a place add to 10 or more, we keep the ones part in that column and carry the tens part to the next place on the left.",
+      "source": "book:page51"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adding With Regrouping",
+      "question": "Add: 8,264 + 52,347",
+      "options": [
+        "60,601",
+        "60,611",
+        "59,611",
+        "61,611"
+      ],
+      "answer": 1,
+      "explanation": "Align 8,264 under the thousands of 52,347. Ones 4 + 7 = 11 (carry 1), tens 1 + 6 + 4 = 11 (carry 1), hundreds 1 + 2 + 3 = 6, thousands 8 + 2 = 10 (carry 1), ten-thousands 1 + 5 = 6. Sum = 60,611.",
+      "source": "book:page57"
+    },
+    {
+      "id": "q32",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Adding With Regrouping",
+      "question": "Regrouping is needed in addition only when the digits in the ones place add up to 10 or more.",
+      "answer": false,
+      "explanation": "Regrouping can happen in any place — tens, hundreds, thousands too. For example in 64,875 + 34,546 the ones, tens AND hundreds columns all need regrouping.",
+      "source": "book:page51"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Properties of Addition and Missing Digits",
+      "question": "What is 87,896 + 0?",
+      "options": [
+        "87,986",
+        "87,897",
+        "87,896",
+        "87,890"
+      ],
+      "answer": 2,
+      "explanation": "Adding zero to any number leaves it unchanged: 87,896 + 0 = 87,896. In the same way 0 + 58,792 = 58,792.",
+      "source": "book:page53"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Properties of Addition and Missing Digits",
+      "question": "If 20,220 + 54,547 = 74,767, what is 54,547 + 20,220?",
+      "options": [
+        "74,776",
+        "74,667",
+        "34,327",
+        "74,767"
+      ],
+      "answer": 3,
+      "explanation": "Changing the order of the addends does not change the sum. So 54,547 + 20,220 is also 74,767 — no need to add again.",
+      "source": "book:page53"
+    },
+    {
+      "id": "q35",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Properties of Addition and Missing Digits",
+      "question": "When two numbers greater than zero are added, the sum is greater than each of the addends.",
+      "answer": true,
+      "explanation": "The book lists this as a property: the sum must be greater than each addend (for example 20,220 + 54,547 = 74,767 is bigger than both). Only adding zero keeps the number the same.",
+      "source": "book:page53"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Properties of Addition and Missing Digits",
+      "question": "Fill the blank: 42,257 + 1,632 = ______ + 42,257",
+      "options": [
+        "42,257",
+        "43,889",
+        "1,632",
+        "1,623"
+      ],
+      "answer": 2,
+      "explanation": "The order of addends can be swapped without changing the sum, so the blank is the other addend, 1,632. Both sides equal 43,889.",
+      "source": "book:page55"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Properties of Addition and Missing Digits",
+      "question": "In a missing-digit sum the ones column reads 9 + __ = 7. What is the missing digit?",
+      "options": [
+        "2",
+        "8",
+        "7",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "A sum digit of 7 that is smaller than 9 tells us the real column total is 17. 9 + 8 = 17, so the missing digit is 8 and 1 is carried to the tens.",
+      "source": "book:page54"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Properties of Addition and Missing Digits",
+      "question": "In 55,4_6 + 10,463 = 65,899, which digit fills the blank in the tens place?",
+      "options": [
+        "4",
+        "2",
+        "9",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "Ones: 6 + 3 = 9 with no carry. Tens: _ + 6 = 9, so the missing digit is 3. Check: 55,436 + 10,463 = 65,899.",
+      "source": "worksheet WAP-2 Q2a"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Properties of Addition and Missing Digits",
+      "question": "Statement (I): Adding 9 and 0 in the ones place needs regrouping to the tens. Statement (II): Adding zero to a number leaves it unchanged. Choose the correct option.",
+      "options": [
+        "Both (I) and (II) are true",
+        "(I) is false and (II) is true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false"
+      ],
+      "answer": 1,
+      "explanation": "9 + 0 = 9, which is less than 10, so no regrouping is needed — (I) is false. Adding zero never changes a number — (II) is true.",
+      "source": "book:page57"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Properties of Addition and Missing Digits",
+      "question": "Statement (I): The sum of two numbers stays the same if we change their order. Statement (II): Missing numbers in addition can be found using subtraction. Choose the correct option.",
+      "options": [
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "Both (I) and (II) are true",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 2,
+      "explanation": "Order does not change a sum (property of addition), and because subtraction is the reverse of addition, a missing addend = sum − known addend. Both statements are true.",
+      "source": "worksheet MMJ-2 Q4"
+    },
+    {
+      "id": "q41",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Properties of Addition and Missing Digits",
+      "question": "Select the TWO statements that are true.",
+      "options": [
+        "Adding 0 to a number leaves the number unchanged",
+        "Changing the order of the addends changes the sum",
+        "The sum of two non-zero numbers is greater than each addend",
+        "Subtracting a number from itself gives that number"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Adding zero keeps a number the same and a sum is larger than each (non-zero) addend. Changing order does NOT change the sum, and a number minus itself is 0, not the number.",
+      "source": "book:page53"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subtracting Without Regrouping",
+      "question": "Subtract 34,867 from 49,987.",
+      "options": [
+        "15,130",
+        "14,120",
+        "15,020",
+        "15,120"
+      ],
+      "answer": 3,
+      "explanation": "Ones 7 − 7 = 0, tens 8 − 6 = 2, hundreds 9 − 8 = 1, thousands 9 − 4 = 5, ten-thousands 4 − 3 = 1. Difference = 15,120; no regrouping needed.",
+      "source": "book:page59"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subtracting Without Regrouping",
+      "question": "Using expanded form for 49,987 − 34,867, the thousands step is 9,000 − 4,000. What does it give?",
+      "options": [
+        "5,000",
+        "4,000",
+        "6,000",
+        "13,000"
+      ],
+      "answer": 0,
+      "explanation": "9,000 − 4,000 = 5,000. Adding all the place differences 10,000 + 5,000 + 100 + 20 + 0 gives 15,120.",
+      "source": "book:page59"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subtracting Without Regrouping",
+      "question": "Subtract: 3,98,984 − 1,64,564",
+      "options": [
+        "2,34,410",
+        "2,34,420",
+        "2,33,420",
+        "2,24,420"
+      ],
+      "answer": 1,
+      "explanation": "Ones 4 − 4 = 0, tens 8 − 6 = 2, hundreds 9 − 5 = 4, thousands 8 − 4 = 4, ten-thousands 9 − 6 = 3, lakhs 3 − 1 = 2. Difference = 2,34,420.",
+      "source": "book:page60"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subtracting Without Regrouping",
+      "question": "Subtract: 2,09,830 − 2,01,210",
+      "options": [
+        "8,620",
+        "8,630",
+        "8,520",
+        "9,620"
+      ],
+      "answer": 0,
+      "explanation": "The lakhs cancel (2 − 2 = 0) and 0 − 0 = 0 ten-thousands, so the answer is only 4 digits: 9 − 1 = 8 thousands, 8 − 2 = 6 hundreds, 3 − 1 = 2 tens, 0 ones. Difference = 8,620.",
+      "source": "book:page62"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subtracting Without Regrouping",
+      "question": "Find the difference between 57,889 and 36,643.",
+      "options": [
+        "21,236",
+        "20,246",
+        "21,246",
+        "21,146"
+      ],
+      "answer": 2,
+      "explanation": "Ones 9 − 3 = 6, tens 8 − 4 = 4, hundreds 8 − 6 = 2, thousands 7 − 6 = 1, ten-thousands 5 − 3 = 2. Difference = 21,246.",
+      "source": "book:page66"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subtracting Without Regrouping",
+      "question": "What is the difference between 23,156 and 10,031?",
+      "options": [
+        "13,135",
+        "12,125",
+        "13,025",
+        "13,125"
+      ],
+      "answer": 3,
+      "explanation": "Ones 6 − 1 = 5, tens 5 − 3 = 2, hundreds 1 − 0 = 1, thousands 3 − 0 = 3, ten-thousands 2 − 1 = 1. Difference = 13,125.",
+      "source": "book:page66"
+    },
+    {
+      "id": "q48",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Subtracting Without Regrouping",
+      "question": "In 49,987 − 34,867 no regrouping is needed because every digit of the minuend is greater than or equal to the digit below it.",
+      "answer": true,
+      "explanation": "Compare each column: 7 ≥ 7, 8 ≥ 6, 9 ≥ 8, 9 ≥ 4, 4 ≥ 3. Since no top digit is smaller, we subtract directly and get 15,120.",
+      "source": "book:page59"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subtracting With Regrouping",
+      "question": "Subtract: 65,432 − 26,524",
+      "options": [
+        "38,908",
+        "38,918",
+        "39,908",
+        "38,808"
+      ],
+      "answer": 0,
+      "explanation": "Ones: 2 < 4, regroup → 12 − 4 = 8. Tens: 2 − 2 = 0. Hundreds: 4 < 5, regroup → 14 − 5 = 9. Thousands: 4 < 6, regroup → 14 − 6 = 8. Ten-thousands: 5 − 2 = 3. Difference = 38,908.",
+      "source": "book:page61"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subtracting With Regrouping",
+      "question": "In 65,432 − 26,524, why do we regroup at the ones place?",
+      "options": [
+        "Because 2 ones is more than 4 ones",
+        "Because 2 ones is less than 4 ones",
+        "Because the tens digit is 3",
+        "Because both numbers have 5 digits"
+      ],
+      "answer": 1,
+      "explanation": "We cannot take 4 ones from 2 ones, so we borrow 1 ten (10 ones) from the tens place: 12 − 4 = 8 ones.",
+      "source": "book:page61"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subtracting With Regrouping",
+      "question": "Subtract: 78,105 − 39,816",
+      "options": [
+        "38,299",
+        "39,289",
+        "38,289",
+        "38,189"
+      ],
+      "answer": 2,
+      "explanation": "Ones: 5 < 6, but tens is 0, so borrow from the hundreds first: hundreds 1 → 0, tens → 10 → 9, ones → 15. 15 − 6 = 9, 9 − 1 = 8, hundreds 0 < 8 → borrow: 10 − 8 = 2, thousands 7 < 9 → borrow: 17 − 9 = 8, ten-thousands 6 − 3 = 3. Difference = 38,289.",
+      "source": "book:page61"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subtracting With Regrouping",
+      "question": "Subtract: 8,76,311 − 2,85,462",
+      "options": [
+        "5,90,849",
+        "5,90,859",
+        "5,91,849",
+        "5,80,849"
+      ],
+      "answer": 0,
+      "explanation": "Ones 11 − 2 = 9 (regroup), tens 0 − 6 → 10 − 6 = 4 (regroup), hundreds 2 − 4 → 12 − 4 = 8 (regroup), thousands 5 − 5 = 0, ten-thousands 7 < 8 → 17 − 8 = 9 (regroup), lakhs 7 − 2 = 5. Difference = 5,90,849.",
+      "source": "book:page62"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subtracting With Regrouping",
+      "question": "Subtract: 5,24,700 − 3,16,672",
+      "options": [
+        "2,08,038",
+        "2,08,028",
+        "2,09,028",
+        "2,07,028"
+      ],
+      "answer": 1,
+      "explanation": "Ones 0 < 2: borrow through the zero tens from the hundreds (7 → 6, tens 10 → 9, ones 10): 10 − 2 = 8, 9 − 7 = 2, 6 − 6 = 0, thousands 4 < 6 → 14 − 6 = 8, ten-thousands 1 − 1 = 0, lakhs 5 − 3 = 2. Difference = 2,08,028.",
+      "source": "book:page62"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subtracting With Regrouping",
+      "question": "Arrange in columns and subtract: 9,561 − 742",
+      "options": [
+        "8,829",
+        "8,719",
+        "8,819",
+        "9,819"
+      ],
+      "answer": 2,
+      "explanation": "Ones: 1 < 2, regroup → 11 − 2 = 9. Tens: 5 − 4 = 1. Hundreds: 5 < 7, regroup → 15 − 7 = 8. Thousands: 8 − 0 = 8. Difference = 8,819.",
+      "source": "worksheet MMJ-2 Q1a"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Subtracting With Regrouping",
+      "question": "What is the difference between 8,02,300 and 11,678?",
+      "options": [
+        "7,90,632",
+        "7,91,622",
+        "7,90,622",
+        "6,90,622"
+      ],
+      "answer": 2,
+      "explanation": "Align 11,678 under the ten-thousands of 8,02,300. Ones 10 − 8 = 2, tens 9 − 7 = 2, hundreds 2 − 6 → 12 − 6 = 6, thousands 1 − 1 = 0 (after lending), ten-thousands 10 − 1 = 9, lakhs 7. Difference = 7,90,622.",
+      "source": "book:page63"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subtracting With Regrouping",
+      "question": "How much is 43,446 more than 27,401?",
+      "options": [
+        "16,045",
+        "16,055",
+        "15,045",
+        "16,145"
+      ],
+      "answer": 0,
+      "explanation": "Subtract the smaller from the larger: 43,446 − 27,401. Ones 6 − 1 = 5, tens 4 − 0 = 4, hundreds 4 − 4 = 0, thousands 3 < 7 → 13 − 7 = 6, ten-thousands 3 − 2 = 1. Answer 16,045.",
+      "source": "worksheet WAP-3 Q2a"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Subtracting With Regrouping",
+      "question": "In 5,24,700 − 3,16,672 the tens place is 0, so we borrow from the hundreds. After lending, how many hundreds are left in the minuend to subtract 6 from?",
+      "options": [
+        "7 hundreds",
+        "5 hundreds",
+        "16 hundreds",
+        "6 hundreds"
+      ],
+      "answer": 3,
+      "explanation": "The 7 hundreds lend 1 hundred (10 tens) to the tens place, leaving 6 hundreds. Then 6 − 6 = 0 in the hundreds place, which is why the answer 2,08,028 has a 0 there.",
+      "source": "book:page62"
+    },
+    {
+      "id": "q58",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Subtracting With Regrouping",
+      "question": "In 78,105 − 39,816, the ones column 5 − 6 can be done without any regrouping.",
+      "answer": false,
+      "explanation": "5 ones is less than 6 ones, so we must regroup. Because the tens digit is 0 we borrow from the hundreds first, turning the ones into 15 and 15 − 6 = 9.",
+      "source": "book:page61"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Inverse Operations and Checking Answers",
+      "question": "Which sentence shows how addition and subtraction are related?",
+      "options": [
+        "Difference + subtrahend = minuend",
+        "Difference + minuend = subtrahend",
+        "Minuend + subtrahend = difference",
+        "Subtrahend − difference = minuend"
+      ],
+      "answer": 0,
+      "explanation": "The bar model for 49,987 − 34,867 = 15,120 shows 34,867 + 15,120 = 49,987. Adding the difference back to the subtrahend returns the minuend, which is how we check subtraction.",
+      "source": "book:page59"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Inverse Operations and Checking Answers",
+      "question": "Which addition checks that 65,432 − 26,524 = 38,908 is correct?",
+      "options": [
+        "38,908 − 26,524 = 12,384",
+        "38,908 + 26,524 = 65,432",
+        "65,432 + 26,524 = 91,956",
+        "65,432 + 38,908 = 1,04,340"
+      ],
+      "answer": 1,
+      "explanation": "To verify a subtraction, add the difference and the subtrahend; you should get the minuend: 38,908 + 26,524 = 65,432.",
+      "source": "book:page61"
+    },
+    {
+      "id": "q61",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Inverse Operations and Checking Answers",
+      "question": "From the addition fact 34,867 + 15,120 = 49,987, select the TWO subtraction facts.",
+      "options": [
+        "49,987 − 34,867 = 15,120",
+        "49,987 − 15,120 = 34,867",
+        "34,867 − 15,120 = 19,747",
+        "15,120 + 34,867 = 49,987"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Every addition fact gives two subtraction facts: take either addend away from the sum. 15,120 + 34,867 is just the addition fact written the other way, and 34,867 − 15,120 is not part of this fact family.",
+      "source": "book:page60"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Inverse Operations and Checking Answers",
+      "question": "Statement (I): For every addition fact there is exactly one subtraction fact. Statement (II): Addition and subtraction are reverse operations. Choose the correct option.",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 3,
+      "explanation": "Each addition fact gives TWO subtraction facts, so (I) is false. Addition undoes subtraction and vice versa, so (II) is true.",
+      "source": "book:page67"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Inverse Operations and Checking Answers",
+      "question": "The sum of two numbers is 5,56,540. One number is 75,342. What is the other number?",
+      "options": [
+        "4,81,298",
+        "4,81,198",
+        "4,82,198",
+        "4,71,198"
+      ],
+      "answer": 1,
+      "explanation": "A missing addend is found by subtracting: 5,56,540 − 75,342. Ones 0 < 2 → 10 − 2 = 8, tens 3 − 4 → 13 − 4 = 9, hundreds 4 − 3 = 1, thousands 6 − 5 = 1, ten-thousands 5 − 7 → 15 − 7 = 8, lakhs 4. Other number = 4,81,198.",
+      "source": "book:page76"
+    },
+    {
+      "id": "q64",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Inverse Operations and Checking Answers",
+      "question": "To check a subtraction answer, add the difference to the minuend and you should get the subtrahend.",
+      "answer": false,
+      "explanation": "It is the other way round: difference + SUBTRAHEND = MINUEND. For example 15,120 + 34,867 = 49,987.",
+      "source": "book:page59"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Inverse Operations and Checking Answers",
+      "question": "India's western coast is 1,500 km long, of which 875 km is sandy beaches. How long is the coastline with rocky shores, cliffs and mangroves?",
+      "options": [
+        "635",
+        "725",
+        "625",
+        "525"
+      ],
+      "answer": 2,
+      "explanation": "The parts make up the whole, so rocky coastline = 1,500 − 875 = 625 km (10 − 5 = 5 ones, 9 − 7 = 2 tens, 4 − 8 → 14 − 8 = 6 hundreds).",
+      "source": "book:page65"
+    },
+    {
+      "id": "q66",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Inverse Operations and Checking Answers",
+      "question": "From the coastline bar model (1,500 km total, 875 km sandy, 625 km rocky), select the TWO correct facts.",
+      "options": [
+        "875 + 625 = 1,500",
+        "1,500 − 875 = 625",
+        "1,500 + 875 = 2,375",
+        "875 − 625 = 1,500"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The addition fact joins the two parts into the whole (875 + 625 = 1,500) and a subtraction fact removes one part from the whole (1,500 − 875 = 625). The other two sentences do not describe the model.",
+      "source": "book:page65"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Properties of Subtraction and Missing Digits",
+      "question": "What is 20,220 − 20,220?",
+      "options": [
+        "1",
+        "20,220",
+        "0",
+        "40,440"
+      ],
+      "answer": 2,
+      "explanation": "Any number subtracted from itself gives zero. 40,440 would be the SUM 20,220 + 20,220.",
+      "source": "book:page63"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Properties of Subtraction and Missing Digits",
+      "question": "Statement (I): Subtracting a number from the same number gives zero. Statement (II): Subtracting zero from a number gives zero. Choose the correct option.",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is false and (II) is true",
+        "(I) is true and (II) is false"
+      ],
+      "answer": 3,
+      "explanation": "2,137 − 2,137 = 0, so (I) is true. But 2,340 − 0 = 2,340 (the number itself), not zero, so (II) is false.",
+      "source": "worksheet MMJ-3 Q7"
+    },
+    {
+      "id": "q69",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Properties of Subtraction and Missing Digits",
+      "question": "Subtracting zero from 87,896 leaves the number unchanged, so 87,896 − 0 = 87,896.",
+      "answer": true,
+      "explanation": "Taking away nothing leaves the number as it is. It is subtracting a number from ITSELF (20,220 − 20,220) that gives 0.",
+      "source": "book:page63"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Properties of Subtraction and Missing Digits",
+      "question": "In a missing-digit subtraction the ones column reads 8 − __ = 1. What is the missing digit?",
+      "options": [
+        "9",
+        "7",
+        "1",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "8 − 7 = 1, so the missing digit is 7. Missing digits in subtraction are found with basic subtraction facts.",
+      "source": "book:page63"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Properties of Subtraction and Missing Digits",
+      "question": "In the same problem the tens column reads 0 − 8 = 2, so we must regroup. After lending to the tens, the 4 in the hundreds place of the minuend becomes",
+      "options": [
+        "5",
+        "14",
+        "3",
+        "0"
+      ],
+      "answer": 2,
+      "explanation": "We cannot take 8 from 0, so we borrow 1 hundred (10 tens): 10 − 8 = 2. The hundreds digit 4 drops to 3, which the book writes above the column.",
+      "source": "book:page63"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Properties of Subtraction and Missing Digits",
+      "question": "Find the subtrahend: 45,879 − 3_,2_5 = _1,_3_ (no regrouping is needed).",
+      "options": [
+        "34,235",
+        "33,245",
+        "34,255",
+        "34,245"
+      ],
+      "answer": 3,
+      "explanation": "Work column by column: ones 9 − 5 = 4; tens 7 − _ = 3 → 4; hundreds 8 − 2 = 6; thousands 5 − _ = 1 → 4; ten-thousands 4 − 3 = 1. Subtrahend 34,245, difference 11,634.",
+      "source": "book:page65"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Properties of Subtraction and Missing Digits",
+      "question": "Find the number that is 9,999 less than 9,99,999.",
+      "options": [
+        "9,90,009",
+        "9,90,000",
+        "9,00,000",
+        "9,99,000"
+      ],
+      "answer": 1,
+      "explanation": "9,99,999 − 9,999: the last four places are 9 − 9 = 0 each, leaving 9 ten-thousands and 9 lakhs. Answer 9,90,000.",
+      "source": "worksheet MMJ-2 Q2"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "One-Step Word Problems",
+      "question": "A warehouse has 52,450 blue pens and 46,375 black pens. How many pens are there in all?",
+      "options": [
+        "98,825",
+        "98,815",
+        "97,825",
+        "98,725"
+      ],
+      "answer": 0,
+      "explanation": "'In all' means add: 52,450 + 46,375. Ones 0 + 5 = 5, tens 5 + 7 = 12 (carry 1), hundreds 1 + 4 + 3 = 8, thousands 2 + 6 = 8, ten-thousands 5 + 4 = 9. Total 98,825.",
+      "source": "worksheet WAP-5 Q2"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "One-Step Word Problems",
+      "question": "A SkyJet return ticket costs ₹78,500. The AeroFly ticket costs ₹7,200 more. What does the AeroFly ticket cost?",
+      "options": [
+        "85,600",
+        "85,700",
+        "86,700",
+        "71,300"
+      ],
+      "answer": 1,
+      "explanation": "'₹7,200 more' means add: 78,500 + 7,200 = 85,700 (5 + 2 = 7 hundreds, 8 + 7 = 15 thousands → write 5 carry 1, 7 + 1 = 8 ten-thousands).",
+      "source": "worksheet WAP-5 Q1"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "One-Step Word Problems",
+      "question": "Sujeet has ₹97,986 and Sachin has ₹59,666. How much more money does Sujeet have?",
+      "options": [
+        "38,330",
+        "37,320",
+        "38,320",
+        "48,320"
+      ],
+      "answer": 2,
+      "explanation": "'How much more' means subtract: 97,986 − 59,666. Ones 6 − 6 = 0, tens 8 − 6 = 2, hundreds 9 − 6 = 3, thousands 7 < 9 → 17 − 9 = 8, ten-thousands 8 − 5 = 3. Answer ₹38,320.",
+      "source": "worksheet WAP-5 Q3"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "One-Step Word Problems",
+      "question": "Three election candidates got 45,486; 1,23,698 and 4,58,795 votes. How many votes were polled in total?",
+      "options": [
+        "6,27,879",
+        "6,17,979",
+        "6,27,969",
+        "6,27,979"
+      ],
+      "answer": 3,
+      "explanation": "Add all three: 45,486 + 1,23,698 + 4,58,795. Ones 6 + 8 + 5 = 19 (carry 1), tens 1 + 8 + 9 + 9 = 27 (carry 2), hundreds 2 + 4 + 6 + 7 = 19 (carry 1), thousands 1 + 5 + 3 + 8 = 17 (carry 1), ten-thousands 1 + 4 + 2 + 5 = 12 (carry 1), lakhs 1 + 1 + 4 = 6. Total 6,27,979.",
+      "source": "worksheet MMJ-3 Q2"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "One-Step Word Problems",
+      "question": "A village has 45,236 men, 39,567 women and 14,562 children. What is its total population?",
+      "options": [
+        "99,365",
+        "99,355",
+        "98,365",
+        "99,265"
+      ],
+      "answer": 0,
+      "explanation": "Add the three groups: 45,236 + 39,567 + 14,562. Ones 6 + 7 + 2 = 15 (carry 1), tens 1 + 3 + 6 + 6 = 16 (carry 1), hundreds 1 + 2 + 5 + 5 = 13 (carry 1), thousands 1 + 5 + 9 + 4 = 19 (carry 1), ten-thousands 1 + 4 + 3 + 1 = 9. Total 99,365.",
+      "source": "book:page70"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "One-Step Word Problems",
+      "question": "Town A has 4,56,987 people and town B has 7,89,456. By how much is town B's population greater?",
+      "options": [
+        "3,32,479",
+        "3,32,469",
+        "3,33,469",
+        "3,22,469"
+      ],
+      "answer": 1,
+      "explanation": "Subtract the smaller from the greater: 7,89,456 − 4,56,987. Ones 16 − 7 = 9, tens 14 − 8 = 6, hundreds 13 − 9 = 4, thousands 8 − 6 = 2, ten-thousands 8 − 5 = 3, lakhs 7 − 4 = 3. Town B is greater by 3,32,469.",
+      "source": "book:page70"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "One-Step Word Problems",
+      "question": "Nipun collected ₹5,12,852 and Aditya collected ₹5,74,249 by selling insurance. Who collected more, and by how much?",
+      "options": [
+        "61,407",
+        "61,397",
+        "62,397",
+        "51,397"
+      ],
+      "answer": 1,
+      "explanation": "Aditya's amount is larger. 5,74,249 − 5,12,852: ones 9 − 2 = 7, tens 4 − 5 → 14 − 5 = 9, hundreds 1 − 8 → 11 − 8 = 3, thousands 3 − 2 = 1, ten-thousands 7 − 1 = 6, lakhs 5 − 5 = 0. Aditya collected ₹61,397 more.",
+      "source": "book:page75"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "One-Step Word Problems",
+      "question": "The Arctic Tern migrates 44,000 miles and the Pied Wheatear 11,184 miles. How much farther does the Arctic Tern fly?",
+      "options": [
+        "32,826",
+        "33,816",
+        "32,916",
+        "32,816"
+      ],
+      "answer": 3,
+      "explanation": "44,000 − 11,184: borrow across the zeros — ones 10 − 4 = 6, tens 9 − 8 = 1, hundreds 9 − 1 = 8, thousands 3 − 1 = 2, ten-thousands 4 − 1 = 3. The tern flies 32,816 miles farther.",
+      "source": "book:page77"
+    },
+    {
+      "id": "q82",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "One-Step Word Problems",
+      "question": "Totals: Sachin 36,681; Ganguly 19,924; Kohli 24,884; Dhoni 20,081; Rohit 16,370. Select ALL players with more than 24,000 total runs.",
+      "options": [
+        "Sachin Tendulkar",
+        "Saurabh Ganguly",
+        "Virat Kohli",
+        "M.S. Dhoni",
+        "Rohit Sharma"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Only 36,681 (Sachin) and 24,884 (Kohli) are above 24,000. Dhoni's 20,081 and Ganguly's 19,924 are below, as is Rohit's 16,370.",
+      "source": "worksheet MMJ-3 Q1"
+    },
+    {
+      "id": "q83",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "One-Step Word Problems",
+      "question": "To find the total population of a village from the numbers of men, women and children, we subtract the three numbers.",
+      "answer": false,
+      "explanation": "A total is found by ADDING the parts: 45,236 + 39,567 + 14,562 = 99,365. Subtraction is used to compare, e.g. how much bigger one town is than another.",
+      "source": "book:page69"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Two-Step Word Problems",
+      "question": "Ritika bought a notebook for ₹25 and a pen for ₹135, and got a discount of ₹20. How much did she pay?",
+      "options": [
+        "180",
+        "140",
+        "160",
+        "130"
+      ],
+      "answer": 1,
+      "explanation": "Step 1: total cost 25 + 135 = 160. Step 2: subtract the discount 160 − 20 = 140. She paid ₹140.",
+      "source": "book:page71"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Two-Step Word Problems",
+      "question": "Ritika's notebook-and-pen problem is a two-step problem. Which operations are used, in order?",
+      "options": [
+        "Subtraction, then addition",
+        "Addition, then addition",
+        "Addition, then subtraction",
+        "Subtraction, then subtraction"
+      ],
+      "answer": 2,
+      "explanation": "First the prices are added to get the total (₹160), then the discount is subtracted (₹140). The two steps use different operations.",
+      "source": "book:page71"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Two-Step Word Problems",
+      "question": "32,456 spectators came on day 1 and 17,589 MORE came on day 2. How many spectators came on day 2?",
+      "options": [
+        "50,035",
+        "49,045",
+        "14,867",
+        "50,045"
+      ],
+      "answer": 3,
+      "explanation": "Day 2 = day 1 + 17,589 = 32,456 + 17,589. Ones 6 + 9 = 15 (carry 1), tens 1 + 5 + 8 = 14 (carry 1), hundreds 1 + 4 + 5 = 10 (carry 1), thousands 1 + 2 + 7 = 10 (carry 1), ten-thousands 1 + 3 + 1 = 5. Day 2 = 50,045.",
+      "source": "book:page72"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Two-Step Word Problems",
+      "question": "32,456 spectators came on day 1 and 50,045 on day 2. What is the total for both days?",
+      "options": [
+        "82,501",
+        "82,491",
+        "81,501",
+        "82,601"
+      ],
+      "answer": 0,
+      "explanation": "Add both days: 32,456 + 50,045. Ones 6 + 5 = 11 (carry 1), tens 1 + 5 + 4 = 10 (carry 1), hundreds 1 + 4 + 0 = 5, thousands 2 + 0 = 2, ten-thousands 3 + 5 = 8. Total 82,501.",
+      "source": "book:page72"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Two-Step Word Problems",
+      "question": "Mrs. Smita had ₹1,50,000. She bought a TV for ₹43,538 and a refrigerator for ₹25,990. How much money is left?",
+      "options": [
+        "80,482",
+        "81,472",
+        "80,472",
+        "80,372"
+      ],
+      "answer": 2,
+      "explanation": "Step 1: total spent 43,538 + 25,990 = 69,528. Step 2: 1,50,000 − 69,528 = 80,472 (borrow across the zeros: 10 − 8 = 2, 9 − 2 = 7, 9 − 5 = 4, 9 − 9 = 0, 14 − 6 = 8).",
+      "source": "worksheet MMJ-3 Q4"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Two-Step Word Problems",
+      "question": "A shopkeeper had 60,000 uniforms. He sold 12,372 in week 1 and 23,003 in week 2. How many are left after week 2?",
+      "options": [
+        "24,635",
+        "25,625",
+        "24,525",
+        "24,625"
+      ],
+      "answer": 3,
+      "explanation": "Step 1: sold 12,372 + 23,003 = 35,375. Step 2: 60,000 − 35,375 = 24,625 (10 − 5 = 5, 9 − 7 = 2, 9 − 3 = 6, 9 − 5 = 4, 5 − 3 = 2).",
+      "source": "worksheet MMJ-3 Q5"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Two-Step Word Problems",
+      "question": "A town has 6,98,575 people: 2,46,218 men, 3,39,464 women and the rest children. How many children are there?",
+      "options": [
+        "1,12,883",
+        "1,12,893",
+        "1,13,893",
+        "1,02,893"
+      ],
+      "answer": 1,
+      "explanation": "Step 1: men + women = 2,46,218 + 3,39,464 = 5,85,682. Step 2: 6,98,575 − 5,85,682 = 1,12,893.",
+      "source": "book:page75"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Two-Step Word Problems",
+      "question": "Rita earns ₹80,000 a month and spends ₹23,000 on rent, ₹1,665 on bills, ₹3,335 on travel, ₹8,543 on food and ₹2,557 on entertainment. What are her actual savings?",
+      "options": [
+        "40,800",
+        "41,900",
+        "39,100",
+        "40,900"
+      ],
+      "answer": 3,
+      "explanation": "Step 1: total expenses 23,000 + 1,665 + 3,335 + 8,543 + 2,557 = 39,100 (1,665 + 3,335 = 5,000 makes it quick). Step 2: 80,000 − 39,100 = 40,900.",
+      "source": "book:page76"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Two-Step Word Problems",
+      "question": "From the number grid, the greatest total of four numbers from different rows is 43,375 and the lowest total from different columns is 845. What is the difference between the two totals?",
+      "options": [
+        "42,540",
+        "43,530",
+        "42,530",
+        "42,430"
+      ],
+      "answer": 2,
+      "explanation": "43,375 − 845: ones 5 − 5 = 0, tens 7 − 4 = 3, hundreds 3 < 8 → 13 − 8 = 5, thousands 3 − 1 (lent) = 2, ten-thousands 4. Difference = 42,530.",
+      "source": "worksheet MMJ-2 Q5c"
+    },
+    {
+      "id": "q93",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Two-Step Word Problems",
+      "question": "The cricket-spectators problem is a two-step problem that uses two different operations.",
+      "answer": false,
+      "explanation": "Both steps are additions (find day 2, then add day 1 and day 2). Ritika's shopping problem is the one with two different operations — add, then subtract.",
+      "source": "book:page71"
+    },
+    {
+      "id": "q94",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Estimation by Rounding",
+      "question": "Mr. Bajaj's estimated total of ₹8,300 + ₹3,000 = ₹11,300 shows the air conditioner and refrigerator fit within his ₹12,000 budget.",
+      "answer": true,
+      "explanation": "Rounding each price to the nearest hundred gives an estimate of ₹11,300, which is less than ₹12,000, so the purchase is within budget (the exact total is ₹11,310).",
+      "source": "book:page72"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Estimation by Rounding",
+      "question": "Out of 9,880 tickets, 3,111 were sold. Estimate the tickets remaining by rounding to the nearest hundred.",
+      "options": [
+        "6,700",
+        "6,769",
+        "6,800",
+        "6,900"
+      ],
+      "answer": 2,
+      "explanation": "9,880 → 9,900 and 3,111 → 3,100. Estimated difference = 9,900 − 3,100 = 6,800 tickets (exact answer 6,769).",
+      "source": "book:page72"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Estimation by Rounding",
+      "question": "A camp has 143 boys and 126 girls, and 42 volunteers. Using rounding to the nearest ten, about how many more campers are there than volunteers?",
+      "options": [
+        "220",
+        "230",
+        "240",
+        "227"
+      ],
+      "answer": 1,
+      "explanation": "Campers = 143 + 126 = 269 → 270; volunteers 42 → 40. Estimate = 270 − 40 = 230 more campers.",
+      "source": "worksheet WAP-5 Q5a"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Estimation by Rounding",
+      "question": "According to the book, to estimate with a 4-digit number we usually round to the nearest",
+      "options": [
+        "Ten",
+        "Thousand",
+        "Hundred",
+        "Lakh"
+      ],
+      "answer": 2,
+      "explanation": "The book says: for a 4-digit number round to the nearest hundred, and for a 3-digit number round to the nearest ten.",
+      "source": "book:page73"
+    },
+    {
+      "id": "q98",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Estimation by Rounding",
+      "question": "The lower the place value we round to, the closer the estimate is to the actual answer.",
+      "answer": true,
+      "explanation": "Rounding to the nearest ten keeps more of the original number than rounding to the nearest hundred, so the estimate is closer — but it may take longer for very large numbers.",
+      "source": "book:page73"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Estimation by Rounding",
+      "question": "A plantation had 5,689 trees and 1,853 were damaged. Estimate the trees left by rounding to the nearest TEN.",
+      "options": [
+        "3,800",
+        "3,830",
+        "3,850",
+        "3,840"
+      ],
+      "answer": 3,
+      "explanation": "5,689 → 5,690 and 1,853 → 1,850. Estimate = 5,690 − 1,850 = 3,840. (Nearest hundred would give 5,700 − 1,900 = 3,800; the exact answer is 3,836, so the nearest-ten estimate is closer.)",
+      "source": "book:page75"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Estimation by Rounding",
+      "question": "Mr. Raghav bought a phone for ₹6,142 and a table for ₹4,280 (actual total ₹10,422). Which rounding gives the closer estimate?",
+      "options": [
+        "Nearest ten: 6,140 + 4,280 = 10,420",
+        "Nearest hundred: 6,100 + 4,300 = 10,400",
+        "Nearest thousand: 6,000 + 4,000 = 10,000",
+        "Both roundings give the same estimate"
+      ],
+      "answer": 0,
+      "explanation": "10,420 is only 2 away from 10,422, while 10,400 is 22 away. Rounding to a lower place value gives a closer estimate.",
+      "source": "book:page75"
+    },
+    {
+      "id": "q101",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Estimation by Rounding",
+      "question": "For very large numbers, rounding to the nearest ten is the quickest way to get an estimate.",
+      "answer": false,
+      "explanation": "The book warns that for large numbers rounding to the nearest ten will NOT give a quick answer; round to a higher place value (hundreds or thousands) for speed.",
+      "source": "book:page73"
+    },
+    {
+      "id": "q102",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Estimation by Rounding",
+      "question": "Select ALL the amounts that round to 3,000 when rounded to the nearest hundred.",
+      "options": [
+        "2,970",
+        "3,040",
+        "2,940",
+        "3,060"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "2,970 and 3,040 are within 50 of 3,000 (2,950 up to 3,049 round to 3,000). 2,940 rounds to 2,900 and 3,060 rounds to 3,100.",
+      "source": "book:page72"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Backward Strategy and Computational Thinking",
+      "question": "Which step of computational thinking means focusing on the key information and ignoring extra details?",
+      "options": [
+        "Decomposition (Break it)",
+        "Pattern Recognition (Spot it)",
+        "Algorithm (Solve it)",
+        "Abstraction (Filter it)"
+      ],
+      "answer": 3,
+      "explanation": "'Filter it' is abstraction: keep the important numbers (men, women, children) and ignore the rest of the words in the problem.",
+      "source": "book:page69"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Backward Strategy and Computational Thinking",
+      "question": "In computational thinking, 'Break it' means",
+      "options": [
+        "Splitting the problem into smaller parts",
+        "Looking for patterns in the problem",
+        "Ignoring the unimportant details",
+        "Applying the rules to get the answer"
+      ],
+      "answer": 0,
+      "explanation": "'Break it' is decomposition — writing the problem as small statements such as men = 45,236, women = 39,567, children = 14,562.",
+      "source": "book:page69"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Backward Strategy and Computational Thinking",
+      "question": "Deciding 'this is an addition problem because we need the total' belongs to which step?",
+      "options": [
+        "Decomposition (Break it)",
+        "Pattern Recognition (Spot it)",
+        "Abstraction (Filter it)",
+        "Algorithm (Solve it)"
+      ],
+      "answer": 1,
+      "explanation": "'Spot it' is pattern recognition: recognising what kind of problem it is (total → addition; comparison → subtraction).",
+      "source": "book:page69"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Backward Strategy and Computational Thinking",
+      "question": "Neeta has 4 chocolates left after giving 7 to Vidya, 4 to Ravi and 6 to Joy. How many did she have at the start?",
+      "options": [
+        "17",
+        "25",
+        "13",
+        "21"
+      ],
+      "answer": 3,
+      "explanation": "Work backwards from the 4 left and add back everything given away: 4 + 6 + 4 + 7 = 21 chocolates.",
+      "source": "book:page73"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Backward Strategy and Computational Thinking",
+      "question": "Starting from the final answer and working step by step back to the beginning is called the",
+      "options": [
+        "Backward strategy",
+        "Rounding strategy",
+        "Bar-model strategy",
+        "Expanded-form strategy"
+      ],
+      "answer": 0,
+      "explanation": "The book calls this the backward strategy: undo each step in reverse order to find the starting number.",
+      "source": "book:page73"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Backward Strategy and Computational Thinking",
+      "question": "Amy got 18 marbles from a friend, gave 10 to her brother and 8 to her cousin, and has 40 left. How many did she have at first?",
+      "options": [
+        "58",
+        "40",
+        "22",
+        "76"
+      ],
+      "answer": 1,
+      "explanation": "Backwards: before giving away 10 + 8 = 18 she had 40 + 18 = 58; before receiving 18 she had 58 − 18 = 40. She started with 40.",
+      "source": "worksheet MMJ-3 Q6"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Backward Strategy and Computational Thinking",
+      "question": "In Amy's marble problem, what is the first backward step?",
+      "options": [
+        "Add back the 18 marbles she gave away: 40 + 18 = 58",
+        "Subtract the 18 she received: 40 − 18 = 22",
+        "Subtract the 10 she gave her brother: 40 − 10 = 30",
+        "Add only the 8 given to her cousin: 40 + 8 = 48"
+      ],
+      "answer": 0,
+      "explanation": "The LAST thing that happened was giving away 10 + 8 = 18, so we undo it first: 40 + 18 = 58. Then we undo the 18 received: 58 − 18 = 40.",
+      "source": "worksheet MMJ-3 Q6"
+    },
+    {
+      "id": "q110",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Backward Strategy and Computational Thinking",
+      "question": "In computational thinking, 'Solve it' means breaking the problem into smaller parts.",
+      "answer": false,
+      "explanation": "'Solve it' is the algorithm step — applying the rules of addition or subtraction. Breaking the problem into parts is 'Break it' (decomposition).",
+      "source": "book:page69"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Smart Tricks, Number Names and Maths History",
+      "question": "Ryan added 99,999 + 2,423 mentally as 1,00,000 + 2,422. What answer did he get?",
+      "options": [
+        "1,02,423",
+        "1,02,422",
+        "1,02,412",
+        "1,01,422"
+      ],
+      "answer": 1,
+      "explanation": "Ryan moved 1 from 2,423 to 99,999 to make 1,00,000, leaving 2,422. 1,00,000 + 2,422 = 1,02,422 — the same as adding with regrouping.",
+      "source": "book:page56"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Smart Tricks, Number Names and Maths History",
+      "question": "Why does Ryan's method (1,00,000 + 2,422 instead of 99,999 + 2,423) give the correct answer?",
+      "options": [
+        "He rounded both numbers, so the answer is only an estimate",
+        "Adding 1 to the first number and 1 to the second cancels out",
+        "He moved 1 from one addend to the other, so the total is unchanged",
+        "Because 99,999 and 1,00,000 are the same number"
+      ],
+      "answer": 2,
+      "explanation": "Taking 1 away from 2,423 and giving it to 99,999 keeps the total the same (99,999 + 1 = 1,00,000 and 2,423 − 1 = 2,422). It is an exact answer, not an estimate.",
+      "source": "book:page56"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Smart Tricks, Number Names and Maths History",
+      "question": "Mrs. Mehta noticed 10,000 − 111 gives the same answer as 9,999 − 110. What is that answer?",
+      "options": [
+        "9,889",
+        "9,899",
+        "9,879",
+        "9,989"
+      ],
+      "answer": 0,
+      "explanation": "9,999 − 110 is easy with no borrowing: 9,889. Since both the minuend and subtrahend were reduced by 1, 10,000 − 111 is also 9,889.",
+      "source": "book:page67"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Smart Tricks, Number Names and Maths History",
+      "question": "Why is 10,000 − 111 equal to 9,999 − 110?",
+      "options": [
+        "Subtracting from 9,999 always gives the same result",
+        "Both numbers were reduced by 1, so the difference is unchanged",
+        "Because 111 and 110 round to the same hundred",
+        "Only the minuend was reduced, which does not matter"
+      ],
+      "answer": 1,
+      "explanation": "If you take the same amount from both the minuend and the subtrahend, the gap between them stays the same. 9,999 − 110 avoids borrowing across the zeros.",
+      "source": "book:page67"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Smart Tricks, Number Names and Maths History",
+      "question": "In the Grid Challenge, 1,000 to 9,000 are placed in a 3×3 grid so every row, column and diagonal adds to 15,000. Which number must go in the centre?",
+      "options": [
+        "1,000",
+        "9,000",
+        "7,500",
+        "5,000"
+      ],
+      "answer": 3,
+      "explanation": "The centre number lies on the middle row, the middle column and both diagonals. All these lines must add to 15,000, and that only works when the middle-sized number, 5,000, sits in the centre (for example 4,000 + 5,000 + 6,000, 2,000 + 5,000 + 8,000 and 1,000 + 5,000 + 9,000 all make 15,000).",
+      "source": "book:page56"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Smart Tricks, Number Names and Maths History",
+      "question": "What is the number name of 6,70,809?",
+      "options": [
+        "Six lakh seventy thousand eight hundred nine",
+        "Six lakh seven thousand eight hundred nine",
+        "Sixty lakh seventy thousand eight hundred nine",
+        "Six lakh seventy thousand eight hundred ninety"
+      ],
+      "answer": 0,
+      "explanation": "6 lakhs, 70 thousands, 8 hundreds, 0 tens and 9 ones: six lakh seventy thousand eight hundred nine.",
+      "source": "worksheet MMJ-1 Q5b"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Smart Tricks, Number Names and Maths History",
+      "question": "Using the digits 2, 4, 6, 3, 9 once each, add the greatest and the smallest 5-digit numbers you can make.",
+      "options": [
+        "1,19,901",
+        "1,19,801",
+        "1,18,901",
+        "1,19,911"
+      ],
+      "answer": 0,
+      "explanation": "Greatest = 96,432 (digits in decreasing order), smallest = 23,469 (increasing order). 96,432 + 23,469 = 1,19,901.",
+      "source": "worksheet MMJ-1 Q3c"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Smart Tricks, Number Names and Maths History",
+      "question": "In which year did S.R. Srinivasa Varadhan become the first Asian to win the ABEL Prize?",
+      "options": [
+        "2003",
+        "1550",
+        "2007",
+        "2017"
+      ],
+      "answer": 2,
+      "explanation": "Varadhan, an Indian-American mathematician, won in 2007. The prize was first awarded in 2003 to Jean-Pierre Serre; 1550 BCE is the date of the Rhind Papyrus.",
+      "source": "book:page78"
+    },
+    {
+      "id": "q119",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Smart Tricks, Number Names and Maths History",
+      "question": "The ABEL Prize is named after the Norwegian mathematician Niels Henrik Abel.",
+      "answer": true,
+      "explanation": "Yes — the prize honours the Norwegian mathematician Niels Henrik Abel and was first awarded in 2003.",
+      "source": "book:page78"
+    },
+    {
+      "id": "q120",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Smart Tricks, Number Names and Maths History",
+      "question": "According to the book, empty calories give long-lasting steady energy and help build muscle.",
+      "answer": false,
+      "explanation": "It is GOOD calories (protein, fibre, good fats) that give steady energy. Empty calories give only a short burst and then tiredness, and do not build muscle.",
+      "source": "book:page79"
+    }
+  ]
+}

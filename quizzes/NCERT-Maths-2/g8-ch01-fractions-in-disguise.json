@@ -1,0 +1,2156 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-maths-2-g8-ch01-fractions-in-disguise",
+  "title": "Fractions in Disguise",
+  "subject": "Maths-2",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Maths-2/ch01",
+  "chapter": "1. Fractions in Disguise",
+  "topic": "Full Chapter",
+  "description": "Percentages as fractions in disguise: converting between fractions, decimals and percentages, finding a percentage of a quantity, percentages above 100, comparing proportions, increase and decrease, profit, loss, discount and GST, simple versus compound growth, depreciation and the tricky percentage traps.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "maths",
+    "percentages",
+    "fractions",
+    "profit-loss",
+    "discount",
+    "compound-interest",
+    "percentage-change",
+    "estimation"
+  ],
+  "questions": [
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Meaning of Per Cent & History",
+      "question": "The word 'per cent' comes from the Latin 'per centum'. What does it mean?",
+      "options": [
+        "Out of every hundred",
+        "Out of every thousand",
+        "Out of every ten parts",
+        "For every whole unit"
+      ],
+      "answer": 0,
+      "explanation": "'Per centum' means 'by the hundred' or 'out of hundred', so 25% means 25 out of every 100 — 25 marks out of 100, 25 rupees out of 100 rupees, and so on.",
+      "source": "text:page1",
+      "id": "q1"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Meaning of Per Cent & History",
+      "question": "If we say 50% of a quantity s, which expression does the chapter say this equals?",
+      "options": [
+        "50 × (1/10) × s = 5s",
+        "50 × (1/100) × s = s/2",
+        "(1/50) × 100 × s = 2s",
+        "50 × (1/2) × s = 25s"
+      ],
+      "answer": 1,
+      "explanation": "50% means 50 times the unit fraction 1/100 of s, i.e. 50/100 × s = s/2 — half the quantity.",
+      "source": "text:page1",
+      "id": "q2"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Meaning of Per Cent & History",
+      "question": "Percentages are simply fractions whose denominator is 100.",
+      "answer": true,
+      "explanation": "The chapter states exactly this: 20% = 20/100 and 33% = 33/100. The '%' sign just hides the denominator 100.",
+      "source": "text:page1",
+      "id": "q3"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Meaning of Per Cent & History",
+      "question": "According to Kautilya's Arthaśhāstra, what monthly interest 'per cent' was considered just?",
+      "options": [
+        "Five panas a month",
+        "Ten panas a month",
+        "A pana and a quarter",
+        "Twenty panas a month"
+      ],
+      "answer": 2,
+      "explanation": "The 4th-century BCE text says 'an interest of a pana and a quarter per month per cent is just'. Five panas was commercial interest, ten prevailed in forests and twenty among sea traders.",
+      "source": "text:page5",
+      "id": "q4"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Meaning of Per Cent & History",
+      "question": "In the Arthaśhāstra passage quoted in the chapter, which group paid the highest monthly interest per cent?",
+      "options": [
+        "Forest dwellers",
+        "Commercial traders",
+        "Ordinary borrowers",
+        "Sea traders"
+      ],
+      "answer": 3,
+      "explanation": "Twenty panas per month per cent prevailed among sea traders — the highest rate listed. Forests had ten, commerce five, and the 'just' rate was a pana and a quarter.",
+      "source": "text:page5",
+      "id": "q5"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Meaning of Per Cent & History",
+      "question": "A 15th-century Italian manuscript writes 'vii p cento'. In today's notation this is",
+      "options": [
+        "7%",
+        "8%",
+        "12%",
+        "70%"
+      ],
+      "answer": 0,
+      "explanation": "'p cento' means per hundred and 'vii' is the Roman numeral 7, so 'vii p cento' is 7%. The chapter lists 'xx p cento' = 20% and 'x p cento' = 10% alongside it.",
+      "source": "text:page5",
+      "id": "q6"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Meaning of Per Cent & History",
+      "question": "The idea of 'per hundred' can be traced back as early as",
+      "options": [
+        "The 15th century CE",
+        "The 4th century BCE",
+        "The 1st century CE",
+        "The 10th century CE"
+      ],
+      "answer": 1,
+      "explanation": "The chapter cites Kautilya's Arthaśhāstra from the 4th century BCE, which already quotes interest 'per month per cent'. The Italian 'p cento' manuscripts are much later (15th century).",
+      "source": "text:page5",
+      "id": "q7"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Meaning of Per Cent & History",
+      "question": "Kautilya's Arthaśhāstra says the commercial rate of interest was ten panas per month per cent.",
+      "answer": false,
+      "explanation": "Commercial interest was five panas per month per cent. Ten panas was the rate that 'prevails among forests'.",
+      "source": "text:page5",
+      "id": "q8"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractions to Percentages",
+      "question": "Red paint makes up 3/4 of Surya's deep orange mixture. What percentage of the colour is red?",
+      "options": [
+        "34%",
+        "43%",
+        "70%",
+        "75%"
+      ],
+      "answer": 3,
+      "explanation": "3/4 = 6/8 = 30/40 = 75/100, so 75%. Equivalently 3/4 × 100 = 75.",
+      "source": "text:page1",
+      "id": "q9"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractions to Percentages",
+      "question": "If red paint is 3/4 of the mixture, what percentage of the colour was made with yellow?",
+      "options": [
+        "25%",
+        "75%",
+        "40%",
+        "30%"
+      ],
+      "answer": 0,
+      "explanation": "The whole mixture is 100%. Red is 75%, so yellow is 100% − 75% = 25%, i.e. the remaining 1/4.",
+      "source": "text:page2",
+      "id": "q10"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractions to Percentages",
+      "question": "Surya wants to save 2/5 of his prize money. As a percentage, this is",
+      "options": [
+        "25%",
+        "40%",
+        "20%",
+        "45%"
+      ],
+      "answer": 1,
+      "explanation": "2/5 = 20/50 = 40/100 = 40%. Method 2 in the chapter: x = 2/5 × 100 = 40.",
+      "source": "text:page2",
+      "id": "q11"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fractions to Percentages",
+      "question": "Express 72/150 as a percentage.",
+      "options": [
+        "52%",
+        "46%",
+        "48%",
+        "72%"
+      ],
+      "answer": 2,
+      "explanation": "72/150 × 100 = 7200/150 = 48. (Simplify first: 72/150 = 12/25 = 48/100.) 72% is the trap of ignoring the denominator.",
+      "source": "exercise:p3-Q1(iv)",
+      "id": "q12"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractions to Percentages",
+      "question": "Nandini has 25 marbles, of which 15 are white. What percentage of her marbles are white?",
+      "options": [
+        "60%",
+        "15%",
+        "25%",
+        "40%"
+      ],
+      "answer": 0,
+      "explanation": "15/25 = 60/100 = 60%. 40% is the share of marbles that are NOT white.",
+      "source": "exercise:p3-Q2",
+      "id": "q13"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fractions to Percentages",
+      "question": "In a school, 15 of the 80 students walk to school. What percentage of the students walk?",
+      "options": [
+        "17.50%",
+        "18.75%",
+        "20.00%",
+        "16.25%"
+      ],
+      "answer": 1,
+      "explanation": "15/80 × 100 = 1500/80 = 18.75. Think 15/80 = 3/16, and 1/16 = 6.25%, so 3/16 = 18.75%.",
+      "source": "exercise:p3-Q3",
+      "id": "q14"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fractions to Percentages",
+      "question": "Why can a fraction be turned into a percentage simply by multiplying it by 100?",
+      "options": [
+        "Multiplying by 100 always removes the denominator",
+        "Every fraction has a denominator of exactly 100",
+        "A fraction is 'per 1' while a percentage is 'per 100'",
+        "A percentage is always a whole number below 100"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says a fraction is of a unit (per 1) while a percentage is per 100, so scaling the fraction up by 100 gives the 'per 100' value. The other claims are false (e.g. 1/3 × 100 = 33.33%).",
+      "source": "text:page3",
+      "id": "q15"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Fractions to Percentages",
+      "question": "Which of these fractions are equal to 75%? Select all that apply.",
+      "options": [
+        "3/4",
+        "30/40",
+        "7/5",
+        "3/40"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "3/4 = 75/100 and 30/40 = 3/4, both 75%. 7/5 = 140% and 3/40 = 7.5%.",
+      "source": "text:page1",
+      "id": "q16"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Fractions to Percentages",
+      "question": "7/14 as a percentage is",
+      "options": [
+        "7%",
+        "14%",
+        "71.4%",
+        "50%"
+      ],
+      "answer": 3,
+      "explanation": "7/14 simplifies to 1/2, which is 50%. Reading the numerator or denominator as the percentage (7% or 14%) is the common slip.",
+      "source": "exercise:p3-Q1(ii)",
+      "id": "q17"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Fractions to Percentages",
+      "question": "The fraction 1/3 expressed as a percentage is exactly 33%.",
+      "answer": false,
+      "explanation": "1/3 × 100 = 33.333…%, a non-terminating decimal. 33% is only an approximation; 33% = 33/100 is slightly less than 1/3.",
+      "source": "exercise:p3-Q1(v)",
+      "id": "q18"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "FDP: Percentages, Fractions & Decimals",
+      "question": "24% written as a fraction in simplest form is",
+      "options": [
+        "4/25",
+        "6/25",
+        "12/25",
+        "1/24"
+      ],
+      "answer": 1,
+      "explanation": "24% = 24/100 = 12/50 = 6/25. The chapter also lists 48/200 as another equivalent form.",
+      "source": "text:page3",
+      "id": "q19"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "FDP: Percentages, Fractions & Decimals",
+      "question": "A percentage z% can be expressed by any fraction that is equivalent to z/100.",
+      "answer": true,
+      "explanation": "This is the chapter's general statement: 24% = 24/100 = 12/50 = 6/25 = 48/200, all equivalent.",
+      "source": "text:page3",
+      "id": "q20"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "FDP: Percentages, Fractions & Decimals",
+      "question": "31% written as a decimal is",
+      "options": [
+        "3.1",
+        "0.031",
+        "0.31",
+        "31.0"
+      ],
+      "answer": 2,
+      "explanation": "31% = 31/100 = 0.31. Dividing by 100 moves the decimal point two places left.",
+      "source": "text:page4",
+      "id": "q21"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "FDP: Percentages, Fractions & Decimals",
+      "question": "5% as a decimal is",
+      "options": [
+        "0.05",
+        "0.5",
+        "0.005",
+        "5.0"
+      ],
+      "answer": 0,
+      "explanation": "5% = 5/100 = 0.05. 0.5 is 50%, a common slip.",
+      "source": "text:page8",
+      "id": "q22"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "FDP: Percentages, Fractions & Decimals",
+      "question": "43% as a fraction and a decimal is",
+      "options": [
+        "43/10 and 4.3",
+        "43/100 and 0.43",
+        "43/100 and 4.3",
+        "43/1000 and 0.043"
+      ],
+      "answer": 1,
+      "explanation": "x% = x/100, so 43% = 43/100 = 0.43 (two decimal places because of the hundred).",
+      "source": "text:page8",
+      "id": "q23"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "FDP: Percentages, Fractions & Decimals",
+      "question": "Which statement about 50% of 24 is NOT correct?",
+      "options": [
+        "50% of 24 = 0.5 × 24",
+        "50% of 24 = 24 ÷ 2",
+        "50% of 24 = 24 × 0.05",
+        "50% = 50/100 = 1/2"
+      ],
+      "answer": 2,
+      "explanation": "50% = 0.5, not 0.05 (that is 5%). 24 × 0.05 = 1.2, whereas 50% of 24 = 12.",
+      "source": "text:page8",
+      "id": "q24"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "FDP: Percentages, Fractions & Decimals",
+      "question": "4/10 = 0.4 = ?",
+      "options": [
+        "4%",
+        "0.4%",
+        "400%",
+        "40%"
+      ],
+      "answer": 3,
+      "explanation": "The summary gives this very example: 4/10 = 0.4 = 40/100 = 40%.",
+      "source": "text:page31",
+      "id": "q25"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "FDP: Percentages, Fractions & Decimals",
+      "question": "Which of the following are equal to 1%? Select all that apply.",
+      "options": [
+        "1/100",
+        "0.01",
+        "0.1",
+        "1/10"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "1% = 1/100 = 0.01. 0.1 and 1/10 are both 10%, ten times larger.",
+      "source": "text:page8",
+      "id": "q26"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why 100? Percentages Around Us",
+      "question": "Why does the chapter say 100 is a good choice of denominator for percentages?",
+      "options": [
+        "Our number system is base 10, so 100 converts easily to decimals",
+        "It is the smallest number that has exactly three digits",
+        "Fractions with denominator 100 are always proper fractions",
+        "It is the largest number that most people can picture"
+      ],
+      "answer": 0,
+      "explanation": "Because our number system is base 10, denominators like 10, 100, 1000 fit easily with decimals (31% = 0.31). 100 is also round, large enough for detail yet simple to grasp mentally.",
+      "source": "text:page4",
+      "id": "q27"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why 100? Percentages Around Us",
+      "question": "9/34 ≈ 26.47 per cent. Expressed 'per mille' (per 1000) it would be about",
+      "options": [
+        "26.47",
+        "264.7",
+        "2.647",
+        "2647"
+      ],
+      "answer": 1,
+      "explanation": "Per mille means per 1000, ten times per cent: 26.47 × 10 = 264.7. The chapter also shows 2.647 'per decem' (per 10).",
+      "source": "text:page4",
+      "id": "q28"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Why 100? Percentages Around Us",
+      "question": "Sugar makes up 9/34 of Variety 1 and 13/45 of Variety 2. Which biscuit is more sugary?",
+      "options": [
+        "Variety 1, with about 26.47% sugar",
+        "Both have an equal share of sugar",
+        "Variety 2, with about 28.88% sugar",
+        "Variety 1, because 34 is less than 45"
+      ],
+      "answer": 2,
+      "explanation": "9/34 ≈ 26.47% and 13/45 ≈ 28.88%, so Variety 2 is more sugary. Comparing just the denominators (34 vs 45) is misleading.",
+      "source": "text:page4",
+      "id": "q29"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why 100? Percentages Around Us",
+      "question": "On average, about what percentage of the human body is water by weight?",
+      "options": [
+        "30%",
+        "45%",
+        "80%",
+        "60%"
+      ],
+      "answer": 3,
+      "explanation": "The 'Percentages Around Us' box states the human body is about 60% water by weight.",
+      "source": "text:page5",
+      "id": "q30"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why 100? Percentages Around Us",
+      "question": "Ice cream is about what percentage air by volume?",
+      "options": [
+        "30–50%",
+        "5–10%",
+        "60–80%",
+        "10–20%"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's fact box says ice cream is about 30–50% air by volume.",
+      "source": "text:page5",
+      "id": "q31"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why 100? Percentages Around Us",
+      "question": "About 99.86% of the mass of the Solar System is contained in",
+      "options": [
+        "Jupiter",
+        "The Sun",
+        "The Earth",
+        "Saturn"
+      ],
+      "answer": 1,
+      "explanation": "The fact box says 99.86% of the Solar System's mass is in the Sun; all the planets together are a tiny fraction.",
+      "source": "text:page5",
+      "id": "q32"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Why 100? Percentages Around Us",
+      "question": "About 45% of teenagers globally fail to meet the recommendation of one hour of daily physical activity.",
+      "answer": false,
+      "explanation": "The chapter says OVER 80% of teenagers fail to meet it. 45% is the share of the world's population that watched the 2022 FIFA World Cup.",
+      "source": "text:page5",
+      "id": "q33"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Why 100? Percentages Around Us",
+      "question": "The chapter writes 9/34 as '2.647 per decem'. 'Per decem' means per",
+      "options": [
+        "100",
+        "1000",
+        "10",
+        "12"
+      ],
+      "answer": 2,
+      "explanation": "'Decem' is ten, so per decem = per 10: 9/34 × 10 = 2.647. The chapter remarks that 'per 10' would be too small for many purposes.",
+      "source": "text:page4",
+      "id": "q34"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Percentage of a Quantity",
+      "question": "Madhu ate 120 g of biscuits that are 25% sugar. How much sugar did he eat?",
+      "options": [
+        "30 g",
+        "25 g",
+        "35 g",
+        "40 g"
+      ],
+      "answer": 0,
+      "explanation": "25/100 × 120 = 30 g. Or: 25 g per 100 g means 5 g per 20 g, so 30 g per 120 g.",
+      "source": "text:page6",
+      "id": "q35"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Percentage of a Quantity",
+      "question": "Madhav ate 95 g of biscuits with 35% sugar. The amount of sugar he ate is",
+      "options": [
+        "33.5 g",
+        "33.25 g",
+        "32.25 g",
+        "35.25 g"
+      ],
+      "answer": 1,
+      "explanation": "1 g of biscuit has 35/100 g sugar, so 95 g has 35/100 × 95 = 33.25 g.",
+      "source": "text:page6",
+      "id": "q36"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Percentage of a Quantity",
+      "question": "Madhu ate 120 g of 25%-sugar biscuits; Madhav ate 95 g of 35%-sugar biscuits. Who ate more sugar?",
+      "options": [
+        "Madhu, 30 g against 33.25 g",
+        "Madhu, since 120 g is more than 95 g",
+        "Madhav, 33.25 g against 30 g",
+        "Both ate exactly the same amount"
+      ],
+      "answer": 2,
+      "explanation": "Madhu: 25% of 120 = 30 g. Madhav: 35% of 95 = 33.25 g. The higher percentage won here even though Madhav ate fewer biscuits — you must compute, not just compare amounts or percentages.",
+      "source": "text:page6",
+      "id": "q37"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Percentage of a Quantity",
+      "question": "The maximum marks in a test are 75 and an A grade needs 80% or above. The least Zubin must score is",
+      "options": [
+        "56",
+        "62",
+        "65",
+        "60"
+      ],
+      "answer": 3,
+      "explanation": "80/100 × 75 = 4/5 × 75 = 60, or 0.8 × 75 = 60.",
+      "source": "text:page8",
+      "id": "q38"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Percentage of a Quantity",
+      "question": "25% of 160 is",
+      "options": [
+        "40",
+        "32",
+        "45",
+        "36"
+      ],
+      "answer": 0,
+      "explanation": "25% is a quarter, and 160 ÷ 4 = 40.",
+      "source": "exercise:p13-Q2(i)",
+      "id": "q39"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Percentage of a Quantity",
+      "question": "1% of 1 hour is",
+      "options": [
+        "60 seconds",
+        "6 seconds",
+        "3.6 seconds",
+        "36 seconds"
+      ],
+      "answer": 3,
+      "explanation": "1 hour = 3600 seconds, and 1% of 3600 = 36 seconds (0.6 minute).",
+      "source": "exercise:p13-Q2(v)",
+      "id": "q40"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Percentage of a Quantity",
+      "question": "7% of 10 kg is",
+      "options": [
+        "700 g",
+        "70 g",
+        "7 kg",
+        "0.7 g"
+      ],
+      "answer": 0,
+      "explanation": "7% of 10 kg = 0.07 × 10 = 0.7 kg = 700 g.",
+      "source": "exercise:p13-Q2(vi)",
+      "id": "q41"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Percentage of a Quantity",
+      "question": "Surya made 60 ml of deep orange paint in which red is 3/4. How much red paint did he use?",
+      "options": [
+        "40 ml",
+        "45 ml",
+        "15 ml",
+        "48 ml"
+      ],
+      "answer": 1,
+      "explanation": "3/4 of 60 ml = 45 ml (75% of 60). 15 ml is the yellow part.",
+      "source": "exercise:p13-Q3",
+      "id": "q42"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Percentage of a Quantity",
+      "question": "Which of the following give 40% of 4? Select all that apply.",
+      "options": [
+        "1.6",
+        "0.4 × 4",
+        "16",
+        "0.04 × 4"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "40% = 0.4, so 40% of 4 = 0.4 × 4 = 1.6. 16 ignores the hundred; 0.04 × 4 = 0.16 is 4% of 4.",
+      "source": "exercise:p13-Q6(ii)",
+      "id": "q43"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Mental Maths & Estimation",
+      "question": "Using the quarter trick, 25% of 287 is",
+      "options": [
+        "71.75",
+        "71.25",
+        "70.75",
+        "28.70"
+      ],
+      "answer": 0,
+      "explanation": "25% = 1/4, and 287 ÷ 4 = 71.75. 28.7 is 10% of 287.",
+      "source": "text:page7",
+      "id": "q44"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Mental Maths & Estimation",
+      "question": "Using 10% + 5%, 15% of 80 is",
+      "options": [
+        "8",
+        "15",
+        "12",
+        "16"
+      ],
+      "answer": 2,
+      "explanation": "10% of 80 = 8 and 5% of 80 = 4; 8 + 4 = 12. This uses (10% of y) + (5% of y) = 15% of y.",
+      "source": "text:page8",
+      "id": "q45"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Mental Maths & Estimation",
+      "question": "Which is the quickest correct way to find 90% of 460 mentally?",
+      "options": [
+        "460 − 46 = 414",
+        "460 − 90 = 370",
+        "9 × 46 ÷ 10 = 41.4",
+        "460 ÷ 9 ≈ 51.1"
+      ],
+      "answer": 0,
+      "explanation": "90% = 100% − 10%. 10% of 460 is 46, so 90% is 460 − 46 = 414. Subtracting 90 or dividing by 9 confuses the percentage with a number.",
+      "source": "text:page8",
+      "id": "q46"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Mental Maths & Estimation",
+      "question": "Which estimate for 2/9 as a percentage uses correct reasoning?",
+      "options": [
+        "10% of 9 is 0.9 and 20% is 1.8, so 2/9 must be just under 10%",
+        "2 out of 9 is about the same as 2 out of 10, so about 2%",
+        "Half of 9 is 4.5, half again is 2.25, so 2/9 is under 25%",
+        "9 ÷ 2 = 4.5, so 2/9 is approximately 45% of the whole"
+      ],
+      "answer": 2,
+      "explanation": "The chapter's sidebar reasons exactly this way: 2 is a little less than 2.25 (a quarter of 9), so 2/9 is a little under 25% (it is 22.22%). 20% of 9 is 1.8, so 2/9 is between 20% and 25%.",
+      "source": "text:page9",
+      "id": "q47"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Mental Maths & Estimation",
+      "question": "(20% of y) + (5% of y) = 25% of y holds for every value of y.",
+      "answer": true,
+      "explanation": "(20/100)y + (5/100)y = (25/100)y — the chapter verifies this identity, which is why 25% can be built from 20% and 5%.",
+      "source": "text:page7",
+      "id": "q48"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Mental Maths & Estimation",
+      "question": "10% of a day is shorter than 1% of a week.",
+      "answer": false,
+      "explanation": "10% of a day = 2.4 hours (144 min); 1% of a week = 0.07 day = 1.68 hours (about 101 min). So 10% of a day is longer.",
+      "source": "exercise:p13-Q7",
+      "id": "q49"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Mental Maths & Estimation",
+      "question": "3 is what per cent of 300?",
+      "options": [
+        "3%",
+        "10%",
+        "0.1%",
+        "1%"
+      ],
+      "answer": 3,
+      "explanation": "3/300 = 1/100 = 1%. The common slip is to answer 3% just because the number is 3.",
+      "source": "exercise:p13-Q6(i)",
+      "id": "q50"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Mental Maths & Estimation",
+      "question": "What do you notice about 5% of 40 and 40% of 5?",
+      "options": [
+        "Both equal 2",
+        "5% of 40 is larger",
+        "40% of 5 is larger",
+        "Both equal 20"
+      ],
+      "answer": 0,
+      "explanation": "x% of y = xy/100 = y% of x. Here both are 200/100 = 2. Likewise 25% of 12 = 12% of 25 = 3.",
+      "source": "exercise:p29-Q7",
+      "id": "q51"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Mental Maths & Estimation",
+      "question": "55% of 60 computed mentally as 50% + 5% is",
+      "options": [
+        "30",
+        "33",
+        "36",
+        "27"
+      ],
+      "answer": 1,
+      "explanation": "50% of 60 = 30 and 5% of 60 = 3, so 55% of 60 = 33.",
+      "source": "text:page8",
+      "id": "q52"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Ratios, Bar Models & Finding the Whole",
+      "question": "Millet and water are mixed in the ratio 2:7 to make kanji. What percentage of the mixture is millet?",
+      "options": [
+        "28.57%",
+        "20.00%",
+        "22.22%",
+        "77.78%"
+      ],
+      "answer": 2,
+      "explanation": "Millet : mixture = 2 : 9, so millet is 2/9 × 100 = 22.22%. 28.57% is the error of using 2/7; 77.78% is the water share.",
+      "source": "text:page9",
+      "id": "q53"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Ratios, Bar Models & Finding the Whole",
+      "question": "A student says millet is 2/7 of the kanji because the ratio is 2:7. What is wrong?",
+      "options": [
+        "2:7 compares millet to water, not millet to the whole mixture",
+        "Ratios must always be written with the larger number first",
+        "2/7 should have been simplified before converting to a per cent",
+        "Percentages cannot be found from ratios, only from fractions"
+      ],
+      "answer": 0,
+      "explanation": "The whole mixture is 2 + 7 = 9 parts, so millet is 2/9 (22.22%), not 2/7 (28.57%). A ratio of parts must first be converted to part : whole.",
+      "source": "text:page9",
+      "id": "q54"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Ratios, Bar Models & Finding the Whole",
+      "question": "A cyclist has covered 92 km, which is 40% of the Delhi–Agra journey. The total distance is",
+      "options": [
+        "138 km",
+        "230 km",
+        "184 km",
+        "250 km"
+      ],
+      "answer": 1,
+      "explanation": "40/100 = 92/d gives d = 92 × 100/40 = 230 km. 138 km is the remaining part, not the total.",
+      "source": "text:page10",
+      "id": "q55"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Ratios, Bar Models & Finding the Whole",
+      "question": "In the cyclist problem (40% = 92 km), how many more kilometres remain to Agra?",
+      "options": [
+        "92 km",
+        "122 km",
+        "138 km",
+        "148 km"
+      ],
+      "answer": 2,
+      "explanation": "Remaining = 60%. Since 40% is 92 km, 20% is 46 km and 60% is 92 + 46 = 138 km (or 230 − 92).",
+      "source": "text:page10",
+      "id": "q56"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Ratios, Bar Models & Finding the Whole",
+      "question": "30% of k is 70. What is 120% of k?",
+      "options": [
+        "210",
+        "140",
+        "240",
+        "280"
+      ],
+      "answer": 3,
+      "explanation": "If 30% is 70 then 10% is 70/3 and 120% is 12 × 70/3 = 280. (60% = 140, 90% = 210.)",
+      "source": "exercise:p13-Q5(i)",
+      "id": "q57"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Ratios, Bar Models & Finding the Whole",
+      "question": "40 is 80% of which number?",
+      "options": [
+        "32",
+        "50",
+        "60",
+        "45"
+      ],
+      "answer": 1,
+      "explanation": "80% of x = 40, so x = 40 ÷ 0.8 = 50. Check: 80% of 50 = 40.",
+      "source": "exercise:p13-Q6(iii)",
+      "id": "q58"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Ratios, Bar Models & Finding the Whole",
+      "question": "Workers take 18 days to pick coffee berries in 20% of a plantation. At the same rate, the whole plantation takes",
+      "options": [
+        "72 days",
+        "36 days",
+        "90 days",
+        "100 days"
+      ],
+      "answer": 2,
+      "explanation": "20% ↔ 18 days, so 100% ↔ 5 × 18 = 90 days. 72 days is only the remaining 80%.",
+      "source": "exercise:p14-Q9",
+      "id": "q59"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Ratios, Bar Models & Finding the Whole",
+      "question": "A 90-minute badminton session is split warm-up : play : cool-down = 10% : 80% : 10%. How long is play?",
+      "options": [
+        "80 minutes",
+        "81 minutes",
+        "70 minutes",
+        "72 minutes"
+      ],
+      "answer": 3,
+      "explanation": "80% of 90 = 72 minutes; warm-up and cool-down are 9 minutes each.",
+      "source": "exercise:p14-Q10",
+      "id": "q60"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Ratios, Bar Models & Finding the Whole",
+      "question": "To make the halwa recipe for 8 people instead of 4, the proportion of rava must be doubled to 80%.",
+      "answer": false,
+      "explanation": "The proportions stay 40% : 40% : 20% — only the total quantity doubles. Doubling a percentage would change the recipe itself.",
+      "source": "exercise:p14-Q12(i)",
+      "id": "q61"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Ratios, Bar Models & Finding the Whole",
+      "question": "About 90% of the world's population lives in the Northern Hemisphere. With a world population of about 8.2 billion, that is roughly",
+      "options": [
+        "7.2 billion",
+        "7.4 billion",
+        "8.0 billion",
+        "0.82 billion"
+      ],
+      "answer": 1,
+      "explanation": "0.9 × 8.2 billion ≈ 7.38 billion ≈ 7.4 billion. 0.82 billion would be 10%.",
+      "source": "exercise:p14-Q11",
+      "id": "q62"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Percentages Greater than 100",
+      "question": "Kishanlal's daily target is ₹5000. On Day 4 he sold ₹6000 worth. What percentage of his target is this?",
+      "options": [
+        "20%",
+        "110%",
+        "120%",
+        "83.3%"
+      ],
+      "answer": 2,
+      "explanation": "6000/5000 × 100 = 120%. The extra ₹1000 is 20% of 5000, so 100% + 20% = 120%.",
+      "source": "text:page11",
+      "id": "q63"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Percentages Greater than 100",
+      "question": "On Day 5, sales were ₹7800 against a target of ₹5000. The percentage of the target achieved is",
+      "options": [
+        "165%",
+        "146%",
+        "178%",
+        "156%"
+      ],
+      "answer": 3,
+      "explanation": "7800/5000 × 100 = 1.56 × 100 = 156%.",
+      "source": "text:page11",
+      "id": "q64"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Percentages Greater than 100",
+      "question": "250% written as a decimal is",
+      "options": [
+        "0.25",
+        "25",
+        "2.5",
+        "2.05"
+      ],
+      "answer": 2,
+      "explanation": "250% = 250/100 = 2.5 — two and a half times the original value.",
+      "source": "text:page12",
+      "id": "q65"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Percentages Greater than 100",
+      "question": "A farmer harvested 260 kg last year and 650 kg this year. This year's harvest is what percentage of last year's?",
+      "options": [
+        "150%",
+        "240%",
+        "390%",
+        "250%"
+      ],
+      "answer": 3,
+      "explanation": "650/260 × 100 = 2.5 × 100 = 250%. 150% would be the percentage INCREASE, not the percentage 'of'.",
+      "source": "text:page12",
+      "id": "q66"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Percentages Greater than 100",
+      "question": "'He achieved 120% of his target' means he achieved",
+      "options": [
+        "20% more than the target",
+        "120% more than the target",
+        "20% less than the target",
+        "1.2% more than the target"
+      ],
+      "answer": 0,
+      "explanation": "120% = 100% + 20%, so sales were the full target plus 20% extra. 'More than' refers to the part above 100%.",
+      "source": "text:page11",
+      "id": "q67"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Percentages Greater than 100",
+      "question": "A percentage can never be greater than 100.",
+      "answer": false,
+      "explanation": "Percentages greater than 100 are common: 120% of target, 250% of last year's harvest. They simply mean more than the whole reference quantity.",
+      "source": "text:page10",
+      "id": "q68"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Percentages Greater than 100",
+      "question": "Which conversion is NOT correct?",
+      "options": [
+        "173% = 1.73",
+        "28.9% = 2.89",
+        "305% = 3.05",
+        "15% = 0.15"
+      ],
+      "answer": 1,
+      "explanation": "28.9% = 28.9/100 = 0.289, not 2.89 (which would be 289%). The others follow x% = x/100 correctly.",
+      "source": "text:page12",
+      "id": "q69"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Percentages Greater than 100",
+      "question": "On Day 1 Kishanlal sold ₹2000 against a ₹5000 target. By what percentage was he short of his target?",
+      "options": [
+        "40%",
+        "30%",
+        "60%",
+        "50%"
+      ],
+      "answer": 2,
+      "explanation": "2000/5000 = 40% achieved, so he was 100% − 40% = 60% short.",
+      "source": "text:page11",
+      "id": "q70"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Comparing Proportions",
+      "question": "Eesha scored 42/50 in English and 70/80 in Science. In which test did she do better?",
+      "options": [
+        "English, 84% against 87.5%",
+        "English, since she lost fewer marks",
+        "Neither — the maxima differ, so no comparison",
+        "Science, 87.5% against 84%"
+      ],
+      "answer": 3,
+      "explanation": "42/50 = 84% and 70/80 = 87.5%. Converting to a common base of 100 makes the comparison fair; counting lost marks ignores the different maxima.",
+      "source": "text:page14",
+      "id": "q71"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Comparing Proportions",
+      "question": "42 marks out of 50 as a percentage is",
+      "options": [
+        "84%",
+        "42%",
+        "82%",
+        "92%"
+      ],
+      "answer": 0,
+      "explanation": "42/50 × 100 = 84 (double both: 84/100).",
+      "source": "text:page14",
+      "id": "q72"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Comparing Proportions",
+      "question": "Why does the chapter convert Eesha's marks to percentages rather than comparing raw marks or marks lost?",
+      "options": [
+        "Percentages are always larger than raw marks",
+        "Marks lost cannot be calculated for two tests",
+        "Percentages put both scores on the same base of 100",
+        "Raw marks are never allowed in comparisons"
+      ],
+      "answer": 2,
+      "explanation": "With different maximum marks (50 and 80), neither raw marks nor marks lost compare fairly. Percentages express both as 'out of 100'.",
+      "source": "text:page14",
+      "id": "q73"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Comparing Proportions",
+      "question": "If Madhu's biscuits have 25% sugar and Madhav's have 35%, Madhav always eats more sugar than Madhu.",
+      "answer": false,
+      "explanation": "It depends on the amounts eaten. The chapter warns it is inappropriate to compare just percentages when the wholes differ — e.g. 25% of 200 g (50 g) beats 35% of 95 g (33.25 g).",
+      "source": "text:page6",
+      "id": "q74"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Comparing Proportions",
+      "question": "1600 people voted and the winner got 500 votes. What percentage of the total votes did the winner get?",
+      "options": [
+        "32.5%",
+        "30%",
+        "3.125%",
+        "31.25%"
+      ],
+      "answer": 3,
+      "explanation": "500/1600 × 100 = 5/16 × 100 = 31.25%.",
+      "source": "exercise:p20-Q4",
+      "id": "q75"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Comparing Proportions",
+      "question": "The winner got 500 of 1600 votes. What is the minimum number of candidates who could have stood?",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "The other 1100 votes must be split so that nobody gets 500 or more. Two others could hold at most 499 + 499 = 998 < 1100, so at least three others are needed — 4 candidates in all.",
+      "source": "exercise:p20-Q4",
+      "id": "q76"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Comparing Proportions",
+      "question": "In the KYC table, the ingredient percentages of one product should add up to 100.",
+      "answer": true,
+      "explanation": "Each ingredient is a share of the same total weight, so the shares sum to the whole: 100%. The chapter asks you to check this.",
+      "source": "text:page15",
+      "id": "q77"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Comparing Proportions",
+      "question": "From the computer-use-by-age graph (highest bar 37%, for men in their twenties), which statements CANNOT be concluded?",
+      "options": [
+        "People in their twenties are the most computer-literate group",
+        "There are more people in their twenties than teenagers",
+        "Half of the people in their twenties can use computers",
+        "Women lag behind men in the ability to use computers"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "Group sizes are not shown, so (ii) cannot be concluded; the highest bar is 37%, well short of half, so (iii) is false. The twenties bars are the tallest and every female bar is below the male one, so (i) and (iv) are supported.",
+      "source": "exercise:p30-Q15",
+      "id": "q78"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Percentage Increase & Decrease",
+      "question": "Tomatoes cost ₹30 per kg three years ago and ₹42 now. The percentage increase is",
+      "options": [
+        "12%",
+        "28.6%",
+        "40%",
+        "42%"
+      ],
+      "answer": 2,
+      "explanation": "Increase = 12; 12/30 × 100 = 40%. 28.6% is the error of dividing by the NEW price 42.",
+      "source": "text:page15",
+      "id": "q79"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Percentage Increase & Decrease",
+      "question": "A theatre's footfall fell from 160 to 100. The percentage decrease is",
+      "options": [
+        "60%",
+        "62.5%",
+        "40%",
+        "37.5%"
+      ],
+      "answer": 3,
+      "explanation": "Decrease = 60; 60/160 × 100 = 37.5%. 62.5% is what remains (100/160).",
+      "source": "text:page16",
+      "id": "q80"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Percentage Increase & Decrease",
+      "question": "In the formula for percentage increase, the amount of increase is divided by",
+      "options": [
+        "The original amount (the base)",
+        "The new amount after the change",
+        "The sum of old and new amounts",
+        "The difference between the amounts"
+      ],
+      "answer": 0,
+      "explanation": "Percentage increase = increase ÷ original amount × 100. Using the new amount gives a different (wrong) figure — 12/42 instead of 12/30 for the tomatoes.",
+      "source": "text:page15",
+      "id": "q81"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Percentage Increase & Decrease",
+      "question": "'The population in 1991 is 165% of that in 1961' and 'the population increased by 65% from 1961 to 1991' mean the same thing.",
+      "answer": true,
+      "explanation": "If p is the 1961 population, both give 1.65p: 165/100 × p, and p + 0.65p.",
+      "source": "text:page16",
+      "id": "q82"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Percentage Increase & Decrease",
+      "question": "Petrol cost ₹60 in 2015 and ₹100 in 2025. The percentage increase is",
+      "options": [
+        "40.00%",
+        "66.66%",
+        "60.00%",
+        "166.66%"
+      ],
+      "answer": 1,
+      "explanation": "Increase = 40; 40/60 × 100 = 66.66%. 40% is the increase divided by 100 (the new price) — the wrong base.",
+      "source": "exercise:p19-Q5",
+      "id": "q83"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Percentage Increase & Decrease",
+      "question": "A number increased by 20% becomes 90. The number is",
+      "options": [
+        "72",
+        "70",
+        "108",
+        "75"
+      ],
+      "answer": 3,
+      "explanation": "1.2 × n = 90, so n = 90/1.2 = 75. Subtracting 20% of 90 (giving 72) is the common error.",
+      "source": "exercise:p20-Q6",
+      "id": "q84"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Percentage Increase & Decrease",
+      "question": "An elephant population p grew by 5% over a decade. The population now is",
+      "options": [
+        "p × 1.05",
+        "p × 0.05",
+        "p × 1.5",
+        "p + 1.05"
+      ],
+      "answer": 0,
+      "explanation": "New = p + 5% of p = p(1 + 0.05) = 1.05p. p × 0.05 is just the increase; 1.5p would be a 50% rise.",
+      "source": "exercise:p20-Q8",
+      "id": "q85"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Percentage Increase & Decrease",
+      "question": "'The demand for cameras has fallen by 85% in the last decade' means the same as",
+      "options": [
+        "The demand now is 85% of the demand a decade ago",
+        "The demand now is 15% of the demand a decade ago",
+        "The demand a decade ago was 15% of the demand now",
+        "The demand a decade ago was 185% of the demand now"
+      ],
+      "answer": 1,
+      "explanation": "A fall of 85% leaves 100% − 85% = 15% of the old demand. The old demand is 100/15 ≈ 667% of the new, not 185%.",
+      "source": "exercise:p20-Q9",
+      "id": "q86"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Percentage Increase & Decrease",
+      "question": "Bus fares rose by 3% last year and by 4% this year. The overall increase over the two years is",
+      "options": [
+        "7.00%",
+        "12.0%",
+        "7.50%",
+        "7.12%"
+      ],
+      "answer": 3,
+      "explanation": "The multipliers compound: 1.03 × 1.04 = 1.0712, an overall rise of 7.12%. Adding 3 + 4 = 7 ignores that the 4% applies to the already-raised fare.",
+      "source": "exercise:p29-Q10",
+      "id": "q87"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Percentage Increase & Decrease",
+      "question": "If footfall falls from 160 to 100 (a 37.5% decrease), then rising from 100 back to 160 is also a 37.5% increase.",
+      "answer": false,
+      "explanation": "The base changes. Rising from 100 to 160 is an increase of 60/100 = 60%. Percentages are always relative to the starting amount.",
+      "source": "text:page16",
+      "id": "q88"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Profit & Loss",
+      "question": "Kishanlal buys a sweater at ₹300 and sells it for ₹430. His percentage profit is about",
+      "options": [
+        "43.3%",
+        "30.2%",
+        "33.3%",
+        "27.1%"
+      ],
+      "answer": 0,
+      "explanation": "Profit = 130; 130/300 × 100 = 43.3%. Cost price is taken as 100%.",
+      "source": "text:page17",
+      "id": "q89"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Profit & Loss",
+      "question": "The price a shopkeeper quotes to customers before bargaining is called the",
+      "options": [
+        "Selling price",
+        "Marked price",
+        "Cost price",
+        "Gross profit"
+      ],
+      "answer": 1,
+      "explanation": "The quoted price (often the MRP) is the marked price; what the customer actually pays is the selling price; what the shopkeeper paid is the cost price.",
+      "source": "text:page16",
+      "id": "q90"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Profit & Loss",
+      "question": "Shambhavi buys notebooks at ₹36 each and sells them with a 20% profit margin. The selling price is",
+      "options": [
+        "₹43.60",
+        "₹42.00",
+        "₹43.20",
+        "₹45.00"
+      ],
+      "answer": 2,
+      "explanation": "120% of 36 = 1.2 × 36 = ₹43.20.",
+      "source": "text:page17",
+      "id": "q91"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Profit & Loss",
+      "question": "Raghu bought rice at ₹35 per kg and sold 10 kg for ₹300. His percentage loss is about",
+      "options": [
+        "14.28%",
+        "16.67%",
+        "12.50%",
+        "14.50%"
+      ],
+      "answer": 0,
+      "explanation": "CP of 10 kg = ₹350, loss = ₹50, 50/350 × 100 = 14.28%. 16.67% uses ₹300 as the base.",
+      "source": "text:page17",
+      "id": "q92"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Profit & Loss",
+      "question": "Manisha buys fertiliser at ₹500 a bag and sells at ₹750. Which statement is NOT correct?",
+      "options": [
+        "Her profit is ₹250 per bag",
+        "Her profit is 50% of the cost price",
+        "Her profit is 33.33% of the sale price",
+        "Her profit is 25% of the cost price"
+      ],
+      "answer": 3,
+      "explanation": "250/500 = 50% on cost and 250/750 = 33.33% on revenue. 25% is neither; the chapter uses this example to show the two bases.",
+      "source": "text:page18",
+      "id": "q93"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Profit & Loss",
+      "question": "Kishanlal's gross profit last month was ₹32,000 and other expenses were ₹8,000. His net profit was",
+      "options": [
+        "₹24,000",
+        "₹40,000",
+        "₹28,000",
+        "₹16,000"
+      ],
+      "answer": 0,
+      "explanation": "Net profit = gross profit − expenses = 32,000 − 8,000 = ₹24,000.",
+      "source": "text:page18",
+      "id": "q94"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Profit & Loss",
+      "question": "A shopkeeper buys a geometry box for ₹75 and sells it for ₹110. His profit margin on cost is about",
+      "options": [
+        "35.00%",
+        "46.67%",
+        "31.82%",
+        "53.33%"
+      ],
+      "answer": 1,
+      "explanation": "Profit = 35; 35/75 × 100 = 46.67%. 31.8% is 35/110 (profit on selling price).",
+      "source": "exercise:p19-Q1",
+      "id": "q95"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Profit & Loss",
+      "question": "A carpenter's materials cost ₹475 per chair and he wants a 50% profit margin. He should sell a chair at",
+      "options": [
+        "₹950.00",
+        "₹525.00",
+        "₹712.50",
+        "₹700.00"
+      ],
+      "answer": 2,
+      "explanation": "150% of 475 = 1.5 × 475 = ₹712.50.",
+      "source": "exercise:p19-Q2",
+      "id": "q96"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Profit & Loss",
+      "question": "A milkman sold two buffaloes for ₹80,000 each, making 5% profit on one and 10% loss on the other. Overall he made",
+      "options": [
+        "A loss of about ₹4,000",
+        "A profit of about ₹5,079",
+        "Neither a profit nor a loss",
+        "A loss of about ₹5,079"
+      ],
+      "answer": 3,
+      "explanation": "CP₁ = 80000/1.05 ≈ 76,190 and CP₂ = 80000/0.9 ≈ 88,889, total ≈ 1,65,079 against sales of 1,60,000 — a loss of about ₹5,079. The percentages do not cancel because the cost prices differ.",
+      "source": "exercise:p20-Q7",
+      "id": "q97"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Profit & Loss",
+      "question": "A shopkeeper sells pencils such that the selling price of 3 pencils equals the cost price of 5. His result is",
+      "options": [
+        "A profit of 66.67%",
+        "A loss of 40.00%",
+        "A profit of 60.00%",
+        "A loss of 33.33%"
+      ],
+      "answer": 0,
+      "explanation": "Let CP = ₹1 per pencil. SP of 3 = ₹5, so SP per pencil = 5/3; profit per pencil = 2/3 on a cost of 1, i.e. 66.67%.",
+      "source": "exercise:p29-Q9",
+      "id": "q98"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Discounts, Tax & Deals",
+      "question": "A shop offers 25% off all shirts. Anwar pays how much for a ₹300 shirt?",
+      "options": [
+        "₹275",
+        "₹250",
+        "₹240",
+        "₹225"
+      ],
+      "answer": 3,
+      "explanation": "75% of 300 = ₹225 (discount = ₹75).",
+      "source": "exercise:p19-Q4",
+      "id": "q99"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Discounts, Tax & Deals",
+      "question": "Samson paid ₹4,40,000 for a car after a 15% discount. The original price was about",
+      "options": [
+        "₹5,06,000",
+        "₹5,17,647",
+        "₹3,74,000",
+        "₹5,20,000"
+      ],
+      "answer": 1,
+      "explanation": "85% of original = 4,40,000, so original = 4,40,000/0.85 ≈ ₹5,17,647. Adding 15% of 4,40,000 (₹5,06,000) is the wrong-base error.",
+      "source": "exercise:p20-Q3",
+      "id": "q100"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Discounts, Tax & Deals",
+      "question": "A phone costs ₹8,250 and 18% GST is added. Which expressions give the final price? Select all that apply.",
+      "options": [
+        "8250 × 1.18",
+        "8250 + 8250 × 0.18",
+        "8250 + 18",
+        "1.8 × 8250"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Final = price + 18% of price = 8250(1 + 0.18) = 8250 × 1.18 = ₹9735. 1.8 × 8250 would add 80%, and 8250 + 18 adds just ₹18.",
+      "source": "exercise:p28-Q3",
+      "id": "q101"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Discounts, Tax & Deals",
+      "question": "For which purchase amount is the 20% discount better than the flat ₹50 discount?",
+      "options": [
+        "₹180",
+        "₹225",
+        "₹250",
+        "₹300"
+      ],
+      "answer": 3,
+      "explanation": "20% of 300 = ₹60 > ₹50. For 180 and 225 the 20% discount (36, 45) is less than 50, and at 250 they tie.",
+      "source": "text:page26",
+      "id": "q102"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Discounts, Tax & Deals",
+      "question": "Cakely offers '30% + 20%' off. A ₹200 cake there costs",
+      "options": [
+        "₹112",
+        "₹100",
+        "₹120",
+        "₹110"
+      ],
+      "answer": 0,
+      "explanation": "30% off: 200 − 60 = 140. Then 20% off ₹140: 140 − 28 = ₹112. The second discount applies to the reduced price.",
+      "source": "text:page26",
+      "id": "q103"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Discounts, Tax & Deals",
+      "question": "A '30% + 20%' successive discount is the same as a single discount of",
+      "options": [
+        "50%",
+        "44%",
+        "46%",
+        "40%"
+      ],
+      "answer": 1,
+      "explanation": "The price becomes 0.7 × 0.8 = 0.56 of the original, a 44% discount — less than 50% because the 20% is taken off an already reduced price.",
+      "source": "text:page26",
+      "id": "q104"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Discounts, Tax & Deals",
+      "question": "Three shops: A 'buy 1 get 1 free', B 'buy 2 get 1 free', C 'buy 3 get 1 free'. The percentage discount at Shop B is",
+      "options": [
+        "50%",
+        "25%",
+        "33.33%",
+        "66.67%"
+      ],
+      "answer": 2,
+      "explanation": "At B you pay for 2 and receive 3, so 1 of 3 items is free: 33.33%. A gives 50% (1 of 2), C gives 25% (1 of 4).",
+      "source": "exercise:p29-Q13",
+      "id": "q105"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Discounts, Tax & Deals",
+      "question": "You need exactly 4 items priced ₹100 each. Which shop deal is cheapest?",
+      "options": [
+        "Shop B ('buy 2 get 1 free'), ₹300",
+        "Shop C ('buy 3 get 1 free'), ₹300",
+        "All three deals cost the same",
+        "Shop A ('buy 1 get 1 free'), ₹200"
+      ],
+      "answer": 3,
+      "explanation": "A: buy 2, get 2 free = ₹200. B: buy 2 get 1 = 3 items, plus one more at ₹100 = ₹300. C: buy 3 get 1 = ₹300.",
+      "source": "exercise:p29-Q13(iii)",
+      "id": "q106"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Discounts, Tax & Deals",
+      "question": "A cooker with MRP ₹1800 at 35% off sells for",
+      "options": [
+        "₹1170",
+        "₹1230",
+        "₹1300",
+        "₹1165"
+      ],
+      "answer": 0,
+      "explanation": "Discount = 35% of 1800 = ₹630, so selling price = 1800 − 630 = ₹1170 (65% of 1800).",
+      "source": "text:page18",
+      "id": "q107"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Simple vs Compound Growth",
+      "question": "In an interest rate of '10% p.a.', 'p.a.' stands for",
+      "options": [
+        "Per amount — on the principal",
+        "Per annum — for every year",
+        "Per account — for each account",
+        "Per annum — for every month"
+      ],
+      "answer": 1,
+      "explanation": "'p.a.' is short for per annum, meaning for every year: ₹6000 at 10% p.a. earns ₹600 in a year.",
+      "source": "text:page21",
+      "id": "q108"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Simple vs Compound Growth",
+      "question": "₹6000 is deposited at 10% p.a. The amount after 1 year is",
+      "options": [
+        "₹6060",
+        "₹6100",
+        "₹6600",
+        "₹7000"
+      ],
+      "answer": 2,
+      "explanation": "6000 + 10% of 6000 = 6000 + 600 = ₹6600, i.e. 6000 × 1.1.",
+      "source": "text:page21",
+      "id": "q109"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Simple vs Compound Growth",
+      "question": "₹6000 at 10% p.a. for 3 years: total received WITHOUT and WITH compounding is",
+      "options": [
+        "₹7800 and ₹7800",
+        "₹7986 and ₹8100",
+        "₹7200 and ₹7986",
+        "₹7800 and ₹7986"
+      ],
+      "answer": 3,
+      "explanation": "Without: 6000 + 3 × 600 = 7800. With: 6000 × 1.1³ = 6000 × 1.331 = 7986.",
+      "source": "text:page22",
+      "id": "q110"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Simple vs Compound Growth",
+      "question": "With principal p, rate r (as a decimal) and t terms, the amount WITHOUT compounding is",
+      "options": [
+        "p(1 + r)ᵗ",
+        "p(1 + rt)",
+        "p × r × t",
+        "p(1 + r) × t"
+      ],
+      "answer": 1,
+      "explanation": "Interest each term is pr, so after t terms it is prt and the amount is p + prt = p(1 + rt). p(1 + r)ᵗ is the compounding formula; prt is only the interest.",
+      "source": "text:page23",
+      "id": "q111"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Simple vs Compound Growth",
+      "question": "Bank of Yahapur pays 10% p.a. On ₹20,000 for 2 years, compounding gives how much more than no compounding?",
+      "options": [
+        "₹400",
+        "₹2,000",
+        "₹200",
+        "₹0"
+      ],
+      "answer": 2,
+      "explanation": "Without: 20,000 × 1.2 = 24,000. With: 20,000 × 1.21 = 24,200. Difference ₹200 — the interest on the first year's ₹2,000 interest.",
+      "source": "exercise:p22-Q1",
+      "id": "q112"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Simple vs Compound Growth",
+      "question": "₹20,000 at 10% for 2 years and at 5% for 4 years give the same amount without compounding but different amounts with compounding.",
+      "answer": true,
+      "explanation": "Without compounding both add 20% (10 × 2 = 5 × 4) → ₹24,000. With compounding 1.1² = 1.21 but 1.05⁴ ≈ 1.2155, so the 4-year option gives slightly more.",
+      "source": "exercise:p23-Q3",
+      "id": "q113"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Simple vs Compound Growth",
+      "question": "Jasmine invests p for 4 years at 6% p.a. without compounding. Which expressions give the total amount after 4 years?",
+      "options": [
+        "p + (p × 0.06 × 4)",
+        "p × 1.24",
+        "p × 1.06 × 4",
+        "p × 0.06 × 4"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Amount = p(1 + rt) = p(1 + 0.24) = 1.24p. p × 1.06 × 4 would be four whole principals plus interest, and p × 0.06 × 4 is only the interest.",
+      "source": "exercise:p24-Q4",
+      "id": "q114"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Simple vs Compound Growth",
+      "question": "The post office offers 7% p.a. On ₹50,000 for 3 years, compounding gives how much more interest than no compounding?",
+      "options": [
+        "About ₹752",
+        "About ₹1,050",
+        "About ₹350",
+        "About ₹1,252"
+      ],
+      "answer": 0,
+      "explanation": "Simple: 50,000 × 0.07 × 3 = 10,500. Compound: 50,000 × 1.07³ ≈ 61,252, interest ≈ 11,252. Extra ≈ ₹752.",
+      "source": "exercise:p24-Q5",
+      "id": "q115"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Simple vs Compound Growth",
+      "question": "Giridhar borrows ₹12,500 at 12% p.a. for 3 years without compounding; Raghava borrows the same at 10% p.a. compounded annually. Who pays more interest?",
+      "options": [
+        "Raghava, by ₹362.50",
+        "Giridhar, by ₹362.50",
+        "Giridhar, by ₹4,500",
+        "Both pay the same interest"
+      ],
+      "answer": 1,
+      "explanation": "Giridhar: 12,500 × 0.12 × 3 = ₹4,500. Raghava: 12,500 × 1.331 − 12,500 = ₹4,137.50. Compounding at the lower rate still costs less here.",
+      "source": "exercise:p24-Q6",
+      "id": "q116"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Simple vs Compound Growth",
+      "question": "A city of 1.5 crore grows by about 3% every year. After 3 years its population is expected to be about",
+      "options": [
+        "1.635 crore",
+        "1.59 crore",
+        "1.55 crore",
+        "1.64 crore"
+      ],
+      "answer": 3,
+      "explanation": "1.5 × 1.03³ = 1.5 × 1.0927 ≈ 1.639 crore. 1.635 crore is the linear estimate 1.5 × 1.09, which ignores compounding.",
+      "source": "exercise:p24-Q8",
+      "id": "q117"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Simple vs Compound Growth",
+      "question": "Compounding is an example of exponential growth, while growth without compounding is linear.",
+      "answer": true,
+      "explanation": "Without compounding the amount rises by the same pr each term (a straight line); with compounding each term multiplies by (1 + r), giving p(1 + r)ᵗ.",
+      "source": "exercise:p24-Q7",
+      "id": "q118"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Simple vs Compound Growth",
+      "question": "Why does compounding give a larger final amount than paying the interest out each year?",
+      "options": [
+        "The bank always uses a higher interest rate when it compounds",
+        "Interest added back raises the principal, so later interest is bigger",
+        "The deposit stays locked with the bank for a longer period",
+        "Compounding counts each year's interest twice in the total"
+      ],
+      "answer": 1,
+      "explanation": "In Option 2 the ₹600 interest is added to the FD, so year 2 earns 10% of ₹6600 = ₹660, year 3 earns ₹726. The rate and period are the same in both options.",
+      "source": "text:page22",
+      "id": "q119"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Depreciation & Decline",
+      "question": "The reduction in the value of an item due to use and age is called",
+      "options": [
+        "Compounding",
+        "Gross profit",
+        "Depreciation",
+        "Inflation"
+      ],
+      "answer": 2,
+      "explanation": "Depreciation is the loss of financial value over time — the chapter's example is a bike bought for ₹1,00,000 that sells for less years later.",
+      "source": "text:page24",
+      "id": "q120"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Depreciation & Decline",
+      "question": "A TV bought for ₹21,000 depreciates by 5% in a year. Its value after one year is",
+      "options": [
+        "₹20,950",
+        "₹19,500",
+        "₹20,000",
+        "₹19,950"
+      ],
+      "answer": 3,
+      "explanation": "5% of 21,000 = 1,050, so 21,000 − 1,050 = ₹19,950 (or 95% of 21,000).",
+      "source": "text:page25",
+      "id": "q121"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Depreciation & Decline",
+      "question": "A village's population falls by about 10% every decade. From 1250 now, the expected population after 3 decades is about",
+      "options": [
+        "910",
+        "875",
+        "1012",
+        "938"
+      ],
+      "answer": 0,
+      "explanation": "1250 × 0.9 × 0.9 × 0.9 = 911.25 ≈ 910. 875 is the wrong answer from subtracting 3 × 125 (10% of the original each time).",
+      "source": "text:page25",
+      "id": "q122"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Depreciation & Decline",
+      "question": "Why is it wrong to find the village population after 3 decades as 1250 − 3 × 125?",
+      "options": [
+        "A decade is 10 years, so each drop must be divided by 10",
+        "Each decade's 10% drop is taken on the reduced population",
+        "Population figures must always be rounded up, never down",
+        "Percentages can only describe increases, not decreases"
+      ],
+      "answer": 1,
+      "explanation": "The second decade's decrease is 10% of 1125 = 112.5, not 125, and the third is 10% of 1013. Each step multiplies by 0.9.",
+      "source": "text:page25",
+      "id": "q123"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Depreciation & Decline",
+      "question": "A 10% decrease per decade for three decades is a 30% decrease overall.",
+      "answer": false,
+      "explanation": "0.9³ = 0.729, so 72.9% remains — an overall fall of 27.1%, not 30%. Successive percentage changes multiply rather than add.",
+      "source": "text:page25",
+      "id": "q124"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Depreciation & Decline",
+      "question": "Lab mice change by +5%, −2% and −3% in three successive months from p. Which statements are true?",
+      "options": [
+        "The population after three months is p × 1.05 × 0.98 × 0.97",
+        "The population after three months is less than p",
+        "The population after three months is exactly p",
+        "The population after three months is p × 0.05 × 0.02 × 0.03"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Each month multiplies by (1 + change): 1.05 × 0.98 × 0.97 = 0.99813, slightly less than 1, so the population is a little below p — the +5 and −5 do not cancel exactly.",
+      "source": "exercise:p28-Q4",
+      "id": "q125"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Depreciation & Decline",
+      "question": "Mice change by +5%, −2% and −3% over three months. The net change is",
+      "options": [
+        "No change — the +5 cancels the −5",
+        "An increase of about 0.19%",
+        "A decrease of exactly 1%",
+        "A decrease of about 0.19%"
+      ],
+      "answer": 3,
+      "explanation": "1.05 × 0.98 × 0.97 = 0.99813, i.e. 99.813% of the start — a fall of about 0.19%.",
+      "source": "exercise:p28-Q4",
+      "id": "q126"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Depreciation & Decline",
+      "question": "The length of a rectangle is increased by 10% while the area stays the same. The breadth decreases by exactly",
+      "options": [
+        "9.09% (1/11)",
+        "10% (1/10)",
+        "11% (11/100)",
+        "9% (9/100)"
+      ],
+      "answer": 0,
+      "explanation": "New breadth = old breadth ÷ 1.1 = 10/11 of the old, a drop of 1/11 ≈ 9.09%. A 10% drop would shrink the area (1.1 × 0.9 = 0.99).",
+      "source": "exercise:p29-Q11",
+      "id": "q127"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Tricky Percentages",
+      "question": "Option A: deposit ₹100, get back ₹300. Option B: deposit ₹1000, get back ₹1500. Which gives the higher percentage gain?",
+      "options": [
+        "Option B, a gain of 50%",
+        "Option A, a gain of 200%",
+        "Option B, a gain of 150%",
+        "Both give the same gain"
+      ],
+      "answer": 1,
+      "explanation": "A gains ₹200 on ₹100 = 200%; B gains ₹500 on ₹1000 = 50%. Percentages compare proportions, not absolute amounts.",
+      "source": "text:page25",
+      "id": "q128"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Tricky Percentages",
+      "question": "In the same 'Would You Rather' (A: ₹100→₹300, B: ₹1000→₹1500), which option leaves you with more extra money?",
+      "options": [
+        "Option A, ₹200 extra",
+        "Option A, ₹300 extra",
+        "Option B, ₹500 extra",
+        "Both give ₹200 extra"
+      ],
+      "answer": 2,
+      "explanation": "B's gain is ₹500 against A's ₹200, even though A's percentage gain (200%) is higher. The chapter warns to be mindful of proportions versus absolute values.",
+      "source": "text:page25",
+      "id": "q129"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Tricky Percentages",
+      "question": "Surbhi marked up her cookware by 50% and then offered a 50% discount. Overall she made",
+      "options": [
+        "No profit and no loss",
+        "A loss of 50%",
+        "A profit of 25%",
+        "A loss of 25%"
+      ],
+      "answer": 3,
+      "explanation": "Price = 1.5x; after 50% off it is 0.75x — three-quarters of what she paid, a 25% loss. The 50% discount is taken on the larger marked price.",
+      "source": "text:page27",
+      "id": "q130"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Tricky Percentages",
+      "question": "After the 50% markup and 50% discount, Surbhi sold goods for ₹12,000. She had bought them for",
+      "options": [
+        "₹16,000 (loss ₹4,000)",
+        "₹18,000 (loss ₹6,000)",
+        "₹12,000 (no loss at all)",
+        "₹24,000 (loss ₹12,000)"
+      ],
+      "answer": 0,
+      "explanation": "0.75x = 12,000 gives x = 16,000, so the loss is ₹4,000 — 25% of 16,000.",
+      "source": "text:page27",
+      "id": "q131"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Tricky Percentages",
+      "question": "What discount on a 50% marked-up price brings the goods back to exactly the buying price?",
+      "options": [
+        "50%",
+        "33.33%",
+        "25%",
+        "66.67%"
+      ],
+      "answer": 1,
+      "explanation": "1.5x × (1 − d) = x gives 1 − d = 2/3, so d = 1/3 = 33.33%. A 50% discount overshoots to 0.75x.",
+      "source": "text:page27",
+      "id": "q132"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Tricky Percentages",
+      "question": "Ariba says, 'My marbles are 120% of Arun's.' Arun could correctly say his marbles are",
+      "options": [
+        "80% of Ariba's",
+        "120% of Ariba's",
+        "83.33% of Ariba's",
+        "20% of Ariba's"
+      ],
+      "answer": 2,
+      "explanation": "If Arun has a, Ariba has 1.2a, so a = (1/1.2) × 1.2a = 83.33% of Ariba's. '20% more' does not invert to '20% less'.",
+      "source": "text:page27",
+      "id": "q133"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Tricky Percentages",
+      "question": "A shopkeeper prices a product with a 35% profit margin, then gives a 30% discount on that price. He makes",
+      "options": [
+        "A profit of 5%",
+        "A loss of 5%",
+        "A profit of 5.5%",
+        "A loss of 5.5%"
+      ],
+      "answer": 3,
+      "explanation": "1.35 × 0.7 = 0.945 of the cost price, a 5.5% loss. The 30% discount is taken on the larger marked-up price, so it outweighs the 35% markup.",
+      "source": "exercise:p28-Q5",
+      "id": "q134"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Tricky Percentages",
+      "question": "In a room of 100 people, 99% are left-handed. How many left-handed people must leave to bring the percentage down to 98%?",
+      "options": [
+        "50",
+        "1",
+        "2",
+        "49"
+      ],
+      "answer": 0,
+      "explanation": "The 1 right-handed person must become 2% of the room, so the room must hold 50 people: 49 left-handers remain and 50 must leave.",
+      "source": "exercise:p30-Q14",
+      "id": "q135"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Tricky Percentages",
+      "question": "At a school excursion, 40% of students are from Grade 8, and 60% of those are girls. Grade 8 girls are what percentage of all students?",
+      "options": [
+        "100%",
+        "24%",
+        "50%",
+        "36%"
+      ],
+      "answer": 1,
+      "explanation": "60% of 40% = 0.6 × 0.4 = 0.24 = 24% of all students.",
+      "source": "exercise:p29-Q8",
+      "id": "q136"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Tricky Percentages",
+      "question": "Which pairs are equal? Select all that apply.",
+      "options": [
+        "25% of 12 and 12% of 25",
+        "15% of 60 and 60% of 15",
+        "20% of 50 and 50% of 25",
+        "10% of 30 and 30% of 100"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "x% of y = xy/100 = y% of x, so the first two pairs are equal (3 and 9). 20% of 50 = 10 but 50% of 25 = 12.5; 10% of 30 = 3 but 30% of 100 = 30.",
+      "source": "exercise:p29-Q7",
+      "id": "q137"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Tricky Percentages",
+      "question": "Mathematically 30% + 20% = 50%, so a shop's '30% + 20%' offer is the same as a 50% discount.",
+      "answer": false,
+      "explanation": "In shopping, '30% + 20%' means successive discounts: 0.7 × 0.8 = 0.56, only a 44% discount. On a ₹200 cake it is ₹112 versus ₹100 at 50% off.",
+      "source": "text:page26",
+      "id": "q138"
+    }
+  ]
+}

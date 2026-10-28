@@ -1,0 +1,2735 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-science-g8-ch11-keeping-time-with-the-skies",
+  "title": "Keeping Time with the Skies",
+  "subject": "Science",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Science/ch11",
+  "chapter": "11. Keeping Time with the Skies",
+  "topic": "Full Chapter",
+  "description": "Phases of the Moon and why they happen, locating the Moon, moonrise delay, eclipses and tides, the solar day, lunar/solar/luni-solar calendars, leap years, the Indian National Calendar, Uttarayan and Dakshinayan, festival dates, and artificial satellites launched by ISRO.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "science",
+    "moon-phases",
+    "calendars",
+    "leap-year",
+    "eclipses",
+    "satellites",
+    "isro"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Phases of the Moon: Waxing and Waning",
+      "question": "In the chapter's opening story, where was Meera when she noticed the Moon shining in the daytime sky?",
+      "options": [
+        "At the International Kite Festival in Ahmedabad",
+        "At the Saha Institute of Nuclear Physics in Kolkata",
+        "At the Vikram Sarabhai Space Centre in Thiruvananthapuram",
+        "At the Positional Astronomy Centre in New Delhi"
+      ],
+      "answer": 0,
+      "explanation": "Meera was in Ahmedabad for the Patang Mahotsav (International Kite Festival) on Makar Sankranti when she saw the Moon during the day. The other places are mentioned elsewhere in the chapter for different reasons.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Phases of the Moon: Waxing and Waning",
+      "question": "The two-week period during which the bright portion of the Moon shrinks from a full circle until it is no longer visible is called the",
+      "options": [
+        "waxing period",
+        "waning period",
+        "gibbous period",
+        "crescent period"
+      ],
+      "answer": 1,
+      "explanation": "The bright portion decreasing from full to half to invisible over about two weeks is the waning period. Waxing is the opposite (growing); gibbous and crescent are names of shapes, not of periods.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Phases of the Moon: Waxing and Waning",
+      "question": "Which Indian name is given to the day when the Moon appears as a full bright circle?",
+      "options": [
+        "Amavasya",
+        "Shukla Paksha",
+        "Purnima",
+        "Krishna Paksha"
+      ],
+      "answer": 2,
+      "explanation": "Full Moon day is Purnima; Amavasya is the new Moon day when the Moon is not visible. Shukla and Krishna Paksha are the two fortnights (waxing and waning), not single days.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Phases of the Moon: Waxing and Waning",
+      "question": "Starting from the full Moon, roughly how long does it take for the bright portion of the Moon to shrink to a half circle?",
+      "options": [
+        "About two weeks",
+        "About one month",
+        "About three days",
+        "About one week"
+      ],
+      "answer": 3,
+      "explanation": "The text says the bright portion decreases from a full circle to a half circle in about a week, and keeps shrinking for another week until it disappears (two weeks in total for waning).",
+      "source": "text:page3"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Phases of the Moon: Waxing and Waning",
+      "question": "In India, the waxing period of the Moon is generally called the",
+      "options": [
+        "Shukla Paksha",
+        "Krishna Paksha",
+        "Adhika Maasa",
+        "Purnimant month"
+      ],
+      "answer": 0,
+      "explanation": "Shukla Paksha is the bright/waxing fortnight; Krishna Paksha is the dark/waning fortnight. Adhika Maasa is an extra intercalary month and Purnimant is a type of month-reckoning.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Phases of the Moon: Waxing and Waning",
+      "question": "Which sequence correctly lists the Moon's shapes as seen from Earth in the two weeks after a new Moon?",
+      "options": [
+        "Gibbous, half circle, crescent, full Moon",
+        "Crescent, half circle, gibbous, full Moon",
+        "Full Moon, gibbous, half circle, crescent",
+        "Half circle, crescent, gibbous, full Moon"
+      ],
+      "answer": 1,
+      "explanation": "After new Moon the bright part grows: a thin crescent first, a half circle after about a week, then gibbous (more than half), and a full circle after another week. The reverse order describes waning.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Phases of the Moon: Waxing and Waning",
+      "question": "Which statement about the Moon's monthly cycle is NOT correct?",
+      "options": [
+        "A waning period is always followed by a waxing period in a cycle",
+        "The cycle from one full Moon to the next takes about a month",
+        "The Moon's own shape changes from day to day during the month",
+        "After a new Moon the bright part grows to a half circle in about a week"
+      ],
+      "answer": 2,
+      "explanation": "The Moon's actual shape never changes; only the part of its illuminated half that we can see changes. The other three statements are exactly what the chapter describes.",
+      "source": "text:page4,5"
+    },
+    {
+      "id": "q8",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Phases of the Moon: Waxing and Waning",
+      "question": "Krishna Paksha is the fortnight in which the bright portion of the Moon increases every night.",
+      "answer": false,
+      "explanation": "False. Krishna Paksha is the waning period, when the bright portion decreases. The growing (waxing) fortnight is Shukla Paksha.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q9",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Phases of the Moon: Waxing and Waning",
+      "question": "The cycle from one full Moon to the next full Moon takes about a month.",
+      "answer": true,
+      "explanation": "True. The waning period (about two weeks) followed by the waxing period (about two weeks) brings the Moon back to full in roughly a month.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Phases of the Moon: Waxing and Waning",
+      "question": "According to the chapter, what exactly is meant by the 'phases of the Moon'?",
+      "options": [
+        "The changing distance between the Moon and the Earth during one month",
+        "The changing times at which the Moon rises and sets over successive days",
+        "The changing shadows that the Earth casts on the Moon during an eclipse",
+        "The changing shapes of the Moon's bright portion from day to day as seen from Earth"
+      ],
+      "answer": 3,
+      "explanation": "Phases are defined as the changing shapes of the bright portion of the Moon from one day to another as seen from Earth. Rising times do change daily, but that is not what 'phases' means, and Earth's shadow causes eclipses, not phases.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Phases of the Moon: Waxing and Waning",
+      "question": "Activity 11.1 asks you to watch the Moon at sunrise for about 15 days and then at sunset for the next 15 days. Why is the switch needed?",
+      "options": [
+        "After new Moon the waxing Moon is easiest to spot at sunset",
+        "After full Moon the Moon can be seen only during the daytime",
+        "The Moon stops rising in the east after about fifteen days",
+        "Sunrise observations are impossible during the waxing fortnight"
+      ],
+      "answer": 0,
+      "explanation": "The first 15 days after full Moon are the waning period, when the Moon is easiest to see at sunrise. After new Moon it waxes, and a waxing Moon is easiest to spot at sunset — so the observing time is switched.",
+      "source": "text:page2,4"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Phases of the Moon: Waxing and Waning",
+      "question": "On the first day after the full Moon, in which direction should you look for the Moon at sunrise?",
+      "options": [
+        "Eastern direction",
+        "Western direction",
+        "Directly overhead",
+        "Northern direction"
+      ],
+      "answer": 1,
+      "explanation": "Just after full Moon the Moon is nearly opposite the Sun, so when the Sun rises in the east the Moon is almost setting in the west.",
+      "source": "text:page2,4"
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Phases of the Moon: Waxing and Waning",
+      "question": "Select the TWO correct pairings of a term with its meaning.",
+      "options": [
+        "Purnima — the day the Moon is not visible",
+        "Shukla Paksha — the waxing period of the Moon",
+        "Amavasya — the day the Moon is a full circle",
+        "Krishna Paksha — the waning period of the Moon",
+        "Gibbous — less than half the Moon appears lit"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "Shukla Paksha is waxing and Krishna Paksha is waning. Purnima is the full Moon day (not the invisible day), Amavasya is the new Moon day, and gibbous means MORE than half appears lit.",
+      "source": "text:page3,4,7"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Phases of the Moon: Waxing and Waning",
+      "question": "A student fills Table 11.1 on the second and third mornings after a full Moon. Which entries should appear in the last two columns?",
+      "options": [
+        "Bright portion: Increased; Moon–Sun separation: Farther",
+        "Bright portion: Decreased; Moon–Sun separation: Farther",
+        "Bright portion: Decreased; Moon–Sun separation: Closer",
+        "Bright portion: Increased; Moon–Sun separation: Closer"
+      ],
+      "answer": 2,
+      "explanation": "After full Moon the Moon is waning, so the bright portion decreases each day, and at sunrise the Moon appears to move closer to the Sun in the sky day by day.",
+      "source": "text:page3,4"
+    },
+    {
+      "id": "q15",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Phases of the Moon: Waxing and Waning",
+      "question": "Lunar eclipses are the main reason the Moon does not appear as a complete circle on most nights.",
+      "answer": false,
+      "explanation": "False. Meera briefly wondered this, but eclipses are rare and brief. The Moon's changing appearance is due to its phases — how much of its lit half faces Earth.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Locating the Moon in the Sky",
+      "question": "On a full Moon day, when the Sun is rising in the east, where is the Moon?",
+      "options": [
+        "Directly overhead in the sky",
+        "Also rising in the east",
+        "Hidden below the horizon",
+        "Almost setting in the west"
+      ],
+      "answer": 3,
+      "explanation": "On a full Moon day the Moon is nearly opposite the Sun in the sky, so as the Sun rises in the east the Moon is almost setting in the west.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Locating the Moon in the Sky",
+      "question": "During the waning period, when the Moon's bright part has shrunk to a half circle, where is the Moon at sunrise?",
+      "options": [
+        "Overhead",
+        "Setting in the west",
+        "Rising in the east",
+        "Close to the Sun"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states that when the bright part decreases to a half circle, the Moon is overhead at sunrise. Full Moon sets in the west at sunrise; the crescent is close to the Sun.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Locating the Moon in the Sky",
+      "question": "At which time of day is a waxing Moon easiest to spot, according to the chapter?",
+      "options": [
+        "At sunrise",
+        "At sunset",
+        "At midnight",
+        "At noon"
+      ],
+      "answer": 1,
+      "explanation": "A waxing Moon is easiest to spot at sunset, while a waning Moon is easiest to spot at sunrise.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Locating the Moon in the Sky",
+      "question": "By about how much does the time of moonrise change from one day to the next?",
+      "options": [
+        "About 50 minutes earlier",
+        "About 24 hours later",
+        "About 50 minutes later",
+        "About 4 minutes later"
+      ],
+      "answer": 2,
+      "explanation": "Moonrise happens about 50 minutes later each day because the Moon moves ahead in its orbit while Earth rotates, so Earth must turn a bit more for the Moon to appear.",
+      "source": "text:page4,8"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Locating the Moon in the Sky",
+      "question": "The chapter quotes moonrise at 14:23 on 7 April 2025 and at 15:17 on 8 April 2025. By how much did moonrise shift between the two days?",
+      "options": [
+        "54 minutes earlier",
+        "37 minutes later",
+        "94 minutes later",
+        "54 minutes later"
+      ],
+      "answer": 3,
+      "explanation": "15:17 minus 14:23 is 54 minutes, and it is later on the second day — consistent with the rule that the Moon rises roughly 50 minutes later each day.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Locating the Moon in the Sky",
+      "question": "After the listed moonrise time, roughly how long may you need to wait before the Moon climbs high enough to be seen?",
+      "options": [
+        "About 30 minutes",
+        "About 50 minutes",
+        "About 2 hours",
+        "About 5 minutes"
+      ],
+      "answer": 0,
+      "explanation": "The 'A step further' box says you may need to wait about 30 minutes past the listed moonrise time for the Moon to be high enough to see. The 50-minute figure is the daily delay in moonrise.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q22",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Locating the Moon in the Sky",
+      "question": "The Moon always rises at exactly the moment the Sun sets.",
+      "answer": false,
+      "explanation": "False. Many people believe this, but it is not true in general; moonrise shifts about 50 minutes later each day and can even happen in the afternoon.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q23",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Locating the Moon in the Sky",
+      "question": "Because of its daily shift, the Moon always rises and sets at different times from the Sun.",
+      "answer": true,
+      "explanation": "True. Since the Moon's position relative to the Sun changes from day to day, its rising and setting times differ from the Sun's.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Locating the Moon in the Sky",
+      "question": "The newspaper lists moonrise at 3:00 p.m. today. Where and when could you spot the Moon?",
+      "options": [
+        "In the western sky just before sunrise tomorrow",
+        "In the eastern sky during the afternoon daylight",
+        "Directly overhead at exactly 3:00 p.m. today",
+        "In the eastern sky only after the Sun has set"
+      ],
+      "answer": 1,
+      "explanation": "A moonrise around 2:00–4:00 p.m. means the Moon climbs in the eastern sky during daylight, so it can be spotted in the afternoon. It will not be overhead at the moment it rises.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Locating the Moon in the Sky",
+      "question": "On successive mornings after the full Moon, how does the Moon's position at sunrise change?",
+      "options": [
+        "It appears farther from the Sun each day",
+        "It stays in the same place in the sky",
+        "It appears closer to the Sun each day",
+        "It swings between east and west daily"
+      ],
+      "answer": 2,
+      "explanation": "As the bright part keeps decreasing after full Moon, the Moon appears to move closer to the Sun in the sky at sunrise — until, around new Moon, it is too close to the Sun to be seen.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Locating the Moon in the Sky",
+      "question": "Which source does the chapter suggest for finding the moonrise time in your area?",
+      "options": [
+        "The Bhuvan mapping platform run by ISRO's Cartosat programme",
+        "The Saha Institute of Nuclear Physics annual bulletin",
+        "The Vikram Sarabhai Space Centre launch schedule",
+        "The Positional Astronomy Centre website or a newspaper"
+      ],
+      "answer": 3,
+      "explanation": "The chapter points to a local newspaper or the Positional Astronomy Centre (India Meteorological Department) website for moonrise times. Bhuvan is a mapping platform, not a moonrise service.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q27",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Locating the Moon in the Sky",
+      "question": "Which TWO pieces of information help you decide where and when to look for the Moon on a given day?",
+      "options": [
+        "The current phase of the Moon",
+        "The day of the week",
+        "Whether the Moon is waxing or waning",
+        "The date of the most recent lunar eclipse",
+        "The season of the year"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Knowing the phase and whether it is waxing or waning tells you roughly where the Moon is relative to the Sun and whether sunset or sunrise is the better time to look.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Locating the Moon in the Sky",
+      "question": "Around the 15th day of Activity 11.1, a student cannot find the Moon at either sunrise or sunset. What is the most likely explanation?",
+      "options": [
+        "It is near new Moon: the Moon is close to the Sun, lit side facing away",
+        "It is near full Moon, so the Moon is too bright to see against the sky",
+        "The Moon has temporarily stopped revolving around the Earth",
+        "A lunar eclipse is hiding the Moon for the whole of that day"
+      ],
+      "answer": 0,
+      "explanation": "About 15 days after full Moon comes new Moon: the Moon appears closest to the Sun in the sky and only its non-illuminated half faces Earth, so it cannot be seen. Eclipses are brief, and the Moon never stops revolving.",
+      "source": "text:page2,5,7"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Phases Happen: The Ball-and-Lamp Model",
+      "question": "Why does the Moon shine, according to the chapter?",
+      "options": [
+        "It burns gases like a small star",
+        "It glows from heat trapped deep inside it",
+        "It reflects sunlight that falls on it",
+        "It reflects light from the Earth"
+      ],
+      "answer": 2,
+      "explanation": "The Moon does not emit light of its own; it shines because it reflects sunlight that falls on it.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Phases Happen: The Ball-and-Lamp Model",
+      "question": "At any moment, how much of the Moon's surface is lit by the Sun?",
+      "options": [
+        "About a quarter of it",
+        "Almost all of it",
+        "Only a thin strip of it",
+        "About half of it"
+      ],
+      "answer": 3,
+      "explanation": "The half of the Moon that faces the Sun receives sunlight and is illuminated; the other half stays non-illuminated. We see different amounts of that lit half from Earth.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Phases Happen: The Ball-and-Lamp Model",
+      "question": "In Activity 11.2 (the ball-and-stick model), what represents the Earth?",
+      "options": [
+        "The student's head",
+        "The soft ball on the stick",
+        "The torch or electric lamp",
+        "The dark open ground"
+      ],
+      "answer": 0,
+      "explanation": "The ball represents the Moon, the torch or lamp represents the Sun, and the student's own head represents the Earth from which the Moon is viewed.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why Phases Happen: The Ball-and-Lamp Model",
+      "question": "In Activity 11.2 the ball is held towards the direction of the lamp (position E). Which real situation does this model?",
+      "options": [
+        "Full Moon day",
+        "New Moon day",
+        "Gibbous phase",
+        "Half Moon day"
+      ],
+      "answer": 1,
+      "explanation": "With the ball between you and the lamp you face its non-illuminated side and see no lit part — exactly like the new Moon. Holding it opposite the lamp (position A) models the full Moon.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Why Phases Happen: The Ball-and-Lamp Model",
+      "question": "As the student turns slowly in the ball-and-lamp activity, what shape is the line separating the lit and unlit parts of the ball?",
+      "options": [
+        "A straight vertical line",
+        "A jagged broken line",
+        "A curved line",
+        "A perfect circle"
+      ],
+      "answer": 2,
+      "explanation": "The chapter notes that the line separating the illuminated and non-illuminated portions appears curved, like the edge of the Moon's bright portion seen from Earth.",
+      "source": "text:page5,6"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why Phases Happen: The Ball-and-Lamp Model",
+      "question": "In Fig. 11.5, at which positions of the Moon is MORE than half of its illuminated portion seen from Earth?",
+      "options": [
+        "Positions D and F",
+        "Positions A and E",
+        "Positions C and G",
+        "Positions B and H"
+      ],
+      "answer": 3,
+      "explanation": "At B and H we see more than half of the lit portion — the gibbous phase. D and F give the crescent (less than half); A is full, E is new; C and G show exactly half.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Why Phases Happen: The Ball-and-Lamp Model",
+      "question": "Why do people in different parts of the Earth see nearly the same phase of the Moon on a given day?",
+      "options": [
+        "The Moon stays fixed over one point of the Earth throughout the day",
+        "Earth's one-day rotation is much shorter than the Moon's month-long revolution",
+        "Sunlight reaches every part of the Earth at the same instant",
+        "The Moon's orbit is tilted slightly with respect to Earth's orbit"
+      ],
+      "answer": 1,
+      "explanation": "Because Earth rotates once in a day while the Moon takes nearly a month to revolve, the Moon's position in its orbit barely changes during one day — so everyone sees nearly the same phase.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Why Phases Happen: The Ball-and-Lamp Model",
+      "question": "Which statement about the Moon as seen from Earth is NOT correct?",
+      "options": [
+        "Only one half of the Moon always faces the Earth",
+        "We can see only the illuminated portion of the Moon from Earth",
+        "The half of the Moon facing Earth is always its illuminated half",
+        "On new Moon day only the non-illuminated portion faces the Earth"
+      ],
+      "answer": 2,
+      "explanation": "The same half always faces Earth, but that half is not always the lit half — the Sun lights whichever half faces it. The mismatch between the Earth-facing half and the Sun-facing half is what produces phases.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q37",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Why Phases Happen: The Ball-and-Lamp Model",
+      "question": "The Moon's actual shape changes during the month, which is why we see different phases.",
+      "answer": false,
+      "explanation": "False. The shape of the Moon itself does not change; only the portion of its illuminated half that we can see from Earth changes.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q38",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Why Phases Happen: The Ball-and-Lamp Model",
+      "question": "On the new Moon day, only the non-illuminated half of the Moon faces the Earth.",
+      "answer": true,
+      "explanation": "True. On new Moon day the Moon lies in the direction of the Sun, so the half facing Earth is the dark half and no lit portion is visible.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why Phases Happen: The Ball-and-Lamp Model",
+      "question": "In Fig. 11.5, the Moon moving from position A through C to E shows which phase sequence?",
+      "options": [
+        "The waxing phase",
+        "A lunar eclipse",
+        "A solar eclipse",
+        "The waning phase"
+      ],
+      "answer": 3,
+      "explanation": "From A (full) to C (half) to E (new) the visible lit part shrinks — the waning phase. From E through G back to A the Moon waxes.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Why Phases Happen: The Ball-and-Lamp Model",
+      "question": "What does the chapter identify as the cause of the phases of the Moon?",
+      "options": [
+        "A change in the fraction of the Moon's illuminated portion that is seen from Earth",
+        "A change in the amount of sunlight that reaches the Moon during the month",
+        "The Earth's shadow covering different amounts of the Moon on different days",
+        "A change in the Moon's distance from the Earth as it moves along its orbit"
+      ],
+      "answer": 0,
+      "explanation": "Phases occur because, as the Moon revolves around Earth, different fractions of its lit half face us. The Sun always lights half of the Moon; Earth's shadow causes eclipses, not phases.",
+      "source": "text:page7,8"
+    },
+    {
+      "id": "q41",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Why Phases Happen: The Ball-and-Lamp Model",
+      "question": "In Activity 11.2, which TWO statements correctly describe the model?",
+      "options": [
+        "The stick represents the axis of the Earth",
+        "The torch or electric lamp represents the Sun",
+        "The student's head represents the Sun",
+        "The soft ball represents the Moon"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "The ball is the Moon, the lamp is the Sun and the student's head is the Earth. The stick is only a handle for holding the ball.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why Phases Happen: The Ball-and-Lamp Model",
+      "question": "In Fig. 11.5(a), on about which day of the cycle (counting the full Moon as Day 1) does the Moon reach position E, the new Moon?",
+      "options": [
+        "Day 8",
+        "Day 15",
+        "Day 22",
+        "Day 26"
+      ],
+      "answer": 1,
+      "explanation": "The figure labels A as Day 1 (full Moon), C as Day 8 (half), E as Day 15 (new Moon) and G as Day 22 (half again) — new Moon comes about two weeks after full Moon.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Why Phases Happen: The Ball-and-Lamp Model",
+      "question": "The question in the margin asks why the lit portion of the Moon seen from Earth decreases when the Moon appears closer to the Sun. Which answer fits the chapter's model?",
+      "options": [
+        "Near the Sun's direction, the Moon receives much less sunlight",
+        "Near the Sun's direction, the Earth's shadow covers more of the Moon",
+        "Near the Sun's direction, the Moon moves farther away from Earth",
+        "Near the Sun's direction, mostly the Moon's dark half faces Earth"
+      ],
+      "answer": 3,
+      "explanation": "When the Moon lies close to the Sun's direction (near position E), the half facing Earth is mostly the non-illuminated half, so only a thin lit crescent — or nothing — is seen. The Moon is still half-lit by the Sun.",
+      "source": "text:page5,7"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Moon's Orbit, Moonrise Delay, Eclipses and Tides",
+      "question": "Why does the Moon take about 50 minutes longer than a day to return to nearly the same spot in the sky?",
+      "options": [
+        "The Moon moves ahead in its orbit while Earth rotates, so Earth must turn a little more",
+        "The Moon slows down slightly each day while the Earth keeps rotating at the same rate",
+        "The Earth's rotation takes about 50 minutes longer than 24 hours every single day",
+        "Sunlight bends the Moon's path, shifting where it appears by about 50 minutes"
+      ],
+      "answer": 0,
+      "explanation": "In one day Earth completes one rotation, but meanwhile the Moon has moved further along its orbit. Earth has to rotate some more for the Moon to appear in the same place — about 50 minutes more.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Moon's Orbit, Moonrise Delay, Eclipses and Tides",
+      "question": "In how much time does the Earth complete one rotation about its axis?",
+      "options": [
+        "29.5 days",
+        "24 hours",
+        "365 days",
+        "50 minutes"
+      ],
+      "answer": 1,
+      "explanation": "The Earth rotates once about its axis in 24 hours (the mean solar day). 29.5 days is the Moon's phase cycle and 365 days is roughly a year.",
+      "source": "text:page8,9"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Moon's Orbit, Moonrise Delay, Eclipses and Tides",
+      "question": "What is caused by the Earth's shadow falling on the Moon?",
+      "options": [
+        "The phases of the Moon",
+        "A solar eclipse",
+        "A lunar eclipse",
+        "The new Moon"
+      ],
+      "answer": 2,
+      "explanation": "Earth's shadow on the Moon produces a lunar eclipse. Phases are NOT caused by Earth's shadow — that is a common misconception the chapter corrects.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Moon's Orbit, Moonrise Delay, Eclipses and Tides",
+      "question": "On which day of the lunar cycle can a lunar eclipse occur?",
+      "options": [
+        "Only on a new Moon day",
+        "Only on a half Moon day",
+        "On any day of the cycle",
+        "Only on a full Moon day"
+      ],
+      "answer": 3,
+      "explanation": "A lunar eclipse needs the Earth between the Sun and Moon, which happens only on a full Moon day. Solar eclipses can happen only on a new Moon day.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Moon's Orbit, Moonrise Delay, Eclipses and Tides",
+      "question": "If eclipses need a full or new Moon, why don't they happen every month?",
+      "options": [
+        "The Moon's orbit is slightly tilted relative to Earth's orbit around the Sun",
+        "The Moon takes longer than a month to complete one full orbit of Earth",
+        "The Earth's shadow is usually too faint to be noticed on the Moon",
+        "The Sun, Moon and Earth are never in a straight line at any time"
+      ],
+      "answer": 0,
+      "explanation": "Because of the small tilt of the Moon's orbit, on most full and new Moon days the Moon passes slightly above or below the line joining Sun and Earth. Eclipses occur only when the alignment is close.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q49",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Moon's Orbit, Moonrise Delay, Eclipses and Tides",
+      "question": "A solar eclipse can take place on a full Moon day.",
+      "answer": false,
+      "explanation": "False. Solar eclipses happen only on new Moon days, when the Moon lies between the Earth and the Sun. Full Moon days are when lunar eclipses can occur.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q50",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Moon's Orbit, Moonrise Delay, Eclipses and Tides",
+      "question": "The Earth's shadow on the Moon causes a lunar eclipse, not the phases of the Moon.",
+      "answer": true,
+      "explanation": "True. Phases arise from the changing orientation of Sun, Moon and Earth as the Moon revolves; Earth's shadow on the Moon is a lunar eclipse.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Moon's Orbit, Moonrise Delay, Eclipses and Tides",
+      "question": "The Moon is exactly overhead at 9:00 p.m. tonight. At about what time will it be overhead tomorrow?",
+      "options": [
+        "About 8:10 p.m.",
+        "About 9:50 p.m.",
+        "About 9:00 p.m.",
+        "About 10:40 p.m."
+      ],
+      "answer": 1,
+      "explanation": "Fig. 11.6 explains that after one rotation of Earth the Moon has moved on in its orbit, so Earth must rotate about 50 minutes more — the Moon is overhead about 50 minutes later, around 9:50 p.m.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Moon's Orbit, Moonrise Delay, Eclipses and Tides",
+      "question": "A seaside town records a high tide at 6:00 a.m. on Monday. Using the chapter's tide pattern, around when should a similar high tide occur on Tuesday?",
+      "options": [
+        "Around 5:10 a.m.",
+        "Around 6:00 a.m.",
+        "Around 7:40 a.m.",
+        "Around 6:50 a.m."
+      ],
+      "answer": 3,
+      "explanation": "Tide levels are closely related to the Moon's position, and the Moon returns to the same position about 50 minutes later each day — so the similar tide comes around 6:50 a.m.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q53",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Moon's Orbit, Moonrise Delay, Eclipses and Tides",
+      "question": "Select the TWO correct statements about when eclipses can happen.",
+      "options": [
+        "A solar eclipse can happen only on a new Moon day",
+        "A lunar eclipse can happen only on a new Moon day",
+        "A lunar eclipse can happen only on a full Moon day",
+        "A solar eclipse can happen during the crescent phase"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Lunar eclipses need Earth between Sun and Moon (full Moon); solar eclipses need the Moon between Sun and Earth (new Moon). Neither can occur during a crescent phase.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q54",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Moon's Orbit, Moonrise Delay, Eclipses and Tides",
+      "question": "An eclipse occurs on every full Moon day and on every new Moon day.",
+      "answer": false,
+      "explanation": "False. The small tilt of the Moon's orbit means that on most full and new Moon days there is no eclipse; only positions where the orbits' planes cross are favourable for eclipses.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Moon's Orbit, Moonrise Delay, Eclipses and Tides",
+      "question": "Which observation best supports the idea that tides are linked to the Moon rather than to the Sun alone?",
+      "options": [
+        "Tides repeat about 50 minutes later each day, matching the Moon's daily delay",
+        "Tides repeat at exactly the same clock time every day, like sunrise",
+        "Tides are highest at noon every day when the Sun is at its highest",
+        "Tides stop completely during the new Moon when the Moon is not seen"
+      ],
+      "answer": 0,
+      "explanation": "The chapter points out that a similar tide recurs about 50 minutes later each day — the same delay the Moon shows — and that tide levels track the Moon's position and phase.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Moon's Orbit, Moonrise Delay, Eclipses and Tides",
+      "question": "In the chapter's Fig. 11.6 story, what has happened by the time Earth has completed one rotation after the Moon was overhead?",
+      "options": [
+        "The Moon has completed exactly one full orbit around Earth",
+        "The Moon has revolved a bit further along its orbit",
+        "The Moon has returned to exactly the same overhead position",
+        "The Moon has moved to the opposite side of the Earth"
+      ],
+      "answer": 1,
+      "explanation": "In one day the Moon moves only a small way along its roughly month-long orbit, so after Earth's full rotation the Moon is a bit ahead and Earth must rotate more to bring it overhead.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Day and the Mean Solar Day",
+      "question": "The Sun appears to rise in the east and set in the west every day. This apparent motion is primarily due to",
+      "options": [
+        "the revolution of the Earth around the Sun",
+        "the revolution of the Moon around the Earth",
+        "the rotation of the Earth about its own axis",
+        "the movement of the Sun across the galaxy"
+      ],
+      "answer": 2,
+      "explanation": "The daily apparent motion of the Sun is caused mainly by Earth spinning on its axis. Earth's revolution around the Sun gives the yearly cycle of seasons, not the daily cycle.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Day and the Mean Solar Day",
+      "question": "What is the 'mean solar day'?",
+      "options": [
+        "The average time between one sunrise in the east and the next sunset in the west",
+        "The average time for the Moon to return to the same position in the sky",
+        "The average number of daylight hours measured over a whole year",
+        "Average time from the Sun's highest point one day to its highest point the next"
+      ],
+      "answer": 3,
+      "explanation": "The mean solar day is the average time the Sun takes to go from its highest position in the sky on one day to its highest position the next day — 24 hours.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Day and the Mean Solar Day",
+      "question": "How can you tell when the Sun is at its highest point in the sky using a vertical stick?",
+      "options": [
+        "The stick's shadow is shortest",
+        "The stick's shadow is longest",
+        "The stick casts no shadow at all",
+        "The shadow points towards the east"
+      ],
+      "answer": 0,
+      "explanation": "The shadow cast by an object is shortest when the Sun is highest in the sky, so the time of the shortest shadow marks the Sun's highest position.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Day and the Mean Solar Day",
+      "question": "In Activity 11.3, what is the recommended set-up and observing window?",
+      "options": [
+        "A 1 m stick held at arm's length, marking its tip every hour from sunrise to sunset",
+        "A 1 m stick fixed vertically; shadow tip marked every minute from 11:00 a.m. to about 1:10 p.m.",
+        "A torch shone at a ball from 3 m, marking the lit edge every minute at night",
+        "A 1 m stick laid flat on the ground, marking its shadow every ten minutes till noon"
+      ],
+      "answer": 1,
+      "explanation": "The activity fixes a 1 m stick vertically in sunlit ground and marks a dot at the tip of its shadow every minute from 11:00 a.m. until around 1:10 p.m. to catch the shortest shadow.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Day and the Mean Solar Day",
+      "question": "Table 11.2 shows the shortest shadow at 12:20 on 23 March 2025 and at 12:19 on 24 March 2025. What duration of the solar day is recorded for 24 March?",
+      "options": [
+        "24 h 01 min",
+        "24 h 00 min",
+        "23 h 59 min",
+        "23 h 41 min"
+      ],
+      "answer": 2,
+      "explanation": "From 12:20 on 23 March to 12:19 on 24 March is one minute short of 24 hours, i.e. 23:59 — which is what the table records.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Day and the Mean Solar Day",
+      "question": "Why does Activity 11.3 ask you to mark a dot every minute rather than just once at noon?",
+      "options": [
+        "So the stick's height can be measured more accurately",
+        "So the Sun's rising direction can be recorded for the day",
+        "So the length of the night can be estimated from the dots",
+        "So the time of the shortest shadow can be found by counting the dots"
+      ],
+      "answer": 3,
+      "explanation": "You identify which dot is closest to the stick (the shortest shadow) and find its time by counting dots from 11:00 a.m. Marking only at clock noon would miss the true highest point, which the table shows was at about 12:20.",
+      "source": "text:page9,10"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Day and the Mean Solar Day",
+      "question": "What does Table 11.2 reveal about the time of the Sun's highest point on 22–24 March 2025?",
+      "options": [
+        "It was around 12:20, not at 12:00 noon by the clock",
+        "It was exactly at 12:00 noon on all three days",
+        "It shifted by about 50 minutes from day to day",
+        "It occurred at sunrise on each of the three days"
+      ],
+      "answer": 0,
+      "explanation": "The recorded shortest shadows were at 12:20, 12:20 and 12:19 — close to, but not exactly, clock noon, and nearly the same each day (giving a day of about 24 hours).",
+      "source": "text:page10"
+    },
+    {
+      "id": "q64",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The Day and the Mean Solar Day",
+      "question": "In Activity 11.3 the stick's shadow is longest when the Sun is at its highest point in the sky.",
+      "answer": false,
+      "explanation": "False. The shadow is SHORTEST when the Sun is highest; it is longest near sunrise and sunset when the Sun is low.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q65",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The Day and the Mean Solar Day",
+      "question": "The mean solar day is 24 hours long.",
+      "answer": true,
+      "explanation": "True. The average time between successive highest positions of the Sun is 24 hours, and Table 11.2 gives values of about 24:00 and 23:59.",
+      "source": "text:page9,10"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Day and the Mean Solar Day",
+      "question": "In Activity 11.3, which quantity is kept fixed and which is observed to change?",
+      "options": [
+        "The shadow's length is fixed; the stick's height changes",
+        "The stick's height is fixed; the shadow's length changes",
+        "The time of day is fixed; the stick's position changes",
+        "The Sun's position is fixed; the ground's slope changes"
+      ],
+      "answer": 1,
+      "explanation": "The vertical 1 m stick is the fixed set-up; what varies through the day — and what you track with the dots — is the length (and direction) of its shadow as the Sun moves across the sky.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q67",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "The Day and the Mean Solar Day",
+      "question": "Which TWO items are needed to carry out Activity 11.3 as described?",
+      "options": [
+        "Binoculars for viewing the Sun safely",
+        "A torch and a small soft ball on a stick",
+        "A 1 m stick fixed vertically in flat sunlit ground",
+        "Observations made at sunrise and sunset",
+        "Dots marked at the shadow tip every minute from 11:00 a.m. to about 1:10 p.m."
+      ],
+      "answer": [
+        2,
+        4
+      ],
+      "explanation": "The day-measuring activity uses a vertical 1 m stick and minute-by-minute marks around midday. The torch and ball belong to the phases activity, and sunrise/sunset viewing belongs to Activity 11.1.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Day and the Mean Solar Day",
+      "question": "A student repeats Activity 11.3 but marks dots only from 12:30 p.m. to 1:10 p.m. Based on Table 11.2, what is the likely problem?",
+      "options": [
+        "The shadow will be too short to mark during that interval",
+        "The dots will be too close together to count accurately",
+        "The Sun will have already set before the first dot is made",
+        "The shortest shadow (about 12:20) will have been missed entirely"
+      ],
+      "answer": 3,
+      "explanation": "The table shows the shortest shadow around 12:19–12:20, so starting at 12:30 means the Sun's highest point has already passed and the activity cannot find solar noon.",
+      "source": "text:page9,10"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Month, Year and Lunar Calendars",
+      "question": "About how long does the Moon take to go through all its phases?",
+      "options": [
+        "About 29.5 days",
+        "About 24 hours",
+        "About 354 days",
+        "About 365.25 days"
+      ],
+      "answer": 0,
+      "explanation": "The Moon's cycle of phases takes about 29.5 days — nearly a month — which is the basis of the month as a unit of time.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Month, Year and Lunar Calendars",
+      "question": "How long does the Earth take to complete one revolution around the Sun?",
+      "options": [
+        "Exactly 365 days",
+        "Nearly 365¼ days",
+        "About 354 days",
+        "About 12 lunar months"
+      ],
+      "answer": 1,
+      "explanation": "The Earth takes nearly 365¼ days to revolve once around the Sun, during which it passes through one cycle of seasons — defining a solar year. 354 days is a lunar year.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Month, Year and Lunar Calendars",
+      "question": "What observation in ancient times led to lunar calendars with 12 months?",
+      "options": [
+        "Exactly 12 full Moons occur in every calendar year without fail",
+        "The Moon's phases repeat 12 times during a single solar day",
+        "Twelve different constellations rise at sunset through the year",
+        "Nearly 12 cycles of the Moon's phases fit into one cycle of seasons"
+      ],
+      "answer": 3,
+      "explanation": "People noticed that about 12 cycles of lunar phases fit within one cycle of seasons, giving lunar calendars a day, a month of about 29.5 days, and a year of 12 lunar months.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Month, Year and Lunar Calendars",
+      "question": "Why do the seasons not stay matched to the same months in a purely lunar calendar?",
+      "options": [
+        "The lunar year is 354 days while the seasons repeat in about 365 days",
+        "The lunar year is 365 days while the seasons repeat in about 354 days",
+        "The Moon's phases become irregular during the winter months",
+        "The Earth's rotation speeds up and slows down with the seasons"
+      ],
+      "answer": 0,
+      "explanation": "Twelve lunar months make 354 days, about 11 days short of the ~365-day cycle of seasons, so each lunar year the months slip earlier relative to the seasons.",
+      "source": "text:page10,12"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Month, Year and Lunar Calendars",
+      "question": "Twelve lunar months of about 29.5 days each add up to approximately how many days?",
+      "options": [
+        "365 days",
+        "354 days",
+        "336 days",
+        "360 days"
+      ],
+      "answer": 1,
+      "explanation": "12 × 29.5 = 354 days — the length of a lunar year, as the chapter states.",
+      "source": "text:page10,12"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Month, Year and Lunar Calendars",
+      "question": "By about how many days does a lunar year fall short of a solar year?",
+      "options": [
+        "About 29.5 days",
+        "About 1 day",
+        "About 11 days",
+        "About 20 minutes"
+      ],
+      "answer": 2,
+      "explanation": "The 12 lunar months add up to 354 days, nearly 11 days less than the ~365-day solar year. (20 minutes is the sidereal–tropical year difference; 1 day in 4 years is the leap-day correction.)",
+      "source": "text:page12"
+    },
+    {
+      "id": "q75",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Month, Year and Lunar Calendars",
+      "question": "In a purely lunar calendar, the same lunar month always falls in the same season year after year.",
+      "answer": false,
+      "explanation": "False. Because the lunar year (354 days) is shorter than the cycle of seasons (~365 days), the months drift through the seasons over the years.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q76",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Month, Year and Lunar Calendars",
+      "question": "The phases of the Moon provide a natural cycle longer than a day and form the basis of the month.",
+      "answer": true,
+      "explanation": "True. The roughly 29.5-day phase cycle is the natural cycle on which the month is based.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Month, Year and Lunar Calendars",
+      "question": "Match each unit of time to the periodic phenomenon it is based on.",
+      "options": [
+        "Day — Moon's phase cycle; Month — Earth's rotation; Year — cycle of seasons",
+        "Day — Earth's rotation; Month — cycle of seasons; Year — Moon's phase cycle",
+        "Day — cycle of tides; Month — Earth's revolution; Year — Moon's revolution",
+        "Day — Earth's rotation; Month — Moon's phase cycle; Year — cycle of seasons"
+      ],
+      "answer": 3,
+      "explanation": "The day comes from the Sun's daily return to its highest point (Earth's rotation), the month from the Moon's ~29.5-day phase cycle (its revolution around Earth), and the year from the cycle of seasons (Earth's revolution around the Sun).",
+      "source": "exercise:Q12"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Month, Year and Lunar Calendars",
+      "question": "Amol was born on 6 May on a full Moon day. Will his birthday fall on a full Moon every year?",
+      "options": [
+        "No — the Gregorian calendar is solar, so the Moon's 29.5-day cycle does not repeat on the same date",
+        "Yes — the Moon's phases always repeat on the same Gregorian date every year",
+        "Yes — 6 May is always a full Moon because 12 lunar months equal a solar year",
+        "No — the full Moon can occur only in the winter months of the Gregorian calendar"
+      ],
+      "answer": 0,
+      "explanation": "The Gregorian calendar follows the Sun (365/366 days) while 12 lunar cycles take only 354 days, so the phase on any given date shifts by about 11 days each year. 6 May will be a full Moon only occasionally.",
+      "source": "exercise:Q2"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Month, Year and Lunar Calendars",
+      "question": "A total of 37 full Moons occur during 3 years of a solar calendar. Which reasoning shows that at least two of them must fall in the same calendar month?",
+      "options": [
+        "A lunar month is 29.5 days, so every month must contain exactly one full Moon",
+        "Three years contain only 36 months, so 37 full Moons cannot each have a different month",
+        "Three years contain 36 months, so exactly one month must have had no full Moon",
+        "A solar year has 365 days, so there must be 13 full Moons in each year"
+      ],
+      "answer": 1,
+      "explanation": "There are 3 × 12 = 36 months in three years but 37 full Moons. Since 37 objects placed in 36 boxes force at least one box to hold two, some month must have two full Moons.",
+      "source": "exercise:Q8"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Month, Year and Lunar Calendars",
+      "question": "Can two full Moons occur within the same Gregorian month? Choose the best answer.",
+      "options": [
+        "No, because the phase cycle is always longer than any Gregorian month",
+        "No, because full Moons occur only once every 30 days exactly",
+        "Yes — the 29.5-day phase cycle is shorter than a 30- or 31-day month",
+        "Yes, but only in February, which has fewer than 29.5 days"
+      ],
+      "answer": 2,
+      "explanation": "A 29.5-day cycle fits inside a 30- or 31-day month, so a full Moon on the 1st can be followed by another on the 30th or 31st. February (28/29 days) is the one month that can never hold two.",
+      "source": "exercise:Q8"
+    },
+    {
+      "id": "q81",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Month, Year and Lunar Calendars",
+      "question": "Which TWO statements about lunar calendars are correct?",
+      "options": [
+        "A lunar year is 365 days long",
+        "A lunar year consists of 12 lunar months",
+        "The day is not a unit in lunar calendars",
+        "A lunar month is close to 29.5 days long",
+        "Lunar months are always 30 days long"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "Lunar calendars have the day as the shortest unit, months of nearly 29.5 days, and a 354-day year of 12 lunar months.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Solar Calendars and Leap Years",
+      "question": "The Gregorian calendar, widely used today, is an example of a",
+      "options": [
+        "lunar calendar",
+        "luni-solar calendar",
+        "sidereal calendar",
+        "solar calendar"
+      ],
+      "answer": 3,
+      "explanation": "The Gregorian calendar is a solar calendar based on the tropical year; it adjusts month lengths to add up to 365 days (366 in leap years).",
+      "source": "text:page11"
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Solar Calendars and Leap Years",
+      "question": "What need led people to create solar calendars?",
+      "options": [
+        "Knowing when seasons arrive, for agriculture",
+        "Tracking the exact date of each full Moon",
+        "Fixing festival dates by the lunar phase",
+        "Predicting the dates of solar eclipses"
+      ],
+      "answer": 0,
+      "explanation": "It was important to know the arrival of seasons for agricultural purposes, so a year synchronised with the seasons — a solar calendar — was needed.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Solar Calendars and Leap Years",
+      "question": "Why do Gregorian months have 30 or 31 days and February only 28?",
+      "options": [
+        "Each month must match one cycle of the Moon's phases",
+        "The months are adjusted so they add up to 365 days",
+        "The months are adjusted so they add up to 354 days",
+        "Each month must begin on the day after a new Moon"
+      ],
+      "answer": 1,
+      "explanation": "In solar calendars the month lengths are adjusted to total 365 days; that is why some months have 30 days, others 31 and February 28.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Solar Calendars and Leap Years",
+      "question": "Why is a leap day added every four years?",
+      "options": [
+        "The lunar year falls short of the solar year by about one day",
+        "The Earth's rotation slows by one day every four years",
+        "Each year's extra quarter day adds up to about a day in four years",
+        "The seasons shift by one full day every four years"
+      ],
+      "answer": 2,
+      "explanation": "Beyond 365 days, Earth takes nearly an extra quarter day to complete its revolution. Over four years these extra hours add up to roughly one day, which is added as 29 February.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Solar Calendars and Leap Years",
+      "question": "Using the rules in the chapter, which of these years WAS a leap year?",
+      "options": [
+        "1700",
+        "1800",
+        "1900",
+        "2000"
+      ],
+      "answer": 3,
+      "explanation": "Century years skip the leap year (1700, 1800, 1900) but every 400 years it is added back — 1600 and 2000 were leap years.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Solar Calendars and Leap Years",
+      "question": "Which of these years was NOT a leap year under the Gregorian rules described?",
+      "options": [
+        "1900",
+        "1600",
+        "2000",
+        "2024"
+      ],
+      "answer": 0,
+      "explanation": "1900 is divisible by 4 but, being a century year not divisible by 400, its leap day was skipped. 1600 and 2000 were added back as leap years, and 2024 is an ordinary year divisible by four.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Solar Calendars and Leap Years",
+      "question": "Why are leap years skipped in most century years such as 1700, 1800 and 1900?",
+      "options": [
+        "Adding a day every four years slightly under-corrects, since the year is a bit more than 365¼ days",
+        "Adding a day every four years slightly over-corrects, since the year is a bit less than 365¼ days",
+        "Century years are deliberately shortened to make up for the lunar year's 11-day shortfall",
+        "The Moon's orbit tilts more in century years, so a leap day would cause extra eclipses"
+      ],
+      "answer": 1,
+      "explanation": "Earth takes slightly LESS than 365¼ days between spring equinoxes, so a leap day every four years adds a little too much. Skipping it every 100 years (and restoring it every 400) keeps the calendar aligned.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Solar Calendars and Leap Years",
+      "question": "What is the 'tropical year'?",
+      "options": [
+        "The time for the same stars to rise again at sunset",
+        "The time for the Moon to complete twelve phase cycles",
+        "The time between two successive spring equinoxes",
+        "The time between two successive summer solstices only"
+      ],
+      "answer": 2,
+      "explanation": "The time between successive spring equinoxes is the tropical year; the Gregorian calendar is based on it. The star-based period is the sidereal year.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Solar Calendars and Leap Years",
+      "question": "How does the sidereal year compare with the tropical year?",
+      "options": [
+        "It is shorter by about 20 minutes",
+        "It is longer by about 11 days",
+        "It is exactly the same length",
+        "It is longer by about 20 minutes"
+      ],
+      "answer": 3,
+      "explanation": "The sidereal year (time for the same stars to rise again at sunset) is longer than the tropical year by a mere 20 minutes, so differences between the two kinds of calendar take a long time to show.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Solar Calendars and Leap Years",
+      "question": "Which statement about leap years is NOT correct?",
+      "options": [
+        "In every leap year the extra day is added to the month of March",
+        "In a leap year February has 29 days instead of 28",
+        "A Gregorian year divisible by four normally gets a leap day",
+        "Leap days keep the calendar synchronised with the seasons"
+      ],
+      "answer": 0,
+      "explanation": "The leap day is 29 February, not a day in March. The Indian National Calendar adds its leap day to Chaitra, which does start in March — but the Gregorian leap day is in February.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q92",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Solar Calendars and Leap Years",
+      "question": "The sidereal year is shorter than the tropical year by about 20 minutes.",
+      "answer": false,
+      "explanation": "False. It is the other way round: the sidereal year is LONGER than the tropical year by about 20 minutes.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q93",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Solar Calendars and Leap Years",
+      "question": "Modern astronomers use the sidereal year to keep track of the Earth's position in its orbit around the Sun.",
+      "answer": true,
+      "explanation": "True. The chapter notes that in modern times astronomers use the sidereal year for tracking Earth's orbital position, while the Gregorian calendar follows the tropical year.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Solar Calendars and Leap Years",
+      "question": "If we stopped having leap years, in approximately how many years would Indian Independence Day (15 August) fall in winter?",
+      "options": [
+        "About 180 years",
+        "About 700 years",
+        "About 70 years",
+        "About 4 years"
+      ],
+      "answer": 1,
+      "explanation": "Without leap days the calendar slips about 1 day every 4 years. To move 15 August about half a year (~180 days) into winter takes 180 × 4 ≈ 720, i.e. roughly 700 years.",
+      "source": "exercise:Q10"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Solar Calendars and Leap Years",
+      "question": "If leap years were abolished, by roughly how many days would the calendar drift from the seasons in 100 years?",
+      "options": [
+        "About 100 days",
+        "About 1 day",
+        "About 25 days",
+        "About 11 days"
+      ],
+      "answer": 2,
+      "explanation": "The uncorrected quarter day per year accumulates to one day every four years, so in 100 years the drift would be about 100 ÷ 4 = 25 days.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q96",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Solar Calendars and Leap Years",
+      "question": "Which TWO statements about the Gregorian calendar are correct?",
+      "options": [
+        "All of its months have exactly 30 days",
+        "A year divisible by four normally gets an extra day in February",
+        "It adds an intercalary month every two to three years",
+        "It is based on the tropical year"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "The Gregorian calendar is a solar calendar based on the tropical year, with a leap day in February in years divisible by four (with century-year exceptions). Intercalary months belong to luni-solar calendars.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Luni-solar Calendars and Indian Months",
+      "question": "A luni-solar calendar primarily counts days and months by the Moon's phases but also",
+      "options": [
+        "adds a leap day to the month of February every four years",
+        "begins every year on the day after the spring equinox",
+        "fixes every one of its months at exactly 30 or 31 days",
+        "makes adjustments to stay in step with the cycle of seasons"
+      ],
+      "answer": 3,
+      "explanation": "Luni-solar calendars use the Moon's phases for months yet add corrections (an extra month every few years) to remain synchronised with the seasons.",
+      "source": "text:page12,13"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Luni-solar Calendars and Indian Months",
+      "question": "What is 'Adhika Maasa'?",
+      "options": [
+        "An extra (intercalary) month added every few years",
+        "An extra day added to Chaitra in a leap year",
+        "The dark fortnight ending on the new Moon",
+        "The month in which Diwali is celebrated"
+      ],
+      "answer": 0,
+      "explanation": "Adhika Maasa is the intercalary month inserted every 2–3 years in luni-solar calendars to make up the accumulated gap between 12 lunar months and the solar year.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Luni-solar Calendars and Indian Months",
+      "question": "Why is an extra month needed roughly every 2–3 years in luni-solar calendars?",
+      "options": [
+        "The Moon's phase cycle gets longer by 11 days every two to three years",
+        "The yearly 11-day shortfall of lunar months accumulates to nearly a month",
+        "The seasons arrive 11 days later each year because of Earth's wobble",
+        "The Moon completes an extra orbit around the Earth every third year"
+      ],
+      "answer": 1,
+      "explanation": "Twelve lunar months (354 days) fall about 11 days short of the solar year each year; after 2–3 years the difference is close to a full month, which is then added back.",
+      "source": "text:page12,13"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Luni-solar Calendars and Indian Months",
+      "question": "If 12 lunar months fall about 11 days short of the solar year, roughly how much have they fallen behind after 3 years?",
+      "options": [
+        "About 11 days — less than half a month",
+        "About 66 days — more than two months",
+        "About 33 days — close to one lunar month",
+        "About 3 days — a negligible amount"
+      ],
+      "answer": 2,
+      "explanation": "3 × 11 = 33 days, which is a little more than one lunar month of 29.5 days. This is why the intercalary month comes about every 2–3 years.",
+      "source": "text:page12,13"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Luni-solar Calendars and Indian Months",
+      "question": "Which of these is NOT one of the Indian luni-solar month names listed in the chapter?",
+      "options": [
+        "Jyeshtha",
+        "Bhadrapada",
+        "Margashirsha",
+        "Ramazan"
+      ],
+      "answer": 3,
+      "explanation": "The chapter lists Chaitra, Vaisakha, Jyeshtha, Ashadha, Shravana, Bhadrapada, Ashwin, Kartika, Margashirsha, Pausha, Magha and Phalguna. Ramazan is the month at whose end Eid-ul-Fitr is celebrated — a different calendar.",
+      "source": "text:page13,14"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Luni-solar Calendars and Indian Months",
+      "question": "In an 'Amant' calendar, when does a month begin and end?",
+      "options": [
+        "Begins the day after new Moon and ends on the new Moon",
+        "Begins the day after full Moon and ends on the full Moon",
+        "Begins on the spring equinox and ends on the next equinox",
+        "Begins on 22 March and ends thirty days later"
+      ],
+      "answer": 0,
+      "explanation": "Amant months run from the day after a new Moon to the next new Moon. Purnimant months run from the day after a full Moon to the next full Moon.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Luni-solar Calendars and Indian Months",
+      "question": "In a 'Purnimant' calendar, on which day does the month end?",
+      "options": [
+        "On the new Moon day",
+        "On the full Moon day",
+        "On the half Moon day",
+        "On the spring equinox"
+      ],
+      "answer": 1,
+      "explanation": "Purnimant (from Purnima, full Moon) months end on the full Moon and start the day after it; Amant months end on the new Moon (Amavasya).",
+      "source": "text:page13"
+    },
+    {
+      "id": "q104",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Luni-solar Calendars and Indian Months",
+      "question": "In Amant calendars the month ends on the day of the full Moon.",
+      "answer": false,
+      "explanation": "False. Amant months end on the new Moon (Amavasya); it is Purnimant months that end on the full Moon.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q105",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Luni-solar Calendars and Indian Months",
+      "question": "Luni-solar calendars, which combine lunar months with solar-year corrections, are used in many parts of India.",
+      "answer": true,
+      "explanation": "True. The chapter says such calendars combine elements of both solar and lunar calendars and are used in many parts of India.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Luni-solar Calendars and Indian Months",
+      "question": "Scientific studies show the Moon is moving farther from Earth and revolving more slowly. How would this affect the need for intercalary months in luni-solar calendars?",
+      "options": [
+        "Needed more often, since longer lunar months make the lunar year overshoot the solar year",
+        "Needed more often, since a slower Moon means more new Moons in each solar year",
+        "Needed less often, since longer lunar months bring 12 of them closer to a solar year",
+        "No change, because intercalary months depend only on the Earth's rotation"
+      ],
+      "answer": 2,
+      "explanation": "A slower revolution means a longer phase cycle, so 12 lunar months add up to more than 354 days and the yearly shortfall shrinks below 11 days. It would take longer to accumulate a full month, so the extra month is needed less often.",
+      "source": "exercise:Q7"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Luni-solar Calendars and Indian Months",
+      "question": "Which name is given as an alternative for the month Margashirsha in the list of Indian luni-solar months?",
+      "options": [
+        "Bhadrapada",
+        "Phalguna",
+        "Shravana",
+        "Agrahayan"
+      ],
+      "answer": 3,
+      "explanation": "The chapter lists 'Margashirsha (or Agrahayan)' among the twelve month names.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q108",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Luni-solar Calendars and Indian Months",
+      "question": "Which TWO features define a luni-solar calendar?",
+      "options": [
+        "A leap day is added to February",
+        "An extra month is added every few years to stay in step with the seasons",
+        "The year always begins on 22 March",
+        "Every month has exactly 30 or 31 days",
+        "Months are counted by the Moon's phases"
+      ],
+      "answer": [
+        1,
+        4
+      ],
+      "explanation": "Luni-solar calendars combine lunar months with a periodic intercalary month to track the seasons. Fixed 30/31-day months and February leap days belong to solar calendars; 22 March is the Indian National Calendar's new year.",
+      "source": "text:page12,13"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Luni-solar Calendars and Indian Months",
+      "question": "A calendar used in a community adds an extra month roughly every two to three years. Which type of calendar is it?",
+      "options": [
+        "Luni-solar",
+        "Purely lunar",
+        "Purely solar",
+        "Sidereal solar"
+      ],
+      "answer": 0,
+      "explanation": "Only luni-solar calendars add an intercalary month. Purely lunar calendars make no seasonal correction, and solar calendars correct with a leap day, not a month.",
+      "source": "text:page13,14"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Indian National Calendar and Calendar Reform",
+      "question": "The Indian National Calendar is a",
+      "options": [
+        "lunar calendar of 354 days",
+        "solar calendar of 365 days",
+        "luni-solar calendar with Adhika Maasa",
+        "sidereal calendar of 12 lunar months"
+      ],
+      "answer": 1,
+      "explanation": "The Indian National Calendar is a solar calendar consisting of 365 days in a year (366 in leap years), used alongside the Gregorian calendar for official purposes.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Indian National Calendar and Calendar Reform",
+      "question": "On which date does the Indian National Calendar year begin in a regular year, and why that date?",
+      "options": [
+        "21 March — the day of the spring equinox",
+        "21 June — the day of the summer solstice",
+        "22 March — the day after the spring equinox",
+        "1 January — matching the Gregorian new year"
+      ],
+      "answer": 2,
+      "explanation": "The year begins on 22 March, the day after the spring equinox. In leap years the new year falls on 21 March because a day is added to Chaitra.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Indian National Calendar and Calendar Reform",
+      "question": "In a regular year of the Indian National Calendar, which months have 31 days?",
+      "options": [
+        "The first to fifth months",
+        "Every alternate month",
+        "Only the last six months",
+        "The second to sixth months"
+      ],
+      "answer": 3,
+      "explanation": "In a regular year the second to sixth months have 31 days and the rest have 30 days — five 31-day months and seven 30-day months, totalling 365.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Indian National Calendar and Calendar Reform",
+      "question": "Check the arithmetic: in a regular year of the Indian National Calendar there are five 31-day months and seven 30-day months. Does this give the stated total?",
+      "options": [
+        "Yes: 5 × 31 + 7 × 30 = 155 + 210 = 365 days",
+        "No: 5 × 31 + 7 × 30 = 155 + 210 = 366 days",
+        "No: 6 × 31 + 6 × 30 = 186 + 180 = 366 days",
+        "Yes: 4 × 31 + 8 × 30 = 124 + 240 = 365 days"
+      ],
+      "answer": 0,
+      "explanation": "Months 2–6 (five months) have 31 days and the other seven have 30: 155 + 210 = 365, exactly the length of a regular solar year.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Indian National Calendar and Calendar Reform",
+      "question": "How is a leap year handled in the Indian National Calendar?",
+      "options": [
+        "A day is added to Phalguna and the year starts on 23 March",
+        "A day is added to Chaitra and the year starts on 21 March",
+        "An extra month, Adhika Maasa, is inserted into the year",
+        "February of the Gregorian calendar is given 29 days instead"
+      ],
+      "answer": 1,
+      "explanation": "Leap years are matched to the Gregorian calendar by adding a day to Chaitra, the first month. In such years the new year begins on 21 March instead of 22 March.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Indian National Calendar and Calendar Reform",
+      "question": "Which is the first month of the Indian National Calendar?",
+      "options": [
+        "Vaisakha",
+        "Kartika",
+        "Chaitra",
+        "Phalguna"
+      ],
+      "answer": 2,
+      "explanation": "Chaitra is the first month (beginning 22 March in a regular year); Vaisakha is the second. Fig. 11.9 shows Chaitra of Shaka Era 1947 running 22 March – 20 April 2025.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Indian National Calendar and Calendar Reform",
+      "question": "Fig. 11.9 shows Vaisakha running from 21 April to 21 May 2025. How many days is this, and does it fit the chapter's rule?",
+      "options": [
+        "30 days; it fits, since the 2nd to 6th months have 30 days",
+        "31 days; it does not fit, since only Chaitra has 31 days",
+        "30 days; it does not fit, since Vaisakha should have 31 days",
+        "31 days; it fits, since the 2nd to 6th months have 31 days"
+      ],
+      "answer": 3,
+      "explanation": "21 April to 21 May inclusive is 31 days (10 days left in April + 21 in May). Vaisakha is the second month, and the rule says months 2–6 have 31 days, so it fits.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Indian National Calendar and Calendar Reform",
+      "question": "When was the Indian National Calendar recommended by the Calendar Reform Committee adopted for use?",
+      "options": [
+        "21 March 1956 CE, i.e. 1 Chaitra 1878 Saka",
+        "22 March 1952 CE, i.e. 1 Chaitra 1874 Saka",
+        "15 August 1947 CE, i.e. 1 Chaitra 1869 Saka",
+        "1 January 1950 CE, i.e. 1 Chaitra 1872 Saka"
+      ],
+      "answer": 0,
+      "explanation": "The CRC was set up in 1952 and its 'Unified National Calendar' was adopted with effect from 21 March 1956 CE, which was 1 Chaitra 1878 Saka.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Indian National Calendar and Calendar Reform",
+      "question": "Shaka year 1947 began on 22 March 2025, and 1 Chaitra 1878 Saka was 21 March 1956. What is the difference between the Shaka and Gregorian year numbers?",
+      "options": [
+        "68 years",
+        "78 years",
+        "88 years",
+        "57 years"
+      ],
+      "answer": 1,
+      "explanation": "2025 − 1947 = 78 and 1956 − 1878 = 78: both data points agree that the Shaka era runs 78 years behind the Gregorian count.",
+      "source": "text:page13,14"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Indian National Calendar and Calendar Reform",
+      "question": "Who chaired the Calendar Reform Committee set up by the Government of India in 1952?",
+      "options": [
+        "Vikram Sarabhai",
+        "C. V. Raman",
+        "Meghnad Saha",
+        "Homi Bhabha"
+      ],
+      "answer": 2,
+      "explanation": "Meghnad Saha, the astrophysicist famous for the Saha equation, was the chairperson of the Calendar Reform Committee. Vikram Sarabhai is the Father of the Indian Space Programme.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Indian National Calendar and Calendar Reform",
+      "question": "The Indian National Calendar follows the general principles of which ancient text?",
+      "options": [
+        "Taittiriya Samhita",
+        "Rashtriya Panchang",
+        "Rigveda Samhita",
+        "Surya Siddhanta"
+      ],
+      "answer": 3,
+      "explanation": "The chapter states that the Indian National Calendar follows the general principles of the Surya Siddhanta. The Taittiriya Samhita is quoted on Uttarayan/Dakshinayan, and the Rashtriya Panchang is a modern yearly publication.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q121",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Indian National Calendar and Calendar Reform",
+      "question": "In the Indian National Calendar the leap day is added to the last month of the year.",
+      "answer": false,
+      "explanation": "False. The leap day is added to Chaitra, the FIRST month, which is why the leap-year new year begins on 21 March.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q122",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Indian National Calendar and Calendar Reform",
+      "question": "The Indian National Calendar is used along with the Gregorian calendar for several official purposes.",
+      "answer": true,
+      "explanation": "True. The Government of India uses the national calendar alongside the Gregorian calendar for multiple official purposes.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Indian National Calendar and Calendar Reform",
+      "question": "Which statement about the Indian National Calendar is NOT correct?",
+      "options": [
+        "Some of its months have 28 days",
+        "Its month names come from traditional Indian calendars",
+        "Its months have either 30 or 31 days",
+        "It consists of 365 days in a regular year"
+      ],
+      "answer": 0,
+      "explanation": "Unlike the Gregorian calendar, where February has 28 days, Indian National Calendar months have only 30 or 31 days. The other statements are all given in the chapter.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q124",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Indian National Calendar and Calendar Reform",
+      "question": "Which TWO statements about Meghnad Saha are correct?",
+      "options": [
+        "He founded the Indian Space Research Organisation",
+        "He developed the Saha equation while studying stars and their temperatures",
+        "He is known as the Father of the Indian Space Programme",
+        "He chaired the Calendar Reform Committee"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "Saha was a pioneering astrophysicist (Saha equation; the Saha Institute of Nuclear Physics in Kolkata is named after him) and chaired the CRC. The space-programme achievements belong to Vikram Sarabhai.",
+      "source": "text:page14,17"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Uttarayan, Dakshinayan and Scientific Heritage",
+      "question": "On which days does the Sun rise exactly in the east and set exactly in the west?",
+      "options": [
+        "On the solstices",
+        "On full Moon days",
+        "On the equinoxes",
+        "On new Moon days"
+      ],
+      "answer": 2,
+      "explanation": "The figure in 'Our scientific heritage' shows the Sun rising exactly in the East and setting exactly in the West on the equinoxes; on solstices it rises farthest north or south of east.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Uttarayan, Dakshinayan and Scientific Heritage",
+      "question": "In which direction of due east does the Sun rise in summer and in winter, according to the chapter?",
+      "options": [
+        "A little south of east in summer; a little north of east in winter",
+        "Exactly east in summer; a little north of east in winter",
+        "A little north of east in both summer and winter",
+        "A little north of east in summer; a little south of east in winter"
+      ],
+      "answer": 3,
+      "explanation": "Careful observation shows the Sun rises slightly northward of east in summer and slightly southward of east in winter, with the extremes at the solstices around 21 June and 21 December.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Uttarayan, Dakshinayan and Scientific Heritage",
+      "question": "What is 'Uttarayan'?",
+      "options": [
+        "The Sun's apparent northward movement from December to June",
+        "The Sun's apparent southward movement from June to December",
+        "The Moon's northward movement during Shukla Paksha",
+        "The six months during which the Sun rises exactly in the east"
+      ],
+      "answer": 0,
+      "explanation": "Uttarayan is the Sun's apparent northward movement (of its rising point) from December to June; the southward movement from June to December is Dakshinayan.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Uttarayan, Dakshinayan and Scientific Heritage",
+      "question": "The Taittiriya Samhita verse 6.5.3 quoted in the chapter says, in effect, that",
+      "options": [
+        "the Moon waxes for six months and wanes for six months",
+        "the Sun moves south for six months and north for six months",
+        "the year has twelve months of thirty days each",
+        "the Sun rises exactly in the east throughout the year"
+      ],
+      "answer": 1,
+      "explanation": "The verse is translated: 'Thus the Sun moves southwards for six months and northwards for six months' — the Dakshinayan and Uttarayan cycle.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Uttarayan, Dakshinayan and Scientific Heritage",
+      "question": "According to the Surya Siddhanta as described in the chapter, which constellation was in the background of the Sun around the winter solstice in ancient times?",
+      "options": [
+        "Cancer (Karka)",
+        "Sagittarius (Dhanu)",
+        "Capricorn (Makar)",
+        "Aries (Mesha)"
+      ],
+      "answer": 2,
+      "explanation": "Ancient Indian texts noted that Capricorn (called Makar) was in the Sun's background around the winter solstice; entering Capricorn began the six months of Uttarayana, while entering Cancer began Dakshinayana.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Uttarayan, Dakshinayan and Scientific Heritage",
+      "question": "How did ancient people work out that the year is about 365 days long, even without knowing that Earth revolves around the Sun?",
+      "options": [
+        "By measuring the Earth's speed along its orbit with early telescopes",
+        "By counting exactly twelve full Moons in every cycle of seasons",
+        "By timing how long the Moon's shadow took to cross the Earth",
+        "Through years of careful sky-watching, noticing repeating patterns and cycles"
+      ],
+      "answer": 3,
+      "explanation": "People in ancient times lacked modern instruments and did not know Earth revolves around the Sun, yet by patiently observing natural cycles they determined the year's length to be about 365 days.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Uttarayan, Dakshinayan and Scientific Heritage",
+      "question": "On 15 September, in which direction is the Sun's rising point drifting from day to day?",
+      "options": [
+        "Southward, because it is in the Dakshinayan period",
+        "Northward, because it is in the Uttarayan period",
+        "It is not moving, because it is near an equinox",
+        "Eastward, because it is close to the winter solstice"
+      ],
+      "answer": 0,
+      "explanation": "Dakshinayan is the Sun's apparent southward movement from June to December, so in September the sunrise point is moving southward (even though it is near due east around the equinox, it is still drifting).",
+      "source": "text:page12"
+    },
+    {
+      "id": "q132",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Uttarayan, Dakshinayan and Scientific Heritage",
+      "question": "Ancient Indian astronomers knew that the Earth revolves around the Sun and used that knowledge to build their calendars.",
+      "answer": false,
+      "explanation": "False. The chapter says people in ancient times did NOT know Earth revolves around the Sun; they built calendars from observed patterns and cycles in the sky.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q133",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Uttarayan, Dakshinayan and Scientific Heritage",
+      "question": "In the past, the equinoxes and solstices were tracked by identifying the stars that rose at sunset.",
+      "answer": true,
+      "explanation": "True. The chapter says equinoxes and solstices were tracked by noting which stars rose at sunset, as recorded in texts like the Surya Siddhanta.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Uttarayan, Dakshinayan and Scientific Heritage",
+      "question": "Which statement about the Sun's rising point is NOT correct?",
+      "options": [
+        "The Sun rises farthest north of east around 21 June",
+        "The Sun rises exactly in the east on every day of the year",
+        "The Sun rises farthest south of east around 21 December",
+        "The Sun rises exactly in the east on the equinoxes"
+      ],
+      "answer": 1,
+      "explanation": "The Sun rises exactly in the east only on the equinoxes; through the year its rising point swings north (summer) and south (winter), reaching extremes at the solstices.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Uttarayan, Dakshinayan and Scientific Heritage",
+      "question": "According to the Surya Siddhanta quotation, from what moment do the six months of Uttarayana begin?",
+      "options": [
+        "The Sun's entrance into the constellation of Cancer",
+        "The first full Moon after the spring equinox",
+        "The Sun's entrance into the constellation of Capricorn",
+        "The day on which the Sun rises exactly in the east"
+      ],
+      "answer": 2,
+      "explanation": "The verse says that from the Sun's entrance into Capricorn six months make up its northward progress (Uttarayana), and from its entrance into Cancer six months make up Dakshinayana.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q136",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Uttarayan, Dakshinayan and Scientific Heritage",
+      "question": "Select the TWO correct statements about the Sun's rising position.",
+      "options": [
+        "Around 21 June the Sun rises farthest north of east",
+        "Uttarayan is the Sun's movement from June to December",
+        "Around 21 December the Sun rises farthest south of east",
+        "On the equinoxes the Sun rises farthest north of east"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "The solstices (about 21 June and 21 December) mark the northern and southern extremes of sunrise. On equinoxes the Sun rises due east, and Uttarayan runs from December to June.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Uttarayan, Dakshinayan and Scientific Heritage",
+      "question": "A student sketches the eastern horizon and marks the sunrise point on the first of every month for a year. What pattern does the chapter lead us to expect?",
+      "options": [
+        "The point stays fixed at due east throughout the whole year",
+        "The point drifts steadily northward every month without ever returning",
+        "The point swings north from June to December and south from December to June",
+        "It swings north from December to June and back south from June to December"
+      ],
+      "answer": 3,
+      "explanation": "This is the Uttarayan/Dakshinayan cycle: sunrise moves northward from the December solstice to the June solstice and southward again, repeating every year in step with the seasons.",
+      "source": "text:page12,20"
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Festivals and Astronomical Phenomena",
+      "question": "On which day of the Indian calendar is Diwali celebrated?",
+      "options": [
+        "The new Moon of Kartika",
+        "The full Moon of Kartika",
+        "The full Moon of Phalguna",
+        "The tenth day of Ashwina"
+      ],
+      "answer": 0,
+      "explanation": "Diwali falls on the new Moon of Kartika. Holi is on the full Moon of Phalguna, and Dussehra on the tenth day of Ashwina.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q139",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Festivals and Astronomical Phenomena",
+      "question": "Which festival is celebrated on the full Moon of Vaisakha?",
+      "options": [
+        "Makar Sankranti",
+        "Buddha Purnima",
+        "Eid-ul-Fitr",
+        "Dussehra"
+      ],
+      "answer": 1,
+      "explanation": "Buddha Purnima is on the full Moon of Vaisakha; Holi is on the full Moon of Phalguna, Diwali on the new Moon of Kartika and Dussehra on the tenth day of Ashwina.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q140",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Festivals and Astronomical Phenomena",
+      "question": "Why do most Indian festivals fall on different Gregorian dates in successive years?",
+      "options": [
+        "They are fixed to the solstices, which move each year",
+        "They follow the Gregorian calendar's leap-year corrections",
+        "They follow lunar or luni-solar calendars tied to the Moon's phases",
+        "They are set each year by the Calendar Reform Committee"
+      ],
+      "answer": 2,
+      "explanation": "Many festivals are tied to phases of the Moon and hence to lunar or luni-solar calendars, whose months do not line up with the solar Gregorian calendar — so the dates shift.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q141",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Festivals and Astronomical Phenomena",
+      "question": "How does the year-to-year shift of a luni-solar festival such as Diwali differ from that of a purely lunar festival such as Eid-ul-Fitr?",
+      "options": [
+        "Diwali can move through different months; Eid shifts by less than a month",
+        "Both festivals always stay within the same Gregorian month every year",
+        "Both festivals move about 11 days later in the Gregorian calendar each year",
+        "Diwali shifts by less than a month; Eid can move through different months over the years"
+      ],
+      "answer": 3,
+      "explanation": "Luni-solar calendars add an intercalary month every few years, keeping their festivals within about a month. Purely lunar calendars make no such correction, so Eid-ul-Fitr drifts about 11 days earlier each year and can fall in any month.",
+      "source": "text:page14,20"
+    },
+    {
+      "id": "q142",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Festivals and Astronomical Phenomena",
+      "question": "By about how many days does the Gregorian date of Eid-ul-Fitr move each year, and in which direction?",
+      "options": [
+        "About 11 days earlier",
+        "About 11 days later",
+        "About 1 day earlier",
+        "About 29.5 days later"
+      ],
+      "answer": 0,
+      "explanation": "Because the lunar year is about 11 days shorter than the solar year, a purely lunar festival like Eid-ul-Fitr falls about 11 days earlier in the Gregorian calendar each year.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q143",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Festivals and Astronomical Phenomena",
+      "question": "Which group of festivals follows a solar sidereal calendar and so falls on almost the same Gregorian date every year?",
+      "options": [
+        "Diwali, Holi, Buddha Purnima, Dussehra and Eid-ul-Fitr",
+        "Makar Sankranti, Pongal, Bihu, Vaisakhi and Puthandu",
+        "Diwali, Pongal, Holi, Vaisakhi and Buddha Purnima",
+        "Eid-ul-Fitr, Bihu, Dussehra, Puthandu and Holi"
+      ],
+      "answer": 1,
+      "explanation": "The 'A step further' box lists Makar Sankranti, Pongal, Bihu, Vaisakhi, Poila Baisakh and Puthandu as festivals on a solar sidereal calendar; the Moon-based festivals shift dates.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q144",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Festivals and Astronomical Phenomena",
+      "question": "Why do sidereal-calendar festivals like Makar Sankranti slowly drift away from the solstice they were once tied to?",
+      "options": [
+        "Leap years are skipped every 100 years in the Gregorian calendar",
+        "The Moon's orbit around Earth is tilted and gradually shifts the dates",
+        "A slow wobble of Earth's axis makes sidereal and tropical years differ slightly",
+        "The lunar year is 11 days shorter than the solar year each year"
+      ],
+      "answer": 2,
+      "explanation": "The slow wobble of Earth's axis (like a wobbling top) creates the small difference between sidereal and tropical years, so dates on the sidereal calendar move ahead in the tropical (Gregorian) calendar.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q145",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Festivals and Astronomical Phenomena",
+      "question": "Makar Sankranti moves ahead by one day every 71 years. By roughly how much would it shift in 710 years?",
+      "options": [
+        "About 71 days",
+        "About 1 day",
+        "About 100 days",
+        "About 10 days"
+      ],
+      "answer": 3,
+      "explanation": "710 ÷ 71 = 10, so the festival would move ahead by about 10 days in 710 years.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q146",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Festivals and Astronomical Phenomena",
+      "question": "What is the 'Rashtriya Panchang'?",
+      "options": [
+        "An annual publication of celestial positions, used to fix festival dates",
+        "A list of luni-solar month names used in the Indian National Calendar",
+        "A website that gives daily moonrise times for every Indian city",
+        "The Calendar Reform Committee's 1956 report on a unified calendar"
+      ],
+      "answer": 0,
+      "explanation": "The Positional Astronomy Center publishes the Rashtriya Panchang each year — detailed calculations of positions of the Moon, Sun etc. for a central location in India — and gives advance intimation of festival dates to the Government.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q147",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Festivals and Astronomical Phenomena",
+      "question": "Why can the date of a festival differ by a day between eastern and western India in the same year?",
+      "options": [
+        "Eastern India follows a solar calendar while western India follows a lunar one",
+        "Dates depend on the exact lunar phase at sunrise, and sunrise is earlier in the east",
+        "The Moon rises about 50 minutes earlier in western India than in eastern India",
+        "Western India adds the intercalary month a year later than eastern India"
+      ],
+      "answer": 1,
+      "explanation": "Many festival dates are based on the exact lunar phase at sunrise. Since sunrise occurs earlier in eastern India than in western India, the phase at sunrise can differ, shifting the date by a day — hence the need for a uniform Rashtriya Panchang.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q148",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Festivals and Astronomical Phenomena",
+      "question": "Which of these is a raga whose name reflects Moon imagery, according to the chapter?",
+      "options": [
+        "Chandrakala",
+        "Ardhachandran",
+        "Chandrakauns",
+        "Madhubani"
+      ],
+      "answer": 2,
+      "explanation": "Chandrakauns, Chandranandan and Shubhapantuvarali are ragas named with Moon imagery. Chandrakala and Ardhachandran are Bharatanatyam mudras, and Madhubani is a painting style.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q149",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Festivals and Astronomical Phenomena",
+      "question": "Holi is celebrated on the new Moon of the month of Phalguna.",
+      "answer": false,
+      "explanation": "False. Holi falls on the FULL Moon of Phalguna; it is Diwali that is celebrated on a new Moon (of Kartika).",
+      "source": "text:page14"
+    },
+    {
+      "id": "q150",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Festivals and Astronomical Phenomena",
+      "question": "Eid-ul-Fitr can occur in different months of the Gregorian calendar in different years.",
+      "answer": true,
+      "explanation": "True. Eid-ul-Fitr follows a purely lunar calendar that does not correct for the 11-day yearly shortfall, so over the years it moves through all the Gregorian months.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q151",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Festivals and Astronomical Phenomena",
+      "question": "Which TWO festivals follow a solar sidereal calendar?",
+      "options": [
+        "Diwali",
+        "Pongal",
+        "Holi",
+        "Bihu",
+        "Eid-ul-Fitr"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "Pongal and Bihu (with Makar Sankranti, Vaisakhi, Poila Baisakh and Puthandu) follow a solar sidereal calendar. Diwali and Holi follow luni-solar calendars and Eid-ul-Fitr a lunar one.",
+      "source": "text:page14,15"
+    },
+    {
+      "id": "q152",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Festivals and Astronomical Phenomena",
+      "question": "A festival fell on 10 April one year, 30 March the next year, and then jumped to 18 April the year after. Which calendar does it most likely follow?",
+      "options": [
+        "Purely lunar — it moves about 11 days earlier every single year",
+        "Solar tropical — it stays within a few days of the same date",
+        "Solar sidereal — it moves one day ahead every 71 years",
+        "Luni-solar — the jump shows an intercalary month was added"
+      ],
+      "answer": 3,
+      "explanation": "Moving 11 days earlier and then leaping forward is the signature of a luni-solar calendar: the lunar months slip earlier until an Adhika Maasa pushes the festival back later in the Gregorian year.",
+      "source": "text:page13,14,20"
+    },
+    {
+      "id": "q153",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Artificial Satellites and ISRO",
+      "question": "What is the Moon described as in relation to the Earth?",
+      "options": [
+        "Earth's artificial satellite",
+        "Earth's natural satellite",
+        "A planet orbiting the Sun",
+        "A star reflecting Earth's light"
+      ],
+      "answer": 1,
+      "explanation": "The Moon is Earth's natural satellite, orbiting our planet; man-made satellites launched from Earth are artificial satellites.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q154",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Artificial Satellites and ISRO",
+      "question": "At about what height do most artificial satellites orbit, and how long does one orbit take?",
+      "options": [
+        "About 80 km, taking roughly 24 hours",
+        "About 8000 km, taking roughly 10 minutes",
+        "About 800 km, taking roughly 100 minutes",
+        "About 800 km, taking roughly 29.5 days"
+      ],
+      "answer": 2,
+      "explanation": "Most artificial satellites orbit about 800 km above Earth's surface and complete one orbit in roughly 100 minutes.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q155",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Artificial Satellites and ISRO",
+      "question": "If a satellite takes about 100 minutes per orbit, roughly how many orbits does it complete in one day?",
+      "options": [
+        "About 24",
+        "About 10",
+        "About 100",
+        "About 14"
+      ],
+      "answer": 3,
+      "explanation": "A day has 1440 minutes; 1440 ÷ 100 ≈ 14.4, so the satellite completes about 14 orbits each day.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q156",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Artificial Satellites and ISRO",
+      "question": "Which set lists purposes of artificial satellites given in the chapter?",
+      "options": [
+        "Communication, navigation, weather monitoring, disaster management and scientific research",
+        "Mining the Moon, cooling the atmosphere, generating tides and lighting the night sky",
+        "Communication, replacing the Moon's light, changing seasons and controlling eclipses",
+        "Navigation, controlling moonrise times, measuring the solar day and tracking tides"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says satellites help in communication, navigation, weather monitoring, disaster management and scientific research.",
+      "source": "exercise:Q11"
+    },
+    {
+      "id": "q157",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Artificial Satellites and ISRO",
+      "question": "What do ISRO's Cartosat satellites do?",
+      "options": [
+        "Observe stars and other celestial objects for scientific study",
+        "Capture high-quality Earth images for maps, city planning and disasters",
+        "Study the Sun from a point between the Earth and the Sun",
+        "Carry small student-built satellites into orbit around the Moon"
+      ],
+      "answer": 1,
+      "explanation": "Cartosat satellites image the Earth to improve maps, plan cities and handle natural disasters; the Bhuvan platform uses these images. AstroSat observes stars; Aditya L1 studies the Sun.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q158",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Artificial Satellites and ISRO",
+      "question": "Which ISRO mission makes scientific observations of stars and other celestial objects?",
+      "options": [
+        "Cartosat",
+        "Aditya L1",
+        "AstroSat",
+        "Mangalyaan"
+      ],
+      "answer": 2,
+      "explanation": "AstroSat observes stars and celestial objects. Cartosat images the Earth, Aditya L1 studies the Sun and Mangalyaan went to Mars.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q159",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Artificial Satellites and ISRO",
+      "question": "Which of these is a small satellite built and launched by Indian students with ISRO's help?",
+      "options": [
+        "AzaadiSat",
+        "AstroSat",
+        "Cartosat",
+        "Aditya L1"
+      ],
+      "answer": 0,
+      "explanation": "ISRO lets Indian students build and launch small satellites such as AzaadiSat, InspireSat-1 and Jugnu. AstroSat, Cartosat and Aditya L1 are ISRO's own missions.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q160",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Artificial Satellites and ISRO",
+      "question": "According to Activity 11.4, when and how can you spot an artificial satellite?",
+      "options": [
+        "Only at midnight, as a slow-moving bright disc like the Moon",
+        "Just before sunrise or after sunset, as a fast-moving point of light",
+        "At midday, as a dark spot crossing the face of the Sun",
+        "Only during a lunar eclipse, as a flash near the Moon's edge"
+      ],
+      "answer": 1,
+      "explanation": "Satellites appear as points of light with steady or flickering brightness moving very fast across the sky, best looked for just before sunrise or after sunset, with the naked eye or binoculars.",
+      "source": "text:page16,17"
+    },
+    {
+      "id": "q161",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Artificial Satellites and ISRO",
+      "question": "Which statement about space debris is NOT correct?",
+      "options": [
+        "Debris could collide with working satellites",
+        "Debris includes old satellites and their rocket parts",
+        "All debris burns up completely before reaching the ground",
+        "Countries are working together to remove the dangerous debris"
+      ],
+      "answer": 2,
+      "explanation": "Small debris burns up in the atmosphere, but larger pieces can crash on the ground — so not all of it burns up. The other statements are given in the chapter.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q162",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Artificial Satellites and ISRO",
+      "question": "Who is known as the Father of the Indian Space Programme?",
+      "options": [
+        "Meghnad Saha",
+        "Homi Bhabha",
+        "A. P. J. Abdul Kalam",
+        "Vikram Sarabhai"
+      ],
+      "answer": 3,
+      "explanation": "Vikram Ambalal Sarabhai (1919–1971), a researcher in space science and nuclear physics, pioneered the effort to launch India's first artificial satellites and is called the Father of the Indian Space Programme.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q163",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Artificial Satellites and ISRO",
+      "question": "AstroSat is the ISRO satellite that captures images of the Earth's terrain for making maps.",
+      "answer": false,
+      "explanation": "False. Earth imaging for maps is done by the Cartosat series; AstroSat makes scientific observations of stars and other celestial objects.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q164",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Artificial Satellites and ISRO",
+      "question": "Most artificial satellites take roughly 100 minutes to complete one orbit of the Earth.",
+      "answer": true,
+      "explanation": "True. The chapter states most satellites orbit about 800 km up and take roughly 100 minutes per orbit.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q165",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Artificial Satellites and ISRO",
+      "question": "Select the TWO correctly paired ISRO missions.",
+      "options": [
+        "Mangalyaan — mission to Mars",
+        "Chandrayaan — mission to Mars",
+        "Aditya L1 — studies the Sun",
+        "AstroSat — landing on the Moon"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Aditya L1 studies the Sun and Mangalyaan went to Mars. Chandrayaan 1, 2 and 3 were Moon missions, and AstroSat is an orbiting observatory, not a lander.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q166",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Artificial Satellites and ISRO",
+      "question": "Which statement about spotting satellites is NOT correct?",
+      "options": [
+        "Satellites appear as tiny specks moving across the night sky",
+        "Satellites can be seen only through large telescopes",
+        "Mobile apps and websites can tell when a satellite will pass overhead",
+        "Satellites may show steady or flickering brightness as they move"
+      ],
+      "answer": 1,
+      "explanation": "The chapter says satellites can be seen with the naked eye or binoculars — no telescope is needed. The other three statements come straight from Activity 11.4 and section 11.4.",
+      "source": "text:page16,17"
+    },
+    {
+      "id": "q167",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Artificial Satellites and ISRO",
+      "question": "Both the Moon and an artificial satellite orbit the Earth. Using the chapter's numbers, how do their orbital periods compare?",
+      "options": [
+        "The Moon takes about 100 minutes; a typical satellite about a month",
+        "Both take about 24 hours, matching the Earth's rotation",
+        "The Moon takes about a month; a satellite only about 100 minutes",
+        "The Moon takes about a year; a typical satellite about a day"
+      ],
+      "answer": 2,
+      "explanation": "The Moon revolves around Earth in about a month (its phase cycle is ~29.5 days), whereas most artificial satellites at ~800 km complete an orbit in roughly 100 minutes.",
+      "source": "text:page7,16"
+    },
+    {
+      "id": "q168",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Why Phases Happen: The Ball-and-Lamp Model",
+      "question": "We can only see that part of the Moon which reflects sunlight towards us.",
+      "answer": true,
+      "explanation": "True. The Moon shines by reflected sunlight, and only the illuminated portion that faces Earth can be seen from here.",
+      "source": "exercise:Q1(i)"
+    },
+    {
+      "id": "q169",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Moon's Orbit, Moonrise Delay, Eclipses and Tides",
+      "question": "The shadow of the Earth blocks sunlight from reaching the Moon, causing its phases.",
+      "answer": false,
+      "explanation": "False. Earth's shadow on the Moon causes a lunar eclipse. Phases are caused by the changing fraction of the Moon's sunlit half that faces Earth as the Moon revolves.",
+      "source": "exercise:Q1(ii)"
+    },
+    {
+      "id": "q170",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Month, Year and Lunar Calendars",
+      "question": "Calendars are based on various astronomical cycles which repeat in a predictable manner.",
+      "answer": true,
+      "explanation": "True. The day, month and year come from the predictable cycles of Earth's rotation, the Moon's phases and the seasons.",
+      "source": "exercise:Q1(iii)"
+    },
+    {
+      "id": "q171",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Locating the Moon in the Sky",
+      "question": "The Moon can only be seen at night.",
+      "answer": false,
+      "explanation": "False. Meera saw the Moon in the daytime, and the chapter explains that a Moon rising in the afternoon can be seen in the eastern sky during daylight.",
+      "source": "exercise:Q1(iv)"
+    },
+    {
+      "id": "q172",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Phases of the Moon: Waxing and Waning",
+      "question": "Match the descriptions with the phases: (a) three days after new Moon, (b) a week after full Moon.",
+      "options": [
+        "(a) a waning gibbous Moon; (b) a thin waxing crescent",
+        "(a) a full Moon; (b) a new Moon",
+        "(a) a waning half Moon; (b) a thin waxing crescent",
+        "(a) a thin waxing crescent; (b) a waning half Moon"
+      ],
+      "answer": 3,
+      "explanation": "Three days after new Moon the bright part has just begun to grow — a thin waxing crescent. A week after full Moon the bright part has shrunk to a half circle — a waning half Moon.",
+      "source": "exercise:Q4 (adapted)"
+    },
+    {
+      "id": "q173",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Phases of the Moon: Waxing and Waning",
+      "question": "Which of these Moon shapes is NEVER seen from Earth?",
+      "options": [
+        "Lit on both edges with a dark curved bite in the middle",
+        "A thin crescent with its horns pointing away from the Sun",
+        "A half circle lit on the side nearer to the Sun",
+        "A gibbous shape lit on more than half of its disc"
+      ],
+      "answer": 0,
+      "explanation": "The line separating lit and dark parts is a single smooth curve, so the Moon is never lit on both edges with a dark middle. Crescent, half and gibbous shapes, with the lit side towards the Sun, are all real phases.",
+      "source": "exercise:Q4(ii) (adapted)"
+    },
+    {
+      "id": "q174",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Locating the Moon in the Sky",
+      "question": "Malini saw the Moon overhead in the sky at sunset. What phase was it, and was it waxing or waning?",
+      "options": [
+        "A half Moon, waning",
+        "A half Moon, waxing",
+        "A full Moon, waning",
+        "A crescent Moon, waxing"
+      ],
+      "answer": 1,
+      "explanation": "Overhead at sunset means the Moon is about a quarter of the way around the sky from the Sun — a half Moon. Since a waning half Moon is overhead at sunrise, the one overhead at sunset must be the waxing half Moon.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q175",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Locating the Moon in the Sky",
+      "question": "Ravi says he saw a crescent Moon rising in the east as the Sun set. Kaushalya says she saw a gibbous Moon in the east during the afternoon. Who is telling the truth?",
+      "options": [
+        "Only Ravi",
+        "Both of them",
+        "Only Kaushalya",
+        "Neither of them"
+      ],
+      "answer": 2,
+      "explanation": "A Moon rising in the east at sunset is opposite the Sun and must look full, not crescent — so Ravi's claim is impossible. A waxing gibbous Moon rises in the afternoon and can be seen in the east, so Kaushalya's report is possible.",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q176",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Locating the Moon in the Sky",
+      "question": "Vaishali saw the Moon in the sky from sunset right through to sunrise. Which phase must it have been?",
+      "options": [
+        "New Moon",
+        "Waxing crescent",
+        "Waning half Moon",
+        "Full Moon"
+      ],
+      "answer": 3,
+      "explanation": "Only a full Moon rises at about sunset and sets at about sunrise, staying up all night. A new Moon is invisible, and crescents and half Moons are up for only part of the night.",
+      "source": "exercise:Q9"
+    },
+    {
+      "id": "q177",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why Phases Happen: The Ball-and-Lamp Model",
+      "question": "On days when a crescent Moon is visible, the lit part of the crescent always faces",
+      "options": [
+        "towards the Sun",
+        "away from the Sun",
+        "towards the north",
+        "towards the horizon"
+      ],
+      "answer": 0,
+      "explanation": "The crescent's bright edge faces the Sun because that is the side receiving sunlight; moving a finger from the Sun to the Moon along the shortest path crosses the lit part first.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q178",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Why Phases Happen: The Ball-and-Lamp Model",
+      "question": "In the 'Discover' activity, what does the line joining the two tips of a crescent Moon correspond to?",
+      "options": [
+        "The edge of the Earth's shadow",
+        "The diameter of the Moon",
+        "The Moon's orbit around Earth",
+        "The radius of the Moon"
+      ],
+      "answer": 1,
+      "explanation": "The two horns of the crescent lie at opposite ends of the lit half's boundary, so the line joining them is a diameter of the Moon's disc.",
+      "source": "text:page19"
+    }
+  ]
+}

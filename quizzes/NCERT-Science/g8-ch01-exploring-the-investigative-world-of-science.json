@@ -1,0 +1,1690 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-science-g8-ch01-exploring-the-investigative-world-of-science",
+  "title": "Exploring the Investigative World of Science",
+  "subject": "Science",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Science/ch01",
+  "chapter": "1. Exploring the Investigative World of Science",
+  "topic": "Full Chapter",
+  "description": "Practice on how scientists investigate — focused questions, controlling variables, fair tests and careful observation — plus the Grade 8 Curiosity roadmap from microbes to climate.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "science",
+    "scientific-method",
+    "investigation",
+    "curiosity"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Probe and Ponder",
+      "question": "According to the chapter, what is the purpose of the questions on the first page of each chapter?",
+      "options": [
+        "To spark curiosity about the world",
+        "To revise facts from Grade 7",
+        "To test reading speed of students",
+        "To prepare students for the exam"
+      ],
+      "answer": 0,
+      "explanation": "Page 1 says these questions 'are not meant for any exam — they are unique invitations to spark your curiosity to explore the world of science'.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q2",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Probe and Ponder",
+      "question": "The 'Probe and ponder' questions are meant to be answered in the annual exam.",
+      "answer": false,
+      "explanation": "False. The chapter states clearly that these questions are not meant for any exam; they are invitations to be curious.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Probe and Ponder",
+      "question": "One Probe-and-ponder question compares the number of grains of sand on all beaches and deserts with the number of —",
+      "options": [
+        "planets in the solar system",
+        "stars in our galaxy",
+        "drops of water in the oceans",
+        "leaves on all the trees"
+      ],
+      "answer": 1,
+      "explanation": "The question asks whether there are more grains of sand on all the beaches and deserts of the world, or more stars in our galaxy.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Probe and Ponder",
+      "question": "The diversity question on page 1 says we have been observing the variety of plants and animals 'right from' which grade?",
+      "options": [
+        "Grade 8",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7"
+      ],
+      "answer": 2,
+      "explanation": "The text says 'Right from Grade 6, we've observed the incredible diversity of plants and animals around us.'",
+      "source": "text:page1"
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Probe and Ponder",
+      "question": "Which of these questions actually appear in the chapter's 'Probe and ponder' box? (Select all that apply)",
+      "options": [
+        "Why is one side of a puri thinner than the other?",
+        "Why has nature created such a vast variety of living things?",
+        "Why does the Moon appear reddish during an eclipse?",
+        "Why do magnets attract iron but not wood?"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The box asks about the thin side of a puri, sand grains versus stars, and why nature created such a vast variety. Eclipses and magnets are not in the box.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Probe and Ponder",
+      "question": "The chapter invites you to write your own curious question on page 1. What does this tell you about how the book views the reader?",
+      "options": [
+        "As an examiner who grades answers",
+        "As a reader who only follows the text",
+        "As a learner who memorises given facts",
+        "As an investigator who asks questions"
+      ],
+      "answer": 3,
+      "explanation": "The book addresses you as 'Young Scientists' and wants you to be investigators who ask your own questions, not just memorise facts.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Spirit of Investigation",
+      "question": "What is the name of the NCERT Grade 8 science textbook this chapter belongs to?",
+      "options": [
+        "Curiosity",
+        "Discovery",
+        "Exploration",
+        "Investigation"
+      ],
+      "answer": 0,
+      "explanation": "The running header reads 'Curiosity — Textbook of Science for Grade 8', and the text says 'Our journey with Curiosity ... continues in Grade 8'.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Spirit of Investigation",
+      "question": "In Grade 6, according to the chapter, science began with —",
+      "options": [
+        "designing controlled experiments",
+        "wonder and simple Why/How questions",
+        "classifying materials into groups",
+        "measuring quantities with numbers"
+      ],
+      "answer": 1,
+      "explanation": "The chapter recalls that in Grade 6 'science begins with wonder, with simple Why? and How? questions about the world around us'.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Spirit of Investigation",
+      "question": "Which idea was the focus of Grade 7, as recalled in this chapter?",
+      "options": [
+        "Science is a fixed collection of facts proven long ago",
+        "Science is mainly about naming and classifying living things",
+        "Science is always evolving and each answer opens new questions",
+        "Science needs a laboratory and precise measuring instruments"
+      ],
+      "answer": 2,
+      "explanation": "In Grade 7 we learnt that science is always evolving, each answer opens new questions, and our ideas slowly change as we explore deeper.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Spirit of Investigation",
+      "question": "Grade 8 is described as the 'Investigative World of Science' where which two things come together?",
+      "options": [
+        "Experiment and examination",
+        "Curiosity and competition",
+        "Observation and memorisation",
+        "Wonder and evolution"
+      ],
+      "answer": 3,
+      "explanation": "The chapter says that in Grade 8 'wonder and evolution come together to form the heart of how science works' — wonder from Grade 6 and evolution from Grade 7.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Spirit of Investigation",
+      "question": "The chapter says 'we don't want you to just learn new facts.' What does it want instead?",
+      "options": [
+        "To learn how to find new facts",
+        "To learn many more facts faster",
+        "To learn facts from older books",
+        "To learn facts only from teachers"
+      ],
+      "answer": 0,
+      "explanation": "The exact line is: 'we want you to learn how to find new facts' — the skill of investigation, not just more facts.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q12",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Spirit of Investigation",
+      "question": "According to the chapter, investigation in science means simply looking at something and asking simple questions.",
+      "answer": false,
+      "explanation": "False. The chapter says investigation 'means more than just looking at something and asking only simple questions' — it needs focused questions and experiments.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Spirit of Investigation",
+      "question": "Which of these are listed in the chapter as part of investigating like a young scientist? (Select all that apply)",
+      "options": [
+        "Asking more focused questions",
+        "Designing simple experiments",
+        "Memorising the chapter summary",
+        "Copying results from a reference book"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Investigation means asking focused questions, designing simple experiments to answer them, and using observations to improve understanding. Memorising or copying is not investigation.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Spirit of Investigation",
+      "question": "The chapter gives two example puzzles: 'why does dough rise?' and 'is the world getting warmer?'. What contrast do they illustrate?",
+      "options": [
+        "Living versus non-living questions",
+        "Everyday-life versus planet-scale questions",
+        "Easy questions versus impossible questions",
+        "Kitchen questions versus laboratory questions"
+      ],
+      "answer": 1,
+      "explanation": "The puzzles 'may range from everyday life — like why does dough rise? — to the bigger mysteries of Earth and beyond like is the world getting warmer?'",
+      "source": "text:page2"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Spirit of Investigation",
+      "question": "Put the chapter's steps in order: using questions as starting points, we then try to —",
+      "options": [
+        "explain what we expect, then observe, then conclude",
+        "explain clearly, then observe, then experiment",
+        "observe carefully, experiment thoughtfully, explain clearly",
+        "experiment first, then ask the question, then explain"
+      ],
+      "answer": 2,
+      "explanation": "The chapter's order is: use questions as starting points, observe carefully, experiment thoughtfully, and explain clearly what we see.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Root and Kite Symbols",
+      "question": "Where on the page is the image of a root printed?",
+      "options": [
+        "Top corner of right-hand pages",
+        "Top corner of left-hand pages",
+        "Bottom of right-hand pages",
+        "Bottom of left-hand pages"
+      ],
+      "answer": 3,
+      "explanation": "On the left-hand pages, at the bottom, you find the image of a root; the kite is in the top corner of the right-hand pages.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Root and Kite Symbols",
+      "question": "What does the kite symbol in the book stand for?",
+      "options": [
+        "Curiosity that must take flight",
+        "Competition between students",
+        "Weather and wind patterns",
+        "Knowledge rooted in traditions"
+      ],
+      "answer": 0,
+      "explanation": "The kite soaring in the sky reminds us 'that curiosity must take flight if we are to explore the unknown'. The root stands for rooted knowledge.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Root and Kite Symbols",
+      "question": "The root symbolises a foundation of knowledge that keeps us connected to —",
+      "options": [
+        "exams, marks and textbooks",
+        "environment, traditions and heritage",
+        "teachers, parents and friends",
+        "laboratories, machines and technology"
+      ],
+      "answer": 1,
+      "explanation": "The root symbolises 'the deep, solid foundation of knowledge that keeps us connected to our environment, traditions, and our cultural and natural heritage'.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q19",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Root and Kite Symbols",
+      "question": "The chapter says investigation works best when careful observation is balanced with creative thinking.",
+      "answer": true,
+      "explanation": "True. 'Investigation in science works best only when we balance the solid ground of careful observation with the freedom of creative thinking.'",
+      "source": "text:page2"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Root and Kite Symbols",
+      "question": "A student only daydreams about wild ideas and never checks them against observations. In the chapter's symbols, which part is missing?",
+      "options": [
+        "The page numbers of the textbook",
+        "The kite — curiosity taking flight",
+        "The root — grounding in real observation",
+        "The lines at the bottom of the page"
+      ],
+      "answer": 2,
+      "explanation": "The root stands for staying 'grounded in real observations'. Wild ideas without observation have the kite but lack the root.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Root and Kite Symbols",
+      "question": "What does the chapter say about the patterns in the lines at the bottom of each page?",
+      "options": [
+        "They show the page number in a secret code",
+        "They are decorations copied from Grade 7",
+        "They mark the end of each topic clearly",
+        "They hide scientific thoughts and reduce boredom"
+      ],
+      "answer": 3,
+      "explanation": "There are 'some hidden scientific thoughts' in these patterns, but 'they are mainly to make the page a little less boring'.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q22",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Root and Kite Symbols",
+      "question": "In the textbook, the kite appears in the top corner of the right-hand pages.",
+      "answer": true,
+      "explanation": "True. The kite is in the top corner of right-hand pages; the root is at the bottom of left-hand pages.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Root and Kite Symbols",
+      "question": "Which pairing of symbol and meaning is NOT correct according to the chapter?",
+      "options": [
+        "Root — freedom of creative thinking",
+        "Kite — ideas soaring to new horizons",
+        "Root — deep, solid foundation of knowledge",
+        "Kite — curiosity exploring the unknown"
+      ],
+      "answer": 0,
+      "explanation": "Freedom of creative thinking belongs to the kite, not the root. The root is the solid ground of careful observation and knowledge.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Microbes and Health",
+      "question": "The journey this year begins by examining something as small as —",
+      "options": [
+        "a grain of sand",
+        "a single drop of water",
+        "a single leaf cell",
+        "a speck of dust"
+      ],
+      "answer": 1,
+      "explanation": "'We will start by examining something as small as a single drop of water, and uncover a hidden world of tiny organisms.'",
+      "source": "text:page3"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Microbes and Health",
+      "question": "Which of these is given as a role of 'invisible helper' microbes?",
+      "options": [
+        "Producing oxygen for breathing",
+        "Causing infections in the body",
+        "Helping us digest our food",
+        "Shielding us from UV rays"
+      ],
+      "answer": 2,
+      "explanation": "Some microbes are invisible helpers 'that help us digest our food or produce medicines'. Infections are caused by the harmful ones; UV shielding is the atmosphere's job.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q26",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Microbes and Health",
+      "question": "Which of these does the chapter list as helping us stay healthy and fight infections? (Select all that apply)",
+      "options": [
+        "Nutritious food",
+        "Vaccines",
+        "Strong sunlight",
+        "Cold drinks"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The chapter lists nutritious food, exercise, medicines and vaccines. Sunlight and cold drinks are not mentioned.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q27",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Microbes and Health",
+      "question": "According to the chapter, all microbes are harmful and cause infections.",
+      "answer": false,
+      "explanation": "False. Some microbes are 'invisible helpers' that aid digestion or produce medicines; only some are harmful and cause infections.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Microbes and Health",
+      "question": "Microbes are described as 'unseen but deeply linked to us'. Which statement best captures this link?",
+      "options": [
+        "They live only outside the human body",
+        "They are linked to us through sunlight",
+        "They are seen only through a telescope",
+        "They can both help us and harm us"
+      ],
+      "answer": 3,
+      "explanation": "The link is two-sided: helpers aid digestion and make medicines, while harmful ones cause infections. Telescopes view distant objects, not microbes.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Microbes and Health",
+      "question": "Besides digestion, what other helpful job of microbes is mentioned?",
+      "options": [
+        "Producing medicines",
+        "Purifying drinking water",
+        "Making soil fertile",
+        "Cleaning the air"
+      ],
+      "answer": 0,
+      "explanation": "The helpers 'help us digest our food or produce medicines'. The other jobs, though real elsewhere, are not mentioned in this chapter.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Microbes and Health",
+      "question": "Medicines and vaccines are mentioned in the chapter as ways to —",
+      "options": [
+        "measure the temperature of oil",
+        "fight infections and stay healthy",
+        "produce electricity at home",
+        "classify microbes into groups"
+      ],
+      "answer": 1,
+      "explanation": "'We'll find out how nutritious food, exercise, medicines, and vaccines help us stay healthy and fight infections.'",
+      "source": "text:page3"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Electricity and Forces",
+      "question": "Which effect of electric current is said to keep us warm?",
+      "options": [
+        "Lighting effect",
+        "Magnetic effect",
+        "Heating effect",
+        "Chemical effect"
+      ],
+      "answer": 2,
+      "explanation": "'We depend on the heating effect of electric current to keep us warm, while the magnetic effect helps motors run.'",
+      "source": "text:page3"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Electricity and Forces",
+      "question": "Which effect of electric current helps motors run?",
+      "options": [
+        "Sound effect",
+        "Heating effect",
+        "Chemical effect",
+        "Magnetic effect"
+      ],
+      "answer": 3,
+      "explanation": "The magnetic effect of electric current 'helps motors run and machines function'; the heating effect keeps us warm.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Electricity and Forces",
+      "question": "Why does the chapter move from electricity to the study of forces?",
+      "options": [
+        "Because electrical phenomena depend on fundamental forces",
+        "Because forces were skipped in Grades 6 and 7",
+        "Because motors and heaters do not need electricity",
+        "Because forces are easier to measure than current"
+      ],
+      "answer": 0,
+      "explanation": "'These phenomena depend on fundamental forces. So after watching electricity do work, we move on to study these forces themselves.'",
+      "source": "text:page3"
+    },
+    {
+      "id": "q34",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Electricity and Forces",
+      "question": "According to the chapter, forces can make objects — (Select all that apply)",
+      "options": [
+        "speed up",
+        "change colour",
+        "change direction",
+        "become lighter"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Forces 'make objects speed up, slow down, or change direction'. Colour and lightness are not effects of force mentioned in the chapter.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Electricity and Forces",
+      "question": "A ball thrown up in the air falls back to the ground. The chapter uses this to illustrate —",
+      "options": [
+        "the heating effect of electric current",
+        "how understanding forces explains motion",
+        "the magnetic effect of electric current",
+        "how light bends when passing through air"
+      ],
+      "answer": 1,
+      "explanation": "'Understanding forces helps explain why a ball thrown up in the air falls back to the ground, or why a car stops when the brakes are applied.'",
+      "source": "text:page3"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Electricity and Forces",
+      "question": "Which everyday example in the chapter shows a force making an object slow down?",
+      "options": [
+        "A motor turning when switched on",
+        "A ball thrown up falling back down",
+        "A car stopping when brakes are applied",
+        "A puri puffing up in boiling hot oil"
+      ],
+      "answer": 2,
+      "explanation": "Brakes apply a force that slows and stops the car. The falling ball shows a force changing motion downward, and the motor shows the magnetic effect of current.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q37",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Electricity and Forces",
+      "question": "The chapter says the magnetic effect of electric current is what keeps us warm.",
+      "answer": false,
+      "explanation": "False. It is the heating effect that keeps us warm; the magnetic effect helps motors run.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Electricity and Forces",
+      "question": "Which statement about forces is NOT supported by the chapter?",
+      "options": [
+        "Forces help explain why brakes stop a car",
+        "Forces can change an object's direction",
+        "Forces can make a moving object slow down",
+        "Forces act only on objects that are moving"
+      ],
+      "answer": 3,
+      "explanation": "The chapter never restricts forces to moving objects; it says forces make objects speed up, slow down or change direction. The other three statements are from the text.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pressure, Wind and Weather",
+      "question": "How does the chapter describe pressure?",
+      "options": [
+        "How force is distributed over an object",
+        "The total weight of the atmosphere above",
+        "The energy carried by fast-moving wind",
+        "The speed at which air moves around us"
+      ],
+      "answer": 0,
+      "explanation": "The chapter introduces 'the idea of pressure — how the force is distributed over an object'.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pressure, Wind and Weather",
+      "question": "According to the chapter, a small difference in pressure results in —",
+      "options": [
+        "a cyclone",
+        "a gentle breeze",
+        "a thunderstorm",
+        "a strong wind"
+      ],
+      "answer": 1,
+      "explanation": "'A small difference in pressure can result in a gentle breeze while a stronger pressure difference can lead to strong winds, and sometimes even cyclones.'",
+      "source": "text:page3"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pressure, Wind and Weather",
+      "question": "What can a stronger pressure difference lead to, according to the chapter?",
+      "options": [
+        "Earthquakes and sometimes tsunamis",
+        "Morning fog and sometimes heavy dew",
+        "Strong winds and sometimes cyclones",
+        "Rainfall and sometimes flooding"
+      ],
+      "answer": 2,
+      "explanation": "A stronger pressure difference 'can lead to strong winds, and sometimes even cyclones'. Rain, earthquakes and fog are not linked to pressure difference here.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q42",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Pressure, Wind and Weather",
+      "question": "The chapter states that the same concepts of force and pressure decide how air moves.",
+      "answer": true,
+      "explanation": "True. 'The same concepts of force and pressure also decide how air moves.'",
+      "source": "text:page3"
+    },
+    {
+      "id": "q43",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Pressure, Wind and Weather",
+      "question": "The chapter says powerful weather events like storms and cyclones affect which of the following? (Select all that apply)",
+      "options": [
+        "Our daily lives",
+        "The phases of the Moon",
+        "Agriculture",
+        "The distance of Earth from the Sun"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Storms and cyclones 'affect our daily lives, agriculture, and even our safety'. Moon phases and Earth's distance from the Sun are astronomical and unaffected.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pressure, Wind and Weather",
+      "question": "Imagine two neighbouring regions with almost equal air pressure. Based on the chapter, what would you predict?",
+      "options": [
+        "Strong winds will blow from both sides",
+        "The air will become very hot and rise",
+        "A cyclone will form between them",
+        "Only a gentle breeze, if any, will blow"
+      ],
+      "answer": 3,
+      "explanation": "Wind strength depends on pressure difference: a small difference gives at most a gentle breeze; cyclones need a strong pressure difference.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pressure, Wind and Weather",
+      "question": "To understand how air exerts pressure, the chapter says we need to —",
+      "options": [
+        "zoom in and study the particles it is made of",
+        "study the phases of the Moon carefully",
+        "observe storms and cyclones from far",
+        "measure wind speed with special instruments"
+      ],
+      "answer": 0,
+      "explanation": "'To truly understand how air can exert pressure ... we need to zoom into these materials and see what kind of particles they are made up of, and how they move around.'",
+      "source": "text:page4"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Particles and Materials",
+      "question": "In which type of material can particles move around freely, according to the chapter?",
+      "options": [
+        "Liquids",
+        "Gases",
+        "Metals",
+        "Solids"
+      ],
+      "answer": 1,
+      "explanation": "'In materials that are solid these particles cannot move much, while in gases they can move around freely.'",
+      "source": "text:page4"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Particles and Materials",
+      "question": "How are particles in a solid described?",
+      "options": [
+        "They do not exist in solids",
+        "They move only when heated",
+        "They cannot move much",
+        "They move around freely"
+      ],
+      "answer": 2,
+      "explanation": "In solids the particles 'cannot move much'; it is in gases that they move around freely. Everything, including solids, is made of particles.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Particles and Materials",
+      "question": "Which of these is described as a 'pure substance'?",
+      "options": [
+        "A solution",
+        "A mixture",
+        "A compound",
+        "An element"
+      ],
+      "answer": 3,
+      "explanation": "The chapter classifies materials into 'elements (pure substances), compounds (two or more elements bonded together), and mixtures'.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Particles and Materials",
+      "question": "How does the chapter define a compound?",
+      "options": [
+        "Two or more elements bonded together",
+        "A pure substance that cannot be broken down",
+        "A solid in which particles cannot move",
+        "A combination that can be separated physically"
+      ],
+      "answer": 0,
+      "explanation": "A compound is 'two or more elements bonded together'. Physically separable combinations are mixtures; 'pure substance' is the label for elements.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Particles and Materials",
+      "question": "What is the key feature of a mixture given in the chapter?",
+      "options": [
+        "Its parts are chemically bonded",
+        "Its parts can be separated physically",
+        "It is always a single pure substance",
+        "It is always a liquid solution"
+      ],
+      "answer": 1,
+      "explanation": "Mixtures are 'combinations that can be separated physically'. Bonding describes compounds, and purity describes elements.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Particles and Materials",
+      "question": "Sugar dissolving in tea to make it sweet is the chapter's example of —",
+      "options": [
+        "a chemical change",
+        "a compound forming",
+        "a solution",
+        "an element"
+      ],
+      "answer": 2,
+      "explanation": "'We can then understand solutions — for example, how sugar dissolves in tea to make it sweet.' Dissolving does not bond sugar into a compound.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q52",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Particles and Materials",
+      "question": "According to the chapter, classifying things around us is an important feature of science.",
+      "answer": true,
+      "explanation": "True. 'Classifying things around us is an important feature of science', e.g. sorting materials into elements, compounds and mixtures.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Particles and Materials",
+      "question": "Which statement about materials is NOT correct according to the chapter?",
+      "options": [
+        "Elements are classed as pure substances",
+        "Everything around us is made of tiny particles",
+        "Particles in gases can move around freely",
+        "Compounds can be separated physically"
+      ],
+      "answer": 3,
+      "explanation": "It is mixtures that can be separated physically; compounds are elements bonded together. The other three statements are straight from the chapter.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q54",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Particles and Materials",
+      "question": "Which pairs correctly match a category with its description from the chapter? (Select all that apply)",
+      "options": [
+        "Element — pure substance",
+        "Mixture — elements bonded together",
+        "Compound — two or more elements bonded",
+        "Compound — can be separated physically"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Elements are pure substances and compounds are two or more elements bonded together. Mixtures (not compounds) can be separated physically; bonding is not a feature of mixtures.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q55",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Particles and Materials",
+      "question": "The chapter says we need to zoom into materials and their particles to explain why water boils at a certain temperature.",
+      "answer": true,
+      "explanation": "True. To understand 'why water boils at a certain temperature we need to zoom into these materials and see what kind of particles they are made up of'.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Light, Mirrors and Lenses",
+      "question": "According to the chapter, what happens to light when it passes through a lens?",
+      "options": [
+        "It bends",
+        "It stops",
+        "It reflects back",
+        "It gets absorbed"
+      ],
+      "answer": 0,
+      "explanation": "Light 'bends when passing through lenses'; it reflects off mirrors.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Light, Mirrors and Lenses",
+      "question": "Light is said to reflect off which kinds of mirrors in this year's study?",
+      "options": [
+        "Only curved mirrors",
+        "Flat and curved mirrors",
+        "Only metal mirrors",
+        "Only flat mirrors"
+      ],
+      "answer": 1,
+      "explanation": "'We'll study how light rays reflect off flat and curved mirrors, and bends when passing through lenses.'",
+      "source": "text:page4"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Light, Mirrors and Lenses",
+      "question": "How does the chapter explain the way corrective glasses help us see clearly?",
+      "options": [
+        "Through the absorption of light",
+        "Through the reflection of light",
+        "Through the bending of light",
+        "Through the heating effect of light"
+      ],
+      "answer": 2,
+      "explanation": "'The bending of light explains ... how corrective glasses help many of us see clearly.' Glasses are lenses, and lenses bend light.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q59",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Light, Mirrors and Lenses",
+      "question": "According to the chapter, only polished mirrors can reflect light.",
+      "answer": false,
+      "explanation": "False. 'It's not just a polished mirror that reflects light, rough surfaces reflect light as well, and so does the Moon.'",
+      "source": "text:page4"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Light, Mirrors and Lenses",
+      "question": "Which of these is NOT listed in the chapter as something that reflects light?",
+      "options": [
+        "A polished mirror",
+        "A rough surface",
+        "The Moon",
+        "A glass lens"
+      ],
+      "answer": 3,
+      "explanation": "The chapter lists polished mirrors, rough surfaces and the Moon as reflectors. A lens is described as bending light, not reflecting it.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Light, Mirrors and Lenses",
+      "question": "Seeing an image in a shiny metal spoon is mentioned alongside which topic?",
+      "options": [
+        "The light chapter on mirrors and lenses",
+        "The chapter on electric current",
+        "The chapter on forces and pressure",
+        "The chapter on particles and mixtures"
+      ],
+      "answer": 0,
+      "explanation": "The spoon image is given while describing the study of light — reflection from curved surfaces and bending through lenses.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q62",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Light, Mirrors and Lenses",
+      "question": "Which objects does the chapter mention when discussing reflection and bending of light? (Select all that apply)",
+      "options": [
+        "A shiny metal spoon",
+        "Corrective glasses",
+        "A magnifying torch",
+        "A glass prism"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The chapter mentions the image in a shiny metal spoon and corrective glasses. Torches and prisms are not mentioned.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Moon Phases and Calendars",
+      "question": "What causes a slightly different part of the Moon to be lit each night?",
+      "options": [
+        "The Moon producing light of its own",
+        "Relative positions of Earth, Moon and Sun",
+        "Clouds covering parts of the Moon",
+        "The Earth's shadow falling on the Moon"
+      ],
+      "answer": 1,
+      "explanation": "'Depending on the relative positions of the Earth, Moon and Sun, a slightly different part of the Moon is illuminated each night, giving rise to the phases.'",
+      "source": "text:page4"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Moon Phases and Calendars",
+      "question": "Watching the periodic cycles of the Moon's phases allowed humans to come up with —",
+      "options": [
+        "the first clocks",
+        "the first telescopes",
+        "the first calendars",
+        "the first compasses"
+      ],
+      "answer": 2,
+      "explanation": "'Watching the periodic cycles of the Moon's phases allowed humans to come up with the first calendars.'",
+      "source": "text:page4"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Moon Phases and Calendars",
+      "question": "According to the chapter, various calendars came into being by combining observations of —",
+      "options": [
+        "tides, winds and rainfall patterns",
+        "star positions and planet motions",
+        "seasons, harvests and festivals",
+        "sunrises, sunsets and lunar cycles"
+      ],
+      "answer": 3,
+      "explanation": "'By combining careful observations of sunrises, sunsets, and lunar cycles, various calendars came into being.'",
+      "source": "text:page4"
+    },
+    {
+      "id": "q66",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Moon Phases and Calendars",
+      "question": "According to the chapter, the Moon reflects light rather than producing its own light.",
+      "answer": true,
+      "explanation": "True. The chapter lists the Moon among things that reflect light, along with polished mirrors and rough surfaces.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Moon Phases and Calendars",
+      "question": "Why does the chapter call it 'fascinating' that calendars determine our routines?",
+      "options": [
+        "Because they depend on motions of objects far beyond Earth",
+        "Because every country on Earth follows the same calendar",
+        "Because the Moon directly controls the weather on Earth",
+        "Because calendars were only invented in the last century"
+      ],
+      "answer": 0,
+      "explanation": "'Isn't it fascinating that the calendars which determine our routines on Earth are linked to the motions of objects far beyond our planet?'",
+      "source": "text:page4"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Moon Phases and Calendars",
+      "question": "The calendar page shown in the chapter is for the month of Chaitra. Which dates does it cover?",
+      "options": [
+        "March 1 – March 31, 2025",
+        "March 22 – April 20, 2025",
+        "April 1 – April 30, 2025",
+        "February 22 – March 20, 2025"
+      ],
+      "answer": 1,
+      "explanation": "The calendar image is labelled 'Chaitra (March 22 - April 20, 2025)'.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Moon Phases and Calendars",
+      "question": "On page 7 the chapter mentions 'the shrinking bright part of the Moon after purnima'. What must the Moon look like on purnima?",
+      "options": [
+        "Exactly half lit",
+        "A thin crescent",
+        "Fully bright",
+        "Completely dark"
+      ],
+      "answer": 2,
+      "explanation": "The bright part can only shrink after reaching its largest, so purnima is the night the Moon is fully lit (full Moon). After it, the lit part decreases night by night.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q70",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Moon Phases and Calendars",
+      "question": "According to the chapter, the phases of the Moon are caused by the Earth's shadow falling on the Moon.",
+      "answer": false,
+      "explanation": "False. The chapter attributes phases to the relative positions of Earth, Moon and Sun, which change how much of the lit Moon we see — not to Earth's shadow.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Ecosystems and Earth",
+      "question": "Living beings depend on and respond to air, water, sunlight and other organisms, forming —",
+      "options": [
+        "calendars",
+        "elements",
+        "compounds",
+        "ecosystems"
+      ],
+      "answer": 3,
+      "explanation": "Every living being 'depends on and responds to the air, water, sunlight, and other organisms around them forming the ecosystems that support life on our planet'.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Ecosystems and Earth",
+      "question": "Which reason does the chapter give for water remaining liquid on Earth?",
+      "options": [
+        "Earth's perfect distance from the Sun",
+        "Earth's thick blanket of clouds",
+        "Earth's rotation once every day",
+        "Earth's powerful magnetic field"
+      ],
+      "answer": 0,
+      "explanation": "'The Earth lies at the perfect distance from the Sun, where water remains liquid.'",
+      "source": "text:page5"
+    },
+    {
+      "id": "q73",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Ecosystems and Earth",
+      "question": "According to the chapter, Earth's atmosphere does which of the following? (Select all that apply)",
+      "options": [
+        "Provides the oxygen we breathe",
+        "Shields us from harmful ultraviolet rays",
+        "Keeps water from ever evaporating",
+        "Produces light for the phases of the Moon"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The atmosphere 'provides the oxygen we breathe while shielding us from harmful ultraviolet rays'. It does not stop evaporation or light the Moon.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Ecosystems and Earth",
+      "question": "The chapter's phrases 'from tiniest insect to the largest whale' and 'from blades of grasses to tall trees' are used to emphasise that —",
+      "options": [
+        "only large organisms matter in ecosystems",
+        "every living being depends on its environment",
+        "plants and animals live in separate places",
+        "insects and whales share the same food"
+      ],
+      "answer": 1,
+      "explanation": "The phrases stress that every living being, small or large, depends on and responds to air, water, sunlight and other organisms.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q75",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Ecosystems and Earth",
+      "question": "The final chapter of the book tries to understand what makes Earth 'just right' for life.",
+      "answer": true,
+      "explanation": "True. 'In the final chapter of this book, we can put it all together and try to understand what makes Earth just right for life.'",
+      "source": "text:page5"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Ecosystems and Earth",
+      "question": "The relationships between living organisms and their environments are described in the chapter as —",
+      "options": [
+        "fixed and never ever changing",
+        "simple and easily predicted",
+        "marvellous and complex patterns",
+        "random and without any pattern"
+      ],
+      "answer": 2,
+      "explanation": "The chapter speaks of 'marvellous and complex patterns of relationships between living organisms and their environments'.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Ecosystems and Earth",
+      "question": "If Earth were much farther from the Sun, which chapter statement would be most directly affected?",
+      "options": [
+        "Microbes help us digest food",
+        "Light bends through lenses",
+        "Forces make objects speed up",
+        "Water on Earth remains liquid"
+      ],
+      "answer": 3,
+      "explanation": "Water stays liquid because Earth is at the perfect distance from the Sun; move Earth away and that condition changes. The other statements do not depend on distance from the Sun.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Climate and Our Role",
+      "question": "According to the chapter, who lies 'at the heart of both the problem and any possible solution' for Earth's climate?",
+      "options": [
+        "We, human beings",
+        "Plants and forests",
+        "Scientists in laboratories",
+        "Governments of big nations"
+      ],
+      "answer": 0,
+      "explanation": "'At the heart of both the problem — and any possible solution — is us. We are the ones influencing Earth's climate.'",
+      "source": "text:page5"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Climate and Our Role",
+      "question": "What does the chapter say human activities can do to Earth's temperature?",
+      "options": [
+        "Cause changes only in the polar regions",
+        "Cause small changes that disrupt climate patterns",
+        "Cause no measurable change to climate patterns",
+        "Cause large changes that are quickly reversed"
+      ],
+      "answer": 1,
+      "explanation": "'Human activities on the planet can cause small changes in the temperature of the Earth, disrupting climate patterns, with dangerous consequences.'",
+      "source": "text:page5"
+    },
+    {
+      "id": "q80",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Climate and Our Role",
+      "question": "Which scientific principles does the chapter say will be key to protecting the balance on which life depends? (Select all that apply)",
+      "options": [
+        "Observing",
+        "Guessing",
+        "Measuring",
+        "Memorising",
+        "Experimenting"
+      ],
+      "answer": [
+        0,
+        2,
+        4
+      ],
+      "explanation": "'The same scientific principles ... observing, measuring, experimenting — will be key in helping us protect the delicate balance on which life depends.'",
+      "source": "text:page5"
+    },
+    {
+      "id": "q81",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Climate and Our Role",
+      "question": "The chapter claims that the challenges facing the planet will always be easy to solve with science.",
+      "answer": false,
+      "explanation": "False. The chapter says 'the challenges ahead won't always be easy', while hoping students will try to solve them with Curiosity as a guide.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Climate and Our Role",
+      "question": "The chapter says small changes in Earth's temperature can have 'dangerous consequences'. Which chain of cause and effect matches the text?",
+      "options": [
+        "Changed temperature → human activities → disrupted climate",
+        "Human activities → disrupted climate patterns → changed temperature",
+        "Human activities → changed temperature → disrupted climate patterns",
+        "Disrupted climate → human activities → changed temperature"
+      ],
+      "answer": 2,
+      "explanation": "The text: human activities cause small changes in temperature, which disrupt climate patterns, which have dangerous consequences.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Climate and Our Role",
+      "question": "What does the chapter hope some students will do with 'Curiosity as your guide'?",
+      "options": [
+        "Score the highest marks in science",
+        "Build a laboratory at their homes",
+        "Write a new textbook for Grade 9",
+        "Try to solve difficult planetary problems"
+      ],
+      "answer": 3,
+      "explanation": "'We hope some of you will try to solve these difficult problems with Curiosity as your guide.'",
+      "source": "text:page5"
+    },
+    {
+      "id": "q84",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Climate and Our Role",
+      "question": "According to the chapter, we are the ones influencing Earth's climate, but we are also the ones who can use science to guide our actions.",
+      "answer": true,
+      "explanation": "True. 'We are the ones influencing Earth's climate. But we are also the ones who can — and must — use science to understand these changes and guide our actions.'",
+      "source": "text:page5"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Puri Experiment: Variables",
+      "question": "According to the chapter, where can simple science experiments be done without a fancy laboratory?",
+      "options": [
+        "In your kitchen at home",
+        "Only in a research centre",
+        "Only outdoors in a field",
+        "Only in a school lab"
+      ],
+      "answer": 0,
+      "explanation": "'You don't need a fancy laboratory to do simple experiments. Even your kitchen at home is a wonderful place to observe and ask questions.'",
+      "source": "text:page6"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Puri Experiment: Variables",
+      "question": "Which question does the chapter say starts a kitchen investigation?",
+      "options": [
+        "'When was it invented?'",
+        "'What happens if…?'",
+        "'Who discovered this?'",
+        "'What is the formula?'"
+      ],
+      "answer": 1,
+      "explanation": "'All you need is to start with curiosity, careful observation, and asking what happens if…?'",
+      "source": "text:page6"
+    },
+    {
+      "id": "q87",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Puri Experiment: Variables",
+      "question": "Which of these are things the chapter says we can CHANGE or CONTROL in the puri experiment? (Select all that apply)",
+      "options": [
+        "Thickness of the rolled dough",
+        "Type of flour (atta, maida)",
+        "Time taken for the puri to puff",
+        "Whether the puri puffs up or not"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Thickness, size, flour type, oil temperature and dropping method are things we control. Puffing (yes/no) and time to puff are things we observe or measure.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Puri Experiment: Variables",
+      "question": "In the puri experiment, 'the time it takes to puff up (seconds)' is an example of —",
+      "options": [
+        "a way of dropping dough",
+        "something we control",
+        "something we measure",
+        "a type of flour used"
+      ],
+      "answer": 2,
+      "explanation": "The chapter separates what we can change from what we can observe or measure; time to puff up, in seconds, is a measured observation.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Puri Experiment: Variables",
+      "question": "Which of these is listed as a way of dropping the dough into the oil?",
+      "options": [
+        "Folding it in half first",
+        "Throwing it from a height",
+        "Pricking it with a fork",
+        "Dropping it vertically"
+      ],
+      "answer": 3,
+      "explanation": "The chapter suggests dropping the dough 'vertically', sliding it 'at an angle', or sliding it 'slowly'. Pricking a hole is a separate later question.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Puri Experiment: Variables",
+      "question": "Which of these is NOT listed in the chapter as something we can change in the puri experiment?",
+      "options": [
+        "Colour of the frying pan",
+        "Angle of sliding the dough",
+        "Temperature of the hot oil",
+        "Size of the rolled dough"
+      ],
+      "answer": 0,
+      "explanation": "Oil temperature, dough size and thickness, flour type and dropping method are all listed. The pan's colour is not mentioned.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q91",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Puri Experiment: Variables",
+      "question": "The chapter mentions that a phulka puffs up when placed in hot oil.",
+      "answer": false,
+      "explanation": "False. A puri or batura puffs up in hot oil; the phulka 'swells when put directly on the flame'.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Puri Experiment: Variables",
+      "question": "The chapter says observations in the puri experiment may be of two kinds. Which pair is correct?",
+      "options": [
+        "Guesses and predictions made before",
+        "Yes/no answers and measured numbers",
+        "Colours and smells noted in words",
+        "Drawings and photographs of puris"
+      ],
+      "answer": 1,
+      "explanation": "'Some of these may have just yes/no answers, in some cases there might be a number we can measure.'",
+      "source": "text:page6"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Puri Experiment: Variables",
+      "question": "A student wants to check 'whether a very thick layer of dough still gives a thin side'. What type of result is this?",
+      "options": [
+        "A type of flour",
+        "A measured number in seconds",
+        "A yes/no observation",
+        "A controlled variable"
+      ],
+      "answer": 2,
+      "explanation": "Whether a thin side forms is a yes/no observation. The thickness of dough is the controlled variable; the result is what we observe.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Puri Experiment: Fair Test",
+      "question": "While doing an experiment, the chapter advises changing —",
+      "options": [
+        "two things at a time",
+        "everything at once",
+        "nothing at all",
+        "only one thing at a time"
+      ],
+      "answer": 3,
+      "explanation": "'It is better to change only one thing at a time while keeping the other conditions same.'",
+      "source": "text:page6"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Puri Experiment: Fair Test",
+      "question": "To compare boiling hot, hot and not-very-hot oil fairly, what must be kept the same?",
+      "options": [
+        "Dough thickness and way of dropping",
+        "Type of oil and size of the pan",
+        "Number of puris and their colour",
+        "Time of day and room temperature"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's example: to test oil temperature 'we would use circles of dough of the same thickness, and drop them in the same way'.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Puri Experiment: Fair Test",
+      "question": "A student fries a thick puri in very hot oil and a thin puri in warm oil, then concludes that hot oil puffs puris better. What is wrong?",
+      "options": [
+        "The puri should have been pricked first",
+        "Two things were changed at the same time",
+        "Oil temperature should never be changed",
+        "The student should have used maida flour"
+      ],
+      "answer": 1,
+      "explanation": "Thickness and temperature both changed, so the difference cannot be blamed on temperature alone. Change only one thing at a time.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Puri Experiment: Fair Test",
+      "question": "Why does the chapter recommend keeping notes of everything you see and sense?",
+      "options": [
+        "To avoid having to repeat the experiment again",
+        "To prove the experiment was done in the kitchen",
+        "To make sense of the changes and think of new questions",
+        "To fill the notebook before the teacher checks it"
+      ],
+      "answer": 2,
+      "explanation": "Notes of what you see and sense help make sense of changes, and 'after doing one round of experiments, you may think of more questions'.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q98",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Puri Experiment: Fair Test",
+      "question": "Which observations does the chapter suggest noting about the oil? (Select all that apply)",
+      "options": [
+        "Whether it splattered",
+        "Whether it smelled or smoked",
+        "Its exact brand name",
+        "Its price in the market"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "'Did the oil splatter, smell, or smoke?' are the sensory observations suggested. Brand and price are not observations of the experiment.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Puri Experiment: Fair Test",
+      "question": "After one round of experiments, which NEW question does the chapter suggest?",
+      "options": [
+        "Does the colour of the plate change the taste?",
+        "Does the size of the stove affect the oil?",
+        "Does the brand of flour change its price?",
+        "Do puris puff better from fresh or stored dough?"
+      ],
+      "answer": 3,
+      "explanation": "The follow-up questions are: 'Do puris puff better when made fresh or from stored dough? What happens if I prick a hole in the puri before frying?'",
+      "source": "text:page7"
+    },
+    {
+      "id": "q100",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Puri Experiment: Fair Test",
+      "question": "The chapter suggests testing what happens if a hole is pricked in the puri before frying.",
+      "answer": true,
+      "explanation": "True. One follow-up question is 'What happens if I prick a hole in the puri before frying?'",
+      "source": "text:page7"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Puri Experiment: Fair Test",
+      "question": "Changing only one thing at a time while keeping other conditions the same is important because —",
+      "options": [
+        "it shows which change caused the difference",
+        "it uses much less flour and oil overall",
+        "it is a rule required by every textbook",
+        "it makes the experiment finish faster"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says we change one thing at a time 'to make sense of the changes' — only then can a difference be linked to the one thing changed.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Systematic Investigation",
+      "question": "The chapter calls the step-by-step way of doing experiments —",
+      "options": [
+        "random exploration",
+        "systematic investigation",
+        "guided memorisation",
+        "creative imagination"
+      ],
+      "answer": 1,
+      "explanation": "'This is exactly how all scientific experiments ... are done. This is the idea of systematic investigation.'",
+      "source": "text:page7"
+    },
+    {
+      "id": "q103",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Systematic Investigation",
+      "question": "According to the chapter, the puffing of a puri is now completely understood by scientists.",
+      "answer": false,
+      "explanation": "False. 'Even this simple everyday observation — of a puri puffing — is not really completely understood by scientists today!'",
+      "source": "text:page7"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Systematic Investigation",
+      "question": "What does the chapter say about how complicated scientific experiments are done compared with simple ones?",
+      "options": [
+        "They need no questions to begin with",
+        "They are done only by professionals",
+        "They follow the same systematic approach",
+        "They skip the observation step entirely"
+      ],
+      "answer": 2,
+      "explanation": "'This is exactly how all scientific experiments, from simple to the most complicated are done' — by systematic investigation.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Systematic Investigation",
+      "question": "Which statement about the puri investigation is NOT supported by the chapter?",
+      "options": [
+        "New questions arise after a first round of experiments",
+        "The same method applies to complicated experiments",
+        "Even everyday observations can be investigated scientifically",
+        "Scientists have fully explained why puris puff up"
+      ],
+      "answer": 3,
+      "explanation": "The chapter says puri puffing is 'not really completely understood by scientists today'. The other three statements are made in the text.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Systematic Investigation",
+      "question": "The chapter ends by comparing the puffing of a puri with —",
+      "options": [
+        "the shrinking bright part of the Moon",
+        "the boiling of water in a kettle",
+        "the swelling of a phulka on a flame",
+        "the slow rising of fresh bread dough"
+      ],
+      "answer": 0,
+      "explanation": "'Whether it is the puffing of a puri or the shrinking bright part of the Moon after purnima, let your careful observations guide you.'",
+      "source": "text:page7"
+    },
+    {
+      "id": "q107",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Systematic Investigation",
+      "question": "Which of these are part of the chapter's idea of systematic investigation? (Select all that apply)",
+      "options": [
+        "Changing one condition at a time",
+        "Keeping notes of what you see and sense",
+        "Accepting the first result as final",
+        "Skipping observations that seem odd"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Systematic investigation changes one thing at a time and records everything observed; one round of experiments leads to more questions, not a final verdict.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Systematic Investigation",
+      "question": "What does the chapter mean by saying 'let your careful observations guide you'?",
+      "options": [
+        "Observations should be kept secret from others",
+        "Observations should decide what you explore next",
+        "Observations should be replaced by guesses",
+        "Observations matter only in a laboratory"
+      ],
+      "answer": 1,
+      "explanation": "Observations are the 'solid ground' that guide explorations and lead to new questions — in the kitchen as much as in a laboratory.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q109",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Systematic Investigation",
+      "question": "The chapter signs off with the words 'Happy experimenting!'",
+      "answer": false,
+      "explanation": "False. The last line of the chapter is 'Happy investigating!'",
+      "source": "text:page7"
+    }
+  ]
+}

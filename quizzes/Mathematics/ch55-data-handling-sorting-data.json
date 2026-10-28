@@ -1,0 +1,1744 @@
+{
+  "schemaVersion": 1,
+  "id": "mathematics-ch55-data-handling-sorting-data",
+  "title": "Data Handling: Sorting Data",
+  "subject": "Mathematics",
+  "grade": 4,
+  "sourceDir": "output/Mathematics/55_Data-Handling-Sorting-Data",
+  "chapter": "55. Data Handling: Sorting Data",
+  "topic": "Full Chapter",
+  "description": "Sorting objects by rules, reading and completing 2-circle and 3-circle Venn diagrams, Carroll diagrams with shapes and numbers, and survey problems about pets, fruits and sports.",
+  "tags": [
+    "mathematics",
+    "grade4",
+    "data-handling",
+    "sorting",
+    "venn-diagram",
+    "carroll-diagram"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sorting Rules and Groups",
+      "question": "In the book's sorting table, which rule is used to sort BOOKS?",
+      "options": [
+        "By subject",
+        "By colour",
+        "By material",
+        "By weight"
+      ],
+      "answer": 0,
+      "explanation": "The table sorts Books 'Subject Wise' into Languages, Maths and Science, and General Knowledge. Colour is the rule for crayons and material is the rule for toys.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sorting Rules and Groups",
+      "question": "The book sorts CRAYONS by colour. What is the example given for this rule?",
+      "options": [
+        "Thick or thin stick",
+        "Warm or cool colour",
+        "Soft or hard material",
+        "Light or dark shade"
+      ],
+      "answer": 1,
+      "explanation": "The table's example for sorting crayons by colour is 'Warm/Cool Colours'. Soft/hard is the example for toys, not crayons.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sorting Rules and Groups",
+      "question": "TOYS are sorted by material in the book's table. Which example is given?",
+      "options": [
+        "Big or small",
+        "Old or new",
+        "Soft or hard",
+        "Warm or cool"
+      ],
+      "answer": 2,
+      "explanation": "The sorting rule for toys is Material, with the example 'Soft/Hard'. Warm/cool colours belong to crayons.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sorting Rules and Groups",
+      "question": "Which of these is one of the subject groups the book lists for sorting books?",
+      "options": [
+        "Social Studies",
+        "Art and Craft",
+        "Physical Education",
+        "General Knowledge"
+      ],
+      "answer": 3,
+      "explanation": "The subject-wise example is 'Languages / Maths and Science / General Knowledge'. The other three are not in the table.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sorting Rules and Groups",
+      "question": "The book says a red crayon may belong to two groups because it can be either …",
+      "options": [
+        "an oil pastel or a wax crayon",
+        "a soft cover or a hard cover",
+        "a board game or a movable toy",
+        "a warm colour or a cool colour"
+      ],
+      "answer": 0,
+      "explanation": "A red crayon is sorted by colour (red) but can ALSO be sorted by type: oil pastel or wax crayon. So one object can sit in two groups.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sorting Rules and Groups",
+      "question": "A maths book is one example of an object in two groups. What second way can it be sorted?",
+      "options": [
+        "Warm colour or cool colour",
+        "Soft cover or hard cover",
+        "Oil pastel or wax crayon",
+        "Board game or movable toy"
+      ],
+      "answer": 1,
+      "explanation": "The book says 'A maths book may have a soft cover or a hard cover' — so it belongs to the subject group AND a cover-type group.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sorting Rules and Groups",
+      "question": "Instead of making long lists, what does the book suggest we use to sort things and see patterns clearly?",
+      "options": [
+        "Longer sentences",
+        "Colour photographs",
+        "Alphabetical lists",
+        "Special diagrams"
+      ],
+      "answer": 3,
+      "explanation": "The book says: 'Instead of making long lists, we can use special diagrams to sort things and see patterns clearly' — these are Venn and Carroll diagrams.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sorting Rules and Groups",
+      "question": "The sorting table has columns Object, Sorting Rule and Example. Which of these is an EXAMPLE, not a rule?",
+      "options": [
+        "Warm/Cool colours",
+        "Colour of object",
+        "Crayons and toys",
+        "Material of toy"
+      ],
+      "answer": 0,
+      "explanation": "'Colour' and 'Material' are sorting RULES, 'Crayons' and 'Toys' are OBJECTS, and 'Warm/Cool Colours' is the EXAMPLE given for the colour rule.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q9",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Sorting Rules and Groups",
+      "question": "According to the book, one object can be part of two different groups at the same time.",
+      "answer": true,
+      "explanation": "Yes. The book gives examples: a red crayon may be an oil pastel or a wax crayon, and a maths book may have a soft or a hard cover.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q10",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Sorting Rules and Groups",
+      "question": "The book says a red crayon can only be sorted by its colour and in no other way.",
+      "answer": false,
+      "explanation": "False. The book shows that the same red crayon can also be sorted by type — oil pastel or wax crayon — so it can be in two groups.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Venn Diagram Basics",
+      "question": "A Venn diagram helps us show things that belong to …",
+      "options": [
+        "the groups that never overlap",
+        "one group, the other, or both",
+        "only the first group, never both",
+        "exactly one group each time"
+      ],
+      "answer": 1,
+      "explanation": "The book says a Venn diagram shows things that belong to one group, another group, or BOTH groups — the overlap is for 'both'.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Venn Diagram Basics",
+      "question": "A 2-circle Venn diagram is used to compare how many groups?",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "1"
+      ],
+      "answer": 2,
+      "explanation": "A 2-circle Venn diagram compares TWO groups and shows their similarities (overlap) and differences (the non-overlapping parts).",
+      "source": "book:page3"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Venn Diagram Basics",
+      "question": "In a 2-circle Venn diagram, the part where the circles overlap shows items that …",
+      "options": [
+        "belong to neither group",
+        "belong to only the first",
+        "belong to only the second",
+        "belong to both groups"
+      ],
+      "answer": 3,
+      "explanation": "The overlapping part is for items that satisfy BOTH rules — they belong to the first group AND the second group.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Venn Diagram Basics",
+      "question": "Shapes drawn OUTSIDE both circles of a Venn diagram …",
+      "options": [
+        "fit only rule two",
+        "fit neither rule",
+        "fit both rules",
+        "fit only rule one"
+      ],
+      "answer": 1,
+      "explanation": "The book says shapes outside the circles 'do not fit either rule' — they are neither red polygons nor quadrilaterals in the example.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Venn Diagram Basics",
+      "question": "Why should you NOT count the shapes in the overlapping part a second time when you count all the shapes?",
+      "options": [
+        "They do not belong to any group",
+        "They are smaller than the others",
+        "They only belong to one circle",
+        "They were already counted once"
+      ],
+      "answer": 3,
+      "explanation": "Each shape in the overlap is ONE shape that happens to fit both rules. If you count it in the first circle, counting it again in the second circle would count the same shape twice.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Venn Diagram Basics",
+      "question": "According to the book's summary, a Venn diagram focuses on …",
+      "options": [
+        "counting items in a table",
+        "shared membership between groups",
+        "sorting by yes-or-no conditions",
+        "fixed sections for each item"
+      ],
+      "answer": 1,
+      "explanation": "The summary says a Venn diagram 'focuses on shared membership between groups' while a Carroll diagram focuses on sorting using clear criteria.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Venn Diagram Basics",
+      "question": "The two circles of a Venn diagram are drawn apart, with no overlap, when …",
+      "options": [
+        "one group is inside the other",
+        "there are more than ten items",
+        "the two groups share no items",
+        "the two groups are the same"
+      ],
+      "answer": 2,
+      "explanation": "If no item fits both rules, the overlap would be empty — so the circles can be drawn separately. The book asks you to think of such an example on page 6.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Venn Diagram Basics",
+      "question": "Which pair of groups would give two circles that do NOT overlap at all?",
+      "options": [
+        "Multiples of 4 and multiples of 6",
+        "Red shapes and quadrilaterals",
+        "Multiples of 5 and multiples of 10",
+        "Odd numbers and even numbers"
+      ],
+      "answer": 3,
+      "explanation": "No number is both odd and even, so those circles share nothing. Multiples of 4 and 6 share 12, 24 …; red quadrilaterals exist; every multiple of 10 is also a multiple of 5.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q19",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Venn Diagram Basics",
+      "question": "When counting all the items in a Venn diagram, each item in the overlap should be counted only once.",
+      "answer": true,
+      "explanation": "True. An item in the overlap is a single item that fits both rules, so it is counted once, not once per circle.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q20",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Venn Diagram Basics",
+      "question": "Select the TWO statements that are true of a Venn diagram.",
+      "options": [
+        "It shows how groups overlap",
+        "An item can fit in more than one group",
+        "Each item sits in one fixed section",
+        "It always has four sections"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "A Venn diagram compares groups and shows their overlap; an item can fit in more than one group. One fixed section per item and four sections describe a Carroll diagram.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reading a Venn Diagram: Shapes",
+      "question": "In the shapes Venn diagram (red polygons / quadrilaterals), which shapes are in the overlapping part?",
+      "options": [
+        "Red rectangle and red diamond",
+        "Yellow parallelogram and star",
+        "Red triangle and red pentagon",
+        "Green trapezium and red star"
+      ],
+      "answer": 0,
+      "explanation": "The middle section shows shapes that are BOTH red AND quadrilaterals: the red rectangle and the red diamond.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reading a Venn Diagram: Shapes",
+      "question": "How many shapes are in the overlapping part of the shapes Venn diagram?",
+      "options": [
+        "4",
+        "2",
+        "1",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "Only two shapes are both red and four-sided: the red rectangle and the red diamond.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reading a Venn Diagram: Shapes",
+      "question": "How many shapes are in the 'red polygons' circle altogether (including the overlap)?",
+      "options": [
+        "5",
+        "8",
+        "6",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "The red polygons are triangle, star, pentagon, L-shaped hexagon, rectangle and diamond — 6 shapes.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reading a Venn Diagram: Shapes",
+      "question": "How many shapes are red polygons but NOT quadrilaterals?",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "Red polygons = 6, and 2 of them (rectangle, diamond) are also quadrilaterals. 6 − 2 = 4: the triangle, star, pentagon and L-shaped hexagon.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reading a Venn Diagram: Shapes",
+      "question": "Which shape is a quadrilateral but is NOT red?",
+      "options": [
+        "L-shaped hexagon",
+        "Green trapezium",
+        "Red rectangle",
+        "Red pentagon"
+      ],
+      "answer": 1,
+      "explanation": "The quadrilaterals that are not red are the yellow parallelogram and the green trapezium. The red rectangle is red; the pentagon and hexagon are not quadrilaterals.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reading a Venn Diagram: Shapes",
+      "question": "How many DIFFERENT shapes are inside the two circles in total?",
+      "options": [
+        "10",
+        "12",
+        "8",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "Only red: 4, both: 2, only quadrilateral: 2. 4 + 2 + 2 = 8. Adding 6 + 4 = 10 would count the two overlap shapes twice.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Reading a Venn Diagram: Shapes",
+      "question": "Asha adds 6 red polygons + 4 quadrilaterals and says there are 10 shapes in the circles. What mistake did she make?",
+      "options": [
+        "Forgot the shapes outside the circles",
+        "Counted only the first circle's shapes",
+        "Missed the green trapezium entirely",
+        "Counted the two overlap shapes twice"
+      ],
+      "answer": 3,
+      "explanation": "The red rectangle and red diamond are in BOTH totals. 6 + 4 counts them twice; the correct count is 6 + 4 − 2 = 8.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reading a Venn Diagram: Shapes",
+      "question": "Where does the YELLOW PARALLELOGRAM go in the shapes Venn diagram?",
+      "options": [
+        "Quadrilaterals circle, outside overlap",
+        "Red polygons circle, outside overlap",
+        "In the overlapping middle section",
+        "Outside both circles entirely"
+      ],
+      "answer": 0,
+      "explanation": "It has four sides, so it is a quadrilateral, but it is yellow, not red — so it goes in the quadrilaterals circle but not in the overlap.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Reading a Venn Diagram: Shapes",
+      "question": "Which of these shapes would be placed OUTSIDE both circles of the shapes Venn diagram?",
+      "options": [
+        "A green square",
+        "A red rhombus",
+        "A blue triangle",
+        "A red pentagon"
+      ],
+      "answer": 2,
+      "explanation": "A blue triangle is neither red nor a quadrilateral, so it fits neither rule. A red pentagon is red; a green square is a quadrilateral; a red rhombus fits both.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q30",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Reading a Venn Diagram: Shapes",
+      "question": "In the shapes Venn diagram, the red rectangle belongs to both circles.",
+      "answer": true,
+      "explanation": "True. It is red (first rule) and has four sides (second rule), so it sits in the overlap.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q31",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Reading a Venn Diagram: Shapes",
+      "question": "In the shapes Venn diagram, the green trapezium sits in the overlapping part.",
+      "answer": false,
+      "explanation": "False. The trapezium is a quadrilateral but it is green, not red, so it is in the quadrilaterals circle only.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Venn Diagrams with Multiples",
+      "question": "A Venn diagram shows the table of 5 and the table of 10 (each up to 10 times). Which numbers are in the overlap?",
+      "options": [
+        "5, 15, 25, 35, 45",
+        "60, 70, 80, 90, 100",
+        "5, 10, 15, 20, 25",
+        "10, 20, 30, 40, 50"
+      ],
+      "answer": 3,
+      "explanation": "Table of 5 goes 5–50; table of 10 goes 10–100. Numbers in both lists are 10, 20, 30, 40 and 50.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Venn Diagrams with Multiples",
+      "question": "Which numbers are in the 'table of 5' circle but NOT in the overlap?",
+      "options": [
+        "5, 10, 15, 20, 25",
+        "5, 15, 25, 35, 45",
+        "10, 20, 30, 40, 50",
+        "60, 70, 80, 90, 100"
+      ],
+      "answer": 1,
+      "explanation": "The table of 5 is 5,10,15,…,50. Remove the ones also in the table of 10 (10,20,30,40,50) and 5, 15, 25, 35, 45 remain.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Venn Diagrams with Multiples",
+      "question": "What do the numbers in the overlap of the 'table of 5' and 'table of 10' diagram indicate?",
+      "options": [
+        "Numbers in the 5 table but not 10",
+        "Numbers in the 10 table but not 5",
+        "Numbers in neither the 5 nor 10 table",
+        "Numbers in both the 5 and 10 tables"
+      ],
+      "answer": 3,
+      "explanation": "The overlap always means 'belongs to both groups' — these numbers are multiples of 5 AND multiples of 10.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Venn Diagrams with Multiples",
+      "question": "Why is 15 NOT in the overlap of the 'table of 5' and 'table of 10' diagram?",
+      "options": [
+        "It is a multiple of 5 but not of 10",
+        "It is a multiple of 10 but not of 5",
+        "It is an odd number, so it is excluded",
+        "It is bigger than ten times five"
+      ],
+      "answer": 0,
+      "explanation": "15 = 5 × 3 so it is in the table of 5, but 15 ÷ 10 is not a whole number, so it is not in the table of 10. It stays in the 5-circle only.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q36",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Venn Diagrams with Multiples",
+      "question": "Every number in the table of 10 (up to 100) is also a multiple of 5.",
+      "answer": true,
+      "explanation": "True. 10 = 5 × 2, so every multiple of 10 is a multiple of 5 — which is why the 10-numbers up to 50 all sit in the overlap.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q37",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Venn Diagrams with Multiples",
+      "question": "Every number in the table of 5 (up to 50) is also in the table of 10.",
+      "answer": false,
+      "explanation": "False. 5, 15, 25, 35 and 45 are multiples of 5 that are not multiples of 10, so they stay outside the overlap.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Venn Diagrams with Multiples",
+      "question": "Checkpoint: the numbers 12, 16, 18, 20, 28, 40, 42, 46, 36, 32, 24, 50 are sorted into 'Multiples of 4' and 'Multiples of 6'. Which numbers go in the overlap?",
+      "options": [
+        "18, 36, 42",
+        "12, 24, 36",
+        "12, 18, 24",
+        "16, 24, 32"
+      ],
+      "answer": 1,
+      "explanation": "A number in the overlap must divide by both 4 and 6: 12 (4×3, 6×2), 24 (4×6, 6×4) and 36 (4×9, 6×6). 18 and 42 do not divide by 4; 16 and 32 do not divide by 6.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Venn Diagrams with Multiples",
+      "question": "Checkpoint: the numbers 12, 16, 18, 20, 28, 40, 42, 46, 36, 32, 24, 50 are sorted into 'Multiples of 4' and 'Multiples of 6'. Which numbers are multiples of 4 but NOT of 6?",
+      "options": [
+        "16, 18, 20, 28, 42",
+        "20, 28, 32, 46, 50",
+        "16, 20, 28, 32, 40",
+        "12, 24, 36, 40, 48"
+      ],
+      "answer": 2,
+      "explanation": "Multiples of 4 in the list: 12,16,20,24,28,32,36,40. Remove 12, 24, 36 (also multiples of 6) and 16, 20, 28, 32, 40 remain.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Venn Diagrams with Multiples",
+      "question": "Checkpoint: the numbers 12, 16, 18, 20, 28, 40, 42, 46, 36, 32, 24, 50 are sorted into 'Multiples of 4' and 'Multiples of 6'. Which numbers are multiples of 6 but NOT of 4?",
+      "options": [
+        "18 and 36",
+        "24 and 42",
+        "12 and 18",
+        "18 and 42"
+      ],
+      "answer": 3,
+      "explanation": "Multiples of 6 in the list: 12, 18, 24, 36, 42. Of these, 12, 24 and 36 also divide by 4, leaving 18 (18 ÷ 4 = 4 r 2) and 42 (42 ÷ 4 = 10 r 2).",
+      "source": "book:page5"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Venn Diagrams with Multiples",
+      "question": "Checkpoint: the numbers 12, 16, 18, 20, 28, 40, 42, 46, 36, 32, 24, 50 are sorted into 'Multiples of 4' and 'Multiples of 6'. Which numbers lie OUTSIDE both circles?",
+      "options": [
+        "46 and 50",
+        "42 and 46",
+        "40 and 50",
+        "18 and 46"
+      ],
+      "answer": 0,
+      "explanation": "46 ÷ 4 = 11 r 2 and 46 ÷ 6 = 7 r 4; 50 ÷ 4 = 12 r 2 and 50 ÷ 6 = 8 r 2. Neither is a multiple of 4 or 6, so both sit outside the circles.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Venn Diagrams with Multiples",
+      "question": "Checkpoint: the numbers 12, 16, 18, 20, 28, 40, 42, 46, 36, 32, 24, 50 are sorted into 'Multiples of 4' and 'Multiples of 6'. How many of the twelve numbers lie in the overlap?",
+      "options": [
+        "5",
+        "3",
+        "2",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "Only 12, 24 and 36 are multiples of both 4 and 6 (that is, multiples of 12). Check: 5 only-4 + 3 both + 2 only-6 + 2 outside = 12 numbers.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Venn Diagrams with Multiples",
+      "question": "Checkpoint: the numbers 12, 16, 18, 20, 28, 40, 42, 46, 36, 32, 24, 50 are sorted into 'Multiples of 4' and 'Multiples of 6'. Where does the number 20 go?",
+      "options": [
+        "Overlap of both circles",
+        "Outside both circles",
+        "Multiples of 4 circle only",
+        "Multiples of 6 circle only"
+      ],
+      "answer": 2,
+      "explanation": "20 = 4 × 5, so it is a multiple of 4; but 20 ÷ 6 = 3 r 2, so it is not a multiple of 6. It goes in the 4-circle only.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q44",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Venn Diagrams with Multiples",
+      "question": "In the Checkpoint Venn diagram, 18 lies in the overlap because it is a multiple of both 4 and 6.",
+      "answer": false,
+      "explanation": "False. 18 = 6 × 3 is a multiple of 6, but 18 ÷ 4 = 4 r 2, so it is NOT a multiple of 4. It belongs in the 6-circle only.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Carroll Diagrams and Lewis Carroll",
+      "question": "A Carroll diagram is shown as a table with how many sections?",
+      "options": [
+        "6",
+        "4",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "The book says a Carroll diagram 'is shown as a table with four sections' — two rules, each either true or not true.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Carroll Diagrams and Lewis Carroll",
+      "question": "A Carroll diagram helps us sort things using …",
+      "options": [
+        "colour of items only",
+        "size of the items",
+        "yes-or-no rules",
+        "overlapping circles"
+      ],
+      "answer": 2,
+      "explanation": "The book says a Carroll diagram sorts things 'using rules or yes-or-no conditions'. Overlapping circles belong to a Venn diagram.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Carroll Diagrams and Lewis Carroll",
+      "question": "In the shapes Carroll diagram, the two rules used at the same time were …",
+      "options": [
+        "Colour and size of shape",
+        "Number of sides and area",
+        "Shape name and its position",
+        "Colour and number of sides"
+      ],
+      "answer": 3,
+      "explanation": "The book says the diagram 'sorts items using two rules at the same time, in this case colour and number of sides of the polygon'.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Carroll Diagrams and Lewis Carroll",
+      "question": "Why was the shape with curved edges NOT included in the shapes Carroll diagram?",
+      "options": [
+        "It is not a polygon",
+        "It is not red enough",
+        "It has too many sides",
+        "It was too small to see"
+      ],
+      "answer": 0,
+      "explanation": "Polygons have straight sides. 'The shape with curved edges is not a polygon and hence not included in the Carroll diagram.'",
+      "source": "book:page7"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Carroll Diagrams and Lewis Carroll",
+      "question": "In the shapes Carroll diagram, a RED quadrilateral goes in the section for …",
+      "options": [
+        "Not red and not quadrilateral",
+        "Red and quadrilateral",
+        "Red and not quadrilateral",
+        "Not red and quadrilateral"
+      ],
+      "answer": 1,
+      "explanation": "Each shape is checked against both rules: is it red? (yes) and is it a quadrilateral? (yes) — so it goes in the 'red / quadrilateral' section.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Carroll Diagrams and Lewis Carroll",
+      "question": "Where would a GREEN TRIANGLE go in the shapes Carroll diagram (Red / Not red × Quadrilateral / Not quadrilateral)?",
+      "options": [
+        "Red and not quadrilateral",
+        "Not red and quadrilateral",
+        "Not red and not quadrilateral",
+        "Red and quadrilateral"
+      ],
+      "answer": 2,
+      "explanation": "A green triangle is not red (first rule: no) and has 3 sides, so it is not a quadrilateral (second rule: no). It goes in the 'not red / not quadrilateral' section.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Carroll Diagrams and Lewis Carroll",
+      "question": "What are the ROW labels of the shapes Carroll diagram in the book?",
+      "options": [
+        "Round and Flat",
+        "Red and Not red",
+        "Red and Yellow",
+        "Big and Small"
+      ],
+      "answer": 1,
+      "explanation": "A Carroll rule is always yes-or-no: Red / Not Red. The columns are 'polygons that are quadrilaterals' / 'polygons that are not quadrilaterals'.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q52",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Carroll Diagrams and Lewis Carroll",
+      "question": "In a Carroll diagram, each item is placed in exactly one section.",
+      "answer": true,
+      "explanation": "True. The book says each item is placed in one fixed section and 'an item cannot be placed in more than one section'.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q53",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Carroll Diagrams and Lewis Carroll",
+      "question": "The four sections of a Carroll diagram overlap, just like the circles of a Venn diagram.",
+      "answer": false,
+      "explanation": "False. A Carroll diagram is a table of four separate boxes; nothing overlaps. Overlapping is the feature of a Venn diagram.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q54",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Carroll Diagrams and Lewis Carroll",
+      "question": "Select the TWO statements that are true about a Carroll diagram.",
+      "options": [
+        "It is drawn as a table",
+        "It uses two rules at the same time",
+        "Its circles overlap in the middle",
+        "Items can sit in several sections"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "A Carroll diagram is a table that sorts by two rules at the same time. It has no circles, and each item sits in exactly one section.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Carroll Diagrams and Lewis Carroll",
+      "question": "The Carroll diagram is named after Lewis Carroll, who is famous for writing …",
+      "options": [
+        "Treasure Island",
+        "Gulliver's Travels",
+        "Alice in Wonderland",
+        "The Jungle Book"
+      ],
+      "answer": 2,
+      "explanation": "The book says Lewis Carroll, 'famous for writing Alice in Wonderland', was also a brilliant mathematician and logician.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Carroll Diagrams and Lewis Carroll",
+      "question": "'Lewis Carroll' was a pen name. What was his real name?",
+      "options": [
+        "Charles Lutwidge Dickens",
+        "Carolus Ludovicus Dodgson",
+        "Lewis Charles Dodgson",
+        "Charles Lutwidge Dodgson"
+      ],
+      "answer": 3,
+      "explanation": "His real name was Charles Lutwidge Dodgson. 'Carolus Ludovicus' was only the Latin form of his first names used to make the pen name.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q57",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Carroll Diagrams and Lewis Carroll",
+      "question": "Lewis Carroll was the real name of the man who wrote Alice in Wonderland.",
+      "answer": false,
+      "explanation": "False. Lewis Carroll was a pen name; the author's real name was Charles Lutwidge Dodgson.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Carroll Diagrams with Numbers",
+      "question": "Numbers 1 to 20 are sorted in a Carroll diagram: Prime / Composite and Less than 10 / More than 10. Which numbers go in 'Prime and less than 10'?",
+      "options": [
+        "2, 3, 5, 9",
+        "3, 5, 7, 9",
+        "2, 3, 5, 7",
+        "1, 3, 5, 7"
+      ],
+      "answer": 2,
+      "explanation": "The primes below 10 are 2, 3, 5 and 7. 1 is not prime, and 9 = 3 × 3 is composite.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Carroll Diagrams with Numbers",
+      "question": "Numbers 1 to 20 are sorted in a Carroll diagram: Prime / Composite and Less than 10 / More than 10. Which numbers go in 'Composite and less than 10'?",
+      "options": [
+        "4, 6, 8, 9",
+        "2, 4, 6, 8",
+        "1, 4, 6, 8",
+        "4, 6, 9, 10"
+      ],
+      "answer": 0,
+      "explanation": "Composite numbers below 10 are 4, 6, 8 and 9. 2 is prime, 1 is neither prime nor composite, and 10 is not less than 10.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Carroll Diagrams with Numbers",
+      "question": "Numbers 1 to 20 are sorted in a Carroll diagram: Prime / Composite and Less than 10 / More than 10. Which number from 1 to 20 cannot be placed because it is neither prime nor composite?",
+      "options": [
+        "9",
+        "15",
+        "1",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "1 has only one factor, so it is neither prime nor composite. 2 is prime; 9 and 15 are composite.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Carroll Diagrams with Numbers",
+      "question": "Numbers 1 to 20 are sorted in a Carroll diagram: Prime / Composite and Less than 10 / More than 10. Which number cannot be placed because it is neither 'less than 10' nor 'more than 10'?",
+      "options": [
+        "9",
+        "11",
+        "20",
+        "10"
+      ],
+      "answer": 3,
+      "explanation": "10 is exactly 10 — not less than 10 and not more than 10 — so it fits neither column. 9 is less than 10; 11 and 20 are more than 10.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q62",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Carroll Diagrams with Numbers",
+      "question": "In the 1–20 Carroll diagram, the number 2 goes in the 'Prime and less than 10' section.",
+      "answer": true,
+      "explanation": "True. 2 is the smallest prime number and it is less than 10.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q63",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Carroll Diagrams with Numbers",
+      "question": "In the 1–20 Carroll diagram, 9 goes in the 'Prime and less than 10' section.",
+      "answer": false,
+      "explanation": "False. 9 = 3 × 3, so it is composite. It belongs in 'Composite and less than 10'.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Carroll Diagrams with Numbers",
+      "question": "Numbers 1 to 30 are sorted in a Carroll diagram: Multiple of 5 / Not a multiple of 5 and Multiple of 6 / Not a multiple of 6. Which number is a multiple of BOTH 5 and 6?",
+      "options": [
+        "30",
+        "15",
+        "20",
+        "24"
+      ],
+      "answer": 0,
+      "explanation": "30 = 5 × 6 is the only number up to 30 that divides by both 5 and 6. 15 and 20 are not multiples of 6; 24 is not a multiple of 5.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Carroll Diagrams with Numbers",
+      "question": "Numbers 1 to 30 are sorted in a Carroll diagram: Multiple of 5 / Not a multiple of 5 and Multiple of 6 / Not a multiple of 6. Which numbers are multiples of 6 but NOT multiples of 5?",
+      "options": [
+        "6, 12, 24, 30",
+        "6, 12, 18, 24",
+        "6, 12, 18, 30",
+        "5, 10, 15, 20"
+      ],
+      "answer": 1,
+      "explanation": "Multiples of 6 up to 30: 6, 12, 18, 24, 30. Only 30 is also a multiple of 5, so 6, 12, 18 and 24 go in this section.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Carroll Diagrams with Numbers",
+      "question": "Numbers 1 to 30 are sorted in a Carroll diagram: Multiple of 5 / Not a multiple of 5 and Multiple of 6 / Not a multiple of 6. How many numbers from 1 to 30 are in the 'Not a multiple of 5 and Not a multiple of 6' section?",
+      "options": [
+        "18",
+        "19",
+        "21",
+        "20"
+      ],
+      "answer": 3,
+      "explanation": "Multiples of 5: 6 numbers; multiples of 6: 5 numbers; 30 is in both, so 6 + 5 − 1 = 10 numbers are multiples of at least one. 30 − 10 = 20 are multiples of neither.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Carroll Diagrams with Numbers",
+      "question": "Numbers 1 to 30 are sorted in a Carroll diagram: Multiple of 5 / Not a multiple of 5 and Multiple of 6 / Not a multiple of 6. How many multiples of 5 are there from 1 to 30?",
+      "options": [
+        "6",
+        "5",
+        "7",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "5, 10, 15, 20, 25, 30 — six multiples of 5.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Carroll Diagrams with Numbers",
+      "question": "Numbers 1 to 28 are sorted in a Carroll diagram: Multiple of 5 / Multiple of 7 and Odd / Even. Which numbers go in 'Multiple of 5 and Odd'?",
+      "options": [
+        "15, 25, 35",
+        "5, 15, 25",
+        "5, 10, 15",
+        "5, 15, 20"
+      ],
+      "answer": 1,
+      "explanation": "Multiples of 5 up to 28 are 5, 10, 15, 20, 25. The odd ones are 5, 15 and 25. (35 is beyond 28.)",
+      "source": "book:page11"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Carroll Diagrams with Numbers",
+      "question": "Numbers 1 to 28 are sorted in a Carroll diagram: Multiple of 5 / Multiple of 7 and Odd / Even. Which numbers go in 'Multiple of 7 and Even'?",
+      "options": [
+        "14 and 21",
+        "7 and 28",
+        "14 and 28",
+        "7 and 21"
+      ],
+      "answer": 2,
+      "explanation": "Multiples of 7 up to 28 are 7, 14, 21, 28. The even ones are 14 and 28.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Carroll Diagrams with Numbers",
+      "question": "Numbers 1 to 28 are sorted in a Carroll diagram: Multiple of 5 / Multiple of 7 and Odd / Even. Why does no number up to 28 fit BOTH 'multiple of 5' and 'multiple of 7'?",
+      "options": [
+        "The number 28 is a multiple of 5",
+        "The first common multiple, 35, is above 28",
+        "Multiples of 5 are always odd numbers",
+        "Multiples of 7 are never even numbers"
+      ],
+      "answer": 1,
+      "explanation": "The smallest number that is a multiple of both 5 and 7 is 5 × 7 = 35, which is bigger than 28 — so no number in the range fits both.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reading a Carroll Table: Cricket and Football",
+      "question": "A Carroll diagram shows children playing sports — Cricket: 18 girls, 30 boys; Football: 25 girls, 20 boys. How many girls play football?",
+      "options": [
+        "20",
+        "30",
+        "25",
+        "18"
+      ],
+      "answer": 2,
+      "explanation": "Read the 'Play football' row under 'Number of girls': 25.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reading a Carroll Table: Cricket and Football",
+      "question": "A Carroll diagram shows children playing sports — Cricket: 18 girls, 30 boys; Football: 25 girls, 20 boys. How many boys play cricket?",
+      "options": [
+        "18",
+        "20",
+        "25",
+        "30"
+      ],
+      "answer": 3,
+      "explanation": "Read the 'Play cricket' row under 'Number of boys': 30.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reading a Carroll Table: Cricket and Football",
+      "question": "A Carroll diagram shows children playing sports — Cricket: 18 girls, 30 boys; Football: 25 girls, 20 boys. Which sport is more popular among girls?",
+      "options": [
+        "Football",
+        "Cricket",
+        "Both equally",
+        "Neither one"
+      ],
+      "answer": 0,
+      "explanation": "Compare the girls' column: 25 play football and 18 play cricket. 25 > 18, so football is more popular among girls.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reading a Carroll Table: Cricket and Football",
+      "question": "A Carroll diagram shows children playing sports — Cricket: 18 girls, 30 boys; Football: 25 girls, 20 boys. How many more boys play cricket than football?",
+      "options": [
+        "12",
+        "10",
+        "5",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "Boys: 30 play cricket, 20 play football. 30 − 20 = 10.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reading a Carroll Table: Cricket and Football",
+      "question": "A Carroll diagram shows children playing sports — Cricket: 18 girls, 30 boys; Football: 25 girls, 20 boys. How many more girls play football than cricket?",
+      "options": [
+        "10",
+        "12",
+        "7",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "Girls: 25 play football, 18 play cricket. 25 − 18 = 7.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reading a Carroll Table: Cricket and Football",
+      "question": "A Carroll diagram shows children playing sports — Cricket: 18 girls, 30 boys; Football: 25 girls, 20 boys. How many children play cricket in total?",
+      "options": [
+        "43",
+        "45",
+        "50",
+        "48"
+      ],
+      "answer": 3,
+      "explanation": "Add the cricket row: 18 girls + 30 boys = 48.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reading a Carroll Table: Cricket and Football",
+      "question": "A Carroll diagram shows children playing sports — Cricket: 18 girls, 30 boys; Football: 25 girls, 20 boys. How many girls are shown in the whole diagram?",
+      "options": [
+        "50",
+        "43",
+        "45",
+        "48"
+      ],
+      "answer": 1,
+      "explanation": "Add the girls' column: 18 (cricket) + 25 (football) = 43.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Reading a Carroll Table: Cricket and Football",
+      "question": "A Carroll diagram shows children playing sports — Cricket: 18 girls, 30 boys; Football: 25 girls, 20 boys. How many children are shown in the whole diagram?",
+      "options": [
+        "88",
+        "91",
+        "95",
+        "93"
+      ],
+      "answer": 3,
+      "explanation": "Add all four sections: 18 + 30 + 25 + 20 = 93. (Or 48 cricket + 45 football = 93.)",
+      "source": "book:page9"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Reading a Carroll Table: Cricket and Football",
+      "question": "A Carroll diagram shows children playing sports — Cricket: 18 girls, 30 boys; Football: 25 girls, 20 boys. Which sport is more popular among boys?",
+      "options": [
+        "Cricket",
+        "Football",
+        "Both equally",
+        "Neither one"
+      ],
+      "answer": 0,
+      "explanation": "Boys' column: 30 cricket vs 20 football, so cricket is more popular among boys — the opposite of the girls' result.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q80",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Reading a Carroll Table: Cricket and Football",
+      "question": "In the sports Carroll diagram, more children play cricket (48) than football (45).",
+      "answer": true,
+      "explanation": "True. Cricket: 18 + 30 = 48; football: 25 + 20 = 45; 48 > 45.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q81",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Reading a Carroll Table: Cricket and Football",
+      "question": "In the sports Carroll diagram, the number of girls who play cricket equals the number of boys who play football.",
+      "answer": false,
+      "explanation": "False. 18 girls play cricket but 20 boys play football — close, but not equal.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Survey Venn Diagram: Maira's Pets",
+      "question": "Maira surveyed 40 families: 17 owned dogs, 14 owned cats and 7 owned both. How many families owned ONLY cats?",
+      "options": [
+        "14",
+        "17",
+        "7",
+        "10"
+      ],
+      "answer": 2,
+      "explanation": "Cat owners = 14, of whom 7 also own dogs. Only cats = 14 − 7 = 7.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Survey Venn Diagram: Maira's Pets",
+      "question": "Maira surveyed 40 families: 17 owned dogs, 14 owned cats and 7 owned both. How many families owned ONLY dogs?",
+      "options": [
+        "7",
+        "14",
+        "17",
+        "10"
+      ],
+      "answer": 3,
+      "explanation": "Dog owners = 17, of whom 7 also own cats. Only dogs = 17 − 7 = 10.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Survey Venn Diagram: Maira's Pets",
+      "question": "Maira surveyed 40 families: 17 owned dogs, 14 owned cats and 7 owned both. What number is written in the overlapping part of the Venn diagram?",
+      "options": [
+        "7",
+        "10",
+        "14",
+        "17"
+      ],
+      "answer": 0,
+      "explanation": "The overlap holds the families that own BOTH a cat and a dog — 7, given directly in the problem.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Survey Venn Diagram: Maira's Pets",
+      "question": "Maira surveyed 40 families: 17 owned dogs, 14 owned cats and 7 owned both. How many families had pets?",
+      "options": [
+        "33",
+        "24",
+        "21",
+        "31"
+      ],
+      "answer": 1,
+      "explanation": "Only dogs 10 + only cats 7 + both 7 = 24. (Adding 17 + 14 = 31 would count the 7 'both' families twice.)",
+      "source": "book:page11"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Survey Venn Diagram: Maira's Pets",
+      "question": "Maira surveyed 40 families: 17 owned dogs, 14 owned cats and 7 owned both. How many families did NOT have pets?",
+      "options": [
+        "19",
+        "23",
+        "16",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "40 families in total − 24 with pets = 16 without pets. This number is written outside both circles.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Survey Venn Diagram: Maira's Pets",
+      "question": "Maira surveyed 40 families: 17 owned dogs, 14 owned cats and 7 owned both. What number goes OUTSIDE both circles?",
+      "options": [
+        "16",
+        "7",
+        "24",
+        "40"
+      ],
+      "answer": 0,
+      "explanation": "Outside both circles are families with neither pet: 40 − 24 = 16.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Survey Venn Diagram: Maira's Pets",
+      "question": "Maira surveyed 40 families: 17 owned dogs, 14 owned cats and 7 owned both. Rohan says 17 + 14 = 31 families had pets. What is his mistake?",
+      "options": [
+        "He added the cat owners twice over",
+        "He counted the 7 'both' families twice",
+        "He forgot the families with no pets",
+        "He should have subtracted 40 first"
+      ],
+      "answer": 1,
+      "explanation": "The 7 families with both pets are inside the 17 AND inside the 14. 17 + 14 − 7 = 24 is the correct number with pets.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Survey Venn Diagram: Maira's Pets",
+      "question": "Maira surveyed 40 families: 17 owned dogs, 14 owned cats and 7 owned both. If you add all four regions — only cats, only dogs, both and neither — what total should you get?",
+      "options": [
+        "31",
+        "38",
+        "40",
+        "24"
+      ],
+      "answer": 2,
+      "explanation": "7 + 10 + 7 + 16 = 40, the total number of families surveyed. This is a good check that the diagram is filled correctly.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q90",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Survey Venn Diagram: Maira's Pets",
+      "question": "In Maira's Venn diagram, 7 is written in the overlapping part.",
+      "answer": true,
+      "explanation": "True. 7 families own both cats and dogs, and 'both' is always the overlap.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q91",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Survey Venn Diagram: Maira's Pets",
+      "question": "In Maira's survey, 17 families owned only dogs.",
+      "answer": false,
+      "explanation": "False. 17 is the TOTAL number of dog owners; 7 of them also own cats, so only 10 own dogs alone.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Three-Circle Venn Diagram: Fruit Survey",
+      "question": "Fruit survey (each student chose at least one): 18 like apples, 15 like bananas, 10 like grapes; 5 like apples and bananas, 4 like bananas and grapes, 3 like apples and grapes; 2 like all three. What number goes in the centre where all three circles overlap?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "answer": 3,
+      "explanation": "The centre is for students who like ALL THREE fruits — 2, given directly.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Three-Circle Venn Diagram: Fruit Survey",
+      "question": "Fruit survey (each student chose at least one): 18 like apples, 15 like bananas, 10 like grapes; 5 like apples and bananas, 4 like bananas and grapes, 3 like apples and grapes; 2 like all three. How many students like apples and bananas but NOT grapes?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "5 like apples and bananas, but 2 of them also like grapes. 5 − 2 = 3 go in the apples–bananas-only region.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Three-Circle Venn Diagram: Fruit Survey",
+      "question": "Fruit survey (each student chose at least one): 18 like apples, 15 like bananas, 10 like grapes; 5 like apples and bananas, 4 like bananas and grapes, 3 like apples and grapes; 2 like all three. How many students like bananas and grapes but NOT apples?",
+      "options": [
+        "4",
+        "2",
+        "1",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "4 like bananas and grapes; subtract the 2 who like all three: 4 − 2 = 2.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Three-Circle Venn Diagram: Fruit Survey",
+      "question": "Fruit survey (each student chose at least one): 18 like apples, 15 like bananas, 10 like grapes; 5 like apples and bananas, 4 like bananas and grapes, 3 like apples and grapes; 2 like all three. How many students like apples and grapes but NOT bananas?",
+      "options": [
+        "3",
+        "5",
+        "1",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "3 like apples and grapes; subtract the 2 who like all three: 3 − 2 = 1.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Three-Circle Venn Diagram: Fruit Survey",
+      "question": "Fruit survey (each student chose at least one): 18 like apples, 15 like bananas, 10 like grapes; 5 like apples and bananas, 4 like bananas and grapes, 3 like apples and grapes; 2 like all three. How many students like ONLY apples?",
+      "options": [
+        "10",
+        "13",
+        "15",
+        "12"
+      ],
+      "answer": 3,
+      "explanation": "Apples total 18. Remove apples–bananas-only 3, apples–grapes-only 1 and all-three 2: 18 − 3 − 1 − 2 = 12.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Three-Circle Venn Diagram: Fruit Survey",
+      "question": "Fruit survey (each student chose at least one): 18 like apples, 15 like bananas, 10 like grapes; 5 like apples and bananas, 4 like bananas and grapes, 3 like apples and grapes; 2 like all three. How many students like ONLY bananas?",
+      "options": [
+        "8",
+        "6",
+        "10",
+        "11"
+      ],
+      "answer": 0,
+      "explanation": "Bananas total 15. Remove apples–bananas-only 3, bananas–grapes-only 2 and all-three 2: 15 − 3 − 2 − 2 = 8.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Three-Circle Venn Diagram: Fruit Survey",
+      "question": "Fruit survey (each student chose at least one): 18 like apples, 15 like bananas, 10 like grapes; 5 like apples and bananas, 4 like bananas and grapes, 3 like apples and grapes; 2 like all three. How many students like ONLY grapes?",
+      "options": [
+        "7",
+        "5",
+        "3",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "Grapes total 10. Remove bananas–grapes-only 2, apples–grapes-only 1 and all-three 2: 10 − 2 − 1 − 2 = 5.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Three-Circle Venn Diagram: Fruit Survey",
+      "question": "Fruit survey (each student chose at least one): 18 like apples, 15 like bananas, 10 like grapes; 5 like apples and bananas, 4 like bananas and grapes, 3 like apples and grapes; 2 like all three. How many students are in the class altogether?",
+      "options": [
+        "36",
+        "43",
+        "33",
+        "30"
+      ],
+      "answer": 2,
+      "explanation": "Add the seven regions: 12 + 8 + 5 + 3 + 2 + 1 + 2 = 33. (18 + 15 + 10 = 43 double- and triple-counts the overlaps.)",
+      "source": "book:page13"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Three-Circle Venn Diagram: Fruit Survey",
+      "question": "Fruit survey (each student chose at least one): 18 like apples, 15 like bananas, 10 like grapes; 5 like apples and bananas, 4 like bananas and grapes, 3 like apples and grapes; 2 like all three. How many students like exactly ONE fruit?",
+      "options": [
+        "23",
+        "27",
+        "30",
+        "25"
+      ],
+      "answer": 3,
+      "explanation": "Only apples 12 + only bananas 8 + only grapes 5 = 25.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Three-Circle Venn Diagram: Fruit Survey",
+      "question": "Fruit survey (each student chose at least one): 18 like apples, 15 like bananas, 10 like grapes; 5 like apples and bananas, 4 like bananas and grapes, 3 like apples and grapes; 2 like all three. How many students like at least TWO fruits?",
+      "options": [
+        "8",
+        "6",
+        "10",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "Pair-only regions 3 + 2 + 1 = 6, plus the 2 who like all three: 6 + 2 = 8.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Three-Circle Venn Diagram: Fruit Survey",
+      "question": "Fruit survey (each student chose at least one): 18 like apples, 15 like bananas, 10 like grapes; 5 like apples and bananas, 4 like bananas and grapes, 3 like apples and grapes; 2 like all three. Why should you fill in the 'all three' number FIRST when completing a 3-circle Venn diagram?",
+      "options": [
+        "It tells the total number of students",
+        "It is the only number that is given",
+        "It must be subtracted from each pair overlap",
+        "It is the biggest number in the diagram"
+      ],
+      "answer": 2,
+      "explanation": "The 2 who like all three are included in every 'two fruits' count, so each pair region = given pair − 2. Without the centre you cannot find the other regions.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q103",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Three-Circle Venn Diagram: Fruit Survey",
+      "question": "In the fruit survey, 18 students like only apples.",
+      "answer": false,
+      "explanation": "False. 18 is the total who like apples; after removing the overlaps (3 + 1 + 2), only 12 like apples alone.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Venn vs Carroll: Same Data, Two Ways",
+      "question": "Which diagram shows how groups OVERLAP?",
+      "options": [
+        "Carroll diagram",
+        "Bar graph",
+        "Tally chart",
+        "Venn diagram"
+      ],
+      "answer": 3,
+      "explanation": "A Venn diagram compares groups and shows how they overlap; a Carroll diagram places each item in one fixed section.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Venn vs Carroll: Same Data, Two Ways",
+      "question": "According to the book, a Carroll diagram focuses on …",
+      "options": [
+        "drawing circles that touch",
+        "sorting with clear criteria",
+        "showing shared membership",
+        "comparing overlapping groups"
+      ],
+      "answer": 1,
+      "explanation": "'A Venn diagram focuses on shared membership between groups, while a Carroll diagram focuses on sorting using clear criteria.'",
+      "source": "book:page8"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Venn vs Carroll: Same Data, Two Ways",
+      "question": "Meera wants to sort her classmates using two yes-or-no rules so that each child lands in exactly ONE box. Which diagram should she draw?",
+      "options": [
+        "Venn diagram",
+        "Bar graph",
+        "Tally chart",
+        "Carroll diagram"
+      ],
+      "answer": 3,
+      "explanation": "Two yes-or-no rules + one fixed box per item = a Carroll diagram (a table with four sections).",
+      "source": "book:page8"
+    },
+    {
+      "id": "q107",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Venn vs Carroll: Same Data, Two Ways",
+      "question": "An item cannot be placed in more than one section of a Carroll diagram.",
+      "answer": true,
+      "explanation": "True — the book states this directly. Each item meets or fails each rule, so it has exactly one home.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q108",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Venn vs Carroll: Same Data, Two Ways",
+      "question": "A Venn diagram sorts items using two yes-or-no rules so that each item sits in one fixed box.",
+      "answer": false,
+      "explanation": "False. That describes a Carroll diagram. A Venn diagram uses overlapping circles and an item may belong to both groups.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q109",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Venn vs Carroll: Same Data, Two Ways",
+      "question": "Select the TWO features that belong to a VENN diagram rather than a Carroll diagram.",
+      "options": [
+        "Circles that overlap",
+        "Shows shared membership",
+        "Table with four sections",
+        "Each item in one fixed box"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Overlapping circles and shared membership are Venn features. A four-section table with one fixed box per item is a Carroll diagram.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Venn vs Carroll: Same Data, Two Ways",
+      "question": "The numbers 5, 7, 10, 15, 16, 21, 25, 30 are sorted by 'Multiple of 5' and 'Greater than 12'. In the Venn diagram, which numbers go in the overlap?",
+      "options": [
+        "15, 25, 30",
+        "15, 16, 21",
+        "10, 15, 25",
+        "16, 21, 30"
+      ],
+      "answer": 0,
+      "explanation": "Multiples of 5: 5, 10, 15, 25, 30. Greater than 12: 15, 16, 21, 25, 30. In both lists: 15, 25, 30.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Venn vs Carroll: Same Data, Two Ways",
+      "question": "The numbers 5, 7, 10, 15, 16, 21, 25, 30 are sorted by 'Multiple of 5' and 'Greater than 12'. In the Venn diagram, which number lies OUTSIDE both circles?",
+      "options": [
+        "16",
+        "7",
+        "5",
+        "10"
+      ],
+      "answer": 1,
+      "explanation": "7 is not a multiple of 5 and is not greater than 12, so it fits neither rule. 5 and 10 are multiples of 5; 16 is greater than 12.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Venn vs Carroll: Same Data, Two Ways",
+      "question": "The numbers 5, 7, 10, 15, 16, 21, 25, 30 are sorted by 'Multiple of 5' and 'Greater than 12'. Which numbers are greater than 12 but NOT multiples of 5?",
+      "options": [
+        "16 and 30",
+        "7 and 16",
+        "16 and 21",
+        "15 and 21"
+      ],
+      "answer": 2,
+      "explanation": "Greater than 12: 15, 16, 21, 25, 30. Remove the multiples of 5 (15, 25, 30) and 16, 21 remain.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Venn vs Carroll: Same Data, Two Ways",
+      "question": "The numbers 5, 7, 10, 15, 16, 21, 25, 30 are sorted by 'Multiple of 5' and 'Greater than 12'. In the Carroll diagram, which number is alone in the 'Not a multiple of 5 and Less than 12' section?",
+      "options": [
+        "7",
+        "5",
+        "10",
+        "16"
+      ],
+      "answer": 0,
+      "explanation": "Not a multiple of 5: 7, 16, 21. Less than 12: 5, 7, 10. Only 7 is in both lists — the same number that sits outside both Venn circles.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Venn vs Carroll: Same Data, Two Ways",
+      "question": "The numbers 5, 7, 10, 15, 16, 21, 25, 30 are sorted by 'Multiple of 5' and 'Greater than 12'. The overlap of the Venn diagram matches which section of the Carroll diagram?",
+      "options": [
+        "Not multiple of 5 and less than 12",
+        "Multiple of 5 and greater than 12",
+        "Multiple of 5 and less than 12",
+        "Not multiple of 5 and greater than 12"
+      ],
+      "answer": 1,
+      "explanation": "The Venn overlap holds numbers that satisfy BOTH rules — exactly the 'multiple of 5 AND greater than 12' box (15, 25, 30).",
+      "source": "book:page11"
+    },
+    {
+      "id": "q115",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Venn vs Carroll: Same Data, Two Ways",
+      "question": "The same set of numbers can be sorted with the same two rules in both a Venn diagram and a Carroll diagram.",
+      "answer": true,
+      "explanation": "True. Page 11 asks you to place 5, 7, 10, 15, 16, 21, 25, 30 in BOTH diagrams; the Venn overlap and the Carroll 'yes/yes' box hold the same numbers.",
+      "source": "book:page11"
+    }
+  ]
+}

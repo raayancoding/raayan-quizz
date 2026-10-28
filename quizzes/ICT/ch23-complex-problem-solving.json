@@ -1,0 +1,3521 @@
+{
+  "schemaVersion": 1,
+  "id": "ict-ch23-complex-problem-solving",
+  "title": "Complex Problem Solving",
+  "subject": "ICT",
+  "grade": 4,
+  "chapter": "23. Complex Problem Solving",
+  "topic": "Full Book",
+  "description": "Practice problem decomposition, pattern recognition, and abstraction (including functions) through the chapter's worksheets, book activities, and Milestone review.",
+  "tags": [
+    "ict",
+    "grade4",
+    "problem-decomposition",
+    "pattern-recognition",
+    "abstraction",
+    "functions",
+    "computational-thinking",
+    "coding-concepts",
+    "algorithms"
+  ],
+  "defaultTimeLimitSec": 1800,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Problem Decomposition Basics",
+      "question": "What does 'problem decomposition' mean?",
+      "explanation": "Problem decomposition means breaking a big, difficult problem into smaller, easier parts, so each part is simpler to understand and solve.",
+      "source": "facts:page2",
+      "options": [
+        "Breaking a big, difficult problem into smaller, easier parts",
+        "Making a small problem bigger and more complicated",
+        "Ignoring a problem until it goes away",
+        "Solving every problem the exact same way"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Problem Decomposition Basics",
+      "question": "Complete the worksheet blank: 'Problem ___ means breaking a big, difficult problem into smaller and easier parts.'",
+      "explanation": "The missing word is 'decomposition' — the whole chapter's first big idea is problem decomposition.",
+      "source": "worksheet-L1 Q1a",
+      "options": [
+        "decomposition",
+        "movements",
+        "pattern",
+        "function"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Problem Decomposition Basics",
+      "question": "In the book's bedroom-organizing example, what is the FIRST small task?",
+      "explanation": "The book lists the bedroom tasks in this order: first put away clothes, then organize books, then clean the desk, and finally vacuum the floor.",
+      "source": "book:page28",
+      "options": [
+        "Vacuum the floor",
+        "Put away clothes",
+        "Clean the desk",
+        "Organize books"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Problem Decomposition Basics",
+      "question": "In the book's bedroom-organizing example, what is the LAST small task?",
+      "explanation": "The book's order is: put away clothes, organize books, clean the desk, and finally vacuum the floor — vacuuming comes last.",
+      "source": "book:page28",
+      "options": [
+        "Organize books",
+        "Put away clothes",
+        "Vacuum the floor",
+        "Clean the desk"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Problem Decomposition Basics",
+      "question": "Select ALL the smaller tasks the book lists for organizing a bedroom.",
+      "explanation": "The book breaks 'organize your bedroom' into exactly four smaller tasks: put away clothes, organize books, clean the desk, and vacuum the floor. 'Watch TV' is not one of them.",
+      "source": "book:page28",
+      "options": [
+        "Put away clothes",
+        "Organize books",
+        "Clean the desk",
+        "Vacuum the floor",
+        "Watch TV"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Problem Decomposition Basics",
+      "question": "True or False: Problem decomposition makes big tasks more difficult to handle.",
+      "explanation": "False. This is corrected in the answer key: problem decomposition actually makes big tasks EASIER to manage, not more difficult.",
+      "source": "worksheet-L1 Q2a (answer key)",
+      "answer": false
+    },
+    {
+      "id": "q7",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Problem Decomposition Basics",
+      "question": "True or False: Each small task created by decomposition is usually harder than doing the whole big job at once.",
+      "explanation": "False — it's the opposite. The book says 'Each small task is much easier than trying to do everything at once.'",
+      "source": "book:page28",
+      "answer": false
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Problem Decomposition Basics",
+      "question": "Why does breaking a big problem into smaller parts make it easier, according to the chapter?",
+      "explanation": "Smaller problems are easier to understand and solve than one huge, overwhelming problem — this is the first of the four main reasons the book gives for decomposition.",
+      "source": "book:page28",
+      "options": [
+        "Because smaller problems are easier to understand and solve",
+        "Because it takes much longer to finish the task",
+        "Because you never have to test any part of the work",
+        "Because it hides all the details from you"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Problem Decomposition Basics",
+      "question": "In programming, when creating a game or animation, decomposition means breaking the work into parts such as setting up characters, creating interactions, adding sounds, and adding what else?",
+      "explanation": "The book explains that programmers break game/animation projects into parts like setting up characters, adding movements, creating interactions, and adding sounds.",
+      "source": "facts:page2",
+      "options": [
+        "Movements",
+        "Prices",
+        "Passwords",
+        "Advertisements"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Problem Decomposition Basics",
+      "question": "Fill in the blank from Worksheet L1: '...we break it into parts like setting up characters, adding ___, creating interactions, and adding sounds.'",
+      "explanation": "The correct word is 'movements' — one of the four parts of building a game or animation mentioned in the chapter.",
+      "source": "worksheet-L1 Q1b",
+      "options": [
+        "movements",
+        "decomposition",
+        "function",
+        "pattern"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q11",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Problem Decomposition Basics",
+      "question": "True or False: A real-life application of problem decomposition given in the chapter is cleaning a house room by room instead of all at once.",
+      "explanation": "True — this is exactly the real-life example the chapter gives for problem decomposition.",
+      "source": "facts:page2",
+      "answer": true
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Problem Decomposition Basics",
+      "question": "Which of these best matches the idea of 'testing each part separately' mentioned for game/animation decomposition?",
+      "explanation": "The book states that breaking a game into parts like characters, movements, interactions, and sounds 'makes the work manageable and helps us test each part separately' — so problems are found in one small piece at a time.",
+      "source": "book:page28",
+      "options": [
+        "Checking each small piece of the project on its own before combining them",
+        "Testing the whole finished game only once, at the very end",
+        "Never testing anything until a customer complains",
+        "Testing only the sounds and ignoring the rest"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Problem Decomposition Basics",
+      "question": "According to the chapter, once you solve one small part of a problem, what can you do with that solution?",
+      "explanation": "The chapter states that once a part is solved, the solution can be reused in other projects — this is one of the benefits of decomposition.",
+      "source": "facts:page2",
+      "options": [
+        "Reuse it in other projects",
+        "Delete it immediately",
+        "Hide it from your team",
+        "Never use it again"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Problem Decomposition Basics",
+      "question": "Which statement is a MISCONCEPTION about problem decomposition?",
+      "explanation": "'Decomposition makes a problem harder to understand' is false — decomposition does the opposite: it makes big problems easier to understand by splitting them into smaller, manageable parts.",
+      "source": "book:page28",
+      "options": [
+        "Decomposition makes a problem harder to understand",
+        "Decomposition breaks a big problem into smaller parts",
+        "Decomposition can make debugging easier",
+        "Decomposition lets solved parts be reused later"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Problem Decomposition Basics",
+      "question": "How does decomposition help when 'finding and fixing problems' in a program, according to the chapter?",
+      "explanation": "The chapter explains that finding and fixing problems is simpler when a program is divided into parts — for example, debugging by checking small sections rather than the whole program at once.",
+      "source": "facts:page2",
+      "options": [
+        "By letting you check small sections instead of the whole program at once",
+        "By making every section identical so bugs never occur",
+        "By hiding all bugs permanently",
+        "By removing the need to test the program"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Decomposition Matters",
+      "question": "Milestone review: What is the main benefit of breaking problems into smaller parts?",
+      "explanation": "The book's Milestone review confirms the main benefit: it makes smaller problems easier to understand and solve.",
+      "source": "book:page42",
+      "options": [
+        "It makes smaller problems easier to understand and solve",
+        "It makes the problem more complicated to understand",
+        "It requires more time to complete the entire task",
+        "It prevents you from working with other team members"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Why Decomposition Matters",
+      "question": "Select ALL of the four main reasons the book gives for why decomposition is important.",
+      "explanation": "The book lists four reasons: smaller problems are easier to solve, teams can work on different parts at the same time, it's easier to find and fix problems, and solved parts can be reused. 'It removes the need for teamwork' is not one of the reasons.",
+      "source": "book:page28",
+      "options": [
+        "Smaller problems are easier to understand and solve",
+        "Different people can work on different parts at the same time",
+        "It is easier to find and fix a problem in a small section",
+        "Once you solve a part, you can reuse that solution in other projects",
+        "It removes the need for any teamwork at all"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why Decomposition Matters",
+      "question": "How does decomposition help teams finish a project faster, according to the book?",
+      "explanation": "Because different people can work on different parts of the same project at the same time, the whole project finishes faster — this is one of the four reasons decomposition matters.",
+      "source": "book:page28",
+      "options": [
+        "Different team members can work on different parts at the same time",
+        "Only one person is allowed to work on the whole project",
+        "The project must be redone from scratch each week",
+        "Teams must wait until every other team finishes first"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q19",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Why Decomposition Matters",
+      "question": "True or False: Once you solve a small part of a problem, you can reuse that solution in other projects.",
+      "explanation": "True — this is one of the chapter's stated benefits of decomposition.",
+      "source": "facts:page2",
+      "answer": true
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Why Decomposition Matters",
+      "question": "Which of these is NOT one of the four reasons the book gives for why decomposition is important?",
+      "explanation": "The book's four reasons are about problems being easier to solve, teamwork, easier debugging, and reusing solutions. 'It makes the project take much longer to finish' is the opposite of what decomposition actually does.",
+      "source": "book:page28",
+      "options": [
+        "Smaller problems are easier to understand and solve",
+        "It makes the project take much longer to finish",
+        "It is easier to find and fix problems in a small section",
+        "Solved parts can be reused in other projects"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why Decomposition Matters",
+      "question": "Real-life application: teamwork benefiting from decomposition is compared in the chapter to which example?",
+      "explanation": "The chapter's example of teamwork benefiting from decomposition is different teams setting up a festival together, each handling a different part.",
+      "source": "facts:page2",
+      "options": [
+        "Different teams setting up a festival",
+        "One person cleaning an entire house alone",
+        "A single chef cooking every dish by themselves",
+        "A student doing all homework subjects at once"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Decomposition Matters",
+      "question": "Debugging a program by checking small sections instead of the whole program is described in the chapter as an application of which idea?",
+      "explanation": "The chapter gives 'debugging a program by checking small sections' as the real-life application of problem decomposition — finding and fixing problems is simpler when they are divided into parts.",
+      "source": "facts:page2",
+      "options": [
+        "Problem decomposition",
+        "Pattern recognition",
+        "Abstraction",
+        "Looping"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q23",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Why Decomposition Matters",
+      "question": "True or False: According to the chapter, decomposition prevents team members from working on the project at the same time.",
+      "explanation": "False — decomposition actually ALLOWS different team members to work on different parts simultaneously, which is one of its main benefits.",
+      "source": "book:page28",
+      "answer": false
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Decomposition Matters",
+      "question": "Fun Fact from the chapter: decomposition, as a method of breaking things down, is used in many fields, from programming to which other field mentioned?",
+      "explanation": "The chapter's Fun Fact says this method (breaking problems into smaller parts) is used in many fields, from programming to project management.",
+      "source": "facts:page2",
+      "options": [
+        "Project management",
+        "Baking bread",
+        "Painting walls",
+        "Swimming"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why Decomposition Matters",
+      "question": "'Think about this' prompt in the chapter asks how often you reuse solutions in daily life. This question connects decomposition to which benefit?",
+      "explanation": "The chapter's reflection prompt about reusing solutions ties back to the benefit that once a part is solved, its solution can be reused in other projects.",
+      "source": "facts:page2",
+      "options": [
+        "Reusing a solved part's solution in other projects",
+        "Making a problem more confusing",
+        "Working completely alone forever",
+        "Avoiding all future problems permanently"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q26",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Why Decomposition Matters",
+      "question": "Select ALL statements that correctly describe a benefit of problem decomposition mentioned in the chapter.",
+      "explanation": "All four listed statements are benefits of decomposition explicitly given in the chapter: it lets teams work in parallel, makes problems easier to understand, makes debugging easier, and allows reusing solved parts.",
+      "source": "book:page28 / facts:page2",
+      "options": [
+        "It lets team members work on different parts at the same time",
+        "It makes problems easier to understand and solve",
+        "It makes debugging easier by isolating small sections",
+        "It allows a solved part's solution to be reused later",
+        "It guarantees a project needs no testing at all"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "School Festival Example",
+      "question": "The book's example of organizing a school festival breaks the big task into which three main parts?",
+      "explanation": "The chapter's school festival example is decomposed into three main parts: venue, activities, and food.",
+      "source": "facts:page2-3",
+      "options": [
+        "Venue, activities, and food",
+        "Music, lighting, and cleaning",
+        "Tickets, security, and parking",
+        "Costumes, scripts, and props"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "School Festival Example",
+      "question": "Which of these tasks belongs to the 'Venue' part of organizing the school festival?",
+      "explanation": "Venue setup includes booking space, arranging tables, and testing the sound system, according to the chapter.",
+      "source": "facts:page3",
+      "options": [
+        "Testing the sound system",
+        "Choosing games",
+        "Planning the menu",
+        "Assigning volunteers"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "School Festival Example",
+      "question": "Which of these tasks belongs to the 'Activities and games' part of organizing the school festival?",
+      "explanation": "'Activities and games' involve choosing games, preparing materials, and assigning volunteers — assigning volunteers is one of these tasks.",
+      "source": "facts:page3",
+      "options": [
+        "Assigning volunteers",
+        "Booking space",
+        "Ordering supplies",
+        "Arranging tables"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q30",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "School Festival Example",
+      "question": "Select ALL tasks that belong to the 'Food and drinks' part of the school festival plan.",
+      "explanation": "'Food and drinks' requires planning the menu, ordering supplies, and organizing servers. 'Testing the sound system' belongs to the Venue part, not Food.",
+      "source": "facts:page3",
+      "options": [
+        "Planning the menu",
+        "Ordering supplies",
+        "Organizing servers",
+        "Testing the sound system"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "q31",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "School Festival Example",
+      "question": "True or False: Testing the sound system is part of the 'Venue' setup in the school festival example.",
+      "explanation": "True — venue setup specifically includes booking space, arranging tables, and testing the sound system.",
+      "source": "facts:page3",
+      "answer": true
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "School Festival Example",
+      "question": "The chapter gives 'planning a wedding or large event' as a real-life application of decomposing which part of the school festival?",
+      "explanation": "The chapter connects venue-related planning (booking space, arranging tables, testing sound) to the real-life example of planning a wedding or large event.",
+      "source": "facts:page3",
+      "options": [
+        "Venue setup",
+        "Food and drinks",
+        "Activities and games",
+        "Cleaning up afterward"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "School Festival Example",
+      "question": "The chapter's Fun Fact about the 'Activities and games' part says games can make events more:",
+      "explanation": "The chapter's Fun Fact says 'Games can make events more interactive and fun!' when discussing the activities part of festival planning.",
+      "source": "facts:page3",
+      "options": [
+        "Interactive and fun",
+        "Expensive and slow",
+        "Quiet and boring",
+        "Confusing and long"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "School Festival Example",
+      "question": "What should be considered when planning the 'Food and drinks' part of the festival, according to the chapter's example?",
+      "explanation": "The chapter's example note for the food part says to 'consider dietary needs and preferences' when planning the menu.",
+      "source": "facts:page3",
+      "options": [
+        "Dietary needs and preferences",
+        "The colour of the tablecloths",
+        "The school's mascot design",
+        "The weather forecast for next year"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q35",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "School Festival Example",
+      "question": "True or False: Breaking large projects like the school festival into parts makes them feel more manageable.",
+      "explanation": "True — the chapter states that breaking tasks into parts makes large projects feel more manageable.",
+      "source": "facts:page3",
+      "answer": true
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "School Festival Example",
+      "question": "Which of these was NOT listed by the chapter as one of the three main parts of organizing the school festival?",
+      "explanation": "The chapter's three parts are venue, activities, and food — 'ticket sales' is not mentioned as one of the three main parts.",
+      "source": "facts:page2-3",
+      "options": [
+        "Venue",
+        "Activities",
+        "Food",
+        "Ticket sales"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "School Festival Example",
+      "question": "In the school festival example, assigning a team to handle each part is given as an example of what?",
+      "explanation": "The chapter gives 'assigning a team to handle each part' as its example of how the school festival's three parts (venue, activities, food) get organized.",
+      "source": "facts:page3",
+      "options": [
+        "Organizing the school festival into venue, activities, and food",
+        "Recognizing a repeating pattern in nature",
+        "Writing a function called makeSandwich",
+        "Hiding complex details behind a simple button"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q38",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "School Festival Example",
+      "question": "Select ALL tasks that belong to the 'Activities and games' part of the school festival.",
+      "explanation": "'Activities and games' involve choosing games, preparing materials, and assigning volunteers. 'Ordering supplies' belongs to the Food part, not Activities.",
+      "source": "facts:page3",
+      "options": [
+        "Choosing games",
+        "Preparing materials",
+        "Assigning volunteers",
+        "Ordering supplies"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "School Festival Example",
+      "question": "How many main parts does the school festival example break the big task into?",
+      "explanation": "The school festival is broken into exactly three main parts: venue, activities, and food.",
+      "source": "facts:page2-3",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sprite Lab Storybook Decomposition",
+      "question": "The chapter suggests practising decomposition by creating a digital storybook in which tool?",
+      "explanation": "The chapter's practice activity says: 'Practice decomposition by creating a digital storybook in Sprite Lab.'",
+      "source": "facts:page4",
+      "options": [
+        "Sprite Lab",
+        "A spreadsheet program",
+        "A video editor",
+        "A calculator app"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q41",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Sprite Lab Storybook Decomposition",
+      "question": "Select ALL the parts the chapter suggests breaking a Sprite Lab digital storybook into.",
+      "explanation": "The chapter's example breaks the storybook down into characters, animations, sounds, and connections.",
+      "source": "facts:page4",
+      "options": [
+        "Characters",
+        "Animations",
+        "Sounds",
+        "Connections",
+        "Ticket prices"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sprite Lab Storybook Decomposition",
+      "question": "What real-life application does the chapter give for 'writing down tasks to help organize and break them into smaller steps'?",
+      "explanation": "The chapter's real-life application for writing down and breaking tasks into smaller steps is cooking by following a recipe step by step.",
+      "source": "facts:page4",
+      "options": [
+        "Cooking by following a recipe step by step",
+        "Watching a movie from start to finish",
+        "Memorizing a phone number",
+        "Painting a picture with no plan"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q43",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Sprite Lab Storybook Decomposition",
+      "question": "True or False: Writing down tasks helps organize and break them into smaller steps.",
+      "explanation": "True — the chapter states this directly when discussing planning a digital storybook.",
+      "source": "facts:page4",
+      "answer": true
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sprite Lab Storybook Decomposition",
+      "question": "The chapter suggests choosing a theme for a Sprite Lab story scene, such as Adventure Quest or:",
+      "explanation": "The chapter gives 'Adventure Quest' and 'Nature Exploration' as example story-scene themes for the Sprite Lab activity.",
+      "source": "facts:page5",
+      "options": [
+        "Nature Exploration",
+        "Space Battle",
+        "Underwater City",
+        "Robot Rebellion"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q45",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Sprite Lab Storybook Decomposition",
+      "question": "Select ALL steps mentioned for planning a story using decomposition in the chapter.",
+      "explanation": "The chapter says planning a story using decomposition means you: set the scene, add actions, and add interactions.",
+      "source": "facts:page5",
+      "options": [
+        "Set the scene",
+        "Add actions",
+        "Add interactions",
+        "Sell advertising space"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sprite Lab Storybook Decomposition",
+      "question": "What real-life application does the chapter compare to planning a story's plot first?",
+      "explanation": "The chapter compares planning a story using decomposition (setting the scene, then actions, then interactions) to writing a story by planning the plot first.",
+      "source": "facts:page5",
+      "options": [
+        "Writing a story by planning the plot first",
+        "Building a house without a blueprint",
+        "Cooking without any ingredients",
+        "Painting without any colours"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sprite Lab Storybook Decomposition",
+      "question": "Smaller steps, according to the chapter, make complex tasks:",
+      "explanation": "The chapter states: 'Smaller steps make complex tasks easier to manage,' reinforcing the value of decomposition.",
+      "source": "facts:page4",
+      "options": [
+        "Easier to manage",
+        "Impossible to finish",
+        "More expensive",
+        "Take much longer"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sprite Lab Storybook Decomposition",
+      "question": "Cooking by following a recipe step by step is used in the chapter as a real-life example of what?",
+      "explanation": "This is the chapter's real-life application example for writing down and breaking tasks into smaller steps — i.e., problem decomposition.",
+      "source": "facts:page4",
+      "options": [
+        "Problem decomposition",
+        "Pattern recognition",
+        "Abstraction",
+        "A crossword puzzle"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q49",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Sprite Lab Storybook Decomposition",
+      "question": "True or False: The chapter's Sprite Lab storybook activity breaks work into characters, animations, sounds, and connections, exactly like it breaks a game project into characters, movements, interactions, and sounds.",
+      "explanation": "True (in spirit) — both activities use the same decomposition approach: splitting a creative digital project into a handful of separate, manageable parts (characters, sounds, and either movements/animations plus interactions/connections).",
+      "source": "facts:page2 / facts:page4",
+      "answer": true
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pattern Recognition Basics & Types",
+      "question": "What does 'pattern recognition' mean?",
+      "explanation": "Pattern recognition means finding things that repeat or are similar to each other.",
+      "source": "facts:page6",
+      "options": [
+        "Finding things that repeat or are similar",
+        "Breaking a big problem into smaller parts",
+        "Hiding complex details from the user",
+        "Writing a named group of instructions"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pattern Recognition Basics & Types",
+      "question": "Worksheet blank: 'When you spot a ___, you can use the same solution multiple times instead of starting from scratch every time.'",
+      "explanation": "The missing word is 'pattern' — recognizing a pattern lets you reuse a solution instead of solving the same type of problem from scratch each time.",
+      "source": "worksheet-L1 Q1c",
+      "options": [
+        "pattern",
+        "function",
+        "decomposition",
+        "abstraction"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pattern Recognition Basics & Types",
+      "question": "Milestone review: Which of these is an example of pattern recognition in daily life?",
+      "explanation": "The Milestone review confirms that days of the week repeating every seven days regularly is the correct example of pattern recognition in daily life.",
+      "source": "book:page42",
+      "options": [
+        "Days of the week repeating every seven days regularly",
+        "Trying a completely new method for each task you do",
+        "Making every paper flower using a different technique",
+        "Creating a unique schedule for every single Monday"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pattern Recognition Basics & Types",
+      "question": "Worksheet L2 tick question: Which of these shows a pattern?",
+      "explanation": "'Skip counting: 2, 4, 6, 8, 10' shows a clear, repeating pattern (adding 2 each time). Random numbers and things with no order are not patterns.",
+      "source": "worksheet-L2 Q1b",
+      "options": [
+        "Skip counting: 2, 4, 6, 8, 10",
+        "Random numbers: 5, 17, 3, 92, 1",
+        "Different colours with no order",
+        "Changing your routine every day"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q54",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Pattern Recognition Basics & Types",
+      "question": "Select ALL examples of patterns in daily life mentioned in the chapter.",
+      "explanation": "The chapter mentions several daily-life patterns: days of the week repeating every seven days, songs repeating verses and choruses, and building blocks/floor tiles creating repeating patterns.",
+      "source": "book:page32",
+      "options": [
+        "Days of the week repeating every seven days",
+        "Songs repeating verses and choruses",
+        "Floor tiles creating a repeating pattern",
+        "A brand new random password every second"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pattern Recognition Basics & Types",
+      "question": "In math, the chapter says skip counting like 2, 4, 6, 8 is an example of what?",
+      "explanation": "The chapter explains that in math, skip counting follows patterns like 2, 4, 6, 8 — an example of pattern recognition.",
+      "source": "facts:page7",
+      "options": [
+        "A pattern (pattern recognition)",
+        "Problem decomposition",
+        "Abstraction",
+        "A software bug"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q56",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Pattern Recognition Basics & Types",
+      "question": "True or False: Recognizing patterns can help with time management, according to the chapter's Fun Fact.",
+      "explanation": "True — the chapter's Fun Fact says recognizing patterns can help with time management.",
+      "source": "facts:page7",
+      "answer": true
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pattern Recognition Basics & Types",
+      "question": "The book states there are three main types of patterns. Which of these is the FIRST type?",
+      "explanation": "The book's first pattern type is 'repeating actions,' where the same steps happen multiple times, like moving a sprite forward ten times using a loop.",
+      "source": "book:page32",
+      "options": [
+        "Repeating actions, like moving a sprite forward ten times",
+        "Sequences with predictable patterns, like 2, 4, 6, 8",
+        "Similar problems that use the same approach, like checking if a number is even",
+        "Random, unpredictable events with no order"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pattern Recognition Basics & Types",
+      "question": "The book's SECOND type of pattern is 'similar problems that use the same approach.' Which example does it give?",
+      "explanation": "The book's example for this pattern type is checking if any number is even, using the same method: divide by 2 and check for remainders.",
+      "source": "book:page33",
+      "options": [
+        "Checking if a number is even by dividing by 2 and checking the remainder",
+        "Moving a sprite forward ten times with a loop",
+        "Turning right 90 degrees four times to draw a square",
+        "Hiding a TV's circuits behind a remote control"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pattern Recognition Basics & Types",
+      "question": "The book's THIRD type of pattern is 'sequences with predictable patterns.' Which example does it give?",
+      "explanation": "The book's example is the sequence 2, 4, 6, 8, where you add 2 each time to find the next number.",
+      "source": "book:page33",
+      "options": [
+        "The sequence 2, 4, 6, 8, adding 2 each time",
+        "Moving a sprite forward ten times with a loop",
+        "Checking if a number is even",
+        "Drawing a hexagon by turning 60 degrees"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pattern Recognition Basics & Types",
+      "question": "Which of these is NOT one of the chapter's three main types of patterns?",
+      "explanation": "The chapter's three pattern types are: repeating actions, similar problems using the same approach, and sequences with predictable patterns. 'Totally random, unpredictable events' is the opposite of a pattern.",
+      "source": "book:page32-33",
+      "options": [
+        "Repeating actions",
+        "Similar problems using the same approach",
+        "Sequences with predictable patterns",
+        "Totally random, unpredictable events"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pattern Recognition Basics & Types",
+      "question": "Using patterns, you can solve similar problems how, according to the chapter?",
+      "explanation": "The chapter states: 'Using patterns, you can solve similar problems efficiently.'",
+      "source": "facts:page6",
+      "options": [
+        "Efficiently",
+        "Very slowly",
+        "By ignoring them",
+        "Only by guessing"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q62",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Pattern Recognition Basics & Types",
+      "question": "True or False: In programming, patterns help reuse solutions without rewriting code.",
+      "explanation": "True — the chapter states that in programming, patterns help reuse solutions without rewriting code, giving loops as the example.",
+      "source": "facts:page6",
+      "answer": true
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pattern Recognition Basics & Types",
+      "question": "The chapter says recognizing patterns lets you work how?",
+      "explanation": "The chapter repeats this idea at several points: recognizing patterns helps you work smarter, not harder.",
+      "source": "facts:page7 / facts:page16",
+      "options": [
+        "Smarter, not harder",
+        "Slower, not faster",
+        "Alone, never in teams",
+        "Randomly, without any plan"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q64",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Pattern Recognition Basics & Types",
+      "question": "Select ALL items that are TRUE about pattern recognition, based on the chapter.",
+      "explanation": "All four statements are directly supported by the chapter: patterns mean finding repeats/similarities, they let you reuse solutions efficiently, they help you work smarter, and they can aid time management. Pattern recognition does not mean hiding details — that is abstraction.",
+      "source": "facts:page6-7",
+      "options": [
+        "Pattern recognition means finding things that repeat or are similar",
+        "Recognizing patterns lets you reuse a solution efficiently",
+        "Recognizing patterns helps you work smarter, not harder",
+        "Recognizing patterns can help with time management",
+        "Pattern recognition means hiding complex details from the user"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pattern Recognition Basics & Types",
+      "question": "Crossword clue: 'Days of the week follow a weekly ___.' What is the answer?",
+      "explanation": "The crossword's answer is 'pattern' — days of the week repeating every seven days is a classic example of a pattern.",
+      "source": "worksheet-L2 crossword (down)",
+      "options": [
+        "pattern",
+        "function",
+        "loop",
+        "task"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pattern Recognition Basics & Types",
+      "question": "The chapter mentions building blocks and floor tiles as examples of what?",
+      "explanation": "The chapter states 'Building blocks and floor tiles create repeating patterns,' giving them as real-world visual examples of pattern recognition.",
+      "source": "book:page32",
+      "options": [
+        "Repeating patterns",
+        "Problem decomposition",
+        "Functions",
+        "Bugs in code"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Patterns in Programming",
+      "question": "Worksheet L2 tick question: In programming, what do we use to repeat the same action many times?",
+      "explanation": "The correct answer is 'a loop.' Loops let you repeat an action many times without writing the same code over and over.",
+      "source": "worksheet-L2 Q1c",
+      "options": [
+        "A loop",
+        "Write the same code over and over",
+        "Different sprites",
+        "Multiple backgrounds"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Patterns in Programming",
+      "question": "Crossword clue: 'To do something again and again, you use a ___.'",
+      "explanation": "The crossword answer is 'loop' — loops let a program repeat an action again and again.",
+      "source": "worksheet-L2 crossword (down)",
+      "options": [
+        "loop",
+        "task",
+        "code",
+        "pattern"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q69",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Patterns in Programming",
+      "question": "True or False: Instead of writing 'move forward' ten separate times, you can use a loop that repeats the move command ten times.",
+      "explanation": "True — the chapter's example shows exactly this: instead of writing 'move forward' ten times, you use a loop that repeats it.",
+      "source": "book:page32",
+      "answer": true
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Patterns in Programming",
+      "question": "The chapter gives 'algorithms for sorting data' as a real-life application of which pattern idea?",
+      "explanation": "The chapter connects 'algorithms for sorting data' to the pattern idea of similar problems using the same approach (like checking if numbers are even).",
+      "source": "facts:page8",
+      "options": [
+        "Similar problems using the same approach",
+        "Repeating actions with a loop",
+        "Sequences with predictable growth",
+        "Abstraction with functions"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q71",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Patterns in Programming",
+      "question": "True or False: Sequences with predictable patterns help solve problems quickly.",
+      "explanation": "True — the chapter states this directly: 'Sequences with predictable patterns help solve problems quickly.'",
+      "source": "facts:page8",
+      "answer": true
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Patterns in Programming",
+      "question": "According to the chapter, checking if a number is even uses which programming approach?",
+      "explanation": "The chapter explains that checking if any number is even 'uses the same method: divide by 2 and check for remainders' — an example of recognizing similar problems that use the same approach.",
+      "source": "book:page33",
+      "options": [
+        "Dividing by 2 and checking the remainder",
+        "Multiplying by 10",
+        "Adding 100 to the number",
+        "Deleting the number entirely"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Patterns in Programming",
+      "question": "Which of these is the BEST reason programmers use loops instead of repeating the same line of code many times?",
+      "explanation": "Loops let you recognize a repeating pattern and reuse the same instruction efficiently, instead of writing (and maintaining) the same line of code over and over.",
+      "source": "worksheet-L2 Q1c / facts:page6",
+      "options": [
+        "Loops let you reuse the same instruction efficiently instead of repeating code",
+        "Loops make the program run on a different computer",
+        "Loops delete unused sprites automatically",
+        "Loops are required by law in every program"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Patterns in Programming",
+      "question": "The chapter's example code repeats a 'move' command 10 pixels to which direction?",
+      "explanation": "The Sprite Lab example code block shown in the chapter repeats 'move 10 pixels East' inside a loop.",
+      "source": "book:page32",
+      "options": [
+        "East",
+        "North",
+        "South",
+        "West"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q75",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Patterns in Programming",
+      "question": "True or False: 'Think about this' in the chapter asks how patterns in nature inspire technology.",
+      "explanation": "True — the chapter includes exactly this reflection prompt when discussing sequences with predictable patterns.",
+      "source": "facts:page8",
+      "answer": true
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Patterns in Programming",
+      "question": "Instead of writing the same code multiple times, recognizing a pattern in programming lets you:",
+      "explanation": "The chapter explains that in programming, patterns help reuse solutions without rewriting code — for example, using loops to repeat actions in coding.",
+      "source": "facts:page6",
+      "options": [
+        "Reuse solutions without rewriting code",
+        "Delete the program and start over",
+        "Slow down the computer on purpose",
+        "Remove all sprites from the project"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Drawing Shapes with Pattern Recognition",
+      "question": "Activity 2's first shape is drawn by repeating 'draw a line forward, then turn right 90 degrees' four times. What shape is this?",
+      "explanation": "Turning 90 degrees four times and drawing a line each time creates a square, which is exactly what the activity's answer should be.",
+      "source": "book:page33",
+      "options": [
+        "A square",
+        "A triangle",
+        "A hexagon",
+        "A circle"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Drawing Shapes with Pattern Recognition",
+      "question": "Activity 2's second shape is drawn by repeating 'draw a line forward, then turn right 120 degrees' three times. What shape is this?",
+      "explanation": "Turning 120 degrees three times and drawing a line each time creates a triangle.",
+      "source": "book:page33",
+      "options": [
+        "A triangle",
+        "A square",
+        "A hexagon",
+        "A pentagon"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Drawing Shapes with Pattern Recognition",
+      "question": "Activity 3 draws a shape by repeating 'draw a line forward, then turn right 60 degrees' six times. What shape is this?",
+      "explanation": "Turning 60 degrees six times and drawing a line each time creates a hexagon, matching the diagram shown in the chapter.",
+      "source": "book:page34",
+      "options": [
+        "A hexagon",
+        "A square",
+        "A triangle",
+        "A circle"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Drawing Shapes with Pattern Recognition",
+      "question": "According to the chapter, how do you calculate the turning angle needed to draw any regular polygon?",
+      "explanation": "The chapter gives the general rule: the turning angle equals 360 divided by the number of sides of the shape.",
+      "source": "facts:page9 / book:page34",
+      "options": [
+        "360 divided by the number of sides",
+        "180 divided by the number of sides",
+        "The number of sides multiplied by 10",
+        "Always exactly 90 degrees"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Drawing Shapes with Pattern Recognition",
+      "question": "What is 360 divided by 4 — the turning angle used to draw the square in Activity 2?",
+      "explanation": "360 ÷ 4 = 90, which matches the 90-degree turns used to draw the square.",
+      "source": "book:page33 (arithmetic)",
+      "options": [
+        "90",
+        "120",
+        "60",
+        "45"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Drawing Shapes with Pattern Recognition",
+      "question": "What is 360 divided by 3 — the turning angle used to draw the triangle in Activity 2?",
+      "explanation": "360 ÷ 3 = 120, which matches the 120-degree turns used to draw the triangle.",
+      "source": "book:page33 (arithmetic)",
+      "options": [
+        "120",
+        "90",
+        "60",
+        "180"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Drawing Shapes with Pattern Recognition",
+      "question": "What is 360 divided by 6 — the turning angle used to draw the hexagon in Activity 3?",
+      "explanation": "360 ÷ 6 = 60, which matches the 60-degree turns used to draw the hexagon.",
+      "source": "book:page34 (arithmetic)",
+      "options": [
+        "60",
+        "90",
+        "120",
+        "45"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q84",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Drawing Shapes with Pattern Recognition",
+      "question": "True or False: The rule 'turn 360 divided by the number of sides' applies to all regular polygons, according to the chapter's Fun Fact.",
+      "explanation": "True — the chapter's Fun Fact states that this rule applies to all regular polygons.",
+      "source": "facts:page9",
+      "answer": true
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Drawing Shapes with Pattern Recognition",
+      "question": "Why does the chapter say 'Now you have one solution that works for any shape' after showing the repeat-and-turn rule?",
+      "explanation": "Because recognizing the repeating pattern (draw a line, then turn 360/sides degrees) lets the SAME instructions work for a square, triangle, hexagon, or any other regular polygon — this is the power of pattern recognition.",
+      "source": "book:page34",
+      "options": [
+        "Because the same repeating pattern of instructions works for any regular polygon",
+        "Because the shape only needs to be drawn once ever",
+        "Because computers cannot draw more than one shape",
+        "Because all shapes are secretly circles"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Drawing Shapes with Pattern Recognition",
+      "question": "Using the chapter's general formula, what turning angle would be needed to draw a regular pentagon (5 sides)?",
+      "explanation": "This applies the chapter's own stated rule (360 ÷ number of sides) to a new shape it doesn't explicitly draw: 360 ÷ 5 = 72 degrees.",
+      "source": "(concept extension: general formula, book:page34)",
+      "options": [
+        "72 degrees",
+        "60 degrees",
+        "90 degrees",
+        "120 degrees"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Drawing Shapes with Pattern Recognition",
+      "question": "What are the TWO repeating steps that all shape-drawing instructions in the chapter share?",
+      "explanation": "The chapter states: 'All shapes repeat the same two steps: draw a line and turn.' Only the number of repeats and the turning angle change.",
+      "source": "book:page33",
+      "options": [
+        "Draw a line, then turn",
+        "Turn, then erase",
+        "Draw a circle, then stop",
+        "Jump, then clap"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Drawing Shapes with Pattern Recognition",
+      "question": "In Activity 2 and 3, what tool were students asked to use to trace the shapes?",
+      "explanation": "The chapter's Activity 2 instructions ask students to 'trace with a ruler and pencil' to draw the shapes.",
+      "source": "book:page33",
+      "options": [
+        "A ruler and pencil",
+        "A calculator",
+        "A computer mouse only",
+        "Scissors and tape"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q89",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Drawing Shapes with Pattern Recognition",
+      "question": "Select ALL shapes explicitly drawn using the repeat-and-turn pattern in the chapter's activities.",
+      "explanation": "The chapter's activities explicitly draw a square (90°), a triangle (120°), and a hexagon (60°) using the repeat-and-turn pattern. A pentagon is not explicitly drawn in the chapter.",
+      "source": "book:page33-34",
+      "options": [
+        "Square",
+        "Triangle",
+        "Hexagon",
+        "Pentagon"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "q90",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Drawing Shapes with Pattern Recognition",
+      "question": "True or False: To draw a shape with more sides, you need a completely different, unrelated set of instructions each time.",
+      "explanation": "False — the whole point of pattern recognition here is that ONE general instruction pattern (repeat: draw line, turn 360/sides degrees) works for any regular polygon, no matter how many sides it has.",
+      "source": "book:page34",
+      "answer": false
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Abstraction Basics",
+      "question": "What does 'abstraction' mean in this chapter?",
+      "explanation": "Abstraction means hiding complex details and showing only what's important.",
+      "source": "facts:page10",
+      "options": [
+        "Hiding complex details and showing only what's important",
+        "Breaking a big problem into smaller parts",
+        "Finding things that repeat or are similar",
+        "Writing the same code many times"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Abstraction Basics",
+      "question": "Worksheet blank: 'Abstraction means hiding ___ details and showing only what's important.'",
+      "explanation": "The missing word is 'complex' — abstraction hides complex details.",
+      "source": "worksheet-L1 Q1d",
+      "options": [
+        "complex",
+        "simple",
+        "colourful",
+        "boring"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Abstraction Basics",
+      "question": "Milestone review: What does a TV remote demonstrate about abstraction?",
+      "explanation": "The Milestone review's correct answer is: 'You can control a complex machine with simple buttons.' You don't need to understand the circuits inside.",
+      "source": "book:page42",
+      "options": [
+        "You can control a complex machine with simple buttons",
+        "You must understand all circuits to change the channel",
+        "You need to know the technology inside to use it",
+        "You have to write code to make the remote function"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Abstraction Basics",
+      "question": "Worksheet L2 tick question: Which is the BEST example of abstraction?",
+      "explanation": "Using a smartphone without knowing the millions of lines of code running underneath is the chapter's best example of abstraction.",
+      "source": "worksheet-L2 Q1d",
+      "options": [
+        "Using a smartphone without knowing millions of code lines",
+        "Knowing all the circuits inside a TV",
+        "Writing every step in detail",
+        "Explaining how electricity works"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q95",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Abstraction Basics",
+      "question": "True or False: A TV remote is an example of abstraction because you can control a complex machine with simple buttons.",
+      "explanation": "True — this is confirmed in the worksheet answer key.",
+      "source": "worksheet-L1 Q2b (answer key)",
+      "answer": true
+    },
+    {
+      "id": "q96",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Abstraction Basics",
+      "question": "True or False: Abstraction requires you to understand all the complex details inside a device to use it.",
+      "explanation": "False. The answer key corrects this: abstraction means you DON'T need to understand all the complex details to use a device.",
+      "source": "worksheet-L1 Q2e (answer key)",
+      "answer": false
+    },
+    {
+      "id": "q97",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Abstraction Basics",
+      "question": "True or False (Milestone review): When using abstraction, you need to understand all the complex details inside a device like a TV to use it.",
+      "explanation": "False — this is exactly the misconception the Milestone review corrects; abstraction lets you use a device WITHOUT understanding all its complex details.",
+      "source": "book:page40",
+      "answer": false
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Abstraction Basics",
+      "question": "When you press a button on a TV remote to change the channel, what don't you need to know about, according to the chapter?",
+      "explanation": "The chapter says you don't need to know about the circuits, signals, and technology inside the TV — the remote gives you a simple way to control a complex machine.",
+      "source": "book:page35",
+      "options": [
+        "The circuits, signals, and technology inside the TV",
+        "Which channel number you want",
+        "How to hold the remote",
+        "Where the TV is located"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Abstraction Basics",
+      "question": "According to the chapter, what is hidden underneath a smartphone's simple icons and buttons?",
+      "explanation": "The chapter explains that hidden underneath a smartphone's simple icons and buttons are millions of lines of code.",
+      "source": "book:page35",
+      "options": [
+        "Millions of lines of code",
+        "A tiny television",
+        "Nothing at all",
+        "A printed instruction manual"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q100",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Abstraction Basics",
+      "question": "Select ALL benefits abstraction gives programmers, according to the chapter.",
+      "explanation": "The chapter lists several benefits of abstraction in programming: focusing on what something does instead of how, reusing code without rewriting it, making complex programs easier to understand, and letting people work on different parts independently.",
+      "source": "book:page35",
+      "options": [
+        "Focus on what something does instead of how it does it",
+        "Reuse code without rewriting it",
+        "Make complex programs easier to understand",
+        "Work on different parts of a program independently",
+        "Force everyone to write the exact same code"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Abstraction Basics",
+      "question": "The chapter's real-life application of abstraction mentions mobile apps with simple interfaces but complex:",
+      "explanation": "The chapter's real-life application example is 'mobile apps with simple interfaces but complex backends.'",
+      "source": "facts:page10",
+      "options": [
+        "Backends",
+        "Colours",
+        "Advertisements",
+        "Passwords"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Abstraction Basics",
+      "question": "Which of these statements about abstraction is FALSE?",
+      "explanation": "'You must understand every circuit inside a device before using it' is false — that is the opposite of abstraction, which hides those complex details so you don't need to understand them.",
+      "source": "book:page35 / facts:page10",
+      "options": [
+        "Abstraction hides complex details and shows only what's important",
+        "You must understand every circuit inside a device before using it",
+        "A TV remote lets you control a complex machine simply",
+        "In programming, abstraction helps simplify and reuse code"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Abstraction Basics",
+      "question": "In programming, abstraction lets people work on different parts of a program independently. Why is this useful, based on the chapter?",
+      "explanation": "Because abstraction hides the complex internal details of each part, different programmers don't need to worry about all the details of parts they aren't working on — they can focus on their own piece.",
+      "source": "book:page35",
+      "options": [
+        "Because they don't need to worry about every detail of parts they aren't working on",
+        "Because it stops all programmers from ever meeting",
+        "Because it deletes unfinished code automatically",
+        "Because it prevents any code reuse"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q104",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Abstraction Basics",
+      "question": "True or False: In programming, abstraction helps simplify and reuse code.",
+      "explanation": "True — the chapter states this directly as one of abstraction's key benefits.",
+      "source": "facts:page10",
+      "answer": true
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Abstraction Basics",
+      "question": "Milestone fill-in-the-blank: 'Abstraction means hiding complex details and showing only what's ___.'",
+      "explanation": "The missing word is 'important' — abstraction shows only what's important while hiding the rest.",
+      "source": "book:page39",
+      "options": [
+        "important",
+        "expensive",
+        "colourful",
+        "difficult"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Abstraction Basics",
+      "question": "Which everyday object does the chapter use TWICE as an example of abstraction — once as the main example and once in the recap?",
+      "explanation": "The TV remote is used as the chapter's main abstraction example and is repeated in the chapter's recap of the three big concepts.",
+      "source": "book:page35 / facts:page15",
+      "options": [
+        "A TV remote",
+        "A bicycle",
+        "A pair of scissors",
+        "A paintbrush"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Functions as Abstraction",
+      "question": "What is a 'function' in programming, according to the chapter?",
+      "explanation": "A function is a named group of instructions that performs a specific task in programming.",
+      "source": "worksheet-L1 Q1e / facts:page10",
+      "options": [
+        "A named group of instructions that performs a specific task",
+        "A random number generated by the computer",
+        "A picture used as a background",
+        "A password used to log in"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Functions as Abstraction",
+      "question": "Worksheet blank: 'A ___ is a named group of instructions that performs a specific task in programming.'",
+      "explanation": "The missing word is 'function.'",
+      "source": "worksheet-L1 Q1e",
+      "options": [
+        "function",
+        "decomposition",
+        "pattern",
+        "movement"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Functions as Abstraction",
+      "question": "How many steps does the chapter's sandwich recipe have (get bread, spread chutney, add vegetables, close bread, cut in half)?",
+      "explanation": "The sandwich recipe has exactly 5 steps: get bread, spread chutney, add vegetables, close bread, and cut in half.",
+      "source": "book:page35",
+      "options": [
+        "5",
+        "3",
+        "8",
+        "10"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Functions as Abstraction",
+      "question": "Without using a function, how many total steps would you write out to make 3 sandwiches, each needing the same 5 steps?",
+      "explanation": "Without a function, you must write all 5 steps for each of the 3 sandwiches: 5 x 3 = 15 steps total, as the chapter explains.",
+      "source": "book:page35",
+      "options": [
+        "15",
+        "5",
+        "8",
+        "20"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Functions as Abstraction",
+      "question": "With a function called 'makeSandwich,' how many times do you need to write out the 5 sandwich-making steps?",
+      "explanation": "With a function, you write the 5 steps only ONCE inside 'makeSandwich,' then call 'makeSandwich' as many times as needed.",
+      "source": "book:page35",
+      "options": [
+        "Once",
+        "Three times",
+        "Five times",
+        "Fifteen times"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Functions as Abstraction",
+      "question": "Milestone MCQ: How many times do you need to write the sandwich-making steps when using a function?",
+      "explanation": "The Milestone review confirms: 'You only need to write the steps once in function' — that is the whole point of using a function.",
+      "source": "book:page42",
+      "options": [
+        "You only need to write the steps once in function",
+        "You need to write the steps three times for sandwiches",
+        "You need to write the steps fifteen times in total",
+        "You need to write the steps twice for each sandwich"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Functions as Abstraction",
+      "question": "Milestone MCQ: What is the main advantage of using functions when you need to make changes?",
+      "explanation": "The Milestone review confirms: 'You only change the code in one place inside function,' instead of updating every copy of the repeated steps.",
+      "source": "book:page43",
+      "options": [
+        "You only change the code in one place inside function",
+        "You have to change the code in multiple different places",
+        "You need to find every place where you wrote code",
+        "You must rewrite the entire program from the very beginning"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q114",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Functions as Abstraction",
+      "question": "True or False (Milestone review): Functions in programming help you reuse code without rewriting it every time.",
+      "explanation": "True — this is exactly what the Milestone review confirms about functions.",
+      "source": "book:page40",
+      "answer": true
+    },
+    {
+      "id": "q115",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Functions as Abstraction",
+      "question": "True or False (Milestone review): If you write code without using functions, making changes is easier because you only need to change it in one place.",
+      "explanation": "False — this statement has it backwards. WITHOUT functions, you'd need to change the repeated code in every place it appears; WITH a function, you only change it in one place.",
+      "source": "book:page40",
+      "answer": false
+    },
+    {
+      "id": "q116",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Functions as Abstraction",
+      "question": "True or False: If you write code without functions and your character jumps 20 times, you need to write 80 lines of code doing the same thing.",
+      "explanation": "True, according to the worksheet's answer key — writing jump code without a function means repeating the jump instructions for every single jump, leading to many more lines than using one reusable function.",
+      "source": "worksheet-L1 Q2c (answer key)",
+      "answer": true
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Functions as Abstraction",
+      "question": "Functions create abstraction in programming by doing what, according to the chapter?",
+      "explanation": "The chapter explains that functions create abstraction by grouping instructions for a specific task under one name — hiding the detailed steps behind a simple function call.",
+      "source": "facts:page10",
+      "options": [
+        "Grouping instructions for a specific task under one name",
+        "Deleting instructions that are no longer needed",
+        "Making a program run on a different device",
+        "Randomly changing the order of instructions"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q118",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Functions as Abstraction",
+      "question": "Select ALL of the 5 sandwich-making steps mentioned in the chapter's 'makeSandwich' example.",
+      "explanation": "The chapter's 5 sandwich steps are: get bread, spread chutney, add vegetables, close bread, and cut in half. 'Wash the dishes' is not one of the listed steps.",
+      "source": "book:page35",
+      "options": [
+        "Get bread",
+        "Spread chutney",
+        "Add vegetables",
+        "Close bread",
+        "Cut in half",
+        "Wash the dishes"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Functions as Abstraction",
+      "question": "Using functions reduces complexity mainly by allowing what, according to the chapter's facts?",
+      "explanation": "The chapter states: 'Using functions reduces complexity by allowing code reuse.'",
+      "source": "facts:page11",
+      "options": [
+        "Code reuse",
+        "Slower computers",
+        "More typing",
+        "Bigger files only"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Functions as Abstraction",
+      "question": "The chapter says functions allow changes to be made easily because you only need to:",
+      "explanation": "The chapter explains that functions allow changes to be made easily because you update just one place, instead of every copy of the repeated code.",
+      "source": "facts:page11",
+      "options": [
+        "Update just one place",
+        "Delete the whole program",
+        "Rewrite the code fifteen times",
+        "Ask a different programmer to help"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Functions as Abstraction",
+      "question": "Which of the following is the BEST reason 'makeSandwich' is described as 'much simpler' than writing all 15 steps out by hand?",
+      "explanation": "Because you write the 5 steps once, name them 'makeSandwich,' and then just call 'makeSandwich' three times — you save time writing, and if you ever need to change the recipe, you only change it once instead of three times.",
+      "source": "book:page35",
+      "options": [
+        "You write the steps once and can reuse and update them from one place",
+        "It makes the sandwich taste better",
+        "It automatically orders the bread for you",
+        "It hides the sandwich from view"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q122",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Functions as Abstraction",
+      "question": "True or False: A function lets you use a function name instead of writing all the steps again each time you need that task done.",
+      "explanation": "True — the chapter states: 'whenever you need that task done, you just use the function name instead of writing all the steps again.'",
+      "source": "book:page35",
+      "answer": true
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Functions as Abstraction",
+      "question": "Which statement about functions is a MISCONCEPTION?",
+      "explanation": "'You must rewrite a function's steps every single time you use it' is false — the entire benefit of a function is that you write the steps once and simply call the function by name afterward.",
+      "source": "book:page35",
+      "options": [
+        "You must rewrite a function's steps every single time you use it",
+        "A function is a named group of instructions for a specific task",
+        "Functions let you reuse code without rewriting it",
+        "Functions make it easier to update code in one place"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Functions as Abstraction",
+      "question": "'Think about this' prompt: How does updating code in only one place (using a function) save time in programming, according to the chapter's framing?",
+      "explanation": "If the recipe or logic ever needs to change, you fix it once inside the function instead of hunting down and fixing every repeated copy of that code, saving time and reducing the chance of missing a spot.",
+      "source": "facts:page11",
+      "options": [
+        "You fix the logic once instead of hunting down every repeated copy",
+        "You never need to test the code again",
+        "You automatically get more storage space",
+        "It changes the programming language being used"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Functions for Daily Routines & Reuse",
+      "question": "Book Activity 3 ('Find Abstraction Opportunities') asks students to write functions for which two daily routines shown in pictures?",
+      "explanation": "The activity shows a girl brushing her teeth and a girl eating breakfast, asking students to write and name a function for each routine.",
+      "source": "book:page36",
+      "options": [
+        "Brushing teeth and eating breakfast",
+        "Doing homework and sleeping",
+        "Riding a bike and swimming",
+        "Reading a book and drawing"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Functions for Daily Routines & Reuse",
+      "question": "The chapter suggests writing functions for daily routines like brushing teeth in order to:",
+      "explanation": "The chapter says writing functions for daily routines can help organize and simplify tasks.",
+      "source": "facts:page12",
+      "options": [
+        "Organize and simplify tasks",
+        "Make tasks take much longer",
+        "Confuse the reader",
+        "Avoid doing the task at all"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Functions for Daily Routines & Reuse",
+      "question": "In the Sprite Lab game example, the chapter mentions creating which two named functions?",
+      "explanation": "The chapter gives 'setupGame' and 'moveApple' as example function names used to organize and simplify a Sprite Lab game's code.",
+      "source": "facts:page14",
+      "options": [
+        "setupGame and moveApple",
+        "startEngine and stopEngine",
+        "openDoor and closeDoor",
+        "playMusic and pauseMusic"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Functions for Daily Routines & Reuse",
+      "question": "The chapter gives which real-life application for 'changes are easier with functions'?",
+      "explanation": "The chapter's real-life application example is 'fixing bugs efficiently in software development.'",
+      "source": "facts:page13",
+      "options": [
+        "Fixing bugs efficiently in software development",
+        "Buying groceries faster",
+        "Painting a fence",
+        "Watering a garden"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Functions for Daily Routines & Reuse",
+      "question": "The chapter mentions a function that makes a game character's what action easier, thanks to functions?",
+      "explanation": "The chapter gives 'a function for a game character's jump action' as an example of how functions make repetitive tasks easier.",
+      "source": "facts:page13",
+      "options": [
+        "Jump action",
+        "Sleep action",
+        "Eating action",
+        "Talking action"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q130",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Functions for Daily Routines & Reuse",
+      "question": "True or False: Functions help in reusing code blocks without recreating them each time.",
+      "explanation": "True — the chapter states this directly as a benefit of using functions in Sprite Lab.",
+      "source": "facts:page14",
+      "answer": true
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Functions for Daily Routines & Reuse",
+      "question": "Creating functions like 'setupGame' and 'moveApple' in Sprite Lab helps with what, according to the chapter?",
+      "explanation": "The chapter explains that creating these functions organizes and simplifies your code, making the whole game project easier to manage.",
+      "source": "facts:page14",
+      "options": [
+        "Organizing and simplifying your code",
+        "Making the game run on paper instead of a screen",
+        "Removing the need for any sprites",
+        "Deleting the game entirely"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Functions for Daily Routines & Reuse",
+      "question": "Based on the makeSandwich pattern, why would naming a daily-routine function 'brushTeeth' be useful?",
+      "explanation": "Just like 'makeSandwich' lets you reuse the same 5 steps by calling one name, naming a routine 'brushTeeth' lets you reuse and refer to that whole set of steps by a single name instead of rewriting them every time.",
+      "source": "(concept extension: book:page35-36)",
+      "options": [
+        "It lets you reuse the whole set of steps by calling one simple name",
+        "It makes brushing teeth take longer",
+        "It changes what toothpaste you use",
+        "It prevents you from ever brushing your teeth again"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Functions for Daily Routines & Reuse",
+      "question": "Which of these is NOT a benefit of functions mentioned in the chapter?",
+      "explanation": "The chapter never claims functions make code longer or harder to read — the opposite is true: functions simplify code and make repetitive tasks easier.",
+      "source": "facts:page13-14",
+      "options": [
+        "Functions make repetitive tasks easier",
+        "Functions let you update code in one place",
+        "Functions help reuse code blocks without recreating them",
+        "Functions make code longer and harder to read"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Big Three Concepts Recap",
+      "question": "In the chapter's recap, which concept does 'vacuuming is one task in cleaning a house' illustrate?",
+      "explanation": "The chapter's recap gives 'vacuuming is one task in cleaning a house' as the example for problem decomposition.",
+      "source": "facts:page15",
+      "options": [
+        "Problem decomposition",
+        "Pattern recognition",
+        "Abstraction",
+        "Debugging"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Big Three Concepts Recap",
+      "question": "In the chapter's recap, which concept does 'days of the week follow a repeating pattern' illustrate?",
+      "explanation": "The chapter's recap gives 'days of the week follow a repeating pattern' as the example for pattern recognition.",
+      "source": "facts:page15",
+      "options": [
+        "Pattern recognition",
+        "Problem decomposition",
+        "Abstraction",
+        "A function"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Big Three Concepts Recap",
+      "question": "In the chapter's recap, which concept does 'using a TV remote without understanding all circuits' illustrate?",
+      "explanation": "The chapter's recap gives 'using a TV remote without understanding all circuits' as the example for abstraction.",
+      "source": "facts:page15",
+      "options": [
+        "Abstraction",
+        "Problem decomposition",
+        "Pattern recognition",
+        "A loop"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q137",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Big Three Concepts Recap",
+      "question": "Select ALL three big concepts covered by this chapter (Complex Problem Solving).",
+      "explanation": "The chapter's subtopics, confirmed by the worksheet header and recap, are Problem Decomposition, Pattern Recognition, and Abstraction.",
+      "source": "chapter.json / facts:page15",
+      "options": [
+        "Problem Decomposition",
+        "Pattern Recognition",
+        "Abstraction",
+        "Grammar Rules"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Big Three Concepts Recap",
+      "question": "The chapter's recap says 'decorating a party by dividing tasks among friends' illustrates which concept?",
+      "explanation": "The recap uses 'decorating a party by dividing tasks among friends' as its example for breaking problems into smaller parts, i.e., problem decomposition.",
+      "source": "facts:page17",
+      "options": [
+        "Problem decomposition",
+        "Pattern recognition",
+        "Abstraction",
+        "A crossword puzzle"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q139",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Big Three Concepts Recap",
+      "question": "The chapter's recap gives 'using a loop in coding to repeat actions efficiently' as an example of which concept?",
+      "explanation": "The recap's example for pattern recognition working smarter through reuse is 'using a loop in coding to repeat actions efficiently.'",
+      "source": "facts:page16",
+      "options": [
+        "Pattern recognition",
+        "Problem decomposition",
+        "Abstraction",
+        "Debugging"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q140",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Big Three Concepts Recap",
+      "question": "True or False: Breaking problems into smaller parts makes them easier to understand and solve, according to the chapter's recap.",
+      "explanation": "True — the recap restates this as one of the chapter's core lessons.",
+      "source": "facts:page17",
+      "answer": true
+    },
+    {
+      "id": "q141",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Big Three Concepts Recap",
+      "question": "Match check — select ALL statements that correctly pair a concept with its chapter example.",
+      "explanation": "The correct pairings from the chapter's recap are: vacuuming with decomposition, days-of-the-week with pattern recognition, and TV remote with abstraction. Pairing 'TV remote' with pattern recognition is incorrect — TV remote is the abstraction example.",
+      "source": "facts:page15",
+      "options": [
+        "Vacuuming a house — problem decomposition",
+        "Days of the week repeating — pattern recognition",
+        "Using a TV remote — abstraction",
+        "Using a TV remote — pattern recognition"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "q142",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Big Three Concepts Recap",
+      "question": "Which of these three ideas is being demonstrated when a student plans a birthday party by breaking it into decorations, invitations, and gift wrapping?",
+      "explanation": "Breaking one big task (planning a birthday party) into smaller, separate tasks (decorations, invitations, gift wrapping) is problem decomposition.",
+      "source": "facts:page18",
+      "options": [
+        "Problem decomposition",
+        "Pattern recognition",
+        "Abstraction",
+        "A loop"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q143",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Big Three Concepts Recap",
+      "question": "According to the chapter, why is it useful to know all three concepts — decomposition, pattern recognition, and abstraction — together?",
+      "explanation": "Using decomposition to break a big project into parts, pattern recognition to reuse solutions for repeating parts, and abstraction to hide unneeded details lets you tackle complex, real-world tasks (like planning a birthday party) efficiently and manageably.",
+      "source": "facts:page18",
+      "options": [
+        "Together they let you plan and manage complex, real-world tasks efficiently",
+        "They are only useful for playing video games",
+        "They replace the need for any planning at all",
+        "They only apply to cleaning a bedroom"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q144",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Milestone Review: Fill in the Blanks",
+      "question": "Milestone review word bank: 'Problem decomposition means breaking a big, difficult problem into ___, ___ parts.'",
+      "explanation": "Using the word bank, the correct pair is 'smaller, easier' — matching the chapter's core definition of decomposition.",
+      "source": "book:page39",
+      "options": [
+        "smaller, easier",
+        "bigger, harder",
+        "colourful, loud",
+        "quiet, slow"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q145",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Milestone Review: Fill in the Blanks",
+      "question": "Milestone review word bank: 'When organizing a bedroom... putting away clothes, organizing books, cleaning the desk, and ___ the floor.'",
+      "explanation": "The missing word from the word bank is 'vacuum' — vacuuming the floor is the last of the four bedroom tasks.",
+      "source": "book:page39",
+      "options": [
+        "vacuum",
+        "repeat",
+        "function",
+        "important"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q146",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Milestone Review: Fill in the Blanks",
+      "question": "Milestone review word bank: 'Pattern recognition means finding things that ___ or are similar.'",
+      "explanation": "The missing word is 'repeat' — pattern recognition means finding things that repeat or are similar.",
+      "source": "book:page39",
+      "options": [
+        "repeat",
+        "vacuum",
+        "function",
+        "important"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q147",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Milestone Review: Fill in the Blanks",
+      "question": "Milestone review word bank: 'A ___ is a named group of instructions that performs a specific task in programming.'",
+      "explanation": "The missing word is 'function' — matching the chapter's core definition.",
+      "source": "book:page39",
+      "options": [
+        "function",
+        "smaller",
+        "vacuum",
+        "repeat"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q148",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Milestone Review: Fill in the Blanks",
+      "question": "Milestone True/False #1: Problem decomposition makes big tasks more difficult to manage.",
+      "explanation": "False — the Milestone review corrects this: decomposition makes big tasks EASIER to manage, not more difficult.",
+      "source": "book:page39",
+      "answer": false
+    },
+    {
+      "id": "q149",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Milestone Review: Fill in the Blanks",
+      "question": "Milestone True/False #2: Pattern recognition helps you work smarter by using the same solution multiple times.",
+      "explanation": "True — this matches the chapter's repeated message that recognizing patterns lets you reuse solutions and work smarter, not harder.",
+      "source": "book:page40",
+      "answer": true
+    },
+    {
+      "id": "q150",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Milestone Review: Fill in the Blanks",
+      "question": "Select ALL words that appear in the Milestone review's fill-in-the-blank word bank on page 39.",
+      "explanation": "The Milestone review's word bank on page 39 lists: important, smaller, function, easier, vacuum, and repeat. 'Loop' is not part of this particular word bank.",
+      "source": "book:page39",
+      "options": [
+        "important",
+        "smaller",
+        "function",
+        "easier",
+        "vacuum",
+        "repeat",
+        "loop"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "q151",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Milestone Review: Fill in the Blanks",
+      "question": "Which of these words does NOT appear in the Milestone review's word bank on page 39?",
+      "explanation": "The page-39 word bank is: important, smaller, function, easier, vacuum, repeat. 'Decomposition' itself is not one of the six word-bank words, even though it is the concept being defined.",
+      "source": "book:page39",
+      "options": [
+        "smaller",
+        "vacuum",
+        "decomposition",
+        "function"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "q152",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Milestone Review: Fill in the Blanks",
+      "question": "Where in the chapter's structure does this fill-in-the-blank and True/False review appear?",
+      "explanation": "This review appears in the 'Milestone' section near the end of the chapter (around pages 39-40), which checks understanding of all the chapter's key ideas.",
+      "source": "book:page39-40",
+      "options": [
+        "The Milestone section near the end of the chapter",
+        "The very first page of the chapter",
+        "Inside the crossword puzzle",
+        "In the answer key only"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q153",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Milestone Review: Tick the Correct Option",
+      "question": "Milestone MCQ #1: What is the main benefit of breaking problems into smaller parts?",
+      "explanation": "It makes smaller problems easier to understand and solve — the other options describe the opposite of decomposition's real benefits.",
+      "source": "book:page42",
+      "options": [
+        "It makes smaller problems easier to understand and solve",
+        "It makes the problem more complicated to understand",
+        "It requires more time to complete the entire task",
+        "It prevents you from working with other team members"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q154",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Milestone Review: Tick the Correct Option",
+      "question": "Milestone MCQ #2: Which of these is an example of pattern recognition in daily life?",
+      "explanation": "Days of the week repeating every seven days regularly is the correct answer — the other options describe things with no repeating structure.",
+      "source": "book:page42",
+      "options": [
+        "Days of the week repeating every seven days regularly",
+        "Trying a completely new method for each task you do",
+        "Making every paper flower using a different technique",
+        "Creating a unique schedule for every single Monday"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q155",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Milestone Review: Tick the Correct Option",
+      "question": "Milestone MCQ #3: What does a TV remote demonstrate about abstraction?",
+      "explanation": "You can control a complex machine with simple buttons — you don't need to understand the circuits inside the TV or write any code to use it.",
+      "source": "book:page42",
+      "options": [
+        "You can control a complex machine with simple buttons",
+        "You must understand all circuits to change the channel",
+        "You need to know the technology inside to use it",
+        "You have to write code to make the remote function"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q156",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Milestone Review: Tick the Correct Option",
+      "question": "Milestone MCQ #4: How many times do you need to write the sandwich-making steps when using a function?",
+      "explanation": "You only need to write the steps once in a function, then call the function's name whenever you need those steps repeated.",
+      "source": "book:page42",
+      "options": [
+        "You only need to write the steps once in function",
+        "You need to write the steps three times for sandwiches",
+        "You need to write the steps fifteen times in total",
+        "You need to write the steps twice for each sandwich"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q157",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Milestone Review: Tick the Correct Option",
+      "question": "Milestone MCQ #5: What is the main advantage of using functions when you need to make changes?",
+      "explanation": "You only change the code in one place inside the function, instead of hunting down and editing every repeated copy of that code.",
+      "source": "book:page43",
+      "options": [
+        "You only change the code in one place inside function",
+        "You have to change the code in multiple different places",
+        "You need to find every place where you wrote code",
+        "You must rewrite the entire program from the very beginning"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q158",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Milestone Review: Tick the Correct Option",
+      "question": "In Milestone MCQ #1, why is 'it prevents you from working with other team members' the WRONG answer?",
+      "explanation": "This is wrong because decomposition actually HELPS teamwork — different people can work on different parts of a project at the same time, which is one of the chapter's stated benefits.",
+      "source": "book:page28 / book:page42",
+      "options": [
+        "Because decomposition actually helps teams work on different parts at the same time",
+        "Because teams are not allowed in programming",
+        "Because it is a trick question with no correct answer",
+        "Because decomposition removes the need for a team entirely"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q159",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Milestone Review: Tick the Correct Option",
+      "question": "True or False: According to the Milestone MCQ section, writing every step in detail is the BEST example of abstraction.",
+      "explanation": "False — the Milestone MCQ's best example of abstraction is 'using a smartphone without knowing millions of code lines,' not writing every step in detail (which is the opposite of abstraction).",
+      "source": "book:page42",
+      "answer": false
+    },
+    {
+      "id": "q160",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Milestone Review: Tick the Correct Option",
+      "question": "How many multiple-choice 'Tick the correct option' questions appear in the book's Milestone review section (pages 42-43)?",
+      "explanation": "The Milestone review's 'Tick the correct option' section has exactly 5 questions, covering decomposition, pattern recognition, abstraction, and functions (twice).",
+      "source": "book:page42-43",
+      "options": [
+        "5",
+        "3",
+        "8",
+        "10"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q161",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet L1 Recap",
+      "question": "Worksheet L1's word box includes: movements, complex, decomposition, function, and which other word?",
+      "explanation": "The worksheet's word box for the fill-in-the-blanks activity lists: movements, complex, decomposition, function, and pattern.",
+      "source": "worksheet-L1 Q1",
+      "options": [
+        "pattern",
+        "abstraction",
+        "loop",
+        "recipe"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q162",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Worksheet L1 Recap",
+      "question": "Select ALL five words provided in Worksheet L1's word box for the fill-in-the-blank activity.",
+      "explanation": "Worksheet L1's word box has exactly these five words: movements, complex, decomposition, function, pattern.",
+      "source": "worksheet-L1 Q1",
+      "options": [
+        "movements",
+        "complex",
+        "decomposition",
+        "function",
+        "pattern",
+        "loop"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "q163",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Worksheet L1 Recap",
+      "question": "True or False: Worksheet L1's True/False section corrects exactly two of its five statements as False.",
+      "explanation": "True — items (a) and (e) are corrected as False in the answer key ('makes tasks easier to manage' and 'you don't need to understand all complex details'), while (b), (c), and (d) are True.",
+      "source": "worksheet-L1 Q2 (answer key)",
+      "answer": true
+    },
+    {
+      "id": "q164",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet L1 Recap",
+      "question": "According to Worksheet L1's answer key, item (d), 'Days of the week repeating every seven days is an example of a pattern in daily life,' is:",
+      "explanation": "The answer key marks this statement as True.",
+      "source": "worksheet-L1 Q2d (answer key)",
+      "options": [
+        "True",
+        "False",
+        "Half true",
+        "Not mentioned in the chapter"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q165",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet L1 Recap",
+      "question": "According to Worksheet L1's answer key, item (b), 'A TV remote is an example of abstraction because you can control a complex machine with simple buttons,' is:",
+      "explanation": "The answer key marks this statement as True.",
+      "source": "worksheet-L1 Q2b (answer key)",
+      "options": [
+        "True",
+        "False",
+        "Half true",
+        "Not mentioned in the chapter"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q166",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet L1 Recap",
+      "question": "Worksheet L1 is labelled with a duration of about how many minutes?",
+      "explanation": "The worksheet's header states '15 min' as the suggested duration.",
+      "source": "worksheet-L1 (page header)",
+      "options": [
+        "15 minutes",
+        "60 minutes",
+        "5 minutes",
+        "120 minutes"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q167",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet L1 Recap",
+      "question": "According to Worksheet L1's answer key, how should item (a) — 'Problem decomposition makes big tasks more difficult to handle' — be corrected?",
+      "explanation": "The answer key corrects this False statement to: 'Problem decomposition makes big tasks easier to manage.'",
+      "source": "worksheet-L1 Q2a (answer key)",
+      "options": [
+        "Problem decomposition makes big tasks easier to manage",
+        "Problem decomposition makes big tasks impossible",
+        "Problem decomposition removes the need for teams",
+        "Problem decomposition is only used in art class"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q168",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet L1 Recap",
+      "question": "According to Worksheet L1's answer key, how should item (e) — 'Abstraction requires you to understand all the complex details inside a device to use it' — be corrected?",
+      "explanation": "The answer key corrects this False statement to: 'Abstraction means you don't need to understand all complex details to use a device.'",
+      "source": "worksheet-L1 Q2e (answer key)",
+      "options": [
+        "Abstraction means you don't need to understand all complex details to use a device",
+        "Abstraction means you must be an engineer to use any device",
+        "Abstraction has nothing to do with devices",
+        "Abstraction always requires writing new code"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q169",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet L2 & Crossword",
+      "question": "Worksheet L2 tick question: Which is an example of problem decomposition?",
+      "explanation": "'Breaking bedroom cleaning into: put away clothes, organize books, clean desk' correctly shows a big task split into smaller parts, unlike the other options which describe doing everything at once.",
+      "source": "worksheet-L2 Q1a",
+      "options": [
+        "Breaking bedroom cleaning into: put away clothes, organize books, clean desk",
+        "Trying to clean your entire house at once",
+        "Doing all homework subjects together without planning",
+        "Making all decisions at the same time"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q170",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet L2 & Crossword",
+      "question": "Worksheet L2 is labelled with a duration of about how many minutes?",
+      "explanation": "Worksheet L2's header states '30 min' as the suggested duration.",
+      "source": "worksheet-L2 (page header)",
+      "options": [
+        "30 minutes",
+        "5 minutes",
+        "10 minutes",
+        "90 minutes"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q171",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet L2 & Crossword",
+      "question": "Crossword clue: 'To make something less complicated means to make it ___.'",
+      "explanation": "The crossword's answer here is 'simple' — making something less complicated means making it simpler/simple.",
+      "source": "worksheet-L2 crossword (across)",
+      "options": [
+        "simple",
+        "smaller",
+        "complex",
+        "loop"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q172",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet L2 & Crossword",
+      "question": "Crossword clue: 'A problem can be cut into parts or ___.'",
+      "explanation": "The crossword's answer here is 'tasks' — a problem can be cut into parts, which are often called tasks.",
+      "source": "worksheet-L2 crossword (across)",
+      "options": [
+        "tasks",
+        "codes",
+        "loops",
+        "sounds"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q173",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet L2 & Crossword",
+      "question": "Crossword clue: 'Instructions that tell the computer what to do.'",
+      "explanation": "The crossword's answer here is 'codes' — code is the set of instructions that tells a computer what to do.",
+      "source": "worksheet-L2 crossword (across)",
+      "options": [
+        "codes",
+        "tasks",
+        "simple",
+        "pattern"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q174",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Worksheet L2 & Crossword",
+      "question": "Select ALL five crossword answer words used in Worksheet L2's puzzle.",
+      "explanation": "The crossword's five answers are: simple, tasks, codes, pattern, and loop — covering vocabulary from all three of the chapter's big ideas.",
+      "source": "worksheet-L2 crossword",
+      "options": [
+        "simple",
+        "tasks",
+        "codes",
+        "pattern",
+        "loop",
+        "function"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "q175",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Worksheet L2 & Crossword",
+      "question": "True or False: Worksheet L2 includes both a 'Tick the correct option' section and a crossword puzzle.",
+      "explanation": "True — Worksheet L2 has question 1 as a 'Tick the correct option' section (4 questions) and question 2 as a crossword puzzle.",
+      "source": "worksheet-L2",
+      "answer": true
+    },
+    {
+      "id": "q176",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Worksheet L2 & Crossword",
+      "question": "Why is 'Making all decisions at the same time' the WRONG answer for Worksheet L2's problem-decomposition question?",
+      "explanation": "This describes doing everything at once with no breakdown into smaller parts — the opposite of decomposition, which specifically means splitting a big task into smaller, manageable pieces.",
+      "source": "worksheet-L2 Q1a",
+      "options": [
+        "It describes doing everything at once, with no breakdown into smaller parts",
+        "It is actually the correct answer",
+        "Decisions cannot be part of any problem",
+        "It uses too many words"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q177",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Step Ahead: Plan Your Dream Birthday Party",
+      "question": "In the 'Plan Your Dream Birthday Party' activity, what is the big task being broken down using problem decomposition?",
+      "explanation": "The big task is 'Organize a birthday party,' which students then break into 3 smaller tasks.",
+      "source": "book:page43",
+      "options": [
+        "Organize a birthday party",
+        "Write a computer program",
+        "Draw a hexagon",
+        "Clean a bedroom"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q178",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Step Ahead: Plan Your Dream Birthday Party",
+      "question": "How many smaller tasks does Part 1 of the birthday party activity ask you to break 'Organize a birthday party' into?",
+      "explanation": "Part 1 asks students to break the big task into exactly 3 smaller tasks.",
+      "source": "book:page43",
+      "options": [
+        "3",
+        "5",
+        "2",
+        "10"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q179",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Step Ahead: Plan Your Dream Birthday Party",
+      "question": "What example small task is already filled in for Part 1 of the birthday party activity?",
+      "explanation": "The example given is 'Decorations and Venue,' with the example action 'Choose a place.'",
+      "source": "book:page43",
+      "options": [
+        "Decorations and Venue",
+        "Food and Drinks",
+        "Guest List",
+        "Music and Games"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q180",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Step Ahead: Plan Your Dream Birthday Party",
+      "question": "In Part 2 ('Spot the Pattern'), how many friends need invitation cards?",
+      "explanation": "The activity states you need to make invitation cards for 5 friends, each card needing the same information.",
+      "source": "book:page43",
+      "options": [
+        "5",
+        "3",
+        "10",
+        "2"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q181",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Step Ahead: Plan Your Dream Birthday Party",
+      "question": "Why does making invitation cards for 5 friends use pattern recognition, according to the activity?",
+      "explanation": "Because each card needs the same repeated information/format, recognizing this repeating pattern means you can reuse the same design or template for every card instead of designing each one differently.",
+      "source": "book:page43",
+      "options": [
+        "Because each card needs the same repeated information, so the same design can be reused",
+        "Because each card must be a completely different colour",
+        "Because you only need to make one single card total",
+        "Because pattern recognition has nothing to do with cards"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q182",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Step Ahead: Plan Your Dream Birthday Party",
+      "question": "In Part 3 ('Create a Function'), how many steps are needed to wrap ONE gift bag?",
+      "explanation": "The activity lists exactly 4 steps for wrapping one gift bag: put gift inside, close the bag, add tissue paper, and stick a name tag.",
+      "source": "book:page44",
+      "options": [
+        "4",
+        "2",
+        "6",
+        "8"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q183",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Step Ahead: Plan Your Dream Birthday Party",
+      "question": "Select ALL 4 steps listed for wrapping ONE gift bag in Part 3 of the birthday party activity.",
+      "explanation": "The activity's 4 gift-wrapping steps are: put gift inside, close the bag, add tissue paper, and stick a name tag.",
+      "source": "book:page44",
+      "options": [
+        "Put gift inside",
+        "Close the bag",
+        "Add tissue paper",
+        "Stick a name tag",
+        "Blow up balloons"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "q184",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Step Ahead: Plan Your Dream Birthday Party",
+      "question": "What example function name does the activity suggest for the gift-wrapping task?",
+      "explanation": "The activity suggests the example function name 'wrapGift.'",
+      "source": "book:page44",
+      "options": [
+        "wrapGift",
+        "makeSandwich",
+        "setupGame",
+        "moveApple"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q185",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Step Ahead: Plan Your Dream Birthday Party",
+      "question": "WITHOUT using a function, how many lines of instructions would you write for wrapping 5 gift bags, if each bag needs 4 steps?",
+      "explanation": "Without a function, you must repeat all 4 steps for each of the 5 bags: 4 x 5 = 20 lines of instructions total.",
+      "source": "book:page44",
+      "options": [
+        "20",
+        "4",
+        "9",
+        "5"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q186",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Step Ahead: Plan Your Dream Birthday Party",
+      "question": "WITH a function for wrapping gift bags, how many times do you need to write out the 4 wrapping steps?",
+      "explanation": "With a function, you write the 4 steps only once (inside the function), then call that function 5 times — one call per gift bag.",
+      "source": "book:page44",
+      "options": [
+        "Once",
+        "Four times",
+        "Five times",
+        "Twenty times"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q187",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Step Ahead: Plan Your Dream Birthday Party",
+      "question": "Which approach does the activity's question 'Which approach is SMARTER: Without functions / With functions' clearly point to as the better choice?",
+      "explanation": "Using functions is smarter because it avoids repeating the same 4 steps 5 separate times — you write the steps once and reuse them, saving effort and making changes easier.",
+      "source": "book:page44",
+      "options": [
+        "With functions, because you avoid repeating the same steps multiple times",
+        "Without functions, because repeating steps is always faster",
+        "Neither approach works for gift bags",
+        "It depends only on the colour of the gift bag"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q188",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Step Ahead: Plan Your Dream Birthday Party",
+      "question": "True or False: The 'Plan Your Dream Birthday Party' activity uses all three concepts from the chapter — problem decomposition, pattern recognition, and abstraction.",
+      "explanation": "True — Part 1 uses problem decomposition (breaking the party into smaller tasks), Part 2 uses pattern recognition (repeated invitation card info), and Part 3 uses abstraction with functions (the wrapGift function).",
+      "source": "book:page43-44",
+      "answer": true
+    },
+    {
+      "id": "q189",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Step Ahead: Plan Your Dream Birthday Party",
+      "question": "Which part of the birthday party activity corresponds to 'Create a Function! (Abstraction)'?",
+      "explanation": "Part 3 of the activity is titled 'Create a Function! (Abstraction)' and focuses on the gift-wrapping task.",
+      "source": "book:page44",
+      "options": [
+        "Part 3",
+        "Part 1",
+        "Part 2",
+        "Part 4"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q190",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Step Ahead: Plan Your Dream Birthday Party",
+      "question": "Which part of the birthday party activity corresponds to 'Break It Down! (Problem Decomposition)'?",
+      "explanation": "Part 1 of the activity is titled 'Break It Down! (Problem Decomposition)' and focuses on splitting 'Organize a birthday party' into 3 smaller tasks.",
+      "source": "book:page43",
+      "options": [
+        "Part 1",
+        "Part 2",
+        "Part 3",
+        "Part 4"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q191",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Step Ahead: Plan Your Dream Birthday Party",
+      "question": "Which part of the birthday party activity corresponds to 'Spot the Pattern! (Pattern Recognition)'?",
+      "explanation": "Part 2 of the activity is titled 'Spot the Pattern! (Pattern Recognition)' and focuses on making invitation cards for 5 friends with repeated information.",
+      "source": "book:page43",
+      "options": [
+        "Part 2",
+        "Part 1",
+        "Part 3",
+        "Part 4"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q192",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Problem Decomposition Basics",
+      "question": "A student says: 'Decomposition means solving the WHOLE problem faster by skipping steps.' What is wrong with this statement?",
+      "explanation": "Decomposition is not about skipping steps — it's about breaking the big problem into smaller, complete parts that are each solved fully, making the overall problem more manageable, not about doing less work.",
+      "source": "book:page28",
+      "options": [
+        "Decomposition breaks the problem into smaller complete parts, it does not skip steps",
+        "This statement is completely correct",
+        "Decomposition only works for math problems",
+        "Decomposition means doing the problem twice"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q193",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Problem Decomposition Basics",
+      "question": "The chapter's 'Think about this' prompt on page 1 asks how many different keys could exist for different types of locks. What broader idea does this prompt introduce at the start of the chapter?",
+      "explanation": "This opening prompt introduces the chapter's overall theme: solving complex problems often involves finding creative solutions to challenges, just like different keys are needed for different locks.",
+      "source": "facts:page1",
+      "options": [
+        "Complex problem solving often involves finding creative solutions",
+        "All locks use the exact same key",
+        "Keys are not related to problem solving",
+        "Locks cannot be opened without a key"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q194",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Why Decomposition Matters",
+      "question": "Which statement correctly completes the idea: 'Decomposition helps with debugging because...'",
+      "explanation": "Decomposition helps with debugging because it's easier to find and fix a problem in a small section than to search through an entire, undivided program.",
+      "source": "facts:page2",
+      "options": [
+        "it's easier to find and fix a problem in a small section",
+        "bugs disappear automatically once a project is divided",
+        "it prevents any bugs from ever being written",
+        "it requires you to rewrite the entire program from scratch"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q195",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Why Decomposition Matters",
+      "question": "True or False: According to the chapter, decomposition means every part of a project must be solved by a different specialist, not by the same person or team.",
+      "explanation": "False — the chapter never requires different specialists; it simply explains that decomposition lets different people (if working in a team) work on different parts at the same time. One person can still handle several parts.",
+      "source": "book:page28",
+      "answer": false
+    },
+    {
+      "id": "q196",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "School Festival Example",
+      "question": "If a classmate mixes up the parts and says 'testing the sound system' belongs to the 'Food and drinks' part of the festival, what is the mistake?",
+      "explanation": "Testing the sound system belongs to 'Venue' setup (along with booking space and arranging tables), not 'Food and drinks' (which covers menu, supplies, and servers).",
+      "source": "facts:page3",
+      "options": [
+        "Testing the sound system belongs to Venue setup, not Food and drinks",
+        "There is no mistake — this is correct",
+        "Testing the sound system belongs to Activities and games",
+        "The festival has no venue at all"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q197",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "School Festival Example",
+      "question": "Why might a school choose to decompose 'organize a festival' into venue, activities, and food instead of assigning the whole festival to one person?",
+      "explanation": "Splitting the festival into three parts lets different teams handle each part at the same time, making the huge task feel manageable and letting the project finish faster, per the chapter's stated benefits of decomposition.",
+      "source": "facts:page2-3",
+      "options": [
+        "It lets different teams work on separate parts at the same time, finishing faster",
+        "It guarantees no mistakes will ever be made",
+        "It means only the principal can organize festivals",
+        "It removes the need for a venue entirely"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q198",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pattern Recognition Basics & Types",
+      "question": "Which of these is the closest DISTRACTOR to a true pattern, according to the chapter's Worksheet L2 tick question?",
+      "explanation": "'Random numbers: 5, 17, 3, 92, 1' looks like a list of numbers (similar to skip counting) but has no repeating rule — making it a common but incorrect answer for students who don't look closely for the rule.",
+      "source": "worksheet-L2 Q1b",
+      "options": [
+        "Random numbers: 5, 17, 3, 92, 1",
+        "Skip counting: 2, 4, 6, 8, 10",
+        "A repeating floor tile design",
+        "Days of the week repeating"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q199",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Pattern Recognition Basics & Types",
+      "question": "Select ALL statements that are FALSE about pattern recognition, according to the chapter.",
+      "explanation": "Both of these are false: pattern recognition is about finding repeats or similarities (not differences), and it helps you work smarter (not harder). The chapter never claims patterns only exist in mathematics.",
+      "source": "facts:page6-7",
+      "options": [
+        "Pattern recognition means finding things that are always different from each other",
+        "Recognizing patterns makes you work harder, not smarter",
+        "Pattern recognition means finding things that repeat or are similar",
+        "Recognizing patterns can help with time management"
+      ],
+      "answer": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q200",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pattern Recognition Basics & Types",
+      "question": "How does the chapter connect pattern recognition to multiplication tables?",
+      "explanation": "The chapter states that multiplication tables use patterns to simplify calculations, similar to how skip counting follows a repeating pattern.",
+      "source": "facts:page7",
+      "options": [
+        "Multiplication tables use patterns to simplify calculations",
+        "Multiplication tables have no patterns at all",
+        "Multiplication tables are a form of abstraction",
+        "Multiplication tables are only used for decomposition"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q201",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Patterns in Programming",
+      "question": "A student claims: 'A loop and a function do exactly the same thing in programming.' What is inaccurate about this claim, based on the chapter?",
+      "explanation": "A loop repeats the SAME action multiple times in a row (pattern recognition), while a function is a named, reusable group of instructions you can call whenever needed (abstraction) — they solve different, related problems, not the exact same thing.",
+      "source": "facts:page6 / facts:page10",
+      "options": [
+        "A loop repeats an action; a function is a named, reusable group of instructions",
+        "They are identical in every single way",
+        "Neither loops nor functions exist in programming",
+        "Loops are only used for sounds, and functions only for graphics"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q202",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Patterns in Programming",
+      "question": "Using templates for repetitive tasks is given by the chapter as a real-life application of which idea?",
+      "explanation": "The chapter's real-life application example, 'using templates for repetitive tasks,' illustrates the benefit of recognizing patterns to work smarter, not harder.",
+      "source": "facts:page7",
+      "options": [
+        "Pattern recognition",
+        "Problem decomposition",
+        "Abstraction",
+        "Debugging"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q203",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Drawing Shapes with Pattern Recognition",
+      "question": "A student draws a shape by repeating 'draw a line, turn right 45 degrees' eight times. Based on the chapter's rule, how many sides does this shape have?",
+      "explanation": "Using the chapter's rule (angle = 360 ÷ number of sides), 360 ÷ 45 = 8, so the shape has 8 sides (an octagon).",
+      "source": "(concept extension: general formula, book:page34)",
+      "options": [
+        "8 sides",
+        "4 sides",
+        "6 sides",
+        "10 sides"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q204",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Drawing Shapes with Pattern Recognition",
+      "question": "What does the chapter mean when it says a square, triangle, and hexagon 'all repeat the same two steps'?",
+      "explanation": "It means every shape-drawing instruction set is built from just two repeating actions — draw a line forward, then turn — with only the number of repeats and the turning angle changing between shapes.",
+      "source": "book:page33",
+      "options": [
+        "Every shape uses the same 'draw a line, then turn' pattern, just repeated differently",
+        "Every shape must be drawn with exactly two lines",
+        "Every shape has exactly two sides",
+        "Every shape takes exactly two minutes to draw"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q205",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Abstraction Basics",
+      "question": "Which of these BEST explains why 'abstraction' is a helpful word for hiding complex details, based on how the chapter uses the TV remote example?",
+      "explanation": "Abstraction 'abstracts away' (hides) the messy inner workings — circuits, signals, and technology — so the user only interacts with a simple, understandable layer (buttons) on top.",
+      "source": "book:page35",
+      "options": [
+        "It hides the messy inner workings, leaving only a simple layer to interact with",
+        "It means adding more complexity to a device",
+        "It means removing all buttons from a remote",
+        "It has nothing to do with hiding details"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q206",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Abstraction Basics",
+      "question": "The chapter says abstraction lets programmers 'focus on what something does instead of how it does it.' Which everyday example best matches this idea?",
+      "explanation": "Using a smartphone icon to open an app is a good match: you know WHAT it does (opens the app) without knowing HOW the underlying code works.",
+      "source": "book:page35",
+      "options": [
+        "Tapping a smartphone icon without knowing the underlying code",
+        "Reading every line of a program's source code before using it",
+        "Building a TV from individual electronic components",
+        "Memorizing a device's entire circuit diagram"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q207",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Functions as Abstraction",
+      "question": "A student claims: 'Using a function always makes a program run on a different computer.' Why is this false, based on the chapter?",
+      "explanation": "The chapter never says functions change WHERE a program runs — functions are about organizing and reusing code (fewer repeated steps, easier updates), not about which computer runs it.",
+      "source": "book:page35",
+      "options": [
+        "Functions are about reusing and organizing code, not about which computer runs it",
+        "This statement is completely true",
+        "Functions can only run on smartphones",
+        "Functions delete the computer's memory"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q208",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Functions as Abstraction",
+      "question": "Comparing 15 total steps (without a function) to writing 5 steps once (with 'makeSandwich'), what is saved by using the function?",
+      "explanation": "Using the function saves the effort of writing (and later updating) the same 5 steps three separate times — you write them once and reuse them by simply calling the function's name.",
+      "source": "book:page35",
+      "options": [
+        "The effort of writing and updating the same steps multiple times",
+        "The taste of the sandwich",
+        "The type of bread used",
+        "The number of vegetables in the sandwich"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q209",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Functions as Abstraction",
+      "question": "Select ALL statements that correctly compare 'with function' vs 'without function' for making 3 sandwiches, based on the chapter.",
+      "explanation": "Without a function, you repeat all 5 steps for each of the 3 sandwiches (15 steps total). With a function, you write the 5 steps once and call 'makeSandwich' three times — and if you want to change the recipe, you only update it once.",
+      "source": "book:page35",
+      "options": [
+        "Without a function, you write 15 steps in total",
+        "With a function, you write the 5 steps only once",
+        "With a function, you only update the recipe in one place if it changes",
+        "Without a function, you write only 5 steps in total"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "q210",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Functions for Daily Routines & Reuse",
+      "question": "A student thinks giving a function a name like 'setupGame' is just for decoration and doesn't matter. Why is this wrong, based on the chapter?",
+      "explanation": "The function's name is how you call and reuse the whole group of instructions later — without a clear name, you couldn't easily reuse or identify what the group of instructions does.",
+      "source": "facts:page14",
+      "options": [
+        "The name lets you call and reuse the instructions later by referring to it",
+        "The name changes the colours in the game",
+        "The name has no effect on anything at all",
+        "The name determines how many sprites the game has"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q211",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Functions for Daily Routines & Reuse",
+      "question": "Why does the chapter connect 'functions help you reuse code blocks' with efficiency in programming?",
+      "explanation": "Reusing existing code blocks (via functions) means programmers don't have to recreate the same instructions every time they're needed, saving time and reducing repeated work.",
+      "source": "facts:page14",
+      "options": [
+        "Because it saves time by avoiding recreating the same instructions repeatedly",
+        "Because it makes the code run in a different language",
+        "Because it removes all sprites from a game",
+        "Because it deletes the function immediately after use"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q212",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Big Three Concepts Recap",
+      "question": "A classmate mixes up examples and says 'using a loop in coding' illustrates abstraction rather than pattern recognition. What is the mistake?",
+      "explanation": "The chapter's recap specifically gives 'using a loop in coding to repeat actions efficiently' as the example for PATTERN RECOGNITION (reusing solutions), not abstraction (hiding complex details).",
+      "source": "facts:page16",
+      "options": [
+        "Using a loop illustrates pattern recognition (reusing solutions), not abstraction",
+        "There is no mistake, both are correct",
+        "Loops illustrate problem decomposition instead",
+        "Loops are not related to any of the three concepts"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q213",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Big Three Concepts Recap",
+      "question": "Select ALL examples that the chapter's recap correctly pairs with problem decomposition.",
+      "explanation": "The recap pairs problem decomposition with: 'vacuuming is one task in cleaning a house' and 'decorating a party by dividing tasks among friends.' The TV remote example belongs to abstraction, not decomposition.",
+      "source": "facts:page15 / facts:page17",
+      "options": [
+        "Vacuuming is one task in cleaning a house",
+        "Decorating a party by dividing tasks among friends",
+        "Using a TV remote without understanding all circuits"
+      ],
+      "answer": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q214",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Milestone Review: Fill in the Blanks",
+      "question": "In the Milestone word bank (important, smaller, function, easier, vacuum, repeat), which word correctly completes BOTH the decomposition blank AND connects to 'making tasks manageable'?",
+      "explanation": "'Easier' fits the decomposition sentence ('...smaller, easier parts') and reflects the overall idea that decomposition makes big tasks more manageable, matching the corrected True/False statement about decomposition.",
+      "source": "book:page39",
+      "options": [
+        "easier",
+        "vacuum",
+        "important",
+        "repeat"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q215",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Milestone Review: Fill in the Blanks",
+      "question": "True or False: The Milestone review's fill-in-the-blank word bank and its True/False section both test the same three big concepts of the chapter.",
+      "explanation": "True — both sections revisit problem decomposition, pattern recognition, and abstraction (including functions), just using different question formats.",
+      "source": "book:page39-40",
+      "answer": true
+    },
+    {
+      "id": "q216",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Milestone Review: Tick the Correct Option",
+      "question": "In Milestone MCQ #4, why is 'You need to write the steps fifteen times in total' the WRONG answer, even though '15' does appear in the chapter's sandwich example?",
+      "explanation": "15 is the total step count WITHOUT using a function (5 steps x 3 sandwiches). The question asks how many times you write the steps WITH a function, which is only once — 15 is a distractor based on the earlier no-function scenario.",
+      "source": "book:page35 / book:page42",
+      "options": [
+        "15 is the without-function total; with a function you only write the steps once",
+        "15 is actually the correct answer to this question",
+        "The number 15 never appears anywhere in the chapter",
+        "Functions always require exactly 15 steps"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q217",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Milestone Review: Tick the Correct Option",
+      "question": "What common thread links all 5 questions in the Milestone 'Tick the correct option' section?",
+      "explanation": "All 5 questions test understanding of the chapter's three big ideas (decomposition, pattern recognition, abstraction) and the role of functions, checking that students grasp WHY each concept is useful.",
+      "source": "book:page42-43",
+      "options": [
+        "They all test understanding of decomposition, pattern recognition, abstraction, and functions",
+        "They are all about crossword puzzles",
+        "They are all unrelated trivia questions",
+        "They only test spelling"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q218",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Worksheet L1 Recap",
+      "question": "Worksheet L1's True/False item (c) states a character jumping 20 times without functions needs 80 lines of code. Which idea does this best connect to from elsewhere in the chapter?",
+      "explanation": "This connects to the same abstraction/functions idea as the 'makeSandwich' example: without a function, repeated actions (jumping, or making sandwiches) require the same instructions to be written out multiple times, leading to many more lines of code.",
+      "source": "worksheet-L1 Q2c / book:page35",
+      "options": [
+        "The makeSandwich idea: without functions, repeated actions need repeated code",
+        "The idea that abstraction never applies to games",
+        "The idea that patterns never repeat in code",
+        "The idea that decomposition removes the need for functions"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q219",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet L1 Recap",
+      "question": "Worksheet L1 asks students to identify five vocabulary words. Which pairing of blank-and-answer is CORRECT?",
+      "explanation": "Blank (e), 'A ___ is a named group of instructions that performs a specific task in programming,' is correctly filled with 'function.'",
+      "source": "worksheet-L1 Q1e",
+      "options": [
+        "Blank (e) is filled with 'function'",
+        "Blank (e) is filled with 'pattern'",
+        "Blank (e) is filled with 'complex'",
+        "Blank (e) is filled with 'movements'"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q220",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Worksheet L2 & Crossword",
+      "question": "A student fills in the crossword clue 'Instructions that tell the computer what to do' with 'LOOP' instead of 'CODES.' What is the mistake?",
+      "explanation": "'Loop' refers to repeating an action, while 'codes' (the correct answer) refers to the instructions themselves that tell a computer what to do — these are related but different ideas in the crossword.",
+      "source": "worksheet-L2 crossword",
+      "options": [
+        "'Codes' means instructions; 'loop' means repeating an action — they are different",
+        "There is no mistake, both words are identical in meaning",
+        "The correct answer is actually 'loop'",
+        "Crosswords do not have unique correct answers"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q221",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet L2 & Crossword",
+      "question": "Why does Worksheet L2 include a crossword puzzle in addition to the tick-the-correct-option questions?",
+      "explanation": "The crossword reinforces the chapter's key vocabulary (simple, tasks, codes, pattern, loop) in a different, more playful format than multiple-choice questions, helping students recall the words themselves.",
+      "source": "worksheet-L2",
+      "options": [
+        "To reinforce the chapter's key vocabulary in a different, playful format",
+        "Because multiple-choice questions are not allowed in ICT",
+        "Because crosswords replace the need for an answer key",
+        "Because vocabulary is unrelated to the chapter"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q222",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Step Ahead: Plan Your Dream Birthday Party",
+      "question": "A student wraps 5 gift bags and writes 4 steps for EACH bag separately (20 lines total), then says 'I used a function.' What is wrong with this claim?",
+      "explanation": "Writing all 20 lines separately for each bag means the steps were repeated 5 times without reuse — that is the WITHOUT-function approach. Using a function would mean writing the 4 steps only once and calling it 5 times.",
+      "source": "book:page44",
+      "options": [
+        "Writing 20 separate lines means the without-function approach was used, not a function",
+        "This is correct — that is exactly how functions work",
+        "Functions require exactly 20 lines every time",
+        "Gift bags cannot use functions at all"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q223",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Step Ahead: Plan Your Dream Birthday Party",
+      "question": "How does 'Plan Your Dream Birthday Party' connect Part 2 (pattern recognition) to Part 3 (abstraction with functions)?",
+      "explanation": "In Part 2, recognizing that all 5 invitation cards need the same repeated information is a pattern; in Part 3, that same idea of repetition (5 gift bags needing the same 4 steps) is handled even more efficiently using a function, showing how pattern recognition and abstraction work together.",
+      "source": "book:page43-44",
+      "options": [
+        "Both parts deal with repeated, similar tasks — Part 3 handles the repetition with a function",
+        "The two parts are completely unrelated",
+        "Part 2 is about food, and Part 3 is about decorations",
+        "Part 3 removes the need for any invitations"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q224",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Step Ahead: Plan Your Dream Birthday Party",
+      "question": "Select ALL parts of the 'Plan Your Dream Birthday Party' activity that are correctly matched to their concept.",
+      "explanation": "The three parts are correctly matched as: Part 1 = Problem Decomposition (break into 3 tasks), Part 2 = Pattern Recognition (5 identical invitation cards), Part 3 = Abstraction (wrapGift function). Matching Part 1 to abstraction is incorrect.",
+      "source": "book:page43-44",
+      "options": [
+        "Part 1 — Problem Decomposition",
+        "Part 2 — Pattern Recognition",
+        "Part 3 — Abstraction",
+        "Part 1 — Abstraction"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ]
+    }
+  ]
+}

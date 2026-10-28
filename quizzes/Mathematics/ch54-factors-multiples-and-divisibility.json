@@ -1,0 +1,1775 @@
+{
+  "schemaVersion": 1,
+  "id": "mathematics-ch54-factors-multiples-and-divisibility",
+  "title": "Factors, Multiples and Divisibility",
+  "subject": "Mathematics",
+  "grade": 4,
+  "sourceDir": "output/Mathematics/54_Factors-Multiples-and-Divisibility",
+  "chapter": "54. Factors, Multiples and Divisibility",
+  "topic": "Full Chapter",
+  "description": "Factors and factor pairs, finding factors by multiplication and division, multiples, the key differences between factors and multiples, odd/even and prime/composite numbers, prime factorisation with factor trees, and divisibility tests for 2, 3, 4, 5 and 10 — with worked explanations for every question.",
+  "tags": [
+    "mathematics",
+    "grade4",
+    "factors",
+    "multiples",
+    "prime-numbers",
+    "composite-numbers",
+    "prime-factorisation",
+    "divisibility"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Factors: Meaning and Factor Pairs",
+      "question": "In the multiplication fact 2 × 3 = 6, which numbers are called the factors?",
+      "options": [
+        "2 and 3",
+        "6 only",
+        "2 and 6",
+        "3 and 6"
+      ],
+      "answer": 0,
+      "explanation": "When numbers are multiplied to get a product, each number being multiplied is a factor of the product. Here 2 and 3 are multiplied, so they are the factors; 6 is the product, which is the multiple.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Factors: Meaning and Factor Pairs",
+      "question": "Which list shows ALL the factor pairs of 6?",
+      "options": [
+        "1 and 6, 2 and 4",
+        "1 and 6, 2 and 3",
+        "1 and 6, 3 and 4",
+        "2 and 3, 2 and 4"
+      ],
+      "answer": 1,
+      "explanation": "Arrays for 6 are 1 row of 6 (1 × 6) and 2 rows of 3 (2 × 3). So the factor pairs are (1, 6) and (2, 3). 3 × 4 = 12 and 2 × 4 = 8, not 6.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Factors: Meaning and Factor Pairs",
+      "question": "When listing factor pairs of 12 we write 1 × 12, 2 × 6, 3 × 4 and then stop. Why do we stop at 4 × 3?",
+      "options": [
+        "4 is not a factor of 12",
+        "3 × 4 is larger than 12",
+        "The factors start repeating",
+        "12 has only three pairs by rule"
+      ],
+      "answer": 2,
+      "explanation": "4 × 3 uses the same two factors as 3 × 4. Once the factors begin to repeat, every pair has been found, so we stop. The factors of 12 are 1, 2, 3, 4, 6 and 12.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Factors: Meaning and Factor Pairs",
+      "question": "What are the factors of 12?",
+      "options": [
+        "1, 2, 3, 4, 8, 12",
+        "1, 2, 4, 6, 8, 12",
+        "1, 3, 4, 6, 9, 12",
+        "1, 2, 3, 4, 6, 12"
+      ],
+      "answer": 3,
+      "explanation": "Factor pairs of 12: 1 × 12, 2 × 6, 3 × 4. Collecting them gives 1, 2, 3, 4, 6, 12. 8 and 9 are not factors because 12 ÷ 8 and 12 ÷ 9 leave remainders.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Factors: Meaning and Factor Pairs",
+      "question": "Complete the factor pairs of 18: 1 × 18, 2 × 9, 3 × 6. What are the factors of 18?",
+      "options": [
+        "1, 2, 3, 6, 9, 18",
+        "1, 2, 3, 4, 9, 18",
+        "1, 2, 6, 8, 9, 18",
+        "1, 3, 6, 9, 12, 18"
+      ],
+      "answer": 0,
+      "explanation": "The three pairs give 1, 18, 2, 9, 3, 6. Written in order: 1, 2, 3, 6, 9, 18. 4, 8 and 12 do not divide 18 exactly, so they are not factors.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Factors: Meaning and Factor Pairs",
+      "question": "The factors of 48 are 1, 2, 3, 4, 6, 8, 12, 16, 24 and 48. Which of these is NOT a factor of 48?",
+      "options": [
+        "24",
+        "12",
+        "18",
+        "16"
+      ],
+      "answer": 2,
+      "explanation": "48 ÷ 18 = 2 remainder 12, so 18 is not a factor. 16 (3 × 16), 24 (2 × 24) and 12 (4 × 12) all divide 48 exactly. 18 looks tempting because it is close to 16 and is a factor of 36 and 54.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q7",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Factors: Meaning and Factor Pairs",
+      "question": "Factors of a number come in pairs that multiply to give the number.",
+      "answer": true,
+      "explanation": "Yes. Each array shows a pair: for 6, the arrays 1 × 6 and 2 × 3 give the pairs (1, 6) and (2, 3). Every factor has a partner that multiplies with it to make the number.",
+      "source": "book:page4"
+    },
+    {
+      "id": "q8",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Factors: Meaning and Factor Pairs",
+      "question": "Every number is a factor of 1.",
+      "answer": false,
+      "explanation": "This is backwards. 1 is a factor of every number (1 × 6 = 6), but 6 is not a factor of 1 because 1 ÷ 6 is not exact. The book contrasts '1 is a factor of 6' (true) with '6 is a factor of 1' (false).",
+      "source": "book:page5"
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Factors: Meaning and Factor Pairs",
+      "question": "Select ALL the numbers that are factors of 12.",
+      "options": [
+        "4",
+        "5",
+        "8",
+        "6",
+        "9"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "12 ÷ 4 = 3 and 12 ÷ 6 = 2 exactly, so 4 and 6 are factors. 12 ÷ 5, 12 ÷ 8 and 12 ÷ 9 all leave remainders, so 5, 8 and 9 are not factors even though 8 and 9 are factors of nearby numbers like 16 and 18.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Finding Factors by Multiplication and Division",
+      "question": "Is 5 a factor of 65? Choose the correct answer with its reason.",
+      "options": [
+        "Yes, because 65 ÷ 5 = 13 exactly",
+        "No, because 65 ÷ 5 leaves remainder 1",
+        "No, because 5 and 65 are both odd",
+        "Yes, because 65 ÷ 5 = 12 exactly"
+      ],
+      "answer": 0,
+      "explanation": "Divide: 65 ÷ 5 = 13 with remainder 0. A number is a factor of another if it divides it exactly (remainder 0), so 5 is a factor of 65 and 5 × 13 = 65 is the factor pair.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Finding Factors by Multiplication and Division",
+      "question": "Is 6 a factor of 52? Choose the correct answer with its reason.",
+      "options": [
+        "Yes, because 52 ÷ 6 = 8 exactly",
+        "No, because 52 ÷ 6 leaves remainder 4",
+        "Yes, because 52 ÷ 6 = 9 exactly",
+        "No, because 52 ÷ 6 leaves remainder 2"
+      ],
+      "answer": 1,
+      "explanation": "6 × 8 = 48 and 52 − 48 = 4, so 52 ÷ 6 = 8 remainder 4. Because the remainder is not zero, 6 is NOT a factor of 52.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Finding Factors by Multiplication and Division",
+      "question": "Using multiplication: 1 × 21 = 21 and 3 × 7 = 21. What are the factors of 21?",
+      "options": [
+        "1, 2, 7, 21",
+        "1, 7, 14, 21",
+        "1, 3, 7, 21",
+        "1, 3, 6, 21"
+      ],
+      "answer": 2,
+      "explanation": "The two multiplication facts give the pairs (1, 21) and (3, 7). So the factors of 21 are 1, 3, 7 and 21. 21 is odd, so 2, 6 and 14 cannot be factors.",
+      "source": "worksheet WAP1 Q1a"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Finding Factors by Multiplication and Division",
+      "question": "Using division, how many factors does 60 have in all?",
+      "options": [
+        "12",
+        "10",
+        "11",
+        "14"
+      ],
+      "answer": 0,
+      "explanation": "60 ÷ 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30 and 60 all give remainder 0. Factors of 60 = 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60 — that is 12 factors (six pairs: 1×60, 2×30, 3×20, 4×15, 5×12, 6×10).",
+      "source": "worksheet WAP1 Q2b"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Finding Factors by Multiplication and Division",
+      "question": "Which number is NOT a factor of 60?",
+      "options": [
+        "30",
+        "25",
+        "15",
+        "20"
+      ],
+      "answer": 1,
+      "explanation": "60 ÷ 25 = 2 remainder 10, so 25 is not a factor. 60 ÷ 15 = 4, 60 ÷ 20 = 3 and 60 ÷ 30 = 2 are exact. 25 is tempting because 60 ends in 0 and 25 is a factor of 50 and 100.",
+      "source": "worksheet WAP1 Q2b"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Finding Factors by Multiplication and Division",
+      "question": "Which list shows all the factors of 42?",
+      "options": [
+        "1, 2, 3, 6, 7, 12, 21, 42",
+        "1, 2, 3, 4, 7, 14, 21, 42",
+        "1, 2, 3, 6, 8, 14, 21, 42",
+        "1, 2, 3, 6, 7, 14, 21, 42"
+      ],
+      "answer": 3,
+      "explanation": "Factor pairs: 1 × 42, 2 × 21, 3 × 14, 6 × 7. So the factors are 1, 2, 3, 6, 7, 14, 21, 42. 4, 8 and 12 do not divide 42 exactly (42 ÷ 4 = 10 r 2, 42 ÷ 8 = 5 r 2, 42 ÷ 12 = 3 r 6).",
+      "source": "worksheet WAP1 Q2d"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Finding Factors by Multiplication and Division",
+      "question": "The division 60 ÷ 4 = 15 (remainder 0) shows which factor pair of 60?",
+      "options": [
+        "4 and 15",
+        "4 and 16",
+        "6 and 10",
+        "4 and 12"
+      ],
+      "answer": 0,
+      "explanation": "Multiple ÷ Factor = Factor, so 60 ÷ 4 = 15 tells us 4 × 15 = 60: the pair is (4, 15). 6 and 10 IS a factor pair of 60, but it is not the pair shown by this particular division.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q17",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Finding Factors by Multiplication and Division",
+      "question": "A number is a factor of another number if dividing by it leaves a remainder of 0.",
+      "answer": true,
+      "explanation": "A factor divides the number EXACTLY — the remainder must be 0. For example 65 ÷ 5 = 13 remainder 0, so 5 is a factor of 65; 52 ÷ 6 leaves remainder 4, so 6 is not a factor of 52.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Factors in Word Problems",
+      "question": "Stephen packed candies in packets of 3 with none left over. Which of these could be the number of candies he had?",
+      "options": [
+        "17",
+        "24",
+        "14",
+        "16"
+      ],
+      "answer": 1,
+      "explanation": "A packet size of 3 works only if 3 is a factor of the total. 24 ÷ 3 = 8 remainder 0 ✓. 14 ÷ 3 = 4 r 2, 16 ÷ 3 = 5 r 1 and 17 ÷ 3 = 5 r 2 all leave candies over.",
+      "source": "worksheet WAP1 Q3"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Factors in Word Problems",
+      "question": "Neeta has 30 chairs and wants to sell them in sets of 4, 5 or 6 with no chairs left over. Which set sizes are possible?",
+      "options": [
+        "4, 5 and 6",
+        "4 and 6 only",
+        "5 and 6 only",
+        "4 and 5 only"
+      ],
+      "answer": 2,
+      "explanation": "Check the factors of 30: 30 ÷ 5 = 6 and 30 ÷ 6 = 5 are exact, but 30 ÷ 4 = 7 remainder 2. So 5 and 6 are factors of 30 and work; 4 is not a factor and leaves 2 chairs over.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Factors in Word Problems",
+      "question": "A teacher wants to divide 40 students into equal groups. Which group size is NOT possible?",
+      "options": [
+        "4",
+        "5",
+        "8",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Factors of 40 are 1, 2, 4, 5, 8, 10, 20, 40. 40 ÷ 4 = 10, 40 ÷ 5 = 8 and 40 ÷ 8 = 5 are exact, but 40 ÷ 6 = 6 remainder 4, so groups of 6 would leave 4 students out.",
+      "source": "book:page8 Q3"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Factors in Word Problems",
+      "question": "A baker has 42 cupcakes and wants to arrange them in groups of 6. Is this possible?",
+      "options": [
+        "Yes, he gets exactly 7 groups of 6",
+        "No, 2 cupcakes will be left over",
+        "Yes, he gets exactly 6 groups of 6",
+        "No, 4 cupcakes will be left over"
+      ],
+      "answer": 0,
+      "explanation": "42 ÷ 6 = 7 with remainder 0, so 6 is a factor of 42 and the cupcakes make exactly 7 full groups. (6 × 6 = 36 would leave 6 over, so 6 groups is wrong.)",
+      "source": "book:page8 Q4"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Factors in Word Problems",
+      "question": "A bell rings every 15 minutes during a 2-hour (120-minute) practice. Which number is BOTH a factor of 120 AND a multiple of 15?",
+      "options": [
+        "90",
+        "60",
+        "45",
+        "75"
+      ],
+      "answer": 1,
+      "explanation": "Multiples of 15 up to 120: 15, 30, 45, 60, 75, 90, 105, 120. Factors of 120 include 15, 30, 60, 120. 60 is in both lists (120 ÷ 60 = 2). 45, 75 and 90 are multiples of 15 but do not divide 120 exactly.",
+      "source": "book:page15 Q5"
+    },
+    {
+      "id": "q23",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Factors in Word Problems",
+      "question": "If the practice session is made 3 hours (180 minutes) long, 120 is a factor of the total number of minutes.",
+      "answer": false,
+      "explanation": "120 is still a multiple of 15 (8 × 15), but 180 ÷ 120 = 1 remainder 60, so 120 is NOT a factor of 180. It would no longer appear in both lists.",
+      "source": "book:page15 Q5e"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Multiples: Meaning and Listing",
+      "question": "What are the first five multiples of 6?",
+      "options": [
+        "6, 12, 16, 24, 30",
+        "1, 2, 3, 6, 12",
+        "6, 12, 18, 26, 30",
+        "6, 12, 18, 24, 30"
+      ],
+      "answer": 3,
+      "explanation": "Multiply 6 by 1, 2, 3, 4, 5: 6, 12, 18, 24, 30. These are the numbers in the 6 times table. '1, 2, 3, 6, 12' mixes factors of 6 with a multiple.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Multiples: Meaning and Listing",
+      "question": "What are the first 3 EVEN multiples of 15?",
+      "options": [
+        "15, 45, 75",
+        "30, 60, 90",
+        "15, 30, 45",
+        "30, 45, 60"
+      ],
+      "answer": 1,
+      "explanation": "Multiples of 15: 15, 30, 45, 60, 75, 90 … The even ones are 30, 60 and 90 (every second multiple). 15, 45 and 75 are odd.",
+      "source": "book:page12 Q3b"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Multiples: Meaning and Listing",
+      "question": "How many multiples of 3 are less than 25?",
+      "options": [
+        "9",
+        "10",
+        "8",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "Multiples of 3 below 25: 3, 6, 9, 12, 15, 18, 21, 24. Count them — 8 numbers. The next multiple, 27, is more than 25.",
+      "source": "book:page12 Q3c"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Multiples: Meaning and Listing",
+      "question": "Which number is a multiple of 7 AND also a multiple of 9?",
+      "options": [
+        "56",
+        "72",
+        "81",
+        "63"
+      ],
+      "answer": 3,
+      "explanation": "7 × 9 = 63, so 63 is in both the 7 and 9 times tables. 56 = 7 × 8 (not a multiple of 9); 72 = 9 × 8 and 81 = 9 × 9 are not multiples of 7.",
+      "source": "book:page12 Q3d"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Multiples: Meaning and Listing",
+      "question": "Which number is a multiple of 2 AND also a factor of 6?",
+      "options": [
+        "6",
+        "4",
+        "3",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "Factors of 6 are 1, 2, 3, 6; the even ones (multiples of 2) are 2 and 6. 4 is even but not a factor of 6; 3 is a factor but odd; 12 is a multiple of 6, not a factor.",
+      "source": "book:page12 Q3e"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Multiples: Meaning and Listing",
+      "question": "What is the 5th ODD multiple of 9?",
+      "options": [
+        "99",
+        "81",
+        "45",
+        "63"
+      ],
+      "answer": 1,
+      "explanation": "Multiples of 9: 9, 18, 27, 36, 45, 54, 63, 72, 81 … The odd ones are 9, 27, 45, 63, 81 — the 5th is 81. 45 is the 3rd odd multiple and 63 the 4th.",
+      "source": "book:page14 Q4f"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Multiples: Meaning and Listing",
+      "question": "What is the 3rd EVEN multiple of 4?",
+      "options": [
+        "16",
+        "24",
+        "12",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "Every multiple of 4 is even, so the even multiples are just 4, 8, 12, 16 … The 3rd is 12. Do not skip numbers as you would for odd multiples.",
+      "source": "book:page14 Q4g"
+    },
+    {
+      "id": "q31",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Multiples: Meaning and Listing",
+      "question": "All the multiples of 6 can be found in the multiplication table of 6.",
+      "answer": true,
+      "explanation": "A multiple of 6 is 6 × 1, 6 × 2, 6 × 3 … which is exactly what the 6 times table lists (and it goes on forever).",
+      "source": "book:page9"
+    },
+    {
+      "id": "q32",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Multiples: Meaning and Listing",
+      "question": "Select ALL the multiples of 13 in this list.",
+      "options": [
+        "35",
+        "39",
+        "90",
+        "91",
+        "119"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "39 = 3 × 13 and 91 = 7 × 13, so they are multiples. 35 ÷ 13 = 2 r 9, 90 ÷ 13 = 6 r 12, and 119 = 7 × 17 (119 ÷ 13 = 9 r 2) — not multiples.",
+      "source": "worksheet WAP2 Q3b"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Multiples: Meaning and Listing",
+      "question": "Which number is NOT a multiple of 8?",
+      "options": [
+        "72",
+        "54",
+        "56",
+        "64"
+      ],
+      "answer": 1,
+      "explanation": "54 ÷ 8 = 6 remainder 6, so 54 is not a multiple of 8 (it is a multiple of 6 and 9). 56 = 7 × 8, 64 = 8 × 8, 72 = 9 × 8.",
+      "source": "worksheet WAP2 Q3d"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Multiples: Meaning and Listing",
+      "question": "In the list 36, 60, 84, 86, 96, 108, 120, 130 — which TWO are NOT multiples of 12?",
+      "options": [
+        "60 and 108",
+        "86 and 120",
+        "86 and 130",
+        "84 and 96"
+      ],
+      "answer": 2,
+      "explanation": "86 ÷ 12 = 7 r 2 and 130 ÷ 12 = 10 r 10, so these two are not multiples. 36, 60, 84, 96, 108 and 120 are 3, 5, 7, 8, 9 and 10 times 12.",
+      "source": "worksheet WAP2 Q3c"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Multiples in Word Problems and Puzzles",
+      "question": "Every 4th house in a row of 20 houses is painted yellow. How many houses are yellow?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "5"
+      ],
+      "answer": 3,
+      "explanation": "The yellow houses are the multiples of 4 up to 20: 4, 8, 12, 16, 20 — five houses (20 ÷ 4 = 5).",
+      "source": "book:page11 Q1"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Multiples in Word Problems and Puzzles",
+      "question": "In a row of 32 pots, every 3rd pot has a red rose and every 5th pot has a yellow care tag. How many red rose plants need special care (have both)?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "A pot with both must be a multiple of 3 AND 5, i.e. a multiple of 15. Up to 32 these are 15 and 30 — just 2 pots.",
+      "source": "book:page11 Q2"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Multiples in Word Problems and Puzzles",
+      "question": "An orchard has 50 trees and every 5th tree is an apple tree. How many apple trees are there?",
+      "options": [
+        "11",
+        "15",
+        "10",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "Apple trees are on multiples of 5 up to 50: 5, 10, …, 50. That is 50 ÷ 5 = 10 trees.",
+      "source": "book:page12 Q5"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Multiples in Word Problems and Puzzles",
+      "question": "Sakshi's wall hanging has 12 strings. She puts a triangle on every 3rd string. Which strings get triangles?",
+      "options": [
+        "3, 6, 9",
+        "1, 3, 6, 9",
+        "3, 6, 9, 11",
+        "3, 6, 9, 12"
+      ],
+      "answer": 3,
+      "explanation": "Triangles go on the multiples of 3 up to 12: 3, 6, 9 and 12 (12 ÷ 3 = 4 strings). Remember that 12 itself is a multiple of 3, so the last string also gets a triangle.",
+      "source": "worksheet MMJ1 Q3a"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Multiples in Word Problems and Puzzles",
+      "question": "Sakshi also puts a heart on every 5th string of the 12 strings. Which strings get hearts?",
+      "options": [
+        "5 and 10",
+        "5, 10 and 15",
+        "5 only",
+        "10 only"
+      ],
+      "answer": 0,
+      "explanation": "Multiples of 5 up to 12 are 5 and 10. 12 ÷ 5 = 2 remainder 2, so only two strings get hearts; 15 is beyond the 12 strings.",
+      "source": "worksheet MMJ1 Q3b"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Multiples in Word Problems and Puzzles",
+      "question": "Which multiple of 5 is more than 70 and is exactly 1 more than a multiple of 9?",
+      "options": [
+        "95",
+        "100",
+        "85",
+        "90"
+      ],
+      "answer": 1,
+      "explanation": "Subtract 1 from each multiple of 5 above 70: 75→74, 80→79, 85→84, 90→89, 95→94, 100→99. Only 99 = 11 × 9 is a multiple of 9, so the number is 100.",
+      "source": "worksheet WAP2 Q1"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Multiples in Word Problems and Puzzles",
+      "question": "Which multiple of 9 is greater than 60 and exactly 4 less than a multiple of 5?",
+      "options": [
+        "72",
+        "90",
+        "81",
+        "63"
+      ],
+      "answer": 2,
+      "explanation": "Add 4 to each multiple of 9 above 60: 63→67, 72→76, 81→85, 90→94. Only 85 = 17 × 5 is a multiple of 5, so the answer is 81.",
+      "source": "worksheet WAP2 Q2"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Multiples in Word Problems and Puzzles",
+      "question": "Which multiple of 5 is more than 25 and exactly 1 less than a multiple of 9?",
+      "options": [
+        "30",
+        "40",
+        "45",
+        "35"
+      ],
+      "answer": 3,
+      "explanation": "Add 1 to each: 30→31, 35→36, 40→41, 45→46. Only 36 = 4 × 9 is a multiple of 9, so the number is 35.",
+      "source": "book:page14 Q4b"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Multiples in Word Problems and Puzzles",
+      "question": "Which multiple of 9 is greater than 50 and exactly 2 more than a multiple of 13?",
+      "options": [
+        "54",
+        "63",
+        "72",
+        "81"
+      ],
+      "answer": 0,
+      "explanation": "Subtract 2: 54→52, 63→61, 72→70, 81→79. Only 52 = 4 × 13 is a multiple of 13, so the number is 54.",
+      "source": "book:page14 Q4c"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Factors vs Multiples: Key Properties",
+      "question": "What is the LEAST multiple of any number?",
+      "options": [
+        "0",
+        "Twice the number",
+        "The number itself",
+        "1"
+      ],
+      "answer": 2,
+      "explanation": "Multiples start from 1 × the number. For 6 they are 6, 12, 18 …, so the least multiple of a number is the number itself.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Factors vs Multiples: Key Properties",
+      "question": "Which statement about factors and multiples is correct?",
+      "options": [
+        "Factors are finite; multiples are infinite",
+        "Multiples are finite; factors are infinite",
+        "Both factors and multiples are finite",
+        "Both factors and multiples are infinite"
+      ],
+      "answer": 0,
+      "explanation": "A number has only so many factors (none bigger than itself), but you can keep multiplying forever, so multiples never end.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Factors vs Multiples: Key Properties",
+      "question": "Statement (I): The least multiple of a number is the number itself. Statement (II): A number can have multiples smaller than itself.",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 2,
+      "explanation": "(I) is true: multiples of 6 are 6, 12, 18 … and the smallest is 6. (II) is false: no multiple of 6 is smaller than 6.",
+      "source": "worksheet MMJ1 Q4"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Factors vs Multiples: Key Properties",
+      "question": "Statement (I): A number can have a factor greater than itself. Statement (II): The greatest factor of a number is the number itself.",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 3,
+      "explanation": "A factor must divide the number exactly, so it can never be bigger than the number — (I) is false. The biggest factor is the number itself (e.g. 12 for 12) — (II) is true.",
+      "source": "book:page16 Q6"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Factors vs Multiples: Key Properties",
+      "question": "Statement (I): Every multiple of 6 is a multiple of 2. Statement (II): Every multiple of 2 is a multiple of 6.",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 2,
+      "explanation": "6 = 2 × 3, so 6, 12, 18 … are all even — (I) is true. But 4, 8 and 10 are multiples of 2 that are not in the 6 times table — (II) is false.",
+      "source": "book:page16 Q7"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Factors vs Multiples: Key Properties",
+      "question": "Which TWO numbers are factors of ALL of 24, 20, 18 and 16?",
+      "options": [
+        "1 and 3",
+        "1 and 2",
+        "1 and 4",
+        "2 and 4"
+      ],
+      "answer": 1,
+      "explanation": "Factors of 24: 1,2,3,4,6,8,12,24; of 20: 1,2,4,5,10,20; of 18: 1,2,3,6,9,18; of 16: 1,2,4,8,16. Only 1 and 2 appear in every list (4 is not a factor of 18; 3 is not a factor of 20 or 16).",
+      "source": "worksheet MMJ1 Q1"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Factors vs Multiples: Key Properties",
+      "question": "Among the numbers 1 to 12, which are BOTH factors of 12 AND multiples of 4?",
+      "options": [
+        "4 and 8",
+        "4, 8 and 12",
+        "8 and 12",
+        "4 and 12"
+      ],
+      "answer": 3,
+      "explanation": "Factors of 12: 1, 2, 3, 4, 6, 12. Multiples of 4 up to 12: 4, 8, 12. Common to both: 4 and 12. 8 is a multiple of 4 but 12 ÷ 8 is not exact, so 8 is not a factor of 12.",
+      "source": "book:page16 Q9a"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Factors vs Multiples: Key Properties",
+      "question": "Which number is a factor of 24 but NOT a multiple of 3?",
+      "options": [
+        "8",
+        "6",
+        "12",
+        "24"
+      ],
+      "answer": 0,
+      "explanation": "Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24. Of these 6, 12 and 24 are multiples of 3, but 8 is not (8 ÷ 3 = 2 r 2).",
+      "source": "book:page16 Q9b"
+    },
+    {
+      "id": "q52",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Factors vs Multiples: Key Properties",
+      "question": "1 is a multiple of every number.",
+      "answer": false,
+      "explanation": "Reversed! Every number is a multiple of 1 (6 = 6 × 1), but 1 is not a multiple of 6 — you cannot multiply 6 by a counting number and get 1. 1 is a FACTOR of every number.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q53",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Factors vs Multiples: Key Properties",
+      "question": "Every number is a multiple of itself.",
+      "answer": true,
+      "explanation": "Any number × 1 gives the number, so a number is always its own first multiple (e.g. 6 = 6 × 1).",
+      "source": "book:page11"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Odd and Even Numbers",
+      "question": "A number is even if its ones digit is:",
+      "options": [
+        "0 or 5 only",
+        "2, 4, 6 or 8 only",
+        "0, 2, 4, 6 or 8",
+        "1, 3, 5, 7 or 9"
+      ],
+      "answer": 2,
+      "explanation": "Even numbers end in 0, 2, 4, 6 or 8 and are exactly divisible by 2. Numbers ending in 0 (like 10, 20) are even too.",
+      "source": "book:page18"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Odd and Even Numbers",
+      "question": "What remainder do you get when an odd number is divided by 2?",
+      "options": [
+        "0",
+        "2",
+        "3",
+        "1"
+      ],
+      "answer": 3,
+      "explanation": "Odd numbers are not exactly divisible by 2 — they always leave remainder 1 (e.g. 7 ÷ 2 = 3 remainder 1).",
+      "source": "book:page18"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Odd and Even Numbers",
+      "question": "Which of these numbers is ODD?",
+      "options": [
+        "22,305",
+        "236",
+        "3,416",
+        "6,186"
+      ],
+      "answer": 0,
+      "explanation": "Look only at the ones digit: 22,305 ends in 5, so it is odd. 236, 3,416 and 6,186 end in 6, so they are even.",
+      "source": "book:page19 Q1a"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Odd and Even Numbers",
+      "question": "Which list shows the 5 consecutive odd numbers immediately after 1,000?",
+      "options": [
+        "1,000, 1,002, 1,004, 1,006, 1,008",
+        "1,001, 1,003, 1,005, 1,007, 1,009",
+        "1,001, 1,002, 1,003, 1,004, 1,005",
+        "1,001, 1,003, 1,005, 1,007, 1,011"
+      ],
+      "answer": 1,
+      "explanation": "Consecutive odd numbers differ by 2. After 1,000 (even) the odd numbers are 1,001, 1,003, 1,005, 1,007, 1,009. Jumping to 1,011 skips 1,009.",
+      "source": "book:page19 Q2"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Odd and Even Numbers",
+      "question": "Odd number × Odd number always gives:",
+      "options": [
+        "an even number",
+        "a prime number",
+        "a square number",
+        "an odd number"
+      ],
+      "answer": 3,
+      "explanation": "Try it: 3 × 5 = 15, 7 × 9 = 63 — odd × odd is always odd. Even × even and even × odd are always even.",
+      "source": "book:page20"
+    },
+    {
+      "id": "q59",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Odd and Even Numbers",
+      "question": "An even number divided by 2 always leaves remainder 0.",
+      "answer": true,
+      "explanation": "That is the definition of an even number — it is exactly divisible by 2 (e.g. 14 ÷ 2 = 7 remainder 0).",
+      "source": "book:page18"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Odd and Even Numbers",
+      "question": "Using Jodo blocks, how many numbers from 1 to 15 can be built as an array with one side equal to 2?",
+      "options": [
+        "15",
+        "7",
+        "6",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "An array with one side 2 needs the number to be a multiple of 2 (even). Even numbers from 1 to 15: 2, 4, 6, 8, 10, 12, 14 — seven of them.",
+      "source": "book:page17 Activity-1"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Prime and Composite Numbers",
+      "question": "How many factors does a prime number have?",
+      "options": [
+        "Exactly 3",
+        "More than 2",
+        "Exactly 2",
+        "Exactly 1"
+      ],
+      "answer": 2,
+      "explanation": "A prime number has exactly two factors: 1 and itself (e.g. 7 → 1, 7). A number with more than two factors is composite.",
+      "source": "book:page18"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Prime and Composite Numbers",
+      "question": "Which is the ONLY even prime number?",
+      "options": [
+        "0",
+        "1",
+        "4",
+        "2"
+      ],
+      "answer": 3,
+      "explanation": "2 has exactly two factors (1 and 2). Every other even number also has 2 as a factor, giving it at least three factors, so it is composite.",
+      "source": "worksheet WAP3 Q1d"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Prime and Composite Numbers",
+      "question": "The number 1 is:",
+      "options": [
+        "neither prime nor composite",
+        "a prime number",
+        "a composite number",
+        "both a prime and a composite"
+      ],
+      "answer": 0,
+      "explanation": "1 has only ONE factor (itself). A prime needs exactly two factors and a composite needs more than two, so 1 fits neither group.",
+      "source": "worksheet MMJ2 Q4a"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Prime and Composite Numbers",
+      "question": "Which list shows all the prime numbers between 20 and 40?",
+      "options": [
+        "23, 29, 33, 37",
+        "23, 29, 31, 37",
+        "21, 23, 29, 31",
+        "23, 27, 29, 31"
+      ],
+      "answer": 1,
+      "explanation": "21 = 3 × 7, 27 = 3 × 9 and 33 = 3 × 11 are composite. The primes between 20 and 40 are 23, 29, 31 and 37.",
+      "source": "worksheet WAP3 Q1e"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Prime and Composite Numbers",
+      "question": "Which of these numbers between 40 and 60 is NOT composite?",
+      "options": [
+        "51",
+        "57",
+        "53",
+        "49"
+      ],
+      "answer": 2,
+      "explanation": "49 = 7 × 7, 51 = 3 × 17 and 57 = 3 × 19 are composite. 53 has only the factors 1 and 53, so it is prime.",
+      "source": "worksheet WAP3 Q1f"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Prime and Composite Numbers",
+      "question": "How many prime numbers are there between 50 and 60?",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "2"
+      ],
+      "answer": 3,
+      "explanation": "Check 51 (3 × 17), 52, 53, 54, 55 (5 × 11), 56, 57 (3 × 19), 58, 59. Only 53 and 59 are prime — two numbers.",
+      "source": "book:page19 Q4b"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Prime and Composite Numbers",
+      "question": "Which of these numbers between 80 and 100 is PRIME?",
+      "options": [
+        "99",
+        "97",
+        "91",
+        "93"
+      ],
+      "answer": 1,
+      "explanation": "91 = 7 × 13, 93 = 3 × 31 and 99 = 9 × 11 are composite. 97 has no factors other than 1 and 97.",
+      "source": "book:page21 Q4"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Prime and Composite Numbers",
+      "question": "Which number does NOT belong in the group 2, 3, 7, 4?",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "2, 3 and 7 are prime (two factors each). 4 has three factors (1, 2, 4), so it is composite and the odd one out.",
+      "source": "worksheet MMJ2 Q2c"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Prime and Composite Numbers",
+      "question": "Statement (I): All odd numbers are prime. Statement (II): Every even number is a composite number.",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 1,
+      "explanation": "9 is odd but composite (1, 3, 9), so (I) is false. 2 is even but prime, so (II) is false. Both are false.",
+      "source": "worksheet MMJ2 Q3"
+    },
+    {
+      "id": "q70",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Prime and Composite Numbers",
+      "question": "If a number is prime, the number formed by reversing its digits is always prime too.",
+      "answer": false,
+      "explanation": "19 is prime, but reversing gives 91 = 7 × 13, which is composite. (Sometimes it works — 13 and 31 — but not always.)",
+      "source": "worksheet MMJ2 Q4c"
+    },
+    {
+      "id": "q71",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Prime and Composite Numbers",
+      "question": "91 is a prime number.",
+      "answer": false,
+      "explanation": "91 = 7 × 13, so its factors are 1, 7, 13 and 91 — four factors. Having 7 as a factor makes it composite, not prime.",
+      "source": "worksheet MMJ2 Q4d"
+    },
+    {
+      "id": "q72",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Prime and Composite Numbers",
+      "question": "1 is neither a prime nor a composite number.",
+      "answer": true,
+      "explanation": "1 has only one factor, itself. Primes have exactly two and composites more than two, so 1 is in a class of its own.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q73",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Prime and Composite Numbers",
+      "question": "Select ALL the prime numbers.",
+      "options": [
+        "21",
+        "23",
+        "27",
+        "29",
+        "33"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "23 and 29 have only two factors each. 21 = 3 × 7, 27 = 3 × 9 and 33 = 3 × 11 are composite — odd numbers are not automatically prime!",
+      "source": "book:page18"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Prime Factorisation and Factor Trees",
+      "question": "What does 'prime factorisation' of a number mean?",
+      "options": [
+        "Writing it as a product of only prime factors",
+        "Listing every factor of the number",
+        "Writing it as a sum of prime numbers",
+        "Finding the largest prime smaller than it"
+      ],
+      "answer": 0,
+      "explanation": "Prime factorisation expresses a number as a product of primes only, e.g. 12 = 2 × 2 × 3. Primes may repeat.",
+      "source": "book:page22"
+    },
+    {
+      "id": "q75",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Prime Factorisation and Factor Trees",
+      "question": "Starting a factor tree for 12 with 3 × 4 instead of 2 × 6 gives a different set of prime factors.",
+      "answer": false,
+      "explanation": "Both trees end with 2, 2 and 3. Every composite number has a unique set of prime factors, whichever pair you start with.",
+      "source": "book:page24"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Prime Factorisation and Factor Trees",
+      "question": "3 × 3 × 3 × 3 × 5 × 11 = ?",
+      "options": [
+        "4,055",
+        "4,555",
+        "3,645",
+        "4,455"
+      ],
+      "answer": 3,
+      "explanation": "3 × 3 × 3 × 3 = 81, 81 × 5 = 405, 405 × 11 = 4,455. (3,645 = 81 × 45 — the 11 was replaced by 9.)",
+      "source": "worksheet WAP4 Q1c"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Prime Factorisation and Factor Trees",
+      "question": "48 = 2 × 2 × ___ × ___ × 3. The two missing prime factors are:",
+      "options": [
+        "2 and 2",
+        "2 and 3",
+        "3 and 3",
+        "4 and 1"
+      ],
+      "answer": 0,
+      "explanation": "48 = 2 × 24 = 2 × 2 × 12 = 2 × 2 × 2 × 6 = 2 × 2 × 2 × 2 × 3. So the blanks are 2 and 2 (four 2s in all).",
+      "source": "worksheet WAP4 Q1d"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Prime Factorisation and Factor Trees",
+      "question": "Which is the correct prime factorisation of 120?",
+      "options": [
+        "2 × 3 × 4 × 5",
+        "2 × 2 × 2 × 3 × 5",
+        "2 × 2 × 3 × 3 × 5",
+        "2 × 2 × 2 × 5 × 5"
+      ],
+      "answer": 1,
+      "explanation": "120 = 2 × 60 = 2 × 2 × 30 = 2 × 2 × 2 × 15 = 2 × 2 × 2 × 3 × 5. '2 × 3 × 4 × 5' also equals 120 but 4 is not prime, so it is not a prime factorisation.",
+      "source": "worksheet WAP4 Q1f"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Prime Factorisation and Factor Trees",
+      "question": "What is the prime factorisation of 114?",
+      "options": [
+        "2 × 3 × 17",
+        "2 × 3 × 13",
+        "3 × 3 × 13",
+        "2 × 3 × 19"
+      ],
+      "answer": 3,
+      "explanation": "114 = 2 × 57 and 57 = 3 × 19, so 114 = 2 × 3 × 19. (2 × 3 × 17 = 102 and 2 × 3 × 13 = 78.)",
+      "source": "worksheet MMJ3 Q1d"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Prime Factorisation and Factor Trees",
+      "question": "Which is the correct prime factorisation of 100?",
+      "options": [
+        "2 × 2 × 5 × 5",
+        "2 × 5 × 10",
+        "2 × 2 × 2 × 5",
+        "4 × 5 × 5"
+      ],
+      "answer": 0,
+      "explanation": "100 = 10 × 10 = (2 × 5) × (2 × 5) = 2 × 2 × 5 × 5. '2 × 5 × 10' and '4 × 5 × 5' equal 100 but contain the composites 10 and 4.",
+      "source": "worksheet MMJ3 Q1c"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Prime Factorisation and Factor Trees",
+      "question": "Prime factorise the number: (5th multiple of 15) + (smallest 2-digit number).",
+      "options": [
+        "5 × 19",
+        "5 × 17",
+        "5 × 15",
+        "3 × 5 × 5"
+      ],
+      "answer": 1,
+      "explanation": "5th multiple of 15 = 75; smallest 2-digit number = 10; 75 + 10 = 85. 85 = 5 × 17, and both 5 and 17 are prime.",
+      "source": "worksheet MMJ3 Q2a"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Prime Factorisation and Factor Trees",
+      "question": "Prime factorise the number: (smallest 3-digit number) − (largest factor of 64).",
+      "options": [
+        "2 × 2 × 2 × 3",
+        "2 × 2 × 2 × 2",
+        "2 × 2 × 3 × 3",
+        "2 × 3 × 3 × 3"
+      ],
+      "answer": 2,
+      "explanation": "Smallest 3-digit number = 100; the largest factor of 64 is 64 itself. 100 − 64 = 36 = 4 × 9 = 2 × 2 × 3 × 3.",
+      "source": "worksheet MMJ3 Q2b"
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Prime Factorisation and Factor Trees",
+      "question": "Statement (I): Every number can be represented as the product of a unique set of primes. Statement (II): Every number has 1 as a prime factor.",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 1,
+      "explanation": "The number 1 cannot be written as a product of primes, so (I) is false as stated for EVERY number. 1 is not a prime number at all, so it is never a prime factor — (II) is false.",
+      "source": "worksheet MMJ3 Q3"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Prime Factorisation and Factor Trees",
+      "question": "441 = 3 × 7 × ___ × ___. The missing prime factors are:",
+      "options": [
+        "3 and 7",
+        "3 and 3",
+        "7 and 7",
+        "2 and 21"
+      ],
+      "answer": 0,
+      "explanation": "441 = 21 × 21 and 21 = 3 × 7, so 441 = 3 × 7 × 3 × 7. Check: 3 × 7 = 21, 21 × 3 = 63, 63 × 7 = 441.",
+      "source": "book:page26 Q3d"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Prime Factorisation and Factor Trees",
+      "question": "What is the smallest number that is divisible by both 10 and 12?",
+      "options": [
+        "22",
+        "60",
+        "30",
+        "120"
+      ],
+      "answer": 1,
+      "explanation": "Multiples of 12: 12, 24, 36, 48, 60 … The first one that ends in 0 (divisible by 10) is 60. 30 is not divisible by 12, and 120 works but is not the smallest.",
+      "source": "book:page26 Q4"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Prime Factorisation and Factor Trees",
+      "question": "What is the prime factorisation of the greatest 2-digit number?",
+      "options": [
+        "9 × 11",
+        "3 × 3 × 13",
+        "3 × 11 × 11",
+        "3 × 3 × 11"
+      ],
+      "answer": 3,
+      "explanation": "The greatest 2-digit number is 99 = 9 × 11 = 3 × 3 × 11. '9 × 11' is a correct product but 9 is composite, so it is not a prime factorisation.",
+      "source": "book:page25 Q2b"
+    },
+    {
+      "id": "q87",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Prime Factorisation and Factor Trees",
+      "question": "Every composite number has a unique set of prime factors.",
+      "answer": true,
+      "explanation": "Whichever factor pair you begin a factor tree with, you always end with the same primes — e.g. 30 is always 2 × 3 × 5.",
+      "source": "book:page24"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Divisibility Rules",
+      "question": "A number is divisible by 10 if:",
+      "options": [
+        "its last digit is 0",
+        "its last digit is 0 or 5",
+        "it is an even number",
+        "its digits add up to 10"
+      ],
+      "answer": 0,
+      "explanation": "Multiples of 10 — 10, 20, 30 … — all end in 0, and no multiple of 10 ends in any other digit. So 120 is divisible by 10 but 125 is not.",
+      "source": "book:page27"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Divisibility Rules",
+      "question": "A number is divisible by 4 if:",
+      "options": [
+        "the sum of its digits is divisible by 4",
+        "it is divisible by 2 and ends in an even digit",
+        "the number formed by its last two digits is divisible by 4",
+        "its last digit is 0, 4 or 8"
+      ],
+      "answer": 2,
+      "explanation": "Because 100 = 25 × 4, every multiple of 100 is divisible by 4, so only the last two digits matter. 120 → 20 ÷ 4 = 5 ✓; 126 → 26 is not divisible by 4 ✗.",
+      "source": "book:page28"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Divisibility Rules",
+      "question": "A number is divisible by 3 if:",
+      "options": [
+        "its last digit is 3, 6 or 9",
+        "its last two digits are divisible by 3",
+        "it is an odd number",
+        "the sum of its digits is divisible by 3"
+      ],
+      "answer": 3,
+      "explanation": "12 → 1 + 2 = 3, 15 → 1 + 5 = 6, 18 → 1 + 8 = 9 — the digit sums are all divisible by 3. The last digit alone tells you nothing about 3.",
+      "source": "book:page28"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Divisibility Rules",
+      "question": "Why can we NOT use just the last digit to test divisibility by 4?",
+      "options": [
+        "12 and 22 end alike, but only 12 is divisible by 4",
+        "Multiples of 4 never end with the digit 0",
+        "Every multiple of 4 ends with a 4 or an 8",
+        "100 is not divisible by 4, so the ending fails"
+      ],
+      "answer": 0,
+      "explanation": "20, 12 and 16 are divisible by 4, but 10, 22 and 26 (same last digits) are not. So the last digit cannot decide; we look at the last two digits instead.",
+      "source": "book:page28"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Divisibility Rules",
+      "question": "Statement (I): If a number is divisible by 3 and 6, it must be divisible by 12. Statement (II): A number divisible by 10 must be divisible by 2 or 5.",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 3,
+      "explanation": "18 is divisible by 3 and 6 but 18 ÷ 12 is not exact — (I) is false. A number divisible by 10 ends in 0, so it is divisible by both 2 and 5 — (II) is true.",
+      "source": "worksheet MMJ4 Q2"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Divisibility Rules",
+      "question": "Statement (I): A number divisible by 4 must be divisible by 2. Statement (II): A number divisible by 2 may not be divisible by 4.",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 0,
+      "explanation": "4 = 2 × 2, so every multiple of 4 is even — (I) is true. 10 and 22 are even but not divisible by 4 — (II) is also true.",
+      "source": "book:page30 Q4"
+    },
+    {
+      "id": "q94",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Divisibility Rules",
+      "question": "A number can be divisible by 10 but not by 5.",
+      "answer": false,
+      "explanation": "Every number divisible by 10 ends in 0, and any number ending in 0 or 5 is divisible by 5. So divisible by 10 always means divisible by 5 too.",
+      "source": "book:page30 Q1"
+    },
+    {
+      "id": "q95",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Divisibility Rules",
+      "question": "A number divisible by 4 is always divisible by 2.",
+      "answer": true,
+      "explanation": "4 = 2 × 2, so any multiple of 4 is also a multiple of 2 (e.g. 12, 16, 20 are all even). The reverse is not always true.",
+      "source": "book:page30 Q4"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Applying Divisibility Tests",
+      "question": "100 is divisible by 2, 4, 5 and 10. Which number is 100 NOT divisible by?",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "Digit sum of 100 is 1 + 0 + 0 = 1, which is not divisible by 3. It ends in 0 (so 2, 5, 10 work) and its last two digits 00 are divisible by 4.",
+      "source": "worksheet WAP5 Q1a"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Applying Divisibility Tests",
+      "question": "512 is divisible by which of 2, 3, 4, 5?",
+      "options": [
+        "2 only",
+        "2, 3 and 4",
+        "2, 4 and 5",
+        "2 and 4"
+      ],
+      "answer": 3,
+      "explanation": "512 ends in 2 → divisible by 2. Last two digits 12 → 12 ÷ 4 = 3 → divisible by 4. Digit sum 5 + 1 + 2 = 8 → not by 3. Does not end in 0 or 5 → not by 5.",
+      "source": "worksheet WAP5 Q1c"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Applying Divisibility Tests",
+      "question": "Why is 5,640 divisible by 3?",
+      "options": [
+        "5 + 6 + 4 + 0 = 15, and 15 is divisible by 3",
+        "It ends with the digit 0, so every rule works",
+        "Its last two digits, 40, are divisible by 4",
+        "It is even, and all even numbers are multiples of 3"
+      ],
+      "answer": 0,
+      "explanation": "The test for 3 uses the digit sum: 5 + 6 + 4 + 0 = 15 = 3 × 5. (Ending in 0 tells you about 2, 5 and 10, not about 3.)",
+      "source": "worksheet WAP5 Q1d"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Applying Divisibility Tests",
+      "question": "75,690 is divisible by 2, 3, 5 and 10. Which number is it NOT divisible by?",
+      "options": [
+        "5",
+        "4",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "Its last two digits are 90, and 90 ÷ 4 = 22 remainder 2, so it fails the test for 4. It ends in 0 (2, 5, 10 ✓) and 7 + 5 + 6 + 9 + 0 = 27 (3 ✓).",
+      "source": "worksheet WAP5 Q1e"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Applying Divisibility Tests",
+      "question": "2,024 is divisible by which of 2, 3, 4, 5?",
+      "options": [
+        "2, 4 and 5",
+        "4 and 5",
+        "2 and 4",
+        "2 and 3"
+      ],
+      "answer": 2,
+      "explanation": "Ends in 4 → divisible by 2. Last two digits 24 → 24 ÷ 4 = 6 → divisible by 4. Digit sum 2 + 0 + 2 + 4 = 8 → not by 3. Not ending in 0 or 5 → not by 5.",
+      "source": "book:page29"
+    },
+    {
+      "id": "q101",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Applying Divisibility Tests",
+      "question": "1,800 is divisible by all of 2, 3, 4, 5 and 10.",
+      "answer": true,
+      "explanation": "Ends in 0 → 2, 5 and 10 ✓. Last two digits 00 → 4 ✓. Digit sum 1 + 8 + 0 + 0 = 9 → 3 ✓.",
+      "source": "book:page29"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Applying Divisibility Tests",
+      "question": "Which of these numbers is divisible by 5 but NOT by 10?",
+      "options": [
+        "15,920",
+        "1,245",
+        "4,820",
+        "45,630"
+      ],
+      "answer": 1,
+      "explanation": "Numbers ending in 5 are divisible by 5 but not 10; numbers ending in 0 are divisible by both. 1,245 ends in 5, the others end in 0.",
+      "source": "book:page30 Q1"
+    },
+    {
+      "id": "q103",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Applying Divisibility Tests",
+      "question": "Select ALL the numbers that are divisible by 4.",
+      "options": [
+        "854",
+        "26,228",
+        "9,687",
+        "4,812",
+        "10,890"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "Check the last two digits: 28 ÷ 4 = 7 ✓ and 12 ÷ 4 = 3 ✓. But 54, 87 and 90 are not divisible by 4 (and 9,687 is odd anyway).",
+      "source": "book:page30 Q2"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Applying Divisibility Tests",
+      "question": "Which of these numbers is divisible by BOTH 3 and 5?",
+      "options": [
+        "4,338",
+        "63,183",
+        "7,866",
+        "24,825"
+      ],
+      "answer": 3,
+      "explanation": "For 5 the number must end in 0 or 5 — only 24,825 does. Its digit sum 2 + 4 + 8 + 2 + 5 = 21 is divisible by 3, so it passes both tests.",
+      "source": "book:page30 Q3"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Applying Divisibility Tests",
+      "question": "Between 100 and 150, which of these numbers is divisible by BOTH 3 and 5?",
+      "options": [
+        "120",
+        "110",
+        "115",
+        "125"
+      ],
+      "answer": 0,
+      "explanation": "All four end in 0 or 5, so check the digit sums: 1 + 2 + 0 = 3 ✓; 1 + 1 + 0 = 2, 1 + 1 + 5 = 7, 1 + 2 + 5 = 8 ✗. The full list between 100 and 150 is 105, 120, 135.",
+      "source": "book:page30 Q5d"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Applying Divisibility Tests",
+      "question": "What is the prime factorisation of 110?",
+      "options": [
+        "2 × 3 × 11",
+        "5 × 5 × 11",
+        "2 × 5 × 11",
+        "2 × 5 × 13"
+      ],
+      "answer": 2,
+      "explanation": "110 = 10 × 11 = 2 × 5 × 11. (2 × 5 × 13 = 130, 2 × 3 × 11 = 66, 5 × 5 × 11 = 275.)",
+      "source": "worksheet MMJ4 Q1d"
+    },
+    {
+      "id": "q107",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Applying Divisibility Tests",
+      "question": "Select ALL the animals whose lifespan (in years) is a PRIME number.",
+      "options": [
+        "Camel (50)",
+        "Leopard (17)",
+        "Rabbit (9)",
+        "Honeybee queen (5)",
+        "Pigeon (15)"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "17 and 5 have exactly two factors each. 50, 9 (= 3 × 3) and 15 (= 3 × 5) are composite.",
+      "source": "worksheet MMJ4 Q1b"
+    },
+    {
+      "id": "q108",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Applying Divisibility Tests",
+      "question": "A number ending in 0 is always divisible by 4.",
+      "answer": false,
+      "explanation": "Ending in 0 guarantees divisibility by 2, 5 and 10 — not 4. For example 30 and 110 end in 0, but 30 ÷ 4 and 10 ÷ 4 are not exact.",
+      "source": "worksheet MMJ4 Q1d"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Number Patterns and Real-World Connections",
+      "question": "Square numbers: 1 × 1 = 1, 2 × 2 = 4, 3 × 3 = 9, 4 × 4 = 16. What is the next square number?",
+      "options": [
+        "25",
+        "20",
+        "24",
+        "36"
+      ],
+      "answer": 0,
+      "explanation": "The next square is 5 × 5 = 25. Each new square array adds one extra row and one extra column.",
+      "source": "book:page17"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Number Patterns and Real-World Connections",
+      "question": "Goldbach's Conjecture says every even number greater than 2 is the sum of two primes. Which sum shows this for 12?",
+      "options": [
+        "1 + 11",
+        "5 + 7",
+        "3 + 9",
+        "4 + 8"
+      ],
+      "answer": 1,
+      "explanation": "5 and 7 are both prime and 5 + 7 = 12. 9, 4 and 8 are composite, and 1 is not prime, so the other sums do not use two primes.",
+      "source": "book:page21"
+    },
+    {
+      "id": "q111",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Number Patterns and Real-World Connections",
+      "question": "Goldbach's Conjecture has been proved by mathematicians.",
+      "answer": false,
+      "explanation": "Christian Goldbach suggested it in 1742, and the book says it 'still remains unsolved' — nobody has proved it for every even number.",
+      "source": "book:page21"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Number Patterns and Real-World Connections",
+      "question": "The Maha Kumbh Mela is held every 12th Kumbh cycle at Prayagraj. How many years apart is that?",
+      "options": [
+        "48 years",
+        "1,440 years",
+        "144 years",
+        "12 years"
+      ],
+      "answer": 2,
+      "explanation": "The Kumbh Mela is every 12 years, so the 12th cycle is 12 × 12 = 144 years. The Ardh Kumbh (every 6 years) uses a factor of 12.",
+      "source": "book:page31"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Number Patterns and Real-World Connections",
+      "question": "In the 12-year Chinese calendar, 2022 was the Year of the Tiger. Which year between 1980 and 2015 was also a Tiger year?",
+      "options": [
+        "1998",
+        "1996",
+        "2000",
+        "2004"
+      ],
+      "answer": 0,
+      "explanation": "Tiger years repeat every 12 years: 2022 − 12 = 2010, 2010 − 12 = 1998, 1998 − 12 = 1986. So 1998 (and 2010, 1986) are Tiger years.",
+      "source": "book:page32"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Number Patterns and Real-World Connections",
+      "question": "2023 was the Year of the Rabbit. How many Rabbit years are there between 2000 and 2100?",
+      "options": [
+        "12",
+        "8",
+        "7",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "Count multiples of 12 from 2023: 2011, 2023, 2035, 2047, 2059, 2071, 2083, 2095 — eight years. (1999 and 2107 are outside the range.)",
+      "source": "book:page32"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Number Patterns and Real-World Connections",
+      "question": "Computers keep credit-card details safe with secret codes built from prime numbers because primes:",
+      "options": [
+        "are always even numbers",
+        "are very small numbers",
+        "always end in 0 or 5",
+        "cannot be broken into smaller factors"
+      ],
+      "answer": 3,
+      "explanation": "A prime has no factors other than 1 and itself, so a code built on primes is very hard to break apart — that makes it strong.",
+      "source": "book:page20"
+    }
+  ]
+}

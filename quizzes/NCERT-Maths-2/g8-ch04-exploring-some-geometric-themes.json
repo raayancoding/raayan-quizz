@@ -1,0 +1,2145 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-maths-2-g8-ch04-exploring-some-geometric-themes",
+  "title": "Exploring Some Geometric Themes",
+  "subject": "Maths-2",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Maths-2/ch04",
+  "chapter": "4. Exploring Some Geometric Themes",
+  "topic": "Full Chapter",
+  "description": "Fractals (Sierpinski Carpet and Triangle, Koch Snowflake) and visualising solids: profiles, faces/edges/vertices, nets, shortest paths on a cuboid, projections and views, shadows, and isometric drawing.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "maths",
+    "geometry",
+    "fractals",
+    "sierpinski",
+    "koch-snowflake",
+    "nets",
+    "projections",
+    "isometric",
+    "visualising-solids"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractals in Nature and Art",
+      "question": "Which property makes a shape a fractal?",
+      "options": [
+        "the same or a similar pattern repeats at smaller and smaller scales",
+        "it has exactly four lines of symmetry and four equal sides",
+        "it is made only of straight edges that meet at right angles",
+        "it tiles the whole plane without leaving any gaps or overlaps"
+      ],
+      "answer": 0,
+      "explanation": "The chapter defines fractals as self-similar shapes: they show the same or a similar pattern over and over again at smaller and smaller scales. Symmetry, straight edges and tiling are different geometric ideas.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractals in Nature and Art",
+      "question": "Why is a fern described as a natural fractal?",
+      "options": [
+        "its leaves are all exactly the same size and shape as each other",
+        "its leaves are smaller copies of the fern, and so are their sub-leaves",
+        "its stem is perfectly straight and divides into exactly two branches",
+        "its leaves grow only on one side of the stem in a straight row"
+      ],
+      "answer": 1,
+      "explanation": "The fern has smaller copies of itself as its leaves, and these in turn have even smaller copies as sub-leaves, and so on — that repeated self-similarity is what makes it a fractal.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Fractals in Nature and Art",
+      "question": "Select ALL the natural objects the chapter lists as showing self-similarity.",
+      "options": [
+        "coastlines",
+        "lightning",
+        "rainbows",
+        "soap bubbles"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The chapter names trees, clouds, coastlines, mountains and lightning as natural examples of self-similarity. Rainbows and soap bubbles are not in the list — a rainbow's bands do not contain smaller rainbows.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractals in Nature and Art",
+      "question": "Sierpinski, who discovered the Sierpinski Carpet and Gasket, was a mathematician from which country?",
+      "options": [
+        "Sweden",
+        "Holland",
+        "Greece",
+        "Poland"
+      ],
+      "answer": 3,
+      "explanation": "The chapter calls Sierpinski 'the Polish mathematician'. Von Koch (Snowflake) was Swedish, Escher (fractal art) was Dutch; Greece is only mentioned for the word 'isometric'.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Fractals in Nature and Art",
+      "question": "Who first described the Koch Snowflake, and when?",
+      "options": [
+        "Von Koch, a Swedish mathematician, in 1904",
+        "Von Koch, a Polish mathematician, in 1904",
+        "Sierpinski, a Polish mathematician, in 1904",
+        "Escher, a Dutch artist, in the year 1904"
+      ],
+      "answer": 0,
+      "explanation": "The Koch Snowflake is named after the Swedish mathematician Von Koch, who first described it in 1904. Sierpinski (Polish) is linked to the Carpet and Gasket, and Escher was a Dutch artist, not a mathematician.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fractals in Nature and Art",
+      "question": "The Kandariya Mahadev Temple is described as fractal-like because",
+      "options": [
+        "its walls are tiled with identical squares of a single size",
+        "the tower carries smaller copies of itself, then smaller still",
+        "its plan is a perfect pyramid with four triangular faces",
+        "its towers stand in a straight row, all of equal height"
+      ],
+      "answer": 1,
+      "explanation": "The chapter says the tall temple structure is made up of smaller copies of the full structure, on which there are even smaller copies, and so on — exactly the self-similarity of a fractal. Identical tiles or equal-height towers would not be self-similar.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractals in Nature and Art",
+      "question": "Where is the Kandariya Mahadev Temple, completed around 1025 CE?",
+      "options": [
+        "Rameswaram, Tamil Nadu",
+        "Varanasi, Uttar Pradesh",
+        "Khajuraho, Madhya Pradesh",
+        "Madurai, in Tamil Nadu"
+      ],
+      "answer": 2,
+      "explanation": "The temple is in Khajuraho, Madhya Pradesh. Madurai, Hampi, Rameswaram and Varanasi are listed separately as other places whose temples show fractal-like patterns.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q8",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Fractals in Nature and Art",
+      "question": "The chapter says fractal-like patterns also occur in temples in Madurai, Hampi, Rameswaram and Varanasi.",
+      "answer": true,
+      "explanation": "After describing the Khajuraho temple, the chapter lists Madurai, Hampi, Rameswaram and Varanasi 'among many others' as places with fractal-like temple patterns.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractals in Nature and Art",
+      "question": "M.C. Escher's fractal print 'Smaller and Smaller' repeats which figure at ever smaller scales?",
+      "options": [
+        "lizards",
+        "fishes",
+        "horses",
+        "eagles"
+      ],
+      "answer": 0,
+      "explanation": "The chapter describes 'Smaller and Smaller' as exhibiting the identical pattern of lizards at smaller and smaller scales.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q10",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Fractals in Nature and Art",
+      "question": "M.C. Escher, called the modern maestro of fractal art, was a Polish artist whose prints also explored tiling.",
+      "answer": false,
+      "explanation": "Escher was a Dutch artist (the Polish mathematician is Sierpinski). The rest of the statement is correct — his prints do explore tiling — which is what makes the wrong nationality easy to miss.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Fractals in Nature and Art",
+      "question": "Which statement about fractals is NOT correct?",
+      "options": [
+        "fractals show the same or a similar pattern at smaller and smaller scales",
+        "a fractal looks completely different each time you zoom in closer",
+        "lightning and coastlines are natural examples of self-similarity",
+        "mathematical fractals are approached by repeating a geometric operation"
+      ],
+      "answer": 1,
+      "explanation": "Zooming into a fractal shows the SAME pattern again, not something completely different — that is the whole point of self-similarity. The other three statements come straight from the chapter.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sierpinski Carpet",
+      "question": "To build the Sierpinski Carpet, a square is broken into how many smaller squares, and which part is removed?",
+      "options": [
+        "4 squares; the central square is removed",
+        "9 squares; the four corner squares are removed",
+        "9 squares; the central square is removed",
+        "8 squares; the central square is removed"
+      ],
+      "answer": 2,
+      "explanation": "The square is broken into 9 smaller squares (3 × 3) and the central one is removed, leaving 8. Dividing into 4 is the Sierpinski Triangle's method; 8 is the number that remain, not the number of pieces.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sierpinski Carpet",
+      "question": "How many squares remain at Step 2 of the Sierpinski Carpet?",
+      "options": [
+        "16",
+        "72",
+        "81",
+        "64"
+      ],
+      "answer": 3,
+      "explanation": "R₂ = 8 × 8 = 64. 81 would be the count if nothing were removed (9²), 72 is 81 − 9, and 16 would come from the wrong multiplier 4.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sierpinski Carpet",
+      "question": "If Rₙ is the number of squares remaining at Step n of the Carpet, the correct recurrence is",
+      "options": [
+        "Rₙ₊₁ = 8 × Rₙ",
+        "Rₙ₊₁ = 9 × Rₙ",
+        "Rₙ₊₁ = Rₙ + 8",
+        "Rₙ₊₁ = 8 × Rₙ − 1"
+      ],
+      "answer": 0,
+      "explanation": "Every square that remains at Step n gives rise to 8 squares that remain at Step n + 1, so Rₙ₊₁ = 8Rₙ and Rₙ = 8ⁿ. Multiplying by 9 forgets the removed centre; adding 8 would grow far too slowly.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sierpinski Carpet",
+      "question": "How many holes does the Sierpinski Carpet have at Step 3?",
+      "options": [
+        "64",
+        "73",
+        "72",
+        "81"
+      ],
+      "answer": 1,
+      "explanation": "H₃ = 1 + 8 + 8² = 1 + 8 + 64 = 73. 64 is just the new holes made at Step 3; the old 9 holes from earlier steps remain too.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sierpinski Carpet",
+      "question": "Why does the hole count satisfy Hₙ₊₁ = Hₙ + Rₙ?",
+      "options": [
+        "each existing hole splits into 8 smaller holes at the next step",
+        "each surviving square gains 8 new holes at the next step",
+        "each surviving square gains one new hole, and all old holes stay",
+        "old holes are filled in and new ones are made in their place"
+      ],
+      "answer": 2,
+      "explanation": "Every square remaining at Step n has its centre removed at Step n + 1, giving Rₙ new holes, and every hole already present stays. So Hₙ₊₁ = Hₙ + Rₙ. Holes never split or get filled.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sierpinski Carpet",
+      "question": "A closed formula for the number of holes Hₙ in the Sierpinski Carpet is",
+      "options": [
+        "(8ⁿ − 1)/8",
+        "8ⁿ − 1",
+        "(9ⁿ − 1)/8",
+        "(8ⁿ − 1)/7"
+      ],
+      "answer": 3,
+      "explanation": "Hₙ = 1 + 8 + 8² + … + 8ⁿ⁻¹, and this sum equals (8ⁿ − 1)/7. Check: n = 2 gives 63/7 = 9 = 1 + 8, and n = 3 gives 511/7 = 73. The other formulas fail already at n = 1 or n = 2.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sierpinski Carpet",
+      "question": "Taking the starting square's area as 1 sq. unit, the area remaining at Step n of the Carpet is",
+      "options": [
+        "(8/9)ⁿ",
+        "(1/9)ⁿ",
+        "8ⁿ/9",
+        "1 − (1/9)ⁿ"
+      ],
+      "answer": 0,
+      "explanation": "At each step every remaining square keeps 8 of its 9 ninths, so the area is multiplied by 8/9 each time: (8/9)ⁿ. At Step 1 this gives 8/9, matching one removed ninth.",
+      "source": "exercise:p72-Q3"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sierpinski Carpet",
+      "question": "What is the total area of all the holes at Step 2 of the Carpet (starting area 1)?",
+      "options": [
+        "9/81",
+        "8/81",
+        "17/81",
+        "1/81"
+      ],
+      "answer": 2,
+      "explanation": "Remaining area at Step 2 is (8/9)² = 64/81, so the holes total 1 − 64/81 = 17/81. Equivalently: the big central hole is 1/9 = 9/81 and the 8 new small holes add 8/81. 9/81 alone is just the first hole.",
+      "source": "exercise:p72-Q3"
+    },
+    {
+      "id": "q20",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Sierpinski Carpet",
+      "question": "In the Sierpinski Carpet, 7 times the number of holes is always one less than the number of squares remaining.",
+      "answer": true,
+      "explanation": "Hₙ = (8ⁿ − 1)/7 and Rₙ = 8ⁿ, so 7Hₙ = Rₙ − 1. Check Step 2: 7 × 9 = 63 = 64 − 1.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q21",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Sierpinski Carpet",
+      "question": "The area of the Sierpinski Carpet shrinks by exactly one-ninth of the ORIGINAL square at every step.",
+      "answer": false,
+      "explanation": "Each step removes one-ninth of the CURRENT remaining area, so the remaining area is multiplied by 8/9 each time. The amount removed gets smaller every step: 1/9, then 8/81, then 64/729.",
+      "source": "exercise:p72-Q3"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sierpinski Carpet",
+      "question": "At which step does the area remaining in the Sierpinski Carpet first fall below half of the original?",
+      "options": [
+        "Step 3",
+        "Step 4",
+        "Step 9",
+        "Step 6"
+      ],
+      "answer": 3,
+      "explanation": "(8/9)⁵ ≈ 0.555 is still above one half, while (8/9)⁶ ≈ 0.493 is below it. So Step 6 is the first step with less than half the area remaining.",
+      "source": "exercise:p72-Q3"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sierpinski Triangle",
+      "question": "How is an equilateral triangle divided into 4 identical equilateral triangles in the Sierpinski Gasket?",
+      "options": [
+        "by joining the midpoints of its three sides",
+        "by joining each vertex to the centre of the triangle",
+        "by drawing the three altitudes of the triangle",
+        "by drawing one line parallel to each side at one-third height"
+      ],
+      "answer": 0,
+      "explanation": "Joining the midpoints of the sides creates 4 identical equilateral triangles; the central one is then removed. Joining vertices to the centre gives 3 triangles, and altitudes give 6 right triangles.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sierpinski Triangle",
+      "question": "Why are the corner triangles made by joining the midpoints of an equilateral triangle themselves equilateral?",
+      "options": [
+        "each is a right-angled triangle whose two legs are equal",
+        "each is isosceles (two half-sides) with a 60° angle between them",
+        "each has one side equal to a full side of the big triangle",
+        "each shares all three vertices with the central triangle"
+      ],
+      "answer": 1,
+      "explanation": "A corner triangle has two sides that are halves of the big triangle's sides, so it is isosceles, and the angle between them is the 60° corner of the big triangle. An isosceles triangle with a 60° apex angle has all angles 60°, so it is equilateral.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sierpinski Triangle",
+      "question": "How many triangles remain at Step 3 of the Sierpinski Triangle?",
+      "options": [
+        "9",
+        "64",
+        "27",
+        "81"
+      ],
+      "answer": 2,
+      "explanation": "Each remaining triangle produces 3 at the next step, so the count is 3ⁿ: 1, 3, 9, 27. 64 would be the Carpet's count at Step 2.",
+      "source": "exercise:p72-Q2"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sierpinski Triangle",
+      "question": "How many holes does the Sierpinski Triangle have at Step 3?",
+      "options": [
+        "9",
+        "12",
+        "27",
+        "13"
+      ],
+      "answer": 3,
+      "explanation": "Holes follow Hₙ₊₁ = Hₙ + Tₙ with T₀ = 1: H₁ = 1, H₂ = 1 + 3 = 4, H₃ = 4 + 9 = 13. 9 counts only the new holes at Step 3.",
+      "source": "exercise:p72-Q2"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sierpinski Triangle",
+      "question": "A closed formula for the number of holes Hₙ in the Sierpinski Triangle is",
+      "options": [
+        "(3ⁿ − 1)/2",
+        "(3ⁿ − 1)/3",
+        "3ⁿ − 1",
+        "(4ⁿ − 1)/3"
+      ],
+      "answer": 0,
+      "explanation": "Hₙ = 1 + 3 + 3² + … + 3ⁿ⁻¹ = (3ⁿ − 1)/2. Check: n = 2 gives 8/2 = 4 and n = 3 gives 26/2 = 13, matching the step-by-step count.",
+      "source": "exercise:p72-Q2"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sierpinski Triangle",
+      "question": "With the starting triangle's area as 1 sq. unit, the area remaining at Step n of the Sierpinski Triangle is",
+      "options": [
+        "(1/4)ⁿ",
+        "(3/4)ⁿ",
+        "3ⁿ/4",
+        "(2/3)ⁿ"
+      ],
+      "answer": 1,
+      "explanation": "Each step keeps 3 of the 4 equal pieces of every remaining triangle, so the area is multiplied by 3/4 per step: (3/4)ⁿ.",
+      "source": "exercise:p72-Q3"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sierpinski Triangle",
+      "question": "After one step, which fractal has lost the larger fraction of its starting area?",
+      "options": [
+        "the Sierpinski Carpet (loses 1/9) more than the Triangle (loses 1/4)",
+        "both lose the same fraction, one-eighth, of their starting area",
+        "the Triangle loses 1/3 and the Carpet loses 1/8 of the area",
+        "the Sierpinski Triangle (loses 1/4) more than the Carpet (loses 1/9)"
+      ],
+      "answer": 3,
+      "explanation": "The Triangle removes 1 of 4 equal pieces (1/4 of the area); the Carpet removes 1 of 9 (1/9). Since 1/4 > 1/9, the Triangle loses more.",
+      "source": "exercise:p72-Q3"
+    },
+    {
+      "id": "q30",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Sierpinski Triangle",
+      "question": "Select ALL statements true for BOTH the Sierpinski Carpet and the Sierpinski Triangle.",
+      "options": [
+        "holes made at one step remain in all later steps",
+        "the number of remaining pieces is multiplied by a fixed number each step",
+        "exactly one piece is removed in total at every step",
+        "the remaining area stays the same from step to step"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "In both fractals old holes stay and the piece count is multiplied by 8 (Carpet) or 3 (Triangle) each step. One piece is removed from EACH remaining piece, not one in total, and the area shrinks every step.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q31",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Sierpinski Triangle",
+      "question": "In the Sierpinski Triangle, each remaining triangle at Step n has side length 1/2ⁿ of the original side.",
+      "answer": true,
+      "explanation": "Joining midpoints halves every side, so after n steps each small triangle's side is (1/2)ⁿ of the original.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q32",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Sierpinski Triangle",
+      "question": "At the same step number, the Sierpinski Triangle always has MORE holes than the Sierpinski Carpet.",
+      "answer": false,
+      "explanation": "Carpet holes: 1, 9, 73, …; Triangle holes: 1, 4, 13, …. They tie at Step 1 and afterwards the Carpet has more, because each of its pieces spawns 8 new pieces instead of 3.",
+      "source": "exercise:p72-Q2"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Koch Snowflake",
+      "question": "In one Koch step, each side is divided into 3 equal parts and then",
+      "options": [
+        "an equilateral 'bump' replaces the middle part",
+        "a square bump is raised over the middle part",
+        "the middle part is cut out, leaving a gap",
+        "equilateral bumps replace all three parts"
+      ],
+      "answer": 0,
+      "explanation": "An equilateral triangle is raised over the middle third and the middle third itself is removed — the side becomes a 'bump'-shaped line of 4 pieces. Nothing is left open, and only the middle part is changed.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Koch Snowflake",
+      "question": "After one Koch step, each original side has been replaced by how many sides?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "The two outer thirds stay and the middle third becomes two sides of the raised triangle: 2 + 2 = 4 sides, each one-third of the original length.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Koch Snowflake",
+      "question": "How many sides does the Koch shape have at Step 2 (starting from a triangle)?",
+      "options": [
+        "36",
+        "27",
+        "48",
+        "64"
+      ],
+      "answer": 2,
+      "explanation": "Sides multiply by 4 each step: 3 → 12 → 48. 27 and 36 come from multiplying by 3; 64 is 4³ and forgets the starting 3.",
+      "source": "exercise:p73-Q2"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Koch Snowflake",
+      "question": "A formula for the number of sides at Step n of the Koch Snowflake is",
+      "options": [
+        "3 × 3ⁿ",
+        "4 × 3ⁿ",
+        "4ⁿ + 3",
+        "3 × 4ⁿ"
+      ],
+      "answer": 3,
+      "explanation": "Start with 3 sides and multiply by 4 at every step: 3 × 4ⁿ. Check n = 1: 12 sides, n = 2: 48 sides.",
+      "source": "exercise:p73-Q2"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Koch Snowflake",
+      "question": "With a starting side of 1 unit, the perimeter at Step 2 of the Koch Snowflake is",
+      "options": [
+        "4 units",
+        "16/3 units",
+        "48 units",
+        "64/9 units"
+      ],
+      "answer": 1,
+      "explanation": "48 sides each of length 1/9 give 48/9 = 16/3 units. Each step multiplies the perimeter by 4/3: 3 → 4 → 16/3 → 64/9 (Step 3).",
+      "source": "exercise:p73-Q3"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Koch Snowflake",
+      "question": "A formula for the perimeter at Step n (starting side 1 unit) is",
+      "options": [
+        "3 × (3/4)ⁿ",
+        "3 × 4ⁿ",
+        "3 × (4/3)ⁿ",
+        "3 + n/3"
+      ],
+      "answer": 2,
+      "explanation": "Side count 3 × 4ⁿ times side length (1/3)ⁿ gives 3 × (4/3)ⁿ. (3/4)ⁿ would make the perimeter shrink; 3 × 4ⁿ ignores the shrinking side length.",
+      "source": "exercise:p73-Q3"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Koch Snowflake",
+      "question": "What happens to the perimeter of the Koch shape as the steps continue?",
+      "options": [
+        "it settles down to a fixed value a little above 4",
+        "it stays equal to 3 at every single step",
+        "it shrinks because the pieces become smaller",
+        "it grows without bound, by a factor 4/3 each step"
+      ],
+      "answer": 3,
+      "explanation": "Every step multiplies the perimeter by 4/3 > 1, so it keeps growing: 3, 4, 16/3, 64/9, … with no upper limit, even though the shape stays inside a bounded region.",
+      "source": "exercise:p73-Q3"
+    },
+    {
+      "id": "q40",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Koch Snowflake",
+      "question": "The Koch Snowflake was already encountered in Grade 6 Ganita Prakash.",
+      "answer": true,
+      "explanation": "The chapter says: 'We have already encountered this fractal in Grade 6, Ganita Prakash.'",
+      "source": "text:page4"
+    },
+    {
+      "id": "q41",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Koch Snowflake",
+      "question": "At Step n of the Koch Snowflake, each side has length (1/4)ⁿ of the original side.",
+      "answer": false,
+      "explanation": "Each side is divided into 3 equal parts, so lengths shrink by 1/3 per step: (1/3)ⁿ. The number 4 is how many sides each side becomes, not the shrink factor.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q42",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Koch Snowflake",
+      "question": "Select ALL that are true of the Koch Snowflake step sequence.",
+      "options": [
+        "each step multiplies the number of sides by 4",
+        "each step multiplies the perimeter by 4/3",
+        "each step multiplies the side length by 1/4",
+        "each step multiplies the perimeter by 3"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Sides ×4 and side length ×1/3 together give perimeter ×4/3. Side length is divided by 3, not 4, and the perimeter is certainly not tripled.",
+      "source": "exercise:p73-Q2"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Profiles and Visualisation",
+      "question": "Whom does the chapter quote on building inventions entirely in the imagination before any real work?",
+      "options": [
+        "Thomas Edison, American inventor",
+        "Nikola Tesla, Serbian-American engineer",
+        "M.C. Escher, Dutch graphic artist",
+        "Von Koch, Swedish mathematician"
+      ],
+      "answer": 1,
+      "explanation": "The 'Build it in Your Imagination' section quotes Nikola Tesla (1856–1943), the Serbian-American engineer and inventor, who said he built and operated his devices entirely in his mind first.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Profiles and Visualisation",
+      "question": "Cut off the four corners of a square, each cut joining the midpoints of two adjacent edges. What shape is left?",
+      "options": [
+        "a regular octagon with eight equal sides",
+        "a rectangle twice as long as it is wide",
+        "a smaller square, turned through 45°",
+        "a rhombus whose angles are not right angles"
+      ],
+      "answer": 2,
+      "explanation": "The four midpoints are the vertices of the leftover shape; its sides are the four cuts, all equal, meeting at right angles — a square tilted at 45°. Cutting only to the midpoints leaves 4 sides, not 8.",
+      "source": "text:page7 (item 2)"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Profiles and Visualisation",
+      "question": "In that corner-cutting of a square, how can the four cut-off corners be reassembled?",
+      "options": [
+        "into an equilateral triangle with three equal sides",
+        "into a regular hexagon with six sides all equal",
+        "into a rectangle with two unequal pairs of sides",
+        "into another square, with the right angles at its centre"
+      ],
+      "answer": 3,
+      "explanation": "Each corner is a right-angled isosceles triangle. Placing the four right angles together at one point makes 360°, and the four hypotenuses (the cut lines) form the boundary of a new square — the same size as the leftover square.",
+      "source": "text:page7 (item 2)"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Profiles and Visualisation",
+      "question": "Mark the sides of an equilateral triangle into thirds and cut off each corner as far as the marks. What shape results?",
+      "options": [
+        "a six-sided regular hexagon",
+        "a smaller equilateral triangle",
+        "a four-sided square",
+        "a five-sided regular pentagon"
+      ],
+      "answer": 0,
+      "explanation": "Each cut removes a small equilateral triangle of side one-third, leaving 6 sides all equal to one-third of the original side, with equal 120° angles: a regular hexagon.",
+      "source": "text:page7 (item 3)"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Profiles and Visualisation",
+      "question": "Mark a square's sides into thirds and cut off its corners as far as the marks. Which description is right?",
+      "options": [
+        "a regular octagon with all eight sides equal",
+        "an octagon that is not regular — the slanted cut edges are longer",
+        "a regular hexagon with all six sides equal",
+        "an octagon that is not regular — the slanted cut edges are shorter"
+      ],
+      "answer": 1,
+      "explanation": "Eight sides remain, so it is an octagon. Each cut is the hypotenuse of a right triangle with legs 1/3 of a side, so it has length √2/3 ≈ 0.47 of a side — longer than the 1/3-side pieces left in the middle. Unequal sides means not regular.",
+      "source": "text:page7 (item 4)"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Profiles and Visualisation",
+      "question": "A solid has a rectangular profile from one viewpoint and a circular profile from another. Which solid fits?",
+      "options": [
+        "a cone (party hat)",
+        "a cube (dice)",
+        "a sphere (ball)",
+        "a cylinder (can)"
+      ],
+      "answer": 3,
+      "explanation": "A cylinder seen from the side is a rectangle and from the top is a circle. A cone gives a triangle and a circle, a cube gives squares/rectangles only, and a sphere always gives a circle.",
+      "source": "text:page8 (item 8)"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Profiles and Visualisation",
+      "question": "A solid has a circular profile from one viewpoint and a triangular profile from another. Which solid fits?",
+      "options": [
+        "a cone (party hat)",
+        "a cylinder (can)",
+        "a square pyramid",
+        "a sphere (ball)"
+      ],
+      "answer": 0,
+      "explanation": "A cone is a circle from directly above or below and a triangle from the side. A square pyramid gives a square and a triangle, and a cylinder gives a circle and a rectangle.",
+      "source": "text:page8 (item 9)"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Profiles and Visualisation",
+      "question": "A solid has a rectangular profile from one viewpoint and a triangular profile from another. Which solid fits?",
+      "options": [
+        "a cone (party hat)",
+        "a triangular prism",
+        "a cylinder (can)",
+        "a square pyramid"
+      ],
+      "answer": 1,
+      "explanation": "A triangular prism (like a tent) is a triangle from its end and a rectangle from the side. A cone's profiles are circle and triangle; a square pyramid's are square and triangle.",
+      "source": "text:page8 (item 10)"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Profiles and Visualisation",
+      "question": "A solid shows a trapezium-shaped profile from one viewpoint and a circular one from another. Which solid fits?",
+      "options": [
+        "a cylinder standing upright",
+        "a square pyramid on its base",
+        "a bucket-shaped cut-off cone",
+        "a hemisphere (half a ball)"
+      ],
+      "answer": 2,
+      "explanation": "A cone with its top sliced off parallel to the base (a bucket shape) is a circle from above and a trapezium from the side. A full cylinder gives a rectangle, and a hemisphere gives a semicircle, not a trapezium.",
+      "source": "text:page8 (item 11)"
+    },
+    {
+      "id": "q52",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Profiles and Visualisation",
+      "question": "For each pair of contrasting profiles in the chapter, exactly one solid can produce them.",
+      "answer": false,
+      "explanation": "The chapter asks whether the solids are unique 'or can you come up with multiple possibilities?' — several solids can match. For example, both a sphere and a cylinder viewed from above give a circular profile.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Profiles and Visualisation",
+      "question": "Which of these solids can NOT give a square profile from any viewpoint?",
+      "options": [
+        "a sphere",
+        "a cube",
+        "a cylinder as tall as it is wide",
+        "a square pyramid"
+      ],
+      "answer": 0,
+      "explanation": "A sphere's profile is a circle from every viewpoint. A cube shows a square face-on, a cylinder whose height equals its diameter is a square from the side, and a square pyramid is a square from above.",
+      "source": "text:page8 (item 5)"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Faces, Edges and Vertices",
+      "question": "Which description matches a VERTEX of a solid?",
+      "options": [
+        "a flat surface forming the boundary",
+        "a point at which edges meet",
+        "a line segment forming the side of a face",
+        "a curved surface forming the boundary"
+      ],
+      "answer": 1,
+      "explanation": "Faces are the flat surfaces of the boundary, edges are the line segments forming the sides of faces, and vertices are the points at which edges meet.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Faces, Edges and Vertices",
+      "question": "In general, a prism has as its two opposite faces",
+      "options": [
+        "two congruent polygons, with all other faces triangles",
+        "one polygon and one point, joined by triangular faces",
+        "two circles, joined by a single curved surface",
+        "two congruent polygons, with all other faces parallelograms"
+      ],
+      "answer": 3,
+      "explanation": "A prism has two congruent polygons as opposite faces, with edges connecting corresponding vertices, so the other faces are parallelograms. Triangular side faces describe a pyramid; two circles describe a cylinder.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Faces, Edges and Vertices",
+      "question": "Which name is also used for a triangular pyramid?",
+      "options": [
+        "tetrahedron",
+        "octahedron",
+        "dodecahedron",
+        "triangular prism"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states that a triangular pyramid is also known as a tetrahedron (four faces). An octahedron has 8 faces and a dodecahedron 12.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Faces, Edges and Vertices",
+      "question": "A prism whose congruent polygons have 10 sides has",
+      "options": [
+        "11 faces, 20 edges, 11 vertices",
+        "12 faces, 30 edges, 20 vertices",
+        "12 faces, 20 edges, 30 vertices",
+        "10 faces, 30 edges, 20 vertices"
+      ],
+      "answer": 1,
+      "explanation": "Faces: 10 side faces + 2 ends = 12. Edges: 10 on each end polygon + 10 connecting edges = 30. Vertices: 10 + 10 = 20. The option 11/20/11 belongs to the 10-sided PYRAMID.",
+      "source": "text:page10 (10-sided prism)"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Faces, Edges and Vertices",
+      "question": "A pyramid whose base has 10 sides has",
+      "options": [
+        "12 faces, 30 edges, 20 vertices",
+        "11 faces, 10 edges, 11 vertices",
+        "11 faces, 20 edges, 11 vertices",
+        "10 faces, 20 edges, 11 vertices"
+      ],
+      "answer": 2,
+      "explanation": "Faces: 10 triangles + 1 base = 11. Edges: 10 base edges + 10 edges to the apex = 20. Vertices: 10 base vertices + 1 apex = 11. The 12/30/20 option is the 10-sided PRISM.",
+      "source": "text:page10 (10-sided pyramid)"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Faces, Edges and Vertices",
+      "question": "For a prism built on n-sided polygons, the numbers of faces, edges and vertices are",
+      "options": [
+        "n + 1, 2n, n + 1",
+        "2n, 3n, n + 2",
+        "n + 2, 2n, 3n",
+        "n + 2, 3n, 2n"
+      ],
+      "answer": 3,
+      "explanation": "n side faces plus 2 ends give n + 2 faces; n + n polygon edges plus n connecting edges give 3n; two polygons give 2n vertices. Check with a cuboid (n = 4): 6, 12, 8.",
+      "source": "text:page10 (n-sided prism)"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Faces, Edges and Vertices",
+      "question": "For a pyramid on an n-sided base, the numbers of faces, edges and vertices are",
+      "options": [
+        "n + 1, 2n, n + 1",
+        "n + 2, 3n, 2n",
+        "n + 1, n, n + 1",
+        "2n, n + 1, n + 1"
+      ],
+      "answer": 0,
+      "explanation": "n triangular faces + 1 base = n + 1 faces; n base edges + n edges to the apex = 2n; n base vertices + 1 apex = n + 1. Check with a square pyramid (n = 4): 5, 8, 5.",
+      "source": "text:page10 (n-sided pyramid)"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Faces, Edges and Vertices",
+      "question": "Which solid has the same number of faces as vertices?",
+      "options": [
+        "a pentagonal prism (7 and 10)",
+        "a triangular prism (5 and 6)",
+        "a pentagonal pyramid (6 and 6)",
+        "a cuboid, i.e. a box (6 and 8)"
+      ],
+      "answer": 2,
+      "explanation": "Every pyramid has n + 1 faces and n + 1 vertices, so they always match: a pentagonal pyramid has 6 of each. Prisms have n + 2 faces but 2n vertices, which differ for n ≥ 3.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Faces, Edges and Vertices",
+      "question": "An octahedron is made by joining two square pyramids at their square bases. How many faces, edges and vertices does it have?",
+      "options": [
+        "10 faces, 16 edges, 10 vertices",
+        "8 faces, 16 edges, 8 vertices",
+        "8 faces, 12 edges, 8 vertices",
+        "8 faces, 12 edges, 6 vertices"
+      ],
+      "answer": 3,
+      "explanation": "The two square bases disappear inside, leaving 4 + 4 = 8 triangular faces. Edges: the 4 shared base edges plus 4 + 4 slant edges = 12. Vertices: the 4 shared base corners plus 2 apexes = 6. Adding the two pyramids' counts (10/16/10) double-counts the shared base.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q63",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Faces, Edges and Vertices",
+      "question": "A prism with hexagonal ends and a pyramid with a hexagonal base have the same number of edges.",
+      "answer": false,
+      "explanation": "The hexagonal prism has 3 × 6 = 18 edges; the hexagonal pyramid has 2 × 6 = 12. (The pyramid has 7 faces and 7 vertices; the prism has 8 faces and 12 vertices.)",
+      "source": "text:page10"
+    },
+    {
+      "id": "q64",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Faces, Edges and Vertices",
+      "question": "Prisms and pyramids are named after the shape of their congruent polygons or base — for example triangular, pentagonal or hexagonal.",
+      "answer": true,
+      "explanation": "The chapter says prisms are named by the shape of their congruent polygons (triangular, pentagonal, …) and pyramids by the shape of the base (triangular, square, pentagonal, …).",
+      "source": "text:page10"
+    },
+    {
+      "id": "q65",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Faces, Edges and Vertices",
+      "question": "Select ALL the solids that have exactly 5 faces.",
+      "options": [
+        "a triangular prism",
+        "a square pyramid",
+        "a pentagonal pyramid",
+        "a cube"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Triangular prism: 3 + 2 = 5 faces. Square pyramid: 4 + 1 = 5 faces. A pentagonal pyramid has 6 faces and a cube has 6.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Nets and Cube Nets",
+      "question": "What does the chapter call a net?",
+      "options": [
+        "a flat shape that can be folded up to make the solid",
+        "a drawing of the solid as seen from the front",
+        "a wire frame that shows only the solid's edges",
+        "the shadow the solid casts on a flat wall"
+      ],
+      "answer": 0,
+      "explanation": "A net is a shape on a flat surface that can be folded into the solid — equivalently, what you get by 'unfolding' a solid onto a plane.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Nets and Cube Nets",
+      "question": "Which list names the solids the chapter says can be made from foldable flat materials such as paper, cardboard or metal sheet?",
+      "options": [
+        "sphere, cuboid, cylinder, cone, prism, pyramid",
+        "cuboid, parallelopiped, cylinder, cone, prism, pyramid",
+        "cuboid, sphere, cylinder, cone, prism, hemisphere",
+        "cube, sphere, parallelopiped, cone, prism, pyramid"
+      ],
+      "answer": 1,
+      "explanation": "The chapter lists cuboid, parallelopiped, cylinder, cone, prism and pyramid. A sphere (or hemisphere) cannot be made from a flat sheet without wrinkles, gaps or overlaps.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Nets and Cube Nets",
+      "question": "Why do packaging boxes carry extra flaps on some faces of their net?",
+      "options": [
+        "the flaps are part of the net and count as extra faces",
+        "the flaps make the box heavier so it can stand upright",
+        "the flaps replace cello tape, which cannot stick to cardboard",
+        "the flaps stick to neighbouring faces when the sheet is flimsy"
+      ],
+      "answer": 3,
+      "explanation": "For less sturdy materials like chart paper it helps to have extra flaps that can be stuck to adjacent faces; for cardboard, cello tape alone can join the faces. Flaps are not counted as part of the net.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q69",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Nets and Cube Nets",
+      "question": "When we speak of the net of a solid, the extra flaps used to glue it together are counted as part of the net.",
+      "answer": false,
+      "explanation": "The net is only the shape formed by unfolding the solid; supporting flaps used to actually build it are not part of the net.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Nets and Cube Nets",
+      "question": "How many different nets does a cube have, counting rotations and flips of a net as the same?",
+      "options": [
+        "11",
+        "6",
+        "8",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states that a cube has 11 possible net structures in total. 6 is the number of faces, and 12 the number of edges.",
+      "source": "exercise:p81-Q2"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Nets and Cube Nets",
+      "question": "Two nets of a cube are counted as the same net when",
+      "options": [
+        "both contain exactly the same number of squares",
+        "one can be obtained from the other by a rotation or a flip",
+        "both fold into cubes of exactly the same size",
+        "both have four squares arranged in a straight row"
+      ],
+      "answer": 1,
+      "explanation": "The chapter's rule: two nets are the same if one can be obtained from the other by rotating or flipping it. Every cube net has 6 squares and folds into the same-size cube, so those cannot be the test.",
+      "source": "exercise:p81-Q2"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Nets and Cube Nets",
+      "question": "A net of a cuboid with sides 5 cm, 3 cm and 1 cm is drawn. What is the total area of its six faces?",
+      "options": [
+        "23 cm²",
+        "15 cm²",
+        "54 cm²",
+        "46 cm²"
+      ],
+      "answer": 3,
+      "explanation": "The faces come in pairs: 5 × 3 = 15, 5 × 1 = 5, 3 × 1 = 3, and 2 × (15 + 5 + 3) = 46 cm². 23 forgets to double, 15 is just one face, 54 is a cube of side 3.",
+      "source": "exercise:p81-Q3(i)"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Nets and Cube Nets",
+      "question": "In the net of a cuboid with sides 6 cm, 3 cm and 2 cm, the rectangles are",
+      "options": [
+        "6×3, 6×2 and 3×2, two of each",
+        "6×3, 6×2 and 3×2, one of each",
+        "6×6, 3×3 and 2×2, two of each",
+        "6×3 and 3×2 only, three of each"
+      ],
+      "answer": 0,
+      "explanation": "Opposite faces of a cuboid are equal, so the net has two 6 × 3, two 6 × 2 and two 3 × 2 rectangles — six faces in all with total area 2(18 + 12 + 6) = 72 cm².",
+      "source": "exercise:p81-Q3(ii)"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Nets and Cube Nets",
+      "question": "Which statement about cube nets is NOT correct?",
+      "options": [
+        "there are several different nets that fold into a cube",
+        "any six squares joined edge to edge will fold into a cube",
+        "a cube net is made up of exactly six square faces",
+        "a net shows only the unfolded faces, not any gluing flaps"
+      ],
+      "answer": 1,
+      "explanation": "Not every six-square arrangement works — a 2 × 3 block or a row of five, for instance, cannot fold into a cube — which is why the chapter asks you to test which figures are nets. Only 11 arrangements succeed.",
+      "source": "exercise:p80-Q1"
+    },
+    {
+      "id": "q75",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Nets and Cube Nets",
+      "question": "Select ALL the correct 'number of nets' facts from the chapter.",
+      "options": [
+        "cube: 11 nets",
+        "regular tetrahedron: 2 nets",
+        "octahedron: 2 nets",
+        "dodecahedron: 11 nets"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The cube has 11 nets and the regular tetrahedron only 2. The octahedron also has 11 (not 2), and the dodecahedron has 43,380.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Nets of Other Solids",
+      "question": "A regular tetrahedron is a tetrahedron whose faces are all",
+      "options": [
+        "isosceles triangles",
+        "right-angled triangles",
+        "equilateral triangles",
+        "congruent squares"
+      ],
+      "answer": 2,
+      "explanation": "The chapter defines a regular tetrahedron as a tetrahedron whose faces are equilateral triangles. A solid with square faces is a cube.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Nets of Other Solids",
+      "question": "How many different nets does a regular tetrahedron have?",
+      "options": [
+        "1",
+        "4",
+        "11",
+        "2"
+      ],
+      "answer": 3,
+      "explanation": "The chapter states a regular tetrahedron has only 2 possible nets (a row of four triangles, and a triangle with three triangles around it). 4 is its number of faces; 11 belongs to the cube.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Nets of Other Solids",
+      "question": "A dodecahedron is a solid all of whose faces are",
+      "options": [
+        "hexagons",
+        "pentagons",
+        "triangles",
+        "squares"
+      ],
+      "answer": 1,
+      "explanation": "The chapter asks whether a solid can have all pentagonal faces and answers yes — the dodecahedron. Triangles give the tetrahedron/octahedron, squares the cube.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Nets of Other Solids",
+      "question": "How many nets does a dodecahedron have, according to the chapter?",
+      "options": [
+        "34,380",
+        "4,338",
+        "43,380",
+        "11"
+      ],
+      "answer": 2,
+      "explanation": "Mathematicians have determined exactly how many nets a dodecahedron has: 43,380. The number 11 is the count for a cube or octahedron.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Nets of Other Solids",
+      "question": "Unroll a cylinder after cutting it along its height. Its net consists of",
+      "options": [
+        "one circle and a sector",
+        "two circles and a triangle",
+        "one circle and a rectangle",
+        "two circles and a rectangle"
+      ],
+      "answer": 3,
+      "explanation": "The two circular faces unfold as circles and the curved surface, cut along the height, opens into a rectangle. A circle plus a sector is the net of a cone.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Nets of Other Solids",
+      "question": "In the net of a cylinder, the two side lengths of the rectangle are",
+      "options": [
+        "the height of the cylinder and the circumference of its circular face",
+        "the height of the cylinder and the diameter of its circular face",
+        "the height of the cylinder and the radius of its circular face",
+        "twice the height of the cylinder and the circumference of its face"
+      ],
+      "answer": 0,
+      "explanation": "One side is the cut along the height; the other wraps once around the circle, so it equals the circle's circumference (not its diameter or radius).",
+      "source": "text:page13"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Nets of Other Solids",
+      "question": "When a cone is slit open along a slant line l from its apex O and unrolled, its curved surface becomes",
+      "options": [
+        "a rectangle with one side equal to l",
+        "a portion of a circle with centre O",
+        "a triangle with its apex at O",
+        "a complete circle with centre O"
+      ],
+      "answer": 1,
+      "explanation": "After unrolling, the boundary of the net is a portion of a circle (a sector) centred at the apex O, with radius equal to the slant length l.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Nets of Other Solids",
+      "question": "Why is the boundary of the unrolled cone an arc of a circle centred at O?",
+      "options": [
+        "the slit line l has the same length as the base radius",
+        "the apex O sits exactly above the centre of the base",
+        "all points of the base boundary are equally far from O",
+        "the base of a cone is a circle, so its net must be one too"
+      ],
+      "answer": 2,
+      "explanation": "The chapter's reasoning: every point on the boundary of the base circle is at the same distance (the slant length) from O, so after unrolling those points all lie on a circle centred at O.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q84",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Nets of Other Solids",
+      "question": "A paper cutout can be made that wraps perfectly around a ball without wrinkles, gaps or overlaps.",
+      "answer": false,
+      "explanation": "The chapter invites you to try and discover that it cannot be done — a sphere has no net, unlike cubes, cones and cylinders.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q85",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Nets of Other Solids",
+      "question": "Select ALL the solids the chapter's summary says can be obtained by folding suitable nets.",
+      "options": [
+        "octahedron",
+        "cone",
+        "sphere",
+        "ball-shaped globe"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The summary lists cuboids, tetrahedrons, cylinders, cones, prisms, pyramids and octahedrons. A sphere (a globe is a sphere) has no net — no paper cutout wraps it without wrinkles or gaps.",
+      "source": "text:page33"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Shortest Paths on a Cuboid",
+      "question": "On a plane, the shortest path between two points is",
+      "options": [
+        "any path that follows the grid lines",
+        "the straight line segment joining them",
+        "the arc of a circle through both points",
+        "the path that runs along the boundary"
+      ],
+      "answer": 1,
+      "explanation": "The chapter starts from this known fact and then asks what the shortest path is on the SURFACE of a cuboid.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Shortest Paths on a Cuboid",
+      "question": "What is the key idea for finding the shortest surface path from the ant to the laddu?",
+      "options": [
+        "cut straight through the inside of the cuboid",
+        "walk only along the edges of the cuboid",
+        "draw a straight line on a net of the cuboid",
+        "measure the longest diagonal of the cuboid"
+      ],
+      "answer": 2,
+      "explanation": "A path on the surface corresponds to a path of the same length on the net, so the shortest surface path is the one that becomes a straight line on a suitable net. The ant may travel only along the surface, not through the inside.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Shortest Paths on a Cuboid",
+      "question": "A path marked on the cuboid does NOT become a straight line on the net. What can we conclude?",
+      "options": [
+        "it is not the shortest path between those points",
+        "it is the shortest path, since it stays on the surface",
+        "it is exactly as long as the straight-line path",
+        "nothing — the net tells us nothing about length"
+      ],
+      "answer": 0,
+      "explanation": "On the net the shortest path is the straight line. A surface path whose image is not straight is longer than that line, so it cannot be the shortest. This is the chapter's second ant–laddu case.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Shortest Paths on a Cuboid",
+      "question": "On one unfolding, the straight segment from ant to laddu runs OUTSIDE the net. What does this mean?",
+      "options": [
+        "the ant cannot reach the laddu along the surface",
+        "it matches no surface path; unfold another way",
+        "that unfolding has found the shortest path",
+        "the segment is still a valid path on the cuboid"
+      ],
+      "answer": 1,
+      "explanation": "A line that leaves the net does not correspond to any path on the cuboid, so that unfolding is useless here. Unfolding the cuboid differently gives a straight segment inside the net — 'the way a cuboid is unfolded matters'.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Shortest Paths on a Cuboid",
+      "question": "In the 30 cm × 12 cm × 12 cm box problem, one unfolding gives d² = 24² + 32². The distance d is",
+      "options": [
+        "56 cm",
+        "48 cm",
+        "40 cm",
+        "42 cm"
+      ],
+      "answer": 2,
+      "explanation": "24² = 576 and 32² = 1024, so d² = 1600 and d = 40 cm. 56 is 24 + 32 (adding instead of using the theorem); 42 is the length of a different unfolding.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Shortest Paths on a Cuboid",
+      "question": "For the same box, one unfolding gives a straight ant–laddu line of 42 cm and another gives 40 cm. The shortest surface path is",
+      "options": [
+        "40 cm, found by comparing all unfoldings",
+        "42 cm, because it goes straight over the top",
+        "41 cm, the average of the two unfoldings",
+        "82 cm, adding the two unfoldings together"
+      ],
+      "answer": 0,
+      "explanation": "Different unfoldings give different straight-line lengths, so we must list them all and take the smallest — here 40 cm beats 42 cm, even though the 42 cm path 'looks' direct.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q92",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Shortest Paths on a Cuboid",
+      "question": "The way a cuboid is unfolded has no effect on the straight-line distance between the two points on the net.",
+      "answer": false,
+      "explanation": "The chapter shows unfoldings of the same box giving 42 cm, 40 cm and other lengths — 'the lengths of the line segments between the ant and the laddu are different'. The unfolding matters.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q93",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Shortest Paths on a Cuboid",
+      "question": "To be sure of the shortest surface path, one should list the different possible unfoldings and compare their straight-line lengths.",
+      "answer": true,
+      "explanation": "The chapter concludes: 'we have to carefully list all the possible different unfoldings to find the answer!'",
+      "source": "text:page18"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Shortest Paths on a Cuboid",
+      "question": "Which statement about shortest paths on a cuboid is NOT correct?",
+      "options": [
+        "every path on the net corresponds to an equal-length path on the cuboid",
+        "the straight line through the inside of the cuboid is an allowed path",
+        "different unfoldings can give different straight-line lengths",
+        "a path that is straight on a suitable net is a shortest surface path"
+      ],
+      "answer": 1,
+      "explanation": "The ant lives on the surface and may travel only along it, so a tunnel through the interior is not allowed. The other three statements are exactly the chapter's reasoning.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q95",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Shortest Paths on a Cuboid",
+      "question": "Select ALL that are true about using a net to find the ant's shortest path.",
+      "options": [
+        "a surface path and its net image have equal length",
+        "the shortest surface path is straight on some net",
+        "every unfolding gives the same straight-line length",
+        "a straight line that leaves the net is still a valid path"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Lengths are preserved by unfolding and the shortest path appears straight on a suitable net. But unfoldings differ in length (42 vs 40 cm), and a segment leaving the net corresponds to no path.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Projections",
+      "question": "Point O on plane M is called the projection of point P when",
+      "options": [
+        "the line OP is parallel to the plane M",
+        "O is the centre point of the plane M",
+        "the line OP is perpendicular to the plane M",
+        "OP is the longest line from P to the plane"
+      ],
+      "answer": 2,
+      "explanation": "A line from P meets the plane at O; if OP is perpendicular to the plane, O is the projection of P. Perpendicular gives the shortest, not longest, line from P to M.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Projections",
+      "question": "'OP is perpendicular to the plane M' means, by the chapter's definition, that",
+      "options": [
+        "for ONE particular line OX in the plane, angle POX = 90°",
+        "angle POX = 90° only for lines OX outside the plane",
+        "OP has the same length as every line OX in the plane",
+        "for ANY line OX drawn in the plane, angle POX = 90°"
+      ],
+      "answer": 3,
+      "explanation": "Perpendicularity to a plane requires a right angle with EVERY line OX in the plane through O, not just one.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Projections",
+      "question": "A line of length l has a projection of length p (Fig. 4.3, with AE ⊥ BC and AECD a rectangle). Which is correct?",
+      "options": [
+        "p ≥ l: projecting onto a plane spreads the line out",
+        "p ≤ l: AE is a leg and AB the hypotenuse of triangle AEB",
+        "p = l always: projecting onto a plane keeps length",
+        "p = l/2: E must be the midpoint of segment BC"
+      ],
+      "answer": 1,
+      "explanation": "AE = DC = p because AECD is a rectangle, and ∠AEB = 90°, so in right triangle AEB the hypotenuse AB = l is at least as long as the leg AE = p. A projection is never longer than the line.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Projections",
+      "question": "When is the projection of a line exactly as long as the line itself?",
+      "options": [
+        "when the line is perpendicular to the plane",
+        "when the line passes through the plane",
+        "when the line is parallel to the plane",
+        "when the line is tilted at 45° to the plane"
+      ],
+      "answer": 2,
+      "explanation": "If the line is parallel to the plane, points A and B are equally far from it and p = l. A perpendicular line projects to a single point (p = 0), and a 45° tilt shortens it.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Projections",
+      "question": "Which of these can NEVER be the projection of a parallelogram?",
+      "options": [
+        "a quadrilateral that is not a parallelogram",
+        "a parallelogram of a quite different shape",
+        "a rectangle whose sides differ in length",
+        "a line segment, if the shape is seen edge-on"
+      ],
+      "answer": 0,
+      "explanation": "Parallel lines project to parallel lines, so a parallelogram's projection always has two pairs of parallel sides — a parallelogram (possibly a rectangle), or a segment if its plane is perpendicular to the projection plane. A trapezium or kite is impossible.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Projections",
+      "question": "The projection of a pair of parallel lines is",
+      "options": [
+        "parallel only when the lines are parallel to the plane",
+        "always a pair of parallel lines",
+        "a pair of lines meeting at one point",
+        "always a pair of perpendicular lines"
+      ],
+      "answer": 1,
+      "explanation": "The chapter states that the projection of a pair of parallel lines always remains parallel, whatever the orientation — a fact later used for isometric drawing.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q102",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Projections",
+      "question": "Select ALL shapes that can be the projection of a square, depending on its orientation.",
+      "options": [
+        "a rectangle",
+        "a line segment",
+        "a triangle",
+        "a pentagon"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Tilting a square about one side shortens the other pair of sides, giving a rectangle; turning it edge-on to the plane gives a segment. Parallel sides stay parallel, so the projection is always a parallelogram (or a segment) — it can never become a triangle or a pentagon.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Projections",
+      "question": "What can be said about the projection of an n-sided regular polygon?",
+      "options": [
+        "always another regular n-sided polygon",
+        "a polygon with 2n sides, twice as many",
+        "an n-gon, not necessarily regular",
+        "a circle, whenever n is large enough"
+      ],
+      "answer": 2,
+      "explanation": "The projection is made of the projections of the n sides, so it is a polygon with (at most) n sides, but different sides are shortened by different amounts, so it is generally not regular.",
+      "source": "text:page20"
+    },
+    {
+      "id": "q104",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Projections",
+      "question": "If an object passes perpendicularly through a plane and makes a hole, the hole has the same shape as the object's projection on that plane.",
+      "answer": true,
+      "explanation": "The chapter states exactly this: the shape of the hole would be the same as the shape of the projection of the object — like the cartoon character's outline in the wall.",
+      "source": "text:page21"
+    },
+    {
+      "id": "q105",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Projections",
+      "question": "Two different objects can produce exactly the same projection on a plane.",
+      "answer": true,
+      "explanation": "Fig. 4.6 shows different lines and different cuboids giving identical projections: 'a given projection is not made by a unique object'. That is why three views are usually taken.",
+      "source": "text:page21"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Projections",
+      "question": "Which object gives the same projection as a cone viewed from directly above (a circle)?",
+      "options": [
+        "a cube with side equal to the radius",
+        "a square pyramid of the same height",
+        "a triangular prism of the same height",
+        "a cylinder with the same base radius"
+      ],
+      "answer": 3,
+      "explanation": "From above, a cylinder projects to a circle of its base radius — identical to the cone's. A cube and square pyramid give squares and a triangular prism gives a rectangle or triangle.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Front, Top and Side Views",
+      "question": "The front view of an object is its projection on which plane?",
+      "options": [
+        "the vertical plane in front of the object",
+        "the horizontal plane below the object",
+        "the side plane beside the object",
+        "a slanted plane above the object"
+      ],
+      "answer": 0,
+      "explanation": "The vertical plane in front of the object gives the front view; the horizontal plane below gives the top view; the side plane gives the side view.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Front, Top and Side Views",
+      "question": "The top view is the projection on",
+      "options": [
+        "the vertical plane in front of the object",
+        "the horizontal plane below the object",
+        "the side plane beside the object",
+        "a plane placed above the object"
+      ],
+      "answer": 1,
+      "explanation": "The top view is the projection on the horizontal plane, which the chapter places BELOW the object — it shows what the object looks like from above.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Front, Top and Side Views",
+      "question": "Why does the chapter take three mutually perpendicular projections of an object?",
+      "options": [
+        "one projection is always enough; the others are decoration",
+        "three projections together give the object's volume directly",
+        "a single projection does not identify the object uniquely",
+        "the three projections of any object are always identical"
+      ],
+      "answer": 2,
+      "explanation": "Since different objects can share one projection, taking front, top and side views together pins the object down much better.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Front, Top and Side Views",
+      "question": "A line segment stands vertically (along the height direction). Its three views are",
+      "options": [
+        "full length in the front and side views; a point in the top view",
+        "full length in the top view; a point in the front and side views",
+        "full length in all three views",
+        "a point in all three views"
+      ],
+      "answer": 0,
+      "explanation": "A vertical segment is parallel to the vertical and side planes, so those views show its full length; it is perpendicular to the horizontal plane, so the top view is a point.",
+      "source": "exercise:p92-Q1"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Front, Top and Side Views",
+      "question": "A line segment runs left-to-right along the length direction. Its three views are",
+      "options": [
+        "full length in the front and side views; a point in the top view",
+        "full length in the front and top views; a point in the side view",
+        "full length in the top and side views; a point in the front view",
+        "full length only in the front view; points in the other two"
+      ],
+      "answer": 1,
+      "explanation": "The length direction is parallel to both the vertical (front) and horizontal (top) planes, so both show the full length, while the side plane is perpendicular to it, giving a point.",
+      "source": "exercise:p92-Q1"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Front, Top and Side Views",
+      "question": "A cylinder stands on its circular base. Its front view and top view are",
+      "options": [
+        "front: a circle; top: a rectangle",
+        "front: a rectangle; top: a rectangle",
+        "front: a rectangle; top: a circle",
+        "front: a triangle; top: a circle"
+      ],
+      "answer": 2,
+      "explanation": "Seen from the front, a standing cylinder is a rectangle (height × diameter); from above it is a circle.",
+      "source": "exercise:p92-Q2"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Front, Top and Side Views",
+      "question": "A square pyramid stands on its base. Its front view and top view are",
+      "options": [
+        "front: a triangle; top: a square",
+        "front: a square; top: a triangle",
+        "front: a triangle; top: a triangle",
+        "front: a rectangle; top: a square"
+      ],
+      "answer": 0,
+      "explanation": "From the front a square pyramid is a triangle; from above you see its square base (with the slant edges meeting at the centre).",
+      "source": "exercise:p92-Q2"
+    },
+    {
+      "id": "q114",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Front, Top and Side Views",
+      "question": "The front, top and side views formalise the idea of a solid's profile from different viewpoints.",
+      "answer": true,
+      "explanation": "The chapter says these projections 'formalise the notion of profiles that we explored in an earlier section'.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q115",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Front, Top and Side Views",
+      "question": "The side view of an object is its projection on the horizontal plane.",
+      "answer": false,
+      "explanation": "The side view is the projection on the SIDE plane; the horizontal plane gives the top view.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q116",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Front, Top and Side Views",
+      "question": "Which of these solids, standing on a base, have a circular top view? Select ALL.",
+      "options": [
+        "a cylinder",
+        "a cone",
+        "a cube",
+        "a square pyramid"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Both a cylinder and a cone have a circular base, so from above each projects to a circle. A cube and a square pyramid project to squares.",
+      "source": "exercise:p92-Q2"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Front, Top and Side Views",
+      "question": "A cube is seen with one face parallel to the vertical plane and its edges parallel to the three planes. Its three views are",
+      "options": [
+        "a square, a rectangle and a hexagon",
+        "a square and two rectangles",
+        "three identical squares",
+        "a hexagon, a square and a triangle"
+      ],
+      "answer": 2,
+      "explanation": "With the cube aligned to the planes, each view is a face-on look at a square face, so all three views are equal squares. A hexagon appears only in the tilted isometric orientation.",
+      "source": "exercise:p92-Q2"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Shadows and Projections",
+      "question": "Shine a torch at an object, perpendicular to a wall. The shadow on the wall is",
+      "options": [
+        "exactly the same as the projection, always",
+        "completely unrelated to the projection shape",
+        "always smaller than the projection shape",
+        "like the projection, but maybe scaled or stretched"
+      ],
+      "answer": 3,
+      "explanation": "The chapter says the shadow is quite similar to the projection but may be scaled up, stretched or slightly distorted depending on how the object is held.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Shadows and Projections",
+      "question": "As the torch is moved farther from the object (still pointing perpendicular to the wall), the shadow",
+      "options": [
+        "becomes more and more like the projection",
+        "grows larger and larger without any limit",
+        "disappears completely from the wall",
+        "turns into a perfect circle"
+      ],
+      "answer": 0,
+      "explanation": "With an imaginary extremely powerful torch moved far away, the shadow becomes indistinguishable from the projection of the object onto the wall plane.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Shadows and Projections",
+      "question": "Why does the shadow's size change when a nearby torch is moved closer or farther?",
+      "options": [
+        "the wall absorbs more light when the torch is far away, shrinking the shadow",
+        "a near torch's rays fan out, so a close object blocks a wider cone of light",
+        "the object physically expands slightly in the warmth of the torch light",
+        "the shadow always copies the size of the torch's round glass front"
+      ],
+      "answer": 1,
+      "explanation": "Rays from a nearby torch fan out from a point. The closer the object is to that point, the wider the bundle of rays it blocks, so the shadow is larger; farther away the rays are nearly parallel and the shadow approaches the projection.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Shadows and Projections",
+      "question": "Why does the chapter call the Sun 'an extremely powerful and distant torch'?",
+      "options": [
+        "it is so bright that its shadows have no edges at all",
+        "it moves across the sky, so shadows rotate during the day",
+        "it is so far away that its rays reach us practically parallel",
+        "it is so large that it lights every side of an object at once"
+      ],
+      "answer": 2,
+      "explanation": "A very distant light source sends almost parallel rays, which is exactly the situation in which a shadow becomes indistinguishable from a projection.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q122",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Shadows and Projections",
+      "question": "When sunlight falls perpendicular to a plane, the shadows it casts on that plane are indistinguishable from projections.",
+      "answer": true,
+      "explanation": "The chapter states this directly and uses it to let you 'see' projections with a cutout in sunlight.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Shadows and Projections",
+      "question": "Hold a parallelogram cutout in sunlight in any orientation. Its shadow is",
+      "options": [
+        "sometimes a trapezium",
+        "sometimes a kite shape",
+        "always a rectangle",
+        "always a parallelogram"
+      ],
+      "answer": 3,
+      "explanation": "No matter how you orient the parallelogram, its shadow remains a parallelogram, because the projection of parallel lines stays parallel. It need not be a rectangle.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Shadows and Projections",
+      "question": "Which statement about shadows is NOT correct?",
+      "options": [
+        "a shadow may be scaled up compared with the projection",
+        "a shadow always has exactly the same size as the object",
+        "a shadow may be slightly distorted depending on how the object is held",
+        "a shadow under perpendicular sunlight matches the projection"
+      ],
+      "answer": 1,
+      "explanation": "A torch shadow can be enlarged, stretched or distorted, so it does not always equal the object's size. The other three statements are from the chapter.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q125",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Shadows and Projections",
+      "question": "Select ALL the ways a torch shadow may differ from the exact projection, according to the chapter.",
+      "options": [
+        "it may be scaled up",
+        "it may be stretched",
+        "a straight edge may become a curve",
+        "a parallelogram may become a trapezium"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The chapter says the shadow may be scaled up, stretched or slightly distorted. Straight edges stay straight and parallel edges stay parallel, so a parallelogram never becomes a trapezium.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Isometric Drawing",
+      "question": "What does 'isometric' mean in Greek?",
+      "options": [
+        "equal angles",
+        "same shape",
+        "equal measure",
+        "three directions"
+      ],
+      "answer": 2,
+      "explanation": "The chapter explains that 'isometric' means 'equal measure' in Greek — the projections of all the cube's edges have equal length.",
+      "source": "text:page28"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Isometric Drawing",
+      "question": "An isometric projection of a cube is an orientation in which",
+      "options": [
+        "only one face of the cube can be seen",
+        "all of its faces project as squares",
+        "the cube is seen exactly face-on",
+        "all its edges project to equal lengths"
+      ],
+      "answer": 3,
+      "explanation": "In the isometric projection the lengths of the projections of ALL the edges are equal. Seen face-on, only edges in one direction keep their length.",
+      "source": "text:page28"
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Isometric Drawing",
+      "question": "How can you physically produce the isometric projection of a cube?",
+      "options": [
+        "balance it on a corner vertex and project it onto the floor",
+        "lay it flat on a face and project it down to the floor",
+        "balance it on one edge and project it onto a wall",
+        "hold one face parallel to the wall and project it there"
+      ],
+      "answer": 0,
+      "explanation": "Imagine balancing a cube perfectly on one of its corner vertices and projecting it down to the floor plane — that projection is isometric.",
+      "source": "text:page28"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Isometric Drawing",
+      "question": "The isometric representation of a cube is a",
+      "options": [
+        "square",
+        "regular hexagon",
+        "rectangle",
+        "regular octagon"
+      ],
+      "answer": 1,
+      "explanation": "Balanced on a corner, a cube projects to a regular hexagon; this hexagon is the basis of the isometric grid.",
+      "source": "text:page28"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Isometric Drawing",
+      "question": "If the cube were made of glass, in its isometric projection",
+      "options": [
+        "only 9 edges would be visible",
+        "only the 6 outline edges would be visible",
+        "all 12 edges would be visible",
+        "only 3 edges would be visible"
+      ],
+      "answer": 2,
+      "explanation": "A glass cube hides nothing, so all 12 edges appear: 6 form the hexagon's outline and the other 6 are 'spokes' from the hexagon's vertices to its centre (3 from the top vertex, 3 from the bottom vertex, which project to the same central point).",
+      "source": "text:page28"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Isometric Drawing",
+      "question": "Isometric grids let engineers measure lengths along which three primary directions?",
+      "options": [
+        "length, depth and height",
+        "length, width and diagonal",
+        "height, slant and diagonal",
+        "radius, diameter and circumference"
+      ],
+      "answer": 0,
+      "explanation": "Fig. 4.7 labels the three primary directions as length, depth and height; isometric grids make it easy to measure along all three.",
+      "source": "text:page29"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Isometric Drawing",
+      "question": "On the isometric grid the edges appear in three orientations. The height axis is drawn as",
+      "options": [
+        "the slanting / direction",
+        "the vertical | direction",
+        "the slanting \\ direction",
+        "the horizontal — direction"
+      ],
+      "answer": 1,
+      "explanation": "Height is associated with the vertical grid direction |, while depth and length take the two slanting directions. There is no horizontal line on an isometric grid.",
+      "source": "text:page30"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Isometric Drawing",
+      "question": "Why is the correspondence between isometric-paper directions and the solid's axes so effective?",
+      "options": [
+        "every angle of the solid is kept exactly the same size in the drawing",
+        "hidden edges are removed automatically, so nothing needs erasing",
+        "parallel edges stay parallel and unit lengths along all axes project equal",
+        "every face is drawn with its true area and its true shape"
+      ],
+      "answer": 2,
+      "explanation": "Parallel lines project to parallel lines, so the three families of parallel edges become the three grid directions, and the isometric nature makes unit distances along the three axes project to equal lengths. Angles and areas are NOT preserved.",
+      "source": "text:page31"
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Isometric Drawing",
+      "question": "How many basic shapes does Tetris have, and what are they?",
+      "options": [
+        "4, the ways of arranging four squares",
+        "5, the ways of arranging five squares",
+        "7, the ways of arranging three squares",
+        "5, the ways of arranging four squares"
+      ],
+      "answer": 3,
+      "explanation": "Fig. 4.8 shows the five basic Tetris shapes, corresponding to the different ways of arranging four squares.",
+      "source": "text:page29"
+    },
+    {
+      "id": "q135",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Isometric Drawing",
+      "question": "Every way of gluing four identical cubes together face to face is one of the five flat Tetris shapes.",
+      "answer": false,
+      "explanation": "The chapter asks whether there are additional ways beyond the five flat ones — and there are: cubes can be glued so the shape does not lie flat (for example three in an L with the fourth on top of the corner).",
+      "source": "exercise:p100-Q1"
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Isometric Drawing",
+      "question": "Why does the 'impossible triangle' drawn on an isometric grid fool the eye?",
+      "options": [
+        "one drawing fits many solids, so parts can join impossibly",
+        "it is a genuine solid that can really be built from cubes",
+        "isometric drawings cannot show any depth at all",
+        "the grid lines of the paper are drawn at a wrong angle"
+      ],
+      "answer": 0,
+      "explanation": "A projection does not determine a unique object. Each corner of the triangle is a perfectly realisable piece, but the pieces are joined in a way no single solid can achieve — the drawing exploits the information lost in projecting.",
+      "source": "exercise:p101-Q4"
+    },
+    {
+      "id": "q137",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Isometric Drawing",
+      "question": "Select ALL that are true about drawing on isometric paper.",
+      "options": [
+        "moving vertically on the paper corresponds to the height axis of the solid",
+        "lengths along the three primary axes can be read off the grid",
+        "the isometric view of a cube is a square",
+        "isometric grids are rarely used in engineering"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Vertical on the paper = height axis, and the grid lets you measure along length, depth and height. The isometric view of a cube is a regular hexagon, and isometric grids are widely used in engineering.",
+      "source": "text:page31"
+    },
+    {
+      "id": "q138",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Isometric Drawing",
+      "question": "Which shapes can the projection of a cube make under different orientations? Select ALL.",
+      "options": [
+        "a square",
+        "a hexagon",
+        "a triangle",
+        "a pentagon"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Face-on a cube projects to a square (or a rectangle when turned about one edge-direction); balanced on a corner it projects to a hexagon. Its outline never has 3 or 5 sides.",
+      "source": "exercise:p97-Q6"
+    }
+  ]
+}

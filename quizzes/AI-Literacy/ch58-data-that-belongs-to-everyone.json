@@ -1,0 +1,2545 @@
+{
+  "schemaVersion": 1,
+  "id": "ai-literacy-ch58-data-that-belongs-to-everyone",
+  "title": "Data That Belongs to Everyone",
+  "subject": "AI-Literacy",
+  "grade": 4,
+  "sourceDir": "output/AI-Literacy/58_Data-That-Belongs-to-Everyone",
+  "chapter": "58. Data That Belongs to Everyone",
+  "topic": "Full Chapter",
+  "description": "How shared, open data helps people solve real problems: reading an AQI table, the 2020 Covid dip, the Delhi smog investigation, one dataset serving many users, combining datasets, building your own dataset report, benefits and concerns of open data, and the WHO Global Air Quality Database.",
+  "tags": [
+    "ai-literacy",
+    "grade4",
+    "open-data",
+    "air-quality",
+    "aqi",
+    "datasets",
+    "data-literacy",
+    "who"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Is Open Data",
+      "question": "In this chapter, what does 'open data' mean?",
+      "options": [
+        "Information anyone can freely use and share",
+        "Information kept secret by one company",
+        "Information stored only in paper files",
+        "Information that costs money to look at"
+      ],
+      "answer": 0,
+      "explanation": "The chapter calls it 'data that belongs to everyone' — facts that are free and public so anyone can use and share them, like the air data the reporters used.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q2",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "What Is Open Data",
+      "question": "Open data is called 'data that belongs to everyone' because it is free for all to use.",
+      "answer": true,
+      "explanation": "That is exactly the idea in the title: the air data was public and free, so reporters, doctors and governments could all use it.",
+      "source": "worksheet:title"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Is Open Data",
+      "question": "The big question at the top of the worksheet asks how shared data can help people do what?",
+      "options": [
+        "Write longer books",
+        "Solve real problems",
+        "Win more prizes",
+        "Build faster cars"
+      ],
+      "answer": 1,
+      "explanation": "The worksheet opens with: 'How can shared data help people solve real problems?' Every activity after that answers this question.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What Is Open Data",
+      "question": "Why could the reporters share their pollution findings so easily?",
+      "options": [
+        "The government ordered them to share",
+        "They kept the data in a secret file",
+        "The data they used was free and public",
+        "They paid a company to release it"
+      ],
+      "answer": 2,
+      "explanation": "The worksheet says 'Because the data was free, they could share their work easily.' Open data has no locks or fees, so findings built on it can be passed around.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q5",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "What Is Open Data",
+      "question": "Open data can only be used by the government that collected it.",
+      "answer": false,
+      "explanation": "False. The whole point of open data is that it is NOT limited to its collector — reporters, doctors, principals and AI researchers all used the same government air data.",
+      "source": "worksheet:Q2a"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Is Open Data",
+      "question": "Which of these is the best example of open data from the chapter?",
+      "options": [
+        "A diary a student keeps locked at home",
+        "A password written on a sticky note",
+        "A secret recipe kept by a restaurant",
+        "Air quality numbers published by the CPCB"
+      ],
+      "answer": 3,
+      "explanation": "CPCB Open Data (cpcb.nic.in) is named as a source — the government publishes air readings for anyone to use. Diaries, passwords and secret recipes are private, not open.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "What Is Open Data",
+      "question": "Select ALL the statements that describe open data as the chapter uses the term.",
+      "options": [
+        "It must be bought first",
+        "It is free to use",
+        "It can be shared with others",
+        "Only experts may see it"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "Open data is free and shareable. If only experts could see it, or if it had to be bought, it would not 'belong to everyone'.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What Is Open Data",
+      "question": "Which statement about open data is NOT true?",
+      "options": [
+        "It can only be used for one purpose",
+        "It is free for the public to use",
+        "It can be combined with other data",
+        "It can help people make decisions"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet shows the SAME AQI dataset used for many different purposes (news, health, school, AI). So 'only one purpose' is the false statement; the other three are all shown in the chapter.",
+      "source": "worksheet:Q2a"
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What Is Open Data",
+      "question": "In the chapter, who 'owns' data that belongs to everyone?",
+      "options": [
+        "Only the scientists who study it",
+        "Everyone who wants to use it",
+        "Only the person who typed it",
+        "Only the company that stores it"
+      ],
+      "answer": 1,
+      "explanation": "The title says the data belongs to Everyone. Nobody has to ask permission from a typist, a company or a scientist to use open data.",
+      "source": "worksheet:title"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Is Open Data",
+      "question": "The CPCB open data website address given in the worksheet is which of these?",
+      "options": [
+        "cpcb.com.au",
+        "cpcb.gov.us",
+        "cpcb.nic.in",
+        "cpcb.org.uk"
+      ],
+      "answer": 2,
+      "explanation": "The worksheet lists 'CPCB Open Data — cpcb.nic.in'. The '.nic.in' ending is used by Indian government websites.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What Is Open Data",
+      "question": "What is the opposite of open data?",
+      "options": [
+        "Data printed in a big newspaper",
+        "Data shown on a public website",
+        "Data shared at a school meeting",
+        "Data locked away so few can see it"
+      ],
+      "answer": 3,
+      "explanation": "Open data is free and visible to all. Its opposite is data that is locked or hidden. Newspapers, public websites and school meetings all SHARE data, so they are examples of openness.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What Is Open Data",
+      "question": "A city posts its daily air readings on a free website. A factory keeps its smoke readings in a private file. Which is open data?",
+      "options": [
+        "Only the city's air readings",
+        "Only the factory's smoke file",
+        "Both sets of readings equally",
+        "Neither set, since both are numbers"
+      ],
+      "answer": 0,
+      "explanation": "Open data must be free and available to everyone. The city's website readings are; the factory's private file is not. Being 'numbers' does not make data open or closed — access does.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "What Is Open Data",
+      "question": "Select ALL the things that make a dataset 'open' in the chapter's sense.",
+      "options": [
+        "It has exactly five columns",
+        "It is about air pollution",
+        "It is stored in Canva",
+        "Anyone may use it",
+        "It is free to access"
+      ],
+      "answer": [
+        3,
+        4
+      ],
+      "explanation": "Openness is about ACCESS: anyone may use it, for free. The topic (air), the tool (Canva) and the number of columns do not decide whether data is open.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What Is Open Data",
+      "question": "'Public data' in the Delhi story means data that...",
+      "options": [
+        "Was voted for by the public in a poll",
+        "Is available to the public, not just officials",
+        "Was collected by the public themselves",
+        "Is about the public's favourite foods"
+      ],
+      "answer": 1,
+      "explanation": "'Free public data' means the government made its air readings available to everybody, not only to officials. It does not mean ordinary people collected it or voted on it.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reading the AQI Scale",
+      "question": "What does AQI stand for?",
+      "options": [
+        "Area Quiet Index",
+        "Air Quick Input",
+        "Air Quality Index",
+        "Air Quantity Idea"
+      ],
+      "answer": 2,
+      "explanation": "AQI is the Air Quality Index — a number scale that tells how clean or polluted the air is.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reading the AQI Scale",
+      "question": "In Q1, where on the dataset was the AQI scale shown?",
+      "options": [
+        "At the bottom of page 12",
+        "Inside the hospital notes",
+        "On the satellite pictures",
+        "At the top of the dataset"
+      ],
+      "answer": 3,
+      "explanation": "Q1 says 'Look at the AQI scale at the top of the dataset' — you use that scale to turn each city's number into a category.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reading the AQI Scale",
+      "question": "On the AQI scale, what does a HIGHER number mean?",
+      "options": [
+        "Air that is more polluted",
+        "Air that is much cleaner",
+        "Weather that is hotter",
+        "A city that is larger"
+      ],
+      "answer": 0,
+      "explanation": "AQI measures pollution: the higher the number, the dirtier the air. It does not measure temperature or city size.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reading the AQI Scale",
+      "question": "Q1 asked students to fill each city's 2022 AQI category in which part of the table?",
+      "options": [
+        "The title box",
+        "The last column",
+        "The first column",
+        "The middle row"
+      ],
+      "answer": 1,
+      "explanation": "Q1 says to fill 'each city's 2022 AQI category in the last column of the table'.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q19",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Reading the AQI Scale",
+      "question": "The city with the highest AQI number had the worst air quality.",
+      "answer": true,
+      "explanation": "True. Higher AQI = more pollution, so the highest number marks the worst air. That is how you answer Q1(a).",
+      "source": "worksheet:Q1a"
+    },
+    {
+      "id": "q20",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Reading the AQI Scale",
+      "question": "A low AQI number means a city has dangerous, dirty air.",
+      "answer": false,
+      "explanation": "False — it is the other way round. LOW AQI means cleaner, safer air; HIGH AQI means dirty air.",
+      "source": "worksheet:Q1b"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reading the AQI Scale",
+      "question": "To find the city with the BEST air quality in 2022, what should you look for?",
+      "options": [
+        "The city with the most people",
+        "The city nearest to the sea",
+        "The lowest AQI number in that year",
+        "The highest AQI number in that year"
+      ],
+      "answer": 2,
+      "explanation": "Best air = least pollution = lowest AQI. Q1(b) is answered by scanning the 2022 column for the smallest number, not by population or location.",
+      "source": "worksheet:Q1b"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Reading the AQI Scale",
+      "question": "Aman's city has an AQI of 160 and Bela's city has an AQI of 55. Who breathes cleaner air?",
+      "options": [
+        "Aman, because 160 is higher",
+        "Both the same, both are numbers",
+        "Neither, AQI is not about air",
+        "Bela, because 55 is lower"
+      ],
+      "answer": 3,
+      "explanation": "Lower AQI means cleaner air, so Bela's 55 is better than Aman's 160. A bigger number is NOT better on this scale.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reading the AQI Scale",
+      "question": "An AQI 'category' tells you what about a city's number?",
+      "options": [
+        "The band it falls in, such as good or poor",
+        "The name of the city that measured it",
+        "The year when the reading was taken",
+        "The scientist who wrote the number"
+      ],
+      "answer": 0,
+      "explanation": "The scale at the top of the dataset groups numbers into categories (bands) like good, moderate or poor. Q1 asks you to write the matching band for each city.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q24",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Reading the AQI Scale",
+      "question": "Select ALL the things the AQI table in Q1 contained.",
+      "options": [
+        "Names of farmers",
+        "Several cities",
+        "Readings for several years",
+        "Hospital bills"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "Q1 talks about 'each city' and compares 2020 with 'the other years', so the table had many cities and many years. Hospital bills and farmers' names belong to Q2's story, not the table.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reading the AQI Scale",
+      "question": "Which year's data in the table 'looked different from the other years'?",
+      "options": [
+        "2022",
+        "2020",
+        "2018",
+        "2021"
+      ],
+      "answer": 1,
+      "explanation": "Q1(c) says 'The 2020 data looks different from the other years' and explains that 2020 was the Covid-19 pandemic year.",
+      "source": "worksheet:Q1c"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Reading the AQI Scale",
+      "question": "If a city's AQI category changes from 'good' to 'very poor', what most likely happened?",
+      "options": [
+        "Its rainfall stopped",
+        "Its roads got longer",
+        "Pollution in its air rose",
+        "Its population shrank"
+      ],
+      "answer": 2,
+      "explanation": "AQI categories track pollution. Moving to a worse band means the air got dirtier. Population, rain or roads are not what AQI measures.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reading the AQI Scale",
+      "question": "Comparing cities on the AQI table is an example of using data to do what?",
+      "options": [
+        "Draw a nice picture",
+        "Learn a new language",
+        "Build a big toy model",
+        "Make a fair comparison"
+      ],
+      "answer": 3,
+      "explanation": "Because every city is measured on the same AQI scale, the table lets you compare them fairly — which Q1(a) and Q1(b) ask you to do.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reading the AQI Scale",
+      "question": "Why is a shared scale like AQI useful when comparing many cities?",
+      "options": [
+        "Every city is measured the same way",
+        "Every city gets the same number",
+        "Every city looks equally clean",
+        "Every city must build a factory"
+      ],
+      "answer": 0,
+      "explanation": "A shared scale means one rule for everyone, so numbers from different cities can be compared honestly. It does not make the numbers equal.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reading the AQI Scale",
+      "question": "An AQI table with cities as rows and years as columns lets you compare which two things?",
+      "options": [
+        "Countries with continents over time",
+        "Cities with each other and years over time",
+        "Hospitals with schools across a city",
+        "Farmers with reporters across years"
+      ],
+      "answer": 1,
+      "explanation": "Reading down a column compares cities in one year; reading across a row shows how one city changed over the years — both are used in Q1.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reading the AQI Scale",
+      "question": "In Q1(a) you are asked which city had the WORST air quality in which year?",
+      "options": [
+        "2020",
+        "2021",
+        "2022",
+        "2018"
+      ],
+      "answer": 2,
+      "explanation": "Q1(a) asks: 'Which city had the worst air quality in 2022?' — the same year whose categories you fill in the last column.",
+      "source": "worksheet:Q1a"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The 2020 Covid Dip",
+      "question": "What happened in 2020 that made the AQI data look different?",
+      "options": [
+        "A very large forest fire",
+        "A long summer heat wave",
+        "A big new city festival",
+        "The Covid-19 pandemic"
+      ],
+      "answer": 3,
+      "explanation": "Q1(c) says '2020 was when the Covid-19 pandemic happened', which explains why the 2020 numbers stand out.",
+      "source": "worksheet:Q1c"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The 2020 Covid Dip",
+      "question": "Why did the AQI improve for ALL cities during 2020?",
+      "options": [
+        "Lockdowns kept cars and factories mostly stopped",
+        "Every city planted millions of new trees",
+        "Strong winds blew the pollution to the sea",
+        "The AQI scale was changed to a new one"
+      ],
+      "answer": 0,
+      "explanation": "During the pandemic people stayed home, so traffic and many factories stopped. Less burning of fuel means less smoke, so the air got cleaner everywhere at once.",
+      "source": "worksheet:Q1c-i"
+    },
+    {
+      "id": "q33",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The 2020 Covid Dip",
+      "question": "During 2020 the AQI of the cities improved, meaning the air got cleaner.",
+      "answer": true,
+      "explanation": "True. 'Improved' AQI means lower numbers and cleaner air — the pandemic lockdowns cut pollution.",
+      "source": "worksheet:Q1c"
+    },
+    {
+      "id": "q34",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "The 2020 Covid Dip",
+      "question": "In 2020 the air in the cities became dirtier than in other years.",
+      "answer": false,
+      "explanation": "False. The worksheet says the AQI IMPROVED in 2020 — the air was cleaner, not dirtier, because of lockdowns.",
+      "source": "worksheet:Q1c"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The 2020 Covid Dip",
+      "question": "During the pandemic, fewer vehicles were on the roads. What effect did that have on the air?",
+      "options": [
+        "More rain fell on the city",
+        "Less smoke, so cleaner air",
+        "More smoke, so dirtier air",
+        "No change in the air at all"
+      ],
+      "answer": 1,
+      "explanation": "Vehicles burn fuel and release smoke. Fewer vehicles means less smoke, which is why the AQI improved in 2020.",
+      "source": "worksheet:Q1c-i"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The 2020 Covid Dip",
+      "question": "Which is the best explanation of the 2020 data, using the worksheet's hint?",
+      "options": [
+        "Farmers burned more crops than usual that year",
+        "The government deleted the bad readings in 2020",
+        "People stayed home, so less pollution was made",
+        "Measuring machines broke, so numbers were wrong"
+      ],
+      "answer": 2,
+      "explanation": "The hint is the Covid-19 pandemic: lockdowns kept people home, so less pollution was produced. The other options invent problems the worksheet never mentions.",
+      "source": "worksheet:Q1c-i"
+    },
+    {
+      "id": "q37",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "The 2020 Covid Dip",
+      "question": "Select ALL the things that were likely reduced during the 2020 lockdowns.",
+      "options": [
+        "Factory smoke",
+        "Number of cities",
+        "Hospitals in the city",
+        "Car and bus traffic"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "Lockdowns cut traffic and factory activity — the two big sources of city air pollution. The number of cities and hospitals did not shrink.",
+      "source": "worksheet:Q1c-i"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The 2020 Covid Dip",
+      "question": "What does the 2020 dip teach us about air pollution?",
+      "options": [
+        "It is caused only by the weather outside",
+        "It can never be reduced by anyone",
+        "It only ever happens in the winter",
+        "Much of it comes from human activity"
+      ],
+      "answer": 3,
+      "explanation": "When human activity (traffic, factories) paused, the air got cleaner. That shows people cause much of the pollution — and that it CAN be reduced.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The 2020 Covid Dip",
+      "question": "In Q1(c), the AQI numbers of which cities improved in 2020?",
+      "options": [
+        "All the cities in the table",
+        "Only the very biggest city",
+        "Only the smallest city",
+        "None of the listed cities"
+      ],
+      "answer": 0,
+      "explanation": "Q1(c)(i) asks 'Why did the AQI improve for ALL cities during 2020?' — the change showed up everywhere, not in one city.",
+      "source": "worksheet:Q1c-i"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The 2020 Covid Dip",
+      "question": "After the lockdowns ended, what would you EXPECT the AQI numbers to do?",
+      "options": [
+        "Become impossible to measure",
+        "Rise again as traffic returned",
+        "Stay low forever afterwards",
+        "Drop to exactly zero at once"
+      ],
+      "answer": 1,
+      "explanation": "The 2020 improvement came from reduced activity. When cars and factories restarted, pollution — and AQI — would be expected to climb back up.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The 2020 Covid Dip",
+      "question": "Noticing that one year 'looks different' in a table is called spotting a what?",
+      "options": [
+        "A column title",
+        "A page number",
+        "A pattern change",
+        "A spelling error"
+      ],
+      "answer": 2,
+      "explanation": "Q1(c) trains you to look at numbers across years and notice when the pattern breaks — the 2020 dip is a pattern change.",
+      "source": "worksheet:Q1c"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The 2020 Covid Dip",
+      "question": "Which data would best CONFIRM the lockdown explanation for the 2020 dip?",
+      "options": [
+        "A list of popular songs in 2020",
+        "The number of schools in each city",
+        "Cricket scores from the 2020 season",
+        "Traffic counts showing far fewer cars"
+      ],
+      "answer": 3,
+      "explanation": "If traffic counts fell sharply in 2020 while AQI improved, that supports the idea that fewer vehicles cleaned the air. Songs, school counts and cricket scores are unrelated.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The 2020 Covid Dip",
+      "question": "Who caused the AQI to improve in 2020, whether they meant to or not?",
+      "options": [
+        "Almost everyone, by staying home",
+        "Only the farmers, by burning less",
+        "Only the doctors, by treating more",
+        "Only the reporters, by writing more"
+      ],
+      "answer": 0,
+      "explanation": "The improvement was city-wide and in every city, because nearly everyone stopped travelling and many workplaces closed — not because of one small group.",
+      "source": "worksheet:Q1c-i"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Delhi Smog Investigation",
+      "question": "Between which years did reporters study air pollution in the worksheet's story?",
+      "options": [
+        "2015 and 2018",
+        "2018 and 2021",
+        "2010 and 2015",
+        "2020 and 2024"
+      ],
+      "answer": 1,
+      "explanation": "Q2 begins: 'Between 2018 and 2021, reporters used free public data, hospital notes, and satellite pictures to study air pollution.'",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q45",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Delhi Smog Investigation",
+      "question": "Select ALL the kinds of information the reporters used, besides free public data.",
+      "options": [
+        "Satellite pictures",
+        "Movie ticket sales",
+        "School report cards",
+        "Cricket match scores",
+        "Hospital notes"
+      ],
+      "answer": [
+        0,
+        4
+      ],
+      "explanation": "The reporters combined free public data with hospital notes and satellite pictures. Tickets, report cards and scores were not part of the study.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Delhi Smog Investigation",
+      "question": "What caused Delhi's WORST smog, according to the reporters?",
+      "options": [
+        "Too many fireworks at festivals",
+        "Trucks carrying sand through town",
+        "Farmers nearby burning crops",
+        "Factories dumping waste in rivers"
+      ],
+      "answer": 2,
+      "explanation": "The reporters found 'Delhi's worst smog happened when nearby farmers burned crops'. Smoke from the burning fields drifted over the city.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Delhi Smog Investigation",
+      "question": "What happened to hospital visits when the air got dirty?",
+      "options": [
+        "They dropped because people stayed in",
+        "They stayed exactly the same",
+        "They rose only for broken bones",
+        "They jumped for breathing problems"
+      ],
+      "answer": 3,
+      "explanation": "The worksheet says 'Dirty air caused a jump in hospital visits for breathing problems.' Polluted air hurts the lungs, so more people needed help.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q48",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Delhi Smog Investigation",
+      "question": "The reporters used satellite pictures as one of their data sources.",
+      "answer": true,
+      "explanation": "True — satellite pictures (along with free public data and hospital notes) are listed in Q2.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q49",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Delhi Smog Investigation",
+      "question": "The reporters found that Delhi's worst smog was caused by ocean winds.",
+      "answer": false,
+      "explanation": "False. The cause they found was nearby farmers burning crops, not winds from the sea.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Delhi Smog Investigation",
+      "question": "How did the government use the reporters' work?",
+      "options": [
+        "To help make new clean-air rules",
+        "To build a new airport runway",
+        "To plan a bigger cricket stadium",
+        "To print new school textbooks"
+      ],
+      "answer": 0,
+      "explanation": "Q2 ends: 'the government used it to help make new clean-air rules.' The data led to real action against pollution.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Delhi Smog Investigation",
+      "question": "Why could the reporters share their work easily?",
+      "options": [
+        "Because the farmers helped them",
+        "Because the data was free",
+        "Because they owned a TV channel",
+        "Because the hospital paid them"
+      ],
+      "answer": 1,
+      "explanation": "The worksheet gives the reason directly: 'Because the data was free, they could share their work easily.'",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Delhi Smog Investigation",
+      "question": "Put the chain in order: ? → dirty air → more hospital visits. What goes in the first blank?",
+      "options": [
+        "Reporters sharing work",
+        "Satellite pictures taken",
+        "Crop burning by farmers",
+        "New clean-air rules"
+      ],
+      "answer": 2,
+      "explanation": "Crop burning made the smog, the smog dirtied the air, and the dirty air sent people to hospital. Rules, sharing and pictures came AFTER, not before.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q53",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Delhi Smog Investigation",
+      "question": "Dirty air in Delhi led to a jump in hospital visits for breathing problems.",
+      "answer": true,
+      "explanation": "True — that was one of the reporters' key findings in Q2.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Delhi Smog Investigation",
+      "question": "Which news source is named for the Delhi smog study?",
+      "options": [
+        "IndiaToday",
+        "IndiaTimes",
+        "IndiaWeekly",
+        "IndiaSpend"
+      ],
+      "answer": 3,
+      "explanation": "The source line reads 'IndiaSpend — indiaspend.com/...stubble-burning-the-main-culprit-behind-delhis-worsening-air-quality'.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q55",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Delhi Smog Investigation",
+      "question": "Select ALL the things that happened BECAUSE the data was free.",
+      "options": [
+        "The government could use it for rules",
+        "Farmers stopped growing crops",
+        "Hospitals closed down for a year",
+        "Reporters could share their work easily"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "Free data meant the reporters' work could spread easily, and the government could pick it up to make clean-air rules. Farmers and hospitals did not shut down.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Delhi Smog Investigation",
+      "question": "Which statement about the Delhi study is NOT true?",
+      "options": [
+        "Reporters paid for secret data",
+        "Reporters used hospital notes",
+        "Reporters used satellite pictures",
+        "Reporters used free public data"
+      ],
+      "answer": 0,
+      "explanation": "The reporters used FREE public data — nothing was paid for or secret. The other three statements are all taken directly from Q2.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Delhi Smog Investigation",
+      "question": "What did the hospital notes most likely show the reporters?",
+      "options": [
+        "How many rules the government wrote",
+        "How many people came in with breathing trouble",
+        "How many farmers lived near the city",
+        "How many satellites passed over Delhi"
+      ],
+      "answer": 1,
+      "explanation": "Hospital notes record patients and their problems, so they revealed the jump in breathing-problem visits on smoggy days.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Delhi Smog Investigation",
+      "question": "What did the satellite pictures most likely show?",
+      "options": [
+        "The price of vegetables in markets",
+        "The timetable of trains to Delhi",
+        "Smoke from fields where crops were burned",
+        "The names of patients in hospitals"
+      ],
+      "answer": 2,
+      "explanation": "Satellites look down from space, so they can show smoke rising from burning fields near Delhi — evidence linking crop burning to the smog.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Delhi Smog Investigation",
+      "question": "What is 'smog'?",
+      "options": [
+        "A light morning fog after rain",
+        "A warm wind from the desert",
+        "A cloud that brings heavy snow",
+        "Dirty, smoky air hanging over a city"
+      ],
+      "answer": 3,
+      "explanation": "Smog is smoke mixed with fog — thick, dirty air that sits over a city. In Delhi it came from burning crops.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Delhi Smog Investigation",
+      "question": "The Delhi story shows that open data can lead to what final result?",
+      "options": [
+        "Real changes in laws and rules",
+        "Only interesting newspaper photos",
+        "Nothing, since data is just numbers",
+        "Higher prices for air purifiers"
+      ],
+      "answer": 0,
+      "explanation": "The chain ended with the government using the findings 'to help make new clean-air rules' — open data changed real policy, not just headlines.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Delhi Smog Investigation",
+      "question": "The Delhi smog study appears in which worksheet level?",
+      "options": [
+        "Learning is fun",
+        "Powering up",
+        "Laying the tracks",
+        "Thinking deeper"
+      ],
+      "answer": 1,
+      "explanation": "Q2 (the Delhi story and the two tables) sits under the 'Powering up' level, after 'Laying the tracks' (Q1).",
+      "source": "worksheet:levels"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Delhi Smog Investigation",
+      "question": "In the Delhi story, which event came LAST?",
+      "options": [
+        "Thick smog covered the city",
+        "Hospital visits jumped up",
+        "The government made new rules",
+        "Nearby farmers burned crops"
+      ],
+      "answer": 2,
+      "explanation": "Order: farmers burned crops → smog → hospital visits rose → reporters shared findings → the government made clean-air rules. The rules were the final step.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Same Data, Different Users",
+      "question": "Q2(a) says different people use the same open dataset for what?",
+      "options": [
+        "Exactly the same purpose",
+        "Only their school homework",
+        "Only writing newspapers",
+        "Completely different purposes"
+      ],
+      "answer": 3,
+      "explanation": "Q2(a) reads: 'Different people use the same open dataset for completely different purposes.' One table, many uses.",
+      "source": "worksheet:Q2a"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Same Data, Different Users",
+      "question": "A JOURNALIST would most likely use AQI data to do what?",
+      "options": [
+        "Write a news report about dirty air",
+        "Decide which medicine to give",
+        "Cancel outdoor sports at school",
+        "Train a computer to predict smog"
+      ],
+      "answer": 0,
+      "explanation": "Journalists report news. With AQI data they can show readers how bad the air is — just like the IndiaSpend reporters did.",
+      "source": "worksheet:Q2a"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Same Data, Different Users",
+      "question": "A PUBLIC HEALTH DOCTOR might use AQI data to decide what?",
+      "options": [
+        "Which pattern a computer should learn",
+        "When to warn patients about dirty air",
+        "Which headline to print tomorrow",
+        "Which day to hold the school fair"
+      ],
+      "answer": 1,
+      "explanation": "Doctors care for health. High AQI days are risky for people with breathing problems, so the doctor can warn them in time.",
+      "source": "worksheet:Q2a"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Same Data, Different Users",
+      "question": "A SCHOOL PRINCIPAL might use AQI data to decide what?",
+      "options": [
+        "Which medicine to prescribe to patients",
+        "Which data to feed into a computer model",
+        "Whether to keep children indoors at break",
+        "Which story to publish in the paper"
+      ],
+      "answer": 2,
+      "explanation": "A principal is responsible for pupils' safety. On a very-poor AQI day, keeping children indoors protects their lungs.",
+      "source": "worksheet:Q2a"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Same Data, Different Users",
+      "question": "An AI RESEARCHER might use AQI data to do what?",
+      "options": [
+        "Treat patients with breathing trouble",
+        "Write the morning newspaper story",
+        "Plan the school's outdoor sports day",
+        "Train a model to predict pollution"
+      ],
+      "answer": 3,
+      "explanation": "AI researchers teach computers with data. Years of AQI readings can train a model to forecast smoggy days.",
+      "source": "worksheet:Q2a"
+    },
+    {
+      "id": "q68",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Same Data, Different Users",
+      "question": "Select ALL the groups listed in the Q2(a) table of data users.",
+      "options": [
+        "Taxi driver",
+        "Shopkeeper",
+        "Pilot",
+        "Journalist",
+        "AI researcher"
+      ],
+      "answer": [
+        3,
+        4
+      ],
+      "explanation": "The table lists four users: Journalist, Public health doctor, School principal and AI researcher. Drivers, shopkeepers and pilots are not in it.",
+      "source": "worksheet:Q2a"
+    },
+    {
+      "id": "q69",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Same Data, Different Users",
+      "question": "A school principal was one of the data users listed in the worksheet.",
+      "answer": true,
+      "explanation": "True — the Q2(a) table includes a School principal alongside a journalist, a public health doctor and an AI researcher.",
+      "source": "worksheet:Q2a"
+    },
+    {
+      "id": "q70",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Same Data, Different Users",
+      "question": "The worksheet listed a farmer as one of the four users of AQI data.",
+      "answer": false,
+      "explanation": "False. Farmers appear in the Delhi story as the source of crop smoke, but the four users in the table are journalist, doctor, principal and AI researcher.",
+      "source": "worksheet:Q2a"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Same Data, Different Users",
+      "question": "'Should I cancel the outdoor sports day because of the smog?' Who in the Q2(a) table asks this?",
+      "options": [
+        "The school principal",
+        "The news journalist",
+        "The AI researcher",
+        "The health doctor"
+      ],
+      "answer": 0,
+      "explanation": "Sports day is a school decision, so it is the principal's question. The journalist reports, the doctor treats, the researcher builds models.",
+      "source": "worksheet:Q2a"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Same Data, Different Users",
+      "question": "'Can a computer learn to predict next week's smog?' Who in the Q2(a) table asks this?",
+      "options": [
+        "The health doctor",
+        "The AI researcher",
+        "The school principal",
+        "The news journalist"
+      ],
+      "answer": 1,
+      "explanation": "Teaching a computer to predict is the AI researcher's job. The others use AQI data to act, not to build models.",
+      "source": "worksheet:Q2a"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Same Data, Different Users",
+      "question": "'Should I tell my asthma patients to stay inside today?' Who in the Q2(a) table asks this?",
+      "options": [
+        "The news journalist",
+        "The school principal",
+        "The health doctor",
+        "The AI researcher"
+      ],
+      "answer": 2,
+      "explanation": "Advising patients is the public health doctor's decision. A principal advises pupils, not patients.",
+      "source": "worksheet:Q2a"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Same Data, Different Users",
+      "question": "Why is it powerful that ONE dataset serves many users?",
+      "options": [
+        "Each user must collect fresh numbers",
+        "Only one person is allowed to read it",
+        "The numbers change for every user",
+        "One set of numbers helps many decisions"
+      ],
+      "answer": 3,
+      "explanation": "Because the data is open, it is collected once and reused by everyone — journalists, doctors, principals and researchers each make their own decisions from it.",
+      "source": "worksheet:Q2a"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Same Data, Different Users",
+      "question": "Which is NOT a sensible use of AQI data from the Q2(a) table?",
+      "options": [
+        "Choosing the colour of the school uniform",
+        "Deciding whether to warn breathing patients",
+        "Writing a report on a city's dirty air",
+        "Training a model to forecast pollution"
+      ],
+      "answer": 0,
+      "explanation": "AQI tells you about air quality. It can guide health warnings, news reports and pollution forecasts, but it says nothing about uniform colours.",
+      "source": "worksheet:Q2a"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Same Data, Different Users",
+      "question": "The Q2(a) table asked for 'the specific ___ this data helps them make'.",
+      "options": [
+        "Promise",
+        "Decision",
+        "Painting",
+        "Purchase"
+      ],
+      "answer": 1,
+      "explanation": "The column heading is 'The specific decision this data helps them make' — each user turns the data into a choice.",
+      "source": "worksheet:Q2a"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Same Data, Different Users",
+      "question": "A bus company starts using the AQI dataset to plan extra buses on smoggy days. What does this show about open data?",
+      "options": [
+        "It must be re-collected for each new user",
+        "It loses value when more people use it",
+        "It can serve users nobody planned for",
+        "It works only for the four listed users"
+      ],
+      "answer": 2,
+      "explanation": "The worksheet's four users are just examples. Because the data is open, any new group — like a bus company — can pick it up and make its own decision.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Same Data, Different Users",
+      "question": "Why did the worksheet ask about FOUR different users instead of just one?",
+      "options": [
+        "To make the table look longer",
+        "To test spelling of job names",
+        "To prove only one user matters",
+        "To show one dataset has many uses"
+      ],
+      "answer": 3,
+      "explanation": "Listing a journalist, doctor, principal and AI researcher shows how one open dataset can power very different decisions.",
+      "source": "worksheet:Q2a"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Combining Datasets",
+      "question": "The worksheet's example in Q2(b) combined AQI data with which other data?",
+      "options": [
+        "Hospital data",
+        "Weather data",
+        "Traffic data",
+        "School data"
+      ],
+      "answer": 0,
+      "explanation": "Q2(b) gives the example 'AQI with hospital to know if AQI leads to breathing problems'.",
+      "source": "worksheet:Q2b"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Combining Datasets",
+      "question": "Combining AQI data with hospital data helps people find out what?",
+      "options": [
+        "Whether the city has enough green parks",
+        "Whether dirty air causes breathing problems",
+        "Whether hospitals have enough spare beds",
+        "Whether doctors enjoy working at night"
+      ],
+      "answer": 1,
+      "explanation": "If hospital visits for breathing trouble rise on high-AQI days, that links dirty air to breathing problems — exactly what Q2(b)'s example says.",
+      "source": "worksheet:Q2b"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Combining Datasets",
+      "question": "What is the main idea of Q2(b)?",
+      "options": [
+        "AQI data is useless on its own",
+        "Only doctors may join datasets",
+        "Joining datasets reveals new things",
+        "Datasets must always stay separate"
+      ],
+      "answer": 2,
+      "explanation": "Q2(b) says 'People can combine AQI data with other datasets to learn new things.' Combining is how you discover links one table cannot show.",
+      "source": "worksheet:Q2b"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Combining Datasets",
+      "question": "You combine AQI data with SCHOOL ATTENDANCE data. What could you learn?",
+      "options": [
+        "Which teacher is the most popular",
+        "How many desks each classroom has",
+        "Which subject students like the most",
+        "Whether dirty-air days keep children home"
+      ],
+      "answer": 3,
+      "explanation": "Matching smoggy days with absence numbers could show whether pollution keeps pupils away. Teachers, desks and favourite subjects have nothing to do with AQI.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Combining Datasets",
+      "question": "You combine AQI data with TRAFFIC COUNT data. What could you learn?",
+      "options": [
+        "Whether more cars mean worse air",
+        "Which car colour is most common",
+        "How long a traffic light stays red",
+        "Which road has the most potholes"
+      ],
+      "answer": 0,
+      "explanation": "If AQI rises on days with heavy traffic, that suggests vehicles are a cause of pollution — a new finding from joining the two tables.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Combining Datasets",
+      "question": "You combine AQI data with WIND and WEATHER data. What could you learn?",
+      "options": [
+        "Which city has the tallest buildings",
+        "How weather moves or traps pollution",
+        "How many umbrellas a shop sells",
+        "Which month has the longest days"
+      ],
+      "answer": 1,
+      "explanation": "Wind can blow smoke away or hold it over a city. Pairing weather with AQI shows when and why pollution builds up.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q85",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Combining Datasets",
+      "question": "Select ALL the datasets that would sensibly pair with AQI data to learn about HEALTH.",
+      "options": [
+        "Asthma medicine sales",
+        "Favourite ice-cream flavours",
+        "Library book borrowings",
+        "Hospital visit records"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "Hospital visits and asthma medicine sales both reflect breathing health, so they can reveal links with dirty air. Ice-cream and library data cannot.",
+      "source": "worksheet:Q2b"
+    },
+    {
+      "id": "q86",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Combining Datasets",
+      "question": "Joining two datasets can show a link that one dataset alone cannot.",
+      "answer": true,
+      "explanation": "True — AQI alone shows air quality; hospital data alone shows illness; together they can show that one leads to the other.",
+      "source": "worksheet:Q2b"
+    },
+    {
+      "id": "q87",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Combining Datasets",
+      "question": "Data can only be useful when it is kept separate from other data.",
+      "answer": false,
+      "explanation": "False. Q2(b) and the Delhi study show the opposite: combining datasets (AQI + hospital notes + satellite pictures) is what uncovered the cause.",
+      "source": "worksheet:Q2b"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Combining Datasets",
+      "question": "When two datasets are combined, what must they share so their rows can be matched?",
+      "options": [
+        "The same person who typed them",
+        "The same number of pages printed",
+        "The same place and time, like city and year",
+        "The same colour of table heading"
+      ],
+      "answer": 2,
+      "explanation": "To link AQI with hospital visits you match the SAME city on the SAME day or year. Headings, typists and page counts do not matter.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Combining Datasets",
+      "question": "AQI goes up on the same days that hospital visits go up. What is the careful conclusion?",
+      "options": [
+        "Hospitals cause the air to get dirty",
+        "The numbers are a coincidence for sure",
+        "Nothing can be learned from two tables",
+        "The two seem linked and worth studying"
+      ],
+      "answer": 3,
+      "explanation": "Rising together suggests a link — in Delhi it turned out dirty air caused the visits. Jumping to 'hospitals cause smog' reverses cause and effect.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q90",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Combining Datasets",
+      "question": "The worksheet says AQI data can only be combined with hospital data.",
+      "answer": false,
+      "explanation": "False. Hospital data is just the example given; Q2(b) then asks YOU to suggest two other datasets to combine with AQI.",
+      "source": "worksheet:Q2b"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Combining Datasets",
+      "question": "Q2(b) asked students to write how many combination ideas?",
+      "options": [
+        "Two",
+        "One",
+        "Five",
+        "Ten"
+      ],
+      "answer": 0,
+      "explanation": "The Q2(b) table has two numbered rows (1. and 2.) for students' own combination ideas.",
+      "source": "worksheet:Q2b"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Combining Datasets",
+      "question": "Q2(b)'s second column asks: 'What new thing could this help people ___?'",
+      "options": [
+        "Draw up",
+        "Find out",
+        "Give up",
+        "Sell off"
+      ],
+      "answer": 1,
+      "explanation": "The column heading is 'What new thing could this help people find out?' — combining data is about discovering something new.",
+      "source": "worksheet:Q2b"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Combining Datasets",
+      "question": "You combine AQI data with the dates farmers burn crops. What could you check?",
+      "options": [
+        "Whether crops grow taller in summer",
+        "Whether tractors cost more each year",
+        "Whether burning days match smog days",
+        "Whether farmers like the colour red"
+      ],
+      "answer": 2,
+      "explanation": "This is what the Delhi reporters effectively did — matching crop-burning dates with bad-air days showed that burning caused the smog.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q94",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Combining Datasets",
+      "question": "The Delhi reporters' work is an example of combining datasets.",
+      "answer": true,
+      "explanation": "True — they joined air data, hospital notes and satellite pictures, which is exactly the skill Q2(b) asks about.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q95",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Combining Datasets",
+      "question": "Select ALL the NEW things that combining datasets can reveal that one table alone could not.",
+      "options": [
+        "The title of the hospital table",
+        "A link between two kinds of events",
+        "A cause that one table alone hid",
+        "The AQI number for one city"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "Combining is for finding links and causes (dirty air → breathing problems). A single city's AQI or a table title is already visible in one table.",
+      "source": "worksheet:Q2b"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Combining Datasets",
+      "question": "Why did the worksheet give 'AQI with hospital data' as the first example?",
+      "options": [
+        "To show hospitals own the AQI data",
+        "To prove AQI data is always wrong",
+        "To list every hospital in the city",
+        "To model how combining reveals links"
+      ],
+      "answer": 3,
+      "explanation": "The example shows the pattern — pair AQI with another dataset to learn something new — so students can invent their own pairs in rows 1 and 2.",
+      "source": "worksheet:Q2b"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Building Your Own Dataset Report",
+      "question": "Q3 asked students to create a dataset report about something useful where?",
+      "options": [
+        "Their school, neighbourhood or city",
+        "A faraway country they have never seen",
+        "The surface of the Moon or Mars",
+        "A made-up land from a storybook"
+      ],
+      "answer": 0,
+      "explanation": "Q3 says the report should be 'about something useful in your school, neighbourhood, or city' — real, nearby data.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q98",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Building Your Own Dataset Report",
+      "question": "Select ALL the tools the worksheet suggested for making the report.",
+      "options": [
+        "A spreadsheet",
+        "A paint set",
+        "A video game console",
+        "A telephone directory",
+        "Canva"
+      ],
+      "answer": [
+        0,
+        4
+      ],
+      "explanation": "Q3 names Canva, Google Slides or a spreadsheet as digital tools for the report.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Building Your Own Dataset Report",
+      "question": "How many columns must the Q3 table have?",
+      "options": [
+        "Six",
+        "Five",
+        "Three",
+        "Four"
+      ],
+      "answer": 1,
+      "explanation": "Q3 requires 'a table with 5 columns and 3 rows of data'.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Building Your Own Dataset Report",
+      "question": "How many rows of data must the Q3 table have?",
+      "options": [
+        "Two",
+        "Ten",
+        "Three",
+        "Five"
+      ],
+      "answer": 2,
+      "explanation": "Q3 requires 5 columns and 3 rows of data — don't swap them!",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Building Your Own Dataset Report",
+      "question": "Q3 says one column must include what?",
+      "options": [
+        "A photo, like a selfie",
+        "A map, like a city plan",
+        "A name, like a title",
+        "A scale, like a rating"
+      ],
+      "answer": 3,
+      "explanation": "Q3: 'Include one column with a scale (example: noise level, temperature, cleanliness rating)'.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q102",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Building Your Own Dataset Report",
+      "question": "Select ALL the scale examples that Q3 named.",
+      "options": [
+        "Street name",
+        "Noise level",
+        "Cleanliness rating",
+        "Shoe size",
+        "Phone number"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "The worksheet's examples of a scale column are noise level, temperature and cleanliness rating.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Building Your Own Dataset Report",
+      "question": "The topic you choose for Q3 must be one that could help people do what?",
+      "options": [
+        "Make decisions",
+        "Win a contest",
+        "Learn to draw",
+        "Sleep better"
+      ],
+      "answer": 0,
+      "explanation": "Q3's first rule: 'Choose a topic that could help people make decisions' — just like AQI data helps principals and doctors decide.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q104",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Building Your Own Dataset Report",
+      "question": "Q3 is in the 'Thinking deeper' level, which is done at your own pace.",
+      "answer": true,
+      "explanation": "True — the third level is labelled 'Thinking deeper (at your own pace)' and contains the dataset-report task.",
+      "source": "worksheet:levels"
+    },
+    {
+      "id": "q105",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Building Your Own Dataset Report",
+      "question": "Q3 required a table with three columns and five rows.",
+      "answer": false,
+      "explanation": "False — it is the other way round: 5 columns and 3 rows of data.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Building Your Own Dataset Report",
+      "question": "Which table follows Q3's rules?",
+      "options": [
+        "4 columns, 4 rows, one column is a noise level",
+        "5 columns, 3 rows, one column is a cleanliness rating",
+        "3 columns, 5 rows, one column is a cleanliness rating",
+        "5 columns, 3 rows, no scale column at all"
+      ],
+      "answer": 1,
+      "explanation": "You need all three: 5 columns, 3 rows AND one scale column. The others swap the numbers, miss the scale, or have the wrong size.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Building Your Own Dataset Report",
+      "question": "Why must one column use a scale?",
+      "options": [
+        "So the table has more words in it",
+        "So nobody else can read the table",
+        "So readings can be compared fairly",
+        "So the table looks more colourful"
+      ],
+      "answer": 2,
+      "explanation": "A scale (like AQI or a 1–5 cleanliness rating) puts every row on the same measure, so people can compare and decide.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Building Your Own Dataset Report",
+      "question": "Which topic BEST fits Q3's rule 'helps people make decisions'?",
+      "options": [
+        "The planets listed in their order",
+        "A list of your favourite cartoons",
+        "The alphabet written backwards",
+        "Noise levels in school corridors"
+      ],
+      "answer": 3,
+      "explanation": "Corridor noise data could help the school decide where to put quiet study spaces. Planet order, cartoons and the alphabet don't guide any decision.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Building Your Own Dataset Report",
+      "question": "Students must write one question their dataset CAN answer and one it ___.",
+      "options": [
+        "Cannot answer",
+        "Already answered",
+        "Must hide",
+        "Will sell"
+      ],
+      "answer": 0,
+      "explanation": "Q3 asks for 'One question your dataset can answer' and 'One question it cannot answer' — knowing the limits of data matters.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q110",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Building Your Own Dataset Report",
+      "question": "The Q3 report could be made in a spreadsheet.",
+      "answer": true,
+      "explanation": "True — Q3 lists 'Canva, Google Slides, or a spreadsheet'.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Building Your Own Dataset Report",
+      "question": "A dataset about corridor noise levels can answer which question?",
+      "options": [
+        "Which city has the cleanest air",
+        "Which corridor is noisiest at lunch",
+        "Which student is the most clever",
+        "Which teacher is the kindest"
+      ],
+      "answer": 1,
+      "explanation": "The data is about corridors and noise, so it can compare corridors. It knows nothing about cleverness, kindness or other cities' air.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Building Your Own Dataset Report",
+      "question": "The same corridor-noise dataset CANNOT answer which question?",
+      "options": [
+        "Which time of day is quietest",
+        "How noise changes during the week",
+        "Why one student likes maths",
+        "Which corridor is the loudest"
+      ],
+      "answer": 2,
+      "explanation": "A dataset only answers questions about what it measured. Noise readings say nothing about one child's feelings about maths.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q113",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Building Your Own Dataset Report",
+      "question": "A dataset can answer any question at all, as long as it has five columns.",
+      "answer": false,
+      "explanation": "False. Q3 asks for a question the dataset CANNOT answer precisely because every dataset has limits — it only covers what was measured.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Building Your Own Dataset Report",
+      "question": "Which of these is a SCALE column?",
+      "options": [
+        "The name of each classroom",
+        "The date the data was taken",
+        "The person who collected it",
+        "Cleanliness rating from 1 to 5"
+      ],
+      "answer": 3,
+      "explanation": "A scale puts things on a numbered or ranked measure, like a 1-to-5 cleanliness rating. Names, dates and collectors are labels, not scales.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Benefits and Concerns of Open Data",
+      "question": "Q3 asked for one ___ and one ___ about making data open.",
+      "options": [
+        "Benefit and concern",
+        "Picture and song",
+        "Price and discount",
+        "Winner and loser"
+      ],
+      "answer": 0,
+      "explanation": "The last two writing prompts are 'One benefit of making the data open' and 'One concern about making the data open'.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Benefits and Concerns of Open Data",
+      "question": "Which is a BENEFIT of making data open?",
+      "options": [
+        "It can never be copied by anyone",
+        "Many people can use it to fix problems",
+        "Only its owner can ever read it",
+        "It costs a lot to keep it secret"
+      ],
+      "answer": 1,
+      "explanation": "Open data lets reporters, doctors, governments and researchers all use it — the Delhi story and the WHO study are both benefits of openness.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Benefits and Concerns of Open Data",
+      "question": "Which is a CONCERN about making data open?",
+      "options": [
+        "It might let a government make new rules",
+        "It might let doctors warn their patients",
+        "It might reveal private facts about people",
+        "It might help reporters write good stories"
+      ],
+      "answer": 2,
+      "explanation": "If a dataset includes personal details, opening it could expose people's privacy. The other three are benefits, not concerns.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q118",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Benefits and Concerns of Open Data",
+      "question": "Select ALL the items that are CONCERNS, not benefits, of open data.",
+      "options": [
+        "Data could be misread or misused",
+        "Problems get solved faster",
+        "Many people can check the facts",
+        "Private details could be exposed"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "Privacy risks and misuse are concerns. Faster problem-solving and fact-checking are benefits.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q119",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Benefits and Concerns of Open Data",
+      "question": "Open data helped the government make clean-air rules, which is a benefit.",
+      "answer": true,
+      "explanation": "True — better rules that protect people's health are a clear benefit of the data being free and shareable.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q120",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Benefits and Concerns of Open Data",
+      "question": "The worksheet says open data has only benefits and no concerns.",
+      "answer": false,
+      "explanation": "False. Q3 asks for one benefit AND one concern — the worksheet wants you to see both sides.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Benefits and Concerns of Open Data",
+      "question": "A school posts each child's name and home address online as 'open data'. What is the problem?",
+      "options": [
+        "It uses too many columns",
+        "It has no scale column",
+        "It is stored in a spreadsheet",
+        "It shares private information"
+      ],
+      "answer": 3,
+      "explanation": "Names and home addresses are personal. Making them open could put children at risk — this is the kind of concern Q3 asks about.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Benefits and Concerns of Open Data",
+      "question": "Open AQI data let the WHO find a world-wide pattern. This is an example of a what?",
+      "options": [
+        "Benefit",
+        "Concern",
+        "Mistake",
+        "Payment"
+      ],
+      "answer": 0,
+      "explanation": "Discovering that 99% of people breathe unsafe air — something no single country could find — is a big benefit of open data.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Benefits and Concerns of Open Data",
+      "question": "Which is a benefit of open data for the WHO study?",
+      "options": [
+        "Researchers kept their methods secret",
+        "Data from 117 countries could be combined",
+        "The WHO could sell the data for profit",
+        "Only one country's data was needed"
+      ],
+      "answer": 1,
+      "explanation": "Because governments opened their air data, the WHO could combine readings from 6,000 cities in 117 countries into one database.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q124",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Benefits and Concerns of Open Data",
+      "question": "Keeping all data secret is always safer and better for everyone.",
+      "answer": false,
+      "explanation": "False. Secret data would have blocked the Delhi clean-air rules and the WHO finding. Some data needs care (privacy), but 'always secret' loses big benefits.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Benefits and Concerns of Open Data",
+      "question": "Why might a city worry before publishing data about its air?",
+      "options": [
+        "It may delete the city's records",
+        "It may change the AQI scale used",
+        "It may show a problem the city has",
+        "It may make the air itself dirtier"
+      ],
+      "answer": 2,
+      "explanation": "Open data can reveal embarrassing truths, like very poor air. Publishing does not change the air or the scale — it just makes the facts visible.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Benefits and Concerns of Open Data",
+      "question": "Which is the fairest view from this chapter?",
+      "options": [
+        "Open data has only benefits and nothing to fear",
+        "Open data has only concerns and no benefits",
+        "Open data makes no difference to anyone",
+        "Open data has big benefits and some real concerns"
+      ],
+      "answer": 3,
+      "explanation": "The chapter celebrates open data (Delhi rules, WHO finding) but Q3 also asks for a concern. Balanced thinking sees both.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Benefits and Concerns of Open Data",
+      "question": "'Data that belongs to everyone' lets ordinary people do what?",
+      "options": [
+        "See and use facts for themselves",
+        "Own the government buildings",
+        "Print their own money at home",
+        "Skip school whenever they like"
+      ],
+      "answer": 0,
+      "explanation": "Open data means the public — not just officials — can look at the numbers and use them, as the reporters did.",
+      "source": "worksheet:title"
+    },
+    {
+      "id": "q128",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Benefits and Concerns of Open Data",
+      "question": "Select ALL the BENEFITS of open data shown in the chapter.",
+      "options": [
+        "Private addresses get shared",
+        "Governments can make better rules",
+        "Researchers can combine many sources",
+        "Anyone can change the numbers"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "The Delhi rules and the WHO database are benefits. Letting anyone alter data, or sharing private addresses, would be problems.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Benefits and Concerns of Open Data",
+      "question": "A good way to lower privacy concerns before opening a dataset is to...",
+      "options": [
+        "Keep the dataset only on paper",
+        "Remove names and personal details",
+        "Add more rows about each person",
+        "Print everyone's phone number"
+      ],
+      "answer": 1,
+      "explanation": "Air data has no names, which is why it is safe to open. Taking out personal details lets data be shared without exposing people.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Benefits and Concerns of Open Data",
+      "question": "The Q3 'concern' prompt teaches students to think about what?",
+      "options": [
+        "How to count the table's rows",
+        "How to spell the word dataset",
+        "Possible harm from sharing data",
+        "How to colour the table nicely"
+      ],
+      "answer": 2,
+      "explanation": "Asking for a concern makes you consider who might be hurt or misled if the data is open — responsible data use, not just enthusiasm.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "WHO Global Air Quality Database",
+      "question": "In which year did the WHO release its Global Air Quality Database?",
+      "options": [
+        "2018",
+        "2020",
+        "2024",
+        "2022"
+      ],
+      "answer": 3,
+      "explanation": "The case study begins: 'In 2022, the World Health Organization (WHO) released its Global Air Quality Database'.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "WHO Global Air Quality Database",
+      "question": "What does WHO stand for?",
+      "options": [
+        "World Health Organization",
+        "World Help Office",
+        "Weather and Health Order",
+        "World Hospital Organizers"
+      ],
+      "answer": 0,
+      "explanation": "WHO is the World Health Organization, the global body that published the air quality database.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "WHO Global Air Quality Database",
+      "question": "How many cities did the WHO database cover?",
+      "options": [
+        "Over 117",
+        "Over 6,000",
+        "Over 600",
+        "Over 60,000"
+      ],
+      "answer": 1,
+      "explanation": "The database covered 'over 6,000 cities across 117 countries'. 117 is the number of countries, not cities.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "WHO Global Air Quality Database",
+      "question": "From how many countries did the WHO data come?",
+      "options": [
+        "171",
+        "6,000",
+        "117",
+        "99"
+      ],
+      "answer": 2,
+      "explanation": "117 countries. 99 is the percentage of people breathing unsafe air, and 6,000 is the number of cities.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "WHO Global Air Quality Database",
+      "question": "Where did every data point in the WHO database come from?",
+      "options": [
+        "Private company sensors",
+        "School science projects",
+        "Paid satellite companies",
+        "Open government sources"
+      ],
+      "answer": 3,
+      "explanation": "The text says 'Every data point in it came from open government sources' — governments had made their air data open.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "WHO Global Air Quality Database",
+      "question": "What shocking finding did researchers make from the combined database?",
+      "options": [
+        "99% of people live with air below WHO safety levels",
+        "99% of cities measured have perfectly clean air",
+        "99% of countries refused to share their data",
+        "99% of the world's people live in the 6,000 cities"
+      ],
+      "answer": 0,
+      "explanation": "The finding: '99% of the world's population lives in places where air quality does not meet WHO safety guidelines.'",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q137",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "WHO Global Air Quality Database",
+      "question": "The WHO database is described as the largest collection of air pollution measurements ever assembled.",
+      "answer": true,
+      "explanation": "True — the case study calls it 'the largest collection of air pollution measurements ever assembled'.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q138",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "WHO Global Air Quality Database",
+      "question": "The WHO collected all the air readings itself using its own sensors.",
+      "answer": false,
+      "explanation": "False. The WHO did not measure the air; every data point came from open government sources that it combined.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q139",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "WHO Global Air Quality Database",
+      "question": "Why would the 99% finding have been impossible from a single country's data?",
+      "options": [
+        "One country has more than 6,000 cities",
+        "One country cannot show the whole world",
+        "One country never measures its own air",
+        "One country always has very clean air"
+      ],
+      "answer": 1,
+      "explanation": "A finding about the WORLD's population needs data from many countries. The text says it 'would have been impossible to discover from any single country's data alone'.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q140",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "WHO Global Air Quality Database",
+      "question": "What made the WHO finding possible?",
+      "options": [
+        "A single scientist visited every city",
+        "The WHO guessed the numbers carefully",
+        "Thousands of governments opened their data",
+        "One rich company bought all the data"
+      ],
+      "answer": 2,
+      "explanation": "'This finding was only possible because thousands of governments had made their air data open.'",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q141",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "WHO Global Air Quality Database",
+      "question": "The text says that without openness, no single researcher 'or even a ___' could have done it.",
+      "options": [
+        "Rich king",
+        "Fast robot",
+        "Big hospital",
+        "Large team"
+      ],
+      "answer": 3,
+      "explanation": "'no single researcher — or even a large team — could have collected, verified, and combined data from 6,000 cities across 117 countries.'",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q142",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "WHO Global Air Quality Database",
+      "question": "Select ALL the things the text says would have to be done with data from 6,000 cities.",
+      "options": [
+        "Sell it",
+        "Hide it",
+        "Delete it",
+        "Collect it",
+        "Verify it",
+        "Combine it"
+      ],
+      "answer": [
+        3,
+        4,
+        5
+      ],
+      "explanation": "The text lists three jobs: collect, verify and combine the data. Selling, hiding or deleting it is the opposite of what open data is for.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q143",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "WHO Global Air Quality Database",
+      "question": "The WHO finding changed how the world understands air pollution.",
+      "answer": true,
+      "explanation": "True — the text calls it 'a statistic that changed how the world understands air pollution'.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q144",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "WHO Global Air Quality Database",
+      "question": "The finding was 'built entirely from information that ___'.",
+      "options": [
+        "Belonged to everyone",
+        "Cost a lot of money",
+        "Was kept top secret",
+        "Came from one city"
+      ],
+      "answer": 0,
+      "explanation": "The last line: 'built entirely from information that belonged to everyone' — tying the case study back to the chapter title.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q145",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "WHO Global Air Quality Database",
+      "question": "The WHO database covered 117 cities in over 6,000 countries.",
+      "answer": false,
+      "explanation": "False — the numbers are swapped. It was over 6,000 CITIES in 117 COUNTRIES.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q146",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "WHO Global Air Quality Database",
+      "question": "Which statement about the WHO database is NOT true?",
+      "options": [
+        "It was released by the WHO in 2022",
+        "It was built by one researcher alone",
+        "It covered more than 6,000 cities",
+        "It used open government data sources"
+      ],
+      "answer": 1,
+      "explanation": "The text stresses that NO single researcher, or even a large team, could have built it alone — it needed thousands of governments' open data.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q147",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "WHO Global Air Quality Database",
+      "question": "To 'verify' data means to do what?",
+      "options": [
+        "Translate it into Hindi",
+        "Sort it by the city name",
+        "Check that it is correct",
+        "Print it out in colour"
+      ],
+      "answer": 2,
+      "explanation": "Verifying means checking the readings are accurate and trustworthy before combining them — a huge job across 6,000 cities.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q148",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "WHO Global Air Quality Database",
+      "question": "The 99% finding mainly shows that air pollution is...",
+      "options": [
+        "A problem only in 117 countries",
+        "A problem only in very big cities",
+        "A problem that has already been solved",
+        "A problem nearly everywhere on Earth"
+      ],
+      "answer": 3,
+      "explanation": "If 99% of all people breathe air below WHO guidelines, dirty air is almost everywhere — not limited to a few places, and certainly not solved.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q149",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "WHO Global Air Quality Database",
+      "question": "The WHO case study is titled 'One open database. 6,000 cities. The finding that shocked the world.'",
+      "answer": true,
+      "explanation": "True — that is the heading of the case-study box on the last worksheet page.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q150",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "WHO Global Air Quality Database",
+      "question": "How does the WHO story connect to the chapter title?",
+      "options": [
+        "Data that belongs to everyone solved a world question",
+        "Data that belongs to one company made money",
+        "Data that belongs to nobody was thrown away",
+        "Data that belongs to the WHO was kept hidden"
+      ],
+      "answer": 0,
+      "explanation": "Open government data — information belonging to everyone — was combined to answer a question about the whole world's air.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q151",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "WHO Global Air Quality Database",
+      "question": "The WHO source says billions of people still breathe what kind of air?",
+      "options": [
+        "Frozen air",
+        "Unhealthy air",
+        "Mountain air",
+        "Perfumed air"
+      ],
+      "answer": 1,
+      "explanation": "The source title is 'Billions of people still breathe unhealthy air: new WHO data'.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q152",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Levels and Big Picture",
+      "question": "Which level comes LAST in the worksheet?",
+      "options": [
+        "Powering up",
+        "Learning is fun",
+        "Thinking deeper",
+        "Laying the tracks"
+      ],
+      "answer": 2,
+      "explanation": "The order is Laying the tracks (Q1) → Powering up (Q2) → Thinking deeper (Q3). 'Learning is Fun!' is just the closing page.",
+      "source": "worksheet:levels"
+    },
+    {
+      "id": "q153",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Worksheet Levels and Big Picture",
+      "question": "'Laying the tracks' is the first level of the worksheet.",
+      "answer": true,
+      "explanation": "True — Q1 (the AQI table) sits under 'Laying the tracks'.",
+      "source": "worksheet:levels"
+    },
+    {
+      "id": "q154",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Levels and Big Picture",
+      "question": "Which level is done 'at your own pace'?",
+      "options": [
+        "Laying the tracks",
+        "Powering up",
+        "Learning is fun",
+        "Thinking deeper"
+      ],
+      "answer": 3,
+      "explanation": "The third level is labelled 'Thinking deeper (at your own pace)' and contains the dataset-report project.",
+      "source": "worksheet:levels"
+    },
+    {
+      "id": "q155",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Levels and Big Picture",
+      "question": "How many levels does the worksheet have?",
+      "options": [
+        "Three",
+        "Two",
+        "Four",
+        "Five"
+      ],
+      "answer": 0,
+      "explanation": "Three levels: Laying the tracks, Powering up, and Thinking deeper.",
+      "source": "worksheet:levels"
+    },
+    {
+      "id": "q156",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Worksheet Levels and Big Picture",
+      "question": "Select ALL the real level names used in the worksheet.",
+      "options": [
+        "Switching off",
+        "Powering up",
+        "Thinking deeper",
+        "Reaching the stars"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "The three levels are Laying the tracks, Powering up and Thinking deeper.",
+      "source": "worksheet:levels"
+    },
+    {
+      "id": "q157",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Levels and Big Picture",
+      "question": "The worksheet moves from reading a table (Q1) to making your own dataset (Q3). What skill does this build?",
+      "options": [
+        "Adding numbers, then subtracting",
+        "Using data, then creating data",
+        "Drawing, then colouring pictures",
+        "Reading stories, then acting them"
+      ],
+      "answer": 1,
+      "explanation": "First you read and interpret someone else's AQI data; by Q3 you build and share your own — becoming a maker of open data, not just a user.",
+      "source": "worksheet:levels"
+    },
+    {
+      "id": "q158",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Worksheet Levels and Big Picture",
+      "question": "Which ONE sentence best sums up the whole chapter?",
+      "options": [
+        "Data is useful mainly for making money",
+        "Air pollution happens only in Delhi city",
+        "Shared data helps people solve real problems",
+        "Only governments should collect any data"
+      ],
+      "answer": 2,
+      "explanation": "That is the worksheet's opening question, answered by the Delhi story and the WHO database. The other sentences contradict the chapter.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q159",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Worksheet Levels and Big Picture",
+      "question": "The chapter's examples were all about water pollution in rivers.",
+      "answer": false,
+      "explanation": "False. Every example — the AQI table, Delhi smog, the WHO database — is about AIR pollution.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q160",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Levels and Big Picture",
+      "question": "Both the Delhi study and the WHO database used data that was...",
+      "options": [
+        "Secret and sold to a few",
+        "Made up by the reporters",
+        "Collected from one school",
+        "Open and free to everyone"
+      ],
+      "answer": 3,
+      "explanation": "The Delhi reporters used free public data; the WHO used open government sources. Openness is what both stories have in common.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q161",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Worksheet Levels and Big Picture",
+      "question": "Which pair shows a 'small local' and a 'big global' use of open data from the chapter?",
+      "options": [
+        "A principal's break-time decision and the WHO 99% finding",
+        "The WHO 99% finding and the 117-country database",
+        "The Covid-19 pandemic and the 2020 lockdowns",
+        "A farmer's crop field and a nearby farmer's field"
+      ],
+      "answer": 0,
+      "explanation": "A principal keeping pupils indoors is a small local decision; the WHO finding covers the whole world. Both come from the same kind of open air data.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q162",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Levels and Big Picture",
+      "question": "In the chapter, data that 'belongs to everyone' means it is...",
+      "options": [
+        "Sold to some",
+        "Shared by all",
+        "Owned by one",
+        "Lost by many"
+      ],
+      "answer": 1,
+      "explanation": "Belonging to everyone means nobody is left out — the data is shared, free and open.",
+      "source": "worksheet:title"
+    },
+    {
+      "id": "q163",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Worksheet Levels and Big Picture",
+      "question": "Select ALL the real-world problems the chapter shows data helping with.",
+      "options": [
+        "World air quality",
+        "Traffic jams in Mumbai",
+        "Flooding in Chennai",
+        "Dirty air in Delhi"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "The two stories are Delhi's smog and the WHO's world air quality database. Mumbai traffic and Chennai floods are not in the chapter.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q164",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Levels and Big Picture",
+      "question": "Q1(c)(i) is the only sub-question in Q1 that asks 'why'. What does a 'why' question need?",
+      "options": [
+        "The name of a city",
+        "A tick in a box",
+        "An explanation of a cause",
+        "A single number from a table"
+      ],
+      "answer": 2,
+      "explanation": "Q1(a) and (b) just need a city name read off the table, but 'Why did the AQI improve in 2020?' needs you to explain a cause — the pandemic lockdowns.",
+      "source": "worksheet:Q1c-i"
+    },
+    {
+      "id": "q165",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Worksheet Levels and Big Picture",
+      "question": "A student says: 'Only experts should be allowed to see air data.' Which chapter example best disagrees?",
+      "options": [
+        "Farmers burned their crops near Delhi",
+        "Hospitals treated breathing problems",
+        "The AQI scale sits at the top of the table",
+        "Reporters used free public data to expose smog"
+      ],
+      "answer": 3,
+      "explanation": "The Delhi reporters were not government experts, yet with public data they found the cause of the smog and helped change the rules — openness worked.",
+      "source": "worksheet:Q2"
+    }
+  ]
+}

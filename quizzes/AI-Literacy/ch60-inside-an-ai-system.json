@@ -1,0 +1,2412 @@
+{
+  "schemaVersion": 1,
+  "id": "ai-literacy-ch60-inside-an-ai-system",
+  "title": "Inside an AI System",
+  "subject": "AI-Literacy",
+  "grade": 4,
+  "sourceDir": "output/AI-Literacy/60_Inside-an-AI-System",
+  "chapter": "60. Inside an AI System",
+  "topic": "Full Chapter",
+  "description": "Input, Processing and Output: the three parts of an AI system, how Google Lens sorts its jobs among them, upgrading Lens for Indian plants and food, designing your own AI with failure modes, and the 2018 medical-AI 'shortcut learning' case study.",
+  "tags": [
+    "ai-literacy",
+    "grade4",
+    "input-processing-output",
+    "google-lens",
+    "shortcut-learning",
+    "ai-systems",
+    "trust"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Three Parts of an AI System",
+      "question": "Which three parts make up an AI system, according to the chapter?",
+      "options": [
+        "Input, Processing, Output",
+        "Camera, Screen, Battery",
+        "Reading, Writing, Speaking",
+        "Training, Testing, Selling"
+      ],
+      "answer": 0,
+      "explanation": "The chapter describes every AI system as three parts: Input receives information, Processing analyses it, and Output delivers the result.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Three Parts of an AI System",
+      "question": "What is the job of the Input part?",
+      "options": [
+        "Store the final answer for many years",
+        "Receive information from the outside world",
+        "Analyse information using learned patterns",
+        "Deliver the result so the user understands it"
+      ],
+      "answer": 1,
+      "explanation": "Input receives information from the outside world and sends it on to Processing. Analysing is Processing's job and delivering results is Output's job.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Three Parts of an AI System",
+      "question": "Which part analyses the input using patterns learned from training data?",
+      "options": [
+        "Training",
+        "Input",
+        "Processing",
+        "Output"
+      ],
+      "answer": 2,
+      "explanation": "Processing analyses the input using patterns it learned from training data. Input only receives information and Output only presents the result.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Three Parts of an AI System",
+      "question": "Which part delivers the result in a way the user can understand?",
+      "options": [
+        "Input",
+        "Processing",
+        "Camera",
+        "Output"
+      ],
+      "answer": 3,
+      "explanation": "The Output part delivers the result in a way the user can understand, for example by showing a name on the screen.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Three Parts of an AI System",
+      "question": "After the Input part receives information, where does it send it?",
+      "options": [
+        "To the Processing part",
+        "Straight to the Output",
+        "Back to the user's eyes",
+        "To the camera's memory"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet says Input receives information and sends it to Processing, which then analyses it before Output shows a result.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Three Parts of an AI System",
+      "question": "In the chapter's upgrade table, which part is described as 'how the AI thinks about the input'?",
+      "options": [
+        "Input",
+        "Processing",
+        "Output",
+        "Feedback"
+      ],
+      "answer": 1,
+      "explanation": "The table describes Processing as 'how the AI thinks about the input'. Input is 'what information enters AI' and Output is 'what the user sees at the end'.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Three Parts of an AI System",
+      "question": "'What information enters AI' describes which part?",
+      "options": [
+        "Processing",
+        "Output",
+        "Input",
+        "Training data"
+      ],
+      "answer": 2,
+      "explanation": "Information entering the AI is the Input part's job. Processing thinks about that information and Output shows the result.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Three Parts of an AI System",
+      "question": "'What the user sees at the end' describes which part?",
+      "options": [
+        "Processing",
+        "Patterns",
+        "Input",
+        "Output"
+      ],
+      "answer": 3,
+      "explanation": "What the user sees at the end is the Output. Input happens at the start and Processing happens in the middle.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q9",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The Three Parts of an AI System",
+      "question": "The Processing part uses patterns it learned from training data.",
+      "answer": true,
+      "explanation": "Yes. Processing analyses the input by using patterns learned from training data, such as millions of example images.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q10",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The Three Parts of an AI System",
+      "question": "The Output part is the part that receives information from the outside world.",
+      "answer": false,
+      "explanation": "False. Receiving information from the outside world is the Input part's job. Output delivers the result to the user.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q11",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "The Three Parts of an AI System",
+      "question": "Information in an AI system flows Input → Processing → Output.",
+      "answer": true,
+      "explanation": "True. Input receives information and sends it to Processing; Processing analyses it; Output delivers the result to the user.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q12",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "The Three Parts of an AI System",
+      "question": "The Input part decides what the information means before passing it on.",
+      "answer": false,
+      "explanation": "False. Input only receives information and passes it on. Deciding what the information means (for example, what a photo contains) is Processing's job.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "The Three Parts of an AI System",
+      "question": "Select the TWO statements that correctly describe parts of an AI system.",
+      "options": [
+        "Processing receives photos from the camera",
+        "Output trains the AI on new data",
+        "Input receives information from the outside world",
+        "Processing delivers the result on the screen",
+        "Output presents the result so the user understands it"
+      ],
+      "answer": [
+        2,
+        4
+      ],
+      "explanation": "Input receives information and Output presents the result. Processing analyses, it does not display results or receive camera photos, and no part 'trains' during use.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Three Parts of an AI System",
+      "question": "A student says 'the Processing part shows the answer on screen.' What is the mistake?",
+      "options": [
+        "Showing the answer is the Output part's job",
+        "Showing the answer is the Input part's job",
+        "Processing never uses any training data",
+        "There is no mistake; that is correct"
+      ],
+      "answer": 0,
+      "explanation": "Processing analyses and decides; showing the answer on screen is the Output part's job. Input receives information and Processing does use training data.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Three Parts of an AI System",
+      "question": "Which ordering shows how information moves through an AI system?",
+      "options": [
+        "Output → Processing → Input",
+        "Input → Processing → Output",
+        "Processing → Input → Output",
+        "Input → Output → Processing"
+      ],
+      "answer": 1,
+      "explanation": "Information enters through Input, is analysed by Processing, and is delivered by Output. The other orders would show a result before it is analysed.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Three Parts of an AI System",
+      "question": "Where do the patterns used by the Processing part come from?",
+      "options": [
+        "From the screen that shows results",
+        "From the camera's flash settings",
+        "From the training data it learned from",
+        "From the user's typed instructions"
+      ],
+      "answer": 2,
+      "explanation": "Processing analyses input 'using patterns learned from training data'. The screen, camera and user instructions do not supply those patterns.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Three Parts of an AI System",
+      "question": "The chapter title is 'Inside an AI System'. What does 'inside' refer to here?",
+      "options": [
+        "The metal box the computer is kept in",
+        "The person who owns the AI product",
+        "The internet cables under the ocean",
+        "The three parts and the jobs each does"
+      ],
+      "answer": 3,
+      "explanation": "Looking 'inside' an AI system means understanding its three parts, Input, Processing and Output, and the specific job each part does.",
+      "source": "worksheet:intro"
+    },
+    {
+      "id": "q18",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "The Three Parts of an AI System",
+      "question": "Processing and Output are two names for the same part of an AI system.",
+      "answer": false,
+      "explanation": "False. They are different parts: Processing analyses the input using learned patterns, while Output delivers the result to the user.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Three Parts of an AI System",
+      "question": "Which part would be described as the 'thinking' part of an AI system?",
+      "options": [
+        "Processing",
+        "Input",
+        "Output",
+        "Battery"
+      ],
+      "answer": 0,
+      "explanation": "The upgrade table calls Processing 'how the AI thinks about the input'. Input brings information in and Output shows the result.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Input: Receiving Information",
+      "question": "In Google Lens, which job belongs to the Input part?",
+      "options": [
+        "Assign a confidence score to the best guess",
+        "Capture the photograph from the camera",
+        "Compare the image to millions of examples",
+        "Show the identified object name on screen"
+      ],
+      "answer": 1,
+      "explanation": "Capturing the photograph is how information enters the system, so it is an Input job. Comparing and scoring are Processing; showing the name is Output.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Input: Receiving Information",
+      "question": "'Make sure the image is clear enough to use' is a job of which part?",
+      "options": [
+        "Output",
+        "Processing",
+        "Input",
+        "Training"
+      ],
+      "answer": 2,
+      "explanation": "Checking that the captured image is clear enough happens while receiving the information, so it belongs to Input.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Input: Receiving Information",
+      "question": "'Pass the image data to the next part' belongs to which part?",
+      "options": [
+        "Processing",
+        "Output",
+        "Display",
+        "Input"
+      ],
+      "answer": 3,
+      "explanation": "Input receives the information and sends it to Processing, so passing the image data to the next part is an Input job.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Input: Receiving Information",
+      "question": "Why does the Input part check that the image is clear enough?",
+      "options": [
+        "So Processing gets usable information to analyse",
+        "So the user can save the photo in a gallery",
+        "So the screen can show the result more brightly",
+        "So the AI can skip the Processing step"
+      ],
+      "answer": 0,
+      "explanation": "Processing can only find patterns in information it can actually use. A clear image gives Processing a fair chance to analyse it correctly.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q24",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Input: Receiving Information",
+      "question": "In Google Lens, capturing the photograph from the camera is an Input job.",
+      "answer": true,
+      "explanation": "True. The photograph is the information coming in from the outside world, which is exactly what Input receives.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q25",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Input: Receiving Information",
+      "question": "In Google Lens, the Input part identifies patterns like shape and colour.",
+      "answer": false,
+      "explanation": "False. Identifying patterns such as shape, colour, texture or text is a Processing job. Input only captures and passes on the image.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q26",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Input: Receiving Information",
+      "question": "Select the TWO Google Lens jobs that belong to the Input part.",
+      "options": [
+        "Provide links to more information",
+        "Assign a confidence score to the best guess",
+        "Capture the photograph from the camera",
+        "Pass the image data to the next part",
+        "Decide what the photograph contains"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "explanation": "Capturing the photo and passing the data on are Input jobs. Deciding contents and scoring guesses are Processing; providing links is Output.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Input: Receiving Information",
+      "question": "Which of these Google Lens jobs does NOT belong to the Input part?",
+      "options": [
+        "Pass the image data to the next part",
+        "Decide what the photograph contains",
+        "Capture the photograph from the camera",
+        "Make sure the image is clear enough to use"
+      ],
+      "answer": 1,
+      "explanation": "Deciding what the photograph contains means analysing it, which is Processing. The other three are all about receiving and passing on the image.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Input: Receiving Information",
+      "question": "A phone's microphone picks up a spoken question for a voice assistant. Which part is doing this job?",
+      "options": [
+        "Output",
+        "Feedback",
+        "Input",
+        "Processing"
+      ],
+      "answer": 2,
+      "explanation": "The microphone receives information (sound) from the outside world, so it plays the Input role, just like the camera does in Google Lens.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Input: Receiving Information",
+      "question": "After Google Lens captures a photo, what does the Input part do next with it?",
+      "options": [
+        "Displays the result on the screen",
+        "Compares it to millions of examples",
+        "Provides links to more information",
+        "Passes the image data to Processing"
+      ],
+      "answer": 3,
+      "explanation": "Input receives information and sends it to Processing. Comparing is Processing's job and displaying or linking is Output's job.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q30",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Input: Receiving Information",
+      "question": "If the Input part sends a blurry, unclear photo, Processing can still be sure of the right answer.",
+      "answer": false,
+      "explanation": "False. Processing depends on usable information. That is why Input's job includes making sure the image is clear enough to use.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Input: Receiving Information",
+      "question": "What does the Input part receive, in general?",
+      "options": [
+        "Information from the outside world",
+        "Patterns from the training data",
+        "The finished result for the user",
+        "Links to more web information"
+      ],
+      "answer": 0,
+      "explanation": "Input receives information from the outside world. Patterns belong to Processing and results and links belong to Output.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Input: Receiving Information",
+      "question": "A smart doorbell's camera records a visitor's face. In the three-part model, which part is this?",
+      "options": [
+        "Output, because it shows a picture",
+        "Input, because it receives information",
+        "Processing, because it uses a camera",
+        "Processing, because it recognises faces"
+      ],
+      "answer": 1,
+      "explanation": "Recording the face is receiving information from the outside world, so it is Input. Recognising who it is would be Processing, and showing an alert would be Output.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Input: Receiving Information",
+      "question": "Which sentence best describes the Input part's role in Google Lens?",
+      "options": [
+        "It writes the answer for the reader",
+        "It learns from millions of examples",
+        "It gets the photo and hands it on",
+        "It picks the best guess and scores it"
+      ],
+      "answer": 2,
+      "explanation": "Input captures the photo and passes it to Processing. Picking and scoring a guess is Processing; writing the answer for the reader is Output.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Input: Receiving Information",
+      "question": "Which is an Input-part problem rather than a Processing problem?",
+      "options": [
+        "The AI was trained on too few Indian plants",
+        "The result is shown in a language the user can't read",
+        "The confidence score is too low to trust",
+        "The camera lens is dirty, so the photo is blurry"
+      ],
+      "answer": 3,
+      "explanation": "A dirty lens affects the information coming in, so it is an Input problem. Too little training data and low confidence are Processing issues; an unreadable result is Output.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Input: Receiving Information",
+      "question": "Which device most often does the Input job in Google Lens?",
+      "options": [
+        "The phone camera",
+        "The phone speaker",
+        "The phone screen",
+        "The phone battery"
+      ],
+      "answer": 0,
+      "explanation": "Google Lens receives its information as a photograph, so the camera does the Input job. The screen is used for Output.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Processing: Thinking with Patterns",
+      "question": "'Compare the image to millions of examples it was trained on' is a job of which part?",
+      "options": [
+        "Input",
+        "Processing",
+        "Output",
+        "Camera"
+      ],
+      "answer": 1,
+      "explanation": "Comparing the image to trained examples is analysing with learned patterns, which is exactly what Processing does.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Processing: Thinking with Patterns",
+      "question": "Which part identifies patterns like shape, colour, texture, or text?",
+      "options": [
+        "Output",
+        "Screen",
+        "Processing",
+        "Input"
+      ],
+      "answer": 2,
+      "explanation": "Finding patterns such as shape, colour, texture or text is Processing. Input only receives the image and Output only shows the result.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Processing: Thinking with Patterns",
+      "question": "'Assign a confidence score to the best guess' belongs to which part?",
+      "options": [
+        "Display",
+        "Output",
+        "Input",
+        "Processing"
+      ],
+      "answer": 3,
+      "explanation": "The confidence score is part of deciding how sure the AI is about its guess, so it belongs to Processing.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Processing: Thinking with Patterns",
+      "question": "'Decide what the photograph contains' is the job of which part?",
+      "options": [
+        "Processing",
+        "Input",
+        "Output",
+        "Storage"
+      ],
+      "answer": 0,
+      "explanation": "Deciding what the photo contains is the analysis step, so it is Processing. In the worksheet it was the odd one out in the Input column.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Processing: Thinking with Patterns",
+      "question": "What is a confidence score?",
+      "options": [
+        "How many pixels the screen has",
+        "How sure the AI is of its guess",
+        "How clear the camera photo is",
+        "How many links the user is shown"
+      ],
+      "answer": 1,
+      "explanation": "A confidence score shows how sure Processing is about its best guess. It is not about photo clarity, links or the screen.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q41",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Processing: Thinking with Patterns",
+      "question": "Select the TWO Google Lens jobs that belong to the Processing part.",
+      "options": [
+        "Format the result so the user can read it",
+        "Provide links to more information",
+        "Identify patterns like shape, colour, texture or text",
+        "Compare the image to millions of trained examples",
+        "Capture the photograph from the camera"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "explanation": "Identifying patterns and comparing to trained examples are Processing jobs. Capturing is Input; formatting results and providing links are Output.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Processing: Thinking with Patterns",
+      "question": "Which of these does NOT belong to the Processing part?",
+      "options": [
+        "Identify patterns like shape, colour or texture",
+        "Assign a confidence score to the best guess",
+        "Display the result on the screen",
+        "Compare the image to millions of examples"
+      ],
+      "answer": 2,
+      "explanation": "Displaying the result is Output. In the worksheet it was the job to cross out in the Processing column; the other three are genuine Processing jobs.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q43",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Processing: Thinking with Patterns",
+      "question": "The Processing part compares the image to millions of examples it was trained on.",
+      "answer": true,
+      "explanation": "True. Processing analyses the new image by comparing it with the millions of examples it learned from.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q44",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Processing: Thinking with Patterns",
+      "question": "The Processing part needs no training data because it decides by itself.",
+      "answer": false,
+      "explanation": "False. Processing analyses input using patterns learned from training data; without training data it would have no patterns to use.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Processing: Thinking with Patterns",
+      "question": "Which list contains ONLY patterns the Processing part might identify in an image?",
+      "options": [
+        "Battery, signal, volume, brightness",
+        "Name, age, address, phone",
+        "Price, shop, bill, discount",
+        "Shape, colour, texture, text"
+      ],
+      "answer": 3,
+      "explanation": "The worksheet lists shape, colour, texture and text as patterns Processing identifies. The other lists are phone settings or personal details, not image patterns.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Processing: Thinking with Patterns",
+      "question": "'Re-analyse the photograph if the result is wrong' — which part would do this job?",
+      "options": [
+        "Processing, because it analyses the input",
+        "Output, because it shows the result",
+        "Input, because it captures the photo",
+        "None; an AI never checks its work again"
+      ],
+      "answer": 0,
+      "explanation": "Re-analysing means analysing again, which is Processing. In the worksheet this job was the odd one out placed in the Output column.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Processing: Thinking with Patterns",
+      "question": "Why does Processing compare the new photo with millions of examples?",
+      "options": [
+        "To ask the user which answer they prefer",
+        "To find which learned pattern it matches best",
+        "To make the photo brighter for the screen",
+        "To send the photo back to the camera"
+      ],
+      "answer": 1,
+      "explanation": "Comparing with trained examples lets Processing find the pattern the photo matches best and decide what it contains.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Processing: Thinking with Patterns",
+      "question": "In the chapter's table, 'How the AI thinks about the input' is the description of…",
+      "options": [
+        "Output",
+        "Design",
+        "Processing",
+        "Input"
+      ],
+      "answer": 2,
+      "explanation": "The table describes Processing as how the AI thinks about the input, Input as what enters, and Output as what the user sees.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q49",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Processing: Thinking with Patterns",
+      "question": "A Processing part that learns the wrong patterns can still produce an answer that looks correct.",
+      "answer": true,
+      "explanation": "True. The medical AI case study showed Processing learning camera styles instead of disease signs, yet its answers looked accurate during testing.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Processing: Thinking with Patterns",
+      "question": "A translation app turns a photographed menu into English. Which Processing job is most like 'recognising the letters in the photo'?",
+      "options": [
+        "Capture the photograph from the camera",
+        "Format the result so the user can read it",
+        "Provide links to more information online",
+        "Identify patterns such as text and shape"
+      ],
+      "answer": 3,
+      "explanation": "Recognising letters is identifying text patterns, a Processing job. Capturing is Input; formatting and links are Output.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Processing: Thinking with Patterns",
+      "question": "After deciding what the photo contains, what else does Processing attach to its best guess?",
+      "options": [
+        "A confidence score",
+        "A list of web links",
+        "A camera flash setting",
+        "A readable layout"
+      ],
+      "answer": 0,
+      "explanation": "Processing assigns a confidence score to its best guess. Links and readable layout are added by Output.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Processing: Thinking with Patterns",
+      "question": "Google Lens says 'Rose – 60% confident'. Which part produced the 60%?",
+      "options": [
+        "The camera",
+        "Processing",
+        "Input",
+        "Output"
+      ],
+      "answer": 1,
+      "explanation": "The 60% is a confidence score, which Processing assigns to its best guess. Output only displays it.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q53",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Processing: Thinking with Patterns",
+      "question": "Select the TWO patterns the worksheet lists that Processing might identify in an image.",
+      "options": [
+        "Taste",
+        "Time",
+        "Texture",
+        "Text",
+        "Temperature"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "explanation": "The worksheet lists shape, colour, texture and text. Temperature, taste and time cannot be read from a photograph's patterns.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Output: Showing the Result",
+      "question": "'Show the identified object name on screen' is a job of which part?",
+      "options": [
+        "Input",
+        "Processing",
+        "Output",
+        "Memory"
+      ],
+      "answer": 2,
+      "explanation": "Showing the name on screen delivers the result to the user, which is Output's job.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Output: Showing the Result",
+      "question": "'Provide links to more information' belongs to which part?",
+      "options": [
+        "Input",
+        "Processing",
+        "Camera",
+        "Output"
+      ],
+      "answer": 3,
+      "explanation": "Links are part of what the user sees at the end, so providing them is an Output job.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Output: Showing the Result",
+      "question": "'Format the result so the user can read it' is the job of which part?",
+      "options": [
+        "Output",
+        "Input",
+        "Training",
+        "Processing"
+      ],
+      "answer": 0,
+      "explanation": "Formatting the result so the user can read it is delivering the result in an understandable way, which is Output.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Output: Showing the Result",
+      "question": "Why does the Output part format the result?",
+      "options": [
+        "So the AI can learn new patterns",
+        "So the user can understand it easily",
+        "So the camera can take a clearer photo",
+        "So Processing can compare more examples"
+      ],
+      "answer": 1,
+      "explanation": "Output's whole purpose is to deliver the result in a way the user can understand, so formatting makes it readable.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q58",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Output: Showing the Result",
+      "question": "Select the TWO jobs that belong to the Output part of Google Lens.",
+      "options": [
+        "Compare the image to millions of examples",
+        "Capture the photograph from the camera",
+        "Show the identified object name on screen",
+        "Provide links to more information",
+        "Make sure the image is clear enough to use"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "explanation": "Showing the name and providing links are Output jobs. Checking clarity and capturing are Input; comparing is Processing.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Output: Showing the Result",
+      "question": "Which of these does NOT belong to the Output part?",
+      "options": [
+        "Provide links to more information online",
+        "Format the result so the user can read it",
+        "Re-analyse the photo if the result is wrong",
+        "Show the identified object name on screen"
+      ],
+      "answer": 2,
+      "explanation": "Re-analysing the photo is analysis, so it is Processing. In the worksheet it was the job to cross out in the Output column.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q60",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Output: Showing the Result",
+      "question": "The Output part delivers the result in a way the user can understand.",
+      "answer": true,
+      "explanation": "True. This is the worksheet's definition of Output: deliver the result in a way the user can understand.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q61",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Output: Showing the Result",
+      "question": "The Output part decides what the photograph contains.",
+      "answer": false,
+      "explanation": "False. Deciding what the photo contains is Processing. Output only shows that decision to the user.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Output: Showing the Result",
+      "question": "A voice assistant speaks the weather forecast aloud. Which part is doing this?",
+      "options": [
+        "Input",
+        "Processing",
+        "Training",
+        "Output"
+      ],
+      "answer": 3,
+      "explanation": "Speaking the forecast delivers the result to the user, so it is Output, even though it uses sound instead of a screen.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Output: Showing the Result",
+      "question": "Google Lens shows 'Tulsi plant' in big letters with a link to learn more. Which part(s) did this?",
+      "options": [
+        "Output only",
+        "Input only",
+        "Processing only",
+        "Input and Processing"
+      ],
+      "answer": 0,
+      "explanation": "Showing the name and providing a link are both Output jobs. Processing decided it was tulsi, but displaying that decision is Output.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Output: Showing the Result",
+      "question": "Which phrase describes the Output part in the chapter's upgrade table?",
+      "options": [
+        "Where the training data is kept",
+        "What the user sees at the end",
+        "What information enters AI",
+        "How the AI thinks about the input"
+      ],
+      "answer": 1,
+      "explanation": "The table says Output is 'what the user sees at the end'. Input is what enters and Processing is how the AI thinks.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q65",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Output: Showing the Result",
+      "question": "If the Output shows the answer clearly, the Processing must have used the right patterns.",
+      "answer": false,
+      "explanation": "False. The medical AI case study showed clear, accurate-looking outputs that came from Processing learning the wrong patterns.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Output: Showing the Result",
+      "question": "An Output-part problem, rather than an Input or Processing problem, would be:",
+      "options": [
+        "The AI confused a mango leaf with a neem leaf",
+        "The AI was trained mostly on foreign plants",
+        "The answer is shown in tiny text nobody can read",
+        "The camera photo is far too dark to use"
+      ],
+      "answer": 2,
+      "explanation": "Unreadable text is a failure to deliver the result understandably, so it is Output. A dark photo is Input; confusion and poor training are Processing.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Output: Showing the Result",
+      "question": "Which part would 'display the result on the screen'?",
+      "options": [
+        "Processing",
+        "Input",
+        "Camera",
+        "Output"
+      ],
+      "answer": 3,
+      "explanation": "Displaying the result is Output. In the worksheet this job was wrongly placed in the Processing column and had to be crossed out.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Output: Showing the Result",
+      "question": "Google Lens shows a link 'Learn more about Tulsi'. Which Output job is this?",
+      "options": [
+        "Provide links to more information",
+        "Show the identified object name",
+        "Format the result so it is readable",
+        "Assign a confidence score"
+      ],
+      "answer": 0,
+      "explanation": "A 'learn more' link is the Output job 'provide links to more information'. Assigning a confidence score is Processing, not Output.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sorting Jobs: Which Part Does What",
+      "question": "In the worksheet's Input column, which job should be crossed out because it belongs to Processing?",
+      "options": [
+        "Make sure the image is clear enough to use",
+        "Decide what the photograph contains",
+        "Capture the photograph from the camera",
+        "Pass the image data to the next part"
+      ],
+      "answer": 1,
+      "explanation": "Deciding what the photo contains is analysis, a Processing job. Capturing, checking clarity and passing data on are genuine Input jobs.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sorting Jobs: Which Part Does What",
+      "question": "In the Processing column, which job should be crossed out because it is really an Output job?",
+      "options": [
+        "Identify patterns like shape and colour",
+        "Assign a confidence score to the best guess",
+        "Display the result on the screen",
+        "Compare the image to millions of examples"
+      ],
+      "answer": 2,
+      "explanation": "Displaying the result is Output. Comparing, identifying patterns and assigning a confidence score are all Processing.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sorting Jobs: Which Part Does What",
+      "question": "In the Output column, which job should be crossed out because it belongs to Processing?",
+      "options": [
+        "Show the identified object name on screen",
+        "Provide links to more information online",
+        "Format the result so the user can read it",
+        "Re-analyse the photograph if the result is wrong"
+      ],
+      "answer": 3,
+      "explanation": "Re-analysing is Processing. Showing the name, providing links and formatting the result are all Output jobs.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sorting Jobs: Which Part Does What",
+      "question": "Sort it: 'Capture the photograph from the camera'.",
+      "options": [
+        "Input",
+        "Processing",
+        "Output",
+        "Training"
+      ],
+      "answer": 0,
+      "explanation": "Capturing the photo brings information into the system, so it is Input.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sorting Jobs: Which Part Does What",
+      "question": "Sort it: 'Format the result so the user can read it'.",
+      "options": [
+        "Processing",
+        "Output",
+        "Input",
+        "Training"
+      ],
+      "answer": 1,
+      "explanation": "Formatting the result for the user is delivering it understandably, so it is Output.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sorting Jobs: Which Part Does What",
+      "question": "Sort it: 'Identify patterns like shape, colour, texture, or text'.",
+      "options": [
+        "Input",
+        "Output",
+        "Processing",
+        "Training"
+      ],
+      "answer": 2,
+      "explanation": "Identifying patterns is analysing the input, so it is Processing.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q75",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Sorting Jobs: Which Part Does What",
+      "question": "Select the TWO jobs that belong to the SAME part.",
+      "options": [
+        "Provide links to more information",
+        "Assign a confidence score to the best guess",
+        "Make sure the image is clear enough to use",
+        "Pass the image data to the next part"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "explanation": "Checking clarity and passing data on are both Input jobs. Providing links is Output and assigning a confidence score is Processing.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q76",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Sorting Jobs: Which Part Does What",
+      "question": "Select the TWO jobs that belong to the Processing part.",
+      "options": [
+        "Show the identified object name on screen",
+        "Capture the photograph from the camera",
+        "Decide what the photograph contains",
+        "Re-analyse the photograph if the result is wrong"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "explanation": "Deciding contents and re-analysing are both analysis, so Processing. Showing the name is Output; capturing is Input.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sorting Jobs: Which Part Does What",
+      "question": "Which pair puts BOTH jobs in the wrong part?",
+      "options": [
+        "Input: capture the photo; Processing: assign a confidence score",
+        "Processing: identify patterns; Output: provide links",
+        "Input: pass the image data on; Output: format the result",
+        "Input: decide what the photo contains; Output: compare to examples"
+      ],
+      "answer": 3,
+      "explanation": "Deciding contents and comparing to examples are both Processing jobs, so putting them under Input and Output is doubly wrong. The other pairs are correctly placed.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q78",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Sorting Jobs: Which Part Does What",
+      "question": "'Display the result on the screen' and 'Show the identified object name on screen' both belong to Output.",
+      "answer": true,
+      "explanation": "True. Both deliver the result to the user on the screen, which is Output's job, even though the worksheet listed one of them in the wrong column.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q79",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Sorting Jobs: Which Part Does What",
+      "question": "In the worksheet, every Google Lens job was already listed under the correct part, so nothing needed crossing out.",
+      "answer": false,
+      "explanation": "False. Each column had one job that did not belong there and had to be crossed out, such as 'Decide what the photograph contains' under Input.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sorting Jobs: Which Part Does What",
+      "question": "In the worksheet, what were you asked to do with a job that does NOT belong to a part?",
+      "options": [
+        "Cross it out",
+        "Tick it",
+        "Circle it twice",
+        "Underline it"
+      ],
+      "answer": 0,
+      "explanation": "The instruction was to tick the responsibilities that belong to a part and cross out the one that does not.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sorting Jobs: Which Part Does What",
+      "question": "In the worksheet, what mark shows a job that DOES belong to a part?",
+      "options": [
+        "A question mark",
+        "A tick ✓",
+        "A cross ✗",
+        "A star"
+      ],
+      "answer": 1,
+      "explanation": "Jobs that belong to a part get a tick; the one that does not belong gets a cross.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sorting Jobs: Which Part Does What",
+      "question": "'Assign a confidence score' and 'Make sure the image is clear' belong to:",
+      "options": [
+        "Both to Processing",
+        "Both to Output",
+        "Processing and Input, in that order",
+        "Input and Processing, in that order"
+      ],
+      "answer": 2,
+      "explanation": "Assigning a confidence score is Processing; making sure the image is clear is Input. Neither is Output.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sorting Jobs: Which Part Does What",
+      "question": "Which job happens LAST in Google Lens's flow?",
+      "options": [
+        "Capture the photograph from the camera",
+        "Compare the image to millions of examples",
+        "Make sure the image is clear enough to use",
+        "Format the result so the user can read it"
+      ],
+      "answer": 3,
+      "explanation": "Formatting the result is an Output job, and Output comes last. Capturing and checking clarity are Input (first); comparing is Processing (middle).",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sorting Jobs: Which Part Does What",
+      "question": "Which job happens FIRST in Google Lens's flow?",
+      "options": [
+        "Capture the photograph from the camera",
+        "Assign a confidence score to the best guess",
+        "Show the identified object name on screen",
+        "Compare the image to millions of examples"
+      ],
+      "answer": 0,
+      "explanation": "Capturing the photo is Input, which comes first. Scoring and comparing are Processing; showing the name is Output.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sorting Jobs: Which Part Does What",
+      "question": "A classmate ticks 'Provide links to more information' under Processing. What should you tell them?",
+      "options": [
+        "Links are not part of any AI system",
+        "Links are shown to the user, so that is Output",
+        "Links come from the camera, so that is Input",
+        "They are right; Processing provides the links"
+      ],
+      "answer": 1,
+      "explanation": "Providing links is part of what the user sees at the end, so it is Output, not Processing.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sorting Jobs: Which Part Does What",
+      "question": "Which job is sometimes mistaken for Output but is really Processing, because it analyses rather than displays?",
+      "options": [
+        "Provide links to more information online",
+        "Format the result so the user can read it",
+        "Re-analyse the photograph if the result is wrong",
+        "Show the identified object name on screen"
+      ],
+      "answer": 2,
+      "explanation": "Re-analysing is analysis, so it is Processing even though it happens after a result appears. The other three genuinely display things to the user.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Upgrading Google Lens for India",
+      "question": "What problem with Google Lens does the worksheet describe?",
+      "options": [
+        "It runs out of battery too quickly in hot weather",
+        "It cannot take clear photographs in dim light",
+        "It shows results only in English, never Hindi",
+        "It struggles to identify Indian plants and local food"
+      ],
+      "answer": 3,
+      "explanation": "The worksheet's 'Google Lens problem' is that it struggles to identify Indian plants and local food correctly.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Upgrading Google Lens for India",
+      "question": "According to the worksheet, WHY does Google Lens struggle with Indian plants and food?",
+      "options": [
+        "Its training data came mostly from outside India",
+        "Its camera lens cannot focus on green leaves",
+        "Its screen is too small to show Indian names",
+        "Its users forgot to switch on mobile internet"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet says its processing was trained mostly on data from outside India, so it lacks patterns for Indian plants and food.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Upgrading Google Lens for India",
+      "question": "Which part most needs upgrading to fix the Indian plants and food problem?",
+      "options": [
+        "The battery",
+        "Processing",
+        "Input",
+        "Output"
+      ],
+      "answer": 1,
+      "explanation": "The cause is training data from outside India, which affects how the AI thinks about the input. That is Processing.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Upgrading Google Lens for India",
+      "question": "What specific change would most directly fix the problem?",
+      "options": [
+        "Add many more links to foreign websites",
+        "Make the camera shutter click much faster",
+        "Train it on many Indian plant and food photos",
+        "Give the phone a bigger, brighter screen"
+      ],
+      "answer": 2,
+      "explanation": "Since the problem is missing Indian examples in training, adding many Indian plant and food images to the training data targets the real cause.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q91",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Upgrading Google Lens for India",
+      "question": "Google Lens's trouble with Indian food is mainly a Processing problem, not a camera problem.",
+      "answer": true,
+      "explanation": "True. The worksheet blames the processing being trained mostly on data from outside India, not the camera.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q92",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Upgrading Google Lens for India",
+      "question": "Upgrading the Output part by using bigger text would fix Google Lens's trouble recognising Indian plants.",
+      "answer": false,
+      "explanation": "False. Bigger text only changes how the result is shown. The wrong recognition happens in Processing because of its training data.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Upgrading Google Lens for India",
+      "question": "A student upgrades the Input part with a sharper camera. Why will this NOT fully fix the Indian food problem?",
+      "options": [
+        "Sharper cameras make photos too large to send",
+        "The Output part cannot display sharper photos",
+        "Indian food cannot be photographed clearly",
+        "The Processing still lacks patterns for Indian food"
+      ],
+      "answer": 3,
+      "explanation": "A sharper photo is still analysed by a Processing part that never learned Indian food patterns, so the wrong guesses continue.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Upgrading Google Lens for India",
+      "question": "The worksheet asks: 'What new problem could your upgrade accidentally cause?' Why is this question included?",
+      "options": [
+        "Because a fix in one place can cause new mistakes",
+        "Because upgrades are never allowed in AI systems",
+        "Because the user must pay for every upgrade",
+        "Because Google Lens cannot be changed at all"
+      ],
+      "answer": 0,
+      "explanation": "Changing one part can have side effects, so good designers think ahead about what new problem their upgrade might create.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Upgrading Google Lens for India",
+      "question": "If Processing is retrained ONLY on Indian examples, what new problem could appear?",
+      "options": [
+        "The Input part will no longer pass data on",
+        "It may get worse at foods from other countries",
+        "The camera will stop taking any photographs",
+        "The screen will refuse to show any results"
+      ],
+      "answer": 1,
+      "explanation": "Training only on Indian examples could leave Processing with weaker patterns for other countries' plants and foods, a new problem caused by the upgrade.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q96",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Upgrading Google Lens for India",
+      "question": "Select the TWO statements that are true about the Google Lens India problem.",
+      "options": [
+        "The best fix is to remove the Output part",
+        "It only happens when the phone is offline",
+        "It is caused by training data mostly from outside India",
+        "The best fix is in the Processing part",
+        "It is caused by Indian phones having weak cameras"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "explanation": "The worksheet says the cause is training data from outside India, which points to upgrading Processing. Cameras, Output and being offline are not the cause.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Upgrading Google Lens for India",
+      "question": "In the upgrade table, Input is described as:",
+      "options": [
+        "What the user sees at the end",
+        "Where the upgrade is paid for",
+        "What information enters AI",
+        "How the AI thinks about the input"
+      ],
+      "answer": 2,
+      "explanation": "The table describes Input as 'what information enters AI'. The other two phrases describe Processing and Output.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Upgrading Google Lens for India",
+      "question": "Which upgrade targets the OUTPUT part?",
+      "options": [
+        "Collect photos of Indian street food",
+        "Add a better lens to the phone camera",
+        "Learn patterns from Indian plant photos",
+        "Show plant names in local Indian languages"
+      ],
+      "answer": 3,
+      "explanation": "Showing names in local languages changes what the user sees at the end, so it is an Output upgrade. The others target Input or Processing.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Upgrading Google Lens for India",
+      "question": "Which upgrade targets the INPUT part?",
+      "options": [
+        "Let users take clearer close-up leaf photos",
+        "Train on millions of Indian food images",
+        "Show results with Hindi and Tamil names",
+        "Give a confidence score for each guess"
+      ],
+      "answer": 0,
+      "explanation": "Clearer close-up photos change the information entering the AI, so it is an Input upgrade. Training is Processing; showing names is Output.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q100",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Upgrading Google Lens for India",
+      "question": "An upgrade can fix the problem it targets and still accidentally create a different one.",
+      "answer": true,
+      "explanation": "True. That is why the worksheet asks what new problem your upgrade could accidentally cause.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Upgrading Google Lens for India",
+      "question": "Google Lens correctly names a pizza but calls a dosa a 'pancake'. Which explanation best fits the chapter?",
+      "options": [
+        "Dosas and pizzas are the same food to everyone",
+        "Processing saw far more pizzas than dosas in training",
+        "The Output part prefers Italian names for food",
+        "The camera cannot photograph round flat foods"
+      ],
+      "answer": 1,
+      "explanation": "Training data mostly from outside India gives Processing strong patterns for pizza and weak ones for dosa, so it falls back on a similar-looking foreign food.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Upgrading Google Lens for India",
+      "question": "The upgrade activity's worksheet level was called:",
+      "options": [
+        "Thinking deeper",
+        "Learning is fun",
+        "Powering up",
+        "Laying the tracks"
+      ],
+      "answer": 2,
+      "explanation": "Question 2, the upgrade activity, is at the 'Powering up' level. 'Laying the tracks' is Q1 and 'Thinking deeper' is Q3.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Upgrading Google Lens for India",
+      "question": "Which question is NOT one the upgrade table asks you to answer?",
+      "options": [
+        "Why does this part need upgrading most?",
+        "What specific change would you make?",
+        "What new problem could your upgrade cause?",
+        "How much will the upgrade cost in rupees?"
+      ],
+      "answer": 3,
+      "explanation": "The table asks why the part needs upgrading, what specific change you would make, and what new problem it could cause. Cost is not asked.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q104",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Upgrading Google Lens for India",
+      "question": "Select the TWO upgrade questions the worksheet asks.",
+      "options": [
+        "How many users does Google Lens have?",
+        "Which colour should the app icon be?",
+        "Why does this part need upgrading most?",
+        "What new problem could your upgrade cause?"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "explanation": "The upgrade table asks why the part needs upgrading most, what change you would make, and what new problem could result. User numbers and icon colour are not asked.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Designing an AI System and Its Failure Modes",
+      "question": "In the 'Thinking deeper' task, what kind of problem should your AI system solve?",
+      "options": [
+        "A real problem from daily life in India",
+        "A puzzle from a fantasy video game",
+        "A maths sum copied from the textbook",
+        "A problem that only computers face"
+      ],
+      "answer": 0,
+      "explanation": "The task asks you to choose a real problem from daily life in India that AI could help solve.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Designing an AI System and Its Failure Modes",
+      "question": "Which format could your design take, according to the task?",
+      "options": [
+        "A spoken speech without any notes",
+        "A slide, poster or short document",
+        "A long novel with many chapters",
+        "A music video with lots of dancing"
+      ],
+      "answer": 1,
+      "explanation": "The task says to create one digital slide, poster, or short document.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Designing an AI System and Its Failure Modes",
+      "question": "What is a 'failure mode' in your AI design?",
+      "options": [
+        "The name you decide to give your AI system",
+        "The number of slides in your presentation",
+        "Which part could fail and why that matters to users",
+        "The colour scheme chosen for your poster"
+      ],
+      "answer": 2,
+      "explanation": "The task defines a failure mode as which part could fail, what could go wrong, and why that would matter to users.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q108",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Designing an AI System and Its Failure Modes",
+      "question": "Select the TWO things the design task says you must include.",
+      "options": [
+        "A list of competing apps",
+        "The names of your teammates",
+        "The specific job of the Input part and why it matters",
+        "One likely failure mode",
+        "The price of the AI system"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "explanation": "The design must include the job of each part (Input, Processing, Output), one likely failure mode and a reflection. Price, competitors and teammates are not required.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Designing an AI System and Its Failure Modes",
+      "question": "The 'Reflection' point asks you to explain how learning about the inside of AI changes…",
+      "options": [
+        "How quickly your phone battery charges up",
+        "How much mobile data costs in India today",
+        "How many apps you keep installed on your phone",
+        "How you think about using tools like Google Lens"
+      ],
+      "answer": 3,
+      "explanation": "The reflection asks how learning about the inside of AI systems changes the way you think about using tools like Google Lens.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Designing an AI System and Its Failure Modes",
+      "question": "An AI reads bus timetables for passengers in India. Which is an INPUT failure mode?",
+      "options": [
+        "A faded, torn timetable photo gives little to work with",
+        "The AI mixes up two bus numbers it learned together",
+        "The result is read out too fast to understand",
+        "The AI is trained only on timetables from Delhi"
+      ],
+      "answer": 0,
+      "explanation": "A poor photo is bad information entering the system, so it is an Input failure. Mixing up numbers and Delhi-only training are Processing; a too-fast read-out is Output.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Designing an AI System and Its Failure Modes",
+      "question": "Same bus-timetable AI. Which is a PROCESSING failure mode?",
+      "options": [
+        "The screen brightness is set too low",
+        "It learned patterns only from Delhi timetables",
+        "The camera on the passenger's phone is cracked",
+        "The spoken result is in the wrong language"
+      ],
+      "answer": 1,
+      "explanation": "Learning only Delhi patterns affects how the AI thinks about the input, so it is Processing. A cracked camera is Input; wrong language and dim screen are Output.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Designing an AI System and Its Failure Modes",
+      "question": "Same AI. Which is an OUTPUT failure mode?",
+      "options": [
+        "The photo of the timetable is blurry",
+        "It was trained on too few timetables",
+        "It shows the time in a font too small to read",
+        "It confuses bus number 42 with bus number 24"
+      ],
+      "answer": 2,
+      "explanation": "A font too small to read fails to deliver the result understandably, so it is Output. Confusing numbers and too little training are Processing; a blurry photo is Input.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q113",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Designing an AI System and Its Failure Modes",
+      "question": "The design task says you should pick a problem from daily life in another country.",
+      "answer": false,
+      "explanation": "False. The task asks for a real problem from daily life in India.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q114",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Designing an AI System and Its Failure Modes",
+      "question": "In your design, a failure mode should name which part could fail and why that would matter to users.",
+      "answer": true,
+      "explanation": "True. The task describes a failure mode as which part could fail, what could go wrong, and why that would matter to users.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Designing an AI System and Its Failure Modes",
+      "question": "Why does the task ask 'why that would matter to users' for a failure mode?",
+      "options": [
+        "Because users must pay money for every failure",
+        "Because failures make the poster look nicer",
+        "Because users design the training data",
+        "Because real people are affected when a part fails"
+      ],
+      "answer": 3,
+      "explanation": "AI systems are used by real people, so a failure in any part has real consequences for them. Thinking about users keeps the design responsible.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Designing an AI System and Its Failure Modes",
+      "question": "The third worksheet level was called:",
+      "options": [
+        "Thinking deeper",
+        "Laying the tracks",
+        "Powering up",
+        "Learning is fun"
+      ],
+      "answer": 0,
+      "explanation": "Question 3, the design task, is at the 'Thinking deeper (at your own pace)' level.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Designing an AI System and Its Failure Modes",
+      "question": "A crop-disease AI for farmers. Which failure would matter MOST to a farmer?",
+      "options": [
+        "The farmer's phone case is slightly scratched",
+        "Processing wrongly marks a healthy crop as diseased",
+        "The app icon uses a dull shade of green",
+        "The app's name is hard for farmers to spell"
+      ],
+      "answer": 1,
+      "explanation": "A wrong diagnosis could make a farmer spray or destroy a healthy crop, a real harm. Icon colour, name and phone case do not change the result.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q118",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Designing an AI System and Its Failure Modes",
+      "question": "The three worksheet levels, in order, are 'Laying the tracks', 'Powering up' and 'Thinking deeper'.",
+      "answer": true,
+      "explanation": "True. Q1 is 'Laying the tracks', Q2 is 'Powering up' and Q3 is 'Thinking deeper (at your own pace)'.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Designing an AI System and Its Failure Modes",
+      "question": "Which of these daily-life problems would fit the task's instruction best?",
+      "options": [
+        "Deciding which movie star is the most famous",
+        "Guessing the winning lottery numbers for tomorrow",
+        "Helping farmers spot crop diseases from leaf photos",
+        "Choosing the strongest dragon for a fantasy game"
+      ],
+      "answer": 2,
+      "explanation": "The task asks for a real problem from daily life in India that AI could help solve. Spotting crop diseases is real and useful; the others are not.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Designing an AI System and Its Failure Modes",
+      "question": "In the design task, the 'Problem' point asks you to state:",
+      "options": [
+        "The problems with your classmates' AI",
+        "The problem with Google's business",
+        "The problem of charging your phone",
+        "The problem your AI system solves"
+      ],
+      "answer": 3,
+      "explanation": "The first bullet of the task is 'the problem your AI system solves'.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Case Study: Shortcut Learning in Medical AI",
+      "question": "In which year did researchers find the hidden problem in the medical AI system?",
+      "options": [
+        "2018",
+        "2008",
+        "2020",
+        "2015"
+      ],
+      "answer": 0,
+      "explanation": "The case study says that in 2018 researchers found a hidden problem inside a medical AI system.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Case Study: Shortcut Learning in Medical AI",
+      "question": "What did the medical AI system detect diseases from?",
+      "options": [
+        "Voice recordings",
+        "Eye photographs",
+        "Chest X-rays",
+        "Blood samples"
+      ],
+      "answer": 1,
+      "explanation": "The AI detected diseases from eye (retinal) photographs.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Case Study: Shortcut Learning in Medical AI",
+      "question": "What was the INPUT of the medical AI system?",
+      "options": [
+        "Lists of medicines each patient was given",
+        "Videos of patients walking in the clinic",
+        "Retinal photographs from different hospitals",
+        "Doctors' handwritten notes about patients"
+      ],
+      "answer": 2,
+      "explanation": "The case study states: 'Input: retinal photographs from different hospitals.'",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Case Study: Shortcut Learning in Medical AI",
+      "question": "Besides signs of disease, what ELSE did the AI learn to recognise?",
+      "options": [
+        "Patients' names and home addresses",
+        "The weather on the day of the photo",
+        "The doctor who took each photograph",
+        "Hospital camera styles and equipment"
+      ],
+      "answer": 3,
+      "explanation": "Instead of learning only the signs of disease, the AI also learned to recognise hospital camera styles and equipment.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Case Study: Shortcut Learning in Medical AI",
+      "question": "What was the AI partly guessing instead of just the disease?",
+      "options": [
+        "Where the image came from",
+        "How old the patient was",
+        "Which medicine to prescribe",
+        "How expensive the camera was"
+      ],
+      "answer": 0,
+      "explanation": "The AI was partly guessing where the image came from (which hospital), not just what disease it showed.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Case Study: Shortcut Learning in Medical AI",
+      "question": "What name do researchers give to this problem?",
+      "options": [
+        "Slow learning",
+        "Shortcut learning",
+        "Deep learning",
+        "Long-cut learning"
+      ],
+      "answer": 1,
+      "explanation": "Researchers call this problem shortcut learning: the AI finds an easy clue that works for the wrong reason.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Case Study: Shortcut Learning in Medical AI",
+      "question": "What was the OUTPUT of the medical AI like during testing?",
+      "options": [
+        "Blank screens with no result",
+        "Photos sent back to the hospital",
+        "Diagnoses that looked accurate",
+        "Diagnoses that were always wrong"
+      ],
+      "answer": 2,
+      "explanation": "The output was a diagnosis that looked accurate during testing but became less reliable at new hospitals.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Case Study: Shortcut Learning in Medical AI",
+      "question": "What happened to the AI's reliability at NEW hospitals?",
+      "options": [
+        "It became more reliable",
+        "It stayed exactly the same",
+        "It stopped working entirely",
+        "It became less reliable"
+      ],
+      "answer": 3,
+      "explanation": "The diagnosis became less reliable at new hospitals because the camera-style clues it had learned no longer matched.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Case Study: Shortcut Learning in Medical AI",
+      "question": "Why did the AI become less reliable at new hospitals?",
+      "options": [
+        "Different cameras broke its camera-style shortcut",
+        "They had no patients with any eye disease at all",
+        "They refused to photograph any patients' eyes",
+        "They used a completely different AI system"
+      ],
+      "answer": 0,
+      "explanation": "The AI had partly learned hospital camera styles. At new hospitals with different equipment, that shortcut no longer pointed to the right answer.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Case Study: Shortcut Learning in Medical AI",
+      "question": "Which part of the medical AI system had the hidden problem?",
+      "options": [
+        "The camera",
+        "Processing",
+        "Input",
+        "Output"
+      ],
+      "answer": 1,
+      "explanation": "The case study says that even when Input and Output seem correct, the Processing part can still learn the wrong patterns, and that is what happened here.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q131",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Case Study: Shortcut Learning in Medical AI",
+      "question": "The medical AI system's Input and Output both seemed correct during testing.",
+      "answer": true,
+      "explanation": "True. The photographs were fine and the diagnoses looked accurate; the hidden problem was in Processing.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q132",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Case Study: Shortcut Learning in Medical AI",
+      "question": "The problem in the medical AI was found in the Output part, which displayed the wrong diagnosis.",
+      "answer": false,
+      "explanation": "False. The Output looked correct during testing. The problem was that Processing had learned the wrong patterns (camera styles).",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q133",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Case Study: Shortcut Learning in Medical AI",
+      "question": "Shortcut learning means the Processing part learns the wrong patterns even though it gives correct-looking answers.",
+      "answer": true,
+      "explanation": "True. The AI's answers looked accurate in testing, but it had partly learned camera clues instead of only disease signs.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q134",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Case Study: Shortcut Learning in Medical AI",
+      "question": "Because the medical AI gave accurate answers during testing, its Processing must have learned only the signs of disease.",
+      "answer": false,
+      "explanation": "False. This is exactly the trap: accurate-looking answers hid the fact that Processing had also learned hospital camera styles.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q135",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Case Study: Shortcut Learning in Medical AI",
+      "question": "Select the TWO statements that are true about the 2018 medical AI.",
+      "options": [
+        "It detected diseases from X-rays of the chest",
+        "It had a broken Output part",
+        "It used retinal photographs from different hospitals",
+        "It also learned to recognise hospital camera styles",
+        "It was tested only on one hospital's patients and never failed"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "explanation": "Its input was retinal photographs from different hospitals and its Processing learned camera styles. It did fail at new hospitals, used eye photos not X-rays, and its Output was not broken.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Case Study: Shortcut Learning in Medical AI",
+      "question": "What does the case study prove about checking an AI system?",
+      "options": [
+        "Only the Input part ever needs to be checked carefully",
+        "Medical AIs never make mistakes once they pass testing",
+        "Correct Input and Output do not prove correct Processing",
+        "If the Output is correct, the whole system is correct"
+      ],
+      "answer": 2,
+      "explanation": "The chapter's lesson is that even when Input and Output seem correct, Processing can still have learned the wrong patterns.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Case Study: Shortcut Learning in Medical AI",
+      "question": "What is a 'shortcut' in shortcut learning?",
+      "options": [
+        "A faster camera that snaps photos very quickly",
+        "A quicker road between two different hospitals",
+        "A smaller screen that loads results faster",
+        "An easy clue that works for the wrong reason"
+      ],
+      "answer": 3,
+      "explanation": "The shortcut was the camera style: an easy clue that happened to match the answer in testing but had nothing to do with the disease itself.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Case Study: Shortcut Learning in Medical AI",
+      "question": "The heading calls it 'the AI that gave correct answers — for the wrong reasons'. What were the 'wrong reasons'?",
+      "options": [
+        "Camera and hospital clues, not disease signs",
+        "Hints whispered by the patients' doctors",
+        "Answers copied from a medical textbook",
+        "Random guesses with no pattern at all"
+      ],
+      "answer": 0,
+      "explanation": "The AI used hospital camera styles and equipment as clues, which have nothing to do with the disease, so its correct answers rested on the wrong reasons.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q139",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Case Study: Shortcut Learning in Medical AI",
+      "question": "Where was the research about this problem published?",
+      "options": [
+        "Indian Express",
+        "PLOS Medicine",
+        "Google Lens Blog",
+        "A school textbook"
+      ],
+      "answer": 1,
+      "explanation": "The source given is a PLOS Medicine journal article.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q140",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Case Study: Shortcut Learning in Medical AI",
+      "question": "A school AI grades essays. It learned that longer essays got high marks, so it gives high marks to any long essay. This is most like…",
+      "options": [
+        "An Output problem with small text",
+        "A problem only with the student's handwriting",
+        "Shortcut learning in the medical AI",
+        "An Input problem with a blurry camera"
+      ],
+      "answer": 2,
+      "explanation": "Like the medical AI using camera styles, the essay AI uses length as an easy clue instead of the real quality of the writing. That is shortcut learning.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q141",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Case Study: Shortcut Learning in Medical AI",
+      "question": "The medical AI worked better at new hospitals because it had seen more camera styles.",
+      "answer": false,
+      "explanation": "False. It became less reliable at new hospitals because the camera styles there did not match the shortcut it had learned.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q142",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Case Study: Shortcut Learning in Medical AI",
+      "question": "Select the TWO things that were TRUE of the medical AI's Processing part.",
+      "options": [
+        "It learned patients' names",
+        "It learned the doctors' voices",
+        "It learned signs of disease",
+        "It learned hospital camera styles"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "explanation": "The AI learned the signs of disease but also learned camera styles and equipment. Names and voices were not part of the eye photographs.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q143",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Trust: Why Looking Inside AI Matters",
+      "question": "What big question does the chapter ask about looking inside AI?",
+      "options": [
+        "How to make AI apps on phones load much faster",
+        "How much popular AI products cost for a family",
+        "How to take better photographs with a phone camera",
+        "How knowing what is inside AI changes our trust in it"
+      ],
+      "answer": 3,
+      "explanation": "The worksheet opens with: 'How does knowing what happens inside AI change the way we trust its answers?'",
+      "source": "worksheet:intro"
+    },
+    {
+      "id": "q144",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Trust: Why Looking Inside AI Matters",
+      "question": "According to the chapter, how should knowing the three parts change our trust in AI answers?",
+      "options": [
+        "We judge answers knowing where they could fail",
+        "We trust every single AI answer completely",
+        "We stop using any AI tools altogether",
+        "We trust only what the Output part shows"
+      ],
+      "answer": 0,
+      "explanation": "Knowing the parts lets us ask which part might have failed and judge each answer wisely, rather than blindly trusting or rejecting AI.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q145",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Trust: Why Looking Inside AI Matters",
+      "question": "Google Lens gives an answer with a low confidence score. Knowing the inside of AI, a careful user would…",
+      "options": [
+        "Believe it because AI is always right",
+        "Double-check before trusting the result",
+        "Trust it because the screen looked clear",
+        "Assume the camera must be broken"
+      ],
+      "answer": 1,
+      "explanation": "A low confidence score means Processing is unsure, so a careful user checks the answer another way before relying on it.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q146",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Trust: Why Looking Inside AI Matters",
+      "question": "A confident-looking Output means the answer is definitely correct.",
+      "answer": false,
+      "explanation": "False. The medical AI's outputs looked accurate yet came from wrong patterns. A neat display does not prove the Processing was right.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q147",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Trust: Why Looking Inside AI Matters",
+      "question": "If an AI's answer is wrong, which parts might be responsible?",
+      "options": [
+        "Only the Input part of the system",
+        "Only the person holding the phone",
+        "Any of Input, Processing or Output",
+        "Only the Output part of the system"
+      ],
+      "answer": 2,
+      "explanation": "A bad photo (Input), wrong patterns (Processing) or an unclear display (Output) can each cause a wrong or misleading answer.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q148",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Trust: Why Looking Inside AI Matters",
+      "question": "Select the TWO lessons the chapter teaches about trusting AI.",
+      "options": [
+        "Only Output errors matter to users",
+        "Trust grows when the screen is bigger",
+        "Check which part may have failed instead of blaming the whole AI",
+        "Correct-looking results can still come from wrong patterns",
+        "AI answers should never be questioned"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "explanation": "The chapter teaches us to think about which part failed and warns, through the medical AI story, that correct-looking results can hide wrong patterns.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q149",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Trust: Why Looking Inside AI Matters",
+      "question": "Which statement best shows someone who understands the inside of an AI system?",
+      "options": [
+        "'It is on the screen, so it must be completely true.'",
+        "'The phone is brand new, so the AI must be right.'",
+        "'AI never ever makes mistakes with photographs.'",
+        "'It may be wrong if its training data was different.'"
+      ],
+      "answer": 3,
+      "explanation": "Linking a possible mistake to the training data shows understanding of Processing. The other statements trust the screen or the phone instead of the parts.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q150",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Trust: Why Looking Inside AI Matters",
+      "question": "Why is a wrong answer from Processing hard to spot just by looking at the Output?",
+      "options": [
+        "The Output can look clear even when it is wrong",
+        "The Output always shows an error message",
+        "The Output is usually hidden from the user",
+        "Processing never produces wrong answers"
+      ],
+      "answer": 0,
+      "explanation": "Output formats whatever Processing decides, so a wrong decision can still be displayed neatly and confidently.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q151",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Trust: Why Looking Inside AI Matters",
+      "question": "The chapter uses which real app as its main example?",
+      "options": [
+        "WhatsApp",
+        "Google Lens",
+        "Google Maps",
+        "YouTube"
+      ],
+      "answer": 1,
+      "explanation": "Google Lens, which identifies objects from photographs, is the example used in both worksheet activities.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q152",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Trust: Why Looking Inside AI Matters",
+      "question": "Knowing the inside of AI means we should distrust every AI answer completely.",
+      "answer": false,
+      "explanation": "False. The aim is to trust wisely: understand which part could fail and check when needed, not to reject every answer.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q153",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Trust: Why Looking Inside AI Matters",
+      "question": "A user says: 'Lens was wrong about my tulsi plant, so the camera is bad.' What is the better explanation from the chapter?",
+      "options": [
+        "The Input part refused to take a photo",
+        "Tulsi plants cannot be photographed well",
+        "Processing lacked patterns for Indian plants",
+        "The screen was too dim to show the plant"
+      ],
+      "answer": 2,
+      "explanation": "The worksheet explains that Google Lens struggles with Indian plants because its processing was trained mostly on data from outside India, not because of the camera.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q154",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Trust: Why Looking Inside AI Matters",
+      "question": "Which habit shows wise use of an AI tool after this chapter?",
+      "options": [
+        "Never read the result the AI shows",
+        "Use the AI only late at night time",
+        "Delete the app after one error",
+        "Ask which part might have gone wrong"
+      ],
+      "answer": 3,
+      "explanation": "Understanding Input, Processing and Output lets you ask which part failed when a result looks odd, instead of overreacting or ignoring it.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q155",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Trust: Why Looking Inside AI Matters",
+      "question": "The design task asks for a 'Reflection'. Which reflection best matches the chapter's goal?",
+      "options": [
+        "Knowing the parts helps me judge when to trust Lens",
+        "Knowing the parts makes Lens take better photos",
+        "Knowing the parts lets me skip reading results",
+        "Knowing the parts makes the app free to use"
+      ],
+      "answer": 0,
+      "explanation": "The reflection should explain how understanding the inside of AI changes how you think about using tools like Google Lens, especially how much to trust them.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q156",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Trust: Why Looking Inside AI Matters",
+      "question": "Even a correct final answer could have come from the wrong patterns inside Processing.",
+      "answer": true,
+      "explanation": "True. The medical AI gave correct answers for the wrong reasons, which is why researchers call it shortcut learning.",
+      "source": "worksheet:case-study"
+    },
+    {
+      "id": "q157",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Trust: Why Looking Inside AI Matters",
+      "question": "After this chapter, which is the WEAKEST reason to trust an AI answer?",
+      "options": [
+        "The confidence score was high and checked by a person",
+        "The answer appeared quickly on a bright screen",
+        "The Processing was trained on data like my case",
+        "The Input photo was clear and complete"
+      ],
+      "answer": 1,
+      "explanation": "Speed and a bright screen say nothing about Input quality or Processing patterns. The other reasons relate to the parts that actually decide the answer.",
+      "source": "(synthesis)"
+    },
+    {
+      "id": "q158",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Trust: Why Looking Inside AI Matters",
+      "question": "The three-part model (Input, Processing, Output) can be used to think about many AI tools, not only Google Lens.",
+      "answer": true,
+      "explanation": "True. The design task asks you to apply Input, Processing and Output to your own AI system for a daily-life problem in India.",
+      "source": "worksheet:Q3"
+    }
+  ]
+}

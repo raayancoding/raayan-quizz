@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raayan-quizz/schema/quiz.schema.json",
+  "title": "Raayan Quiz",
+  "description": "A single generic quiz that the raayan-quizz app can render. Works for any subject/topic.",
+  "type": "object",
+  "required": ["schemaVersion", "id", "title", "questions"],
+  "additionalProperties": true,
+  "properties": {
+    "schemaVersion": { "type": "integer", "const": 1 },
+    "id": {
+      "type": "string",
+      "description": "Stable unique id, e.g. 'science-ch05-states-of-matter'.",
+      "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "title": { "type": "string" },
+    "subject": { "type": "string" },
+    "grade": { "type": ["integer", "string"], "description": "Drives the app's shelf, e.g. 4 -> 'Grade 4'." },
+    "board": { "type": "string", "description": "Optional board, e.g. 'NCERT' -> shelf 'NCERT · Grade 8'." },
+    "sourceDir": { "type": "string", "description": "Crawled chapter folder this quiz was authored from (links the quiz to its book in the reader)." },
+    "lang": { "type": "string", "description": "Optional UI language for the quiz runtime: 'en' | 'hi' | 'kn' (auto-detected from subject if omitted)." },
+    "chapter": { "type": "string" },
+    "topic": { "type": "string" },
+    "description": { "type": "string" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "defaultTimeLimitSec": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "0 = no timer. The app can still override."
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/question" }
+    }
+  },
+  "definitions": {
+    "question": {
+      "type": "object",
+      "required": ["id", "type", "question", "answer", "explanation"],
+      "additionalProperties": true,
+      "properties": {
+        "id": { "type": "string" },
+        "type": {
+          "type": "string",
+          "enum": ["single", "multiple", "boolean"],
+          "description": "single = one correct option; multiple = several correct; boolean = true/false."
+        },
+        "difficulty": {
+          "type": "string",
+          "enum": ["simple", "tough", "tricky"],
+          "default": "simple"
+        },
+        "topic": { "type": "string", "description": "Optional per-question sub-topic." },
+        "question": { "type": "string" },
+        "image": { "type": "string", "description": "Optional picture shown under the question. Relative paths resolve against the quiz file's folder." },
+        "imageAlt": { "type": "string" },
+        "optionImages": { "type": "array", "items": { "type": "string" }, "description": "Optional one image per option (same order as options)." },
+        "options": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Required for single/multiple. Omitted (or ignored) for boolean."
+        },
+        "answer": {
+          "description": "single/boolean: index (int) OR boolean. multiple: array of indices.",
+          "oneOf": [
+            { "type": "integer", "minimum": 0 },
+            { "type": "boolean" },
+            { "type": "array", "items": { "type": "integer", "minimum": 0 } }
+          ]
+        },
+        "explanation": {
+          "type": "string",
+          "description": "Always present. Explains WHY the answer is correct (and why tempting wrong options are wrong)."
+        },
+        "source": {
+          "type": "string",
+          "description": "Optional provenance, e.g. 'worksheet-L1 Q3', 'answer-key', 'facts:page5', 'book:page12'."
+        }
+      }
+    }
+  }
+}

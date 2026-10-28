@@ -1,0 +1,2523 @@
+{
+  "schemaVersion": 1,
+  "id": "ai-literacy-ch57-every-subject-counts",
+  "title": "Every Subject Counts",
+  "subject": "AI-Literacy",
+  "grade": 4,
+  "sourceDir": "output/AI-Literacy/57_Every-Subject-Counts",
+  "chapter": "57. Every Subject Counts",
+  "topic": "Full Chapter",
+  "description": "Why AI cannot be built from one subject alone: what Maths, Science, Language, Art and Music each contribute, three broken-AI scenarios (hospital X-ray AI, learner chatbot, logo designer), the Merlin Bird ID Sound ID subject audit and missing-maths chain, the Subject Star Map task, and Project CETI's whale 'dialects'.",
+  "tags": [
+    "ai-literacy",
+    "grade4",
+    "every-subject-counts",
+    "interdisciplinary",
+    "merlin-bird-id",
+    "project-ceti",
+    "training-data",
+    "ai-design"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why AI Needs Many Subjects",
+      "question": "The worksheet's big question is: \"Why can't AI be built using just ___?\"",
+      "options": [
+        "one subject",
+        "one computer",
+        "one scientist",
+        "one language"
+      ],
+      "answer": 0,
+      "explanation": "The heading of the worksheet asks why AI cannot be built using just one subject. The whole chapter answers this by showing what each subject adds.",
+      "source": "worksheet:heading"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why AI Needs Many Subjects",
+      "question": "What is the title of this worksheet?",
+      "options": [
+        "Every Answer Counts!",
+        "Every Subject Counts!",
+        "Every Robot Counts!",
+        "Every Number Counts!"
+      ],
+      "answer": 1,
+      "explanation": "The worksheet is titled \"Every Subject Counts!\" — meaning every school subject matters when AI is built or used.",
+      "source": "worksheet:title"
+    },
+    {
+      "id": "q3",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Why AI Needs Many Subjects",
+      "question": "According to the chapter, building AI needs knowledge from many different school subjects, not just one.",
+      "answer": true,
+      "explanation": "The chapter's whole point is that AI cannot be built using just one subject — Maths, Science, Language, Art and Music all contribute.",
+      "source": "worksheet:heading"
+    },
+    {
+      "id": "q4",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Why AI Needs Many Subjects",
+      "question": "The chapter says that AI is built using only Maths and Computer Science.",
+      "answer": false,
+      "explanation": "This is false. The chapter lists Maths, Science, Language, Art and Music as subjects that contribute, and the whale story says computer scientists would hear only random noise without Language experts.",
+      "source": "worksheet:Q1; AI Translator box"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why AI Needs Many Subjects",
+      "question": "Why can't AI be built using just one subject?",
+      "options": [
+        "Computers can only store one subject at a time",
+        "Schools do not allow teaching only one subject",
+        "Each subject adds something the others cannot",
+        "One subject makes the AI too slow to run"
+      ],
+      "answer": 2,
+      "explanation": "Each subject contributes a different skill: Maths for patterns, Language for words, Art for design, Music for sound, Science for the real world. Leaving one out leaves a gap in the AI.",
+      "source": "worksheet:Q1 (synthesis)"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why AI Needs Many Subjects",
+      "question": "Which sentence from the chapter sums up its message?",
+      "options": [
+        "Only Maths can crack the code of nature",
+        "Computers alone can crack the code of nature",
+        "Science is the one subject that cracks the code",
+        "It takes every subject to crack the code of nature"
+      ],
+      "answer": 3,
+      "explanation": "The AI Translator box ends with \"It takes every subject to crack the code of nature!\" — the same idea as the title, Every Subject Counts.",
+      "source": "AI Translator box"
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Why AI Needs Many Subjects",
+      "question": "Which TWO of these are subjects the worksheet lists in its contributions table?",
+      "options": [
+        "Maths",
+        "Music",
+        "Geography",
+        "History",
+        "Physical Education"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The Q1 table lists Maths, Science, Language, Art and Music. Geography, History and Physical Education are not in the table.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Why AI Needs Many Subjects",
+      "question": "A student says, \"If I'm good at coding, I don't need any other subject to build AI.\" Based on the chapter, what is the best reply?",
+      "options": [
+        "Other subjects are needed to make sense of the data",
+        "Coding alone is enough since computers do the rest",
+        "Coding plus Maths alone covers everything needed",
+        "Coding plus Art alone covers everything needed"
+      ],
+      "answer": 0,
+      "explanation": "In the whale story, computer scientists alone would \"just hear random noise\" — they needed Language experts to explain grammar and biologists to understand whales. Coding needs the other subjects.",
+      "source": "AI Translator box (synthesis)"
+    },
+    {
+      "id": "q9",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Why AI Needs Many Subjects",
+      "question": "The chapter is about how different school subjects connect to AI.",
+      "answer": true,
+      "explanation": "Yes — from the contributions table to the Star Map showing \"how different school subjects connect to AI\", the chapter is about subject–AI connections.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why AI Needs Many Subjects",
+      "question": "Which of these best describes how subjects relate to AI in this chapter?",
+      "options": [
+        "Each subject is a separate app inside the AI",
+        "Each subject is a piece that helps AI work properly",
+        "Each subject is a rival trying to replace AI",
+        "Each subject is something AI will soon make useless"
+      ],
+      "answer": 1,
+      "explanation": "Each subject contributes a piece — when one piece is missing (as in the three broken AI scenarios), the AI does not work properly.",
+      "source": "worksheet:Q1–Q2 (synthesis)"
+    },
+    {
+      "id": "q11",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Why AI Needs Many Subjects",
+      "question": "In the chapter, Art and Music are shown as subjects that have nothing to do with AI.",
+      "answer": false,
+      "explanation": "False. Art and Music are both in the Q1 table of subjects that contribute to AI. Music/Sound also appears in the Merlin audit, and Art fixes the Logo Designer AI.",
+      "source": "worksheet:Q1–Q3"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why AI Needs Many Subjects",
+      "question": "What does the title \"Every Subject Counts\" mean?",
+      "options": [
+        "Every subject should be graded by AI",
+        "Every subject is taught by an AI robot",
+        "Every subject matters for making AI work",
+        "Every subject involves counting numbers"
+      ],
+      "answer": 2,
+      "explanation": "\"Counts\" here means \"matters\" or \"is important\". Every school subject has something to contribute to how AI is built or used.",
+      "source": "worksheet:title"
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Why AI Needs Many Subjects",
+      "question": "Which TWO statements match the chapter's message?",
+      "options": [
+        "Art has no place in technology",
+        "AI needs ideas from many subjects",
+        "Experts from different fields should team up",
+        "One brilliant mathematician can build any AI alone"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "The chapter shows AI needing many subjects and experts working together (bird experts, sound experts, mathematicians; language experts and marine biologists). It never says one person alone is enough or that Art is useless.",
+      "source": "worksheet:Q3; AI Translator box"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why AI Needs Many Subjects",
+      "question": "The chapter says each subject \"contributes\" to AI. What does contribute mean here?",
+      "options": [
+        "Takes something away from it",
+        "Copies something from it",
+        "Argues against using it",
+        "Adds something useful to it"
+      ],
+      "answer": 3,
+      "explanation": "To contribute means to give or add something useful. The Q1 table asks \"what it contributes to AI\" — what each subject adds.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q15",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Why AI Needs Many Subjects",
+      "question": "The worksheet asks students to think about how school subjects connect to AI.",
+      "answer": true,
+      "explanation": "The Q1 table, the Q2 missing-subject scenarios, the Q3 subject audit and the Q4 Star Map all ask how school subjects connect to AI.",
+      "source": "worksheet:Q1–Q4"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Why AI Needs Many Subjects",
+      "question": "Which of these is NOT a reason the chapter gives for using many subjects?",
+      "options": [
+        "To make the AI cheaper to build",
+        "To understand sounds and patterns",
+        "To make designs look clear and good",
+        "To give friendly, human-like replies"
+      ],
+      "answer": 0,
+      "explanation": "The chapter never talks about cost. It shows subjects helping AI understand sounds and patterns (Merlin), make clear designs (Logo AI) and give warm replies (Chatbot).",
+      "source": "worksheet:Q2–Q3"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Each Subject Contributes",
+      "question": "Which subject helps AI with numbers, patterns and calculations?",
+      "options": [
+        "Language",
+        "Maths",
+        "Art",
+        "Music"
+      ],
+      "answer": 1,
+      "explanation": "Maths gives AI the ability to measure, calculate and compare patterns — for example, comparing a bird's song with thousands of recordings.",
+      "source": "worksheet:Q1 (inferred)"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Each Subject Contributes",
+      "question": "Which subject helps AI understand words, grammar and how people talk?",
+      "options": [
+        "Science",
+        "Music",
+        "Language",
+        "Maths"
+      ],
+      "answer": 2,
+      "explanation": "Language contributes understanding of words and grammar. The whale story says that without Language experts explaining grammar, the scientists would hear random noise.",
+      "source": "worksheet:Q1; AI Translator box"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Each Subject Contributes",
+      "question": "Which subject helps AI make designs with pleasing colours and clear layouts?",
+      "options": [
+        "Maths",
+        "Science",
+        "Language",
+        "Art"
+      ],
+      "answer": 3,
+      "explanation": "Art contributes design sense — colours that go together and text that is easy to read. The Logo Designer AI failed because it lacked this.",
+      "source": "worksheet:Q1–Q2"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Each Subject Contributes",
+      "question": "Which subject helps AI understand sounds, rhythm and tunes?",
+      "options": [
+        "Music",
+        "Art",
+        "Maths",
+        "Language"
+      ],
+      "answer": 0,
+      "explanation": "Music (sound) helps AI understand pitch, rhythm and tone. In the Merlin audit it is listed as \"Music / Sound\".",
+      "source": "worksheet:Q1, Q3a"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Each Subject Contributes",
+      "question": "Which subject helps AI understand how the real world and living things work?",
+      "options": [
+        "Language",
+        "Science",
+        "Art",
+        "Music"
+      ],
+      "answer": 1,
+      "explanation": "Science explains how the world works — bird biology for Merlin, marine biology for whales, and medicine for the X-ray AI.",
+      "source": "worksheet:Q1, Q3a; AI Translator box"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What Each Subject Contributes",
+      "question": "An AI must work out how likely it is that a photo shows a cat. Which subject's skills is it mainly using?",
+      "options": [
+        "Music, for hearing the sound",
+        "Language, for writing the caption",
+        "Maths, for measuring and comparing",
+        "Art, for choosing nice colours"
+      ],
+      "answer": 2,
+      "explanation": "Working out how likely a match is means measuring and comparing patterns — a Maths job, just like comparing bird songs in Merlin.",
+      "source": "worksheet:Q3a (synthesis)"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Each Subject Contributes",
+      "question": "An AI needs to know that a pneumonia X-ray looks different from a healthy lung. Which subject gives that knowledge?",
+      "options": [
+        "Music",
+        "Art",
+        "Language",
+        "Science"
+      ],
+      "answer": 3,
+      "explanation": "Knowing what pneumonia looks like in the body is medical science. Science tells the AI what it is actually looking for.",
+      "source": "worksheet:Q2 Hospital AI (synthesis)"
+    },
+    {
+      "id": "q24",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "What Each Subject Contributes",
+      "question": "Which TWO subjects would an AI that writes polite replies AND draws a poster need most?",
+      "options": [
+        "Music",
+        "Science",
+        "Language",
+        "Art"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "explanation": "Polite replies need Language (the Learner Chatbot lesson); a good-looking poster needs Art (the Logo Designer lesson).",
+      "source": "worksheet:Q2 (synthesis)"
+    },
+    {
+      "id": "q25",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "What Each Subject Contributes",
+      "question": "In the worksheet table, Music is listed as a subject that contributes to AI.",
+      "answer": true,
+      "explanation": "Yes — the Q1 table lists Maths, Science, Language, Art and Music.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q26",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "What Each Subject Contributes",
+      "question": "The worksheet's contribution table lists exactly three subjects: Maths, Science and Language.",
+      "answer": false,
+      "explanation": "False. The table has five subjects — Maths, Science, Language, Art and Music. Three subjects (Art, Math, Language) are the choices for Q2, not the table.",
+      "source": "worksheet:Q1–Q2"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Each Subject Contributes",
+      "question": "How many subjects are listed in the worksheet's \"What it contributes to AI\" table?",
+      "options": [
+        "Five",
+        "Three",
+        "Four",
+        "Six"
+      ],
+      "answer": 0,
+      "explanation": "Five: Maths, Science, Language, Art and Music.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What Each Subject Contributes",
+      "question": "An AI that reads a story aloud with the right feeling in its voice would mostly need which pair of subjects?",
+      "options": [
+        "Maths and Science",
+        "Language and Music",
+        "Maths and Art",
+        "Science and Art"
+      ],
+      "answer": 1,
+      "explanation": "Understanding the words is Language; getting the tone, rhythm and sound of the voice right is Music/Sound — the same pairing of skills the chapter uses for words and sounds.",
+      "source": "worksheet:Q1 (synthesis)"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What Each Subject Contributes",
+      "question": "Why does Art count as a subject for AI, according to the chapter?",
+      "options": [
+        "Art removes the need for any training data",
+        "Art teaches the AI to speak more politely",
+        "AI outputs such as logos must look good",
+        "AI needs lots of paintings to learn to count"
+      ],
+      "answer": 2,
+      "explanation": "The Logo Designer AI made logos with clashing colours and unreadable text. Art is the subject that teaches good colour and layout.",
+      "source": "worksheet:Q2 Logo Designer AI"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What Each Subject Contributes",
+      "question": "Which subject would help an AI understand bird songs AND whale clicks?",
+      "options": [
+        "Art and Design",
+        "History and Civics",
+        "Geography and Maps",
+        "Music and Sound"
+      ],
+      "answer": 3,
+      "explanation": "Both bird songs and whale clicks are sounds. Music/Sound is the subject about pitch, rhythm and sound patterns.",
+      "source": "worksheet:Q3a; AI Translator box"
+    },
+    {
+      "id": "q31",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "What Each Subject Contributes",
+      "question": "According to the chapter, Maths helps AI by making its designs colourful and easy to read.",
+      "answer": false,
+      "explanation": "False — colourful, readable design is Art's contribution (the Logo Designer fix). Maths helps with measuring, calculating and comparing patterns.",
+      "source": "worksheet:Q1–Q2"
+    },
+    {
+      "id": "q32",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "What Each Subject Contributes",
+      "question": "Which TWO of these are contributions of LANGUAGE to AI?",
+      "options": [
+        "Making replies sound warm and natural",
+        "Measuring how loud a sound is",
+        "Choosing colours that do not clash",
+        "Understanding grammar and word patterns"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "Language gives grammar and word patterns (whale story) and warm, natural replies (chatbot fix). Measuring loudness is Maths/Sound; colours are Art.",
+      "source": "worksheet:Q2; AI Translator box"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Each Subject Contributes",
+      "question": "Which pair is matched correctly?",
+      "options": [
+        "Maths → patterns",
+        "Art → bird biology",
+        "Music → grammar rules",
+        "Science → colour design"
+      ],
+      "answer": 0,
+      "explanation": "Maths deals with numbers and patterns. Bird biology is Science, grammar is Language, and colour design is Art.",
+      "source": "worksheet:Q1 (inferred)"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What Each Subject Contributes",
+      "question": "Which pair is matched INCORRECTLY?",
+      "options": [
+        "Art → colours and layout",
+        "Music → how living things work",
+        "Maths → calculations and patterns",
+        "Language → words and grammar"
+      ],
+      "answer": 1,
+      "explanation": "How living things work is Science, not Music. Music is about sound. The other three pairs are correct.",
+      "source": "worksheet:Q1 (inferred)"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scenario: Hospital X-ray AI",
+      "question": "What was the Hospital AI trained to detect?",
+      "options": [
+        "Heart problems in scans",
+        "Cavities in teeth X-rays",
+        "Pneumonia in X-rays",
+        "Broken bones in X-rays"
+      ],
+      "answer": 2,
+      "explanation": "The worksheet says the Hospital AI \"was trained to detect pneumonia using X-rays\".",
+      "source": "worksheet:Q2 Hospital AI"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scenario: Hospital X-ray AI",
+      "question": "Where did the training X-rays for the Hospital AI come from?",
+      "options": [
+        "Hospitals around the world",
+        "Hundreds of different machines",
+        "Photos drawn by artists",
+        "Only one X-ray machine"
+      ],
+      "answer": 3,
+      "explanation": "The X-rays came \"from only one machine\" — that is exactly why it failed later.",
+      "source": "worksheet:Q2 Hospital AI"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scenario: Hospital X-ray AI",
+      "question": "Why did the Hospital AI fail in real hospitals?",
+      "options": [
+        "Their X-ray machines were different",
+        "Their buildings had no electricity",
+        "Their doctors refused to switch it on",
+        "Their X-rays were printed in colour"
+      ],
+      "answer": 0,
+      "explanation": "\"In real hospitals, it failed because machines are different.\" The AI had only ever seen images from one machine.",
+      "source": "worksheet:Q2 Hospital AI"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Scenario: Hospital X-ray AI",
+      "question": "From the worksheet's choices (Art, Math, Language), which subject was MISSING from the Hospital AI?",
+      "options": [
+        "Science",
+        "Math",
+        "Art",
+        "Language"
+      ],
+      "answer": 1,
+      "explanation": "The problem was about data and patterns: one machine's X-rays were not enough to learn patterns that work on all machines. That is a Maths (data/statistics) problem.",
+      "source": "worksheet:Q2 Hospital AI (inferred)"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Scenario: Hospital X-ray AI",
+      "question": "How would Maths help fix the Hospital AI?",
+      "options": [
+        "By writing much kinder messages to the patients",
+        "By playing calming music in the waiting rooms",
+        "By using data from many machines so patterns hold",
+        "By repainting the X-ray images in brighter colours"
+      ],
+      "answer": 2,
+      "explanation": "Maths/statistics tells us that patterns learned from one source may not hold elsewhere. Training on varied data from many machines makes the patterns reliable.",
+      "source": "worksheet:Q2 Hospital AI (inferred)"
+    },
+    {
+      "id": "q40",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Scenario: Hospital X-ray AI",
+      "question": "The Hospital AI worked well in real hospitals because it had seen X-rays from many machines.",
+      "answer": false,
+      "explanation": "False. It had seen X-rays from only ONE machine, and it failed in real hospitals because their machines were different.",
+      "source": "worksheet:Q2 Hospital AI"
+    },
+    {
+      "id": "q41",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Scenario: Hospital X-ray AI",
+      "question": "The Hospital AI learned patterns that only matched the one machine it was trained on.",
+      "answer": true,
+      "explanation": "True. Because all its training X-rays came from one machine, its patterns fit that machine and broke on others.",
+      "source": "worksheet:Q2 Hospital AI"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Scenario: Hospital X-ray AI",
+      "question": "What is the main lesson of the Hospital AI scenario?",
+      "options": [
+        "AI should never be allowed inside hospitals",
+        "Every X-ray machine should be made identical",
+        "Doctors will always beat any kind of AI",
+        "Training data must be varied for AI to work widely"
+      ],
+      "answer": 3,
+      "explanation": "The AI failed because its data came from a single machine. The lesson is about varied data, not about banning AI or changing all machines.",
+      "source": "worksheet:Q2 Hospital AI"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Scenario: Hospital X-ray AI",
+      "question": "A new AI is trained to spot weeds using photos from one farm in one season. Based on the Hospital AI lesson, what is likely?",
+      "options": [
+        "It may fail on other farms or seasons",
+        "It will work on every farm in the world",
+        "It will turn into a weather-prediction AI",
+        "It will refuse to look at any photo"
+      ],
+      "answer": 0,
+      "explanation": "Just like the X-ray AI trained on one machine, an AI trained on one farm's photos may fail when conditions are different elsewhere.",
+      "source": "worksheet:Q2 Hospital AI (synthesis)"
+    },
+    {
+      "id": "q44",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Scenario: Hospital X-ray AI",
+      "question": "Which TWO changes would most help the Hospital AI, following the chapter's idea?",
+      "options": [
+        "Collect X-rays from many different machines",
+        "Use Maths to check patterns hold across machines",
+        "Make the AI replies sound friendlier",
+        "Redesign the hospital logo"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The missing subject was Math: more varied data and checking that patterns generalise. Friendlier replies (Language) and logos (Art) fix the OTHER two scenarios.",
+      "source": "worksheet:Q2 Hospital AI (inferred)"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scenario: Hospital X-ray AI",
+      "question": "What kind of medical image did the Hospital AI use?",
+      "options": [
+        "Drawings",
+        "X-rays",
+        "Blood tests",
+        "Photographs"
+      ],
+      "answer": 1,
+      "explanation": "The AI was trained on X-rays to detect pneumonia.",
+      "source": "worksheet:Q2 Hospital AI"
+    },
+    {
+      "id": "q46",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Scenario: Hospital X-ray AI",
+      "question": "The Hospital AI scenario shows that the problem was missing Art skills.",
+      "answer": false,
+      "explanation": "False. The problem was training data from only one machine — a Maths/data problem. Art was the missing subject for the Logo Designer AI.",
+      "source": "worksheet:Q2 (inferred)"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Scenario: Hospital X-ray AI",
+      "question": "The Hospital AI \"did not work properly\". Which phrase best describes the real problem?",
+      "options": [
+        "It drew X-rays with clashing colours",
+        "It could not read the patients' names",
+        "It could not generalise to new machines",
+        "It was too polite with the doctors"
+      ],
+      "answer": 2,
+      "explanation": "The AI worked on its one training machine but could not handle images from different machines — it did not generalise.",
+      "source": "worksheet:Q2 Hospital AI"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scenario: Hospital X-ray AI",
+      "question": "The Hospital AI is one of how many broken-AI scenarios in worksheet Q2?",
+      "options": [
+        "Two",
+        "Four",
+        "Five",
+        "Three"
+      ],
+      "answer": 3,
+      "explanation": "Q2 has three scenarios: Hospital AI, Learner Chatbot and Logo Designer AI — one each for Math, Language and Art.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q49",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Scenario: Hospital X-ray AI",
+      "question": "In worksheet Q2, students must find which subject is missing in each broken AI system.",
+      "answer": true,
+      "explanation": "Q2 says: \"Your job is to find out which subject is missing and explain how it could fix the problem.\"",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Scenario: Hospital X-ray AI",
+      "question": "Why is \"only one machine\" a problem even if that machine gave perfect X-rays?",
+      "options": [
+        "Other machines produce slightly different images",
+        "One machine can only take one X-ray a day",
+        "One machine cannot connect to the internet",
+        "One machine makes the AI run too slowly"
+      ],
+      "answer": 0,
+      "explanation": "Different machines produce slightly different images. An AI that has only seen one machine's style gets confused by the others.",
+      "source": "worksheet:Q2 Hospital AI"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scenario: Learner Chatbot",
+      "question": "What was wrong with the Learner Chatbot's replies?",
+      "options": [
+        "Full of spelling mistakes",
+        "Correct but cold and formal",
+        "Wrong but very friendly",
+        "Too short to understand"
+      ],
+      "answer": 1,
+      "explanation": "The chatbot \"gave correct but very cold and formal replies to stressed learners\".",
+      "source": "worksheet:Q2 Learner Chatbot"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scenario: Learner Chatbot",
+      "question": "Who was the Learner Chatbot made for?",
+      "options": [
+        "Logo designers",
+        "Bird scientists",
+        "Stressed learners",
+        "Hospital doctors"
+      ],
+      "answer": 2,
+      "explanation": "It replied to \"stressed learners\" — students who needed support.",
+      "source": "worksheet:Q2 Learner Chatbot"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scenario: Learner Chatbot",
+      "question": "What did the learners do because of the chatbot's cold replies?",
+      "options": [
+        "They used it even more",
+        "They reported it to the police",
+        "They printed its replies",
+        "They stopped using it"
+      ],
+      "answer": 3,
+      "explanation": "The worksheet says \"They stopped using it.\"",
+      "source": "worksheet:Q2 Learner Chatbot"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Scenario: Learner Chatbot",
+      "question": "Which subject was missing from the Learner Chatbot?",
+      "options": [
+        "Language",
+        "Math",
+        "Art",
+        "Science"
+      ],
+      "answer": 0,
+      "explanation": "The facts were correct, but the tone was cold and formal. Language skills — how to say things warmly and naturally — were missing.",
+      "source": "worksheet:Q2 Learner Chatbot (inferred)"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Scenario: Learner Chatbot",
+      "question": "How would Language skills improve the Learner Chatbot?",
+      "options": [
+        "Make the chatbot answer more quickly",
+        "Make replies warm and natural-sounding",
+        "Make the answers more mathematically exact",
+        "Add colourful pictures to each of the replies"
+      ],
+      "answer": 1,
+      "explanation": "Language is about how we speak to people. Warmer, kinder wording would make stressed learners feel supported and keep using the chatbot.",
+      "source": "worksheet:Q2 Learner Chatbot (inferred)"
+    },
+    {
+      "id": "q56",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Scenario: Learner Chatbot",
+      "question": "The Learner Chatbot gave wrong answers, which is why learners stopped using it.",
+      "answer": false,
+      "explanation": "False. Its answers were CORRECT. Learners stopped because the replies were cold and formal.",
+      "source": "worksheet:Q2 Learner Chatbot"
+    },
+    {
+      "id": "q57",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Scenario: Learner Chatbot",
+      "question": "A chatbot can be factually correct and still fail if its tone is wrong.",
+      "answer": true,
+      "explanation": "True. The Learner Chatbot was correct but cold and formal, and learners stopped using it.",
+      "source": "worksheet:Q2 Learner Chatbot"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Scenario: Learner Chatbot",
+      "question": "The chatbot's facts were right. So why did it still \"not work properly\"?",
+      "options": [
+        "Learners prefer wrong answers that are friendly",
+        "The chatbot's maths had hidden errors",
+        "Being helpful also depends on how you say things",
+        "Correct facts are never enough for a computer"
+      ],
+      "answer": 2,
+      "explanation": "Stressed learners need warmth as well as facts. The cold, formal tone made them stop using it — the problem was HOW it spoke, not WHAT it said.",
+      "source": "worksheet:Q2 Learner Chatbot"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Scenario: Learner Chatbot",
+      "question": "Which reply shows the Language skill the chatbot was missing?",
+      "options": [
+        "Error. Query received. Response follows below.",
+        "Your answer is forty-two. End of message now.",
+        "Incorrect input detected. Please try again.",
+        "That sounds hard—let's take it step by step."
+      ],
+      "answer": 3,
+      "explanation": "The first reply is warm and encouraging. The others are cold and formal — exactly the style that made learners stop using the chatbot.",
+      "source": "worksheet:Q2 Learner Chatbot (synthesis)"
+    },
+    {
+      "id": "q60",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Scenario: Learner Chatbot",
+      "question": "Which TWO are true about the Learner Chatbot?",
+      "options": [
+        "It drew logos for learners",
+        "Its replies were correct",
+        "Its replies felt cold and formal",
+        "Its replies were full of jokes"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "The worksheet says the replies were \"correct but very cold and formal\". It did not joke or draw logos.",
+      "source": "worksheet:Q2 Learner Chatbot"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scenario: Learner Chatbot",
+      "question": "The stressed learners needed replies that were...",
+      "options": [
+        "Warm and encouraging",
+        "Longer and more formal",
+        "Faster and shorter",
+        "Louder and musical"
+      ],
+      "answer": 0,
+      "explanation": "The problem was coldness and formality, so the fix is warmth and encouragement — a Language skill.",
+      "source": "worksheet:Q2 Learner Chatbot (inferred)"
+    },
+    {
+      "id": "q62",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Scenario: Learner Chatbot",
+      "question": "The Learner Chatbot scenario shows that Math was the missing subject.",
+      "answer": false,
+      "explanation": "False. The missing subject was Language (tone and wording). Math was missing in the Hospital AI scenario.",
+      "source": "worksheet:Q2 (inferred)"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Scenario: Learner Chatbot",
+      "question": "A homework-help app answers every question correctly, but students say it \"sounds like a robot scolding them\". Which subject would fix this?",
+      "options": [
+        "Science",
+        "Language",
+        "Art",
+        "Math"
+      ],
+      "answer": 1,
+      "explanation": "This is the Learner Chatbot problem again: correct facts, wrong tone. Language skills make replies kind and natural.",
+      "source": "worksheet:Q2 Learner Chatbot (synthesis)"
+    },
+    {
+      "id": "q64",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Scenario: Learner Chatbot",
+      "question": "Language skills help AI with not just the words it uses but also how those words make people feel.",
+      "answer": true,
+      "explanation": "True. The chatbot's words were correct, but their cold, formal feel drove learners away. Language covers tone as well as grammar.",
+      "source": "worksheet:Q2 Learner Chatbot (inferred)"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Scenario: Learner Chatbot",
+      "question": "What does \"formal\" mean in \"cold and formal replies\"?",
+      "options": [
+        "Very bright and colourful",
+        "Sung out loud like a song",
+        "Stiff and official in tone",
+        "Full of careless mistakes"
+      ],
+      "answer": 2,
+      "explanation": "Formal means stiff, official and serious — the opposite of friendly and relaxed. Stressed learners wanted warmth instead.",
+      "source": "worksheet:Q2 Learner Chatbot"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scenario: Logo Designer AI",
+      "question": "What did the Logo Designer AI create?",
+      "options": [
+        "X-rays",
+        "Bird songs",
+        "Chat replies",
+        "Logos"
+      ],
+      "answer": 3,
+      "explanation": "Scenario C says \"An AI created logos\" — but the designs were messy.",
+      "source": "worksheet:Q2 Logo Designer AI"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scenario: Logo Designer AI",
+      "question": "Which of these was a problem with the Logo Designer AI's work?",
+      "options": [
+        "The colours clashed",
+        "The logos were too small",
+        "The logos cost too much",
+        "The logos took a year"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet lists three problems: colours clashed, text was hard to read, and designs looked messy.",
+      "source": "worksheet:Q2 Logo Designer AI"
+    },
+    {
+      "id": "q68",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Scenario: Logo Designer AI",
+      "question": "Which TWO problems did the Logo Designer AI have?",
+      "options": [
+        "It replied too formally",
+        "It only used one X-ray machine",
+        "Text was hard to read",
+        "Designs looked messy"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "explanation": "Hard-to-read text and messy designs are from the Logo scenario. Formal replies belong to the Chatbot and one machine to the Hospital AI.",
+      "source": "worksheet:Q2 Logo Designer AI"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Scenario: Logo Designer AI",
+      "question": "Which subject was missing from the Logo Designer AI?",
+      "options": [
+        "Music",
+        "Art",
+        "Math",
+        "Language"
+      ],
+      "answer": 1,
+      "explanation": "Clashing colours, unreadable text and messy layouts are design problems. Art is the subject that teaches colour, layout and readability.",
+      "source": "worksheet:Q2 Logo Designer AI (inferred)"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Scenario: Logo Designer AI",
+      "question": "How would Art improve the Logo Designer AI?",
+      "options": [
+        "Teach it to speak politely to clients",
+        "Teach it to identify bird species",
+        "Teach it colour harmony and clean layout",
+        "Teach it to count the letters in a name"
+      ],
+      "answer": 2,
+      "explanation": "Art brings knowledge of which colours go together, how to place text so it is readable, and how to keep a design tidy.",
+      "source": "worksheet:Q2 Logo Designer AI (inferred)"
+    },
+    {
+      "id": "q71",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Scenario: Logo Designer AI",
+      "question": "The Logo Designer AI's logos had colours that went well together.",
+      "answer": false,
+      "explanation": "False. The worksheet says \"the colours clashed\".",
+      "source": "worksheet:Q2 Logo Designer AI"
+    },
+    {
+      "id": "q72",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Scenario: Logo Designer AI",
+      "question": "A logo whose text is hard to read fails even if the AI that made it did its maths perfectly.",
+      "answer": true,
+      "explanation": "True. The Logo Designer AI could create logos, but without Art skills the text was hard to read — so the logos did not do their job.",
+      "source": "worksheet:Q2 Logo Designer AI"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Scenario: Logo Designer AI",
+      "question": "What does \"the colours clashed\" mean?",
+      "options": [
+        "The colours were all exactly the same",
+        "The colours were printed too faintly",
+        "The colours were missing from the logo",
+        "The colours did not look good together"
+      ],
+      "answer": 3,
+      "explanation": "Colours clash when they fight each other visually and look unpleasant side by side — a problem Art knowledge solves.",
+      "source": "worksheet:Q2 Logo Designer AI"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Scenario: Logo Designer AI",
+      "question": "A poster-making AI puts yellow text on a white background so nobody can read it. Which chapter scenario is this most like?",
+      "options": [
+        "Logo Designer AI",
+        "Hospital AI",
+        "Learner Chatbot",
+        "Merlin Bird ID"
+      ],
+      "answer": 0,
+      "explanation": "Unreadable text and poor colour choices are exactly the Logo Designer AI's problems — missing Art.",
+      "source": "worksheet:Q2 Logo Designer AI (synthesis)"
+    },
+    {
+      "id": "q75",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Scenario: Logo Designer AI",
+      "question": "The Logo Designer AI scenario shows that Language was the missing subject.",
+      "answer": false,
+      "explanation": "False. The missing subject was Art. Language was missing in the Learner Chatbot scenario.",
+      "source": "worksheet:Q2 (inferred)"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scenario: Logo Designer AI",
+      "question": "The worksheet labels the Logo Designer scenario with which letter?",
+      "options": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ],
+      "answer": 1,
+      "explanation": "The worksheet shows \"C. Logo Designer AI\" — it is the third scenario in Q2.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Scenario: Logo Designer AI",
+      "question": "Which skill is Art adding here that Maths alone cannot?",
+      "options": [
+        "Measuring the exact size of the text",
+        "Calculating the cost of the design",
+        "Judging whether a design looks pleasing",
+        "Counting how many colours are used"
+      ],
+      "answer": 2,
+      "explanation": "Counting, measuring and calculating are Maths. Deciding whether colours and layout LOOK good is a judgement that Art teaches.",
+      "source": "worksheet:Q2 Logo Designer AI (inferred)"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Scenario: Logo Designer AI",
+      "question": "What do the Hospital AI, the Learner Chatbot and the Logo Designer AI have in common?",
+      "options": [
+        "Each was built by the same company",
+        "Each worked perfectly in real life",
+        "Each used X-ray pictures as its data",
+        "Each was missing one subject's skills"
+      ],
+      "answer": 3,
+      "explanation": "All three \"do not work properly\" because one subject — Math, Language or Art — is missing.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q79",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Scenario: Logo Designer AI",
+      "question": "The Logo Designer AI produced designs that looked neat and tidy.",
+      "answer": false,
+      "explanation": "False. The worksheet says the \"designs looked messy\".",
+      "source": "worksheet:Q2 Logo Designer AI"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scenario: Logo Designer AI",
+      "question": "Which of the three broken AIs made things that people mainly LOOK at rather than read as messages?",
+      "options": [
+        "Logo Designer AI",
+        "Learner Chatbot",
+        "Hospital AI",
+        "Whale translator"
+      ],
+      "answer": 0,
+      "explanation": "Logos are visual designs. The Chatbot made text replies and the Hospital AI looked at X-rays rather than making images.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Merlin Bird ID and Sound ID",
+      "question": "In which year was the Merlin Bird ID app updated with Sound ID?",
+      "options": [
+        "2011",
+        "2021",
+        "2019",
+        "2023"
+      ],
+      "answer": 1,
+      "explanation": "\"In 2021, scientists updated the Merlin Bird ID App with a feature called Sound ID.\"",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Merlin Bird ID and Sound ID",
+      "question": "What does the Sound ID feature do?",
+      "options": [
+        "Counts the birds in a tree",
+        "Translates whale clicks",
+        "Names a bird from its song",
+        "Photographs birds in flight"
+      ],
+      "answer": 2,
+      "explanation": "Sound ID \"listens to bird sounds and identifies which bird is singing\".",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Merlin Bird ID and Sound ID",
+      "question": "How does a user get Sound ID to work?",
+      "options": [
+        "Type the bird's name into the app",
+        "Draw the bird on the screen",
+        "Send a letter to the scientists",
+        "Hold up the phone so it can listen"
+      ],
+      "answer": 3,
+      "explanation": "\"When users hold up their phones, the app listens to bird sounds.\"",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q84",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Merlin Bird ID and Sound ID",
+      "question": "Sound ID can identify a bird even if the bird cannot be seen.",
+      "answer": true,
+      "explanation": "True — the worksheet says it identifies the bird \"even if the bird cannot be seen\", because it works from sound.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Merlin Bird ID and Sound ID",
+      "question": "What was the Sound ID AI trained with?",
+      "options": [
+        "Thousands of bird recordings",
+        "Thousands of bird photographs",
+        "Thousands of bird drawings",
+        "Thousands of bird feathers"
+      ],
+      "answer": 0,
+      "explanation": "\"The AI was trained using thousands of bird recordings from around the world.\"",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Merlin Bird ID and Sound ID",
+      "question": "Where did the training recordings come from?",
+      "options": [
+        "From a single farm",
+        "From around the world",
+        "From one forest in India",
+        "From one zoo in America"
+      ],
+      "answer": 1,
+      "explanation": "The recordings came \"from around the world\" — unlike the Hospital AI's data from one machine.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q87",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Merlin Bird ID and Sound ID",
+      "question": "Who uses the Merlin app today, according to the worksheet? (Choose TWO.)",
+      "options": [
+        "Children",
+        "Whales",
+        "Hospital doctors",
+        "Scientists"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "The app \"is now used by both scientists and children\".",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q88",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Merlin Bird ID and Sound ID",
+      "question": "Sound ID was trained using recordings from only one country, so it works only there.",
+      "answer": false,
+      "explanation": "False. It was trained on thousands of recordings from around the world.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Merlin Bird ID and Sound ID",
+      "question": "Why does training on recordings \"from around the world\" matter?",
+      "options": [
+        "It lets the app translate bird songs into words",
+        "It means the app will never need another update",
+        "Varied data helps the app work in many places",
+        "It makes the whole app download much faster"
+      ],
+      "answer": 2,
+      "explanation": "Birds in different places sound different. Varied data lets the AI's patterns work everywhere — the opposite of the one-machine Hospital AI.",
+      "source": "worksheet:Q3 (synthesis)"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Merlin Bird ID and Sound ID",
+      "question": "What is the name of the app in worksheet Q3?",
+      "options": [
+        "Robin Bird ID",
+        "Sparrow Sound",
+        "Feather Finder",
+        "Merlin Bird ID"
+      ],
+      "answer": 3,
+      "explanation": "The app is the Merlin Bird ID App, and the worksheet gives its web link.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q91",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Merlin Bird ID and Sound ID",
+      "question": "The Merlin app's Sound ID feature uses the phone's camera to recognise birds.",
+      "answer": false,
+      "explanation": "False. Sound ID LISTENS to bird sounds — it works even when the bird cannot be seen.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Merlin Bird ID and Sound ID",
+      "question": "Which of these is NOT something the worksheet says about Sound ID?",
+      "options": [
+        "It can tell how many eggs a bird has laid",
+        "It listens to bird sounds through the phone",
+        "It was trained on thousands of recordings",
+        "It is used by both scientists and children"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet never mentions eggs. The other three statements are all in the Q3 text.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Merlin Bird ID and Sound ID",
+      "question": "Which human sense does Sound ID copy?",
+      "options": [
+        "Touch",
+        "Hearing",
+        "Sight",
+        "Smell"
+      ],
+      "answer": 1,
+      "explanation": "Sound ID listens to bird sounds, so it copies hearing — which is why it works without seeing the bird.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Merlin Bird ID and Sound ID",
+      "question": "A bird is hidden deep in a bush, singing. Can Sound ID help?",
+      "options": [
+        "Only if the bird is a very big one",
+        "Only if the user sings the song back",
+        "Yes, it works from the sound alone",
+        "No, it needs to see the bird first"
+      ],
+      "answer": 2,
+      "explanation": "Yes — Sound ID identifies the bird \"even if the bird cannot be seen\" because it uses the sound.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q95",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Merlin Bird ID and Sound ID",
+      "question": "The Sound ID feature was added to the Merlin app in 2021.",
+      "answer": true,
+      "explanation": "True — the worksheet says scientists updated the app with Sound ID in 2021.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Merlin Bird ID and Sound ID",
+      "question": "What does Sound ID \"listen\" for?",
+      "options": [
+        "Car horns",
+        "People talking",
+        "Whale clicks",
+        "Bird sounds"
+      ],
+      "answer": 3,
+      "explanation": "The app listens to bird sounds to identify which bird is singing. Whale clicks belong to the Project CETI story.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Merlin Bird ID and Sound ID",
+      "question": "Why is Sound ID a good example for the \"Every Subject Counts\" theme?",
+      "options": [
+        "It needed several subjects working together",
+        "It was built by one biologist working alone",
+        "It only needed a really good microphone",
+        "It needed no training data of any kind"
+      ],
+      "answer": 0,
+      "explanation": "The subject audit shows Sound ID needed Science/Biology, Music/Sound, Maths and Language — several subjects together.",
+      "source": "worksheet:Q3a"
+    },
+    {
+      "id": "q98",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Merlin Bird ID and Sound ID",
+      "question": "The worksheet gives a web link for the Merlin Bird ID app.",
+      "answer": true,
+      "explanation": "True — the worksheet includes \"Link for the Merlin Bird ID app: https://merlin.allaboutbirds.org/\".",
+      "source": "worksheet:Q3b"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Merlin Subject Audit and the Missing-Maths Chain",
+      "question": "In the Merlin subject audit, what did Science/Biology help the AI do?",
+      "options": [
+        "Write the bird names on screen",
+        "Know the different bird species",
+        "Make the app's icons colourful",
+        "Compare sound patterns with numbers"
+      ],
+      "answer": 1,
+      "explanation": "Biology is the study of living things — it tells the AI which bird species exist and how they behave.",
+      "source": "worksheet:Q3a (inferred)"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Merlin Subject Audit and the Missing-Maths Chain",
+      "question": "What did Music/Sound help the Sound ID AI do?",
+      "options": [
+        "Calculate how likely a match is",
+        "Write friendly messages to users",
+        "Understand the pitch and rhythm of songs",
+        "Know which birds live in which country"
+      ],
+      "answer": 2,
+      "explanation": "Music/Sound knowledge helps the AI understand the pitch, rhythm and tone of bird songs.",
+      "source": "worksheet:Q3a (inferred)"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Merlin Subject Audit and the Missing-Maths Chain",
+      "question": "What did Maths help the Sound ID AI do?",
+      "options": [
+        "Learn the names of bird species",
+        "Choose the colours of the app",
+        "Record the birds in the forest",
+        "Measure and compare sound patterns"
+      ],
+      "answer": 3,
+      "explanation": "Maths lets the AI measure a new song and compare it with thousands of recordings to find the closest match.",
+      "source": "worksheet:Q3a (inferred)"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Merlin Subject Audit and the Missing-Maths Chain",
+      "question": "What did Language help the Sound ID AI do?",
+      "options": [
+        "Show results in words users understand",
+        "Hear the bird songs more clearly",
+        "Work out which song is the closest match",
+        "Learn where each bird species lives"
+      ],
+      "answer": 0,
+      "explanation": "Language helps the app name the bird and explain the result clearly to scientists and children.",
+      "source": "worksheet:Q3a (inferred)"
+    },
+    {
+      "id": "q103",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Merlin Subject Audit and the Missing-Maths Chain",
+      "question": "Which TWO subjects appear in the Merlin subject audit table?",
+      "options": [
+        "Science / Biology",
+        "Music / Sound",
+        "Art / Design",
+        "History"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The audit lists Science / Biology, Music / Sound, Maths and Language. Art and History are not in it.",
+      "source": "worksheet:Q3a"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Merlin Subject Audit and the Missing-Maths Chain",
+      "question": "How many subjects are in the Merlin subject audit table?",
+      "options": [
+        "Five",
+        "Four",
+        "Two",
+        "Three"
+      ],
+      "answer": 1,
+      "explanation": "Four: Science / Biology, Music / Sound, Maths and Language.",
+      "source": "worksheet:Q3a"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Merlin Subject Audit and the Missing-Maths Chain",
+      "question": "In the chain, what happens FIRST if there are no mathematicians?",
+      "options": [
+        "The app names the wrong bird species",
+        "The scientists stop recording any birds",
+        "The AI cannot compare sound patterns",
+        "The users stop trusting the whole app"
+      ],
+      "answer": 2,
+      "explanation": "The chain starts: No mathematicians → the AI cannot (measure and compare the sound patterns). Wrong matches and lost trust come later.",
+      "source": "worksheet:Q3b (inferred)"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Merlin Subject Audit and the Missing-Maths Chain",
+      "question": "Complete the chain: \"So when a bird sings, the app may ___\"",
+      "options": [
+        "play the song back even louder",
+        "take a photograph of the bird instead",
+        "ask the user to sing the song along",
+        "pick the wrong bird or stay silent"
+      ],
+      "answer": 3,
+      "explanation": "If the AI cannot compare patterns, it may match the song to the wrong bird or fail to identify it at all.",
+      "source": "worksheet:Q3b (inferred)"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Merlin Subject Audit and the Missing-Maths Chain",
+      "question": "Complete the chain: \"Which means users ___\"",
+      "options": [
+        "get wrong answers and lose trust",
+        "learn far more about mathematics",
+        "can see the bird much more clearly",
+        "receive free recordings of the birds"
+      ],
+      "answer": 0,
+      "explanation": "The final link: users get wrong bird names, stop trusting the app, and may stop using it — like the learners who left the cold chatbot.",
+      "source": "worksheet:Q3b (inferred)"
+    },
+    {
+      "id": "q108",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Merlin Subject Audit and the Missing-Maths Chain",
+      "question": "In the chain, having no mathematicians means the AI cannot measure and compare sound patterns properly.",
+      "answer": true,
+      "explanation": "True. Matching a new song against thousands of recordings is a measuring-and-comparing job — Maths.",
+      "source": "worksheet:Q3b (inferred)"
+    },
+    {
+      "id": "q109",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Merlin Subject Audit and the Missing-Maths Chain",
+      "question": "The worksheet chain imagines a team with no biologists and asks what goes wrong.",
+      "answer": false,
+      "explanation": "False. The team HAS bird and sound experts but NO mathematicians — that is the gap the chain explores.",
+      "source": "worksheet:Q3b"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Merlin Subject Audit and the Missing-Maths Chain",
+      "question": "The chain shows that one missing subject causes problems that...",
+      "options": [
+        "fix themselves after some time",
+        "spread step by step to the users",
+        "stay hidden inside the computer",
+        "only affect the scientists' notebooks"
+      ],
+      "answer": 1,
+      "explanation": "The chain goes from the team, to what the AI cannot do, to what the app does wrong, to how users are affected — the problem spreads.",
+      "source": "worksheet:Q3b"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Merlin Subject Audit and the Missing-Maths Chain",
+      "question": "Which experts DID the imagined team have, in the chain exercise?",
+      "options": [
+        "Language and maths experts",
+        "Art and music experts",
+        "Bird and sound experts",
+        "Maths and art experts"
+      ],
+      "answer": 2,
+      "explanation": "\"Imagine the team had experts in birds and sound — but no mathematicians.\"",
+      "source": "worksheet:Q3b"
+    },
+    {
+      "id": "q112",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Merlin Subject Audit and the Missing-Maths Chain",
+      "question": "Which TWO are correct steps from the worksheet chain?",
+      "options": [
+        "No biologists → the phone stops listening",
+        "No mathematicians → the AI cannot compare sounds",
+        "Wrong matches → users lose trust",
+        "No artists → the app crashes"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "The chain is about missing mathematicians leading to poor matching and unhappy users. It does not mention artists or biologists being absent.",
+      "source": "worksheet:Q3b (inferred)"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Merlin Subject Audit and the Missing-Maths Chain",
+      "question": "In the chain, what is the very first box?",
+      "options": [
+        "No biologists",
+        "No musicians",
+        "No language experts",
+        "No mathematicians"
+      ],
+      "answer": 3,
+      "explanation": "The chain begins with \"No mathematicians\".",
+      "source": "worksheet:Q3b"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Merlin Subject Audit and the Missing-Maths Chain",
+      "question": "Why is it the Maths part, not the Biology part, that the chain says breaks?",
+      "options": [
+        "Matching a song to recordings is a measuring job",
+        "Biologists on the team know nothing about birds",
+        "Maths is the only subject that matters for any AI",
+        "Bird songs are really made of numbers, not sounds"
+      ],
+      "answer": 0,
+      "explanation": "The team still has bird experts, so biology is covered. What is lost is the ability to measure and compare patterns — the Maths job.",
+      "source": "worksheet:Q3b (inferred)"
+    },
+    {
+      "id": "q115",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Merlin Subject Audit and the Missing-Maths Chain",
+      "question": "The Merlin subject audit shows that one app can use knowledge from four different subjects.",
+      "answer": true,
+      "explanation": "True — Science/Biology, Music/Sound, Maths and Language all helped build Sound ID.",
+      "source": "worksheet:Q3a"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Merlin Subject Audit and the Missing-Maths Chain",
+      "question": "Which subject in the audit is about how the finished result is presented to the user in words?",
+      "options": [
+        "Science / Biology",
+        "Language",
+        "Maths",
+        "Music / Sound"
+      ],
+      "answer": 1,
+      "explanation": "Language is the subject of words — naming the bird and explaining the result to the user.",
+      "source": "worksheet:Q3a (inferred)"
+    },
+    {
+      "id": "q117",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Merlin Subject Audit and the Missing-Maths Chain",
+      "question": "According to the chain, the final effect of having no mathematicians falls on the scientists who made the app, not the users.",
+      "answer": false,
+      "explanation": "False. The last link in the chain is \"Which means users ___\" — the users are the ones who finally suffer.",
+      "source": "worksheet:Q3b"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Merlin Subject Audit and the Missing-Maths Chain",
+      "question": "What type of exercise is Q3(b) in the worksheet?",
+      "options": [
+        "Match the pairs",
+        "Fill the crossword",
+        "Complete the chain",
+        "Draw a bird"
+      ],
+      "answer": 2,
+      "explanation": "Q3(b) says \"Complete the chain\" — a sequence of boxes from cause to effect.",
+      "source": "worksheet:Q3b"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Subject Star Map Task",
+      "question": "What is the name of the digital task in Q4?",
+      "options": [
+        "Subject Sun Chart",
+        "AI Planet Poster",
+        "Bird Sound Map",
+        "Subject Star Map"
+      ],
+      "answer": 3,
+      "explanation": "Students create a \"Subject Star Map showing how different school subjects connect to AI\".",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Subject Star Map Task",
+      "question": "Which tools does the worksheet suggest for the Star Map?",
+      "options": [
+        "Canva, Google Slides or PowerPoint",
+        "Scratch, Blockly or Python Turtle",
+        "Microsoft Paint, Word or Excel",
+        "Merlin Bird ID, Siri or Alexa"
+      ],
+      "answer": 0,
+      "explanation": "\"Use Canva, Google Slides, or PowerPoint to create a Subject Star Map.\"",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Subject Star Map Task",
+      "question": "At least how many subjects must the Star Map show as stars?",
+      "options": [
+        "Ten",
+        "Five",
+        "Three",
+        "Seven"
+      ],
+      "answer": 1,
+      "explanation": "The map must include \"at least 5 subjects shown as stars\".",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Subject Star Map Task",
+      "question": "What goes at the top of the Star Map?",
+      "options": [
+        "The date",
+        "A picture of AI",
+        "Your title",
+        "Your name"
+      ],
+      "answer": 2,
+      "explanation": "\"Your title at the top\" is the first requirement listed.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q123",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "The Subject Star Map Task",
+      "question": "Which TWO are required parts of the Star Map?",
+      "options": [
+        "A recording of a bird song",
+        "A photo of an X-ray machine",
+        "Lines connecting the subjects to AI",
+        "One short explanation per connection"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "explanation": "Required: title, at least 5 subject stars, connecting lines, one short explanation per connection, and colours/icons/images. Recordings and X-ray photos are not required.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q124",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The Subject Star Map Task",
+      "question": "The Star Map must include colours, icons or images to make it creative.",
+      "answer": true,
+      "explanation": "True — the last requirement is \"Colours, icons, or images to make it creative\".",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q125",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "The Subject Star Map Task",
+      "question": "The Star Map needs at least ten subjects shown as stars.",
+      "answer": false,
+      "explanation": "False. It needs at least FIVE subjects shown as stars.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Subject Star Map Task",
+      "question": "Where does the title of the Star Map come from?",
+      "options": [
+        "The official name of the Merlin Bird ID app",
+        "The first subject listed in the worksheet table",
+        "The chapter heading chosen by the teacher",
+        "A student's own opinion about AI and subjects"
+      ],
+      "answer": 3,
+      "explanation": "Q4 asks students to \"write one interesting idea or opinion about AI and school subjects. This will become the title of your digital task.\"",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Subject Star Map Task",
+      "question": "A student's Star Map shows 5 subjects as stars with a title and colours, but nothing joins the stars to AI. What is missing?",
+      "options": [
+        "Lines joining each subject to AI",
+        "Colours, icons or pictures on it",
+        "A title written at the very top",
+        "The fifth and final subject star"
+      ],
+      "answer": 0,
+      "explanation": "The map must have \"lines connecting the subjects to AI\" (and an explanation for each). Title, five stars and colours are already there.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Subject Star Map Task",
+      "question": "In the Star Map, what do the stars stand for?",
+      "options": [
+        "Planets in space",
+        "School subjects",
+        "Famous scientists",
+        "Different AI apps"
+      ],
+      "answer": 1,
+      "explanation": "Each star is a school subject, connected by a line to AI.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Subject Star Map Task",
+      "question": "Which worksheet \"level\" is Q4 in?",
+      "options": [
+        "Powering up",
+        "Reaching the station",
+        "Thinking deeper",
+        "Laying the tracks"
+      ],
+      "answer": 2,
+      "explanation": "Q4 is under the \"Thinking deeper (at your own pace)\" level.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q130",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "The Subject Star Map Task",
+      "question": "The Star Map task asks students to show only Maths and Science, because these are the main AI subjects.",
+      "answer": false,
+      "explanation": "False. It asks for at least 5 subjects — the point is that many different subjects connect to AI.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Subject Star Map Task",
+      "question": "Why does the Star Map ask for a short explanation for EACH connection?",
+      "options": [
+        "To make the map longer and heavier",
+        "To practise handwriting on the computer",
+        "To fill empty space around the stars",
+        "To show how that subject actually helps AI"
+      ],
+      "answer": 3,
+      "explanation": "A line alone does not say WHY. The explanation shows the student understands what each subject contributes to AI — the heart of the chapter.",
+      "source": "worksheet:Q4 (inferred)"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Subject Star Map Task",
+      "question": "The Star Map is described as a ___ task.",
+      "options": [
+        "digital",
+        "written",
+        "singing",
+        "outdoor"
+      ],
+      "answer": 0,
+      "explanation": "Q4 calls it \"your digital task\", made with Canva, Google Slides or PowerPoint.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Talking to Whales: Project CETI",
+      "question": "What are scientists using AI to \"talk\" to, in the AI Translator box?",
+      "options": [
+        "Elephants",
+        "Whales",
+        "Birds",
+        "Dolphins"
+      ],
+      "answer": 1,
+      "explanation": "\"Did you know that scientists are using AI to 'talk' to Whales?\"",
+      "source": "AI Translator box"
+    },
+    {
+      "id": "q134",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Talking to Whales: Project CETI",
+      "question": "Which TWO subjects does the whale project combine?",
+      "options": [
+        "Science (marine biology)",
+        "Art",
+        "Physical Education",
+        "Language Arts"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "They use \"Language Arts (patterns in speech) and Science (marine biology)\".",
+      "source": "AI Translator box"
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Talking to Whales: Project CETI",
+      "question": "What did the AI listen to?",
+      "options": [
+        "Just a few minutes of whale songs",
+        "Radio messages sent from passing ships",
+        "Thousands of hours of whale clicks",
+        "Thousands of photographs of whales"
+      ],
+      "answer": 2,
+      "explanation": "The AI listened to \"thousands of hours of whale clicks\".",
+      "source": "AI Translator box"
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Talking to Whales: Project CETI",
+      "question": "What did the AI discover about whales?",
+      "options": [
+        "They can read maps",
+        "They sing in English",
+        "They fear loud ships",
+        "They have dialects"
+      ],
+      "answer": 3,
+      "explanation": "\"The AI discovered that whales have 'dialects'.\"",
+      "source": "AI Translator box"
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Talking to Whales: Project CETI",
+      "question": "What does it mean that whales have \"dialects\"?",
+      "options": [
+        "Whales from different places sound a little different",
+        "Whales from different places never make any sound",
+        "Whales from different places all click the same way",
+        "Whales from different places speak human words"
+      ],
+      "answer": 0,
+      "explanation": "A dialect means whales from one part of the ocean have a different \"accent\" from whales in another part.",
+      "source": "AI Translator box"
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Talking to Whales: Project CETI",
+      "question": "Without Language experts, what would the computer scientists hear?",
+      "options": [
+        "Nothing at all",
+        "Just random noise",
+        "Perfect whale sentences",
+        "Bird songs instead"
+      ],
+      "answer": 1,
+      "explanation": "\"Without Language experts to explain how grammar works, the Computer Scientists would just hear random noise.\"",
+      "source": "AI Translator box"
+    },
+    {
+      "id": "q139",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Talking to Whales: Project CETI",
+      "question": "What do the Language experts explain that helps decode the clicks?",
+      "options": [
+        "How oceans warm up",
+        "How microphones work",
+        "How grammar works",
+        "How whales swim"
+      ],
+      "answer": 2,
+      "explanation": "Language experts explain how grammar works — patterns in speech — so the clicks can be understood as structured communication.",
+      "source": "AI Translator box"
+    },
+    {
+      "id": "q140",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Talking to Whales: Project CETI",
+      "question": "The whale project uses patterns in speech (Language Arts) and marine biology (Science).",
+      "answer": true,
+      "explanation": "True — the box names exactly these two: Language Arts (patterns in speech) and Science (marine biology).",
+      "source": "AI Translator box"
+    },
+    {
+      "id": "q141",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Talking to Whales: Project CETI",
+      "question": "The AI found that all whales in every ocean make exactly the same clicks.",
+      "answer": false,
+      "explanation": "False. It found whales have dialects — different \"accents\" in different parts of the ocean.",
+      "source": "AI Translator box"
+    },
+    {
+      "id": "q142",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Talking to Whales: Project CETI",
+      "question": "What is the name of the whale project mentioned?",
+      "options": [
+        "Project SETI",
+        "Project WHALE",
+        "Project OCEAN",
+        "Project CETI"
+      ],
+      "answer": 3,
+      "explanation": "The source line reads \"Project CETI: Using AI to communicate with whales\".",
+      "source": "AI Translator box"
+    },
+    {
+      "id": "q143",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Talking to Whales: Project CETI",
+      "question": "Which sentence from the box states the chapter's main idea?",
+      "options": [
+        "It takes every subject to crack the code of nature",
+        "Whales live in every part of the ocean",
+        "Computer scientists work very long hours",
+        "Whale clicks are louder than bird songs"
+      ],
+      "answer": 0,
+      "explanation": "The box closes with \"It takes every subject to crack the code of nature!\" — the same message as the title. The other sentences are not in the box.",
+      "source": "AI Translator box"
+    },
+    {
+      "id": "q144",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Talking to Whales: Project CETI",
+      "question": "Why is Science (marine biology) needed in the whale project?",
+      "options": [
+        "To write friendly messages to the whales",
+        "To understand how whales live and behave",
+        "To design a colourful logo for the project",
+        "To make the computers run faster"
+      ],
+      "answer": 1,
+      "explanation": "Marine biology is the science of sea life. It tells the team what whales do and when they click, so the sounds make sense.",
+      "source": "AI Translator box (inferred)"
+    },
+    {
+      "id": "q145",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Talking to Whales: Project CETI",
+      "question": "A whale \"dialect\" is compared to what in humans?",
+      "options": [
+        "A lullaby",
+        "A lesson",
+        "An accent",
+        "A nickname"
+      ],
+      "answer": 2,
+      "explanation": "The box says whales from one area have a different \"accent\" from whales in another — just like human dialects.",
+      "source": "AI Translator box"
+    },
+    {
+      "id": "q146",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Talking to Whales: Project CETI",
+      "question": "What does \"crack the code of nature\" mean here?",
+      "options": [
+        "Break open a shell to study it",
+        "Write a secret computer password",
+        "Teach whales to use a keyboard",
+        "Understand nature's hidden patterns"
+      ],
+      "answer": 3,
+      "explanation": "Cracking a code means working out what hidden signals mean — here, understanding the patterns in whale clicks.",
+      "source": "AI Translator box"
+    },
+    {
+      "id": "q147",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Talking to Whales: Project CETI",
+      "question": "The whale AI project shows that Computer Science alone is enough to understand animal sounds.",
+      "answer": false,
+      "explanation": "False. The box says computer scientists alone would just hear random noise — Language experts and marine biologists were essential.",
+      "source": "AI Translator box"
+    },
+    {
+      "id": "q148",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Talking to Whales: Project CETI",
+      "question": "Which TWO are true about the whale project?",
+      "options": [
+        "The AI discovered whale dialects",
+        "Language experts explain how grammar works",
+        "The whales learnt to speak English",
+        "The project uses only one hour of recordings"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Dialects and grammar experts are both in the box. The whales did not learn English, and the AI used thousands of hours of clicks.",
+      "source": "AI Translator box"
+    },
+    {
+      "id": "q149",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Talking to Whales: Project CETI",
+      "question": "How are whale sounds described in the box?",
+      "options": [
+        "Clicks",
+        "Barks",
+        "Whistles",
+        "Roars"
+      ],
+      "answer": 0,
+      "explanation": "The AI listened to \"thousands of hours of whale clicks\".",
+      "source": "AI Translator box"
+    },
+    {
+      "id": "q150",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Talking to Whales: Project CETI",
+      "question": "How is the whale project similar to Merlin's Sound ID?",
+      "options": [
+        "Both design logos with clear colours",
+        "Both use huge sets of animal sound recordings",
+        "Both identify birds from their songs",
+        "Both were released in 2021 as phone apps"
+      ],
+      "answer": 1,
+      "explanation": "Sound ID used thousands of bird recordings; the whale AI used thousands of hours of whale clicks. Both learn from large sets of animal sounds.",
+      "source": "worksheet:Q3; AI Translator box (synthesis)"
+    },
+    {
+      "id": "q151",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Levels and the Big Picture",
+      "question": "What is the name of the FIRST level in the worksheet?",
+      "options": [
+        "Thinking deeper",
+        "Full speed ahead",
+        "Laying the tracks",
+        "Powering up"
+      ],
+      "answer": 2,
+      "explanation": "The worksheet's levels, in order, are Laying the tracks, Powering up, and Thinking deeper.",
+      "source": "worksheet:levels"
+    },
+    {
+      "id": "q152",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Levels and the Big Picture",
+      "question": "Which level comes after \"Laying the tracks\"?",
+      "options": [
+        "Thinking deeper",
+        "Laying the rails",
+        "Landing safely",
+        "Powering up"
+      ],
+      "answer": 3,
+      "explanation": "\"Powering up\" is the second level (Q3), followed by \"Thinking deeper\" (Q4).",
+      "source": "worksheet:levels"
+    },
+    {
+      "id": "q153",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Levels and the Big Picture",
+      "question": "Which level is done \"at your own pace\"?",
+      "options": [
+        "Thinking deeper",
+        "Laying the tracks",
+        "Powering up",
+        "Warming up"
+      ],
+      "answer": 0,
+      "explanation": "The third level is labelled \"Thinking deeper (at your own pace)\".",
+      "source": "worksheet:levels"
+    },
+    {
+      "id": "q154",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Worksheet Levels and the Big Picture",
+      "question": "Which TWO are real level names in this worksheet?",
+      "options": [
+        "Final station",
+        "Powering up",
+        "Thinking deeper",
+        "Speeding ahead"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "The levels are Laying the tracks, Powering up and Thinking deeper.",
+      "source": "worksheet:levels"
+    },
+    {
+      "id": "q155",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Worksheet Levels and the Big Picture",
+      "question": "The worksheet is organised into levels, like stages of a train journey.",
+      "answer": true,
+      "explanation": "True — \"Laying the tracks\" and \"Powering up\" are train-journey images for the levels of difficulty.",
+      "source": "worksheet:levels"
+    },
+    {
+      "id": "q156",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Worksheet Levels and the Big Picture",
+      "question": "The \"Thinking deeper\" level comes before \"Laying the tracks\" in the worksheet.",
+      "answer": false,
+      "explanation": "False. Laying the tracks is first; Thinking deeper is last.",
+      "source": "worksheet:levels"
+    },
+    {
+      "id": "q157",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Levels and the Big Picture",
+      "question": "Which scenario from the chapter shows a missing MATH subject?",
+      "options": [
+        "Whale translator",
+        "Hospital AI",
+        "Learner Chatbot",
+        "Logo Designer AI"
+      ],
+      "answer": 1,
+      "explanation": "The Hospital AI's one-machine data problem is a Maths/data problem. The Chatbot lacked Language and the Logo AI lacked Art.",
+      "source": "worksheet:Q2 (inferred)"
+    },
+    {
+      "id": "q158",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Levels and the Big Picture",
+      "question": "Which scenario shows a missing LANGUAGE subject?",
+      "options": [
+        "Logo Designer AI",
+        "Merlin Bird ID",
+        "Learner Chatbot",
+        "Hospital AI"
+      ],
+      "answer": 2,
+      "explanation": "The Learner Chatbot's cold, formal tone is a Language problem.",
+      "source": "worksheet:Q2 (inferred)"
+    },
+    {
+      "id": "q159",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Levels and the Big Picture",
+      "question": "Which scenario shows a missing ART subject?",
+      "options": [
+        "Learner Chatbot",
+        "Hospital AI",
+        "Project CETI",
+        "Logo Designer AI"
+      ],
+      "answer": 3,
+      "explanation": "The Logo Designer AI's clashing colours and messy, unreadable designs are an Art problem.",
+      "source": "worksheet:Q2 (inferred)"
+    },
+    {
+      "id": "q160",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Worksheet Levels and the Big Picture",
+      "question": "Which of these is the ODD one out?",
+      "options": [
+        "Project CETI — worked by combining subjects",
+        "Hospital AI — failed without enough varied data",
+        "Learner Chatbot — failed from cold replies",
+        "Logo Designer AI — failed with messy designs"
+      ],
+      "answer": 0,
+      "explanation": "Project CETI is a SUCCESS story that combined Language Arts and Science. The other three are AIs that failed because a subject was missing.",
+      "source": "worksheet:Q2; AI Translator box"
+    },
+    {
+      "id": "q161",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Worksheet Levels and the Big Picture",
+      "question": "Both the Merlin app and Project CETI succeed because...",
+      "options": [
+        "they avoid using any mathematics",
+        "they combine several subjects' knowledge",
+        "they were made by only one expert",
+        "they use pictures instead of sound"
+      ],
+      "answer": 1,
+      "explanation": "Merlin used Biology, Sound, Maths and Language; CETI used Language Arts and marine biology. Both work with sound, and both use many subjects.",
+      "source": "worksheet:Q3a; AI Translator box"
+    },
+    {
+      "id": "q162",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Worksheet Levels and the Big Picture",
+      "question": "In this chapter, every AI example that failed was missing the same single subject.",
+      "answer": false,
+      "explanation": "False. The three failures were missing DIFFERENT subjects: Math (Hospital AI), Language (Chatbot) and Art (Logo AI).",
+      "source": "worksheet:Q2 (inferred)"
+    },
+    {
+      "id": "q163",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Levels and the Big Picture",
+      "question": "Which chapter example uses Maths to compare patterns in SOUND?",
+      "options": [
+        "Learner Chatbot",
+        "Hospital X-ray AI",
+        "Merlin Sound ID",
+        "Logo Designer AI"
+      ],
+      "answer": 2,
+      "explanation": "Merlin's Sound ID compares a bird's song with thousands of recordings — Maths applied to sound.",
+      "source": "worksheet:Q3a"
+    },
+    {
+      "id": "q164",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Worksheet Levels and the Big Picture",
+      "question": "Which TWO lessons does the whole chapter teach?",
+      "options": [
+        "Only computer scientists should build AI",
+        "AI works best with data from one source",
+        "A missing subject can make an AI fail",
+        "Teams of different experts build better AI"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "explanation": "Q2 shows missing subjects causing failure; Q3 and the whale box show mixed teams succeeding. The Hospital AI shows one-source data is a problem, not a strength.",
+      "source": "worksheet:Q2–Q3; AI Translator box"
+    },
+    {
+      "id": "q165",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Worksheet Levels and the Big Picture",
+      "question": "Which subject is in the worksheet's Q1 table but NOT in the Merlin subject audit?",
+      "options": [
+        "Maths",
+        "Science",
+        "Language",
+        "Art"
+      ],
+      "answer": 3,
+      "explanation": "Q1 lists Maths, Science, Language, Art and Music. The Merlin audit lists Science/Biology, Music/Sound, Maths and Language — Art is the one left out.",
+      "source": "worksheet:Q1, Q3a"
+    },
+    {
+      "id": "q166",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Levels and the Big Picture",
+      "question": "A weather AI is accurate, but it shows results as a wall of tiny grey numbers nobody can read. Which subject would fix it?",
+      "options": [
+        "Art",
+        "Math",
+        "Science",
+        "Music"
+      ],
+      "answer": 0,
+      "explanation": "The predictions are already correct (Math and Science are fine). Making the result clear and readable is design — Art, as in the Logo Designer fix.",
+      "source": "worksheet:Q2 (synthesis)"
+    },
+    {
+      "id": "q167",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Worksheet Levels and the Big Picture",
+      "question": "The chapter uses real examples such as the Merlin Bird ID app and Project CETI.",
+      "answer": true,
+      "explanation": "True — both are real projects named in the worksheet, with a link given for Merlin.",
+      "source": "worksheet:Q3; AI Translator box"
+    },
+    {
+      "id": "q168",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Levels and the Big Picture",
+      "question": "The three broken AIs each needed Art, Math or Language. Which order matches Hospital → Chatbot → Logo?",
+      "options": [
+        "Math, Art, Language",
+        "Math, Language, Art",
+        "Art, Math, Language",
+        "Language, Art, Math"
+      ],
+      "answer": 1,
+      "explanation": "Hospital AI needed Math (varied data), the Chatbot needed Language (warm tone), and the Logo AI needed Art (good design).",
+      "source": "worksheet:Q2 (inferred)"
+    }
+  ]
+}

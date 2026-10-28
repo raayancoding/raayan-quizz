@@ -1,0 +1,1833 @@
+{
+  "schemaVersion": 1,
+  "id": "mathematics-ch49-understanding-fractions",
+  "title": "Understanding Fractions",
+  "subject": "Mathematics",
+  "grade": 4,
+  "sourceDir": "output/Mathematics/49_Understanding-Fractions",
+  "chapter": "49. Understanding Fractions",
+  "topic": "Full Chapter",
+  "description": "Fractions as parts of a whole and of a set, numerators and denominators, unit/proper/improper/mixed and like/unlike fractions, converting between improper and mixed fractions, equivalent fractions, comparing and ordering like fractions, and adding/subtracting like fractions in word problems.",
+  "tags": [
+    "mathematics",
+    "grade4",
+    "fractions",
+    "numerator-denominator",
+    "unit-fractions",
+    "proper-improper-mixed",
+    "like-unlike-fractions",
+    "equivalent-fractions",
+    "comparing-fractions",
+    "adding-subtracting-fractions",
+    "word-problems"
+  ],
+  "questions": [
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fraction Basics: Numerator and Denominator",
+      "question": "When a whole is divided into equal parts, what is each equal part called?",
+      "options": [
+        "A fraction",
+        "A factor",
+        "A multiple",
+        "A decimal"
+      ],
+      "answer": 0,
+      "explanation": "The book says: when a whole is divided into EQUAL parts, each equal part is called a fraction. Factors and multiples belong to multiplication, not to parts of a whole.",
+      "source": "book:page40",
+      "id": "q1"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fraction Basics: Numerator and Denominator",
+      "question": "In the fraction 3/7, which number is the numerator?",
+      "options": [
+        "7",
+        "3",
+        "10",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "The numerator is the numeral ABOVE the fractional bar, so in 3/7 it is 3. The 7 below the bar is the denominator. 10 (3 + 7) and 4 (7 - 3) are just sums and differences, not parts of the fraction.",
+      "source": "book:page40",
+      "id": "q2"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fraction Basics: Numerator and Denominator",
+      "question": "In the fraction 5/9, what does the denominator 9 tell us?",
+      "options": [
+        "9 of the parts are being considered",
+        "There are 9 wholes altogether",
+        "The whole is cut into 9 equal parts",
+        "The whole is cut into 9 unequal parts"
+      ],
+      "answer": 2,
+      "explanation": "The denominator tells the TOTAL number of equal parts the whole is divided into (9). The numerator (5) tells how many of those parts are considered. Parts of a fraction must always be equal.",
+      "source": "book:page40",
+      "id": "q3"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fraction Basics: Numerator and Denominator",
+      "question": "What is the horizontal line between the numerator and the denominator called?",
+      "options": [
+        "The division sign (obelus)",
+        "The equal sign (equals bar)",
+        "The number line (axis bar)",
+        "The fractional bar (vinculum)"
+      ],
+      "answer": 3,
+      "explanation": "The two numerals of a fraction are separated by a horizontal bar called the fractional bar. The book adds that it is also referred to as a vinculum - a line that shows numbers are bound together as a group.",
+      "source": "book:page40-41",
+      "id": "q4"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Fraction Basics: Numerator and Denominator",
+      "question": "In a fraction, the numerator shows the total number of equal parts the whole is divided into.",
+      "answer": false,
+      "explanation": "False - that is the job of the DENOMINATOR (the number below the bar). The numerator (above the bar) shows how many of the equal parts are being considered.",
+      "source": "book:page40",
+      "id": "q5"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fraction Basics: Numerator and Denominator",
+      "question": "A whole chikki is cut into 8 equal triangular pieces and you eat 2 of them. What fraction of the chikki did you eat?",
+      "options": [
+        "2/8",
+        "8/2",
+        "2/6",
+        "6/8"
+      ],
+      "answer": 0,
+      "explanation": "Pieces eaten (2) go on top, total equal pieces (8) go below: 2/8. 8/2 swaps the numbers, 6/8 is the part NOT eaten, and 2/6 wrongly uses the remaining pieces as the denominator.",
+      "source": "book:page41",
+      "id": "q6"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fraction Basics: Numerator and Denominator",
+      "question": "A chikki is cut into 9 equal square pieces and 4 pieces are eaten. What fraction of the chikki REMAINS?",
+      "options": [
+        "4/9",
+        "5/9",
+        "5/4",
+        "9/5"
+      ],
+      "answer": 1,
+      "explanation": "9 - 4 = 5 pieces remain out of 9 equal pieces, so the remaining fraction is 5/9. 4/9 is the part eaten; 5/4 and 9/5 put the wrong number in the denominator - the denominator must stay 9 (total pieces).",
+      "source": "book:page42",
+      "id": "q7"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fraction Basics: Numerator and Denominator",
+      "question": "A friend says 4/9 means '4 wholes divided into 9'. What does 4/9 really mean?",
+      "options": [
+        "9 of the 4 equal parts of one whole",
+        "4 wholes shared among 9 people",
+        "4 of the 9 equal parts of one whole",
+        "4 parts and 9 parts put together"
+      ],
+      "answer": 2,
+      "explanation": "A fraction is a part of ONE whole: the denominator 9 says the whole is cut into 9 equal parts and the numerator 4 says 4 of them are taken. Nothing is being 'put together' or shared among people.",
+      "source": "book:page40-42",
+      "id": "q8"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Unit Fractions and Word Names",
+      "question": "What special name does the fraction 1/2 have?",
+      "options": [
+        "Quarter",
+        "Third",
+        "Whole",
+        "Half"
+      ],
+      "answer": 3,
+      "explanation": "The book says 1/2 has the special name 'half'. A quarter is 1/4, a third is 1/3, and a whole is 1 (or 2/2).",
+      "source": "book:page41",
+      "id": "q9"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Unit Fractions and Word Names",
+      "question": "One fourth (1/4) is also called ______.",
+      "options": [
+        "a quarter piece",
+        "a half piece",
+        "a third piece",
+        "a whole piece"
+      ],
+      "answer": 0,
+      "explanation": "1/4 is read as 'one fourth' and is also referred to as a quarter. Half is 1/2, a third is 1/3 and a whole is 4/4.",
+      "source": "book:page41,43",
+      "id": "q10"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Unit Fractions and Word Names",
+      "question": "Which of these is a unit fraction?",
+      "options": [
+        "7/1",
+        "1/7",
+        "2/7",
+        "7/7"
+      ],
+      "answer": 1,
+      "explanation": "A unit fraction has numerator 1 and a denominator greater than 1 - so 1/7 fits. 7/1 and 7/7 do not have 1 on top, and 2/7 has numerator 2.",
+      "source": "book:page43",
+      "id": "q11"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Unit Fractions and Word Names",
+      "question": "How is the fraction 5/17 written in words?",
+      "options": [
+        "Seventeen fifths",
+        "Fifteen sevenths",
+        "Five seventeenths",
+        "Five and seventeen"
+      ],
+      "answer": 2,
+      "explanation": "Read the numerator as a counting number (five) and the denominator as an ordinal with -s (seventeenths): five seventeenths. 'Seventeen fifths' would be 17/5.",
+      "source": "worksheet MMJ-1 Q5c",
+      "id": "q12"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Unit Fractions and Word Names",
+      "question": "Write 'seven halves' as a fraction.",
+      "options": [
+        "2/7",
+        "7/12",
+        "1/7",
+        "7/2"
+      ],
+      "answer": 3,
+      "explanation": "'Halves' means the denominator is 2 and 'seven' is the numerator: 7/2. Notice this is an improper fraction (more than 1 whole) - that is allowed. 2/7 is 'two sevenths'.",
+      "source": "book:page53 Q5e",
+      "id": "q13"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Unit Fractions and Word Names",
+      "question": "A fraction with 1 as its denominator, such as 5/1, is called a unit fraction.",
+      "answer": false,
+      "explanation": "False. A unit fraction has 1 as its NUMERATOR (1/4, 1/7, 1/11 ...). The denominator is the one that must be greater than 1. This is Statement (II) of the worksheet's true/false item, and it is false.",
+      "source": "worksheet MMJ-2 Q9",
+      "id": "q14"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Unit Fractions and Word Names",
+      "question": "Select ALL the unit fractions in this list.",
+      "options": [
+        "1/5",
+        "1/9",
+        "9/6",
+        "5/8",
+        "10/7"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Unit fractions have numerator 1: 1/5 and 1/9. 5/8 is proper but not unit; 9/6 and 10/7 are improper fractions.",
+      "source": "book:page58 Q2",
+      "id": "q15"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fraction as Part of a Whole",
+      "question": "A whole is divided into 3 equal parts. Which fraction represents the WHOLE?",
+      "options": [
+        "3/3",
+        "1/3",
+        "3/1",
+        "2/3"
+      ],
+      "answer": 0,
+      "explanation": "Each part is 1/3 and three one-thirds make the whole, written 3/3. The book shows this pattern for halves (2/2) and fourths (4/4) too.",
+      "source": "book:page42",
+      "id": "q16"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fraction as Part of a Whole",
+      "question": "How many one fourths (1/4) make a whole?",
+      "options": [
+        "Two",
+        "Four",
+        "Three",
+        "Eight"
+      ],
+      "answer": 1,
+      "explanation": "Four one fourths make the whole: 1/4 + 1/4 + 1/4 + 1/4 = 4/4 = 1. The denominator tells you how many unit pieces fill the whole.",
+      "source": "book:page43",
+      "id": "q17"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fraction as Part of a Whole",
+      "question": "If 4/6 of a rectangle is shaded, what fraction is UNSHADED?",
+      "options": [
+        "4/6",
+        "6/4",
+        "2/6",
+        "2/4"
+      ],
+      "answer": 2,
+      "explanation": "The whole is 6/6. Unshaded = 6/6 - 4/6 = 2/6. Keep the denominator 6 - only the numerators change.",
+      "source": "book:page43",
+      "id": "q18"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fraction as Part of a Whole",
+      "question": "A paper strip of unit length is folded into 2 equal parts, then each part is folded into 2 again. Each small part is how long?",
+      "options": [
+        "1/2 unit",
+        "1/3 unit",
+        "2/4 unit",
+        "1/4 unit"
+      ],
+      "answer": 3,
+      "explanation": "Folding into 2 gives halves (1/2). Folding each half again gives 4 equal parts, each 1/4 of the strip. 2/4 would be TWO of those small parts.",
+      "source": "book:page44",
+      "id": "q19"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Fraction as Part of a Whole",
+      "question": "Statement (I): The fraction 4/4 represents 4 whole units. Statement (II): The fraction 4/4 represents 1 whole unit. Select the correct option.",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 3,
+      "explanation": "Four one-fourths make ONE whole, so 4/4 = 1, not 4. Statement (I) is false and Statement (II) is true. A fraction equals as many wholes as the numerator has GROUPS of the denominator (4 ÷ 4 = 1).",
+      "source": "worksheet MMJ-1 Q7",
+      "id": "q20"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Fraction as Part of a Whole",
+      "question": "Statement (I): 3 times 1/5 = 3/5. Statement (II): The fraction 5/5 represents 5 wholes. Select the correct option.",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 2,
+      "explanation": "3 times 1/5 is 1/5 + 1/5 + 1/5 = 3/5, so (I) is true. But 5/5 means five one-fifths, which together make exactly ONE whole, so (II) is false.",
+      "source": "book:page54 Q9",
+      "id": "q21"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fraction as Part of a Whole",
+      "question": "A pancake is cut into 4 equal pieces. 3 times 1/4 equals:",
+      "options": [
+        "3/4, which is less than 1",
+        "4/3, which is more than 1",
+        "3/4, which is more than 1",
+        "4/3, which is less than 1"
+      ],
+      "answer": 0,
+      "explanation": "3 times 1/4 = 3/4. Since only 3 of the 4 pieces are taken, this is less than one whole pancake. You need 4 times 1/4 = 4/4 to make 1.",
+      "source": "book:page55",
+      "id": "q22"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractions on a Number Line",
+      "question": "To show 3/7 on a number line, into how many equal parts should the gap between 0 and 1 be divided?",
+      "options": [
+        "3",
+        "7",
+        "10",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "Divide the part between 0 and 1 into as many equal parts as the DENOMINATOR (7). Then count 3 of those parts from 0 to reach 3/7.",
+      "source": "book:page45",
+      "id": "q23"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractions on a Number Line",
+      "question": "A number line in thirteenths reads 1/13, 2/13, 3/13, ___, 5/13. What is the missing fraction?",
+      "options": [
+        "4/12",
+        "13/4",
+        "4/13",
+        "3/13"
+      ],
+      "answer": 2,
+      "explanation": "The marks go up by one thirteenth each time, so after 3/13 comes 4/13. The denominator stays 13 on the whole line.",
+      "source": "worksheet WAP-2 Q4a",
+      "id": "q24"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractions on a Number Line",
+      "question": "A number line in twelfths reads 8/12, ___, 10/12, 11/12. What is the missing fraction?",
+      "options": [
+        "9/13",
+        "12/9",
+        "9/11",
+        "9/12"
+      ],
+      "answer": 3,
+      "explanation": "Between 8/12 and 10/12 lies 9/12. All marks on this line are twelfths, so the denominator must remain 12.",
+      "source": "worksheet WAP-2 Q4b",
+      "id": "q25"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fractions on a Number Line",
+      "question": "On a number line marked in halves (1/2, 2/2, 3/2 ...) from 0 to 4, where exactly does 8/2 sit?",
+      "options": [
+        "At 4",
+        "At 2",
+        "At 8",
+        "At 1"
+      ],
+      "answer": 0,
+      "explanation": "Two halves make 1, so 8 halves make 8 ÷ 2 = 4. The fraction 8/2 sits exactly on the whole number 4 at the end of the line.",
+      "source": "book:page71; worksheet WAP-3",
+      "id": "q26"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fractions on a Number Line",
+      "question": "Which of these fractions lies to the RIGHT of 1 on a number line?",
+      "options": [
+        "3/4",
+        "7/4",
+        "1/4",
+        "1/2"
+      ],
+      "answer": 1,
+      "explanation": "7/4 is an improper fraction (numerator 7 > denominator 4), so it is more than one whole and sits past 1. 3/4, 1/4 and 1/2 are proper fractions between 0 and 1.",
+      "source": "book:page56",
+      "id": "q27"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Fractions on a Number Line",
+      "question": "On a number line, the fraction farther to the right is the greater fraction.",
+      "answer": true,
+      "explanation": "True. Numbers grow as you move right, so 5/2 (farther right) is greater than 3/2. The book uses this to compare like fractions.",
+      "source": "book:page71",
+      "id": "q28"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fractions on a Number Line",
+      "question": "Between 0 and 1 on a number line, where does 5/6 sit compared with 2/6 and 4/6?",
+      "options": [
+        "Between 2/6 and 4/6",
+        "To the left of both",
+        "To the right of both",
+        "Exactly on the 1 mark"
+      ],
+      "answer": 2,
+      "explanation": "On a line in sixths, 5/6 is the fifth mark - after 2/6 and after 4/6 - so it lies to the right of both, just one mark before 6/6 = 1.",
+      "source": "book:page53 Q4a",
+      "id": "q29"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fraction of a Set",
+      "question": "A set has 12 cars. How many cars is 1/2 of the set?",
+      "options": [
+        "2 cars",
+        "4 cars",
+        "3 cars",
+        "6 cars"
+      ],
+      "answer": 3,
+      "explanation": "Divide the set into 2 equal parts: 12 ÷ 2 = 6. So 1/2 of 12 cars = 6 cars. (4 would be 1/3 and 3 would be 1/4 of 12.)",
+      "source": "book:page48",
+      "id": "q30"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fraction of a Set",
+      "question": "How many cars is 2/3 of a set of 12 cars?",
+      "options": [
+        "8",
+        "6",
+        "4",
+        "9"
+      ],
+      "answer": 0,
+      "explanation": "First find 1/3 of 12 = 12 ÷ 3 = 4. Then 2/3 is 2 times that: 2 × 4 = 8 cars. (6 is 1/2 of 12 and 9 is 3/4 of 12.)",
+      "source": "book:page48",
+      "id": "q31"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fraction of a Set",
+      "question": "3/4 of 12 cars = 3 times (1/4 of 12). How many cars is that?",
+      "options": [
+        "3",
+        "9",
+        "8",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "1/4 of 12 = 12 ÷ 4 = 3 cars. Then 3/4 = 3 × 3 = 9 cars. 12 would be 4/4 (the whole set).",
+      "source": "book:page48",
+      "id": "q32"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fraction of a Set",
+      "question": "There are 7 colour pencils and 2 of them are red. What fraction of the pencils is NOT red?",
+      "options": [
+        "2/7",
+        "7/5",
+        "5/7",
+        "2/5"
+      ],
+      "answer": 2,
+      "explanation": "The whole set is 7 pencils. Red = 2/7, so not red = 7 - 2 = 5 pencils out of 7 = 5/7. The denominator stays 7 (the whole set).",
+      "source": "book:page49",
+      "id": "q33"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fraction of a Set",
+      "question": "18 roses are shared equally among 3 vases. How many roses are in 2/3 of the whole?",
+      "options": [
+        "6",
+        "9",
+        "16",
+        "12"
+      ],
+      "answer": 3,
+      "explanation": "1/3 of 18 = 18 ÷ 3 = 6 roses (one vase). 2/3 = 2 × 6 = 12 roses (two vases). 3/3 would be all 18.",
+      "source": "book:page49",
+      "id": "q34"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fraction of a Set",
+      "question": "There are 12 flowers. Two thirds are coloured pink and one fourth are coloured orange. What fraction of the flowers remains uncoloured?",
+      "options": [
+        "1/12",
+        "3/12",
+        "4/12",
+        "5/12"
+      ],
+      "answer": 0,
+      "explanation": "2/3 of 12 = 8 pink; 1/4 of 12 = 3 orange. Coloured = 8 + 3 = 11, so 12 - 11 = 1 flower is left: 1/12 of the flowers.",
+      "source": "book:page53 Q7 (set of 12)",
+      "id": "q35"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fraction of a Set",
+      "question": "There are 8 stars. Two fourths are coloured yellow and two eighths blue. What fraction of the stars stays uncoloured?",
+      "options": [
+        "4/8",
+        "2/8",
+        "6/8",
+        "3/8"
+      ],
+      "answer": 1,
+      "explanation": "2/4 of 8 = 4 yellow stars; 2/8 of 8 = 2 blue stars. Coloured = 6, so 8 - 6 = 2 stars remain: 2/8 of the stars.",
+      "source": "worksheet MMJ-1 Q6 (set of 8)",
+      "id": "q36"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Fraction of a Set",
+      "question": "1/4 of 12 is 3, so 3/4 of 12 is 9.",
+      "answer": true,
+      "explanation": "True. Once you know one fourth of 12 is 3, three fourths is three of those: 3 × 3 = 9.",
+      "source": "book:page48",
+      "id": "q37"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Proper, Improper and Mixed Fractions",
+      "question": "Which of these is a PROPER fraction?",
+      "options": [
+        "11/9",
+        "9/9",
+        "9/11",
+        "11/7"
+      ],
+      "answer": 2,
+      "explanation": "A proper fraction has a numerator SMALLER than its denominator: 9 < 11, so 9/11 is proper. 11/9, 9/9 and 11/7 have numerators equal to or bigger than the denominator - they are improper.",
+      "source": "book:page56",
+      "id": "q38"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Proper, Improper and Mixed Fractions",
+      "question": "Improper fractions represent amounts that are:",
+      "options": [
+        "always less than a whole",
+        "always exactly one whole",
+        "always less than a half",
+        "equal to or more than a whole"
+      ],
+      "answer": 3,
+      "explanation": "Improper fractions have numerator greater than OR equal to the denominator, e.g. 7/4, 5/2, 9/9. So they are equal to or more than a whole.",
+      "source": "book:page56",
+      "id": "q39"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Proper, Improper and Mixed Fractions",
+      "question": "A fraction whose numerator equals its denominator, such as 7/7, is a proper fraction.",
+      "answer": false,
+      "explanation": "False. Proper fractions need the numerator to be LESS than the denominator. When they are equal (7/7 = 1 whole) the fraction is improper.",
+      "source": "book:page56",
+      "id": "q40"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Proper, Improper and Mixed Fractions",
+      "question": "In a mixed fraction such as 2 1/2, the fractional part must be:",
+      "options": [
+        "less than one",
+        "more than one",
+        "equal to one",
+        "a unit fraction"
+      ],
+      "answer": 0,
+      "explanation": "A mixed fraction is a whole part plus a fractional part that is LESS than one (a proper fraction). It need not be a unit fraction - 1 3/4 is a mixed fraction too.",
+      "source": "book:page56",
+      "id": "q41"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Proper, Improper and Mixed Fractions",
+      "question": "6 times 1/2 of a pancake equals how many whole pancakes?",
+      "options": [
+        "6",
+        "3",
+        "2",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "6 times 1/2 = 6/2. Two halves make one pancake, so 6 halves make 6 ÷ 2 = 3 whole pancakes.",
+      "source": "book:page55",
+      "id": "q42"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Proper, Improper and Mixed Fractions",
+      "question": "7 times 1/4 = 7/4. Written as a mixed fraction, this is:",
+      "options": [
+        "1 1/4",
+        "2 1/4",
+        "1 3/4",
+        "3 1/4"
+      ],
+      "answer": 2,
+      "explanation": "Four quarters make 1 whole; 7 quarters = 4 quarters + 3 quarters = 1 whole and 3/4, i.e. 1 3/4.",
+      "source": "book:page55",
+      "id": "q43"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Proper, Improper and Mixed Fractions",
+      "question": "Which group contains ONLY proper fractions?",
+      "options": [
+        "4/7, 9/6, 5/11, 5/8",
+        "1/5, 10/7, 5/8, 1/9",
+        "9/6, 10/7, 9/2, 1/9",
+        "4/7, 1/5, 5/11, 5/8"
+      ],
+      "answer": 3,
+      "explanation": "In 4/7, 1/5, 5/11 and 5/8 every numerator is smaller than its denominator. The other groups each contain an improper fraction (9/6, 10/7 or 9/2).",
+      "source": "book:page58 Q2",
+      "id": "q44"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Proper, Improper and Mixed Fractions",
+      "question": "From the list 4/7, 1/5, 5/11, 9/6, 5/8, 10/7, 9/2, 1/9 - select ALL the improper fractions shown here.",
+      "options": [
+        "9/6",
+        "10/7",
+        "4/7",
+        "5/8"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "9/6 and 10/7 have numerators bigger than their denominators, so they are improper. 4/7 and 5/8 are proper.",
+      "source": "book:page58 Q2",
+      "id": "q45"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Proper, Improper and Mixed Fractions",
+      "question": "Which fraction is the odd one out in 3/5, 14/5, 11/5, 9/5 - and why?",
+      "options": [
+        "3/5 - the only proper fraction",
+        "14/5 - the only one above 2",
+        "9/5 - the only one below 2",
+        "11/5 - the only unlike fraction"
+      ],
+      "answer": 0,
+      "explanation": "14/5, 11/5 and 9/5 all have numerators bigger than 5, so they are improper. Only 3/5 is proper. (11/5 is also above 2, and 3/5 is also below 2, so those reasons are wrong; all four are like fractions.)",
+      "source": "book:page62 Q7a",
+      "id": "q46"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Like, Unlike and Unit Fractions",
+      "question": "Fractions that have the SAME denominator are called:",
+      "options": [
+        "unit fractions",
+        "like fractions",
+        "unlike fractions",
+        "mixed fractions"
+      ],
+      "answer": 1,
+      "explanation": "Like fractions share one denominator, e.g. 3/14, 6/14, 15/14. Different denominators make unlike fractions; unit fractions have numerator 1.",
+      "source": "book:page57",
+      "id": "q47"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Like, Unlike and Unit Fractions",
+      "question": "Which pair shows UNLIKE fractions?",
+      "options": [
+        "3/14 and 6/14",
+        "15/14 and 23/14",
+        "5/14 and 2/8",
+        "1/14 and 9/14"
+      ],
+      "answer": 2,
+      "explanation": "5/14 and 2/8 have different denominators (14 and 8), so they are unlike. The other pairs both have denominator 14 - like fractions.",
+      "source": "book:page57",
+      "id": "q48"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Like, Unlike and Unit Fractions",
+      "question": "The book describes 3/5 and 2/5 as:",
+      "options": [
+        "proper and unlike",
+        "improper and like",
+        "improper and unlike",
+        "proper and like"
+      ],
+      "answer": 3,
+      "explanation": "Both numerators are smaller than 5 (proper) and both denominators are 5 (like). A fraction can be classified both ways at the same time.",
+      "source": "book:page57",
+      "id": "q49"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Like, Unlike and Unit Fractions",
+      "question": "Unit fractions are always proper fractions.",
+      "answer": true,
+      "explanation": "True. A unit fraction has numerator 1 and denominator greater than 1, so the numerator is always smaller - that is exactly what proper means.",
+      "source": "book:page57",
+      "id": "q50"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Like, Unlike and Unit Fractions",
+      "question": "A unit fraction can never be a like fraction with any other fraction.",
+      "answer": false,
+      "explanation": "False. 1/5 is a unit fraction AND a like fraction with 2/5 (same denominator). It is unlike with 2/7. Unit fractions can be like or unlike with others.",
+      "source": "book:page57",
+      "id": "q51"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Like, Unlike and Unit Fractions",
+      "question": "Which fraction is the odd one out in 2/21, 5/21, 21/21, 7/21 - and why?",
+      "options": [
+        "21/21 - the only one equal to a whole",
+        "2/21 - the only unit fraction",
+        "5/21 - the only unlike fraction",
+        "7/21 - the only improper fraction"
+      ],
+      "answer": 0,
+      "explanation": "21/21 has numerator equal to denominator, so it is improper and equals 1 whole; the others are proper. All four share denominator 21, so none is 'unlike', and 2/21 is not a unit fraction.",
+      "source": "book:page58 Q3b",
+      "id": "q52"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Like, Unlike and Unit Fractions",
+      "question": "Statement (I): Fractions having the same denominator are proper fractions. Statement (II): A fraction having one as the denominator is a unit fraction. Select the correct option.",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 1,
+      "explanation": "Same denominator makes fractions LIKE, not proper (15/14 and 3/14 are like but 15/14 is improper). A unit fraction has 1 as its NUMERATOR, not denominator. Both statements are false.",
+      "source": "worksheet MMJ-2 Q9",
+      "id": "q53"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Like, Unlike and Unit Fractions",
+      "question": "Which description of 1/5 matches the book?",
+      "options": [
+        "Unit fraction, unlike with 2/5, like with 2/7",
+        "Unit fraction, like with 2/5, unlike with 2/7",
+        "Improper fraction, like with 2/5 and 2/7",
+        "Proper fraction, unlike with 2/5 and 2/7"
+      ],
+      "answer": 1,
+      "explanation": "1/5 has numerator 1 so it is a unit fraction. It shares denominator 5 with 2/5 (like) but not with 2/7 (unlike).",
+      "source": "book:page57",
+      "id": "q54"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Converting Improper to Mixed Fractions",
+      "question": "A shaded picture shows seven one-thirds. Written as an improper fraction and then as a mixed fraction, 7/3 equals:",
+      "options": [
+        "1 2/3",
+        "3 1/3",
+        "2 1/3",
+        "2 2/3"
+      ],
+      "answer": 2,
+      "explanation": "3 one-thirds make 1 whole, 6 one-thirds make 2 wholes, and 1 one-third is left over. So 7/3 = 2 1/3. Check: 7 ÷ 3 = 2 remainder 1.",
+      "source": "book:page58-59",
+      "id": "q55"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Converting Improper to Mixed Fractions",
+      "question": "Convert 13/4 to a mixed fraction.",
+      "options": [
+        "3 3/4",
+        "4 1/3",
+        "2 1/4",
+        "3 1/4"
+      ],
+      "answer": 3,
+      "explanation": "Divide 13 by 4: quotient 3, remainder 1 (3 × 4 = 12). The quotient is the whole part, the remainder is the new numerator, and the denominator stays 4: 3 1/4.",
+      "source": "book:page60",
+      "id": "q56"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Converting Improper to Mixed Fractions",
+      "question": "Convert 19/5 to a mixed fraction.",
+      "options": [
+        "3 4/5",
+        "4 3/5",
+        "3 1/5",
+        "2 4/5"
+      ],
+      "answer": 0,
+      "explanation": "19 ÷ 5 = 3 remainder 4 (3 × 5 = 15, 19 - 15 = 4). So 19/5 = 3 4/5.",
+      "source": "book:page60 Q1b",
+      "id": "q57"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Converting Improper to Mixed Fractions",
+      "question": "Convert 44/7 to a mixed fraction.",
+      "options": [
+        "6 3/7",
+        "6 2/7",
+        "5 2/7",
+        "7 2/7"
+      ],
+      "answer": 1,
+      "explanation": "44 ÷ 7 = 6 remainder 2 (6 × 7 = 42, 44 - 42 = 2). So 44/7 = 6 2/7.",
+      "source": "worksheet WAP-4 Q1b",
+      "id": "q58"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Converting Improper to Mixed Fractions",
+      "question": "Convert 125/13 to a mixed fraction.",
+      "options": [
+        "9 5/13",
+        "8 9/13",
+        "9 8/13",
+        "10 8/13"
+      ],
+      "answer": 2,
+      "explanation": "13 × 9 = 117 and 13 × 10 = 130 is too big, so the quotient is 9. Remainder = 125 - 117 = 8. So 125/13 = 9 8/13.",
+      "source": "worksheet WAP-4 Q1e",
+      "id": "q59"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Converting Improper to Mixed Fractions",
+      "question": "When converting an improper fraction to a mixed fraction, the REMAINDER of the division becomes the:",
+      "options": [
+        "whole number part",
+        "denominator of the fractional part",
+        "divisor for the next step",
+        "numerator of the fractional part"
+      ],
+      "answer": 3,
+      "explanation": "Steps: divide numerator by denominator; the QUOTIENT is the whole number part; the REMAINDER becomes the numerator; the denominator stays the same (Q R/D).",
+      "source": "book:page59",
+      "id": "q60"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Converting Improper to Mixed Fractions",
+      "question": "Convert 232/19 to a mixed fraction.",
+      "options": [
+        "12 4/19",
+        "12 5/19",
+        "11 4/19",
+        "13 4/19"
+      ],
+      "answer": 0,
+      "explanation": "19 × 12 = 228 and 19 × 13 = 247 is too big, so the quotient is 12. Remainder = 232 - 228 = 4. So 232/19 = 12 4/19.",
+      "source": "book:page62 Q8b",
+      "id": "q61"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Converting Improper to Mixed Fractions",
+      "question": "19/9 written as a mixed fraction is 2 2/9.",
+      "answer": false,
+      "explanation": "False. 19 ÷ 9 = 2 remainder 1 (2 × 9 = 18, 19 - 18 = 1), so 19/9 = 2 1/9, not 2 2/9.",
+      "source": "worksheet MMJ-2 Q2b",
+      "id": "q62"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Converting Mixed to Improper Fractions",
+      "question": "Convert 2 3/4 to an improper fraction.",
+      "options": [
+        "9/4",
+        "11/4",
+        "14/4",
+        "10/4"
+      ],
+      "answer": 1,
+      "explanation": "Multiply the whole by the denominator and add the numerator: 2 × 4 + 3 = 11. Keep denominator 4: 11/4. (9/4 forgets to add properly; 14/4 wrongly multiplies 2 × 7.)",
+      "source": "book:page60",
+      "id": "q63"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Converting Mixed to Improper Fractions",
+      "question": "Convert 3 5/9 to an improper fraction.",
+      "options": [
+        "27/9",
+        "17/9",
+        "32/9",
+        "35/9"
+      ],
+      "answer": 2,
+      "explanation": "3 × 9 = 27; 27 + 5 = 32. So 3 5/9 = 32/9. 27/9 skips adding the 5 and 17/9 wrongly uses 3 + 5 + 9.",
+      "source": "book:page60 Q2b",
+      "id": "q64"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Converting Mixed to Improper Fractions",
+      "question": "Convert 19 5/7 to an improper fraction.",
+      "options": [
+        "133/7",
+        "95/7",
+        "24/7",
+        "138/7"
+      ],
+      "answer": 3,
+      "explanation": "19 × 7 = 133; 133 + 5 = 138. So 19 5/7 = 138/7. 133/7 forgets the 5; 95/7 wrongly multiplies 19 × 5.",
+      "source": "book:page62 Q9b",
+      "id": "q65"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Converting Mixed to Improper Fractions",
+      "question": "When converting a mixed fraction to an improper fraction, which step comes FIRST?",
+      "options": [
+        "Multiply the whole number by the denominator",
+        "Add the numerator to the whole number first",
+        "Divide the numerator by the denominator first",
+        "Add the two denominators together first"
+      ],
+      "answer": 0,
+      "explanation": "Step 1: multiply the whole number part by the denominator. Step 2: add the numerator to get the new numerator. Step 3: keep the denominator the same.",
+      "source": "book:page59",
+      "id": "q66"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Converting Mixed to Improper Fractions",
+      "question": "Statement (I): The fraction 4/2 represents 2 whole units. Statement (II): When 4/2 is converted to a mixed fraction, the remainder is zero, which means there is no fractional part. Select the correct option.",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 0,
+      "explanation": "4 ÷ 2 = 2 with remainder 0, so 4/2 is exactly 2 wholes and has no fractional part. Both statements are true.",
+      "source": "book:page62 Q10",
+      "id": "q67"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Converting Mixed to Improper Fractions",
+      "question": "A student writes 2 1/3 = (2 + 1)/3 = 3/3. What is the CORRECT improper fraction for 2 1/3?",
+      "options": [
+        "3/3",
+        "7/3",
+        "6/3",
+        "2/3"
+      ],
+      "answer": 1,
+      "explanation": "You must MULTIPLY the whole by the denominator first: 2 × 3 = 6, then add 1 to get 7. So 2 1/3 = 7/3, which is seven one-thirds - clearly more than 3/3 = 1.",
+      "source": "book:page59",
+      "id": "q68"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Equivalent Fractions",
+      "question": "Fractions that represent the same portion of the whole are called:",
+      "options": [
+        "like fractions (same bottom)",
+        "improper fractions (top ≥ bottom)",
+        "equivalent fractions",
+        "unit fractions (one on top)"
+      ],
+      "answer": 2,
+      "explanation": "'Equivalent' means 'the same' or 'of equal value'. 1/2, 2/4 and 4/8 all cover the same part of a whole, so they are equivalent fractions.",
+      "source": "book:page63",
+      "id": "q69"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Equivalent Fractions",
+      "question": "You fold a strip in half and colour one half (1/2). Then you fold each half in half again. What fraction of the strip is coloured now?",
+      "options": [
+        "1/4",
+        "2/2",
+        "1/3",
+        "2/4"
+      ],
+      "answer": 3,
+      "explanation": "The coloured half now shows as 2 of the 4 equal parts, so the fraction is 2/4 - the SAME portion as 1/2. Folding again would show it as 4/8.",
+      "source": "book:page63",
+      "id": "q70"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Equivalent Fractions",
+      "question": "To make an equivalent fraction, you multiply (or divide) the numerator and the denominator by:",
+      "options": [
+        "the same non-zero number",
+        "any two different numbers",
+        "the same number, even zero",
+        "the denominator only"
+      ],
+      "answer": 0,
+      "explanation": "Both numerator and denominator must be multiplied or divided by the SAME non-zero number, e.g. 2/5 = (2 × 3)/(5 × 3) = 6/15. Zero is not allowed.",
+      "source": "book:page66",
+      "id": "q71"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Equivalent Fractions",
+      "question": "Fill in the blank: 6/30 = ?/15",
+      "options": [
+        "2",
+        "3",
+        "12",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "30 ÷ 2 = 15, so divide the numerator by 2 as well: 6 ÷ 2 = 3. 6/30 = 3/15.",
+      "source": "book:page67 Q3c",
+      "id": "q72"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Equivalent Fractions",
+      "question": "Fill in the blank: 16/36 = 4/?",
+      "options": [
+        "16",
+        "12",
+        "9",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "16 ÷ 4 = 4, so 36 ÷ 4 = 9. 16/36 = 4/9.",
+      "source": "book:page67 Q3h",
+      "id": "q73"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Equivalent Fractions",
+      "question": "Write the equivalent fraction of 48/36 with numerator 12.",
+      "options": [
+        "12/12",
+        "12/27",
+        "12/36",
+        "12/9"
+      ],
+      "answer": 3,
+      "explanation": "48 ÷ 4 = 12, so divide 36 by 4 too: 36 ÷ 4 = 9. 48/36 = 12/9 (an improper fraction stays improper).",
+      "source": "book:page69 Q5c",
+      "id": "q74"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Equivalent Fractions",
+      "question": "A pizza is cut into 8 equal pieces and 2 are eaten (2/8). Which set shows three equivalent fractions for the eaten part?",
+      "options": [
+        "1/4, 4/16, 8/32",
+        "1/4, 2/16, 4/32",
+        "2/4, 4/16, 8/32",
+        "1/8, 2/16, 4/32"
+      ],
+      "answer": 0,
+      "explanation": "2/8 ÷ 2 = 1/4; 2/8 × 2 = 4/16; 2/8 × 4 = 8/32. The other sets break the 'same number on top and bottom' rule (e.g. 2/16 is half of 2/8).",
+      "source": "book:page70 Q7",
+      "id": "q75"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Equivalent Fractions",
+      "question": "Statement (I): The fractions 2/4 and 3/6 are equivalent. Statement (II): For fractions to be equivalent, the numerator and denominator must be multiples or factors of each other. Select the correct option.",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 2,
+      "explanation": "2/4 and 3/6 both equal 1/2, so (I) is true. (II) is false - 2/6 and 3/9 are equivalent even though 2 is not a factor of 3; what matters is that both are the same portion of the whole.",
+      "source": "book:page70 Q6",
+      "id": "q76"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Equivalent Fractions",
+      "question": "Statement (I): The fractions 6/15 and 3/5 are equivalent. Statement (II): Equivalent fractions represent equal parts of a whole. Select the correct option.",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 3,
+      "explanation": "3/5 × 3 = 9/15, not 6/15 (and 6/15 ÷ 3 = 2/5). So (I) is false. (II) is the very definition of equivalent fractions, so it is true.",
+      "source": "worksheet MMJ-3 Q5",
+      "id": "q77"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Equivalent Fractions",
+      "question": "2/6 and 3/9 are equivalent fractions even though 2 is not a factor of 3.",
+      "answer": true,
+      "explanation": "True. 2/6 ÷ 2 = 1/3 and 3/9 ÷ 3 = 1/3, so both are the same portion. The book uses exactly this pair to show numerators need not be multiples of each other.",
+      "source": "book:page66",
+      "id": "q78"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Equivalent Fractions",
+      "question": "Select ALL the fractions equivalent to 1/3.",
+      "options": [
+        "3/9",
+        "2/6",
+        "2/3",
+        "3/6"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "1/3 × 3 = 3/9 and 1/3 × 2 = 2/6. 2/3 is twice as big and 3/6 equals 1/2. The book's flower picture (one third red, two sixths pink, three ninths blue) shows these are the same share.",
+      "source": "book:page69 Q3",
+      "id": "q79"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Comparing and Ordering Like Fractions",
+      "question": "To compare LIKE fractions, which numbers do we compare?",
+      "options": [
+        "the denominators",
+        "the numerators",
+        "the whole parts",
+        "the digits count"
+      ],
+      "answer": 1,
+      "explanation": "Like fractions already share the denominator, so the one with the greater numerator is greater: 3/4 > 1/4 because 3 > 1.",
+      "source": "book:page71",
+      "id": "q80"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Comparing and Ordering Like Fractions",
+      "question": "Which is greater, 3/4 or 1/4 - and why?",
+      "options": [
+        "1/4, because 1 < 3 with the same denominator",
+        "3/4, because its denominator 4 is bigger",
+        "3/4, because 3 > 1 with the same denominator",
+        "They are equal, because the denominators match"
+      ],
+      "answer": 2,
+      "explanation": "Same denominator (4) means the pieces are the same size, so more pieces (3) is more: 3/4 > 1/4. Equal denominators do NOT make fractions equal.",
+      "source": "book:page71",
+      "id": "q81"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Comparing and Ordering Like Fractions",
+      "question": "Arrange 9/12, 2/12 and 5/12 in ascending order.",
+      "options": [
+        "9/12, 5/12, 2/12",
+        "2/12, 9/12, 5/12",
+        "5/12, 2/12, 9/12",
+        "2/12, 5/12, 9/12"
+      ],
+      "answer": 3,
+      "explanation": "Same denominator, so order by numerators: 2 < 5 < 9. Ascending means smallest first: 2/12, 5/12, 9/12.",
+      "source": "book:page71",
+      "id": "q82"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Comparing and Ordering Like Fractions",
+      "question": "Arrange 7/18, 12/18 and 9/18 in ascending order.",
+      "options": [
+        "7/18, 9/18, 12/18",
+        "12/18, 9/18, 7/18",
+        "7/18, 12/18, 9/18",
+        "9/18, 7/18, 12/18"
+      ],
+      "answer": 0,
+      "explanation": "Compare numerators: 7 < 9 < 12. So ascending order is 7/18, 9/18, 12/18.",
+      "source": "worksheet WAP-6 Q2b",
+      "id": "q83"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Comparing and Ordering Like Fractions",
+      "question": "Arrange 48/84, 44/84 and 49/84 in DESCENDING order.",
+      "options": [
+        "44/84, 48/84, 49/84",
+        "49/84, 48/84, 44/84",
+        "48/84, 49/84, 44/84",
+        "49/84, 44/84, 48/84"
+      ],
+      "answer": 1,
+      "explanation": "Descending means biggest first. Numerators: 49 > 48 > 44, so 49/84, 48/84, 44/84.",
+      "source": "worksheet WAP-6 Q3d",
+      "id": "q84"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Comparing and Ordering Like Fractions",
+      "question": "Neha uses 4/5 cup of butter and Nikhil uses 6/5 cup. Who uses more?",
+      "options": [
+        "Neha, because 4 is smaller",
+        "Neha, because 4/5 is proper",
+        "Nikhil, because 6 > 4",
+        "Both, because the fifths match"
+      ],
+      "answer": 2,
+      "explanation": "Both amounts are in fifths, so compare numerators: 6 > 4, Nikhil uses more. In fact 6/5 is more than one whole cup.",
+      "source": "worksheet MMJ-4 Q3",
+      "id": "q85"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Comparing and Ordering Like Fractions",
+      "question": "Shivam ran 3/4 km and Shobhit ran 2/4 km. Who ran farther, and by how much?",
+      "options": [
+        "Shobhit, by 1/4 km",
+        "Shivam, by 1/2 km",
+        "Shobhit, by 5/4 km",
+        "Shivam, by 1/4 km"
+      ],
+      "answer": 3,
+      "explanation": "3/4 > 2/4 because 3 > 2, so Shivam ran farther. Difference = 3/4 - 2/4 = 1/4 km.",
+      "source": "worksheet MMJ-4 Q5",
+      "id": "q86"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Comparing and Ordering Like Fractions",
+      "question": "Statement (I): 2/11 < 9/11 because in like fractions the same whole is divided into as many parts as the NUMERATOR. Statement (II): 2/11 < 9/11 because in like fractions the same whole is divided into as many parts as the DENOMINATOR. Select the correct option.",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 3,
+      "explanation": "The denominator (11) tells how many equal parts the whole has; the numerator counts parts taken. Since the pieces are equal, 2 pieces < 9 pieces. (I) gives the wrong reason; (II) is correct.",
+      "source": "worksheet MMJ-4 Q6",
+      "id": "q87"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Comparing and Ordering Like Fractions",
+      "question": "Imagine 1/2, 1/3 and 1/6 of the SAME chocolate bar. Which is the biggest share?",
+      "options": [
+        "1/2",
+        "1/3",
+        "1/6",
+        "All equal"
+      ],
+      "answer": 0,
+      "explanation": "Cutting the bar into fewer pieces gives bigger pieces. Halves (2 pieces) are bigger than thirds (3 pieces), which are bigger than sixths (6 pieces). So 1/2 is the biggest share.",
+      "source": "book:page71",
+      "id": "q88"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Comparing and Ordering Like Fractions",
+      "question": "For unit fractions, the one with the BIGGER denominator is the greater fraction.",
+      "answer": false,
+      "explanation": "False. A bigger denominator means the whole is cut into MORE pieces, so each piece is SMALLER: 1/6 < 1/3 < 1/2.",
+      "source": "book:page71",
+      "id": "q89"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adding and Subtracting Like Fractions",
+      "question": "1/6 + 3/6 = ?",
+      "options": [
+        "4/12",
+        "4/6",
+        "3/6",
+        "4/36"
+      ],
+      "answer": 1,
+      "explanation": "Add the numerators: 1 + 3 = 4. The denominator stays 6: 4/6. Never add the denominators (that gives the wrong 4/12).",
+      "source": "book:page75",
+      "id": "q90"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adding and Subtracting Like Fractions",
+      "question": "When adding like fractions, what happens to the denominator of the sum?",
+      "options": [
+        "It is doubled each time",
+        "It is added to the sum",
+        "It stays the same",
+        "It becomes 1 whole"
+      ],
+      "answer": 2,
+      "explanation": "Only the numerators are added. The denominator of the sum remains the same as the denominator of the fractions being added.",
+      "source": "book:page74",
+      "id": "q91"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adding and Subtracting Like Fractions",
+      "question": "3/13 + 1/13 + 9/13 = ?",
+      "options": [
+        "13/39, one third",
+        "12/13, nearly one",
+        "13/26, one half",
+        "13/13, one whole"
+      ],
+      "answer": 3,
+      "explanation": "3 + 1 + 9 = 13, so the sum is 13/13 - which is exactly 1 whole. The denominator stays 13 throughout.",
+      "source": "book:page75 Q1c",
+      "id": "q92"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adding and Subtracting Like Fractions",
+      "question": "59/65 - 23/65 = ?",
+      "options": [
+        "36/65",
+        "36/130",
+        "82/65",
+        "35/65"
+      ],
+      "answer": 0,
+      "explanation": "Subtract numerators: 59 - 23 = 36. Keep the denominator: 36/65. 82/65 adds instead of subtracting.",
+      "source": "book:page77 Q2c",
+      "id": "q93"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adding and Subtracting Like Fractions",
+      "question": "6/19 + 21/19 + 9/19 = ?",
+      "options": [
+        "36/57",
+        "36/19",
+        "35/19",
+        "26/19"
+      ],
+      "answer": 1,
+      "explanation": "6 + 21 + 9 = 36; denominator stays 19: 36/19. This is an improper fraction (1 17/19) - a sum of fractions can exceed 1.",
+      "source": "worksheet MMJ-5 Q1c",
+      "id": "q94"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adding and Subtracting Like Fractions",
+      "question": "To add 2/3 + 1/3 on a picture of 9 triangles, you shade 6 triangles for 2/3 and 3 more for 1/3. The sum is:",
+      "options": [
+        "3/6, one half",
+        "3/9, one third",
+        "3/3, one whole",
+        "2/9, two ninths"
+      ],
+      "answer": 2,
+      "explanation": "2/3 + 1/3 = 3/3 = 1 whole - all 9 triangles end up shaded. (6 of 9 triangles = 2/3 and 3 of 9 = 1/3, as the answer key notes.)",
+      "source": "worksheet WAP-7 Q4 + answer key",
+      "id": "q95"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Adding and Subtracting Like Fractions",
+      "question": "8/11 - 3/11 = 5/0, because the denominators cancel each other out.",
+      "answer": false,
+      "explanation": "False. Denominators never cancel - they stay the same. 8/11 - 3/11 = (8 - 3)/11 = 5/11.",
+      "source": "book:page76",
+      "id": "q96"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adding and Subtracting Like Fractions",
+      "question": "A student writes 3/8 + 2/8 = 5/16. What is the CORRECT sum?",
+      "options": [
+        "5/16",
+        "6/8",
+        "1/8",
+        "5/8"
+      ],
+      "answer": 3,
+      "explanation": "Add only the numerators (3 + 2 = 5) and keep the denominator 8: 5/8. Adding the denominators (8 + 8 = 16) is the classic mistake.",
+      "source": "book:page75 Q1b",
+      "id": "q97"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Adding and Subtracting Like Fractions",
+      "question": "To subtract like fractions, subtract the numerators and keep the denominator the same.",
+      "answer": true,
+      "explanation": "True. For example 9/16 - 2/16 = (9 - 2)/16 = 7/16. The denominator of the difference stays 16.",
+      "source": "book:page76",
+      "id": "q98"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fraction Word Problems",
+      "question": "Joy drove 6/8 of the distance and Jaya drove 2/8. Who drove more, and by how much?",
+      "options": [
+        "Joy, by 4/8",
+        "Jaya, by 4/8",
+        "Joy, by 8/8",
+        "Joy, by 3/8"
+      ],
+      "answer": 0,
+      "explanation": "6/8 > 2/8 because 6 > 2, so Joy drove more. Difference: 6/8 - 2/8 = 4/8 of the distance.",
+      "source": "worksheet WAP-9 Q3",
+      "id": "q99"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fraction Word Problems",
+      "question": "Ajit jogged for 3/4 hour on Sunday and 1/4 hour on Monday. For how long did he jog in total?",
+      "options": [
+        "half an hour",
+        "1 whole hour",
+        "3/4 of an hour",
+        "2/4 of an hour"
+      ],
+      "answer": 1,
+      "explanation": "3/4 + 1/4 = 4/4 = 1 whole hour. (2/4 hour is how much MORE he jogged on Sunday than Monday.)",
+      "source": "worksheet WAP-9 Q4a",
+      "id": "q100"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fraction Word Problems",
+      "question": "Riya uses 7/18 of her pocket money for a story book and 5/18 for paints. What fraction is LEFT with her?",
+      "options": [
+        "12/18",
+        "2/18",
+        "6/18",
+        "16/18"
+      ],
+      "answer": 2,
+      "explanation": "Spent: 7/18 + 5/18 = 12/18. Write the whole as 18/18. Left: 18/18 - 12/18 = 6/18.",
+      "source": "worksheet WAP-9 Q5b",
+      "id": "q101"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fraction Word Problems",
+      "question": "Anita ate 2/7 of a cake and her brother Rohit ate 4/7 of the same cake. How much was eaten and how much is left?",
+      "options": [
+        "6/7 eaten, 2/7 left",
+        "2/7 eaten, 5/7 left",
+        "6/14 eaten, 8/14 left",
+        "6/7 eaten, 1/7 left"
+      ],
+      "answer": 3,
+      "explanation": "Eaten: 2/7 + 4/7 = 6/7. Whole cake = 7/7, so left = 7/7 - 6/7 = 1/7. Denominators are never added.",
+      "source": "worksheet MMJ-5 Q6",
+      "id": "q102"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Fraction Word Problems",
+      "question": "Sneha uses 5/7 cup of flour for one cake. How much flour does she need for 3 cakes?",
+      "options": [
+        "15/7 cups, that is 2 1/7 cups",
+        "15/21 cups, less than a cup",
+        "8/7 cups, that is 1 1/7 cups",
+        "15/7 cups, that is 3 1/7 cups"
+      ],
+      "answer": 0,
+      "explanation": "5/7 + 5/7 + 5/7 = 15/7 cups. Convert: 15 ÷ 7 = 2 remainder 1, so 15/7 = 2 1/7 cups.",
+      "source": "worksheet WAP-9 Q2",
+      "id": "q103"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Fraction Word Problems",
+      "question": "A farmer planted 6/16 of his field with maize and 4/16 with jowar. What fraction of the field is UNPLANTED?",
+      "options": [
+        "10/16",
+        "6/16",
+        "2/16",
+        "4/16"
+      ],
+      "answer": 1,
+      "explanation": "Planted: 6/16 + 4/16 = 10/16. Whole field = 16/16. Unplanted = 16/16 - 10/16 = 6/16. (2/16 is how much more maize than jowar.)",
+      "source": "book:page80 Q5b",
+      "id": "q104"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Fraction Word Problems",
+      "question": "Body composition: muscle 5/20, fat 2/20, bone 1/20 - the rest is water. What fraction of the body is water?",
+      "options": [
+        "8/20",
+        "13/20",
+        "12/20",
+        "7/20"
+      ],
+      "answer": 2,
+      "explanation": "Fat + bone + muscle = 5/20 + 2/20 + 1/20 = 8/20. The whole body is 20/20, so water = 20/20 - 8/20 = 12/20.",
+      "source": "book:page78",
+      "id": "q105"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fraction Word Problems",
+      "question": "A canteen sends 4/15 of its previously wasted food to an NGO and saves another 7/15 through awareness campaigns. What fraction is STILL wasted?",
+      "options": [
+        "11/15",
+        "3/15",
+        "5/15",
+        "4/15"
+      ],
+      "answer": 3,
+      "explanation": "No longer wasted: 4/15 + 7/15 = 11/15. Still wasted = 15/15 - 11/15 = 4/15.",
+      "source": "book:page83 Q5",
+      "id": "q106"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Fraction Word Problems",
+      "question": "To find 'what is left' from a whole when the parts are in twentieths, first write the whole as 20/20.",
+      "answer": true,
+      "explanation": "True. The book does exactly this for body composition: whole = 20/20, so water = 20/20 - 8/20 = 12/20. Writing 1 as n/n makes it a like fraction you can subtract from.",
+      "source": "book:page78",
+      "id": "q107"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractions Around Us and in History",
+      "question": "The Earth's surface is about 7/10 water and 3/10 land. Which statement is correct?",
+      "options": [
+        "Water covers 7/10 of the Earth",
+        "Land covers 7/10 of the Earth",
+        "Water covers 3/10 of the Earth",
+        "Land and water are 5/10 each"
+      ],
+      "answer": 0,
+      "explanation": "The chart in the book shows Water 7/10 and Land 3/10. Together 7/10 + 3/10 = 10/10 = the whole surface.",
+      "source": "book:page46",
+      "id": "q108"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractions Around Us and in History",
+      "question": "Of all the water on Earth, 97/100 is ocean water. What fraction is fresh water (rivers, lakes, soil, ice caps, atmosphere)?",
+      "options": [
+        "97/100",
+        "3/100",
+        "3/10",
+        "7/100"
+      ],
+      "answer": 1,
+      "explanation": "Whole = 100/100. Fresh water = 100/100 - 97/100 = 3/100. Keep hundredths - 3/10 would be ten times too much.",
+      "source": "book:page46",
+      "id": "q109"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fractions Around Us and in History",
+      "question": "Land use chart: Deserts 19/100, Mountains 15/100, Grasslands 26/100, Forests 31/100, Urban & Rural 9/100. Which has the largest share?",
+      "options": [
+        "Grasslands",
+        "Deserts",
+        "Forests",
+        "Mountains"
+      ],
+      "answer": 2,
+      "explanation": "All are hundredths (like fractions), so compare numerators: 31 is the greatest, so Forests (31/100) have the largest share. Check: 19 + 15 + 26 + 31 + 9 = 100.",
+      "source": "book:page46",
+      "id": "q110"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fractions Around Us and in History",
+      "question": "According to the book, the earliest recorded use of fractions comes from:",
+      "options": [
+        "Ancient Rome, around 2000 BCE",
+        "Ancient Greece, around 500 BCE",
+        "Ancient China, around 1000 BCE",
+        "Ancient Egypt, around 2000 BCE"
+      ],
+      "answer": 3,
+      "explanation": "The book's history box says the earliest recorded use of fractions comes from Ancient Egypt, 2000 BCE, where fractions divided food, land and wages fairly.",
+      "source": "book:page80",
+      "id": "q111"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fractions Around Us and in History",
+      "question": "How did the ancient Egyptians write every fraction?",
+      "options": [
+        "As a sum of unit fractions",
+        "As a single mixed fraction",
+        "As a decimal number only",
+        "As a product of fractions"
+      ],
+      "answer": 0,
+      "explanation": "Egyptians used only unit fractions, so every fraction was expressed as a sum of unit fractions (like 3/5 = 1/5 + 1/5 + 1/5), with special symbols for 1/2, 1/3, 1/4 and 1/10.",
+      "source": "book:page80",
+      "id": "q112"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Revision: Factors and Multiples",
+      "question": "Which of these lists ALL the prime numbers less than 25?",
+      "options": [
+        "1, 2, 3, 5, 7, 11, 13, 17, 19",
+        "2, 3, 5, 7, 11, 13, 17, 19, 23",
+        "2, 3, 5, 7, 9, 11, 13, 17, 19",
+        "2, 3, 5, 7, 11, 13, 17, 19, 21"
+      ],
+      "answer": 1,
+      "explanation": "Primes have exactly two factors. 1 is not prime, 9 = 3 × 3 and 21 = 3 × 7 are composite. The primes below 25 are 2, 3, 5, 7, 11, 13, 17, 19, 23.",
+      "source": "worksheet MMJ-2 Q11",
+      "id": "q113"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Revision: Factors and Multiples",
+      "question": "What is the sum of the 5th multiple of 10 and the 4th multiple of 7?",
+      "options": [
+        "68",
+        "85",
+        "78",
+        "57"
+      ],
+      "answer": 2,
+      "explanation": "5th multiple of 10 = 50; 4th multiple of 7 = 28. Sum = 50 + 28 = 78.",
+      "source": "worksheet MMJ-5 Q10a",
+      "id": "q114"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Revision: Factors and Multiples",
+      "question": "What is the difference between the smallest 3-digit number and the largest factor of 9?",
+      "options": [
+        "97",
+        "99",
+        "89",
+        "91"
+      ],
+      "answer": 3,
+      "explanation": "Smallest 3-digit number = 100; the largest factor of 9 is 9 itself. 100 - 9 = 91.",
+      "source": "worksheet MMJ-5 Q10b",
+      "id": "q115"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Revision: Factors and Multiples",
+      "question": "Rahul has 18 marbles and wants packets with an equal number in each. Select ALL the packets he can make.",
+      "options": [
+        "6 packets of 3",
+        "3 packets of 6",
+        "2 packets of 10",
+        "8 packets of 4"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "6 × 3 = 18 and 3 × 6 = 18 use all the marbles exactly. 2 × 10 = 20 and 8 × 4 = 32 need more marbles than he has.",
+      "source": "worksheet MMJ-4 Q7c",
+      "id": "q116"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Revision: Factors and Multiples",
+      "question": "Which numbers have 64, 32 and 96 all as their multiples?",
+      "options": [
+        "1, 2, 4, 8, 16, 32",
+        "1, 2, 4, 8, 16, 64",
+        "1, 2, 3, 4, 8, 16",
+        "2, 4, 8, 16, 32, 96"
+      ],
+      "answer": 0,
+      "explanation": "These are the common factors of 64, 32 and 96: 1, 2, 4, 8, 16 and 32. 64 and 96 are not factors of 32, and 3 does not divide 64.",
+      "source": "worksheet MMJ-4 Q8 + answer key",
+      "id": "q117"
+    }
+  ]
+}

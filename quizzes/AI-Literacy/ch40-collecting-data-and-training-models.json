@@ -1,0 +1,2356 @@
+{
+  "schemaVersion": 1,
+  "id": "ai-literacy-ch40-collecting-data-and-training-models",
+  "title": "Collecting Data and Training Models",
+  "subject": "AI-Literacy",
+  "grade": 4,
+  "sourceDir": "output/AI-Literacy/40_Collecting-Data-and-Training-Models",
+  "chapter": "40. Collecting Data and Training Models",
+  "topic": "Full Chapter",
+  "description": "How AI models learn from data: training data, labels, models, testing and accuracy; the six steps to train a cloud-spotting AI; planning data collection for a footprint AI; why humans stay involved; the AI Trainer badge; and the skin-checking AI story about what goes wrong when data is missing.",
+  "tags": [
+    "ai-literacy",
+    "grade4",
+    "training-data",
+    "labels",
+    "testing",
+    "accuracy",
+    "data-collection",
+    "fairness",
+    "human-oversight"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI Vocabulary: Data, Labels, Models",
+      "question": "In the worksheet's matching exercise, what is 'training data'?",
+      "options": [
+        "The organised examples used to teach an AI",
+        "A tag attached to data that names what it is",
+        "A check of the AI on brand-new examples",
+        "A count of how often the AI answers right"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet matches Training Data with 'the organised examples used to teach an AI'. The other meanings belong to Label, Testing and Accuracy.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI Vocabulary: Data, Labels, Models",
+      "question": "Which AI word means 'a tag attached to data that tells the AI what it is'?",
+      "options": [
+        "Model",
+        "Label",
+        "Testing",
+        "Accuracy"
+      ],
+      "answer": 1,
+      "explanation": "A label is the tag on each piece of data (for example the word 'Cumulus' on a cloud photo) that tells the AI what that data shows.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI Vocabulary: Data, Labels, Models",
+      "question": "Which AI word means 'checking how well the AI works on new examples it has not seen before'?",
+      "options": [
+        "Training data",
+        "Label",
+        "Testing",
+        "Model"
+      ],
+      "answer": 2,
+      "explanation": "Testing is done with new, unseen examples so we can see how well the AI really learned, not just whether it remembers the training photos.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI Vocabulary: Data, Labels, Models",
+      "question": "Which AI word means 'the AI system that has been trained and can now make predictions'?",
+      "options": [
+        "Label",
+        "Accuracy",
+        "Testing",
+        "Model"
+      ],
+      "answer": 3,
+      "explanation": "The model is the trained AI system. After training, the model can look at a new example and make a prediction about it.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI Vocabulary: Data, Labels, Models",
+      "question": "Which AI word means 'how often the AI gives the correct answer'?",
+      "options": [
+        "Accuracy",
+        "Label",
+        "Testing",
+        "Model"
+      ],
+      "answer": 0,
+      "explanation": "Accuracy tells us how often the AI is right. If it gets 9 of 10 new photos right, its accuracy is high.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q6",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "AI Vocabulary: Data, Labels, Models",
+      "question": "A label is a tag attached to data that tells the AI what that data is.",
+      "answer": true,
+      "explanation": "This is exactly the worksheet's meaning for 'Label' (meaning E in the matching table).",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q7",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "AI Vocabulary: Data, Labels, Models",
+      "question": "Testing means checking the AI on the same photos that were used to train it.",
+      "answer": false,
+      "explanation": "Testing uses NEW examples the AI has not seen before. Re-checking the training photos would only show that the AI remembers them, not that it learned.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q8",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "AI Vocabulary: Data, Labels, Models",
+      "question": "Accuracy tells us how fast an AI gives its answer.",
+      "answer": false,
+      "explanation": "Accuracy is about how OFTEN the AI gives the correct answer, not about speed.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI Vocabulary: Data, Labels, Models",
+      "question": "A photo of a cloud has the word 'Cumulus' written beside it so the AI knows what it shows. In AI words, 'Cumulus' here is the ___.",
+      "options": [
+        "testing",
+        "label",
+        "model",
+        "accuracy"
+      ],
+      "answer": 1,
+      "explanation": "The word attached to the photo that tells the AI what it is called is the label.",
+      "source": "worksheet:Q1 + Q2"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI Vocabulary: Data, Labels, Models",
+      "question": "After the weather station finishes training, the thing that can now look at a sky photo and predict its cloud type is called the ___.",
+      "options": [
+        "category",
+        "label",
+        "model",
+        "dataset"
+      ],
+      "answer": 2,
+      "explanation": "Once training is done, the trained AI system that makes predictions is the model.",
+      "source": "worksheet:Q1 + Q2"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI Vocabulary: Data, Labels, Models",
+      "question": "'The AI got 8 out of 10 new photos right.' Which AI word does this sentence describe?",
+      "options": [
+        "Category",
+        "Label",
+        "Training data",
+        "Accuracy"
+      ],
+      "answer": 3,
+      "explanation": "Counting how often the AI is correct on new photos is its accuracy.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "AI Vocabulary: Data, Labels, Models",
+      "question": "Which statement correctly describes testing?",
+      "options": [
+        "Showing the AI new photos it never saw to count how many it gets right",
+        "Showing the AI its labelled photos again so that it remembers them better",
+        "Adding the correct tag to every photo before the training begins",
+        "Deciding which cloud categories the AI will be taught to recognise"
+      ],
+      "answer": 0,
+      "explanation": "Testing uses photos the AI has never seen. Repeating labelled photos is training, adding tags is labelling, and choosing categories is the planning step.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "AI Vocabulary: Data, Labels, Models",
+      "question": "Which TWO of these happen BEFORE a trained model exists?",
+      "options": [
+        "Collecting the photos",
+        "Labelling the photos",
+        "Testing the model on new photos",
+        "Recording the model's accuracy"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Photos are collected and labelled first; they become the training data. Testing and measuring accuracy can only happen after a model has been trained.",
+      "source": "worksheet:Q1 + Q2"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "AI Vocabulary: Data, Labels, Models",
+      "question": "Riya says, 'The model is the big pile of cloud photos we collected.' What is wrong with this?",
+      "options": [
+        "The pile of photos is the test; the model is the accuracy",
+        "The pile of photos is training data; the model is the trained AI",
+        "Nothing is wrong; the photos and the model are the same thing",
+        "The pile of photos is the label; the model is the camera"
+      ],
+      "answer": 1,
+      "explanation": "The collected photos are the training data. The model is the AI system that is produced after it is trained on those photos.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "AI Vocabulary: Data, Labels, Models",
+      "question": "How many AI words did the worksheet's matching exercise ask you to match with meanings?",
+      "options": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "answer": 2,
+      "explanation": "There were five words: Training Data, Label, Testing, Model and Accuracy, matched with meanings A to E.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "AI Vocabulary: Data, Labels, Models",
+      "question": "Which pair is matched CORRECTLY?",
+      "options": [
+        "Label – the trained AI that predicts",
+        "Model – a tag attached to the data",
+        "Testing – examples used to teach AI",
+        "Accuracy – how often the AI is correct"
+      ],
+      "answer": 3,
+      "explanation": "Only the first pair is right. Label is the tag, Model is the trained AI, and Testing is checking on new examples.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "AI Vocabulary: Data, Labels, Models",
+      "question": "Select the TWO correct matches.",
+      "options": [
+        "Training data – organised examples used to teach an AI",
+        "Testing – checking the AI on new examples it has not seen",
+        "Label – how often the AI gives the correct answer",
+        "Model – a tag attached to data saying what it is"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The first two are correct. The third describes accuracy (not label) and the fourth describes a label (not a model).",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "AI Vocabulary: Data, Labels, Models",
+      "question": "Why should the testing photos be DIFFERENT from the training photos?",
+      "options": [
+        "So we see if the AI really learned, not just remembered",
+        "So the AI has more photos to memorise before the test",
+        "So the photos can be labelled a second time by a human",
+        "So the model becomes larger and takes longer to train"
+      ],
+      "answer": 0,
+      "explanation": "If the AI is tested on photos it already saw, a good score could just be memory. New photos show whether it truly learned the pattern.",
+      "source": "worksheet:Q1 (synthesis)"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Training a Cloud AI: Six Steps in Order",
+      "question": "A weather station is training an AI to identify cloud types. What is the FIRST step in the correct sequence?",
+      "options": [
+        "Test the model on new cloud photos it has not seen",
+        "Decide what categories to use, such as Cumulus and Stratus",
+        "Photograph hundreds of clouds on sunny and stormy days",
+        "Label each photo with the correct cloud type"
+      ],
+      "answer": 1,
+      "explanation": "You must decide the categories (Cumulus, Stratus, Cirrus, Nimbus) first, so you know what you are collecting and what labels to use.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Training a Cloud AI: Six Steps in Order",
+      "question": "What is the LAST (sixth) step in the cloud AI sequence?",
+      "options": [
+        "Feed all the labelled photos into the AI tool",
+        "Decide which four cloud categories to use",
+        "If accuracy is low, collect more photos and retrain",
+        "Label each photo with careful human checking"
+      ],
+      "answer": 2,
+      "explanation": "After testing, the final step is to collect more photos and retrain if accuracy is low — especially for the categories the AI keeps getting wrong.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Training a Cloud AI: Six Steps in Order",
+      "question": "Which step comes right AFTER photographing hundreds of clouds?",
+      "options": [
+        "Retraining the model with even more photos",
+        "Deciding which categories the AI should learn",
+        "Testing the model on new cloud photos",
+        "Labelling each photo with its correct cloud type"
+      ],
+      "answer": 3,
+      "explanation": "Order: decide categories → photograph clouds → label each photo → train → test → retrain if needed. Labelling follows photographing.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Training a Cloud AI: Six Steps in Order",
+      "question": "Which step comes right AFTER labelling the photos?",
+      "options": [
+        "Feeding the labelled photos into the AI tool",
+        "Recording how many test photos it got right",
+        "Deciding the categories to use",
+        "Photographing more stormy clouds"
+      ],
+      "answer": 0,
+      "explanation": "Once photos are labelled, they are fed into the AI tool to train the model. Testing comes after that.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Training a Cloud AI: Six Steps in Order",
+      "question": "Which step comes right AFTER feeding the labelled photos into the AI tool to train the model?",
+      "options": [
+        "Photograph the same clouds again from a different angle",
+        "Test the model on new photos and record how many it gets right",
+        "Decide what the four cloud categories should be called",
+        "Label every photo again to be sure no mistakes were made"
+      ],
+      "answer": 1,
+      "explanation": "Training is step 4. Step 5 is testing the model on new cloud photos it has never seen and recording how many it gets right.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Training a Cloud AI: Six Steps in Order",
+      "question": "Which four cloud categories did the weather station decide to use?",
+      "options": [
+        "Cirrus, Nimbus, Thunder, Mist",
+        "Stratus, Cirrus, Sunny, Rainy",
+        "Cumulus, Stratus, Cirrus, Nimbus",
+        "Cumulus, Stratus, Fog, Rainbow"
+      ],
+      "answer": 2,
+      "explanation": "The worksheet lists Cumulus, Stratus, Cirrus and Nimbus as example categories.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Training a Cloud AI: Six Steps in Order",
+      "question": "Why did the station photograph clouds on sunny days, rainy days AND stormy days?",
+      "options": [
+        "So the camera battery is used up evenly every week",
+        "So the photos can be sorted by the day of the week",
+        "So the AI learns to predict tomorrow's temperature",
+        "So the AI sees clouds in many conditions, not just one"
+      ],
+      "answer": 3,
+      "explanation": "Variety in the training photos helps the AI recognise clouds in all kinds of weather, not only the conditions it happened to see.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q26",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Training a Cloud AI: Six Steps in Order",
+      "question": "The worksheet says labelling each photo with the correct cloud type takes careful human checking.",
+      "answer": true,
+      "explanation": "Step D says exactly this: labelling 'takes careful human checking'.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q27",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Training a Cloud AI: Six Steps in Order",
+      "question": "The weather station should test the model BEFORE labelling the photos.",
+      "answer": false,
+      "explanation": "There is no model to test until the labelled photos have been used for training. Testing comes after training.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q28",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Training a Cloud AI: Six Steps in Order",
+      "question": "If accuracy is low, the station should collect more photos, especially of the cloud types the AI keeps getting wrong, and retrain.",
+      "answer": true,
+      "explanation": "This is step F, the last step in the sequence.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Training a Cloud AI: Six Steps in Order",
+      "question": "In the correct six-step order, which action is step 4?",
+      "options": [
+        "Feeding labelled photos into the AI tool",
+        "Deciding the cloud categories",
+        "Photographing hundreds of clouds",
+        "Testing on new cloud photos"
+      ],
+      "answer": 0,
+      "explanation": "Steps: 1 decide categories, 2 photograph, 3 label, 4 feed photos to train, 5 test, 6 retrain if needed.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Training a Cloud AI: Six Steps in Order",
+      "question": "In the correct six-step order, which action is step 2?",
+      "options": [
+        "Test the model and record the results",
+        "Photograph hundreds of different clouds",
+        "Collect more photos and retrain the model",
+        "Label each photo with the correct type"
+      ],
+      "answer": 1,
+      "explanation": "After deciding categories (step 1), the station photographs hundreds of clouds (step 2).",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Training a Cloud AI: Six Steps in Order",
+      "question": "Why does the worksheet say to photograph HUNDREDS of clouds rather than just a few?",
+      "options": [
+        "Hundreds of photos make the camera focus more sharply",
+        "The weather station must fill its memory card first",
+        "Many examples help the AI learn the pattern of each type",
+        "A few photos would make the AI tool refuse to start"
+      ],
+      "answer": 2,
+      "explanation": "An AI learns from examples. More varied examples of each category help it learn what that category really looks like.",
+      "source": "worksheet:Q2 (synthesis)"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Training a Cloud AI: Six Steps in Order",
+      "question": "After testing, the model gets most Nimbus photos wrong but the other types right. According to the worksheet, what should the station do?",
+      "options": [
+        "Remove Nimbus so the accuracy score looks higher",
+        "Test the model again on exactly the same photos",
+        "Relabel the Cumulus photos as Nimbus to balance",
+        "Collect more Nimbus photos and retrain the model"
+      ],
+      "answer": 3,
+      "explanation": "Step F says: if accuracy is low, collect more photos and retrain, especially for the categories the AI keeps getting wrong.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Training a Cloud AI: Six Steps in Order",
+      "question": "Why can't the station label the photos BEFORE deciding the categories?",
+      "options": [
+        "Without categories, nobody knows which tags to write",
+        "Labels can only be added after the model is tested",
+        "The camera adds the labels while taking photos",
+        "Photos must be fed to the AI tool before labelling"
+      ],
+      "answer": 0,
+      "explanation": "A label is the category name on a photo. You have to decide the categories first to know what labels exist.",
+      "source": "worksheet:Q2 (synthesis)"
+    },
+    {
+      "id": "q34",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Training a Cloud AI: Six Steps in Order",
+      "question": "Which TWO steps clearly need careful human judgement?",
+      "options": [
+        "Labelling each photo with the right cloud type",
+        "Deciding which cloud categories to use",
+        "The AI tool finding patterns during training",
+        "The model giving its prediction for a test photo"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Humans decide the categories and check every label. Finding patterns and making predictions are what the AI tool and model do.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Training a Cloud AI: Six Steps in Order",
+      "question": "How many steps are there in the cloud AI sequence on the worksheet?",
+      "options": [
+        "Five",
+        "Six",
+        "Seven",
+        "Four"
+      ],
+      "answer": 1,
+      "explanation": "The steps are lettered A to F and must be numbered 1 to 6.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Training a Cloud AI: Six Steps in Order",
+      "question": "Which of these is the TESTING step?",
+      "options": [
+        "Write the correct cloud type on every photograph",
+        "Choose Cumulus, Stratus, Cirrus and Nimbus as types",
+        "Show the model new photos and count how many it gets right",
+        "Feed all the labelled photos into the AI tool at once"
+      ],
+      "answer": 2,
+      "explanation": "Testing means showing the model new photos it has never seen and recording how many it gets right.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Training a Cloud AI: Six Steps in Order",
+      "question": "The steps are: A photograph, B test, C decide categories, D label, E feed to train, F retrain if low. Which order is correct?",
+      "options": [
+        "A, C, D, E, B, F",
+        "C, A, E, D, B, F",
+        "C, D, A, E, F, B",
+        "C, A, D, E, B, F"
+      ],
+      "answer": 3,
+      "explanation": "Decide (C) → photograph (A) → label (D) → train (E) → test (B) → retrain if accuracy is low (F).",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q38",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Training a Cloud AI: Six Steps in Order",
+      "question": "Once the cloud model has been retrained a single time, it will never need more photos again.",
+      "answer": false,
+      "explanation": "Step F is a loop: whenever accuracy is low, collect more photos and retrain. It may be needed more than once.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Planning the Footprint AI: Data Collection",
+      "question": "What did the nature club want to train an AI to identify?",
+      "options": [
+        "Animal footprints from photos",
+        "Bird songs from recordings",
+        "Tree types from leaf shapes",
+        "Cloud types from the sky"
+      ],
+      "answer": 0,
+      "explanation": "The nature club wants an AI that identifies animal footprints from photos.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Planning the Footprint AI: Data Collection",
+      "question": "Why did the nature club want a footprint-identifying AI?",
+      "options": [
+        "To find out which animals are the fastest",
+        "To learn which animals visit the forest at night",
+        "To count how many trees grow in the forest",
+        "To predict the weather in the forest each day"
+      ],
+      "answer": 1,
+      "explanation": "The club wants to learn which animals visit the forest at night, when nobody is there to see them.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Planning the Footprint AI: Data Collection",
+      "question": "How many animals (categories) does the planning board ask the AI to learn?",
+      "options": [
+        "Five",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "answer": 2,
+      "explanation": "The planning board has Category 1, Category 2 and Category 3 — three animals.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Planning the Footprint AI: Data Collection",
+      "question": "The planning board offers 5, 50 or 500 photos per animal. Which choice gives the AI the BEST chance to learn each footprint well?",
+      "options": [
+        "50 photos",
+        "5 photos",
+        "Any number is equal",
+        "500 photos"
+      ],
+      "answer": 3,
+      "explanation": "An AI learns from examples, and footprints vary with the ground and light. More photos (500) give the AI far more to learn from than 5 or 50.",
+      "source": "worksheet:Q3 (inferred)"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Planning the Footprint AI: Data Collection",
+      "question": "Why would collecting only 5 photos per animal be a poor choice?",
+      "options": [
+        "Too few examples to learn how each footprint can vary",
+        "Five photos take too long for a person to label",
+        "The AI tool cannot open fewer than fifty photos",
+        "Five photos would make the test score too high"
+      ],
+      "answer": 0,
+      "explanation": "With only 5 photos, the AI sees very little variety and may not recognise the same footprint in different mud, sand or light.",
+      "source": "worksheet:Q3 (inferred)"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Planning the Footprint AI: Data Collection",
+      "question": "Which set of three conditions would give the footprint photos GOOD variety?",
+      "options": [
+        "The same spot on three sunny days",
+        "Wet mud, dry sand and soft snow",
+        "Dry sand at noon, three times over",
+        "One deer print copied three times"
+      ],
+      "answer": 1,
+      "explanation": "Variety means different ground, weather and light. Mud, sand and snow show the same footprint in three different conditions.",
+      "source": "worksheet:Q3 (inferred)"
+    },
+    {
+      "id": "q45",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Planning the Footprint AI: Data Collection",
+      "question": "Select the TWO conditions that add useful VARIETY to the footprint photos.",
+      "options": [
+        "Footprints in mud and footprints in sand",
+        "Footprints in bright daylight and in dim light",
+        "Footprints photographed from one fixed angle only",
+        "Footprints of only one animal, the deer"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Different ground and different light are real variety. One fixed angle and one animal only reduce variety.",
+      "source": "worksheet:Q3 (inferred)"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Planning the Footprint AI: Data Collection",
+      "question": "Which of these is something that could go WRONG with the club's data collection?",
+      "options": [
+        "Photos are taken in mud, sand and snow",
+        "The club decides to collect 500 photos",
+        "Some photos get labelled with the wrong animal",
+        "The club chooses three different animals"
+      ],
+      "answer": 2,
+      "explanation": "Wrong labels teach the AI the wrong thing. Choosing three animals, varied ground and many photos are good planning, not problems.",
+      "source": "worksheet:Q3 (inferred)"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Planning the Footprint AI: Data Collection",
+      "question": "Some footprint photos were labelled with the wrong animal. What is the best way to FIX this?",
+      "options": [
+        "Train the model anyway and hope it ignores them",
+        "Delete all the photos and give up on the project",
+        "Rename every photo with the first animal's name",
+        "Have a person carefully check and correct the labels"
+      ],
+      "answer": 3,
+      "explanation": "Labelling needs careful human checking. Correcting the wrong labels fixes the problem before the AI learns from them.",
+      "source": "worksheet:Q3 (inferred)"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Planning the Footprint AI: Data Collection",
+      "question": "The club collects 500 photos of deer prints but only 5 of fox prints. What is the likely problem?",
+      "options": [
+        "The AI learns deer well but often misses fox",
+        "The AI will learn fox better because it is rarer",
+        "The AI cannot start until both have 500 photos",
+        "There is no problem since 505 is a large number"
+      ],
+      "answer": 0,
+      "explanation": "An AI learns exactly what it is shown. With far fewer fox examples, it will recognise fox prints much less reliably — like the skin-checking AI story.",
+      "source": "worksheet:Q3 + case study (synthesis)"
+    },
+    {
+      "id": "q49",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Planning the Footprint AI: Data Collection",
+      "question": "The planning board asks for three different conditions the footprints should appear in.",
+      "answer": true,
+      "explanation": "The board says: 'List 3 different conditions the footprints should appear in'.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q50",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Planning the Footprint AI: Data Collection",
+      "question": "If many of the club's footprint photos are blurry, the AI may learn the wrong pattern.",
+      "answer": true,
+      "explanation": "The AI learns from what it is shown. Blurry photos are poor data and can lead to poor learning.",
+      "source": "worksheet:Q3 (inferred)"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Planning the Footprint AI: Data Collection",
+      "question": "Which planning choice would give the footprint AI the WEAKEST training?",
+      "options": [
+        "500 photos per animal in day and night light",
+        "5 photos per animal, all taken at one spot",
+        "500 photos per animal, taken in many places",
+        "50 photos per animal in mud, sand and snow"
+      ],
+      "answer": 1,
+      "explanation": "Few photos and no variety is the weakest mix: the AI sees too little to learn how each footprint can look.",
+      "source": "worksheet:Q3 (inferred)"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Planning the Footprint AI: Data Collection",
+      "question": "Why should the footprint photos be taken in different conditions?",
+      "options": [
+        "Animals only leave prints when the weather changes",
+        "The AI tool refuses photos that all look similar",
+        "Forest ground and light change, so prints look different",
+        "The camera needs practice in many kinds of weather"
+      ],
+      "answer": 2,
+      "explanation": "The AI must recognise a footprint wherever it appears, so it should see examples in mud, sand, wet and dry, light and dark.",
+      "source": "worksheet:Q3 (inferred)"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Planning the Footprint AI: Data Collection",
+      "question": "The club notices it has very few photos of one animal. Which fix matches the chapter's advice?",
+      "options": [
+        "Remove that animal from the project quietly",
+        "Copy one photo many times to make it 500",
+        "Label other animals' prints with that animal",
+        "Collect more photos of that animal and retrain"
+      ],
+      "answer": 3,
+      "explanation": "The chapter's rule is to collect more photos for categories the AI gets wrong and retrain. Copies and false labels do not add real variety.",
+      "source": "worksheet:Q3 + Q2 (synthesis)"
+    },
+    {
+      "id": "q54",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Planning the Footprint AI: Data Collection",
+      "question": "Select the TWO things that could go WRONG in the club's data collection.",
+      "options": [
+        "Some photos are labelled with the wrong animal",
+        "Photos were taken in rain, sand and mud",
+        "Only a few photos of one animal were collected",
+        "The club chose three different animals to study"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Wrong labels and too few photos of one animal are real problems. Varied conditions and three categories are part of a good plan.",
+      "source": "worksheet:Q3 (inferred)"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Planning the Footprint AI: Data Collection",
+      "question": "At what time do the animals the club is interested in visit the forest?",
+      "options": [
+        "At night",
+        "At noon",
+        "At dawn only",
+        "At the weekend"
+      ],
+      "answer": 0,
+      "explanation": "The club wants to learn which animals visit the forest at night.",
+      "source": "worksheet:Q3"
+    },
+    {
+      "id": "q56",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Planning the Footprint AI: Data Collection",
+      "question": "Choosing 500 photos per animal means the club no longer needs any variety in the photos.",
+      "answer": false,
+      "explanation": "Quantity and variety are both needed. 500 near-identical photos would still leave the AI unprepared for different ground or light.",
+      "source": "worksheet:Q3 (synthesis)"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Planning the Footprint AI: Data Collection",
+      "question": "The club trains its AI on deer, rabbit and dog prints. Later it is shown a cat print. What will the AI most likely do?",
+      "options": [
+        "Teach itself about cats by looking at the photo",
+        "Guess one of its three animals, since that is all it learned",
+        "Correctly say 'cat' because it is a smart computer",
+        "Refuse to answer and ask the club for a new category"
+      ],
+      "answer": 1,
+      "explanation": "The AI learned exactly what it was shown — three animals. It cannot know about a category it never saw, so it will pick one of the three.",
+      "source": "worksheet:Q3 + case study (synthesis)"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Humans Stay Involved",
+      "question": "Which step did the worksheet say 'takes careful human checking'?",
+      "options": [
+        "The model predicting a type for a new photo",
+        "The camera taking hundreds of cloud photos",
+        "Labelling each photo with the correct cloud type",
+        "Feeding the photos into the AI tool to train it"
+      ],
+      "answer": 2,
+      "explanation": "Step D, labelling, is the one that 'takes careful human checking'.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why Humans Stay Involved",
+      "question": "Why are humans needed at the LABELLING step?",
+      "options": [
+        "Labels can only be typed on a human's keyboard",
+        "The AI tool charges money for each unlabelled photo",
+        "Humans are faster than computers at sorting photos",
+        "The AI does not know what a photo shows until it is told"
+      ],
+      "answer": 3,
+      "explanation": "The AI learns from labels. A human must say 'this is Cirrus' for the AI to learn what Cirrus looks like.",
+      "source": "worksheet:Q3a (inferred)"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why Humans Stay Involved",
+      "question": "Why are humans needed at the TESTING step?",
+      "options": [
+        "To record the results and judge if accuracy is good enough",
+        "To take the test instead of the AI if it feels tired",
+        "To add new labels to the photos during the test",
+        "To make the model run faster on the new photos"
+      ],
+      "answer": 0,
+      "explanation": "Humans show new photos, record how many the model gets right, and decide whether accuracy is high enough or more data is needed.",
+      "source": "worksheet:Q3a (inferred)"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why Humans Stay Involved",
+      "question": "Why are humans needed when deciding the CATEGORIES?",
+      "options": [
+        "Categories must be written by hand on every photo",
+        "Only people know what the project needs the AI to recognise",
+        "Computers cannot store more than four categories at once",
+        "The AI can choose categories but prefers to be told"
+      ],
+      "answer": 1,
+      "explanation": "The weather station or nature club decides what matters to them — cloud types or three animals. The AI cannot know the project's purpose.",
+      "source": "worksheet:Q3a (inferred)"
+    },
+    {
+      "id": "q62",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Why Humans Stay Involved",
+      "question": "Select TWO reasons humans are still needed when training an AI model.",
+      "options": [
+        "To decide which categories the AI should learn",
+        "To check that every label is correct",
+        "To make the computer's processor run faster",
+        "To take over all predictions once training ends"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Humans choose the categories and check labels. Humans do not speed up the processor, and the model (not humans) makes predictions after training.",
+      "source": "worksheet:Q3a (inferred)"
+    },
+    {
+      "id": "q63",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Why Humans Stay Involved",
+      "question": "Once an AI model is trained, humans no longer need to check its results.",
+      "answer": false,
+      "explanation": "Testing and retraining both depend on humans checking results. The badge rule 'always check the results' says the same.",
+      "source": "worksheet:Q3a + Q4"
+    },
+    {
+      "id": "q64",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Why Humans Stay Involved",
+      "question": "Humans decide when accuracy is low and more photos are needed.",
+      "answer": true,
+      "explanation": "Step F — collect more photos and retrain if accuracy is low — is a human decision made after looking at the test results.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Why Humans Stay Involved",
+      "question": "Which statement about humans and AI training is correct?",
+      "options": [
+        "Humans are needed only once, at the very end, to approve the model",
+        "Humans only take the photos; the AI labels, trains and tests itself",
+        "The AI learns only what humans show it, so humans must choose data carefully",
+        "The AI learns everything by itself, so humans only switch it on"
+      ],
+      "answer": 2,
+      "explanation": "The chapter's key idea: the AI learned exactly what it was shown. Humans choose, label and check the data at every step.",
+      "source": "worksheet:Q3a + case study"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Humans Stay Involved",
+      "question": "What do learners in the school's 'AI Training Club' do?",
+      "options": [
+        "Build robots and race them around the school",
+        "Write the AI's code and repair the computers",
+        "Only watch videos about how AI tools work",
+        "Collect photos, organise data and check labels"
+      ],
+      "answer": 3,
+      "explanation": "The worksheet says club learners help collect photos, organise data, and check labels so simple AI tools can learn correctly.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Why Humans Stay Involved",
+      "question": "The skin-checking AI 'wasn't broken'. So what actually needed to change?",
+      "options": [
+        "The data the humans had chosen to train it with",
+        "The computer the AI program was running on",
+        "The number of scientists working on the AI",
+        "The camera used to take the medical photos"
+      ],
+      "answer": 0,
+      "explanation": "The AI did what it was taught. The dataset lacked darker-skin photos, so the humans needed to collect better, more complete data.",
+      "source": "case study"
+    },
+    {
+      "id": "q68",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Why Humans Stay Involved",
+      "question": "If humans label photos carelessly, the AI will still learn the right answer because it is smart.",
+      "answer": false,
+      "explanation": "The AI learns exactly what it is shown. Careless labels teach it the wrong thing, which is why labelling needs careful human checking.",
+      "source": "worksheet:Q2 + case study"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why Humans Stay Involved",
+      "question": "Who notices that the model keeps getting one category wrong?",
+      "options": [
+        "The AI tool while it is still being trained",
+        "The humans who test it and record the results",
+        "The model itself, which then fixes its mistakes",
+        "The camera that took the original photos"
+      ],
+      "answer": 1,
+      "explanation": "Testing and recording results is a human step. That is how people learn which categories need more photos.",
+      "source": "worksheet:Q2 (inferred)"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Why Humans Stay Involved",
+      "question": "Which is the best short answer to 'Why do humans still need to be involved at different steps?'",
+      "options": [
+        "People are needed only to buy the camera and the AI software",
+        "People must write every prediction the model will ever make",
+        "People must decide, label, test and fix; the AI only learns what it is given",
+        "People must stay nearby in case the computer needs to be switched off"
+      ],
+      "answer": 2,
+      "explanation": "Humans decide categories, label carefully, test responsibly and retrain when needed, because the AI learns exactly what it is shown.",
+      "source": "worksheet:Q3a (inferred)"
+    },
+    {
+      "id": "q71",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Why Humans Stay Involved",
+      "question": "Humans are needed both at the start (choosing categories) and at the end (checking accuracy), not just at one step.",
+      "answer": true,
+      "explanation": "The worksheet asks why humans are needed 'at different steps' — from planning through labelling to testing and retraining.",
+      "source": "worksheet:Q3a"
+    },
+    {
+      "id": "q72",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Why Humans Stay Involved",
+      "question": "Which TWO things can the cloud AI NOT do by itself?",
+      "options": [
+        "Decide that Nimbus is a category worth learning",
+        "Notice its answers are wrong and go photograph more clouds",
+        "Find patterns in the labelled photos it is given",
+        "Give a prediction for a brand-new sky photo"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Choosing categories and deciding to collect more data are human steps. Finding patterns and predicting are what the trained model does.",
+      "source": "worksheet:Q2 + Q3a (synthesis)"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why Humans Stay Involved",
+      "question": "A learner says, 'Let the AI label the footprint photos itself, it will be quicker.' What is the problem?",
+      "options": [
+        "The AI can label but only in capital letters",
+        "Labels made by an AI are always too long to read",
+        "The AI would need 500 photos just to type one label",
+        "Before training, the AI does not yet know which print is which"
+      ],
+      "answer": 3,
+      "explanation": "Labels are how the AI learns in the first place. An untrained AI cannot know a deer print from a fox print.",
+      "source": "worksheet:Q3a (synthesis)"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The AI Trainer Badge: Responsible Training Rules",
+      "question": "According to the teacher, what THREE things earn the 'AI Trainer' badge?",
+      "options": [
+        "Collect good data, label carefully, test responsibly",
+        "Build a robot, write code, win a competition",
+        "Take photos, print them, stick them on a wall",
+        "Buy a camera, buy software, buy a computer"
+      ],
+      "answer": 0,
+      "explanation": "The badge is for anyone who understands how to collect good data, label it carefully, and test the AI responsibly.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The AI Trainer Badge: Responsible Training Rules",
+      "question": "Which badge titles did the worksheet give as examples?",
+      "options": [
+        "Label Master and Test Pilot",
+        "AI Trainer and Data Detective",
+        "Robot Boss and Code King",
+        "Cloud Spotter and Print Finder"
+      ],
+      "answer": 1,
+      "explanation": "The worksheet suggests 'AI Trainer, Data Detective, or your own idea'.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The AI Trainer Badge: Responsible Training Rules",
+      "question": "How many things must the AI Trainer badge include?",
+      "options": [
+        "Four: a title, a photo, a rule and a date",
+        "One: just a title for the club",
+        "Three: a title, a symbol and a rule",
+        "Two: a title and a colour"
+      ],
+      "answer": 2,
+      "explanation": "The badge must include a title, one symbol that represents data or AI learning, and one rule about training AI responsibly.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The AI Trainer Badge: Responsible Training Rules",
+      "question": "Which example rules did the worksheet suggest for the badge?",
+      "options": [
+        "'Train fast' or 'Never test twice'",
+        "'Trust the AI' or 'Skip the labels'",
+        "'Use five photos' or 'Keep it secret'",
+        "'Use clear labels' or 'Always check the results'"
+      ],
+      "answer": 3,
+      "explanation": "The worksheet's examples are 'Use clear labels' and 'always check the results'.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The AI Trainer Badge: Responsible Training Rules",
+      "question": "Which rule would best fit on a responsible AI Trainer badge?",
+      "options": [
+        "Always check the results",
+        "Trust the AI's first answer",
+        "Label photos as fast as you can",
+        "Test only when you have time"
+      ],
+      "answer": 0,
+      "explanation": "Checking results is one of the worksheet's own example rules. The other options skip the careful checking the chapter asks for.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q79",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The AI Trainer Badge: Responsible Training Rules",
+      "question": "The badge must include one symbol that represents data or AI learning.",
+      "answer": true,
+      "explanation": "This is one of the three required parts of the badge design.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The AI Trainer Badge: Responsible Training Rules",
+      "question": "Why is 'Use clear labels' a RESPONSIBLE training rule?",
+      "options": [
+        "Clear labels make the model train in less than a minute",
+        "The AI learns from labels, so unclear ones teach it wrong things",
+        "Clear labels make the photos look neater on the wall",
+        "The AI tool only accepts labels written in clear ink"
+      ],
+      "answer": 1,
+      "explanation": "Labels are what the AI learns from. If labels are unclear or wrong, the model learns the wrong pattern.",
+      "source": "worksheet:Q4 (inferred)"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The AI Trainer Badge: Responsible Training Rules",
+      "question": "Why is 'Always check the results' a RESPONSIBLE training rule?",
+      "options": [
+        "Checking results makes the AI train on fewer photos",
+        "The AI stops working if nobody looks at its answers",
+        "The AI can be wrong, and only testing shows where it fails",
+        "Results must be checked so the badge can be printed"
+      ],
+      "answer": 2,
+      "explanation": "The skin-checking story shows an AI can look fine yet fail for some people. Checking results is how humans catch that.",
+      "source": "worksheet:Q4 + case study"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The AI Trainer Badge: Responsible Training Rules",
+      "question": "Which of these would NOT be a responsible training rule?",
+      "options": [
+        "Check who might be missing from the data",
+        "Label every photo carefully and clearly",
+        "Test the model on photos it has not seen",
+        "Use as few photos as possible to save time"
+      ],
+      "answer": 3,
+      "explanation": "Few photos mean little variety and poor learning. The other three match the chapter's advice.",
+      "source": "worksheet:Q4 (synthesis)"
+    },
+    {
+      "id": "q83",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "The AI Trainer Badge: Responsible Training Rules",
+      "question": "Select the TWO rules that show responsible AI training.",
+      "options": [
+        "Use clear labels",
+        "Always check the results",
+        "Skip testing if training took a long time",
+        "Use only photos the AI finds easy"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The first two are the worksheet's own examples. Skipping tests and using only easy photos would hide the AI's mistakes.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The AI Trainer Badge: Responsible Training Rules",
+      "question": "The AI Training Club helps simple AI tools learn ___.",
+      "options": [
+        "correctly",
+        "quickly",
+        "secretly",
+        "loudly"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet says learners check labels 'so that simple AI tools can learn correctly'.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The AI Trainer Badge: Responsible Training Rules",
+      "question": "A learner writes the badge rule 'Check who and what might be missing from the data.' Which part of the chapter does this echo?",
+      "options": [
+        "The meaning of 'model' in the matching exercise",
+        "The scientists' advice after the skin-checking AI story",
+        "The list of four cloud categories in the weather project",
+        "The choice between 5, 50 and 500 footprint photos"
+      ],
+      "answer": 1,
+      "explanation": "The scientists said: 'Before training an AI, always check who — and what — might be missing from the data.'",
+      "source": "worksheet:Q4 + case study"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The AI Trainer Badge: Responsible Training Rules",
+      "question": "Which badge rule would have helped PREVENT the skin-checking AI problem?",
+      "options": [
+        "Test the AI on the photos it was trained with",
+        "Use the biggest computer available for training",
+        "Include photos of everyone the AI will be used for",
+        "Train the AI on the clearest photos only"
+      ],
+      "answer": 2,
+      "explanation": "The AI failed on darker skin because such photos were missing. Including everyone the AI will serve is the fix the scientists recommend.",
+      "source": "worksheet:Q4 + case study (synthesis)"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The AI Trainer Badge: Responsible Training Rules",
+      "question": "Which badge design meets ALL the worksheet's requirements?",
+      "options": [
+        "Title 'Data Detective', a magnifying-glass symbol, and the club's meeting time",
+        "A photo of the teacher, the school's name, and the rule 'Have fun'",
+        "Title 'AI Trainer', the date of the first meeting, and a gold border",
+        "Title 'Data Detective', a magnifying-glass-over-photos symbol, rule 'Use clear labels'"
+      ],
+      "answer": 3,
+      "explanation": "Only the first has a title, a symbol about data or AI learning, AND a responsible-training rule.",
+      "source": "worksheet:Q4"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Skin-Checking AI Story",
+      "question": "What were the scientists' AI trained to do?",
+      "options": [
+        "Spot signs of skin disease from photos",
+        "Identify cloud types from sky photos",
+        "Recognise animal footprints in the forest",
+        "Read handwriting on medical forms"
+      ],
+      "answer": 0,
+      "explanation": "The story says scientists trained an AI to spot signs of skin disease from photos.",
+      "source": "case study"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Skin-Checking AI Story",
+      "question": "On which skin did the AI work very well?",
+      "options": [
+        "Neither type",
+        "Light skin",
+        "Darker skin",
+        "All skin equally"
+      ],
+      "answer": 1,
+      "explanation": "The AI worked very well on light skin but missed more cases on darker skin.",
+      "source": "case study"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Skin-Checking AI Story",
+      "question": "What happened when the AI looked at photos of darker skin?",
+      "options": [
+        "It refused to give any answer at all",
+        "It gave exactly the same results",
+        "It missed more cases of skin disease",
+        "It worked better than on light skin"
+      ],
+      "answer": 2,
+      "explanation": "The AI 'missed more cases on darker skin'.",
+      "source": "case study"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Skin-Checking AI Story",
+      "question": "According to the story, was the AI broken?",
+      "options": [
+        "Yes — its program had an error that was later fixed",
+        "Yes — its camera could not see darker colours",
+        "No — the doctors were using it in the wrong way",
+        "No — it learned from a dataset that was unbalanced"
+      ],
+      "answer": 3,
+      "explanation": "The story says 'The AI wasn't broken.' It simply learned from a dataset with many light-skin photos and far fewer darker-skin photos.",
+      "source": "case study"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Skin-Checking AI Story",
+      "question": "WHY did the AI miss more cases on darker skin?",
+      "options": [
+        "Its dataset had many light-skin photos and few darker-skin photos",
+        "Darker skin has no visible signs of skin disease to spot",
+        "The scientists told the AI to ignore darker-skin photos",
+        "The AI was tested before it had finished training"
+      ],
+      "answer": 0,
+      "explanation": "The AI learned exactly what it was shown. It saw far fewer examples of darker skin, so it learned those cases less well.",
+      "source": "case study"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Skin-Checking AI Story",
+      "question": "What do scientists now say should be done BEFORE training an AI?",
+      "options": [
+        "Decide how many people will use the finished AI",
+        "Check who and what might be missing from the data",
+        "Buy the fastest computer that money can afford",
+        "Test the AI on the photos it will be trained with"
+      ],
+      "answer": 1,
+      "explanation": "The story ends: 'Before training an AI, always check who — and what — might be missing from the data.'",
+      "source": "case study"
+    },
+    {
+      "id": "q94",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The Skin-Checking AI Story",
+      "question": "The skin-checking AI worked equally well for everyone.",
+      "answer": false,
+      "explanation": "The title itself says it 'worked great for some people — but NOT for everyone'. It missed more cases on darker skin.",
+      "source": "case study"
+    },
+    {
+      "id": "q95",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The Skin-Checking AI Story",
+      "question": "The story says the AI learned exactly what it was shown.",
+      "answer": true,
+      "explanation": "This is a direct line from the story and the key idea of the chapter.",
+      "source": "case study"
+    },
+    {
+      "id": "q96",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The Skin-Checking AI Story",
+      "question": "The dataset had far fewer photos of darker skin than of light skin.",
+      "answer": true,
+      "explanation": "The story says the dataset 'had many photos of light skin and far fewer photos of darker skin'.",
+      "source": "case study"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The Skin-Checking AI Story",
+      "question": "Which fix would help the skin-checking AI the MOST?",
+      "options": [
+        "Tell users with darker skin not to use the AI",
+        "Remove the light-skin photos so the dataset is smaller",
+        "Add many more darker-skin photos and retrain the model",
+        "Test the model again on the light-skin photos it knows"
+      ],
+      "answer": 2,
+      "explanation": "Collect more photos for the group the AI gets wrong and retrain — the same step-F idea from the cloud sequence.",
+      "source": "case study + worksheet:Q2 (synthesis)"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Skin-Checking AI Story",
+      "question": "The story's title says the AI worked great for some people 'but NOT for everyone'. Who was left out?",
+      "options": [
+        "People with light skin",
+        "People who were scientists",
+        "People with no skin disease",
+        "People with darker skin"
+      ],
+      "answer": 3,
+      "explanation": "The AI missed more cases on darker skin, so people with darker skin were not served as well.",
+      "source": "case study"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Skin-Checking AI Story",
+      "question": "What does 'The AI learned exactly what it was shown' mean?",
+      "options": [
+        "It could only recognise well what appeared often in its training photos",
+        "It memorised every photo and could repeat them back perfectly",
+        "It understood skin disease the same way a human doctor does",
+        "It learned new things on its own after training finished"
+      ],
+      "answer": 0,
+      "explanation": "The AI's knowledge comes only from its data. Groups with few examples are learned poorly — nothing extra is 'understood'.",
+      "source": "case study"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Skin-Checking AI Story",
+      "question": "WHEN should people check who and what might be missing from the data?",
+      "options": [
+        "Never — the AI checks itself",
+        "Before training the AI",
+        "Only after people complain",
+        "Only once the AI is sold"
+      ],
+      "answer": 1,
+      "explanation": "The scientists' advice is to check 'before training an AI'.",
+      "source": "case study"
+    },
+    {
+      "id": "q101",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "The Skin-Checking AI Story",
+      "question": "Select the TWO statements that are TRUE about the skin-checking AI story.",
+      "options": [
+        "The AI worked very well on light skin",
+        "The AI missed more cases on darker skin",
+        "The AI was broken and had to be rebuilt",
+        "The dataset had equal photos of all skin tones"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The first two come straight from the story. The AI was not broken, and the dataset was unbalanced, not equal.",
+      "source": "case study"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Skin-Checking AI Story",
+      "question": "Who trained the skin-checking AI in the story?",
+      "options": [
+        "A weather station",
+        "School learners",
+        "Scientists",
+        "A nature club"
+      ],
+      "answer": 2,
+      "explanation": "The story begins: 'Scientists trained an AI to spot signs of skin disease from photos.'",
+      "source": "case study"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The Skin-Checking AI Story",
+      "question": "At which step of the cloud-AI sequence did the skin-checking project's mistake really happen?",
+      "options": [
+        "Deciding the categories — skin disease was a bad choice",
+        "Feeding photos into the AI tool — it was too slow",
+        "Testing — the scientists forgot to count results",
+        "Collecting the photos — there was too little variety"
+      ],
+      "answer": 3,
+      "explanation": "The dataset had far fewer darker-skin photos. The problem was in what was collected, not in the categories, the tool or the counting.",
+      "source": "case study + worksheet:Q2 (synthesis)"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The Skin-Checking AI Story",
+      "question": "What kind of photos did the training dataset have MANY of?",
+      "options": [
+        "Photos of light skin",
+        "Photos of darker skin",
+        "Photos of clouds",
+        "Photos of footprints"
+      ],
+      "answer": 0,
+      "explanation": "The dataset 'had many photos of light skin and far fewer photos of darker skin'.",
+      "source": "case study"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Missing Data and Fairness",
+      "question": "In the skin-checking story, what was 'missing from the data'?",
+      "options": [
+        "Photos taken by scientists",
+        "Enough photos of darker skin",
+        "Enough photos of light skin",
+        "Photos of healthy skin only"
+      ],
+      "answer": 1,
+      "explanation": "The dataset had far fewer photos of darker skin, so that group was effectively missing.",
+      "source": "case study"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Missing Data and Fairness",
+      "question": "Why was the skin-checking AI UNFAIR?",
+      "options": [
+        "It only worked for people who were scientists",
+        "It gave slower answers to people in hospitals",
+        "How well it helped you depended on your skin tone",
+        "It charged some people more money than others"
+      ],
+      "answer": 2,
+      "explanation": "The AI worked well for light skin and missed more cases on darker skin — its help was unequal.",
+      "source": "case study (synthesis)"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Missing Data and Fairness",
+      "question": "A voice assistant is trained mostly on adult voices. Using the chapter's idea, what is most likely?",
+      "options": [
+        "It works equally well for everyone",
+        "It works best for children's voices",
+        "It stops working for adults later",
+        "It works worse for children's voices"
+      ],
+      "answer": 3,
+      "explanation": "An AI learns exactly what it is shown. A group with few examples — children — will be recognised less well, like darker skin in the story.",
+      "source": "case study (synthesis)"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Missing Data and Fairness",
+      "question": "The footprint AI is trained only on prints in dry sand. What is the likely result?",
+      "options": [
+        "It often misses prints in mud or snow",
+        "It recognises mud prints best of all",
+        "It works perfectly on every surface",
+        "It refuses to look at sand prints"
+      ],
+      "answer": 0,
+      "explanation": "Conditions that were missing from the training data are the ones the AI handles worst.",
+      "source": "worksheet:Q3 + case study (synthesis)"
+    },
+    {
+      "id": "q109",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Missing Data and Fairness",
+      "question": "An AI with high accuracy on its test photos is guaranteed to work well for every group of people.",
+      "answer": false,
+      "explanation": "The skin-checking AI may have scored well overall yet failed for darker skin. If a group is missing from the data, the test may not reveal it.",
+      "source": "case study (synthesis)"
+    },
+    {
+      "id": "q110",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Missing Data and Fairness",
+      "question": "Checking who and what might be missing from the data helps make an AI fairer.",
+      "answer": true,
+      "explanation": "That is exactly why the scientists give this advice — so no group is left out as darker skin was.",
+      "source": "case study"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Missing Data and Fairness",
+      "question": "Which question should a careful data collector ask BEFORE training?",
+      "options": [
+        "Which computer will train the model fastest?",
+        "Who or what might be missing from my photos?",
+        "Which photo is the prettiest in my collection?",
+        "How quickly can I finish labelling all of these?"
+      ],
+      "answer": 1,
+      "explanation": "This is the scientists' advice from the story.",
+      "source": "case study"
+    },
+    {
+      "id": "q112",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Missing Data and Fairness",
+      "question": "Select the TWO actions that would help AVOID the skin-checking AI's problem.",
+      "options": [
+        "Collect photos from many different kinds of people",
+        "Check which groups have few photos before training",
+        "Train for longer on the same unbalanced photos",
+        "Test only on the photos used for training"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Variety and a 'who is missing' check fix the cause. Longer training on the same data, or testing on training photos, would hide the problem.",
+      "source": "case study (synthesis)"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Missing Data and Fairness",
+      "question": "Complete the sentence: The fewer examples of a group the AI sees, the ___ it learns that group.",
+      "options": [
+        "faster",
+        "fairer",
+        "worse",
+        "better"
+      ],
+      "answer": 2,
+      "explanation": "The AI learned darker skin poorly because it saw far fewer examples of it.",
+      "source": "case study (synthesis)"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Missing Data and Fairness",
+      "question": "Which of these is NOT a lesson from the skin-checking AI story?",
+      "options": [
+        "An AI learns exactly what it is shown",
+        "Missing data can make an AI fail for some people",
+        "Check who is missing from the data before training",
+        "An AI can learn things that humans never showed it"
+      ],
+      "answer": 3,
+      "explanation": "The story teaches the opposite: the AI learned only from what it was shown, which is why missing data mattered.",
+      "source": "case study"
+    },
+    {
+      "id": "q115",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Missing Data and Fairness",
+      "question": "An AI can only learn from the photos it is given.",
+      "answer": true,
+      "explanation": "This is the chapter's core idea: the AI learned exactly what it was shown.",
+      "source": "case study"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Missing Data and Fairness",
+      "question": "The weather station photographs clouds only on sunny days. Using the chapter's idea, what will the model likely struggle with?",
+      "options": [
+        "Clouds on stormy or rainy days",
+        "Clouds on bright sunny days",
+        "Clouds photographed at midday",
+        "Clouds in the Cumulus category"
+      ],
+      "answer": 0,
+      "explanation": "Stormy and rainy conditions would be missing from the data — the 'what' in 'who and what might be missing'.",
+      "source": "worksheet:Q2 + case study (synthesis)"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Missing Data and Fairness",
+      "question": "AI-1 was trained on 1000 photos all of one kind of person. AI-2 was trained on 400 photos of many different people. Which is more likely to work fairly for everyone?",
+      "options": [
+        "Neither, because 1000 photos is too few",
+        "AI-2, because its data covers more people",
+        "AI-1, because 1000 is more than 400",
+        "Both the same, since both have hundreds"
+      ],
+      "answer": 1,
+      "explanation": "Variety matters, not just quantity. AI-1 is like the skin-checking AI — lots of data, but a whole group missing.",
+      "source": "case study (synthesis)"
+    },
+    {
+      "id": "q118",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Missing Data and Fairness",
+      "question": "Adding more photos always fixes unfairness, even if the new photos are all of the same group.",
+      "answer": false,
+      "explanation": "More photos of the already well-covered group do nothing for the group that is missing. The new photos must fill the gap.",
+      "source": "case study (synthesis)"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Missing Data and Fairness",
+      "question": "Complete the scientists' saying: 'Before training an AI, always ___.'",
+      "options": [
+        "pick the largest number of categories you can",
+        "ask the AI which photos it would like to see",
+        "check who and what might be missing from the data",
+        "test the model on the photos it was trained with"
+      ],
+      "answer": 2,
+      "explanation": "This is the closing line of the story.",
+      "source": "case study"
+    },
+    {
+      "id": "q120",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Missing Data and Fairness",
+      "question": "Select the TWO signs that a dataset may be missing something important.",
+      "options": [
+        "One category has far fewer photos than the others",
+        "All the photos were taken in a single condition",
+        "Every photo has been labelled carefully",
+        "The photos came from many different places"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Few photos of one category and no variety in conditions are warning signs. Careful labels and many places are good signs.",
+      "source": "case study + worksheet:Q3 (synthesis)"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Missing Data and Fairness",
+      "question": "The nature club's AI works well for deer and rabbit but badly for fox. Following the scientists' advice, what should the club check FIRST?",
+      "options": [
+        "Whether the fox is simply too clever to be detected",
+        "Whether the computer needs a newer operating system",
+        "Whether deer and rabbit photos should be deleted",
+        "Whether fox photos were few or missing from the data"
+      ],
+      "answer": 3,
+      "explanation": "Poor results for one group usually mean that group was under-represented in the data — the skin-checking lesson applied to footprints.",
+      "source": "worksheet:Q3 + case study (synthesis)"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Data Shapes What AI Learns",
+      "question": "What big question does the worksheet open with?",
+      "options": [
+        "How might the way data is collected and organised influence what an AI learns?",
+        "How might the speed of a computer influence how quickly an AI can learn?",
+        "How might the number of scientists on a team influence how smart an AI is?",
+        "How might the colour of a camera influence the photos an AI can take?"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's guiding question is about how data collection and organisation shape what an AI learns.",
+      "source": "worksheet:header"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How Data Shapes What AI Learns",
+      "question": "Why organise the training data into clear categories with labels?",
+      "options": [
+        "So the humans do not have to look at the photos",
+        "So every example clearly tells the AI what it shows",
+        "So the photos take up less space on the computer",
+        "So the AI can skip the training step completely"
+      ],
+      "answer": 1,
+      "explanation": "Organised, labelled examples are what the worksheet calls training data — the AI learns from each photo's label.",
+      "source": "worksheet:Q1 (synthesis)"
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How Data Shapes What AI Learns",
+      "question": "Some Cirrus photos were accidentally labelled 'Stratus'. What will the model most likely learn?",
+      "options": [
+        "That Stratus clouds only appear on stormy days",
+        "To correct the labels itself during training",
+        "A mixed-up idea of what Stratus and Cirrus look like",
+        "Nothing different, since the AI ignores the labels"
+      ],
+      "answer": 2,
+      "explanation": "The AI learns exactly what it is shown. Wrong labels teach it a wrong pattern.",
+      "source": "worksheet:Q2 (synthesis)"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "How Data Shapes What AI Learns",
+      "question": "Which sentence best sums up the chapter's main idea?",
+      "options": [
+        "A bigger computer always produces a smarter AI model",
+        "An AI learns the same things no matter what it is shown",
+        "Labels are optional once the AI has seen a few photos",
+        "The data humans collect and organise decides what the AI knows"
+      ],
+      "answer": 3,
+      "explanation": "From the cloud steps to the skin-checking story, the message is that an AI learns exactly what its data shows it.",
+      "source": "worksheet (synthesis)"
+    },
+    {
+      "id": "q126",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "How Data Shapes What AI Learns",
+      "question": "The way data is collected can change what an AI learns.",
+      "answer": true,
+      "explanation": "This is the worksheet's guiding question and the lesson of the skin-checking story.",
+      "source": "worksheet:header"
+    },
+    {
+      "id": "q127",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "How Data Shapes What AI Learns",
+      "question": "An AI can learn to recognise a cloud type it has never seen a single photo of.",
+      "answer": false,
+      "explanation": "The AI learns only from what it is shown. A category with no photos cannot be learned.",
+      "source": "case study (synthesis)"
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Data Shapes What AI Learns",
+      "question": "In this chapter, what does 'organised' data mean?",
+      "options": [
+        "Examples sorted into categories, each with a label",
+        "Photos arranged from the largest to the smallest file",
+        "Photos stored in alphabetical order by file name",
+        "Examples that have been tested by the model already"
+      ],
+      "answer": 0,
+      "explanation": "Training data is 'the organised examples used to teach an AI' — sorted into categories and labelled.",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q129",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "How Data Shapes What AI Learns",
+      "question": "Select the TWO things about the data that strongly influence what the AI learns.",
+      "options": [
+        "Whether each photo has the correct label",
+        "Whether every category has enough varied photos",
+        "The font used to write the labels",
+        "The brand of camera used for the photos"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Correct labels and enough variety per category are what the chapter stresses. Font and camera brand are not what shapes learning.",
+      "source": "worksheet:Q2 + Q3 (synthesis)"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "How Data Shapes What AI Learns",
+      "question": "The club trained its footprint AI with photos taken only at noon. It is shown a photo taken at dawn. Why might it get this wrong?",
+      "options": [
+        "The AI only works on photos taken by the club",
+        "Dawn light looks different from anything it was shown",
+        "AI models are switched off early in the morning",
+        "Footprints disappear completely before noon"
+      ],
+      "answer": 1,
+      "explanation": "A condition missing from the data (dawn light) is a condition the AI handles poorly.",
+      "source": "worksheet:Q3 + case study (synthesis)"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How Data Shapes What AI Learns",
+      "question": "Complete: If the training data is poor or unbalanced, the model will be ___.",
+      "options": [
+        "smaller",
+        "fairer",
+        "unreliable",
+        "faster"
+      ],
+      "answer": 2,
+      "explanation": "The skin-checking AI shows that poor data produces a model that fails for some people.",
+      "source": "case study (synthesis)"
+    },
+    {
+      "id": "q132",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "How Data Shapes What AI Learns",
+      "question": "A model's accuracy depends partly on the quality of the data used to train it.",
+      "answer": true,
+      "explanation": "Good, varied, correctly labelled data leads to better accuracy; the footprint and skin examples both show this.",
+      "source": "worksheet (synthesis)"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How Data Shapes What AI Learns",
+      "question": "Which TWO steps of the cloud sequence are about ORGANISING the data?",
+      "options": [
+        "Photographing clouds and testing the model",
+        "Training the model and retraining it later",
+        "Testing the model and recording the results",
+        "Deciding categories and labelling the photos"
+      ],
+      "answer": 3,
+      "explanation": "Choosing categories and labelling sort the photos into organised training data.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "How Data Shapes What AI Learns",
+      "question": "Match the action to its name: taking photos is 'collecting'; which action is 'organising'?",
+      "options": [
+        "Labelling photos into their categories",
+        "Feeding photos into the AI tool",
+        "Counting how many test photos were right",
+        "Choosing the biggest computer available"
+      ],
+      "answer": 0,
+      "explanation": "Collecting gathers examples; organising sorts and labels them; training feeds them to the AI; testing checks the model.",
+      "source": "worksheet:Q2 (synthesis)"
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Data Shapes What AI Learns",
+      "question": "What kind of data was collected in BOTH the cloud project and the footprint project?",
+      "options": [
+        "Written stories",
+        "Photos",
+        "Sound recordings",
+        "Temperature readings"
+      ],
+      "answer": 1,
+      "explanation": "The weather station photographs clouds and the nature club photographs footprints.",
+      "source": "worksheet:Q2 + Q3"
+    },
+    {
+      "id": "q136",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "How Data Shapes What AI Learns",
+      "question": "Select the TWO statements that are TRUE about data and AI.",
+      "options": [
+        "An AI learns exactly what it is shown",
+        "Low accuracy can be improved by collecting more photos and retraining",
+        "An AI understands what a cloud is without any labelled photos",
+        "Testing should be done on the same photos used for training"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The first two come from the story and step F. The others contradict the chapter: labels are needed, and testing uses new photos.",
+      "source": "worksheet:Q2 + case study"
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How Data Shapes What AI Learns",
+      "question": "Two clubs train footprint AIs. Club A labels carefully and photographs in many conditions; Club B labels in a hurry and uses one spot. Whose model will most likely be better?",
+      "options": [
+        "Both equally",
+        "Impossible to say",
+        "Club A's",
+        "Club B's"
+      ],
+      "answer": 2,
+      "explanation": "Careful labels and varied data are what the chapter says lead to a model that learns correctly.",
+      "source": "worksheet:Q3 + Q4 (synthesis)"
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Accuracy, Testing and Retraining",
+      "question": "What should be recorded during the testing step?",
+      "options": [
+        "How many photos were labelled by each person",
+        "How long the camera took to photograph clouds",
+        "How many categories the station first decided",
+        "How many new photos the model gets right"
+      ],
+      "answer": 3,
+      "explanation": "Step B: test the model on new photos 'and record how many it gets right'.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q139",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Accuracy, Testing and Retraining",
+      "question": "The model gets 3 out of 10 new photos right. According to the worksheet, what should happen next?",
+      "options": [
+        "Collect more photos and retrain the model",
+        "Declare the model finished and start using it",
+        "Test again on the same 10 photos to be sure",
+        "Reduce the categories from four to one"
+      ],
+      "answer": 0,
+      "explanation": "3 of 10 is low accuracy, so step F applies: collect more photos and retrain.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q140",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Accuracy, Testing and Retraining",
+      "question": "What should the station do if accuracy is low?",
+      "options": [
+        "Relabel photos to match the model's guesses",
+        "Collect more photos and retrain",
+        "Delete the model and stop the project",
+        "Use the model anyway for forecasts"
+      ],
+      "answer": 1,
+      "explanation": "This is step F of the sequence.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q141",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Accuracy, Testing and Retraining",
+      "question": "When collecting more photos after a low score, which categories should get special attention?",
+      "options": [
+        "The ones with the most photos already",
+        "The ones with the shortest names",
+        "The ones the AI keeps getting wrong",
+        "The ones the AI already gets right"
+      ],
+      "answer": 2,
+      "explanation": "Step F says: 'especially for categories the AI keeps getting wrong'.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q142",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Accuracy, Testing and Retraining",
+      "question": "Accuracy is measured using photos the model has never seen before.",
+      "answer": true,
+      "explanation": "Testing on new photos is how we measure how often the model is correct.",
+      "source": "worksheet:Q1 + Q2"
+    },
+    {
+      "id": "q143",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Accuracy, Testing and Retraining",
+      "question": "If accuracy is low, the best fix is to test the model again on the same photos.",
+      "answer": false,
+      "explanation": "Retesting on the same photos changes nothing. The worksheet's fix is to collect more photos and retrain.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q144",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Accuracy, Testing and Retraining",
+      "question": "A model gets 20 of 20 training photos right but only 8 of 20 NEW photos right. What should we conclude?",
+      "options": [
+        "Its accuracy is perfect because 20 of 20 is 100 percent",
+        "The new photos must be faulty since the model knows clouds",
+        "The model should only ever be used on its training photos",
+        "Its real accuracy is low; it needs more data and retraining"
+      ],
+      "answer": 3,
+      "explanation": "Only the result on NEW photos counts as testing. 8 of 20 is low, so step F applies.",
+      "source": "worksheet:Q1 + Q2 (synthesis)"
+    },
+    {
+      "id": "q145",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Accuracy, Testing and Retraining",
+      "question": "Why is it important to RECORD the test results?",
+      "options": [
+        "To know whether more photos and retraining are needed",
+        "To prove to the camera that the photos were used",
+        "To make the model train faster the next time",
+        "To decide which cloud is the prettiest of all"
+      ],
+      "answer": 0,
+      "explanation": "The recorded results show whether accuracy is high enough or whether step F (retrain) is needed.",
+      "source": "worksheet:Q2 (inferred)"
+    },
+    {
+      "id": "q146",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Accuracy, Testing and Retraining",
+      "question": "Select the TWO things to do after a LOW test score.",
+      "options": [
+        "Collect more photos, especially of the weak categories",
+        "Retrain the model with the new photos",
+        "Stop testing so the low score is not recorded",
+        "Use the model for real work straight away"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Step F: collect more photos and retrain. Hiding the score or using a weak model would be irresponsible.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q147",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Accuracy, Testing and Retraining",
+      "question": "Accuracy is described in the worksheet as ___.",
+      "options": [
+        "how many categories the AI can store",
+        "how often the AI gives the correct answer",
+        "how many photos were used in training",
+        "how quickly the AI tool finishes training"
+      ],
+      "answer": 1,
+      "explanation": "This is the worksheet's meaning for 'Accuracy' (meaning C).",
+      "source": "worksheet:Q1"
+    },
+    {
+      "id": "q148",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Accuracy, Testing and Retraining",
+      "question": "A model with low accuracy should be used anyway, because retraining takes too much time.",
+      "answer": false,
+      "explanation": "The responsible step is to collect more photos and retrain. Using a weak model could give many wrong answers.",
+      "source": "worksheet:Q2 + Q4"
+    },
+    {
+      "id": "q149",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Accuracy, Testing and Retraining",
+      "question": "The model gets Cumulus, Stratus and Cirrus right most of the time but Nimbus wrong most of the time. What is the best plan?",
+      "options": [
+        "Drop Nimbus from the list of categories",
+        "Test only on Cumulus, Stratus and Cirrus",
+        "Collect more Nimbus photos and retrain",
+        "Collect more Cumulus photos and retrain"
+      ],
+      "answer": 2,
+      "explanation": "Focus new photos on the category the AI keeps getting wrong, then retrain — exactly step F.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q150",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Accuracy, Testing and Retraining",
+      "question": "Why does testing happen AFTER training and not before?",
+      "options": [
+        "Testing before training makes the photos blurry",
+        "The worksheet says testing is optional at the start",
+        "Humans are too busy labelling to test earlier",
+        "There is no trained model to test until training is done"
+      ],
+      "answer": 3,
+      "explanation": "A model only exists after the labelled photos are used to train it; testing checks that model.",
+      "source": "worksheet:Q2 (inferred)"
+    },
+    {
+      "id": "q151",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Accuracy, Testing and Retraining",
+      "question": "Retraining means training the model again with more or better photos.",
+      "answer": true,
+      "explanation": "Step F: collect more photos and retrain.",
+      "source": "worksheet:Q2"
+    },
+    {
+      "id": "q152",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Accuracy, Testing and Retraining",
+      "question": "What is the best way to know whether the footprint model is ready to use?",
+      "options": [
+        "Test it on new footprint photos and check how many it gets right",
+        "Ask the model itself whether it feels ready for the forest",
+        "Count how many photos were fed in; 500 means it is ready",
+        "Check that every photo in the training set has a label"
+      ],
+      "answer": 0,
+      "explanation": "Readiness is shown by accuracy on new, unseen photos — not by the amount of training data or the model's own 'opinion'.",
+      "source": "worksheet:Q1 + Q2 (synthesis)"
+    },
+    {
+      "id": "q153",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Accuracy, Testing and Retraining",
+      "question": "'The AI gave the correct answer 90 times out of 100 new photos.' What does this tell us?",
+      "options": [
+        "It was never tested",
+        "Its accuracy is high",
+        "Its accuracy is low",
+        "It needs 10 more labels"
+      ],
+      "answer": 1,
+      "explanation": "90 correct out of 100 means the AI is right most of the time — high accuracy.",
+      "source": "worksheet:Q1 (synthesis)"
+    },
+    {
+      "id": "q154",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Accuracy, Testing and Retraining",
+      "question": "After retraining with more Nimbus photos, what should the station do next?",
+      "options": [
+        "Delete the old Cumulus photos to save space",
+        "Change the categories to Sunny, Rainy and Stormy",
+        "Test again on new photos and record the results",
+        "Assume the problem is fixed and stop checking"
+      ],
+      "answer": 2,
+      "explanation": "Retraining leads back to testing — step F is a loop that continues until accuracy is good.",
+      "source": "worksheet:Q2 (synthesis)"
+    }
+  ]
+}

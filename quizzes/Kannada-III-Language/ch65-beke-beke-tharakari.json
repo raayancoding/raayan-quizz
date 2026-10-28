@@ -1,0 +1,799 @@
+{
+  "schemaVersion": 1,
+  "id": "kannada-iii-ch65-beke-beke-tharakari",
+  "title": "ಪದ್ಯ - ಬೇಕೇ ಬೇಕೇ ತರಕಾರಿ (Beke Beke Tharakari)",
+  "subject": "Kannada-III-Language",
+  "grade": 4,
+  "chapter": "65. ಪದ್ಯ - ಬೇಕೇ ಬೇಕೇ ತರಕಾರಿ",
+  "topic": "Full Chapter",
+  "description": "ಬೇಕೇ ಬೇಕೇ ತರಕಾರಿ ಪದ್ಯದ ವಿಷಯವಾದ ತರಕಾರಿಗಳು ಮತ್ತು ಆರೋಗ್ಯಕರ ಆಹಾರದ ಜೊತೆಗೆ ಮೂರನೇ ತರಗತಿಯ ಮೂಲ ಕನ್ನಡ ಭಾಷಾ ಜ್ಞಾನವನ್ನು (ಅಕ್ಷರಮಾಲೆ, ಕಾಗುಣಿತ, ಶಬ್ದಾರ್ಥ, ವ್ಯಾಕರಣ) ಪರೀಕ್ಷಿಸುವ ರಸಪ್ರಶ್ನೆ.",
+  "tags": [
+    "kannada",
+    "grade4",
+    "poem",
+    "vegetables",
+    "language"
+  ],
+  "defaultTimeLimitSec": 900,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "topic": "ತರಕಾರಿಗಳು",
+      "source": "topic:65_Beke-Beke-tharakari",
+      "question": "ಟೊಮೇಟೊ ಸಾಮಾನ್ಯವಾಗಿ ಯಾವ ಬಣ್ಣದಲ್ಲಿ ಇರುತ್ತದೆ?",
+      "options": [
+        "ಕೆಂಪು",
+        "ನೀಲಿ",
+        "ಕಪ್ಪು",
+        "ಬಂಗಾರ"
+      ],
+      "answer": 0,
+      "explanation": "ಹಣ್ಣಾದ ಟೊಮೇಟೊ ಕೆಂಪು ಬಣ್ಣದಲ್ಲಿ ಇರುತ್ತದೆ.",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "topic": "ತರಕಾರಿಗಳು",
+      "source": "topic:65_Beke-Beke-tharakari",
+      "question": "ಈ ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಯಾವುದು ತರಕಾರಿ?",
+      "options": [
+        "ಬದನೆಕಾಯಿ",
+        "ಸೇಬು",
+        "ಬಾಳೆಹಣ್ಣು",
+        "ಮಾವಿನಹಣ್ಣು"
+      ],
+      "answer": 0,
+      "explanation": "ಬದನೆಕಾಯಿ ಒಂದು ತರಕಾರಿ; ಸೇಬು, ಬಾಳೆಹಣ್ಣು, ಮಾವಿನಹಣ್ಣು ಇವು ಹಣ್ಣುಗಳು.",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "topic": "ತರಕಾರಿಗಳು",
+      "source": "topic:65_Beke-Beke-tharakari",
+      "question": "ಕ್ಯಾರೆಟ್ (ಗಜ್ಜರಿ) ಸಾಮಾನ್ಯವಾಗಿ ಯಾವ ಬಣ್ಣದಲ್ಲಿ ಇರುತ್ತದೆ?",
+      "options": [
+        "ಕಿತ್ತಳೆ",
+        "ನೀಲಿ",
+        "ಕಪ್ಪು",
+        "ಬಿಳಿ"
+      ],
+      "answer": 0,
+      "explanation": "ಕ್ಯಾರೆಟ್ ಕಿತ್ತಳೆ (orange) ಬಣ್ಣದಲ್ಲಿ ಇರುತ್ತದೆ.",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "topic": "ತರಕಾರಿಗಳು",
+      "source": "topic:65_Beke-Beke-tharakari",
+      "question": "'ಆಲೂಗಡ್ಡೆ' ಅನ್ನು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ?",
+      "options": [
+        "Potato",
+        "Tomato",
+        "Onion",
+        "Mango"
+      ],
+      "answer": 0,
+      "explanation": "ಆಲೂಗಡ್ಡೆ = Potato (ಪೊಟೇಟೊ).",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "topic": "ತರಕಾರಿಗಳು",
+      "source": "topic:65_Beke-Beke-tharakari",
+      "question": "'ಈರುಳ್ಳಿ' ಅನ್ನು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ?",
+      "options": [
+        "Onion",
+        "Apple",
+        "Carrot",
+        "Milk"
+      ],
+      "answer": 0,
+      "explanation": "ಈರುಳ್ಳಿ = Onion (ಆನಿಯನ್).",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q6",
+      "type": "boolean",
+      "topic": "ಆರೋಗ್ಯಕರ ಆಹಾರ",
+      "source": "topic:65_Beke-Beke-tharakari",
+      "question": "ತರಕಾರಿಗಳನ್ನು ತಿನ್ನುವುದು ನಮ್ಮ ಆರೋಗ್ಯಕ್ಕೆ ಒಳ್ಳೆಯದು.",
+      "answer": true,
+      "explanation": "ಹೌದು, ತರಕಾರಿಗಳಲ್ಲಿ ಪೋಷಕಾಂಶಗಳು ಇರುವುದರಿಂದ ಅವು ಆರೋಗ್ಯಕ್ಕೆ ಒಳ್ಳೆಯದು.",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "topic": "ತರಕಾರಿಗಳು",
+      "source": "topic:65_Beke-Beke-tharakari",
+      "question": "ಈ ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಯಾವ ತರಕಾರಿ ಭೂಮಿಯ ಒಳಗೆ ಬೆಳೆಯುತ್ತದೆ?",
+      "options": [
+        "ಆಲೂಗಡ್ಡೆ",
+        "ಬೆಂಡೆಕಾಯಿ",
+        "ಟೊಮೇಟೊ",
+        "ಎಲೆಕೋಸು"
+      ],
+      "answer": 0,
+      "explanation": "ಆಲೂಗಡ್ಡೆ ಭೂಮಿಯ ಒಳಗೆ (ಗಡ್ಡೆಯಾಗಿ) ಬೆಳೆಯುತ್ತದೆ.",
+      "difficulty": "tough"
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "topic": "ತರಕಾರಿಗಳು",
+      "source": "topic:65_Beke-Beke-tharakari",
+      "question": "ಈ ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಯಾವುದು ಹಸಿರು ಬಣ್ಣದ ತರಕಾರಿ?",
+      "options": [
+        "ಬೆಂಡೆಕಾಯಿ",
+        "ಟೊಮೇಟೊ",
+        "ಕ್ಯಾರೆಟ್",
+        "ಗಜ್ಜರಿ"
+      ],
+      "answer": 0,
+      "explanation": "ಬೆಂಡೆಕಾಯಿ ಹಸಿರು ಬಣ್ಣದಲ್ಲಿ ಇರುತ್ತದೆ; ಟೊಮೇಟೊ ಕೆಂಪು, ಕ್ಯಾರೆಟ್ ಕಿತ್ತಳೆ.",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "topic": "ತರಕಾರಿಗಳು",
+      "source": "topic:65_Beke-Beke-tharakari",
+      "question": "'ಮೆಣಸಿನಕಾಯಿ' ಅನ್ನು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ?",
+      "options": [
+        "Chilli",
+        "Onion",
+        "Potato",
+        "Peas"
+      ],
+      "answer": 0,
+      "explanation": "ಮೆಣಸಿನಕಾಯಿ = Chilli (ಚಿಲ್ಲಿ).",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "topic": "ತರಕಾರಿಗಳು",
+      "source": "topic:65_Beke-Beke-tharakari",
+      "question": "'ಬಟಾಣಿ' ಅನ್ನು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ?",
+      "options": [
+        "Peas",
+        "Beans",
+        "Carrot",
+        "Cabbage"
+      ],
+      "answer": 0,
+      "explanation": "ಬಟಾಣಿ = Peas (ಪೀಸ್).",
+      "difficulty": "tough"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "topic": "ತರಕಾರಿಗಳು",
+      "source": "topic:65_Beke-Beke-tharakari",
+      "question": "ಒಂದು ಟೊಮೇಟೊ ಜೊತೆಗೆ ಇನ್ನೂ ಎರಡು ಟೊಮೇಟೊ ಸೇರಿಸಿದರೆ ಒಟ್ಟು ಎಷ್ಟು ಟೊಮೇಟೊ?",
+      "options": [
+        "ಮೂರು",
+        "ಎರಡು",
+        "ನಾಲ್ಕು",
+        "ಐದು"
+      ],
+      "answer": 0,
+      "explanation": "೧ + ೨ = ೩. ಒಟ್ಟು ಮೂರು ಟೊಮೇಟೊ.",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q12",
+      "type": "boolean",
+      "topic": "ಆರೋಗ್ಯಕರ ಆಹಾರ",
+      "source": "topic:65_Beke-Beke-tharakari",
+      "question": "ತರಕಾರಿಗಳಲ್ಲಿ ವಿಟಮಿನ್‌ಗಳು ಮತ್ತು ಪೋಷಕಾಂಶಗಳು ಇರುತ್ತವೆ.",
+      "answer": true,
+      "explanation": "ಹೌದು, ತರಕಾರಿಗಳಲ್ಲಿ ವಿಟಮಿನ್‌ಗಳು, ನಾರು (fibre) ಮತ್ತು ಖನಿಜಗಳು ಇರುತ್ತವೆ.",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "topic": "ತರಕಾರಿಗಳು",
+      "source": "topic:65_Beke-Beke-tharakari",
+      "question": "'ಎಲೆಕೋಸು' ಅನ್ನು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ?",
+      "options": [
+        "Cabbage",
+        "Cauliflower",
+        "Cucumber",
+        "Onion"
+      ],
+      "answer": 0,
+      "explanation": "ಎಲೆಕೋಸು = Cabbage (ಕ್ಯಾಬೇಜ್).",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "topic": "ತರಕಾರಿಗಳು",
+      "source": "topic:65_Beke-Beke-tharakari",
+      "question": "'ಹೂಕೋಸು' ಅನ್ನು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ?",
+      "options": [
+        "Cauliflower",
+        "Cabbage",
+        "Carrot",
+        "Beans"
+      ],
+      "answer": 0,
+      "explanation": "ಹೂಕೋಸು = Cauliflower (ಕಾಲಿಫ್ಲವರ್).",
+      "difficulty": "tough"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "topic": "ತರಕಾರಿಗಳು",
+      "source": "topic:65_Beke-Beke-tharakari",
+      "question": "'ಸೌತೆಕಾಯಿ' ಅನ್ನು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ?",
+      "options": [
+        "Cucumber",
+        "Tomato",
+        "Potato",
+        "Chilli"
+      ],
+      "answer": 0,
+      "explanation": "ಸೌತೆಕಾಯಿ = Cucumber (ಕುಕುಂಬರ್).",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q16",
+      "type": "multiple",
+      "topic": "ತರಕಾರಿಗಳು",
+      "source": "topic:65_Beke-Beke-tharakari",
+      "question": "ಈ ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಯಾವುವು ತರಕಾರಿಗಳು? (ಎಲ್ಲವನ್ನೂ ಆರಿಸಿ)",
+      "options": [
+        "ಆಲೂಗಡ್ಡೆ",
+        "ಸೇಬು",
+        "ಬದನೆಕಾಯಿ",
+        "ಬಾಳೆಹಣ್ಣು"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "ಆಲೂಗಡ್ಡೆ ಮತ್ತು ಬದನೆಕಾಯಿ ತರಕಾರಿಗಳು; ಸೇಬು ಮತ್ತು ಬಾಳೆಹಣ್ಣು ಹಣ್ಣುಗಳು.",
+      "difficulty": "tricky"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "topic": "ಆರೋಗ್ಯಕರ ಆಹಾರ",
+      "source": "topic:65_Beke-Beke-tharakari",
+      "question": "ಪ್ರತಿದಿನ ಯಾವುದನ್ನು ತಿನ್ನುವುದು ಆರೋಗ್ಯಕ್ಕೆ ಹೆಚ್ಚು ಒಳ್ಳೆಯದು?",
+      "options": [
+        "ತರಕಾರಿ ಮತ್ತು ಹಣ್ಣುಗಳು",
+        "ಚಾಕೊಲೇಟ್ ಮಾತ್ರ",
+        "ಚಿಪ್ಸ್ ಮಾತ್ರ",
+        "ಸಿಹಿ ಮಾತ್ರ"
+      ],
+      "answer": 0,
+      "explanation": "ತರಕಾರಿ ಮತ್ತು ಹಣ್ಣುಗಳನ್ನು ತಿನ್ನುವುದು ಆರೋಗ್ಯಕ್ಕೆ ಒಳ್ಳೆಯದು; ಚಾಕೊಲೇಟ್/ಚಿಪ್ಸ್ ಮಾತ್ರ ತಿನ್ನುವುದು ಒಳ್ಳೆಯದಲ್ಲ.",
+      "difficulty": "tough"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "topic": "ತರಕಾರಿಗಳು",
+      "source": "topic:65_Beke-Beke-tharakari",
+      "question": "'ಬೆಂಡೆಕಾಯಿ' ಅನ್ನು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ?",
+      "options": [
+        "Okra (Lady's finger)",
+        "Onion",
+        "Peas",
+        "Cabbage"
+      ],
+      "answer": 0,
+      "explanation": "ಬೆಂಡೆಕಾಯಿ = Okra / Lady's finger (ಓಕ್ರಾ).",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "topic": "ತರಕಾರಿಗಳು",
+      "source": "topic:65_Beke-Beke-tharakari",
+      "question": "ಈ ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಯಾವುದು ತರಕಾರಿ ಅಲ್ಲ?",
+      "options": [
+        "ಮಾವಿನಹಣ್ಣು",
+        "ಆಲೂಗಡ್ಡೆ",
+        "ಈರುಳ್ಳಿ",
+        "ಟೊಮೇಟೊ"
+      ],
+      "answer": 0,
+      "explanation": "ಮಾವಿನಹಣ್ಣು ಒಂದು ಹಣ್ಣು; ಆಲೂಗಡ್ಡೆ, ಈರುಳ್ಳಿ, ಟೊಮೇಟೊ ತರಕಾರಿಗಳಾಗಿ ಬಳಸುತ್ತೇವೆ.",
+      "difficulty": "tricky"
+    },
+    {
+      "id": "q20",
+      "type": "boolean",
+      "topic": "ಆರೋಗ್ಯಕರ ಆಹಾರ",
+      "source": "topic:65_Beke-Beke-tharakari",
+      "question": "ತರಕಾರಿಗಳನ್ನು ತಿನ್ನುವ ಮೊದಲು ಚೆನ್ನಾಗಿ ತೊಳೆಯಬೇಕು.",
+      "answer": true,
+      "explanation": "ಹೌದು, ತರಕಾರಿಗಳ ಮೇಲಿನ ಮಣ್ಣು ಮತ್ತು ಕ್ರಿಮಿಗಳು ಹೋಗಲು ಅವನ್ನು ತೊಳೆಯಬೇಕು.",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "topic": "ಅಕ್ಷರಮಾಲೆ",
+      "source": "general-kannada",
+      "question": "'ಅ' ಎಂಬುದು ಯಾವ ಬಗೆಯ ಅಕ್ಷರ?",
+      "options": [
+        "ಸ್ವರ",
+        "ವ್ಯಂಜನ",
+        "ಸಂಖ್ಯೆ",
+        "ಬಣ್ಣ"
+      ],
+      "answer": 0,
+      "explanation": "'ಅ' ಒಂದು ಸ್ವರ (vowel).",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "topic": "ಅಕ್ಷರಮಾಲೆ",
+      "source": "general-kannada",
+      "question": "'ಕ' ಎಂಬುದು ಯಾವ ಬಗೆಯ ಅಕ್ಷರ?",
+      "options": [
+        "ವ್ಯಂಜನ",
+        "ಸ್ವರ",
+        "ಸಂಖ್ಯೆ",
+        "ಬಣ್ಣ"
+      ],
+      "answer": 0,
+      "explanation": "'ಕ' ಒಂದು ವ್ಯಂಜನ (consonant).",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "topic": "ಅಕ್ಷರಮಾಲೆ",
+      "source": "general-kannada",
+      "question": "ಕನ್ನಡದಲ್ಲಿ ಎಷ್ಟು ಸ್ವರಗಳಿವೆ?",
+      "options": [
+        "13",
+        "10",
+        "5",
+        "34"
+      ],
+      "answer": 0,
+      "explanation": "ಕನ್ನಡದಲ್ಲಿ ೧೩ (13) ಸ್ವರಗಳಿವೆ.",
+      "difficulty": "tough"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "topic": "ಅಕ್ಷರಮಾಲೆ",
+      "source": "general-kannada",
+      "question": "ಕನ್ನಡದಲ್ಲಿ ಎಷ್ಟು ವ್ಯಂಜನಗಳಿವೆ?",
+      "options": [
+        "34",
+        "13",
+        "26",
+        "49"
+      ],
+      "answer": 0,
+      "explanation": "ಕನ್ನಡದಲ್ಲಿ ೩೪ (34) ವ್ಯಂಜನಗಳಿವೆ.",
+      "difficulty": "tough"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "topic": "ಅಕ್ಷರಮಾಲೆ",
+      "source": "general-kannada",
+      "question": "ಈ ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಯಾವುದು ಸ್ವರ ಅಲ್ಲ?",
+      "options": [
+        "ಕ",
+        "ಅ",
+        "ಇ",
+        "ಉ"
+      ],
+      "answer": 0,
+      "explanation": "'ಕ' ಒಂದು ವ್ಯಂಜನ, ಸ್ವರ ಅಲ್ಲ; ಅ, ಇ, ಉ ಇವು ಸ್ವರಗಳು.",
+      "difficulty": "tricky"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "topic": "ಅಕ್ಷರಮಾಲೆ",
+      "source": "general-kannada",
+      "question": "ಈ ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಯಾವುದು ವ್ಯಂಜನ?",
+      "options": [
+        "ತ",
+        "ಆ",
+        "ಉ",
+        "ಎ"
+      ],
+      "answer": 0,
+      "explanation": "'ತ' ಒಂದು ವ್ಯಂಜನ; ಆ, ಉ, ಎ ಇವು ಸ್ವರಗಳು.",
+      "difficulty": "tough"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "topic": "ಕಾಗುಣಿತ",
+      "source": "general-kannada",
+      "question": "ಕ + ಆ = ?",
+      "options": [
+        "ಕಾ",
+        "ಕಿ",
+        "ಕು",
+        "ಕೆ"
+      ],
+      "answer": 0,
+      "explanation": "ವ್ಯಂಜನ 'ಕ'ಗೆ ಸ್ವರ 'ಆ' ಸೇರಿದರೆ 'ಕಾ' ಆಗುತ್ತದೆ.",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "topic": "ಕಾಗುಣಿತ",
+      "source": "general-kannada",
+      "question": "ಕ + ಇ = ?",
+      "options": [
+        "ಕಿ",
+        "ಕಾ",
+        "ಕು",
+        "ಕೊ"
+      ],
+      "answer": 0,
+      "explanation": "'ಕ'ಗೆ 'ಇ' ಸ್ವರ ಸೇರಿದರೆ 'ಕಿ' ಆಗುತ್ತದೆ.",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "topic": "ಕಾಗುಣಿತ",
+      "source": "general-kannada",
+      "question": "ಮ + ಆ = ?",
+      "options": [
+        "ಮಾ",
+        "ಮಿ",
+        "ಮು",
+        "ಮೆ"
+      ],
+      "answer": 0,
+      "explanation": "'ಮ'ಗೆ 'ಆ' ಸ್ವರ ಸೇರಿದರೆ 'ಮಾ' ಆಗುತ್ತದೆ.",
+      "difficulty": "tough"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "topic": "ಕಾಗುಣಿತ",
+      "source": "general-kannada",
+      "question": "ಪ + ಉ = ?",
+      "options": [
+        "ಪು",
+        "ಪಾ",
+        "ಪಿ",
+        "ಪೆ"
+      ],
+      "answer": 0,
+      "explanation": "'ಪ'ಗೆ 'ಉ' ಸ್ವರ ಸೇರಿದರೆ 'ಪು' ಆಗುತ್ತದೆ.",
+      "difficulty": "tough"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "topic": "ಕಾಗುಣಿತ",
+      "source": "general-kannada",
+      "question": "'ಕೀ' ಎಂಬ ಅಕ್ಷರ ಯಾವ ಸೇರ್ಪಡೆಯಿಂದ ಆಗುತ್ತದೆ?",
+      "options": [
+        "ಕ + ಈ",
+        "ಕ + ಇ",
+        "ಕ + ಆ",
+        "ಕ + ಉ"
+      ],
+      "answer": 0,
+      "explanation": "'ಕ' + 'ಈ' = 'ಕೀ'.",
+      "difficulty": "tricky"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "general-kannada",
+      "question": "'ದೊಡ್ಡ' ಪದದ ವಿರುದ್ಧ ಪದ ಯಾವುದು?",
+      "options": [
+        "ಚಿಕ್ಕ",
+        "ಒಳ್ಳೆಯ",
+        "ಬಿಸಿ",
+        "ಹೊಸ"
+      ],
+      "answer": 0,
+      "explanation": "ದೊಡ್ಡ × ಚಿಕ್ಕ (big × small).",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "general-kannada",
+      "question": "'ಹಗಲು' ಪದದ ವಿರುದ್ಧ ಪದ ಯಾವುದು?",
+      "options": [
+        "ರಾತ್ರಿ",
+        "ಬೆಳಕು",
+        "ಮನೆ",
+        "ಮರ"
+      ],
+      "answer": 0,
+      "explanation": "ಹಗಲು × ರಾತ್ರಿ (day × night).",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "general-kannada",
+      "question": "'ಒಳ್ಳೆಯ' ಪದದ ವಿರುದ್ಧ ಪದ ಯಾವುದು?",
+      "options": [
+        "ಕೆಟ್ಟ",
+        "ದೊಡ್ಡ",
+        "ಹೊಸ",
+        "ಬಿಸಿ"
+      ],
+      "answer": 0,
+      "explanation": "ಒಳ್ಳೆಯ × ಕೆಟ್ಟ (good × bad).",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "general-kannada",
+      "question": "'ಮೇಲೆ' ಪದದ ವಿರುದ್ಧ ಪದ ಯಾವುದು?",
+      "options": [
+        "ಕೆಳಗೆ",
+        "ಒಳಗೆ",
+        "ಹೊರಗೆ",
+        "ಮುಂದೆ"
+      ],
+      "answer": 0,
+      "explanation": "ಮೇಲೆ × ಕೆಳಗೆ (up × down).",
+      "difficulty": "tough"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "general-kannada",
+      "question": "'ಹೊಸ' ಪದದ ವಿರುದ್ಧ ಪದ ಯಾವುದು?",
+      "options": [
+        "ಹಳೆಯ",
+        "ದೊಡ್ಡ",
+        "ಒಳ್ಳೆಯ",
+        "ಬಿಸಿ"
+      ],
+      "answer": 0,
+      "explanation": "ಹೊಸ × ಹಳೆಯ (new × old).",
+      "difficulty": "tough"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "general-kannada",
+      "question": "'ಬೆಳಕು' ಪದದ ವಿರುದ್ಧ ಪದ ಯಾವುದು?",
+      "options": [
+        "ಕತ್ತಲು",
+        "ಬಿಸಿಲು",
+        "ನೆರಳು",
+        "ಮಳೆ"
+      ],
+      "answer": 0,
+      "explanation": "ಬೆಳಕು × ಕತ್ತಲು (light × dark). ('ನೆರಳು' ಎಂದರೆ shadow, ಇದು ವಿರುದ್ಧ ಪದ ಅಲ್ಲ.)",
+      "difficulty": "tricky"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "general-kannada",
+      "question": "'ಮರ' ಪದದ ಬಹುವಚನ ಯಾವುದು?",
+      "options": [
+        "ಮರಗಳು",
+        "ಮರ",
+        "ಮರದ",
+        "ಮರಕ್ಕೆ"
+      ],
+      "answer": 0,
+      "explanation": "ಮರ (ಏಕವಚನ) → ಮರಗಳು (ಬಹುವಚನ).",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "general-kannada",
+      "question": "'ಹೂ' ಪದದ ಬಹುವಚನ ಯಾವುದು?",
+      "options": [
+        "ಹೂಗಳು",
+        "ಹೂ",
+        "ಹೂವಿನ",
+        "ಹೂವಿಗೆ"
+      ],
+      "answer": 0,
+      "explanation": "ಹೂ (ಏಕವಚನ) → ಹೂಗಳು (ಬಹುವಚನ).",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "general-kannada",
+      "question": "'ಹುಡುಗ' ಪದದ ಬಹುವಚನ ಯಾವುದು?",
+      "options": [
+        "ಹುಡುಗರು",
+        "ಹುಡುಗಿ",
+        "ಹುಡುಗ",
+        "ಹುಡುಗನ"
+      ],
+      "answer": 0,
+      "explanation": "ಹುಡುಗ (ಏಕವಚನ) → ಹುಡುಗರು (ಬಹುವಚನ).",
+      "difficulty": "tough"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "topic": "ವ್ಯಾಕರಣ",
+      "source": "general-kannada",
+      "question": "'ಪುಸ್ತಕಗಳು' ಎಂಬುದು ಏಕವಚನವೋ ಅಥವಾ ಬಹುವಚನವೋ?",
+      "options": [
+        "ಬಹುವಚನ",
+        "ಏಕವಚನ",
+        "ಸ್ವರ",
+        "ವ್ಯಂಜನ"
+      ],
+      "answer": 0,
+      "explanation": "'ಪುಸ್ತಕಗಳು' ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಪುಸ್ತಕಗಳನ್ನು ಸೂಚಿಸುತ್ತದೆ, ಆದ್ದರಿಂದ ಇದು ಬಹುವಚನ.",
+      "difficulty": "tricky"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "topic": "ಶಬ್ದಾರ್ಥ",
+      "source": "general-kannada",
+      "question": "'ನೀರು' ಪದದ ಅರ್ಥ (ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ) ಯಾವುದು?",
+      "options": [
+        "Water",
+        "Milk",
+        "Fire",
+        "Air"
+      ],
+      "answer": 0,
+      "explanation": "ನೀರು = Water.",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "topic": "ಶಬ್ದಾರ್ಥ",
+      "source": "general-kannada",
+      "question": "'ಹಾಲು' ಪದದ ಅರ್ಥ (ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ) ಯಾವುದು?",
+      "options": [
+        "Milk",
+        "Water",
+        "Curd",
+        "Oil"
+      ],
+      "answer": 0,
+      "explanation": "ಹಾಲು = Milk.",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "topic": "ಶಬ್ದಾರ್ಥ",
+      "source": "general-kannada",
+      "question": "'ಸೂರ್ಯ' ಪದದ ಅರ್ಥ (ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ) ಯಾವುದು?",
+      "options": [
+        "Sun",
+        "Moon",
+        "Star",
+        "Sky"
+      ],
+      "answer": 0,
+      "explanation": "ಸೂರ್ಯ = Sun.",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "topic": "ಶಬ್ದಾರ್ಥ",
+      "source": "general-kannada",
+      "question": "'ಚಂದ್ರ' ಪದದ ಅರ್ಥ (ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ) ಯಾವುದು?",
+      "options": [
+        "Moon",
+        "Sun",
+        "Cloud",
+        "Star"
+      ],
+      "answer": 0,
+      "explanation": "ಚಂದ್ರ = Moon.",
+      "difficulty": "tough"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "topic": "ಶಬ್ದಾರ್ಥ",
+      "source": "general-kannada",
+      "question": "'ಹಸು' ಪದದ ಅರ್ಥ (ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ) ಯಾವುದು?",
+      "options": [
+        "Cow",
+        "Dog",
+        "Cat",
+        "Goat"
+      ],
+      "answer": 0,
+      "explanation": "ಹಸು = Cow.",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "topic": "ಶಬ್ದಾರ್ಥ",
+      "source": "general-kannada",
+      "question": "'ಬೆಕ್ಕು' ಪದದ ಅರ್ಥ (ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ) ಯಾವುದು?",
+      "options": [
+        "Cat",
+        "Dog",
+        "Cow",
+        "Rat"
+      ],
+      "answer": 0,
+      "explanation": "ಬೆಕ್ಕು = Cat.",
+      "difficulty": "tough"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "topic": "ಬಣ್ಣ",
+      "source": "general-kannada",
+      "question": "'ಕೆಂಪು' ಬಣ್ಣವನ್ನು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ?",
+      "options": [
+        "Red",
+        "Green",
+        "Blue",
+        "Yellow"
+      ],
+      "answer": 0,
+      "explanation": "ಕೆಂಪು = Red.",
+      "difficulty": "simple"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "topic": "ಬಣ್ಣ",
+      "source": "general-kannada",
+      "question": "'ಹಸಿರು' ಬಣ್ಣವನ್ನು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ?",
+      "options": [
+        "Green",
+        "Red",
+        "Blue",
+        "Black"
+      ],
+      "answer": 0,
+      "explanation": "ಹಸಿರು = Green.",
+      "difficulty": "tough"
+    },
+    {
+      "id": "q50",
+      "type": "boolean",
+      "topic": "ಅಕ್ಷರಮಾಲೆ",
+      "source": "general-kannada",
+      "question": "'ಆ' ಎಂಬುದು ಒಂದು ವ್ಯಂಜನ.",
+      "answer": false,
+      "explanation": "ಇಲ್ಲ, 'ಆ' ಒಂದು ಸ್ವರ (vowel), ವ್ಯಂಜನ ಅಲ್ಲ.",
+      "difficulty": "tricky"
+    }
+  ]
+}

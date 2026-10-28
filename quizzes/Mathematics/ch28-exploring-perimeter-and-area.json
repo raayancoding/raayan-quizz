@@ -1,0 +1,1823 @@
+{
+  "schemaVersion": 1,
+  "id": "mathematics-ch28-exploring-perimeter-and-area",
+  "title": "Exploring Perimeter and Area",
+  "subject": "Mathematics",
+  "grade": 4,
+  "chapter": "28. Exploring Perimeter and Area",
+  "topic": "Full Book",
+  "description": "Master perimeter and area of squares, rectangles and other shapes through formulas, square-grid counting, missing-side problems, and real-world examples from space stations to Olympic tracks.",
+  "tags": [
+    "mathematics",
+    "grade4",
+    "perimeter",
+    "area",
+    "measurement",
+    "geometry",
+    "rectangles",
+    "squares",
+    "word-problems",
+    "square-grid",
+    "real-world-math"
+  ],
+  "defaultTimeLimitSec": 1200,
+  "questions": [
+    {
+      "type": "single",
+      "question": "What is the perimeter of a closed shape?",
+      "difficulty": "simple",
+      "explanation": "The book's Spotlight box says: 'The length of the boundary of any closed shape is called its perimeter.' So perimeter simply means walking all the way around the outside edge of a shape and adding up that distance.",
+      "source": "book:page45",
+      "topic": "What is Perimeter",
+      "options": [
+        "The distance around its boundary (edge)",
+        "The space covered inside the shape",
+        "The number of corners it has",
+        "The number of straight sides it has"
+      ],
+      "answer": 0,
+      "id": "q1"
+    },
+    {
+      "type": "single",
+      "question": "Which units can perimeter be measured in, according to the chapter?",
+      "difficulty": "simple",
+      "explanation": "Perimeter is a LENGTH (a distance), so it uses plain length units: centimetre (cm), metre (m) or kilometre (km). It is never measured in square units like cm² — those are reserved for area.",
+      "source": "book:page45",
+      "topic": "What is Perimeter",
+      "options": [
+        "Centimetre (cm), metre (m), kilometre (km)",
+        "Square centimetre (cm²) only",
+        "Litres and millilitres",
+        "Kilograms and grams"
+      ],
+      "answer": 0,
+      "id": "q2"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: Perimeter is always measured in square units like cm² or m².",
+      "difficulty": "simple",
+      "explanation": "False. Perimeter measures a length (the distance around a boundary), so it is measured in plain length units — cm, m, km — not square units. Square units (cm², m²) are used for area, not perimeter.",
+      "source": "book:page45,52",
+      "topic": "What is Perimeter",
+      "answer": false,
+      "id": "q3"
+    },
+    {
+      "type": "single",
+      "question": "In the Wonder Junction thread-and-pins activity, how do you measure the perimeter of a shape?",
+      "difficulty": "simple",
+      "explanation": "The book's activity: fix a thread at a starting pin, loop it around pins placed along the boundary, cut the thread when you return to the start, then lay it straight against a ruler/tape to measure its length — that length is the perimeter.",
+      "source": "book:page45",
+      "topic": "What is Perimeter",
+      "options": [
+        "Loop thread around the boundary through pins, then measure the thread's straightened length with a ruler",
+        "Weigh the thread before and after",
+        "Count how many pins fit inside the shape",
+        "Multiply the number of pins by 2"
+      ],
+      "answer": 0,
+      "id": "q4"
+    },
+    {
+      "type": "single",
+      "question": "A shape has a curved, wavy boundary (not made only of straight lines). Can you still find its perimeter, and how?",
+      "difficulty": "tough",
+      "explanation": "Yes — the thread-and-pins method works for ANY closed shape, including ones with curves (like the wavy cloud outline in the book's activity), because a flexible thread can bend around the curve. A rigid ruler alone cannot follow a curve, which is why the book uses thread instead.",
+      "source": "book:page45",
+      "topic": "What is Perimeter",
+      "options": [
+        "Yes — using a thread that bends around the curve, then measuring its straightened length",
+        "No — perimeter can only be found for shapes with straight sides",
+        "Yes — by counting the corners",
+        "No — you would first need to know the area"
+      ],
+      "answer": 0,
+      "id": "q5"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: The book's Wonder Junction activity warns you to handle the measuring pins carefully and use them only under supervision.",
+      "difficulty": "simple",
+      "explanation": "True. The activity box explicitly says: 'Handle the pins carefully and use them only under supervision,' since pins are sharp and this is a safety reminder for the hands-on measuring activity.",
+      "source": "book:page45",
+      "topic": "What is Perimeter",
+      "answer": true,
+      "id": "q6"
+    },
+    {
+      "type": "multiple",
+      "question": "Which of the following statements about perimeter are TRUE?",
+      "difficulty": "tough",
+      "explanation": "Perimeter is the distance measured all the way around a shape's boundary (statement 1), it is expressed in length units like cm/m/km (statement 2), and it can be measured for curved shapes using a bendable thread (statement 3). It does NOT tell you how much space is inside a shape — that is area, not perimeter.",
+      "source": "book:page45",
+      "topic": "What is Perimeter",
+      "options": [
+        "It is the distance around a shape's boundary",
+        "It is measured in length units (cm, m, km)",
+        "It can be found for curved shapes using a thread",
+        "It tells you how much space is inside a shape"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "id": "q7"
+    },
+    {
+      "type": "single",
+      "question": "In the Guidepost example, the outer edges of a plus/cross-shaped figure on a grid are numbered 1 to 10 as you trace around it. What does each number represent?",
+      "difficulty": "simple",
+      "explanation": "Each number marks one unit-length edge of the grid along the shape's outer boundary. Counting all the way around from 1 to 10 and back to the start tells you the shape's perimeter is 10 units.",
+      "source": "book:page46",
+      "topic": "What is Perimeter",
+      "options": [
+        "One unit-length edge along the boundary",
+        "One full grid square",
+        "One corner of the shape only",
+        "One row of the grid"
+      ],
+      "answer": 0,
+      "id": "q8"
+    },
+    {
+      "type": "single",
+      "question": "In the Guidepost example, a plus/cross-shaped figure is drawn on square-grid paper and its boundary edges are numbered 1 through 10. What is its perimeter?",
+      "difficulty": "simple",
+      "explanation": "Counting every unit-length edge along the outer boundary of the cross shape, one at a time, all the way around back to the start, gives exactly 10 edges — so its perimeter is 10 units.",
+      "source": "book:page46",
+      "topic": "Finding Perimeter Using Square Grid",
+      "options": [
+        "10 units",
+        "8 units",
+        "12 units",
+        "16 units"
+      ],
+      "answer": 0,
+      "id": "q9"
+    },
+    {
+      "type": "single",
+      "question": "When a square-grid problem says 'assume the length of each small square is 1 unit,' what does that tell you?",
+      "difficulty": "simple",
+      "explanation": "It means every edge of every small grid square equals 1 unit of length, so you can find the perimeter of a shape drawn on the grid simply by counting how many such edges lie along its outer boundary.",
+      "source": "book:page46",
+      "topic": "Finding Perimeter Using Square Grid",
+      "options": [
+        "Each edge of a grid square equals 1 unit of length, so you can count edges to find perimeter directly",
+        "Each grid square has an area of 1 unit",
+        "Only whole squares count toward perimeter",
+        "The whole grid is exactly 1 unit long"
+      ],
+      "answer": 0,
+      "id": "q10"
+    },
+    {
+      "type": "single",
+      "question": "To find the perimeter of a rectilinear shape (one made only of straight horizontal/vertical grid lines) drawn on square-grid paper, what should you do?",
+      "difficulty": "tough",
+      "explanation": "Start at any corner of the shape and count every outer boundary edge, one unit at a time, moving in one direction all the way around until you return to your starting point. The total number of unit edges counted is the perimeter.",
+      "source": "book:page45",
+      "topic": "Finding Perimeter Using Square Grid",
+      "options": [
+        "Start at any corner and count every outer boundary edge, all the way back to the start",
+        "Count only the top and bottom edges",
+        "Multiply the number of grid squares inside by 4",
+        "Count only the corners of the shape"
+      ],
+      "answer": 0,
+      "id": "q11"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: If you traced the Guidepost cross-shape's boundary starting from a DIFFERENT corner (but still went all the way around once), its perimeter would change.",
+      "difficulty": "tough",
+      "explanation": "False. Perimeter is a fixed property of the shape's boundary — it does not depend on which point you start counting from or which direction you go. The cross shape's perimeter is 10 units no matter where you begin.",
+      "source": "book:page46 (concept)",
+      "topic": "Finding Perimeter Using Square Grid",
+      "answer": false,
+      "id": "q12"
+    },
+    {
+      "type": "single",
+      "question": "Using the same grid-edge-counting method as the Guidepost example: if you trace all the way around a rectilinear shape's boundary and count up to 14 by the time you return to your starting edge, what is its perimeter?",
+      "difficulty": "tricky",
+      "explanation": "The grid-edge-counting method says the perimeter equals the total number of unit edges you count while going all the way around the boundary once. If that count reaches 14, the perimeter is 14 units.",
+      "source": "book method (grid-edge counting), original example",
+      "topic": "Finding Perimeter Using Square Grid",
+      "options": [
+        "14 units",
+        "13 units",
+        "15 units",
+        "7 units"
+      ],
+      "answer": 0,
+      "id": "q13"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: On square-grid paper, you find PERIMETER by counting only the squares that are completely shaded/inside the shape.",
+      "difficulty": "tricky",
+      "explanation": "False — that describes how you find AREA (counting inside squares), not perimeter. For perimeter, you count the unit edges along the OUTER BOUNDARY of the shape instead. Mixing these two counting methods up is a very common mistake.",
+      "source": "book:page45,52 (concept contrast)",
+      "topic": "Finding Perimeter Using Square Grid",
+      "answer": false,
+      "id": "q14"
+    },
+    {
+      "type": "single",
+      "question": "A rectangle has sides measuring 5 cm, 4 cm, 5 cm and 4 cm. What is its perimeter?",
+      "difficulty": "simple",
+      "explanation": "Perimeter = sum of the lengths of all sides = 5 + 4 + 5 + 4 = 18 cm.",
+      "source": "book:page47 (Guidepost 1)",
+      "topic": "Perimeter with Given Side Lengths",
+      "options": [
+        "18 cm",
+        "20 cm",
+        "9 cm",
+        "16 cm"
+      ],
+      "answer": 0,
+      "id": "q15"
+    },
+    {
+      "type": "single",
+      "question": "Why do we add up all four side lengths to find the perimeter of a rectangle, instead of just doubling one side?",
+      "difficulty": "tough",
+      "explanation": "Perimeter is defined as the total distance around the whole boundary, so every side must be counted once. A rectangle has two pairs of equal sides (length and breadth), so adding all four — length + breadth + length + breadth — correctly covers the entire boundary exactly once.",
+      "source": "book:page47 (concept)",
+      "topic": "Perimeter with Given Side Lengths",
+      "options": [
+        "Because perimeter means the total distance around the whole boundary, and every side is part of that boundary",
+        "Because rectangles only have two real sides",
+        "Because doubling one side always gives the same answer",
+        "Because the shorter sides don't count toward perimeter"
+      ],
+      "answer": 0,
+      "id": "q16"
+    },
+    {
+      "type": "single",
+      "question": "A pentagon has sides measuring 7 cm, 6 cm, 5 cm, 2 cm and 4 cm. What is its perimeter?",
+      "difficulty": "simple",
+      "explanation": "Perimeter = sum of all 5 sides = 7 + 6 + 5 + 2 + 4 = 24 cm.",
+      "source": "book:page47 (Guidepost 2)",
+      "topic": "Perimeter with Given Side Lengths",
+      "options": [
+        "24 cm",
+        "22 cm",
+        "26 cm",
+        "20 cm"
+      ],
+      "answer": 0,
+      "id": "q17"
+    },
+    {
+      "type": "single",
+      "question": "A square has each side measuring 5 cm. Using the shortcut 'perimeter = 4 × side' (since all 4 sides of a square are equal), what is its perimeter?",
+      "difficulty": "simple",
+      "explanation": "Since every side of a square is equal, instead of adding 5 + 5 + 5 + 5 one at a time, we can multiply: 4 × 5 = 20 cm. This shortcut works for any square.",
+      "source": "book:page48 (Checkpoint 1, item 2a)",
+      "topic": "Perimeter with Given Side Lengths",
+      "options": [
+        "20 cm",
+        "25 cm",
+        "15 cm",
+        "10 cm"
+      ],
+      "answer": 0,
+      "id": "q18"
+    },
+    {
+      "type": "single",
+      "question": "A triangle has sides measuring 5 cm, 6 cm and 8 cm. What is its perimeter?",
+      "difficulty": "simple",
+      "explanation": "Perimeter = sum of all 3 sides = 5 + 6 + 8 = 19 cm.",
+      "source": "book:page48 (item 2b)",
+      "topic": "Perimeter with Given Side Lengths",
+      "options": [
+        "19 cm",
+        "18 cm",
+        "21 cm",
+        "24 cm"
+      ],
+      "answer": 0,
+      "id": "q19"
+    },
+    {
+      "type": "single",
+      "question": "A four-sided shape has sides measuring 3 cm (top), 5 cm (left), 8 cm (bottom) and 6 cm (right, slanted). What is its perimeter?",
+      "difficulty": "tough",
+      "explanation": "Perimeter = sum of all 4 sides = 3 + 5 + 8 + 6 = 22 cm. Even though the shape isn't a simple rectangle, the 'add up every side' method still works for any closed shape.",
+      "source": "book:page48 (item 2c)",
+      "topic": "Perimeter with Given Side Lengths",
+      "options": [
+        "22 cm",
+        "20 cm",
+        "24 cm",
+        "19 cm"
+      ],
+      "answer": 0,
+      "id": "q20"
+    },
+    {
+      "type": "single",
+      "question": "A four-sided shape (a trapezoid) has sides measuring 7 cm (top), 6 cm (right), 11 cm (bottom) and 5 cm (left). What is its perimeter?",
+      "difficulty": "tough",
+      "explanation": "Perimeter = sum of all 4 sides = 7 + 6 + 11 + 5 = 29 cm.",
+      "source": "book:page48 (item 2d)",
+      "topic": "Perimeter with Given Side Lengths",
+      "options": [
+        "29 cm",
+        "27 cm",
+        "24 cm",
+        "18 cm"
+      ],
+      "answer": 0,
+      "id": "q21"
+    },
+    {
+      "type": "single",
+      "question": "A hexagon has two sides of 9 cm each and four sides of 6 cm each. What is its total perimeter?",
+      "difficulty": "tough",
+      "explanation": "Add the two 9 cm sides and the four 6 cm sides together: 9 + 6 + 6 + 9 + 6 + 6 = 42 cm. (This can also be grouped as (2 × 9) + (4 × 6) = 18 + 24 = 42 cm.)",
+      "source": "book:page50 (Checkpoint 1, item 2a)",
+      "topic": "Perimeter with Given Side Lengths",
+      "options": [
+        "42 cm",
+        "36 cm",
+        "39 cm",
+        "48 cm"
+      ],
+      "answer": 0,
+      "id": "q22"
+    },
+    {
+      "type": "single",
+      "question": "A parallelogram has two sides of 7 cm each and two sides of 4 cm each. Using the shortcut 'perimeter = 2 × (side1 + side2)', what is its perimeter?",
+      "difficulty": "simple",
+      "explanation": "For any shape with two pairs of equal opposite sides (like a parallelogram or rectangle), perimeter = 2 × (7 + 4) = 2 × 11 = 22 cm — much faster than adding 7+4+7+4 one at a time.",
+      "source": "book:page50 (Checkpoint 1, item 2b)",
+      "topic": "Perimeter with Given Side Lengths",
+      "options": [
+        "22 cm",
+        "11 cm",
+        "28 cm",
+        "18 cm"
+      ],
+      "answer": 0,
+      "id": "q23"
+    },
+    {
+      "type": "single",
+      "question": "A square has each side measuring 3 cm. What is its perimeter?",
+      "difficulty": "simple",
+      "explanation": "Perimeter of a square = 4 × side = 4 × 3 = 12 cm.",
+      "source": "book:page59 (item 3a)",
+      "topic": "Perimeter with Given Side Lengths",
+      "options": [
+        "12 cm",
+        "9 cm",
+        "15 cm",
+        "6 cm"
+      ],
+      "answer": 0,
+      "id": "q24"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: A rectangle with length 5 cm and breadth 4 cm has the same perimeter as a rectangle with length 4 cm and breadth 5 cm.",
+      "difficulty": "tricky",
+      "explanation": "True. Perimeter = 2 × (length + breadth). Since 2 × (5 + 4) = 18 cm and 2 × (4 + 5) = 18 cm give the same total, swapping which side you call 'length' and which you call 'breadth' never changes the perimeter — they are the same rectangle either way.",
+      "source": "book:page47 (concept)",
+      "topic": "Perimeter with Given Side Lengths",
+      "answer": true,
+      "id": "q25"
+    },
+    {
+      "type": "multiple",
+      "question": "Which of these shapes have a perimeter GREATER than 20 cm? (Pentagon: 7,6,5,2,4 cm sides. Triangle: 5,6,8 cm sides. Trapezoid: 7,6,11,5 cm sides. Parallelogram: two 7 cm and two 4 cm sides.)",
+      "difficulty": "tricky",
+      "explanation": "Pentagon = 7+6+5+2+4 = 24 cm (greater than 20). Triangle = 5+6+8 = 19 cm (NOT greater than 20). Trapezoid = 7+6+11+5 = 29 cm (greater than 20). Parallelogram = 2×(7+4) = 22 cm (greater than 20). So the pentagon, trapezoid and parallelogram all qualify — only the triangle does not.",
+      "source": "book:page48,50 (computed)",
+      "topic": "Perimeter with Given Side Lengths",
+      "options": [
+        "Pentagon (24 cm)",
+        "Triangle (19 cm)",
+        "Trapezoid (29 cm)",
+        "Parallelogram (22 cm)"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "id": "q26"
+    },
+    {
+      "type": "single",
+      "question": "For a square with side 5 cm, which is the FASTEST correct way to find its perimeter?",
+      "difficulty": "tough",
+      "explanation": "4 × 5 = 20 cm is correct and fastest, since all 4 sides of a square are equal. Adding 5+5+5 (only 3 sides) misses a side. And 5 × 5 = 25 cm is actually the AREA of the square, not its perimeter — a very common mix-up to watch out for.",
+      "source": "book:page48 (concept)",
+      "topic": "Perimeter with Given Side Lengths",
+      "options": [
+        "4 × 5 = 20 cm, since all 4 sides of a square are equal",
+        "5 + 5 + 5 = 15 cm",
+        "5 × 5 = 25 cm (this is actually the area, not the perimeter!)",
+        "2 × 5 = 10 cm"
+      ],
+      "answer": 0,
+      "id": "q27"
+    },
+    {
+      "type": "single",
+      "question": "Two sides of a hexagon measure 9 cm each and the other four sides measure 6 cm each. What is the hexagon's total perimeter?",
+      "difficulty": "tough",
+      "explanation": "Total perimeter = (2 × 9) + (4 × 6) = 18 + 24 = 42 cm.",
+      "source": "book:page50 (Checkpoint 1, item 2a, restated)",
+      "topic": "Perimeter with Given Side Lengths",
+      "options": [
+        "42 cm",
+        "40 cm",
+        "45 cm",
+        "36 cm"
+      ],
+      "answer": 0,
+      "id": "q28"
+    },
+    {
+      "type": "single",
+      "question": "A triangle has two sides of 5 cm each, and its total perimeter is 14 cm. What is the length of the third side?",
+      "difficulty": "simple",
+      "explanation": "5 cm + ? + 5 cm = 14 cm, so 10 + ? = 14, which means ? = 14 − 10 = 4 cm.",
+      "source": "book:page47 (Guidepost 3)",
+      "topic": "Finding a Missing Side from Perimeter",
+      "options": [
+        "4 cm",
+        "5 cm",
+        "9 cm",
+        "6 cm"
+      ],
+      "answer": 0,
+      "id": "q29"
+    },
+    {
+      "type": "single",
+      "question": "A quadrilateral has three known sides of 2 cm, 7 cm and 5 cm, and its total perimeter is 22 cm. What is the length of the fourth side?",
+      "difficulty": "tough",
+      "explanation": "Add the known sides: 2 + 7 + 5 = 14 cm. Then subtract from the total perimeter: 22 − 14 = 8 cm.",
+      "source": "book:page48 (item 3a)",
+      "topic": "Finding a Missing Side from Perimeter",
+      "options": [
+        "8 cm",
+        "6 cm",
+        "10 cm",
+        "14 cm"
+      ],
+      "answer": 0,
+      "id": "q30"
+    },
+    {
+      "type": "single",
+      "question": "A seven-sided shape has a perimeter of 27 cm. Six of its sides measure 2 cm, 2 cm, 3 cm, 3 cm, 5 cm and 7 cm. What is the length of the missing 7th side?",
+      "difficulty": "tricky",
+      "explanation": "Add the six known sides carefully: 2 + 2 + 3 + 3 + 5 + 7 = 22 cm. Then subtract from the total perimeter: 27 − 22 = 5 cm.",
+      "source": "book:page48 (item 3b)",
+      "topic": "Finding a Missing Side from Perimeter",
+      "options": [
+        "5 cm",
+        "4 cm",
+        "6 cm",
+        "7 cm"
+      ],
+      "answer": 0,
+      "id": "q31"
+    },
+    {
+      "type": "single",
+      "question": "A square has 3 of its sides labelled 4 cm each, and its perimeter is 16 cm. What is the length of the 4th side?",
+      "difficulty": "simple",
+      "explanation": "Since it is a square, all 4 sides must already be equal (16 ÷ 4 = 4 cm), so the missing side is 4 cm — you can also check this by subtracting: 16 − (4+4+4) = 16 − 12 = 4 cm.",
+      "source": "book:page50 (Checkpoint 1, item 3)",
+      "topic": "Finding a Missing Side from Perimeter",
+      "options": [
+        "4 cm",
+        "8 cm",
+        "12 cm",
+        "2 cm"
+      ],
+      "answer": 0,
+      "id": "q32"
+    },
+    {
+      "type": "single",
+      "question": "To find a missing side when you already know the total perimeter and all the other side lengths, what should you do?",
+      "difficulty": "tough",
+      "explanation": "Subtract the sum of all the known sides from the total perimeter — whatever is left over is the length of the missing side. This is exactly the method used for the triangle, quadrilateral and star-shape problems in the book.",
+      "source": "book:page47,48 (concept)",
+      "topic": "Finding a Missing Side from Perimeter",
+      "options": [
+        "Subtract the sum of the known sides from the total perimeter",
+        "Add the total perimeter to the known sides",
+        "Multiply the known sides together",
+        "Divide the perimeter by the number of known sides"
+      ],
+      "answer": 0,
+      "id": "q33"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: If a square's perimeter is 16 cm, all 4 of its sides must be 4 cm each, even if only 3 sides are labelled on a diagram.",
+      "difficulty": "tricky",
+      "explanation": "True. Because it is a SQUARE, all sides are automatically equal by definition, so 16 ÷ 4 = 4 cm applies to every side — the 4th side has to match the other 3 without needing to subtract anything, unlike an irregular shape where sides can all be different.",
+      "source": "book:page50 (concept)",
+      "topic": "Finding a Missing Side from Perimeter",
+      "answer": true,
+      "id": "q34"
+    },
+    {
+      "type": "single",
+      "question": "A triangle has two sides of 5 cm each and a total perimeter of 14 cm. What is the length of the third side?",
+      "difficulty": "simple",
+      "explanation": "5 + 5 + ? = 14, so 10 + ? = 14, giving ? = 14 − 10 = 4 cm.",
+      "source": "book:page47 (Guidepost 3, restated)",
+      "topic": "Finding a Missing Side from Perimeter",
+      "options": [
+        "4 cm",
+        "3 cm",
+        "9 cm",
+        "5 cm"
+      ],
+      "answer": 0,
+      "id": "q35"
+    },
+    {
+      "type": "single",
+      "question": "A quadrilateral has sides of 2 cm, 7 cm and 5 cm, and a total perimeter of 22 cm. What is the length of the fourth side?",
+      "difficulty": "tough",
+      "explanation": "Sum of known sides = 2 + 7 + 5 = 14 cm. Missing side = 22 − 14 = 8 cm.",
+      "source": "book:page48 (item 3a, restated)",
+      "topic": "Finding a Missing Side from Perimeter",
+      "options": [
+        "8 cm",
+        "9 cm",
+        "7 cm",
+        "15 cm"
+      ],
+      "answer": 0,
+      "id": "q36"
+    },
+    {
+      "type": "single",
+      "question": "A rectilinear shape has a perimeter of 30 cm and exactly 4 sides. Three of its sides measure 6 cm, 8 cm and 10 cm. What is the length of the missing 4th side?",
+      "difficulty": "tricky",
+      "explanation": "Sum of known sides = 6 + 8 + 10 = 24 cm. Missing side = 30 − 24 = 6 cm.",
+      "source": "book method (missing side from perimeter), original example",
+      "topic": "Finding a Missing Side from Perimeter",
+      "options": [
+        "6 cm",
+        "4 cm",
+        "8 cm",
+        "12 cm"
+      ],
+      "answer": 0,
+      "id": "q37"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: If you know a shape's total perimeter and ALL but one of its side lengths, you can always find the missing side.",
+      "difficulty": "simple",
+      "explanation": "True — subtract the sum of the known sides from the total perimeter, exactly as done for the triangle, quadrilateral and star-shape problems in the chapter.",
+      "source": "book:page47,48 (concept)",
+      "topic": "Finding a Missing Side from Perimeter",
+      "answer": true,
+      "id": "q38"
+    },
+    {
+      "type": "single",
+      "question": "A rectangular photo frame measures 20 cm by 16 cm. What length of lace is required to decorate its boundary?",
+      "difficulty": "simple",
+      "explanation": "The lace goes all the way around the frame's edge, so we need its perimeter: 2 × (20 + 16) = 2 × 36 = 72 cm of lace.",
+      "source": "book:page49 (item 4)",
+      "topic": "Perimeter Word Problems",
+      "options": [
+        "72 cm",
+        "36 cm",
+        "320 cm",
+        "80 cm"
+      ],
+      "answer": 0,
+      "id": "q39"
+    },
+    {
+      "type": "single",
+      "question": "Why do we use PERIMETER (not area) to find how much lace is needed to decorate the boundary of a photo frame?",
+      "difficulty": "tough",
+      "explanation": "Lace is laid along the edge/boundary of the frame, and perimeter is exactly the length of that boundary. Area would instead tell us how much flat space the frame covers, which has nothing to do with how much lace is needed to trim its edge.",
+      "source": "book:page49 (concept)",
+      "topic": "Perimeter Word Problems",
+      "options": [
+        "Because lace decorates the boundary/edge, and perimeter measures exactly that boundary length",
+        "Because lace is sold by area",
+        "Because area is always smaller than perimeter",
+        "Because perimeter and area always give the same number"
+      ],
+      "answer": 0,
+      "id": "q40"
+    },
+    {
+      "type": "single",
+      "question": "A square farm has a side length of 10 m. What length of fencing material is required to fence the entire farm?",
+      "difficulty": "simple",
+      "explanation": "Perimeter of a square = 4 × side = 4 × 10 = 40 m of fencing.",
+      "source": "book:page49 (item 5)",
+      "topic": "Perimeter Word Problems",
+      "options": [
+        "40 m",
+        "100 m",
+        "20 m",
+        "10 m"
+      ],
+      "answer": 0,
+      "id": "q41"
+    },
+    {
+      "type": "single",
+      "question": "A hexagonal rose garden has two sides of 14 m each and the remaining four sides of 16 m each. How much fencing material is needed to enclose the whole garden?",
+      "difficulty": "tough",
+      "explanation": "Total fencing = perimeter = (2 × 14) + (4 × 16) = 28 + 64 = 92 m.",
+      "source": "book:page51 (item 4)",
+      "topic": "Perimeter Word Problems",
+      "options": [
+        "92 m",
+        "88 m",
+        "84 m",
+        "96 m"
+      ],
+      "answer": 0,
+      "id": "q42"
+    },
+    {
+      "type": "single",
+      "question": "To fence a square ground of side 100 m using FOUR separate rows (lines) of wire strung one above another, how much wire is needed in total?",
+      "difficulty": "tricky",
+      "explanation": "One single line around the boundary needs the perimeter: 4 × 100 = 400 m. But since FOUR lines of wire are needed (each one going all the way around), the total is 4 × 400 = 1,600 m of wire.",
+      "source": "book:page60 (item 6, Statement I)",
+      "topic": "Perimeter Word Problems",
+      "options": [
+        "1,600 m",
+        "400 m",
+        "800 m",
+        "10,000 m"
+      ],
+      "answer": 0,
+      "id": "q43"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: To find the length of fencing wire needed around a shape, you first need to calculate its AREA.",
+      "difficulty": "tricky",
+      "explanation": "False. Fencing goes around the BOUNDARY of a shape, so you need its PERIMETER, not its area. Area tells you how much surface the shape covers, which is a completely different measurement.",
+      "source": "book:page60 (item 6, Statement II)",
+      "topic": "Perimeter Word Problems",
+      "answer": false,
+      "id": "q44"
+    },
+    {
+      "type": "single",
+      "question": "Joy wants to decorate the edges of her scrapbook's cover page with golden thread. Should she calculate the area or the perimeter of the cover page?",
+      "difficulty": "simple",
+      "explanation": "Perimeter — decorating an EDGE means going around the boundary of the page, which is exactly what perimeter measures.",
+      "source": "book:page52 (Perimeter vs Area exercise, item 1)",
+      "topic": "Perimeter Word Problems",
+      "options": [
+        "Perimeter",
+        "Area",
+        "Both give the same answer",
+        "Neither — she needs the diameter"
+      ],
+      "answer": 0,
+      "id": "q45"
+    },
+    {
+      "type": "single",
+      "question": "Maya jogs around a rectangular ground in front of her house every morning. The total distance she covers in one round is best described as the ground's _____.",
+      "difficulty": "simple",
+      "explanation": "Perimeter — jogging 'around' the ground means tracing its boundary once, and the total distance of that trip is exactly the perimeter.",
+      "source": "book:page52 (Perimeter vs Area exercise, item 3)",
+      "topic": "Perimeter Word Problems",
+      "options": [
+        "Perimeter",
+        "Area",
+        "Diagonal",
+        "Radius"
+      ],
+      "answer": 0,
+      "id": "q46"
+    },
+    {
+      "type": "multiple",
+      "question": "In Abdul's farm problem, he divides his farm into plots for apple, cherry and peach trees. He wants to (1) spread soil evenly over each plot and (2) put a single line of wire fencing around each plot. Which measurement does each task need?",
+      "difficulty": "tough",
+      "explanation": "Spreading soil evenly over a plot means covering its whole surface, which needs AREA. Putting a line of wire fencing around a plot means going along its boundary, which needs PERIMETER. So both statements below correctly match task to measurement.",
+      "source": "book:page55 (item 2)",
+      "topic": "Perimeter Word Problems",
+      "options": [
+        "Spreading soil over a plot needs its AREA",
+        "Spreading soil over a plot needs its PERIMETER",
+        "Fencing around a plot needs its PERIMETER",
+        "Fencing around a plot needs its AREA"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "id": "q47"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: If Abdul divides his apple tree plot into 2 equal parts, the PERIMETER of each new part becomes exactly half of the original plot's perimeter.",
+      "difficulty": "tricky",
+      "explanation": "False. The AREA of each part does become exactly half, but the perimeter usually does NOT — because two brand-new cut edges appear where the plot was divided, and these new edges add extra boundary length that wasn't part of the original perimeter.",
+      "source": "book:page55 (item 2b, concept)",
+      "topic": "Perimeter Word Problems",
+      "answer": false,
+      "id": "q48"
+    },
+    {
+      "type": "single",
+      "question": "A square has a side of 8 cm. What is its perimeter?",
+      "difficulty": "simple",
+      "explanation": "Perimeter of a square = 4 × side = 4 × 8 = 32 cm.",
+      "source": "book:page51 (item 5)",
+      "topic": "Perimeter Stays the Same: The Corner-Cut Trick",
+      "options": [
+        "32 cm",
+        "64 cm",
+        "24 cm",
+        "16 cm"
+      ],
+      "answer": 0,
+      "id": "q49"
+    },
+    {
+      "type": "single",
+      "question": "From that 8 cm square, a smaller 3 cm × 3 cm square is cut out of one corner (leaving a notched, L-shaped piece). What is the perimeter of the REMAINING notched shape?",
+      "difficulty": "tricky",
+      "explanation": "Cutting the notch removes two 3 cm stretches from two of the original sides, but it also adds two brand-new 3 cm edges (the inward step of the notch). So the perimeter change is: 32 − (3+3) + (3+3) = 32 cm — exactly unchanged, even though a piece was cut away!",
+      "source": "book:page51 (item 5)",
+      "topic": "Perimeter Stays the Same: The Corner-Cut Trick",
+      "options": [
+        "32 cm (exactly the same as the original!)",
+        "29 cm (32 minus 3)",
+        "26 cm (32 minus 2×3)",
+        "35 cm (32 plus 3)"
+      ],
+      "answer": 0,
+      "id": "q50"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: Cutting a square notch out of a shape's corner always makes its perimeter smaller.",
+      "difficulty": "tricky",
+      "explanation": "False. As shown by the 8 cm square with a 3 cm corner notch cut out, the perimeter stayed exactly the same (32 cm) — you lose some boundary where the notch is cut, but you gain new boundary along the inward step of the notch, and these amounts cancel out.",
+      "source": "book:page51 (concept)",
+      "topic": "Perimeter Stays the Same: The Corner-Cut Trick",
+      "answer": false,
+      "id": "q51"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: The notched (L-shaped) piece from the corner-cutting activity has LESS area than the original 8 cm square.",
+      "difficulty": "tough",
+      "explanation": "True. The 3 cm × 3 cm notch (9 sq cm) is physically removed from the material, so the remaining shape covers less surface than before. Unlike perimeter, area DOES decrease when material is cut away.",
+      "source": "book:page51 (concept)",
+      "topic": "Perimeter Stays the Same: The Corner-Cut Trick",
+      "answer": true,
+      "id": "q52"
+    },
+    {
+      "type": "single",
+      "question": "What is the key lesson from the corner-cutting activity on the 8 cm square?",
+      "difficulty": "tricky",
+      "explanation": "Area and perimeter don't always change together — cutting a corner notch out of a shape can leave the perimeter completely unchanged while still reducing the area, showing that these two measurements track different things about a shape.",
+      "source": "book:page51 (concept)",
+      "topic": "Perimeter Stays the Same: The Corner-Cut Trick",
+      "options": [
+        "Area and perimeter don't always change together — one can stay the same while the other changes",
+        "Area and perimeter always change by the same amount together",
+        "Cutting a corner always increases both area and perimeter",
+        "Perimeter cannot be found for shapes with a notch"
+      ],
+      "answer": 0,
+      "id": "q53"
+    },
+    {
+      "type": "single",
+      "question": "What is the area of the small square piece that was cut out of the corner of the 8 cm square?",
+      "difficulty": "simple",
+      "explanation": "The cut-out piece is a 3 cm × 3 cm square, so its area = 3 × 3 = 9 sq cm.",
+      "source": "book:page51 (item 5)",
+      "topic": "Perimeter Stays the Same: The Corner-Cut Trick",
+      "options": [
+        "9 sq cm",
+        "6 sq cm",
+        "12 sq cm",
+        "3 sq cm"
+      ],
+      "answer": 0,
+      "id": "q54"
+    },
+    {
+      "type": "single",
+      "question": "What is the area of the original 8 cm square, and therefore the area of the notched shape left after cutting out the 3 cm × 3 cm corner piece?",
+      "difficulty": "tough",
+      "explanation": "Original area = 8 × 8 = 64 sq cm. After removing the 9 sq cm notch, the remaining shape's area = 64 − 9 = 55 sq cm.",
+      "source": "book:page51 (computed)",
+      "topic": "Perimeter Stays the Same: The Corner-Cut Trick",
+      "options": [
+        "Original 64 sq cm; remaining 55 sq cm",
+        "Original 64 sq cm; remaining 61 sq cm",
+        "Original 32 sq cm; remaining 23 sq cm",
+        "Original 64 sq cm; remaining 32 sq cm"
+      ],
+      "answer": 0,
+      "id": "q55"
+    },
+    {
+      "type": "multiple",
+      "question": "Which of these statements about the corner-cutting activity (8 cm square, 3 cm notch cut out) are TRUE?",
+      "difficulty": "tough",
+      "explanation": "The original square's perimeter is 4×8 = 32 cm, and the notched shape's perimeter is also 32 cm (unchanged). However, the notched shape's area (55 sq cm) IS smaller than the original (64 sq cm) — so the first three statements are true, and the fourth (claiming equal area) is false.",
+      "source": "book:page51 (concept)",
+      "topic": "Perimeter Stays the Same: The Corner-Cut Trick",
+      "options": [
+        "The original square's perimeter was 32 cm",
+        "The remaining notched shape's perimeter is also 32 cm",
+        "The remaining shape's area is smaller than the original",
+        "The remaining shape's area is exactly the same as the original"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "id": "q56"
+    },
+    {
+      "type": "single",
+      "question": "What is the area of a shape?",
+      "difficulty": "simple",
+      "explanation": "Area is the number of 1×1 unit squares needed to completely cover a shape's surface without any gaps or overlaps.",
+      "source": "book:page51,52",
+      "topic": "What is Area",
+      "options": [
+        "The number of 1×1 unit squares needed to cover it without gaps or overlaps",
+        "The distance around its boundary",
+        "The number of corners it has",
+        "The length of its longest side"
+      ],
+      "answer": 0,
+      "id": "q57"
+    },
+    {
+      "type": "single",
+      "question": "A unit square has a side length of 1 unit. What is its area?",
+      "difficulty": "simple",
+      "explanation": "Area of any square = side × side, so a unit square's area = 1 × 1 = 1 square unit.",
+      "source": "book:page52",
+      "topic": "What is Area",
+      "options": [
+        "1 square unit",
+        "4 square units",
+        "2 square units",
+        "0 square units"
+      ],
+      "answer": 0,
+      "id": "q58"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: That same unit square (side = 1 unit) has a perimeter of 4 units AND an area of 1 square unit.",
+      "difficulty": "simple",
+      "explanation": "True. Perimeter = 1+1+1+1 = 4 units, while area = 1×1 = 1 square unit. These are two completely different measurements of the very same little square.",
+      "source": "book:page52",
+      "topic": "What is Area",
+      "answer": true,
+      "id": "q59"
+    },
+    {
+      "type": "single",
+      "question": "In which units can area be expressed, according to the chapter?",
+      "difficulty": "simple",
+      "explanation": "Area is expressed in square units: square centimetre (cm²), square metre (m²), or square kilometre (km²) — never in plain length units like cm or m alone.",
+      "source": "book:page52",
+      "topic": "What is Area",
+      "options": [
+        "Square centimetre (cm²), square metre (m²), square kilometre (km²)",
+        "Centimetre, metre, kilometre only",
+        "Litres and millilitres",
+        "Grams and kilograms"
+      ],
+      "answer": 0,
+      "id": "q60"
+    },
+    {
+      "type": "single",
+      "question": "A chocolate slab is made of small square pieces, each of length 1 unit, with no gaps or overlaps between them. If the slab has 12 such pieces, what is its area?",
+      "difficulty": "tough",
+      "explanation": "Since each piece is exactly 1 unit square in area, and there are 12 of them covering the slab with no gaps or overlaps, the total area is 12 square units.",
+      "source": "book:page51 (Wonder Junction)",
+      "topic": "What is Area",
+      "options": [
+        "12 square units",
+        "10 square units",
+        "16 square units",
+        "8 square units"
+      ],
+      "answer": 0,
+      "id": "q61"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: 'Area' means the space INSIDE a shape's boundary, while 'perimeter' means the distance AROUND it.",
+      "difficulty": "simple",
+      "explanation": "True — this is exactly the book's Spotlight box: 'Area is the space inside. Perimeter is the distance around.'",
+      "source": "book:page52 (Spotlight)",
+      "topic": "What is Area",
+      "answer": true,
+      "id": "q62"
+    },
+    {
+      "type": "single",
+      "question": "In the chocolate-slab activity, what happens to the AREA of the slab as pieces are broken off and eaten?",
+      "difficulty": "tough",
+      "explanation": "The area decreases, because there are now fewer unit squares left to cover the remaining space — each piece eaten removes exactly 1 square unit of area.",
+      "source": "book:page52 (Think Route)",
+      "topic": "What is Area",
+      "options": [
+        "The area decreases, because fewer unit squares are left to cover the space",
+        "The area stays exactly the same",
+        "The area increases",
+        "The area becomes zero immediately, no matter how many pieces are removed"
+      ],
+      "answer": 0,
+      "id": "q63"
+    },
+    {
+      "type": "single",
+      "question": "Ananya sticks eight square stamps, each measuring 1 cm × 1 cm, in a single straight row, edge to edge, on a piece of paper. What is the total area covered by the stamps?",
+      "difficulty": "tricky",
+      "explanation": "Each stamp covers 1 × 1 = 1 sq cm, and there are 8 stamps placed with no gaps or overlaps, so the total area covered is 8 × 1 = 8 sq cm — arranging them in a row doesn't change the total number of unit squares, only their shape.",
+      "source": "book:page60 (item 5)",
+      "topic": "What is Area",
+      "options": [
+        "8 sq cm",
+        "16 sq cm",
+        "4 sq cm",
+        "1 sq cm"
+      ],
+      "answer": 0,
+      "id": "q64"
+    },
+    {
+      "type": "single",
+      "question": "What is the formula for the area of a square?",
+      "difficulty": "simple",
+      "explanation": "Area of a square = side × side (not 4 × side — that formula is for perimeter, not area).",
+      "source": "book:page53 (FastTrack)",
+      "topic": "Area of Squares and Rectangles",
+      "options": [
+        "side × side",
+        "4 × side",
+        "side + side + side + side",
+        "2 × side"
+      ],
+      "answer": 0,
+      "id": "q65"
+    },
+    {
+      "type": "single",
+      "question": "What is the formula for the area of a rectangle?",
+      "difficulty": "simple",
+      "explanation": "Area of a rectangle = length × breadth, since laying unit squares in rows and columns fills the rectangle just like a multiplication array.",
+      "source": "book:page53 (FastTrack)",
+      "topic": "Area of Squares and Rectangles",
+      "options": [
+        "length × breadth",
+        "2 × (length + breadth)",
+        "length + breadth",
+        "length × 4"
+      ],
+      "answer": 0,
+      "id": "q66"
+    },
+    {
+      "type": "single",
+      "question": "A square has a side of 3 cm. What is its area?",
+      "difficulty": "simple",
+      "explanation": "Area of a square = side × side = 3 × 3 = 9 sq cm.",
+      "source": "book:page53 (FastTrack)",
+      "topic": "Area of Squares and Rectangles",
+      "options": [
+        "9 sq cm",
+        "12 sq cm",
+        "6 sq cm",
+        "3 sq cm"
+      ],
+      "answer": 0,
+      "id": "q67"
+    },
+    {
+      "type": "single",
+      "question": "A rectangle has a length of 5 cm and a breadth of 4 cm. What is its area?",
+      "difficulty": "simple",
+      "explanation": "Area of a rectangle = length × breadth = 5 × 4 = 20 sq cm.",
+      "source": "book:page53 (FastTrack)",
+      "topic": "Area of Squares and Rectangles",
+      "options": [
+        "20 sq cm",
+        "18 sq cm",
+        "9 sq cm",
+        "24 sq cm"
+      ],
+      "answer": 0,
+      "id": "q68"
+    },
+    {
+      "type": "single",
+      "question": "The book explains that the area of a rectangle can be visualised as 'rows × columns,' just like a multiplication array. For a rectangle arranged as 5 rows and 4 columns of unit squares, how many unit squares cover it in total?",
+      "difficulty": "tough",
+      "explanation": "5 rows × 4 columns = 20 unit squares in total, which matches length × breadth = 5 × 4 = 20 sq cm — the array picture and the multiplication formula describe the exact same thing.",
+      "source": "book:page53 (FastTrack, concept)",
+      "topic": "Area of Squares and Rectangles",
+      "options": [
+        "20 unit squares",
+        "9 unit squares",
+        "24 unit squares",
+        "45 unit squares"
+      ],
+      "answer": 0,
+      "id": "q69"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: A rectangle of length 5 cm and breadth 4 cm has the SAME area whether you calculate 5 × 4 or 4 × 5.",
+      "difficulty": "tricky",
+      "explanation": "True. Multiplication is commutative (order doesn't matter), so 5 × 4 = 4 × 5 = 20 sq cm either way — which side you call 'length' and which you call 'breadth' does not change the area.",
+      "source": "book:page53 (concept)",
+      "topic": "Area of Squares and Rectangles",
+      "answer": true,
+      "id": "q70"
+    },
+    {
+      "type": "single",
+      "question": "In the lunchbox-planning activity, an apple takes up a 2 × 3 square area on the grid. What is its area?",
+      "difficulty": "simple",
+      "explanation": "Area = 2 × 3 = 6 square units.",
+      "source": "book:page61 (Nutrition Junction)",
+      "topic": "Area of Squares and Rectangles",
+      "options": [
+        "6 square units",
+        "5 square units",
+        "9 square units",
+        "2 square units"
+      ],
+      "answer": 0,
+      "id": "q71"
+    },
+    {
+      "type": "single",
+      "question": "In the same lunchbox activity, a roti takes up a 4 × 4 square area on the grid. What is its area?",
+      "difficulty": "simple",
+      "explanation": "Area = 4 × 4 = 16 square units.",
+      "source": "book:page61 (Nutrition Junction)",
+      "topic": "Area of Squares and Rectangles",
+      "options": [
+        "16 square units",
+        "8 square units",
+        "12 square units",
+        "20 square units"
+      ],
+      "answer": 0,
+      "id": "q72"
+    },
+    {
+      "type": "single",
+      "question": "A handful of nuts takes up a 2 × 2 square area in the lunchbox activity. What is the TOTAL area covered by one apple (2×3), one roti (4×4) and one handful of nuts (2×2) together?",
+      "difficulty": "tough",
+      "explanation": "Apple = 2×3 = 6 sq units. Roti = 4×4 = 16 sq units. Nuts = 2×2 = 4 sq units. Total = 6 + 16 + 4 = 26 square units.",
+      "source": "book:page61 (Nutrition Junction, computed)",
+      "topic": "Area of Squares and Rectangles",
+      "options": [
+        "26 square units",
+        "24 square units",
+        "30 square units",
+        "22 square units"
+      ],
+      "answer": 0,
+      "id": "q73"
+    },
+    {
+      "type": "single",
+      "question": "One solar panel array on the International Space Station measures about 34 metres in length and 12 metres in width. What is its area?",
+      "difficulty": "tough",
+      "explanation": "Area = length × width = 34 × 12 = 408 sq m.",
+      "source": "book:page57 (Real Route)",
+      "topic": "Area of Squares and Rectangles",
+      "options": [
+        "408 sq m",
+        "396 sq m",
+        "46 sq m",
+        "446 sq m"
+      ],
+      "answer": 0,
+      "id": "q74"
+    },
+    {
+      "type": "single",
+      "question": "What is the perimeter of that same ISS solar panel array (34 m long × 12 m wide)?",
+      "difficulty": "tricky",
+      "explanation": "Perimeter = 2 × (length + width) = 2 × (34 + 12) = 2 × 46 = 92 m. Notice this is a completely different number from the area (408 sq m) even though it's the same panel — area and perimeter measure different things.",
+      "source": "book:page57 (Real Route, computed)",
+      "topic": "Area of Squares and Rectangles",
+      "options": [
+        "92 m",
+        "46 m",
+        "408 m",
+        "68 m"
+      ],
+      "answer": 0,
+      "id": "q75"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: To find the area of a square, you multiply its side length by itself (side × side), NOT by 4.",
+      "difficulty": "simple",
+      "explanation": "True. Multiplying by 4 (4 × side) gives the square's PERIMETER, not its area — a common mix-up worth double-checking every time you solve a square problem.",
+      "source": "book:page53 (concept)",
+      "topic": "Area of Squares and Rectangles",
+      "answer": true,
+      "id": "q76"
+    },
+    {
+      "type": "single",
+      "question": "When finding the area of a shape on a grid where some squares are only partly covered, what do you do with a square that is MORE than half covered by the shape?",
+      "difficulty": "simple",
+      "explanation": "Count it as 1 whole square, according to the book's Case 2 rule for approximate area.",
+      "source": "book:page53 (Case 2 rules)",
+      "topic": "Finding Approximate Area Using Square Grid",
+      "options": [
+        "Count it as 1 (one full square)",
+        "Count it as ½",
+        "Ignore it (count as 0)",
+        "Count it as 2"
+      ],
+      "answer": 0,
+      "id": "q77"
+    },
+    {
+      "type": "single",
+      "question": "What do you do with a grid square that is exactly HALF covered by the shape?",
+      "difficulty": "simple",
+      "explanation": "Count it as ½ (one-half), according to the book's Case 2 rule for approximate area.",
+      "source": "book:page53 (Case 2 rules)",
+      "topic": "Finding Approximate Area Using Square Grid",
+      "options": [
+        "Count it as ½",
+        "Count it as 1",
+        "Ignore it (count as 0)",
+        "Count it as ¼"
+      ],
+      "answer": 0,
+      "id": "q78"
+    },
+    {
+      "type": "single",
+      "question": "What do you do with a grid square that is LESS than half covered by the shape?",
+      "difficulty": "simple",
+      "explanation": "Ignore it — count it as 0, according to the book's Case 2 rule for approximate area.",
+      "source": "book:page53 (Case 2 rules)",
+      "topic": "Finding Approximate Area Using Square Grid",
+      "options": [
+        "Ignore it (count as 0)",
+        "Count it as 1",
+        "Count it as ½",
+        "Count it as 2"
+      ],
+      "answer": 0,
+      "id": "q79"
+    },
+    {
+      "type": "single",
+      "question": "A shape covers 32 full grid squares, plus 4 more squares that are each less than half covered. What is its approximate area?",
+      "difficulty": "tough",
+      "explanation": "The 32 full squares each count as 1, giving 32 sq cm. The 4 less-than-half-covered squares are ignored (counted as 0). So the approximate area is 32 sq cm.",
+      "source": "book:page54 (Guidepost 1)",
+      "topic": "Finding Approximate Area Using Square Grid",
+      "options": [
+        "32 sq cm",
+        "36 sq cm",
+        "34 sq cm",
+        "28 sq cm"
+      ],
+      "answer": 0,
+      "id": "q80"
+    },
+    {
+      "type": "single",
+      "question": "A triangle on a grid covers 8 fully-covered squares, 6 more-than-half-covered squares, and 2 exactly-half-covered squares (the rest are ignored). What is its approximate area?",
+      "difficulty": "tough",
+      "explanation": "Full squares: 8. More-than-half squares count as 1 each: 6. Half-covered squares count as ½ each: 2 × ½ = 1. Total = 8 + 6 + 1 = 15 sq cm.",
+      "source": "book:page54 (Guidepost 2)",
+      "topic": "Finding Approximate Area Using Square Grid",
+      "options": [
+        "15 sq cm",
+        "14 sq cm",
+        "16 sq cm",
+        "8 sq cm"
+      ],
+      "answer": 0,
+      "id": "q81"
+    },
+    {
+      "type": "single",
+      "question": "An irregular blob-shaped figure on a grid covers 44 fully-covered squares and 7 more-than-half-covered squares (several less-than-half squares are ignored). What is its approximate area?",
+      "difficulty": "tricky",
+      "explanation": "Full squares (44) plus more-than-half squares counted as 1 each (7) gives 44 + 7 = 51 sq cm. The less-than-half squares don't add anything since they're ignored.",
+      "source": "book:page54 (Guidepost 3)",
+      "topic": "Finding Approximate Area Using Square Grid",
+      "options": [
+        "51 sq cm",
+        "44 sq cm",
+        "58 sq cm",
+        "48 sq cm"
+      ],
+      "answer": 0,
+      "id": "q82"
+    },
+    {
+      "type": "multiple",
+      "question": "Which of these count toward the APPROXIMATE area of a shape drawn on a grid?",
+      "difficulty": "tricky",
+      "explanation": "Completely covered squares count as 1, more-than-half-covered squares also count as 1, and exactly-half-covered squares count as ½ each. Only squares that are LESS than half covered are ignored and do not count.",
+      "source": "book:page53 (Case 2 rules)",
+      "topic": "Finding Approximate Area Using Square Grid",
+      "options": [
+        "Squares that are completely covered",
+        "Squares that are more than half covered",
+        "Squares that are exactly half covered (counted as ½ each)",
+        "Squares that are less than half covered"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "id": "q83"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: Two grid squares that are each exactly half-covered together contribute exactly 1 whole square unit to the approximate area (½ + ½ = 1).",
+      "difficulty": "tough",
+      "explanation": "True. Each half-covered square counts as ½, so two of them together give ½ + ½ = 1 whole square unit — exactly as used in the triangle example (2 half-covered squares contributing 1 sq cm).",
+      "source": "book:page54 (Guidepost 2, concept)",
+      "topic": "Finding Approximate Area Using Square Grid",
+      "answer": true,
+      "id": "q84"
+    },
+    {
+      "type": "single",
+      "question": "Why do we need special rules (more-than-half = 1, exactly-half = ½, less-than-half = 0) for finding area on a grid, instead of only counting completely-shaded squares?",
+      "difficulty": "simple",
+      "explanation": "Many real shapes — like triangles, circles, or irregular blobs — don't fit neatly into whole squares. Their slanted or curved edges cut through squares only partly, so these rules give a fair, consistent way to estimate the total area even when the shape's boundary doesn't align with the grid lines.",
+      "source": "book:page53,54 (concept)",
+      "topic": "Finding Approximate Area Using Square Grid",
+      "options": [
+        "Because many real shapes have curved or slanted edges that only partly cover some grid squares",
+        "Because whole squares are never accurate",
+        "Because grids can only measure perimeter, not area",
+        "Because half-covered squares always mean the shape is a circle"
+      ],
+      "answer": 0,
+      "id": "q85"
+    },
+    {
+      "type": "single",
+      "question": "In the Guidepost triangle example (approximate area = 15 sq cm), exactly how many square units come from the two half-covered squares alone?",
+      "difficulty": "tricky",
+      "explanation": "Each half-covered square contributes ½ square unit, so two of them together contribute 2 × ½ = 1 square unit toward the total area of 15 sq cm.",
+      "source": "book:page54 (Guidepost 2)",
+      "topic": "Finding Approximate Area Using Square Grid",
+      "options": [
+        "1 sq cm",
+        "½ sq cm",
+        "2 sq cm",
+        "0 sq cm"
+      ],
+      "answer": 0,
+      "id": "q86"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: According to the book's Spotlight box, 'Perimeter is the distance around a shape, and Area is the space inside it.'",
+      "difficulty": "simple",
+      "explanation": "True — this is exactly what the Spotlight box states, giving the simplest way to tell the two ideas apart: perimeter = around, area = inside.",
+      "source": "book:page52 (Spotlight)",
+      "topic": "Telling Perimeter and Area Apart",
+      "answer": true,
+      "id": "q87"
+    },
+    {
+      "type": "single",
+      "question": "Joy wants to decorate the EDGES of her scrapbook's cover page with golden thread. Should she work out the area or the perimeter of the cover page?",
+      "difficulty": "simple",
+      "explanation": "Perimeter — decorating an edge means going around the boundary, which is exactly what perimeter measures.",
+      "source": "book:page52 (item 1)",
+      "topic": "Telling Perimeter and Area Apart",
+      "options": [
+        "Perimeter",
+        "Area",
+        "Both are the same here",
+        "Neither"
+      ],
+      "answer": 0,
+      "id": "q88"
+    },
+    {
+      "type": "single",
+      "question": "Ravi wants to cover one of his kitchen walls with tiles. Should he work out the area or the perimeter of the wall?",
+      "difficulty": "simple",
+      "explanation": "Area — covering a flat surface completely (like a wall with tiles) means finding out how much space it covers, which is exactly what area measures.",
+      "source": "book:page52 (item 2)",
+      "topic": "Telling Perimeter and Area Apart",
+      "options": [
+        "Area",
+        "Perimeter",
+        "Both are the same here",
+        "Neither"
+      ],
+      "answer": 0,
+      "id": "q89"
+    },
+    {
+      "type": "single",
+      "question": "The distance Maya covers as she jogs once around a rectangular ground is best described as the ground's _____.",
+      "difficulty": "simple",
+      "explanation": "Perimeter — jogging 'around' the ground once traces its boundary, and the total distance of that trip equals the perimeter.",
+      "source": "book:page52 (item 3)",
+      "topic": "Telling Perimeter and Area Apart",
+      "options": [
+        "Perimeter",
+        "Area",
+        "Diagonal",
+        "Radius"
+      ],
+      "answer": 0,
+      "id": "q90"
+    },
+    {
+      "type": "single",
+      "question": "Mrs. Sharma wants to know how much land is required to create a square kitchen garden within her lawn. Is this an area question or a perimeter question?",
+      "difficulty": "simple",
+      "explanation": "Area — 'how much land' means how much flat ground space is needed, which is exactly what area measures.",
+      "source": "book:page52 (item 4)",
+      "topic": "Telling Perimeter and Area Apart",
+      "options": [
+        "Area",
+        "Perimeter",
+        "Both are the same here",
+        "Neither"
+      ],
+      "answer": 0,
+      "id": "q91"
+    },
+    {
+      "type": "multiple",
+      "question": "Which of the following are examples of a PERIMETER (not area) situation?",
+      "difficulty": "tough",
+      "explanation": "Decorating an edge with thread and jogging once around a ground both involve tracing a boundary, so they need perimeter. So does fencing around a garden (going around its edge). Tiling a wall, however, means covering a flat surface completely, which needs area instead.",
+      "source": "book:page52,55 (concept)",
+      "topic": "Telling Perimeter and Area Apart",
+      "options": [
+        "Decorating the edge of a scrapbook with thread",
+        "Jogging once around a rectangular ground",
+        "Tiling a kitchen wall",
+        "Fencing around a garden"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "id": "q92"
+    },
+    {
+      "type": "single",
+      "question": "Statement (I): Two squares of different side lengths can never have the same perimeter. Statement (II): Two different-shaped figures (like a square and a rectangle) can have the same perimeter. Which is correct?",
+      "difficulty": "tough",
+      "explanation": "(I) is TRUE because a square's perimeter = 4 × side, so two different side lengths always give two different perimeters. (II) is also TRUE, because, as explored in the chapter's investigation, a square and a differently-shaped rectangle can be built to share the exact same total perimeter even though their shapes differ. So both statements are true.",
+      "source": "book:page51 (item 6)",
+      "topic": "Telling Perimeter and Area Apart",
+      "options": [
+        "Both (I) and (II) are true",
+        "Both (I) and (II) are false",
+        "(I) is true and (II) is false",
+        "(I) is false and (II) is true"
+      ],
+      "answer": 0,
+      "id": "q93"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: If two shapes have the same AREA, they must also have the same PERIMETER.",
+      "difficulty": "tricky",
+      "explanation": "False. As the chapter's investigation shows, rectangles with the same area (12 sq units) can have very different perimeters — for example, a long thin 1×12 rectangle (perimeter 26 units) versus a compact 3×4 rectangle (perimeter 14 units), even though both have an area of 12 sq units.",
+      "source": "book:page56 (Wonder Junction, concept)",
+      "topic": "Telling Perimeter and Area Apart",
+      "answer": false,
+      "id": "q94"
+    },
+    {
+      "type": "boolean",
+      "question": "True or False: If two shapes have the same PERIMETER, they must also have the same AREA.",
+      "difficulty": "tricky",
+      "explanation": "False. Similarly, rectangles with the same perimeter (14 units) can have quite different areas — a thin 1×6 rectangle (area 6 sq units) versus a compact 3×4 rectangle (area 12 sq units), even though both have a perimeter of 14 units.",
+      "source": "book:page56 (Wonder Junction, concept)",
+      "topic": "Telling Perimeter and Area Apart",
+      "answer": false,
+      "id": "q95"
+    },
+    {
+      "type": "single",
+      "question": "Why can perimeter and area sometimes give completely different information about 'how big' a shape is?",
+      "difficulty": "tough",
+      "explanation": "Because perimeter only measures the length of the boundary, while area measures the surface covered inside it. A shape can be long and thin (large perimeter but small area) or compact (small perimeter but large area for the same amount of material) — the two measurements capture different things about size.",
+      "source": "book:page52,56 (concept)",
+      "topic": "Telling Perimeter and Area Apart",
+      "options": [
+        "Perimeter measures the boundary length while area measures the surface covered — they capture different things",
+        "Perimeter and area are actually always equal for the same shape",
+        "Area only applies to squares, and perimeter only applies to rectangles",
+        "Perimeter is always bigger than area no matter what"
+      ],
+      "answer": 0,
+      "id": "q96"
+    },
+    {
+      "type": "single",
+      "question": "For two rectangles with the SAME area (12 sq units) — a long thin 1×12 rectangle and a more compact 3×4 rectangle — which one has the SMALLER perimeter?",
+      "difficulty": "simple",
+      "explanation": "The compact 3×4 rectangle has the smaller perimeter (2×(3+4) = 14 units), compared to the long thin 1×12 rectangle's much larger perimeter (2×(1+12) = 26 units) — even though both cover the same 12 sq units of area.",
+      "source": "book:page56 (Wonder Junction, item 2)",
+      "topic": "Same Area, Different Perimeter (and Vice Versa)",
+      "options": [
+        "The compact 3×4 rectangle (perimeter 14 units)",
+        "The long thin 1×12 rectangle (perimeter 26 units)",
+        "They have exactly the same perimeter",
+        "Neither has a perimeter"
+      ],
+      "answer": 0,
+      "id": "q97"
+    },
+    {
+      "type": "single",
+      "question": "Calculate the perimeter of a 1 unit × 12 unit rectangle (which has an area of 12 sq units).",
+      "difficulty": "tough",
+      "explanation": "Perimeter = 2 × (length + breadth) = 2 × (1 + 12) = 2 × 13 = 26 units.",
+      "source": "book:page56 (Wonder Junction, item 2, computed)",
+      "topic": "Same Area, Different Perimeter (and Vice Versa)",
+      "options": [
+        "26 units",
+        "13 units",
+        "24 units",
+        "12 units"
+      ],
+      "answer": 0,
+      "id": "q98"
+    },
+    {
+      "type": "single",
+      "question": "Calculate the perimeter of a 3 unit × 4 unit rectangle (which also has an area of 12 sq units).",
+      "difficulty": "tough",
+      "explanation": "Perimeter = 2 × (length + breadth) = 2 × (3 + 4) = 2 × 7 = 14 units.",
+      "source": "book:page56 (Wonder Junction, item 2, computed)",
+      "topic": "Same Area, Different Perimeter (and Vice Versa)",
+      "options": [
+        "14 units",
+        "12 units",
+        "7 units",
+        "24 units"
+      ],
+      "answer": 0,
+      "id": "q99"
+    },
+    {
+      "type": "single",
+      "question": "Complete the book's conclusion: 'For a fixed area, a more compact shape has a _____ perimeter.'",
+      "difficulty": "tricky",
+      "explanation": "Smaller. Comparing the 1×12 rectangle (perimeter 26) with the more compact 3×4 rectangle (perimeter 14), both having area 12 sq units, shows that being more 'square-like' (compact) reduces the perimeter for the same area.",
+      "source": "book:page56 (conclusion)",
+      "topic": "Same Area, Different Perimeter (and Vice Versa)",
+      "options": [
+        "smaller",
+        "greater",
+        "the same",
+        "zero"
+      ],
+      "answer": 0,
+      "id": "q100"
+    },
+    {
+      "type": "single",
+      "question": "For two rectangles with the SAME perimeter (14 units) — a thin 1×6 rectangle and a more compact 3×4 rectangle — which one encloses the GREATER area?",
+      "difficulty": "simple",
+      "explanation": "The compact 3×4 rectangle encloses the greater area (3×4 = 12 sq units), compared to the thin 1×6 rectangle's smaller area (1×6 = 6 sq units) — even though both share the same perimeter of 14 units.",
+      "source": "book:page56 (Wonder Junction, item 3)",
+      "topic": "Same Area, Different Perimeter (and Vice Versa)",
+      "options": [
+        "The compact 3×4 rectangle (area 12 sq units)",
+        "The thin 1×6 rectangle (area 6 sq units)",
+        "They enclose exactly the same area",
+        "Neither encloses any area"
+      ],
+      "answer": 0,
+      "id": "q101"
+    },
+    {
+      "type": "single",
+      "question": "Calculate the area of a 1 unit × 6 unit rectangle (which has a perimeter of 14 units).",
+      "difficulty": "tough",
+      "explanation": "Area = length × breadth = 1 × 6 = 6 sq units.",
+      "source": "book:page56 (Wonder Junction, item 3, computed)",
+      "topic": "Same Area, Different Perimeter (and Vice Versa)",
+      "options": [
+        "6 sq units",
+        "7 sq units",
+        "14 sq units",
+        "12 sq units"
+      ],
+      "answer": 0,
+      "id": "q102"
+    },
+    {
+      "type": "single",
+      "question": "Calculate the area of a 2 unit × 5 unit rectangle (which also has a perimeter of 14 units).",
+      "difficulty": "tough",
+      "explanation": "Area = length × breadth = 2 × 5 = 10 sq units.",
+      "source": "book:page56 (Wonder Junction, item 3, computed)",
+      "topic": "Same Area, Different Perimeter (and Vice Versa)",
+      "options": [
+        "10 sq units",
+        "7 sq units",
+        "14 sq units",
+        "12 sq units"
+      ],
+      "answer": 0,
+      "id": "q103"
+    },
+    {
+      "type": "single",
+      "question": "Complete the book's conclusion: 'For a fixed perimeter, a more compact shape encloses a _____ area.'",
+      "difficulty": "tricky",
+      "explanation": "Greater. Comparing the 1×6 rectangle (area 6) with the more compact 3×4 rectangle (area 12), both sharing a perimeter of 14 units, shows that being more 'square-like' (compact) increases the enclosed area for the same perimeter.",
+      "source": "book:page56 (conclusion)",
+      "topic": "Same Area, Different Perimeter (and Vice Versa)",
+      "options": [
+        "greater",
+        "smaller",
+        "the same",
+        "zero"
+      ],
+      "answer": 0,
+      "id": "q104"
+    },
+    {
+      "type": "single",
+      "question": "About how many average homes' worth of electricity does the ISS's solar panel array produce, according to the chapter?",
+      "difficulty": "simple",
+      "explanation": "The chapter states the ISS produces enough energy to supply more than 40 average homes.",
+      "source": "book:page57 (Real Route)",
+      "topic": "Real-World Perimeter and Area: Space, Nature, History and Sports",
+      "options": [
+        "More than 40 homes",
+        "About 4 homes",
+        "About 400 homes",
+        "Exactly 1 home"
+      ],
+      "answer": 0,
+      "id": "q105"
+    },
+    {
+      "type": "single",
+      "question": "The Gahirmatha Marine Sanctuary in Odisha covers a total area of 1,435 sq km, but its actual landmass is only about 27 sq km. What makes up most of the rest of that total area?",
+      "difficulty": "tough",
+      "explanation": "Since it is a marine (sea-based) nesting sanctuary, the vast majority of its total area is water, not land — only a small 27 sq km portion is actual landmass.",
+      "source": "book:page57 (Real Route)",
+      "topic": "Real-World Perimeter and Area: Space, Nature, History and Sports",
+      "options": [
+        "Water",
+        "Forest",
+        "Farmland",
+        "Roads"
+      ],
+      "answer": 0,
+      "id": "q106"
+    },
+    {
+      "type": "single",
+      "question": "Where is the Gahirmatha Marine Sanctuary located, and what is it famous for?",
+      "difficulty": "simple",
+      "explanation": "It is located in Odisha, India, and is famous as the largest mass nesting site in the world for Olive Ridley turtles.",
+      "source": "book:page57 (Real Route)",
+      "topic": "Real-World Perimeter and Area: Space, Nature, History and Sports",
+      "options": [
+        "Odisha — the largest mass nesting site in the world for Olive Ridley turtles",
+        "Kerala — a coral reef sanctuary",
+        "Gujarat — a flamingo sanctuary",
+        "Tamil Nadu — a whale sanctuary"
+      ],
+      "answer": 0,
+      "id": "q107"
+    },
+    {
+      "type": "single",
+      "question": "The Gahirmatha sanctuary's coastline is about 35–40 km long and about 80 metres wide. According to the chapter, which of these measurements is more likely to change because of wind, waves and storms?",
+      "difficulty": "tough",
+      "explanation": "The chapter notes that the width of the beach can change due to wind, waves and storms, while the overall coastline length (35-40 km) is treated as relatively stable.",
+      "source": "book:page57 (Real Route)",
+      "topic": "Real-World Perimeter and Area: Space, Nature, History and Sports",
+      "options": [
+        "The width of the beach",
+        "The length of the coastline",
+        "Neither ever changes",
+        "Both change equally"
+      ],
+      "answer": 0,
+      "id": "q108"
+    },
+    {
+      "type": "single",
+      "question": "According to the chapter's history box, the earliest recorded use of area and perimeter comes from which two ancient regions, around 3000 BCE?",
+      "difficulty": "simple",
+      "explanation": "Ancient Mesopotamia and Egypt, where farmers measured their fields for planting crops.",
+      "source": "book:page62 (Journey Gems)",
+      "topic": "Real-World Perimeter and Area: Space, Nature, History and Sports",
+      "options": [
+        "Mesopotamia and Egypt",
+        "Greece and Rome",
+        "China and India",
+        "Persia and Babylon"
+      ],
+      "answer": 0,
+      "id": "q109"
+    },
+    {
+      "type": "single",
+      "question": "Why did ancient Egyptian farmers need to recalculate the area of their fields regularly?",
+      "difficulty": "tough",
+      "explanation": "Because the Nile river flooded periodically, changing the boundaries and size of their fields each time, so the area had to be measured again after every flood.",
+      "source": "book:page62 (Journey Gems)",
+      "topic": "Real-World Perimeter and Area: Space, Nature, History and Sports",
+      "options": [
+        "Because the Nile flooded periodically, changing the shape/size of their fields",
+        "Because farmers changed their minds often",
+        "Because taxes were based on perimeter, not area",
+        "Because Egyptian fields were always perfect squares"
+      ],
+      "answer": 0,
+      "id": "q110"
+    },
+    {
+      "type": "single",
+      "question": "What tool did ancient civilizations use to measure straight lines and right angles when dividing farmland into rectangles and triangles?",
+      "difficulty": "simple",
+      "explanation": "Knotted cords (ropes with knots tied at regular intervals) were used to measure straight lines and mark out right angles.",
+      "source": "book:page62 (Journey Gems)",
+      "topic": "Real-World Perimeter and Area: Space, Nature, History and Sports",
+      "options": [
+        "Knotted cords",
+        "Metal rulers",
+        "Laser levels",
+        "Wooden compasses"
+      ],
+      "answer": 0,
+      "id": "q111"
+    },
+    {
+      "type": "single",
+      "question": "Why did ancient kings and rulers care about accurately measuring the area of a farmer's land?",
+      "difficulty": "tricky",
+      "explanation": "Because kings taxed landowners based on the size (area) of their fields, so accurately measuring area directly affected how much tax a farmer owed.",
+      "source": "book:page62 (Journey Gems)",
+      "topic": "Real-World Perimeter and Area: Space, Nature, History and Sports",
+      "options": [
+        "Because they taxed landowners based on the size of their fields",
+        "Because they wanted to give away free land",
+        "Because area had no importance back then",
+        "Because only perimeter mattered for taxes"
+      ],
+      "answer": 0,
+      "id": "q112"
+    },
+    {
+      "type": "single",
+      "question": "An Olympic swimming pool is 50 m long and 25 m wide. What is its area?",
+      "difficulty": "simple",
+      "explanation": "Area = length × width = 50 × 25 = 1,250 sq m.",
+      "source": "book:page62 (Trail Treasure)",
+      "topic": "Real-World Perimeter and Area: Space, Nature, History and Sports",
+      "options": [
+        "1,250 sq m",
+        "1,000 sq m",
+        "150 sq m",
+        "75 sq m"
+      ],
+      "answer": 0,
+      "id": "q113"
+    },
+    {
+      "type": "single",
+      "question": "What is the perimeter of that same 50 m × 25 m Olympic pool?",
+      "difficulty": "simple",
+      "explanation": "Perimeter = 2 × (length + width) = 2 × (50 + 25) = 2 × 75 = 150 m.",
+      "source": "book:page62 (Trail Treasure)",
+      "topic": "Real-World Perimeter and Area: Space, Nature, History and Sports",
+      "options": [
+        "150 m",
+        "1,250 m",
+        "75 m",
+        "100 m"
+      ],
+      "answer": 0,
+      "id": "q114"
+    },
+    {
+      "type": "single",
+      "question": "The Olympic pool has 10 lanes, each 2.5 m wide. Do these lane widths add up correctly to the pool's total width of 25 m?",
+      "difficulty": "tough",
+      "explanation": "Yes: 10 lanes × 2.5 m each = 25 m, which exactly matches the pool's stated total width.",
+      "source": "book:page62 (Trail Treasure)",
+      "topic": "Real-World Perimeter and Area: Space, Nature, History and Sports",
+      "options": [
+        "Yes — 10 × 2.5 m = 25 m, matching the pool's width",
+        "No — they only add up to 20 m",
+        "No — they add up to 30 m",
+        "It cannot be checked from the given information"
+      ],
+      "answer": 0,
+      "id": "q115"
+    },
+    {
+      "type": "single",
+      "question": "A full 50 m Olympic pool length counts as 1 lap. How many metres does an 8-lap swimming race cover?",
+      "difficulty": "simple",
+      "explanation": "8 laps × 50 m per lap = 400 m.",
+      "source": "book:page62 (Trail Treasure)",
+      "topic": "Real-World Perimeter and Area: Space, Nature, History and Sports",
+      "options": [
+        "400 m",
+        "500 m",
+        "350 m",
+        "800 m"
+      ],
+      "answer": 0,
+      "id": "q116"
+    },
+    {
+      "type": "single",
+      "question": "On the running track, the innermost lane's lap is exactly 400 m, made up of 2 straight paths (about 84.39 m each) and 2 curved semicircular paths (about 115.61 m each). Do these four parts add up to about 400 m?",
+      "difficulty": "tricky",
+      "explanation": "Yes: 2 × 84.39 + 2 × 115.61 = 168.78 + 231.22 = 400 m (approximately), confirming the innermost lane's lap length.",
+      "source": "book:page62 (Trail Treasure)",
+      "topic": "Real-World Perimeter and Area: Space, Nature, History and Sports",
+      "options": [
+        "Yes — 2×84.39 + 2×115.61 ≈ 400 m",
+        "No — they only add up to about 300 m",
+        "No — they add up to about 450 m",
+        "It cannot be checked without more information"
+      ],
+      "answer": 0,
+      "id": "q117"
+    },
+    {
+      "type": "single",
+      "question": "Lane 8 of the running track measures about 453.7 m per lap, while the innermost lane measures 400 m. About how much longer is one lap in lane 8 compared to lane 1?",
+      "difficulty": "tough",
+      "explanation": "453.7 m − 400 m = 53.7 m longer. This roughly matches the chapter's note that each outer lane adds about 7.7 m per lap, and lane 8 is 7 lanes further out than lane 1 (about 7 × 7.7 ≈ 53.9 m, very close to 53.7 m).",
+      "source": "book:page62 (Trail Treasure)",
+      "topic": "Real-World Perimeter and Area: Space, Nature, History and Sports",
+      "options": [
+        "About 53.7 m longer",
+        "About 7.7 m longer",
+        "About 100 m longer",
+        "About 853.7 m longer"
+      ],
+      "answer": 0,
+      "id": "q118"
+    }
+  ]
+}

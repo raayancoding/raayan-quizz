@@ -1,0 +1,2160 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-maths-1-g8-ch06-we-distribute-yet-things-multiply",
+  "title": "We Distribute, Yet Things Multiply",
+  "subject": "Maths-1",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Maths-1/ch06",
+  "chapter": "6. We Distribute, Yet Things Multiply",
+  "topic": "Full Chapter",
+  "description": "The distributive property and its algebraic identities: how products change when factors change, Identity 1 and the squares (a + b)², (a − b)², (a + b)(a − b), fast multiplication by 11/101/99, spotting mistakes in simplifications, and using algebra to explain circle, tile, calendar and area patterns.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "maths",
+    "algebra",
+    "distributive-property",
+    "identities",
+    "expansion",
+    "patterns",
+    "fast-multiplication"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Distributive Property Basics",
+      "question": "In the identity a(b + c) = ab + ac, what does the notation a(b + c) stand for?",
+      "options": [
+        "a × (b + c)",
+        "a + (b + c)",
+        "(a × b) + c",
+        "a × b × c"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says we skip writing the × symbol before a bracket, just as in 5a or xy. So a(b + c) means a multiplied by the whole bracket (b + c), not added to it.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Distributive Property Basics",
+      "question": "Which property lets us rewrite (a + b)c as c(a + b) in the first step of expanding it?",
+      "options": [
+        "Commutativity of addition",
+        "Commutativity of multiplication",
+        "Distributivity over addition",
+        "Associativity of addition"
+      ],
+      "answer": 1,
+      "explanation": "Swapping the order of the two factors (a + b) and c is commutativity of multiplication. Only after that step is distributivity used to get ca + cb.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q3",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Distributive Property Basics",
+      "question": "The distributive property x(y + z) = xy + xz holds for negative integers as well as for positive ones.",
+      "answer": true,
+      "explanation": "The chapter states that integers also satisfy the distributive property, so the identities for increases of products remain valid when letter-numbers take negative values.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Distributive Property Basics",
+      "question": "In the chain (a + b)c = c(a + b) = ca + cb = ac + bc, at which step is the distributive property used?",
+      "options": [
+        "Going from ca + cb to ac + bc",
+        "Going from ac + bc back to (a + b)c",
+        "Going from c(a + b) to ca + cb",
+        "Going from (a + b)c to c(a + b)"
+      ],
+      "answer": 2,
+      "explanation": "Distributivity splits the single product c(a + b) into the sum ca + cb. The other two steps only swap factor order, which is commutativity of multiplication.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Distributive Property Basics",
+      "question": "The summary gives the general form for the product of two two-term expressions. Which is it?",
+      "options": [
+        "(a + b)(c + d) = ac + bd + ab + cd",
+        "(a + b)(c + d) = ac + ad + bc − bd",
+        "(a + b)(c + d) = ab + ac + bd + cd",
+        "(a + b)(c + d) = ac + ad + bc + bd"
+      ],
+      "answer": 3,
+      "explanation": "Each term of (a + b) multiplies each term of (c + d): a·c, a·d, b·c, b·d, all added. The distractors pair up the wrong letters or flip a sign.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Distributive Property Basics",
+      "question": "Which statement about the distributive property is NOT correct?",
+      "options": [
+        "It applies only when the bracket has exactly two terms",
+        "It links multiplication with addition in one identity",
+        "It still holds when letter-numbers are negative integers",
+        "It was used implicitly by Euclid in a geometric form"
+      ],
+      "answer": 0,
+      "explanation": "The chapter explicitly says the property is not restricted to two terms within a bracket — Example 1 distributes over three terms (a − b + 1/5). The other three statements are all made in the chapter.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q7",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Distributive Property Basics",
+      "question": "An identity is a statement of equality between two algebraic expressions that is true only for particular values of the letter-numbers.",
+      "answer": false,
+      "explanation": "An identity such as a(b + 8) = ab + 8a holds for ALL values of the letter-numbers — that is exactly what makes it an identity rather than an equation to be solved.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Distributive Property Basics",
+      "question": "Which of these are identities (true for every value of the letter-numbers)?",
+      "options": [
+        "a(b + 8) = ab + 8a",
+        "(a + 1)(b − 1) = ab + b − a − 1",
+        "a(b + c) = ab + c",
+        "(a + b)c = ac + b",
+        "(a + b)² = a² + b²"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The first two are the chapter's own examples of identities. a(b + c) = ab + ac (not ab + c), (a + b)c = ac + bc, and (a + b)² = a² + 2ab + b² — the last three fail for most values, e.g. a = b = 1.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Increments in Products",
+      "question": "For the product 23 × 27, by how much does the product increase if the second number 27 is increased by 1?",
+      "options": [
+        "51",
+        "23",
+        "27",
+        "1"
+      ],
+      "answer": 1,
+      "explanation": "23 × 28 = 23 × (27 + 1) = 23 × 27 + 23, so the product grows by 23 — one more copy of the other factor. Increasing 23 by 1 would add 27; increasing both adds 51.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Increments in Products",
+      "question": "If both numbers in the product ab are increased by 1, the product increases by:",
+      "options": [
+        "2ab + 1",
+        "2(a + b)",
+        "a + b + 1",
+        "a + b − 1"
+      ],
+      "answer": 2,
+      "explanation": "(a + 1)(b + 1) = (a + 1)b + (a + 1) = ab + b + a + 1, so the increase is a + b + 1. Forgetting the extra 1 (the 1 × 1 corner) is the common slip.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Increments in Products",
+      "question": "Given 23 × 27 = 621, what is 24 × 28?",
+      "options": [
+        "648",
+        "644",
+        "671",
+        "672"
+      ],
+      "answer": 3,
+      "explanation": "Both numbers rise by 1, so the increase is 23 + 27 + 1 = 51 and 621 + 51 = 672. 644 and 648 are what you get by increasing only one number; 671 forgets the +1.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Increments in Products",
+      "question": "If a is increased by 1 and b is decreased by 1, the product ab changes by:",
+      "options": [
+        "b − a − 1",
+        "a − b − 1",
+        "a + b − 1",
+        "b − a + 1"
+      ],
+      "answer": 0,
+      "explanation": "(a + 1)(b − 1) = (a + 1)b − (a + 1) = ab + b − a − 1, so the change is b − a − 1. It can be positive, zero or negative depending on a and b.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Increments in Products",
+      "question": "For which pair does the product DECREASE when a is increased by 1 and b is decreased by 1?",
+      "options": [
+        "a = 2, b = 4",
+        "a = 10, b = 3",
+        "a = 3, b = 10",
+        "a = 5, b = 9"
+      ],
+      "answer": 1,
+      "explanation": "The change is b − a − 1. For a = 10, b = 3 it is 3 − 10 − 1 = −8 (30 becomes 11 × 2 = 22). For the other pairs b − a − 1 is +6, +3 and +1, so the product increases.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q14",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Increments in Products",
+      "question": "When one number in a product is increased by 1 and the other is decreased by 1, the product always stays the same.",
+      "answer": false,
+      "explanation": "The product changes by b − a − 1, which is zero only when b = a + 1. The chapter even asks for three examples where the product decreases.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Increments in Products",
+      "question": "Which statement about 23 × 27 = 621 is NOT correct?",
+      "options": [
+        "24 × 27 is 621 + 27 = 648",
+        "24 × 28 is 621 + 51 = 672",
+        "24 × 26 is 621 − 3 = 618",
+        "23 × 28 is 621 + 23 = 644"
+      ],
+      "answer": 2,
+      "explanation": "Using (a + 1)(b − 1) = ab + b − a − 1 with a = 23, b = 27: 24 × 26 = 621 + 27 − 23 − 1 = 621 + 3 = 624, an increase, not a decrease. The other three follow the chapter's increments.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q16",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Increments in Products",
+      "question": "For positive whole numbers a and b, which changes always INCREASE the product ab?",
+      "options": [
+        "Increase b by 1 (the product gains a)",
+        "Increase both a and b by 1 (gains a + b + 1)",
+        "Decrease b by 1 (the product changes by −a)",
+        "Decrease both a and b by 1 (changes by 1 − a − b)"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "a(b + 1) = ab + a and (a + 1)(b + 1) = ab + a + b + 1 both add a positive amount. Decreasing b subtracts a, and decreasing both changes the product by 1 − a − b, which is negative for positive whole numbers.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Identity 1 & Sign Rules",
+      "question": "Identity 1 states that (a + m)(b + n) is equal to:",
+      "options": [
+        "ab + mn",
+        "ab + am + bn + mn",
+        "ab + mb + an − mn",
+        "ab + mb + an + mn"
+      ],
+      "answer": 3,
+      "explanation": "Each term of (a + m) is multiplied by each term of (b + n): ab, an, mb, mn. The cross terms are mb and an — not am and bn — and mn is added, not subtracted.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Identity 1 & Sign Rules",
+      "question": "If one number is increased by m and the other by n, the increase in the product is:",
+      "options": [
+        "an + bm + mn",
+        "am + bn + mn",
+        "an + bm − mn",
+        "mn + m + n"
+      ],
+      "answer": 0,
+      "explanation": "(a + m)(b + n) = ab + mb + an + mn, so everything beyond ab — namely an + bm + mn — is the increase. Note that m multiplies b and n multiplies a.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Identity 1 & Sign Rules",
+      "question": "Taking m = 1 and n = −1 in Identity 1 gives (a + 1)(b − 1) equal to:",
+      "options": [
+        "ab − b − a + 1",
+        "ab + b − a − 1",
+        "ab − b + a − 1",
+        "ab + b − a + 1"
+      ],
+      "answer": 1,
+      "explanation": "ab + (1)b + a(−1) + (1)(−1) = ab + b − a − 1, the same expression obtained earlier by direct expansion. The last term is 1 × (−1) = −1.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Identity 1 & Sign Rules",
+      "question": "How does a product change when one number is decreased by 2 and the other increased by 3? (a − 2)(b + 3) =",
+      "options": [
+        "ab + 3a − 2b + 6",
+        "ab + 2a − 3b − 6",
+        "ab + 3a − 2b − 6",
+        "ab − 3a + 2b − 6"
+      ],
+      "answer": 2,
+      "explanation": "Use Identity 1 with m = −2, n = 3: ab + (−2)b + a(3) + (−2)(3) = ab − 2b + 3a − 6. The constant is (−2)(3) = −6.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Identity 1 & Sign Rules",
+      "question": "(a − 3)(b − 4) expands to:",
+      "options": [
+        "ab − 4a − 3b − 12",
+        "ab − 3a − 4b + 12",
+        "ab + 4a + 3b + 12",
+        "ab − 4a − 3b + 12"
+      ],
+      "answer": 3,
+      "explanation": "With m = −3 and n = −4: ab + (−3)b + a(−4) + (−3)(−4) = ab − 3b − 4a + 12. Two negatives multiply to +12.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Identity 1 & Sign Rules",
+      "question": "Expand (a − u)(b − v).",
+      "options": [
+        "ab − ub − av + uv",
+        "ab − ub − av − uv",
+        "ab + ub + av + uv",
+        "ab − ub + av − uv"
+      ],
+      "answer": 0,
+      "explanation": "The product of each term of (a − u) with each term of (b − v): a·b, a·(−v), (−u)·b, (−u)·(−v) = ab − av − ub + uv. The last sign is + because (−u)(−v) is positive.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q23",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Identity 1 & Sign Rules",
+      "question": "(a + u)(b − v) = ab + ub − av − uv is the same result as taking m = u and n = −v in Identity 1.",
+      "answer": true,
+      "explanation": "Identity 1 gives ab + mb + an + mn = ab + ub + a(−v) + u(−v) = ab + ub − av − uv, exactly matching the direct expansion in the chapter.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Identity 1 & Sign Rules",
+      "question": "When expanding (a − u)(b + v), what decides the sign of each term in the result?",
+      "options": [
+        "The size of the numbers a, u, b and v",
+        "The usual rules of integer multiplication",
+        "The commutative property of addition",
+        "The order of the terms in the bracket"
+      ],
+      "answer": 1,
+      "explanation": "The chapter notes that the signs come from the usual rules of integer multiplication: (−u)(b) = −ub, (−u)(v) = −uv, a·v = +av. Term order or number size does not affect the sign.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q25",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Identity 1 & Sign Rules",
+      "question": "Which expansions are correct?",
+      "options": [
+        "(a − u)(b + v) = ab − ub + av − uv",
+        "(a + u)(b − v) = ab + ub − av − uv",
+        "(a − u)(b − v) = ab − ub − av − uv",
+        "(a + m)(b + n) = ab + mn"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The first two match the chapter. (a − u)(b − v) ends in +uv, not −uv, because (−u)(−v) is positive, and (a + m)(b + n) also has the cross terms mb and an.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Expanding & Like Terms",
+      "question": "Terms that have exactly the same letter-numbers are called:",
+      "options": [
+        "equal terms",
+        "pair terms",
+        "like terms",
+        "unit terms"
+      ],
+      "answer": 2,
+      "explanation": "The chapter recalls that terms with the same letter-numbers (such as a²b and 2a²b) are like terms and can be combined into a single term.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Expanding & Like Terms",
+      "question": "In Example 1, (3a/2)(a − b + 1/5) expands to:",
+      "options": [
+        "(3/2)a² − (3/2)ab + (3/5)a",
+        "(3/2)a² + (3/2)ab + (3/10)a",
+        "(3/2)a − (3/2)b + (3/10)",
+        "(3/2)a² − (3/2)ab + (3/10)a"
+      ],
+      "answer": 3,
+      "explanation": "(3a/2) × a = (3/2)a², (3a/2) × b = (3/2)ab and (3a/2) × 1/5 = (3/10)a. The middle sign is negative because the bracket has −b.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Expanding & Like Terms",
+      "question": "Why can (3/2)a² and (3/10)a NOT be combined into a single term?",
+      "options": [
+        "Their letter-number parts a² and a differ",
+        "Their coefficients are different fractions",
+        "One coefficient is larger than the other",
+        "Fractions can never be added to each other"
+      ],
+      "answer": 0,
+      "explanation": "Only like terms — same letter-numbers — can be added. a² and a are different letter-numbers, so no further simplification is possible; the fraction coefficients are irrelevant.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Expanding & Like Terms",
+      "question": "(a + b)(a + b) simplifies to:",
+      "options": [
+        "2a² + 2b²",
+        "a² + 2ab + b²",
+        "a² − 2ab + b²",
+        "a² + ab + b²"
+      ],
+      "answer": 1,
+      "explanation": "(a + b)a + (a + b)b = a² + ba + ab + b². Since ba = ab, the two like terms add to 2ab; the sign is plus because both terms are positive.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Expanding & Like Terms",
+      "question": "(a + b)(a² + 2ab + b²) =",
+      "options": [
+        "a³ + 3a²b + 3ab² − b³",
+        "a³ + a²b + ab² + b³",
+        "a³ + 3a²b + 3ab² + b³",
+        "a³ + 2a²b + 2ab² + b³"
+      ],
+      "answer": 2,
+      "explanation": "Example 3 gives a³ + a²b + 2a²b + 2ab² + ab² + b³; combining a²b + 2a²b = 3a²b and ab² + 2ab² = 3ab² yields a³ + 3a²b + 3ab² + b³.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Expanding & Like Terms",
+      "question": "In Example 3, which pair of like terms adds to 3a²b?",
+      "options": [
+        "ab² and 2ab²",
+        "a²b and 2ab²",
+        "a³ and 2a²b",
+        "a²b and 2a²b"
+      ],
+      "answer": 3,
+      "explanation": "a²b (from b × a²) and 2a²b (from a × 2ab) have the same letter-numbers, so (1 + 2)a²b = 3a²b. ab² and 2ab² are the other pair, giving 3ab².",
+      "source": "text:page7"
+    },
+    {
+      "id": "q32",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Expanding & Like Terms",
+      "question": "In Example 3, the terms ba² and 2a²b are unlike terms because the letters are written in a different order.",
+      "answer": false,
+      "explanation": "ba² = a²b by commutativity; the letter-numbers are identical, so they are like terms and add to 3a²b. Order of writing does not change a term.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q33",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Expanding & Like Terms",
+      "question": "Which pairs are like terms?",
+      "options": [
+        "a²b and 2a²b",
+        "ab² and 3ab²",
+        "a² and a",
+        "ab and a²b",
+        "5w² and 6w"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Like terms must have exactly the same letter-numbers. a²b/2a²b and ab²/3ab² qualify; a² vs a, ab vs a²b and w² vs w have different powers, so they stay separate.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Distributivity",
+      "question": "Who gave the first explicit statement of the distributive property?",
+      "options": [
+        "Brahmagupta",
+        "Āryabhaṭa",
+        "Sridharacharya",
+        "Bhaskaracharya"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says Brahmagupta stated it explicitly in Brahmasphuṭasiddhānta (Verse 12.55). Āryabhaṭa and Euclid used it only implicitly; Sridharacharya and Bhaskaracharya came later.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Distributivity",
+      "question": "Brahmagupta's term khaṇḍa-guṇanam means:",
+      "options": [
+        "multiplication by doubling",
+        "multiplication by parts",
+        "multiplication by squares",
+        "multiplication by tens"
+      ],
+      "answer": 1,
+      "explanation": "khaṇḍa-guṇanam = multiplication by parts: the multiplier is broken into parts, the multiplicand is multiplied by each, and the results are added.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Distributivity",
+      "question": "How did Euclid and Āryabhaṭa use the distributive law, according to the chapter?",
+      "options": [
+        "Both stated it explicitly in verse form",
+        "Both used it only for squaring numbers",
+        "Euclid geometrically, Āryabhaṭa algebraically",
+        "Euclid algebraically, Āryabhaṭa geometrically"
+      ],
+      "answer": 2,
+      "explanation": "The text says Euclid used it in geometric form and Āryabhaṭa in algebraic form, both implicitly. The first explicit statement came later, from Brahmagupta.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "History of Distributivity",
+      "question": "In Verse 12.56 Brahmagupta describes fast multiplication using distributivity. The chapter calls this method:",
+      "options": [
+        "khaṇḍa-guṇanam",
+        "Lilavati",
+        "siddhānta",
+        "ista-gunana"
+      ],
+      "answer": 3,
+      "explanation": "Verse 12.55 names khaṇḍa-guṇanam (multiplication by parts); the next verse, 12.56, describes fast multiplication methods referred to as ista-gunana. Lilavati is Bhaskaracharya's work.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "History of Distributivity",
+      "question": "Which mathematician–date pairing is NOT given in the chapter?",
+      "options": [
+        "Bhaskaracharya — 628 CE",
+        "Brahmagupta — 628 CE",
+        "Sridharacharya — 750 CE",
+        "Bhaskaracharya (Lilavati) — 1150 CE"
+      ],
+      "answer": 0,
+      "explanation": "The chapter dates Brahmagupta to 628 CE, Sridharacharya to 750 CE and Bhaskaracharya's Lilavati to 1150 CE. 628 CE belongs to Brahmagupta, not Bhaskaracharya.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q39",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "History of Distributivity",
+      "question": "Brahmagupta's verse says: break the multiplier into parts whose sum equals it, multiply the multiplicand by each part, and add the results.",
+      "answer": true,
+      "explanation": "This is the quoted content of Verse 12.55 — with two parts it is exactly the identity (a + b)c = ac + bc.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q40",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "History of Distributivity",
+      "question": "The distributive property was first used by Brahmagupta; earlier civilisations such as Egypt and Greece did not use it at all.",
+      "answer": false,
+      "explanation": "The property was implicit in the calculations of ancient Egypt, Mesopotamia, Greece, China and India. Brahmagupta was the first to state it explicitly, not the first to use it.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Expanding Products (Figure it Out)",
+      "question": "In the multiplication grid, the middle of a 3 × 3 frame is pq (row p, column q). The number directly ABOVE it is:",
+      "options": [
+        "(p − 1)(q − 1)",
+        "(p − 1)q",
+        "p(q − 1)",
+        "(p + 1)q"
+      ],
+      "answer": 1,
+      "explanation": "Moving up one row keeps the column factor q and reduces the row factor by 1, giving (p − 1)q. In the example frame (middle 4 × 6) the entry above is 3 × 6.",
+      "source": "exercise:p142-Q1"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Expanding Products (Figure it Out)",
+      "question": "In the same 3 × 3 frame, by how much does the bottom-right corner (p + 1)(q + 1) exceed the top-left corner (p − 1)(q − 1)?",
+      "options": [
+        "p + q + 2",
+        "2pq + 2",
+        "2(p + q)",
+        "2(p − q)"
+      ],
+      "answer": 2,
+      "explanation": "(p + 1)(q + 1) − (p − 1)(q − 1) = (pq + p + q + 1) − (pq − p − q + 1) = 2p + 2q. Check with the example frame: 5 × 7 − 3 × 5 = 35 − 15 = 20 = 2(4 + 6).",
+      "source": "exercise:p142-Q1"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Expanding Products (Figure it Out)",
+      "question": "Expand (3 + u)(v − 3).",
+      "options": [
+        "3v + 3u + uv − 9",
+        "3v − 3u − uv + 9",
+        "3v − 3u + uv + 9",
+        "3v − 3u + uv − 9"
+      ],
+      "answer": 3,
+      "explanation": "3·v + 3·(−3) + u·v + u·(−3) = 3v − 9 + uv − 3u. Both the −3u term and the −9 constant come from multiplying by −3.",
+      "source": "exercise:p143-Q2(i)"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Expanding Products (Figure it Out)",
+      "question": "(2/3)(15 + 6a) =",
+      "options": [
+        "10 + 4a",
+        "10 + 6a",
+        "15 + 4a",
+        "10 + 9a"
+      ],
+      "answer": 0,
+      "explanation": "(2/3) × 15 = 10 and (2/3) × 6a = 4a. The fraction must multiply BOTH terms inside the bracket.",
+      "source": "exercise:p143-Q2(ii)"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Expanding Products (Figure it Out)",
+      "question": "(3 − x)(x − 6) =",
+      "options": [
+        "−x² + 3x − 18",
+        "−x² + 9x − 18",
+        "x² − 9x − 18",
+        "−x² − 9x − 18"
+      ],
+      "answer": 1,
+      "explanation": "3·x + 3·(−6) + (−x)·x + (−x)·(−6) = 3x − 18 − x² + 6x = −x² + 9x − 18. The x² term is negative and the two x terms add to 9x.",
+      "source": "exercise:p143-Q2(iv)"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Expanding Products (Figure it Out)",
+      "question": "The product ab stays unchanged when a is increased by 2 and b is decreased by 4. Which relation must hold between a and b?",
+      "options": [
+        "a = 2b + 4",
+        "b = 4a + 2",
+        "b = 2a + 4",
+        "b = 2a − 4"
+      ],
+      "answer": 2,
+      "explanation": "(a + 2)(b − 4) = ab − 4a + 2b − 8. Setting this equal to ab gives 2b = 4a + 8, i.e. b = 2a + 4 — the relation in the answer key.",
+      "source": "exercise:p143-Q3"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Expanding Products (Figure it Out)",
+      "question": "Which pair of numbers gives the same product after one is increased by 2 and the other decreased by 4?",
+      "options": [
+        "a = 4, b = 10",
+        "a = 3, b = 8",
+        "a = 2, b = 6",
+        "a = 3, b = 10"
+      ],
+      "answer": 3,
+      "explanation": "3 × 10 = 30 and (3 + 2)(10 − 4) = 5 × 6 = 30. The pair must satisfy b = 2a + 4; 4 × 10 → 6 × 6 = 36, 3 × 8 → 5 × 4 = 20 and 2 × 6 → 4 × 2 = 8 all change.",
+      "source": "exercise:p143-Q3"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Expanding Products (Figure it Out)",
+      "question": "Pattern: (a − b)(a + b) = a² − b², (a − b)(a² + ab + b²) = a³ − b³, (a − b)(a³ + a²b + ab² + b³) = a⁴ − b⁴. The next identity's right-hand side is:",
+      "options": [
+        "a⁵ − b⁵",
+        "a⁵ + b⁵",
+        "a⁴ − b⁴",
+        "a⁵ − a⁴b"
+      ],
+      "answer": 0,
+      "explanation": "Each step adds one more term to the second bracket and raises the power by 1: (a − b)(a⁴ + a³b + a²b² + ab³ + b⁴) = a⁵ − b⁵, since all middle terms cancel in pairs.",
+      "source": "exercise:p143-Q5"
+    },
+    {
+      "id": "q49",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Expanding Products (Figure it Out)",
+      "question": "Select the correct products from Figure it Out 5.",
+      "options": [
+        "(a − b)(a + b) = a² − b²",
+        "(a − b)(a² + ab + b²) = a³ − b³",
+        "(a − b)(a² + ab + b²) = a³ + b³",
+        "(a − b)(a³ + a²b + ab² + b³) = a⁴ + b⁴"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Multiplying out, the cross terms cancel and only the first and last survive with a MINUS sign: a² − b², a³ − b³, a⁴ − b⁴. A plus sign would need a different second bracket.",
+      "source": "exercise:p143-Q5"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Expanding Products (Figure it Out)",
+      "question": "(p − 1)(p + 11) =",
+      "options": [
+        "p² + 10p + 11",
+        "p² + 10p − 11",
+        "p² − 10p − 11",
+        "p² + 12p − 11"
+      ],
+      "answer": 1,
+      "explanation": "p·p + p·11 + (−1)·p + (−1)·11 = p² + 11p − p − 11 = p² + 10p − 11. The constant is (−1)(11) = −11.",
+      "source": "exercise:p154-Q2(i)"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Expanding Products (Figure it Out)",
+      "question": "−(2y + 5)(3y + 4) =",
+      "options": [
+        "6y² − 23y − 20",
+        "−6y² − 23y + 20",
+        "−6y² − 23y − 20",
+        "−6y² + 23y − 20"
+      ],
+      "answer": 2,
+      "explanation": "(2y + 5)(3y + 4) = 6y² + 8y + 15y + 20 = 6y² + 23y + 20; the leading minus sign then flips EVERY term: −6y² − 23y − 20.",
+      "source": "exercise:p154-Q2(iii)"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Expanding Products (Figure it Out)",
+      "question": "(7p) × (3r) × (p + 2) =",
+      "options": [
+        "21p²r + 42r",
+        "10p²r + 20pr",
+        "21pr + 42pr",
+        "21p²r + 42pr"
+      ],
+      "answer": 3,
+      "explanation": "7p × 3r = 21pr, and 21pr(p + 2) = 21p²r + 42pr. Coefficients multiply (7 × 3 = 21), they do not add.",
+      "source": "exercise:p154-Q2(vi)"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fast Multiplication by 11, 101, 99",
+      "question": "3874 × 11 is computed as 3874 × (10 + 1) = 38740 + 3874, which equals:",
+      "options": [
+        "42614",
+        "42514",
+        "41614",
+        "42624"
+      ],
+      "answer": 0,
+      "explanation": "Distributivity turns ×11 into ×10 plus ×1: 38740 + 3874 = 42614. The one-line method writes 3, 3+8=11 (carry), 8+7=15, 7+4=11, 4 and resolves the carries to 42614.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fast Multiplication by 11, 101, 99",
+      "question": "For a 4-digit number dcba, the digits of dcba × 11 from left to right are:",
+      "options": [
+        "d, c, (b + d), (a + c), b, a",
+        "d, (c + d), (b + c), (a + b), a",
+        "d, (d + c), (c + b), (b + a), 0",
+        "a, (a + b), (b + c), (c + d), d"
+      ],
+      "answer": 1,
+      "explanation": "Adding dcba0 and dcba column by column gives d, c + d, b + c, a + b, a (with carries where a sum exceeds 9). The last option is the ×101 pattern.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Fast Multiplication by 11, 101, 99",
+      "question": "495 × 11 =",
+      "options": [
+        "5345",
+        "5455",
+        "5445",
+        "4945"
+      ],
+      "answer": 2,
+      "explanation": "Digits: 4, 4 + 9 = 13 → write 3 carry 1, 9 + 5 = 14 → write 4 carry 1, 5. Resolving carries: 4 + 1 = 5, 3 + 1 = 4, 4, 5 → 5445. Check: 4950 + 495 = 5445.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fast Multiplication by 11, 101, 99",
+      "question": "3279 × 11 =",
+      "options": [
+        "35069",
+        "36169",
+        "32869",
+        "36069"
+      ],
+      "answer": 3,
+      "explanation": "32790 + 3279 = 36069. One-line: 3, 3+2=5, 2+7=9, 7+9=16 (write 6, carry 1 → 9 becomes 10, write 0, carry 1 → 5 becomes 6), 9 → 36069.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fast Multiplication by 11, 101, 99",
+      "question": "For dcba × 101, the digits from left to right are:",
+      "options": [
+        "d, c, (b + d), (a + c), b, a",
+        "d, (c + d), (b + c), (a + b), a",
+        "d, c, b, (a + d), c, b, a",
+        "d, c, (b + c), (a + b), b, a"
+      ],
+      "answer": 0,
+      "explanation": "dcba × 101 = dcba00 + dcba, so the digits of dcba are added two places to the left: d, c, b + d, a + c, b, a. The 7-digit option is the ×1001 pattern.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Fast Multiplication by 11, 101, 99",
+      "question": "Which rewriting correctly uses distributivity to compute 9734 × 99?",
+      "options": [
+        "9734 × (10 − 1) = 97340 − 9734",
+        "9734 × (100 − 1) = 973400 − 9734",
+        "9734 × (100 − 1) = 973400 − 973",
+        "9734 × (100 + 1) = 973400 + 9734"
+      ],
+      "answer": 1,
+      "explanation": "99 = 100 − 1, so 9734 × 99 = 973400 − 9734 = 963666. Subtracting 973 drops a digit, 100 + 1 is 101, and 10 − 1 is only 9.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Fast Multiplication by 11, 101, 99",
+      "question": "23478 × 999 =",
+      "options": [
+        "23455522",
+        "23478522",
+        "23454522",
+        "23454532"
+      ],
+      "answer": 2,
+      "explanation": "999 = 1000 − 1: 23478000 − 23478 = 23454522. Subtract carefully — 23478000 − 23478 borrows across several places.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q60",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Fast Multiplication by 11, 101, 99",
+      "question": "In the one-line method for multiplying by 11, each digit of the product (apart from the two ends) is the sum of two adjacent digits of the original number, with carries passed leftward.",
+      "answer": true,
+      "explanation": "dcba × 11 = d, (c + d), (b + c), (a + b), a — each middle digit is a neighbour-pair sum, and sums of 10 or more carry 1 to the left.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q61",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Fast Multiplication by 11, 101, 99",
+      "question": "4791256 × 11 = 52713816.",
+      "answer": false,
+      "explanation": "47912560 + 4791256 = 52703816, not 52713816. The one-line method also gives 5, 2, 7, 0, 3, 8, 1, 6 after carries.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q62",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Fast Multiplication by 11, 101, 99",
+      "question": "Which products are correct?",
+      "options": [
+        "94 × 11 = 1034",
+        "89 × 101 = 8989",
+        "495 × 11 = 5345",
+        "1111 × 1001 = 1111111",
+        "949 × 101 = 94949"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "94 × 11 = 940 + 94 = 1034 and 89 × 101 = 8900 + 89 = 8989. The wrong ones: 495 × 11 = 5445, 1111 × 1001 = 1112111, 949 × 101 = 95849.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Identity 1A: Square of a Sum",
+      "question": "Identity 1A: (a + b)² =",
+      "options": [
+        "a² + b²",
+        "a² + ab + b²",
+        "a² − 2ab + b²",
+        "a² + 2ab + b²"
+      ],
+      "answer": 3,
+      "explanation": "(a + b)(a + b) = a² + ab + ba + b², and the two like terms give 2ab. Leaving out 2ab is the classic error (Mind the Mistake item 4).",
+      "source": "text:page10"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Identity 1A: Square of a Sum",
+      "question": "A square of side 65 is split into a 60-square, a 5-square and two 60 × 5 rectangles. Its area is:",
+      "options": [
+        "3600 + 25 + 600 = 4225",
+        "3600 + 25 + 300 = 3925",
+        "3600 + 25 = 3625",
+        "3600 + 600 + 600 = 4800"
+      ],
+      "answer": 0,
+      "explanation": "60² = 3600, 5² = 25 and the TWO rectangles give 2 × 300 = 600, so 65² = 4225. Counting only one rectangle, or none, undercounts the area.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Identity 1A: Square of a Sum",
+      "question": "Using Identity 1A, 104² =",
+      "options": [
+        "10826",
+        "10816",
+        "10016",
+        "10416"
+      ],
+      "answer": 1,
+      "explanation": "(100 + 4)² = 100² + 2 × 100 × 4 + 4² = 10000 + 800 + 16 = 10816. 10016 forgets the 800 middle term.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Identity 1A: Square of a Sum",
+      "question": "37² computed as (30 + 7)² equals:",
+      "options": [
+        "1329",
+        "1469",
+        "1369",
+        "1309"
+      ],
+      "answer": 2,
+      "explanation": "30² + 2 × 30 × 7 + 7² = 900 + 420 + 49 = 1369. (You can also use (40 − 3)² = 1600 − 240 + 9.)",
+      "source": "text:page10"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Identity 1A: Square of a Sum",
+      "question": "For integers a and b, when is (a + b)² greater than a² + b²?",
+      "options": [
+        "When exactly one of a and b is a negative integer",
+        "Only when a and b are both positive even numbers",
+        "Always, for every pair of integers a and b",
+        "When a and b are both non-zero with the same sign"
+      ],
+      "answer": 3,
+      "explanation": "(a + b)² = a² + b² + 2ab, so it exceeds a² + b² exactly when 2ab > 0, i.e. a and b are both positive or both negative. With opposite signs it is smaller; if either is 0 they are equal.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Identity 1A: Square of a Sum",
+      "question": "(6x + 5)² =",
+      "options": [
+        "36x² + 60x + 25",
+        "36x² + 30x + 25",
+        "36x² + 25",
+        "12x² + 60x + 25"
+      ],
+      "answer": 0,
+      "explanation": "(6x)² + 2(6x)(5) + 5² = 36x² + 60x + 25. The middle term is twice the product, 2 × 30x = 60x, not 30x.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Identity 1A: Square of a Sum",
+      "question": "(3j + 2k)² =",
+      "options": [
+        "3j² + 12jk + 2k²",
+        "9j² + 12jk + 4k²",
+        "9j² + 6jk + 4k²",
+        "9j² + 4k²"
+      ],
+      "answer": 1,
+      "explanation": "(3j)² + 2(3j)(2k) + (2k)² = 9j² + 12jk + 4k². Squaring 3j gives 9j² (coefficient squared too), and the cross term is 2 × 6jk.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q70",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Identity 1A: Square of a Sum",
+      "question": "(a + b)² = a² + b² for all integers a and b.",
+      "answer": false,
+      "explanation": "(a + b)² = a² + 2ab + b²; the two are equal only when 2ab = 0. For example (1 + 1)² = 4 but 1² + 1² = 2.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q71",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Identity 1A: Square of a Sum",
+      "question": "Expanding (60 + 5)(60 + 5) by the distributive property gives 60 × 60 + 5 × 60 + 60 × 5 + 5 × 5, which equals 60² + 2 × (60 × 5) + 5².",
+      "answer": true,
+      "explanation": "The two rectangles 5 × 60 and 60 × 5 have equal area, so they combine into 2 × (60 × 5) = 600, giving 3600 + 600 + 25 = 4225.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Identity 1A: Square of a Sum",
+      "question": "Which statement about 65² written as (52 + 13)² is NOT correct?",
+      "options": [
+        "The cross term 2 × 52 × 13 is 1352",
+        "Adding all three parts gives 4225",
+        "The square 52² equals 2074",
+        "The square 13² equals 169"
+      ],
+      "answer": 2,
+      "explanation": "52² = 2704, not 2074 (a digit swap). Then 2704 + 169 + 1352 = 4225 = 65², confirming the identity works for any split of 65.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q73",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Identity 1A: Square of a Sum",
+      "question": "Which expansions by Identity 1A are correct?",
+      "options": [
+        "(m + 3)² = m² + 6m + 9",
+        "(6 + p)² = 36 + 12p + p²",
+        "(6x + 5)² = 36x² + 25",
+        "(3j + 2k)² = 9j² + 6jk + 4k²"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "(m + 3)² = m² + 2·3·m + 9 and (6 + p)² = 36 + 2·6·p + p². (6x + 5)² needs the middle term 60x, and (3j + 2k)² has cross term 2 × 3j × 2k = 12jk, not 6jk.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Identity 1B: Square of a Difference",
+      "question": "Identity 1B: (a − b)² =",
+      "options": [
+        "a² − b²",
+        "a² + 2ab − b²",
+        "a² − 2ab − b²",
+        "a² − 2ab + b²"
+      ],
+      "answer": 3,
+      "explanation": "(a − b)(a − b) = a² − ab − ba + b² = a² − 2ab + b². The b² term is positive because (−b)(−b) = +b²; a² − b² is Identity 1C instead.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Identity 1B: Square of a Difference",
+      "question": "To find 55² from the 60-square, the chapter removes two 60 × 5 rectangles. Why must 5² then be added back?",
+      "options": [
+        "The small 5-square was removed twice",
+        "The small 5-square was never removed",
+        "The rectangles overlap the 55-square",
+        "To make the total a multiple of 25"
+      ],
+      "answer": 0,
+      "explanation": "The two 60 × 5 rectangles overlap in the 5 × 5 corner, so subtracting both removes that corner twice. Adding 5² back means it is subtracted only once: 3600 − 300 − 300 + 25.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Identity 1B: Square of a Difference",
+      "question": "99² using Identity 1B =",
+      "options": [
+        "9901",
+        "9801",
+        "9701",
+        "9811"
+      ],
+      "answer": 1,
+      "explanation": "(100 − 1)² = 10000 − 2 × 100 × 1 + 1 = 10000 − 200 + 1 = 9801. Forgetting the +1 gives 9800; using −100 instead of −200 gives 9901.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Identity 1B: Square of a Difference",
+      "question": "(b − 6)² =",
+      "options": [
+        "b² − 36",
+        "b² − 12b − 36",
+        "b² − 12b + 36",
+        "b² − 6b + 36"
+      ],
+      "answer": 2,
+      "explanation": "b² − 2 × 6 × b + 6² = b² − 12b + 36. The constant (−6)² is +36, and the middle term is double the product.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Identity 1B: Square of a Difference",
+      "question": "(−2a + 3)² =",
+      "options": [
+        "4a² + 12a + 9",
+        "−4a² − 12a + 9",
+        "4a² − 6a + 9",
+        "4a² − 12a + 9"
+      ],
+      "answer": 3,
+      "explanation": "(−2a)² + 2(−2a)(3) + 3² = 4a² − 12a + 9. Squaring −2a gives +4a²; the cross term carries the minus sign.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Identity 1B: Square of a Difference",
+      "question": "(7y − (3/4)z)² =",
+      "options": [
+        "49y² − (21/2)yz + (9/16)z²",
+        "49y² − (21/4)yz + (9/16)z²",
+        "49y² − (21/2)yz + (3/4)z²",
+        "49y² + (21/2)yz + (9/16)z²"
+      ],
+      "answer": 0,
+      "explanation": "(7y)² = 49y², 2 × 7y × (3/4)z = (42/4)yz = (21/2)yz with a minus sign, and ((3/4)z)² = (9/16)z². The fraction must be squared, not left as 3/4.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Identity 1B: Square of a Difference",
+      "question": "(2x − 1/2)² =",
+      "options": [
+        "4x² + 2x + 1/4",
+        "4x² − 2x + 1/4",
+        "4x² − x + 1/4",
+        "4x² − 2x + 1/2"
+      ],
+      "answer": 1,
+      "explanation": "(2x)² − 2 × 2x × (1/2) + (1/2)² = 4x² − 2x + 1/4. The middle term is 2 × 2x × 1/2 = 2x, and (1/2)² = 1/4.",
+      "source": "exercise:p154-Q2(v)"
+    },
+    {
+      "id": "q81",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Identity 1B: Square of a Difference",
+      "question": "(a − b)² and (b − a)² are always equal.",
+      "answer": true,
+      "explanation": "(a − b)² = a² − 2ab + b² and (b − a)² = b² − 2ba + a², the same expression — so neither is greater (Figure it Out p149, Q1).",
+      "source": "exercise:p149-Q1"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Identity 1B: Square of a Difference",
+      "question": "Which statement about Identity 1B is NOT correct?",
+      "options": [
+        "(a − b)² can also be written a² + b² − 2ab",
+        "(a − b)² always equals (b − a)²",
+        "(a − b)² can be negative when b > a",
+        "(a − b)² is the same as (a + (−b))²"
+      ],
+      "answer": 2,
+      "explanation": "A square of any number is never negative: if b > a then a − b is negative but its square is positive. The other three statements are all made in the chapter.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q83",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Identity 1B: Square of a Difference",
+      "question": "Which of these values are correct?",
+      "options": [
+        "99² = 9801",
+        "58² = 3364",
+        "55² = 3125",
+        "(b − 6)² = b² − 6b + 36",
+        "72² = 5084"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "99² = (100 − 1)² = 9801 and 58² = (60 − 2)² = 3600 − 240 + 4 = 3364. 55² = 3025, (b − 6)² has middle term −12b, and 72² = (70 + 2)² = 5184.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Identity 1C & Number Patterns",
+      "question": "Identity 1C: (a + b)(a − b) =",
+      "options": [
+        "a² + b²",
+        "a² − 2ab + b²",
+        "2a² − 2b²",
+        "a² − b²"
+      ],
+      "answer": 3,
+      "explanation": "(a + b)(a − b) = a² − ab + ba − b²; the middle terms cancel, leaving a² − b². This explains Pattern 2 (e.g. 9 × 9 − 1 × 1 = 10 × 8).",
+      "source": "text:page13"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Identity 1C & Number Patterns",
+      "question": "Pattern 1 says 2(a² + b²) equals:",
+      "options": [
+        "(a + b)² + (a − b)²",
+        "(a + b)² − (a − b)²",
+        "(a + b)(a − b)",
+        "(a + b)² + 2ab"
+      ],
+      "answer": 0,
+      "explanation": "Adding (a + b)² = a² + 2ab + b² and (a − b)² = a² − 2ab + b² cancels the ab terms and leaves 2a² + 2b². Example: 2(5² + 6²) = 11² + 1².",
+      "source": "text:page13"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Identity 1C & Number Patterns",
+      "question": "Using Identity 1C, 98 × 102 =",
+      "options": [
+        "9986",
+        "9996",
+        "9999",
+        "10004"
+      ],
+      "answer": 1,
+      "explanation": "98 × 102 = (100 − 2)(100 + 2) = 100² − 2² = 10000 − 4 = 9996.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Identity 1C & Number Patterns",
+      "question": "Sridharacharya's method uses a² = (a + b)(a − b) + b². For 31² with b = 1 this gives:",
+      "options": [
+        "31 × 30 + 1 = 931",
+        "32 × 31 + 1 = 993",
+        "32 × 30 + 1 = 961",
+        "32 × 30 − 1 = 959"
+      ],
+      "answer": 2,
+      "explanation": "a + b = 32, a − b = 30 and b² = 1, so 31² = 32 × 30 + 1 = 960 + 1 = 961. The b² is ADDED, not subtracted.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Identity 1C & Number Patterns",
+      "question": "197² by Sridharacharya's method with b = 3 is:",
+      "options": [
+        "200 × 194 − 9 = 38791",
+        "200 × 194 + 3 = 38803",
+        "200 × 197 + 9 = 39409",
+        "200 × 194 + 9 = 38809"
+      ],
+      "answer": 3,
+      "explanation": "(197 + 3)(197 − 3) + 3² = 200 × 194 + 9 = 38800 + 9 = 38809. Choosing b = 3 makes one factor a round 200.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Identity 1C & Number Patterns",
+      "question": "Why is the identity a² = (a + b)(a − b) + b² true?",
+      "options": [
+        "Because (a + b)(a − b) = a² − b², and adding b² gives a²",
+        "Because (a + b)(a − b) = a² + b², and adding b² gives a²",
+        "Because a² is always the sum of two consecutive squares",
+        "Because (a + b)² − (a − b)² equals 4ab for all numbers"
+      ],
+      "answer": 0,
+      "explanation": "It is Identity 1C rearranged: (a + b)(a − b) = a² − b², so (a + b)(a − b) + b² = a² − b² + b² = a².",
+      "source": "text:page14"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Identity 1C & Number Patterns",
+      "question": "Which statement about Patterns 1 and 2 is NOT true?",
+      "options": [
+        "They follow from the (a ± b)² identities",
+        "They hold only for counting numbers",
+        "They hold for negative integers too",
+        "They hold for fractions as well"
+      ],
+      "answer": 1,
+      "explanation": "Both patterns come from identities that are true for ALL numbers, so they work for negative integers and fractions too (Figure it Out p149, Q4).",
+      "source": "exercise:p149-Q4"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Identity 1C & Number Patterns",
+      "question": "397 × 403 = (400 − 3)(400 + 3) =",
+      "options": [
+        "159901",
+        "159999",
+        "159991",
+        "160009"
+      ],
+      "answer": 2,
+      "explanation": "400² − 3² = 160000 − 9 = 159991. 160009 adds 9 instead of subtracting; 159901 subtracts 99.",
+      "source": "exercise:p154-Q1(ii)"
+    },
+    {
+      "id": "q92",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Identity 1C & Number Patterns",
+      "question": "(a + b)(a − b) expands to a² − ab + ba − b², and since −ab + ba = 0 this equals a² + b².",
+      "answer": false,
+      "explanation": "After the middle terms cancel we are left with a² − b², not a² + b². Check: 3 × 1 = (2 + 1)(2 − 1) = 4 − 1 = 3.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q93",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Identity 1C & Number Patterns",
+      "question": "Which of these differences of squares equal 100?",
+      "options": [
+        "26² − 24²",
+        "10² − 0²",
+        "25² − 15²",
+        "15² − 5²",
+        "50² − 48²"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "26² − 24² = 676 − 576 = 100 (the chapter's table) and 10² − 0² = 100. 25² − 15² = 400, 15² − 5² = 200 and 50² − 48² = 196.",
+      "source": "exercise:p149-Q2"
+    },
+    {
+      "id": "q94",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Identity 1C & Number Patterns",
+      "question": "Which computed values from Figure it Out (p154 Q1) are correct?",
+      "options": [
+        "46² = 2116",
+        "91² = 8281",
+        "397 × 403 = 160009",
+        "43 × 45 = 1936"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "46² = (40 + 6)² = 1600 + 480 + 36 = 2116; 91² = (100 − 9)² = 10000 − 1800 + 81 = 8281. 397 × 403 = 159991 and 43 × 45 = 44² − 1 = 1935.",
+      "source": "exercise:p154-Q1"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Mind the Mistake",
+      "question": "−3p(−5p + 2q) was simplified to p − 2q. The correct expansion is:",
+      "options": [
+        "−15p² + 6pq",
+        "15p − 6q",
+        "−15p² − 6pq",
+        "15p² − 6pq"
+      ],
+      "answer": 3,
+      "explanation": "(−3p)(−5p) = +15p² and (−3p)(2q) = −6pq. The faulty working treated −3p as if it were being added, not multiplied.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Mind the Mistake",
+      "question": "2(x − 1) + 3(x + 4) was written as 2x − 1 + 3x + 4 = 5x + 3. What went wrong?",
+      "options": [
+        "The 2 and 3 were not multiplied with −1 and 4",
+        "The like terms 2x and 3x were added wrongly",
+        "The brackets should have been multiplied together",
+        "The constants −1 and 4 should not be added"
+      ],
+      "answer": 0,
+      "explanation": "Distributivity requires 2 × (−1) = −2 and 3 × 4 = 12, giving 2x − 2 + 3x + 12 = 5x + 10. Only the letter terms were multiplied in the wrong working.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Mind the Mistake",
+      "question": "y + 2(y + 2) was simplified to (y + 2)² = y² + 4y + 4. The correct result is:",
+      "options": [
+        "3y + 2",
+        "3y + 4",
+        "y² + 4y + 4",
+        "2y + 4"
+      ],
+      "answer": 1,
+      "explanation": "y + 2(y + 2) = y + 2y + 4 = 3y + 4. Adding y to 2(y + 2) is not the same as multiplying (y + 2) by itself.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Mind the Mistake",
+      "question": "(5m + 6n)² = 25m² + 36n² is missing which term?",
+      "options": [
+        "11mn",
+        "12mn",
+        "60mn",
+        "30mn"
+      ],
+      "answer": 2,
+      "explanation": "(5m + 6n)² = 25m² + 2 × 5m × 6n + 36n² = 25m² + 60mn + 36n². The cross term is twice the product 30mn.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Mind the Mistake",
+      "question": "3a(2b × 3c) was expanded as 6ab × 9ac = 54a²bc. The correct value is:",
+      "options": [
+        "54abc",
+        "18a²bc",
+        "6abc",
+        "18abc"
+      ],
+      "answer": 3,
+      "explanation": "Distributivity applies over ADDITION, not over a product. 2b × 3c = 6bc first, then 3a × 6bc = 18abc.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Mind the Mistake",
+      "question": "Why is 5w² + 6w = 11w² wrong?",
+      "options": [
+        "w² and w are unlike terms, so they cannot be added",
+        "5 and 6 add up to 12, so the result is 12w²",
+        "The powers should be added, giving 11w³",
+        "Multiplying coefficients gives 30w³, not 11w²"
+      ],
+      "answer": 0,
+      "explanation": "Only like terms (same letter-numbers) combine. w² and w differ, so 5w² + 6w is already in simplest form.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Mind the Mistake",
+      "question": "2a³ + 3a³ + 6a²b + 6ab² correctly simplifies to:",
+      "options": [
+        "6a³ + 6a²b + 6ab²",
+        "5a³ + 6a²b + 6ab²",
+        "5a³ + 12a²b + 6ab²",
+        "5a⁶ + 6a²b + 6ab²"
+      ],
+      "answer": 1,
+      "explanation": "2a³ + 3a³ = 5a³ (coefficients add, the power stays a³), but 6a²b and 6ab² are NOT like terms (different powers of a and b), so they stay separate rather than merging into 12a²b².",
+      "source": "text:page15"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Mind the Mistake",
+      "question": "(a + 2)(b + 4) = ab + 8 is wrong because:",
+      "options": [
+        "The product ab should not appear",
+        "The brackets should be squared first",
+        "The cross terms 4a and 2b are missing",
+        "The constant should be 6, not 8"
+      ],
+      "answer": 2,
+      "explanation": "Each term of (a + 2) multiplies each term of (b + 4): ab + 4a + 2b + 8. Only the first-times-first and last-times-last products were kept.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q103",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Mind the Mistake",
+      "question": "ab² + a²b + a²b² = ab(a + b + ab) is a correct factorisation.",
+      "answer": true,
+      "explanation": "Expanding the right side: ab × a = a²b, ab × b = ab², ab × ab = a²b² — all three original terms appear, so item 11 of Mind the Mistake has no error.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q104",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Mind the Mistake",
+      "question": "(1/2)(10s − 6) + 3 simplifies to 5s − 3, because the −3 and +3 do not cancel.",
+      "answer": false,
+      "explanation": "(1/2)(10s − 6) = 5s − 3, and adding 3 gives 5s − 3 + 3 = 5s. The −3 and +3 DO cancel; the chapter's item 7 is correct as written.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q105",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Mind the Mistake",
+      "question": "Which of these 'Mind the Mistake' items are actually correct as written?",
+      "options": [
+        "(−q + 2)² = q² − 4q + 4",
+        "(x + 2)(x + 5) = x² + 7x + 10",
+        "(5m + 6n)² = 25m² + 36n²",
+        "y + 2(y + 2) = (y + 2)²",
+        "(a + 2)(b + 4) = ab + 8"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "(−q + 2)² = q² + 2(−q)(2) + 4 = q² − 4q + 4 ✓ and (x + 2)(x + 5) = x² + 5x + 2x + 10 ✓. The others miss cross terms or confuse addition with squaring.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Patterns: Many Ways to Count",
+      "question": "The number of circles at Step k of the circle pattern in section 6.4 is:",
+      "options": [
+        "k² + 2",
+        "2k + 1",
+        "k² + k",
+        "k² + 2k"
+      ],
+      "answer": 3,
+      "explanation": "All four methods simplify to k² + 2k: Steps 1, 2, 3 have 3, 8, 15 circles. k² + 2 would give 3, 6, 11 and 2k + 1 gives 3, 5, 7.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Patterns: Many Ways to Count",
+      "question": "How many circles are there at Step 10?",
+      "options": [
+        "120",
+        "100",
+        "110",
+        "121"
+      ],
+      "answer": 0,
+      "explanation": "k² + 2k with k = 10: 100 + 20 = 120. Equivalently (10 + 1)² − 1 = 121 − 1 = 120.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Patterns: Many Ways to Count",
+      "question": "Using k² + 2k, the number of circles at Step 15 is:",
+      "options": [
+        "256",
+        "255",
+        "225",
+        "240"
+      ],
+      "answer": 1,
+      "explanation": "15² + 2 × 15 = 225 + 30 = 255. 225 is only k², and 256 = (k + 1)² forgets to subtract 1.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Patterns: Many Ways to Count",
+      "question": "Method 3 writes Step k as k(k + 1) + k and Method 4 as k(k + 2). Why are they equal?",
+      "options": [
+        "Both expressions equal (k + 1)² since k + k = 2k",
+        "They agree only for k = 1 and k = 2, not beyond",
+        "k(k + 1) + k = k² + k + k = k² + 2k = k(k + 2)",
+        "k(k + 1) + k = k² + 1 + k, which is k(k + 2)"
+      ],
+      "answer": 2,
+      "explanation": "Expanding k(k + 1) gives k² + k, and adding k gives k² + 2k; factoring k out of k² + 2k gives k(k + 2). The expressions look different but describe the same count.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Patterns: Many Ways to Count",
+      "question": "The square-tile pattern has 8, 12 and 16 tiles at Steps 1, 2, 3. How many tiles are at Step 4?",
+      "options": [
+        "24",
+        "18",
+        "32",
+        "20"
+      ],
+      "answer": 3,
+      "explanation": "The answer key writes Step 4 as 6² − 4² = 36 − 16 = 20 — each step adds 4 tiles.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Patterns: Many Ways to Count",
+      "question": "The tile count at Step n is (n + 2)² − n². Step 10 has:",
+      "options": [
+        "44",
+        "144",
+        "100",
+        "40"
+      ],
+      "answer": 0,
+      "explanation": "12² − 10² = 144 − 100 = 44 tiles. 144 and 100 are the two squares separately; 40 is 4 × 10 without the extra 4.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Patterns: Many Ways to Count",
+      "question": "Simplify (n + 2)² − n².",
+      "options": [
+        "4n + 2",
+        "4n + 4",
+        "4n",
+        "2n + 4"
+      ],
+      "answer": 1,
+      "explanation": "(n + 2)² = n² + 4n + 4, so subtracting n² leaves 4n + 4. Check with n = 1: 3² − 1² = 8 = 4 + 4.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q113",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Patterns: Many Ways to Count",
+      "question": "The four methods for the circle pattern give different expressions, so they describe different patterns.",
+      "answer": false,
+      "explanation": "They describe the same pattern, so they must be equal — and each simplifies to k² + 2k. The chapter's point is that one problem can be approached in many equivalent ways.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q114",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Patterns: Many Ways to Count",
+      "question": "Which expressions equal the Step-k circle count k² + 2k?",
+      "options": [
+        "(k + 1)² − 1",
+        "k(k + 2)",
+        "(k + 2)² − 4",
+        "k² + 2",
+        "2k(k + 1)"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "(k + 1)² − 1 = k² + 2k + 1 − 1 and k(k + 2) = k² + 2k. But (k + 2)² − 4 = k² + 4k, k² + 2 is constant +2, and 2k(k + 1) = 2k² + 2k.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Area of Shaded Regions",
+      "question": "Tadang finds the interior shaded square as (m + n)² − 4mn; Yusuf says it is (n − m)². Expanding Tadang's expression gives:",
+      "options": [
+        "m² + n² − 4mn",
+        "m² − 4mn",
+        "m² − 2mn + n²",
+        "m² + 2mn + n²"
+      ],
+      "answer": 2,
+      "explanation": "(m + n)² − 4mn = m² + 2mn + n² − 4mn = m² − 2mn + n², which is exactly (n − m)². Both methods agree.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Area of Shaded Regions",
+      "question": "For Fig. 1, Anusha gets x² − xy. Vaishnavi writes x(x + 2y) − 3xy. Expanded, Vaishnavi's expression is:",
+      "options": [
+        "x² + 2xy",
+        "x² − 3xy",
+        "x² + xy",
+        "x² − xy"
+      ],
+      "answer": 3,
+      "explanation": "x(x + 2y) = x² + 2xy, and subtracting the three rectangles 3xy gives x² − xy — the same as Anusha's.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Area of Shaded Regions",
+      "question": "Aditya doubles the area of JKML, where JK = (x − y)/2 and KM = x. His result 2x(x − y)/2 equals:",
+      "options": [
+        "x(x − y)",
+        "x(x + y)",
+        "2x(x − y)",
+        "x² − 2xy"
+      ],
+      "answer": 0,
+      "explanation": "2 × x × (x − y)/2 = x(x − y) = x² − xy, again matching the other two methods.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Area of Shaded Regions",
+      "question": "If x = 8 and y = 3, the shaded area x² − xy in Fig. 1 is:",
+      "options": [
+        "88",
+        "40",
+        "64",
+        "24"
+      ],
+      "answer": 1,
+      "explanation": "8² − 8 × 3 = 64 − 24 = 40 square units. 64 is just x², and 24 is just xy.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Area of Shaded Regions",
+      "question": "The dashed region's area is ps − pr − sr + r². Which factored form equals it?",
+      "options": [
+        "(p − r)(s + r)",
+        "(p − s)(r − s)",
+        "(p − r)(s − r)",
+        "(p + r)(s − r)"
+      ],
+      "answer": 2,
+      "explanation": "(p − r)(s − r) = ps − pr − rs + r². Geometrically it is a (p − r) by (s − r) rectangle. (p + r)(s − r) would give ps − pr + rs − r².",
+      "source": "text:page19"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Area of Shaded Regions",
+      "question": "With p = 6, r = 3.5 and s = 9, the dashed area ps − pr − sr + r² equals:",
+      "options": [
+        "12.25",
+        "15.75",
+        "21.75",
+        "13.75"
+      ],
+      "answer": 3,
+      "explanation": "54 − 21 − 31.5 + 12.25 = 13.75 sq. units (answer key). Equivalently (6 − 3.5)(9 − 3.5) = 2.5 × 5.5 = 13.75.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q121",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Area of Shaded Regions",
+      "question": "(m + n)² − 4mn = (n − m)² is a true identity.",
+      "answer": true,
+      "explanation": "Both sides expand to m² − 2mn + n², which is why Tadang's and Yusuf's methods give the same shaded area.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q122",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Area of Shaded Regions",
+      "question": "Aditya's method doubles the area of JKML, where JK = (x − y)/2 and KM = x, so the required area is 2x(x − y).",
+      "answer": false,
+      "explanation": "2 × x × (x − y)/2 = x(x − y); the factor 2 cancels the /2. Writing 2x(x − y) double-counts the region.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Exercises: Patterns, Proofs & Puzzles",
+      "question": "Which expression means 'two more than a square number'?",
+      "options": [
+        "s² + 2",
+        "2 + s",
+        "(s + 2)²",
+        "2s²"
+      ],
+      "answer": 0,
+      "explanation": "A square number is s²; two more than it is s² + 2. (s + 2)² is the square of 'two more than s', and 2s² is twice a square.",
+      "source": "exercise:p155-Q3(i)"
+    },
+    {
+      "id": "q124",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Exercises: Patterns, Proofs & Puzzles",
+      "question": "Which expressions give 'the sum of the squares of two consecutive numbers'?",
+      "options": [
+        "m² + n²",
+        "(m + n)²",
+        "m² + (m + 1)²",
+        "m² + (m − 1)²",
+        "(2m)² + (2m + 1)²"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "explanation": "Consecutive numbers differ by 1: m and m + 1 give m² + (m + 1)² (the answer key's choice), and m − 1 and m give m² + (m − 1)², which also fits. m² + n² has no link between m and n, (m + n)² is a square of a sum, and (2m)² + (2m + 1)² only covers pairs whose first number is even, so it is not the general expression.",
+      "source": "exercise:p155-Q3(ii)"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Exercises: Patterns, Proofs & Puzzles",
+      "question": "A 2 × 2 calendar square has a, a + 1, a + 7, a + 8. The two diagonal products always differ by:",
+      "options": [
+        "a",
+        "7",
+        "8",
+        "1"
+      ],
+      "answer": 1,
+      "explanation": "(a + 1)(a + 7) − a(a + 8) = a² + 8a + 7 − a² − 8a = 7. Example: 5 × 11 − 4 × 12 = 55 − 48 = 7.",
+      "source": "exercise:p155-Q4"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Exercises: Patterns, Proofs & Puzzles",
+      "question": "Which of these statements from Q5 is TRUE?",
+      "options": [
+        "(2q + 1)(2q − 3) is always a multiple of 4",
+        "(6n + 2)² − (4n + 3)² is 5 less than a square",
+        "Odd squares are 1 more than a multiple of 8",
+        "(k + 1)(k + 2) − (k + 3) is always equal to 2"
+      ],
+      "answer": 2,
+      "explanation": "(2n + 1)² = 4n² + 4n + 1 = 4n(n + 1) + 1, and n(n + 1) is even, so this is 8k + 1. The other three are false: e.g. k = 2 gives 12 − 5 = 7, (2·1+1)(2·1−3) = −3, and n = 1 gives 64 − 49 = 15, which is not 5 less than a square.",
+      "source": "exercise:p155-Q5"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Exercises: Patterns, Proofs & Puzzles",
+      "question": "(2q + 1)(2q − 3) = 4q² − 4q − 3. Dividing by 4 always leaves a remainder of:",
+      "options": [
+        "3",
+        "0",
+        "2",
+        "1"
+      ],
+      "answer": 3,
+      "explanation": "4q² − 4q − 3 = 4(q² − q − 1) + 1, so the remainder is 1, never 0 — the statement 'multiple of 4' is false. Example: q = 2 gives 5 × 1 = 5 = 4 + 1.",
+      "source": "exercise:p155-Q5(ii)"
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Exercises: Patterns, Proofs & Puzzles",
+      "question": "(6n + 2)² − (4n + 3)² simplifies to:",
+      "options": [
+        "20n² − 5",
+        "20n² + 5",
+        "52n² − 5",
+        "20n² − 10n − 5"
+      ],
+      "answer": 0,
+      "explanation": "By Identity 1C: (6n + 2 − 4n − 3)(6n + 2 + 4n + 3) = (2n − 1)(10n + 5) = 20n² + 10n − 10n − 5 = 20n² − 5. Since 20n² is not a perfect square, the claim in Q5(iv) is false.",
+      "source": "exercise:p155-Q5(iv)"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Exercises: Patterns, Proofs & Puzzles",
+      "question": "Two numbers leave remainders 3 and 5 on division by 7. Their SUM leaves remainder:",
+      "options": [
+        "5",
+        "1",
+        "8",
+        "2"
+      ],
+      "answer": 1,
+      "explanation": "(7a + 3) + (7b + 5) = 7(a + b) + 8 = 7(a + b + 1) + 1, so the remainder is 1 (8 is more than 7, so it reduces to 1).",
+      "source": "exercise:p155-Q6"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Exercises: Patterns, Proofs & Puzzles",
+      "question": "The number with remainder 5 minus the number with remainder 3, (7b + 5) − (7a + 3), leaves remainder:",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "(7b + 5) − (7a + 3) = 7(b − a) + 2, so the remainder is 2 (answer key). Subtracting the other way round gives 7(a − b) − 2, which has remainder 5.",
+      "source": "exercise:p155-Q6"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Exercises: Patterns, Proofs & Puzzles",
+      "question": "Add two numbers, then multiply by half their sum. The expression (a + b) × (1/2)(a + b) equals:",
+      "options": [
+        "(1/2)(a² + b²)",
+        "(a + b)²",
+        "(1/4)(a + b)²",
+        "(1/2)(a + b)²"
+      ],
+      "answer": 3,
+      "explanation": "(a + b) × (1/2)(a + b) = (1/2)(a + b)(a + b) = (1/2)(a + b)² — half the square of the sum, as Q8 asks you to prove.",
+      "source": "exercise:p156-Q8"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Exercises: Patterns, Proofs & Puzzles",
+      "question": "Which is larger, 14 × 26 or 16 × 24, and by how much?",
+      "options": [
+        "16 × 24, by 20",
+        "14 × 26, by 20",
+        "16 × 24, by 2",
+        "They are equal"
+      ],
+      "answer": 0,
+      "explanation": "14 × 26 = (16 − 2)(24 + 2) = 16 × 24 + 32 − 48 − 4 = 16 × 24 − 20, so 16 × 24 is larger by 20 (384 vs 364).",
+      "source": "exercise:p156-Q9(i)"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Exercises: Patterns, Proofs & Puzzles",
+      "question": "In the Dhauli park, the rectangle is (2g + 4w) by (g + 2w) and two g² plots are green. The area to be tiled is:",
+      "options": [
+        "8w² + 4wg",
+        "8w(w + g)",
+        "8wg",
+        "2g² + 8w²"
+      ],
+      "answer": 1,
+      "explanation": "(2g + 4w)(g + 2w) = 2g² + 8wg + 8w²; subtracting the two plots 2g² leaves 8wg + 8w² = 8w(w + g) sq. ft.",
+      "source": "exercise:p156-Q10"
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Exercises: Patterns, Proofs & Puzzles",
+      "question": "Pattern (b) in Q11 has 5, 11, 19 units at Steps 1, 2, 3, following (y + 1)² + y. Step 10 has:",
+      "options": [
+        "110",
+        "141",
+        "131",
+        "121"
+      ],
+      "answer": 2,
+      "explanation": "(10 + 1)² + 10 = 121 + 10 = 131 basic units. 121 alone is only the square part.",
+      "source": "exercise:p156-Q11(b)"
+    },
+    {
+      "id": "q135",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Exercises: Patterns, Proofs & Puzzles",
+      "question": "In every 2 × 2 calendar square, the product a(a + 8) is 7 less than the product (a + 1)(a + 7).",
+      "answer": true,
+      "explanation": "(a + 1)(a + 7) − a(a + 8) = 7 for every a, e.g. 4 × 12 = 48 and 5 × 11 = 55.",
+      "source": "exercise:p155-Q4"
+    },
+    {
+      "id": "q136",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Exercises: Patterns, Proofs & Puzzles",
+      "question": "(2q + 1)(2q − 3) is a multiple of 4 for every whole number q.",
+      "answer": false,
+      "explanation": "4q² − 4q − 3 always leaves remainder 1 on division by 4 (q = 1 gives −3, q = 2 gives 5). The answer key marks Q5(ii) false.",
+      "source": "exercise:p155-Q5(ii)"
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Exercises: Patterns, Proofs & Puzzles",
+      "question": "25 × 75 or 26 × 74 — which is larger, and by how much?",
+      "options": [
+        "25 × 75 is larger by 49",
+        "26 × 74 is larger by 1",
+        "25 × 75 is larger by 50",
+        "26 × 74 is larger by 49"
+      ],
+      "answer": 3,
+      "explanation": "25 × 75 = (26 − 1)(74 + 1) = 26 × 74 + 26 − 74 − 1 = 26 × 74 − 49, so 26 × 74 is larger by 49 (1924 vs 1875).",
+      "source": "exercise:p156-Q9(ii)"
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Exercises: Patterns, Proofs & Puzzles",
+      "question": "Three consecutive numbers n − 1, n, n + 1: squaring the middle one and subtracting the product of the other two gives:",
+      "options": [
+        "1",
+        "0",
+        "2",
+        "n"
+      ],
+      "answer": 0,
+      "explanation": "n² − (n − 1)(n + 1) = n² − (n² − 1) = 1, always. Try 4, 5, 6: 25 − 24 = 1.",
+      "source": "exercise:p155-Q7"
+    }
+  ]
+}

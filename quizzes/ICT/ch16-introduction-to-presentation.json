@@ -1,0 +1,3490 @@
+{
+  "schemaVersion": 1,
+  "id": "ict-ch16-introduction-to-presentation",
+  "title": "Introduction to Presentation",
+  "subject": "ICT",
+  "grade": 4,
+  "chapter": "16. Introduction to Presentation",
+  "topic": "Full Book",
+  "description": "Comprehensive practice on creating PowerPoint presentations: the PowerPoint interface, slide layouts, formatting text and pictures, themes and backgrounds, transitions, animations, planning and organizing slides, and delivering a presentation confidently.",
+  "tags": [
+    "ict",
+    "grade4",
+    "powerpoint",
+    "presentations",
+    "slide-layouts",
+    "themes-and-backgrounds",
+    "slide-transitions",
+    "animations",
+    "planning-a-presentation",
+    "delivering-a-presentation"
+  ],
+  "defaultTimeLimitSec": 1800,
+  "questions": [
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "PowerPoint Basics and Presentations",
+      "question": "What is PowerPoint?",
+      "explanation": "PowerPoint is a computer program used to create digital presentations. It is not a game, a printer, or a video website.",
+      "source": "book:page20 Checkpoint 1 Q1; facts:page2",
+      "options": [
+        "A computer game for children",
+        "A program for creating presentations",
+        "A type of printer",
+        "A website for videos"
+      ],
+      "answer": 1,
+      "id": "q1"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "PowerPoint Basics and Presentations",
+      "question": "Which of these is a real-life way that a presentation can be shared?",
+      "explanation": "The chapter explains that presentations can be shared through various methods, such as live performances, books, and digital slides — not just one format.",
+      "source": "facts:page1",
+      "options": [
+        "Only through digital slides",
+        "Live performances, books, and digital slides",
+        "Only through printed books",
+        "Only through television"
+      ],
+      "answer": 1,
+      "id": "q2"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "PowerPoint Basics and Presentations",
+      "question": "Why do visual presentations engage an audience well?",
+      "explanation": "Visual presentations engage audiences by combining images and text together, which is more interesting than words alone.",
+      "source": "facts:page1",
+      "options": [
+        "They use only spoken words",
+        "They combine images and text",
+        "They avoid using any pictures",
+        "They are always very long"
+      ],
+      "answer": 1,
+      "id": "q3"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "PowerPoint Basics and Presentations",
+      "question": "Museums often use visual displays to educate visitors. This is an example of which idea from the chapter?",
+      "explanation": "The chapter gives museum displays as a real-life application of how combining images and text (visual presentations) engages and educates an audience.",
+      "source": "facts:page1",
+      "options": [
+        "Presentations can only be digital",
+        "Combining images and text engages an audience",
+        "Presentations must be given live",
+        "Text alone is more engaging than pictures"
+      ],
+      "answer": 1,
+      "id": "q4"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "PowerPoint Basics and Presentations",
+      "question": "What do students commonly use PowerPoint for, according to the chapter?",
+      "explanation": "The chapter states that students use PowerPoint to present their school projects, which is the everyday example of PowerPoint's purpose.",
+      "source": "facts:page2",
+      "options": [
+        "Presenting their school projects",
+        "Repairing computers",
+        "Printing photographs",
+        "Sending emails"
+      ],
+      "answer": 0,
+      "id": "q5"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "PowerPoint Basics and Presentations",
+      "question": "Each slide in PowerPoint acts like what?",
+      "explanation": "The chapter compares each slide in PowerPoint to a page in a digital book — each one holds part of the presentation's content.",
+      "source": "facts:page2",
+      "options": [
+        "A page in a digital book",
+        "A separate computer file only",
+        "A printed poster",
+        "A video recording"
+      ],
+      "answer": 0,
+      "id": "q6"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "PowerPoint Basics and Presentations",
+      "question": "True or False: You can add pictures, text, and animations to a PowerPoint slide.",
+      "explanation": "True. The chapter's Fun Fact says you can add pictures, text, and animations to make each slide interesting.",
+      "source": "facts:page2",
+      "answer": true,
+      "id": "q7"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "PowerPoint Basics and Presentations",
+      "question": "True or False: PowerPoint can only be used to create presentations with text.",
+      "explanation": "False. PowerPoint can be used to create presentations with text, pictures, animations, and other visual elements — not text alone. This was a false statement students had to correct in the worksheet.",
+      "source": "worksheet-51274 Q2b",
+      "answer": false,
+      "id": "q8"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "PowerPoint Basics and Presentations",
+      "question": "According to a Fun Fact in the chapter, how long was the longest presentation on record?",
+      "explanation": "The chapter's Fun Fact states the longest presentation on record was 90 hours, though it also notes most effective presentations are much shorter.",
+      "source": "facts:page16",
+      "options": [
+        "9 hours",
+        "30 hours",
+        "90 hours",
+        "900 hours"
+      ],
+      "answer": 2,
+      "id": "q9"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "PowerPoint Basics and Presentations",
+      "question": "Based on the chapter's Fun Fact about the 90-hour record presentation, how long should most effective presentations actually be?",
+      "explanation": "Even though the record presentation lasted 90 hours, the chapter notes that most effective presentations are short and focused, typically 3-10 minutes — length is not the same as effectiveness.",
+      "source": "facts:page16",
+      "options": [
+        "90 hours",
+        "A full school day",
+        "Typically 3-10 minutes",
+        "There is no ideal length"
+      ],
+      "answer": 2,
+      "id": "q10"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "PowerPoint Basics and Presentations",
+      "question": "What can PowerPoint be used to create, according to the chapter?",
+      "explanation": "The chapter states PowerPoint can be used to create digital stories, educational materials, and more, showing its many uses beyond simple slideshows.",
+      "source": "facts:page25",
+      "options": [
+        "Only school report cards",
+        "Digital stories, educational materials, and more",
+        "Only spreadsheets",
+        "Only printed newsletters"
+      ],
+      "answer": 1,
+      "id": "q11"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "PowerPoint Basics and Presentations",
+      "question": "Select ALL the things that can make a PowerPoint slide interesting, according to the chapter.",
+      "explanation": "The chapter's Fun Fact says you can add pictures, text, and animations to make each slide interesting. A blank screen with nothing on it would not be interesting.",
+      "source": "facts:page2",
+      "options": [
+        "Pictures",
+        "Text",
+        "Animations",
+        "A blank grey screen with nothing on it"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "id": "q12"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "PowerPoint Basics and Presentations",
+      "question": "A student says, 'A presentation can only be a digital slideshow.' What is wrong with this idea?",
+      "explanation": "The chapter explains presentations can be shared through live performances, books, and digital slides — digital slideshows are only one of several methods.",
+      "source": "facts:page1",
+      "options": [
+        "Nothing is wrong; it is correct",
+        "Presentations can also be live performances or books, not just digital slides",
+        "Presentations are always printed on paper",
+        "Presentations must always include music"
+      ],
+      "answer": 1,
+      "id": "q13"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "PowerPoint Basics and Presentations",
+      "question": "True or False: A teacher might use a digital slide to explain a topic in class.",
+      "explanation": "True. The chapter gives this as a real example of how presentations combining images and text are used in the classroom.",
+      "source": "facts:page1",
+      "answer": true,
+      "id": "q14"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "PowerPoint Basics and Presentations",
+      "question": "Games and puzzles, like the crossword in this chapter, are useful in learning because they:",
+      "explanation": "The chapter's Fun Fact explains that games and puzzles, such as the crossword, enhance memory retention and understanding while making learning interactive and fun.",
+      "source": "facts:page19",
+      "options": [
+        "Are only for fun and teach nothing",
+        "Enhance memory retention and understanding",
+        "Replace the need to learn facts",
+        "Make learning boring"
+      ],
+      "answer": 1,
+      "id": "q15"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "PowerPoint Basics and Presentations",
+      "question": "Why does the chapter include an interactive crossword puzzle activity about PowerPoint terms?",
+      "explanation": "The chapter states that completing a crossword puzzle reinforces key PowerPoint terminology, and that such activities make learning interactive and fun.",
+      "source": "facts:page19",
+      "options": [
+        "To test unrelated maths skills",
+        "To reinforce key PowerPoint terminology in a fun way",
+        "To replace the worksheet questions",
+        "Because crosswords are required in every chapter"
+      ],
+      "answer": 1,
+      "id": "q16"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The PowerPoint Interface",
+      "question": "Which part of PowerPoint is the strip that shows items like Home, Insert, Design, and Slideshow?",
+      "explanation": "The Menu Bar is the strip that shows the items like Home, Insert, Design, and Slideshow. It tells you what kinds of tools are available.",
+      "source": "facts:page2; worksheet-51274 Q1a",
+      "options": [
+        "The Ribbon",
+        "The Menu Bar",
+        "The Slides Pane",
+        "The Work Area"
+      ],
+      "answer": 1,
+      "id": "q17"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The PowerPoint Interface",
+      "question": "Which part of PowerPoint shows the tools available for the menu option you clicked?",
+      "explanation": "The Ribbon shows the tools available for each menu option — for example, clicking Home reveals tools for formatting text.",
+      "source": "facts:page3; worksheet-51277 Q1a",
+      "options": [
+        "The Menu Bar",
+        "The Ribbon",
+        "The Notes Section",
+        "The Work Area"
+      ],
+      "answer": 1,
+      "id": "q18"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The PowerPoint Interface",
+      "question": "Which part of PowerPoint contains ALL the tools and commands for the section you are on?",
+      "explanation": "The Ribbon contains all the tools and commands for the currently selected menu section, such as formatting or design tools.",
+      "source": "book:page20 Checkpoint 1 Q2",
+      "options": [
+        "Work Area",
+        "Slides Pane",
+        "The Ribbon",
+        "Notes Section"
+      ],
+      "answer": 2,
+      "id": "q19"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The PowerPoint Interface",
+      "question": "A student thinks the Slides Pane is the part of PowerPoint that shows all the tools and commands. Why is this wrong?",
+      "explanation": "The Slides Pane displays thumbnails of each slide so you can navigate between them — it is the Ribbon that shows the tools and commands for the current menu section.",
+      "source": "facts:page3",
+      "options": [
+        "It is correct; the Slides Pane shows all tools",
+        "The Slides Pane shows small thumbnails of slides; the Ribbon shows the tools and commands",
+        "PowerPoint has no tools at all",
+        "The Work Area shows all tools, not the Slides Pane"
+      ],
+      "answer": 1,
+      "id": "q20"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The PowerPoint Interface",
+      "question": "What does the Slides Pane display?",
+      "explanation": "The Slides Pane displays thumbnails of each slide in your presentation, which helps you quickly navigate and edit different slides.",
+      "source": "facts:page3",
+      "options": [
+        "Thumbnails of each slide in your presentation",
+        "Only the current slide's notes",
+        "A list of fonts",
+        "The presentation's file size"
+      ],
+      "answer": 0,
+      "id": "q21"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The PowerPoint Interface",
+      "question": "In a PowerPoint interface screenshot, an arrow points to the panel on the left side showing small slide thumbnails. What is this panel called?",
+      "explanation": "The panel on the left side of the screen showing small pictures (thumbnails) of each slide is the Slides Pane, used for viewing and navigating between slides.",
+      "source": "worksheet-51277 Q1b",
+      "options": [
+        "The Menu Bar for selecting different options",
+        "The Ribbon for accessing various command tools",
+        "The Work Area for editing slide content",
+        "The Slides Pane for viewing slide thumbnails"
+      ],
+      "answer": 3,
+      "id": "q22"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The PowerPoint Interface",
+      "question": "Where is the Work Area located, and what is it used for?",
+      "explanation": "The Work Area is where you design and edit your slides — it is described as being like your digital canvas where creativity comes alive.",
+      "source": "facts:page3",
+      "options": [
+        "It is the strip at the very top used for the Menu Bar",
+        "It is the big central space where you design and edit your slides",
+        "It is the small thumbnail list on the left",
+        "It is only used for writing presenter notes"
+      ],
+      "answer": 1,
+      "id": "q23"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The PowerPoint Interface",
+      "question": "What is the Notes Section used for?",
+      "explanation": "The Notes Section allows you to write notes for each slide to help you remember key points while presenting.",
+      "source": "facts:page3",
+      "options": [
+        "Writing notes for each slide to guide your presentation",
+        "Displaying slide thumbnails",
+        "Showing all the editing tools",
+        "Changing the slide background colour"
+      ],
+      "answer": 0,
+      "id": "q24"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The PowerPoint Interface",
+      "question": "Why might the Notes Section be especially useful before giving a live presentation?",
+      "explanation": "The chapter explains that notes in the Notes Section can help you remember key points during a speech, which is valuable when presenting live.",
+      "source": "facts:page3",
+      "options": [
+        "It automatically speaks for you",
+        "It can help you remember key points during your speech",
+        "It deletes slides you don't need",
+        "It changes the slide's theme automatically"
+      ],
+      "answer": 1,
+      "id": "q25"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "The PowerPoint Interface",
+      "question": "True or False: The Menu Bar tells you what kinds of tools are available, while the Ribbon shows the actual tools you can use.",
+      "explanation": "True. The chapter explains the Menu Bar tells you what kind of tools are available, and the Ribbon shows the actual tools for the selected menu item.",
+      "source": "book:page9",
+      "answer": true,
+      "id": "q26"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "The PowerPoint Interface",
+      "question": "Select ALL of the parts that make up the main PowerPoint interface described in the chapter.",
+      "explanation": "The chapter describes five main interface parts: the Menu Bar, the Ribbon (or Toolbar), the Slides Pane, the Work Area, and the Notes Section.",
+      "source": "facts:page2-3; book:page9",
+      "options": [
+        "Menu Bar",
+        "Ribbon",
+        "Slides Pane",
+        "Work Area",
+        "Notes Section"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "id": "q27"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The PowerPoint Interface",
+      "question": "Clicking on the Home menu item reveals which of these?",
+      "explanation": "Clicking a menu item like Home makes the Ribbon show tools for that section — for example, buttons for changing fonts, adding colours, or inserting pictures.",
+      "source": "book:page9",
+      "options": [
+        "A blank white screen",
+        "Tools for formatting text, like buttons for fonts and colours",
+        "The presentation's file size",
+        "A list of past presentations"
+      ],
+      "answer": 1,
+      "id": "q28"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The PowerPoint Interface",
+      "question": "Which interface part is described as being 'like your digital canvas where creativity comes alive'?",
+      "explanation": "The Work Area is called the digital canvas where creativity comes alive because it is where you actually design and edit your slides.",
+      "source": "facts:page3",
+      "options": [
+        "The Menu Bar",
+        "The Work Area",
+        "The Notes Section",
+        "The Slides Pane"
+      ],
+      "answer": 1,
+      "id": "q29"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The PowerPoint Interface",
+      "question": "Which interface part helps you quickly navigate and edit different slides in a long presentation?",
+      "explanation": "The Slides Pane shows thumbnails of every slide, letting you click on any one to quickly jump to and edit it — very useful in long presentations.",
+      "source": "facts:page3",
+      "options": [
+        "The Slides Pane",
+        "The Notes Section",
+        "The Ribbon",
+        "The Menu Bar"
+      ],
+      "answer": 0,
+      "id": "q30"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The PowerPoint Interface",
+      "question": "Where on the screen is the Slides Pane usually found?",
+      "explanation": "The chapter states that on the left side of your screen you will see small pictures of your slides — this is the Slides Pane.",
+      "source": "facts:page3",
+      "options": [
+        "On the left side of your screen",
+        "At the very bottom of your screen",
+        "In a separate pop-up window only",
+        "On the right side of your screen"
+      ],
+      "answer": 0,
+      "id": "q31"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "The PowerPoint Interface",
+      "question": "The Ribbon in PowerPoint is located:",
+      "explanation": "The chapter describes the Ribbon (or Toolbar) as the area right below the Menu Bar, showing tools for whichever menu item is selected.",
+      "source": "book:page9",
+      "options": [
+        "Right below the Menu Bar",
+        "Inside the Notes Section",
+        "Above the Menu Bar",
+        "Only visible when printing"
+      ],
+      "answer": 0,
+      "id": "q32"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The PowerPoint Interface",
+      "question": "The Ribbon in PowerPoint contains all the tools needed for which two main activities?",
+      "explanation": "The chapter states the Ribbon contains all the tools needed for slide creation and editing, and that knowing where tools are located speeds up the design process.",
+      "source": "facts:page25",
+      "options": [
+        "Printing and emailing only",
+        "Slide creation and editing",
+        "Only changing the computer's settings",
+        "Deleting old presentation files"
+      ],
+      "answer": 1,
+      "id": "q33"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Slide Layouts",
+      "question": "Which layout is perfect for the first slide of a presentation because it has space for a big title and your name?",
+      "explanation": "The Title Slide layout is ideal for the first slide since it has space for a big title and your name, like the cover of a book.",
+      "source": "facts:page21; worksheet-51274 Q1c",
+      "options": [
+        "Two Content",
+        "Title Slide",
+        "Blank",
+        "Comparison"
+      ],
+      "answer": 1,
+      "id": "q34"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Slide Layouts",
+      "question": "Which layout splits the slide into two parts so you can put different things on each side?",
+      "explanation": "The Two Content layout splits the slide into two parts, like having two columns in a newspaper, so you can show two different ideas side by side.",
+      "source": "facts:page6; book:page12",
+      "options": [
+        "Title Slide",
+        "Blank",
+        "Two Content",
+        "Title Only"
+      ],
+      "answer": 2,
+      "id": "q35"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Slide Layouts",
+      "question": "True or False: The Two Content layout is useful when you want to show two different ideas or compare things side by side.",
+      "explanation": "True. The Two Content layout splits a slide into two sections, which is ideal for comparing two ideas or topics side by side.",
+      "source": "worksheet-51274 Q2a",
+      "answer": true,
+      "id": "q36"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Slide Layouts",
+      "question": "Which layout gives you an empty slide where you can put anything anywhere you want?",
+      "explanation": "The Blank layout gives you an empty slide, like a blank canvas for an artist, with no pre-set placeholders.",
+      "source": "book:page12",
+      "options": [
+        "Title and Content",
+        "Comparison",
+        "Blank",
+        "Section Header"
+      ],
+      "answer": 2,
+      "id": "q37"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Slide Layouts",
+      "question": "Which layout has a title at the top and a big space below for text, pictures, or other content, like a book page with a chapter title?",
+      "explanation": "The Title and Content layout has a title at the top and a large space below for text, pictures, or other content — like a page in a book with a chapter title and the story below.",
+      "source": "book:page12",
+      "options": [
+        "Title and Content",
+        "Two Content",
+        "Blank",
+        "Title Slide"
+      ],
+      "answer": 0,
+      "id": "q38"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Slide Layouts",
+      "question": "Select ALL of the slide layout names shown in the chapter's PowerPoint Layout menu.",
+      "explanation": "The chapter's Layout menu screenshot shows Title Slide, Title and Content, Section Header, Two Content, Comparison, Title Only, Blank, Content with Caption, and Picture with Caption. 'Word Document' is not a slide layout.",
+      "source": "book:page12",
+      "options": [
+        "Title Slide",
+        "Two Content",
+        "Comparison",
+        "Blank",
+        "Word Document"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "id": "q39"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Slide Layouts",
+      "question": "How do you access the Layout options for a slide, according to the chapter?",
+      "explanation": "The chapter explains that to get the Layout option, you right-click on the slide and select Layout, which then shows the available layout choices.",
+      "source": "book:page12",
+      "options": [
+        "Right-click on the slide and select Layout",
+        "Only through the File menu",
+        "By restarting PowerPoint",
+        "By clicking the Notes Section"
+      ],
+      "answer": 0,
+      "id": "q40"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Slide Layouts",
+      "question": "What is the easiest way to add a new slide to your presentation?",
+      "explanation": "The chapter states the easiest way to add a slide is to click the New Slide button on the Home tab.",
+      "source": "facts:page6; book:page12",
+      "options": [
+        "Click the New Slide button on the Home tab",
+        "Delete the current slide and undo",
+        "Save the file with a new name",
+        "Change the theme"
+      ],
+      "answer": 0,
+      "id": "q41"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Slide Layouts",
+      "question": "Why do different slide layouts in PowerPoint matter?",
+      "explanation": "The chapter explains that different slide layouts serve various purposes, like a Title Slide or Two Content layout, and choosing the right layout enhances the clarity of your presentation.",
+      "source": "facts:page6",
+      "options": [
+        "They all look and work exactly the same",
+        "Different layouts serve various purposes and choosing the right one enhances clarity",
+        "Layouts only affect the file size",
+        "Layouts cannot be changed once chosen"
+      ],
+      "answer": 1,
+      "id": "q42"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Slide Layouts",
+      "question": "According to Checkpoint D, which layout works best for comparing two topics on one slide?",
+      "explanation": "The Two Content layout is specifically designed for comparisons, since it splits the slide into two sections that can be placed side by side.",
+      "source": "book:page33 Checkpoint D Q4",
+      "options": [
+        "The Title Slide layout for introductions",
+        "The Two Content layout for comparisons",
+        "The Blank layout for complete freedom",
+        "The Title and Content layout for details"
+      ],
+      "answer": 1,
+      "id": "q43"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Slide Layouts",
+      "question": "What is a slide in PowerPoint, most simply described?",
+      "explanation": "A slide is simply one page of your presentation, similar to a page in a book — you can have as many slides as needed.",
+      "source": "book:page20 Checkpoint 1 Q3",
+      "options": [
+        "A type of computer",
+        "One page of your presentation",
+        "A printing option",
+        "A playground item"
+      ],
+      "answer": 1,
+      "id": "q44"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Slide Layouts",
+      "question": "Choosing the right slide layout should be based mainly on:",
+      "explanation": "The chapter advises you should think about what you want to put on each slide before choosing a layout — for example, use a Title Slide to introduce your topic.",
+      "source": "book:page12",
+      "options": [
+        "What you want to put on that particular slide",
+        "The colour of your shoes",
+        "Random selection every time",
+        "Whichever layout looks the most complicated"
+      ],
+      "answer": 0,
+      "id": "q45"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Slide Layouts",
+      "question": "Which layout would you use to introduce your presentation's topic?",
+      "explanation": "The chapter recommends using a Title Slide if you want to introduce your topic, since it is designed for a big title and introduction.",
+      "source": "book:page12",
+      "options": [
+        "Two Content",
+        "Title Slide",
+        "Blank",
+        "Comparison"
+      ],
+      "answer": 1,
+      "id": "q46"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Slide Layouts",
+      "question": "A student wants to show a picture on one side of a slide and a caption describing it on the other side, similar to a photo with a label. Which layout type from the chapter's Layout menu best matches this idea?",
+      "explanation": "The Layout menu includes a 'Picture with Caption' layout, designed exactly for pairing an image with a caption or description.",
+      "source": "book:page12",
+      "options": [
+        "Title Only",
+        "Section Header",
+        "Picture with Caption",
+        "Blank"
+      ],
+      "answer": 2,
+      "id": "q47"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Slide Layouts",
+      "question": "What can adding new slides help you achieve, according to the chapter?",
+      "explanation": "The chapter explains you can add as many slides as needed to convey your message clearly.",
+      "source": "facts:page6",
+      "options": [
+        "Conveying your message with as many slides as needed",
+        "Making a presentation impossible to edit",
+        "Reducing the presentation to only one slide",
+        "Removing the need for a title slide"
+      ],
+      "answer": 0,
+      "id": "q48"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Slide Layouts",
+      "question": "True or False: PowerPoint only allows you to start a new presentation from a blank slide, never from a template.",
+      "explanation": "False. The chapter explains you can start a new presentation using a blank slide OR templates, which provide pre-designed slides that save time.",
+      "source": "facts:page4",
+      "answer": false,
+      "id": "q49"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Slide Layouts",
+      "question": "What advantage do templates offer when starting a new presentation?",
+      "explanation": "Templates provide pre-designed slides, which saves time compared to building every slide completely from scratch.",
+      "source": "facts:page4",
+      "options": [
+        "They provide pre-designed slides, saving time",
+        "They delete your previous work",
+        "They only work with black and white slides",
+        "They remove all layout options"
+      ],
+      "answer": 0,
+      "id": "q50"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Slide Layouts",
+      "question": "How does each slide in a presentation relate to the overall message, according to the chapter?",
+      "explanation": "The chapter compares a presentation to a book, where each slide tells part of a story — teachers use this to break complex topics into understandable parts.",
+      "source": "facts:page4",
+      "options": [
+        "Each slide tells part of a story, like pages in a book",
+        "Each slide must repeat exactly the same content",
+        "Slides have no relationship to each other",
+        "Only the first slide matters"
+      ],
+      "answer": 0,
+      "id": "q51"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Slide Layouts",
+      "question": "Why might a 'Two Content' layout be a poor choice for a slide that only introduces the presentation's title and your name?",
+      "explanation": "The Two Content layout is designed to compare or show two different ideas side by side, while the Title Slide layout is specifically built with space for a big title and your name — better suited to an introduction.",
+      "source": "facts:page6; page21",
+      "options": [
+        "Two Content is designed for comparisons, not for a title introduction; Title Slide fits better",
+        "Two Content cannot display any text at all",
+        "Two Content always crashes PowerPoint",
+        "There is no difference between the two layouts"
+      ],
+      "answer": 0,
+      "id": "q52"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Formatting Text and Pictures",
+      "question": "Changing font styles helps your slides in which way?",
+      "explanation": "Changing font styles helps make your slides visually appealing and suited to the tone of your presentation.",
+      "source": "facts:page8",
+      "options": [
+        "Makes them visually appealing",
+        "Deletes unnecessary slides",
+        "Removes all images automatically",
+        "Changes the file format"
+      ],
+      "answer": 0,
+      "id": "q53"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Formatting Text and Pictures",
+      "question": "Which font style is given as an example for a fun look, and which for a formal style?",
+      "explanation": "The chapter gives Comic Sans MS as an example of a fun-looking font and Times New Roman as an example of a formal-style font.",
+      "source": "facts:page8",
+      "options": [
+        "Comic Sans MS for fun, Times New Roman for formal",
+        "Times New Roman for fun, Comic Sans MS for formal",
+        "Arial for both",
+        "There are no font examples in the chapter"
+      ],
+      "answer": 0,
+      "id": "q54"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Formatting Text and Pictures",
+      "question": "Why is adjusting font size important in a presentation?",
+      "explanation": "Adjusting font size ensures readability for your audience, especially since larger text sizes help people see the text clearly from a distance.",
+      "source": "facts:page8",
+      "options": [
+        "It ensures readability for your audience",
+        "It changes the slide's background colour",
+        "It automatically adds animations",
+        "It removes the need for pictures"
+      ],
+      "answer": 0,
+      "id": "q55"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Formatting Text and Pictures",
+      "question": "Why are large text sizes commonly used in presentations?",
+      "explanation": "Large text sizes are used in presentations to ensure clarity from a distance, since audience members may be sitting far from the screen.",
+      "source": "facts:page8",
+      "options": [
+        "To make the file bigger in storage size",
+        "To ensure clarity from a distance for the audience",
+        "Because small text is not allowed in PowerPoint",
+        "To use up more of the slide"
+      ],
+      "answer": 1,
+      "id": "q56"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Formatting Text and Pictures",
+      "question": "Which tab in PowerPoint is used to add pictures to your slides?",
+      "explanation": "The chapter explains you use the Insert tab to add visuals, such as pictures, that support your text.",
+      "source": "facts:page9",
+      "options": [
+        "The Insert tab",
+        "The Slideshow tab",
+        "The Notes Section",
+        "The Design tab"
+      ],
+      "answer": 0,
+      "id": "q57"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Formatting Text and Pictures",
+      "question": "Why do we add pictures to slides, according to the chapter?",
+      "explanation": "Adding pictures to slides enhances understanding and interest, helping the audience connect with the content.",
+      "source": "facts:page9",
+      "options": [
+        "To enhance understanding and interest",
+        "To slow down the presentation on purpose",
+        "To replace the need for a title",
+        "To make the file impossible to open"
+      ],
+      "answer": 0,
+      "id": "q58"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Formatting Text and Pictures",
+      "question": "What should you consider when positioning pictures on a slide?",
+      "explanation": "Positioning pictures carefully ensures they complement rather than overshadow the text, so a balanced slide layout guides the viewer's eye effectively.",
+      "source": "facts:page9",
+      "options": [
+        "Position them so they complement rather than overshadow the text",
+        "Always place pictures directly over all the text",
+        "Pictures should always be as large as possible regardless of layout",
+        "Position does not matter at all"
+      ],
+      "answer": 0,
+      "id": "q59"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Formatting Text and Pictures",
+      "question": "A student places a huge picture directly on top of all the slide's text, making the text unreadable. What chapter guideline did they ignore?",
+      "explanation": "The chapter warns that positioning pictures carefully ensures they complement rather than overshadow the text — a balanced layout guides the viewer's eye rather than blocking important content.",
+      "source": "facts:page9",
+      "options": [
+        "Pictures should complement, not overshadow, the text",
+        "Font size should always be tiny",
+        "Only the Insert tab can add pictures",
+        "Slides cannot contain pictures at all"
+      ],
+      "answer": 0,
+      "id": "q60"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Formatting Text and Pictures",
+      "question": "Adding content to a slide, such as text and images, mainly involves:",
+      "explanation": "The chapter explains that adding content to slides involves organizing text, images, and other elements to communicate your message.",
+      "source": "facts:page5",
+      "options": [
+        "Organizing text, images, and other elements",
+        "Deleting the Ribbon",
+        "Removing the Slides Pane",
+        "Turning off the computer"
+      ],
+      "answer": 0,
+      "id": "q61"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Formatting Text and Pictures",
+      "question": "Which tab can you use to format text for emphasis on a slide?",
+      "explanation": "The chapter states you can format text using the Home tab for emphasis, such as changing font style, size, or colour.",
+      "source": "facts:page5",
+      "options": [
+        "The Home tab",
+        "The Slideshow tab",
+        "The View tab only",
+        "The Notes Section"
+      ],
+      "answer": 0,
+      "id": "q62"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Formatting Text and Pictures",
+      "question": "True or False: Designing in PowerPoint includes choosing layouts and arranging elements attractively.",
+      "explanation": "True. Designing in PowerPoint includes choosing layouts and arranging text, images, and other elements attractively so the slide captures attention.",
+      "source": "facts:page5",
+      "answer": true,
+      "id": "q63"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Formatting Text and Pictures",
+      "question": "Why does the chapter say 'a well-designed slide captures the audience's attention'?",
+      "explanation": "The chapter emphasizes that designing in PowerPoint (choosing layouts, arranging elements attractively) helps capture the audience's attention, unlike a cluttered or poorly arranged slide.",
+      "source": "facts:page5",
+      "options": [
+        "Because attractive design and thoughtful layout hold interest better than a messy slide",
+        "Because only colour matters in design",
+        "Because design has nothing to do with attention",
+        "Because all slides look identical regardless of design"
+      ],
+      "answer": 0,
+      "id": "q64"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Formatting Text and Pictures",
+      "question": "Select ALL the things mentioned in the chapter that you should consider when adding pictures to slides.",
+      "explanation": "The chapter says to use the Insert tab to add pictures, to position them so they complement rather than overshadow text, and that pictures enhance understanding and interest. Covering all text is the opposite of good positioning.",
+      "source": "facts:page9",
+      "options": [
+        "Using the Insert tab to add visuals",
+        "Positioning pictures so they complement the text",
+        "Making sure pictures enhance understanding",
+        "Covering all the text completely with the picture"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "id": "q65"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Themes and Backgrounds",
+      "question": "What do themes in PowerPoint give your presentation?",
+      "explanation": "Themes in PowerPoint give your presentation a cohesive look by controlling colours, fonts, and backgrounds consistently.",
+      "source": "facts:page10",
+      "options": [
+        "A cohesive, consistent look",
+        "A completely random appearance every slide",
+        "Only black and white colours",
+        "No effect on appearance at all"
+      ],
+      "answer": 0,
+      "id": "q66"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Themes and Backgrounds",
+      "question": "Themes in PowerPoint control which of these?",
+      "explanation": "Themes control colours, fonts, and backgrounds for consistent styling throughout your presentation.",
+      "source": "facts:page10",
+      "options": [
+        "Only the file size",
+        "Colours, fonts, and backgrounds",
+        "Only the slide count",
+        "Only animations"
+      ],
+      "answer": 1,
+      "id": "q67"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Themes and Backgrounds",
+      "question": "According to Checkpoint 1, what does a theme in PowerPoint include?",
+      "explanation": "A theme includes colours, fonts, and background designs together, giving the whole presentation a matching, professional look.",
+      "source": "book:page20 Checkpoint 1 Q5",
+      "options": [
+        "Only colours",
+        "Only fonts",
+        "Only backgrounds",
+        "Colours, fonts, and background designs"
+      ],
+      "answer": 3,
+      "id": "q68"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Themes and Backgrounds",
+      "question": "Which tab do you use to apply a theme in PowerPoint?",
+      "explanation": "Applying themes can be done through the Design tab, which contains the visual styling tools.",
+      "source": "facts:page10",
+      "options": [
+        "The Design tab",
+        "The Insert tab",
+        "The View tab",
+        "The Slideshow tab"
+      ],
+      "answer": 0,
+      "id": "q69"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Themes and Backgrounds",
+      "question": "According to Checkpoint D, which tab contains tools for applying themes?",
+      "explanation": "The Design tab is where you find tools for applying themes and visual styling to your presentation.",
+      "source": "book:page33 Checkpoint D Q2",
+      "options": [
+        "The Home tab for basic editing",
+        "The Insert tab for adding content",
+        "The Design tab for visual styling",
+        "The View tab for display options"
+      ],
+      "answer": 2,
+      "id": "q70"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Themes and Backgrounds",
+      "question": "Why can applying a theme make a presentation look professional with minimal effort?",
+      "explanation": "The Fun Fact explains that themes can make presentations look professional with minimal effort because a theme applies matching colours, fonts, and backgrounds together in one step.",
+      "source": "facts:page10",
+      "options": [
+        "Because themes automatically write the presentation's content for you",
+        "Because themes provide matching colours, fonts, and backgrounds all at once",
+        "Because themes remove the need for any slides",
+        "Because themes make the presentation shorter"
+      ],
+      "answer": 1,
+      "id": "q71"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Themes and Backgrounds",
+      "question": "Which of these is NOT one of the four background styles mentioned in the chapter?",
+      "explanation": "The four background styles mentioned are solid colours, gradients, patterns, and pictures. Handwriting fonts are a font style, not a background style.",
+      "source": "facts:page11; book:page18",
+      "options": [
+        "Solid colours",
+        "Gradients",
+        "Patterns",
+        "Handwriting fonts"
+      ],
+      "answer": 3,
+      "id": "q72"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Themes and Backgrounds",
+      "question": "A gradient background is best described as:",
+      "explanation": "The chapter describes gradients as colours that blend into each other, like a sunset, adding depth to a slide.",
+      "source": "book:page18",
+      "options": [
+        "Colours that blend into each other, like a sunset",
+        "A single flat colour with no variation",
+        "A repeated design like polka dots",
+        "A photograph used as the background"
+      ],
+      "answer": 0,
+      "id": "q73"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Themes and Backgrounds",
+      "question": "A pattern background is best described as:",
+      "explanation": "The chapter describes patterns as repeated designs, like polka dots or stripes, used as a slide's background.",
+      "source": "book:page18",
+      "options": [
+        "A photo used as your background",
+        "Repeated designs, like polka dots or stripes",
+        "Colours blending like a sunset",
+        "A single solid colour"
+      ],
+      "answer": 1,
+      "id": "q74"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Themes and Backgrounds",
+      "question": "Using a photo as your slide's background is an example of which background style?",
+      "explanation": "The chapter lists 'Pictures' as a background style, described as using a photo as your background.",
+      "source": "book:page18",
+      "options": [
+        "Solid colour",
+        "Gradient",
+        "Pattern",
+        "Picture"
+      ],
+      "answer": 3,
+      "id": "q75"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Themes and Backgrounds",
+      "question": "A solid colour background is compared in the chapter to what everyday item?",
+      "explanation": "The chapter compares a solid colour background to using coloured construction paper — a single flat colour across the whole background.",
+      "source": "book:page18",
+      "options": [
+        "Coloured construction paper",
+        "A striped shirt",
+        "A cloudy sky",
+        "A patterned rug"
+      ],
+      "answer": 0,
+      "id": "q76"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Themes and Backgrounds",
+      "question": "Select ALL the background styles mentioned in the chapter.",
+      "explanation": "The chapter lists four background styles: solid colours, gradients, patterns, and pictures. Musical notes are not a background style mentioned.",
+      "source": "facts:page11; book:page18",
+      "options": [
+        "Solid colours",
+        "Gradients",
+        "Patterns",
+        "Pictures",
+        "Musical notes"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "id": "q77"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Themes and Backgrounds",
+      "question": "Which THREE things should you consider when choosing the right theme, according to the chapter?",
+      "explanation": "Choosing the right theme involves considering your topic, your audience, and readability so the presentation communicates well and is easy to read.",
+      "source": "facts:page11; book:page18",
+      "options": [
+        "Your topic, your audience, and readability",
+        "Only the file size",
+        "Only your favourite colour",
+        "Only how many slides you have"
+      ],
+      "answer": 0,
+      "id": "q78"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Themes and Backgrounds",
+      "question": "A presentation about nature might use which colour theme, based on the chapter's example?",
+      "explanation": "The chapter gives the example that a nature-themed presentation might use greens and browns, matching its topic.",
+      "source": "facts:page11",
+      "options": [
+        "Greens and browns",
+        "Bright neon pink only",
+        "Black and white only",
+        "Random colours with no theme"
+      ],
+      "answer": 0,
+      "id": "q79"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Themes and Backgrounds",
+      "question": "A presentation about space might use which kind of theme, based on the chapter's example?",
+      "explanation": "The chapter's example says a presentation about space might use dark themes with stars, matching the topic being presented.",
+      "source": "book:page18",
+      "options": [
+        "Bright pastel colours only",
+        "Dark themes with stars",
+        "Loud polka-dot patterns",
+        "No theme at all"
+      ],
+      "answer": 1,
+      "id": "q80"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Themes and Backgrounds",
+      "question": "True or False: Bright, fun themes work well for presentations aimed at other students.",
+      "explanation": "True. When considering your audience, the chapter notes that bright, fun themes work well for presentations to other students.",
+      "source": "book:page18",
+      "answer": true,
+      "id": "q81"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Themes and Backgrounds",
+      "question": "Why does 'readability' matter when choosing a theme, according to the chapter?",
+      "explanation": "The chapter states that readability means making sure your text will be easy to read against the background — a theme that looks nice but hides the text poorly is a bad choice.",
+      "source": "book:page18",
+      "options": [
+        "Because text must be easy to read against the background",
+        "Because readability only affects file size",
+        "Because it changes how many slides you need",
+        "Readability is not actually mentioned in the chapter"
+      ],
+      "answer": 0,
+      "id": "q82"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Themes and Backgrounds",
+      "question": "True or False: When creating a presentation about different seasons, you should always use the exact same background colour for every slide to keep things simple.",
+      "explanation": "False. The worksheet's answer key corrects this: you could instead use theme colours that reflect each season while maintaining overall consistency — not force the exact same colour on every slide.",
+      "source": "worksheet-51274 Q2d",
+      "answer": false,
+      "id": "q83"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Themes and Backgrounds",
+      "question": "Once you choose a theme in PowerPoint, can you still make further changes?",
+      "explanation": "The chapter explains that once you choose a theme, you can still customise and make changes to the colour scheme, fonts, and background while keeping the presentation easy to read.",
+      "source": "book:page18",
+      "options": [
+        "No, the theme is permanent and unchangeable",
+        "Yes, you can still customise the colour scheme, fonts, and background",
+        "Only the background can ever be changed",
+        "Only a professional designer can change it"
+      ],
+      "answer": 1,
+      "id": "q84"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Themes and Backgrounds",
+      "question": "What is the main goal to keep in mind while customising a theme, according to the chapter?",
+      "explanation": "The chapter reminds you that the goal is to make your presentation look good while keeping it easy to read and understand, even after customising a theme.",
+      "source": "book:page18",
+      "options": [
+        "Making it look good while keeping it easy to read and understand",
+        "Using as many different fonts as possible",
+        "Making the file as large as possible",
+        "Removing all colour"
+      ],
+      "answer": 0,
+      "id": "q85"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Slide Transitions",
+      "question": "What do slide transitions add to a PowerPoint presentation?",
+      "explanation": "Slide transitions in PowerPoint add visual effects between slides, making the change from one slide to the next more interesting.",
+      "source": "facts:page12",
+      "options": [
+        "Visual effects between slides",
+        "New fonts to the whole file",
+        "Extra slides automatically",
+        "Sound recordings of your voice"
+      ],
+      "answer": 0,
+      "id": "q86"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Slide Transitions",
+      "question": "Which transition creates a smooth change from one slide to the next?",
+      "explanation": "The Fade transition creates a smooth change from one slide to the next, and is used in movies to show that time has passed.",
+      "source": "facts:page12; page17",
+      "options": [
+        "Push",
+        "Fade",
+        "Split",
+        "Spin"
+      ],
+      "answer": 1,
+      "id": "q87"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Slide Transitions",
+      "question": "Which transition is described as giving a dynamic, exciting slide-change effect?",
+      "explanation": "The Push transition gives a dynamic slide change effect, and in movies is used to create excitement during action scenes.",
+      "source": "facts:page27; page17",
+      "options": [
+        "Fade",
+        "Push",
+        "Bounce",
+        "Notes"
+      ],
+      "answer": 1,
+      "id": "q88"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Slide Transitions",
+      "question": "According to the Fun Fact, movie editors use similar effects to slide transitions. What are these called in film?",
+      "explanation": "The Fun Fact explains that movie editors use similar transition effects when making films, showing that transitions are a storytelling tool beyond just PowerPoint.",
+      "source": "facts:page17",
+      "options": [
+        "Transition effects",
+        "Layouts",
+        "Themes",
+        "Ribbons"
+      ],
+      "answer": 0,
+      "id": "q89"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Slide Transitions",
+      "question": "True or False: In movies, the Fade transition is used to show that time has passed, while Push transitions create excitement during action scenes.",
+      "explanation": "True. The chapter's Fun Fact explains this exact use of Fade and Push transitions in filmmaking.",
+      "source": "facts:page17",
+      "answer": true,
+      "id": "q90"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Slide Transitions",
+      "question": "What are the three general categories of transition types mentioned in the chapter?",
+      "explanation": "The chapter states that types of transitions include simple, fun, and advanced options.",
+      "source": "facts:page12",
+      "options": [
+        "Simple, fun, and advanced",
+        "Loud, quiet, and silent",
+        "Red, blue, and green",
+        "Fast, medium, and slow only"
+      ],
+      "answer": 0,
+      "id": "q91"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Slide Transitions",
+      "question": "According to worksheet 51277, how do transitions help a presentation?",
+      "explanation": "The correct answer is that transitions create smooth flow between related ideas — they are visual effects that help connect slides, not file-size or automation tools.",
+      "source": "worksheet-51277 Q1d (answer key)",
+      "options": [
+        "They make the presentation file size much smaller",
+        "They create smooth flow between related ideas",
+        "They automatically advance slides without clicking",
+        "They add background music to keep the audience interested"
+      ],
+      "answer": 1,
+      "id": "q92"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Slide Transitions",
+      "question": "According to Checkpoint D, when should you use slide transitions in presentations?",
+      "explanation": "Transitions should be used to help create smooth flow between ideas, not simply added everywhere or avoided entirely.",
+      "source": "book:page33 Checkpoint D Q5",
+      "options": [
+        "On every slide to make it exciting",
+        "Only on the first and last slides",
+        "To help create smooth flow between ideas",
+        "Never, because they are too distracting"
+      ],
+      "answer": 2,
+      "id": "q93"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Slide Transitions",
+      "question": "Why is the option 'transitions automatically advance slides without clicking' an incorrect description of what transitions do?",
+      "explanation": "Transitions are visual effects that play when moving between slides — they do not control whether the presenter needs to click to advance; that is a separate automatic-advance setting.",
+      "source": "worksheet-51277 Q1d",
+      "options": [
+        "Transitions are visual effects between slides, not an automatic-advance feature",
+        "Transitions always require clicking twice",
+        "This description is actually correct",
+        "Transitions do not exist in PowerPoint"
+      ],
+      "answer": 0,
+      "id": "q94"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Slide Transitions",
+      "question": "True or False: Slide transitions should be used to create a smooth flow between slides and help maintain audience interest.",
+      "explanation": "True. The chapter states transitions help maintain audience interest and focus by creating a smooth flow between slides.",
+      "source": "facts:page21",
+      "answer": true,
+      "id": "q95"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Slide Transitions",
+      "question": "Some slide transitions mimic real-life effects. Which of these is given as an example?",
+      "explanation": "The chapter notes that some transitions mimic real-life effects like page curls or fades, connecting to how a page might turn in a real book.",
+      "source": "facts:page26",
+      "options": [
+        "Page curls or fades",
+        "Keyboard typing sounds",
+        "Printer noises",
+        "Doorbell rings"
+      ],
+      "answer": 0,
+      "id": "q96"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Slide Transitions",
+      "question": "In the 'Time to Go to the Lab' activity, which two named transitions are students asked to try?",
+      "explanation": "The lab activity asks students to try the Fade transition for a gentle effect and the Push transition for a dynamic effect, then apply their favourite to all slides.",
+      "source": "book:page23 Lab 2",
+      "options": [
+        "Fade and Push",
+        "Fly In and Fade In",
+        "Pulse and Spin",
+        "Fly Out and Fade Out"
+      ],
+      "answer": 0,
+      "id": "q97"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Slide Transitions",
+      "question": "A student adds a different loud transition to every single slide, including slides with unrelated topics. What chapter guideline does this ignore?",
+      "explanation": "The chapter explains transitions should create smooth flow and maintain audience interest and focus — using loud, mismatched transitions everywhere can distract rather than help.",
+      "source": "facts:page21",
+      "options": [
+        "Transitions should help create smooth flow and maintain focus, not distract",
+        "Transitions are required on every slide by law",
+        "Transitions can never be applied to more than one slide",
+        "There is no guideline about transitions"
+      ],
+      "answer": 0,
+      "id": "q98"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Animations",
+      "question": "What do animations do to text and objects on a slide?",
+      "explanation": "Animations bring life to your slides by making text and objects move, such as introducing text dynamically.",
+      "source": "facts:page13",
+      "options": [
+        "Bring life to slides by making them move",
+        "Delete them permanently",
+        "Change the file format",
+        "Remove all colour"
+      ],
+      "answer": 0,
+      "id": "q99"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Animations",
+      "question": "Which animation is given as an example for introducing text dynamically?",
+      "explanation": "The Fly In animation is used to introduce text dynamically, making it appear on the slide in an eye-catching way.",
+      "source": "facts:page13",
+      "options": [
+        "Fly In",
+        "Push",
+        "Fade",
+        "Slide Sorter"
+      ],
+      "answer": 0,
+      "id": "q100"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Animations",
+      "question": "True or False: Adding as many animations as possible always makes a presentation better.",
+      "explanation": "False. The chapter warns that animations should enhance rather than distract from your message — too many animations can confuse the audience instead of aiding understanding.",
+      "source": "facts:page13",
+      "answer": false,
+      "id": "q101"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Animations",
+      "question": "Why should you be careful when adding animations to your presentation, according to worksheet 51277?",
+      "explanation": "The correct answer is that animations can distract from your main message if overused — the chapter repeatedly warns that animations should enhance, not distract from, your content.",
+      "source": "worksheet-51277 Q1c (answer key)",
+      "options": [
+        "Because animations make presentations load too slowly",
+        "Because animations only work on certain computers",
+        "Because animations can distract from your main message",
+        "Because animations make slides too difficult to read"
+      ],
+      "answer": 2,
+      "id": "q102"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Animations",
+      "question": "According to worksheet 51274, when choosing animations, which type should you pick?",
+      "explanation": "The worksheet's correct fill-in-the-blank answer is that you should pick simple animations that help explain your ideas, not ones that distract your audience.",
+      "source": "worksheet-51274 Q1d",
+      "options": [
+        "The most complicated ones available",
+        "Simple ones that help explain your ideas",
+        "Only exit animations",
+        "None; animations should never be used"
+      ],
+      "answer": 1,
+      "id": "q103"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Animations",
+      "question": "According to worksheet 51274, what type of animation could you add when introducing each new country in a presentation about different countries?",
+      "explanation": "The worksheet's correct answer is 'entrance' animations, which grab attention as each new country is introduced.",
+      "source": "worksheet-51274 Q1e",
+      "options": [
+        "Exit animations",
+        "Entrance animations",
+        "Emphasis animations only",
+        "No animations at all"
+      ],
+      "answer": 1,
+      "id": "q104"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Animations",
+      "question": "Entrance animations are best described as:",
+      "explanation": "Entrance animations control how things appear on your slide, such as Fly In, Fade In, or Bounce.",
+      "source": "book:page23",
+      "options": [
+        "Effects for how things appear on your slide",
+        "Effects for how things disappear",
+        "Effects that make objects grow and shrink to grab attention",
+        "Effects that only work with pictures"
+      ],
+      "answer": 0,
+      "id": "q105"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Animations",
+      "question": "Which of these is an entrance animation mentioned in the chapter?",
+      "explanation": "Bounce is listed as an entrance animation, where objects hop onto your slide as they appear.",
+      "source": "book:page23",
+      "options": [
+        "Fly Out",
+        "Bounce",
+        "Pulse",
+        "Spin"
+      ],
+      "answer": 1,
+      "id": "q106"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Animations",
+      "question": "Which animation makes text zoom in from the sides as it appears?",
+      "explanation": "Fly In is described as making text zoom in from the sides, one of the entrance animation options.",
+      "source": "book:page23",
+      "options": [
+        "Fade In",
+        "Fly In",
+        "Fade Out",
+        "Spin"
+      ],
+      "answer": 1,
+      "id": "q107"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Animations",
+      "question": "Which entrance animation makes things appear slowly, almost like magic?",
+      "explanation": "Fade In is described as making things slowly appear like magic, one of the entrance animation effects.",
+      "source": "book:page23",
+      "options": [
+        "Fade In",
+        "Fly Out",
+        "Pulse",
+        "Push"
+      ],
+      "answer": 0,
+      "id": "q108"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Animations",
+      "question": "Emphasis animations are used to:",
+      "explanation": "Emphasis animations make important things stand out, such as Pulse (grow and shrink) or Spin (turn around).",
+      "source": "book:page24",
+      "options": [
+        "Make important things stand out",
+        "Introduce content onto the slide for the first time",
+        "Remove content from the slide",
+        "Change the slide's layout"
+      ],
+      "answer": 0,
+      "id": "q109"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Animations",
+      "question": "Which emphasis animation makes an object grow and shrink to grab attention?",
+      "explanation": "Pulse is the emphasis animation that makes objects grow and shrink to grab the audience's attention.",
+      "source": "book:page24",
+      "options": [
+        "Fly In",
+        "Pulse",
+        "Fade Out",
+        "Push"
+      ],
+      "answer": 1,
+      "id": "q110"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Animations",
+      "question": "Which emphasis animation makes an object turn around?",
+      "explanation": "Spin is the emphasis animation described in the chapter as making things turn around to stand out.",
+      "source": "book:page24",
+      "options": [
+        "Spin",
+        "Fade In",
+        "Bounce",
+        "Fly Out"
+      ],
+      "answer": 0,
+      "id": "q111"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Animations",
+      "question": "Exit animations control:",
+      "explanation": "Exit animations control how things disappear from your slide, such as Fly Out or Fade Out.",
+      "source": "book:page24",
+      "options": [
+        "How things disappear from your slide",
+        "How things first appear on a slide",
+        "The colour scheme of the whole file",
+        "The order slides appear in the Slides Pane"
+      ],
+      "answer": 0,
+      "id": "q112"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Animations",
+      "question": "Select ALL of the animations that are examples of EXIT animations in the chapter.",
+      "explanation": "Fly Out and Fade Out are the exit animations mentioned, describing how objects disappear. Fly In and Bounce are entrance animations, describing how objects appear.",
+      "source": "book:page24",
+      "options": [
+        "Fly Out",
+        "Fade Out",
+        "Fly In",
+        "Bounce"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "id": "q113"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Animations",
+      "question": "Select ALL of the animations that are examples of ENTRANCE animations in the chapter.",
+      "explanation": "Fly In, Fade In, and Bounce are entrance animations (how things appear). Spin is an emphasis animation, and Fade Out is an exit animation.",
+      "source": "book:page23-24",
+      "options": [
+        "Fly In",
+        "Fade In",
+        "Bounce",
+        "Spin",
+        "Fade Out"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "id": "q114"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Animations",
+      "question": "Which tab do you use to add an animation to selected text or a picture?",
+      "explanation": "To add an animation, you first click the text or picture, then go to the Animations tab and choose the animation you like.",
+      "source": "book:page24",
+      "options": [
+        "The Animations tab",
+        "The Insert tab",
+        "The Review tab",
+        "The File tab"
+      ],
+      "answer": 0,
+      "id": "q115"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Animations",
+      "question": "What can you click to see how your animation will look before deciding to keep it?",
+      "explanation": "You can click Preview to see how your animation will look before you decide to keep it, as shown in the Animations tab.",
+      "source": "book:page24",
+      "options": [
+        "Preview",
+        "Save As",
+        "Undo",
+        "Print"
+      ],
+      "answer": 0,
+      "id": "q116"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Animations",
+      "question": "True or False: Animations should always be as elaborate and numerous as possible so the presentation looks impressive.",
+      "explanation": "False. The chapter warns that animations should help make your presentation more interesting but not distract people from your important ideas — simple, purposeful animations are better than excessive ones.",
+      "source": "book:page24",
+      "answer": false,
+      "id": "q117"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Animations",
+      "question": "According to the chapter, what should you always think about when choosing an animation?",
+      "explanation": "The chapter advises choosing simple animations that match what your presentation is about, and to always think about whether the animation helps tell your story better.",
+      "source": "book:page24",
+      "options": [
+        "Whether the animation helps tell your story better",
+        "Whether the animation uses the most colours possible",
+        "Whether the animation is the longest one available",
+        "Whether the animation matches your favourite cartoon"
+      ],
+      "answer": 0,
+      "id": "q118"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Animations",
+      "question": "According to the chapter, animations can be used for which THREE effects?",
+      "explanation": "Animations in PowerPoint can be used for entrance (appearing), emphasis (standing out), and exit (disappearing) effects.",
+      "source": "facts:page26",
+      "options": [
+        "Entrance, emphasis, and exit effects",
+        "Only entrance effects",
+        "Only colour effects",
+        "Only sound effects"
+      ],
+      "answer": 0,
+      "id": "q119"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Animations",
+      "question": "A student uses 15 different flashy animations on a single slide with important exam information. What problem does this create, per the chapter's guidance?",
+      "explanation": "The chapter warns that animations should enhance rather than distract from your message, and that too many animations can confuse the audience instead of aiding understanding.",
+      "source": "facts:page13",
+      "options": [
+        "No problem; more animation is always better",
+        "The excessive animations may confuse the audience instead of aiding understanding of the important information",
+        "PowerPoint will not allow more than 2 animations per slide",
+        "Animations always improve exam scores"
+      ],
+      "answer": 1,
+      "id": "q120"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Planning and Organizing a Presentation",
+      "question": "Planning your presentation mainly involves:",
+      "explanation": "Planning your presentation involves deciding the main topic and key points before you start building slides.",
+      "source": "facts:page7",
+      "options": [
+        "Deciding the main topic and key points",
+        "Choosing a random font",
+        "Skipping the outline entirely",
+        "Adding as many slides as possible without a plan"
+      ],
+      "answer": 0,
+      "id": "q121"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Planning and Organizing a Presentation",
+      "question": "Why do well-planned presentations communicate ideas more effectively?",
+      "explanation": "The chapter states that well-planned presentations communicate ideas more effectively, since a clear plan for topic and key points leads to more organized delivery.",
+      "source": "facts:page7",
+      "options": [
+        "Because planning has no real effect on communication",
+        "Because a clear plan lets ideas be organized and presented logically",
+        "Because planning always makes presentations longer",
+        "Because planning removes the need for slides"
+      ],
+      "answer": 1,
+      "id": "q122"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Planning and Organizing a Presentation",
+      "question": "What helps you manage working with multiple slides?",
+      "explanation": "Working with multiple slides is manageable using the Slides Pane, which lets you reorder slides to improve the presentation's flow.",
+      "source": "facts:page7",
+      "options": [
+        "The Slides Pane",
+        "The Notes Section",
+        "Turning off the computer",
+        "Deleting extra slides randomly"
+      ],
+      "answer": 0,
+      "id": "q123"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Planning and Organizing a Presentation",
+      "question": "According to Checkpoint D, what should you do before creating your slides?",
+      "explanation": "You should create an outline of your main ideas before creating slides, so your presentation has a clear, logical structure from the start.",
+      "source": "book:page33 Checkpoint D Q3",
+      "options": [
+        "Choose the most colourful theme available",
+        "Add as many animations as you can",
+        "Create an outline of your main ideas",
+        "Insert pictures from the internet first"
+      ],
+      "answer": 2,
+      "id": "q124"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Planning and Organizing a Presentation",
+      "question": "What does creating an outline help you do?",
+      "explanation": "Creating an outline helps organize your main ideas before making a presentation — outlines serve as a roadmap for developing detailed slides.",
+      "source": "facts:page20",
+      "options": [
+        "Organize your main ideas before making a presentation",
+        "Delete unnecessary slides automatically",
+        "Change the file format to PDF",
+        "Add background music"
+      ],
+      "answer": 0,
+      "id": "q125"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Planning and Organizing a Presentation",
+      "question": "The chapter compares planning a presentation to what other activity?",
+      "explanation": "The chapter says planning a presentation is similar to constructing a building — both require a clear outline before you begin.",
+      "source": "facts:page23",
+      "options": [
+        "Constructing a building",
+        "Cooking a meal",
+        "Playing a video game",
+        "Washing a car"
+      ],
+      "answer": 0,
+      "id": "q126"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Planning and Organizing a Presentation",
+      "question": "True or False: Professional speakers spend considerable time organizing their presentations.",
+      "explanation": "True. The chapter's Fun Fact notes that professional speakers spend considerable time organizing their presentations, since good planning leads to better, more impactful results.",
+      "source": "facts:page23",
+      "answer": true,
+      "id": "q127"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Planning and Organizing a Presentation",
+      "question": "Organizing your presentation involves planning which two things?",
+      "explanation": "Organizing your presentation involves planning the order of slides and content so that the information flows logically.",
+      "source": "facts:page14",
+      "options": [
+        "The order of slides and content",
+        "Only the font colour",
+        "Only the file name",
+        "Only the number of pictures"
+      ],
+      "answer": 0,
+      "id": "q128"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Planning and Organizing a Presentation",
+      "question": "Which connecting words does the chapter suggest using to make slides flow together?",
+      "explanation": "Making slides flow together uses connecting words like 'next' and 'finally' to smoothly link ideas between slides.",
+      "source": "facts:page14",
+      "options": [
+        "'Next' and 'finally'",
+        "'Never' and 'maybe'",
+        "'Random' and 'chaos'",
+        "'Stop' and 'wait'"
+      ],
+      "answer": 0,
+      "id": "q129"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Planning and Organizing a Presentation",
+      "question": "According to Checkpoint D, what is the best way to organize presentation slides?",
+      "explanation": "Slides should be arranged in a logical order that tells your story, rather than being ordered by colour, type, or simple creation order.",
+      "source": "book:page33 Checkpoint D Q6",
+      "options": [
+        "Put the most colourful slides first always",
+        "Arrange them in a logical order that tells your story",
+        "Place all text slides before all picture slides",
+        "Keep them in the order you created them"
+      ],
+      "answer": 1,
+      "id": "q130"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Planning and Organizing a Presentation",
+      "question": "How can you organize slides logically, according to the chapter?",
+      "explanation": "The chapter explains you can organize slides logically by time order (what happened first, second, third) or by importance.",
+      "source": "facts:page22",
+      "options": [
+        "By time order or importance",
+        "By file size only",
+        "By deleting half the slides",
+        "By random shuffling"
+      ],
+      "answer": 0,
+      "id": "q131"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Planning and Organizing a Presentation",
+      "question": "True or False: A well-ordered presentation increases the impact of your message.",
+      "explanation": "True. The chapter states that presentations in a logical sequence, well-ordered, increase the impact of your message and enhance comprehension.",
+      "source": "facts:page22",
+      "answer": true,
+      "id": "q132"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Planning and Organizing a Presentation",
+      "question": "You can organize your slides by showing a problem and then its solution. This is an example of:",
+      "explanation": "Presenting a problem and then its solution is a logical way to organize slides, similar to organizing by time order or importance.",
+      "source": "book:page27 (Putting Your Slides in Order)",
+      "options": [
+        "Organizing slides logically by importance or sequence of ideas",
+        "Ignoring all organization",
+        "Randomizing the slide order",
+        "Using only pictures with no text"
+      ],
+      "answer": 0,
+      "id": "q133"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Planning and Organizing a Presentation",
+      "question": "Select ALL of the ways the chapter suggests you can organize your slides.",
+      "explanation": "The chapter suggests organizing slides by time order, by importance, or by problem-then-solution. Random shuffling is not a suggested method — it works against a logical story.",
+      "source": "book:page27",
+      "options": [
+        "By time order (first, second, third)",
+        "By most important to least important",
+        "By showing a problem and then the solution",
+        "By completely random shuffling every time you present"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "id": "q134"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Planning and Organizing a Presentation",
+      "question": "A student arranges their slides randomly, with no consistent order, and adds no connecting words between ideas. What problem might result?",
+      "explanation": "The chapter stresses that your audience should always understand why you're showing them each slide, and that slides should connect smoothly using words like 'next' or 'finally' — random ordering without connections undermines this.",
+      "source": "facts:page14",
+      "options": [
+        "The audience may struggle to understand why each slide is shown",
+        "There will be no problem since order never matters",
+        "The file will not open in PowerPoint",
+        "The slides will automatically reorder themselves"
+      ],
+      "answer": 0,
+      "id": "q135"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Planning and Organizing a Presentation",
+      "question": "What should each slide in a good presentation do, according to the chapter?",
+      "explanation": "Good presentations tell a coherent story, and each slide should build on the previous one to enhance understanding.",
+      "source": "facts:page15",
+      "options": [
+        "Build on the previous one to enhance understanding",
+        "Repeat the exact same information as the last slide",
+        "Contradict the previous slide's message",
+        "Stand completely alone with no connection to others"
+      ],
+      "answer": 0,
+      "id": "q136"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Planning and Organizing a Presentation",
+      "question": "True or False: Good presentations tell a coherent story with a beginning, middle, and end.",
+      "explanation": "True. The chapter states that good presentations tell a coherent story with a beginning, middle, and end, much like a well-organized book.",
+      "source": "facts:page15",
+      "answer": true,
+      "id": "q137"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Planning and Organizing a Presentation",
+      "question": "What does creating a good outline serve as, according to the chapter?",
+      "explanation": "The chapter describes an outline as a roadmap for developing detailed slides — it maps out the structure before the detailed work begins.",
+      "source": "facts:page20",
+      "options": [
+        "A roadmap for developing detailed slides",
+        "A replacement for the Ribbon",
+        "A tool for changing font size only",
+        "A way to delete unnecessary transitions"
+      ],
+      "answer": 0,
+      "id": "q138"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Planning and Organizing a Presentation",
+      "question": "According to the chapter, what does good planning lead to?",
+      "explanation": "The Fun Fact notes that good planning leads to better and more impactful presentations, which is why professional speakers spend considerable time organizing.",
+      "source": "facts:page23",
+      "options": [
+        "Better and more impactful presentations",
+        "Longer file names",
+        "Fewer slides regardless of content",
+        "No need for practice"
+      ],
+      "answer": 0,
+      "id": "q139"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Slide Sorter and Sequencing",
+      "question": "Which PowerPoint view lets you see all your slides at once for easy organization?",
+      "explanation": "The Slide Sorter view lets you see all your slides at once, making it easy to organize and reorder them.",
+      "source": "facts:page15",
+      "options": [
+        "The Slide Sorter view",
+        "The Notes Section",
+        "The Ribbon",
+        "The Menu Bar"
+      ],
+      "answer": 0,
+      "id": "q140"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Slide Sorter and Sequencing",
+      "question": "In Slide Sorter view, how can you reorder your slides quickly?",
+      "explanation": "In Slide Sorter view, you can drag and drop slides to reorder them quickly, without needing to rebuild anything.",
+      "source": "facts:page15",
+      "options": [
+        "By drag and drop",
+        "By deleting and retyping every slide",
+        "By closing PowerPoint and reopening it",
+        "By changing the file extension"
+      ],
+      "answer": 0,
+      "id": "q141"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Slide Sorter and Sequencing",
+      "question": "True or False: The Slide Sorter view displays all slides at once for easy reordering.",
+      "explanation": "True. The Slide Sorter view is specifically designed to display all slides at once so you can quickly adjust their sequence.",
+      "source": "facts:page24",
+      "answer": true,
+      "id": "q142"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Slide Sorter and Sequencing",
+      "question": "For what purpose is the Slide Sorter view particularly useful?",
+      "explanation": "The Slide Sorter view is useful for adjusting the sequence of slides quickly, since you can see and rearrange all slides in one screen.",
+      "source": "facts:page24",
+      "options": [
+        "Adjusting the sequence of slides quickly",
+        "Writing detailed presenter notes",
+        "Changing individual letter fonts",
+        "Recording narration audio"
+      ],
+      "answer": 0,
+      "id": "q143"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Slide Sorter and Sequencing",
+      "question": "In the chapter's 'Outline Builder' activity, students had to put jumbled points from three topics into the correct order. What was one of the three topics?",
+      "explanation": "The Outline Builder activity presented three topics with jumbled main points to reorder: 'How to Care for a Pet', 'The Water Cycle', and 'My School Day'.",
+      "source": "book:page27 Activity 3",
+      "options": [
+        "The Water Cycle",
+        "The History of Computers",
+        "A Book Report",
+        "A Maths Test"
+      ],
+      "answer": 0,
+      "id": "q144"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Slide Sorter and Sequencing",
+      "question": "For the 'How to Care for a Pet' topic in the Outline Builder activity, which point most logically comes FIRST?",
+      "explanation": "Logically, you must first choose the right pet before you can make it a home, feed it, play with it, or take it to the vet — 'Choosing the right pet' comes first in a sensible outline.",
+      "source": "book:page27 Activity 3",
+      "options": [
+        "Choosing the right pet",
+        "Taking your pet to the vet",
+        "Playing and exercising with your pet",
+        "Feeding your pet properly"
+      ],
+      "answer": 0,
+      "id": "q145"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Slide Sorter and Sequencing",
+      "question": "For the 'How to Care for a Pet' topic, which point most logically comes LAST in a well-organized outline?",
+      "explanation": "After choosing a pet, making a home for it, feeding it, and playing with it, taking it to the vet for regular check-ups is a logical final ongoing-care step in the outline.",
+      "source": "book:page27 Activity 3",
+      "options": [
+        "Choosing the right pet",
+        "Making a safe home for your pet",
+        "Taking your pet to the vet",
+        "Feeding your pet properly"
+      ],
+      "answer": 2,
+      "id": "q146"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Slide Sorter and Sequencing",
+      "question": "For the 'The Water Cycle' topic in the Outline Builder activity, which point should come FIRST?",
+      "explanation": "A logical outline begins with an introduction to the topic before explaining the process steps, so 'Introduction to water cycle' comes first.",
+      "source": "book:page27 Activity 3",
+      "options": [
+        "Water returns to earth as rain",
+        "Introduction to water cycle",
+        "Water vapour rises into the sky",
+        "The sun heats up water"
+      ],
+      "answer": 1,
+      "id": "q147"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Slide Sorter and Sequencing",
+      "question": "For 'The Water Cycle' topic, after the introduction, what happens FIRST in the actual water cycle process?",
+      "explanation": "In the real water cycle process, the sun heats up water first, which causes water vapour to rise into the sky and later fall as rain.",
+      "source": "book:page27 Activity 3",
+      "options": [
+        "Water returns to earth as rain",
+        "The sun heats up water",
+        "Conclusion about water cycle importance",
+        "Water vapour rises into the sky"
+      ],
+      "answer": 1,
+      "id": "q148"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Slide Sorter and Sequencing",
+      "question": "For 'The Water Cycle' topic, which point should come LAST in the outline?",
+      "explanation": "A well-structured outline ends with a conclusion, so 'Conclusion about water cycle importance' should be the last point.",
+      "source": "book:page27 Activity 3",
+      "options": [
+        "The sun heats up water",
+        "Water vapour rises into the sky",
+        "Conclusion about water cycle importance",
+        "Introduction to water cycle"
+      ],
+      "answer": 2,
+      "id": "q149"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Slide Sorter and Sequencing",
+      "question": "For the 'My School Day' topic in the Outline Builder activity, which point should come FIRST?",
+      "explanation": "A school day logically begins with getting ready in the morning, before travelling to school and starting classes.",
+      "source": "book:page27 Activity 3",
+      "options": [
+        "Morning classes",
+        "Getting ready in the morning",
+        "Travelling to school",
+        "Lunch and recess time"
+      ],
+      "answer": 1,
+      "id": "q150"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Slide Sorter and Sequencing",
+      "question": "For 'My School Day', which point comes right AFTER 'Travelling to school' in a logical order?",
+      "explanation": "After travelling to school, the school day would logically continue with morning classes, before lunch, afternoon activities, and finally going home.",
+      "source": "book:page27 Activity 3",
+      "options": [
+        "Going home",
+        "Morning classes",
+        "Afternoon classes and activities",
+        "Getting ready in the morning"
+      ],
+      "answer": 1,
+      "id": "q151"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Slide Sorter and Sequencing",
+      "question": "For 'My School Day', which point should come LAST in the outline?",
+      "explanation": "'Going home' is the last event in a typical school day, following morning classes, lunch and recess, and afternoon activities.",
+      "source": "book:page27 Activity 3",
+      "options": [
+        "Getting ready in the morning",
+        "Morning classes",
+        "Going home",
+        "Lunch and recess time"
+      ],
+      "answer": 2,
+      "id": "q152"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Slide Sorter and Sequencing",
+      "question": "Why does the Outline Builder activity ask students to reorder jumbled points instead of just listing facts?",
+      "explanation": "The chapter's broader lesson is that organizing slides/ideas in a logical sequence makes a presentation clearer — the Outline Builder activity directly practices this skill using three everyday topics.",
+      "source": "book:page27 Activity 3",
+      "options": [
+        "To practice organizing ideas into a clear, logical sequence, which is a key presentation skill",
+        "Because jumbled lists are the final correct format",
+        "Because reordering has nothing to do with presentations",
+        "Because PowerPoint requires jumbled outlines"
+      ],
+      "answer": 0,
+      "id": "q153"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Slide Sorter and Sequencing",
+      "question": "Select ALL of the three topics used in the chapter's Outline Builder activity.",
+      "explanation": "The Outline Builder activity used exactly three topics: 'How to Care for a Pet', 'The Water Cycle', and 'My School Day'. 'The Solar System' was not one of them.",
+      "source": "book:page27 Activity 3",
+      "options": [
+        "How to Care for a Pet",
+        "The Water Cycle",
+        "My School Day",
+        "The Solar System"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "id": "q154"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Delivering a Presentation",
+      "question": "What does preparing to present involve, according to the chapter?",
+      "explanation": "Preparing to present involves practicing your slideshow beforehand, similar to rehearsing for a play.",
+      "source": "facts:page16",
+      "options": [
+        "Practicing your slideshow beforehand",
+        "Deleting your slides right before presenting",
+        "Avoiding any preparation at all",
+        "Changing the theme at the last second"
+      ],
+      "answer": 0,
+      "id": "q155"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Delivering a Presentation",
+      "question": "The chapter compares rehearsing a presentation to rehearsing what?",
+      "explanation": "The chapter suggests you rehearse like a play to ensure smooth delivery during the actual presentation.",
+      "source": "facts:page16",
+      "options": [
+        "A play",
+        "A sports match",
+        "A cooking recipe",
+        "A maths exam"
+      ],
+      "answer": 0,
+      "id": "q156"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Delivering a Presentation",
+      "question": "How can you navigate to the next slide during a live presentation using the keyboard?",
+      "explanation": "The chapter states you can press the right arrow key to move to the next slide during a presentation.",
+      "source": "facts:page17",
+      "options": [
+        "Press the right arrow key",
+        "Press the Escape key",
+        "Press the space bar to delete the slide",
+        "Press Ctrl+Z"
+      ],
+      "answer": 0,
+      "id": "q157"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Delivering a Presentation",
+      "question": "Which two methods can be used to navigate during a presentation, according to the chapter?",
+      "explanation": "Navigating during a presentation can be done using the keyboard or mouse, giving presenters flexible options.",
+      "source": "facts:page17",
+      "options": [
+        "The keyboard or mouse",
+        "Only voice commands",
+        "Only a second computer",
+        "Only a printed copy"
+      ],
+      "answer": 0,
+      "id": "q158"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Delivering a Presentation",
+      "question": "What does the pen tool in PowerPoint allow you to do during a presentation?",
+      "explanation": "The pen tool allows you to draw on slides during a presentation, such as highlighting or circling important points as you speak.",
+      "source": "facts:page17",
+      "options": [
+        "Draw on slides during a presentation",
+        "Delete slides permanently",
+        "Change the file format",
+        "Add a new theme automatically"
+      ],
+      "answer": 0,
+      "id": "q159"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Delivering a Presentation",
+      "question": "How can the pen tool help you highlight important points while presenting?",
+      "explanation": "The chapter gives a real-life application: you can highlight important points by circling them with the pen tool as you speak.",
+      "source": "facts:page17",
+      "options": [
+        "By circling them as you speak",
+        "By automatically deleting them",
+        "By hiding them from the audience",
+        "By changing their font colour permanently"
+      ],
+      "answer": 0,
+      "id": "q160"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Delivering a Presentation",
+      "question": "What can you use the pen tool for when your family asks questions about your 'My Community' presentation?",
+      "explanation": "In the Step Ahead activity, the chapter suggests using the pen tool to write your family's answers on your slides when they ask a question.",
+      "source": "book:page34 Step Ahead",
+      "options": [
+        "To write their answers on your slides",
+        "To delete their questions",
+        "To change the presentation's language",
+        "To email them a copy"
+      ],
+      "answer": 0,
+      "id": "q161"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Delivering a Presentation",
+      "question": "Adding slide numbers helps you keep track of what?",
+      "explanation": "Adding slide numbers helps keep track of your presentation flow, so both you and your audience know where you are.",
+      "source": "facts:page18",
+      "options": [
+        "Your presentation flow",
+        "The file's creation date",
+        "The number of pictures used",
+        "The colour scheme"
+      ],
+      "answer": 0,
+      "id": "q162"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Delivering a Presentation",
+      "question": "Where do slide numbers usually appear on a slide?",
+      "explanation": "Slide numbers appear in the footer of each slide for easy reference during the presentation.",
+      "source": "facts:page18",
+      "options": [
+        "In the footer of each slide",
+        "In the Notes Section only",
+        "In the Menu Bar",
+        "They never appear on the slide itself"
+      ],
+      "answer": 0,
+      "id": "q163"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Delivering a Presentation",
+      "question": "How can feedback from others help your presentation?",
+      "explanation": "Feedback from others, such as asking a friend to review your slideshow, can help improve your presentation by providing new insights.",
+      "source": "facts:page18",
+      "options": [
+        "It can help you improve your presentation",
+        "It always makes the presentation worse",
+        "It replaces the need to practice",
+        "It changes the file format automatically"
+      ],
+      "answer": 0,
+      "id": "q164"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Delivering a Presentation",
+      "question": "True or False: Asking a friend to review your slideshow can provide new insights.",
+      "explanation": "True. The chapter suggests that asking a friend to review your slideshow before presenting can help you spot things you may have missed.",
+      "source": "facts:page18",
+      "answer": true,
+      "id": "q165"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Delivering a Presentation",
+      "question": "True or False: When showing your presentation to parents during a school event, you should practice beforehand so you can speak confidently.",
+      "explanation": "True. Practicing beforehand builds the confidence needed to present well, especially in front of family during a school event.",
+      "source": "worksheet-51274 Q2e",
+      "answer": true,
+      "id": "q166"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Delivering a Presentation",
+      "question": "The chapter compares a well-organized presentation to what?",
+      "explanation": "A well-organized presentation is compared to a well-rehearsed play — practice ensures smooth delivery and boosts confidence during the actual presentation.",
+      "source": "facts:page28",
+      "options": [
+        "A well-rehearsed play",
+        "An unplanned road trip",
+        "A messy desk",
+        "A silent movie"
+      ],
+      "answer": 0,
+      "id": "q167"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Delivering a Presentation",
+      "question": "What does practicing your presentation, like rehearsing a play, help you achieve?",
+      "explanation": "Practice ensures smooth delivery and boosts confidence during the actual presentation, just like rehearsing lines for a play.",
+      "source": "facts:page28",
+      "options": [
+        "Smooth delivery and boosted confidence",
+        "A completely different set of slides",
+        "Less time spent presenting overall",
+        "Removal of all animations"
+      ],
+      "answer": 0,
+      "id": "q168"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Delivering a Presentation",
+      "question": "Select ALL the tips the chapter gives for delivering a presentation well.",
+      "explanation": "The chapter recommends practicing beforehand, using slide numbers to track flow, and asking others for feedback. It never suggests skipping rehearsal entirely.",
+      "source": "facts:page16-18",
+      "options": [
+        "Practice your slideshow beforehand",
+        "Use slide numbers to track your flow",
+        "Ask others for feedback",
+        "Never rehearse, and improvise everything on the spot"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "id": "q169"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Delivering a Presentation",
+      "question": "A presenter never practices and refuses any feedback before presenting to the class. What TWO chapter recommendations are they ignoring?",
+      "explanation": "The chapter recommends practicing your slideshow beforehand (like rehearsing a play) and getting feedback from others (like a friend reviewing your slideshow) — this presenter is skipping both.",
+      "source": "facts:page16-18",
+      "options": [
+        "Practicing beforehand and getting feedback from others",
+        "Adding a Title Slide and choosing a theme",
+        "Using the Ribbon and the Menu Bar",
+        "Adding slide numbers and using transitions"
+      ],
+      "answer": 0,
+      "id": "q170"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Delivering a Presentation",
+      "question": "In the 'My Community' presentation activity, what should be added at the bottom of each slide?",
+      "explanation": "The Step Ahead activity instructs students to put slide numbers and their name at the bottom of each slide.",
+      "source": "book:page34 Step Ahead",
+      "options": [
+        "Slide numbers and your name",
+        "A different theme on every slide",
+        "A new layout for every slide",
+        "The date only"
+      ],
+      "answer": 0,
+      "id": "q171"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Recap: Fill-Ins and True/False",
+      "question": "Complete the sentence from the worksheet: 'The ___ Bar is the strip that shows the items like Home, Insert, Design, and Slideshow.'",
+      "explanation": "The correct fill-in-the-blank answer is 'Menu' — the Menu Bar is the strip showing Home, Insert, Design, and Slideshow.",
+      "source": "worksheet-51274 Q1a (answer key)",
+      "options": [
+        "Menu",
+        "Ribbon",
+        "Notes",
+        "Work"
+      ],
+      "answer": 0,
+      "id": "q172"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Recap: Fill-Ins and True/False",
+      "question": "Complete the sentence from the worksheet: '___ are effects that make things move on your slides, like bringing your ideas to life.'",
+      "explanation": "The correct fill-in-the-blank answer is 'Animations' — they are effects that make things move on your slides.",
+      "source": "worksheet-51274 Q1b (answer key)",
+      "options": [
+        "Themes",
+        "Layouts",
+        "Animations",
+        "Transitions only"
+      ],
+      "answer": 2,
+      "id": "q173"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Recap: Fill-Ins and True/False",
+      "question": "Complete the sentence from the worksheet: 'The ___ layout is perfect for your first slide because it has space for a big title and your name.'",
+      "explanation": "The correct fill-in-the-blank answer is 'Title Slide' — it is designed with space for a big title and your name, ideal for the first slide.",
+      "source": "worksheet-51274 Q1c (answer key)",
+      "options": [
+        "Two Content",
+        "Title Slide",
+        "Blank",
+        "Comparison"
+      ],
+      "answer": 1,
+      "id": "q174"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Recap: Fill-Ins and True/False",
+      "question": "Complete the sentence from the worksheet: 'When choosing animations, you should pick ___ ones that help explain your ideas, not ones that distract your audience.'",
+      "explanation": "The correct fill-in-the-blank answer is 'simple' — simple animations help explain ideas without distracting the audience.",
+      "source": "worksheet-51274 Q1d (answer key)",
+      "options": [
+        "complicated",
+        "simple",
+        "loud",
+        "invisible"
+      ],
+      "answer": 1,
+      "id": "q175"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Recap: Fill-Ins and True/False",
+      "question": "Complete the sentence from the worksheet: 'To make your presentation about different countries interesting, you could add ___ animations when introducing each new country to grab attention.'",
+      "explanation": "The correct fill-in-the-blank answer is 'entrance' — entrance animations grab attention as each new country is introduced.",
+      "source": "worksheet-51274 Q1e (answer key)",
+      "options": [
+        "exit",
+        "emphasis",
+        "entrance",
+        "background"
+      ],
+      "answer": 2,
+      "id": "q176"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Worksheet Recap: Fill-Ins and True/False",
+      "question": "Select ALL of the five words that were provided in the worksheet's word box for the fill-in-the-blank questions.",
+      "explanation": "The worksheet's word box contained exactly these five words/phrases: Menu, animations, Title Slide, simple, and entrance — one for each fill-in-the-blank sentence.",
+      "source": "worksheet-51274 word box",
+      "options": [
+        "Menu",
+        "animations",
+        "Title Slide",
+        "simple",
+        "entrance"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "id": "q177"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Worksheet Recap: Fill-Ins and True/False",
+      "question": "True or False (worksheet 51274): Animations should be used to help make important ideas clearer for your audience.",
+      "explanation": "True. The worksheet's answer key confirms this statement is True — animations should clarify, not distract from, important ideas.",
+      "source": "worksheet-51274 Q2c (answer key)",
+      "answer": true,
+      "id": "q178"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Worksheet Recap: Fill-Ins and True/False",
+      "question": "Worksheet statement: 'PowerPoint can only be used to create presentations with text.' What is the CORRECTED version of this false statement?",
+      "explanation": "The worksheet's answer key marks the original statement False and corrects it: PowerPoint can be used to create presentations with text, pictures, animations, and other visual elements.",
+      "source": "worksheet-51274 Q2b (answer key)",
+      "options": [
+        "PowerPoint can be used to create presentations with text, pictures, animations, and other visual elements",
+        "PowerPoint can only be used with text and no pictures",
+        "PowerPoint cannot be used for presentations at all",
+        "PowerPoint can only add animations, never text"
+      ],
+      "answer": 0,
+      "id": "q179"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Worksheet Recap: Fill-Ins and True/False",
+      "question": "Worksheet statement: 'When creating a presentation about different seasons, you should use the same background colour for all slides to keep it simple.' What is the CORRECTED version?",
+      "explanation": "The worksheet's answer key marks the original statement False and corrects it: you could use theme colours that reflect each season while maintaining overall consistency, rather than forcing one plain colour everywhere.",
+      "source": "worksheet-51274 Q2d (answer key)",
+      "options": [
+        "You should use random colours with no theme at all",
+        "You could use theme colours that reflect each season while maintaining overall consistency",
+        "You should never use any background colour",
+        "You should only ever use black backgrounds"
+      ],
+      "answer": 1,
+      "id": "q180"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Recap: Fill-Ins and True/False",
+      "question": "How many of the five True/False statements in worksheet 51274 were actually True, according to the answer key?",
+      "explanation": "Three of the five statements (a, c, and e) were marked True in the answer key; statements b and d were False and needed correction.",
+      "source": "worksheet-51274 Q2 (answer key)",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "All five"
+      ],
+      "answer": 2,
+      "id": "q181"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Worksheet Recap: Fill-Ins and True/False",
+      "question": "Which of these worksheet True/False statements was marked FALSE and required a correction?",
+      "explanation": "'PowerPoint can only be used to create presentations with text' was marked False — PowerPoint also supports pictures, animations, and other visual elements.",
+      "source": "worksheet-51274 Q2b (answer key)",
+      "options": [
+        "The Two Content layout is useful for comparing things side by side",
+        "PowerPoint can only be used to create presentations with text",
+        "Animations should help make important ideas clearer",
+        "You should practice beforehand to speak confidently to parents"
+      ],
+      "answer": 1,
+      "id": "q182"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Recap: Tick and Crossword",
+      "question": "Worksheet 51277 Q1a: Which part of PowerPoint shows you all the tools for that section?",
+      "explanation": "The correct ticked answer is 'The Ribbon' — it shows all the tools available for whichever menu section is selected.",
+      "source": "worksheet-51277 Q1a (answer key)",
+      "options": [
+        "The Menu Bar",
+        "The Ribbon",
+        "The Slides Pane",
+        "The Work Area"
+      ],
+      "answer": 1,
+      "id": "q183"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Recap: Tick and Crossword",
+      "question": "Worksheet 51277 Q1b: Looking at the labelled PowerPoint interface picture, what is the area marked with an arrow pointing to the left panel?",
+      "explanation": "The correct ticked answer is 'The Slides Pane for viewing slide thumbnails' — the left panel with small slide pictures is the Slides Pane.",
+      "source": "worksheet-51277 Q1b (answer key)",
+      "options": [
+        "The Menu Bar for selecting different options",
+        "The Ribbon for accessing various command tools",
+        "The Work Area for editing slide content",
+        "The Slides Pane for viewing slide thumbnails"
+      ],
+      "answer": 3,
+      "id": "q184"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Recap: Tick and Crossword",
+      "question": "Worksheet 51277 Q1c: Why should you be careful when adding animations to your presentation?",
+      "explanation": "The correct ticked answer is 'Because animations can distract from your main message' — this matches the chapter's repeated warning about overusing animations.",
+      "source": "worksheet-51277 Q1c (answer key)",
+      "options": [
+        "Because animations make presentations load too slowly",
+        "Because animations only work on certain computers",
+        "Because animations can distract from your main message",
+        "Because animations make slides too difficult to read"
+      ],
+      "answer": 2,
+      "id": "q185"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Recap: Tick and Crossword",
+      "question": "Worksheet 51277 Q1d: Looking at a transition preview between slides, how do transitions help your presentation?",
+      "explanation": "The correct ticked answer is 'They create smooth flow between related ideas' — this is the true purpose of slide transitions described throughout the chapter.",
+      "source": "worksheet-51277 Q1d (answer key)",
+      "options": [
+        "They make the presentation file size much smaller",
+        "They create smooth flow between related ideas",
+        "They automatically advance slides without clicking",
+        "They add background music to keep audience interested"
+      ],
+      "answer": 1,
+      "id": "q186"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Recap: Tick and Crossword",
+      "question": "In the chapter's crossword puzzle answer key, which single word answers the clue for the software used to create digital slide presentations?",
+      "explanation": "The crossword's answer key shows POWERPOINT as one of the down answers, referring to the presentation software itself.",
+      "source": "worksheet-51277 crossword (answer key)",
+      "options": [
+        "POWERPOINT",
+        "ANIMATIONS",
+        "THEME",
+        "NOTES"
+      ],
+      "answer": 0,
+      "id": "q187"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Recap: Tick and Crossword",
+      "question": "In the chapter's crossword puzzle answer key, which word answers the clue related to writing reminders to help you remember what to say about each slide?",
+      "explanation": "The crossword's answer key shows NOTES as one of the down answers, matching the Notes Section where you write reminders for your speech.",
+      "source": "worksheet-51277 crossword (answer key)",
+      "options": [
+        "NOTES",
+        "THEME",
+        "RIBBON",
+        "LAYOUT"
+      ],
+      "answer": 0,
+      "id": "q188"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Recap: Tick and Crossword",
+      "question": "In the chapter's crossword puzzle answer key, which term (matching the two-part layout used for comparisons) fills one of the across answers?",
+      "explanation": "The crossword's answer key fills in TWOCONTENT for this across clue, matching the Two Content layout used to compare two ideas side by side.",
+      "source": "worksheet-51277 crossword (answer key)",
+      "options": [
+        "TWO CONTENT",
+        "TITLE SLIDE",
+        "BLANK",
+        "SECTION HEADER"
+      ],
+      "answer": 0,
+      "id": "q189"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Recap: Tick and Crossword",
+      "question": "In the chapter's crossword puzzle answer key, which term fills the across answer related to a cohesive set of colours, fonts, and backgrounds?",
+      "explanation": "The crossword's answer key fills in THEME for this across clue, matching the concept of a cohesive design applied across a whole presentation.",
+      "source": "worksheet-51277 crossword (answer key)",
+      "options": [
+        "THEME",
+        "RIBBON",
+        "PEN TOOL",
+        "OUTLINE"
+      ],
+      "answer": 0,
+      "id": "q190"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Worksheet Recap: Tick and Crossword",
+      "question": "True or False: The crossword puzzle in worksheet 51277 uses clues that relate to slide elements like transitions and themes.",
+      "explanation": "True. The chapter states the crossword's clues relate to slide elements like transitions and themes, reinforcing key PowerPoint vocabulary.",
+      "source": "facts:page19",
+      "answer": true,
+      "id": "q191"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Worksheet Recap: Tick and Crossword",
+      "question": "Select ALL the four multiple-choice questions that appear in worksheet 51277's 'Tick the correct option' section.",
+      "explanation": "Worksheet 51277's tick-the-correct-option section has exactly four questions: about the Ribbon, the Slides Pane, careful use of animations, and how transitions help. Font size was not one of the four questions.",
+      "source": "worksheet-51277 Q1 (answer key)",
+      "options": [
+        "Which part shows all the tools for a section",
+        "What the left-panel arrow points to",
+        "Why you should be careful adding animations",
+        "How transitions help a presentation",
+        "What font size to use for a title slide"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "id": "q192"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Worksheet Recap: Tick and Crossword",
+      "question": "A student ticks 'The Work Area for editing slide content' for the picture showing an arrow pointing to the LEFT panel with small slide thumbnails. Why is this incorrect?",
+      "explanation": "The Work Area is the big central space for editing a slide's content, while the panel on the left showing small slide thumbnails is the Slides Pane — the two are different interface parts.",
+      "source": "worksheet-51277 Q1b (answer key)",
+      "options": [
+        "The Work Area is the central editing space; the left panel with thumbnails is the Slides Pane",
+        "The Work Area and Slides Pane are exactly the same thing",
+        "There is no left panel in PowerPoint",
+        "The correct answer is actually the Ribbon"
+      ],
+      "answer": 0,
+      "id": "q193"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "PowerPoint Basics and Presentations",
+      "question": "A student says a presentation is just 'a bunch of slides with no real purpose.' Using the chapter's ideas, what is the better description?",
+      "explanation": "The chapter frames a presentation as a way to share ideas, often visually, combining images and text to engage an audience — not a random collection of slides.",
+      "source": "facts:page1",
+      "options": [
+        "A presentation is a way to share ideas visually, combining images and text to engage an audience",
+        "A presentation is only ever a spoken speech with no visuals",
+        "A presentation cannot include any images",
+        "A presentation is exactly the same as a printed book"
+      ],
+      "answer": 0,
+      "id": "q194"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "PowerPoint Basics and Presentations",
+      "question": "Which statement best explains why PowerPoint is useful for school projects, based on the chapter?",
+      "explanation": "The chapter shows PowerPoint is used by students for projects because it lets them organize text, pictures, and animations into a clear digital story across slides.",
+      "source": "facts:page2",
+      "options": [
+        "It lets students organize text, pictures, and animations into a clear digital story",
+        "It is the only software that can display text",
+        "It automatically writes the project's content for the student",
+        "It can only be used by teachers, not students"
+      ],
+      "answer": 0,
+      "id": "q195"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "The PowerPoint Interface",
+      "question": "If a student wants to quickly jump from slide 2 to slide 8 while editing, which interface part should they click in?",
+      "explanation": "The Slides Pane shows thumbnails of every slide, so clicking the thumbnail for slide 8 quickly jumps you there while editing.",
+      "source": "facts:page3",
+      "options": [
+        "The Slides Pane",
+        "The Notes Section",
+        "The Ribbon",
+        "The Menu Bar"
+      ],
+      "answer": 0,
+      "id": "q196"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "The PowerPoint Interface",
+      "question": "Which pair correctly matches an interface part to its main job?",
+      "explanation": "The Ribbon shows tools for the selected menu section. The other pairings are mismatched: the Notes Section is for writing notes (not thumbnails), the Slides Pane shows thumbnails (not notes), and the Menu Bar (not the Work Area) lists menu names.",
+      "source": "facts:page2-3",
+      "options": [
+        "Ribbon - shows tools for the selected menu section",
+        "Notes Section - displays slide thumbnails",
+        "Slides Pane - lets you write speaker notes",
+        "Work Area - lists menu names like Home and Insert"
+      ],
+      "answer": 0,
+      "id": "q197"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Slide Layouts",
+      "question": "A presenter needs a slide with only a big section title to mark a new part of the presentation, with no bullet content below. Which layout from the Layout menu fits best?",
+      "explanation": "The Layout menu includes 'Section Header', designed for marking a new section with a large title and little other content, unlike Two Content or Comparison which are built for two content blocks.",
+      "source": "book:page12",
+      "options": [
+        "Section Header",
+        "Two Content",
+        "Comparison",
+        "Content with Caption"
+      ],
+      "answer": 0,
+      "id": "q198"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Slide Layouts",
+      "question": "Why might 'Title Only' be a useful layout choice, based on the names shown in the Layout menu?",
+      "explanation": "'Title Only' gives a title placeholder while leaving the rest of the slide open for custom content, sitting between the fully-open Blank layout and more structured layouts like Title and Content.",
+      "source": "book:page12",
+      "options": [
+        "It provides just a title placeholder, letting you design the rest of the slide freely, similar to Blank but with a title",
+        "It is identical to the Blank layout in every way",
+        "It automatically fills the slide with pictures",
+        "It can only be used as the very first slide"
+      ],
+      "answer": 0,
+      "id": "q199"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Formatting Text and Pictures",
+      "question": "Why does the chapter suggest using the Home tab specifically for formatting text?",
+      "explanation": "The chapter states you can format text using the Home tab for emphasis, since it contains common text tools like font size, style, and paragraph formatting.",
+      "source": "facts:page5",
+      "options": [
+        "Because the Home tab contains common text-formatting tools like font and emphasis options",
+        "Because the Home tab can only add pictures",
+        "Because the Home tab is only used to close PowerPoint",
+        "Because the Home tab changes the background theme only"
+      ],
+      "answer": 0,
+      "id": "q200"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Formatting Text and Pictures",
+      "question": "A slide has a large picture covering the middle of the text, making key sentences unreadable. Which two chapter guidelines were both broken?",
+      "explanation": "The chapter says pictures should be positioned to complement rather than overshadow text, and that a balanced slide layout guides the viewer's eye — both are broken when a picture blocks key text.",
+      "source": "facts:page9",
+      "options": [
+        "Positioning pictures so they complement, not overshadow, text; and designing so a balanced layout guides the viewer's eye",
+        "Choosing a Two Content layout and adding a transition",
+        "Using the Notes Section and adding slide numbers",
+        "Applying a theme and choosing a font"
+      ],
+      "answer": 0,
+      "id": "q201"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Themes and Backgrounds",
+      "question": "A presentation is meant for young children and should feel playful. According to the chapter's guidance on audience, which kind of theme fits best?",
+      "explanation": "The chapter notes that bright, fun themes work well for presentations to other students (a similar-aged audience), matching the idea of considering your audience when choosing a theme.",
+      "source": "book:page18",
+      "options": [
+        "A bright, fun theme",
+        "A dark, formal theme with small text",
+        "A theme with no colours at all",
+        "A theme designed only for professional business meetings"
+      ],
+      "answer": 0,
+      "id": "q202"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Themes and Backgrounds",
+      "question": "A student picks a very dark background with dark grey text for a presentation meant to be read from the back of a classroom. What theme-choosing guideline does this violate?",
+      "explanation": "The chapter lists readability as one of the three things to consider when choosing a theme — text must be easy to read against the background, which dark-on-dark text fails to achieve.",
+      "source": "book:page18",
+      "options": [
+        "Readability - text should be easy to read against the background",
+        "Your topic - the theme should always match greens and browns",
+        "Your audience - themes must always be neon",
+        "There is no guideline about backgrounds and text colour"
+      ],
+      "answer": 0,
+      "id": "q203"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Themes and Backgrounds",
+      "question": "True or False: A gradient background is described in the chapter as colours that blend into each other, similar to a sunset.",
+      "explanation": "True. The chapter explicitly compares a gradient background to colours blending like a sunset.",
+      "source": "book:page18",
+      "answer": true,
+      "id": "q204"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Slide Transitions",
+      "question": "A presenter wants their slides to feel calm and gentle as they change, matching a quiet story. Which transition type fits best, based on the chapter's descriptions?",
+      "explanation": "The Fade transition creates a smooth, gentle change from one slide to the next, and is even used in movies to show that time has quietly passed - fitting a calm, quiet story.",
+      "source": "facts:page12; page17",
+      "options": [
+        "Fade",
+        "Push",
+        "A very fast flashing transition",
+        "No transition should ever be gentle"
+      ],
+      "answer": 0,
+      "id": "q205"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Slide Transitions",
+      "question": "A presenter wants an exciting, dynamic feeling for an action-packed topic. Based on the movie Fun Fact, which transition would suit this best?",
+      "explanation": "The Fun Fact explains that Push transitions create excitement during action scenes in movies, making it the better fit for an action-packed, dynamic topic compared to the gentler Fade.",
+      "source": "facts:page17",
+      "options": [
+        "Push",
+        "Fade",
+        "Notes",
+        "Ribbon"
+      ],
+      "answer": 0,
+      "id": "q206"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Slide Transitions",
+      "question": "True or False: The types of slide transitions in PowerPoint include simple, fun, and advanced options.",
+      "explanation": "True. The chapter explicitly states that types of transitions include simple, fun, and advanced options.",
+      "source": "facts:page12",
+      "answer": true,
+      "id": "q207"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Animations",
+      "question": "A student wants text to slowly and magically fade into view on a calm, quiet slide. Which animation best matches this description?",
+      "explanation": "Fade In is described as making things slowly appear like magic, which suits a calm, gentle entrance rather than the more energetic Fly In or the emphasis animation Pulse.",
+      "source": "book:page23",
+      "options": [
+        "Fade In",
+        "Fly In",
+        "Pulse",
+        "Fly Out"
+      ],
+      "answer": 0,
+      "id": "q208"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Animations",
+      "question": "A student wants to make an important number on their slide appear to 'beat' by growing and shrinking, without it entering or leaving the slide. Which animation category and example fits?",
+      "explanation": "Pulse is an emphasis animation that makes objects grow and shrink to grab attention while the object stays on the slide - unlike entrance (appearing) or exit (disappearing) animations.",
+      "source": "book:page24",
+      "options": [
+        "Emphasis - Pulse",
+        "Entrance - Fly In",
+        "Exit - Fade Out",
+        "Emphasis - Fade In"
+      ],
+      "answer": 0,
+      "id": "q209"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Animations",
+      "question": "Why does the chapter suggest clicking Preview before finalising an animation choice?",
+      "explanation": "The chapter explains that clicking Preview lets you see how your animation will look before you decide to keep it, helping you judge if it fits your message.",
+      "source": "book:page24",
+      "options": [
+        "To see how the animation will look before deciding to keep it",
+        "To permanently delete the animation",
+        "To automatically apply the animation to every slide",
+        "To change the slide's layout"
+      ],
+      "answer": 0,
+      "id": "q210"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Animations",
+      "question": "Select ALL of the animation names that are described in the chapter as EMPHASIS animations.",
+      "explanation": "Pulse (grow and shrink) and Spin (turn around) are the emphasis animations described in the chapter. Fly In is an entrance animation and Fade Out is an exit animation.",
+      "source": "book:page24",
+      "options": [
+        "Pulse",
+        "Spin",
+        "Fly In",
+        "Fade Out"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "id": "q211"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Planning and Organizing a Presentation",
+      "question": "A presentation about 'How Volcanoes Form' is best organized using which approach from the chapter?",
+      "explanation": "Since volcano formation happens as a sequence of events, organizing slides by time order (what happens first, second, third) fits the chapter's guidance for logical organization.",
+      "source": "facts:page22",
+      "options": [
+        "Time order, explaining the steps as they happen in sequence",
+        "Completely random slide order",
+        "Alphabetical order of the words used",
+        "By file size of each picture"
+      ],
+      "answer": 0,
+      "id": "q212"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Planning and Organizing a Presentation",
+      "question": "Two students organize the same set of facts differently: one uses a clear outline with logical order, the other pastes facts in random order with no connecting words. According to the chapter, which presentation will likely communicate better, and why?",
+      "explanation": "The chapter states that well-planned presentations communicate ideas more effectively, and that slides should connect smoothly and be arranged logically - a randomly ordered presentation would not achieve this.",
+      "source": "facts:page7; page14",
+      "options": [
+        "The outlined one, because well-planned, logically ordered presentations communicate ideas more effectively",
+        "The random one, because randomness keeps the audience guessing",
+        "Both are equally effective regardless of order",
+        "Neither will communicate well no matter the order"
+      ],
+      "answer": 0,
+      "id": "q213"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Slide Sorter and Sequencing",
+      "question": "If you are rearranging 20 slides and want an overview of the entire presentation at once rather than editing one slide at a time, which view should you switch to?",
+      "explanation": "The Slide Sorter view lets you see all your slides at once, which is ideal for getting an overview and reordering a large number of slides quickly.",
+      "source": "facts:page15; page24",
+      "options": [
+        "Slide Sorter view",
+        "Notes Section",
+        "Insert tab",
+        "Design tab"
+      ],
+      "answer": 0,
+      "id": "q214"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Slide Sorter and Sequencing",
+      "question": "In the Outline Builder activity's 'My School Day' topic, why does 'Getting ready in the morning' logically have to come before 'Travelling to school'?",
+      "explanation": "Logically, a person gets ready at home first, and only afterward travels to school - matching real everyday sequence, which is what the Outline Builder activity is designed to practice.",
+      "source": "book:page27 Activity 3",
+      "options": [
+        "Because you must get ready before leaving the house to travel anywhere",
+        "Because the alphabet places 'Getting' before 'Travelling'",
+        "There is no logical reason; the order does not matter",
+        "Because travelling always happens before waking up"
+      ],
+      "answer": 0,
+      "id": "q215"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Delivering a Presentation",
+      "question": "Why does the chapter recommend rehearsing your presentation 'like a play' rather than just reading the slides once silently?",
+      "explanation": "The chapter compares practicing a presentation to rehearsing a play specifically because it builds smooth delivery and confidence, which silent reading alone does not achieve.",
+      "source": "facts:page16; page28",
+      "options": [
+        "Because rehearsing aloud builds smooth delivery and confidence for the real audience",
+        "Because reading silently is always better than practicing aloud",
+        "Because plays and presentations have nothing in common",
+        "Because rehearsal removes the need for slide numbers"
+      ],
+      "answer": 0,
+      "id": "q216"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Delivering a Presentation",
+      "question": "A presenter uses the pen tool constantly to draw distracting doodles unrelated to their content throughout the whole talk. What is the actual intended use of the pen tool, per the chapter?",
+      "explanation": "The chapter's real-life application for the pen tool is highlighting important points by circling them as you speak - not making unrelated, distracting doodles.",
+      "source": "facts:page17",
+      "options": [
+        "To highlight or annotate important points as you speak, not to doodle randomly",
+        "To permanently redraw every slide's layout",
+        "To replace the need for slides entirely",
+        "To automatically generate new animations"
+      ],
+      "answer": 0,
+      "id": "q217"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Delivering a Presentation",
+      "question": "True or False: Slide numbers, once added, appear in the same footer location on each slide for easy reference.",
+      "explanation": "True. The chapter explains that slide numbers appear in the footer of each slide, giving a consistent, easy-to-find reference point throughout the presentation.",
+      "source": "facts:page18",
+      "answer": true,
+      "id": "q218"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Recap: Fill-Ins and True/False",
+      "question": "Which worksheet 51274 fill-in-the-blank answer refers to effects that make things move on slides?",
+      "explanation": "The blank for '___ are effects that make things move on your slides' is correctly filled with 'animations'.",
+      "source": "worksheet-51274 Q1b (answer key)",
+      "options": [
+        "animations",
+        "Menu",
+        "Title Slide",
+        "simple"
+      ],
+      "answer": 0,
+      "id": "q219"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Worksheet Recap: Fill-Ins and True/False",
+      "question": "If you mixed up the worksheet's word box and filled blank (c) with 'simple' instead of 'Title Slide', what would the sentence incorrectly say?",
+      "explanation": "Swapping in 'simple' would create 'The simple layout is perfect for your first slide,' but there is no PowerPoint layout named 'Simple' - the correct word from the box is 'Title Slide', a real layout name.",
+      "source": "worksheet-51274 Q1c (answer key)",
+      "options": [
+        "'The simple layout is perfect for your first slide' - which does not match any real PowerPoint layout name",
+        "It would still be correct because 'simple' also works",
+        "It would automatically become a True statement",
+        "The sentence would not change meaning at all"
+      ],
+      "answer": 0,
+      "id": "q220"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Worksheet Recap: Tick and Crossword",
+      "question": "Worksheet 51277's crossword reinforces vocabulary using clues about slide elements. Why is this activity paired with the tick-the-correct-option questions in the same worksheet?",
+      "explanation": "Both the crossword and the tick-the-correct-option section reinforce the same PowerPoint vocabulary (like the Ribbon, Slides Pane, animations, and transitions) using different question formats within one worksheet.",
+      "source": "worksheet-51277 (full worksheet)",
+      "options": [
+        "Both activities reinforce the same core PowerPoint vocabulary and concepts through different question formats",
+        "The crossword and tick questions test completely unrelated subjects",
+        "The crossword replaces the need to learn any PowerPoint terms",
+        "Tick questions are unrelated to vocabulary at all"
+      ],
+      "answer": 0,
+      "id": "q221"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Worksheet Recap: Tick and Crossword",
+      "question": "True or False: According to worksheet 51277, ticking 'The Ribbon' answers the question about which part shows tools for a specific section, while ticking 'The Slides Pane' would be the wrong answer for that same question.",
+      "explanation": "True. The Ribbon is the correct answer for 'which part shows the tools for that section' - the Slides Pane instead shows slide thumbnails, so it would be an incorrect answer here.",
+      "source": "worksheet-51277 Q1a (answer key)",
+      "answer": true,
+      "id": "q222"
+    }
+  ]
+}

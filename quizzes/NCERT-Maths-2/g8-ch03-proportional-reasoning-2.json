@@ -1,0 +1,2165 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-maths-2-g8-ch03-proportional-reasoning-2",
+  "title": "Proportional Reasoning–2",
+  "subject": "Maths-2",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Maths-2/ch03",
+  "chapter": "3. Proportional Reasoning–2",
+  "topic": "Full Chapter",
+  "description": "Proportional reasoning taken further: cross-multiplication checks, map scales (RF), ratios with many terms, dividing a whole in a ratio, triangle angles and pie charts, and direct versus inverse proportion with speed–time, work–time and 'working together' problems.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "maths",
+    "ratio",
+    "proportion",
+    "inverse-proportion",
+    "pie-chart",
+    "map-scale",
+    "work-and-time"
+  ],
+  "questions": [
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Proportional Ratios Recap",
+      "question": "Two ratios a : b and c : d are proportional exactly when which equation holds?",
+      "options": [
+        "a × d = b × c",
+        "a × b = c × d",
+        "a + d = b + c",
+        "a × c = b × d"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states that a : b and c : d are proportional if a × d = b × c (equivalently a/c = b/d). This is the cross-multiplication rule; multiplying the two terms of the same ratio (a × b) tells you nothing about the other ratio.",
+      "source": "text:page1",
+      "id": "q1"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Proportional Ratios Recap",
+      "question": "Viswanath mixes 6 cups rice with 3 cups urad dal; Puneet mixes 4 cups rice with 2 cups dal. What are the two cross-products?",
+      "options": [
+        "9 and 16",
+        "12 and 12",
+        "18 and 8",
+        "24 and 6"
+      ],
+      "answer": 1,
+      "explanation": "Cross-multiplying 6 : 3 and 4 : 2 gives 6 × 2 = 12 and 3 × 4 = 12. Equal products mean the ratios are proportional. 18 and 8 come from multiplying within each ratio (6 × 3, 4 × 2), which is not the test.",
+      "source": "text:page1",
+      "id": "q2"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Proportional Ratios Recap",
+      "question": "The idli batter ratio 2 : 1 in the chapter means 2 cups of urad dal for every 1 cup of rice.",
+      "answer": false,
+      "explanation": "False. The chapter says for 2 cups of rice we add 1 cup of urad dal, so 2 : 1 is rice : urad dal. Swapping the order of the terms changes the meaning of a ratio.",
+      "source": "text:page1",
+      "id": "q3"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Proportional Ratios Recap",
+      "question": "Which of these ratios is NOT proportional to 2 : 1?",
+      "options": [
+        "4 : 2",
+        "10 : 5",
+        "8 : 6",
+        "6 : 3"
+      ],
+      "answer": 2,
+      "explanation": "Check cross-products with 2 : 1. For 8 : 6, 2 × 6 = 12 but 1 × 8 = 8, so it is not proportional (8 : 6 simplifies to 4 : 3). The others give equal cross-products: 6 : 3, 4 : 2 and 10 : 5 all simplify to 2 : 1.",
+      "source": "text:page1",
+      "id": "q4"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Proportional Ratios Recap",
+      "question": "If 9 : x is proportional to 6 : 4, what is x?",
+      "options": [
+        "7",
+        "4",
+        "8",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Cross-multiply: 9 × 4 = 6 × x, so x = 36 ÷ 6 = 6. Check: 9 : 6 simplifies to 3 : 2, and so does 6 : 4. Adding 3 (6 → 9, 4 → 7) is the common slip — ratios scale by multiplying, not adding.",
+      "source": "text:page1",
+      "id": "q5"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Proportional Ratios Recap",
+      "question": "Two or more related quantities are in a proportional relationship when they all change by the same factor.",
+      "answer": true,
+      "explanation": "True. This is the chapter's definition: when related quantities change by the same factor, the relationship is proportional, and the ratio between them stays the same.",
+      "source": "text:page1",
+      "id": "q6"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Proportional Ratios Recap",
+      "question": "The chapter says Viswanath's and Puneet's idlis would 'likely' taste the same. What extra condition does it attach?",
+      "options": [
+        "All the other ingredients are also in proportion",
+        "Both of them use exactly 6 cups of rice in total",
+        "The batter is ground for the same number of minutes",
+        "Puneet doubles his urad dal to match Viswanath"
+      ],
+      "answer": 0,
+      "explanation": "The text adds 'if all the other ingredients are proportional too!' — rice and dal being in the same ratio is necessary, but every other ingredient must also scale by the same factor. Puneet should not double his dal; his 4 : 2 already matches 6 : 3.",
+      "source": "text:page1",
+      "id": "q7"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Proportional Ratios Recap",
+      "question": "Which statement about the ratios 6 : 3 and 4 : 2 is NOT correct?",
+      "options": [
+        "6 ÷ 3 is equal to 4 ÷ 2",
+        "6 × 4 is equal to 3 × 2",
+        "6 × 2 is equal to 3 × 4",
+        "Both simplify to 2 : 1"
+      ],
+      "answer": 1,
+      "explanation": "6 × 4 = 24 and 3 × 2 = 6 — these are not equal, so that statement is false. Proportional ratios have equal CROSS products (6 × 2 = 3 × 4 = 12), equal quotients (6 ÷ 3 = 4 ÷ 2 = 2) and the same simplest form 2 : 1.",
+      "source": "text:page1",
+      "id": "q8"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Proportional Ratios Recap",
+      "question": "Select every ratio that is proportional to 3 : 5.",
+      "options": [
+        "6 : 10",
+        "9 : 15",
+        "5 : 3",
+        "8 : 10",
+        "12 : 15"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "6 : 10 and 9 : 15 are 3 : 5 multiplied by 2 and by 3, so their cross-products with 3 : 5 match (3 × 10 = 5 × 6; 3 × 15 = 5 × 9). 5 : 3 is the reverse order, 8 : 10 is 4 : 5, and 12 : 15 is 4 : 5 (adding 9 and 10 to the terms is not scaling).",
+      "source": "text:page1",
+      "id": "q9"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Ratios in Maps",
+      "question": "On a map, what does 'RF' stand for?",
+      "options": [
+        "Reduced Map Fraction",
+        "Reference Scale Figure",
+        "Representative Fraction",
+        "Relative Measurement"
+      ],
+      "answer": 2,
+      "explanation": "A Representative Fraction (RF) is the ratio between a distance on the map and the corresponding actual distance on the ground, e.g. 1 : 60,00,000.",
+      "source": "text:page2",
+      "id": "q10"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Ratios in Maps",
+      "question": "A map shows RF 1 : 60,00,000. What does 1 cm on the map represent?",
+      "options": [
+        "60,00,000 m on the ground",
+        "60,00,000 km on the ground",
+        "6,000 cm on the ground",
+        "60,00,000 cm on the ground"
+      ],
+      "answer": 3,
+      "explanation": "The RF compares like units: 1 cm on the map corresponds to 60,00,000 cm of geographical distance. Converting, that is 60,000 m or 60 km — not 60,00,000 m or km.",
+      "source": "text:page2",
+      "id": "q11"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Ratios in Maps",
+      "question": "Convert 60,00,000 cm to kilometres.",
+      "options": [
+        "60 km",
+        "600 km",
+        "6 km",
+        "6,000 km"
+      ],
+      "answer": 0,
+      "explanation": "60,00,000 cm ÷ 100 = 60,000 m, and 60,000 m ÷ 1,000 = 60 km. Dividing by 1,000 only (to get 6,000) or by 10,000 (600) are the common slips; cm → km needs a total division by 1,00,000.",
+      "source": "text:page2",
+      "id": "q12"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Ratios in Maps",
+      "question": "The RF on a map lets you find the road distance between two cities.",
+      "answer": false,
+      "explanation": "False. The chapter stresses that the distance found from the RF is the geographical (straight-line) distance, 'not road distance'. Roads bend, so the road distance is usually longer.",
+      "source": "text:page2",
+      "id": "q13"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Ratios in Maps",
+      "question": "On a map with RF 1 : 60,00,000, two cities are 4.5 cm apart. What is their geographical distance?",
+      "options": [
+        "135 km",
+        "270 km",
+        "27 km",
+        "2,700 km"
+      ],
+      "answer": 1,
+      "explanation": "1 cm = 60 km, so 4.5 cm = 4.5 × 60 = 270 km. 135 km would be the answer for 2.25 cm (halving by mistake); 27 km and 2,700 km come from misplacing the decimal in the cm → km conversion.",
+      "source": "text:page2",
+      "id": "q14"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Ratios in Maps",
+      "question": "You measure the Bengaluru–Chennai distance on several maps that have different scales. What should you expect?",
+      "options": [
+        "A smaller distance from the physically smaller map",
+        "Distances so different they cannot be compared at all",
+        "Roughly the same geographical distance from all maps",
+        "A larger distance from the map with the larger ratio"
+      ],
+      "answer": 2,
+      "explanation": "The real distance between the cities does not depend on the map. A bigger map has a longer drawn distance but a correspondingly smaller RF, so after applying each map's own ratio all maps give approximately the same geographical distance.",
+      "source": "text:page3",
+      "id": "q15"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Ratios in Maps",
+      "question": "A classroom sketch is drawn to a scale of 1 : 50. How long should a blackboard that is 3 m wide be drawn?",
+      "options": [
+        "60 cm",
+        "1.5 cm",
+        "15 cm",
+        "6 cm"
+      ],
+      "answer": 3,
+      "explanation": "3 m = 300 cm, and 300 ÷ 50 = 6 cm on the sketch. 60 cm forgets to convert properly (300 ÷ 5), 1.5 cm uses 1 : 200, and 15 cm uses 1 : 20.",
+      "source": "text:page3",
+      "id": "q16"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Ratios in Maps",
+      "question": "A map has RF 1 : 25,00,000. What real distance does 1 cm on this map stand for?",
+      "options": [
+        "25 km",
+        "250 km",
+        "2.5 km",
+        "2,500 km"
+      ],
+      "answer": 0,
+      "explanation": "25,00,000 cm ÷ 1,00,000 = 25 km. Same method as the chapter's 1 : 60,00,000 → 60 km example: drop five zeros to go from centimetres to kilometres.",
+      "source": "text:page2",
+      "id": "q17"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Ratios in Maps",
+      "question": "In a classroom sketch drawn at 1 : 50, a desk 100 cm long is drawn 2 cm long.",
+      "answer": true,
+      "explanation": "True. At 1 : 50 every real length is divided by 50, so 100 cm ÷ 50 = 2 cm on the sketch.",
+      "source": "text:page3",
+      "id": "q18"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Ratios in Maps",
+      "question": "Which statement about a map with RF 1 : 60,00,000 is NOT correct?",
+      "options": [
+        "The ratio is usually printed in a corner of the map",
+        "1 cm on the map is 60,00,000 km on the ground",
+        "1 cm on the map is 60 km of geographical distance",
+        "The distance it gives is not the road distance"
+      ],
+      "answer": 1,
+      "explanation": "60,00,000 is in centimetres, not kilometres — 1 cm stands for 60,00,000 cm = 60 km. The other three statements are exactly what the chapter says about the RF.",
+      "source": "text:page2",
+      "id": "q19"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Ratios in Maps",
+      "question": "A map has RF 1 : 25,00,000. Select every correct statement.",
+      "options": [
+        "1 cm on the map stands for 25 km",
+        "2 cm on the map stand for 50 km",
+        "1 cm on the map stands for 250 km",
+        "4 cm on the map stand for 1,000 km"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "25,00,000 cm = 25 km, so 1 cm → 25 km and 2 cm → 50 km. 250 km misplaces the decimal, and 4 cm would be 100 km, not 1,000 km.",
+      "source": "text:page2",
+      "id": "q20"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Multi-term Ratios",
+      "question": "Viswanath grinds 8 spoons coriander, 4 red chillies, 2 spoons toor dal and 1 spoon fenugreek. What is the ratio coriander : chilli : toor dal : fenugreek?",
+      "options": [
+        "4 : 8 : 2 : 1",
+        "8 : 2 : 4 : 1",
+        "8 : 4 : 2 : 1",
+        "8 : 4 : 1 : 2"
+      ],
+      "answer": 2,
+      "explanation": "The terms must follow the order named: coriander 8, chillies 4, toor dal 2, fenugreek 1, giving 8 : 4 : 2 : 1. Changing the order of terms changes which ingredient each number refers to.",
+      "source": "text:page3",
+      "id": "q21"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Multi-term Ratios",
+      "question": "Puneet has only 2 red chillies but wants the same taste. Which ratio should he use?",
+      "options": [
+        "4 : 2 : 1 : 1.0",
+        "16 : 8 : 4 : 2.0",
+        "2 : 1 : 0.5 : 0.2",
+        "4 : 2 : 1 : 0.5"
+      ],
+      "answer": 3,
+      "explanation": "2 chillies is half of Viswanath's 4, so every ingredient is halved: 4 coriander, 2 chillies, 1 toor dal, 0.5 fenugreek → 4 : 2 : 1 : 0.5. Rounding 0.5 up to 1 breaks the proportion; 16 : 8 : 4 : 2 would need 8 chillies, and 2 : 1 : 0.5 : 0.2 gets the fenugreek wrong (it should be 0.25 for 1 chilli).",
+      "source": "text:page3",
+      "id": "q22"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Multi-term Ratios",
+      "question": "8 : 4 : 2 : 1 :: 4 : 2 : 1 : 0.5 is a correct statement of proportion.",
+      "answer": true,
+      "explanation": "True. Every term of the second ratio is exactly half of the corresponding term of the first (8/4 = 4/2 = 2/1 = 1/0.5 = 2), which is what the '::' notation claims.",
+      "source": "text:page4",
+      "id": "q23"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Multi-term Ratios",
+      "question": "Purple paint needs Red : Blue : White :: 2 : 3 : 5. Yasmin has 10 litres of white. How much red and blue should she add?",
+      "options": [
+        "4 L red and 6 L blue",
+        "2 L red and 3 L blue",
+        "6 L red and 4 L blue",
+        "5 L red and 7.5 L blue"
+      ],
+      "answer": 0,
+      "explanation": "White is 5 parts = 10 L, so 1 part = 2 L. Red = 2 × 2 = 4 L and blue = 3 × 2 = 6 L. Using 1 part = 1 L gives 2 and 3 (forgets to scale), and swapping red and blue gives 6 and 4.",
+      "source": "text:page4",
+      "id": "q24"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Multi-term Ratios",
+      "question": "What is the total volume of Yasmin's purple paint (10 L white plus the matching red and blue)?",
+      "options": [
+        "25 litres",
+        "20 litres",
+        "15 litres",
+        "10 litres"
+      ],
+      "answer": 1,
+      "explanation": "Red 4 L + blue 6 L + white 10 L = 20 L. Equivalently, 10 parts × 2 L per part = 20 L.",
+      "source": "text:page4",
+      "id": "q25"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Multi-term Ratios",
+      "question": "Concrete for pillars uses cement : sand : gravel :: 1 : 1.5 : 3. With 3 bags of cement, how many bags of concrete mixture can be made?",
+      "options": [
+        "5.5 bags",
+        "19.5 bags",
+        "16.5 bags",
+        "13.5 bags"
+      ],
+      "answer": 2,
+      "explanation": "Multiply each term by 3: 3 cement, 4.5 sand, 9 gravel. Total = 3 + 4.5 + 9 = 16.5 bags. 5.5 is the total for 1 bag of cement; 13.5 forgets to add the cement itself.",
+      "source": "text:page4",
+      "id": "q26"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Multi-term Ratios",
+      "question": "In the 1 : 1.5 : 3 concrete mix, 3 bags of cement need how much sand and gravel?",
+      "options": [
+        "3 sand, 9 gravel",
+        "4.5 sand, 6 gravel",
+        "1.5 sand, 3 gravel",
+        "4.5 sand, 9 gravel"
+      ],
+      "answer": 3,
+      "explanation": "Each term is multiplied by 3: sand 1.5 × 3 = 4.5 bags and gravel 3 × 3 = 9 bags. 1.5 and 3 are the amounts for just 1 bag of cement.",
+      "source": "text:page4",
+      "id": "q27"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Multi-term Ratios",
+      "question": "If a : b : c : d :: p : q : r : s, which relationship must hold?",
+      "options": [
+        "a/p = b/q = c/r = d/s",
+        "a/b = p/q, but c/r ≠ d/s",
+        "a/s = b/r = c/q = d/p",
+        "a + b + c + d = p + q + r + s"
+      ],
+      "answer": 0,
+      "explanation": "Proportional multi-term ratios mean every corresponding pair has the same quotient: a/p = b/q = c/r = d/s. The pairing must be term-by-term in order (not reversed), and the totals need not be equal — 8 : 4 : 2 : 1 totals 15 while 4 : 2 : 1 : 0.5 totals 7.5.",
+      "source": "text:page4",
+      "id": "q28"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Multi-term Ratios",
+      "question": "Which spice mixes would taste the same as Viswanath's 8 : 4 : 2 : 1 powder? Select all that apply.",
+      "options": [
+        "16 : 8 : 4 : 2",
+        "2 : 1 : 0.5 : 0.25",
+        "8 : 4 : 2 : 2",
+        "4 : 2 : 2 : 1",
+        "6 : 3 : 1.5 : 1"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "16 : 8 : 4 : 2 doubles every term and 2 : 1 : 0.5 : 0.25 quarters every term, so both are proportional. 8 : 4 : 2 : 2 doubles only the fenugreek, 4 : 2 : 2 : 1 keeps toor dal at 2 instead of 1, and 6 : 3 : 1.5 : 1 scales by 3/4 except the fenugreek.",
+      "source": "text:page3",
+      "id": "q29"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Multi-term Ratios",
+      "question": "The 1 : 1.5 : 3 concrete ratio is used for pillars, beams and roofs because those structures need greater strength.",
+      "answer": true,
+      "explanation": "True. The chapter says the ratio of components varies with the strength needed; for structures like pillars, beams and roofs the mix is 1 : 1.5 : 3, reinforced with steel rods.",
+      "source": "text:page4",
+      "id": "q30"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Multi-term Ratios",
+      "question": "Using the 1 : 1.5 : 3 mix, how many bags of gravel go with 6 bags of cement?",
+      "options": [
+        "27 bags",
+        "18 bags",
+        "9 bags",
+        "12 bags"
+      ],
+      "answer": 1,
+      "explanation": "Gravel is 3 parts for every 1 part cement, so 6 × 3 = 18 bags. 9 bags is the sand amount (6 × 1.5), and 12 would be the gravel for 4 bags of cement.",
+      "source": "text:page4",
+      "id": "q31"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Multi-term Ratios",
+      "question": "Why can a ratio have four (or more) terms and still describe one proportional relationship?",
+      "options": [
+        "Because only the first two terms need to keep in step",
+        "Because the terms always add up to the same total",
+        "Because every quantity changes by the same factor",
+        "Because every quantity changes by the same amount"
+      ],
+      "answer": 2,
+      "explanation": "The chapter: 'Ratios can have many terms if each of the quantities change by the same factor.' Adding the same amount (e.g. +1 to each) would destroy the proportion, and ALL terms — not just two — must scale together.",
+      "source": "text:page3",
+      "id": "q32"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Dividing a Whole in a Ratio",
+      "question": "What is 12 divided in the ratio 2 : 1?",
+      "options": [
+        "6 : 6",
+        "9 : 3",
+        "10 : 2",
+        "8 : 4"
+      ],
+      "answer": 3,
+      "explanation": "Add the terms (2 + 1 = 3), divide 12 by 3 to get 4, then multiply: 2 × 4 = 8 and 1 × 4 = 4. The parts 8 and 4 add to 12 and are in the ratio 2 : 1. 9 : 3 is the ratio 3 : 1, and 10 : 2 is 5 : 1.",
+      "source": "text:page4",
+      "id": "q33"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Dividing a Whole in a Ratio",
+      "question": "When a quantity x is divided in the ratio a : b : c, what is the first part?",
+      "options": [
+        "x × a ÷ (a + b + c)",
+        "x × (a + b + c) ÷ a",
+        "x ÷ a × (a + b + c)",
+        "x × a ÷ (b + c)"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's formula: the first part is x × a/(a + b + c), the second is x × b/(a + b + c), and so on. The divisor is the sum of ALL terms, including a itself.",
+      "source": "text:page5",
+      "id": "q34"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Dividing a Whole in a Ratio",
+      "question": "110 units of concrete are needed in the ratio 1 : 1.5 : 3. How many units of cement, sand and gravel are required?",
+      "options": [
+        "20, 35, 55",
+        "20, 30, 60",
+        "22, 33, 55",
+        "10, 15, 30"
+      ],
+      "answer": 1,
+      "explanation": "The terms add to 5.5 and 110 ÷ 5.5 = 20, so multiply each term by 20: cement 20, sand 30, gravel 60 (total 110). 22 : 33 : 55 adds to 110 but is the ratio 2 : 3 : 5, not 1 : 1.5 : 3; 10 : 15 : 30 adds to only 55.",
+      "source": "text:page5",
+      "id": "q35"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Dividing a Whole in a Ratio",
+      "question": "In the 110-unit concrete example, why is every term multiplied by 20?",
+      "options": [
+        "Because 1 + 1.5 + 3 rounds up to 20",
+        "Because 20 bags of mix make 1 unit",
+        "Because 110 ÷ (1 + 1.5 + 3) = 20",
+        "Because 110 ÷ 3 is roughly 20"
+      ],
+      "answer": 2,
+      "explanation": "One 'round' of the recipe (1 + 1.5 + 3 = 5.5 units) must be repeated 110 ÷ 5.5 = 20 times to make 110 units, so each term is scaled by 20.",
+      "source": "text:page5",
+      "id": "q36"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Dividing a Whole in a Ratio",
+      "question": "You need 50 ml of purple paint in the ratio red : blue : white :: 2 : 3 : 5. How much of each do you mix?",
+      "options": [
+        "5, 10, 35 ml",
+        "10, 20, 20 ml",
+        "12, 13, 25 ml",
+        "10, 15, 25 ml"
+      ],
+      "answer": 3,
+      "explanation": "Each part is 50 ÷ 10 = 5 ml, so red = 2 × 5 = 10 ml, blue = 3 × 5 = 15 ml, white = 5 × 5 = 25 ml. The other sets add to 50 but are not in the ratio 2 : 3 : 5.",
+      "source": "text:page5",
+      "id": "q37"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Dividing a Whole in a Ratio",
+      "question": "A 150-minute cricket practice is split warm-up/cool-down : batting : bowling : fielding :: 3 : 4 : 3 : 5. How long is fielding?",
+      "options": [
+        "50 minutes",
+        "40 minutes",
+        "30 minutes",
+        "45 minutes"
+      ],
+      "answer": 0,
+      "explanation": "The terms add to 15, so 1 part = 150 ÷ 15 = 10 minutes. Fielding is 5 parts = 50 minutes. Batting is 40 minutes and warm-up/cool-down and bowling are 30 minutes each.",
+      "source": "exercise:Q1",
+      "id": "q38"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Dividing a Whole in a Ratio",
+      "question": "Dividing the 150-minute practice in the ratio 3 : 4 : 3 : 5 — select every correct statement.",
+      "options": [
+        "One part of the ratio equals 10 minutes",
+        "Fielding gets 50 minutes",
+        "Batting gets 60 minutes",
+        "Warm-up/cool-down gets 20 minutes"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "150 ÷ (3 + 4 + 3 + 5) = 10 minutes per part. Fielding = 5 × 10 = 50 minutes. Batting is 4 parts = 40 (not 60) and warm-up/cool-down is 3 parts = 30 (not 20).",
+      "source": "exercise:Q1",
+      "id": "q39"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Dividing a Whole in a Ratio",
+      "question": "A library has Odiya : Hindi : English books :: 3 : 2 : 1. If there are 288 Odiya books, how many Hindi and English books are there?",
+      "options": [
+        "288 Hindi, 144 English",
+        "192 Hindi, 96 English",
+        "96 Hindi, 192 English",
+        "144 Hindi, 72 English"
+      ],
+      "answer": 1,
+      "explanation": "3 parts = 288, so 1 part = 96. Hindi = 2 × 96 = 192 and English = 1 × 96 = 96. Swapping gives 96 Hindi; using 1 part = 72 (288 ÷ 4) gives 144 and 72.",
+      "source": "exercise:Q2",
+      "id": "q40"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Dividing a Whole in a Ratio",
+      "question": "With 288 Odiya books in the ratio Odiya : Hindi : English :: 3 : 2 : 1, how many books does the library have in all?",
+      "options": [
+        "864",
+        "384",
+        "576",
+        "480"
+      ],
+      "answer": 2,
+      "explanation": "1 part = 288 ÷ 3 = 96 and the total is 3 + 2 + 1 = 6 parts = 6 × 96 = 576. Alternatively 288 + 192 + 96 = 576. 864 would be 3 × 288 (treating 288 as one part).",
+      "source": "exercise:Q2",
+      "id": "q41"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Dividing a Whole in a Ratio",
+      "question": "I have 100 coins: ₹10 : ₹5 : ₹2 : ₹1 coins :: 4 : 3 : 2 : 1. How much money do I have?",
+      "options": [
+        "₹400",
+        "₹1,000",
+        "₹180",
+        "₹600"
+      ],
+      "answer": 3,
+      "explanation": "1 part = 100 ÷ 10 = 10 coins, so 40 ten-rupee (₹400), 30 five-rupee (₹150), 20 two-rupee (₹40) and 10 one-rupee (₹10) coins. Total ₹600. ₹400 counts only the ₹10 coins; ₹180 is 10 × (10 + 5 + 2 + 1), i.e. one coin of each type per part.",
+      "source": "exercise:Q3",
+      "id": "q42"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Dividing a Whole in a Ratio",
+      "question": "Of the 100 coins in the ratio ₹10 : ₹5 : ₹2 : ₹1 :: 4 : 3 : 2 : 1, how many are ₹5 coins?",
+      "options": [
+        "30",
+        "15",
+        "40",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "The ratio terms add to 10, so each part is 10 coins. ₹5 coins are 3 parts = 30 coins. 40 is the number of ₹10 coins and 20 the number of ₹2 coins.",
+      "source": "exercise:Q3",
+      "id": "q43"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Dividing a Whole in a Ratio",
+      "question": "When 12 is divided in the ratio 2 : 1, each term of the ratio is multiplied by 3.",
+      "answer": false,
+      "explanation": "False. 3 is the SUM of the terms. We divide 12 by this sum to get 4, and 4 is what each term is multiplied by: 2 × 4 = 8 and 1 × 4 = 4.",
+      "source": "text:page4",
+      "id": "q44"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Dividing a Whole in a Ratio",
+      "question": "To divide a quantity in a ratio with several terms, the first step is to divide the quantity by the sum of all the terms.",
+      "answer": true,
+      "explanation": "True. The share for each term is x × (term) ÷ (sum of terms), so finding 'one part' = x ÷ (sum) is the first step, exactly as in 110 ÷ 5.5 = 20 for the concrete.",
+      "source": "text:page5",
+      "id": "q45"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Dividing a Whole in a Ratio",
+      "question": "90 is divided in the ratio 1 : 2 : 3. Which statement is NOT true?",
+      "options": [
+        "The parts add up to 90",
+        "The middle part is 20",
+        "The smallest part is 15",
+        "The largest part is 45"
+      ],
+      "answer": 1,
+      "explanation": "1 + 2 + 3 = 6 and 90 ÷ 6 = 15, so the parts are 15, 30 and 45 — the middle part is 30, not 20. The parts do add to 90.",
+      "source": "text:page5",
+      "id": "q46"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Dividing a Whole in a Ratio",
+      "question": "100 coins are in the ratio ₹10 : ₹5 : ₹2 : ₹1 coins :: 4 : 3 : 2 : 1. Select every correct statement.",
+      "options": [
+        "There are 40 ten-rupee coins",
+        "There are 10 one-rupee coins",
+        "The ₹2 coins are worth ₹20 in total",
+        "The ₹5 coins are worth ₹100 in total",
+        "All the coins together are worth ₹1,000"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Each part is 10 coins: 40 × ₹10, 30 × ₹5, 20 × ₹2, 10 × ₹1. So there are 40 ten-rupee and 10 one-rupee coins. The ₹2 coins are worth ₹40 (not ₹20), the ₹5 coins ₹150 (not ₹100), and the total is ₹600.",
+      "source": "exercise:Q3",
+      "id": "q47"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Triangles in Ratio",
+      "question": "A triangle has angles in the ratio 1 : 3 : 5. What are the angles?",
+      "options": [
+        "30°, 60°, 90°",
+        "20°, 60°, 80°",
+        "20°, 60°, 100°",
+        "10°, 30°, 50°"
+      ],
+      "answer": 2,
+      "explanation": "The angles add to 180° and the terms add to 9, so one part is 20°. The angles are 20°, 60° and 100°. 10°, 30°, 50° add to only 90°; 20°, 60°, 80° is the ratio 1 : 3 : 4.",
+      "source": "text:page6",
+      "id": "q48"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Triangles in Ratio",
+      "question": "Why is 180° divided by 9 when constructing a triangle with angles in the ratio 1 : 3 : 5?",
+      "options": [
+        "Every triangle can be cut into 9 equal angles",
+        "180° is always 9 times the smallest angle",
+        "Each angle of a triangle is a multiple of 9°",
+        "Angles total 180° and the terms 1 + 3 + 5 total 9"
+      ],
+      "answer": 3,
+      "explanation": "The whole (180°) is shared out in the ratio 1 : 3 : 5, so one part = 180° ÷ (1 + 3 + 5) = 20°. The 9 comes from this particular ratio, not from any general property of triangles.",
+      "source": "text:page6",
+      "id": "q49"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Triangles in Ratio",
+      "question": "A triangle's angles are in the ratio 2 : 3 : 4. What is its largest angle?",
+      "options": [
+        "80°",
+        "90°",
+        "100°",
+        "72°"
+      ],
+      "answer": 0,
+      "explanation": "2 + 3 + 4 = 9, so one part is 180° ÷ 9 = 20°. The largest angle is 4 × 20° = 80°. 100° is the largest angle for 1 : 3 : 5, and 90° would need the largest term to be half the total (e.g. 1 : 1 : 2).",
+      "source": "text:page6",
+      "id": "q50"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Triangles in Ratio",
+      "question": "A triangle whose angles are in the ratio 1 : 3 : 5 has an obtuse angle.",
+      "answer": true,
+      "explanation": "True. The angles are 20°, 60° and 100°, and 100° is greater than 90°, so the triangle is obtuse-angled.",
+      "source": "text:page6",
+      "id": "q51"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Triangles in Ratio",
+      "question": "Will all triangles drawn with side lengths in the ratio 3 : 4 : 5 be congruent to each other?",
+      "options": [
+        "No — the ratio 3 : 4 : 5 cannot form a triangle",
+        "No — sides could be 3, 4, 5 cm or 6, 8, 10 cm",
+        "Yes — a ratio fixes the exact lengths of the sides",
+        "Yes — equal angles are enough to make triangles congruent"
+      ],
+      "answer": 1,
+      "explanation": "A ratio only fixes the relative sizes. Triangles with sides 3, 4, 5 and 6, 8, 10 both have sides in the ratio 3 : 4 : 5 but are different sizes, so they are not congruent (they have the same shape but not the same size).",
+      "source": "exercise:Q4",
+      "id": "q52"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Triangles in Ratio",
+      "question": "Can you construct a triangle with side lengths in the ratio 1 : 3 : 5?",
+      "options": [
+        "Yes — provided the lengths are measured in centimetres",
+        "No — ratios with three terms only work for angles",
+        "No — 1 + 3 is less than 5, so the two short sides cannot meet",
+        "Yes — any three positive numbers can be side lengths"
+      ],
+      "answer": 2,
+      "explanation": "In any triangle the two shorter sides must together be longer than the longest side. Here 1 + 3 = 4 < 5, so the short sides are too short to meet and no triangle is possible, whatever the unit.",
+      "source": "exercise:Q5",
+      "id": "q53"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Triangles in Ratio",
+      "question": "A triangle has angles in the ratio 1 : 1 : 2. What are they?",
+      "options": [
+        "30°, 30°, 120°",
+        "60°, 60°, 60°",
+        "40°, 40°, 100°",
+        "45°, 45°, 90°"
+      ],
+      "answer": 3,
+      "explanation": "1 + 1 + 2 = 4 parts and 180° ÷ 4 = 45°, giving 45°, 45° and 90° — a right-angled triangle. The other sets add to 180° but are not in the ratio 1 : 1 : 2.",
+      "source": "text:page6",
+      "id": "q54"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Triangles in Ratio",
+      "question": "Every triangle with angles in the ratio 1 : 3 : 5 must have the same side lengths.",
+      "answer": false,
+      "explanation": "False. The ratio fixes the angles (20°, 60°, 100°) but not the size; the triangle can be scaled up or down and still have those angles.",
+      "source": "text:page6",
+      "id": "q55"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Triangles in Ratio",
+      "question": "A triangle has angles in the ratio 1 : 2 : 3. Select every correct statement.",
+      "options": [
+        "Its smallest angle is 30°",
+        "It has a right angle",
+        "Its largest angle is 100°",
+        "Its middle angle is 45°"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "1 + 2 + 3 = 6 and 180° ÷ 6 = 30°, so the angles are 30°, 60° and 90°. It has a right angle; the largest is 90° (not 100°) and the middle one is 60° (not 45°).",
+      "source": "text:page6",
+      "id": "q56"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pie Charts",
+      "question": "Grades A to E were scored by 12, 10, 8, 6 and 4 students. What is the simplest form of 12 : 10 : 8 : 6 : 4?",
+      "options": [
+        "6 : 5 : 4 : 3 : 2",
+        "3 : 2.5 : 2 : 1.5 : 1",
+        "12 : 10 : 8 : 6 : 4",
+        "6 : 5 : 4 : 2 : 1"
+      ],
+      "answer": 0,
+      "explanation": "Divide every term by the HCF, which is 2: 6 : 5 : 4 : 3 : 2. Dividing by 4 gives decimals and is not the simplest whole-number form; 6 : 5 : 4 : 2 : 1 changes the last two terms incorrectly.",
+      "source": "text:page7",
+      "id": "q57"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pie Charts",
+      "question": "To reduce 12 : 10 : 8 : 6 : 4 to its simplest form, which number is every term divided by?",
+      "options": [
+        "12",
+        "2",
+        "4",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "The HCF of 12, 10, 8, 6 and 4 is 2. Dividing all terms by their HCF gives the simplest form 6 : 5 : 4 : 3 : 2.",
+      "source": "text:page7",
+      "id": "q58"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pie Charts",
+      "question": "In the grade pie chart (12, 10, 8, 6, 4 students), what is the angle of the Grade A slice?",
+      "options": [
+        "120°",
+        "72°",
+        "108°",
+        "90°"
+      ],
+      "answer": 2,
+      "explanation": "Simplest ratio 6 : 5 : 4 : 3 : 2 has 20 parts, so 1 part = 360° ÷ 20 = 18°. Grade A = 6 × 18° = 108°. 90° is Grade B and 72° is Grade C.",
+      "source": "text:page7",
+      "id": "q59"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pie Charts",
+      "question": "What is the angle of the Grade E slice (4 of 40 students)?",
+      "options": [
+        "54°",
+        "18°",
+        "40°",
+        "36°"
+      ],
+      "answer": 3,
+      "explanation": "Grade E is 2 parts of 20, so 2 × 18° = 36°. Or directly: 4/40 × 360° = 36°. 54° is Grade D, and 18° is one part (2 students).",
+      "source": "text:page7",
+      "id": "q60"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pie Charts",
+      "question": "There are 40 students in the grade pie chart. How many degrees does ONE student represent?",
+      "options": [
+        "9°",
+        "18°",
+        "4.5°",
+        "10°"
+      ],
+      "answer": 0,
+      "explanation": "360° ÷ 40 students = 9° per student. 18° is one part of the simplified ratio 6 : 5 : 4 : 3 : 2, and each part stands for 2 students.",
+      "source": "text:page7",
+      "id": "q61"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pie Charts",
+      "question": "Each part of the simplified ratio 6 : 5 : 4 : 3 : 2 equals 18° because…",
+      "options": [
+        "(12 + 6) students = 18 → 18°",
+        "360° ÷ (6 + 5 + 4 + 3 + 2) = 18°",
+        "360° ÷ (40 students ÷ 2) = 18°",
+        "180° ÷ (5 grades × 2) = 18°"
+      ],
+      "answer": 1,
+      "explanation": "The full circle (360°) is divided in the ratio 6 : 5 : 4 : 3 : 2, whose terms add to 20; 360° ÷ 20 = 18°. 360 ÷ (40 ÷ 2) happens to give 18 too, but the reasoning is wrong — the 20 is the sum of the ratio terms, not half the class.",
+      "source": "text:page7",
+      "id": "q62"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Pie Charts",
+      "question": "In a pie chart, the angle of each slice is proportional to the quantity that slice represents.",
+      "answer": true,
+      "explanation": "True. The chapter says the angle for a grade 'should be proportional to the number of students who have scored that grade', which is why 360° is divided in the ratio of the data.",
+      "source": "text:page7",
+      "id": "q63"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Pie Charts",
+      "question": "The total angle at the centre of a pie chart is 180°.",
+      "answer": false,
+      "explanation": "False. A pie chart is a full circle, so the total angle is 360°. 180° would be a semicircle.",
+      "source": "text:page7",
+      "id": "q64"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pie Charts",
+      "question": "360 people voted for a favourite season: 90 summer, 120 rainy, the rest winter. What is the angle of the winter slice?",
+      "options": [
+        "90°",
+        "180°",
+        "150°",
+        "120°"
+      ],
+      "answer": 2,
+      "explanation": "Winter = 360 − 90 − 120 = 150 people. Since there are 360 people for 360°, each person is 1°, so winter = 150°, rainy = 120° and summer = 90°.",
+      "source": "exercise:Q1",
+      "id": "q65"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pie Charts",
+      "question": "In the seasons survey of 360 people, why can the angles be read straight from the numbers of people?",
+      "options": [
+        "Each person is 2°, because there are three seasons",
+        "Each person is 0.5°, because 360 ÷ 720 = 0.5",
+        "Each person is 3°, one degree for every season",
+        "Each person is 1°, because 360 people share 360°"
+      ],
+      "answer": 3,
+      "explanation": "The angle per person is 360° ÷ (number of people) = 360° ÷ 360 = 1°. So 90 people → 90°, 120 → 120°, 150 → 150°. This shortcut only works because the total happens to be 360.",
+      "source": "exercise:Q1",
+      "id": "q66"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pie Charts",
+      "question": "Favourite TV channels: Entertainment 50%, Sports 25%, News 15%, Information 10%. What is the angle for News?",
+      "options": [
+        "54°",
+        "15°",
+        "36°",
+        "90°"
+      ],
+      "answer": 0,
+      "explanation": "15% of 360° = 0.15 × 360° = 54°. 36° is Information (10%) and 90° is Sports (25%). Writing 15° confuses percent with degrees.",
+      "source": "exercise:Q2",
+      "id": "q67"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pie Charts",
+      "question": "In the TV-channel pie chart, what angle does Entertainment (50%) get?",
+      "options": [
+        "120°",
+        "180°",
+        "90°",
+        "50°"
+      ],
+      "answer": 1,
+      "explanation": "50% is half of the circle, so 0.5 × 360° = 180°. Sports (25%) gets 90°. A slice of 50° would represent only about 14%.",
+      "source": "exercise:Q2",
+      "id": "q68"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pie Charts",
+      "question": "Which statement about the TV-channel pie chart (50%, 25%, 15%, 10%) is NOT correct?",
+      "options": [
+        "The Information slice is 36°",
+        "Entertainment forms a semicircle",
+        "The News slice measures 15°",
+        "The Sports slice measures 90°"
+      ],
+      "answer": 2,
+      "explanation": "News is 15% of 360° = 54°, not 15°. Sports = 25% = 90°, Information = 10% = 36°, and Entertainment at 50% is exactly half the circle.",
+      "source": "exercise:Q2",
+      "id": "q69"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pie Charts",
+      "question": "In the construction steps, after drawing radius AC at 108° from AB, what does the next step do?",
+      "options": [
+        "Measures 72° from AC and draws AD",
+        "Measures 90° from AB and draws AD",
+        "Measures 108° from AC and draws AD",
+        "Measures 90° from AC and draws AD"
+      ],
+      "answer": 3,
+      "explanation": "Each new slice is measured from the LAST radius drawn: 90° (Grade B) from AC gives AD, then 72° (Grade C) from AD gives AE, and so on. Measuring from AB again would overlap the first slice.",
+      "source": "text:page8",
+      "id": "q70"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Pie Charts",
+      "question": "For the grade pie chart (12, 10, 8, 6, 4 students), select every correct angle.",
+      "options": [
+        "Grade A = 108°",
+        "Grade B = 90°",
+        "Grade C = 54°",
+        "Grade D = 45°",
+        "Grade E = 40°"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "One part is 18°: A = 6 × 18 = 108°, B = 5 × 18 = 90°, C = 72°, D = 54°, E = 36°. So only the A and B values listed are right; 54° belongs to D, not C.",
+      "source": "text:page7",
+      "id": "q71"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pie Charts",
+      "question": "A pie chart of five transport modes shows four sectors of 120°, 90°, 60° and 60°. What is the fifth sector?",
+      "options": [
+        "30°",
+        "60°",
+        "45°",
+        "90°"
+      ],
+      "answer": 0,
+      "explanation": "The sectors must total 360°. 120 + 90 + 60 + 60 = 330°, so the remaining sector is 360 − 330 = 30°.",
+      "source": "exercise:Q5",
+      "id": "q72"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pie Charts",
+      "question": "In a survey pie chart, a 60° sector represents 18 children. How many children took part in the survey?",
+      "options": [
+        "216",
+        "108",
+        "72",
+        "54"
+      ],
+      "answer": 1,
+      "explanation": "60° is 60/360 = 1/6 of the circle, so 18 children are 1/6 of the total: 18 × 6 = 108 children. 72 would be for a 90° sector.",
+      "source": "exercise:Q5",
+      "id": "q73"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pie Charts",
+      "question": "A sector of 120° in a pie chart represents what fraction of the whole?",
+      "options": [
+        "One-sixth",
+        "One-half",
+        "One-third",
+        "A quarter"
+      ],
+      "answer": 2,
+      "explanation": "120° ÷ 360° = 1/3. A quarter would be 90°, a sixth 60°, and a half 180°.",
+      "source": "exercise:Q5",
+      "id": "q74"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Pie Charts",
+      "question": "In the grade pie chart, the Grade B slice (90°) is exactly half the size of the Grade A slice (108°).",
+      "answer": false,
+      "explanation": "False. Half of 108° is 54°, which is Grade D's slice. Grade B (90°) is 5/6 of Grade A, matching the ratio 5 : 6 of their student counts (10 : 12).",
+      "source": "text:page7",
+      "id": "q75"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Direct vs Inverse Proportion",
+      "question": "By the rule of three, if a : b :: c : d, how is d found?",
+      "options": [
+        "d = (a × b) ÷ c",
+        "d = (a × c) ÷ b",
+        "d = a × b × c",
+        "d = (b × c) ÷ a"
+      ],
+      "answer": 3,
+      "explanation": "From a : b :: c : d we have a × d = b × c, so d = bc/a. This is the 'rule of three' for direct proportion that the chapter recalls.",
+      "source": "text:page9",
+      "id": "q76"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Direct vs Inverse Proportion",
+      "question": "Two quantities x and y are in inverse proportion when which relation holds (k constant)?",
+      "options": [
+        "x × y = k",
+        "x ÷ y = k",
+        "x + y = k",
+        "x − y = k"
+      ],
+      "answer": 0,
+      "explanation": "The chapter defines inverse proportion by xy = k. For speed and time, k is the fixed distance. x ÷ y = k is DIRECT proportion.",
+      "source": "text:page10",
+      "id": "q77"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Direct vs Inverse Proportion",
+      "question": "Which quantity stays the same when x and y are DIRECTLY proportional?",
+      "options": [
+        "The gap x − y",
+        "The quotient x ÷ y",
+        "The product x × y",
+        "The total x + y"
+      ],
+      "answer": 1,
+      "explanation": "Directly proportional quantities change by the same factor, so their quotient x/y is constant (the summary writes x₁/y₁ = x₂/y₂ = k). A constant product is the mark of inverse proportion.",
+      "source": "text:page15",
+      "id": "q78"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Direct vs Inverse Proportion",
+      "question": "5 workers can move 4,500 bricks in a day. How many workers are needed to move 18,000 bricks in a day?",
+      "options": [
+        "15",
+        "40",
+        "20",
+        "25"
+      ],
+      "answer": 2,
+      "explanation": "4500 : 18000 :: 5 : x, so x = 18000 × 5 ÷ 4500 = 20 workers. 18,000 is 4 times 4,500, so 4 times as many workers are needed.",
+      "source": "text:page9",
+      "id": "q79"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Direct vs Inverse Proportion",
+      "question": "The brick-moving problem (more bricks → more workers) is which kind of proportion, and why?",
+      "options": [
+        "Inverse — more bricks can be moved by fewer workers",
+        "Inverse — workers × bricks is a constant product",
+        "Neither — because the length of one day is fixed",
+        "Direct — more bricks need proportionally more workers"
+      ],
+      "answer": 3,
+      "explanation": "Both quantities increase together by the same factor (4× bricks → 4× workers), so it is direct proportion: bricks ÷ workers = 900 stays constant. Inverse proportion would mean more bricks need FEWER workers, which makes no sense here.",
+      "source": "text:page9",
+      "id": "q80"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Direct vs Inverse Proportion",
+      "question": "Which pair of quantities is NOT in inverse proportion?",
+      "options": [
+        "Length of cloth bought and the price paid at a fixed rate",
+        "Number of taps filling a tank and the time to fill it",
+        "Number of painters hired and days to paint a fixed wall",
+        "Speed of a cyclist and time taken for a fixed route"
+      ],
+      "answer": 0,
+      "explanation": "More cloth costs more money at a fixed rate per metre — both rise together, so that is DIRECT proportion. More taps, more painters or more speed each REDUCE the time, which is inverse proportion.",
+      "source": "exercise:Q1",
+      "id": "q81"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Direct vs Inverse Proportion",
+      "question": "Select every pair that is in INVERSE proportion.",
+      "options": [
+        "Number of taps filling a tank and the time to fill it",
+        "Number of painters hired and days to paint a wall",
+        "Distance a car can travel and petrol in the tank",
+        "Pages in a book and time to read it at a fixed speed",
+        "Length of cloth bought and the price paid per metre"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Taps and filling time, and painters and days, change in opposite directions by the same factor — inverse. Distance and petrol, pages and reading time, and cloth and price all increase together — direct.",
+      "source": "exercise:Q1",
+      "id": "q82"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Direct vs Inverse Proportion",
+      "question": "Select every pair that is in DIRECT proportion.",
+      "options": [
+        "Distance a car travels and the petrol in its tank",
+        "Pages in a book and the time needed to read it",
+        "Speed of a cyclist and time to cover a fixed route",
+        "Number of taps and the time to fill a tank"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "More petrol → more distance and more pages → more reading time: both rise together (direct). A faster cyclist or more taps means LESS time — those are inverse.",
+      "source": "exercise:Q1",
+      "id": "q83"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Direct vs Inverse Proportion",
+      "question": "If 24 pencils cost ₹120, how much will 20 such pencils cost?",
+      "options": [
+        "₹110",
+        "₹100",
+        "₹144",
+        "₹96"
+      ],
+      "answer": 1,
+      "explanation": "Each pencil costs 120 ÷ 24 = ₹5, so 20 pencils cost ₹100. ₹144 (= 24 × 120 ÷ 20) wrongly treats the problem as inverse proportion.",
+      "source": "exercise:Q2",
+      "id": "q84"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Direct vs Inverse Proportion",
+      "question": "Why is the pencil problem solved with direct proportion?",
+      "options": [
+        "Pencils × total cost stays fixed at 24 × 120 = 2,880",
+        "The price of one pencil changes with the quantity",
+        "Fewer pencils cost less money, by the same factor",
+        "Fewer pencils cost more money, so it works inversely"
+      ],
+      "answer": 2,
+      "explanation": "Number of pencils and total cost change in the SAME direction by the same factor (20/24 of the pencils → 20/24 of the cost), so the quotient cost ÷ pencils (₹5) is constant — direct proportion.",
+      "source": "exercise:Q2",
+      "id": "q85"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Direct vs Inverse Proportion",
+      "question": "If 24 pencils cost ₹120, then 20 pencils will cost ₹144.",
+      "answer": false,
+      "explanation": "False. ₹144 comes from 24 × 120 ÷ 20, which treats pencils and cost as inversely proportional. Cost is directly proportional to quantity: 20 pencils cost 20 × ₹5 = ₹100.",
+      "source": "exercise:Q2",
+      "id": "q86"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Direct vs Inverse Proportion",
+      "question": "Two quantities that change by the same factor but in opposite directions are inversely proportional.",
+      "answer": true,
+      "explanation": "True. The chapter: speed and time 'change by the same factor… but they change in opposite directions, or inversely. Such proportions are called inverse proportions.'",
+      "source": "text:page10",
+      "id": "q87"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Direct vs Inverse Proportion",
+      "question": "If x and y are inversely proportional with x₁y₁ = x₂y₂, which equation also follows?",
+      "options": [
+        "x₁/x₂ = y₁/y₂",
+        "x₁x₂ = y₁y₂",
+        "x₁ + y₁ = x₂ + y₂",
+        "x₁/x₂ = y₂/y₁"
+      ],
+      "answer": 3,
+      "explanation": "Dividing both sides of x₁y₁ = x₂y₂ by x₂y₁ gives x₁/x₂ = y₂/y₁ — the y's are 'flipped'. x₁/x₂ = y₁/y₂ is the direct-proportion relation.",
+      "source": "text:page10",
+      "id": "q88"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Direct vs Inverse Proportion",
+      "question": "Which statement is NOT correct?",
+      "options": [
+        "In a direct proportion, doubling x halves y",
+        "In a direct proportion, x ÷ y stays constant",
+        "In an inverse proportion, x × y stays constant",
+        "In an inverse proportion, doubling x halves y"
+      ],
+      "answer": 0,
+      "explanation": "In direct proportion, doubling x DOUBLES y (the quotient stays fixed). Halving y when x doubles is the behaviour of inverse proportion, where the product stays fixed.",
+      "source": "text:page15",
+      "id": "q89"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Direct vs Inverse Proportion",
+      "question": "x takes the values 40, 80, 25, 16 while y takes 20, 10, 32, 50. These are in inverse proportion with what constant product?",
+      "options": [
+        "60",
+        "800",
+        "400",
+        "1,600"
+      ],
+      "answer": 1,
+      "explanation": "40 × 20 = 800, 80 × 10 = 800, 25 × 32 = 800 and 16 × 50 = 800. Every product is the same, so xy = 800 and the table is an inverse proportion.",
+      "source": "exercise:Q1",
+      "id": "q90"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Direct vs Inverse Proportion",
+      "question": "x = 40, 80, 25, 16 and y = 20, 10, 12.5, 8. Why is this table NOT an inverse proportion?",
+      "options": [
+        "Because y has a decimal, 12.5",
+        "Because x does not keep rising",
+        "Because 25 × 12.5 ≠ 40 × 20",
+        "Because 40 × 20 ≠ 80 × 10"
+      ],
+      "answer": 2,
+      "explanation": "For inverse proportion every x × y must be equal. 40 × 20 = 800 and 80 × 10 = 800, but 25 × 12.5 = 312.5 (and 16 × 8 = 128), so the products differ. Decimals and the order of values do not matter.",
+      "source": "exercise:Q1",
+      "id": "q91"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Direct vs Inverse Proportion",
+      "question": "x = 30, 90, 150, 10 and y = 15, 5, 3, 45. Which conclusion is correct?",
+      "options": [
+        "Direct — every x ÷ y equals 2",
+        "Inverse — every x × y equals 400",
+        "Not proportional — products differ",
+        "Inverse — every x × y equals 450"
+      ],
+      "answer": 3,
+      "explanation": "30 × 15 = 450, 90 × 5 = 450, 150 × 3 = 450, 10 × 45 = 450. The product is constant, so x and y are inversely proportional with k = 450.",
+      "source": "exercise:Q1",
+      "id": "q92"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Direct vs Inverse Proportion",
+      "question": "x and y are in inverse proportion and x = 16 when y = 9. What is y when x = 12?",
+      "options": [
+        "12",
+        "9",
+        "16",
+        "6.75"
+      ],
+      "answer": 0,
+      "explanation": "k = 16 × 9 = 144, so y = 144 ÷ 12 = 12. The answer 6.75 (= 12 × 9 ÷ 16) wrongly uses direct proportion.",
+      "source": "exercise:Q2",
+      "id": "q93"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Speed, Distance & Time",
+      "question": "In the chapter's table, what is the distance between Lucknow and Kanpur?",
+      "options": [
+        "45 km",
+        "90 km",
+        "60 km",
+        "180 km"
+      ],
+      "answer": 1,
+      "explanation": "Speed × time is the same for every mode: 30 km/h × 3 h = 90 km (also 5 × 18, 15 × 6, 60 × 1.5). The constant product k is the distance, 90 km.",
+      "source": "text:page10",
+      "id": "q94"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Speed, Distance & Time",
+      "question": "Puneeth's father rode at 30 km/h for 3 hours. If he drives a car at 60 km/h, how long does the trip take?",
+      "options": [
+        "2 hours",
+        "3 hours",
+        "1.5 hours",
+        "6 hours"
+      ],
+      "answer": 2,
+      "explanation": "Doubling the speed halves the time: 3 h ÷ 2 = 1.5 h. Or 30 × 3 = 60 × t → t = 1.5. Six hours (doubling the time) is the direct-proportion mistake.",
+      "source": "text:page9",
+      "id": "q95"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Speed, Distance & Time",
+      "question": "Walking at 5 km/h, how long does the Lucknow–Kanpur trip take?",
+      "options": [
+        "9 hours",
+        "15 hours",
+        "12 hours",
+        "18 hours"
+      ],
+      "answer": 3,
+      "explanation": "Distance = 90 km, so time = 90 ÷ 5 = 18 hours. Walking is 6 times slower than the motorcycle (30 ÷ 5), so it takes 6 times as long: 3 × 6 = 18 h.",
+      "source": "text:page9",
+      "id": "q96"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Speed, Distance & Time",
+      "question": "Why is the statement 30 : 60 :: 3 : x the WRONG way to set up the motorcycle-to-car problem?",
+      "options": [
+        "Time falls as speed rises, so it is not direct",
+        "Speed and time must be in the same units",
+        "3 hours is too short for a ratio statement",
+        "Both ratios should start with the same term"
+      ],
+      "answer": 0,
+      "explanation": "That statement would give x = 6 hours, i.e. the time INCREASING with speed. In reality a faster vehicle takes less time, so speed and time are inversely proportional and we use speed × time = constant instead.",
+      "source": "text:page9",
+      "id": "q97"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Speed, Distance & Time",
+      "question": "A bicycle is 3 times faster than walking (15 ÷ 5). What happens to the travel time?",
+      "options": [
+        "It stays 18 h because distance is fixed",
+        "It becomes one-third (18 h → 6 h)",
+        "It becomes three times (18 h → 54 h)",
+        "It drops by 3 hours (18 h → 15 h)"
+      ],
+      "answer": 1,
+      "explanation": "Inverse proportion: when speed is multiplied by 3, time is divided by 3, so 18 ÷ 3 = 6 hours. Subtracting 3 hours or multiplying the time are the common errors.",
+      "source": "text:page10",
+      "id": "q98"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Speed, Distance & Time",
+      "question": "In the Lucknow–Kanpur table, speed × time equals 90 for every mode of transport.",
+      "answer": true,
+      "explanation": "True. 5 × 18 = 15 × 6 = 30 × 3 = 60 × 1.5 = 90. This constant product (the distance) is what makes speed and time inversely proportional.",
+      "source": "text:page10",
+      "id": "q99"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Speed, Distance & Time",
+      "question": "Switching from walking (5 km/h) to a car (60 km/h) reduces the Lucknow–Kanpur travel time by 12 hours.",
+      "answer": false,
+      "explanation": "False. The speed is multiplied by 12, so the time is DIVIDED by 12: 18 h → 1.5 h, a reduction of 16.5 hours, not 12. Factors, not differences, carry over in a proportion.",
+      "source": "text:page10",
+      "id": "q100"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Speed, Distance & Time",
+      "question": "A car takes 2 hours at 60 km/h. How long will it take at 80 km/h?",
+      "options": [
+        "1 hour 20 min",
+        "2 hours 30 min",
+        "1 hour 30 min",
+        "2 hours 40 min"
+      ],
+      "answer": 2,
+      "explanation": "Distance = 60 × 2 = 120 km, so time at 80 km/h = 120 ÷ 80 = 1.5 hours = 1 h 30 min. 2 h 40 min (= 2 × 80 ÷ 60) is the direct-proportion error; 1 h 20 min wrongly scales 2 h by 60/90.",
+      "source": "exercise:Q12",
+      "id": "q101"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Speed, Distance & Time",
+      "question": "To check inverse proportion between walking and car, the text compares 5/60 with which fraction?",
+      "options": [
+        "18/1.5",
+        "5/18",
+        "60/1.5",
+        "1.5/18"
+      ],
+      "answer": 3,
+      "explanation": "For inverse proportion x₁/x₂ = y₂/y₁. With speeds x₁ = 5, x₂ = 60 and times y₁ = 18, y₂ = 1.5, the text checks 5/60 = 0.0833… against 1.5/18 = 0.0833… — the time fraction is flipped.",
+      "source": "text:page10",
+      "id": "q102"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Speed, Distance & Time",
+      "question": "Which statement about the Lucknow–Kanpur table is NOT correct?",
+      "options": [
+        "The bicycle is twice as fast as the motorcycle",
+        "The bicycle takes 6 hours at 15 km/h",
+        "The car is 12 times faster than walking",
+        "The motorcycle takes 3 hours at 30 km/h"
+      ],
+      "answer": 0,
+      "explanation": "The motorcycle (30 km/h) is twice as fast as the bicycle (15 km/h), not the other way round. The other statements match the table: 60 ÷ 5 = 12, bicycle 6 h, motorcycle 3 h.",
+      "source": "text:page9",
+      "id": "q103"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Speed, Distance & Time",
+      "question": "Select every statement that matches the Lucknow–Kanpur table.",
+      "options": [
+        "Walking at 5 km/h takes 18 hours",
+        "The car at 60 km/h takes 1.5 hours",
+        "The bicycle at 15 km/h takes 3 hours",
+        "The motorcycle at 30 km/h takes 6 hours"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "With a 90 km distance: walking 90 ÷ 5 = 18 h and car 90 ÷ 60 = 1.5 h are correct. The bicycle takes 6 h (not 3) and the motorcycle 3 h (not 6) — those two were swapped.",
+      "source": "text:page9",
+      "id": "q104"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Inverse Proportion Problems",
+      "question": "20 workers take 4 days to lay a road. How many days will 10 workers take for the same road?",
+      "options": [
+        "16 days",
+        "8 days",
+        "2 days",
+        "4 days"
+      ],
+      "answer": 1,
+      "explanation": "Workers and days are inversely proportional: 20 × 4 = 10 × y, so y = 8 days. Halving the workers doubles the days. 2 days is the direct-proportion mistake.",
+      "source": "text:page11",
+      "id": "q105"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Inverse Proportion Problems",
+      "question": "2 pumps fill a tank in 18 hours. If 2 more identical pumps are added, how long does filling take?",
+      "options": [
+        "4.5 hours",
+        "16 hours",
+        "9 hours",
+        "36 hours"
+      ],
+      "answer": 2,
+      "explanation": "There are now 4 pumps. 2 × 18 = 4 × x, so x = 9 hours. 4.5 hours uses 8 pumps by mistake; 16 hours just subtracts 2.",
+      "source": "text:page12",
+      "id": "q106"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Inverse Proportion Problems",
+      "question": "For the pump problem, a student wrote 2 × 18 = 2 × x and got 18 hours. What was the mistake?",
+      "options": [
+        "Multiplying instead of dividing the hours by two",
+        "Treating pumps and hours as directly proportional",
+        "Forgetting to convert the hours into minutes",
+        "Using 2 pumps instead of the new total of 4 pumps"
+      ],
+      "answer": 3,
+      "explanation": "'2 more pumps' means 2 + 2 = 4 pumps in total. The student plugged in the 2 ADDED pumps rather than the total 4, so the equation gave no change at all. The correct equation is 2 × 18 = 4 × x.",
+      "source": "text:page12",
+      "id": "q107"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Inverse Proportion Problems",
+      "question": "A school has provisions to feed 80 students for 15 days. If 20 more students join, how many days will the provisions last?",
+      "options": [
+        "12 days",
+        "18.75 days",
+        "3 days",
+        "10 days"
+      ],
+      "answer": 0,
+      "explanation": "100 students now. 80 × 15 = 100 × x, so x = 1200 ÷ 100 = 12 days. 18.75 (= 100 × 15 ÷ 80) treats it as direct proportion; 3 days wrongly uses the 20 new students alone.",
+      "source": "text:page12",
+      "id": "q108"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Inverse Proportion Problems",
+      "question": "A tank supplies 20 families for 6 days. If 10 more families move in, how long will the water last?",
+      "options": [
+        "2 days",
+        "4 days",
+        "9 days",
+        "3 days"
+      ],
+      "answer": 1,
+      "explanation": "30 families now. 20 × 6 = 30 × x gives x = 120 ÷ 30 = 4 days. 9 days is the direct-proportion slip and 3 days uses 40 families.",
+      "source": "exercise:Q3",
+      "id": "q109"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Inverse Proportion Problems",
+      "question": "Which assumption is needed to solve the water-tank problem (20 families, 6 days → 30 families)?",
+      "options": [
+        "The new families bring their own supply of water",
+        "Water use per family drops as more families move in",
+        "Every family uses about the same amount of water each day",
+        "The tank is refilled from the mains every evening"
+      ],
+      "answer": 2,
+      "explanation": "Inverse proportion only works if each family consumes water at the same steady rate, so that total daily use scales with the number of families. If the tank were refilled or usage changed, the simple calculation would fail.",
+      "source": "exercise:Q3",
+      "id": "q110"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Inverse Proportion Problems",
+      "question": "Three workers can paint a fence in 4 days. If one more worker joins, how many days will the job take?",
+      "options": [
+        "5 days",
+        "2 days",
+        "1 day",
+        "3 days"
+      ],
+      "answer": 3,
+      "explanation": "4 workers now. 3 × 4 = 4 × x, so x = 3 days. Adding a worker does not add a day (5 days) — more workers means fewer days.",
+      "source": "exercise:Q6",
+      "id": "q111"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Inverse Proportion Problems",
+      "question": "A pump takes 6 hours to fill 2 identical tanks. How long will it take to fill 5 such tanks?",
+      "options": [
+        "15 hours",
+        "2.4 hours",
+        "12 hours",
+        "30 hours"
+      ],
+      "answer": 0,
+      "explanation": "One tank takes 6 ÷ 2 = 3 hours, so 5 tanks take 15 hours. This is DIRECT proportion (more tanks, more time); 2.4 hours (= 6 × 2 ÷ 5) wrongly uses inverse proportion.",
+      "source": "exercise:Q7",
+      "id": "q112"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Inverse Proportion Problems",
+      "question": "Why is the 'one pump, more tanks' problem a direct proportion rather than an inverse one?",
+      "options": [
+        "The pump works faster when more tanks are waiting",
+        "More tanks need more time with the same single pump",
+        "More tanks mean less time is needed for each tank",
+        "Tanks × hours stays fixed at 12 for the same pump"
+      ],
+      "answer": 1,
+      "explanation": "The pump's rate is fixed, so filling time grows with the number of tanks by the same factor: hours ÷ tanks = 3 is constant. A constant PRODUCT (tanks × hours) would describe inverse proportion, which is not the case here.",
+      "source": "exercise:Q7",
+      "id": "q113"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Inverse Proportion Problems",
+      "question": "Chairs are arranged in 25 rows of 12. If they are rearranged with 20 chairs per row, how many rows are there?",
+      "options": [
+        "12 rows",
+        "30 rows",
+        "15 rows",
+        "20 rows"
+      ],
+      "answer": 2,
+      "explanation": "Total chairs = 25 × 12 = 300, which stays fixed. 300 ÷ 20 = 15 rows. More chairs per row → fewer rows (inverse).",
+      "source": "exercise:Q8",
+      "id": "q114"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Inverse Proportion Problems",
+      "question": "A school has 8 periods of 45 minutes. If it switches to 9 periods with the same total school hours, how long is each period?",
+      "options": [
+        "50 minutes",
+        "45 minutes",
+        "35 minutes",
+        "40 minutes"
+      ],
+      "answer": 3,
+      "explanation": "Total time = 8 × 45 = 360 minutes. With 9 periods, each is 360 ÷ 9 = 40 minutes. More periods → shorter periods (inverse proportion).",
+      "source": "exercise:Q9",
+      "id": "q115"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Inverse Proportion Problems",
+      "question": "A factory needs 42 machines to produce some toys in 63 days. How many machines are needed to do it in 54 days?",
+      "options": [
+        "49 machines",
+        "36 machines",
+        "54 machines",
+        "63 machines"
+      ],
+      "answer": 0,
+      "explanation": "42 × 63 = 2646 machine-days. 2646 ÷ 54 = 49 machines. Fewer days need MORE machines; 36 (= 42 × 54 ÷ 63) is the direct-proportion error.",
+      "source": "exercise:Q11",
+      "id": "q116"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Inverse Proportion Problems",
+      "question": "For the toy-factory problem a student answered 36 machines. What went wrong?",
+      "options": [
+        "They forgot that 63 days is more than 54 days",
+        "They assumed fewer days means fewer machines",
+        "They multiplied 42 by 63 instead of dividing",
+        "They added 54 and 42 instead of multiplying"
+      ],
+      "answer": 1,
+      "explanation": "36 = 42 × 54 ÷ 63 scales machines DOWN with the days, i.e. direct proportion. But finishing sooner requires MORE machines (inverse): 42 × 63 ÷ 54 = 49.",
+      "source": "exercise:Q11",
+      "id": "q117"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Inverse Proportion Problems",
+      "question": "If the number of workers on a job is halved, the number of days needed to finish the same job doubles.",
+      "answer": true,
+      "explanation": "True. The chapter notes exactly this for the road example: when the workers halved (20 → 10) the days doubled (4 → 8), the hallmark of inverse proportion.",
+      "source": "text:page11",
+      "id": "q118"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Inverse Proportion Problems",
+      "question": "Provisions that feed 80 students for 15 days will feed 100 students for 18.75 days.",
+      "answer": false,
+      "explanation": "False. 18.75 = 100 × 15 ÷ 80 assumes direct proportion. More students eat the food faster, so the days DECREASE: 80 × 15 ÷ 100 = 12 days.",
+      "source": "text:page12",
+      "id": "q119"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Inverse Proportion Problems",
+      "question": "In an inverse proportion, when one quantity changes by a factor n, the other changes by the factor 1/n.",
+      "answer": true,
+      "explanation": "True. This is the chapter's statement of inverse proportion — e.g. 4 times the pumps means 1/4 of the time.",
+      "source": "text:page11",
+      "id": "q120"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Inverse Proportion Problems",
+      "question": "Select every correctly solved problem.",
+      "options": [
+        "3 workers take 4 days → 4 workers take 3 days",
+        "2 pumps take 18 hours → 4 pumps take 9 hours",
+        "20 workers take 4 days → 10 workers take 2 days",
+        "8 periods of 45 min → 9 periods of 50 min each"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "3 × 4 = 4 × 3 and 2 × 18 = 4 × 9 keep the products constant, so those are right. Halving the workers should DOUBLE the days (8, not 2), and more periods must be SHORTER (40 min, not 50).",
+      "source": "exercise:Q6",
+      "id": "q121"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Inverse Proportion Problems",
+      "question": "What assumption makes 'three workers, 4 days → four workers, 3 days' valid?",
+      "options": [
+        "The new worker paints twice as fast as the others",
+        "The workers take turns resting on alternate days",
+        "All the workers paint at the same steady rate",
+        "The fence becomes longer with each passing day"
+      ],
+      "answer": 2,
+      "explanation": "Inverse proportion between workers and days requires every worker to contribute equally and steadily. If the newcomer were faster or slower, or the job size changed, the simple product rule would not apply.",
+      "source": "exercise:Q6",
+      "id": "q122"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Working Together",
+      "question": "Shyam cuts a batch of vegetables in 1.5 hours. How much of the work does he do in 1 hour?",
+      "options": [
+        "1.5 units of work",
+        "1/3 of the work",
+        "3/2 of the work",
+        "2/3 of the work"
+      ],
+      "answer": 3,
+      "explanation": "In 1 hour he does 1 ÷ 1.5 = 2/3 of the job. 1.5 and 3/2 are the time, not the work; 1/3 is what is LEFT after one hour.",
+      "source": "text:page12",
+      "id": "q123"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Working Together",
+      "question": "Ram finishes the job in 1 hour and Shyam in 1.5 hours. How much work do they do together in 1 hour?",
+      "options": [
+        "5/3 units",
+        "2/3 unit",
+        "2.5 units",
+        "5/2 units"
+      ],
+      "answer": 0,
+      "explanation": "Ram does 1 unit per hour and Shyam 2/3 unit per hour, so together 1 + 2/3 = 5/3 units per hour. Adding the TIMES (1 + 1.5 = 2.5) is not meaningful here.",
+      "source": "text:page12",
+      "id": "q124"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Working Together",
+      "question": "Working together, how long do Ram and Shyam take to finish cutting the vegetables?",
+      "options": [
+        "75 minutes",
+        "36 minutes",
+        "45 minutes",
+        "40 minutes"
+      ],
+      "answer": 1,
+      "explanation": "They do 5/3 units per hour, so 1 unit takes 3/5 hour = 36 minutes. 75 minutes is the average of their times, which is wrong — together they must be faster than either alone.",
+      "source": "text:page13",
+      "id": "q125"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Working Together",
+      "question": "In the vegetables problem, why is work done and time taken treated as DIRECT proportion?",
+      "options": [
+        "The product work × time stays constant and equal to 5/3",
+        "The time taken does not depend on the amount of work done",
+        "More work takes proportionally more time at a fixed rate",
+        "More work needs less time when two people share it equally"
+      ],
+      "answer": 2,
+      "explanation": "At a fixed combined rate (5/3 units per hour), doing more work takes more time by the same factor — so 5/3 : 1 :: 1 : x is a direct proportion giving x = 3/5 hour.",
+      "source": "text:page12",
+      "id": "q126"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Working Together",
+      "question": "A small pump fills a tank in 3 hours and a large pump in 2 hours. Together, how long do they take?",
+      "options": [
+        "2 hours 30 minutes",
+        "1 hour 30 minutes",
+        "1 hour 50 minutes",
+        "1 hour 12 minutes"
+      ],
+      "answer": 3,
+      "explanation": "Rates: 1/3 + 1/2 = 5/6 of the tank per hour, so the full tank takes 6/5 hours = 1.2 h = 1 h 12 min. 2 h 30 min is the average of 2 and 3 — but together they must be quicker than the faster pump alone.",
+      "source": "exercise:Q10",
+      "id": "q127"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Working Together",
+      "question": "Which statement about the two pumps (3 h and 2 h alone) is NOT correct?",
+      "options": [
+        "Together they take 2.5 hours, the average",
+        "Together they fill 5/6 of the tank per hour",
+        "Together they take less than 2 hours",
+        "The small pump fills 1/3 of the tank per hour"
+      ],
+      "answer": 0,
+      "explanation": "Averaging the times is wrong: two pumps working together finish faster than either alone, so the time must be under 2 hours — it is 6/5 h. The rates 1/3 and 1/2 add to 5/6 per hour.",
+      "source": "exercise:Q10",
+      "id": "q128"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Working Together",
+      "question": "Two people working together always take less time than the faster person would alone.",
+      "answer": true,
+      "explanation": "True. Together their rates add, so the combined rate is greater than either rate alone and the job finishes sooner — Ram alone takes 60 minutes, together with Shyam only 36.",
+      "source": "text:page13",
+      "id": "q129"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Working Together",
+      "question": "Ram and Shyam together take 2.5 hours, the sum of their individual times.",
+      "answer": false,
+      "explanation": "False. Times are not added; RATES are. 1 + 2/3 = 5/3 units per hour, so together they take 3/5 hour = 36 minutes.",
+      "source": "text:page13",
+      "id": "q130"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Working Together",
+      "question": "Ram alone does 1 unit of work per hour. What fraction of the vegetables does he cut in 36 minutes?",
+      "options": [
+        "3/4",
+        "3/5",
+        "2/5",
+        "1/2"
+      ],
+      "answer": 1,
+      "explanation": "36 minutes is 36/60 = 3/5 of an hour, so Ram does 3/5 of the work. (Shyam does the remaining 2/5 in the same 36 minutes: 2/3 × 3/5 = 2/5.)",
+      "source": "text:page13",
+      "id": "q131"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Working Together",
+      "question": "Select every correct statement about Ram (1 hour) and Shyam (1.5 hours).",
+      "options": [
+        "Shyam does 2/3 of the work in an hour",
+        "Together they finish in 36 minutes",
+        "Ram does 1/2 of the work in an hour",
+        "Together they do 2 units of work in an hour"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Shyam's rate is 1/1.5 = 2/3 per hour and the combined rate is 5/3 per hour, giving 3/5 h = 36 min. Ram does a full unit (not half) in an hour, and together they do 5/3 (not 2) units.",
+      "source": "text:page13",
+      "id": "q132"
+    },
+    {
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Formulas & Summary",
+      "question": "The summary says a ratio a : b : c : d means that for every a units of the first quantity there are…",
+      "options": [
+        "b + c + d units of the second quantity taken together",
+        "d units of the second, c of the third, b of the fourth",
+        "b units of the second, c of the third, d of the fourth",
+        "a units of each of the second, third and fourth quantities"
+      ],
+      "answer": 2,
+      "explanation": "Each term refers to its own quantity in order: a of the first, b of the second, c of the third and d of the fourth, all scaled together.",
+      "source": "text:page15",
+      "id": "q133"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Formulas & Summary",
+      "question": "According to the summary, if x and y are directly proportional then…",
+      "options": [
+        "x₁y₁ = x₂y₂ = x₃y₃ = k",
+        "x₁ + y₁ = x₂ + y₂ = x₃ + y₃ = k",
+        "x₁/x₂ = y₂/y₁ = x₂/x₃ = k",
+        "x₁/y₁ = x₂/y₂ = x₃/y₃ = k"
+      ],
+      "answer": 3,
+      "explanation": "Direct proportion keeps the quotient x/y constant for every pair of corresponding values. A constant product (x₁y₁ = x₂y₂) is inverse proportion.",
+      "source": "text:page15",
+      "id": "q134"
+    },
+    {
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Formulas & Summary",
+      "question": "Which rule does NOT describe a proportional (direct or inverse) relationship between x and y?",
+      "options": [
+        "y = x + 2",
+        "y = 3 × x",
+        "x × y = 24",
+        "y = x ÷ 4"
+      ],
+      "answer": 0,
+      "explanation": "y = 3x and y = x/4 have constant quotients (direct), and xy = 24 has a constant product (inverse). y = x + 2 adds a fixed amount: doubling x from 2 to 4 changes y from 4 to 6, not by the same factor, so it is not proportional.",
+      "source": "text:page15",
+      "id": "q135"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Formulas & Summary",
+      "question": "In an inverse proportion the product x × y stays constant.",
+      "answer": true,
+      "explanation": "True. This is the defining relation xy = k; e.g. speed × time = 90 km for every mode of transport in the chapter.",
+      "source": "text:page15",
+      "id": "q136"
+    },
+    {
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Formulas & Summary",
+      "question": "In a direct proportion the product x × y stays constant.",
+      "answer": false,
+      "explanation": "False. In direct proportion it is the QUOTIENT x ÷ y that stays constant; the product grows as both quantities grow. A constant product is the mark of inverse proportion.",
+      "source": "text:page15",
+      "id": "q137"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Formulas & Summary",
+      "question": "x and y are inversely proportional, and y = 6 when x = 4. What is y when x = 8?",
+      "options": [
+        "10",
+        "3",
+        "12",
+        "2"
+      ],
+      "answer": 1,
+      "explanation": "k = 4 × 6 = 24, so y = 24 ÷ 8 = 3. Doubling x halves y. 12 would be the answer if they were directly proportional.",
+      "source": "text:page15",
+      "id": "q138"
+    },
+    {
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Formulas & Summary",
+      "question": "x and y are DIRECTLY proportional, and y = 6 when x = 4. What is y when x = 8?",
+      "options": [
+        "10",
+        "16",
+        "12",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "x/y = 4/6 is constant, so y = 6 × (8/4) = 12. Doubling x doubles y. 10 adds 4 instead of doubling; 3 is the inverse-proportion answer.",
+      "source": "text:page15",
+      "id": "q139"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Formulas & Summary",
+      "question": "Select every pair of quantities that is INVERSELY proportional.",
+      "options": [
+        "Number of equal slices a cake is cut into and the size of each slice",
+        "Number of identical machines and the time to finish a fixed job",
+        "Kilograms of rice bought and the total price at a fixed rate",
+        "Hours worked at a fixed hourly wage and the money earned"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "More slices → each slice smaller, and more machines → less time: both have a constant product (inverse). Rice and price, and hours and wages, grow together (direct).",
+      "source": "text:page15",
+      "id": "q140"
+    }
+  ]
+}

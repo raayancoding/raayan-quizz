@@ -1,0 +1,3382 @@
+{
+  "schemaVersion": 1,
+  "id": "ict-ch05-computer-storage-and-memory-devices",
+  "title": "Computer - Storage and Memory Devices",
+  "subject": "ICT",
+  "grade": 4,
+  "chapter": "5. Computer - Storage and Memory Devices",
+  "topic": "Full Book",
+  "description": "Comprehensive practice on why computers need storage, storage units from bit to terabyte, permanent storage devices (hard drives, SSDs, USB, MicroSD, cloud), the history of storage from floppy disks to cloud (with India's tech journey and e-waste), RAM and ROM, RAM's role in multitasking and performance, real-world storage problem-solving, and the chapter's brain/nutrition and browser-history connections.",
+  "tags": [
+    "ict",
+    "grade4",
+    "computer-storage",
+    "storage-units",
+    "ram-and-rom",
+    "storage-devices",
+    "history-of-storage",
+    "multitasking",
+    "cloud-storage",
+    "e-waste"
+  ],
+  "defaultTimeLimitSec": 1800,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Computers Need Storage",
+      "question": "What does computer storage allow a computer to do?",
+      "options": [
+        "Save files, run programs, and remember settings",
+        "Only browse the internet",
+        "Only display graphics",
+        "Only power on"
+      ],
+      "answer": 0,
+      "explanation": "Storage is essential for saving your work, running programs, and remembering settings on a computer.",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Computers Need Storage",
+      "question": "Which everyday object does the chapter compare to a computer to explain organising and storing information?",
+      "options": [
+        "A bookshelf",
+        "A recipe book",
+        "A calendar",
+        "A dictionary"
+      ],
+      "answer": 0,
+      "explanation": "The chapter opens by comparing bookshelves and computers, since both help organise and store information.",
+      "source": "facts:page1"
+    },
+    {
+      "id": "q3",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Why Computers Need Storage",
+      "question": "Computers store information to help them perform tasks and run applications.",
+      "answer": true,
+      "explanation": "The chapter states that computers store information so they can perform tasks and run applications.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Computers Need Storage",
+      "question": "What are the two main types of computer storage described in the chapter?",
+      "options": [
+        "Permanent Storage and Temporary Storage",
+        "Fast Storage and Slow Storage",
+        "Big Storage and Small Storage",
+        "Internal Storage and External Storage"
+      ],
+      "answer": 0,
+      "explanation": "The chapter divides computer storage into two types: Permanent Storage and Temporary Storage.",
+      "source": "worksheet-L1 Q2a"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Why Computers Need Storage",
+      "question": "Why does the chapter compare permanent storage to 'a digital filing cabinet'?",
+      "options": [
+        "Because it keeps everything you create safely stored for later use, like paper files in a cabinet",
+        "Because it only stores digital photographs, nothing else",
+        "Because it works only when connected to the internet",
+        "Because it automatically deletes old files every day"
+      ],
+      "answer": 0,
+      "explanation": "Permanent storage is described as being like a digital filing cabinet because it safely keeps everything you create for future use, just as a filing cabinet keeps paper documents.",
+      "source": "worksheet-L1 Q2b"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Computers Need Storage",
+      "question": "Temporary storage helps with which of these tasks?",
+      "options": [
+        "Quick tasks like browsing and editing documents",
+        "Storing photos forever",
+        "Permanently backing up files",
+        "Remembering passwords forever"
+      ],
+      "answer": 0,
+      "explanation": "Temporary storage helps with quick tasks, like browsing the web and editing documents, while the computer is on.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q7",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Why Computers Need Storage",
+      "question": "Temporary storage keeps files safe permanently, even after the computer is turned off.",
+      "answer": false,
+      "explanation": "That is the job of permanent storage. Temporary storage is cleared when the computer is turned off.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Computers Need Storage",
+      "question": "What happens to information in temporary storage when the computer is turned off?",
+      "options": [
+        "It is cleared",
+        "It is saved forever",
+        "It is moved to the cloud automatically",
+        "It is converted into bits"
+      ],
+      "answer": 0,
+      "explanation": "Temporary storage is cleared when the computer is switched off, unlike permanent storage.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why Computers Need Storage",
+      "question": "The chapter compares temporary storage to remembering a phone number. What point is this example making?",
+      "options": [
+        "Temporary storage holds information only until it is used once, like a phone number you dial and then forget",
+        "Temporary storage keeps information forever, like a saved contact",
+        "Temporary storage is only used for phone calls",
+        "Temporary storage is slower than permanent storage"
+      ],
+      "answer": 0,
+      "explanation": "The phone-number example shows that temporary storage is used briefly for a task and then the information is not kept, just like remembering a number only long enough to dial it.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Computers Need Storage",
+      "question": "Which of these is an example of using storage to save your work, according to the chapter?",
+      "options": [
+        "Saving your password so you can log in faster",
+        "Turning up the volume",
+        "Changing the screen brightness",
+        "Closing a window"
+      ],
+      "answer": 0,
+      "explanation": "The chapter gives the example that saving your password helps you log in faster next time.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why Computers Need Storage",
+      "question": "What happens when a computer's storage runs out, according to the chapter?",
+      "options": [
+        "New files can't be saved, and the computer slows down",
+        "The computer speeds up",
+        "Nothing changes",
+        "ROM automatically takes over all functions"
+      ],
+      "answer": 0,
+      "explanation": "When storage runs out, new files can't be saved and the computer starts to slow down.",
+      "source": "worksheet-L1 Q5b"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Why Computers Need Storage",
+      "question": "Which of these statements about a computer with very little free storage space is FALSE?",
+      "options": [
+        "It may not be able to save new files",
+        "It may run slower",
+        "It may not be able to install updates, risking security issues",
+        "It will always run faster because there is less clutter"
+      ],
+      "answer": 3,
+      "explanation": "Having little free storage does not make a computer faster - it can prevent saving new files, slow the computer down, and even block updates, which is a security risk.",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why Computers Need Storage",
+      "question": "Why can lack of storage space create security issues, according to the chapter?",
+      "options": [
+        "Because it can prevent important software updates from installing",
+        "Because it makes the screen dimmer",
+        "Because it disables the mouse",
+        "Because it turns off the internet connection"
+      ],
+      "answer": 0,
+      "explanation": "The chapter notes that a lack of storage can prevent updates, which can leave a computer with unpatched security issues.",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Computers Need Storage",
+      "question": "What appears on a computer screen when it is low on storage (memory)?",
+      "options": [
+        "A warning message, like 'Your computer is low on memory'",
+        "A blank black screen",
+        "An automatic shutdown with no warning",
+        "A request to change the wallpaper"
+      ],
+      "answer": 0,
+      "explanation": "The chapter describes a warning message such as 'Your computer is low on memory' that appears when storage is low.",
+      "source": "facts:page4"
+    },
+    {
+      "id": "q15",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Why Computers Need Storage",
+      "question": "Seeing a 'low on memory' warning message is a signal that you should free up storage space.",
+      "answer": true,
+      "explanation": "The low-memory warning helps you know when to free up space on your computer.",
+      "source": "facts:page4"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why Computers Need Storage",
+      "question": "How does the chapter compare computers and human brains?",
+      "options": [
+        "Both store and process information",
+        "Both need batteries to work",
+        "Both need Wi-Fi to function",
+        "Both only work when charging"
+      ],
+      "answer": 0,
+      "explanation": "The chapter draws a comparison between computers and human brains, since both store and process information.",
+      "source": "facts:page4"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Computers Need Storage",
+      "question": "According to the chapter's opening question, what must we decide when storage space is limited?",
+      "options": [
+        "What to keep and what to discard",
+        "What color to paint the computer",
+        "How loud to play music",
+        "How fast to type"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's opening question asks what choices we must make when space and capacity are limited, meaning deciding what to keep and what to discard.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q18",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Why Computers Need Storage",
+      "question": "Select ALL the things computer storage is needed for, according to the chapter.",
+      "options": [
+        "Saving files",
+        "Running applications",
+        "Remembering settings",
+        "Making the screen brighter"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Storage is needed to save files, run applications, and remember settings. Screen brightness is unrelated to storage.",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Computers Need Storage",
+      "question": "A computer needs a certain amount of free storage space to operate...",
+      "options": [
+        "Efficiently",
+        "Loudly",
+        "Colorfully",
+        "Slowly on purpose"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states that computers need a certain amount of free space to operate efficiently.",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q20",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Why Computers Need Storage",
+      "question": "Storage on a computer is only needed for saving photos and is never needed for running programs.",
+      "answer": false,
+      "explanation": "Storage is needed for many things, including running applications and remembering settings, not just saving photos.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Computers Need Storage",
+      "question": "Which description best matches 'Permanent Storage,' as given in the worksheet's fill-in-the-blank exercise?",
+      "options": [
+        "It is like a digital filing cabinet where your computer stores everything you create",
+        "It is cleared the moment the computer is turned off",
+        "It is only used while actively browsing",
+        "It disappears after ten minutes of use"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet describes Permanent Storage as being like a digital filing cabinet that keeps everything you create.",
+      "source": "worksheet-L1 Q2b"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Why Computers Need Storage",
+      "question": "A student says, 'My computer doesn't need free storage space as long as it has electricity.' Why is this incorrect?",
+      "options": [
+        "Because a computer needs a certain amount of free storage space to operate efficiently, regardless of power",
+        "Because electricity is actually a type of storage",
+        "Because computers never need storage space at all",
+        "Because storage space only matters when the computer is off"
+      ],
+      "answer": 0,
+      "explanation": "Having electricity is not enough - the chapter explains that computers need free storage space to run efficiently, save files, and install updates.",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Why Computers Need Storage",
+      "question": "What do bookshelves and computers have in common, according to the chapter's introduction?",
+      "options": [
+        "Both help organise and store information",
+        "Both need batteries",
+        "Both are made of wood",
+        "Both connect to the internet"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's introduction says that bookshelves and computers both help in organising and storing information.",
+      "source": "facts:page1"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Why Computers Need Storage",
+      "question": "Which best explains why saving a password helps you 'log in faster,' as the chapter states?",
+      "options": [
+        "Because it is stored so the computer doesn't need you to re-enter it every time",
+        "Because saved passwords make the internet faster",
+        "Because saving a password erases the need for a username",
+        "Because saved passwords are automatically shared with other computers"
+      ],
+      "answer": 0,
+      "explanation": "When a password is saved in storage, the computer can recall it automatically instead of you retyping it, helping you log in faster.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "What is the smallest unit of computer storage?",
+      "options": [
+        "A bit",
+        "A byte",
+        "A kilobyte",
+        "A megabyte"
+      ],
+      "answer": 0,
+      "explanation": "A bit is the smallest unit of computer storage.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "How many bits make up one byte?",
+      "options": [
+        "8 bits",
+        "4 bits",
+        "16 bits",
+        "32 bits"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's storage-unit diagram shows that a byte is made up of 8 bits.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "What can a single byte typically store?",
+      "options": [
+        "One letter, number, or special character",
+        "A short story",
+        "A small book",
+        "A whole movie"
+      ],
+      "answer": 0,
+      "explanation": "A byte can store one letter, number, or special character.",
+      "source": "worksheet-L1 Q2f"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "Put these storage units in the correct order, from smallest to largest.",
+      "options": [
+        "Bit, Byte, Kilobyte, Megabyte, Gigabyte, Terabyte",
+        "Byte, Bit, Kilobyte, Megabyte, Gigabyte, Terabyte",
+        "Bit, Byte, Megabyte, Kilobyte, Gigabyte, Terabyte",
+        "Bit, Byte, Kilobyte, Gigabyte, Megabyte, Terabyte"
+      ],
+      "answer": 0,
+      "explanation": "The correct order from smallest to largest is Bit, Byte, Kilobyte, Megabyte, Gigabyte, Terabyte. The other options swap the order of some units.",
+      "source": "worksheet-L1 Q5d"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "What can a kilobyte (KB) typically store?",
+      "options": [
+        "A short story or a few pictures",
+        "One letter or number",
+        "A small book or many pictures",
+        "Millions of books"
+      ],
+      "answer": 0,
+      "explanation": "A kilobyte can store a short story or a few pictures, such as a digital photo.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "What can a megabyte (MB) typically store?",
+      "options": [
+        "A small book or many pictures",
+        "One letter or number",
+        "A short story or a few pictures",
+        "Millions of books or a huge collection of movies"
+      ],
+      "answer": 0,
+      "explanation": "A megabyte can store a small book or many pictures; a song might be a few megabytes.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "What can a gigabyte (GB) typically store, according to the worksheet's matching exercise?",
+      "options": [
+        "Multiple books, music, or videos",
+        "One letter or number",
+        "A short story or a few pictures",
+        "A small book or many pictures"
+      ],
+      "answer": 0,
+      "explanation": "A gigabyte can store multiple books, music, or videos - the chapter also gives the example that a movie might be a few gigabytes.",
+      "source": "worksheet-L1 Q4"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "What can a terabyte (TB) typically store?",
+      "options": [
+        "Millions of books or a huge collection of movies",
+        "One letter or number",
+        "A short story or a few pictures",
+        "A small book or many pictures"
+      ],
+      "answer": 0,
+      "explanation": "A terabyte can store millions of books or a huge collection of movies, and is often used for large data backups.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "How many bytes make up one kilobyte, according to the chapter's storage diagram?",
+      "options": [
+        "1024 bytes",
+        "1000 bytes",
+        "100 bytes",
+        "8 bytes"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's block diagram shows that a Kilobyte (KB) is 1024 Bytes.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "How many kilobytes make up one megabyte?",
+      "options": [
+        "1024 KB",
+        "1000 KB",
+        "100 KB",
+        "10 KB"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's block diagram shows that a Megabyte (MB) is 1024 KB.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "How many megabytes make up one gigabyte?",
+      "options": [
+        "1024 MB",
+        "1000 MB",
+        "100 MB",
+        "10 MB"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's block diagram shows that a Gigabyte (GB) is 1024 MB.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "How many gigabytes make up one terabyte?",
+      "options": [
+        "1024 GB",
+        "1000 GB",
+        "100 GB",
+        "10 GB"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's block diagram shows that a Terabyte (TB) is 1024 GB.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "According to the chapter's memory-trick mnemonic, what comes right after 'Kilobyte' in the sequence of storage units?",
+      "options": [
+        "Megabyte",
+        "Gigabyte",
+        "Bit",
+        "Terabyte"
+      ],
+      "answer": 0,
+      "explanation": "The mnemonic 'Big Ben Knows to Make Good Tasty Porridge' places Megabyte right after Kilobyte (Bit, Byte, Kilobyte, Megabyte...).",
+      "source": "book:page11"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "The chapter's memory trick is 'Big Ben Knows to Make Good Tasty Porridge.' What does the word 'Porridge' stand for in this sequence?",
+      "options": [
+        "Petabyte",
+        "Terabyte",
+        "Byte",
+        "Gigabyte"
+      ],
+      "answer": 0,
+      "explanation": "In the mnemonic, 'Tasty' stands for Terabyte and 'Porridge' stands for Petabyte, the unit that comes right after Terabyte - it's easy to mix up these last two.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q39",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "A byte can store one letter, number, or special character.",
+      "answer": true,
+      "explanation": "A byte is defined in the worksheet as being able to store one letter, number, or special character.",
+      "source": "worksheet-L1 Q2f"
+    },
+    {
+      "id": "q40",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "A kilobyte is smaller than a byte.",
+      "answer": false,
+      "explanation": "A kilobyte is much larger than a byte - one kilobyte equals 1024 bytes.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "According to the chapter's diagram, which pair correctly shows how Bit and Byte are denoted?",
+      "options": [
+        "Bit is denoted 'b' (lowercase) and Byte is denoted 'B' (uppercase)",
+        "Bit is denoted 'B' (uppercase) and Byte is denoted 'b' (lowercase)",
+        "Both Bit and Byte are denoted with the same uppercase letter",
+        "Bit and Byte have no denoting letters at all"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's diagram shows a Bit is denoted by the letter 'b' and a Byte is denoted by 'B' - it is easy to mix up the upper and lower case.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "According to the 'Trail Treasure' fact, a nibble equals how many bits?",
+      "options": [
+        "4 bits",
+        "2 bits",
+        "8 bits",
+        "16 bits"
+      ],
+      "answer": 0,
+      "explanation": "The 'Trail Treasure' box states that a nibble is equal to 4 bits.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "In the early days of computing (the 1970s), computers could typically work with how many bits of data at a time?",
+      "options": [
+        "4 bits (a nibble)",
+        "8 bits",
+        "16 bits",
+        "32 bits"
+      ],
+      "answer": 0,
+      "explanation": "According to the 'Trail Treasure' history note, 1970s computers could only work with small amounts of data, like 4 bits (a nibble) at a time - later decades moved to 8-bit, then 16-bit and beyond.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "By the 1980s, according to the chapter's history note, which bit sizes could computers handle?",
+      "options": [
+        "8 bits, and then 16 bits",
+        "32 bits and 64 bits only",
+        "4 bits only",
+        "128 bits and 256 bits"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states that by the 1980s, computers got better and could handle 8 bits and then 16 bits.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "Which bit sizes are described as common in modern computers, per the chapter's history note?",
+      "options": [
+        "32-bit and 64-bit",
+        "4-bit and 8-bit",
+        "2-bit and 4-bit",
+        "128-bit and 256-bit only"
+      ],
+      "answer": 0,
+      "explanation": "The chapter notes that later, 32-bit and 64-bit computers became normal, making them much faster and more powerful.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "According to the worksheet's matching exercise, which storage unit matches 'a short story or a few pictures'?",
+      "options": [
+        "Kilobyte",
+        "Byte",
+        "Gigabyte",
+        "Terabyte"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet's answer key matches Kilobyte to 'a short story or a few pictures.'",
+      "source": "worksheet-L1 Q4"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "According to the worksheet's matching exercise, which storage unit matches 'multiple books, music, or videos'?",
+      "options": [
+        "Gigabyte",
+        "Byte",
+        "Kilobyte",
+        "Terabyte"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet's answer key matches Gigabyte to 'multiple books, music, or videos.'",
+      "source": "worksheet-L1 Q4"
+    },
+    {
+      "id": "q48",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "Select ALL storage units that are LARGER than a Megabyte.",
+      "options": [
+        "Gigabyte",
+        "Terabyte",
+        "Kilobyte",
+        "Byte"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "A Gigabyte and a Terabyte are both larger than a Megabyte. A Kilobyte and a Byte are both smaller than a Megabyte.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "A digital photo can typically be stored in which unit, according to the chapter's example?",
+      "options": [
+        "Kilobytes",
+        "Terabytes only",
+        "Bits only",
+        "Gigabytes only"
+      ],
+      "answer": 0,
+      "explanation": "The chapter gives the example that a digital photo can be stored in kilobytes.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Storage Units: Bit to Terabyte",
+      "question": "A single song is typically a few of which unit, according to the chapter's fun fact?",
+      "options": [
+        "Megabytes",
+        "Kilobytes",
+        "Terabytes",
+        "Bits"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's fun fact says a song might be a few megabytes.",
+      "source": "facts:page5"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Permanent Storage Devices",
+      "question": "Which of these is an example of permanent storage, according to the chapter?",
+      "options": [
+        "Hard drive",
+        "RAM",
+        "CPU cache",
+        "Screen brightness settings"
+      ],
+      "answer": 0,
+      "explanation": "Examples of permanent storage given in the chapter include hard drives and cloud storage.",
+      "source": "facts:page8"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Permanent Storage Devices",
+      "question": "What is a key feature of permanent storage?",
+      "options": [
+        "It keeps information safe even when the power is off",
+        "It loses everything the moment the power is off",
+        "It only works with an internet connection",
+        "It can only store text, never pictures"
+      ],
+      "answer": 0,
+      "explanation": "Permanent storage keeps information safe even when the computer's power is off.",
+      "source": "facts:page8"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Permanent Storage Devices",
+      "question": "The chapter compares permanent storage to what everyday object?",
+      "options": [
+        "A bookshelf that keeps your books safe",
+        "A study desk",
+        "A mobile phone",
+        "A calculator"
+      ],
+      "answer": 0,
+      "explanation": "Permanent storage is compared to a bookshelf, which keeps your books safe over time.",
+      "source": "facts:page8"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Permanent Storage Devices",
+      "question": "Which device has a large storage capacity but is typically slower compared to SSDs?",
+      "options": [
+        "Hard drive",
+        "USB drive",
+        "MicroSD card",
+        "RAM"
+      ],
+      "answer": 0,
+      "explanation": "Hard drives have large capacity but are slower compared to SSDs.",
+      "source": "facts:page10"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Permanent Storage Devices",
+      "question": "What are USB drives also commonly known as?",
+      "options": [
+        "Pen drives",
+        "Floppy disks",
+        "SSDs",
+        "MicroSD cards"
+      ],
+      "answer": 0,
+      "explanation": "USB drives are also known as pen drives and can fit in your pocket.",
+      "source": "facts:page10"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Permanent Storage Devices",
+      "question": "What is a key advantage of USB drives, according to the chapter?",
+      "options": [
+        "They are portable and used for transferring files",
+        "They only work with an internet connection",
+        "They are the fastest storage type that exists",
+        "They store data only temporarily"
+      ],
+      "answer": 0,
+      "explanation": "USB drives are portable and are used for transferring files between computers.",
+      "source": "facts:page10"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Permanent Storage Devices",
+      "question": "MicroSD cards are typically used in which type of devices?",
+      "options": [
+        "Compact devices, like smartphones",
+        "Desktop computers only",
+        "Large data centers only",
+        "Very old computers only"
+      ],
+      "answer": 0,
+      "explanation": "MicroSD cards are smaller versions of SD cards used in compact devices.",
+      "source": "facts:page11"
+    },
+    {
+      "id": "q58",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Permanent Storage Devices",
+      "question": "MicroSD cards are typically used in desktop computers.",
+      "answer": false,
+      "explanation": "MicroSD cards are typically used in compact devices, like smartphones, not desktop computers.",
+      "source": "worksheet-L1 Q3h"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Permanent Storage Devices",
+      "question": "What allows cloud storage to be accessed?",
+      "options": [
+        "Any device with an internet connection",
+        "Only one specific computer",
+        "Only devices with a USB port",
+        "Only computers running on ROM"
+      ],
+      "answer": 0,
+      "explanation": "Cloud storage allows access to data from any device with an internet connection.",
+      "source": "facts:page11"
+    },
+    {
+      "id": "q60",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Permanent Storage Devices",
+      "question": "Cloud storage can only be accessed when you have an internet connection.",
+      "answer": true,
+      "explanation": "Since cloud storage keeps data online, you need an internet connection to access it.",
+      "source": "worksheet-L1 Q3a"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Permanent Storage Devices",
+      "question": "What is a distinctive feature of cloud storage capacity, according to the chapter?",
+      "options": [
+        "It can be unlimited, depending on the service",
+        "It is always exactly 1 GB",
+        "It never grows in size",
+        "It is always completely free"
+      ],
+      "answer": 0,
+      "explanation": "The chapter notes that cloud storage can be unlimited, depending on the service you use.",
+      "source": "facts:page11"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Permanent Storage Devices",
+      "question": "What does SSD stand for?",
+      "options": [
+        "Solid-State Drive",
+        "Storage System Device",
+        "Small Storage Disk",
+        "System Speed Drive"
+      ],
+      "answer": 0,
+      "explanation": "SSD stands for Solid-State Drive, a modern, faster storage device.",
+      "source": "worksheet-L1 Q3g"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Permanent Storage Devices",
+      "question": "According to the worksheet's matching exercise, which device 'plugs into a USB port' and is small and portable?",
+      "options": [
+        "USB Drive",
+        "Cloud Storage",
+        "Hard Drive",
+        "MicroSD Card"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet describes the USB Drive as a small, portable device that plugs into a USB port.",
+      "source": "worksheet-L2 Q2"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Permanent Storage Devices",
+      "question": "Which storage device, per the worksheet, 'stores data online and can be accessed from any device'?",
+      "options": [
+        "Cloud Storage",
+        "Hard Drive",
+        "USB Drive",
+        "SSD"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet matches Cloud Storage to 'stores data online and can be accessed from any device.'",
+      "source": "worksheet-L2 Q2"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Permanent Storage Devices",
+      "question": "Which storage device, per the worksheet, is 'a traditional storage device inside most computers'?",
+      "options": [
+        "Hard Drive",
+        "External Hard Drive",
+        "MicroSD Card",
+        "SSD"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet matches Hard Drive to 'a traditional storage device inside most computers.'",
+      "source": "worksheet-L2 Q2"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Permanent Storage Devices",
+      "question": "Which storage device, per the worksheet, 'is a modern, faster storage device for quicker data access'?",
+      "options": [
+        "SSD",
+        "Hard Drive",
+        "USB Drive",
+        "MicroSD Card"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet matches SSD to 'a modern, faster storage device for quicker data access.'",
+      "source": "worksheet-L2 Q2"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Permanent Storage Devices",
+      "question": "Which storage device, per the worksheet, 'is a portable version of a hard drive that connects via USB'?",
+      "options": [
+        "External Hard Drive",
+        "USB Drive",
+        "SSD",
+        "MicroSD Card"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet matches External Hard Drive to 'a portable version of a hard drive that connects via USB.'",
+      "source": "worksheet-L2 Q2"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Permanent Storage Devices",
+      "question": "Which of these storage devices has the LARGEST typical capacity, according to the worksheet?",
+      "options": [
+        "External Hard Drive",
+        "USB Drive",
+        "SD Card",
+        "MicroSD Card"
+      ],
+      "answer": 0,
+      "explanation": "Among these options, the External Hard Drive has the largest typical storage capacity.",
+      "source": "worksheet-L1 Q5c"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Permanent Storage Devices",
+      "question": "What is a key advantage of physical storage devices (like USB drives) over cloud storage, according to the worksheet?",
+      "options": [
+        "They can be accessed without an internet connection",
+        "They offer automatic backups",
+        "They can be accessed from any device",
+        "They have unlimited storage capacity"
+      ],
+      "answer": 0,
+      "explanation": "Physical storage devices can be used without internet access, which is their advantage over cloud storage. Automatic backups, any-device access, and unlimited capacity are cloud storage advantages instead.",
+      "source": "worksheet-L1 Q5e"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Permanent Storage Devices",
+      "question": "Which of these is NOT typically an advantage of cloud storage, according to the chapter?",
+      "options": [
+        "Working without any internet connection",
+        "Accessibility from any device",
+        "Automatic backups",
+        "Being able to grow with the service"
+      ],
+      "answer": 0,
+      "explanation": "Working without an internet connection is an advantage of physical storage devices, not cloud storage - cloud storage needs an internet connection to be accessed.",
+      "source": "facts:page11"
+    },
+    {
+      "id": "q71",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Permanent Storage Devices",
+      "question": "A USB drive is an example of permanent storage.",
+      "answer": true,
+      "explanation": "USB drives keep data safely stored even when disconnected from power, making them permanent storage.",
+      "source": "worksheet-L1 Q3d"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Permanent Storage Devices",
+      "question": "Why might someone choose a hard drive over an SSD, despite it being slower?",
+      "options": [
+        "Because hard drives typically offer larger storage capacity for the price",
+        "Because hard drives are always faster than SSDs",
+        "Because hard drives need no electrical power at all",
+        "Because hard drives are actually a type of RAM"
+      ],
+      "answer": 0,
+      "explanation": "Hard drives are slower than SSDs but typically offer larger storage capacity, which is why they may still be chosen.",
+      "source": "facts:page10"
+    },
+    {
+      "id": "q73",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Permanent Storage Devices",
+      "question": "Select ALL examples of permanent storage devices mentioned in the chapter.",
+      "options": [
+        "Hard drive",
+        "USB drive",
+        "Cloud storage",
+        "RAM"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Hard drives, USB drives, and cloud storage are all permanent storage. RAM is temporary storage, not permanent.",
+      "source": "facts:page8"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Permanent Storage Devices",
+      "question": "Which of these best describes 'permanent storage,' as summarised in the chapter's Quick Guide?",
+      "options": [
+        "Your Digital Cupboard - keeps things safe even when the power is off",
+        "Your Digital Desk - keeps things only while you're working",
+        "Your Digital Camera - takes pictures only",
+        "Your Digital Speaker - plays music only"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's Quick Guide describes Permanent Storage as 'Your Digital Cupboard,' which keeps things safe even when the power is off.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Storage, India's Tech Journey and E-Waste",
+      "question": "Which storage device was commonly used in the 1980s and 1990s?",
+      "options": [
+        "Floppy disk",
+        "USB drive",
+        "Cloud storage",
+        "SSD"
+      ],
+      "answer": 0,
+      "explanation": "Floppy disks were an early form of data storage used in the 1980s and 1990s.",
+      "source": "facts:page13"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Storage, India's Tech Journey and E-Waste",
+      "question": "About how much data could an early floppy disk store?",
+      "options": [
+        "About 80 KB",
+        "About 700 MB",
+        "About 4.7 GB",
+        "About 1 TB"
+      ],
+      "answer": 0,
+      "explanation": "An early floppy disk could store about 80 KB of data.",
+      "source": "facts:page13"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "History of Storage, India's Tech Journey and E-Waste",
+      "question": "How much data could a 3.5-inch floppy disk store?",
+      "options": [
+        "1.44 MB",
+        "80 KB",
+        "700 MB",
+        "4.7 GB"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's interesting information notes that 3.5-inch floppy disks could store 1.44 MB.",
+      "source": "facts:page13"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Storage, India's Tech Journey and E-Waste",
+      "question": "Which storage devices followed floppy disks, storing more data like music and movies?",
+      "options": [
+        "CDs and DVDs",
+        "Punch cards",
+        "Cloud storage first",
+        "Typewriter ribbons"
+      ],
+      "answer": 0,
+      "explanation": "CDs and DVDs followed floppy disks, and could store more data such as music and movies.",
+      "source": "facts:page14"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Storage, India's Tech Journey and E-Waste",
+      "question": "About how much music can a standard CD hold?",
+      "options": [
+        "About 80 minutes",
+        "About 8 minutes",
+        "About 800 minutes",
+        "About 8 hours"
+      ],
+      "answer": 0,
+      "explanation": "A standard CD holds about 80 minutes of music.",
+      "source": "facts:page14"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Storage, India's Tech Journey and E-Waste",
+      "question": "About how much data can a standard CD store?",
+      "options": [
+        "About 700 MB",
+        "About 70 MB",
+        "About 7 GB",
+        "About 70 GB"
+      ],
+      "answer": 0,
+      "explanation": "A standard CD holds about 700 MB of data.",
+      "source": "facts:page14"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Storage, India's Tech Journey and E-Waste",
+      "question": "How much data can a DVD store, according to the chapter's fun fact?",
+      "options": [
+        "Up to 4.7 GB",
+        "Up to 700 MB",
+        "Up to 1.44 MB",
+        "Up to 1 TB"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's fun fact says DVDs can store up to 4.7 GB of data.",
+      "source": "facts:page14"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "History of Storage, India's Tech Journey and E-Waste",
+      "question": "What is the correct historical order of storage evolution, according to the chapter?",
+      "options": [
+        "Floppy disks, then CDs/DVDs, then USB drives, then Cloud storage",
+        "Cloud storage, then floppy disks, then CDs/DVDs, then USB drives",
+        "USB drives, then floppy disks, then Cloud storage, then CDs/DVDs",
+        "CDs/DVDs, then floppy disks, then Cloud storage, then USB drives"
+      ],
+      "answer": 0,
+      "explanation": "The chapter explains that floppy disks led to CDs, then USB drives, and finally cloud storage - the other orders scramble this sequence.",
+      "source": "facts:page19"
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "History of Storage, India's Tech Journey and E-Waste",
+      "question": "What did each advancement in storage technology allow, according to the chapter?",
+      "options": [
+        "Storing more data than before",
+        "Storing less data than before",
+        "Using more electricity for the same result",
+        "Making devices heavier"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states that each advancement in storage technology allowed for more data to be stored.",
+      "source": "facts:page19"
+    },
+    {
+      "id": "q84",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "History of Storage, India's Tech Journey and E-Waste",
+      "question": "Floppy disks came before CDs and DVDs in the history of computer storage.",
+      "answer": true,
+      "explanation": "Floppy disks were an earlier storage technology; CDs and DVDs followed them, storing even more data.",
+      "source": "facts:page14"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "History of Storage, India's Tech Journey and E-Waste",
+      "question": "How did India contribute to the history of technology and storage, according to the chapter?",
+      "options": [
+        "Indian engineers helped maximise storage efficiency, reflected in today's tech leadership",
+        "India invented the floppy disk",
+        "India banned the use of cloud storage",
+        "India only uses old storage methods today"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states that Indian engineers maximised storage efficiency, which is reflected in today's tech leadership.",
+      "source": "facts:page20"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Storage, India's Tech Journey and E-Waste",
+      "question": "According to the chapter's fun fact, India's tech journey moved from floppy disks to what?",
+      "options": [
+        "Managing massive data centers",
+        "Inventing the CD",
+        "Banning USB drives",
+        "Removing all storage devices"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's fun fact says that from floppy disks to managing massive data centers, India's tech journey is inspiring.",
+      "source": "facts:page20"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "History of Storage, India's Tech Journey and E-Waste",
+      "question": "What environmental concern is linked to advances in storage technology, according to the chapter?",
+      "options": [
+        "E-waste",
+        "Water shortages",
+        "Food waste",
+        "Noise pollution"
+      ],
+      "answer": 0,
+      "explanation": "The chapter notes that storage advancements have an environmental impact through e-waste.",
+      "source": "facts:page21"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Storage, India's Tech Journey and E-Waste",
+      "question": "Which of these is given as an eco-friendly storage option in the chapter?",
+      "options": [
+        "Energy-efficient SSDs",
+        "Old floppy disks",
+        "Disposable USB drives",
+        "Single-use CDs"
+      ],
+      "answer": 0,
+      "explanation": "The chapter gives energy-efficient SSDs as an example of an eco-friendly storage choice.",
+      "source": "facts:page21"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "History of Storage, India's Tech Journey and E-Waste",
+      "question": "How does recycling old storage devices help, according to the chapter?",
+      "options": [
+        "It reduces waste and energy consumption",
+        "It increases the device's storage capacity",
+        "It automatically makes the device faster",
+        "It prevents any future data loss"
+      ],
+      "answer": 0,
+      "explanation": "Recycling old devices helps reduce waste and energy consumption, according to the chapter.",
+      "source": "facts:page21"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "History of Storage, India's Tech Journey and E-Waste",
+      "question": "Which storage medium described in the chapter's history has the SMALLEST typical capacity?",
+      "options": [
+        "An early floppy disk (about 80 KB)",
+        "A CD (about 700 MB)",
+        "A DVD (up to 4.7 GB)",
+        "A 3.5-inch floppy disk (1.44 MB)"
+      ],
+      "answer": 0,
+      "explanation": "Of the capacities mentioned, an early floppy disk's roughly 80 KB is the smallest - even smaller than the improved 3.5-inch floppy disk's 1.44 MB.",
+      "source": "facts:page13"
+    },
+    {
+      "id": "q91",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "History of Storage, India's Tech Journey and E-Waste",
+      "question": "Select ALL storage technologies that came AFTER floppy disks, according to the chapter's history of storage.",
+      "options": [
+        "CDs",
+        "DVDs",
+        "Cloud storage",
+        "Floppy disks"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "CDs, DVDs, and cloud storage all followed floppy disks in the chapter's timeline. Floppy disks themselves are the starting point, not something that came after.",
+      "source": "facts:page19"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "History of Storage, India's Tech Journey and E-Waste",
+      "question": "Which two optical disc formats does the chapter mention as following floppy disks?",
+      "options": [
+        "CDs and DVDs",
+        "USB and cloud storage",
+        "Blu-ray and HD-DVD",
+        "Tape and punch cards"
+      ],
+      "answer": 0,
+      "explanation": "The chapter mentions CDs and DVDs as the storage formats that followed floppy disks.",
+      "source": "facts:page14"
+    },
+    {
+      "id": "q93",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "History of Storage, India's Tech Journey and E-Waste",
+      "question": "According to the chapter, choosing eco-friendly storage options can help reduce environmental impact.",
+      "answer": true,
+      "explanation": "The chapter recommends eco-friendly options, like energy-efficient SSDs, to help reduce the environmental impact of storage technology.",
+      "source": "facts:page21"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "History of Storage, India's Tech Journey and E-Waste",
+      "question": "Why does the chapter highlight the history of storage devices?",
+      "options": [
+        "To show how storage technology has evolved over time, storing more and more data",
+        "To prove that floppy disks are still the best option today",
+        "To show that storage technology never changes",
+        "To argue that computers don't actually need storage"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's history section shows how storage technology evolved, with each new device able to store more data than the one before.",
+      "source": "facts:page19"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "RAM and ROM",
+      "question": "What does RAM stand for?",
+      "options": [
+        "Random Access Memory",
+        "Read Access Memory",
+        "Random Only Memory",
+        "Read Only Memory"
+      ],
+      "answer": 0,
+      "explanation": "RAM stands for Random Access Memory.",
+      "source": "worksheet-L1 Q2c"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "RAM and ROM",
+      "question": "What does ROM stand for?",
+      "options": [
+        "Read Only Memory",
+        "Random Only Memory",
+        "Read Access Memory",
+        "Random Access Memory"
+      ],
+      "answer": 0,
+      "explanation": "ROM stands for Read Only Memory.",
+      "source": "worksheet-L1 Q2d"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "RAM and ROM",
+      "question": "Which type of memory is used for temporary tasks while the computer is on?",
+      "options": [
+        "RAM",
+        "ROM",
+        "A hard drive",
+        "A USB drive"
+      ],
+      "answer": 0,
+      "explanation": "RAM is used for temporary tasks while the computer is on.",
+      "source": "facts:page9"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "RAM and ROM",
+      "question": "Which type of memory stores permanent instructions that do not change?",
+      "options": [
+        "ROM",
+        "RAM",
+        "Cloud storage",
+        "A USB drive"
+      ],
+      "answer": 0,
+      "explanation": "ROM stores permanent instructions that do not change.",
+      "source": "facts:page9"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "RAM and ROM",
+      "question": "The chapter compares RAM to a desk. What point is this comparison making?",
+      "options": [
+        "RAM is used temporarily while working, like a desk holds things only while you use them",
+        "RAM never changes, like a permanent bookshelf",
+        "RAM is always empty and unused",
+        "RAM only works with an internet connection"
+      ],
+      "answer": 0,
+      "explanation": "RAM is like a desk - you keep things on it only while you're working, and it's cleared once you're done, just as RAM is cleared when the computer is off.",
+      "source": "facts:page9"
+    },
+    {
+      "id": "q100",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "RAM and ROM",
+      "question": "RAM is considered volatile memory because it loses data when the computer is turned off.",
+      "answer": true,
+      "explanation": "RAM is volatile memory - it loses its data as soon as the computer is turned off.",
+      "source": "worksheet-L1 Q2h"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "RAM and ROM",
+      "question": "Why is ROM considered 'non-volatile'?",
+      "options": [
+        "It retains data even when the computer is turned off",
+        "It loses data instantly when idle",
+        "It needs a constant internet connection",
+        "It only works while the computer is charging"
+      ],
+      "answer": 0,
+      "explanation": "ROM is non-volatile, meaning it retains its data even when the computer is turned off.",
+      "source": "facts:page16"
+    },
+    {
+      "id": "q102",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "RAM and ROM",
+      "question": "ROM loses its data when the computer is turned off.",
+      "answer": false,
+      "explanation": "ROM does not lose its data when the computer is off - it is non-volatile and retains its information.",
+      "source": "worksheet-L1 Q3b"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "RAM and ROM",
+      "question": "What does ROM help the computer do every time it is turned on?",
+      "options": [
+        "Boot up / start correctly",
+        "Browse the internet faster",
+        "Save more photos",
+        "Connect to Bluetooth devices"
+      ],
+      "answer": 0,
+      "explanation": "ROM contains instructions to start the computer, helping it boot up correctly every time.",
+      "source": "facts:page16"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "RAM and ROM",
+      "question": "RAM is essential for which of these tasks?",
+      "options": [
+        "Running apps and games smoothly",
+        "Starting up the computer for the very first time",
+        "Storing files permanently",
+        "Connecting to a printer"
+      ],
+      "answer": 0,
+      "explanation": "RAM is essential for running apps and games smoothly while the computer is on.",
+      "source": "facts:page15"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "RAM and ROM",
+      "question": "What does more RAM allow a computer to do, according to the chapter?",
+      "options": [
+        "Open multiple browser tabs without slowing down",
+        "Store files permanently forever",
+        "Boot up without any instructions",
+        "Work without any electricity"
+      ],
+      "answer": 0,
+      "explanation": "More RAM allows you to open multiple browser tabs without the computer slowing down.",
+      "source": "facts:page15"
+    },
+    {
+      "id": "q106",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "RAM and ROM",
+      "question": "A computer with 8 GB RAM will generally run faster (for multitasking) than a computer with 2 GB RAM.",
+      "answer": true,
+      "explanation": "More RAM generally allows a computer to handle multiple tasks more smoothly, so 8 GB RAM outperforms 2 GB RAM for multitasking.",
+      "source": "worksheet-L1 Q3c"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "RAM and ROM",
+      "question": "According to the chapter's comparison table, which is generally FASTER: RAM or ROM?",
+      "options": [
+        "RAM",
+        "ROM",
+        "They are equally fast",
+        "Neither is considered fast"
+      ],
+      "answer": 0,
+      "explanation": "The comparison table shows RAM is fast memory used when running programs, while ROM is slower but always available.",
+      "source": "book:page24"
+    },
+    {
+      "id": "q108",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "RAM and ROM",
+      "question": "RAM is typically larger in size compared to ROM.",
+      "answer": true,
+      "explanation": "The comparison table shows RAM is usually larger in size compared to ROM.",
+      "source": "worksheet-L1 Q3e"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "RAM and ROM",
+      "question": "According to the chapter's 'Functions' comparison, what does RAM help a computer do?",
+      "options": [
+        "Do tasks quickly, like opening apps or games",
+        "Store instructions for starting the computer",
+        "Connect to a printer",
+        "Measure temperature"
+      ],
+      "answer": 0,
+      "explanation": "The Functions row of the comparison table shows RAM helps the computer do tasks quickly, like opening apps or games.",
+      "source": "book:page24"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "RAM and ROM",
+      "question": "According to the chapter's 'Functions' comparison, what does ROM store?",
+      "options": [
+        "Important instructions that help the computer start",
+        "Temporary web pages",
+        "Downloaded videos",
+        "Browser history"
+      ],
+      "answer": 0,
+      "explanation": "The Functions row of the comparison table shows ROM stores important instructions that help the computer start.",
+      "source": "book:page24"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "RAM and ROM",
+      "question": "According to the 'RAM vs ROM: The Simple Story' table, what is RAM's 'Job'?",
+      "options": [
+        "Active helper",
+        "Permanent guide",
+        "Storage cupboard",
+        "Backup device"
+      ],
+      "answer": 0,
+      "explanation": "In the RAM vs ROM table, RAM's Job is described as 'Active helper.'",
+      "source": "book:page24"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "RAM and ROM",
+      "question": "According to the 'RAM vs ROM: The Simple Story' table, what is ROM's 'Job'?",
+      "options": [
+        "Permanent guide",
+        "Active helper",
+        "Temporary desk",
+        "Quick worker"
+      ],
+      "answer": 0,
+      "explanation": "In the RAM vs ROM table, ROM's Job is described as 'Permanent guide.'",
+      "source": "book:page24"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "RAM and ROM",
+      "question": "In the 'RAM vs ROM' table's real-life example, RAM is compared to what?",
+      "options": [
+        "Your homework on the desk",
+        "Your textbook on the shelf",
+        "Your school bag",
+        "Your lunch box"
+      ],
+      "answer": 0,
+      "explanation": "The table's real-life example compares RAM to 'your homework on the desk' - something actively being used.",
+      "source": "book:page24"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "RAM and ROM",
+      "question": "In the 'RAM vs ROM' table's real-life example, ROM is compared to what?",
+      "options": [
+        "Your textbook on the shelf",
+        "Your homework on the desk",
+        "Your pencil case",
+        "Your water bottle"
+      ],
+      "answer": 0,
+      "explanation": "The table's real-life example compares ROM to 'your textbook on the shelf' - something permanent and unchanging.",
+      "source": "book:page24"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "RAM and ROM",
+      "question": "According to the 'RAM vs ROM' table's 'Change' row, which best describes RAM?",
+      "options": [
+        "Changes constantly",
+        "Fixed forever",
+        "Never updates",
+        "Changes only once a year"
+      ],
+      "answer": 0,
+      "explanation": "The 'Change' row of the table describes RAM as 'Changes constantly,' in contrast to ROM which is 'Fixed forever.'",
+      "source": "book:page24"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "RAM and ROM",
+      "question": "According to the 'RAM vs ROM' table's 'Change' row, which best describes ROM?",
+      "options": [
+        "Fixed forever",
+        "Changes constantly",
+        "Updates every second",
+        "Resets every hour"
+      ],
+      "answer": 0,
+      "explanation": "The 'Change' row of the table describes ROM as 'Fixed forever,' in contrast to RAM which 'Changes constantly.'",
+      "source": "book:page24"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "RAM and ROM",
+      "question": "Which memory type is described as 'always available,' even though it is slower?",
+      "options": [
+        "ROM",
+        "RAM",
+        "Cloud storage",
+        "A temporary cache"
+      ],
+      "answer": 0,
+      "explanation": "The comparison table describes ROM as slower compared to RAM, but always available.",
+      "source": "book:page24"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "RAM and ROM",
+      "question": "A student says, 'Since ROM is slower, it must be worse than RAM.' Why is this misleading?",
+      "options": [
+        "Because RAM and ROM serve different purposes - ROM's job is to reliably store permanent startup instructions, not to be fast",
+        "Because ROM is actually always faster than RAM",
+        "Because RAM is completely useless compared to ROM",
+        "Because RAM and ROM are exactly identical"
+      ],
+      "answer": 0,
+      "explanation": "Speed isn't the right way to judge ROM, since its purpose is to reliably store permanent instructions the computer needs to start, not to be the fastest memory.",
+      "source": "book:page24"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "RAM and ROM",
+      "question": "RAM and ROM are both described as which type of memory in the chapter?",
+      "options": [
+        "Main memory / primary memory",
+        "Secondary memory only",
+        "Cloud memory",
+        "External memory"
+      ],
+      "answer": 0,
+      "explanation": "Both RAM and ROM are called main memory, essential for computer functions.",
+      "source": "facts:page27"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "RAM and ROM",
+      "question": "Bits are described in the chapter as which of the following?",
+      "options": [
+        "The smallest unit of computer storage",
+        "The largest unit of computer storage",
+        "A type of ROM chip",
+        "A type of cloud service"
+      ],
+      "answer": 0,
+      "explanation": "Bits are the smallest unit of computer storage.",
+      "source": "facts:page26"
+    },
+    {
+      "id": "q121",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "RAM and ROM",
+      "question": "Select ALL statements that are TRUE about RAM.",
+      "options": [
+        "It is temporary/volatile memory",
+        "It is generally faster than ROM",
+        "It is used for active, running tasks",
+        "It retains data forever, even with the power off"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "RAM is temporary/volatile, faster than ROM, and used for active tasks. It does NOT retain data with the power off - that is ROM's job.",
+      "source": "book:page24"
+    },
+    {
+      "id": "q122",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "RAM and ROM",
+      "question": "Select ALL statements that are TRUE about ROM.",
+      "options": [
+        "It is non-volatile",
+        "It stores startup instructions",
+        "It is generally slower than RAM",
+        "It loses its data when the power is off"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "ROM is non-volatile, stores startup instructions, and is slower than RAM. It does NOT lose its data when the power is off - that is RAM's behaviour.",
+      "source": "facts:page16"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "RAM and ROM",
+      "question": "A text message is stored using which unit, according to the chapter?",
+      "options": [
+        "Bytes",
+        "Gigabytes",
+        "Terabytes",
+        "Bits alone, never bytes"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states that a text message is stored in bytes, since a byte can store letters and characters.",
+      "source": "facts:page28"
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "RAM and ROM",
+      "question": "Why can't a computer start up properly without ROM, according to the chapter?",
+      "options": [
+        "Because ROM holds the essential instructions the computer needs to boot and connect its devices",
+        "Because ROM makes the screen brighter",
+        "Because ROM stores all of your personal photos",
+        "Because ROM automatically connects to Wi-Fi"
+      ],
+      "answer": 0,
+      "explanation": "ROM houses essential instructions for computer operation, and ensures the computer starts correctly every time it is turned on.",
+      "source": "facts:page23"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "RAM, Multitasking and Performance",
+      "question": "What is RAM crucial for, according to the chapter?",
+      "options": [
+        "Multitasking on a computer",
+        "Permanently saving photos forever",
+        "Connecting to Wi-Fi",
+        "Measuring room temperature"
+      ],
+      "answer": 0,
+      "explanation": "RAM is crucial for multitasking on a computer.",
+      "source": "facts:page22"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "RAM, Multitasking and Performance",
+      "question": "What does more RAM allow, in terms of multitasking?",
+      "options": [
+        "Smoother performance when using multiple applications",
+        "The computer to turn off faster",
+        "The computer to need less electricity",
+        "The screen to become brighter"
+      ],
+      "answer": 0,
+      "explanation": "More RAM allows for smoother performance when using multiple applications at once.",
+      "source": "facts:page22"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "RAM, Multitasking and Performance",
+      "question": "According to the chapter's example, how much RAM can handle several applications at once without slowing down?",
+      "options": [
+        "8 GB",
+        "512 MB",
+        "128 KB",
+        "2 bits"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's example states that 8 GB of RAM can handle several applications at once without slowing down.",
+      "source": "facts:page22"
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "RAM, Multitasking and Performance",
+      "question": "A student believes: 'If a computer has a lot of storage space, it will always work fast.' Why is this a misconception, according to the chapter's 'Detour' box?",
+      "options": [
+        "Because speed depends more on RAM (like a study table) than on total storage space (like a bookshelf)",
+        "Because storage space has nothing at all to do with computers",
+        "Because RAM and storage space are the exact same thing",
+        "Because computers never slow down for any reason"
+      ],
+      "answer": 0,
+      "explanation": "The Detour box explains that speed depends more on memory (RAM), which is like a study table, not on how much storage space (the bookshelf) a computer has.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "RAM, Multitasking and Performance",
+      "question": "In the chapter's bookshelf-and-desk analogy about computer speed, what does the 'study table' represent?",
+      "options": [
+        "RAM",
+        "Storage / the bookshelf",
+        "The internet connection",
+        "The keyboard"
+      ],
+      "answer": 0,
+      "explanation": "In the analogy, the study table represents RAM - the memory used for active work.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "RAM, Multitasking and Performance",
+      "question": "In the chapter's bookshelf-and-desk analogy about computer speed, what does the 'bookshelf' represent?",
+      "options": [
+        "Storage (where files and books are kept)",
+        "RAM",
+        "The CPU",
+        "The monitor"
+      ],
+      "answer": 0,
+      "explanation": "In the analogy, the bookshelf represents storage, where files are kept long-term - separate from RAM, the study table used for active work.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "RAM, Multitasking and Performance",
+      "question": "Even with a big 'bookshelf' (lots of storage), why might a computer still run slowly, according to the Detour box?",
+      "options": [
+        "Because the 'study table' (RAM) is small and crowded",
+        "Because storage should never be kept full",
+        "Because the bookshelf is too well organised",
+        "Because there are simply too many files stored"
+      ],
+      "answer": 0,
+      "explanation": "The Detour box explains that even with plenty of storage, if the study table (RAM) is small and crowded, work becomes slow.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "RAM, Multitasking and Performance",
+      "question": "In the performance chart, what happens when opening just ONE browser tab with a simple game or video, regardless of whether the computer has 2 GB, 4 GB, or 8 GB of RAM?",
+      "options": [
+        "The computer runs smoothly in all three cases",
+        "It always freezes",
+        "It only works with 8 GB RAM",
+        "It never works"
+      ],
+      "answer": 0,
+      "explanation": "The performance chart shows that opening one tab with a simple game or video runs smoothly on 2 GB, 4 GB, and 8 GB of RAM alike.",
+      "source": "worksheet-L2 Q3"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "RAM, Multitasking and Performance",
+      "question": "According to the performance chart, what happens with 2 GB RAM when opening two browser tabs, playing music, and using a word processor together?",
+      "options": [
+        "The computer starts to slow down and take time to open things",
+        "It runs perfectly smoothly",
+        "It turns off automatically",
+        "It crashes immediately"
+      ],
+      "answer": 0,
+      "explanation": "With only 2 GB of RAM, doing these tasks together causes the computer to slow down and take time to open things.",
+      "source": "worksheet-L2 Q3"
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "RAM, Multitasking and Performance",
+      "question": "According to the performance chart, what happens with 4 GB RAM for the same multitasking (two tabs, music, and a word processor)?",
+      "options": [
+        "The computer can handle it easily, switching between tasks without waiting",
+        "It slows down badly",
+        "It freezes completely",
+        "It crashes"
+      ],
+      "answer": 0,
+      "explanation": "With 4 GB of RAM, the computer can handle these tasks easily and switch between them without waiting.",
+      "source": "worksheet-L2 Q3"
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "RAM, Multitasking and Performance",
+      "question": "According to the performance chart, what happens with only 2 GB RAM when opening several browser tabs, playing a game, AND using a photo editing program at the same time?",
+      "options": [
+        "The computer may freeze or even crash",
+        "It runs perfectly",
+        "It becomes faster",
+        "Nothing changes at all"
+      ],
+      "answer": 0,
+      "explanation": "With only 2 GB of RAM, this heavy combination of tasks may cause the computer to freeze or crash.",
+      "source": "worksheet-L2 Q3"
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "RAM, Multitasking and Performance",
+      "question": "Which RAM size, according to the performance chart, allows a computer to run quickly and juggle many heavy tasks (several tabs, a game, and a photo editor) at once?",
+      "options": [
+        "8 GB",
+        "2 GB",
+        "4 GB",
+        "1 GB"
+      ],
+      "answer": 0,
+      "explanation": "The performance chart shows that 8 GB of RAM runs quickly and juggles many tasks at once, even the heaviest combination.",
+      "source": "worksheet-L2 Q3"
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "RAM, Multitasking and Performance",
+      "question": "For someone who mainly uses a computer to watch a video or play a simple game, how much RAM does the worksheet suggest is sufficient?",
+      "options": [
+        "2 GB",
+        "8 GB",
+        "16 GB",
+        "512 MB"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet's answer key states that 2 GB of RAM is sufficient for watching a video or playing a simple game.",
+      "source": "worksheet-L2 Q3"
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "RAM, Multitasking and Performance",
+      "question": "For someone who writes a story while listening to music and browsing the web, what minimum RAM does the worksheet recommend?",
+      "options": [
+        "4 GB",
+        "2 GB",
+        "8 GB",
+        "1 GB"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet's answer key recommends a minimum of 4 GB RAM for writing a story while listening to music and browsing the web.",
+      "source": "worksheet-L2 Q3"
+    },
+    {
+      "id": "q139",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "RAM, Multitasking and Performance",
+      "question": "Based on the performance chart, which RAM amount is the minimum needed to handle two tabs, music, and a word processor together WITHOUT slowing down?",
+      "options": [
+        "4 GB",
+        "2 GB",
+        "1 GB",
+        "512 MB"
+      ],
+      "answer": 0,
+      "explanation": "The chart shows that 2 GB slows down for this combination, but 4 GB (and 8 GB) can handle it easily - so 4 GB is the minimum needed to avoid slowdown.",
+      "source": "worksheet-L2 Q3"
+    },
+    {
+      "id": "q140",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "RAM, Multitasking and Performance",
+      "question": "RAM is crucial for multitasking on a computer.",
+      "answer": true,
+      "explanation": "The chapter directly states that RAM is crucial for multitasking on a computer.",
+      "source": "facts:page22"
+    },
+    {
+      "id": "q141",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "RAM, Multitasking and Performance",
+      "question": "Which best summarises the relationship between RAM and multitasking, according to the chapter?",
+      "options": [
+        "More RAM generally means smoother performance with multiple applications running at once",
+        "More RAM means less storage space overall",
+        "More RAM makes the screen physically bigger",
+        "RAM has no effect on multitasking at all"
+      ],
+      "answer": 0,
+      "explanation": "The chapter explains that more RAM allows smoother performance when using multiple applications at once.",
+      "source": "facts:page22"
+    },
+    {
+      "id": "q142",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "RAM, Multitasking and Performance",
+      "question": "Select ALL scenarios where a computer with only 2 GB of RAM might struggle or slow down, according to the performance chart.",
+      "options": [
+        "Opening two tabs, music, and a word processor together",
+        "Opening several tabs, a game, and a photo editor together",
+        "Opening one tab with a simple game or video"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The performance chart shows 2 GB RAM slows down or may even crash with heavier multitasking, but runs smoothly with just one simple tab.",
+      "source": "worksheet-L2 Q3"
+    },
+    {
+      "id": "q143",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "RAM, Multitasking and Performance",
+      "question": "What is the main lesson of the chapter's 'Golden Rule' about storage and memory?",
+      "options": [
+        "Important files need permanent storage; quick tasks need temporary storage",
+        "Everything should always be stored in RAM",
+        "Nothing on a computer needs any storage at all",
+        "ROM should be used to store your photos"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's Golden Rule states that important files need permanent storage, while quick tasks need temporary storage.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q144",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "RAM, Multitasking and Performance",
+      "question": "Why does the chapter say 'Storage is like a bookshelf... Speed depends more on memory (RAM)'?",
+      "options": [
+        "To clarify that having lots of storage space doesn't guarantee a fast computer - RAM affects speed and multitasking more directly",
+        "To say that storage doesn't matter at all for computers",
+        "To say that RAM and storage are identical things",
+        "To say that computers never actually need RAM"
+      ],
+      "answer": 0,
+      "explanation": "This comparison clarifies that storage space alone doesn't determine speed; RAM has a bigger direct effect on how quickly and smoothly a computer can multitask.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q145",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Problem-Solving: Samira's Storage Challenge",
+      "question": "How many videos does Samira need to store, according to the worksheet scenario?",
+      "options": [
+        "5 videos",
+        "10 videos",
+        "3 videos",
+        "200 videos"
+      ],
+      "answer": 0,
+      "explanation": "In the worksheet scenario, Samira has 5 videos to store, each 1 GB in size.",
+      "source": "worksheet-L2 Q1"
+    },
+    {
+      "id": "q146",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Problem-Solving: Samira's Storage Challenge",
+      "question": "How large is each of Samira's videos?",
+      "options": [
+        "1 GB",
+        "5 MB",
+        "500 KB",
+        "3 GB"
+      ],
+      "answer": 0,
+      "explanation": "Each of Samira's 5 videos is 1 GB in size.",
+      "source": "worksheet-L2 Q1"
+    },
+    {
+      "id": "q147",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Problem-Solving: Samira's Storage Challenge",
+      "question": "How many photos does Samira have to store?",
+      "options": [
+        "200 photos",
+        "5 photos",
+        "10 photos",
+        "1 photo"
+      ],
+      "answer": 0,
+      "explanation": "Samira has 200 photos to store, each 5 MB in size.",
+      "source": "worksheet-L2 Q1"
+    },
+    {
+      "id": "q148",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Problem-Solving: Samira's Storage Challenge",
+      "question": "How large is each of Samira's photos?",
+      "options": [
+        "5 MB",
+        "1 GB",
+        "500 KB",
+        "3 GB"
+      ],
+      "answer": 0,
+      "explanation": "Each of Samira's 200 photos is 5 MB in size.",
+      "source": "worksheet-L2 Q1"
+    },
+    {
+      "id": "q149",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Problem-Solving: Samira's Storage Challenge",
+      "question": "How many documents does Samira need to store?",
+      "options": [
+        "10 documents",
+        "200 documents",
+        "5 documents",
+        "1 document"
+      ],
+      "answer": 0,
+      "explanation": "Samira has 10 documents to store, each 500 KB in size.",
+      "source": "worksheet-L2 Q1"
+    },
+    {
+      "id": "q150",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Problem-Solving: Samira's Storage Challenge",
+      "question": "How large is each of Samira's documents?",
+      "options": [
+        "500 KB",
+        "5 MB",
+        "1 GB",
+        "3 GB"
+      ],
+      "answer": 0,
+      "explanation": "Each of Samira's 10 documents is 500 KB in size.",
+      "source": "worksheet-L2 Q1"
+    },
+    {
+      "id": "q151",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Problem-Solving: Samira's Storage Challenge",
+      "question": "How large is Samira's one game file?",
+      "options": [
+        "3 GB",
+        "1 GB",
+        "5 MB",
+        "500 KB"
+      ],
+      "answer": 0,
+      "explanation": "Samira's one game file is 3 GB in size.",
+      "source": "worksheet-L2 Q1"
+    },
+    {
+      "id": "q152",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Worksheet Problem-Solving: Samira's Storage Challenge",
+      "question": "According to the worksheet's answer key, what is the total storage Samira needs for all her items?",
+      "options": [
+        "About 9.005 GB (or 9 GB and 5 MB)",
+        "Exactly 8 GB",
+        "5 GB",
+        "3 GB"
+      ],
+      "answer": 0,
+      "explanation": "The worksheet's answer key gives the total storage needed as 9.005 GB, or 9 GB and 5 MB.",
+      "source": "worksheet-L2 Q1"
+    },
+    {
+      "id": "q153",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Problem-Solving: Samira's Storage Challenge",
+      "question": "Does everything Samira wants to store fit on an 8 GB USB drive?",
+      "options": [
+        "No, since her total need (about 9 GB) is more than 8 GB",
+        "Yes, easily",
+        "Yes, but only if she deletes the game",
+        "Yes, but only the videos fit"
+      ],
+      "answer": 0,
+      "explanation": "Since Samira needs about 9 GB in total, it does not all fit on an 8 GB USB drive - the answer key confirms 'No.'",
+      "source": "worksheet-L2 Q1"
+    },
+    {
+      "id": "q154",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Problem-Solving: Samira's Storage Challenge",
+      "question": "If Samira only has 5 GB of free cloud storage, which of her items could she store there entirely, per the answer key?",
+      "options": [
+        "Her 5 videos (5 GB total)",
+        "All of her items together",
+        "Just 1 document",
+        "Nothing at all"
+      ],
+      "answer": 0,
+      "explanation": "The answer key suggests Samira could store her 5 videos (5 GB total) in the cloud, since this fits within her 5 GB of free cloud space.",
+      "source": "worksheet-L2 Q1"
+    },
+    {
+      "id": "q155",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Problem-Solving: Samira's Storage Challenge",
+      "question": "Besides storing all 5 videos in the cloud, what is another valid option the answer key gives for what to put in the cloud?",
+      "options": [
+        "The 200 photos and 10 documents together",
+        "Only 1 photo",
+        "Only half of one video",
+        "The empty USB drive itself"
+      ],
+      "answer": 0,
+      "explanation": "The answer key also allows storing the 200 photos and 10 documents together in the cloud, since their combined size fits within 5 GB.",
+      "source": "worksheet-L2 Q1"
+    },
+    {
+      "id": "q156",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Problem-Solving: Samira's Storage Challenge",
+      "question": "According to the answer key, could Samira also choose to store just her 1 game (3 GB) in the cloud?",
+      "options": [
+        "Yes, since 3 GB fits within her 5 GB of free cloud space",
+        "No, the game is too big for the cloud",
+        "No, games can never be stored in the cloud",
+        "Yes, but only using an SSD"
+      ],
+      "answer": 0,
+      "explanation": "The answer key allows any combination adding up to between about 1.005 GB and 5 GB, so storing just the 3 GB game in the cloud is a valid option.",
+      "source": "worksheet-L2 Q1"
+    },
+    {
+      "id": "q157",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Worksheet Problem-Solving: Samira's Storage Challenge",
+      "question": "Why can't Samira simply ignore the 8 GB limit and save all her files to the USB drive anyway?",
+      "options": [
+        "Because a storage device can only hold as much data as its capacity allows; once full, no more files can be saved",
+        "Because USB drives automatically expand their capacity when needed",
+        "Because storage limits don't really apply to USB drives",
+        "Because the files would automatically shrink to fit"
+      ],
+      "answer": 0,
+      "explanation": "A storage device's capacity is a real limit - once it is full, no more files can be saved, which is why Samira must plan which files go where.",
+      "source": "facts:page3"
+    },
+    {
+      "id": "q158",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Problem-Solving: Samira's Storage Challenge",
+      "question": "If Samira wants to reduce what she has to manage on her USB drive, which strategy best matches the answer key's suggestion?",
+      "options": [
+        "Move large items (like the videos or the game) to the cloud, since together they use much of her free cloud space",
+        "Move only the smallest documents to the cloud",
+        "Delete all of her files immediately",
+        "Avoid using any additional storage at all"
+      ],
+      "answer": 0,
+      "explanation": "The answer key's suggestions focus on moving larger items (like all 5 videos, or the game) to the cloud to make the best use of her limited free cloud space.",
+      "source": "worksheet-L2 Q1"
+    },
+    {
+      "id": "q159",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Worksheet Problem-Solving: Samira's Storage Challenge",
+      "question": "Samira's total storage need (about 9 GB) is more than what her 8 GB USB drive can hold.",
+      "answer": true,
+      "explanation": "Since Samira needs about 9 GB total and her USB drive holds only 8 GB, everything cannot fit on the USB drive alone.",
+      "source": "worksheet-L2 Q1"
+    },
+    {
+      "id": "q160",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Worksheet Problem-Solving: Samira's Storage Challenge",
+      "question": "According to the answer key, Samira can store her 200 photos and 10 documents together in the cloud if she has 5 GB free.",
+      "answer": true,
+      "explanation": "The 200 photos (1000 MB) plus 10 documents (5000 KB) together take up just over 1 GB, which comfortably fits within 5 GB of free cloud space.",
+      "source": "worksheet-L2 Q1"
+    },
+    {
+      "id": "q161",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Problem-Solving: Samira's Storage Challenge",
+      "question": "What real-world storage skill does Samira's problem help practice?",
+      "options": [
+        "Deciding which files to prioritise when storage space is limited",
+        "Memorising the alphabet",
+        "Learning to type faster",
+        "Drawing pictures of computers"
+      ],
+      "answer": 0,
+      "explanation": "Samira's storage problem helps practice calculating storage needs and deciding which files to prioritise when space is limited.",
+      "source": "worksheet-L2 Q1"
+    },
+    {
+      "id": "q162",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Problem-Solving: Samira's Storage Challenge",
+      "question": "Which of Samira's item types takes up the LEAST total space, across all items of that type?",
+      "options": [
+        "Her 10 documents (500 KB each, about 4.88 MB total)",
+        "Her 5 videos (1 GB each)",
+        "Her 200 photos (5 MB each)",
+        "Her 1 game (3 GB)"
+      ],
+      "answer": 0,
+      "explanation": "Samira's 10 documents at 500 KB each add up to only about 4.88 MB total, far less than her videos, photos, or game.",
+      "source": "worksheet-L2 Q1"
+    },
+    {
+      "id": "q163",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Worksheet Problem-Solving: Samira's Storage Challenge",
+      "question": "Which of Samira's item types takes up the MOST total space, across all items of that type?",
+      "options": [
+        "Her 5 videos (5 GB total)",
+        "Her 10 documents",
+        "Her 200 photos (about 0.98 GB total)",
+        "Her 1 game (3 GB)"
+      ],
+      "answer": 0,
+      "explanation": "Samira's 5 videos at 1 GB each total 5 GB, which is more than her game (3 GB), her photos (about 0.98 GB), or her documents (about 4.88 MB).",
+      "source": "worksheet-L2 Q1"
+    },
+    {
+      "id": "q164",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Worksheet Problem-Solving: Samira's Storage Challenge",
+      "question": "If Samira had to choose ONE type of file to delete first to free up the most space, which should she pick?",
+      "options": [
+        "Her videos (since they take up the most total space, 5 GB)",
+        "Her documents (since they take up the least total space)",
+        "Her photos",
+        "Her game"
+      ],
+      "answer": 0,
+      "explanation": "Since Samira's 5 videos together take up the most total space (5 GB), deleting them would free up the most space, though her documents take up the least space and would free the least.",
+      "source": "worksheet-L2 Q1"
+    },
+    {
+      "id": "q165",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Problem-Solving: Samira's Storage Challenge",
+      "question": "What kind of real-life skill does matching a storage device to its description (as in the worksheet) help build?",
+      "options": [
+        "Recognising and choosing the right storage device for a situation",
+        "Memorising spelling words",
+        "Practicing handwriting",
+        "Learning musical notes"
+      ],
+      "answer": 0,
+      "explanation": "Matching storage devices to their descriptions helps students recognise and choose the right storage device for different situations.",
+      "source": "worksheet-L2 Q2"
+    },
+    {
+      "id": "q166",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Worksheet Problem-Solving: Samira's Storage Challenge",
+      "question": "According to the answer key, storing just the game (3 GB) in the cloud while keeping the videos, photos, and documents on the USB drive is one acceptable solution.",
+      "answer": true,
+      "explanation": "If the 3 GB game goes to the cloud, the remaining videos, photos, and documents total under 6 GB, which fits comfortably on the 8 GB USB drive, and 3 GB fits within the 5 GB cloud limit.",
+      "source": "worksheet-L2 Q1"
+    },
+    {
+      "id": "q167",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Worksheet Problem-Solving: Samira's Storage Challenge",
+      "question": "What does this worksheet activity mainly teach students to do?",
+      "options": [
+        "Calculate total storage needs and make decisions about where to store different files",
+        "Memorise storage unit names only",
+        "Learn to write computer code",
+        "Design a website"
+      ],
+      "answer": 0,
+      "explanation": "The activity teaches students to calculate total storage needs and decide where to store different files given limited space.",
+      "source": "worksheet-L2 Q1"
+    },
+    {
+      "id": "q168",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "What is the title of the chapter's opening section that poses its guiding question?",
+      "options": [
+        "Embark",
+        "Detour",
+        "Guidepost",
+        "Trail Treasure"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's opening section, which poses its guiding question, is titled 'Embark.'",
+      "source": "book:page7"
+    },
+    {
+      "id": "q169",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "According to the chapter's opening ('Embark') question, what must we decide when space and capacity are limited?",
+      "options": [
+        "What to keep and what to discard",
+        "How to charge our devices",
+        "How to connect to Wi-Fi",
+        "How loudly to play music"
+      ],
+      "answer": 0,
+      "explanation": "The Embark question asks what choices we must make about knowledge and storage when space and capacity are limited - namely, what to keep and what to discard.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q170",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "The chapter's opening image shows a computer alongside which other object, to represent organising and storing knowledge?",
+      "options": [
+        "A bookshelf full of books",
+        "A musical instrument",
+        "A bicycle",
+        "A kitchen stove"
+      ],
+      "answer": 0,
+      "explanation": "The opening image pairs a computer with a bookshelf full of books, tying together how both organise and store knowledge.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q171",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "According to the 'Nutrition Junction' section, which foods are highlighted as rich in Omega-3 and good for memory?",
+      "options": [
+        "Almonds and walnuts",
+        "Bananas",
+        "Carrots",
+        "Water"
+      ],
+      "answer": 0,
+      "explanation": "'Nutrition Junction' highlights almonds and walnuts as rich in Omega-3, improving memory.",
+      "source": "facts:page29"
+    },
+    {
+      "id": "q172",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "How many almonds does the chapter suggest snacking on before computer class?",
+      "options": [
+        "5-6 almonds",
+        "50-60 almonds",
+        "1-2 almonds",
+        "20-25 almonds"
+      ],
+      "answer": 0,
+      "explanation": "The chapter suggests snacking on 5-6 almonds before computer class.",
+      "source": "book:page29"
+    },
+    {
+      "id": "q173",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "According to 'Nutrition Junction,' which food provides quick energy for the brain, similar to how RAM needs energy to function?",
+      "options": [
+        "Bananas",
+        "Carrots",
+        "Water",
+        "Curd"
+      ],
+      "answer": 0,
+      "explanation": "Bananas provide quick energy for the brain, which the chapter compares to how RAM needs energy to function.",
+      "source": "book:page29"
+    },
+    {
+      "id": "q174",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "According to 'Nutrition Junction,' about what percentage of our bodies is water?",
+      "options": [
+        "60%",
+        "10%",
+        "90%",
+        "25%"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states that our bodies are about 60% water.",
+      "source": "book:page29"
+    },
+    {
+      "id": "q175",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "Why does the chapter compare water to 'the ultimate storage for your body'?",
+      "options": [
+        "Because just as computers need memory, our bodies need hydration to function well",
+        "Because water is used to physically cool down computer chips",
+        "Because water can literally store computer files",
+        "Because water is described as a type of RAM"
+      ],
+      "answer": 0,
+      "explanation": "The comparison highlights that just as computers need memory to function, our bodies need hydration (water) to function well.",
+      "source": "book:page29"
+    },
+    {
+      "id": "q176",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "How often does the chapter suggest drinking water during computer work?",
+      "options": [
+        "Every 30 minutes",
+        "Every 5 minutes",
+        "Once a day",
+        "Only after finishing all work"
+      ],
+      "answer": 0,
+      "explanation": "The chapter suggests drinking water every 30 minutes during computer work.",
+      "source": "book:page29"
+    },
+    {
+      "id": "q177",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "According to 'Nutrition Junction,' which food is good for your eyes and helps reduce strain while reading file sizes or organising folders?",
+      "options": [
+        "Carrots",
+        "Bananas",
+        "Almonds",
+        "Curd"
+      ],
+      "answer": 0,
+      "explanation": "Carrots are described as good for the eyes, helping reduce strain when reading file sizes or organising folders on screen.",
+      "source": "book:page29"
+    },
+    {
+      "id": "q178",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "In the 'Indian Thali Approach to Digital Learning,' what do proteins like dal or paneer help build?",
+      "options": [
+        "Strong memory skills",
+        "Eye health only",
+        "Digestion only",
+        "Energy alone"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's thali analogy states that proteins (dal/paneer) build strong memory skills.",
+      "source": "book:page29"
+    },
+    {
+      "id": "q179",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "In the 'Indian Thali Approach,' what do carbs like rice or roti give you?",
+      "options": [
+        "Energy for problem-solving",
+        "Strong memory skills",
+        "Healthy eyes",
+        "Better digestion"
+      ],
+      "answer": 0,
+      "explanation": "The thali analogy states that carbs (rice/roti) give energy for problem-solving.",
+      "source": "book:page29"
+    },
+    {
+      "id": "q180",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "In the 'Indian Thali Approach,' what role do vegetables play?",
+      "options": [
+        "Keeping eyes and brain healthy",
+        "Building only muscle",
+        "Providing only energy",
+        "Storing data"
+      ],
+      "answer": 0,
+      "explanation": "The thali analogy states that vegetables keep eyes and brain healthy.",
+      "source": "book:page29"
+    },
+    {
+      "id": "q181",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "In the 'Indian Thali Approach,' what does curd help with?",
+      "options": [
+        "Digestion and focus",
+        "Eyesight only",
+        "Memory only",
+        "Energy only"
+      ],
+      "answer": 0,
+      "explanation": "The thali analogy states that curd aids digestion and focus.",
+      "source": "book:page29"
+    },
+    {
+      "id": "q182",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "What playful term does the chapter use for the human brain in the 'Nutrition Junction' section?",
+      "options": [
+        "'Biological RAM'",
+        "'Digital ROM'",
+        "'Cloud Brain'",
+        "'Human Hard Drive'"
+      ],
+      "answer": 0,
+      "explanation": "The chapter playfully calls the human brain your 'biological RAM,' linking brain health to computer memory concepts.",
+      "source": "facts:page29"
+    },
+    {
+      "id": "q183",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "According to the chapter, what you eat can affect how well you use computers.",
+      "answer": true,
+      "explanation": "'Nutrition Junction' explains the connection between diet and how well you understand and use computers.",
+      "source": "facts:page29"
+    },
+    {
+      "id": "q184",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "What is the main message of the 'Nutrition Junction' section's closing 'Remember' note?",
+      "options": [
+        "A well-nourished body supports a sharp mind, which learns computer concepts faster",
+        "Eating has no effect on learning at all",
+        "Only water matters for learning, not food",
+        "Food should be avoided before computer class"
+      ],
+      "answer": 0,
+      "explanation": "The closing note says a well-nourished body supports a sharp mind, and a sharp mind learns computer concepts faster.",
+      "source": "book:page29"
+    },
+    {
+      "id": "q185",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "What is the name of the chapter's activity page about researching storage companies and checking browser history?",
+      "options": [
+        "Cyber Station",
+        "Guidepost",
+        "Trail Treasure",
+        "Detour"
+      ],
+      "answer": 0,
+      "explanation": "The activity about researching storage companies and checking browser history is titled 'Cyber Station.'",
+      "source": "book:page18"
+    },
+    {
+      "id": "q186",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "In the 'Cyber Station' activity, after closing all windows and restarting the computer, what happens to the previously visited websites in the browser history?",
+      "options": [
+        "They are still available/visible in the history",
+        "They disappear completely",
+        "They automatically turn into bookmarks",
+        "They get deleted automatically"
+      ],
+      "answer": 0,
+      "explanation": "The activity asks students to check that browser history remains visible even after a restart, showing that this data is not lost.",
+      "source": "book:page18"
+    },
+    {
+      "id": "q187",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "Based on the 'Cyber Station' activity's finding that browser history survives a restart, is browser history part of permanent storage or temporary storage?",
+      "options": [
+        "Permanent storage, since it is saved and available even after the computer restarts",
+        "Temporary storage, since browsing happens on the screen",
+        "Neither - browser history isn't stored at all",
+        "Both equally, with no real difference"
+      ],
+      "answer": 0,
+      "explanation": "Since browser history remains available even after a shutdown and restart, it must be saved in permanent storage rather than being cleared like temporary storage.",
+      "source": "book:page18"
+    },
+    {
+      "id": "q188",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "While you are actively browsing a webpage, which type of storage is being used to show the website content on screen at that moment?",
+      "options": [
+        "Temporary storage (RAM), for quick access while the page is open",
+        "Permanent storage, since websites are saved forever",
+        "ROM, since it never changes",
+        "None - browsers don't use any storage"
+      ],
+      "answer": 0,
+      "explanation": "While actively browsing, temporary storage (RAM) is used to quickly display the website content on screen, even though the browsing history itself gets saved permanently.",
+      "source": "book:page18"
+    },
+    {
+      "id": "q189",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "What does the chapter's opening question suggest a bookshelf and a computer can both teach us about?",
+      "options": [
+        "How humans collect, organise, protect, and value knowledge",
+        "How to fix a broken computer",
+        "How to build a wooden bookshelf",
+        "How to browse the internet faster"
+      ],
+      "answer": 0,
+      "explanation": "The Embark question asks what a bookshelf and a computer can teach us about how humans collect, organise, protect, and value knowledge.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q190",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "According to the Cyber Station activity, checking your browser history after a restart proves that some browsing data is saved permanently, not just temporarily.",
+      "answer": true,
+      "explanation": "Because the browser history remains after a restart, this shows it is saved in permanent storage rather than being cleared like temporary data.",
+      "source": "book:page18"
+    },
+    {
+      "id": "q191",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Computers, Brains and Everyday Life",
+      "question": "Which food from 'Nutrition Junction' is specifically linked to helping digestion and focus?",
+      "options": [
+        "Curd",
+        "Almonds",
+        "Bananas",
+        "Carrots"
+      ],
+      "answer": 0,
+      "explanation": "Curd is linked in the chapter's thali analogy to aiding digestion and focus.",
+      "source": "book:page29"
+    },
+    {
+      "id": "q192",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "What are microprocessor chips compared to, in the chapter?",
+      "options": [
+        "Tiny brains for computers",
+        "Tiny storage boxes",
+        "Tiny screens",
+        "Tiny keyboards"
+      ],
+      "answer": 0,
+      "explanation": "Microprocessor chips are described as being like tiny brains for computers.",
+      "source": "facts:page6"
+    },
+    {
+      "id": "q193",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "What do microprocessor chips help a computer do?",
+      "options": [
+        "Process tasks and run applications",
+        "Store files permanently forever",
+        "Connect to Wi-Fi only",
+        "Measure room temperature"
+      ],
+      "answer": 0,
+      "explanation": "Microprocessor chips help process tasks and run applications on a computer.",
+      "source": "facts:page6"
+    },
+    {
+      "id": "q194",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "What does a computer's speed mainly depend on, according to the chapter's microprocessor fact?",
+      "options": [
+        "The microprocessor's efficiency",
+        "The number of USB ports it has",
+        "The colour of its case",
+        "The size of its screen"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states that a computer's speed depends on the microprocessor's efficiency.",
+      "source": "facts:page6"
+    },
+    {
+      "id": "q195",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "Which units help measure file sizes, according to the chapter?",
+      "options": [
+        "Bytes, kilobytes, and gigabytes",
+        "Newtons",
+        "Degrees Celsius",
+        "Litres"
+      ],
+      "answer": 0,
+      "explanation": "Bytes, kilobytes, and gigabytes help measure file sizes.",
+      "source": "facts:page7"
+    },
+    {
+      "id": "q196",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "Different types of files require different amounts of storage space.",
+      "answer": true,
+      "explanation": "The chapter states that different types of files require different amounts of storage space.",
+      "source": "facts:page7"
+    },
+    {
+      "id": "q197",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "Which typically requires MORE storage space: photos or text files?",
+      "options": [
+        "Photos",
+        "Text files",
+        "They always need exactly the same space",
+        "Neither needs any storage space"
+      ],
+      "answer": 0,
+      "explanation": "The chapter notes that photos typically require more storage space than text files.",
+      "source": "facts:page7"
+    },
+    {
+      "id": "q198",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "A student says, 'All files take up the same amount of storage no matter what they contain.' Why is this incorrect?",
+      "options": [
+        "Because different types of files, like photos versus text, require different amounts of storage space",
+        "Because all files are actually free and take no storage",
+        "Because storage rules don't apply to files at all",
+        "Because only videos ever use storage space"
+      ],
+      "answer": 0,
+      "explanation": "The chapter explains that different file types need different amounts of space - for example, photos typically need more space than text files.",
+      "source": "facts:page7"
+    },
+    {
+      "id": "q199",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "Select ALL of these that are examples of PERMANENT storage.",
+      "options": [
+        "Hard drive",
+        "USB drive",
+        "Cloud storage",
+        "RAM"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Hard drives, USB drives, and cloud storage are permanent storage. RAM is temporary, not permanent.",
+      "source": "facts:page8"
+    },
+    {
+      "id": "q200",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "Select ALL of these that are examples of TEMPORARY storage.",
+      "options": [
+        "RAM",
+        "Hard drive",
+        "USB drive",
+        "Cloud storage"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "RAM is temporary storage. Hard drives, USB drives, and cloud storage are all permanent storage.",
+      "source": "facts:page9"
+    },
+    {
+      "id": "q201",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "Which comes first in the storage unit sequence: Kilobyte or Megabyte?",
+      "options": [
+        "Kilobyte",
+        "Megabyte",
+        "They are the same size",
+        "Gigabyte comes first"
+      ],
+      "answer": 0,
+      "explanation": "In the storage unit sequence, Kilobyte comes before Megabyte (Bit, Byte, Kilobyte, Megabyte...).",
+      "source": "book:page11"
+    },
+    {
+      "id": "q202",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "A Terabyte (TB) is smaller than a Gigabyte (GB).",
+      "answer": false,
+      "explanation": "A Terabyte is much larger than a Gigabyte - 1 Terabyte equals 1024 Gigabytes.",
+      "source": "worksheet-L1 Q3f"
+    },
+    {
+      "id": "q203",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "Which of these correctly ranks storage units from LARGEST to SMALLEST?",
+      "options": [
+        "Terabyte, Gigabyte, Megabyte, Kilobyte",
+        "Kilobyte, Megabyte, Gigabyte, Terabyte",
+        "Gigabyte, Terabyte, Kilobyte, Megabyte",
+        "Megabyte, Kilobyte, Terabyte, Gigabyte"
+      ],
+      "answer": 0,
+      "explanation": "From largest to smallest, the correct order is Terabyte, Gigabyte, Megabyte, Kilobyte - the opposite of the usual smallest-to-largest order.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q204",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "Which of these is temporary and is cleared when the computer is turned off?",
+      "options": [
+        "RAM",
+        "ROM",
+        "A hard drive",
+        "A USB drive"
+      ],
+      "answer": 0,
+      "explanation": "RAM is temporary storage and is cleared when the computer is turned off.",
+      "source": "facts:page9"
+    },
+    {
+      "id": "q205",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "Which of these retains its data even when the computer is off?",
+      "options": [
+        "ROM",
+        "RAM only",
+        "Nothing does",
+        "The CPU cache always clears"
+      ],
+      "answer": 0,
+      "explanation": "ROM retains its data even when the computer is turned off, unlike RAM.",
+      "source": "facts:page16"
+    },
+    {
+      "id": "q206",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "Why do computers need BOTH permanent and temporary storage, rather than just one type?",
+      "options": [
+        "Because permanent storage saves files long-term while temporary storage (RAM) allows quick, active work - each serves a different purpose",
+        "Because temporary storage is completely useless",
+        "Because using permanent storage alone is against the rules",
+        "Because computers only ever need permanent storage"
+      ],
+      "answer": 0,
+      "explanation": "Permanent storage keeps files safe long-term, while temporary storage (RAM) supports quick, active tasks - the two work together for different needs.",
+      "source": "facts:page2"
+    },
+    {
+      "id": "q207",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "Which best summarises the overall difference between storage (like a hard drive) and memory (like RAM)?",
+      "options": [
+        "Storage holds data long-term (like a bookshelf); RAM holds data only while actively working (like a desk)",
+        "Storage and RAM are exactly the same thing",
+        "Storage is always faster than RAM",
+        "RAM never loses any data"
+      ],
+      "answer": 0,
+      "explanation": "Storage is for long-term keeping, like a bookshelf, while RAM is for active work, like a desk that is cleared once you're done.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q208",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "Select ALL of the following that are TRUE about the chapter's overall lessons on storage and memory.",
+      "options": [
+        "Different storage devices suit different needs",
+        "Storage capacity and RAM affect a computer differently",
+        "Old storage technologies evolved over time into newer ones",
+        "Storage capacity is the ONLY thing that affects computer speed"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The chapter teaches that different devices suit different needs, storage and RAM affect computers differently, and storage technology evolved over time. It does NOT say storage capacity alone determines speed - RAM matters more for speed.",
+      "source": "facts:page19"
+    },
+    {
+      "id": "q209",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "According to the chapter, what should you do to help reduce e-waste and environmental impact from storage devices?",
+      "options": [
+        "Recycle old devices and choose energy-efficient options like SSDs",
+        "Throw devices away immediately",
+        "Buy a new device every week",
+        "Avoid using any storage device at all"
+      ],
+      "answer": 0,
+      "explanation": "The chapter recommends recycling old devices and choosing eco-friendly options like energy-efficient SSDs.",
+      "source": "facts:page21"
+    },
+    {
+      "id": "q210",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "Which of these best reflects the chapter's 'Golden Rule' about choosing storage types?",
+      "options": [
+        "Important files need permanent storage; quick tasks need temporary storage",
+        "Everything should always go in RAM",
+        "Nothing ever needs permanent storage",
+        "ROM should be used to store your photos"
+      ],
+      "answer": 0,
+      "explanation": "The Golden Rule states that important files need permanent storage, while quick tasks need temporary storage.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q211",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "Bits are the smallest unit of computer storage.",
+      "answer": true,
+      "explanation": "The chapter states clearly that bits are the smallest unit of computer storage.",
+      "source": "facts:page26"
+    },
+    {
+      "id": "q212",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "How are RAM and ROM similar, according to the chapter?",
+      "options": [
+        "Both are described as types of primary/main memory in a computer",
+        "Both lose their data when the computer is off",
+        "Both are used mainly to store movies",
+        "Both work at exactly the same speed"
+      ],
+      "answer": 0,
+      "explanation": "RAM and ROM are both types of primary or main memory in a computer, even though they behave differently in other ways.",
+      "source": "facts:page26"
+    },
+    {
+      "id": "q213",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "Which memory type would you check to find the instructions used to start up (boot) the computer?",
+      "options": [
+        "ROM",
+        "RAM",
+        "A USB drive",
+        "Cloud storage"
+      ],
+      "answer": 0,
+      "explanation": "ROM contains the instructions that help the computer start up (boot) and connect its devices.",
+      "source": "facts:page16"
+    },
+    {
+      "id": "q214",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "Which of these best fits the golden rule 'important files need permanent storage'?",
+      "options": [
+        "Saving a family photo to a hard drive",
+        "Opening a temporary browser tab",
+        "Running a program actively in RAM",
+        "Briefly viewing a webpage"
+      ],
+      "answer": 0,
+      "explanation": "Saving an important family photo to a hard drive is a good example of using permanent storage for something you want to keep long-term.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q215",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "Which of these best fits the idea 'quick tasks need temporary storage'?",
+      "options": [
+        "Actively editing a document that hasn't been saved yet, held in RAM",
+        "Storing a movie forever on a hard drive",
+        "Backing up files to the cloud",
+        "Burning a DVD to keep permanently"
+      ],
+      "answer": 0,
+      "explanation": "An unsaved document being actively edited is held in RAM (temporary storage), which is meant for quick, in-progress tasks.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q216",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "What is the overall topic of this chapter?",
+      "options": [
+        "Computer storage and memory devices",
+        "Computer programming languages",
+        "Computer networking cables",
+        "Computer game design"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's overall topic is computer storage and memory devices.",
+      "source": "chapter.json"
+    },
+    {
+      "id": "q217",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Microprocessors, File Sizes and Chapter Review",
+      "question": "According to the chapter, choosing the right type of storage device depends on factors like speed, capacity, portability, and whether internet access is available.",
+      "answer": true,
+      "explanation": "Across the chapter, different storage devices are compared by speed (RAM vs ROM, HDD vs SSD), capacity, portability (USB, MicroSD), and internet dependence (cloud vs physical storage).",
+      "source": "facts:page8-page17"
+    }
+  ]
+}

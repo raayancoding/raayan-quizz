@@ -1,0 +1,3281 @@
+{
+  "schemaVersion": 1,
+  "id": "social-science-ch19-markets-and-trade",
+  "title": "Markets and Trade: Where Buying Meets Selling",
+  "subject": "Social Science",
+  "grade": 4,
+  "sourceDir": "output/Social-Science/19_Markets-and-Trade-Where-Buying-Meets-Selling",
+  "chapter": "19. Markets and Trade",
+  "topic": "Full Chapter",
+  "description": "What markets are and the many forms they take, how supply and demand set prices, shortages and surpluses, fair prices, bargaining vs fixed prices vs auctions, and profit and loss — with Myra, Kreena and the canteen uncle.",
+  "tags": [
+    "social-science",
+    "grade4",
+    "markets",
+    "trade",
+    "supply-and-demand",
+    "fair-price",
+    "profit-and-loss",
+    "bargaining",
+    "auction"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Are Markets?",
+      "question": "According to the chapter, what is a market?",
+      "options": [
+        "Any place where buyers and sellers exchange goods or services for money",
+        "A large open ground in a village where only food items are sold",
+        "A shop that sells only toys and sports balls to young children",
+        "A building where people go to look at goods but never buy them"
+      ],
+      "answer": 0,
+      "explanation": "The chapter defines a market as any place where buyers and sellers come together to exchange goods or services for money. It need not be big or sell only food.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Are Markets?",
+      "question": "In a market, buyers and sellers exchange goods or services for what?",
+      "options": [
+        "Stamps",
+        "Money",
+        "Gifts",
+        "Tokens"
+      ],
+      "answer": 1,
+      "explanation": "The chapter says goods or services are exchanged for money in a market.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q3",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "What Are Markets?",
+      "question": "Markets have existed for thousands of years.",
+      "answer": true,
+      "explanation": "The chapter states that markets have existed for thousands of years, long before coins were invented.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q4",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "What Are Markets?",
+      "question": "Markets were invented only after coins were invented.",
+      "answer": false,
+      "explanation": "This is false. Long before coins were invented, people gathered at a fixed spot to trade goods — so markets are older than coins.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Are Markets?",
+      "question": "Before coins were invented, how did people trade?",
+      "options": [
+        "They used websites and apps to order goods",
+        "They waited for sellers to visit each home",
+        "They gathered at a fixed spot to trade goods",
+        "They sent letters asking for the goods they needed"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says people would gather at a fixed spot to trade goods long before coins existed. Websites and apps are modern markets.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Are Markets?",
+      "question": "Over time, the old fixed trading spots became which of these?",
+      "options": [
+        "Banks, mints and vaults",
+        "Farms, fields and barns",
+        "Schools, parks and halls",
+        "Haats, bazaars and mandis"
+      ],
+      "answer": 3,
+      "explanation": "The chapter says those trading spots became haats, bazaars and mandis — all traditional kinds of markets.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Are Markets?",
+      "question": "Why does Myra visit the markets at the start of the chapter?",
+      "options": [
+        "Her ball is old and needs replacing",
+        "Her bicycle tyre has a puncture",
+        "She wants to sell cups of lemonade",
+        "She needs a new set of school books"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says Myra's ball is old and needs replacing, so we follow the markets she visits. Her lemonade stall appears later, in the profit section.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Are Markets?",
+      "question": "Today, the chapter says markets have ALSO become which of these?",
+      "options": [
+        "Trains and buses",
+        "Websites and apps",
+        "Coins and notes",
+        "Farms and fields"
+      ],
+      "answer": 1,
+      "explanation": "Markets are no longer only physical spots like haats and mandis; today they have also become websites and apps.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "What Are Markets?",
+      "question": "Which TWO things are needed for a market to exist, according to the chapter?",
+      "options": [
+        "A buyer who needs something",
+        "A seller who has something",
+        "A large open space",
+        "A fixed price tag",
+        "A government office"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The heart of every market is a buyer who needs something and a seller who has it. A market does not need a large space or fixed tags.",
+      "source": "book:page2-3"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What Are Markets?",
+      "question": "Which of these is NOT named in the chapter as a kind of traditional market?",
+      "options": [
+        "A bazaar",
+        "A mandi",
+        "A school classroom",
+        "A haat"
+      ],
+      "answer": 2,
+      "explanation": "Haats, bazaars and mandis are the traditional trading spots named in the chapter. A classroom is not a market.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What Are Markets?",
+      "question": "Which statement about markets is correct?",
+      "options": [
+        "Markets began with the first websites",
+        "Markets need coins in order to work",
+        "Markets exist only in large cities",
+        "The idea of a market is older than coins"
+      ],
+      "answer": 3,
+      "explanation": "People traded at fixed spots long before coins were invented, so the market idea is older than coins. Markets exist in villages (haats) and online too.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Are Markets?",
+      "question": "Besides goods, what else does the chapter say can be exchanged in a market?",
+      "options": [
+        "Services",
+        "Promises",
+        "Stories",
+        "Lessons"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's definition says buyers and sellers exchange goods OR services for money.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q13",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "What Are Markets?",
+      "question": "A market is any place where buyers and sellers come together.",
+      "answer": true,
+      "explanation": "This matches the chapter's definition exactly — any place where buyers and sellers come together to exchange goods or services for money.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What Are Markets?",
+      "question": "Myra needs a new ball and goes to the market. In this market, Myra is the…",
+      "options": [
+        "Bidder",
+        "Buyer",
+        "Seller",
+        "Trader"
+      ],
+      "answer": 1,
+      "explanation": "Myra needs something (a ball) and will pay money for it, so she is the buyer. The person who has the ball to sell is the seller.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q15",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "What Are Markets?",
+      "question": "According to the chapter, a mandi is a modern online version of a market.",
+      "answer": false,
+      "explanation": "A mandi is one of the traditional trading spots (with haats and bazaars). The modern versions are websites and apps.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What Are Markets?",
+      "question": "A village haat and a shopping app are BOTH markets because…",
+      "options": [
+        "Both sell only fresh vegetables and fruit",
+        "Both existed before coins were invented",
+        "Both bring buyers and sellers together",
+        "Both open only on fixed days of the week"
+      ],
+      "answer": 2,
+      "explanation": "Whatever its form, a market is where a buyer who needs something meets a seller who has it. That is true of a haat and of an app.",
+      "source": "book:page2-3"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What Are Markets?",
+      "question": "Which of these shows the oldest form of market described in the chapter?",
+      "options": [
+        "A WhatsApp message from a vegetable seller",
+        "A supermarket with fixed price tags",
+        "A website that delivers goods to homes",
+        "People meeting at a fixed spot to swap goods"
+      ],
+      "answer": 3,
+      "explanation": "Before coins, people gathered at a fixed spot to trade goods — the oldest form. WhatsApp, supermarkets and websites are much newer.",
+      "source": "book:page2"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Types of Markets",
+      "question": "Does a market have to be a large open space?",
+      "options": [
+        "No, a small shop also counts",
+        "Yes, it must be a big open ground",
+        "Yes, unless it is a weekly haat",
+        "No, but it needs many shops"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says a market does not have to be a large open space; it can be a small shop, a phone screen, or even a WhatsApp message.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Types of Markets",
+      "question": "Which of these does the chapter give as an example of a market?",
+      "options": [
+        "A notice from the electricity office",
+        "A WhatsApp message from a vegetable seller",
+        "A letter from the school principal",
+        "A phone call from a doctor's clinic"
+      ],
+      "answer": 1,
+      "explanation": "The chapter says a market can even be a WhatsApp message from a vegetable seller, because a buyer and seller meet to trade.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q20",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Types of Markets",
+      "question": "A WhatsApp message from a vegetable seller cannot be a market because it is not a place.",
+      "answer": false,
+      "explanation": "The chapter says a market CAN be a WhatsApp message from a vegetable seller. What matters is a buyer and seller coming together, not a physical place.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Types of Markets",
+      "question": "No matter how markets change, what stays the same at the heart of every market?",
+      "options": [
+        "A fixed shop with a price tag on every single item",
+        "A weekly day when everyone comes together to trade",
+        "A buyer who needs something and a seller who has it",
+        "A big crowd of people with plenty of noise and music"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says the heart of every market stays the same: a buyer who needs something and a seller who has it.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Types of Markets",
+      "question": "Myra wants fresh vegetables at the lowest price, enjoys bargaining and does not mind travelling. Which market should she visit?",
+      "options": [
+        "Online market",
+        "Shopping mall",
+        "Kirana store",
+        "Weekly haat"
+      ],
+      "answer": 3,
+      "explanation": "Weekly haats allow bargaining and usually offer low prices, which suits Myra. Malls and online shops have fixed prices.",
+      "source": "book:page18 I.1"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Types of Markets",
+      "question": "Why is the weekly haat the best choice for someone who enjoys bargaining?",
+      "options": [
+        "Haats allow bargaining and low prices",
+        "Haats have fixed price tags on goods",
+        "Haats deliver vegetables to your home",
+        "Haats are open every day of the week"
+      ],
+      "answer": 0,
+      "explanation": "In weekly haats and street markets, buyers and sellers bargain. Fixed prices belong to supermarkets and online shops.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Types of Markets",
+      "question": "Mumma buys vegetables from the weekly haat every Tuesday and from the kirana store on other days. Why two markets?",
+      "options": [
+        "Both markets sell in exactly the same way",
+        "The haat is weekly; the kirana store is open daily",
+        "The kirana store sells only on Tuesdays",
+        "The haat is an online market she uses daily"
+      ],
+      "answer": 1,
+      "explanation": "A haat happens only once a week, so on other days she needs a market that is open daily — the kirana store. Different markets serve different needs.",
+      "source": "book:page19 III.2"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Types of Markets",
+      "question": "Which type of market works through a phone screen?",
+      "options": [
+        "Street market",
+        "Village mandi",
+        "Online market",
+        "Weekly haat"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says a market can be a phone screen — that is an online market (website or app).",
+      "source": "book:page3"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Types of Markets",
+      "question": "The chapter asks why online markets became important during lockdown. Which reason fits best?",
+      "options": [
+        "Shops gave away goods for free",
+        "Haats were open more often than before",
+        "Prices were fixed by the government",
+        "People could buy without leaving home"
+      ],
+      "answer": 3,
+      "explanation": "During lockdown people could not go out to haats or shops, so markets on phone screens and websites let them buy from home.",
+      "source": "book:page4 (reasoning)"
+    },
+    {
+      "id": "q27",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Types of Markets",
+      "question": "A market can be as small as a single shop.",
+      "answer": true,
+      "explanation": "The chapter says a market does not have to be a large open space — it can be a small shop.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q28",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Types of Markets",
+      "question": "Which TWO of these are examples of markets mentioned in the chapter?",
+      "options": [
+        "A small shop",
+        "A phone screen",
+        "A school playground",
+        "A railway station"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The chapter lists a small shop, a phone screen and a WhatsApp message from a seller as markets. Playgrounds and stations are not named.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Types of Markets",
+      "question": "'Different markets help people buy and sell in different ways.' Which pair shows this best?",
+      "options": [
+        "Bargaining at a haat vs fixed prices online",
+        "Buying tomatoes vs buying potatoes at a haat",
+        "Shopping in the morning vs in the evening",
+        "Paying with coins vs paying with notes"
+      ],
+      "answer": 0,
+      "explanation": "Haats use bargaining while online shops use fixed prices — two different ways of buying and selling in two kinds of market.",
+      "source": "book:page3,13"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Types of Markets",
+      "question": "Checkpoint 1 asks you to read each situation and decide…",
+      "options": [
+        "How much profit the seller made that day",
+        "Which market makes the most sense, and why",
+        "Whether the price is fair for both sides",
+        "Whether there is a shortage or a surplus"
+      ],
+      "answer": 1,
+      "explanation": "Checkpoint 1 says: read each situation, decide which market makes the most sense, and give a reason why.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q31",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Types of Markets",
+      "question": "The chapter says a large shopping mall is the only true market because it has many shops.",
+      "answer": false,
+      "explanation": "The chapter says the opposite — a market does not have to be large; a small shop, a phone screen or a WhatsApp message can all be markets.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Types of Markets",
+      "question": "You want goods brought to you without travelling anywhere. Which market fits best?",
+      "options": [
+        "A street market stall",
+        "A wholesale mandi",
+        "An online market or app",
+        "A weekly village haat"
+      ],
+      "answer": 2,
+      "explanation": "Online markets work through websites and apps on a phone screen, so you can buy without travelling.",
+      "source": "book:page3-4 (reasoning)"
+    },
+    {
+      "id": "q33",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Types of Markets",
+      "question": "The heart of every market is a buyer who needs something and a seller who has it.",
+      "answer": true,
+      "explanation": "The chapter says this is what stays the same no matter how much markets change.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Types of Markets",
+      "question": "A vegetable seller sends a WhatsApp message with prices and a customer orders. The chapter would call this…",
+      "options": [
+        "Not a market, because no shop is involved",
+        "Not a market, because there is no bargaining",
+        "A surplus, because goods were offered",
+        "A market, because a buyer and seller meet"
+      ],
+      "answer": 3,
+      "explanation": "The chapter explicitly counts a WhatsApp message from a vegetable seller as a market: a buyer who needs something meets a seller who has it.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Types of Markets",
+      "question": "Which feature is the SAME in a haat, a kirana store and a shopping app?",
+      "options": [
+        "A buyer and a seller exchanging",
+        "Bargaining over every price",
+        "Goods sold from a fixed shop",
+        "Opening only once a week"
+      ],
+      "answer": 0,
+      "explanation": "All three are markets because a buyer and seller exchange goods for money. Bargaining, fixed shops and weekly timing differ between them.",
+      "source": "book:page3"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Supply and Demand Basics",
+      "question": "When many people want to buy something, it is called…",
+      "options": [
+        "Income",
+        "Demand",
+        "Supply",
+        "Surplus"
+      ],
+      "answer": 1,
+      "explanation": "Mama explains: when many people want something, it's called demand. Supply is when many goods are available to sell.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Supply and Demand Basics",
+      "question": "When many goods are available to sell, it is called…",
+      "options": [
+        "Shortage",
+        "Profit",
+        "Supply",
+        "Demand"
+      ],
+      "answer": 2,
+      "explanation": "When many goods are available to sell, it is called supply. Demand is about how many people want to buy.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Supply and Demand Basics",
+      "question": "In the tomato story, why were so many people at the market?",
+      "options": [
+        "The tomatoes were being given free",
+        "The seller was holding an auction",
+        "The market was open only that day",
+        "Many people wanted to buy tomatoes"
+      ],
+      "answer": 3,
+      "explanation": "Mama says many people were there because many people wanted to buy tomatoes — that is demand.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Supply and Demand Basics",
+      "question": "When there are enough tomatoes AND many people want them, the chapter says…",
+      "options": [
+        "Demand and supply are balanced",
+        "There is a shortage of tomatoes",
+        "There is a surplus of tomatoes",
+        "The price must rise sharply"
+      ],
+      "answer": 0,
+      "explanation": "Enough supply meeting plenty of demand means demand and supply are balanced — and that is when the price is fair for everyone.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Supply and Demand Basics",
+      "question": "According to Mama, what decides the price?",
+      "options": [
+        "The number of shops in the market",
+        "The balance of supply and demand",
+        "The government fixes it each morning",
+        "The oldest seller in the market"
+      ],
+      "answer": 1,
+      "explanation": "Mama says: 'The price is decided by the balance of supply and demand.'",
+      "source": "book:page6"
+    },
+    {
+      "id": "q41",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Supply and Demand Basics",
+      "question": "When demand is high, many people want the same thing.",
+      "answer": true,
+      "explanation": "The chapter says: when demand is high, many people want the same thing; when demand is low, fewer people want it.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q42",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Supply and Demand Basics",
+      "question": "When demand is low, many people want the same thing.",
+      "answer": false,
+      "explanation": "When demand is LOW, fewer people want it. Many people wanting the same thing is HIGH demand.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q43",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Supply and Demand Basics",
+      "question": "When supply is high, there is not enough to go around.",
+      "answer": false,
+      "explanation": "When supply is high, there is plenty for everyone. 'Not enough to go around' describes LOW supply.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Supply and Demand Basics",
+      "question": "When supply is low…",
+      "options": [
+        "Prices usually drop quickly",
+        "Sellers are left with unsold goods",
+        "There is not enough to go around",
+        "There is plenty for everyone"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says when supply is low, there is not enough to go around. Unsold goods happen when supply is too high.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Supply and Demand Basics",
+      "question": "When supply is high…",
+      "options": [
+        "There is a shortage of goods",
+        "Prices usually rise a lot",
+        "Fewer people want the item",
+        "There is plenty for everyone"
+      ],
+      "answer": 3,
+      "explanation": "High supply means plenty for everyone. A shortage and rising prices come with LOW supply.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Supply and Demand Basics",
+      "question": "Every market, from a village haat to a global website, runs on the same idea. What is it?",
+      "options": [
+        "Someone has something, someone needs it, they agree a price",
+        "The seller decides the price and buyers must accept it",
+        "Buyers pay whatever price the government has fixed",
+        "Goods are swapped without any money changing hands"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says every market runs on one simple idea: someone has something, someone else needs it, and they agree on a price.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Supply and Demand Basics",
+      "question": "Which of these describes DEMAND, not supply?",
+      "options": [
+        "Comics are piled high on shelves",
+        "Many children want the new comic",
+        "The shop has 200 comics in stock",
+        "The printer made extra copies"
+      ],
+      "answer": 1,
+      "explanation": "Demand is about how many people WANT to buy. Stock, extra copies and piled shelves all describe supply.",
+      "source": "book:page6-7"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Supply and Demand Basics",
+      "question": "Which of these describes SUPPLY, not demand?",
+      "options": [
+        "Children ask for mangoes every day",
+        "Families queue up to buy mangoes",
+        "Farmers bring 500 crates of mangoes",
+        "Everyone wants mangoes in summer"
+      ],
+      "answer": 2,
+      "explanation": "Supply is how much is available to sell — 500 crates. Wanting, asking and queueing all describe demand.",
+      "source": "book:page6-7"
+    },
+    {
+      "id": "q49",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Supply and Demand Basics",
+      "question": "Select the TWO statements that are TRUE.",
+      "options": [
+        "High demand means many people want the same thing",
+        "Low supply means there is not enough to go around",
+        "High supply means fewer people want the item",
+        "Low demand means there is plenty for everyone"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "High demand = many want the same thing; low supply = not enough to go around. 'Fewer people want it' is low demand, and 'plenty for everyone' is high supply.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Supply and Demand Basics",
+      "question": "The chapter says the price is 'fair for everyone' when…",
+      "options": [
+        "Supply is much greater than demand",
+        "Demand is much greater than supply",
+        "The seller sets the highest price",
+        "Supply and demand are balanced"
+      ],
+      "answer": 3,
+      "explanation": "In the tomato dialogue, the price is fair for everyone when demand and supply are balanced.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q51",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Supply and Demand Basics",
+      "question": "The chapter says the price in a market is decided by the seller alone.",
+      "answer": false,
+      "explanation": "The price is decided by the balance of supply and demand, not by the seller alone.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Supply and Demand Basics",
+      "question": "In the tomato story, who explains supply and demand to the child?",
+      "options": [
+        "Mama",
+        "Myra",
+        "The seller",
+        "The teacher"
+      ],
+      "answer": 0,
+      "explanation": "The child asks 'Mama, why are so many people here today?' and Mama explains demand, supply and price.",
+      "source": "book:page6"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Supply and Demand Basics",
+      "question": "'Fewer people want it' describes which situation?",
+      "options": [
+        "High demand",
+        "Low demand",
+        "Low supply",
+        "High supply"
+      ],
+      "answer": 1,
+      "explanation": "Demand is about how many people want something, so fewer people wanting it is LOW demand. Low supply means not enough goods.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Supply and Demand Move Prices",
+      "question": "If supply goes up, prices will usually…",
+      "options": [
+        "Double",
+        "Stay fixed",
+        "Go down",
+        "Go up"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says if supply goes up, prices usually go down because people have more choices and can look for cheaper deals.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Supply and Demand Move Prices",
+      "question": "If supply goes down, prices will usually…",
+      "options": [
+        "Go down",
+        "Halve",
+        "Stay the same",
+        "Go up"
+      ],
+      "answer": 3,
+      "explanation": "If supply goes down, there is not enough for everyone who wants it (a shortage), so prices usually go up.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How Supply and Demand Move Prices",
+      "question": "Why do prices usually FALL when supply goes up?",
+      "options": [
+        "People have more choices and look for cheaper deals",
+        "Sellers are forced by law to cut their prices",
+        "Buyers stop wanting the item once there is more of it",
+        "The goods become lower in quality when plentiful"
+      ],
+      "answer": 0,
+      "explanation": "The chapter explains that with more supply, people have more choices and can look for cheaper deals, which pushes prices down.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How Supply and Demand Move Prices",
+      "question": "Why do prices usually RISE when supply goes down?",
+      "options": [
+        "The government adds a tax on scarce goods",
+        "There is not enough for everyone who wants it",
+        "Sellers want to punish buyers who come late",
+        "People stop wanting it, so sellers charge more"
+      ],
+      "answer": 1,
+      "explanation": "When supply falls there is not enough for everyone who wants it — a shortage — so prices go up.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q58",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "How Supply and Demand Move Prices",
+      "question": "If supply goes up, prices will usually go up too.",
+      "answer": false,
+      "explanation": "More supply gives buyers more choices and cheaper deals, so prices usually go DOWN when supply goes up.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q59",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "How Supply and Demand Move Prices",
+      "question": "When supply goes down, there is not enough for everyone who wants it.",
+      "answer": true,
+      "explanation": "The chapter calls this a shortage, and it is why prices usually go up when supply falls.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q60",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "How Supply and Demand Move Prices",
+      "question": "Which TWO of these does the chapter say move with supply and demand?",
+      "options": [
+        "The petrol in your family's car",
+        "The price of your favourite snack",
+        "The date of Diwali each year",
+        "The number of players in a cricket team"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The chapter lists petrol, your favourite snack and a cricket match ticket as prices that move with supply and demand every day.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Supply and Demand Move Prices",
+      "question": "Which of these does the chapter name as a price that moves with supply and demand?",
+      "options": [
+        "Air in a bicycle tyre",
+        "Sunlight in the garden",
+        "Petrol in the family car",
+        "Water from the school tap"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says the petrol in your family's car, your favourite snack and a cricket match ticket all move with supply and demand.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Supply and Demand Move Prices",
+      "question": "When supply is much greater than what people want to buy, what happens?",
+      "options": [
+        "Prices rise quickly",
+        "Buyers walk away angry",
+        "A shortage appears",
+        "Goods are left unsold"
+      ],
+      "answer": 3,
+      "explanation": "When supply is much greater than demand, goods are left unsold — this is called a surplus.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Supply and Demand Move Prices",
+      "question": "What do sellers often do when there is a surplus?",
+      "options": [
+        "Drop their prices to clear the extra stock",
+        "Raise prices to make up for the loss",
+        "Stop selling until demand rises again",
+        "Move to a different market right away"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says that in a surplus, sellers often drop their prices to clear the extra stock.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q64",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "How Supply and Demand Move Prices",
+      "question": "Sellers usually raise their prices when there is a surplus.",
+      "answer": false,
+      "explanation": "In a surplus sellers often DROP prices to clear the extra stock. Prices rise in a shortage.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "How Supply and Demand Move Prices",
+      "question": "Petrol prices rise in your city even though there is no shortage there. The chapter's hint is…",
+      "options": [
+        "Supply and demand do not affect petrol",
+        "A war far away can change the price near you",
+        "Your city has run out of petrol pumps",
+        "People in your city stopped buying petrol"
+      ],
+      "answer": 1,
+      "explanation": "The chapter's heading 'When a war far away changes the price near you' shows that events elsewhere can change local prices.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "How Supply and Demand Move Prices",
+      "question": "Which chain of events is correct?",
+      "options": [
+        "Supply rises → shortage → price rises",
+        "Supply rises → surplus → price rises",
+        "Supply falls → shortage → price rises",
+        "Supply falls → surplus → price falls"
+      ],
+      "answer": 2,
+      "explanation": "Falling supply means not enough to go around (a shortage), so the price rises. Rising supply leads to a surplus and FALLING prices.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "How Supply and Demand Move Prices",
+      "question": "Which chain of events correctly describes a surplus?",
+      "options": [
+        "Supply rises → goods unsold → price rises",
+        "Supply falls → goods unsold → price drops",
+        "Demand rises → goods unsold → price drops",
+        "Supply rises → goods unsold → price drops"
+      ],
+      "answer": 3,
+      "explanation": "A surplus happens when supply is much greater than demand; goods are left unsold and sellers drop prices to clear stock.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "How Supply and Demand Move Prices",
+      "question": "The chapter says supply and demand shape the price of…",
+      "options": [
+        "Everything around you, every day",
+        "Only food items at the mandi",
+        "Only goods sold on websites",
+        "Only things sold at auctions"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says supply and demand shape the price of everything around you, every single day.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q69",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "How Supply and Demand Move Prices",
+      "question": "Supply and demand affect only the prices of fruits and vegetables.",
+      "answer": false,
+      "explanation": "The chapter says supply and demand shape the price of everything — petrol, snacks, cricket tickets and more.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How Supply and Demand Move Prices",
+      "question": "A toy becomes very popular so demand jumps, while supply stays the same. What will most likely happen?",
+      "options": [
+        "Sellers will lose money",
+        "Its price will rise",
+        "Its price will fall",
+        "A surplus will form"
+      ],
+      "answer": 1,
+      "explanation": "More people wanting the same number of toys means not enough to go around, so the price rises — the same idea as the Sports Day samosas.",
+      "source": "book:page7 (reasoning)"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "How Supply and Demand Move Prices",
+      "question": "Why does the chapter mention 'cheaper deals' when talking about supply?",
+      "options": [
+        "Buyers bargain only when supply is low",
+        "Online shops are always cheaper than haats",
+        "More supply lets buyers choose cheaper options",
+        "Sellers always sell cheaper on Mondays"
+      ],
+      "answer": 2,
+      "explanation": "When supply goes up, people have more choices and can look for cheaper deals, which is why prices fall.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Shortage and Surplus",
+      "question": "What is a shortage?",
+      "options": [
+        "More goods than people want to buy",
+        "A price that covers the seller's costs",
+        "Money left after paying all the costs",
+        "Not enough goods for everyone who wants them"
+      ],
+      "answer": 3,
+      "explanation": "A shortage is when supply goes down and there is not enough for everyone who wants it.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Shortage and Surplus",
+      "question": "What is a surplus?",
+      "options": [
+        "Supply is much greater than what people want to buy",
+        "Demand is much greater than the supply available",
+        "A price that works for both the buyer and the seller",
+        "Money a seller spends to run the business"
+      ],
+      "answer": 0,
+      "explanation": "A surplus is when supply is much greater than what people want to buy, so goods are left unsold.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Shortage and Surplus",
+      "question": "Cold, cloudy weather has made strawberries hard to grow. What happens to supply and price?",
+      "options": [
+        "Supply rises, price rises",
+        "Supply falls, price rises",
+        "Supply rises, price falls",
+        "Supply falls, price falls"
+      ],
+      "answer": 1,
+      "explanation": "Bad weather means fewer strawberries (supply falls). With not enough to go around, the price rises.",
+      "source": "book:page11 Checkpoint 2.1a"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Shortage and Surplus",
+      "question": "A concert moves from a small auditorium to a big park with many seats. What is likely for tickets?",
+      "options": [
+        "Supply stays the same, price rises",
+        "Demand falls, so supply falls too",
+        "Supply of tickets rises, price likely falls",
+        "Supply of tickets falls, price likely rises"
+      ],
+      "answer": 2,
+      "explanation": "More seats means more tickets available (supply up). With more choice, the ticket price is likely to fall.",
+      "source": "book:page11 Checkpoint 2.1b"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Shortage and Surplus",
+      "question": "Five new ice cream shops are opening in town this summer. What is likely in the ice cream market?",
+      "options": [
+        "Supply falls, prices likely rise",
+        "Demand falls, so shops close",
+        "Prices rise because shops compete",
+        "Supply rises, prices likely drop"
+      ],
+      "answer": 3,
+      "explanation": "Five new shops add a lot of ice cream supply. More choices for buyers push prices down.",
+      "source": "book:page11 Checkpoint 2.1c"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Shortage and Surplus",
+      "question": "A store stocked 100 sweaters for winter; 23 were left unsold at the end of the season. This is a…",
+      "options": [
+        "Surplus",
+        "Shortage",
+        "Profit",
+        "Demand"
+      ],
+      "answer": 0,
+      "explanation": "Goods left unsold because supply was more than buyers wanted is a surplus.",
+      "source": "book:page11 Checkpoint 2.2a"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Shortage and Surplus",
+      "question": "Darren reaches the diner, but the restaurant has run out of strawberry ice cream. This is a…",
+      "options": [
+        "Supply",
+        "Shortage",
+        "Surplus",
+        "Income"
+      ],
+      "answer": 1,
+      "explanation": "Running out means there was not enough for everyone who wanted it — a shortage.",
+      "source": "book:page11 Checkpoint 2.2b"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Shortage and Surplus",
+      "question": "A new dog-walking service has four experienced walkers, but only one customer signs up. This is a…",
+      "options": [
+        "Balance",
+        "Bargain",
+        "Surplus",
+        "Shortage"
+      ],
+      "answer": 2,
+      "explanation": "Four walkers (supply) for one customer (demand) means supply is far greater than demand — a surplus.",
+      "source": "book:page11 Checkpoint 2.2c"
+    },
+    {
+      "id": "q80",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Shortage and Surplus",
+      "question": "Running out of strawberry ice cream at a diner is an example of a shortage.",
+      "answer": true,
+      "explanation": "A shortage is when there is not enough for everyone who wants it — exactly what happened to Darren.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q81",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Shortage and Surplus",
+      "question": "Twenty-three sweaters left unsold at the end of winter is an example of a shortage.",
+      "answer": false,
+      "explanation": "Unsold goods mean supply was more than demand — that is a surplus, not a shortage.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Shortage and Surplus",
+      "question": "The canteen uncle makes 50 samosas on Monday, but only 10 children buy them. What problem did he face?",
+      "options": [
+        "A shortage of 40 samosas",
+        "A profit of 40 samosas",
+        "A demand of 40 samosas",
+        "A surplus of 40 samosas"
+      ],
+      "answer": 3,
+      "explanation": "He made 50 but sold only 10, so 40 were left unsold — a surplus.",
+      "source": "book:page19 III.3"
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Shortage and Surplus",
+      "question": "On Tuesday the uncle makes only 20 samosas, but 60 children turn up. What problem did he face?",
+      "options": [
+        "A shortage — 40 children get none",
+        "A surplus — 40 samosas go unsold",
+        "A balance — supply equals demand",
+        "A loss — he spent more than he earned"
+      ],
+      "answer": 0,
+      "explanation": "60 children wanted samosas but only 20 were made, so there was not enough to go around — a shortage of 40.",
+      "source": "book:page19 III.3"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Shortage and Surplus",
+      "question": "Why did the canteen uncle face a shortage on Tuesday?",
+      "options": [
+        "He raised the price far too high",
+        "He cut supply based on Monday's low demand",
+        "He made more samosas than on Monday",
+        "The children stopped liking samosas"
+      ],
+      "answer": 1,
+      "explanation": "After Monday's surplus he made fewer samosas, but demand jumped to 60 — so supply was too low on Tuesday.",
+      "source": "book:page19 III.3"
+    },
+    {
+      "id": "q85",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Shortage and Surplus",
+      "question": "Which TWO are examples of a SURPLUS?",
+      "options": [
+        "100 laddoos made for Diwali, but only 25 sold",
+        "Four dog walkers hired, but only one customer",
+        "80 children want samosas, but the canteen has 20",
+        "A cricket match ticket sells out in four minutes"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Unsold laddoos and idle dog walkers show supply greater than demand (surplus). Too few samosas and a sell-out show high demand/shortage.",
+      "source": "book:page11,18"
+    },
+    {
+      "id": "q86",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Shortage and Surplus",
+      "question": "Which TWO are examples of a SHORTAGE?",
+      "options": [
+        "Petrol prices rise because oil supply drops",
+        "Strawberry ice cream runs out at the diner",
+        "23 sweaters are left unsold after winter",
+        "Five new ice cream shops open in town"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "A drop in oil supply and ice cream running out both mean not enough to go around (shortage). Unsold sweaters and more shops mean more supply.",
+      "source": "book:page11,18"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Shortage and Surplus",
+      "question": "During a surplus, which of these is MOST likely?",
+      "options": [
+        "Sellers raise prices as goods are rare",
+        "Goods become harder to find in shops",
+        "Sellers lower prices to clear stock",
+        "Buyers queue because goods ran out"
+      ],
+      "answer": 2,
+      "explanation": "In a surplus goods are left unsold, so sellers drop prices to clear them. Queues and rare goods belong to a shortage.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Shortage and Surplus",
+      "question": "A shortage happens when…",
+      "options": [
+        "Supply is more than what people want",
+        "Supply exactly matches the demand",
+        "Sellers refuse to bargain at all",
+        "Supply is less than what people want"
+      ],
+      "answer": 3,
+      "explanation": "A shortage means there is not enough for everyone who wants it — supply is less than demand.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q89",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Shortage and Surplus",
+      "question": "A surplus often leads sellers to drop their prices.",
+      "answer": true,
+      "explanation": "The chapter says when there is a surplus, sellers often drop their prices to clear the extra stock.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Shortage and Surplus",
+      "question": "Which word describes 'there is not enough to go around'?",
+      "options": [
+        "Shortage",
+        "Surplus",
+        "Balance",
+        "Bargain"
+      ],
+      "answer": 0,
+      "explanation": "'Not enough to go around' is the chapter's description of low supply — a shortage.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q91",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Shortage and Surplus",
+      "question": "A cricket match ticket selling out in four minutes shows a surplus of tickets.",
+      "answer": false,
+      "explanation": "Selling out fast shows very high demand and not enough tickets for everyone — the opposite of a surplus.",
+      "source": "book:page18 I.3"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Azadpur Mandi and Real-World Prices",
+      "question": "In which city is Asia's largest fruit and vegetable market?",
+      "options": [
+        "Chennai",
+        "Delhi",
+        "Mumbai",
+        "Kolkata"
+      ],
+      "answer": 1,
+      "explanation": "The chapter says Asia's largest fruit and vegetable market, Azadpur Mandi, is in Delhi.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Azadpur Mandi and Real-World Prices",
+      "question": "What is the name of Asia's largest fruit and vegetable market?",
+      "options": [
+        "Koyambedu Market",
+        "Sadar Bazaar",
+        "Azadpur Mandi",
+        "Crawford Market"
+      ],
+      "answer": 2,
+      "explanation": "Azadpur Mandi in Delhi is named in the chapter as Asia's largest fruit and vegetable market.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Azadpur Mandi and Real-World Prices",
+      "question": "How much produce does Azadpur Mandi receive on a single day?",
+      "options": [
+        "Over 1,000 tonnes",
+        "Over 100 tonnes",
+        "Over 10 tonnes",
+        "Over 10,000 tonnes"
+      ],
+      "answer": 3,
+      "explanation": "The chapter says Azadpur Mandi receives over 10,000 tonnes of produce from farms across India on a single day.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q95",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Azadpur Mandi and Real-World Prices",
+      "question": "Azadpur Mandi receives produce from farms across India.",
+      "answer": true,
+      "explanation": "The chapter says it receives over 10,000 tonnes a day from farms across India.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q96",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Azadpur Mandi and Real-World Prices",
+      "question": "Azadpur Mandi is Asia's largest grain market.",
+      "answer": false,
+      "explanation": "Azadpur Mandi is Asia's largest FRUIT AND VEGETABLE market, not a grain market.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Azadpur Mandi and Real-World Prices",
+      "question": "In peak mango season, how much do mangoes cost in the chapter's example?",
+      "options": [
+        "₹40 per kg",
+        "₹120 per kg",
+        "₹90 per kg",
+        "₹60 per kg"
+      ],
+      "answer": 0,
+      "explanation": "In peak mango season mangoes cost ₹40/kg; three months later the imported ones cost ₹120/kg.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Azadpur Mandi and Real-World Prices",
+      "question": "Three months after peak season, how much do the imported mangoes cost?",
+      "options": [
+        "₹80 per kg",
+        "₹120 per kg",
+        "₹40 per kg",
+        "₹100 per kg"
+      ],
+      "answer": 1,
+      "explanation": "Three months after peak season the same mangoes cost ₹120/kg, because they are now imported.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Azadpur Mandi and Real-World Prices",
+      "question": "Why are mangoes so much costlier three months after the peak season?",
+      "options": [
+        "The government fixes a higher price",
+        "Demand disappears after the season",
+        "They are imported, as local supply is low",
+        "Farmers hold an auction to sell them"
+      ],
+      "answer": 2,
+      "explanation": "Out of season, local supply is low and mangoes must be imported from another country, so the price rises to ₹120/kg.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Azadpur Mandi and Real-World Prices",
+      "question": "Mangoes cost ₹40/kg in peak season and ₹120/kg off-season. The off-season price is how many times the peak price?",
+      "options": [
+        "Two times",
+        "Four times",
+        "Six times",
+        "Three times"
+      ],
+      "answer": 3,
+      "explanation": "₹120 ÷ ₹40 = 3, so the off-season price is three times the peak-season price.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Azadpur Mandi and Real-World Prices",
+      "question": "If you were a mango farmer in peak season, how might you feel?",
+      "options": [
+        "Mixed: lots to sell, but a low price per kg",
+        "Only happy: prices are at their highest",
+        "Only worried: there are no mangoes to sell",
+        "Neither: prices never change in mango season"
+      ],
+      "answer": 0,
+      "explanation": "In peak season there is plenty to sell, but high supply pushes the price down to ₹40/kg — so a farmer could feel both happy and worried.",
+      "source": "book:page8 (reasoning)"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Azadpur Mandi and Real-World Prices",
+      "question": "Why is buying local and seasonal vegetables good for the family budget?",
+      "options": [
+        "Local vegetables are sold only by auction",
+        "Supply is high in season, so prices are lower",
+        "Seasonal vegetables are always imported",
+        "Shops give seasonal items away for free"
+      ],
+      "answer": 1,
+      "explanation": "In season, local supply is high and prices fall (like ₹40/kg mangoes). Out of season, imported goods cost far more.",
+      "source": "book:page19 IV.2"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Azadpur Mandi and Real-World Prices",
+      "question": "Why is buying local and seasonal vegetables good for the environment?",
+      "options": [
+        "Seasonal goods never produce any waste",
+        "Imported goods are grown in laboratories",
+        "Less transport is needed than for imported goods",
+        "Local vegetables grow without any water"
+      ],
+      "answer": 2,
+      "explanation": "Local produce does not have to be transported from another country, so less fuel is used than for imported goods.",
+      "source": "book:page19 IV.2 (reasoning)"
+    },
+    {
+      "id": "q104",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Azadpur Mandi and Real-World Prices",
+      "question": "Petrol prices in your city can rise even when there is no petrol shortage in your city.",
+      "answer": true,
+      "explanation": "The chapter asks exactly this and hints that 'a war far away' can change the price near you.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Azadpur Mandi and Real-World Prices",
+      "question": "'When a war far away changes the price near you' shows that…",
+      "options": [
+        "Prices depend only on local shops",
+        "Wars make prices fall everywhere",
+        "Petrol is not affected by supply",
+        "Markets around the world are connected"
+      ],
+      "answer": 3,
+      "explanation": "Events far away can change supply, and that moves prices near you — markets are connected.",
+      "source": "book:page9"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Azadpur Mandi and Real-World Prices",
+      "question": "Which of these is NOT true about Azadpur Mandi?",
+      "options": [
+        "It is a website that sells vegetables",
+        "It is located in the city of Delhi",
+        "It is Asia's largest for fruit and vegetables",
+        "It receives over 10,000 tonnes a day"
+      ],
+      "answer": 0,
+      "explanation": "Azadpur Mandi is a physical mandi in Delhi, not a website. The other three statements come straight from the chapter.",
+      "source": "book:page7"
+    },
+    {
+      "id": "q107",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Azadpur Mandi and Real-World Prices",
+      "question": "Which TWO statements about mangoes are TRUE according to the chapter?",
+      "options": [
+        "The peak-season price is ₹40 per kg",
+        "Off-season mangoes are imported",
+        "The off-season price is ₹40 per kg",
+        "Peak-season mangoes are imported"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Peak season: ₹40/kg, local. Three months later: ₹120/kg, imported from another country.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Azadpur Mandi and Real-World Prices",
+      "question": "In the mango example, what changes along with the price after three months?",
+      "options": [
+        "The mangoes are now given away free",
+        "The mangoes are now imported",
+        "The mangoes are now sold by auction",
+        "The mangoes are now sold on WhatsApp"
+      ],
+      "answer": 1,
+      "explanation": "After peak season the same mangoes are imported from another country, which is why the price jumps to ₹120/kg.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What is a Fair Price?",
+      "question": "A fair price is one that…",
+      "options": [
+        "Is the highest the seller can charge",
+        "Is fixed by the owner of the market",
+        "Works for both the buyer and the seller",
+        "Is the lowest possible for the buyer"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says a fair price works for both sides — affordable for the buyer and covering costs for the seller.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What is a Fair Price?",
+      "question": "For the BUYER, a fair price is…",
+      "options": [
+        "Always lower than the cost of making it",
+        "Decided by bargaining at every shop",
+        "The same in every market in India",
+        "Affordable and worth the money"
+      ],
+      "answer": 3,
+      "explanation": "For the buyer, a fair price is affordable and worth the money.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What is a Fair Price?",
+      "question": "For the SELLER, a fair price…",
+      "options": [
+        "Covers costs and leaves some extra for hard work",
+        "Is as high as possible so no one can buy",
+        "Is the lowest so that buyers are always happy",
+        "Equals exactly the cost of making the item"
+      ],
+      "answer": 0,
+      "explanation": "For the seller, a fair price covers the cost of making the item and leaves some extra money for their hard work.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What is a Fair Price?",
+      "question": "What happens when a price is too HIGH?",
+      "options": [
+        "The seller makes more profit every day",
+        "The buyer walks away and goods stay unsold",
+        "The buyer is happy but the seller loses money",
+        "Both sides are happy and the market works"
+      ],
+      "answer": 1,
+      "explanation": "When a price is too high, the buyer walks away and the seller is left with unsold goods that might spoil. The seller loses.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What is a Fair Price?",
+      "question": "When a price is too high, who does the chapter say loses?",
+      "options": [
+        "Nobody",
+        "Both",
+        "The seller",
+        "The buyer"
+      ],
+      "answer": 2,
+      "explanation": "With a too-high price the buyer simply walks away; the seller is left with unsold goods and loses. 'Both lose' is for a too-LOW price.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What is a Fair Price?",
+      "question": "What happens when a price is too LOW?",
+      "options": [
+        "Seller happy today, but the buyer loses money",
+        "Both sides are happy for years to come",
+        "The seller makes extra money for hard work",
+        "Buyer happy today, but the seller loses money"
+      ],
+      "answer": 3,
+      "explanation": "When a price is too low the buyer is happy today, but the seller loses money and eventually cannot stay in business.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What is a Fair Price?",
+      "question": "In the long run, when prices are too low…",
+      "options": [
+        "The seller closes down and the buyer has nowhere to shop",
+        "The seller grows and opens more shops nearby",
+        "The buyer stops shopping because prices are too high",
+        "The government opens a new market for the buyers"
+      ],
+      "answer": 0,
+      "explanation": "A seller losing money eventually cannot afford to stay in business and closes down — then the buyer has nowhere left to shop.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What is a Fair Price?",
+      "question": "Why does the chapter say 'Both lose in the end' when a price is too low?",
+      "options": [
+        "Goods spoil because nobody can afford them",
+        "The seller closes, so the buyer loses a place to shop",
+        "The buyer pays more than the item is worth",
+        "The seller earns too much and buyers get angry"
+      ],
+      "answer": 1,
+      "explanation": "The seller loses money and closes down; tomorrow the buyer has nowhere left to shop. So both lose.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q117",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "What is a Fair Price?",
+      "question": "A market only works when both sides are happy.",
+      "answer": true,
+      "explanation": "This is the chapter's conclusion on fair prices: a market only works when both the buyer and the seller are happy.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q118",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "What is a Fair Price?",
+      "question": "When a price is too low, only the seller loses in the end.",
+      "answer": false,
+      "explanation": "The seller loses money and closes down, and then the buyer has nowhere to shop — both lose in the end.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q119",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "What is a Fair Price?",
+      "question": "When a price is too high, unsold goods might spoil or become useless.",
+      "answer": true,
+      "explanation": "The chapter says a too-high price leaves the seller with unsold goods that might spoil or become useless.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What is a Fair Price?",
+      "question": "Ved says a fair price is 'the lowest possible price for the buyer.' Myra says it 'works for both buyer and seller.' Who matches the chapter?",
+      "options": [
+        "Both, because any price can be called fair",
+        "Neither, because fair prices do not exist",
+        "Myra, because the seller must cover costs too",
+        "Ved, because buyers should always pay the least"
+      ],
+      "answer": 2,
+      "explanation": "The chapter defines a fair price as one that works for both sides. The lowest possible price would make the seller lose money and close down.",
+      "source": "book:page19 III.4"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What is a Fair Price?",
+      "question": "A seller who prices goods too low will eventually…",
+      "options": [
+        "Attract so many buyers that profits soar",
+        "Create a shortage in the whole market",
+        "Be forced by buyers to raise prices",
+        "Not be able to continue the business"
+      ],
+      "answer": 3,
+      "explanation": "Too-low prices mean the seller loses money and cannot afford to stay in business, so the shop closes down.",
+      "source": "book:page19 IV.1"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What is a Fair Price?",
+      "question": "Which of these is a sign that a price is TOO HIGH?",
+      "options": [
+        "Buyers walk away without buying",
+        "Buyers are happy but the seller loses money",
+        "The seller cannot afford to stay in business",
+        "Both buyer and seller go home happy"
+      ],
+      "answer": 0,
+      "explanation": "When the price is too high the buyer walks away. The other options describe a too-low price or a fair price.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q123",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "What is a Fair Price?",
+      "question": "Select the TWO features of a fair price for a SELLER.",
+      "options": [
+        "It covers the cost of making the item",
+        "It leaves some extra money for hard work",
+        "It is the lowest price any buyer will offer",
+        "It is affordable and worth the money"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "For the seller a fair price covers costs and leaves extra for hard work. 'Affordable and worth the money' is the BUYER's side.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "What is a Fair Price?",
+      "question": "Which statement about fair prices is FALSE?",
+      "options": [
+        "A fair price works for both sides",
+        "A fair price always favours the buyer",
+        "A fair price is affordable for the buyer",
+        "A fair price covers the seller's costs"
+      ],
+      "answer": 1,
+      "explanation": "A fair price works for BOTH sides; it does not favour only the buyer. The other three statements are from the chapter.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q125",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "What is a Fair Price?",
+      "question": "A very low price is always a fair price because the buyer saves money.",
+      "answer": false,
+      "explanation": "A fair price must also cover the seller's costs. A too-low price makes the seller lose money, and eventually both lose.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "What is a Fair Price?",
+      "question": "'Tomorrow, the buyer has nowhere left to shop.' This happens after…",
+      "options": [
+        "Supply rose and goods were left unsold",
+        "Demand rose and prices went up",
+        "Prices were too low and the seller closed down",
+        "Prices were too high and buyers walked away"
+      ],
+      "answer": 2,
+      "explanation": "This line comes from the too-LOW price case: the seller loses money, closes down, and the buyer has nowhere to shop.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "What is a Fair Price?",
+      "question": "What does the chapter mean by a price being 'affordable' for the buyer?",
+      "options": [
+        "The seller makes extra money from it",
+        "The price is higher than the item's real worth",
+        "The price covers the cost of making the item",
+        "The buyer can pay it and it is worth the money"
+      ],
+      "answer": 3,
+      "explanation": "For the buyer, a fair price is affordable and worth the money. Covering costs is the seller's side.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q128",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "What is a Fair Price?",
+      "question": "For the seller, a fair price covers the cost of making the item.",
+      "answer": true,
+      "explanation": "The chapter says a fair price covers the seller's cost of making the item and leaves some extra for their hard work.",
+      "source": "book:page12"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bargaining, Fixed Prices and Auctions",
+      "question": "How do buyers and sellers agree on a price at weekly haats and street markets?",
+      "options": [
+        "They bargain",
+        "They use fixed tags",
+        "They hold an auction",
+        "They toss a coin"
+      ],
+      "answer": 0,
+      "explanation": "In weekly haats and street markets, buyers and sellers bargain until they find a number both accept.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bargaining, Fixed Prices and Auctions",
+      "question": "In supermarkets and online shops, prices are…",
+      "options": [
+        "Hidden",
+        "Fixed",
+        "Bargained",
+        "Auctioned"
+      ],
+      "answer": 1,
+      "explanation": "In supermarkets and online shops prices are fixed — there is no bargaining; the price on the tag is final.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bargaining, Fixed Prices and Auctions",
+      "question": "In bargaining, the seller starts with a ___ price and the buyer offers a ___ one.",
+      "options": [
+        "Fixed, fixed",
+        "Fair, unfair",
+        "High, lower",
+        "Low, higher"
+      ],
+      "answer": 2,
+      "explanation": "The seller starts with a high price and the buyer offers a lower one; they go back and forth to meet in the middle.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Bargaining, Fixed Prices and Auctions",
+      "question": "How does bargaining end?",
+      "options": [
+        "When the seller's first price is accepted",
+        "When the buyer's first offer is accepted",
+        "When the highest bidder wins the item",
+        "When both accept a number they agree on"
+      ],
+      "answer": 3,
+      "explanation": "Bargaining goes back and forth until the buyer and seller find a number they both accept. The highest bidder winning is an auction.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q133",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Bargaining, Fixed Prices and Auctions",
+      "question": "In a supermarket, the price on the tag is final.",
+      "answer": true,
+      "explanation": "Supermarkets and online shops use fixed prices — there is no bargaining and the tag price is final.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q134",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Bargaining, Fixed Prices and Auctions",
+      "question": "Bargaining is common in supermarkets and online shops.",
+      "answer": false,
+      "explanation": "Bargaining happens in weekly haats and street markets. Supermarkets and online shops have fixed prices.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Bargaining, Fixed Prices and Auctions",
+      "question": "What does the chapter say about bargaining compared with fixed prices?",
+      "options": [
+        "Neither way is better; it depends on the market",
+        "Bargaining is always better for the buyer",
+        "Fixed prices are always fairer for everyone",
+        "Bargaining should be used in every market"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says neither way is better than the other; the right approach depends on the kind of market you are visiting.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bargaining, Fixed Prices and Auctions",
+      "question": "What is the THIRD way to agree on a price, according to the chapter?",
+      "options": [
+        "A fixed tag",
+        "An auction",
+        "A discount",
+        "A bargain"
+      ],
+      "answer": 1,
+      "explanation": "After bargaining and fixed prices, the chapter introduces a third way: an auction, like the IPL player auction.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bargaining, Fixed Prices and Auctions",
+      "question": "In the IPL auction, who competes against each other?",
+      "options": [
+        "The umpires",
+        "The coaches",
+        "Team owners",
+        "The players"
+      ],
+      "answer": 2,
+      "explanation": "Different team owners compete by shouting higher and higher bids for a player.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bargaining, Fixed Prices and Auctions",
+      "question": "In the IPL auction, who gets the player?",
+      "options": [
+        "The team that bids first",
+        "The team the player chooses",
+        "The team with the lowest bid",
+        "The team that offers the most money"
+      ],
+      "answer": 3,
+      "explanation": "The team that offers the most money (the highest bid) gets the player.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q139",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bargaining, Fixed Prices and Auctions",
+      "question": "What are the higher and higher amounts of money shouted in an auction called?",
+      "options": [
+        "Bids",
+        "Tags",
+        "Costs",
+        "Fees"
+      ],
+      "answer": 0,
+      "explanation": "Team owners shout out higher and higher amounts of money, called bids.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q140",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Bargaining, Fixed Prices and Auctions",
+      "question": "In the IPL auction, the player sets his own price.",
+      "answer": false,
+      "explanation": "The chapter says the player doesn't set the price and neither does a supermarket — competing team owners' bids set it.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q141",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Bargaining, Fixed Prices and Auctions",
+      "question": "In an IPL auction, the price is set by…",
+      "options": [
+        "Bargaining with the umpire",
+        "Competing bids from team owners",
+        "The player himself",
+        "A supermarket-style price tag"
+      ],
+      "answer": 1,
+      "explanation": "Neither the player nor a tag sets the price; team owners compete with bids and the highest one wins.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q142",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Bargaining, Fixed Prices and Auctions",
+      "question": "You are selling old comics at a school fun-fair and want the person who pays the MOST to get them. Which method?",
+      "options": [
+        "Bargaining",
+        "A surplus sale",
+        "A mini-auction",
+        "A fixed price tag"
+      ],
+      "answer": 2,
+      "explanation": "An auction lets buyers compete with bids, and the highest bidder wins — just like the IPL.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q143",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Bargaining, Fixed Prices and Auctions",
+      "question": "You want every comic to sell at exactly the price you decide, with no discussion. Which method?",
+      "options": [
+        "A mini-auction",
+        "Bargaining",
+        "A shortage sale",
+        "A fixed price tag"
+      ],
+      "answer": 3,
+      "explanation": "A fixed price means the price on the tag is final, with no bargaining or bidding.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q144",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Bargaining, Fixed Prices and Auctions",
+      "question": "Which way of agreeing on a price involves 'going back and forth'?",
+      "options": [
+        "Bargaining",
+        "Fixed pricing",
+        "Auction",
+        "Importing"
+      ],
+      "answer": 0,
+      "explanation": "In bargaining the seller starts high, the buyer offers lower, and they go back and forth until they agree.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q145",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Bargaining, Fixed Prices and Auctions",
+      "question": "Which TWO places use bargaining, according to the chapter?",
+      "options": [
+        "Weekly haats",
+        "Street markets",
+        "Supermarkets",
+        "Online shops"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Bargaining happens in weekly haats and street markets; supermarkets and online shops use fixed prices.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q146",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Bargaining, Fixed Prices and Auctions",
+      "question": "Which TWO places use fixed prices, according to the chapter?",
+      "options": [
+        "Supermarkets",
+        "Online shops",
+        "Weekly haats",
+        "IPL auctions"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Supermarkets and online shops have fixed prices. Haats use bargaining and the IPL uses bids.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q147",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Bargaining, Fixed Prices and Auctions",
+      "question": "An auction is to 'the highest bid wins' as bargaining is to…",
+      "options": [
+        "The buyer alone fixes the price",
+        "Both sides meet at a number they accept",
+        "The price on the tag is final",
+        "The seller alone fixes the price"
+      ],
+      "answer": 1,
+      "explanation": "Bargaining ends when buyer and seller find a number both accept. A final tag price is fixed pricing.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q148",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Bargaining, Fixed Prices and Auctions",
+      "question": "The chapter says bargaining is always the better way to agree on a price.",
+      "answer": false,
+      "explanation": "The chapter says neither bargaining nor fixed prices is better; it depends on the kind of market.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q149",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Bargaining, Fixed Prices and Auctions",
+      "question": "Which cricket league does the chapter use to explain auctions?",
+      "options": [
+        "PKL (Pro Kabaddi League)",
+        "WPL (Women's Premier League)",
+        "IPL (Indian Premier League)",
+        "ISL (Indian Super League)"
+      ],
+      "answer": 2,
+      "explanation": "The chapter explains auctions through how teams buy players in the IPL (Indian Premier League).",
+      "source": "book:page13"
+    },
+    {
+      "id": "q150",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Profit and Loss",
+      "question": "How much money did Myra make from selling lemonade?",
+      "options": [
+        "₹100",
+        "₹80",
+        "₹120",
+        "₹90"
+      ],
+      "answer": 3,
+      "explanation": "The chapter says Myra made ₹90 from lemonade — but she did not stop there; she asked three questions.",
+      "source": "book:page14"
+    },
+    {
+      "id": "q151",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Profit and Loss",
+      "question": "What is profit, according to the chapter?",
+      "options": [
+        "What is left after costs are covered",
+        "All the money received from selling",
+        "Money spent to buy goods",
+        "Goods left unsold at the end"
+      ],
+      "answer": 0,
+      "explanation": "Profit is what's left after costs. All money received is income; money spent is expenditure.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q152",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Profit and Loss",
+      "question": "Which of these is NOT one of the three questions every seller asks at the end of the day?",
+      "options": [
+        "Could I have done better?",
+        "Did I bargain enough with buyers?",
+        "Did I cover all my costs?",
+        "Did I make a profit?"
+      ],
+      "answer": 1,
+      "explanation": "The three questions are: Did I cover all my costs? Did I make a profit? Could I have done better?",
+      "source": "book:page14"
+    },
+    {
+      "id": "q153",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Profit and Loss",
+      "question": "Which question does the chapter call the MOST important?",
+      "options": [
+        "Did I make a profit?",
+        "Did I sell everything?",
+        "Could I have done better?",
+        "Did I cover all my costs?"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says the third question — 'Could I have done better?' — is the most important.",
+      "source": "book:page14"
+    },
+    {
+      "id": "q154",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Profit and Loss",
+      "question": "Why is 'Could I have done better?' the most important question?",
+      "options": [
+        "It tells the seller exactly how much was earned",
+        "It shows whether all costs were covered today",
+        "It helps the seller raise the price right away",
+        "Profit is about making better decisions tomorrow"
+      ],
+      "answer": 3,
+      "explanation": "The chapter says profit is not just about today; it is about making better decisions tomorrow.",
+      "source": "book:page14"
+    },
+    {
+      "id": "q155",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Profit and Loss",
+      "question": "Profit is not just about today; it is about making better decisions tomorrow.",
+      "answer": true,
+      "explanation": "This is the chapter's exact point about why 'Could I have done better?' matters most.",
+      "source": "book:page14"
+    },
+    {
+      "id": "q156",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Profit and Loss",
+      "question": "Income, expenditure and profit are the result of…",
+      "options": [
+        "Every choice a seller makes",
+        "Only the weather on market day",
+        "The government's official price list",
+        "The number of coins buyers carry"
+      ],
+      "answer": 0,
+      "explanation": "The chapter says they are the result of every choice a seller makes — what to buy, how much to make, what price to charge, which market to sell in.",
+      "source": "book:page14"
+    },
+    {
+      "id": "q157",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Profit and Loss",
+      "question": "Which TWO choices does the chapter list as affecting a seller's profit?",
+      "options": [
+        "What to buy",
+        "What price to charge",
+        "Which school to attend",
+        "Which colour to paint the shop"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The chapter lists: what to buy, how much to make, what price to charge, and which market to sell in.",
+      "source": "book:page14"
+    },
+    {
+      "id": "q158",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Profit and Loss",
+      "question": "Which TWO are seller choices named in the chapter?",
+      "options": [
+        "How much to make",
+        "Which market to sell in",
+        "Which day of the week it is",
+        "How old the seller is"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "How much to make and which market to sell in are among the choices that shape income, expenditure and profit.",
+      "source": "book:page14"
+    },
+    {
+      "id": "q159",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Profit and Loss",
+      "question": "Kreena spent ₹100 making lemonade and sold 30 cups at ₹6 each. What did she make?",
+      "options": [
+        "A loss of ₹80",
+        "A profit of ₹80",
+        "A loss of ₹20",
+        "A profit of ₹120"
+      ],
+      "answer": 1,
+      "explanation": "Income = 30 × ₹6 = ₹180. Profit = ₹180 − ₹100 = ₹80.",
+      "source": "book:page18 I.4"
+    },
+    {
+      "id": "q160",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Profit and Loss",
+      "question": "Kreena sold 30 cups of lemonade at ₹6 each. What was her INCOME?",
+      "options": [
+        "₹80",
+        "₹36",
+        "₹180",
+        "₹100"
+      ],
+      "answer": 2,
+      "explanation": "Income is the money received from selling: 30 × ₹6 = ₹180. Her cost of ₹100 is expenditure, and ₹80 is the profit.",
+      "source": "book:page18 I.4"
+    },
+    {
+      "id": "q161",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Profit and Loss",
+      "question": "If Kreena had sold only 15 cups at ₹6 each, with the same ₹100 cost, what would the result be?",
+      "options": [
+        "A profit of ₹10",
+        "A loss of ₹90",
+        "A profit of ₹90",
+        "A loss of ₹10"
+      ],
+      "answer": 3,
+      "explanation": "Income = 15 × ₹6 = ₹90. Costs were ₹100, so ₹90 − ₹100 = −₹10, a loss of ₹10.",
+      "source": "book:page18 I.4 (same method)"
+    },
+    {
+      "id": "q162",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Profit and Loss",
+      "question": "Profit is what's left after…",
+      "options": [
+        "Costs",
+        "Sales",
+        "Bargains",
+        "Bids"
+      ],
+      "answer": 0,
+      "explanation": "The chapter's summary says: 'Profit is what's left after costs.'",
+      "source": "book:page15"
+    },
+    {
+      "id": "q163",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Profit and Loss",
+      "question": "If expenditure is more than income, the seller has made a profit.",
+      "answer": false,
+      "explanation": "Profit is when income is MORE than expenditure. If expenditure is higher, the seller has made a loss.",
+      "source": "book:page19 II"
+    },
+    {
+      "id": "q164",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Profit and Loss",
+      "question": "Why should a seller know the cost of making a product?",
+      "options": [
+        "To know how many buyers will come",
+        "To set a price that covers costs and earns profit",
+        "To make sure the price is the lowest in town",
+        "To decide which buyer to serve first"
+      ],
+      "answer": 1,
+      "explanation": "Only by knowing costs can a seller answer 'Did I cover all my costs?' and set a fair price that leaves some profit.",
+      "source": "book:page14"
+    },
+    {
+      "id": "q165",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Profit and Loss",
+      "question": "Who does the chapter say asks the three end-of-day questions?",
+      "options": [
+        "Only buyers at the weekly haat",
+        "Only shopkeepers in supermarkets",
+        "Every seller, from a canteen uncle to a factory owner",
+        "Only the owners of large factories"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says every seller — from a canteen uncle to the owner of a large factory — asks these questions.",
+      "source": "book:page14"
+    },
+    {
+      "id": "q166",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Profit and Loss",
+      "question": "Puja sold more lemonade than Zayed. Which reason best fits the chapter's ideas?",
+      "options": [
+        "She did not count her costs at all",
+        "She charged more than any buyer would pay",
+        "She made lemonade without any expenditure",
+        "She made better choices about price, place or quantity"
+      ],
+      "answer": 3,
+      "explanation": "The chapter says results come from every choice a seller makes — what price to charge, how much to make, which market to sell in.",
+      "source": "book:page19 IV.3 (reasoning)"
+    },
+    {
+      "id": "q167",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Profit and Loss",
+      "question": "Profit helps a seller grow and do better tomorrow.",
+      "answer": true,
+      "explanation": "The chapter's summary says profit helps a seller grow and do better tomorrow.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q168",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Profit and Loss",
+      "question": "Myra 'made ₹90 from lemonade' and then asked 'Did I cover all my costs?' The ₹90 is best called her…",
+      "options": [
+        "Income",
+        "Profit",
+        "Expenditure",
+        "Surplus"
+      ],
+      "answer": 0,
+      "explanation": "₹90 is the money received from selling — income. Only after subtracting costs does she know whether there is a profit.",
+      "source": "book:page14"
+    },
+    {
+      "id": "q169",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Profit and Loss",
+      "question": "Kreena's lemonade stall made a loss of ₹20.",
+      "answer": false,
+      "explanation": "Kreena earned ₹180 (30 × ₹6) and spent ₹100, so she made a PROFIT of ₹80.",
+      "source": "book:page18 I.4"
+    },
+    {
+      "id": "q170",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Profit and Loss",
+      "question": "A seller covers all costs exactly but has nothing left over. What is the result?",
+      "options": [
+        "A surplus",
+        "No profit and no loss",
+        "A big profit",
+        "A big loss"
+      ],
+      "answer": 1,
+      "explanation": "Profit is what is left after costs. If nothing is left, there is no profit — but no loss either (break-even).",
+      "source": "book:page15,21"
+    },
+    {
+      "id": "q171",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Market Vocabulary",
+      "question": "'Supply' means…",
+      "options": [
+        "Money received from selling goods",
+        "When income is more than expenditure",
+        "How much of a good is available to buy",
+        "How many people want to buy something"
+      ],
+      "answer": 2,
+      "explanation": "Supply (C) is how much of a good is available to buy. Demand is how many people want it.",
+      "source": "book:page19 II"
+    },
+    {
+      "id": "q172",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Market Vocabulary",
+      "question": "'Demand' means…",
+      "options": [
+        "How much of a good is available to buy",
+        "Money spent to run a business",
+        "When supply is greater than demand",
+        "How many people want to buy something"
+      ],
+      "answer": 3,
+      "explanation": "Demand (E) is how many people want to buy something.",
+      "source": "book:page19 II"
+    },
+    {
+      "id": "q173",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Market Vocabulary",
+      "question": "'Income' means…",
+      "options": [
+        "Money received from selling goods or services",
+        "Money spent to buy goods or run a business",
+        "When income is more than expenditure",
+        "When supply is greater than demand"
+      ],
+      "answer": 0,
+      "explanation": "Income (F) is money received from selling goods or services. Money spent is expenditure.",
+      "source": "book:page19 II"
+    },
+    {
+      "id": "q174",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Market Vocabulary",
+      "question": "'Expenditure' means…",
+      "options": [
+        "When supply is greater than demand",
+        "Money spent to buy goods or run a business",
+        "Money received from selling goods or services",
+        "How much of a good is available to buy"
+      ],
+      "answer": 1,
+      "explanation": "Expenditure (A) is money spent to buy goods or run a business.",
+      "source": "book:page19 II"
+    },
+    {
+      "id": "q175",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Market Vocabulary",
+      "question": "'Profit' means…",
+      "options": [
+        "Money spent to run a business",
+        "How many people want to buy something",
+        "When income is more than expenditure",
+        "When supply is greater than demand"
+      ],
+      "answer": 2,
+      "explanation": "Profit (D) is when income is more than expenditure. Supply greater than demand is a surplus.",
+      "source": "book:page19 II"
+    },
+    {
+      "id": "q176",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Market Vocabulary",
+      "question": "'Surplus' means…",
+      "options": [
+        "When income is more than expenditure",
+        "How much of a good is available to buy",
+        "Money received from selling goods",
+        "When supply is greater than demand"
+      ],
+      "answer": 3,
+      "explanation": "Surplus (B) is when supply is greater than demand, so goods are left unsold.",
+      "source": "book:page19 II"
+    },
+    {
+      "id": "q177",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Market Vocabulary",
+      "question": "Which word matches 'Money spent to buy goods or run a business'?",
+      "options": [
+        "Expenditure",
+        "Income",
+        "Profit",
+        "Supply"
+      ],
+      "answer": 0,
+      "explanation": "Expenditure is money spent; income is money received; profit is what's left.",
+      "source": "book:page19 II"
+    },
+    {
+      "id": "q178",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Market Vocabulary",
+      "question": "Which word matches 'Money received from selling goods or services'?",
+      "options": [
+        "Demand",
+        "Income",
+        "Expenditure",
+        "Profit"
+      ],
+      "answer": 1,
+      "explanation": "Income is money received from selling. Profit is only what remains after expenditure is subtracted.",
+      "source": "book:page19 II"
+    },
+    {
+      "id": "q179",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Market Vocabulary",
+      "question": "Which term is the OPPOSITE of surplus?",
+      "options": [
+        "Demand",
+        "Profit",
+        "Shortage",
+        "Supply"
+      ],
+      "answer": 2,
+      "explanation": "A surplus is too much supply (goods unsold); a shortage is too little supply (not enough to go around).",
+      "source": "book:page7"
+    },
+    {
+      "id": "q180",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Market Vocabulary",
+      "question": "Which pair is matched WRONGLY?",
+      "options": [
+        "Supply — how much is available to buy",
+        "Demand — how many want to buy",
+        "Income — money received from selling",
+        "Profit — money spent to run a business"
+      ],
+      "answer": 3,
+      "explanation": "Money spent to run a business is EXPENDITURE. Profit is when income is more than expenditure.",
+      "source": "book:page19 II"
+    },
+    {
+      "id": "q181",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Market Vocabulary",
+      "question": "Profit is when expenditure is more than income.",
+      "answer": false,
+      "explanation": "Profit is when INCOME is more than expenditure. The other way round is a loss.",
+      "source": "book:page19 II"
+    },
+    {
+      "id": "q182",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Market Vocabulary",
+      "question": "Surplus is when supply is greater than demand.",
+      "answer": true,
+      "explanation": "This is the chapter's matching definition of surplus.",
+      "source": "book:page19 II"
+    },
+    {
+      "id": "q183",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Market Vocabulary",
+      "question": "Which TWO terms are about MONEY rather than goods?",
+      "options": [
+        "Income",
+        "Expenditure",
+        "Supply",
+        "Surplus"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Income (money received) and expenditure (money spent) are about money. Supply and surplus describe amounts of goods.",
+      "source": "book:page19 II"
+    },
+    {
+      "id": "q184",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Market Vocabulary",
+      "question": "Which TWO terms describe amounts of GOODS or BUYERS rather than money?",
+      "options": [
+        "Supply",
+        "Demand",
+        "Income",
+        "Profit"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Supply is how much of a good is available; demand is how many people want it. Income and profit are money.",
+      "source": "book:page19 II"
+    },
+    {
+      "id": "q185",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Market Vocabulary",
+      "question": "Profit can be worked out as…",
+      "options": [
+        "Income minus expenditure",
+        "Expenditure minus income",
+        "Supply minus demand",
+        "Income plus expenditure"
+      ],
+      "answer": 0,
+      "explanation": "Profit is when income is more than expenditure — so profit = income − expenditure.",
+      "source": "book:page19 II"
+    },
+    {
+      "id": "q186",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Market Vocabulary",
+      "question": "Demand describes how much of a good is available to buy.",
+      "answer": false,
+      "explanation": "How much is available to buy is SUPPLY. Demand is how many people want to buy something.",
+      "source": "book:page19 II"
+    },
+    {
+      "id": "q187",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Market Vocabulary",
+      "question": "A seller's income is ₹500 and expenditure is ₹350. What is the profit?",
+      "options": [
+        "₹500",
+        "₹150",
+        "₹850",
+        "₹350"
+      ],
+      "answer": 1,
+      "explanation": "Profit = income − expenditure = ₹500 − ₹350 = ₹150.",
+      "source": "book:page19 II (same method)"
+    },
+    {
+      "id": "q188",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Review Scenarios",
+      "question": "The canteen makes 60 samosas daily. On Sports Day, 90 children want samosas instead of the usual 30. What happens to the price?",
+      "options": [
+        "Price will stay the same because supply has not changed",
+        "Price will fall because the canteen uncle is generous",
+        "Price will rise because demand has gone up",
+        "Price will fall because more children are buying"
+      ],
+      "answer": 2,
+      "explanation": "Demand jumped from 30 to 90 while supply stayed at 60, so there is not enough to go around and the price rises.",
+      "source": "book:page18 I.2"
+    },
+    {
+      "id": "q189",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Review Scenarios",
+      "question": "On Sports Day, 90 children want samosas but only 60 are made. How big is the shortage?",
+      "options": [
+        "60 samosas",
+        "90 samosas",
+        "20 samosas",
+        "30 samosas"
+      ],
+      "answer": 3,
+      "explanation": "90 wanted − 60 made = 30 children will not get a samosa — a shortage of 30.",
+      "source": "book:page18 I.2"
+    },
+    {
+      "id": "q190",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Chapter Review Scenarios",
+      "question": "Usual samosa demand is 30; on Sports Day it is 90. Demand grew how many times?",
+      "options": [
+        "Three times",
+        "Two times",
+        "Six times",
+        "Nine times"
+      ],
+      "answer": 0,
+      "explanation": "90 ÷ 30 = 3, so demand tripled on Sports Day.",
+      "source": "book:page18 I.2"
+    },
+    {
+      "id": "q191",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Chapter Review Scenarios",
+      "question": "Which of the following is an example of a SURPLUS?",
+      "options": [
+        "A cricket match ticket sells out in four minutes",
+        "100 laddoos made for Diwali but only 25 sold",
+        "80 children want samosas but the canteen has 20",
+        "Petrol prices rise because oil supply drops"
+      ],
+      "answer": 1,
+      "explanation": "75 unsold laddoos means supply was far greater than demand — a surplus. The other three show shortages or high demand.",
+      "source": "book:page18 I.3"
+    },
+    {
+      "id": "q192",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Chapter Review Scenarios",
+      "question": "In the Diwali laddoo example, how many laddoos were left unsold?",
+      "options": [
+        "100",
+        "50",
+        "75",
+        "25"
+      ],
+      "answer": 2,
+      "explanation": "100 made − 25 sold = 75 laddoos left unsold.",
+      "source": "book:page18 I.3"
+    },
+    {
+      "id": "q193",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Review Scenarios",
+      "question": "'80 children want samosas but the canteen only has 20' is an example of…",
+      "options": [
+        "Surplus",
+        "Profit",
+        "Fair price",
+        "Shortage"
+      ],
+      "answer": 3,
+      "explanation": "80 wanted but only 20 available means not enough to go around — a shortage.",
+      "source": "book:page18 I.3"
+    },
+    {
+      "id": "q194",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Review Scenarios",
+      "question": "A seller prices her bangles so high that every customer walks away; they stay unsold and begin to rust. What was her mistake?",
+      "options": [
+        "She set a price too high for buyers",
+        "She bought too many bangles",
+        "She chose the wrong market to sell in",
+        "She did not bargain with customers"
+      ],
+      "answer": 0,
+      "explanation": "Customers walking away is the sign of a too-high price. The problem was the price, not the quantity or the market.",
+      "source": "book:page18 I.5"
+    },
+    {
+      "id": "q195",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Chapter Review Scenarios",
+      "question": "What happened to the bangles that stayed unsold for weeks?",
+      "options": [
+        "They were given away free",
+        "They began to rust",
+        "They were sold at auction",
+        "They were sold at a surplus"
+      ],
+      "answer": 1,
+      "explanation": "The chapter says the unsold bangles began to rust — unsold goods can spoil or become useless.",
+      "source": "book:page18 I.5"
+    },
+    {
+      "id": "q196",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Chapter Review Scenarios",
+      "question": "A cricket match ticket selling out in four minutes shows very high demand.",
+      "answer": true,
+      "explanation": "Selling out in minutes means many people wanted tickets and there were not enough — high demand.",
+      "source": "book:page18 I.3"
+    },
+    {
+      "id": "q197",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Chapter Review Scenarios",
+      "question": "Petrol prices rising because oil supply drops is an example of a surplus.",
+      "answer": false,
+      "explanation": "A drop in supply pushing prices up is a SHORTAGE. A surplus is when supply is greater than demand.",
+      "source": "book:page18 I.3"
+    },
+    {
+      "id": "q198",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Review Scenarios",
+      "question": "The bangle seller's story best shows which chapter lesson?",
+      "options": [
+        "When supply rises, prices usually fall",
+        "Bargaining is used at weekly haats",
+        "When a price is too high, the buyer walks away",
+        "When a price is too low, both lose in the end"
+      ],
+      "answer": 2,
+      "explanation": "Her bangles stayed unsold and rusted because the price was too high and buyers walked away — the 'too high' case from the fair price section.",
+      "source": "book:page12,18"
+    },
+    {
+      "id": "q199",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Review Scenarios",
+      "question": "Why is 'price will stay the same because supply has not changed' WRONG for the Sports Day samosas?",
+      "options": [
+        "Supply of samosas actually fell on Sports Day",
+        "The canteen uncle gave the samosas away free",
+        "Prices in a canteen can never change",
+        "Price depends on demand too, and demand rose"
+      ],
+      "answer": 3,
+      "explanation": "Price is decided by the balance of supply AND demand. Demand tripled, so even with the same supply the price rises.",
+      "source": "book:page6,18"
+    },
+    {
+      "id": "q200",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Chapter Review Scenarios",
+      "question": "Which TWO scenarios show HIGH DEMAND?",
+      "options": [
+        "90 children want samosas on Sports Day",
+        "A cricket ticket sells out in four minutes",
+        "100 laddoos made but only 25 sold",
+        "Bangles stay unsold for weeks"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Many children wanting samosas and a fast sell-out show high demand. Unsold laddoos and bangles show low demand for the price offered.",
+      "source": "book:page18"
+    },
+    {
+      "id": "q201",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Chapter Review Scenarios",
+      "question": "How much did Kreena spend making her lemonade?",
+      "options": [
+        "₹100",
+        "₹180",
+        "₹80",
+        "₹6"
+      ],
+      "answer": 0,
+      "explanation": "Kreena spent ₹100 making lemonade (her expenditure). She earned ₹180 and made ₹80 profit.",
+      "source": "book:page18 I.4"
+    },
+    {
+      "id": "q202",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Review Scenarios",
+      "question": "Which seller in the chapter had a clearly worked-out profit of ₹80?",
+      "options": [
+        "Zayed",
+        "Kreena",
+        "Myra",
+        "Puja"
+      ],
+      "answer": 1,
+      "explanation": "Kreena earned ₹180 from 30 cups at ₹6 and spent ₹100, a profit of ₹80. Myra's ₹90 is her income before costs.",
+      "source": "book:page18 I.4"
+    },
+    {
+      "id": "q203",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Review Scenarios",
+      "question": "Which review scenario shows a seller losing because of PRICE rather than quantity?",
+      "options": [
+        "Canteen has 20 samosas for 80 children",
+        "A ticket sells out in four minutes",
+        "Bangles priced so high that nobody buys",
+        "100 laddoos made but only 25 sold"
+      ],
+      "answer": 2,
+      "explanation": "The bangle seller's problem was the price itself. The laddoos were a quantity surplus and the samosas a quantity shortage.",
+      "source": "book:page18"
+    },
+    {
+      "id": "q204",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Checkpoints and Portfolio Project",
+      "question": "Where does the chapter ask you to complete the L1 and L2 worksheets?",
+      "options": [
+        "On WhatsApp",
+        "At the haat",
+        "In the mandi",
+        "On Argus"
+      ],
+      "answer": 3,
+      "explanation": "The chapter says: 'Complete the L1 and L2 worksheets on Argus.'",
+      "source": "book:page21"
+    },
+    {
+      "id": "q205",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Checkpoints and Portfolio Project",
+      "question": "In the Connect project, what record of your learning do you build by adding each finished task?",
+      "options": [
+        "A Portfolio",
+        "A Checkpoint",
+        "A Tally",
+        "A Bid"
+      ],
+      "answer": 0,
+      "explanation": "As you finish each task you add your work to the Portfolio, creating a record of your learning journey.",
+      "source": "book:page21"
+    },
+    {
+      "id": "q206",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Checkpoints and Portfolio Project",
+      "question": "Which portfolio task keeps track of pocket money, spending and savings?",
+      "options": [
+        "Trade It",
+        "Count It",
+        "Map It",
+        "Balance It"
+      ],
+      "answer": 1,
+      "explanation": "Count It: keep track of your pocket money, spending, savings and transactions.",
+      "source": "book:page21"
+    },
+    {
+      "id": "q207",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Checkpoints and Portfolio Project",
+      "question": "Which portfolio task analyses a local vendor scenario to understand profit, loss and break-even?",
+      "options": [
+        "Map It",
+        "Price It",
+        "Balance It",
+        "Count It"
+      ],
+      "answer": 2,
+      "explanation": "Balance It: analyse a marketplace (local vendor) scenario to understand profit, loss and break-even through real-world calculations.",
+      "source": "book:page21"
+    },
+    {
+      "id": "q208",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Checkpoints and Portfolio Project",
+      "question": "Which portfolio task uses coordinates to locate and plot newly formed states on India's map?",
+      "options": [
+        "Count It",
+        "Balance It",
+        "Plot It",
+        "Map It"
+      ],
+      "answer": 3,
+      "explanation": "Map It: investigate India's changing map and use coordinates to locate and plot newly formed states.",
+      "source": "book:page21"
+    },
+    {
+      "id": "q209",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Checkpoints and Portfolio Project",
+      "question": "The Connect project says learning becomes more meaningful when applied to real-life situations.",
+      "answer": true,
+      "explanation": "The Connect section opens with exactly this idea before listing the portfolio tasks.",
+      "source": "book:page21"
+    },
+    {
+      "id": "q210",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Checkpoints and Portfolio Project",
+      "question": "In the Balance It task, 'break-even' most likely means…",
+      "options": [
+        "Income equals expenditure, no profit or loss",
+        "Income is far more than expenditure",
+        "Expenditure is far more than income",
+        "Supply is exactly equal to demand"
+      ],
+      "answer": 0,
+      "explanation": "Break-even sits between profit and loss: the seller's income just covers costs, so there is no profit and no loss.",
+      "source": "book:page21 (reasoning)"
+    },
+    {
+      "id": "q211",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Checkpoints and Portfolio Project",
+      "question": "Which TWO are portfolio tasks named in the chapter?",
+      "options": [
+        "Map It",
+        "Count It",
+        "Sell It",
+        "Bid It"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The three portfolio tasks are Map It, Count It and Balance It.",
+      "source": "book:page21"
+    },
+    {
+      "id": "q212",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Checkpoints and Portfolio Project",
+      "question": "The Balance It task is about plotting newly formed states on a map.",
+      "answer": false,
+      "explanation": "Plotting states is Map It. Balance It is about profit, loss and break-even for a local vendor.",
+      "source": "book:page21"
+    },
+    {
+      "id": "q213",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Checkpoints and Portfolio Project",
+      "question": "The chapter opens by asking 'Which version would you choose, and what would you have to give up for it?' This question is about…",
+      "options": [
+        "Checking the supply of tomatoes",
+        "Making a choice and what it costs you",
+        "Counting the tonnes at a mandi",
+        "Finding the highest bidder for a player"
+      ],
+      "answer": 1,
+      "explanation": "Choosing one version means giving something up for it — every market choice has a cost.",
+      "source": "book:page1"
+    },
+    {
+      "id": "q214",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Checkpoints and Portfolio Project",
+      "question": "Which chapter number does the book give 'Markets and Trade: Where Buying Meets Selling'?",
+      "options": [
+        "Chapter 8",
+        "Chapter 9",
+        "Chapter 7",
+        "Chapter 6"
+      ],
+      "answer": 2,
+      "explanation": "The chapter opener shows 'Chapter 7 — Markets And Trade: Where Buying Meets Selling'.",
+      "source": "book:page1"
+    },
+    {
+      "id": "q215",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Checkpoints and Portfolio Project",
+      "question": "Checkpoint 2 asks you to draw arrows to show…",
+      "options": [
+        "Which market makes the most sense",
+        "Who wins the IPL auction",
+        "How much profit Myra made",
+        "What happens to supply and price"
+      ],
+      "answer": 3,
+      "explanation": "Checkpoint 2.1 says: read each story and draw arrows to show what will probably happen to the supply and the price.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q216",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Checkpoints and Portfolio Project",
+      "question": "Checkpoint 1 asks you to decide which market makes the most sense for each situation.",
+      "answer": true,
+      "explanation": "Checkpoint 1: read each situation carefully, decide which market makes the most sense, and give a reason why.",
+      "source": "book:page5"
+    },
+    {
+      "id": "q217",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Checkpoints and Portfolio Project",
+      "question": "Checkpoint 2 also asks you to tick whether each example describes a…",
+      "options": [
+        "Shortage or surplus",
+        "Buyer or seller",
+        "Haat or mandi",
+        "Profit or loss"
+      ],
+      "answer": 0,
+      "explanation": "Checkpoint 2.2 says: read each example and tick if it describes a shortage or a surplus.",
+      "source": "book:page11"
+    }
+  ]
+}

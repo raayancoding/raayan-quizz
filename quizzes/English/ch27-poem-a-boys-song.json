@@ -1,0 +1,4706 @@
+{
+  "schemaVersion": 1,
+  "id": "english-ch27-poem-a-boys-song",
+  "title": "Poem: A Boy's Song",
+  "subject": "English",
+  "grade": 4,
+  "sourceDir": "output/English/27_Poem-A-Boys-Song",
+  "chapter": "27. Poem: A Boy's Song",
+  "topic": "Full Chapter",
+  "description": "James Hogg's 'A Boy's Song' with its glossary and figures of speech (alliteration, personification, imagery), plus the chapter's grammar: prefixes (re-, un-, pre-, mis-, dis-), suffixes (-ful, -ly, -less, -ness, -est, -age), word building, and the four genders (masculine, feminine, common, neuter). Includes descriptive writing basics.",
+  "tags": [
+    "english",
+    "grade4",
+    "poem",
+    "james-hogg",
+    "prefix",
+    "suffix",
+    "gender",
+    "alliteration",
+    "personification",
+    "imagery",
+    "descriptive-writing"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "Which prefix means 'again'?",
+      "options": [
+        "re-",
+        "un-",
+        "pre-",
+        "dis-"
+      ],
+      "answer": 0,
+      "explanation": "The prefix re- means 'again', as in reuse (use again) and recycle.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "What does the prefix 'pre-' mean?",
+      "options": [
+        "again",
+        "before",
+        "wrongly",
+        "not"
+      ],
+      "answer": 1,
+      "explanation": "Pre- means 'before': preschool is a school before primary school; precook means to cook before.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "Which prefix means 'wrong or incorrect'?",
+      "options": [
+        "un-",
+        "re-",
+        "mis-",
+        "dis-"
+      ],
+      "answer": 2,
+      "explanation": "Mis- means 'wrong', as in misplace (put in the wrong place) and mislead (give wrong information).",
+      "source": "book:page19"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "In 'unhappy', the prefix 'un-' means",
+      "options": [
+        "again",
+        "before",
+        "wrongly",
+        "not"
+      ],
+      "answer": 3,
+      "explanation": "Un- means 'not' or 'the opposite of', so unhappy = not happy.",
+      "source": "worksheet-L2 Q6"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "Which prefix means 'not or opposite', as in 'disappear'?",
+      "options": [
+        "dis-",
+        "pre-",
+        "re-",
+        "mis-"
+      ],
+      "answer": 0,
+      "explanation": "Dis- means 'not' or 'the opposite': disappear is the opposite of appear; dislike means to not like.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "A prefix is a group of letters added to the",
+      "options": [
+        "end of a word",
+        "start of a word",
+        "middle of a word",
+        "last letter of a word"
+      ],
+      "answer": 1,
+      "explanation": "A prefix is added to the BEGINNING of a word to change its meaning (un- in unhappy). A suffix goes at the end.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "Please ______ (fill) your water bottle before the nature walk.",
+      "options": [
+        "unfill",
+        "prefill",
+        "refill",
+        "misfill"
+      ],
+      "answer": 2,
+      "explanation": "Refill = fill again. Re- means 'again'.",
+      "source": "worksheet-L1 Q6a"
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "It is ______ (kind) to leave a friend out of a game.",
+      "options": [
+        "rekind",
+        "miskind",
+        "diskind",
+        "unkind"
+      ],
+      "answer": 3,
+      "explanation": "Unkind = not kind. Un- gives the opposite meaning.",
+      "source": "worksheet-L1 Q6b"
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "I ______ (placed) my student book and could not find it.",
+      "options": [
+        "misplaced",
+        "replaced",
+        "displaced",
+        "unplaced"
+      ],
+      "answer": 0,
+      "explanation": "Misplaced = put in the wrong place, which is why the book could not be found. 'Replaced' means put back or swapped, so it does not fit.",
+      "source": "worksheet-L1 Q6c"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "The trout made a splash and ______ (appeared) under the water.",
+      "options": [
+        "reappeared",
+        "disappeared",
+        "misappeared",
+        "unappeared"
+      ],
+      "answer": 1,
+      "explanation": "Disappeared = vanished (the opposite of appeared). The trout went out of sight under the water.",
+      "source": "worksheet-L1 Q6d"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "Mother ______ (heated) the oven before baking the cake.",
+      "options": [
+        "reheated",
+        "unheated",
+        "preheated",
+        "misheated"
+      ],
+      "answer": 2,
+      "explanation": "Preheated = heated BEFORE baking. The clue word is 'before', which matches the prefix pre-.",
+      "source": "worksheet-L1 Q6e"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "Which word means 'to open a lock'?",
+      "options": [
+        "relock",
+        "mislock",
+        "dislock",
+        "unlock"
+      ],
+      "answer": 3,
+      "explanation": "Unlock is the opposite of lock, so it means to open a lock.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "Which word means 'to use again'?",
+      "options": [
+        "reuse",
+        "unuse",
+        "misuse",
+        "disuse"
+      ],
+      "answer": 0,
+      "explanation": "Re- means again, so reuse = use again. Misuse means to use wrongly.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "What does 'mislead' mean?",
+      "options": [
+        "to lead someone again later",
+        "to give wrong information",
+        "to lead the way before others",
+        "to refuse to lead anyone"
+      ],
+      "answer": 1,
+      "explanation": "Mis- means wrong, so mislead = lead someone wrongly, i.e. give wrong information.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "What does 'preschool' mean?",
+      "options": [
+        "a school you attend a second time",
+        "a school that has been closed down",
+        "a school before primary school",
+        "a school for correcting mistakes"
+      ],
+      "answer": 2,
+      "explanation": "Pre- means before, so a preschool is a school children attend before primary school.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "Which word means 'to put something in the wrong place'?",
+      "options": [
+        "replace",
+        "displace",
+        "unplace",
+        "misplace"
+      ],
+      "answer": 3,
+      "explanation": "Misplace = place wrongly. Replace means to put back or swap for another.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "What does 'disappear' mean?",
+      "options": [
+        "to vanish or go away",
+        "to appear once again",
+        "to appear before time",
+        "to appear by mistake"
+      ],
+      "answer": 0,
+      "explanation": "Dis- gives the opposite meaning: disappear = stop being seen, vanish.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "Which prefix completes '___cycle' to mean 'use materials again'?",
+      "options": [
+        "un-",
+        "re-",
+        "pre-",
+        "dis-"
+      ],
+      "answer": 1,
+      "explanation": "Recycle = re- (again) + cycle: to use materials again in a new way.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "'I ___like broccoli' means I do NOT like it. Which prefix fits?",
+      "options": [
+        "un-",
+        "mis-",
+        "dis-",
+        "re-"
+      ],
+      "answer": 2,
+      "explanation": "Dislike = dis- (not) + like. 'Unlike' is a different word meaning 'different from'.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "Which word uses the prefix 'pre-' correctly?",
+      "options": [
+        "pretie",
+        "prelock",
+        "preappear",
+        "precook"
+      ],
+      "answer": 3,
+      "explanation": "Precook (cook before) is a real word from the book. Pretie, prelock and preappear are not real words.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "Which word uses the prefix 'un-' correctly?",
+      "options": [
+        "untie",
+        "unlead",
+        "unplace",
+        "uncycle"
+      ],
+      "answer": 0,
+      "explanation": "Untie = undo a knot. The others take different prefixes: mislead, misplace, recycle.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "In 'unlock', the root word is",
+      "options": [
+        "un",
+        "lock",
+        "unlo",
+        "ock"
+      ],
+      "answer": 1,
+      "explanation": "The root word is the base word that the prefix is added to: un- + lock.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "In 'misunderstood', the prefix is",
+      "options": [
+        "under-",
+        "stood",
+        "mis-",
+        "misunder"
+      ],
+      "answer": 2,
+      "explanation": "Mis- is the prefix; 'understood' is the root word. Misunderstood = understood wrongly.",
+      "source": "worksheet-L2 Q6"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "What does 'preview' mean?",
+      "options": [
+        "to see something again",
+        "to see something wrongly",
+        "to see something clearly",
+        "to see something before"
+      ],
+      "answer": 3,
+      "explanation": "Pre- (before) + view (see): a preview lets you see something before others or before it is released.",
+      "source": "worksheet-L2 Q6"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "Adding 'un-' to 'happy' changes the meaning to",
+      "options": [
+        "not happy",
+        "very happy",
+        "happy again",
+        "happy before"
+      ],
+      "answer": 0,
+      "explanation": "Un- means 'not', so unhappy = not happy / sad.",
+      "source": "worksheet-L2 Q6"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "She had to ______ her letter because it had many mistakes.",
+      "options": [
+        "unwrite",
+        "rewrite",
+        "miswrite",
+        "diswrite"
+      ],
+      "answer": 1,
+      "explanation": "Rewrite = write again. Re- means again; the others are not real words.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "Which sentence uses a prefix correctly?",
+      "options": [
+        "I will unread the poem to enjoy it again.",
+        "I will misread the poem to enjoy it again.",
+        "I will reread the poem to enjoy it again.",
+        "I will preread the poem to enjoy it again."
+      ],
+      "answer": 2,
+      "explanation": "Reread = read again, which matches 'enjoy it again'. Misread means read wrongly; unread and preread do not fit.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "Which word does NOT actually begin with a prefix?",
+      "options": [
+        "unlock",
+        "untie",
+        "unkind",
+        "uncle"
+      ],
+      "answer": 3,
+      "explanation": "In 'uncle' the letters un- are just part of the word; there is no root word 'cle'. In unlock, untie and unkind, un- is a real prefix.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "In which word is 'pre-' a real prefix meaning 'before'?",
+      "options": [
+        "preschool",
+        "pretty",
+        "present",
+        "press"
+      ],
+      "answer": 0,
+      "explanation": "Preschool = pre- + school. In pretty, present and press, the letters pre/pr are simply part of the word.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "Billy 'untied' his boots. This means he",
+      "options": [
+        "tied the knots again",
+        "undid the knots",
+        "tied the knots wrongly",
+        "tied the knots first"
+      ],
+      "answer": 1,
+      "explanation": "Untie = the opposite of tie, so he undid or loosened the knots.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "Which word means 'to lead someone in the wrong direction'?",
+      "options": [
+        "relead",
+        "unlead",
+        "mislead",
+        "prelead"
+      ],
+      "answer": 2,
+      "explanation": "Mis- means wrong, so mislead = lead wrongly or give wrong information.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "Please do not ______ the scissors; they are only for cutting paper.",
+      "options": [
+        "reuse",
+        "disuse",
+        "unuse",
+        "misuse"
+      ],
+      "answer": 3,
+      "explanation": "Misuse = use wrongly. Reuse means use again, which does not fit the warning.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "'Dislike' and 'unkind' share which idea?",
+      "options": [
+        "both prefixes mean 'not'",
+        "both prefixes mean 'again'",
+        "both prefixes mean 'before'",
+        "both prefixes mean 'wrong'"
+      ],
+      "answer": 0,
+      "explanation": "Dis- and un- both mean 'not / the opposite of': dislike = not like, unkind = not kind.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q34",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "The prefix 're-' means 'before'.",
+      "answer": false,
+      "explanation": "False. Re- means 'again' (reuse, recycle). The prefix that means 'before' is pre-.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q35",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "Adding 'dis-' to 'appear' gives a word meaning 'to vanish'.",
+      "answer": true,
+      "explanation": "True. Disappear = the opposite of appear = to vanish or go away.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q36",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "'Unkind' means 'kind again'.",
+      "answer": false,
+      "explanation": "False. Un- means 'not', so unkind = not kind. 'Again' is the meaning of re-.",
+      "source": "worksheet-L1 Q6b"
+    },
+    {
+      "id": "q37",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "A prefix is added to the end of a word.",
+      "answer": false,
+      "explanation": "False. A prefix goes at the beginning of a word; a suffix goes at the end.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q38",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "'Preheat' means to heat the oven before using it.",
+      "answer": true,
+      "explanation": "True. Pre- means before, so preheat = heat beforehand.",
+      "source": "worksheet-L1 Q6e"
+    },
+    {
+      "id": "q39",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "'Replace' and 'misplace' have the same meaning.",
+      "answer": false,
+      "explanation": "False. Replace means to put back or swap; misplace means to put in the wrong place.",
+      "source": "worksheet-L1 Q6c"
+    },
+    {
+      "id": "q40",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "Select ALL the words whose prefix means 'again'.",
+      "options": [
+        "reuse",
+        "recycle",
+        "unlock",
+        "mislead",
+        "preschool"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Reuse and recycle both start with re- (again). Unlock = not/opposite, mislead = wrong, preschool = before.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q41",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "Select the TWO words whose prefix means 'not' or 'the opposite of'.",
+      "options": [
+        "unkind",
+        "dislike",
+        "reheat",
+        "precook"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Un- (unkind) and dis- (dislike) both mean 'not / opposite'. Re- means again and pre- means before.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "A suffix is a group of letters added to the",
+      "options": [
+        "start of a word",
+        "end of a word",
+        "middle of a word",
+        "first letter of a word"
+      ],
+      "answer": 1,
+      "explanation": "A suffix is added to the END of a word to make a new word or change its form, e.g. -ly in quickly.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "Which suffix means 'full of'?",
+      "options": [
+        "-ly",
+        "-less",
+        "-ful",
+        "-ness"
+      ],
+      "answer": 2,
+      "explanation": "-ful means full of: joyful = full of joy.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "Which suffix means 'without'?",
+      "options": [
+        "-ful",
+        "-est",
+        "-age",
+        "-less"
+      ],
+      "answer": 3,
+      "explanation": "-less means without: fearless = without fear.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "The suffix '-ly' tells us something is done",
+      "options": [
+        "in a certain way",
+        "full of something",
+        "most of something",
+        "without something"
+      ],
+      "answer": 0,
+      "explanation": "-ly means 'in a certain way/manner': quickly = in a quick manner.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "The suffix '-ness' means",
+      "options": [
+        "the most of all",
+        "the state or quality of",
+        "in a certain manner",
+        "a collection of items"
+      ],
+      "answer": 1,
+      "explanation": "-ness means the state or quality of: kindness = the quality of being kind.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "The suffix '-est' means",
+      "options": [
+        "least",
+        "again",
+        "most",
+        "without"
+      ],
+      "answer": 2,
+      "explanation": "-est means 'the most': tallest = the most tall; deepest = the most deep.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "The suffix '-age', as in 'package', means",
+      "options": [
+        "the quality of being something",
+        "doing something in a certain way",
+        "being without something",
+        "a collection, state or action"
+      ],
+      "answer": 3,
+      "explanation": "-age means a collection/state/action: a package is a packed item or parcel.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "joy + -ful =",
+      "options": [
+        "joyful",
+        "joyfull",
+        "joyfuly",
+        "joyfal"
+      ],
+      "answer": 0,
+      "explanation": "Joyful is spelled with ONE l. It means full of joy.",
+      "source": "worksheet-L1 Q7"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "quick + -ly =",
+      "options": [
+        "quicky",
+        "quickly",
+        "quickely",
+        "quicklly"
+      ],
+      "answer": 1,
+      "explanation": "Quickly = quick + ly, meaning in a quick manner.",
+      "source": "worksheet-L1 Q7"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "fear + -less =",
+      "options": [
+        "fearles",
+        "fearlass",
+        "fearless",
+        "fearlest"
+      ],
+      "answer": 2,
+      "explanation": "Fearless = fear + less, meaning without fear.",
+      "source": "worksheet-L1 Q7"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "dark + -ness =",
+      "options": [
+        "darknes",
+        "darkeness",
+        "darkniss",
+        "darkness"
+      ],
+      "answer": 3,
+      "explanation": "Darkness = dark + ness, the state of being dark.",
+      "source": "worksheet-L1 Q7"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "deep + -est =",
+      "options": [
+        "deepest",
+        "deeppest",
+        "deepst",
+        "deepiest"
+      ],
+      "answer": 0,
+      "explanation": "Deepest = deep + est, meaning the most deep. No letters change.",
+      "source": "worksheet-L1 Q7"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "pack + -age =",
+      "options": [
+        "packege",
+        "package",
+        "packag",
+        "pacage"
+      ],
+      "answer": 1,
+      "explanation": "Package = pack + age: a packed item or parcel.",
+      "source": "worksheet-L1 Q7"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "happy + -ness =",
+      "options": [
+        "happyness",
+        "happines",
+        "happiness",
+        "hapiness"
+      ],
+      "answer": 2,
+      "explanation": "When a word ends in y, the y changes to i before -ness: happy → happiness.",
+      "source": "worksheet-L1 Q7"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "What spelling change happens when 'happy' becomes 'happiness'?",
+      "options": [
+        "the second p is dropped",
+        "an extra e is added",
+        "the y is doubled",
+        "the y changes to i"
+      ],
+      "answer": 3,
+      "explanation": "Happy ends in y; before adding -ness the y becomes i: happi + ness.",
+      "source": "worksheet-L1 Q7"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "Which word means 'the quality of being kind'?",
+      "options": [
+        "kindness",
+        "kindful",
+        "kindly",
+        "kindest"
+      ],
+      "answer": 0,
+      "explanation": "-ness = the quality of. Kindly means in a kind way; kindest means the most kind.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "Which word means 'the most tall'?",
+      "options": [
+        "tallness",
+        "tallest",
+        "tally",
+        "tallage"
+      ],
+      "answer": 1,
+      "explanation": "-est means the most, so tallest = the most tall.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "Which word means 'without care'?",
+      "options": [
+        "careful",
+        "carely",
+        "careless",
+        "careness"
+      ],
+      "answer": 2,
+      "explanation": "-less means without: careless = without care. Careful means full of care, the opposite.",
+      "source": "worksheet-L2 Q6"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "What does 'brightness' mean?",
+      "options": [
+        "doing something in a bright way",
+        "the brightest one of them all",
+        "being without any light",
+        "the quality of being bright"
+      ],
+      "answer": 3,
+      "explanation": "-ness = the quality of, so brightness = the quality of being bright.",
+      "source": "worksheet-L2 Q6"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "Which word means 'in a quick manner'?",
+      "options": [
+        "quickly",
+        "quickness",
+        "quickest",
+        "quickful"
+      ],
+      "answer": 0,
+      "explanation": "-ly means in a certain way: quickly = in a quick manner.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "What does 'softness' mean?",
+      "options": [
+        "the most soft of all",
+        "the quality of being soft",
+        "in a soft way",
+        "full of soft things"
+      ],
+      "answer": 1,
+      "explanation": "-ness = the state or quality of, so softness = the quality of being soft.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "In 'fearless', the root word is",
+      "options": [
+        "less",
+        "fearl",
+        "fear",
+        "ear"
+      ],
+      "answer": 2,
+      "explanation": "Fearless = fear (root) + -less (suffix).",
+      "source": "book:page19"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "In 'quickly', the suffix is",
+      "options": [
+        "-ckly",
+        "-y",
+        "quick",
+        "-ly"
+      ],
+      "answer": 3,
+      "explanation": "The suffix is -ly; quick is the root word.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "Which word uses the suffix '-est' meaning 'most'?",
+      "options": [
+        "steepest",
+        "steeply",
+        "steepness",
+        "steeple"
+      ],
+      "answer": 0,
+      "explanation": "Steepest = the most steep. Steeple is a church tower — the letters -le are not a suffix here.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "The poem's words 'cleanest', 'greenest' and 'sweetest' all end in the suffix",
+      "options": [
+        "-ness",
+        "-est",
+        "-ly",
+        "-less"
+      ],
+      "answer": 1,
+      "explanation": "All three use -est, meaning the most: the cleanest, the greenest, the sweetest.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "Which is the correct spelling of care + -ful?",
+      "options": [
+        "carefull",
+        "carful",
+        "careful",
+        "careyful"
+      ],
+      "answer": 2,
+      "explanation": "The suffix -ful has only one l: careful.",
+      "source": "worksheet-L2 Q7b"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "What does 'useless' mean?",
+      "options": [
+        "used again",
+        "full of use",
+        "used before",
+        "of no use"
+      ],
+      "answer": 3,
+      "explanation": "-less means without, so useless = without use / of no use.",
+      "source": "worksheet-L2 Q7a"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "Which pair shows two correct words made from 'use'?",
+      "options": [
+        "reuse / useless",
+        "reuse / unuse",
+        "preuse / useful",
+        "misuse / usely"
+      ],
+      "answer": 0,
+      "explanation": "Reuse (use again) and useless (without use) are both real words. Unuse, preuse and usely are not.",
+      "source": "worksheet-L2 Q7a"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "Which pair shows two correct words made from 'care'?",
+      "options": [
+        "carely / careness",
+        "careful / careless",
+        "recare / uncare",
+        "careage / carest"
+      ],
+      "answer": 1,
+      "explanation": "Careful (full of care) and careless (without care) are real words with opposite meanings.",
+      "source": "worksheet-L2 Q7b"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "Which word does NOT contain the suffix '-ly'?",
+      "options": [
+        "quickly",
+        "softly",
+        "lily",
+        "sweetly"
+      ],
+      "answer": 2,
+      "explanation": "Lily is a flower; -ly is just part of its spelling, not a suffix added to a root. Quick+ly, soft+ly, sweet+ly are real suffix words.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "In which word is '-ful' NOT a suffix added to a root word?",
+      "options": [
+        "wonderful",
+        "careful",
+        "joyful",
+        "fulfil"
+      ],
+      "answer": 3,
+      "explanation": "In fulfil, 'ful' is at the start and is not a suffix. Wonderful, careful and joyful = root + -ful.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "'Where the hazel bank is steepest' — 'steepest' means",
+      "options": [
+        "the most steep",
+        "quite steep",
+        "steep again",
+        "not steep"
+      ],
+      "answer": 0,
+      "explanation": "-est means the most, so the steepest bank is the most steep one.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "What is the correct spelling of happy + -ly?",
+      "options": [
+        "happyly",
+        "happily",
+        "happiely",
+        "hapily"
+      ],
+      "answer": 1,
+      "explanation": "The y changes to i before -ly: happy → happily, just like happy → happiness.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "Which word means 'full of hope'?",
+      "options": [
+        "hopeless",
+        "hopely",
+        "hopeful",
+        "hopeness"
+      ],
+      "answer": 2,
+      "explanation": "-ful = full of: hopeful = full of hope. Hopeless = without hope.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "Which word means 'without a home'?",
+      "options": [
+        "homeful",
+        "homely",
+        "homeness",
+        "homeless"
+      ],
+      "answer": 3,
+      "explanation": "-less means without: homeless = without a home.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "Which word means 'the state of being sad'?",
+      "options": [
+        "sadness",
+        "sadly",
+        "saddest",
+        "sadful"
+      ],
+      "answer": 0,
+      "explanation": "-ness = the state or quality of: sadness = the state of being sad.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "Which word means 'in a soft way'?",
+      "options": [
+        "softness",
+        "softly",
+        "softest",
+        "softful"
+      ],
+      "answer": 1,
+      "explanation": "-ly = in a certain way: softly = in a soft way. Softness is the quality of being soft.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "Which word means 'the most high'?",
+      "options": [
+        "highly",
+        "highness",
+        "highest",
+        "highful"
+      ],
+      "answer": 2,
+      "explanation": "-est = most, so highest = the most high.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q80",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "The suffix '-less' means 'full of'.",
+      "answer": false,
+      "explanation": "False. -less means 'without' (fearless = without fear). The suffix meaning 'full of' is -ful.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q81",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "'Happiness' is spelled with an i, not a y, before -ness.",
+      "answer": true,
+      "explanation": "True. Happy ends in y, which changes to i: happiness.",
+      "source": "worksheet-L1 Q7"
+    },
+    {
+      "id": "q82",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "The suffix '-est' shows 'the most', as in 'deepest'.",
+      "answer": true,
+      "explanation": "True. Deepest = the most deep; tallest = the most tall.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q83",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "'Darkness' means 'in a dark way'.",
+      "answer": false,
+      "explanation": "False. -ness means the state or quality of, so darkness = the state of being dark. 'In a dark way' would be darkly.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q84",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "'Package' is formed from 'pack' + '-age'.",
+      "answer": true,
+      "explanation": "True. Pack + -age = package, a packed item or parcel.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q85",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "The suffix '-ly' in 'quickly' means 'the most quick'.",
+      "answer": false,
+      "explanation": "False. -ly means 'in a certain way' (in a quick manner). 'The most' is shown by -est: quickest.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q86",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "Select ALL the words that end with the suffix '-ness'.",
+      "options": [
+        "kindness",
+        "softness",
+        "fearless",
+        "quickly"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Kindness and softness end in -ness (quality of). Fearless ends in -less and quickly ends in -ly.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q87",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "Select the TWO words whose suffix means 'without'.",
+      "options": [
+        "fearless",
+        "careless",
+        "careful",
+        "joyful"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "-less = without: fearless, careless. -ful = full of: careful, joyful.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q88",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "Which TWO words mean 'the most' of something?",
+      "options": [
+        "tallest",
+        "deepest",
+        "tallness",
+        "deeply"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "-est shows the most: tallest, deepest. Tallness = quality of being tall; deeply = in a deep way.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "Which word has BOTH a prefix and a suffix?",
+      "options": [
+        "kindness",
+        "unkind",
+        "kindly",
+        "unkindness"
+      ],
+      "answer": 3,
+      "explanation": "Unkindness = un- (prefix) + kind (root) + -ness (suffix). The others have only one or the other.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "Which word has a prefix but NO suffix?",
+      "options": [
+        "untie",
+        "softness",
+        "joyful",
+        "unhappily"
+      ],
+      "answer": 0,
+      "explanation": "Untie = un- + tie, with no suffix. Softness and joyful have suffixes only; unhappily has both.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "Which word has a suffix but NO prefix?",
+      "options": [
+        "unlock",
+        "fearless",
+        "misplace",
+        "disappear"
+      ],
+      "answer": 1,
+      "explanation": "Fearless = fear + -less (suffix). Unlock, misplace and disappear all start with prefixes.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "In 'unhappy', the root word is",
+      "options": [
+        "unhap",
+        "happ",
+        "happy",
+        "py"
+      ],
+      "answer": 2,
+      "explanation": "Un- is the prefix and happy is the root word.",
+      "source": "worksheet-L2 Q6"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "The word 'careless' contains a",
+      "options": [
+        "prefix only",
+        "prefix and suffix",
+        "root word only",
+        "suffix only"
+      ],
+      "answer": 3,
+      "explanation": "Careless = care + -less. The -less is a suffix; there is no prefix.",
+      "source": "worksheet-L2 Q6"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "In 'misunderstood', the root word is",
+      "options": [
+        "understood",
+        "under",
+        "stood",
+        "misunder"
+      ],
+      "answer": 0,
+      "explanation": "Mis- is the prefix; understood is the root word. Misunderstood = understood wrongly.",
+      "source": "worksheet-L2 Q6"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "In 'preview', the root word is",
+      "options": [
+        "pre",
+        "view",
+        "review",
+        "prev"
+      ],
+      "answer": 1,
+      "explanation": "Pre- is the prefix (before) and view is the root word.",
+      "source": "worksheet-L2 Q6"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "A broken umbrella is ______ in the rain.",
+      "options": [
+        "reused",
+        "misused",
+        "useless",
+        "unused"
+      ],
+      "answer": 2,
+      "explanation": "Useless = of no use. A broken umbrella cannot help you, so it is useless.",
+      "source": "worksheet-L2 Q7a"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "We should ______ old jars to store things.",
+      "options": [
+        "unuse",
+        "disuse",
+        "misuse",
+        "reuse"
+      ],
+      "answer": 3,
+      "explanation": "Reuse = use again. Storing things in old jars is using them again.",
+      "source": "worksheet-L2 Q7a"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "A ______ mistake cost me two marks.",
+      "options": [
+        "careless",
+        "careful",
+        "carefully",
+        "careness"
+      ],
+      "answer": 0,
+      "explanation": "A careless mistake is one made without care. 'Careful mistake' makes no sense.",
+      "source": "worksheet-L2 Q7b"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "Playing in the meadow filled the boys with ______.",
+      "options": [
+        "unhappy",
+        "happiness",
+        "happily",
+        "happiest"
+      ],
+      "answer": 1,
+      "explanation": "The sentence needs a naming word for a feeling: happiness (the state of being happy).",
+      "source": "worksheet-L2 Q7c"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "Billy was ______ when it rained.",
+      "options": [
+        "happiness",
+        "happily",
+        "unhappy",
+        "unhappiness"
+      ],
+      "answer": 2,
+      "explanation": "Billy was unhappy (not happy) because rain stopped him playing outside. 'Was happiness' is not correct.",
+      "source": "worksheet-L2 Q7c"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "Be ______ while crossing the road.",
+      "options": [
+        "careless",
+        "careness",
+        "carefuly",
+        "careful"
+      ],
+      "answer": 3,
+      "explanation": "Careful = full of care. You must take care when crossing the road.",
+      "source": "worksheet-L2 Q7b"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "Which word is the opposite of 'careful'?",
+      "options": [
+        "careless",
+        "carefully",
+        "uncare",
+        "carefulness"
+      ],
+      "answer": 0,
+      "explanation": "Careful = full of care; careless = without care. Changing the suffix gives the opposite meaning.",
+      "source": "worksheet-L2 Q7b"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "Which word is the opposite of 'lock'?",
+      "options": [
+        "relock",
+        "unlock",
+        "mislock",
+        "locker"
+      ],
+      "answer": 1,
+      "explanation": "Un- gives the opposite meaning: unlock = open a lock.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "Which word is the opposite of 'appear'?",
+      "options": [
+        "reappear",
+        "preappear",
+        "disappear",
+        "appearance"
+      ],
+      "answer": 2,
+      "explanation": "Dis- gives the opposite meaning: disappear = vanish. Reappear means appear again.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "Which word means 'the most quick'?",
+      "options": [
+        "quickly",
+        "quickness",
+        "requick",
+        "quickest"
+      ],
+      "answer": 3,
+      "explanation": "-est = the most, so quickest = the most quick.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "Select the correct spelling of mis- + lead.",
+      "options": [
+        "mislead",
+        "misled",
+        "misleed",
+        "meslead"
+      ],
+      "answer": 0,
+      "explanation": "Mislead = mis- + lead (to give wrong information). 'Misled' is its past tense, not the prefix + root form.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "The nestlings flew ______ across the sky.",
+      "options": [
+        "quickness",
+        "quickly",
+        "quickest",
+        "quick-ly"
+      ],
+      "answer": 1,
+      "explanation": "The sentence needs a word telling HOW they flew: quickly (in a quick manner).",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "The ______ hero saved the town without any fear.",
+      "options": [
+        "fearful",
+        "fearness",
+        "fearless",
+        "fearly"
+      ],
+      "answer": 2,
+      "explanation": "Fearless = without fear, which matches 'without any fear'. Fearful means full of fear.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "Which word means 'not able to be seen again'?",
+      "options": [
+        "cannot disappear",
+        "cannot misappear",
+        "cannot preappear",
+        "cannot reappear"
+      ],
+      "answer": 3,
+      "explanation": "Reappear = appear again, so 'cannot reappear' means not able to be seen again.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "Which word means 'in a careless way'?",
+      "options": [
+        "carelessly",
+        "carefully",
+        "carelessness",
+        "uncareful"
+      ],
+      "answer": 0,
+      "explanation": "Carelessly = care + -less + -ly: in a way that shows no care. Carelessness is the quality, not the way.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "Which word means 'the state of being unkind'?",
+      "options": [
+        "unkindly",
+        "unkindness",
+        "kindness",
+        "unkindest"
+      ],
+      "answer": 1,
+      "explanation": "Unkindness = un- + kind + -ness: the state of being unkind. Unkindly means in an unkind way.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "The ______ of the shadow made the hazel bank feel mysterious.",
+      "options": [
+        "deepest",
+        "deeply",
+        "deepness",
+        "redeep"
+      ],
+      "answer": 2,
+      "explanation": "The sentence needs a naming word for the quality: deepness (the quality of being deep).",
+      "source": "book:page18"
+    },
+    {
+      "id": "q113",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "'Unhappiness' contains both a prefix and a suffix.",
+      "answer": true,
+      "explanation": "True. Un- is the prefix, happy is the root and -ness is the suffix.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q114",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "'Quickly' contains the prefix 'qui-'.",
+      "answer": false,
+      "explanation": "False. Quickly has NO prefix; it is the root 'quick' plus the suffix -ly.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q115",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "A suffix can change 'quick' into 'quickly'.",
+      "answer": true,
+      "explanation": "True. Adding the suffix -ly to quick gives quickly (in a quick manner).",
+      "source": "book:page19"
+    },
+    {
+      "id": "q116",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "'Careful' and 'careless' have the same meaning.",
+      "answer": false,
+      "explanation": "False. Careful = full of care; careless = without care. They are opposites.",
+      "source": "worksheet-L2 Q7b"
+    },
+    {
+      "id": "q117",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "The word 'preschool' has a suffix at the end.",
+      "answer": false,
+      "explanation": "False. Preschool has a PREFIX (pre-) at the beginning and no suffix.",
+      "source": "book:page19"
+    },
+    {
+      "id": "q118",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "Select the TWO words that have BOTH a prefix and a suffix.",
+      "options": [
+        "unkindness",
+        "unhappily",
+        "fearless",
+        "preschool"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Unkindness = un- + kind + -ness; unhappily = un- + happy + -ly. Fearless has only a suffix; preschool has only a prefix.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q119",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "Select the TWO words that are built from the root word 'use'.",
+      "options": [
+        "reuse",
+        "useless",
+        "unless",
+        "misuse of"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Reuse (re- + use) and useless (use + -less) come from 'use'. 'Unless' is a different word; 'misuse of' is a phrase, not a single built word.",
+      "source": "worksheet-L2 Q7a"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "Nouns that name males, like 'king' and 'uncle', are",
+      "options": [
+        "feminine gender",
+        "common gender",
+        "neuter gender",
+        "masculine gender"
+      ],
+      "answer": 3,
+      "explanation": "Masculine gender nouns name male people or animals: king, uncle, nephew, rooster.",
+      "source": "book:page22"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "Nouns that name females, like 'queen' and 'aunt', are",
+      "options": [
+        "feminine gender",
+        "masculine gender",
+        "common gender",
+        "neuter gender"
+      ],
+      "answer": 0,
+      "explanation": "Feminine gender nouns name female people or animals: queen, aunt, niece, hen.",
+      "source": "book:page22"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "The feminine of 'host' is",
+      "options": [
+        "hostine",
+        "hostess",
+        "hoster",
+        "hostina"
+      ],
+      "answer": 1,
+      "explanation": "Host (masculine) → hostess (feminine), formed by adding -ess.",
+      "source": "worksheet-L1 Q8"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "The masculine partner of 'mare' is",
+      "options": [
+        "gander",
+        "rooster",
+        "stallion",
+        "drake"
+      ],
+      "answer": 2,
+      "explanation": "A mare is a female horse; the male horse is a stallion. Gander = male goose, rooster = male chicken.",
+      "source": "worksheet-L1 Q8"
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "The feminine of 'nephew' is",
+      "options": [
+        "aunt",
+        "daughter",
+        "cousin",
+        "niece"
+      ],
+      "answer": 3,
+      "explanation": "Nephew (masculine) → niece (feminine). Aunt is the feminine of uncle.",
+      "source": "worksheet-L1 Q8"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "The masculine partner of 'hen' is",
+      "options": [
+        "rooster",
+        "gander",
+        "stallion",
+        "drake"
+      ],
+      "answer": 0,
+      "explanation": "A hen is a female chicken; the male is a rooster. Gander = male goose, stallion = male horse.",
+      "source": "worksheet-L1 Q8"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "The feminine of 'actor' is",
+      "options": [
+        "actoress",
+        "actress",
+        "actrix",
+        "actorine"
+      ],
+      "answer": 1,
+      "explanation": "Actor → actress: the -or ending changes to -ress.",
+      "source": "worksheet-L1 Q8"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "The masculine partner of 'goose' is",
+      "options": [
+        "rooster",
+        "stallion",
+        "gander",
+        "goosen"
+      ],
+      "answer": 2,
+      "explanation": "A goose is female; the male goose is a gander.",
+      "source": "worksheet-L1 Q8"
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "The feminine of 'hero' is",
+      "options": [
+        "heroess",
+        "heress",
+        "heroina",
+        "heroine"
+      ],
+      "answer": 3,
+      "explanation": "Hero (masculine) → heroine (feminine).",
+      "source": "worksheet-L1 Q8"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "The feminine of 'king' is",
+      "options": [
+        "queen",
+        "princess",
+        "duchess",
+        "lady"
+      ],
+      "answer": 0,
+      "explanation": "King → queen. Princess is the feminine of prince; duchess of duke.",
+      "source": "worksheet-L2 Q9"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "The feminine of 'prince' is",
+      "options": [
+        "queen",
+        "princess",
+        "lady",
+        "duchess"
+      ],
+      "answer": 1,
+      "explanation": "Prince → princess, formed by adding -ess.",
+      "source": "worksheet-L2 Q9"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "The feminine of 'lord' is",
+      "options": [
+        "lordess",
+        "duchess",
+        "lady",
+        "queen"
+      ],
+      "answer": 2,
+      "explanation": "Lord → lady. There is no word 'lordess'; duchess pairs with duke.",
+      "source": "worksheet-L2 Q9"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "The feminine of 'uncle' is",
+      "options": [
+        "niece",
+        "mother",
+        "cousin",
+        "aunt"
+      ],
+      "answer": 3,
+      "explanation": "Uncle → aunt. Niece is the feminine of nephew.",
+      "source": "worksheet-L2 Q9"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "The feminine of 'duke' is",
+      "options": [
+        "duchess",
+        "dukess",
+        "lady",
+        "queen"
+      ],
+      "answer": 0,
+      "explanation": "Duke → duchess. 'Dukess' is not a word.",
+      "source": "worksheet-L2 Q9"
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "The feminine of 'shepherd' is",
+      "options": [
+        "shepherdina",
+        "shepherdess",
+        "shepherdine",
+        "shepherdee"
+      ],
+      "answer": 1,
+      "explanation": "Shepherd → shepherdess, formed by adding -ess.",
+      "source": "worksheet-L2 Q9"
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "The feminine of 'monk' is",
+      "options": [
+        "monkess",
+        "friar",
+        "nun",
+        "monkette"
+      ],
+      "answer": 2,
+      "explanation": "Monk (masculine) → nun (feminine). A friar is another masculine word.",
+      "source": "worksheet-L2 Q9"
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "The masculine partner of 'vixen' is",
+      "options": [
+        "stag",
+        "gander",
+        "stallion",
+        "fox"
+      ],
+      "answer": 3,
+      "explanation": "A vixen is a female fox, so the masculine is fox. Stag = male deer.",
+      "source": "worksheet-L2 Q8d"
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "The feminine of 'son' is",
+      "options": [
+        "daughter",
+        "niece",
+        "sister",
+        "mother"
+      ],
+      "answer": 0,
+      "explanation": "Son → daughter. Sister pairs with brother; mother with father.",
+      "source": "worksheet-L2 Q9"
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "The masculine partner of 'mother' is",
+      "options": [
+        "son",
+        "father",
+        "uncle",
+        "brother"
+      ],
+      "answer": 1,
+      "explanation": "Mother → father. Son pairs with daughter; uncle with aunt.",
+      "source": "worksheet-L1 Q9"
+    },
+    {
+      "id": "q139",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "The masculine partner of 'princess' is",
+      "options": [
+        "king",
+        "lord",
+        "prince",
+        "duke"
+      ],
+      "answer": 2,
+      "explanation": "Princess → prince. King pairs with queen; lord with lady.",
+      "source": "worksheet-L2 Q9"
+    },
+    {
+      "id": "q140",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "The masculine partner of 'duchess' is",
+      "options": [
+        "lord",
+        "king",
+        "prince",
+        "duke"
+      ],
+      "answer": 3,
+      "explanation": "Duchess → duke. Lord pairs with lady; king with queen.",
+      "source": "worksheet-L2 Q9"
+    },
+    {
+      "id": "q141",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "The masculine partner of 'lady' is",
+      "options": [
+        "lord",
+        "duke",
+        "king",
+        "prince"
+      ],
+      "answer": 0,
+      "explanation": "Lady → lord (as in 'the young lord' in the worksheet paragraph). Duke pairs with duchess.",
+      "source": "worksheet-L2 Q9"
+    },
+    {
+      "id": "q142",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "Which is the odd one out: king, uncle, aunt, nephew?",
+      "options": [
+        "king",
+        "aunt",
+        "uncle",
+        "nephew"
+      ],
+      "answer": 1,
+      "explanation": "Aunt is feminine gender; king, uncle and nephew are all masculine.",
+      "source": "worksheet-L2 Q8a"
+    },
+    {
+      "id": "q143",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "Which is the odd one out: gander, rooster, vixen, stallion?",
+      "options": [
+        "gander",
+        "rooster",
+        "vixen",
+        "stallion"
+      ],
+      "answer": 2,
+      "explanation": "Vixen (female fox) is feminine; gander, rooster and stallion are all masculine animals.",
+      "source": "worksheet-L2 Q8d"
+    },
+    {
+      "id": "q144",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "Which word is masculine gender?",
+      "options": [
+        "goose",
+        "hen",
+        "mare",
+        "gander"
+      ],
+      "answer": 3,
+      "explanation": "Gander = male goose. Goose, hen and mare are all feminine.",
+      "source": "worksheet-L1 Q8"
+    },
+    {
+      "id": "q145",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "Which word is feminine gender?",
+      "options": [
+        "mare",
+        "stallion",
+        "gander",
+        "rooster"
+      ],
+      "answer": 0,
+      "explanation": "Mare = female horse. Stallion, gander and rooster are masculine.",
+      "source": "worksheet-L1 Q8"
+    },
+    {
+      "id": "q146",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "Which word is feminine gender?",
+      "options": [
+        "hero",
+        "heroine",
+        "host",
+        "actor"
+      ],
+      "answer": 1,
+      "explanation": "Heroine is feminine; hero, host and actor are masculine.",
+      "source": "worksheet-L1 Q8"
+    },
+    {
+      "id": "q147",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "Which word is masculine gender?",
+      "options": [
+        "niece",
+        "aunt",
+        "nephew",
+        "duchess"
+      ],
+      "answer": 2,
+      "explanation": "Nephew is masculine; niece, aunt and duchess are feminine.",
+      "source": "worksheet-L1 Q8"
+    },
+    {
+      "id": "q148",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "Which pair is NOT a correct masculine–feminine pair?",
+      "options": [
+        "rooster – hen",
+        "stallion – mare",
+        "duke – duchess",
+        "gander – hen"
+      ],
+      "answer": 3,
+      "explanation": "Gander pairs with goose, not hen. Hen pairs with rooster.",
+      "source": "worksheet-L1 Q8"
+    },
+    {
+      "id": "q149",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "Which pair IS a correct masculine–feminine pair?",
+      "options": [
+        "lord – lady",
+        "lord – lordess",
+        "host – hostress",
+        "hero – heroess"
+      ],
+      "answer": 0,
+      "explanation": "Lord → lady is correct. The correct forms of the others are hostess and heroine; 'lordess' does not exist.",
+      "source": "worksheet-L2 Q9"
+    },
+    {
+      "id": "q150",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "Change to feminine: 'The king called his son, the prince, to the palace.'",
+      "options": [
+        "The queen called her son, the princess, to the palace.",
+        "The queen called her daughter, the princess, to the palace.",
+        "The lady called her daughter, the duchess, to the palace.",
+        "The queen called his daughter, the princess, to the palace."
+      ],
+      "answer": 1,
+      "explanation": "Every masculine word changes: king → queen, his → her, son → daughter, prince → princess.",
+      "source": "worksheet-L2 Q9"
+    },
+    {
+      "id": "q151",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "Change to feminine: 'A shepherd and a monk were also invited to the feast.'",
+      "options": [
+        "A shepherdess and a monkess were also invited to the feast.",
+        "A shepherd and a nun were also invited to the feast.",
+        "A shepherdess and a nun were also invited to the feast.",
+        "A shepherdine and a nun were also invited to the feast."
+      ],
+      "answer": 2,
+      "explanation": "Shepherd → shepherdess and monk → nun. 'Monkess' and 'shepherdine' are not words.",
+      "source": "worksheet-L2 Q9"
+    },
+    {
+      "id": "q152",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "Change to feminine: 'The young lord rode in with his uncle, the duke.'",
+      "options": [
+        "The young lady rode in with her uncle, the duchess.",
+        "The young lady rode in with her aunt, the duke.",
+        "The young queen rode in with her aunt, the duchess.",
+        "The young lady rode in with her aunt, the duchess."
+      ],
+      "answer": 3,
+      "explanation": "Lord → lady, his → her, uncle → aunt, duke → duchess. All four words must change.",
+      "source": "worksheet-L2 Q9"
+    },
+    {
+      "id": "q153",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "When changing 'his' to the feminine gender in a sentence, we use",
+      "options": [
+        "her",
+        "him",
+        "hers",
+        "she"
+      ],
+      "answer": 0,
+      "explanation": "'The king called HIS son' → 'The queen called HER daughter'. Her is the feminine of his before a noun.",
+      "source": "worksheet-L2 Q9"
+    },
+    {
+      "id": "q154",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "'The King of Pixel Kingdom' — the word 'King' is",
+      "options": [
+        "feminine",
+        "masculine",
+        "common",
+        "neuter"
+      ],
+      "answer": 1,
+      "explanation": "King names a male ruler, so it is masculine gender.",
+      "source": "book:page23"
+    },
+    {
+      "id": "q155",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "'The clever princess solves the puzzle' — 'princess' is",
+      "options": [
+        "masculine",
+        "common",
+        "feminine",
+        "neuter"
+      ],
+      "answer": 2,
+      "explanation": "Princess names a female, so it is feminine gender.",
+      "source": "book:page23"
+    },
+    {
+      "id": "q156",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "'Mare' is the feminine of 'stallion'.",
+      "answer": true,
+      "explanation": "True. A stallion is a male horse and a mare is a female horse.",
+      "source": "worksheet-L1 Q8"
+    },
+    {
+      "id": "q157",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "'Gander' is the feminine of 'goose'.",
+      "answer": false,
+      "explanation": "False. Gander is the MASCULINE (male goose); goose is the feminine.",
+      "source": "worksheet-L1 Q8"
+    },
+    {
+      "id": "q158",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "'Hostess' is the feminine form of 'host'.",
+      "answer": true,
+      "explanation": "True. Host → hostess by adding -ess.",
+      "source": "worksheet-L1 Q8"
+    },
+    {
+      "id": "q159",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "The feminine of 'nephew' is 'aunt'.",
+      "answer": false,
+      "explanation": "False. The feminine of nephew is niece. Aunt is the feminine of uncle.",
+      "source": "worksheet-L1 Q8"
+    },
+    {
+      "id": "q160",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "'Rooster' is the masculine partner of 'hen'.",
+      "answer": true,
+      "explanation": "True. Rooster = male chicken; hen = female chicken.",
+      "source": "worksheet-L1 Q8"
+    },
+    {
+      "id": "q161",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "'Heroine' is the masculine form of 'hero'.",
+      "answer": false,
+      "explanation": "False. Hero is masculine; heroine is the FEMININE form.",
+      "source": "worksheet-L1 Q8"
+    },
+    {
+      "id": "q162",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "The feminine of 'duke' is 'lady'.",
+      "answer": false,
+      "explanation": "False. The feminine of duke is duchess. Lady is the feminine of lord.",
+      "source": "worksheet-L2 Q9"
+    },
+    {
+      "id": "q163",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "A vixen is a female fox.",
+      "answer": true,
+      "explanation": "True. Vixen is the feminine of fox.",
+      "source": "worksheet-L2 Q8d"
+    },
+    {
+      "id": "q164",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "Select ALL the feminine nouns.",
+      "options": [
+        "duchess",
+        "niece",
+        "gander",
+        "nephew"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Duchess and niece are feminine. Gander (male goose) and nephew are masculine.",
+      "source": "worksheet-L2 Q8"
+    },
+    {
+      "id": "q165",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "Select ALL the masculine nouns.",
+      "options": [
+        "stallion",
+        "monk",
+        "mare",
+        "nun"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Stallion (male horse) and monk are masculine; mare and nun are their feminine partners.",
+      "source": "worksheet-L2 Q9"
+    },
+    {
+      "id": "q166",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "Nouns that can be either male or female, like 'teacher' or 'friend', are",
+      "options": [
+        "neuter gender",
+        "masculine gender",
+        "feminine gender",
+        "common gender"
+      ],
+      "answer": 3,
+      "explanation": "Common gender nouns can refer to a male or a female: teacher, friend, student, doctor.",
+      "source": "worksheet-L1 Q9"
+    },
+    {
+      "id": "q167",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "Nouns for non-living things, like 'tablet' or 'robot', are",
+      "options": [
+        "neuter gender",
+        "common gender",
+        "masculine gender",
+        "feminine gender"
+      ],
+      "answer": 0,
+      "explanation": "Neuter gender is for things that are neither male nor female: tablet, robot, bicycle.",
+      "source": "worksheet-L1 Q9"
+    },
+    {
+      "id": "q168",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "'Student' belongs to which gender?",
+      "options": [
+        "neuter",
+        "common",
+        "masculine",
+        "feminine"
+      ],
+      "answer": 1,
+      "explanation": "A student can be a boy or a girl, so student is common gender.",
+      "source": "worksheet-L1 Q9"
+    },
+    {
+      "id": "q169",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "'Robot' belongs to which gender?",
+      "options": [
+        "common",
+        "masculine",
+        "neuter",
+        "feminine"
+      ],
+      "answer": 2,
+      "explanation": "A robot is a non-living thing, so it is neuter gender.",
+      "source": "worksheet-L1 Q9"
+    },
+    {
+      "id": "q170",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "'Doctor' belongs to which gender?",
+      "options": [
+        "neuter",
+        "masculine",
+        "feminine",
+        "common"
+      ],
+      "answer": 3,
+      "explanation": "A doctor can be a man or a woman, so doctor is common gender.",
+      "source": "worksheet-L1 Q9"
+    },
+    {
+      "id": "q171",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "'Tablet' belongs to which gender?",
+      "options": [
+        "neuter",
+        "common",
+        "masculine",
+        "feminine"
+      ],
+      "answer": 0,
+      "explanation": "A tablet is a thing, not a male or female, so it is neuter.",
+      "source": "worksheet-L1 Q9"
+    },
+    {
+      "id": "q172",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "'Friend' belongs to which gender?",
+      "options": [
+        "neuter",
+        "common",
+        "masculine",
+        "feminine"
+      ],
+      "answer": 1,
+      "explanation": "A friend may be male or female, so friend is common gender.",
+      "source": "worksheet-L1 Q9"
+    },
+    {
+      "id": "q173",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "'Bicycle' belongs to which gender?",
+      "options": [
+        "common",
+        "masculine",
+        "neuter",
+        "feminine"
+      ],
+      "answer": 2,
+      "explanation": "A bicycle is a non-living object, so it is neuter gender.",
+      "source": "worksheet-L1 Q9"
+    },
+    {
+      "id": "q174",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "'Cousin' belongs to which gender?",
+      "options": [
+        "neuter",
+        "masculine",
+        "feminine",
+        "common"
+      ],
+      "answer": 3,
+      "explanation": "A cousin can be a boy or a girl, so cousin is common gender.",
+      "source": "worksheet-L2 Q8b"
+    },
+    {
+      "id": "q175",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "Which is the odd one out: pencil, tablet, cousin, book?",
+      "options": [
+        "cousin",
+        "pencil",
+        "tablet",
+        "book"
+      ],
+      "answer": 0,
+      "explanation": "Cousin is common gender (a person); pencil, tablet and book are neuter (things).",
+      "source": "worksheet-L2 Q8b"
+    },
+    {
+      "id": "q176",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "Which is the odd one out: student, doctor, hen, friend?",
+      "options": [
+        "student",
+        "hen",
+        "doctor",
+        "friend"
+      ],
+      "answer": 1,
+      "explanation": "Hen is feminine gender; student, doctor and friend are common gender.",
+      "source": "worksheet-L2 Q8c"
+    },
+    {
+      "id": "q177",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "'A flying drone delivers rewards' — 'drone' is",
+      "options": [
+        "common",
+        "masculine",
+        "neuter",
+        "feminine"
+      ],
+      "answer": 2,
+      "explanation": "A drone is a machine, so it is neuter gender.",
+      "source": "book:page23"
+    },
+    {
+      "id": "q178",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "'Our new teacher joins the game' — 'teacher' is",
+      "options": [
+        "neuter",
+        "masculine",
+        "feminine",
+        "common"
+      ],
+      "answer": 3,
+      "explanation": "A teacher may be a man or a woman, so teacher is common gender.",
+      "source": "book:page23"
+    },
+    {
+      "id": "q179",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "'The young athlete trains for the final round' — 'athlete' is",
+      "options": [
+        "common",
+        "neuter",
+        "masculine",
+        "feminine"
+      ],
+      "answer": 0,
+      "explanation": "An athlete can be male or female, so athlete is common gender.",
+      "source": "book:page23"
+    },
+    {
+      "id": "q180",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "'The game controller needs charging' — 'controller' is",
+      "options": [
+        "common",
+        "neuter",
+        "masculine",
+        "feminine"
+      ],
+      "answer": 1,
+      "explanation": "A game controller is an object, so it is neuter gender.",
+      "source": "book:page23"
+    },
+    {
+      "id": "q181",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "'The ancient sword glows with magic power' — 'sword' is",
+      "options": [
+        "common",
+        "masculine",
+        "neuter",
+        "feminine"
+      ],
+      "answer": 2,
+      "explanation": "A sword is a non-living thing, so it is neuter gender.",
+      "source": "book:page23"
+    },
+    {
+      "id": "q182",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "'The team's best player' — 'player' is",
+      "options": [
+        "neuter",
+        "masculine",
+        "feminine",
+        "common"
+      ],
+      "answer": 3,
+      "explanation": "A player can be a boy or a girl, so player is common gender.",
+      "source": "book:page23"
+    },
+    {
+      "id": "q183",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "Which word is common gender?",
+      "options": [
+        "parent",
+        "father",
+        "mother",
+        "robot"
+      ],
+      "answer": 0,
+      "explanation": "Parent can be a father or a mother, so it is common. Father is masculine, mother feminine, robot neuter.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q184",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "Which word from the poem is neuter gender?",
+      "options": [
+        "shepherd",
+        "meadow",
+        "maiden",
+        "hostess"
+      ],
+      "answer": 1,
+      "explanation": "A meadow is a place/thing, so it is neuter. Shepherd is masculine; maiden and hostess are feminine.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q185",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "Which word is NOT neuter gender?",
+      "options": [
+        "pencil",
+        "drone",
+        "child",
+        "book"
+      ],
+      "answer": 2,
+      "explanation": "Child is common gender (a boy or a girl). Pencil, drone and book are neuter.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q186",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "Which word is NOT common gender?",
+      "options": [
+        "cousin",
+        "friend",
+        "player",
+        "duchess"
+      ],
+      "answer": 3,
+      "explanation": "Duchess is feminine. Cousin, friend and player can be male or female, so they are common.",
+      "source": "worksheet-L2 Q8"
+    },
+    {
+      "id": "q187",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "How many gender groups did you sort the nouns into in the worksheet?",
+      "options": [
+        "four",
+        "two",
+        "three",
+        "five"
+      ],
+      "answer": 0,
+      "explanation": "The four groups are masculine, feminine, common and neuter.",
+      "source": "worksheet-L1 Q9"
+    },
+    {
+      "id": "q188",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "The four genders in English are",
+      "options": [
+        "masculine, feminine, singular, plural",
+        "masculine, feminine, common, neuter",
+        "male, female, animal, object",
+        "masculine, feminine, common, proper"
+      ],
+      "answer": 1,
+      "explanation": "The four genders are masculine, feminine, common and neuter. Singular/plural is number, and proper is a type of noun.",
+      "source": "worksheet-L1 Q9"
+    },
+    {
+      "id": "q189",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "'Little sweet maidens' — 'maiden' is",
+      "options": [
+        "masculine",
+        "common",
+        "feminine",
+        "neuter"
+      ],
+      "answer": 2,
+      "explanation": "A maiden is a young girl, so maiden is feminine gender.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q190",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "'Where the mowers mow the cleanest' — 'mower' (a person who mows) is",
+      "options": [
+        "masculine",
+        "feminine",
+        "neuter",
+        "common"
+      ],
+      "answer": 3,
+      "explanation": "A person who mows could be a man or a woman, so mower is common gender.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q191",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "'Billy' is a boy's name, so it is",
+      "options": [
+        "masculine",
+        "feminine",
+        "common",
+        "neuter"
+      ],
+      "answer": 0,
+      "explanation": "Billy names a boy, so it is masculine gender.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q192",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "Sort correctly: which group has ONLY neuter nouns?",
+      "options": [
+        "robot, tablet, friend",
+        "robot, tablet, bicycle",
+        "tablet, bicycle, student",
+        "robot, doctor, bicycle"
+      ],
+      "answer": 1,
+      "explanation": "Robot, tablet and bicycle are all things (neuter). Friend, student and doctor are common gender.",
+      "source": "worksheet-L1 Q9"
+    },
+    {
+      "id": "q193",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "Sort correctly: which group has ONLY common gender nouns?",
+      "options": [
+        "student, doctor, robot",
+        "student, aunt, friend",
+        "student, doctor, friend",
+        "father, doctor, friend"
+      ],
+      "answer": 2,
+      "explanation": "Student, doctor and friend are common gender. Robot is neuter; aunt is feminine; father is masculine.",
+      "source": "worksheet-L1 Q9"
+    },
+    {
+      "id": "q194",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "'Teacher' is common gender because a teacher can be a man or a woman.",
+      "answer": true,
+      "explanation": "True. Common gender nouns can refer to either males or females.",
+      "source": "book:page23"
+    },
+    {
+      "id": "q195",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "'Bicycle' is a common gender noun.",
+      "answer": false,
+      "explanation": "False. A bicycle is a thing, so it is NEUTER gender. Common gender is for people/animals that can be either sex.",
+      "source": "worksheet-L1 Q9"
+    },
+    {
+      "id": "q196",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "Neuter gender is used for things that are neither male nor female.",
+      "answer": true,
+      "explanation": "True. Robot, tablet, bicycle and pencil are neuter gender.",
+      "source": "worksheet-L1 Q9"
+    },
+    {
+      "id": "q197",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "'Doctor' is masculine gender.",
+      "answer": false,
+      "explanation": "False. A doctor can be a man or a woman, so doctor is COMMON gender.",
+      "source": "worksheet-L1 Q9"
+    },
+    {
+      "id": "q198",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "'Robot' is neuter gender because it is not a living male or female.",
+      "answer": true,
+      "explanation": "True. Non-living things are neuter.",
+      "source": "worksheet-L1 Q9"
+    },
+    {
+      "id": "q199",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "'Friend' belongs to the feminine gender.",
+      "answer": false,
+      "explanation": "False. Friend can be a boy or a girl, so it is common gender.",
+      "source": "worksheet-L1 Q9"
+    },
+    {
+      "id": "q200",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "Select ALL the neuter gender nouns.",
+      "options": [
+        "tablet",
+        "bicycle",
+        "uncle",
+        "doctor"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Tablet and bicycle are things (neuter). Uncle is masculine; doctor is common.",
+      "source": "worksheet-L1 Q9"
+    },
+    {
+      "id": "q201",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "Select ALL the common gender nouns.",
+      "options": [
+        "student",
+        "friend",
+        "robot",
+        "aunt"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Student and friend are common gender. Robot is neuter; aunt is feminine.",
+      "source": "worksheet-L1 Q9"
+    },
+    {
+      "id": "q202",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "Select the TWO words that are NEITHER common nor neuter gender.",
+      "options": [
+        "father",
+        "mother",
+        "student",
+        "robot"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Father is masculine and mother is feminine. Student is common and robot is neuter.",
+      "source": "worksheet-L1 Q9"
+    },
+    {
+      "id": "q203",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "Who wrote the poem 'A Boy's Song'?",
+      "options": [
+        "Walter Scott",
+        "Robert Frost",
+        "William Blake",
+        "James Hogg"
+      ],
+      "answer": 3,
+      "explanation": "The poem is by James Hogg, a Scottish poet who worked as a shepherd.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q204",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "Where does the grey trout lie asleep?",
+      "options": [
+        "in the pools that are bright and deep",
+        "on the hazel bank that is steepest",
+        "under the hawthorn that blooms sweetest",
+        "in the hay that lies thick and greenest"
+      ],
+      "answer": 0,
+      "explanation": "'Where the pools are bright and deep, / Where the grey trout lies asleep' — the trout sleeps in the pools.",
+      "source": "worksheet-L1 Q1"
+    },
+    {
+      "id": "q205",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "'Where the hawthorn blooms the ______'",
+      "options": [
+        "latest",
+        "sweetest",
+        "cleanest",
+        "deepest"
+      ],
+      "answer": 1,
+      "explanation": "The line is 'Where the hawthorn blooms the sweetest'. The blackbird sings the latest; the mowers mow the cleanest.",
+      "source": "worksheet-L1 Q3a"
+    },
+    {
+      "id": "q206",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "'Where the hay lies thick and ______'",
+      "options": [
+        "sweetest",
+        "cleanest",
+        "greenest",
+        "steepest"
+      ],
+      "answer": 2,
+      "explanation": "The line is 'Where the hay lies thick and greenest'.",
+      "source": "worksheet-L1 Q3b"
+    },
+    {
+      "id": "q207",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "'Where the ______ nuts fall free'",
+      "options": [
+        "glistening",
+        "scattering",
+        "chattering",
+        "clustering"
+      ],
+      "answer": 3,
+      "explanation": "The line is 'Where the clustering nuts fall free' — nuts growing in clusters on the hazel.",
+      "source": "worksheet-L1 Q3c"
+    },
+    {
+      "id": "q208",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "'Up the river and over the ______'",
+      "options": [
+        "lea",
+        "sea",
+        "hay",
+        "bank"
+      ],
+      "answer": 0,
+      "explanation": "The line is 'Up the river and over the lea'. A lea is a meadow.",
+      "source": "worksheet-L1 Q3d"
+    },
+    {
+      "id": "q209",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "'That's the way for ______ and me.'",
+      "options": [
+        "Jimmy",
+        "Billy",
+        "Bobby",
+        "Johnny"
+      ],
+      "answer": 1,
+      "explanation": "The refrain is 'That's the way for Billy and me.' Billy is the speaker's friend.",
+      "source": "worksheet-L1 Q3e"
+    },
+    {
+      "id": "q210",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "Which bird 'sings the latest' in the poem?",
+      "options": [
+        "the nestling",
+        "the skylark",
+        "the blackbird",
+        "the sparrow"
+      ],
+      "answer": 2,
+      "explanation": "'Where the blackbird sings the latest' — the blackbird sings late into the evening.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q211",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "What do Billy and the speaker want to track?",
+      "options": [
+        "the grey trout",
+        "the blackbird",
+        "the nestlings",
+        "the homeward bee"
+      ],
+      "answer": 3,
+      "explanation": "'There to track the homeward bee' — they follow the bee flying home to its hive.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q212",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "Where do the clustering nuts fall free?",
+      "options": [
+        "where the hazel bank is steepest",
+        "where the mowers mow the cleanest",
+        "where the pools are bright and deep",
+        "where the hawthorn blooms the sweetest"
+      ],
+      "answer": 0,
+      "explanation": "Stanza 4: 'Where the hazel bank is steepest ... Where the clustering nuts fall free.' Hazel nuts fall on the hazel bank.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q213",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "What is the one thing the speaker says he 'never could tell'?",
+      "options": [
+        "why the trout sleeps in the pool",
+        "why boys drive girls away from play",
+        "why the nuts fall from the hazel",
+        "why the blackbird sings so late"
+      ],
+      "answer": 1,
+      "explanation": "Stanza 5: he cannot understand why boys drive away 'little sweet maidens' from play or love to banter and fight.",
+      "source": "worksheet-L2 Q2"
+    },
+    {
+      "id": "q214",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "Why does the poet repeat 'That's the way for Billy and me'?",
+      "options": [
+        "it makes the poem sad and gloomy",
+        "it shows the two boys are quarrelling",
+        "it gives the poem a song-like rhythm",
+        "it explains how to catch a trout"
+      ],
+      "answer": 2,
+      "explanation": "The repeated line works like the chorus of a song — it gives rhythm and makes the poem easy to remember.",
+      "source": "worksheet-L2 Q1"
+    },
+    {
+      "id": "q215",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "What does the refrain tell us about Billy and the speaker?",
+      "options": [
+        "they are brothers who often argue",
+        "they are strangers who met by the river",
+        "they are rivals in a running race",
+        "they are close friends who share adventures"
+      ],
+      "answer": 3,
+      "explanation": "The two boys go everywhere together — the river, meadow and hazel bank — so they are close friends sharing every adventure.",
+      "source": "worksheet-L2 Q1"
+    },
+    {
+      "id": "q216",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "The fifth stanza shows that the speaker is",
+      "options": [
+        "gentle and thoughtful",
+        "rude and quarrelsome",
+        "lazy and sleepy",
+        "proud and boastful"
+      ],
+      "answer": 0,
+      "explanation": "He does not understand why boys tease or fight; he simply enjoys playing in nature, which shows he is gentle and thoughtful.",
+      "source": "worksheet-L2 Q2"
+    },
+    {
+      "id": "q217",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "What work did James Hogg do as a young man?",
+      "options": [
+        "he was a sailor",
+        "he was a shepherd",
+        "he was a teacher",
+        "he was a soldier"
+      ],
+      "answer": 1,
+      "explanation": "James Hogg worked as a shepherd and spent much of his youth outdoors, which helped him describe nature closely.",
+      "source": "worksheet-L2 Q3"
+    },
+    {
+      "id": "q218",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "Where does the speaker say he loves to play?",
+      "options": [
+        "inside the palace garden",
+        "beside the busy market",
+        "through the meadow, among the hay",
+        "along the sandy seashore"
+      ],
+      "answer": 2,
+      "explanation": "Last stanza: 'I love to play / Through the meadow, among the hay'.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q219",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "Which stanza does NOT end with 'That's the way for Billy and me'?",
+      "options": [
+        "the first",
+        "the third",
+        "the sixth",
+        "the fifth"
+      ],
+      "answer": 3,
+      "explanation": "Stanza 5 ends 'That's the thing I never could tell.' All the other stanzas end with the refrain.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q220",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "Why might the boys want to 'track the homeward bee'?",
+      "options": [
+        "to find its hive, perhaps for honey",
+        "to chase it away from the hay",
+        "to catch it for a school project",
+        "to protect the flowers from it"
+      ],
+      "answer": 0,
+      "explanation": "Following a bee flying home leads to its hive — and maybe honey. It shows the boys are curious and adventurous.",
+      "source": "worksheet-L2 Q4c"
+    },
+    {
+      "id": "q221",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "How did Hogg's outdoor life help him write the poem?",
+      "options": [
+        "he learned many songs from sailors",
+        "he observed nature closely and in detail",
+        "he read a lot of books in a library",
+        "he studied poetry at a city school"
+      ],
+      "answer": 1,
+      "explanation": "Spending his days outdoors as a shepherd, he closely observed rivers, meadows, birds and bees, so he could describe them in fine detail.",
+      "source": "worksheet-L2 Q3"
+    },
+    {
+      "id": "q222",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "How many stanzas does 'A Boy's Song' have?",
+      "options": [
+        "four",
+        "five",
+        "six",
+        "eight"
+      ],
+      "answer": 2,
+      "explanation": "The poem has six four-line stanzas; five of them end with the refrain.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q223",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "The repeated line of the poem is 'That's the way for Billy and me.'",
+      "answer": true,
+      "explanation": "True. It ends five of the six stanzas and acts like a chorus.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q224",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "In the poem the grey trout is wide awake and leaping.",
+      "answer": false,
+      "explanation": "False. 'Where the grey trout lies asleep' — the trout is sleeping in the bright, deep pools.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q225",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "In the poem the mowers mow the cleanest.",
+      "answer": true,
+      "explanation": "True. Stanza 3 begins 'Where the mowers mow the cleanest'.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q226",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "The speaker enjoys fighting and driving girls away from play.",
+      "answer": false,
+      "explanation": "False. He says he 'never could tell' why boys do this — he does not understand it and prefers to play in nature.",
+      "source": "worksheet-L2 Q2"
+    },
+    {
+      "id": "q227",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Poem: A Boy's Song — Comprehension",
+      "question": "Select the creatures that are mentioned in the poem.",
+      "options": [
+        "grey trout",
+        "blackbird",
+        "squirrel",
+        "rabbit"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The poem mentions the grey trout, the blackbird, the nestlings and the bee. Squirrels and rabbits do not appear.",
+      "source": "worksheet-L1 Q2"
+    },
+    {
+      "id": "q228",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Poem: Vocabulary and Glossary",
+      "question": "In the poem, 'lea' means",
+      "options": [
+        "a deep and rocky river pool",
+        "a thorny shrub with blossoms",
+        "a small tree that grows nuts",
+        "a meadow or open grassland"
+      ],
+      "answer": 3,
+      "explanation": "Lea is a poetic word for a meadow, pasture or open grassland.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q229",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Poem: Vocabulary and Glossary",
+      "question": "What is a 'hawthorn'?",
+      "options": [
+        "a thorny shrub of the rose family",
+        "a grey fish that sleeps in pools",
+        "a poetic word for a meadow",
+        "a bird that sings late"
+      ],
+      "answer": 0,
+      "explanation": "Hawthorn is a thorny shrub or small tree belonging to the rose family; it blooms with sweet-smelling flowers.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q230",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Poem: Vocabulary and Glossary",
+      "question": "What is a 'hazel'?",
+      "options": [
+        "a type of river fish",
+        "a small tree or shrub",
+        "a baby bird in a nest",
+        "a field of cut hay"
+      ],
+      "answer": 1,
+      "explanation": "Hazel is a small tree or shrub; its nuts fall on 'the hazel bank'.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q231",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Poem: Vocabulary and Glossary",
+      "question": "What does 'banter' mean?",
+      "options": [
+        "a loud and angry quarrel",
+        "a quiet walk in the field",
+        "playful, friendly teasing",
+        "a way of cutting hay"
+      ],
+      "answer": 2,
+      "explanation": "Banter is the playful, friendly exchange of teasing remarks and jokes.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q232",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Poem: Vocabulary and Glossary",
+      "question": "A 'meadow' is",
+      "options": [
+        "a steep bank beside a deep river",
+        "a dark forest of tall hazel trees",
+        "a farm building where hay is kept",
+        "an open field covered mainly with grass"
+      ],
+      "answer": 3,
+      "explanation": "A meadow is an open, uncultivated field covered mainly with grass and other non-woody plants.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q233",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Poem: Vocabulary and Glossary",
+      "question": "Which word is a synonym for 'bright' in 'Where the pools are bright and deep'?",
+      "options": [
+        "shining",
+        "rough",
+        "dark",
+        "sleepy"
+      ],
+      "answer": 0,
+      "explanation": "Bright pools are shining pools. Dark is the opposite.",
+      "source": "book:page16"
+    },
+    {
+      "id": "q234",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Poem: Vocabulary and Glossary",
+      "question": "What does 'flee' mean in 'Where the nestlings chirp and flee'?",
+      "options": [
+        "to sing loudly",
+        "to run or fly away",
+        "to sit still",
+        "to fall asleep"
+      ],
+      "answer": 1,
+      "explanation": "Flee means to run or fly away quickly.",
+      "source": "book:page16"
+    },
+    {
+      "id": "q235",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Poem: Vocabulary and Glossary",
+      "question": "Which word is closest in meaning to 'thick' in 'the hay lies thick'?",
+      "options": [
+        "thin",
+        "soft",
+        "dense",
+        "broken"
+      ],
+      "answer": 2,
+      "explanation": "Thick hay is dense, packed closely together. Thin is the opposite.",
+      "source": "book:page16"
+    },
+    {
+      "id": "q236",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Poem: Vocabulary and Glossary",
+      "question": "What are 'nestlings'?",
+      "options": [
+        "insects that gather honey",
+        "fish that sleep in pools",
+        "nuts that fall from trees",
+        "young birds still in the nest"
+      ],
+      "answer": 3,
+      "explanation": "Nestlings are baby birds that are still in the nest; in the poem they 'chirp and flee'.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q237",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Poem: Vocabulary and Glossary",
+      "question": "Who are the 'mowers' in the poem?",
+      "options": [
+        "people who cut the hay or grass",
+        "birds that build nests in hay",
+        "farmers who plant hazel trees",
+        "boys who swim in the pools"
+      ],
+      "answer": 0,
+      "explanation": "Mowers mow — they cut the grass to make hay, which then 'lies thick and greenest'.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q238",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Poem: Vocabulary and Glossary",
+      "question": "In the poem, 'lea' is a poetic word for a meadow.",
+      "answer": true,
+      "explanation": "True. The glossary explains lea as a meadow, pasture or open grassland.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q239",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Poem: Vocabulary and Glossary",
+      "question": "'Banter' means a serious fight.",
+      "answer": false,
+      "explanation": "False. Banter is playful, friendly teasing, not a serious fight.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q240",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Poem: Vocabulary and Glossary",
+      "question": "Hawthorn belongs to the rose family.",
+      "answer": true,
+      "explanation": "True. The glossary says hawthorn is a thorny shrub of the genus Crataegus, in the rose family.",
+      "source": "book:page8"
+    },
+    {
+      "id": "q241",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Figures of Speech: Alliteration",
+      "question": "Alliteration is",
+      "options": [
+        "giving human feelings to non-living things",
+        "repeating the same beginning sound in nearby words",
+        "using words that create pictures in the mind",
+        "repeating the last line of every stanza"
+      ],
+      "answer": 1,
+      "explanation": "Alliteration is the use of the same sound, especially consonants, at the beginning of several words that are close together.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q242",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Figures of Speech: Alliteration",
+      "question": "Which sentence shows alliteration?",
+      "options": [
+        "The moon peeped shyly from behind the clouds.",
+        "The rain brought the earthy smell of wet soil.",
+        "Seven sleepy sheep slept in the shade.",
+        "My tablet begged for a recharge after gaming."
+      ],
+      "answer": 2,
+      "explanation": "'Seven sleepy sheep slept ... shade' repeats the s sound. The others are personification and imagery.",
+      "source": "worksheet-L1 Q4e"
+    },
+    {
+      "id": "q243",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Figures of Speech: Alliteration",
+      "question": "'Billy's brown bag bounced on the bumpy bridge' is an example of",
+      "options": [
+        "personification",
+        "imagery",
+        "repetition",
+        "alliteration"
+      ],
+      "answer": 3,
+      "explanation": "The b sound is repeated at the start of many words: Billy's, brown, bag, bounced, bumpy, bridge.",
+      "source": "worksheet-L1 Q4a"
+    },
+    {
+      "id": "q244",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Figures of Speech: Alliteration",
+      "question": "Find the alliteration in 'Where the mowers mow the cleanest'.",
+      "options": [
+        "mowers mow",
+        "the cleanest",
+        "where the",
+        "mow the"
+      ],
+      "answer": 0,
+      "explanation": "'Mowers mow' repeats the m sound, making the line soft, musical and flowing.",
+      "source": "worksheet-L2 Q4a"
+    },
+    {
+      "id": "q245",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Figures of Speech: Alliteration",
+      "question": "How does the alliteration 'mowers mow' make the line sound?",
+      "options": [
+        "harsh, loud and angry",
+        "soft, musical and flowing",
+        "sad, slow and gloomy",
+        "silly, funny and odd"
+      ],
+      "answer": 1,
+      "explanation": "The repeated m sound is gentle, like the steady swish of mowers at work — soft, musical and flowing.",
+      "source": "worksheet-L2 Q4a"
+    },
+    {
+      "id": "q246",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Figures of Speech: Alliteration",
+      "question": "'Molly made marshmallow muffins' repeats which sound?",
+      "options": [
+        "l",
+        "a",
+        "m",
+        "s"
+      ],
+      "answer": 2,
+      "explanation": "Molly, made, marshmallow and muffins all begin with m.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q247",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Figures of Speech: Alliteration",
+      "question": "Rewrite 'The bees flew over the flowers' using alliteration.",
+      "options": [
+        "The bees flew happily over the flowers.",
+        "Many flowers were visited by the bees.",
+        "Bees were flying above the pretty flowers.",
+        "Busy bees buzzed between bright blossoms."
+      ],
+      "answer": 3,
+      "explanation": "Busy, bees, buzzed, between, bright, blossoms all start with b — that is alliteration.",
+      "source": "worksheet-L2 Q5a"
+    },
+    {
+      "id": "q248",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Figures of Speech: Alliteration",
+      "question": "Find the alliteration in 'Where the clustering nuts fall free'.",
+      "options": [
+        "fall free",
+        "clustering nuts",
+        "where the",
+        "nuts fall"
+      ],
+      "answer": 0,
+      "explanation": "'Fall free' repeats the f sound at the start of two words close together.",
+      "source": "book:page11"
+    },
+    {
+      "id": "q249",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Figures of Speech: Alliteration",
+      "question": "Alliteration repeats the same sound at the beginning of nearby words.",
+      "answer": true,
+      "explanation": "True. Examples: 'Penny picked purple petals', 'mowers mow'.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q250",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Figures of Speech: Alliteration",
+      "question": "'Nina nibbled noisy noodles' is an example of personification.",
+      "answer": false,
+      "explanation": "False. It is alliteration — the n sound is repeated. Personification gives human qualities to non-human things.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q251",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Figures of Speech: Personification and Imagery",
+      "question": "Personification is",
+      "options": [
+        "repeating the first sound of nearby words",
+        "giving human actions or feelings to non-human things",
+        "using vivid words to make pictures in the mind",
+        "comparing two things using 'like' or 'as'"
+      ],
+      "answer": 1,
+      "explanation": "Personification gives human actions, feelings or traits to things that are not human.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q252",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Figures of Speech: Personification and Imagery",
+      "question": "Imagery is",
+      "options": [
+        "giving human feelings to objects and animals",
+        "repeating the same consonant sound in a line",
+        "vivid words that create pictures in the reader's mind",
+        "a line that is repeated at the end of each stanza"
+      ],
+      "answer": 2,
+      "explanation": "Imagery is vivid language that produces pictures in the mind — it lets writers 'show, not tell'.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q253",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Figures of Speech: Personification and Imagery",
+      "question": "'The old tree waved its arms at the children' shows",
+      "options": [
+        "alliteration",
+        "imagery",
+        "rhyme",
+        "personification"
+      ],
+      "answer": 3,
+      "explanation": "A tree cannot wave its arms — it is given a human action, so this is personification.",
+      "source": "worksheet-L1 Q4b"
+    },
+    {
+      "id": "q254",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Figures of Speech: Personification and Imagery",
+      "question": "'The cool, clear water sparkled in the golden sunlight' shows",
+      "options": [
+        "imagery",
+        "personification",
+        "alliteration",
+        "repetition"
+      ],
+      "answer": 0,
+      "explanation": "The sentence paints a picture using sight and touch details (cool, clear, sparkled, golden) — imagery.",
+      "source": "worksheet-L1 Q4c"
+    },
+    {
+      "id": "q255",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Figures of Speech: Personification and Imagery",
+      "question": "'The moon peeped shyly from behind the clouds' shows",
+      "options": [
+        "alliteration",
+        "personification",
+        "imagery",
+        "rhyme"
+      ],
+      "answer": 1,
+      "explanation": "The moon is given human actions and feelings — peeping shyly — so it is personification.",
+      "source": "worksheet-L1 Q4d"
+    },
+    {
+      "id": "q256",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Figures of Speech: Personification and Imagery",
+      "question": "'My tablet begged for a recharge' is an example of",
+      "options": [
+        "alliteration",
+        "imagery",
+        "personification",
+        "rhyme"
+      ],
+      "answer": 2,
+      "explanation": "A tablet cannot beg; it is given a human action, so this is personification.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q257",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Figures of Speech: Personification and Imagery",
+      "question": "Which sense does 'Where the pools are bright and deep' appeal to?",
+      "options": [
+        "sound",
+        "smell",
+        "touch",
+        "sight"
+      ],
+      "answer": 3,
+      "explanation": "Bright and deep pools are things we see, so the line appeals to sight.",
+      "source": "worksheet-L1 Q5"
+    },
+    {
+      "id": "q258",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Figures of Speech: Personification and Imagery",
+      "question": "Which sense does 'Where the blackbird sings the latest' appeal to?",
+      "options": [
+        "sound",
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "answer": 0,
+      "explanation": "Singing is heard, so the line appeals to the sense of sound.",
+      "source": "worksheet-L1 Q5"
+    },
+    {
+      "id": "q259",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Figures of Speech: Personification and Imagery",
+      "question": "Which sense does 'Where the hawthorn blooms the sweetest' appeal to?",
+      "options": [
+        "sound",
+        "smell",
+        "touch",
+        "taste"
+      ],
+      "answer": 1,
+      "explanation": "Sweet-smelling hawthorn blossom appeals to the sense of smell.",
+      "source": "worksheet-L1 Q5"
+    },
+    {
+      "id": "q260",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Figures of Speech: Personification and Imagery",
+      "question": "In 'Where the hay lies thick', the word 'thick' mainly appeals to",
+      "options": [
+        "sound",
+        "smell",
+        "touch",
+        "taste"
+      ],
+      "answer": 2,
+      "explanation": "'Thick' helps us feel the soft, heavy pile of hay — the sense of touch.",
+      "source": "worksheet-L2 Q4b"
+    },
+    {
+      "id": "q261",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Figures of Speech: Personification and Imagery",
+      "question": "The five types of imagery depend on",
+      "options": [
+        "the five vowels",
+        "the five stanzas",
+        "the five days of school",
+        "the five senses"
+      ],
+      "answer": 3,
+      "explanation": "Imagery has five categories depending on the sense targeted: sight, sound, smell, touch and taste.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q262",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Figures of Speech: Personification and Imagery",
+      "question": "Imagery allows writers to",
+      "options": [
+        "show, not tell",
+        "tell, not show",
+        "rhyme every line",
+        "repeat first sounds"
+      ],
+      "answer": 0,
+      "explanation": "The book says imagery allows writers to 'show, not tell' — the reader pictures the scene.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q263",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Figures of Speech: Personification and Imagery",
+      "question": "What mood does 'Where the pools are bright and deep' create?",
+      "options": [
+        "angry and tense",
+        "calm and peaceful",
+        "scary and dark",
+        "silly and funny"
+      ],
+      "answer": 1,
+      "explanation": "Bright, deep pools with a sleeping trout create a calm, peaceful feeling.",
+      "source": "book:page18"
+    },
+    {
+      "id": "q264",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Figures of Speech: Personification and Imagery",
+      "question": "What mood does 'Where the shadow falls the deepest' create?",
+      "options": [
+        "cheerful",
+        "noisy",
+        "mysterious",
+        "angry"
+      ],
+      "answer": 2,
+      "explanation": "Deep shadows make the setting feel quiet, hidden and mysterious.",
+      "source": "book:page18"
+    },
+    {
+      "id": "q265",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Figures of Speech: Personification and Imagery",
+      "question": "Why did the poet write 'Where the blackbird sings the latest'?",
+      "options": [
+        "to describe a classroom",
+        "to make the poem funny",
+        "to make the poem sound angry",
+        "to help readers hear nature's sounds"
+      ],
+      "answer": 3,
+      "explanation": "The line appeals to sound — it helps readers hear the blackbird singing.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q266",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Figures of Speech: Personification and Imagery",
+      "question": "Why did the poet write 'Where the hawthorn blooms the sweetest'?",
+      "options": [
+        "to help readers imagine nature's beauty",
+        "to explain the rules of a game",
+        "to make the poem sound angry",
+        "to describe a busy classroom"
+      ],
+      "answer": 0,
+      "explanation": "Sweet hawthorn blossom helps readers imagine the beauty and fragrance of nature.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q267",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Figures of Speech: Personification and Imagery",
+      "question": "Rewrite 'The river flowed past the meadow' using personification.",
+      "options": [
+        "The wide river flowed quickly past the green meadow.",
+        "The cheerful river skipped and sang as it raced past.",
+        "The river water was cold, clear and very deep.",
+        "Rushing rivers ran rapidly round the rocks."
+      ],
+      "answer": 1,
+      "explanation": "A river that is cheerful, skips and sings has human qualities — personification. The last option is alliteration.",
+      "source": "worksheet-L2 Q5b"
+    },
+    {
+      "id": "q268",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Figures of Speech: Personification and Imagery",
+      "question": "Which improved sentence uses imagery with at least TWO senses?",
+      "options": [
+        "The hay field was very nice and big and green.",
+        "The hay field laughed and danced in the wind.",
+        "The golden hay smelled sweet and the prickly stalks tickled my feet.",
+        "Hay heaps huddled happily in the hot field."
+      ],
+      "answer": 2,
+      "explanation": "Golden (sight), smelled sweet (smell) and prickly/tickled (touch) use several senses. The second is personification; the third is alliteration.",
+      "source": "worksheet-L2 Q5c"
+    },
+    {
+      "id": "q269",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Figures of Speech: Personification and Imagery",
+      "question": "'The rain brought the earthy smell of wet soil' is imagery of",
+      "options": [
+        "sound",
+        "sight",
+        "taste",
+        "smell"
+      ],
+      "answer": 3,
+      "explanation": "The line describes a smell, so it is imagery appealing to the sense of smell.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q270",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Figures of Speech: Personification and Imagery",
+      "question": "Imagery can appeal to smell and taste, not just sight.",
+      "answer": true,
+      "explanation": "True. Imagery has five types, one for each sense: sight, sound, smell, touch and taste.",
+      "source": "book:page13"
+    },
+    {
+      "id": "q271",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Figures of Speech: Personification and Imagery",
+      "question": "'The kitten's fur was soft and fluffy like a cotton ball' is personification.",
+      "answer": false,
+      "explanation": "False. It is imagery — it describes how the fur looks and feels. No human quality is given to the kitten.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q272",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Figures of Speech: Personification and Imagery",
+      "question": "'The dish ran away with the spoon' is personification.",
+      "answer": true,
+      "explanation": "True. A dish cannot run away; it is given a human action.",
+      "source": "book:page10"
+    },
+    {
+      "id": "q273",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Figures of Speech: Personification and Imagery",
+      "question": "According to the book, imagery helps readers to... (select TWO)",
+      "options": [
+        "imagine scenes",
+        "feel moods",
+        "memorise spellings",
+        "count the stanzas"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The book says imagery helps readers imagine scenes, feel moods, hear sounds and enjoy the poem more.",
+      "source": "book:page15"
+    },
+    {
+      "id": "q274",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Writing: Descriptive Writing",
+      "question": "Descriptive writing mainly uses",
+      "options": [
+        "vivid imagery and sensory details",
+        "short lists of facts and dates",
+        "questions and their answers",
+        "rhyming lines and a chorus"
+      ],
+      "answer": 0,
+      "explanation": "Descriptive writing uses vivid imagery and sensory details so readers can imagine or experience the subject.",
+      "source": "book:page27"
+    },
+    {
+      "id": "q275",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Writing: Descriptive Writing",
+      "question": "Which of these is NOT a point in the graphic organiser for describing a person?",
+      "options": [
+        "Appearance",
+        "Date of birth",
+        "Personality",
+        "Relationship"
+      ],
+      "answer": 1,
+      "explanation": "The organiser has Title, Appearance, Clothes and Actions, Hobbies and Interests, Personality and Relationship.",
+      "source": "worksheet-L1 Q10"
+    },
+    {
+      "id": "q276",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Writing: Descriptive Writing",
+      "question": "In the annotation key, 'H I' stands for",
+      "options": [
+        "Height and Image",
+        "Home and Items",
+        "Hobbies and Interests",
+        "Hair and Ideas"
+      ],
+      "answer": 2,
+      "explanation": "H I marks the Hobbies and Interests part of the descriptive essay.",
+      "source": "book:page28"
+    },
+    {
+      "id": "q277",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Writing: Descriptive Writing",
+      "question": "The sample essay 'My Favourite Person' describes the writer's",
+      "options": [
+        "father",
+        "teacher",
+        "best friend",
+        "mother"
+      ],
+      "answer": 3,
+      "explanation": "'My favourite person is my mother. She is a tall and graceful woman...'",
+      "source": "book:page28"
+    },
+    {
+      "id": "q278",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Writing: Descriptive Writing",
+      "question": "Which improved sentence about Grandfather uses a comparison?",
+      "options": [
+        "His voice is as warm as a cup of cocoa.",
+        "He wears a crisp white cotton shirt.",
+        "He hums softly as he waters the roses.",
+        "He is a gentle, silver-haired man."
+      ],
+      "answer": 0,
+      "explanation": "'As warm as a cup of cocoa' compares his voice to cocoa. The others use adjectives and senses but no comparison.",
+      "source": "worksheet-L2 Q10"
+    },
+    {
+      "id": "q279",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Writing: Descriptive Writing",
+      "question": "Which sentence is the MOST descriptive?",
+      "options": [
+        "He wears a shirt every day when he goes outside.",
+        "He wears a crisp white cotton shirt that smells of fresh soap.",
+        "He always puts on a shirt before he eats his breakfast.",
+        "He has a shirt that he wears and he likes it a lot."
+      ],
+      "answer": 1,
+      "explanation": "Crisp, white, cotton (sight/touch) and smells of fresh soap (smell) give vivid sensory details. The others just state facts.",
+      "source": "worksheet-L2 Q10"
+    },
+    {
+      "id": "q280",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Writing: Descriptive Writing",
+      "question": "A descriptive composition should include details from the senses.",
+      "answer": true,
+      "explanation": "True. Sensory details (sight, smell, touch, sound) help the reader picture the person or place.",
+      "source": "book:page27"
+    },
+    {
+      "id": "q281",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Writing: Descriptive Writing",
+      "question": "The sample composition 'My Best Friend' is about a girl named Riya.",
+      "answer": true,
+      "explanation": "True. 'My best friend is Riya. She is a short girl with curly black hair...'",
+      "source": "worksheet-L1 Q10"
+    },
+    {
+      "id": "q282",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Writing: Descriptive Writing",
+      "question": "Select Riya's hobbies from the sample composition.",
+      "options": [
+        "painting",
+        "badminton",
+        "swimming",
+        "dancing"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Riya loves painting, reading adventure stories and playing badminton.",
+      "source": "worksheet-L1 Q10"
+    },
+    {
+      "id": "q283",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "The magician made the coin ______ and then ______ in his other hand.",
+      "options": [
+        "reappear / disappear",
+        "unappear / preappear",
+        "disappear / reappear",
+        "misappear / disappear"
+      ],
+      "answer": 2,
+      "explanation": "First the coin vanishes (disappears), then it appears again (reappears). Order matters.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q284",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "I ______ the time of the match and arrived an hour late.",
+      "options": [
+        "reread",
+        "preread",
+        "unread",
+        "misread"
+      ],
+      "answer": 3,
+      "explanation": "Misread = read wrongly, which explains arriving late. Reread = read again.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q285",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "Students who ______ their lessons remember them better.",
+      "options": [
+        "revise",
+        "unvise",
+        "misvise",
+        "disvise"
+      ],
+      "answer": 0,
+      "explanation": "Revise = look at again. Re- means again; the other forms are not words.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q286",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "Select the TWO sentences where the prefix is used correctly.",
+      "options": [
+        "Please preheat the oven before baking.",
+        "The nestlings disappeared into the hedge.",
+        "I will unread the poem tonight.",
+        "She misplaced her book again again."
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Preheat (heat before) and disappeared (vanished) are correct. 'Unread' is not a verb we use this way, and the last sentence is faulty.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q287",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Grammar: Prefixes (re-, un-, pre-, mis-, dis-)",
+      "question": "Select the TWO words in which 'mis-' means 'wrongly'.",
+      "options": [
+        "misplace",
+        "misunderstand",
+        "mist",
+        "missile"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Misplace = place wrongly; misunderstand = understand wrongly. In 'mist' and 'missile' the letters mis are just part of the word.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q288",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "Of all the pools, this one is the ______.",
+      "options": [
+        "deepness",
+        "deepest",
+        "deeply",
+        "deepful"
+      ],
+      "answer": 1,
+      "explanation": "Comparing all the pools needs the -est form: deepest = the most deep.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q289",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "The blackbird sang ______ as the sun went down.",
+      "options": [
+        "sweetness",
+        "sweetest",
+        "sweetly",
+        "sweetful"
+      ],
+      "answer": 2,
+      "explanation": "We need a word telling HOW it sang: sweetly (in a sweet way).",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q290",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "The ______ of the hawthorn blossom filled the air.",
+      "options": [
+        "sweetly",
+        "sweetest",
+        "sweeten",
+        "sweetness"
+      ],
+      "answer": 3,
+      "explanation": "The sentence needs a naming word for a quality: sweetness (the quality of being sweet).",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q291",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "Which word is spelled correctly?",
+      "options": [
+        "beautiful",
+        "beautifull",
+        "beautyful",
+        "beatiful"
+      ],
+      "answer": 0,
+      "explanation": "Beauty + -ful: the y changes to i and -ful has one l → beautiful.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q292",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "silly + -ness =",
+      "options": [
+        "sillyness",
+        "silliness",
+        "sillines",
+        "sillyniss"
+      ],
+      "answer": 1,
+      "explanation": "Words ending in y change the y to i before -ness: silly → silliness (like happy → happiness).",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q293",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "Select the TWO words whose suffix means 'in a certain way'.",
+      "options": [
+        "quietly",
+        "bravely",
+        "quietness",
+        "bravest"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "-ly = in a certain way: quietly, bravely. Quietness = quality; bravest = the most brave.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q294",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Grammar: Suffixes (-ful, -ly, -less, -ness, -est, -age)",
+      "question": "Select the TWO words that are spelled correctly.",
+      "options": [
+        "happiness",
+        "careful",
+        "joyfull",
+        "quickely"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Happiness (y → i) and careful (one l) are correct. The correct forms of the others are joyful and quickly.",
+      "source": "worksheet-L1 Q7"
+    },
+    {
+      "id": "q295",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "Which word means 'in an unkind way'?",
+      "options": [
+        "unkindness",
+        "kindly",
+        "unkindly",
+        "unkindest"
+      ],
+      "answer": 2,
+      "explanation": "Unkindly = un- + kind + -ly: in an unkind way. Unkindness is the quality, not the way.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q296",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "Which word means 'not able to be used'?",
+      "options": [
+        "reusable",
+        "useless",
+        "misused",
+        "unusable"
+      ],
+      "answer": 3,
+      "explanation": "Unusable = un- (not) + use + -able. Useless means 'of no use', which is close, but 'not able to be used' is unusable.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q297",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Grammar: Word Building (Prefix + Suffix)",
+      "question": "Select the TWO words that have a prefix.",
+      "options": [
+        "reheat",
+        "unlock",
+        "heater",
+        "locker"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Reheat (re-) and unlock (un-) begin with prefixes. Heater and locker end with the suffix -er instead.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q298",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "Change to masculine: 'The hostess welcomed her niece.'",
+      "options": [
+        "The host welcomed his nephew.",
+        "The host welcomed her nephew.",
+        "The hostess welcomed his nephew.",
+        "The host welcomed his niece."
+      ],
+      "answer": 0,
+      "explanation": "Hostess → host, her → his, niece → nephew. All three words must change.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q299",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "Change to feminine: 'The actor thanked the hero.'",
+      "options": [
+        "The actress thanked the hero.",
+        "The actress thanked the heroine.",
+        "The actor thanked the heroine.",
+        "The actoress thanked the heroess."
+      ],
+      "answer": 1,
+      "explanation": "Actor → actress and hero → heroine. Both masculine nouns must change.",
+      "source": "worksheet-L1 Q8"
+    },
+    {
+      "id": "q300",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "Which feminine form is made by adding '-ess' to the masculine word?",
+      "options": [
+        "niece",
+        "queen",
+        "lioness",
+        "mare"
+      ],
+      "answer": 2,
+      "explanation": "Lion + -ess = lioness. Niece, queen and mare are completely different words from nephew, king and stallion.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q301",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "Select the TWO feminine words formed by adding '-ess'.",
+      "options": [
+        "princess",
+        "hostess",
+        "heroine",
+        "lady"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Prince + -ess = princess; host + -ess = hostess. Heroine adds -ine; lady is a different word from lord.",
+      "source": "worksheet-L1 Q8"
+    },
+    {
+      "id": "q302",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Grammar: Masculine and Feminine Gender",
+      "question": "Select the TWO correct masculine–feminine pairs.",
+      "options": [
+        "gander – goose",
+        "monk – nun",
+        "duke – lady",
+        "stallion – hen"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Gander – goose and monk – nun are correct. Duke pairs with duchess; stallion pairs with mare.",
+      "source": "worksheet-L2 Q9"
+    },
+    {
+      "id": "q303",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "'The nurse gave the patient a tablet.' How many common gender nouns are there?",
+      "options": [
+        "one",
+        "three",
+        "none",
+        "two"
+      ],
+      "answer": 3,
+      "explanation": "Nurse and patient can each be male or female (common gender). Tablet is neuter.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q304",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "Which sentence contains a neuter noun, a common noun AND a masculine noun?",
+      "options": [
+        "The king gave the doctor a sword.",
+        "The queen gave the nurse a ring.",
+        "The teacher gave the student a book.",
+        "The king gave the prince a crown."
+      ],
+      "answer": 0,
+      "explanation": "King (masculine), doctor (common), sword (neuter). The others lack one of the three types.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q305",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Grammar: Common and Neuter Gender",
+      "question": "Select the TWO nouns that are common gender.",
+      "options": [
+        "baby",
+        "cousin",
+        "bride",
+        "pencil"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "A baby or a cousin may be male or female (common). Bride is feminine; pencil is neuter.",
+      "source": "grammar practice"
+    }
+  ]
+}

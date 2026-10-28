@@ -1,0 +1,2178 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-maths-2-g8-ch05-tales-by-dots-and-lines",
+  "title": "Tales by Dots and Lines",
+  "subject": "Maths-2",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Maths-2/ch05",
+  "chapter": "5. Tales by Dots and Lines",
+  "topic": "Full Chapter",
+  "description": "Mean as a balance point, how mean and median change when data is added, removed, shifted or scaled, frequency tables, spreadsheets, and reading line graphs, infographics and activity strips.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "maths",
+    "statistics",
+    "mean",
+    "median",
+    "line-graphs",
+    "spreadsheets",
+    "data-handling"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Mean as a Balance Point",
+      "question": "What is the arithmetic mean of the two numbers 3 and 7?",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "Mean = (3 + 7) ÷ 2 = 10 ÷ 2 = 5. The mean of two numbers lies exactly halfway between them; 10 is the sum, not the mean.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Mean as a Balance Point",
+      "question": "The average of 8 and 9 is",
+      "options": [
+        "8",
+        "9",
+        "17",
+        "8.5"
+      ],
+      "answer": 3,
+      "explanation": "(8 + 9) ÷ 2 = 17 ÷ 2 = 8.5, which is exactly halfway between 8 and 9. 17 is only the sum.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q3",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Mean as a Balance Point",
+      "question": "For any two numbers, their mean lies exactly halfway between them on a dot plot.",
+      "answer": true,
+      "explanation": "The chapter shows this with 3 and 7 (mean 5) and 8 and 9 (mean 8.5): the mean of two numbers is always their midpoint.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Mean as a Balance Point",
+      "question": "For the collection 10, 10, 11, 17 the mean is 12. What is the total of the distances from the mean to the values that lie BELOW it?",
+      "options": [
+        "6",
+        "7",
+        "5",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "Values below 12 are 10, 10 and 11, at distances 2, 2 and 1 — total 5. This equals the distance 17 − 12 = 5 on the other side, which is why 12 balances the data.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Mean as a Balance Point",
+      "question": "In what sense is the mean the 'centre' of a collection of data?",
+      "options": [
+        "it is the value that appears most often in the collection",
+        "the total of the distances to values on either side of it are equal",
+        "it is the midpoint between the smallest and the largest value",
+        "the same number of values lie on either side of it in the sorted list"
+      ],
+      "answer": 1,
+      "explanation": "The chapter explains that the mean is the point where the sum of distances to the values on its left equals the sum of distances on its right. The midpoint of the extremes is not always the mean, and equal counts on either side describes the median.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q6",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Mean as a Balance Point",
+      "question": "The mean of a collection is always the midpoint of its two extreme (smallest and largest) values.",
+      "answer": false,
+      "explanation": "This is 'not always so' — e.g. 10, 10, 11, 17 has extremes 10 and 17 (midpoint 13.5) but mean 12. What is always true is that the total distances on both sides of the mean are equal.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Mean as a Balance Point",
+      "question": "For 10, 10, 11, 17 (mean 12), suppose we tried to use a 'centre' larger than 12. What happens to the distances?",
+      "options": [
+        "distances on the left increase and those on the right decrease",
+        "distances on the left decrease and those on the right increase",
+        "distances on both sides increase by exactly the same amount",
+        "distances on both sides decrease by exactly the same amount"
+      ],
+      "answer": 0,
+      "explanation": "Moving the centre to the right takes it farther from the values on the left (10, 10, 11) and closer to 17, so the left total grows and the right total shrinks — the balance is broken. Hence 12 is the only balance point.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q8",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Mean as a Balance Point",
+      "question": "A collection of data can have two different values that both balance the sums of distances on either side.",
+      "answer": false,
+      "explanation": "Any value larger than the mean makes the left distances grow and right distances shrink; any smaller value does the opposite. So there is exactly one such centre — the mean.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Mean as a Balance Point",
+      "question": "The mean of 4, 6 and 11 is 7. Which check confirms that 7 is the balance point of this data?",
+      "options": [
+        "7 is the middle number once the data is sorted",
+        "7 lies exactly halfway between 4 and 11",
+        "7 − 4 is equal to 11 − 7",
+        "3 + 1 on the left equals 4 on the right"
+      ],
+      "answer": 3,
+      "explanation": "Distances below the mean: 7 − 4 = 3 and 7 − 6 = 1, total 4; above: 11 − 7 = 4. Equal totals confirm the balance. 7 is not the middle value (6 is), the midpoint of 4 and 11 is 7.5, and 3 ≠ 4.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Mean as a Balance Point",
+      "question": "Which of these correctly describe the arithmetic mean? (Select all that apply.)",
+      "options": [
+        "the sum of all the values divided by the number of values",
+        "a balance point where the total distances on both sides are equal",
+        "the middle value when the data is arranged in order",
+        "the value that occurs most frequently in the data"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Both the fair-share definition (sum ÷ count) and the balance-point view describe the mean. The middle value of sorted data is the median, and the most frequent value is the mode.",
+      "source": "text:page1"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adding & Removing Values",
+      "question": "When a new value GREATER than the mean is included in the data, the mean",
+      "options": [
+        "stays the same",
+        "is halved",
+        "increases",
+        "decreases"
+      ],
+      "answer": 2,
+      "explanation": "To restore the balance of distances, the mean must move toward the new large value, so it increases.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q12",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Adding & Removing Values",
+      "question": "Including a value exactly equal to the mean leaves the mean unchanged.",
+      "answer": true,
+      "explanation": "A value equal to the mean adds zero distance on either side, so the balance point does not move. The same holds when such a value is removed.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adding & Removing Values",
+      "question": "If a value SMALLER than the mean is removed from the collection, the mean will",
+      "options": [
+        "become the median",
+        "increase",
+        "decrease",
+        "remain the same"
+      ],
+      "answer": 1,
+      "explanation": "Removing a value below the mean removes distance from the left side, so the balance point shifts right — the mean increases. (Including a smaller value would decrease it.)",
+      "source": "text:page3"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adding & Removing Values",
+      "question": "The data 4, 8, 12 has mean 8. Which pair of values can be included so that the mean stays 8?",
+      "options": [
+        "6 and 10",
+        "5 and 9",
+        "7 and 10",
+        "8 and 9"
+      ],
+      "answer": 0,
+      "explanation": "The two new values must balance around 8: 6 is 2 below and 10 is 2 above, so their distances cancel (6 + 10 = 2 × 8). The pairs 5 & 9 (sum 14), 7 & 10 (17) and 8 & 9 (17) do not sum to 16, so they shift the mean.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adding & Removing Values",
+      "question": "A collection has mean 8. We include 5 and 6 (both less than the mean) and one value greater than the mean so that the mean is unchanged. That value must be",
+      "options": [
+        "11",
+        "12",
+        "14",
+        "13"
+      ],
+      "answer": 3,
+      "explanation": "The three new values must themselves average 8, so 5 + 6 + x = 24, giving x = 13. Check with distances: 3 + 2 below equals 5 above.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adding & Removing Values",
+      "question": "The mean of 5 values is 12. If the value 18 is included, the new mean is",
+      "options": [
+        "12",
+        "14",
+        "13",
+        "15"
+      ],
+      "answer": 2,
+      "explanation": "Old sum = 5 × 12 = 60; new sum = 78 over 6 values = 13. The mean rises (18 > 12) but only by the surplus 6 shared among 6 values, i.e. by 1.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Adding & Removing Values",
+      "question": "Which actions leave the mean of a collection unchanged? (Select all that apply.)",
+      "options": [
+        "including a value equal to the current mean",
+        "removing a value equal to the current mean",
+        "including a value just above the current mean",
+        "removing the largest value in the collection"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Values equal to the mean contribute no imbalance, so adding or removing them keeps the mean. Including anything above the mean raises it, and removing the largest value (which is above the mean) lowers it.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q18",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Adding & Removing Values",
+      "question": "Removing a value that is greater than the mean always decreases the mean.",
+      "answer": true,
+      "explanation": "Removing a value above the mean takes away distance from the right side, so the balance point moves left — the mean falls.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adding & Removing Values",
+      "question": "Using the fair-share idea, why does including a value greater than the mean raise the mean?",
+      "options": [
+        "the largest value in a collection always becomes its mean",
+        "the surplus above the old mean gets shared out equally to all the values",
+        "the new value simply becomes the new mean of the collection",
+        "the number of values grows, so the total grows faster than the count"
+      ],
+      "answer": 1,
+      "explanation": "In the fair-share view every value gets an equal share of the total. The new value brings in more than the current share, and that extra is spread over all the values, so each share (the mean) rises a little.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q20",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Adding & Removing Values",
+      "question": "A collection has mean a. Which of these changes make the new mean exactly 2a? (Select all that apply.)",
+      "options": [
+        "multiplying every value by 2",
+        "adding the current mean a to every value",
+        "adding 2 to every value",
+        "including one extra value equal to 2a"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Doubling every value doubles the mean (2a). Adding the fixed number a to every value adds a to the mean: a + a = 2a. Adding 2 gives a + 2, and including one value 2a only nudges the mean up slightly.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Shifting & Scaling Data",
+      "question": "Every value in 8, 3, 10, 13, 4, 6, 7, 7, 8, 8, 5 is increased by 10. Compared with the old mean, the new mean is",
+      "options": [
+        "exactly 10 more",
+        "10 times as large",
+        "exactly 11 more",
+        "exactly the same"
+      ],
+      "answer": 0,
+      "explanation": "Adding 10 to each of the 11 values adds 11 × 10 = 110 to the total; dividing by 11 adds exactly 10 to the mean. The dot plot simply shifts right by 10, and the mean's relative position is unchanged.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Shifting & Scaling Data",
+      "question": "In the algebraic proof, adding 3 to each of n values makes the total x₁ + x₂ + … + xₙ + 3n. Why does the term 3n appear?",
+      "options": [
+        "the mean a is multiplied by 3",
+        "n is added to the total three times over",
+        "each value is multiplied by 3 before adding",
+        "3 is added once for each of the n values"
+      ],
+      "answer": 3,
+      "explanation": "Each of the n brackets (xᵢ + 3) contributes one extra 3, so there are n threes in total, i.e. 3n. Dividing by n then gives a + 3.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Shifting & Scaling Data",
+      "question": "The mean of n values is a. If every value is multiplied by 5, the new mean is",
+      "options": [
+        "a + 5n",
+        "a ÷ 5",
+        "5a",
+        "a + 5"
+      ],
+      "answer": 2,
+      "explanation": "(5x₁ + 5x₂ + … + 5xₙ) ÷ n = 5 × (x₁ + … + xₙ) ÷ n = 5a. Multiplying each value scales the mean by the same factor.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Shifting & Scaling Data",
+      "question": "Which property justifies rewriting 5x₁ + 5x₂ + … + 5xₙ as (x₁ + x₂ + … + xₙ) × 5 in the proof?",
+      "options": [
+        "closure property",
+        "distributive property",
+        "commutative property",
+        "associative property"
+      ],
+      "answer": 1,
+      "explanation": "Taking the common factor 5 out of a sum is the distributive property: 5x₁ + 5x₂ = 5(x₁ + x₂). Commutative and associative properties only reorder or regroup terms.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Shifting & Scaling Data",
+      "question": "The mean of 6 values is 7. Each value is doubled and then 4 is added to each result. The new mean is",
+      "options": [
+        "18",
+        "22",
+        "14",
+        "11"
+      ],
+      "answer": 0,
+      "explanation": "Doubling makes the mean 2 × 7 = 14; adding 4 to every value then adds 4 to the mean: 14 + 4 = 18. Doing the steps in the wrong order gives (7 + 4) × 2 = 22.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q26",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Shifting & Scaling Data",
+      "question": "When every value is increased by 10, the dot plot shifts to the right but the relative position of the mean within the data stays the same.",
+      "answer": true,
+      "explanation": "The chapter's dot plots show exactly this: all dots and the mean move 10 units right together, so the mean keeps its place among the values.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q27",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Shifting & Scaling Data",
+      "question": "If every value in a collection is doubled, the mean increases by 2.",
+      "answer": false,
+      "explanation": "Doubling every value doubles the mean (it becomes 2a), it does not add 2. Only adding a fixed number to every value adds that number to the mean.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Shifting & Scaling Data",
+      "question": "Shreyas found the average height of 24 students as 150.2 cm, but everyone wore shoes that add 1 cm. The correct average height is",
+      "options": [
+        "151.2 cm",
+        "150.2 cm",
+        "126.2 cm",
+        "149.2 cm"
+      ],
+      "answer": 3,
+      "explanation": "Every one of the 24 heights is exactly 1 cm too high, so the mean is exactly 1 cm too high: 150.2 − 1 = 149.2 cm. Subtracting 24 cm (126.2) is a common slip.",
+      "source": "exercise:Q3"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Shifting & Scaling Data",
+      "question": "Rather than measuring all 24 students again without shoes, the simpler way to get the correct average height is to",
+      "options": [
+        "subtract 24 cm from the computed average",
+        "divide the computed average by the number of students",
+        "subtract 1 cm from the computed average once",
+        "measure only the tallest and shortest students again"
+      ],
+      "answer": 2,
+      "explanation": "Since a fixed 1 cm was added to every value, the mean is shifted by exactly 1 cm. One subtraction fixes it — no re-measurement needed.",
+      "source": "exercise:Q3"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Shifting & Scaling Data",
+      "question": "Next week every student cycles exactly one more time than this week. Compared with this week, the mean and median of the data will",
+      "options": [
+        "median rises by 1 but the mean is unchanged",
+        "both increase by exactly 1",
+        "mean rises by 1 but the median is unchanged",
+        "both increase by the number of students"
+      ],
+      "answer": 1,
+      "explanation": "Adding 1 to every value shifts the whole sorted list up by 1, so the middle value (median) and the balance point (mean) both rise by exactly 1.",
+      "source": "exercise:Q10"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Tinkering with the Median",
+      "question": "The median of a collection is",
+      "options": [
+        "the middle value of the data arranged in order",
+        "the sum of the values divided by their number",
+        "the value that occurs most often in the data",
+        "half of the sum of the smallest and largest values"
+      ],
+      "answer": 0,
+      "explanation": "The median is the middle value when the data is sorted — equal numbers of values lie below and above it. Sum ÷ count is the mean.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Tinkering with the Median",
+      "question": "A data set has median 8. When the value 11 is included, the median becomes 9.5. Why 9.5?",
+      "options": [
+        "it is the average of all the values once 11 is added",
+        "it is the midpoint of the smallest and largest value",
+        "it is the old median plus half of the new value",
+        "it is the average of the two middle values 8 and 11"
+      ],
+      "answer": 3,
+      "explanation": "With one more value the count becomes even, so the median is the average of the two middle values: (8 + 11) ÷ 2 = 9.5. The median cannot stay 8 because more values now lie above 8 than below.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q33",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Tinkering with the Median",
+      "question": "Including a value smaller than the median can never make the median increase.",
+      "answer": true,
+      "explanation": "A new value below the median adds to the lower half, so the median either falls or (if the two middle values coincide) stays put — it cannot rise.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Tinkering with the Median",
+      "question": "The median of 8, 10, 19, 23, 26, 34, 40, 41, 41, 48, 51, 55, 70, 84, 91, 92 is",
+      "options": [
+        "44.5",
+        "48",
+        "41",
+        "40.5"
+      ],
+      "answer": 2,
+      "explanation": "There are 16 values, so the median is the average of the 8th and 9th values. Both are 41, so the median is 41.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Tinkering with the Median",
+      "question": "For the data in Q5 (median 41, with both middle values 41), which single value can be included WITHOUT changing the median?",
+      "options": [
+        "only numbers larger than 92, the maximum",
+        "any number at all, because both middle values are 41",
+        "only 41 itself, because it is the median",
+        "only numbers lying between 40 and 48"
+      ],
+      "answer": 1,
+      "explanation": "With 17 values the median is the 9th value. Add anything below 41 and the 9th value is the first 41; add anything 41 or above and the 9th value is still a 41. So no single value can shift the median.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Tinkering with the Median",
+      "question": "For the data in Q5, which pair of values can be included together without changing the median of 41?",
+      "options": [
+        "one value at most 41 and one value at least 41",
+        "any two values both greater than 41",
+        "any two values both smaller than 41",
+        "any two values whose difference is 41"
+      ],
+      "answer": 0,
+      "explanation": "With 18 values the median averages the 9th and 10th. One value on each side (or equal to 41) keeps both 41s in the middle. Two values both above push a 48 into the middle (median 44.5); two values both below pull 40 in (median 40.5).",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Tinkering with the Median",
+      "question": "For the data in Q5, which value can be removed without affecting the median of 41?",
+      "options": [
+        "only one of the two 41s",
+        "only the smallest value, 8",
+        "only the largest value, 92",
+        "any single value from the list"
+      ],
+      "answer": 3,
+      "explanation": "With 15 values the median is the 8th. Remove a value below 41 and the 8th is a 41; remove one above and the 8th is still 41; remove a 41 and the other 41 is 8th. Removing any one value leaves the median at 41.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Tinkering with the Median",
+      "question": "'Removing a value less than the median will decrease the median.' This statement is",
+      "options": [
+        "sometimes true",
+        "true for odd n",
+        "never true",
+        "always true"
+      ],
+      "answer": 2,
+      "explanation": "Removing a value from the lower half can only push the middle position upward, so the median rises or stays the same — it can never decrease.",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q39",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Tinkering with the Median",
+      "question": "'Including a value less than the mean will decrease the mean.' This statement is",
+      "options": [
+        "true for odd n",
+        "always true",
+        "never true",
+        "sometimes true"
+      ],
+      "answer": 1,
+      "explanation": "A value below the mean adds distance on the left of the balance point, so the mean must move left (decrease) every time, whatever the data.",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Tinkering with the Median",
+      "question": "'Including any 4 values will not affect the median.' This statement is",
+      "options": [
+        "sometimes true",
+        "always true",
+        "never true",
+        "true for even n"
+      ],
+      "answer": 0,
+      "explanation": "Two values below and two above the median keep it unchanged, but four values all above it push the median up. So it depends on the values — sometimes true.",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Tinkering with the Median",
+      "question": "'Including 4 values less than the median will increase the median.' This statement is",
+      "options": [
+        "always true",
+        "sometimes true",
+        "true for odd n",
+        "never true"
+      ],
+      "answer": 3,
+      "explanation": "Four extra values in the lower half shift the middle position downward, so the median falls or stays the same; it cannot increase.",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Tinkering with the Median",
+      "question": "Data: 12, 47, 8, 73, 18, 35, 39, 8, 29, 25, p. For the median to be 29, p could be",
+      "options": [
+        "10",
+        "28",
+        "40",
+        "25"
+      ],
+      "answer": 2,
+      "explanation": "Sorted without p: 8, 8, 12, 18, 25, 29, 35, 39, 47, 73. With 11 values the median is the 6th. If p ≥ 29, five values stay below 29 and 29 is 6th. If p < 29 (10, 25 or 28) a sixth value slips below 29 and the 6th value is no longer 29.",
+      "source": "exercise:Q9"
+    },
+    {
+      "id": "q43",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Tinkering with the Median",
+      "question": "Data: 12, 47, 8, 73, 18, 35, 39, 8, 29, 25, p with median 29. Which values could p be? (Select all that apply.)",
+      "options": [
+        "10",
+        "25",
+        "40",
+        "100"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "explanation": "Only values of 29 or more keep 29 as the 6th of the 11 sorted values. 10 and 25 would make 25 the median; 40 and 100 both work (so do 29, 30 and 47).",
+      "source": "exercise:Q9"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Tinkering with the Median",
+      "question": "Last month a group's mean weight was 65.3 kg and median 67 kg. This month one person lost 2 kg and two gained 1 kg each. What can we say?",
+      "options": [
+        "mean unchanged; the median must increase",
+        "mean unchanged; median may or may not change",
+        "mean unchanged and median unchanged too",
+        "mean increases and the median increases"
+      ],
+      "answer": 1,
+      "explanation": "The total weight changes by −2 + 1 + 1 = 0, so the mean stays 65.3 kg. The median depends on WHO changed — if the middle people moved it could shift, otherwise not — so we cannot be sure.",
+      "source": "exercise:Q8"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Finding the Unknown",
+      "question": "Coach Balwan's 10 wrestlers average 39.2 kg. Nine weights are 42, 40, 39, 33, 48, 38, 42, 35, 32 kg. The smudged weight is",
+      "options": [
+        "43 kg",
+        "42 kg",
+        "39 kg",
+        "47 kg"
+      ],
+      "answer": 0,
+      "explanation": "Total must be 39.2 × 10 = 392 kg. The nine known weights add to 349, so w = 392 − 349 = 43 kg.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Finding the Unknown",
+      "question": "In the wrestler problem the equation 349 + w = 392 is used. Where does 392 come from?",
+      "options": [
+        "the sum of the nine known weights plus 43",
+        "the mean 39.2 multiplied by the 9 known weights",
+        "the heaviest weight 48 multiplied by 8",
+        "the mean 39.2 multiplied by the 10 players"
+      ],
+      "answer": 3,
+      "explanation": "Mean = total ÷ number, so total = mean × number = 39.2 × 10 = 392. Multiplying by 9 (352.8) is the usual slip.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Finding the Unknown",
+      "question": "Venkayya's average harvest is 25.6 coconuts per tree for 15 trees. The total number of coconuts first recorded was",
+      "options": [
+        "381",
+        "394",
+        "384",
+        "374"
+      ],
+      "answer": 2,
+      "explanation": "Total = mean × number of trees = 25.6 × 15 = 384. (381 is the corrected total after removing the error of 3.)",
+      "source": "text:page7"
+    },
+    {
+      "id": "q48",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Finding the Unknown",
+      "question": "One tree's harvest was noted 3 more than actual. With the corrected total of 381 coconuts over 15 trees, the correct average is",
+      "options": [
+        "22.6",
+        "25.4",
+        "25.6",
+        "25.8"
+      ],
+      "answer": 1,
+      "explanation": "381 ÷ 15 = 25.4. The over-count of 3 spread over 15 trees lowers the mean by 3 ÷ 15 = 0.2, from 25.6 to 25.4.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Finding the Unknown",
+      "question": "The per-tree harvest data is NOT given, yet the corrected average can be found. Why?",
+      "options": [
+        "the mean needs only the total and the number of trees",
+        "every tree must have given exactly 25.6 coconuts",
+        "the error of 3 cancels out across the 15 trees",
+        "the median of the harvests equals the mean"
+      ],
+      "answer": 0,
+      "explanation": "Mean = total ÷ count, so knowing the (corrected) total and the number of trees is enough; the individual values are irrelevant.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Finding the Unknown",
+      "question": "The mean of 8, 13, 10, 4, 5, 20, y, 10 is 10.375. The value of y is",
+      "options": [
+        "12",
+        "10",
+        "14",
+        "13"
+      ],
+      "answer": 3,
+      "explanation": "Total = 10.375 × 8 = 83. The seven known values add to 70, so y = 83 − 70 = 13.",
+      "source": "exercise:Q7"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Finding the Unknown",
+      "question": "A data set of 15 values has mean 134. The sum of the data is",
+      "options": [
+        "2110",
+        "2140",
+        "2010",
+        "1910"
+      ],
+      "answer": 2,
+      "explanation": "Sum = mean × number of values = 134 × 15 = 2010.",
+      "source": "exercise:Q8"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Finding the Unknown",
+      "question": "If one value in a set of 15 is recorded 3 too high, by how much is the computed mean too high?",
+      "options": [
+        "0.5",
+        "0.2",
+        "3.0",
+        "0.3"
+      ],
+      "answer": 1,
+      "explanation": "The total is 3 too high, and the mean shares that error over 15 values: 3 ÷ 15 = 0.2 — exactly the 25.6 → 25.4 drop in the coconut problem.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q53",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Finding the Unknown",
+      "question": "If one value in a data set of 15 is recorded 3 too high, the mean of the data is too high by 3.",
+      "answer": false,
+      "explanation": "The error of 3 in the total is divided by 15, so the mean is too high only by 3 ÷ 15 = 0.2.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Mean & Median with Frequencies",
+      "question": "A student finds the average family size as (3 + 4 + 5 + 6 + 7 + 8 + 9 + 10) ÷ 8 = 6.5. What is wrong with this?",
+      "options": [
+        "it ignores how many times each family size occurs",
+        "it adds the family sizes in the wrong order",
+        "it should divide by 36 but keep the sum as 52",
+        "it counts the family size 3 three times over"
+      ],
+      "answer": 0,
+      "explanation": "The table lists frequencies: 3 occurs 3 times, 4 occurs 11 times, and so on. Each value must be multiplied by its frequency before adding, and the total divided by the total frequency (36).",
+      "source": "text:page8"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Mean & Median with Frequencies",
+      "question": "The average family size of the class (total 188 over 36 students) is about",
+      "options": [
+        "6.5",
+        "5.5",
+        "4.75",
+        "5.22"
+      ],
+      "answer": 3,
+      "explanation": "188 ÷ 36 = 5.22. The tempting 6.5 comes from averaging the eight listed sizes without their frequencies.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Mean & Median with Frequencies",
+      "question": "With 36 values in the data, the median is",
+      "options": [
+        "the average of the 17th and 18th sorted values",
+        "the 36th sorted value divided by 2",
+        "the average of the 18th and 19th sorted values",
+        "the 18th sorted value only"
+      ],
+      "answer": 2,
+      "explanation": "For an even count the median averages the two middle positions, which for 36 values are the 18th and 19th.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Mean & Median with Frequencies",
+      "question": "Adding the frequencies of family sizes 3 and 4 gives 3 + 11 = 14. This tells us that",
+      "options": [
+        "the 14th value in the sorted data is 5",
+        "the 14th value in the sorted data is 4",
+        "there are 14 families of size 4",
+        "the median of the data is 14"
+      ],
+      "answer": 1,
+      "explanation": "Positions 1–3 hold 3 and positions 4–14 hold 4, so the 14th sorted value is 4. Adding the next frequency (9) shows positions 15–23 hold 5.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Mean & Median with Frequencies",
+      "question": "The median family size of the class is",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "Positions 15 to 23 of the sorted data are all 5, so the 18th and 19th values are both 5 and the median is 5.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q59",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Mean & Median with Frequencies",
+      "question": "Using a frequency table, the median can be found by adding frequencies cumulatively instead of writing out all 36 values.",
+      "answer": true,
+      "explanation": "The chapter does exactly this: 3, then 3 + 11 = 14, then 14 + 9 = 23 locates which value sits at the 18th and 19th positions.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q60",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Mean & Median with Frequencies",
+      "question": "Which statements about the family-size data are true? (Select all that apply.)",
+      "options": [
+        "there are 36 students in the data",
+        "the median family size is 5",
+        "the mean family size is 6.5",
+        "the most common family size is 5"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The frequencies total 36 and the 18th–19th values are 5. The mean is 5.22 (not 6.5), and the most common size is 4 (frequency 11), not 5 (frequency 9).",
+      "source": "text:page8"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Mean & Median with Frequencies",
+      "question": "Dart competition table — trials 1 to 10 with student counts 1, 0, 0, 1, 4, 9, 12, 15, 10, 10. How many students took part?",
+      "options": [
+        "55",
+        "61",
+        "60",
+        "62"
+      ],
+      "answer": 3,
+      "explanation": "Add the frequencies: 1 + 0 + 0 + 1 + 4 + 9 + 12 + 15 + 10 + 10 = 62.",
+      "source": "exercise:Q11"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Mean & Median with Frequencies",
+      "question": "For the dart data, the mean number of trials to hit the bull's eye is",
+      "options": [
+        "about 8.0",
+        "about 5.5",
+        "about 7.6",
+        "about 6.5"
+      ],
+      "answer": 2,
+      "explanation": "Total trials = 1×1 + 4×1 + 5×4 + 6×9 + 7×12 + 8×15 + 9×10 + 10×10 = 473. Mean = 473 ÷ 62 ≈ 7.63.",
+      "source": "exercise:Q11"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Mean & Median with Frequencies",
+      "question": "For the dart data (62 students), the median number of trials is",
+      "options": [
+        "7.5",
+        "8",
+        "7",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "The median averages the 31st and 32nd values. Cumulative counts: up to 7 trials there are 27 students, up to 8 trials 42. Both middle positions fall in the '8 trials' group, so the median is 8.",
+      "source": "exercise:Q11"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Mean & Median with Frequencies",
+      "question": "The minimum and maximum number of trials in the dart data are",
+      "options": [
+        "1 and 10",
+        "1 and 15",
+        "4 and 10",
+        "5 and 10"
+      ],
+      "answer": 0,
+      "explanation": "One student hit the bull's eye on the 1st trial and the table runs up to 10 trials (10 students). 15 is a frequency, not a trial count.",
+      "source": "exercise:Q11"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Mean & Median with Frequencies",
+      "question": "Which statement about the dart data is NOT correct?",
+      "options": [
+        "no student needed exactly 2 or 3 trials",
+        "the most common number of trials was 8",
+        "only one student hit the bull's eye at the first try",
+        "half of the students needed more than 8 trials"
+      ],
+      "answer": 3,
+      "explanation": "Students needing more than 8 trials number 10 + 10 = 20 out of 62 — well under half. The frequencies for 2 and 3 trials are 0, 8 trials has the highest frequency (15), and 1 trial has frequency 1.",
+      "source": "exercise:Q11"
+    },
+    {
+      "id": "q66",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Mean & Median with Frequencies",
+      "question": "Which statements describe the dart data correctly? (Select all that apply.)",
+      "options": [
+        "62 students took part",
+        "the median number of trials is 8",
+        "the mean number of trials is exactly 8",
+        "no student needed more than 9 trials"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Frequencies add to 62 and the 31st/32nd values are 8. The mean is 473 ÷ 62 ≈ 7.6, not 8, and 10 students needed 10 trials.",
+      "source": "exercise:Q11"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Spreadsheets",
+      "question": "The chapter describes a spreadsheet as",
+      "options": [
+        "a program for drawing dot plots by hand",
+        "a printed table pasted into a notebook",
+        "a digital notebook with rows and columns of cells",
+        "a calculator that can store only numbers"
+      ],
+      "answer": 2,
+      "explanation": "A spreadsheet is like a digital notebook of rows and columns of small boxes called cells, each holding text, a number or a formula.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Spreadsheets",
+      "question": "In Sudhakar's spreadsheet, Farooq's Mathematics mark is in cell",
+      "options": [
+        "F5",
+        "E5",
+        "D5",
+        "E4"
+      ],
+      "answer": 1,
+      "explanation": "Columns are lettered (B Odia, C Telugu, D English, E Maths, F Social Science, G Science) and rows numbered with names from row 2; Farooq is the 4th student, so row 5 — cell E5.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Spreadsheets",
+      "question": "What data is in cell B7 of the marks spreadsheet?",
+      "options": [
+        "Gowri's marks in Odia",
+        "Gowri's marks in Telugu",
+        "Pankaj's marks in Odia",
+        "Mrinal's marks in Odia"
+      ],
+      "answer": 0,
+      "explanation": "Column B is Odia and row 7 is Gowri (Ratna row 2, Nagesh 3, Ashwin 4, Farooq 5, Mrinal 6, Gowri 7). B7 holds 27.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Spreadsheets",
+      "question": "In how many subjects did Ashwin (29, 31, 33, 34, 30, 28) score more than 30 marks?",
+      "options": [
+        "4",
+        "2",
+        "5",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "Telugu 31, English 33 and Maths 34 exceed 30; Odia 29, Social Science 30 and Science 28 do not. Note 30 is not MORE than 30.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Spreadsheets",
+      "question": "The expression B3:G3 describes",
+      "options": [
+        "Nagesh's marks in Odia, Telugu and English",
+        "the Odia marks of the first three students",
+        "Nagesh's marks in all six subjects",
+        "Ratna's marks in all six subjects"
+      ],
+      "answer": 2,
+      "explanation": "Start:End names a run of cells. Row 3 is Nagesh and columns B to G are the six subjects, so B3:G3 is his full row of marks.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Spreadsheets",
+      "question": "The expression D2:D6 describes",
+      "options": [
+        "all six marks of the student in row 4",
+        "the English marks of the first five students",
+        "the Maths marks of the first five students",
+        "the English marks of the first six students"
+      ],
+      "answer": 1,
+      "explanation": "Column D is English and rows 2 to 6 are the first five students (Ratna to Mrinal). A column range is written the same way as a row range.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Spreadsheets",
+      "question": "Gowri's marks in Odia, Telugu and English are 27, 29 and 34. The formula =AVERAGE(B7:D7) gives",
+      "options": [
+        "30",
+        "29",
+        "27",
+        "31"
+      ],
+      "answer": 0,
+      "explanation": "(27 + 29 + 34) ÷ 3 = 90 ÷ 3 = 30.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Spreadsheets",
+      "question": "Science marks are in column G for the 22 students in rows 2 to 23. The formula for the class average in Science is",
+      "options": [
+        "=AVERAGE(F2:F23)",
+        "=SUM(G2:G23)",
+        "=AVERAGE(G1:G22)",
+        "=AVERAGE(G2:G23)"
+      ],
+      "answer": 3,
+      "explanation": "Column G holds Science (F is Social Science). The students occupy rows 2–23; including row 1 would pull in the header.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Spreadsheets",
+      "question": "Is the class average in Odia greater than in Telugu? (Odia marks total 687, Telugu marks total 739, both over 22 students.)",
+      "options": [
+        "They are equal — both subjects total 687",
+        "Yes — Odia's total 687 beats Telugu's 652",
+        "No — Telugu's total 739 beats Odia's 687",
+        "Yes — Odia's total 739 beats Telugu's 687"
+      ],
+      "answer": 2,
+      "explanation": "Same number of students, so the larger total means the larger average: Telugu (739 ÷ 22 ≈ 33.6) is higher than Odia (687 ÷ 22 ≈ 31.2).",
+      "source": "text:page11"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Spreadsheets",
+      "question": "Whose total marks are the highest in Sudhakar's table?",
+      "options": [
+        "Jaya",
+        "Aishwarya",
+        "Farooq",
+        "Nagesh"
+      ],
+      "answer": 1,
+      "explanation": "Aishwarya: 48+45+46+47+44+43 = 273; Farooq: 47+46+38+42+49+44 = 266; Nagesh 250; Jaya 248. Jaya has the single highest mark (50) but not the highest total.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q77",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Spreadsheets",
+      "question": "In a spreadsheet, columns are labelled with letters A, B, C, … and rows with numbers 1, 2, 3, ….",
+      "answer": true,
+      "explanation": "Cells are named by column letter then row number, e.g. E5 is column E, row 5.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q78",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Spreadsheets",
+      "question": "The expression B7:D7 describes a column of cells.",
+      "answer": false,
+      "explanation": "B7:D7 runs across columns B, C, D within row 7 — it is a row of cells. A column range keeps the letter fixed, like D2:D6.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q79",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Spreadsheets",
+      "question": "Which statements about spreadsheet formulas are correct? (Select all that apply.)",
+      "options": [
+        "=SUM(B3:G3) gives Nagesh's total marks",
+        "=AVERAGE(B7:D7) gives Gowri's average in three languages",
+        "=SUM(D2:D6) gives the total English marks of the whole class",
+        "=AVERAGE(B2:G2) gives Ratna's total marks"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Row 3 is Nagesh and B–G are all subjects; B7:D7 is Gowri's Odia, Telugu, English. D2:D6 covers only the first five students, and AVERAGE gives a mean, not a total.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Line Graphs: Temperature & Space",
+      "question": "Line graphs are generally used to visualise",
+      "options": [
+        "how data changes across time",
+        "the share of each part in a whole",
+        "how often each value occurs",
+        "the sizes of two unrelated groups"
+      ],
+      "answer": 0,
+      "explanation": "The chapter introduces line graphs for monthly temperatures and yearly launch counts — data tracked over time, where connecting points shows the trend.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Line Graphs: Temperature & Space",
+      "question": "Step 1 of the two-step process for reading a graph is to",
+      "options": [
+        "write summary and conclusion statements",
+        "list new questions that the graph raises",
+        "redraw it as a clustered column graph",
+        "notice how it is organised, its scale and its patterns"
+      ],
+      "answer": 3,
+      "explanation": "Step 1 'Identify what is given' looks at organisation, scale and patterns; Step 2 'Infer and interpret' draws conclusions.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Line Graphs: Temperature & Space",
+      "question": "Kerala's data uses blue circle markers and Punjab's red markers of a different shape. Different marker shapes mainly help",
+      "options": [
+        "to show which state has the higher temperature",
+        "to indicate the scale used on the vertical axis",
+        "readers who print in black-and-white or cannot tell colours apart",
+        "to make the graph look more decorative and attractive"
+      ],
+      "answer": 2,
+      "explanation": "Shape markers keep the two lines distinguishable in greyscale printing and for people who find it hard to distinguish colours.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q83",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Line Graphs: Temperature & Space",
+      "question": "Punjab's monthly maximum temperature in 2023 peaked at about",
+      "options": [
+        "23°C in December",
+        "38°C in June",
+        "35°C in July",
+        "33°C in April"
+      ],
+      "answer": 1,
+      "explanation": "It rises from January to June, reaching 38°C, then drops to just under 35°C in July. 33°C in April is Kerala's peak.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q84",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Line Graphs: Temperature & Space",
+      "question": "Which statement about the Kerala–Punjab temperature graph is NOT correct?",
+      "options": [
+        "Kerala reaches both colder and warmer temperatures than Punjab",
+        "Punjab's maximum falls continuously from September to December",
+        "Kerala's monthly maximums stay mostly flat through the year",
+        "Punjab's lowest monthly maximum is about 19°C, in January"
+      ],
+      "answer": 0,
+      "explanation": "It is Punjab that varies more, reaching colder (19°C) and warmer (38°C) values; Kerala stays between about 29°C and 33°C all year.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Line Graphs: Temperature & Space",
+      "question": "Worldwide space launches were about 2900 in 2023 and about 2800 in 2024. Which inference is valid?",
+      "options": [
+        "the worldwide count rose every year from 2012 to 2024",
+        "2024 had the highest count of the whole period",
+        "the counts in 2023 and 2024 were exactly equal",
+        "the worldwide count fell slightly from 2023 to 2024"
+      ],
+      "answer": 3,
+      "explanation": "2800 is less than 2900, so the count dipped in 2024; hence it did not rise every year, and 2023 (not 2024) was the peak.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Line Graphs: Temperature & Space",
+      "question": "The launch counts of the USA, China and Russia do not add up to the worldwide count. The sensible inference is that",
+      "options": [
+        "some launches were counted twice in the worldwide line",
+        "the three countries' lines use a different scale",
+        "launches by other countries are not shown in the graph",
+        "the worldwide figure must have been plotted wrongly"
+      ],
+      "answer": 2,
+      "explanation": "The worldwide total includes every country; only three are plotted, so the gap is the contribution of countries not shown.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Line Graphs: Temperature & Space",
+      "question": "On a line graph, a steeper line segment between two years indicates",
+      "options": [
+        "that the count stayed constant in that period",
+        "a larger change between those years",
+        "a smaller change between those years",
+        "a longer time between the two data points"
+      ],
+      "answer": 1,
+      "explanation": "The chapter compares the USA's 2022→2023 and 2023→2024 segments: the steeper the line, the greater the increase.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Line Graphs: Temperature & Space",
+      "question": "'Nepal did not launch any object in 2012–24.' Is this a valid inference from the graph showing USA, China, Russia and the worldwide count?",
+      "options": [
+        "not valid — countries other than the three are not shown",
+        "valid — Nepal's line sits at zero throughout",
+        "valid — the worldwide count equals the three countries' sum",
+        "not valid — the graph covers only 2022 to 2024"
+      ],
+      "answer": 0,
+      "explanation": "The graph gives no information about individual countries other than the three plotted, so nothing can be said about Nepal.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Line Graphs: Temperature & Space",
+      "question": "If the 2012–2024 launch data (worldwide, USA, China, Russia) were drawn as a clustered column graph, how many bars would there be?",
+      "options": [
+        "13",
+        "48",
+        "39",
+        "52"
+      ],
+      "answer": 3,
+      "explanation": "13 years give 13 clusters, each with 4 columns: 13 × 4 = 52 bars — crowded and hard to read, which is why a line graph is preferred.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q90",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Line Graphs: Temperature & Space",
+      "question": "Since worldwide launches fell from about 2900 (2023) to about 2800 (2024), the USA must also have launched fewer objects in 2024 than in 2023.",
+      "answer": false,
+      "explanation": "The chapter says the USA's count still increased from 2023 to 2024 — only by less than from 2022 to 2023. A fall in the total does not mean every country fell.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q91",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Line Graphs: Temperature & Space",
+      "question": "Which statements about the space-launch line graph are valid? (Select all that apply.)",
+      "options": [
+        "launches by countries other than the three shown are not plotted",
+        "steeper segments show bigger year-to-year increases",
+        "the worldwide count rose every year from 2012 to 2024",
+        "2024 was the year with the most launches"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The three countries' counts fall short of the worldwide total, and slope shows the size of change. The count dipped in 2024, so it did not rise every year and 2023 was the peak.",
+      "source": "text:page17"
+    },
+    {
+      "id": "q92",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Line Graphs: Temperature & Space",
+      "question": "Which statements about the 2023 temperature graph are correct? (Select all that apply.)",
+      "options": [
+        "Punjab's temperature varies more than Kerala's over the year",
+        "Kerala's monthly maximums in summer and winter are similar",
+        "Kerala's hottest month is June, like Punjab's",
+        "Punjab's July maximum is higher than its June maximum"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Punjab swings from about 19°C to 38°C while Kerala stays between 29°C and 33°C, so Kerala's summer and winter look alike. Kerala peaks in April, and Punjab dips to just under 35°C in July after its 38°C June peak.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rainfall & Shop Data",
+      "question": "How is the 'monthly average rainfall' for June in a city compiled?",
+      "options": [
+        "by taking the rainfall on the wettest June day",
+        "by averaging June rainfall across the six cities",
+        "by averaging the total June rainfall across several years",
+        "by adding all 12 months' rainfall and dividing by 12"
+      ],
+      "answer": 2,
+      "explanation": "Rainfall is collected over a few years; the total rainfall of June in each year is averaged to give the monthly average for June in that city.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rainfall & Shop Data",
+      "question": "Which three cities in the rainfall graphs lie along the west coast of India?",
+      "options": [
+        "Udupi, Puri and Rameswaram",
+        "Kovalam, Udupi and Mumbai",
+        "Rameswaram, Chennai and Puri",
+        "Kovalam, Chennai and Mumbai"
+      ],
+      "answer": 1,
+      "explanation": "Kovalam, Udupi and Mumbai are on the west coast; Rameswaram, Chennai and Puri are on the east coast.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rainfall & Shop Data",
+      "question": "Rameswaram receives most of its rain during",
+      "options": [
+        "October to December",
+        "June to August",
+        "July to September",
+        "January to March"
+      ],
+      "answer": 0,
+      "explanation": "Rameswaram gets very little rain from January to September and most of it in October–December. June–August is the west-coast peak.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rainfall & Shop Data",
+      "question": "Which east-coast city gets its peak rainfall in July–September, like the west-coast cities rather than the other east-coast cities?",
+      "options": [
+        "Chennai",
+        "Rameswaram",
+        "Udupi",
+        "Puri"
+      ],
+      "answer": 3,
+      "explanation": "Puri, although on the east coast, peaks in July–September. Chennai peaks in November, Rameswaram in October–December, and Udupi is a west-coast city.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rainfall & Shop Data",
+      "question": "For all six cities in the rainfall graphs, the dry months with low rainfall are",
+      "options": [
+        "July to September",
+        "October to December",
+        "January to March",
+        "April to June"
+      ],
+      "answer": 2,
+      "explanation": "January–March are dry for every city shown. Other windows are the peak season for at least one city.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q98",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Rainfall & Shop Data",
+      "question": "The rainfall graphs suggest that regions along the east coast receive more rain than those along the west coast.",
+      "answer": false,
+      "explanation": "It is the west-coast cities (Kovalam, Udupi, Mumbai) that appear to receive more rain.",
+      "source": "text:page19"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rainfall & Shop Data",
+      "question": "Which city has the most rainy days per year, and roughly how many? (Mangaluru's monthly values total about 112, Port Blair's about 126, Rameswaram's about 42.)",
+      "options": [
+        "Port Blair, about 112 days",
+        "Port Blair, about 126 days",
+        "Mangaluru, about 112 days",
+        "Mangaluru, about 126 days"
+      ],
+      "answer": 1,
+      "explanation": "Adding Port Blair's monthly rainy days (2.4 + 1.3 + 0.9 + 3.3 + 15.5 + 18.7 + 17.3 + 18.8 + 16.8 + 14.1 + 11.3 + 5.4) gives about 126, more than Mangaluru's 112 and Rameswaram's 42.",
+      "source": "exercise:Q2"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rainfall & Shop Data",
+      "question": "Mangaluru's rainy days per month are 0.1, 0, 0.1, 1.8, 6.2, 24.1, 27.7, 24.5, 14, 8.8, 3.9, 0.9 (Jan–Dec). Its wettest month is",
+      "options": [
+        "July",
+        "June",
+        "August",
+        "September"
+      ],
+      "answer": 0,
+      "explanation": "July has 27.7 rainy days, ahead of August (24.5) and June (24.1). February has none.",
+      "source": "exercise:Q2"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Rainfall & Shop Data",
+      "question": "Rameswaram's rainy days (Jan–Dec) are 2.6, 1.3, 1.9, 3.4, 2.5, 0.4, 1, 1, 1.9, 8.1, 10.4, 7.8. Its rainy season is",
+      "options": [
+        "June to August",
+        "July to September",
+        "March to May",
+        "October to December"
+      ],
+      "answer": 3,
+      "explanation": "The three highest values 8.1, 10.4 and 7.8 fall in October, November and December — matching the chapter's note that Rameswaram's rain comes with the north-east monsoon.",
+      "source": "exercise:Q2"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Rainfall & Shop Data",
+      "question": "Shop data — visitors Mon–Sun: 16, 19, 10, 14, 20, 22, 35; purchasers: 10, 8, 7, 11, 12, 16, 26. On which day did the most customers visit?",
+      "options": [
+        "Friday",
+        "Tuesday",
+        "Sunday",
+        "Saturday"
+      ],
+      "answer": 2,
+      "explanation": "Sunday had 35 visitors, far above Saturday's 22 and Friday's 20.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rainfall & Shop Data",
+      "question": "In the shop data, on which day was the gap between visitors and purchasers the largest?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Sunday",
+        "Friday"
+      ],
+      "answer": 1,
+      "explanation": "Tuesday: 19 − 8 = 11. Sunday's gap is 35 − 26 = 9, Friday's 20 − 12 = 8, Monday's 16 − 10 = 6.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Rainfall & Shop Data",
+      "question": "On which day did the LARGEST fraction of visitors actually buy something?",
+      "options": [
+        "Thursday",
+        "Sunday",
+        "Saturday",
+        "Wednesday"
+      ],
+      "answer": 0,
+      "explanation": "Thursday: 11 of 14 ≈ 0.79. Sunday 26/35 ≈ 0.74, Saturday 16/22 ≈ 0.73, Wednesday 7/10 = 0.70. Sunday has the most buyers but not the best fraction.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q105",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Rainfall & Shop Data",
+      "question": "On which days did fewer than 10 customers make a purchase? (Select all that apply.)",
+      "options": [
+        "Tuesday",
+        "Wednesday",
+        "Monday",
+        "Thursday"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Tuesday had 8 purchasers and Wednesday 7. Monday had exactly 10 (not fewer) and Thursday 11.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Infographics & Activity Strips",
+      "question": "In the rice-vs-wheat infographic, the difference between per capita rice and wheat consumption is mapped to values between",
+      "options": [
+        "0 and 100",
+        "−50 and +50",
+        "0 and 1",
+        "−100 and +100"
+      ],
+      "answer": 3,
+      "explanation": "The colour scale maps the difference to the range −100 to +100, with positive values favouring rice.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Infographics & Activity Strips",
+      "question": "A state marked +100 in the rice-vs-wheat infographic",
+      "options": [
+        "consumes rice and wheat in equal amounts",
+        "mostly prefers wheat, with the largest consumption gap",
+        "mostly prefers rice, with the largest consumption gap",
+        "consumes no wheat at all"
+      ],
+      "answer": 2,
+      "explanation": "+100 does not mean zero wheat; it means the state prefers mostly rice and has the highest difference between rice and wheat consumption.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Infographics & Activity Strips",
+      "question": "The red line drawn on the rice-vs-wheat infographic highlights",
+      "options": [
+        "the boundary of the colour scale in the legend",
+        "a clear geographical split between rice and wheat preferences",
+        "the course of the major rivers of India",
+        "the states for which data is missing"
+      ],
+      "answer": 1,
+      "explanation": "The chapter remarks how interesting the clear geographical split in preferences, shown by the red line, is.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Infographics & Activity Strips",
+      "question": "Manoj's activity strip has 48 boxes, each marking",
+      "options": [
+        "a 30-minute interval over one full day",
+        "a 15-minute interval over one full day",
+        "a one-hour interval over two days",
+        "a 30-minute interval during school hours only"
+      ],
+      "answer": 0,
+      "explanation": "48 boxes × 30 minutes = 24 hours, running from midnight to midnight.",
+      "source": "text:page23"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Infographics & Activity Strips",
+      "question": "If Manoj coloured 16 consecutive boxes of his strip for sleeping, how long did he sleep?",
+      "options": [
+        "16 hours",
+        "4 hours",
+        "6 hours",
+        "8 hours"
+      ],
+      "answer": 3,
+      "explanation": "Each box is 30 minutes, so 16 boxes = 16 × 0.5 = 8 hours.",
+      "source": "text:page23"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Infographics & Activity Strips",
+      "question": "On one of the three days Manoj went out with friends to watch a long movie. Which strip feature would reveal that day?",
+      "options": [
+        "a block of attending-classes colour in the morning",
+        "the shortest intervals coloured for eating",
+        "an unusually long continuous block of the friends/media colour",
+        "the largest number of boxes coloured for sleeping"
+      ],
+      "answer": 2,
+      "explanation": "A long movie with friends shows up as a long unbroken run of the 'meeting friends, hobbies, media' colour, probably with travelling on either side.",
+      "source": "text:page23"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Infographics & Activity Strips",
+      "question": "On a weekday Manoj's school runs from 9:30 am to 4:30 pm. How long is his school day, including class time and breaks?",
+      "options": [
+        "9 hours",
+        "7 hours",
+        "6 hours",
+        "8 hours"
+      ],
+      "answer": 1,
+      "explanation": "From 9:30 am to 4:30 pm is 7 hours, which the chapter notes includes both class time and breaks.",
+      "source": "exercise:Q13"
+    },
+    {
+      "id": "q113",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Infographics & Activity Strips",
+      "question": "Infographics are used to communicate information and insights more clearly and quickly in a visually appealing way.",
+      "answer": true,
+      "explanation": "This is how the chapter (recalling Grade 6) introduces infographics before the rice-vs-wheat map.",
+      "source": "text:page21"
+    },
+    {
+      "id": "q114",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Infographics & Activity Strips",
+      "question": "The rice-vs-wheat map is drawn to scale so that a state's area shows how much rice it consumes.",
+      "answer": false,
+      "explanation": "The infographic is labelled 'Map not to scale', and the colour shade — not the area — shows the rice/wheat preference.",
+      "source": "text:page22"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sleep Data Story",
+      "question": "According to the chapter, humans typically sleep about",
+      "options": [
+        "7 to 9 hours a day",
+        "9 to 11 hours a day",
+        "5 to 7 hours a day",
+        "2 to 20 hours a day"
+      ],
+      "answer": 0,
+      "explanation": "Humans typically sleep 7–9 hours a day, though it varies with age and lifestyle. 2 to 20 hours is the range quoted for animals.",
+      "source": "text:page24"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Sleep Data Story",
+      "question": "The sleep-duration line graph looks like a smooth curve rather than a few joined segments because",
+      "options": [
+        "the vertical axis uses a logarithmic scale",
+        "it was sketched freehand without real data",
+        "sleep time hardly changes with age",
+        "it has many data points placed very close together"
+      ],
+      "answer": 3,
+      "explanation": "It contains a data point for every age from 6 to 75, placed so close together that the joined segments look like a smooth curve.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sleep Data Story",
+      "question": "From the graph, the average daily sleep time of 6-year-olds is about",
+      "options": [
+        "8.5 hours",
+        "10.5 hours",
+        "9.5 hours",
+        "8 hours"
+      ],
+      "answer": 2,
+      "explanation": "The text reads 9.5 hours for 6-year-olds; 8 hours is the figure for ages 30–50 and 8.5 hours for after 50.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Sleep Data Story",
+      "question": "Between the ages of 30 and 50, the average daily sleep time is about",
+      "options": [
+        "7 hours",
+        "8 hours",
+        "8.5 hours",
+        "9.5 hours"
+      ],
+      "answer": 1,
+      "explanation": "Sleep time falls through the teenage years into adulthood, touching about 8 hours a day between ages 30 and 50.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Sleep Data Story",
+      "question": "Which statement about the sleep-duration graph is NOT correct?",
+      "options": [
+        "sleep time keeps falling steadily after age 50",
+        "sleep time falls through the teenage years",
+        "6-year-olds sleep about 9.5 hours per day",
+        "sleep time rises to about 8.5 hours after age 50"
+      ],
+      "answer": 0,
+      "explanation": "After 50 the daily sleep time INCREASES again, reaching about 8.5 hours — it does not keep falling.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q120",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Sleep Data Story",
+      "question": "Which factors does the chapter mention as affecting how much sleep people need? (Select all that apply.)",
+      "options": [
+        "age",
+        "lifestyle",
+        "height",
+        "blood group"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The chapter lists age, living conditions and lifestyle (food, activities) among the factors; height and blood group are not mentioned.",
+      "source": "text:page24"
+    },
+    {
+      "id": "q121",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Sleep Data Story",
+      "question": "Showing the sleep data as a column graph would be lighter and clearer than the line graph.",
+      "answer": false,
+      "explanation": "The chapter says the opposite: a column graph would need about 70 columns and look cluttered and heavy; the line graph is light and captures the pattern well.",
+      "source": "text:page25"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Patterns, Grids & Algebra",
+      "question": "The mean of the first 50 natural numbers (1 to 50) is",
+      "options": [
+        "25",
+        "50",
+        "26",
+        "25.5"
+      ],
+      "answer": 3,
+      "explanation": "Pairs 1+50, 2+49, … each total 51, so the mean is 51 ÷ 2 = 25.5 — the average of the first and last values.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Patterns, Grids & Algebra",
+      "question": "The mean of the first 50 odd numbers (1, 3, 5, …, 99) is",
+      "options": [
+        "51",
+        "25",
+        "50",
+        "49"
+      ],
+      "answer": 2,
+      "explanation": "The values are evenly spaced, so the mean is the average of the first and last: (1 + 99) ÷ 2 = 50.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Patterns, Grids & Algebra",
+      "question": "What observation do the three means in Q1 (25.5, 50, 102) support about evenly spaced data?",
+      "options": [
+        "the mean equals the number of values",
+        "the mean is the average of the first and last values",
+        "the mean is always the 25th value in the list",
+        "the mean is always half of the largest value"
+      ],
+      "answer": 1,
+      "explanation": "For data with equal gaps the values balance symmetrically around the midpoint of the extremes, so mean = (first + last) ÷ 2. Half the largest works only for 1–50 by coincidence.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Patterns, Grids & Algebra",
+      "question": "A 3 × 3 'mean grid' must have an average of 10 along every row, column and diagonal. The sum of each row is",
+      "options": [
+        "30",
+        "10",
+        "90",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "Average 10 over 3 cells means each row (and column and diagonal) totals 3 × 10 = 30. 90 is the total of all nine cells.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Patterns, Grids & Algebra",
+      "question": "In the 3 × 3 mean grid (every line averaging 10), the centre cell must be",
+      "options": [
+        "30",
+        "15",
+        "5",
+        "10"
+      ],
+      "answer": 3,
+      "explanation": "Add the middle row, middle column and both diagonals: 4 × 30 = 120. This counts every cell once (total 90) plus the centre three extra times, so 3 × centre = 30 and the centre is 10.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Patterns, Grids & Algebra",
+      "question": "Fill the blanks so the median of 5, 21, 14, __, __, __ is 13. Which triple works?",
+      "options": [
+        "11, 15, 16",
+        "8, 10, 13",
+        "9, 12, 14",
+        "10, 12, 13"
+      ],
+      "answer": 2,
+      "explanation": "With 9, 12, 14 the sorted data is 5, 9, 12, 14, 14, 21; the 3rd and 4th values 12 and 14 average 13. The others give medians 12.5, 14.5 and 11.5.",
+      "source": "exercise:Q3"
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Patterns, Grids & Algebra",
+      "question": "For the mean of 3, 11, __, __, 15, 6 to be 6.5, the two blanks must add up to",
+      "options": [
+        "39",
+        "4",
+        "9",
+        "13"
+      ],
+      "answer": 1,
+      "explanation": "Six values with mean 6.5 total 39. The known values add to 35, so the blanks must total 4 (e.g. 1 and 3, or 2 and 2).",
+      "source": "exercise:Q4"
+    },
+    {
+      "id": "q129",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Patterns, Grids & Algebra",
+      "question": "The average of two even numbers is always even.",
+      "answer": false,
+      "explanation": "2 and 4 are both even but their average is 3, which is odd. The sum of two evens is even, but halving it need not give an even number.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q130",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Patterns, Grids & Algebra",
+      "question": "The average of any two multiples of 5 is always a multiple of 5.",
+      "answer": false,
+      "explanation": "5 and 10 average to 7.5, which is not a multiple of 5. Algebra: (5a + 5b) ÷ 2 is a multiple of 5 only when a + b is even.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Patterns, Grids & Algebra",
+      "question": "Is the average of any 5 multiples of 5 also a multiple of 5?",
+      "options": [
+        "not always — e.g. 5, 5, 5, 5, 10 average to 6",
+        "always — the five 5s cancel to leave a multiple of 5",
+        "never — five multiples of 5 cannot average evenly",
+        "always — an average of multiples is itself a multiple"
+      ],
+      "answer": 0,
+      "explanation": "(5a + 5b + 5c + 5d + 5e) ÷ 5 = a + b + c + d + e, an integer that need not be a multiple of 5. For 5, 5, 5, 5, 10 the sum is 30 and the average is 6; for 5, 10, 15, 20, 25 it happens to be 15.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Patterns, Grids & Algebra",
+      "question": "Two students join a class whose average height was 150.2 cm. To find the new average, which is correct?",
+      "options": [
+        "the average must increase because there are 2 more values",
+        "the average stays 150.2 cm whatever their heights",
+        "every student in the class must be measured again",
+        "only the two new students need to be measured"
+      ],
+      "answer": 3,
+      "explanation": "The old total is known (150.2 × 24), so adding the two new heights and dividing by 26 gives the new mean. Whether it rises or falls depends on those heights.",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Patterns, Grids & Algebra",
+      "question": "The two new students are 149 cm and 152 cm tall. The class average (previously 150.2 cm for 24 students) will",
+      "options": [
+        "stay exactly the same",
+        "be impossible to predict",
+        "increase slightly",
+        "decrease slightly"
+      ],
+      "answer": 2,
+      "explanation": "The newcomers average (149 + 152) ÷ 2 = 150.5 cm, which is above 150.2, so the mean rises — to about (24 × 150.2 + 301) ÷ 26 ≈ 150.22 cm.",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Patterns, Grids & Algebra",
+      "question": "With new students of 149 cm and 152 cm joining, what happens to the class MEDIAN height?",
+      "options": [
+        "it decreases, since 149 is below the mean",
+        "it cannot be decided from the given information",
+        "it stays the same, since 149 < 150.2 < 152",
+        "it increases, since 152 is above the mean"
+      ],
+      "answer": 1,
+      "explanation": "We know the old mean but nothing about the old median or how the heights are spread, so we cannot tell whether 149 and 152 fall on opposite sides of the median.",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Patterns, Grids & Algebra",
+      "question": "A graph shows the primary lighting source (kerosene, electricity, …) of rural and urban households over the years. The claim 'In 2023 there were no power cuts' is",
+      "options": [
+        "not valid — the graph shows lighting sources, not power supply",
+        "valid — electricity use implies continuous supply",
+        "valid — kerosene use dropped to zero in 2023",
+        "not valid — the graph ends before the year 2023"
+      ],
+      "answer": 0,
+      "explanation": "Which source a household mainly uses says nothing about how reliable the supply was; power cuts are simply not measured by this data.",
+      "source": "exercise:Q10"
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Patterns, Grids & Algebra",
+      "question": "A line graph shows the AVERAGE daily time rural kids of each age spend on hobbies. 'All rural kids aged 15 spend at least 1 hour on hobbies every day' is",
+      "options": [
+        "correct — the average for age 15 is above 1 hour",
+        "correct — rural kids always exceed the average",
+        "incorrect — the graph shows only urban children",
+        "incorrect — an average says nothing about each individual"
+      ],
+      "answer": 3,
+      "explanation": "An average can be above 1 hour while some children spend much less and others much more; a mean cannot tell us about every individual.",
+      "source": "exercise:Q11"
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Patterns, Grids & Algebra",
+      "question": "Which of these is an example of 6 numbers whose mean is GREATER than their median?",
+      "options": [
+        "2, 2, 2, 2, 2, 2",
+        "10, 11, 12, 13, 14, 15",
+        "1, 2, 3, 4, 5, 21",
+        "1, 2, 3, 4, 5, 6"
+      ],
+      "answer": 2,
+      "explanation": "1, 2, 3, 4, 5, 21 has mean 36 ÷ 6 = 6 and median (3 + 4) ÷ 2 = 3.5; the large value 21 pulls the mean above the median. The other sets are evenly spaced, so mean = median.",
+      "source": "exercise:Q2"
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Game of Hex",
+      "question": "The Hex board is",
+      "options": [
+        "a rhombus of square cells, usually 9 × 9",
+        "a rhombus of hexagonal cells, usually 11 × 11",
+        "a square of square cells, usually 8 × 8",
+        "a circle of triangular cells in 11 rings"
+      ],
+      "answer": 1,
+      "explanation": "Hex is played on a rhombus-shaped board of hexagonal cells, usually 11 × 11.",
+      "source": "text:page32"
+    },
+    {
+      "id": "q139",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Game of Hex",
+      "question": "A player wins Hex by",
+      "options": [
+        "making an unbroken chain joining their two assigned sides",
+        "capturing more cells than the opponent",
+        "surrounding one of the opponent's pieces",
+        "filling any complete row of the board"
+      ],
+      "answer": 0,
+      "explanation": "Each player is assigned two opposite sides; the first to connect them with an unbroken chain of their own pieces wins.",
+      "source": "text:page32"
+    },
+    {
+      "id": "q140",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Game of Hex",
+      "question": "In Hex, a piece that has been placed may later be moved to a better cell.",
+      "answer": false,
+      "explanation": "Once placed, pieces cannot be moved or removed; players simply take turns placing pieces on empty cells.",
+      "source": "text:page32"
+    }
+  ]
+}

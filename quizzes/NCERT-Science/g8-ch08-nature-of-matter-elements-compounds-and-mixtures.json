@@ -1,0 +1,2575 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-science-g8-ch08-nature-of-matter-elements-compounds-and-mixtures",
+  "title": "Nature of Matter: Elements, Compounds, and Mixtures",
+  "subject": "Science",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Science/ch08",
+  "chapter": "8. Nature of Matter: Elements, Compounds, and Mixtures",
+  "topic": "Full Chapter",
+  "description": "Mixtures (uniform and non-uniform, alloys, air), pure substances, elements, compounds, the electrolysis of water, the iron–sulfur experiment, minerals and the chapter's exercises.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "science",
+    "matter",
+    "elements",
+    "compounds",
+    "mixtures",
+    "air",
+    "minerals"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Mixtures and Components",
+      "question": "According to the chapter, what is a mixture?",
+      "options": [
+        "Two or more substances mixed together, each keeping its own properties",
+        "Two or more elements joined chemically in a fixed ratio of atoms",
+        "A single kind of matter made of only one type of particle throughout",
+        "A substance that cannot be broken into anything simpler by any method"
+      ],
+      "answer": 0,
+      "explanation": "A mixture forms when two or more substances are mixed and each substance retains its properties; the components do not react chemically. The other options describe a compound, a pure substance and an element.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Mixtures and Components",
+      "question": "The individual substances that make up a mixture are called its…",
+      "options": [
+        "chemical products",
+        "components",
+        "molecules",
+        "constituent atoms"
+      ],
+      "answer": 1,
+      "explanation": "The chapter defines the individual substances making up a mixture as its components. Atoms and molecules are particles of a substance, and 'products' are what a chemical reaction makes.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Mixtures and Components",
+      "question": "A student mixes iron filings with sand and finds that a magnet still pulls out the iron. What does this show about the mixture?",
+      "options": [
+        "The mixture has become a pure substance after mixing",
+        "The components have combined in a fixed ratio by mass",
+        "Each component keeps its own properties in the mixture",
+        "The iron and sand have reacted to form a new substance"
+      ],
+      "answer": 2,
+      "explanation": "In a mixture the components retain their individual properties and do not react chemically, so iron is still magnetic and can be pulled out. A new substance, a fixed ratio or purity would indicate a compound, not a mixture.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Mixtures and Components",
+      "question": "A sprout salad of green gram, chickpeas, onion and tomato is a non-uniform mixture because…",
+      "options": [
+        "its components react chemically with one another",
+        "its components are evenly spread and cannot be told apart",
+        "it contains both solids and liquids mixed together",
+        "its components can be seen separately with the naked eye"
+      ],
+      "answer": 3,
+      "explanation": "Mixtures whose different components are visible with the naked eye or a magnifying device are non-uniform. Evenly distributed, indistinguishable components would make it uniform; components of a mixture never react chemically.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Mixtures and Components",
+      "question": "Why is a solution of sugar in water called a uniform mixture?",
+      "options": [
+        "Sugar and water particles cannot be seen separately even with a microscope",
+        "Sugar and water combine chemically to form a sweet new compound",
+        "Sugar crystals can be seen floating evenly through the water",
+        "The sugar settles at the bottom in an even layer over time"
+      ],
+      "answer": 0,
+      "explanation": "In a uniform mixture the components are evenly distributed and cannot be distinguished, even under a microscope. Sugar does not react chemically with water, and visible crystals or a settled layer would make the mixture non-uniform.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Mixtures and Components",
+      "question": "Which statement about mixtures is NOT correct?",
+      "options": [
+        "Sugar dissolved in water, soups and lemonade are all mixtures",
+        "The components of a mixture lose their original properties",
+        "The components of a mixture do not react chemically with each other",
+        "Some mixtures have components visible with a magnifying device"
+      ],
+      "answer": 1,
+      "explanation": "In a mixture each substance retains its properties — that is the defining feature. The other three statements are directly stated in the chapter.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Mixtures and Components",
+      "question": "In common usage, poha is a mixture of ingredients that are themselves mixtures. In science, however, the components of a mixture must be…",
+      "options": [
+        "liquids or gases only",
+        "elements, never compounds",
+        "pure substances only",
+        "visible to the naked eye"
+      ],
+      "answer": 2,
+      "explanation": "The chapter states that in science all the components of a mixture must be pure substances (elements or compounds). Components need not be visible, can be in any state, and compounds like sugar or salt are allowed.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q8",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Mixtures and Components",
+      "question": "Sugar dissolved in water is an example of a mixture.",
+      "answer": true,
+      "explanation": "The chapter lists sugar dissolved in water, soups and lemonade as everyday mixtures; sugar and water keep their own properties.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q9",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Mixtures and Components",
+      "question": "The components of a uniform mixture can be seen separately with the help of a microscope.",
+      "answer": false,
+      "explanation": "In a uniform mixture the components cannot be seen separately even with a microscope; it is the non-uniform mixtures whose components are visible with the eye or a magnifying device.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Mixtures and Components",
+      "question": "Select the mixtures described in the chapter as non-uniform (components visible).",
+      "options": [
+        "Sprout salad",
+        "Poha",
+        "Sugar dissolved in water",
+        "Air"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Sprout salad and poha have components you can see, so they are non-uniform. Sugar solution and air are uniform mixtures whose components cannot be distinguished.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Alloys and Scientific Heritage",
+      "question": "In ancient Indian texts, 'Mishraloha' referred to…",
+      "options": [
+        "a compound of a metal and a non-metal formed by heating them strongly together",
+        "a pure metal purified repeatedly until no other substance remained in it",
+        "a mineral containing a single metal in its natural, uncombined state",
+        "a mixture of two or more metals with properties distinct from its constituent metals"
+      ],
+      "answer": 3,
+      "explanation": "Mishraloha was the name given to a mixture of two or more metals (an alloy) whose properties were distinct from those of its constituent metals.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Alloys and Scientific Heritage",
+      "question": "Bronze, known as Kamsya in ancient texts, is an alloy of…",
+      "options": [
+        "copper (4 parts) and tin (1 part)",
+        "copper (4 parts) and zinc (1 part)",
+        "iron (4 parts) and nickel (1 part)",
+        "tin (4 parts) and copper (1 part)"
+      ],
+      "answer": 0,
+      "explanation": "Kamsya (bronze) is described as copper (Tamra, 4 parts) and tin (Vanga, 1 part). Copper and zinc make brass; iron and nickel are in stainless steel; the copper-to-tin ratio is 4:1, not reversed.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Alloys and Scientific Heritage",
+      "question": "According to the texts cited in the chapter, Kamsya (bronze) was used medicinally to…",
+      "options": [
+        "strengthen bones and heal fractures",
+        "improve digestion and boost immunity",
+        "cure fevers and reduce body heat",
+        "purify water and remove dust from it"
+      ],
+      "answer": 1,
+      "explanation": "The chapter states that bronze (Kamsya) was used to improve digestion and boost immunity. The other uses are not mentioned.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Alloys and Scientific Heritage",
+      "question": "Stainless steel is a uniform mixture containing…",
+      "options": [
+        "iron, copper, tin and a small amount of sulfur",
+        "aluminium, iron, chromium and a little silicon",
+        "iron, nickel, chromium and a small amount of carbon",
+        "copper, zinc, nickel and a small amount of carbon"
+      ],
+      "answer": 2,
+      "explanation": "Stainless steel contains iron, nickel, chromium and a small amount of carbon mixed so uniformly that it looks the same throughout. Copper–zinc is brass and copper–tin is bronze.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Alloys and Scientific Heritage",
+      "question": "Brass is an alloy made of…",
+      "options": [
+        "copper and tin",
+        "iron and chromium",
+        "zinc and tin",
+        "copper and zinc"
+      ],
+      "answer": 3,
+      "explanation": "Brass is a mixture of copper and zinc; bronze is copper and tin; iron and chromium are found in stainless steel.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Alloys and Scientific Heritage",
+      "question": "Why are alloys such as stainless steel classified as uniform mixtures?",
+      "options": [
+        "The metals are mixed so evenly that no individual substance can be seen anywhere",
+        "The metals react chemically to form a new compound with a fixed ratio",
+        "The metals keep separate layers that can be seen with a magnifying glass",
+        "Each metal can be seen as separate grains when the alloy is cut open"
+      ],
+      "answer": 0,
+      "explanation": "In an alloy the metals are mixed so uniformly that the whole appears the same throughout and individual substances cannot be seen — the definition of a uniform mixture. Alloys are not compounds, and visible layers or grains would make them non-uniform.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Alloys and Scientific Heritage",
+      "question": "Which statement about alloys is NOT correct?",
+      "options": [
+        "Alloys are mixtures in which individual metals cannot be seen",
+        "Brass is a compound of copper and zinc formed in a fixed ratio",
+        "Bronze is an alloy made from copper and tin",
+        "Stainless steel is a mixture and is stronger than pure iron"
+      ],
+      "answer": 1,
+      "explanation": "Brass is an alloy, which is a uniform mixture of copper and zinc — not a compound. The other three statements agree with the chapter.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q18",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Alloys and Scientific Heritage",
+      "question": "Bronze is a mixture of copper and zinc.",
+      "answer": false,
+      "explanation": "Bronze is copper and tin; copper and zinc make brass.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q19",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Alloys and Scientific Heritage",
+      "question": "Stainless steel contains a small amount of carbon, a non-metal.",
+      "answer": true,
+      "explanation": "Stainless steel contains iron, nickel, chromium and a small amount of carbon; carbon is listed as a non-metal in the chapter.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q20",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Alloys and Scientific Heritage",
+      "question": "Which of the following are alloys?",
+      "options": [
+        "Stainless steel",
+        "Bronze",
+        "Iron sulfide",
+        "Quartz"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Stainless steel and bronze are alloys (uniform mixtures of metals). Iron sulfide is a compound, and quartz is a mineral.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Composition of Air",
+      "question": "Air is a uniform mixture of mainly…",
+      "options": [
+        "oxygen, carbon dioxide, ozone, sulfur dioxide and dust",
+        "nitrogen, hydrogen, argon, carbon monoxide and dust",
+        "nitrogen, oxygen, argon, carbon dioxide and water vapour",
+        "nitrogen, oxygen, hydrogen, helium and water vapour"
+      ],
+      "answer": 2,
+      "explanation": "The chapter lists air as a uniform mixture mainly of nitrogen, oxygen, argon, carbon dioxide and water vapour. Hydrogen and helium are not listed; ozone, SO2, CO and dust are pollutants.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Composition of Air",
+      "question": "About what percentage of air is nitrogen?",
+      "options": [
+        "21%",
+        "50%",
+        "87%",
+        "78%"
+      ],
+      "answer": 3,
+      "explanation": "Nitrogen constitutes about 78% of air. 21% is the approximate share of oxygen (from earlier grades), and the other values are not mentioned.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Composition of Air",
+      "question": "Which gas in air does NOT take part in combustion, according to the chapter?",
+      "options": [
+        "Nitrogen",
+        "Oxygen",
+        "Hydrogen",
+        "Water vapour"
+      ],
+      "answer": 0,
+      "explanation": "Nitrogen, about 78% of air, does not take part in combustion. Oxygen helps combustion and hydrogen is itself a fuel.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Composition of Air",
+      "question": "Which gas in air is required by most living beings and also helps in combustion?",
+      "options": [
+        "Carbon dioxide",
+        "Oxygen",
+        "Nitrogen",
+        "Argon"
+      ],
+      "answer": 1,
+      "explanation": "Oxygen is required by most living beings to stay alive and helps in combustion; nitrogen does not take part in combustion.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Composition of Air",
+      "question": "Tiny water droplets form when warm air touches a cool surface. What does this show?",
+      "options": [
+        "Cool surfaces release water that was stored inside them",
+        "Carbon dioxide in the air dissolves to form liquid droplets",
+        "Air contains water vapour that condenses into liquid water",
+        "Air contains oxygen that turns into water on cooling"
+      ],
+      "answer": 2,
+      "explanation": "When warm air touches a cool surface, the water vapour in the air turns into liquid water, forming tiny droplets — evidence that air has water vapour.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Composition of Air",
+      "question": "A candle burns in a sealed jar of air and then goes out. Based on the chapter, which gas was used up and which gas remained unchanged?",
+      "options": [
+        "Nitrogen was used up; oxygen remained unchanged",
+        "Carbon dioxide was used up; argon remained unchanged",
+        "Water vapour was used up; oxygen remained unchanged",
+        "Oxygen was used up; nitrogen remained unchanged"
+      ],
+      "answer": 3,
+      "explanation": "Oxygen helps combustion, so it is consumed; nitrogen (about 78% of air) does not take part in combustion and remains. Carbon dioxide is produced, not consumed.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q27",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Composition of Air",
+      "question": "Nitrogen makes up about 21% of the air.",
+      "answer": false,
+      "explanation": "Nitrogen is about 78% of air; 21% is roughly the share of oxygen.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q28",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Composition of Air",
+      "question": "Air is classified in Table 8.1 as a uniform gas-and-gas mixture.",
+      "answer": true,
+      "explanation": "Table 8.1 lists air as a gas and gas mixture and marks it uniform.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q29",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Composition of Air",
+      "question": "Which of these are named in the chapter as components of air (not pollutants)?",
+      "options": [
+        "Argon",
+        "Water vapour",
+        "Sulfur dioxide",
+        "Carbon monoxide"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Argon and water vapour are listed among the main components of air. Sulfur dioxide and carbon monoxide are named as air pollutants.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Testing Air: Lime Water and Dust",
+      "question": "In Activity 8.1, what happens when calcium oxide (quick lime) is added to water?",
+      "options": [
+        "It reacts vigorously to form calcium hydroxide and releases heat",
+        "It dissolves quietly to form a milky calcium carbonate solution",
+        "It floats on the water without reacting and absorbs heat",
+        "It releases carbon dioxide bubbles and cools the water down"
+      ],
+      "answer": 0,
+      "explanation": "Calcium oxide reacts vigorously with water to form calcium hydroxide and releases heat, which is why the step must be done carefully.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Testing Air: Lime Water and Dust",
+      "question": "Lime water is a solution of…",
+      "options": [
+        "carbon dioxide",
+        "calcium hydroxide",
+        "calcium oxide",
+        "calcium carbonate"
+      ],
+      "answer": 1,
+      "explanation": "Stirring calcium oxide in water gives a solution of calcium hydroxide, which is called lime water. Calcium carbonate is the insoluble product that makes it milky.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Testing Air: Lime Water and Dust",
+      "question": "Why does lime water turn milky in air?",
+      "options": [
+        "Dust particles from the air settle into the solution and cloud it",
+        "Water vapour from the air condenses and dilutes the clear solution",
+        "Carbon dioxide reacts with calcium hydroxide to form insoluble calcium carbonate",
+        "Oxygen reacts with calcium hydroxide to form insoluble calcium oxide"
+      ],
+      "answer": 2,
+      "explanation": "Carbon dioxide in the air reacts with calcium hydroxide to form calcium carbonate (tiny insoluble white particles) and water, which makes the solution milky.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Testing Air: Lime Water and Dust",
+      "question": "Complete the word equation: Calcium hydroxide + Carbon dioxide → ______ + Water",
+      "options": [
+        "Calcium oxide",
+        "Calcium chloride",
+        "Carbon monoxide",
+        "Calcium carbonate"
+      ],
+      "answer": 3,
+      "explanation": "The reaction is Calcium hydroxide + Carbon dioxide → Calcium carbonate + Water. Calcium carbonate is the insoluble white solid.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Testing Air: Lime Water and Dust",
+      "question": "In Activity 8.1 the filtered lime water was left in a petri dish for a few hours and turned milky. What does this demonstrate?",
+      "options": [
+        "Carbon dioxide is present in the air",
+        "Oxygen is present in the air",
+        "Water vapour is present in the air",
+        "Dust particles are present in the air"
+      ],
+      "answer": 0,
+      "explanation": "Lime water turns milky only when carbon dioxide reacts with calcium hydroxide, so milkiness on exposure to air demonstrates the presence of carbon dioxide in air.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Testing Air: Lime Water and Dust",
+      "question": "Predict: If freshly filtered lime water is sealed immediately in an airtight, air-free container, what would most likely be observed after a few hours?",
+      "options": [
+        "It turns yellow because the calcium oxide settles at the bottom",
+        "It stays colourless because no carbon dioxide reaches it",
+        "It turns milky because calcium hydroxide slowly decomposes",
+        "It turns milky because water vapour cannot escape from it"
+      ],
+      "answer": 1,
+      "explanation": "Milkiness requires carbon dioxide from the air reacting with calcium hydroxide. With no air in contact, no calcium carbonate forms and the solution stays colourless.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Testing Air: Lime Water and Dust",
+      "question": "In Activity 8.2, a clean black sheet is left near an open window for a few hours. What is observed and what does it show?",
+      "options": [
+        "It fades in colour, showing oxygen in the air bleaches it",
+        "It stays unchanged, showing air contains only pure gases",
+        "Tiny particles settle on it, showing dust is suspended in air",
+        "It becomes damp, showing water vapour is present in the air"
+      ],
+      "answer": 2,
+      "explanation": "Tiny particles settle on the black paper, which can be examined with a magnifying glass. This shows that dust particles are suspended in the air.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Testing Air: Lime Water and Dust",
+      "question": "Which of these is NOT listed in the chapter as a major air pollutant?",
+      "options": [
+        "Ozone",
+        "Carbon monoxide",
+        "Sulfur dioxide",
+        "Argon"
+      ],
+      "answer": 3,
+      "explanation": "The major pollutants named are particulate matter (dust, soot) and gases like carbon monoxide, ozone, nitrogen dioxide and sulfur dioxide. Argon is a normal component of air.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q38",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Testing Air: Lime Water and Dust",
+      "question": "Calcium oxide reacting with water releases heat.",
+      "answer": true,
+      "explanation": "Calcium oxide reacts vigorously with water to form calcium hydroxide and releases heat.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q39",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Testing Air: Lime Water and Dust",
+      "question": "The number of dust particles in the air is the same at all places and at all times.",
+      "answer": false,
+      "explanation": "The nature and number of dust particles vary from time to time and from place to place.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q40",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Types of Mixtures and Separation",
+      "question": "According to Table 8.1, aerated water (soda water) is an example of which type of mixture?",
+      "options": [
+        "Gas and liquid",
+        "Liquid and liquid",
+        "Solid and liquid",
+        "Gas and gas"
+      ],
+      "answer": 0,
+      "explanation": "Aerated water has carbon dioxide gas dissolved in liquid water, so it is a gas-and-liquid mixture.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Types of Mixtures and Separation",
+      "question": "Carbon particles in air form which type of mixture?",
+      "options": [
+        "Solid and liquid",
+        "Solid and gas",
+        "Gas and gas",
+        "Solid and solid"
+      ],
+      "answer": 1,
+      "explanation": "Carbon (soot) particles are solids suspended in air, a gas, so Table 8.1 classifies this as a solid-and-gas mixture.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Types of Mixtures and Separation",
+      "question": "Vinegar is listed in Table 8.1 as a mixture of…",
+      "options": [
+        "carbon dioxide in water (gas and liquid)",
+        "acetic acid in air (liquid and gas)",
+        "acetic acid in water (liquid and liquid)",
+        "tartaric acid in water (solid and liquid)"
+      ],
+      "answer": 2,
+      "explanation": "Vinegar is acetic acid in water, a liquid-and-liquid mixture. Tartaric acid appears in baking powder; carbon dioxide in water is soda water.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Types of Mixtures and Separation",
+      "question": "Baking powder is given as a solid–solid mixture of…",
+      "options": [
+        "baking soda and common salt",
+        "baking soda and acetic acid",
+        "tartaric acid and sugar",
+        "baking soda and tartaric acid"
+      ],
+      "answer": 3,
+      "explanation": "Table 8.1 lists baking powder as baking soda and tartaric acid, both solids.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Types of Mixtures and Separation",
+      "question": "Seawater and sand-in-water belong to the same mixture type in Table 8.1 but differ in uniformity. Which is correct?",
+      "options": [
+        "Both are solid–liquid; seawater is uniform, sand in water is non-uniform",
+        "Both are liquid–liquid; seawater is non-uniform, sand in water is uniform",
+        "Both are solid–liquid; both are uniform because both contain water",
+        "Both are solid–solid; sand in water is uniform, seawater is non-uniform"
+      ],
+      "answer": 0,
+      "explanation": "Both are solid-and-liquid mixtures. Dissolved salt in seawater cannot be seen (uniform), whereas sand grains in water are visible (non-uniform).",
+      "source": "text:page5"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Types of Mixtures and Separation",
+      "question": "Which mixture–type pairing from Table 8.1 is WRONG?",
+      "options": [
+        "Oil and water — liquid and liquid",
+        "Seawater — liquid and liquid",
+        "Air — gas and gas",
+        "Alloys — solid and solid"
+      ],
+      "answer": 1,
+      "explanation": "Seawater (salt dissolved in water) is a solid-and-liquid mixture. The other three pairings match Table 8.1.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Types of Mixtures and Separation",
+      "question": "In science, what is the purpose of separating the components of a mixture?",
+      "options": [
+        "To make the mixture uniform in nature",
+        "To make the components react with each other",
+        "To obtain pure substances from the mixture",
+        "To obtain the useful component and discard the rest"
+      ],
+      "answer": 2,
+      "explanation": "In everyday life we separate to get the component of interest and discard the rest; in science the purpose is to obtain pure substances.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q47",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Types of Mixtures and Separation",
+      "question": "Which pair below contains one uniform and one non-uniform mixture?",
+      "options": [
+        "Air and seawater",
+        "Sand-in-water and oil-in-water",
+        "Alloys and vinegar",
+        "Vinegar and oil-in-water"
+      ],
+      "answer": 3,
+      "explanation": "Vinegar (acetic acid in water) is uniform while oil and water separate visibly (non-uniform). Air and seawater are both uniform; sand-in-water and oil-in-water are both non-uniform; alloys and vinegar are both uniform.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q48",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Types of Mixtures and Separation",
+      "question": "In everyday life, mixtures are usually separated in order to obtain pure substances.",
+      "answer": false,
+      "explanation": "In everyday life separation is done to obtain the component of interest and discard the others; obtaining pure substances is the purpose in science.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q49",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Types of Mixtures and Separation",
+      "question": "Soda water is a mixture of a gas and a liquid.",
+      "answer": true,
+      "explanation": "Aerated (soda) water is listed as a gas-and-liquid mixture in Table 8.1.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q50",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Types of Mixtures and Separation",
+      "question": "Which of the following are solid–liquid mixtures according to Table 8.1?",
+      "options": [
+        "Sand and water",
+        "Seawater",
+        "Vinegar",
+        "Soda water"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Sand and water and seawater are solid-and-liquid mixtures. Vinegar is liquid-liquid and soda water is gas-liquid.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pure Substances and Adulteration",
+      "question": "In science, a pure substance is one that…",
+      "options": [
+        "has no other substance present in it",
+        "is sold without any adulteration",
+        "is made of two or more elements",
+        "cannot be seen with a microscope"
+      ],
+      "answer": 0,
+      "explanation": "In science a pure substance has no other substance in it and consists of the same type of particles. 'Unadulterated' is the common-usage meaning.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pure Substances and Adulteration",
+      "question": "What is adulteration?",
+      "options": [
+        "Heating a compound so that it breaks into its elements",
+        "Illegally adding cheaper or poor-quality substances to a product",
+        "Legally mixing two pure substances to form a uniform mixture",
+        "Separating a mixture to recover the component of interest"
+      ],
+      "answer": 1,
+      "explanation": "Adulteration is the illegal process of adding substances that are cheaper or of poor quality to a product, usually to increase quantity or reduce cost.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pure Substances and Adulteration",
+      "question": "Why is adulteration usually carried out, according to the chapter?",
+      "options": [
+        "To make the product last longer on the shelf",
+        "To make the product a pure substance",
+        "To increase quantity or reduce manufacturing cost",
+        "To improve the taste and colour of the product"
+      ],
+      "answer": 2,
+      "explanation": "Adulteration is done to increase the quantity or reduce the manufacturing cost; it deteriorates quality and can be hazardous to health.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pure Substances and Adulteration",
+      "question": "A packet of milk is labelled 'pure'. How would a scientist classify this milk?",
+      "options": [
+        "Pure, because the label says it has not been adulterated",
+        "Pure, because its particles cannot be seen separately",
+        "An element, because it cannot be separated by filtering",
+        "Impure, because it is made of more than one substance"
+      ],
+      "answer": 3,
+      "explanation": "For a scientist, products that look pure are impure (mixtures) if they consist of more than one substance. Labels and invisibility of particles do not make something a pure substance.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pure Substances and Adulteration",
+      "question": "A pure substance cannot be separated into other kinds of matter by…",
+      "options": [
+        "any physical process",
+        "any chemical process",
+        "heating alone",
+        "filtering alone"
+      ],
+      "answer": 0,
+      "explanation": "A pure substance is matter that cannot be separated into other kinds of matter by any physical process. Compounds, which are pure substances, can still be broken down chemically.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pure Substances and Adulteration",
+      "question": "Substance X can be separated into two different substances by filtration. Based on the chapter, X must be…",
+      "options": [
+        "a pure substance",
+        "a mixture",
+        "a compound",
+        "an element"
+      ],
+      "answer": 1,
+      "explanation": "Only mixtures can be separated by physical processes like filtration. A pure substance (element or compound) cannot be separated into other kinds of matter physically.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pure Substances and Adulteration",
+      "question": "Which statement about pure substances is NOT correct?",
+      "options": [
+        "A pure substance can be either an element or a compound",
+        "A pure substance cannot be separated physically into other matter",
+        "A pure substance always consists of a single element",
+        "A pure substance consists of the same type of particles"
+      ],
+      "answer": 2,
+      "explanation": "Compounds like water and sugar are also pure substances, so a pure substance need not be a single element. The other statements are from the chapter.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q58",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Pure Substances and Adulteration",
+      "question": "In science, a product labelled 'pure' is always a pure substance.",
+      "answer": false,
+      "explanation": "Products that look pure are considered impure by scientists if they are made of more than one substance.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q59",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Pure Substances and Adulteration",
+      "question": "A pure substance consists of only one type of particle.",
+      "answer": true,
+      "explanation": "When a scientist says something is pure, the substance consists of the same type of particles.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q60",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Pure Substances and Adulteration",
+      "question": "Which of the following would a scientist classify as pure substances?",
+      "options": [
+        "Baking soda",
+        "Sugar",
+        "Milk",
+        "Soil"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Baking soda and sugar are compounds, hence pure substances. Milk and soil are made of several substances and are mixtures.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Electrolysis of Water",
+      "question": "In Activity 8.3, a few drops of which liquid were added to the water in the beaker?",
+      "options": [
+        "Dilute hydrochloric acid",
+        "Lime water (calcium hydroxide)",
+        "Vinegar (acetic acid)",
+        "Dilute sulfuric acid"
+      ],
+      "answer": 3,
+      "explanation": "A few drops of dilute sulfuric acid were added to the water before passing electricity. Dilute hydrochloric acid is used in Activity 8.5.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Electrolysis of Water",
+      "question": "The gas that gives a 'pop' sound when a burning candle is brought near it is…",
+      "options": [
+        "hydrogen",
+        "oxygen",
+        "carbon dioxide",
+        "water vapour"
+      ],
+      "answer": 0,
+      "explanation": "A pop sound indicates hydrogen gas. Oxygen makes the candle flame glow brighter.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Electrolysis of Water",
+      "question": "In which gas does the flame of a burning candle glow brighter?",
+      "options": [
+        "Hydrogen sulfide",
+        "Oxygen",
+        "Hydrogen",
+        "Nitrogen"
+      ],
+      "answer": 1,
+      "explanation": "Oxygen supports combustion, so a candle flame glows brighter in it; hydrogen burns with a pop.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Electrolysis of Water",
+      "question": "Why can the gases collected in Activity 8.3 NOT be water vapour?",
+      "options": [
+        "Water vapour is heavier than water and would sink to the bottom",
+        "Water vapour would have turned the lime water in the beaker milky",
+        "Water vapour would have condensed back into liquid water in the tubes",
+        "Water vapour cannot form bubbles inside water-filled test tubes"
+      ],
+      "answer": 2,
+      "explanation": "The chapter reasons that if the gases were water vapour they would have condensed back to form water; since they stayed as gases, they are new substances.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Electrolysis of Water",
+      "question": "What can be inferred from Activity 8.3?",
+      "options": [
+        "Water is an element that cannot be broken down",
+        "Water is a mixture of hydrogen and oxygen gases",
+        "Water contains dissolved carbon dioxide",
+        "Water is composed of hydrogen and oxygen"
+      ],
+      "answer": 3,
+      "explanation": "Passing electricity through water gave hydrogen and oxygen, so water is composed of these two constituents chemically combined — a compound, not a mixture or element.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Electrolysis of Water",
+      "question": "Cooling water to ice or boiling it to vapour does not change its particles, but passing electricity breaks it into hydrogen and oxygen. Which pair of labels fits?",
+      "options": [
+        "Physical changes; chemical change",
+        "Chemical changes; physical change",
+        "Physical changes; physical change",
+        "Chemical changes; chemical change"
+      ],
+      "answer": 0,
+      "explanation": "During freezing and boiling the particles of water remain the same (physical change). Electricity produces new substances, hydrogen and oxygen, so that is a chemical change.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Electrolysis of Water",
+      "question": "In Activity 8.3 the two test tubes collected unequal volumes of gas. Which fact from the chapter is this consistent with?",
+      "options": [
+        "One terminal of the battery gives more current than the other",
+        "Water has hydrogen and oxygen atoms in a 2:1 ratio",
+        "Water has hydrogen and oxygen atoms in a 1:1 ratio",
+        "Oxygen dissolves in water more than hydrogen does"
+      ],
+      "answer": 1,
+      "explanation": "The chapter states the ratio of hydrogen to oxygen atoms in water is 2:1, so more hydrogen is produced than oxygen — the gas volumes are not the same.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Electrolysis of Water",
+      "question": "Which statement about Activity 8.3 is NOT correct?",
+      "options": [
+        "The activity should be done under a teacher's supervision",
+        "The test tubes were filled completely with water from the beaker",
+        "The gases collected in the test tubes were water vapour",
+        "Gas bubbles formed at both terminals of the battery"
+      ],
+      "answer": 2,
+      "explanation": "The gases were hydrogen and oxygen; water vapour would have condensed back to water. The other statements are part of the procedure.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Electrolysis of Water",
+      "question": "Predict: the activity is stopped after one minute instead of 10–15 minutes. What would most likely be seen?",
+      "options": [
+        "Equal volumes of gas collected in both test tubes",
+        "The water in both tubes turning milky",
+        "Both gases giving a pop sound with a candle",
+        "Only a small volume of gas collected in each tube"
+      ],
+      "answer": 3,
+      "explanation": "Gas collects gradually over 10–15 minutes, so stopping early leaves only a little gas. The volumes are unequal regardless of time, lime water is not involved, and only hydrogen pops.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q70",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Electrolysis of Water",
+      "question": "A burning candle brought near oxygen gas produces a pop sound.",
+      "answer": false,
+      "explanation": "Oxygen makes the flame glow brighter; the pop sound is the test for hydrogen.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q71",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Electrolysis of Water",
+      "question": "The beaker in Activity 8.3 was filled about two-thirds with water.",
+      "answer": true,
+      "explanation": "The procedure says to fill 2/3rd of the beaker with water and add a few drops of dilute sulfuric acid.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q72",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Electrolysis of Water",
+      "question": "Which observations belong to Activity 8.3 (passing electricity through water)?",
+      "options": [
+        "Gas bubbles at both terminals",
+        "A pop sound from one test tube",
+        "Lime water turning milky",
+        "A black mass forming"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Bubbles at both terminals and a pop from the hydrogen tube are from Activity 8.3. Milky lime water is Activity 8.1; the black mass is Activity 8.5.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Elements, Atoms and Molecules",
+      "question": "Each element is made up of identical particles called…",
+      "options": [
+        "atoms",
+        "components",
+        "compounds",
+        "minerals"
+      ],
+      "answer": 0,
+      "explanation": "Each element is made of identical particles called atoms, which differ from the atoms of any other element.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Elements, Atoms and Molecules",
+      "question": "Elements are described as the building blocks of all matter because they…",
+      "options": [
+        "always exist as single atoms that never combine",
+        "cannot be broken down into simpler substances",
+        "can be separated into other substances physically",
+        "are always found as uniform mixtures in nature"
+      ],
+      "answer": 1,
+      "explanation": "Elements cannot be further broken down into simpler substances, so they are the building blocks of all matter. Most atoms combine to form molecules rather than existing alone.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Elements, Atoms and Molecules",
+      "question": "A molecule of hydrogen is formed when…",
+      "options": [
+        "two atoms of oxygen combine",
+        "a hydrogen atom joins an oxygen atom",
+        "two atoms of hydrogen combine",
+        "one atom of hydrogen stands alone"
+      ],
+      "answer": 2,
+      "explanation": "Two atoms of hydrogen combine to form one molecule of hydrogen; similarly two oxygen atoms form an oxygen molecule.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Elements, Atoms and Molecules",
+      "question": "Why do atoms of most elements form molecules?",
+      "options": [
+        "Their atoms are too heavy to move about on their own",
+        "Their atoms must join atoms of other elements to stay stable",
+        "Their atoms are visible only when joined into larger groups",
+        "Their atoms cannot exist independently, so they combine into stable particles"
+      ],
+      "answer": 3,
+      "explanation": "The atoms of most elements cannot exist independently; two or more combine to form a stable particle called a molecule, such as H2 or O2 (same element).",
+      "source": "text:page8"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Elements, Atoms and Molecules",
+      "question": "How many elements are known at present, according to the chapter?",
+      "options": [
+        "118",
+        "108",
+        "92",
+        "128"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states the number of known elements is 118, most of which are solids.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Elements, Atoms and Molecules",
+      "question": "How many elements exist as gases at room temperature, and what type are they?",
+      "options": [
+        "Two, one metal and one non-metal",
+        "Eleven, all non-metals",
+        "Two, both metals",
+        "Eleven, all metals"
+      ],
+      "answer": 1,
+      "explanation": "Eleven elements are gaseous at room temperature and all are non-metals (oxygen, helium, nitrogen, etc.). 'Two, one metal and one non-metal' describes the liquid elements.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q79",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Elements, Atoms and Molecules",
+      "question": "Gallium and caesium are solids, yet they turn into liquids at around…",
+      "options": [
+        "100 °C (373 K)",
+        "60 °C (333 K)",
+        "30 °C (303 K)",
+        "0 °C (273 K)"
+      ],
+      "answer": 2,
+      "explanation": "Gallium and caesium become liquid at a temperature around 30 °C (303 K), which is close to a warm room or hand temperature.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Elements, Atoms and Molecules",
+      "question": "Which statement about the states of elements is NOT correct?",
+      "options": [
+        "Mercury is a metal that is liquid at room temperature",
+        "Most of the 118 known elements are solids",
+        "Helium is a non-metal that is a gas at room temperature",
+        "Bromine is a metal that is liquid at room temperature"
+      ],
+      "answer": 3,
+      "explanation": "Bromine is a liquid non-metal; mercury is the liquid metal. The other statements match the chapter.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Elements, Atoms and Molecules",
+      "question": "Roughly how many different elements are used in manufacturing a mobile phone?",
+      "options": [
+        "More than 45",
+        "Fewer than 10",
+        "Exactly 118",
+        "About 20"
+      ],
+      "answer": 0,
+      "explanation": "More than 45 elements — such as aluminium, copper, silicon, cobalt, lithium, gold and silver — are used in a mobile phone's screen, battery and other components.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Elements, Atoms and Molecules",
+      "question": "A sample is a shiny solid at 20 °C but melts into a liquid when held in a warm hand (about 35 °C). Based on the chapter, it is most likely…",
+      "options": [
+        "silicon",
+        "gallium",
+        "mercury",
+        "bromine"
+      ],
+      "answer": 1,
+      "explanation": "Gallium (like caesium) is a solid that becomes liquid at around 30 °C. Mercury and bromine are already liquid at room temperature, and silicon is a metalloid with a very high melting point.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q83",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Elements, Atoms and Molecules",
+      "question": "303 K corresponds to approximately 30 °C.",
+      "answer": true,
+      "explanation": "The chapter gives the melting point of gallium and caesium as around 30 °C (303 K).",
+      "source": "text:page8"
+    },
+    {
+      "id": "q84",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Elements, Atoms and Molecules",
+      "question": "All eleven elements that are gases at room temperature are metals.",
+      "answer": false,
+      "explanation": "All eleven gaseous elements are non-metals, such as oxygen, helium and nitrogen.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q85",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Elements, Atoms and Molecules",
+      "question": "Select the non-metals from the list.",
+      "options": [
+        "Sulfur",
+        "Hydrogen",
+        "Magnesium",
+        "Aluminium"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Sulfur and hydrogen are non-metals; magnesium and aluminium are metals.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q86",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Elements, Atoms and Molecules",
+      "question": "Which of these are metalloids according to the chapter?",
+      "options": [
+        "Silicon",
+        "Boron",
+        "Carbon",
+        "Gallium"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Silicon and boron are named as metalloids. Carbon is a non-metal and gallium is a low-melting solid element.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Compounds and Fixed Ratios",
+      "question": "Compounds are formed when…",
+      "options": [
+        "atoms of the same element join to form a stable molecule",
+        "a mixture is separated into its pure components physically",
+        "different elements combine in fixed ratios to form something entirely new",
+        "two or more substances mix while each keeps its own properties"
+      ],
+      "answer": 2,
+      "explanation": "A compound forms when different elements combine chemically in fixed ratios to form an entirely new substance with different properties.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Compounds and Fixed Ratios",
+      "question": "Why can hydrogen and oxygen in water not be separated by physical means?",
+      "options": [
+        "Both gases are colourless and so cannot be identified for separation",
+        "They are present in such small amounts that filtration cannot catch them",
+        "Hydrogen escapes from water as soon as any physical method is tried",
+        "Their particles are so tightly attached that physical methods cannot pull them apart"
+      ],
+      "answer": 3,
+      "explanation": "In water the particles of hydrogen and oxygen are so tightly attached that it is generally impossible to separate them by physical methods — which is why water is a compound.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Compounds and Fixed Ratios",
+      "question": "The ratio of the number of hydrogen atoms to oxygen atoms in water is…",
+      "options": [
+        "2:1",
+        "1:1",
+        "1:2",
+        "4:1"
+      ],
+      "answer": 0,
+      "explanation": "Water molecules contain hydrogen and oxygen in a fixed ratio of 2:1 atoms. 1:1 is the ratio in sodium chloride; 4:1 is the copper-to-tin ratio in Kamsya.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Compounds and Fixed Ratios",
+      "question": "Sodium is a soft metal and chlorine is a hazardous gas, yet sodium chloride is harmless and taste-enhancing. What does this illustrate?",
+      "options": [
+        "Compounds always have the properties of the more abundant element",
+        "A compound's properties differ from those of its constituent elements",
+        "A mixture's components retain their original properties",
+        "Elements cannot combine unless both are metals"
+      ],
+      "answer": 1,
+      "explanation": "The properties of a compound are different from those of the elements forming it; sodium chloride is nothing like soft sodium or hazardous chlorine.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Compounds and Fixed Ratios",
+      "question": "In sodium chloride, particles of sodium and chlorine are present in the ratio…",
+      "options": [
+        "1:2",
+        "3:1",
+        "1:1",
+        "2:1"
+      ],
+      "answer": 2,
+      "explanation": "Sodium chloride is made of particles of sodium and chlorine in a 1:1 ratio; water's H:O ratio is 2:1.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Compounds and Fixed Ratios",
+      "question": "Dissolved common salt can be separated from water by evaporation. Can sodium chloride itself be split into sodium and chlorine by a physical process?",
+      "options": [
+        "Yes — further evaporation separates the sodium from the chlorine",
+        "Yes — a magnet removes the sodium, leaving chlorine behind",
+        "No — because sodium and chlorine are both gases at room temperature",
+        "No — it is a compound whose elements are chemically combined"
+      ],
+      "answer": 3,
+      "explanation": "Evaporation separates the mixture (salt + water), but sodium chloride is a compound and its constituent elements cannot be separated by any physical method. Sodium is a soft metal, not a gas.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Compounds and Fixed Ratios",
+      "question": "When sugar is heated gently in a boiling tube, it first…",
+      "options": [
+        "turns brown and later chars to black",
+        "melts into a clear colourless liquid",
+        "gives off a gas with a rotten-egg smell",
+        "turns white and then evaporates"
+      ],
+      "answer": 0,
+      "explanation": "On heating, sugar turns brown and then begins to char, turning blackish, leaving charcoal (carbon) behind.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Compounds and Fixed Ratios",
+      "question": "Water droplets appear near the open end of the boiling tube while heating dry sugar. Where did this water come from?",
+      "options": [
+        "From moisture trapped inside the glass of the tube",
+        "From the sugar itself, because the tube was being heated",
+        "From water vapour in the air condensing on the warm tube",
+        "From the spirit lamp flame burning hydrogen gas"
+      ],
+      "answer": 1,
+      "explanation": "Since the tube is being heated, water vapour from the air would not condense on it; the water must have come from the dry sugar, showing sugar contains hydrogen and oxygen.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Compounds and Fixed Ratios",
+      "question": "Why can sugar NOT be an element?",
+      "options": [
+        "It is a solid that turns brown when heated gently",
+        "It tastes sweet, unlike any of the known elements",
+        "It decomposes into carbon and water, which contains hydrogen and oxygen",
+        "It dissolves completely in water to form a uniform mixture"
+      ],
+      "answer": 2,
+      "explanation": "Elements cannot be broken into simpler substances. Sugar decomposes on heating into carbon and water (hydrogen + oxygen), so it is a compound of carbon, hydrogen and oxygen.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Compounds and Fixed Ratios",
+      "question": "'Hydrogen is a fuel, oxygen supports combustion, whereas water extinguishes fire.' Which conclusion does this support?",
+      "options": [
+        "Water is a uniform mixture of hydrogen and oxygen",
+        "Water keeps the fire-supporting property of oxygen",
+        "Hydrogen and oxygen lose their mass when they form water",
+        "A compound's properties are entirely different from its elements'"
+      ],
+      "answer": 3,
+      "explanation": "Water (a compound) extinguishes fire although it is made from a fuel and a combustion supporter — the properties of a compound differ from those of its constituent elements. A mixture would have kept their properties.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Compounds and Fixed Ratios",
+      "question": "Which statement about compounds is NOT correct?",
+      "options": [
+        "The elements in a compound can be separated by evaporation or filtration",
+        "Elements combine in a fixed ratio to form a compound",
+        "A compound's properties differ from those of its elements",
+        "Water and sodium chloride are examples of compounds"
+      ],
+      "answer": 0,
+      "explanation": "The constituent elements of a compound cannot be separated by any physical method such as evaporation or filtration. The other statements are correct.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q98",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Compounds and Fixed Ratios",
+      "question": "In Activity 8.4, the water droplets in the boiling tube came from condensation of moisture in the air.",
+      "answer": false,
+      "explanation": "Because the tube was being heated, the water must have come from the dry sugar itself, not from the air.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q99",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Compounds and Fixed Ratios",
+      "question": "Sugar decomposes on heating to give carbon and water.",
+      "answer": true,
+      "explanation": "Sugar decomposes on heating into carbon (charcoal) and water, showing it is a compound of C, H and O.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q100",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Compounds and Fixed Ratios",
+      "question": "Which of the following are compounds?",
+      "options": [
+        "Water",
+        "Sodium chloride",
+        "Oxygen",
+        "Bronze"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Water and sodium chloride are compounds. Oxygen is an element and bronze is an alloy (mixture).",
+      "source": "text:page9"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Iron–Sulfur Experiment",
+      "question": "Sample A (iron filings mixed with sulfur powder) is best described as…",
+      "options": [
+        "a non-uniform mixture of two compounds",
+        "a non-uniform mixture of two elements",
+        "a uniform mixture of two elements",
+        "a compound of iron and sulfur"
+      ],
+      "answer": 1,
+      "explanation": "Sample A is a mixture of the elements iron and sulfur; its black and yellow particles can still be seen, so it is non-uniform.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Iron–Sulfur Experiment",
+      "question": "The black mass obtained by heating Sample A (Sample B) is…",
+      "options": [
+        "a uniform mixture of iron and sulfur",
+        "charcoal left after burning sulfur",
+        "iron sulfide, a compound",
+        "iron chloride, a compound"
+      ],
+      "answer": 2,
+      "explanation": "Heating iron and sulfur together forms iron sulfide, a new compound with the same colour and texture throughout.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Iron–Sulfur Experiment",
+      "question": "What happens when a magnet is moved over Sample A and Sample B?",
+      "options": [
+        "Both samples are attracted equally strongly",
+        "Sample B is attracted; Sample A is not attracted",
+        "Neither sample is attracted by the magnet",
+        "Iron in Sample A is attracted; Sample B is not attracted"
+      ],
+      "answer": 3,
+      "explanation": "In the mixture, iron retains its magnetic property and is attracted. In Sample B, iron has combined into iron sulfide, which is not attracted.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Iron–Sulfur Experiment",
+      "question": "Why does the magnet have no effect on Sample B?",
+      "options": [
+        "Iron has combined chemically into a new substance with different properties",
+        "The heat has permanently destroyed the magnetism of the iron filings",
+        "The sulfur coats each iron particle and blocks the magnetic pull",
+        "Grinding in the mortar broke the iron into pieces too small to attract"
+      ],
+      "answer": 0,
+      "explanation": "Sample B is iron sulfide, a compound whose properties are completely different from iron and sulfur; the iron no longer exists as free iron, so it is not attracted.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Iron–Sulfur Experiment",
+      "question": "When dilute hydrochloric acid is added to Sample A, which gas is evolved?",
+      "options": [
+        "Carbon dioxide",
+        "Hydrogen",
+        "Hydrogen sulfide",
+        "Oxygen"
+      ],
+      "answer": 1,
+      "explanation": "Iron in the mixture reacts with dilute hydrochloric acid to form iron chloride and hydrogen gas — colourless, odourless, burns with a pop.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Iron–Sulfur Experiment",
+      "question": "When dilute hydrochloric acid is added to Sample B (iron sulfide), the gas evolved…",
+      "options": [
+        "is oxygen that makes a candle glow brighter",
+        "is carbon dioxide that turns lime water milky",
+        "is hydrogen sulfide with a rotten-egg odour",
+        "is hydrogen that burns with a pop sound"
+      ],
+      "answer": 2,
+      "explanation": "Iron sulfide + dilute hydrochloric acid → iron chloride + hydrogen sulfide; the gas is colourless with a rotten egg-like smell.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Iron–Sulfur Experiment",
+      "question": "After the acid reaction with Sample A, a yellow solid remains at the bottom of the test tube. What does this show?",
+      "options": [
+        "Iron has not reacted with the acid",
+        "Iron sulfide has formed in the test tube",
+        "The acid was too dilute to react with anything",
+        "Sulfur does not react with hydrochloric acid"
+      ],
+      "answer": 3,
+      "explanation": "The yellow solid is sulfur, left behind because sulfur does not react with hydrochloric acid, while the iron reacted to give hydrogen.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Iron–Sulfur Experiment",
+      "question": "Which statement about Activity 8.5 is NOT correct?",
+      "options": [
+        "Sample B can be separated into iron and sulfur using a magnet",
+        "Sample A shows black and yellow particles side by side",
+        "Sample B has the same colour and texture throughout",
+        "Both samples give off a gas with dilute hydrochloric acid"
+      ],
+      "answer": 0,
+      "explanation": "Sample B is iron sulfide, a compound; iron and sulfur can no longer be separated and it is not attracted by a magnet. The other statements are correct observations.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Iron–Sulfur Experiment",
+      "question": "What is the single change made to turn Sample A into Sample B?",
+      "options": [
+        "Dissolving the mixture in water and filtering",
+        "Heating the mixture until a black mass forms",
+        "Adding dilute hydrochloric acid to the mixture",
+        "Passing a magnet over the mixture repeatedly"
+      ],
+      "answer": 1,
+      "explanation": "Half of Sample A is heated in a china dish with stirring until a black mass forms; cooling and grinding give Sample B. Heating causes the elements to combine chemically.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Iron–Sulfur Experiment",
+      "question": "Which evidence from Activity 8.5 shows that a new substance was formed on heating?",
+      "options": [
+        "The product can be separated back into iron and sulfur by a magnet",
+        "The product still shows black and yellow particles side by side",
+        "The product is uniform, not magnetic, and gives a different gas with acid",
+        "The product weighs less than the mixture and is yellow in colour"
+      ],
+      "answer": 2,
+      "explanation": "Iron sulfide has completely different properties: uniform colour and texture, no magnetic attraction, and hydrogen sulfide (rotten-egg smell) instead of hydrogen with acid.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Iron–Sulfur Experiment",
+      "question": "A student heats half of Sample A for only a short time, so no black mass forms. Predict the magnet test on this heated portion.",
+      "options": [
+        "Nothing is attracted, since heating always removes magnetism",
+        "Only the sulfur is attracted, since it melted onto the iron",
+        "The whole mass is attracted as a single lump of iron sulfide",
+        "Iron filings are still attracted, since no compound has formed"
+      ],
+      "answer": 3,
+      "explanation": "Without the chemical change, iron and sulfur remain a mixture and iron keeps its properties, so the magnet still attracts it. Only iron sulfide (the black mass) is non-magnetic.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q112",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Iron–Sulfur Experiment",
+      "question": "Sample B (iron sulfide) is attracted by a magnet.",
+      "answer": false,
+      "explanation": "Iron sulfide is a compound with different properties from iron; it is not attracted by a magnet.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q113",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Iron–Sulfur Experiment",
+      "question": "Hydrogen sulfide gas has an odour like rotten eggs.",
+      "answer": true,
+      "explanation": "The gas from iron sulfide and dilute hydrochloric acid is colourless with a rotten egg-like odour.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q114",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Iron–Sulfur Experiment",
+      "question": "Sulfur reacts with dilute hydrochloric acid to give hydrogen gas.",
+      "answer": false,
+      "explanation": "Sulfur does not react with hydrochloric acid and is left as a yellow solid; it is iron that gives hydrogen.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q115",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Iron–Sulfur Experiment",
+      "question": "Which are properties of the gas evolved when Sample A reacts with dilute hydrochloric acid?",
+      "options": [
+        "Colourless",
+        "Burns with a 'pop' sound",
+        "Smells of rotten eggs",
+        "Makes a candle glow brighter"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The gas is hydrogen: colourless, odourless, and burns with a pop. Rotten-egg smell is hydrogen sulfide (Sample B) and a brighter flame indicates oxygen.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q116",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Iron–Sulfur Experiment",
+      "question": "Which substances used in Activity 8.5 are elements?",
+      "options": [
+        "Iron",
+        "Sulfur",
+        "Iron sulfide",
+        "Hydrochloric acid"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Iron and sulfur are elements; iron sulfide is a compound and hydrochloric acid is a compound in solution.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Uses of Elements, Compounds and Mixtures",
+      "question": "Elements like iron and aluminium are used to construct…",
+      "options": [
+        "bridges, buildings and vehicles",
+        "medicines, vaccines and fertilisers",
+        "talcum powder and cement",
+        "beeswax moulds for Dhokra art"
+      ],
+      "answer": 0,
+      "explanation": "Iron and aluminium are used to build bridges, buildings and vehicles; medicines and fertilisers come from chemists' knowledge of compounds.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Uses of Elements, Compounds and Mixtures",
+      "question": "How does understanding how elements combine help chemists, according to the chapter?",
+      "options": [
+        "They can measure the air quality index of a city",
+        "They can invent life-saving medicines, vaccines and fertilisers",
+        "They can turn mixtures back into pure elements by heating",
+        "They can make elements that are lighter than graphene aerogel"
+      ],
+      "answer": 1,
+      "explanation": "Chemists study how elements combine to create compounds, enabling medicines and vaccines, and the creation of fertilisers to enhance crop production.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Uses of Elements, Compounds and Mixtures",
+      "question": "Wood, steel and concrete used as building materials are all…",
+      "options": [
+        "elements",
+        "minerals",
+        "mixtures",
+        "compounds"
+      ],
+      "answer": 2,
+      "explanation": "The chapter states that wood, steel and concrete are all mixtures.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Uses of Elements, Compounds and Mixtures",
+      "question": "Graphene aerogel is said to be the lightest material on Earth and is made from…",
+      "options": [
+        "aluminium",
+        "silicon",
+        "hydrogen",
+        "carbon"
+      ],
+      "answer": 3,
+      "explanation": "Graphene aerogel is made from carbon and is so light that grass can hold it.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Uses of Elements, Compounds and Mixtures",
+      "question": "Why can graphene aerogel potentially be used to clean up oil spills?",
+      "options": [
+        "It is highly porous and so has a high absorbing capacity",
+        "It reacts chemically with oil to form harmless water",
+        "It is heavy enough to sink and trap oil on the seabed",
+        "It dissolves oil because it is made of liquid carbon"
+      ],
+      "answer": 0,
+      "explanation": "Graphene aerogel is highly porous and therefore has a high absorbing capacity, which is why it could act as an environmental cleaner for oil spills on sea and land.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Uses of Elements, Compounds and Mixtures",
+      "question": "Which statement about materials is NOT correct?",
+      "options": [
+        "Graphene aerogel is light enough for grass to hold it",
+        "Graphene aerogel is a compound of carbon and oxygen",
+        "Stainless steel is stronger and more durable than pure iron",
+        "Steel and concrete are mixtures used as building materials"
+      ],
+      "answer": 1,
+      "explanation": "Graphene aerogel is made from carbon alone (an element), not a carbon–oxygen compound. The other statements appear in the chapter.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Uses of Elements, Compounds and Mixtures",
+      "question": "Why did engineers and material scientists develop stainless steel?",
+      "options": [
+        "To make a compound of iron and carbon in a fixed ratio",
+        "To make the lightest known material for cleaning oil spills",
+        "To obtain a material stronger and more durable than pure iron",
+        "To obtain a pure element that does not rust in moist air"
+      ],
+      "answer": 2,
+      "explanation": "Material scientists design mixtures with unique properties; stainless steel is an alloy that is stronger and more durable than pure iron.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q124",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Uses of Elements, Compounds and Mixtures",
+      "question": "Graphene aerogel is so heavy that grass cannot hold it.",
+      "answer": false,
+      "explanation": "Graphene aerogel is said to be the lightest material on Earth — so light that even grass can hold it.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q125",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Uses of Elements, Compounds and Mixtures",
+      "question": "Knowledge of how elements combine has helped in creating fertilisers that increase crop production.",
+      "answer": true,
+      "explanation": "The chapter says this knowledge helps create fertilisers, enhancing crop production for a growing population.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Minerals",
+      "question": "Most rocks are described in the chapter as…",
+      "options": [
+        "a single pure compound",
+        "a native element",
+        "a uniform alloy",
+        "a mixture of minerals"
+      ],
+      "answer": 3,
+      "explanation": "Most rocks are a mixture of minerals that can be seen with the eyes, a magnifying glass or a microscope.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Minerals",
+      "question": "What are native minerals?",
+      "options": [
+        "Minerals that are pure elements, not compounds",
+        "Minerals that are mixtures of several compounds",
+        "Minerals found only in Indian rocks",
+        "Minerals that contain water in a fixed ratio"
+      ],
+      "answer": 0,
+      "explanation": "Native minerals are pure elements such as gold, silver, copper (metals) or sulfur and carbon (non-metals).",
+      "source": "text:page14"
+    },
+    {
+      "id": "q128",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Minerals",
+      "question": "Most minerals are…",
+      "options": [
+        "non-uniform mixtures of rocks",
+        "compounds made up of more than one element",
+        "pure elements found uncombined",
+        "uniform mixtures of several metals"
+      ],
+      "answer": 1,
+      "explanation": "Most minerals are compounds of more than one element; only some (native minerals) are pure elements, and minerals are never mixtures.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Minerals",
+      "question": "Cement is made from…",
+      "options": [
+        "iron, nickel, chromium and carbon",
+        "copper, tin, calcite and sand",
+        "calcite, quartz, alumina and iron oxide",
+        "talc, mica, olivine and pyroxene"
+      ],
+      "answer": 2,
+      "explanation": "Cement is made from calcite, quartz, alumina and iron oxide, which are minerals or obtained from minerals.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Minerals",
+      "question": "Talcum powder is made from the mineral…",
+      "options": [
+        "mica",
+        "calcite",
+        "quartz",
+        "talc"
+      ],
+      "answer": 3,
+      "explanation": "Talcum powder is made from the mineral talc.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Minerals",
+      "question": "According to the Snapshots, minerals are…",
+      "options": [
+        "natural solid substances with a fixed chemical composition",
+        "man-made solid mixtures with a variable composition",
+        "natural liquids or gases trapped inside rocks",
+        "natural substances that are always pure elements"
+      ],
+      "answer": 0,
+      "explanation": "Minerals are natural, solid substances found on Earth with a fixed chemical composition; most are compounds and rarely pure elements.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Minerals",
+      "question": "Which statement about minerals is NOT correct?",
+      "options": [
+        "Most rocks are mixtures of minerals",
+        "All minerals are compounds of two or more elements",
+        "Some minerals are pure elements such as gold and sulfur",
+        "Minerals have a fixed chemical composition"
+      ],
+      "answer": 1,
+      "explanation": "Most, but not all, minerals are compounds; native minerals like gold, silver, copper, sulfur and carbon are pure elements.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Minerals",
+      "question": "How can gold be classified as both a mineral and a metal? (Exercise Q12)",
+      "options": [
+        "It is a mixture of several metals found naturally in rocks",
+        "It is a metal that becomes a mineral only after it is refined",
+        "It is a native mineral found as a pure element, and that element is a metal",
+        "It is a compound mineral that contains a metal in a fixed ratio"
+      ],
+      "answer": 2,
+      "explanation": "Gold occurs naturally as a native mineral — a mineral that is a pure element rather than a compound — and as an element it is a metal.",
+      "source": "exercise:Q12"
+    },
+    {
+      "id": "q134",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Minerals",
+      "question": "Talc is one of the minerals used to make cement.",
+      "answer": false,
+      "explanation": "Cement is made from calcite, quartz, alumina and iron oxide; talc is used for talcum powder.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q135",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Minerals",
+      "question": "Copper can occur as a native mineral.",
+      "answer": true,
+      "explanation": "Native minerals are pure elements and include metals such as gold, silver and copper.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q136",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Minerals",
+      "question": "Which native minerals named in the chapter are non-metals?",
+      "options": [
+        "Sulfur",
+        "Carbon",
+        "Gold",
+        "Copper"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Native minerals can be metals (gold, silver, copper) or non-metals (sulfur, carbon).",
+      "source": "text:page14"
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Matter, Non-matter and Dhokra Art",
+      "question": "Matter is defined in the chapter as anything that…",
+      "options": [
+        "can be seen with the naked eye",
+        "is made of two or more elements",
+        "can be melted by heating",
+        "has mass and takes up space"
+      ],
+      "answer": 3,
+      "explanation": "Matter is everything that has mass and takes up space; elements and compounds are its building blocks.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Matter, Non-matter and Dhokra Art",
+      "question": "Which of these is NOT made of matter, according to the chapter?",
+      "options": [
+        "Thoughts",
+        "Dust",
+        "Water vapour",
+        "Charcoal"
+      ],
+      "answer": 0,
+      "explanation": "Thoughts and emotions, like light, heat and electricity, are not made of matter. Dust, water vapour and charcoal are matter.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q139",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Matter, Non-matter and Dhokra Art",
+      "question": "Dhokra art is an old craft from which states?",
+      "options": [
+        "Punjab and Haryana",
+        "Bihar and Odisha",
+        "Kerala and Tamil Nadu",
+        "Gujarat and Rajasthan"
+      ],
+      "answer": 1,
+      "explanation": "Dhokra art is an old craft from Bihar and Odisha that uses metals to create figures inspired by nature.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q140",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Matter, Non-matter and Dhokra Art",
+      "question": "What is the first step in making a Dhokra figure?",
+      "options": [
+        "Melting bronze in a clay furnace",
+        "Carving the figure from hardened clay",
+        "Shaping the design in beeswax",
+        "Covering a clay core with molten brass"
+      ],
+      "answer": 2,
+      "explanation": "The process begins by shaping a design in beeswax; the wax model is then covered with clay to make a mould.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q141",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Matter, Non-matter and Dhokra Art",
+      "question": "In Dhokra art, after the clay mould hardens, what happens next?",
+      "options": [
+        "The clay is broken away to reveal the finished wax figure",
+        "Molten metal is poured over the outside of the clay mould",
+        "The mould is filled with more beeswax to strengthen it",
+        "The wax is melted out, leaving a hollow space for molten metal"
+      ],
+      "answer": 3,
+      "explanation": "Once the clay hardens, the wax is melted out, leaving a hollow space that is filled with molten brass or bronze.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q142",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Matter, Non-matter and Dhokra Art",
+      "question": "Which metal mixtures give Dhokra art its strength and shiny golden colour?",
+      "options": [
+        "Brass or bronze",
+        "Iron or steel",
+        "Gold or silver",
+        "Copper or tin"
+      ],
+      "answer": 0,
+      "explanation": "The hollow mould is filled with molten brass or bronze, which makes Dhokra art strong and gives it a shiny golden colour.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q143",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Matter, Non-matter and Dhokra Art",
+      "question": "Which option lists the Dhokra steps in the correct order?",
+      "options": [
+        "Wax model → pour molten metal → clay cover → melt out wax",
+        "Wax model → clay cover → melt out wax → pour molten metal",
+        "Clay cover → wax model → pour molten metal → melt out wax",
+        "Pour molten metal → wax model → clay cover → melt out wax"
+      ],
+      "answer": 1,
+      "explanation": "The design is shaped in beeswax, covered with clay, the wax is melted out after the clay hardens, and the hollow is filled with molten brass or bronze.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q144",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Matter, Non-matter and Dhokra Art",
+      "question": "Electricity is a form of matter.",
+      "answer": false,
+      "explanation": "Light, heat, electricity, thoughts and emotions are not made of matter.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q145",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Matter, Non-matter and Dhokra Art",
+      "question": "In Dhokra art the clay mould is made first and then filled with beeswax.",
+      "answer": false,
+      "explanation": "The beeswax model is made first; clay is applied over it to form the mould, and the wax is later melted out.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q146",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Exercises",
+      "question": "A + B → C, where A and B cannot be broken down into simpler substances by chemical reactions. Which statement is correct?",
+      "options": [
+        "C is a compound, and A and B have no fixed composition",
+        "A and B are compounds, and C has a fixed composition",
+        "A and B are elements; C is a compound and has a fixed composition",
+        "A, B and C are all compounds and only C has a fixed composition"
+      ],
+      "answer": 2,
+      "explanation": "Substances that cannot be broken down further are elements, so A and B are elements. Their product C, formed from two elements, is a compound with a fixed composition.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q147",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Exercises",
+      "question": "Assertion: Air is a mixture. Reason: A mixture is formed when two or more substances are mixed without undergoing any chemical change. Choose the correct option.",
+      "options": [
+        "Both are true but the Reason does not explain the Assertion",
+        "The Assertion is true but the Reason is false",
+        "The Assertion is false but the Reason is true",
+        "Both are true and the Reason correctly explains the Assertion"
+      ],
+      "answer": 3,
+      "explanation": "Air's gases are mixed without chemical change, which is exactly why air is a mixture — so both statements are true and the Reason explains the Assertion.",
+      "source": "exercise:Q2"
+    },
+    {
+      "id": "q148",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Exercises",
+      "question": "Water has properties different from hydrogen and oxygen because…",
+      "options": [
+        "the elements are chemically combined in a fixed ratio to form a new substance",
+        "the elements are merely mixed and each keeps its own properties",
+        "water contains more oxygen than hydrogen by number of atoms",
+        "hydrogen and oxygen lose their mass when they turn into water"
+      ],
+      "answer": 0,
+      "explanation": "Water is a compound: hydrogen and oxygen combine chemically in a 2:1 ratio to form an entirely new substance, so its properties differ from those of its elements.",
+      "source": "exercise:Q3"
+    },
+    {
+      "id": "q149",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Exercises",
+      "question": "In which option are ALL the examples correctly matched?",
+      "options": [
+        "Non-uniform mixtures — air, sand, brass, muddy water",
+        "Pure substances — carbon dioxide, iron, oxygen, sugar",
+        "Elements — water, nitrogen, iron, air",
+        "Uniform mixtures — minerals, seawater, bronze, air"
+      ],
+      "answer": 1,
+      "explanation": "Carbon dioxide and sugar are compounds and iron and oxygen are elements — all pure substances. Water is a compound and air a mixture (not elements); minerals are mostly compounds; air and brass are uniform mixtures.",
+      "source": "exercise:Q4"
+    },
+    {
+      "id": "q150",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Exercises",
+      "question": "Why is 'Elements — water, nitrogen, iron, air' an incorrect match?",
+      "options": [
+        "Water is a mixture and nitrogen is a compound",
+        "Iron is a compound and air is an element",
+        "Water is a compound and air is a mixture",
+        "Nitrogen is a compound and iron is a mixture"
+      ],
+      "answer": 2,
+      "explanation": "Only nitrogen and iron are elements in that list; water is a compound of hydrogen and oxygen, and air is a mixture of gases.",
+      "source": "exercise:Q4"
+    },
+    {
+      "id": "q151",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Exercises",
+      "question": "Why is 'Non-uniform mixtures — air, sand, brass, muddy water' an incorrect match?",
+      "options": [
+        "Sand and muddy water are compounds",
+        "Brass is an element and air is a compound",
+        "Muddy water is a uniform mixture",
+        "Air and brass are uniform mixtures"
+      ],
+      "answer": 3,
+      "explanation": "Air and brass (an alloy) are uniform mixtures whose components cannot be seen separately. Sand and muddy water are indeed non-uniform mixtures.",
+      "source": "exercise:Q4"
+    },
+    {
+      "id": "q152",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Exercises",
+      "question": "Iron reacts with moist air to form iron oxide. Classify iron, moist air and iron oxide respectively.",
+      "options": [
+        "Element, mixture, compound",
+        "Compound, mixture, element",
+        "Element, compound, mixture",
+        "Mixture, element, compound"
+      ],
+      "answer": 0,
+      "explanation": "Iron is an element, moist air is a mixture of gases and water vapour, and iron oxide is a compound of iron and oxygen.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q153",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Exercises",
+      "question": "Magnesium burns in oxygen to form magnesium oxide. Which classification is correct?",
+      "options": [
+        "Magnesium is a mixture; oxygen is an element; magnesium oxide is a compound",
+        "Magnesium and oxygen are elements; magnesium oxide is a compound",
+        "Magnesium is an element; oxygen and magnesium oxide are mixtures",
+        "Magnesium and oxygen are compounds; magnesium oxide is an element"
+      ],
+      "answer": 1,
+      "explanation": "Magnesium and oxygen are elements; they combine chemically in a fixed ratio to form the compound magnesium oxide.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q154",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Chapter Exercises",
+      "question": "From the reactions in Exercise Q5, select the compounds.",
+      "options": [
+        "Iron oxide",
+        "Magnesium oxide",
+        "Moist air",
+        "Magnesium"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Iron oxide and magnesium oxide are compounds formed from two elements. Moist air is a mixture and magnesium is an element.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q155",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Chapter Exercises",
+      "question": "From Exercise Q6, select the elements.",
+      "options": [
+        "Aluminium",
+        "Nitrogen",
+        "Rust",
+        "Glucose",
+        "Seawater"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Aluminium and nitrogen are elements. Rust (iron oxide) and glucose are compounds; seawater is a mixture.",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q156",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Chapter Exercises",
+      "question": "From Exercise Q6, select the mixtures.",
+      "options": [
+        "Muddy water",
+        "Fruit juice",
+        "Baking soda",
+        "Iron sulfide"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Muddy water and fruit juice are mixtures of several substances. Baking soda and iron sulfide are compounds.",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q157",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Chapter Exercises",
+      "question": "From Exercise Q6, select the compounds.",
+      "options": [
+        "Sodium chloride",
+        "Magnesium oxide",
+        "Sulfur",
+        "Sand"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Sodium chloride and magnesium oxide are compounds. Sulfur is an element and sand is a mixture.",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q158",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Exercises",
+      "question": "From the Exercise Q6 list, which of these is a pure substance?",
+      "options": [
+        "Air",
+        "Fruit juice",
+        "Glucose",
+        "Sand"
+      ],
+      "answer": 2,
+      "explanation": "Glucose is a compound, hence a pure substance. Sand, air and fruit juice are mixtures.",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q159",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Exercises",
+      "question": "Which of these from Exercise Q6 is NOT a pure substance?",
+      "options": [
+        "Rust",
+        "Gold",
+        "Carbon dioxide",
+        "Seawater"
+      ],
+      "answer": 3,
+      "explanation": "Seawater is a mixture of salts and water. Rust and carbon dioxide are compounds and gold is an element — all pure substances.",
+      "source": "exercise:Q6"
+    },
+    {
+      "id": "q160",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Exercises",
+      "question": "When a mixture of iron filings and sulfur powder is heated, which new substance forms and how does it differ from the mixture?",
+      "options": [
+        "Iron sulfide; it is non-magnetic and cannot be separated into iron and sulfur",
+        "Iron chloride; it is magnetic and can be separated by a magnet",
+        "Iron oxide; it is yellow and reacts with acid to give oxygen",
+        "Iron sulfide; it still shows separate black and yellow particles"
+      ],
+      "answer": 0,
+      "explanation": "Heating forms the compound iron sulfide: Iron + Sulfur → Iron sulfide. Unlike the mixture it is uniform, not attracted by a magnet, and its elements cannot be separated.",
+      "source": "exercise:Q7"
+    },
+    {
+      "id": "q161",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Exercises",
+      "question": "Can a substance be classified as both an element and a compound?",
+      "options": [
+        "No — because every compound is really a mixture of elements, not a single substance",
+        "No — an element cannot be broken down; a compound is made of two or more elements",
+        "Yes — any substance with a fixed composition can be called either an element or a compound",
+        "Yes — native minerals such as gold are both an element and a compound at the same time"
+      ],
+      "answer": 1,
+      "explanation": "The definitions exclude each other: an element cannot be broken into simpler substances, whereas a compound is formed from two or more elements chemically combined.",
+      "source": "exercise:Q8"
+    },
+    {
+      "id": "q162",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Exercises",
+      "question": "If water were a mixture of hydrogen and oxygen instead of a compound, which would be true?",
+      "options": [
+        "'Water' would extinguish fire even more effectively than it does now",
+        "Hydrogen and oxygen could not be separated from it by any physical method",
+        "Hydrogen and oxygen would keep their properties, so 'water' would support burning",
+        "Hydrogen and oxygen would still be in a fixed 2:1 ratio by atoms"
+      ],
+      "answer": 2,
+      "explanation": "In a mixture each component retains its properties: hydrogen (a fuel) and oxygen (supports combustion) would make it a fire hazard, could be separated physically, and would have no fixed ratio.",
+      "source": "exercise:Q9"
+    },
+    {
+      "id": "q163",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Chapter Exercises",
+      "question": "In Fig. 8.24, iron filings are placed in dilute hydrochloric acid and Gas A is collected. Identify Gas A.",
+      "options": [
+        "Hydrogen sulfide",
+        "Oxygen",
+        "Chlorine",
+        "Hydrogen"
+      ],
+      "answer": 3,
+      "explanation": "Iron + Dilute hydrochloric acid → Iron chloride + Hydrogen. Hydrogen sulfide forms only from iron sulfide.",
+      "source": "exercise:Q10"
+    },
+    {
+      "id": "q164",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Chapter Exercises",
+      "question": "Which compound is made only from non-metals?",
+      "options": [
+        "Water",
+        "Sodium chloride",
+        "Iron sulfide",
+        "Magnesium oxide"
+      ],
+      "answer": 0,
+      "explanation": "Water is made of hydrogen and oxygen, both non-metals. Sodium chloride, iron sulfide and magnesium oxide each contain a metal.",
+      "source": "exercise:Q11"
+    },
+    {
+      "id": "q165",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Chapter Exercises",
+      "question": "Select the compounds made only from non-metals.",
+      "options": [
+        "Carbon dioxide",
+        "Sugar",
+        "Iron oxide",
+        "Sodium chloride"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Carbon dioxide (C, O) and sugar (C, H, O) contain only non-metals. Iron oxide and sodium chloride contain the metals iron and sodium.",
+      "source": "exercise:Q11"
+    },
+    {
+      "id": "q166",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Chapter Exercises",
+      "question": "In Exercise Q1, since A and B cannot be broken down chemically, they must be compounds.",
+      "answer": false,
+      "explanation": "Substances that cannot be broken down into simpler substances are elements, not compounds.",
+      "source": "exercise:Q1"
+    },
+    {
+      "id": "q167",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Chapter Exercises",
+      "question": "Rust (iron oxide) is a compound, not a mixture.",
+      "answer": true,
+      "explanation": "Rust is iron oxide, formed when iron combines chemically with oxygen from moist air; it is a compound.",
+      "source": "exercise:Q5"
+    }
+  ]
+}

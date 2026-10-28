@@ -1,0 +1,4677 @@
+{
+  "schemaVersion": 1,
+  "id": "english-ch28-the-peterkin-papers-salt-in-her-coffee",
+  "title": "The Peterkin Papers: The Lady Who Put Salt in Her Coffee",
+  "subject": "English",
+  "grade": 4,
+  "sourceDir": "output/English/28_Prose-The-Peterkin-Papers-The-Lady-Who-Put-Salt-in-her-Coffe",
+  "chapter": "28. Prose: The Peterkin Papers",
+  "topic": "Full Chapter",
+  "description": "Grammar-focused practice for the chapter: types of adverbs (manner, place, time) and choosing the right adverb, subject and predicate, subject-verb agreement (singular/plural, subjects joined by 'and', neither…nor, collective nouns), informal letter and diary entry writing, plus comprehension, characters, theme, glossary vocabulary and idioms from Lucretia Hale's 'The Lady Who Put Salt in Her Coffee'.",
+  "tags": [
+    "english",
+    "grammar",
+    "adverbs",
+    "subject-predicate",
+    "subject-verb-agreement",
+    "informal-letter",
+    "diary-entry",
+    "idioms",
+    "story",
+    "vocabulary",
+    "grade4"
+  ],
+  "defaultTimeLimitSec": 1800,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "What is an adverb?",
+      "options": [
+        "A word that tells more about a verb",
+        "A word that names a person or place",
+        "A word that describes only a noun",
+        "A word that joins two sentences"
+      ],
+      "answer": 0,
+      "explanation": "An adverb adds meaning to a verb (and sometimes to an adjective or another adverb). It tells how, where or when an action happens.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "An adverb of manner tells us ___ an action is done.",
+      "options": [
+        "where",
+        "how",
+        "when",
+        "why"
+      ],
+      "answer": 1,
+      "explanation": "Adverbs of manner answer the question 'How?' — e.g. 'worked tirelessly', 'stored carefully'.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "An adverb of place tells us ___ an action happens.",
+      "options": [
+        "how",
+        "when",
+        "where",
+        "why"
+      ],
+      "answer": 2,
+      "explanation": "Adverbs of place answer 'Where?' — e.g. 'gathered outside', 'waited here'.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "An adverb of time tells us ___ an action happens.",
+      "options": [
+        "how",
+        "where",
+        "why",
+        "when"
+      ],
+      "answer": 3,
+      "explanation": "Adverbs of time answer 'When?' — e.g. 'yesterday', 'next month', 'soon'.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "Which question does an adverb of manner answer?",
+      "options": [
+        "How?",
+        "When?",
+        "Where?",
+        "Which?"
+      ],
+      "answer": 0,
+      "explanation": "Manner = the way something is done, so it answers 'How?'. 'Where?' is place and 'When?' is time.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "Many adverbs of manner are made by adding which ending to an adjective?",
+      "options": [
+        "-ed",
+        "-ly",
+        "-er",
+        "-ing"
+      ],
+      "answer": 1,
+      "explanation": "careful → carefully, quiet → quietly, safe → safely. The -ly ending is the most common adverb ending.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q7",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'The rescue teams worked tirelessly through the night.' The adverb 'tirelessly' is an adverb of ___.",
+      "options": [
+        "place",
+        "time",
+        "manner",
+        "number"
+      ],
+      "answer": 2,
+      "explanation": "'Tirelessly' tells HOW the teams worked, so it is an adverb of manner.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q8",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'Thousands of people gathered outside the town hall.' What type of adverb is 'outside'?",
+      "options": [
+        "Adverb of manner",
+        "Adverb of time",
+        "Adverb of degree",
+        "Adverb of place"
+      ],
+      "answer": 3,
+      "explanation": "'Outside' tells WHERE the people gathered, so it is an adverb of place.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'Scientists will launch the satellite next month.' 'Next month' is an adverb of ___.",
+      "options": [
+        "time",
+        "place",
+        "manner",
+        "reason"
+      ],
+      "answer": 0,
+      "explanation": "'Next month' tells WHEN the launch will happen, so it shows time.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'The young athletes ran fast and won three gold medals.' What kind of adverb is 'fast'?",
+      "options": [
+        "Place",
+        "Manner",
+        "Time",
+        "Degree"
+      ],
+      "answer": 1,
+      "explanation": "'Fast' tells HOW the athletes ran. Note that 'fast' is an adverb that does not take -ly.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'The vaccine must be stored carefully.' 'Carefully' tells us ___.",
+      "options": [
+        "where it must be stored",
+        "when it must be stored",
+        "how it must be stored",
+        "who must store it"
+      ],
+      "answer": 2,
+      "explanation": "'Carefully' describes the way (manner) of storing the vaccine.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'Yesterday, heavy rains flooded several towns.' Which word is the adverb of time?",
+      "options": [
+        "flooded",
+        "several",
+        "heavy",
+        "Yesterday"
+      ],
+      "answer": 3,
+      "explanation": "'Yesterday' tells WHEN the rains flooded the towns.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'The chemist listened calmly to the story.' Which word is the adverb?",
+      "options": [
+        "calmly",
+        "chemist",
+        "listened",
+        "story"
+      ],
+      "answer": 0,
+      "explanation": "'Calmly' tells how the chemist listened — it is an adverb of manner.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'The lady from Philadelphia listened very attentively.' 'Attentively' is an adverb of ___.",
+      "options": [
+        "place",
+        "manner",
+        "time",
+        "number"
+      ],
+      "answer": 1,
+      "explanation": "'Attentively' tells HOW the lady listened — carefully and with full attention.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q15",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'Please wait here until I return.' What kind of adverb is 'here'?",
+      "options": [
+        "Time",
+        "Manner",
+        "Place",
+        "Degree"
+      ],
+      "answer": 2,
+      "explanation": "'Here' tells WHERE to wait, so it is an adverb of place.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q16",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'We will visit Grandma tomorrow.' Which word is an adverb of time?",
+      "options": [
+        "Grandma",
+        "visit",
+        "will",
+        "tomorrow"
+      ],
+      "answer": 3,
+      "explanation": "'Tomorrow' answers 'When will we visit?', so it is an adverb of time.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'The cat crept silently towards the bird.' Which word is the adverb of manner?",
+      "options": [
+        "silently",
+        "towards",
+        "crept",
+        "the bird"
+      ],
+      "answer": 0,
+      "explanation": "'Silently' tells how the cat crept.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'Come inside, it is raining!' What type of adverb is 'inside'?",
+      "options": [
+        "Adverb of time",
+        "Adverb of place",
+        "Adverb of manner",
+        "Adverb of degree"
+      ],
+      "answer": 1,
+      "explanation": "'Inside' tells where to come.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q19",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'Soon the coffee grew cold.' What type of adverb is 'soon'?",
+      "options": [
+        "Adverb of place",
+        "Adverb of manner",
+        "Adverb of time",
+        "Adverb of degree"
+      ],
+      "answer": 2,
+      "explanation": "'Soon' tells when the coffee grew cold.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'The herb-woman had gone up into the woods.' Which word is an adverb of place?",
+      "options": [
+        "had",
+        "gone",
+        "woods",
+        "up"
+      ],
+      "answer": 3,
+      "explanation": "'Up' tells where she had gone. 'Woods' is a noun, 'gone' is a verb.",
+      "source": "book:page35"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'The students answered politely.' 'Politely' tells us ___.",
+      "options": [
+        "how they answered",
+        "when they answered",
+        "where they answered",
+        "why they answered"
+      ],
+      "answer": 0,
+      "explanation": "'Politely' describes the manner of answering.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'The little boys followed the others everywhere.' Which word is the adverb, and what type is it?",
+      "options": [
+        "followed – manner",
+        "everywhere – place",
+        "others – place",
+        "little – manner"
+      ],
+      "answer": 1,
+      "explanation": "'Everywhere' tells WHERE the boys followed, so it is an adverb of place. 'Followed' is the verb and 'little' is an adjective.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'Mrs. Peterkin was sitting at breakfast alone.' What kind of adverb is 'alone'?",
+      "options": [
+        "Place",
+        "Time",
+        "Manner",
+        "Number"
+      ],
+      "answer": 2,
+      "explanation": "'Alone' tells HOW she was sitting (by herself), so it is an adverb of manner, even though it does not end in -ly.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'The dog barked loudly at night.' Which pair correctly names the adverb types?",
+      "options": [
+        "loudly – time; at night – place",
+        "loudly – place; at night – manner",
+        "barked – manner; dog – time",
+        "loudly – manner; at night – time"
+      ],
+      "answer": 3,
+      "explanation": "'Loudly' tells how the dog barked (manner); 'at night' tells when (time).",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q25",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'Rahul finished his homework early.' What type of adverb is 'early'?",
+      "options": [
+        "Time",
+        "Manner",
+        "Place",
+        "Degree"
+      ],
+      "answer": 0,
+      "explanation": "'Early' tells WHEN he finished. Some adverbs of time, like 'early' and 'late', do not end in -ly.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'The chemist was down on his knees before his wife.' Which word is an adverb of place?",
+      "options": [
+        "knees",
+        "down",
+        "before",
+        "wife"
+      ],
+      "answer": 1,
+      "explanation": "'Down' tells where the chemist was. 'Before' here is a preposition and 'knees' and 'wife' are nouns.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'They arrived late for the match.' Which type of adverb is 'late'?",
+      "options": [
+        "Adverb of manner",
+        "Adverb of place",
+        "Adverb of time",
+        "Adverb of degree"
+      ],
+      "answer": 2,
+      "explanation": "'Late' answers 'When did they arrive?', so it is an adverb of time.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'She looked up and smiled sweetly.' Which option names both adverbs correctly?",
+      "options": [
+        "up (time), sweetly (place)",
+        "looked (manner), smiled (place)",
+        "up (manner), sweetly (time)",
+        "up (place), sweetly (manner)"
+      ],
+      "answer": 3,
+      "explanation": "'Up' tells where she looked (place) and 'sweetly' tells how she smiled (manner).",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q29",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "Which sentence contains an adverb of TIME?",
+      "options": [
+        "The children went home afterwards.",
+        "The children went home quietly.",
+        "The children went home together.",
+        "The children went upstairs to bed."
+      ],
+      "answer": 0,
+      "explanation": "'Afterwards' tells when. 'Quietly' and 'together' tell how; 'upstairs' tells where.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "Which sentence contains an adverb of PLACE?",
+      "options": [
+        "The boys searched eagerly for her.",
+        "The boys searched everywhere for her.",
+        "The boys searched again for her.",
+        "The boys searched slowly for her."
+      ],
+      "answer": 1,
+      "explanation": "'Everywhere' tells where they searched. 'Eagerly' and 'slowly' are manner; 'again' tells when/how often.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q31",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'The herb-woman came round to sell herbs.' What type of adverb is 'round'?",
+      "options": [
+        "Manner",
+        "Time",
+        "Place",
+        "Degree"
+      ],
+      "answer": 2,
+      "explanation": "'Came round' means she came around the neighbourhood — 'round' tells where she came.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "Which sentence means the student put in a lot of effort?",
+      "options": [
+        "The student hardly worked.",
+        "The student worked hardly.",
+        "The student hard worked.",
+        "The student worked hard."
+      ],
+      "answer": 3,
+      "explanation": "'Hard' is an adverb of manner meaning with effort. 'Hardly' means 'almost not', which is the opposite idea.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'Agamemnon sat himself down to do the sum.' Which word is an adverb?",
+      "options": [
+        "down",
+        "himself",
+        "sum",
+        "sat"
+      ],
+      "answer": 0,
+      "explanation": "'Down' tells where he sat — an adverb of place. 'Himself' is a pronoun, 'sum' a noun, 'sat' a verb.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'Elizabeth Eliza went immediately to the lady from Philadelphia.' 'Immediately' is an adverb of ___.",
+      "options": [
+        "manner",
+        "time",
+        "place",
+        "degree"
+      ],
+      "answer": 1,
+      "explanation": "'Immediately' means 'at once' — it tells WHEN she went, so it is time, not manner.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q35",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "In which sentence is 'fast' used as an adverb?",
+      "options": [
+        "The athletes were fast.",
+        "It was a fast race.",
+        "The athletes ran fast.",
+        "The fast runner won."
+      ],
+      "answer": 2,
+      "explanation": "In 'ran fast', fast tells how they ran (adverb). In the other sentences 'fast' describes a noun or follows 'were', so it is an adjective.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q36",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "Select ALL the adverbs of time.",
+      "options": [
+        "yesterday",
+        "soon",
+        "outside",
+        "quietly"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "'Yesterday' and 'soon' tell when. 'Outside' tells where (place) and 'quietly' tells how (manner).",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q37",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "Select ALL the adverbs of manner.",
+      "options": [
+        "carefully",
+        "gently",
+        "nearby",
+        "later"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "'Carefully' and 'gently' tell how. 'Nearby' is place and 'later' is time.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q38",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "Select ALL the adverbs of place.",
+      "options": [
+        "upstairs",
+        "everywhere",
+        "already",
+        "safely"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "'Upstairs' and 'everywhere' tell where. 'Already' tells when and 'safely' tells how.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q39",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "Select ALL the adverbs that do NOT end in -ly.",
+      "options": [
+        "fast",
+        "late",
+        "tirelessly",
+        "attentively"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "'Fast' and 'late' are adverbs with no -ly. 'Tirelessly' and 'attentively' end in -ly.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q40",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'Tirelessly' in 'the teams worked tirelessly' is an adverb of manner.",
+      "answer": true,
+      "explanation": "It tells how the teams worked, so it is an adverb of manner.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q41",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'Yesterday' is an adverb of place.",
+      "answer": false,
+      "explanation": "'Yesterday' tells when, so it is an adverb of time, not place.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q42",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "An adverb of place answers the question 'When?'",
+      "answer": false,
+      "explanation": "An adverb of place answers 'Where?'. 'When?' is answered by adverbs of time.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q43",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "The word 'here' is an adverb of place.",
+      "answer": true,
+      "explanation": "'Here' tells where something is or happens.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q44",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "Every adverb ends in -ly.",
+      "answer": false,
+      "explanation": "Many adverbs end in -ly, but 'fast', 'hard', 'late', 'soon', 'here' and 'now' do not.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q45",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "In 'We met last week', the words 'last week' tell WHERE we met.",
+      "answer": false,
+      "explanation": "'Last week' tells WHEN we met, so it is an adverb of time.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q46",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "In 'She sang sweetly', the word 'sweetly' tells how she sang.",
+      "answer": true,
+      "explanation": "'Sweetly' describes the manner of singing.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q47",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "In 'They waited outside', the word 'outside' is an adverb of time.",
+      "answer": false,
+      "explanation": "'Outside' tells where they waited, so it is an adverb of place.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q48",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "The word 'alone' in 'she sat alone' is an adverb of manner.",
+      "answer": true,
+      "explanation": "'Alone' tells how she sat — by herself — so it is an adverb of manner even without -ly.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q49",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'Early' and 'late' are adverbs of manner because they describe the action.",
+      "answer": false,
+      "explanation": "They answer 'When?', so they are adverbs of time.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q50",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "News report error: 'rescue teams worked loudly through the night'. Which word from the word bank corrects it?",
+      "options": [
+        "next month",
+        "carefully",
+        "quietly",
+        "tirelessly"
+      ],
+      "answer": 3,
+      "explanation": "Rescue work is not about noise; 'tirelessly' (manner) shows how hard they worked all night.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "News report error: 'they will launch a new weather satellite yesterday'. What should replace 'yesterday'?",
+      "options": [
+        "next month",
+        "tirelessly",
+        "already",
+        "safely"
+      ],
+      "answer": 0,
+      "explanation": "'Will launch' is in the future, so 'yesterday' does not fit. 'Next month' is a future adverb of time.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "News report error: 'young athletes ran fastly'. What is the correct word?",
+      "options": [
+        "safely",
+        "fast",
+        "nearby",
+        "quietly"
+      ],
+      "answer": 1,
+      "explanation": "'Fast' is already an adverb; it never takes -ly. 'Fastly' is not a word.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "News report error: 'people gathered upstairs the town hall'. Which word is correct?",
+      "options": [
+        "nearby",
+        "already",
+        "outside",
+        "quietly"
+      ],
+      "answer": 2,
+      "explanation": "People gather OUTSIDE a building; 'upstairs the town hall' makes no sense. 'Outside' is an adverb of place.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "News report error: 'it must be stored careful'. What is the correct word?",
+      "options": [
+        "tirelessly",
+        "next month",
+        "quietly",
+        "carefully"
+      ],
+      "answer": 3,
+      "explanation": "'Careful' is an adjective; the verb 'stored' needs the adverb 'carefully' (manner).",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "News report error: 'Last week, astronauts landed tomorrow'. What should replace 'tomorrow'?",
+      "options": [
+        "safely",
+        "already",
+        "nearby",
+        "outside"
+      ],
+      "answer": 0,
+      "explanation": "'Last week' and 'tomorrow' clash. The sentence needs to say HOW they landed — 'safely' (manner).",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q56",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "Why is 'ran fastly' wrong?",
+      "options": [
+        "'Fast' is a noun, so it cannot change form",
+        "'Fast' is already an adverb and never takes -ly",
+        "'Fastly' should be spelt 'fastily' instead",
+        "'Fast' can only be used as an adverb of time"
+      ],
+      "answer": 1,
+      "explanation": "Some adverbs, like fast, hard and late, have the same form as the adjective. Adding -ly to 'fast' is a common learner error.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "Why is 'stored careful' wrong?",
+      "options": [
+        "An adverb is used where an adjective is needed",
+        "The verb 'stored' should be 'storing' instead",
+        "An adjective is used where an adverb is needed",
+        "The word 'careful' should come before 'stored'"
+      ],
+      "answer": 2,
+      "explanation": "'Careful' describes nouns; to describe the verb 'stored' we need the adverb 'carefully'.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "Why does 'Last week, astronauts landed tomorrow' not make sense?",
+      "options": [
+        "'Landed' should be in the future tense",
+        "'Astronauts' needs an adverb of place",
+        "'Last week' should come after 'landed'",
+        "'Last week' and 'tomorrow' are clashing time words"
+      ],
+      "answer": 3,
+      "explanation": "You cannot land last week AND tomorrow. The sentence needs an adverb of manner like 'safely' instead of a second time word.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "What type of adverb was needed to correct 'gathered upstairs the town hall'?",
+      "options": [
+        "Place",
+        "Manner",
+        "Time",
+        "Degree"
+      ],
+      "answer": 0,
+      "explanation": "The correction 'outside' tells where people gathered, so an adverb of place was needed.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q60",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "How many of the six errors in the news report needed an adverb of MANNER to fix them?",
+      "options": [
+        "Two",
+        "Four",
+        "Three",
+        "Six"
+      ],
+      "answer": 1,
+      "explanation": "tirelessly, fast, carefully and safely are all manner (4); 'next month' is time and 'outside' is place.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q61",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "She is a careful driver. She drives ___.",
+      "options": [
+        "careful",
+        "carefuly",
+        "carefully",
+        "carefull"
+      ],
+      "answer": 2,
+      "explanation": "The verb 'drives' needs an adverb: careful + ly = carefully (one l before -ly, two l's total).",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "He is a quick runner. He runs ___.",
+      "options": [
+        "quick",
+        "quicker",
+        "quickest",
+        "quickly"
+      ],
+      "answer": 3,
+      "explanation": "To tell HOW he runs we need the adverb 'quickly'. 'Quick' is the adjective; 'quicker/quickest' compare.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "The adverb formed from the adjective 'happy' is ___.",
+      "options": [
+        "happily",
+        "happyly",
+        "happly",
+        "happiy"
+      ],
+      "answer": 0,
+      "explanation": "Adjectives ending in a consonant + y change y to i before adding -ly: happy → happily.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "The adverb formed from 'gentle' is ___.",
+      "options": [
+        "gentlely",
+        "gently",
+        "gentlly",
+        "gentley"
+      ],
+      "answer": 1,
+      "explanation": "Adjectives ending in -le drop the e and add -y: gentle → gently, simple → simply.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "The adverb formed from 'angry' is ___.",
+      "options": [
+        "angryly",
+        "angrly",
+        "angrily",
+        "angerly"
+      ],
+      "answer": 2,
+      "explanation": "angry → angrily (y changes to i, then -ly is added).",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "The adverb formed from 'terrible' is ___.",
+      "options": [
+        "terriblely",
+        "terribley",
+        "terribally",
+        "terribly"
+      ],
+      "answer": 3,
+      "explanation": "Adjectives ending in -le drop the e and add -y: terrible → terribly.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q67",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "The adverb formed from 'true' is ___.",
+      "options": [
+        "truly",
+        "truely",
+        "trully",
+        "trueily"
+      ],
+      "answer": 0,
+      "explanation": "'Truly' is a spelling exception: the e of 'true' is dropped before -ly.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "The lady from Philadelphia listened ___ to the whole story.",
+      "options": [
+        "attentive",
+        "attentively",
+        "attention",
+        "attentiveness"
+      ],
+      "answer": 1,
+      "explanation": "The verb 'listened' needs an adverb of manner: attentively. 'Attentive' is an adjective and the others are nouns.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "The children waited ___ for their mother's coffee.",
+      "options": [
+        "patient",
+        "patience",
+        "patiently",
+        "patients"
+      ],
+      "answer": 2,
+      "explanation": "'Waited' is a verb, so we need the adverb 'patiently' to tell how they waited.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "Which sentence uses an adverb of time correctly?",
+      "options": [
+        "We will go to the park yesterday.",
+        "We went to the park next month.",
+        "We went to the park tomorrow.",
+        "We will go to the park tomorrow."
+      ],
+      "answer": 3,
+      "explanation": "'Will go' (future) matches 'tomorrow'. The other sentences mix past verbs with future time words or future verbs with 'yesterday'.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q71",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "Which sentence about the boys is correct?",
+      "options": [
+        "The boys climbed the rocks quickly.",
+        "The boys climbed the rocks quick.",
+        "The boys quick climbed the rocks.",
+        "The boys climbed quick the rocks."
+      ],
+      "answer": 0,
+      "explanation": "The verb 'climbed' needs the adverb 'quickly'. An adverb of manner usually comes after the verb or its object.",
+      "source": "book:page35"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "Riya did good in the spelling test.",
+        "Riya did well in the spelling test.",
+        "Riya did goodly in the spelling test.",
+        "Riya did well-ly in the spelling test."
+      ],
+      "answer": 1,
+      "explanation": "'Well' is the adverb that goes with 'did'. 'Good' is an adjective; 'goodly' and 'well-ly' are not standard adverbs.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "Which sentence about the herb-woman is correct?",
+      "options": [
+        "The herb-woman spoke soft to the children.",
+        "The herb-woman spoke softy to the children.",
+        "The herb-woman spoke softly to the children.",
+        "The herb-woman softly spoke the children."
+      ],
+      "answer": 2,
+      "explanation": "'Spoke' needs the adverb 'softly'. The last option drops the word 'to' and so is not correct.",
+      "source": "book:page35"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "Choose the sentence in which the adverb is placed correctly.",
+      "options": [
+        "The chemist stirred slowly the coffee.",
+        "Slowly the chemist stirred slowly the coffee.",
+        "The chemist slowly stirred slowly the coffee.",
+        "The chemist stirred the coffee slowly."
+      ],
+      "answer": 3,
+      "explanation": "Adverbs of manner usually go after the verb and its object. Do not place it between the verb and its object, and do not repeat it.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "Which word completes the sentence correctly? 'The baby slept ___ all night.'",
+      "options": [
+        "peacefully",
+        "peaceful",
+        "peace",
+        "peacefulness"
+      ],
+      "answer": 0,
+      "explanation": "'Slept' is a verb, so we need the adverb 'peacefully'. 'Peaceful' is an adjective.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "Which word completes the sentence correctly? 'Astronauts landed ___ after six months in space.'",
+      "options": [
+        "safe",
+        "safely",
+        "safety",
+        "safeness"
+      ],
+      "answer": 1,
+      "explanation": "The verb 'landed' needs an adverb of manner: 'safely'.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q77",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "Select ALL the words that are adverbs (not adjectives).",
+      "options": [
+        "slowly",
+        "bravely",
+        "quick",
+        "gentle"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "'Slowly' and 'bravely' are adverbs. 'Quick' and 'gentle' are adjectives; their adverbs are 'quickly' and 'gently'.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q78",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "Select ALL the words that can be used as adverbs WITHOUT adding -ly.",
+      "options": [
+        "fast",
+        "hard",
+        "quick",
+        "careful"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "'Fast' and 'hard' keep the same form as adverbs. 'Quick' and 'careful' become 'quickly' and 'carefully'.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q79",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "Select ALL the correctly spelt adverbs.",
+      "options": [
+        "happily",
+        "simply",
+        "easyly",
+        "fastly"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "happy → happily and simple → simply. 'Easyly' should be 'easily', and 'fastly' is not a word (use 'fast').",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q80",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "'Fastly' is the correct adverb form of 'fast'.",
+      "answer": false,
+      "explanation": "'Fast' is both the adjective and the adverb. 'Fastly' does not exist.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q81",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "In 'stored careful', the word 'careful' should be 'carefully'.",
+      "answer": true,
+      "explanation": "A verb needs an adverb, so careful → carefully.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q82",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "In the corrected news report, 'loudly' describes how the rescue teams worked.",
+      "answer": false,
+      "explanation": "'Loudly' was the error; the correct adverb is 'tirelessly'.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q83",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "The adverb formed from 'happy' is 'happily'.",
+      "answer": true,
+      "explanation": "y changes to i before -ly.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q84",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "'Good' is an adverb and 'well' is an adjective.",
+      "answer": false,
+      "explanation": "It is the other way round: 'good' is an adjective and 'well' is the adverb (she sings well).",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q85",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "An adverb of manner usually comes after the verb it describes.",
+      "answer": true,
+      "explanation": "We say 'she sang sweetly', not 'she sweetly sang' (though some adverbs can move).",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q86",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "'Next month' is the correct replacement for 'yesterday' in 'will launch … yesterday'.",
+      "answer": true,
+      "explanation": "'Will launch' is future, so the time word must also be future: next month.",
+      "source": "worksheet-L1 B"
+    },
+    {
+      "id": "q87",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Adverbs: Choosing the Right Adverb",
+      "question": "The adverb formed from 'gentle' is spelt 'gentlely'.",
+      "answer": false,
+      "explanation": "Adjectives ending in -le drop the e and add -y: gently.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject and Predicate",
+      "question": "The subject of a sentence tells us ___.",
+      "options": [
+        "what the subject does or is",
+        "when the action takes place",
+        "who or what the sentence is about",
+        "how the action was done"
+      ],
+      "answer": 2,
+      "explanation": "The subject names the person or thing the sentence is about; the predicate tells what the subject does or is.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject and Predicate",
+      "question": "The predicate of a sentence tells us ___.",
+      "options": [
+        "who or what the sentence is about",
+        "where the sentence was written",
+        "which noun comes first",
+        "what the subject does or is"
+      ],
+      "answer": 3,
+      "explanation": "The predicate is the part that contains the verb and tells about the subject.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject and Predicate",
+      "question": "Which part of a sentence always contains the verb?",
+      "options": [
+        "The predicate",
+        "The subject",
+        "The adverb",
+        "The noun"
+      ],
+      "answer": 0,
+      "explanation": "The predicate contains the verb and everything that goes with it.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject and Predicate",
+      "question": "'The chemist added many strange chemicals to the coffee.' What is the subject?",
+      "options": [
+        "the coffee",
+        "The chemist",
+        "many strange",
+        "added many"
+      ],
+      "answer": 1,
+      "explanation": "The sentence is about the chemist, so 'The chemist' is the subject; the rest is the predicate.",
+      "source": "worksheet-L1 C1"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject and Predicate",
+      "question": "'The chemist added many strange chemicals to the coffee.' What is the predicate?",
+      "options": [
+        "The chemist added many strange chemicals",
+        "many strange chemicals to the coffee",
+        "added many strange chemicals to the coffee",
+        "The chemist and the strange chemicals"
+      ],
+      "answer": 2,
+      "explanation": "The predicate starts with the verb 'added' and tells what the chemist did.",
+      "source": "worksheet-L1 C1"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject and Predicate",
+      "question": "'A large bird carried Gulliver's box high into the sky.' What is the subject?",
+      "options": [
+        "Gulliver's box",
+        "into the sky",
+        "carried high",
+        "A large bird"
+      ],
+      "answer": 3,
+      "explanation": "The sentence is about the large bird that did the carrying.",
+      "source": "worksheet-L1 C2"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject and Predicate",
+      "question": "'A large bird carried Gulliver's box high into the sky.' What is the predicate?",
+      "options": [
+        "carried Gulliver's box high into the sky",
+        "A large bird carried Gulliver's box",
+        "Gulliver's box high into the sky",
+        "A large bird high into the sky"
+      ],
+      "answer": 0,
+      "explanation": "The predicate begins with the verb 'carried'.",
+      "source": "worksheet-L1 C2"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject and Predicate",
+      "question": "'The kind lady from Philadelphia gave the family a simple idea.' What is the subject?",
+      "options": [
+        "gave the family a simple idea",
+        "The kind lady from Philadelphia",
+        "the family and the simple idea",
+        "The kind lady gave the family"
+      ],
+      "answer": 1,
+      "explanation": "The whole group of words naming the lady is the subject; 'gave …' is the predicate.",
+      "source": "worksheet-L1 C3"
+    },
+    {
+      "id": "q96",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject and Predicate",
+      "question": "'Mrs. Peterkin put salt in her coffee.' What is the subject?",
+      "options": [
+        "her coffee",
+        "put salt",
+        "Mrs. Peterkin",
+        "salt in her"
+      ],
+      "answer": 2,
+      "explanation": "The sentence is about Mrs. Peterkin; 'put salt in her coffee' is the predicate.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q97",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject and Predicate",
+      "question": "'The little boys put on their India-rubber boots.' What is the predicate?",
+      "options": [
+        "The little boys put on",
+        "The little boys",
+        "their India-rubber boots",
+        "put on their India-rubber boots"
+      ],
+      "answer": 3,
+      "explanation": "The predicate starts at the verb 'put' and tells what the boys did.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject and Predicate",
+      "question": "'The old woman shook her head.' What is the predicate?",
+      "options": [
+        "shook her head",
+        "The old woman",
+        "her head",
+        "old woman shook"
+      ],
+      "answer": 0,
+      "explanation": "'Shook her head' tells what the old woman did.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject and Predicate",
+      "question": "'Solomon John shouted with joy.' What is the subject?",
+      "options": [
+        "shouted",
+        "Solomon John",
+        "with joy",
+        "shouted joy"
+      ],
+      "answer": 1,
+      "explanation": "The sentence tells us about Solomon John.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject and Predicate",
+      "question": "'The coffee tasted bad.' Which part is the predicate?",
+      "options": [
+        "The coffee",
+        "coffee tasted",
+        "tasted bad",
+        "The bad"
+      ],
+      "answer": 2,
+      "explanation": "'Tasted bad' tells us about the coffee (what it was like).",
+      "source": "book:page33"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject and Predicate",
+      "question": "'A brandy-cherry tree shaded the door.' What is the subject?",
+      "options": [
+        "shaded the door",
+        "the door",
+        "cherry tree shaded",
+        "A brandy-cherry tree"
+      ],
+      "answer": 3,
+      "explanation": "The tree is what the sentence is about.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject and Predicate",
+      "question": "Which of these is a complete sentence with a subject and a predicate?",
+      "options": [
+        "The family sat down to think.",
+        "The whole Peterkin family.",
+        "Sat down to think quietly.",
+        "Down at the end of the street."
+      ],
+      "answer": 0,
+      "explanation": "Only 'The family sat down to think' has both a subject (the family) and a predicate (sat down to think).",
+      "source": "book:page33"
+    },
+    {
+      "id": "q103",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Subject and Predicate",
+      "question": "'Elizabeth Eliza went to the lady from Philadelphia.' What is the complete subject?",
+      "options": [
+        "the lady from Philadelphia",
+        "Elizabeth Eliza",
+        "went to the lady",
+        "Elizabeth Eliza went"
+      ],
+      "answer": 1,
+      "explanation": "Elizabeth Eliza is the one who went; 'the lady from Philadelphia' is part of the predicate.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q104",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subject and Predicate",
+      "question": "'The air in the garden was full of sweet smells.' What is the complete subject?",
+      "options": [
+        "full of sweet smells",
+        "the garden",
+        "The air in the garden",
+        "was full of sweet"
+      ],
+      "answer": 2,
+      "explanation": "The whole phrase naming what the sentence is about — 'The air in the garden' — is the complete subject.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subject and Predicate",
+      "question": "Which group of words is a PREDICATE, not a subject?",
+      "options": [
+        "the wise old chemist",
+        "the lady from the city",
+        "the children in boots",
+        "tasted the salty coffee"
+      ],
+      "answer": 3,
+      "explanation": "A predicate contains a verb: 'tasted the salty coffee'. The other groups just name people — they are subjects.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q106",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subject and Predicate",
+      "question": "Which group of words could be a SUBJECT?",
+      "options": [
+        "the herb-woman's small parlour",
+        "smelt very spicy indeed",
+        "hung from the ceiling",
+        "went into the woods"
+      ],
+      "answer": 0,
+      "explanation": "Only 'the herb-woman's small parlour' names something; the others begin with verbs and are predicates.",
+      "source": "book:page35"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subject and Predicate",
+      "question": "In 'Agamemnon, who had been to college, suggested the chemist', who or what is the subject?",
+      "options": [
+        "the chemist",
+        "Agamemnon",
+        "college",
+        "suggested"
+      ],
+      "answer": 1,
+      "explanation": "The sentence is about Agamemnon; the words between the commas describe him, and 'suggested the chemist' is the predicate.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subject and Predicate",
+      "question": "'The children and Mrs. Peterkin made dreadful faces.' What is the subject?",
+      "options": [
+        "made dreadful faces",
+        "Mrs. Peterkin only",
+        "The children and Mrs. Peterkin",
+        "dreadful faces"
+      ],
+      "answer": 2,
+      "explanation": "A subject can name more than one person joined by 'and'.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subject and Predicate",
+      "question": "Which sentence has the subject 'The chemist's wife'?",
+      "options": [
+        "The chemist asked his wife for her ring.",
+        "The ring belonged to the chemist's wife.",
+        "The wife's ring was melted by the chemist.",
+        "The chemist's wife was just consenting."
+      ],
+      "answer": 3,
+      "explanation": "Only in the first sentence is 'The chemist's wife' the one the sentence is about and the doer of the verb.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subject and Predicate",
+      "question": "Add a predicate to make a sentence: 'The lady from Philadelphia ___.'",
+      "options": [
+        "listened very attentively",
+        "who was staying in town",
+        "and her wise friends",
+        "a very wise woman"
+      ],
+      "answer": 0,
+      "explanation": "A predicate must contain a verb: 'listened very attentively'. The other options have no main verb.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subject and Predicate",
+      "question": "Add a subject to make a sentence: '___ melted the gold thimble.'",
+      "options": [
+        "Melted quickly",
+        "The greedy chemist",
+        "Over the fire",
+        "Into fine gold"
+      ],
+      "answer": 1,
+      "explanation": "A subject names who did the melting: 'The greedy chemist'. The other options are not naming words.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Subject and Predicate",
+      "question": "'Down the street lived the herb-woman.' What is the subject?",
+      "options": [
+        "Down the street",
+        "the street",
+        "the herb-woman",
+        "lived down"
+      ],
+      "answer": 2,
+      "explanation": "Even though it comes last, 'the herb-woman' is who the sentence is about — she is the one who lived.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Subject and Predicate",
+      "question": "'Into the parlour went the children.' What is the subject?",
+      "options": [
+        "Into the parlour",
+        "the parlour",
+        "went into",
+        "the children"
+      ],
+      "answer": 3,
+      "explanation": "The subject is the children (they went). Here the predicate part comes first for effect.",
+      "source": "book:page35"
+    },
+    {
+      "id": "q114",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Subject and Predicate",
+      "question": "In the command 'Make a fresh cup of coffee!', who is the understood subject?",
+      "options": [
+        "You",
+        "Coffee",
+        "Cup",
+        "Mother"
+      ],
+      "answer": 0,
+      "explanation": "In commands the subject 'you' is not written but understood: (You) make a fresh cup.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q115",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Subject and Predicate",
+      "question": "Which sentence has 'The coffee' as its subject?",
+      "options": [
+        "Mrs. Peterkin could not drink the coffee.",
+        "The coffee tasted of anything but coffee.",
+        "The chemist stirred the coffee again.",
+        "Everyone tasted the coffee in turn."
+      ],
+      "answer": 1,
+      "explanation": "Only in the first sentence is the coffee the thing the sentence is about. In the others, the coffee is part of the predicate.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q116",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Subject and Predicate",
+      "question": "Select ALL the complete sentences (each has a subject AND a predicate).",
+      "options": [
+        "The chemist melted the gold.",
+        "The little boys.",
+        "Mrs. Peterkin called the family.",
+        "Into the woods."
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "'The little boys' and 'Into the woods' have no verb, so they are not complete sentences.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q117",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Subject and Predicate",
+      "question": "Select ALL the groups of words that are predicates.",
+      "options": [
+        "tasted the salty coffee",
+        "the lady from Philadelphia",
+        "listened very attentively",
+        "the wise old chemist"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Predicates contain verbs: 'tasted …' and 'listened …'. The other two only name people (subjects).",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q118",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Subject and Predicate",
+      "question": "Select ALL the sentences where the subject is more than one word.",
+      "options": [
+        "A large bird carried the box.",
+        "Agamemnon did the sum.",
+        "The kind lady gave an idea.",
+        "Mother waited."
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "'A large bird' and 'The kind lady' are subjects of more than one word; 'Agamemnon' and 'Mother' are single words.",
+      "source": "worksheet-L1 C"
+    },
+    {
+      "id": "q119",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Subject and Predicate",
+      "question": "The subject tells who or what the sentence is about.",
+      "answer": true,
+      "explanation": "That is the definition of the subject.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q120",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Subject and Predicate",
+      "question": "The predicate always comes before the subject.",
+      "answer": false,
+      "explanation": "Usually the subject comes first and the predicate follows, e.g. 'The chemist | stirred the coffee'.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q121",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Subject and Predicate",
+      "question": "In 'The children tasted the mixture', the predicate is 'tasted the mixture'.",
+      "answer": true,
+      "explanation": "'Tasted the mixture' tells what the children did.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q122",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Subject and Predicate",
+      "question": "A predicate must contain a verb.",
+      "answer": true,
+      "explanation": "The verb is the heart of the predicate.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q123",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Subject and Predicate",
+      "question": "In 'A large bird carried Gulliver's box', the subject is 'Gulliver's box'.",
+      "answer": false,
+      "explanation": "The subject is 'A large bird' — the box is what was carried (part of the predicate).",
+      "source": "worksheet-L1 C2"
+    },
+    {
+      "id": "q124",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Subject and Predicate",
+      "question": "In 'The coffee tasted bad', the subject is 'bad'.",
+      "answer": false,
+      "explanation": "The subject is 'The coffee'; 'tasted bad' is the predicate.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q125",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Subject and Predicate",
+      "question": "A subject can be made up of more than one word.",
+      "answer": true,
+      "explanation": "E.g. 'The kind lady from Philadelphia' is one complete subject.",
+      "source": "worksheet-L1 C3"
+    },
+    {
+      "id": "q126",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Subject and Predicate",
+      "question": "In 'The chemist and his wife lived over the way', the subject is only 'The chemist'.",
+      "answer": false,
+      "explanation": "The subject is 'The chemist and his wife' — two people joined by 'and'.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q127",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Subject and Predicate",
+      "question": "In 'The chemist added chemicals to the coffee', the words 'to the coffee' are part of the predicate.",
+      "answer": true,
+      "explanation": "Everything after the subject 'The chemist', including 'to the coffee', belongs to the predicate.",
+      "source": "worksheet-L1 C1"
+    },
+    {
+      "id": "q128",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Subject and Predicate",
+      "question": "The subject of a sentence is always a single noun.",
+      "answer": false,
+      "explanation": "A subject can be a pronoun or a group of words, e.g. 'The kind lady from Philadelphia'.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q129",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject-Verb Agreement",
+      "question": "A singular subject takes a ___ verb.",
+      "options": [
+        "plural",
+        "past",
+        "singular",
+        "future"
+      ],
+      "answer": 2,
+      "explanation": "Rule 1: singular subject → singular verb (the book needs); plural subject → plural verb (the books need).",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject-Verb Agreement",
+      "question": "Two subjects joined by 'and' usually take a ___ verb.",
+      "options": [
+        "singular",
+        "past",
+        "helping",
+        "plural"
+      ],
+      "answer": 3,
+      "explanation": "Rule 2: 'The bag and the bottle ARE for my brother' — two subjects joined by 'and' are plural.",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject-Verb Agreement",
+      "question": "A collective noun such as 'family' or 'group' takes a ___ verb.",
+      "options": [
+        "singular",
+        "plural",
+        "double",
+        "past"
+      ],
+      "answer": 0,
+      "explanation": "Rule 4: a collective noun names one group, so it is treated as singular: 'My family wants…'.",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject-Verb Agreement",
+      "question": "With 'neither … nor', the verb agrees with ___.",
+      "options": [
+        "the subject farther from the verb",
+        "the subject closer to the verb",
+        "both subjects added together",
+        "the first noun in the sentence"
+      ],
+      "answer": 1,
+      "explanation": "Rule 3: 'Neither the pens nor the marker IS in stock' — the verb agrees with 'marker', the closer subject.",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject-Verb Agreement",
+      "question": "Letter to a store: 'My family ___ to order a few items.'",
+      "options": [
+        "want",
+        "wanting",
+        "wants",
+        "are wanting"
+      ],
+      "answer": 2,
+      "explanation": "'Family' is a collective noun, so it is singular: wants (Rule 4).",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject-Verb Agreement",
+      "question": "Letter to a store: 'The school bag and the water bottle ___ for my younger brother.'",
+      "options": [
+        "is",
+        "was",
+        "be",
+        "are"
+      ],
+      "answer": 3,
+      "explanation": "Two subjects joined by 'and' take the plural verb 'are' (Rule 2).",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject-Verb Agreement",
+      "question": "Letter to a store: 'The notebooks ___ ruled pages.'",
+      "options": [
+        "need",
+        "needs",
+        "needing",
+        "is needing"
+      ],
+      "answer": 0,
+      "explanation": "'Notebooks' is plural, so the verb is plural: need (Rule 1).",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject-Verb Agreement",
+      "question": "Letter to a store: '… but the drawing book ___ plain pages.'",
+      "options": [
+        "need",
+        "needs",
+        "needing",
+        "are needing"
+      ],
+      "answer": 1,
+      "explanation": "'The drawing book' is singular, so the verb is singular: needs (Rule 1).",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subject-Verb Agreement",
+      "question": "Letter to a store: '… if neither the red pens nor the blue marker ___ in stock.'",
+      "options": [
+        "are",
+        "were",
+        "is",
+        "be"
+      ],
+      "answer": 2,
+      "explanation": "With neither…nor, the verb agrees with the closer subject, 'marker', which is singular: is (Rule 3).",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subject-Verb Agreement",
+      "question": "Letter to a store: 'Our group of friends also ___ to order from you next month.'",
+      "options": [
+        "plan",
+        "planning",
+        "are planning",
+        "plans"
+      ],
+      "answer": 3,
+      "explanation": "'Group' is a collective noun and the real subject, so it is singular: plans — even though 'friends' is plural (Rule 4).",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q139",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject-Verb Agreement",
+      "question": "The chemist ___ the coffee slowly.",
+      "options": [
+        "stirs",
+        "stir",
+        "stirring",
+        "are stirring"
+      ],
+      "answer": 0,
+      "explanation": "'The chemist' is one person (singular), so the verb takes -s: stirs.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q140",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject-Verb Agreement",
+      "question": "The little boys ___ their India-rubber boots.",
+      "options": [
+        "wears",
+        "wear",
+        "wearing",
+        "is wearing"
+      ],
+      "answer": 1,
+      "explanation": "'Boys' is plural, so the verb is plural: wear (no -s).",
+      "source": "book:page33"
+    },
+    {
+      "id": "q141",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject-Verb Agreement",
+      "question": "Mrs. Peterkin and her family ___ down to think.",
+      "options": [
+        "sits",
+        "sitting",
+        "sit",
+        "is sitting"
+      ],
+      "answer": 2,
+      "explanation": "Two subjects joined by 'and' take a plural verb: sit (Rule 2).",
+      "source": "book:page33"
+    },
+    {
+      "id": "q142",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject-Verb Agreement",
+      "question": "The team ___ every evening after school.",
+      "options": [
+        "practise",
+        "practising",
+        "are practising",
+        "practises"
+      ],
+      "answer": 3,
+      "explanation": "'Team' is a collective noun, so it takes a singular verb: practises (Rule 4).",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q143",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject-Verb Agreement",
+      "question": "The class ___ ready for the picnic.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "be"
+      ],
+      "answer": 0,
+      "explanation": "'Class' is a collective noun — one group — so it takes the singular verb 'is' (Rule 4).",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q144",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject-Verb Agreement",
+      "question": "Elizabeth Eliza ___ the only daughter in the family.",
+      "options": [
+        "were",
+        "was",
+        "be",
+        "being"
+      ],
+      "answer": 1,
+      "explanation": "One person = singular subject, so the singular past verb 'was' is used.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q145",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject-Verb Agreement",
+      "question": "The herbs ___ sweet and spicy.",
+      "options": [
+        "smells",
+        "smelling",
+        "smell",
+        "is smelling"
+      ],
+      "answer": 2,
+      "explanation": "'Herbs' is plural, so the plural verb 'smell' is used (Rule 1).",
+      "source": "book:page35"
+    },
+    {
+      "id": "q146",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subject-Verb Agreement",
+      "question": "Neither the chemist nor the herb-woman ___ the answer.",
+      "options": [
+        "know",
+        "knowing",
+        "are knowing",
+        "knows"
+      ],
+      "answer": 3,
+      "explanation": "With neither…nor, the verb agrees with the closer subject, 'the herb-woman' (singular): knows (Rule 3).",
+      "source": "book:page36"
+    },
+    {
+      "id": "q147",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subject-Verb Agreement",
+      "question": "Either the children or Elizabeth Eliza ___ to ask the lady.",
+      "options": [
+        "goes",
+        "go",
+        "going",
+        "are going"
+      ],
+      "answer": 0,
+      "explanation": "With either…or, the verb agrees with the closer subject, 'Elizabeth Eliza' (singular): goes.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q148",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subject-Verb Agreement",
+      "question": "Neither Riya nor her friends ___ late today.",
+      "options": [
+        "is",
+        "are",
+        "was",
+        "be"
+      ],
+      "answer": 1,
+      "explanation": "The closer subject is 'her friends' (plural), so the verb is plural: are (Rule 3).",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q149",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Subject-Verb Agreement",
+      "question": "The jar of herbs ___ on the top shelf.",
+      "options": [
+        "are",
+        "were",
+        "is",
+        "be"
+      ],
+      "answer": 2,
+      "explanation": "The subject is 'jar' (singular), not 'herbs'. Words between the subject and the verb do not change the agreement.",
+      "source": "book:page35"
+    },
+    {
+      "id": "q150",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Subject-Verb Agreement",
+      "question": "The bags of catnip ___ from the ceiling.",
+      "options": [
+        "hangs",
+        "hanging",
+        "is hanging",
+        "hang"
+      ],
+      "answer": 3,
+      "explanation": "The subject is 'bags' (plural), so the verb is 'hang'. 'Catnip' is inside a describing phrase.",
+      "source": "book:page35"
+    },
+    {
+      "id": "q151",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subject-Verb Agreement",
+      "question": "Which sentence about the family is correct?",
+      "options": [
+        "The family wants a cup of coffee.",
+        "The family want a cup of coffee.",
+        "The family wanting a cup of coffee.",
+        "The family are want a cup of coffee."
+      ],
+      "answer": 0,
+      "explanation": "'Family' is a collective noun and takes the singular verb 'wants' (Rule 4).",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q152",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subject-Verb Agreement",
+      "question": "Which sentence about the two brothers is correct?",
+      "options": [
+        "Agamemnon and Solomon John is brothers.",
+        "Agamemnon and Solomon John are brothers.",
+        "Agamemnon and Solomon John was brothers.",
+        "Agamemnon and Solomon John be brothers."
+      ],
+      "answer": 1,
+      "explanation": "Two subjects joined by 'and' take the plural verb 'are' (Rule 2).",
+      "source": "book:page34"
+    },
+    {
+      "id": "q153",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subject-Verb Agreement",
+      "question": "Which 'neither … nor' sentence is correct?",
+      "options": [
+        "Neither the boys nor their sister were ready.",
+        "Neither the boys nor their sister are ready.",
+        "Neither the boys nor their sister was ready.",
+        "Neither the boys nor their sister be ready."
+      ],
+      "answer": 2,
+      "explanation": "The closer subject is 'their sister' (singular), so the verb is 'was' (Rule 3).",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q154",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subject-Verb Agreement",
+      "question": "Which rule explains 'The school bag and the water bottle are for my brother'?",
+      "options": [
+        "A collective noun takes a singular verb",
+        "The verb agrees with the closer subject",
+        "A singular subject takes a singular verb",
+        "Subjects joined by 'and' take a plural verb"
+      ],
+      "answer": 3,
+      "explanation": "This is Rule 2: two subjects joined by 'and' are plural, so the verb is 'are'.",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q155",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subject-Verb Agreement",
+      "question": "Which rule explains 'My family wants to order a few items'?",
+      "options": [
+        "A collective noun takes a singular verb",
+        "Subjects joined by 'and' take a plural verb",
+        "The verb agrees with the closer subject",
+        "A plural subject takes a plural verb"
+      ],
+      "answer": 0,
+      "explanation": "'Family' is a collective noun (one group), so it takes the singular verb 'wants' (Rule 4).",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q156",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subject-Verb Agreement",
+      "question": "In 'neither the red pens nor the blue marker is in stock', the verb 'is' agrees with ___.",
+      "options": [
+        "pens, the first subject",
+        "marker, the closer subject",
+        "both pens and marker",
+        "the word neither"
+      ],
+      "answer": 1,
+      "explanation": "With neither…nor the verb matches the subject nearest to it — 'the blue marker' (singular).",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q157",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Subject-Verb Agreement",
+      "question": "Our group of friends ___ to the park every Sunday.",
+      "options": [
+        "go",
+        "going",
+        "goes",
+        "are going"
+      ],
+      "answer": 2,
+      "explanation": "The subject is 'group' (collective, singular), not 'friends', so the verb is 'goes' (Rule 4).",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q158",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Subject-Verb Agreement",
+      "question": "Which sentence about the herbs is correct?",
+      "options": [
+        "The herbs in the little bag smells spicy.",
+        "The herbs in the little bag is smelling spicy.",
+        "The herbs in the little bag was smelling spicy.",
+        "The herbs in the little bag smell spicy."
+      ],
+      "answer": 3,
+      "explanation": "The subject is 'herbs' (plural), so the verb is 'smell'. Do not let the singular 'bag' next to the verb trick you.",
+      "source": "book:page35"
+    },
+    {
+      "id": "q159",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Subject-Verb Agreement",
+      "question": "Which sentence about the chemist and the children is correct?",
+      "options": [
+        "Neither the chemist nor the children were happy.",
+        "Neither the chemist nor the children was happy.",
+        "Neither the chemist nor the children is happy.",
+        "Neither the chemist nor the children be happy."
+      ],
+      "answer": 0,
+      "explanation": "The closer subject is 'the children' (plural), so the plural verb 'were' is correct (Rule 3).",
+      "source": "book:page34"
+    },
+    {
+      "id": "q160",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Subject-Verb Agreement",
+      "question": "Which sentence about the team is correct?",
+      "options": [
+        "The team of players win the match.",
+        "The team of players wins the match.",
+        "The team of players winning the match.",
+        "The team of players are win the match."
+      ],
+      "answer": 1,
+      "explanation": "'Team' is the subject — a collective noun — so it is singular: wins. 'Players' only describes the team.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q161",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Subject-Verb Agreement",
+      "question": "Which sentence has a subject-verb agreement ERROR?",
+      "options": [
+        "The child goes to find the herb-woman.",
+        "The children go to find the herb-woman.",
+        "The children goes to find the herb-woman.",
+        "Solomon John goes to find the herb-woman."
+      ],
+      "answer": 2,
+      "explanation": "'Children' is plural, so the verb should be 'go', not 'goes'. The other three sentences agree correctly.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q162",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Subject-Verb Agreement",
+      "question": "Which sentence about a trip has a subject-verb agreement ERROR?",
+      "options": [
+        "My friends are planning a trip.",
+        "My family is planning a trip.",
+        "My friend is planning a trip.",
+        "My family are planning a trip."
+      ],
+      "answer": 3,
+      "explanation": "'Family' is a collective noun and takes 'is' (Rule 4). The other three sentences are correct.",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q163",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Subject-Verb Agreement",
+      "question": "Select ALL the sentences that are correct.",
+      "options": [
+        "The chemist stirs the coffee.",
+        "The boys climbs the rocks.",
+        "My family loves stories.",
+        "Neither Riya nor her friends is late."
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "'The boys climbs' should be 'climb' (plural). 'Neither Riya nor her friends is' should be 'are' (closer subject is plural).",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q164",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Subject-Verb Agreement",
+      "question": "Select ALL the sentences in which the verb agrees with its subject.",
+      "options": [
+        "The herbs smell sweet.",
+        "The lady listen carefully.",
+        "Mr. and Mrs. Peterkin agree.",
+        "The group of boys are ready."
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "'The lady listen' should be 'listens'. 'The group of boys are' should be 'is' (collective noun 'group').",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q165",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Subject-Verb Agreement",
+      "question": "Select ALL the subjects that take a SINGULAR verb.",
+      "options": [
+        "The family",
+        "The chemist and his wife",
+        "A group of friends",
+        "The notebooks"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "'Family' and 'group' are collective nouns (singular). 'The chemist and his wife' (joined by and) and 'the notebooks' are plural.",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q166",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Subject-Verb Agreement",
+      "question": "Select ALL the sentences in which the verb correctly agrees with the CLOSER subject.",
+      "options": [
+        "Neither the pens nor the marker is in stock.",
+        "Neither the marker nor the pens is in stock.",
+        "Either the boys or their sister goes first.",
+        "Either the sister or the boys goes first."
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "In the first and third, the closer subjects (marker, sister) are singular, so 'is'/'goes' are right. In the second and fourth, the closer subjects (pens, boys) are plural and need 'are'/'go'.",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q167",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Subject-Verb Agreement",
+      "question": "A collective noun like 'team' takes a singular verb.",
+      "answer": true,
+      "explanation": "One team = singular: 'The team plays well' (Rule 4).",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q168",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Subject-Verb Agreement",
+      "question": "Two subjects joined by 'and' take a singular verb.",
+      "answer": false,
+      "explanation": "They take a plural verb: 'The bag and the bottle are new' (Rule 2).",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q169",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Subject-Verb Agreement",
+      "question": "With 'neither … nor', the verb agrees with the subject nearer to it.",
+      "answer": true,
+      "explanation": "That is Rule 3.",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q170",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Subject-Verb Agreement",
+      "question": "'The notebooks needs ruled pages' is a correct sentence.",
+      "answer": false,
+      "explanation": "'Notebooks' is plural, so the verb should be 'need'.",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q171",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Subject-Verb Agreement",
+      "question": "'Our group of friends plans a trip' is correct.",
+      "answer": true,
+      "explanation": "'Group' is a collective noun, so 'plans' (singular) is right even though 'friends' is plural.",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q172",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Subject-Verb Agreement",
+      "question": "'The children goes to school' is a correct sentence.",
+      "answer": false,
+      "explanation": "'Children' is plural: 'The children go to school'.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q173",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Subject-Verb Agreement",
+      "question": "'Neither the boys nor their sister were ready' is correct.",
+      "answer": false,
+      "explanation": "The closer subject is 'sister' (singular), so the verb should be 'was'.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q174",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Subject-Verb Agreement",
+      "question": "'The boys and the dog is in the garden' is correct.",
+      "answer": false,
+      "explanation": "Subjects joined by 'and' are plural: 'are in the garden'.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q175",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Subject-Verb Agreement",
+      "question": "'Agamemnon and Solomon John were brothers' uses the correct verb.",
+      "answer": true,
+      "explanation": "Two subjects joined by 'and' → plural 'were'.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q176",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Subject-Verb Agreement",
+      "question": "In 'The school bag and the water bottle are for my brother', the verb is plural because of the word 'and'.",
+      "answer": true,
+      "explanation": "Rule 2: 'and' joins two subjects, making them plural.",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q177",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Subject-Verb Agreement",
+      "question": "In 'Our group of friends plans', the verb agrees with 'friends'.",
+      "answer": false,
+      "explanation": "The verb agrees with 'group', the real subject, which is a singular collective noun.",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q178",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Subject-Verb Agreement",
+      "question": "In 'Neither the pens nor the marker is in stock', the verb is singular because 'marker' is closer to it.",
+      "answer": true,
+      "explanation": "Rule 3: with neither…nor the verb agrees with the nearer subject.",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q179",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Subject-Verb Agreement",
+      "question": "'The jar of herbs are on the shelf' is correct because 'herbs' is plural.",
+      "answer": false,
+      "explanation": "The subject is 'jar' (singular); 'of herbs' only describes it. The correct verb is 'is'.",
+      "source": "book:page35"
+    },
+    {
+      "id": "q180",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Informal Letter Writing",
+      "question": "An informal letter is usually written to ___.",
+      "options": [
+        "a friend or a relative",
+        "a shop or a company",
+        "a school principal",
+        "a newspaper editor"
+      ],
+      "answer": 0,
+      "explanation": "Informal letters share news or feelings with people we know well, like friends and relatives.",
+      "source": "worksheet-L2 B"
+    },
+    {
+      "id": "q181",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Informal Letter Writing",
+      "question": "Which greeting (salutation) suits an informal letter?",
+      "options": [
+        "Dear Sir/Madam,",
+        "Dear Grandma,",
+        "Respected Sir,",
+        "To the Manager,"
+      ],
+      "answer": 1,
+      "explanation": "'Dear Grandma,' is friendly and personal. 'Dear Sir/Madam' and 'Respected Sir' are used in formal letters.",
+      "source": "worksheet-L2 B"
+    },
+    {
+      "id": "q182",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Informal Letter Writing",
+      "question": "Which closing suits a letter to a friend?",
+      "options": [
+        "Yours faithfully,",
+        "Yours obediently,",
+        "Your loving friend,",
+        "Yours sincerely, Sir"
+      ],
+      "answer": 2,
+      "explanation": "Informal letters end warmly: 'Your loving friend', 'With love', 'Yours lovingly'. 'Yours faithfully' is formal.",
+      "source": "worksheet-L2 B"
+    },
+    {
+      "id": "q183",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Informal Letter Writing",
+      "question": "Where is the date usually written in a letter?",
+      "options": [
+        "At the very end, after the name",
+        "In the middle of the body",
+        "Inside the salutation line",
+        "At the top, below the address"
+      ],
+      "answer": 3,
+      "explanation": "The sender's address comes first at the top, then the date, then the salutation.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q184",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Informal Letter Writing",
+      "question": "What comes right after the salutation 'Dear Riya,' in a letter?",
+      "options": [
+        "The body of the letter",
+        "The sender's address",
+        "The signature",
+        "The date"
+      ],
+      "answer": 0,
+      "explanation": "After greeting the person, we begin the body — the main message.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q185",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Informal Letter Writing",
+      "question": "The L1 worksheet letter begins 'Dear Sir/Madam' and ends 'Yours faithfully'. What kind of letter is it?",
+      "options": [
+        "An informal letter to a friend",
+        "A formal letter to a store",
+        "A diary entry for a shop",
+        "A thank-you note to Grandma"
+      ],
+      "answer": 1,
+      "explanation": "'Dear Sir/Madam' and 'Yours faithfully' are formal openings and closings; Riya is ordering from a store.",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q186",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Informal Letter Writing",
+      "question": "Which sentence would fit best in the FIRST paragraph of an informal letter?",
+      "options": [
+        "Kindly dispatch the items at the earliest.",
+        "This is to inform you of a complaint.",
+        "I hope you and Grandpa are keeping well.",
+        "Please find the invoice attached below."
+      ],
+      "answer": 2,
+      "explanation": "Informal letters usually start by asking about the reader's health and happiness in a friendly tone.",
+      "source": "worksheet-L2 B"
+    },
+    {
+      "id": "q187",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Informal Letter Writing",
+      "question": "Which tone is right for an informal letter?",
+      "options": [
+        "Stiff and official",
+        "Cold and brief",
+        "Strict and formal",
+        "Friendly and chatty"
+      ],
+      "answer": 3,
+      "explanation": "We write to friends and relatives the way we would talk to them — warmly and naturally.",
+      "source": "worksheet-L2 B"
+    },
+    {
+      "id": "q188",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Informal Letter Writing",
+      "question": "A student sharing a recent event with a cousin should end the letter with ___.",
+      "options": [
+        "Yours lovingly, Aman",
+        "Yours faithfully, Aman",
+        "Yours obediently, Aman",
+        "Thanking you, Sir"
+      ],
+      "answer": 0,
+      "explanation": "A cousin is a relative, so a warm informal closing like 'Yours lovingly' or 'With love' is right.",
+      "source": "worksheet-L2 B"
+    },
+    {
+      "id": "q189",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Informal Letter Writing",
+      "question": "Select ALL the parts of an informal letter.",
+      "options": [
+        "Date",
+        "Body",
+        "Reference number",
+        "Official seal"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "A letter has an address, date, salutation, body, closing and name. Reference numbers and seals belong to official documents.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q190",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Informal Letter Writing",
+      "question": "Select ALL the closings that suit an informal letter.",
+      "options": [
+        "With love,",
+        "Your friend,",
+        "Yours faithfully,",
+        "Yours obediently,"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "'With love' and 'Your friend' are warm and informal; the other two are formal closings.",
+      "source": "worksheet-L2 B"
+    },
+    {
+      "id": "q191",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Informal Letter Writing",
+      "question": "An informal letter is written to a friend or relative.",
+      "answer": true,
+      "explanation": "That is what makes it informal.",
+      "source": "worksheet-L2 B"
+    },
+    {
+      "id": "q192",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Informal Letter Writing",
+      "question": "'Yours faithfully' is the usual closing for a letter to a friend.",
+      "answer": false,
+      "explanation": "'Yours faithfully' is formal; to a friend we write 'With love' or 'Your friend'.",
+      "source": "worksheet-L2 B"
+    },
+    {
+      "id": "q193",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Informal Letter Writing",
+      "question": "The sender's address and the date are written at the top of a letter.",
+      "answer": true,
+      "explanation": "They come before the salutation.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q194",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Informal Letter Writing",
+      "question": "An informal letter must use very formal words such as 'kindly inform'.",
+      "answer": false,
+      "explanation": "Informal letters use simple, friendly, everyday language.",
+      "source": "worksheet-L2 B"
+    },
+    {
+      "id": "q195",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Informal Letter Writing",
+      "question": "The body of the letter contains the news or event you want to share.",
+      "answer": true,
+      "explanation": "The body is the main message of the letter.",
+      "source": "worksheet-L2 B"
+    },
+    {
+      "id": "q196",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Diary Entry Writing",
+      "question": "What is written at the top of a diary entry?",
+      "options": [
+        "The reader's address",
+        "The date (and often the day)",
+        "A formal salutation",
+        "A reference number"
+      ],
+      "answer": 1,
+      "explanation": "A diary entry begins with the date, e.g. 'Monday, 5 May', so we remember when it happened.",
+      "source": "worksheet-L2 C"
+    },
+    {
+      "id": "q197",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Diary Entry Writing",
+      "question": "A diary entry is usually written in the ___ person.",
+      "options": [
+        "second (you, your)",
+        "third (he, she, they)",
+        "first (I, me, my)",
+        "plural (we, they)"
+      ],
+      "answer": 2,
+      "explanation": "A diary records your own experiences, so you write 'I went…', 'I felt…'.",
+      "source": "worksheet-L2 C"
+    },
+    {
+      "id": "q198",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Diary Entry Writing",
+      "question": "Who is a diary entry written for?",
+      "options": [
+        "Your teacher",
+        "A shopkeeper",
+        "A newspaper",
+        "Yourself"
+      ],
+      "answer": 3,
+      "explanation": "A diary is a private record of your own day, thoughts and feelings.",
+      "source": "worksheet-L2 C"
+    },
+    {
+      "id": "q199",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Diary Entry Writing",
+      "question": "Which opening is common in a diary entry?",
+      "options": [
+        "Dear Diary,",
+        "Dear Sir/Madam,",
+        "Respected Teacher,",
+        "To whom it may concern,"
+      ],
+      "answer": 0,
+      "explanation": "Many diary entries begin with 'Dear Diary,'. Formal salutations belong to formal letters.",
+      "source": "worksheet-L2 C"
+    },
+    {
+      "id": "q200",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Diary Entry Writing",
+      "question": "Which tense is mostly used in a diary entry about today's school day?",
+      "options": [
+        "Future tense",
+        "Past tense",
+        "Present continuous",
+        "Command form"
+      ],
+      "answer": 1,
+      "explanation": "You are describing things that already happened: 'Today we had a surprise test…'.",
+      "source": "worksheet-L2 C"
+    },
+    {
+      "id": "q201",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Diary Entry Writing",
+      "question": "Besides events, what should a good diary entry include?",
+      "options": [
+        "The reader's address",
+        "A list of prices",
+        "Your feelings and thoughts",
+        "A subject line and seal"
+      ],
+      "answer": 2,
+      "explanation": "A diary is personal — it records not only what happened but how you felt about it.",
+      "source": "worksheet-L2 C"
+    },
+    {
+      "id": "q202",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Diary Entry Writing",
+      "question": "Which sentence belongs in a diary entry about an interesting day at school?",
+      "options": [
+        "Kindly send the books by Friday.",
+        "Dear Sir, I wish to complain about…",
+        "Yours faithfully, Riya Sharma",
+        "I felt so proud when my team won the quiz!"
+      ],
+      "answer": 3,
+      "explanation": "A diary entry is personal, first person and full of feelings. The others are formal letter sentences.",
+      "source": "worksheet-L2 C"
+    },
+    {
+      "id": "q203",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Diary Entry Writing",
+      "question": "How does a diary entry usually end?",
+      "options": [
+        "With the writer's name or a short sign-off",
+        "With 'Yours faithfully' and a seal",
+        "With the receiver's full address",
+        "With a formal subject line"
+      ],
+      "answer": 0,
+      "explanation": "Diary entries end simply — with your name, or a line like 'Good night, Diary'. Formal closings are for letters.",
+      "source": "worksheet-L2 C"
+    },
+    {
+      "id": "q204",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Diary Entry Writing",
+      "question": "Select ALL the features of a diary entry.",
+      "options": [
+        "Written in the first person",
+        "Starts with the date",
+        "Addressed to a store manager",
+        "Ends with 'Yours faithfully'"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "A diary is personal (first person) and dated. It is not addressed to anyone else and does not use formal closings.",
+      "source": "worksheet-L2 C"
+    },
+    {
+      "id": "q205",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Diary Entry Writing",
+      "question": "A diary entry records the writer's own day and feelings.",
+      "answer": true,
+      "explanation": "That is the purpose of a diary.",
+      "source": "worksheet-L2 C"
+    },
+    {
+      "id": "q206",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Diary Entry Writing",
+      "question": "A diary entry must begin with the receiver's address.",
+      "answer": false,
+      "explanation": "A diary has no receiver; it begins with the date.",
+      "source": "worksheet-L2 C"
+    },
+    {
+      "id": "q207",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Diary Entry Writing",
+      "question": "A diary entry is written in the third person, like 'She went to school'.",
+      "answer": false,
+      "explanation": "It is written in the first person: 'I went to school'.",
+      "source": "worksheet-L2 C"
+    },
+    {
+      "id": "q208",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Diary Entry Writing",
+      "question": "Both an informal letter and a diary entry use a friendly, personal style.",
+      "answer": true,
+      "explanation": "Both are personal forms of writing, unlike formal letters.",
+      "source": "worksheet-L2"
+    },
+    {
+      "id": "q209",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Story: The Salty Coffee and the Chemist",
+      "question": "What mistake did Mrs. Peterkin make?",
+      "options": [
+        "She poured cream instead of milk",
+        "She put salt instead of sugar in it",
+        "She forgot to add sugar to her tea",
+        "She spilt the coffee on the table"
+      ],
+      "answer": 1,
+      "explanation": "Just as she was adding cream, she found she had put salt in her coffee instead of sugar.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q210",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Story: The Salty Coffee and the Chemist",
+      "question": "What did the family do when they were called in?",
+      "options": [
+        "Tasted, looked and sat down to think",
+        "Threw the coffee out of the window",
+        "Made a fresh cup straight away",
+        "Ran to fetch the lady from Philadelphia"
+      ],
+      "answer": 0,
+      "explanation": "They all tasted, looked, wondered what should be done, and sat down to think.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q211",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Story: The Salty Coffee and the Chemist",
+      "question": "Who suggested asking the chemist?",
+      "options": [
+        "Solomon John",
+        "Agamemnon",
+        "Elizabeth Eliza",
+        "Mr. Peterkin"
+      ],
+      "answer": 1,
+      "explanation": "Agamemnon, who had been to college, said, 'Why don't we go over and ask the advice of the chemist?'",
+      "source": "book:page33"
+    },
+    {
+      "id": "q212",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Story: The Salty Coffee and the Chemist",
+      "question": "Why did the family trust the chemist's advice?",
+      "options": [
+        "He was Mrs. Peterkin's brother",
+        "He had already fixed their coffee",
+        "He was known as a very wise man",
+        "He owned the only shop in town"
+      ],
+      "answer": 2,
+      "explanation": "The chemist lived over the way and 'was a very wise man'.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q213",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Story: The Salty Coffee and the Chemist",
+      "question": "What did the little boys put on before going out?",
+      "options": [
+        "Woollen winter coats",
+        "Shiny leather shoes",
+        "Wide straw hats",
+        "India-rubber boots"
+      ],
+      "answer": 3,
+      "explanation": "Each time the boys went out, they put on their India-rubber boots.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q214",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Story: The Salty Coffee and the Chemist",
+      "question": "What was the chemist trying to discover?",
+      "options": [
+        "Something to turn everything to gold",
+        "A medicine to cure every illness",
+        "A way to make coffee taste sweet",
+        "A machine for melting silver coins"
+      ],
+      "answer": 0,
+      "explanation": "He wanted to find 'something which should turn everything it touched into gold'.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q215",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Story: The Salty Coffee and the Chemist",
+      "question": "Which item was the chemist asking for when the Peterkins arrived?",
+      "options": [
+        "His wife's gold thimble",
+        "His wife's wedding ring",
+        "His grandfather's spectacles",
+        "The gold head of a cane"
+      ],
+      "answer": 1,
+      "explanation": "He had already melted the thimble, spectacles and cane head; now he was on his knees asking for her wedding ring.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q216",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Story: The Salty Coffee and the Chemist",
+      "question": "What did the chemist promise his wife in return for her ring?",
+      "options": [
+        "A golden thimble and a cane",
+        "A new house of solid silver",
+        "A diamond ring set with jewels",
+        "A bottle of the finest coffee"
+      ],
+      "answer": 2,
+      "explanation": "He promised a new wedding ring of diamonds set in emeralds, rubies and topazes.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q217",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Story: The Salty Coffee and the Chemist",
+      "question": "What is a crucible?",
+      "options": [
+        "A glass bottle",
+        "A gold thimble",
+        "A leather case",
+        "A melting-pot"
+      ],
+      "answer": 3,
+      "explanation": "The story explains: 'his crucible — that was the name of his melting-pot'.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q218",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Story: The Salty Coffee and the Chemist",
+      "question": "What did the chemist nearly do when the family burst in?",
+      "options": [
+        "Throw his crucible at their heads",
+        "Lock the door and hide the gold",
+        "Pour the coffee into his bottle",
+        "Run away to the herb-woman"
+      ],
+      "answer": 0,
+      "explanation": "He was so mad that he 'came near throwing his crucible at their heads. But he didn't.'",
+      "source": "book:page33"
+    },
+    {
+      "id": "q219",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Story: The Salty Coffee and the Chemist",
+      "question": "What finally made the chemist agree to help?",
+      "options": [
+        "Mrs. Peterkin begged him to come",
+        "Agamemnon offered to pay in gold",
+        "His wife told him to go at once",
+        "He wanted to taste the coffee"
+      ],
+      "answer": 1,
+      "explanation": "At first he refused, but when Agamemnon said they would pay in gold, he packed his bottles and went.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q220",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Story: The Salty Coffee and the Chemist",
+      "question": "What was the FIRST chemical the chemist put into the coffee?",
+      "options": [
+        "Bichlorate of magnesia",
+        "Tartaric acid",
+        "Chlorate of potassium",
+        "A little ammonia"
+      ],
+      "answer": 2,
+      "explanation": "First he looked and stirred, then he 'put in a little chlorate of potassium'.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q221",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Story: The Salty Coffee and the Chemist",
+      "question": "What did the chemist add when he exclaimed 'I have it!'?",
+      "options": [
+        "Some pure carbon",
+        "A grain of arsenic",
+        "Hypersulphate of lime",
+        "A little ammonia"
+      ],
+      "answer": 3,
+      "explanation": "'I have it!' exclaimed the chemist, 'a little ammonia is just the thing!' — but it was not.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q222",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Story: The Salty Coffee and the Chemist",
+      "question": "What did Mrs. Peterkin say about the many acids the chemist tried?",
+      "options": [
+        "Pleasant, but not precisely coffee",
+        "Bitter, exactly like hop-tea",
+        "Sweet, almost like sugar",
+        "Salty, worse than before"
+      ],
+      "answer": 0,
+      "explanation": "She tasted each and said the flavour was pleasant, but not precisely that of coffee.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q223",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Story: The Salty Coffee and the Chemist",
+      "question": "What effect did the tiny amount of arsenic have?",
+      "options": [
+        "It finally removed the salt",
+        "It gave the coffee a pretty colour",
+        "It made the coffee smell spicy",
+        "It turned the coffee to gold"
+      ],
+      "answer": 1,
+      "explanation": "The arsenic 'gave rather a pretty colour', but Mrs. Peterkin said it still tasted of anything but coffee.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q224",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Story: The Salty Coffee and the Chemist",
+      "question": "After failing, what did the chemist say about his work?",
+      "options": [
+        "The salt had been removed, though the taste stayed",
+        "The coffee was bewitched, so nothing could help",
+        "The theory remained the same, though the experiment failed",
+        "The family had added the wrong kind of salt"
+      ],
+      "answer": 2,
+      "explanation": "He insisted that all he had done 'ought to have taken out the salt' — the theory was fine even though it failed.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q225",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Story: The Salty Coffee and the Chemist",
+      "question": "How much did the family agree to pay the chemist?",
+      "options": [
+        "Five cents in currency",
+        "$2.69¾ in silver",
+        "One gold thimble",
+        "$1.37½ in gold"
+      ],
+      "answer": 3,
+      "explanation": "They were willing to give him $1.37½ in gold; the herb-woman later took only five cents.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q226",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Story: The Salty Coffee and the Chemist",
+      "question": "Select ALL the items the chemist had ALREADY melted before the Peterkins arrived.",
+      "options": [
+        "His wife's gold thimble",
+        "His great-grandfather's gold-bowed spectacles",
+        "His wife's wedding ring",
+        "The family furniture"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The thimble, spectacles and the cane's gold head were melted. The wedding ring was only being asked for, and the furniture was a promise for later.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q227",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Story: The Salty Coffee and the Chemist",
+      "question": "The chemist asked his wife for her gold necklace to melt.",
+      "answer": false,
+      "explanation": "He asked for her wedding ring.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q228",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Story: The Salty Coffee and the Chemist",
+      "question": "The chemist agreed to help the family for free.",
+      "answer": false,
+      "explanation": "He only agreed when Agamemnon promised to pay in gold.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q229",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Story: The Salty Coffee and the Chemist",
+      "question": "The chemist could already turn things into pure gold.",
+      "answer": false,
+      "explanation": "He could turn things into 'almost gold' — he had almost found what he wanted.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q230",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Story: The Herb-Woman and the Lady from Philadelphia",
+      "question": "Who suggested going to the herb-woman?",
+      "options": [
+        "Agamemnon",
+        "Elizabeth Eliza",
+        "Solomon John",
+        "Mr. Peterkin"
+      ],
+      "answer": 1,
+      "explanation": "Elizabeth Eliza said, 'Why don't we go to the herb-woman?'",
+      "source": "book:page34"
+    },
+    {
+      "id": "q231",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Story: The Herb-Woman and the Lady from Philadelphia",
+      "question": "Elizabeth Eliza was named after ___.",
+      "options": [
+        "her two grandmothers",
+        "the lady from Philadelphia",
+        "her two aunts",
+        "two famous queens"
+      ],
+      "answer": 2,
+      "explanation": "Elizabeth from her father's sister and Eliza from her mother's sister.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q232",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Story: The Herb-Woman and the Lady from Philadelphia",
+      "question": "Who was the herb-woman?",
+      "options": [
+        "The chemist's clever wife",
+        "A doctor from Philadelphia",
+        "Mrs. Peterkin's neighbour",
+        "An old woman who sold herbs"
+      ],
+      "answer": 3,
+      "explanation": "She was 'an old woman who came round to sell herbs, and knew a great deal'.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q233",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Story: The Herb-Woman and the Lady from Philadelphia",
+      "question": "Where was the herb-woman's house?",
+      "options": [
+        "At the foot of a high hill",
+        "Just over the way",
+        "On top of the town hall",
+        "Beside the chemist's shop"
+      ],
+      "answer": 0,
+      "explanation": "It was at the very end of the street, 'at the foot of a high hill'.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q234",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Story: The Herb-Woman and the Lady from Philadelphia",
+      "question": "Why was the herb-woman not at home?",
+      "options": [
+        "She was visiting the chemist's wife",
+        "She had gone to the woods for wild herbs",
+        "She was selling herbs in the town",
+        "She was asleep in her spicy parlour"
+      ],
+      "answer": 1,
+      "explanation": "She 'had gone up into the woods to get some more wild herbs', so the children followed her.",
+      "source": "book:page35"
+    },
+    {
+      "id": "q235",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Story: The Herb-Woman and the Lady from Philadelphia",
+      "question": "How did the children recognise the herb-woman?",
+      "options": [
+        "By her bright red apron",
+        "By her little Dutch-oven",
+        "By her steeple-crowned hat",
+        "By her long walking stick"
+      ],
+      "answer": 2,
+      "explanation": "'They knew her by her hat. It was steeple-crowned, without any vane.'",
+      "source": "book:page35"
+    },
+    {
+      "id": "q236",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Story: The Herb-Woman and the Lady from Philadelphia",
+      "question": "What did the herb-woman put into the coffee first?",
+      "options": [
+        "A little hop, for the bitter",
+        "A spoon of ginger",
+        "Some spearmint leaves",
+        "A pinch of caraway seed"
+      ],
+      "answer": 0,
+      "explanation": "'First she put in a little hop for the bitter.' Mrs. Peterkin said it tasted like hop-tea.",
+      "source": "book:page35"
+    },
+    {
+      "id": "q237",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Story: The Herb-Woman and the Lady from Philadelphia",
+      "question": "What happened as the herb-woman added more herbs?",
+      "options": [
+        "The coffee slowly turned sweet",
+        "The coffee tasted worse and worse",
+        "The salt finally disappeared",
+        "The coffee began to smell of gold"
+      ],
+      "answer": 1,
+      "explanation": "'The more the old woman stirred, and the more she put in, the worse it all seemed to taste.'",
+      "source": "book:page36"
+    },
+    {
+      "id": "q238",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Story: The Herb-Woman and the Lady from Philadelphia",
+      "question": "What did the herb-woman believe was wrong with the coffee?",
+      "options": [
+        "It was too old",
+        "It was poisoned",
+        "It was bewitched",
+        "It was too hot"
+      ],
+      "answer": 2,
+      "explanation": "She shook her head, muttered a few words, and said she believed the coffee was bewitched.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q239",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Story: The Herb-Woman and the Lady from Philadelphia",
+      "question": "How much did the herb-woman take as payment?",
+      "options": [
+        "$1.37½ in gold",
+        "A bag of coffee beans",
+        "Nothing at all",
+        "Five cents in currency"
+      ],
+      "answer": 3,
+      "explanation": "'All she would take for pay was five cents in currency' — far less than the chemist.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q240",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Story: The Herb-Woman and the Lady from Philadelphia",
+      "question": "Who finally solved the problem?",
+      "options": [
+        "The lady from Philadelphia",
+        "The wise old herb-woman",
+        "The clever chemist",
+        "Agamemnon from college"
+      ],
+      "answer": 0,
+      "explanation": "The lady from Philadelphia simply asked, 'Why doesn't your mother make a fresh cup of coffee?'",
+      "source": "book:page36"
+    },
+    {
+      "id": "q241",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Story: The Herb-Woman and the Lady from Philadelphia",
+      "question": "Who went to ask the lady from Philadelphia?",
+      "options": [
+        "All the children together",
+        "Elizabeth Eliza, by herself",
+        "Mr. and Mrs. Peterkin",
+        "Solomon John and the boys"
+      ],
+      "answer": 1,
+      "explanation": "Elizabeth Eliza said, 'Suppose I go and ask her', and off she went alone.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q242",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Story: The Herb-Woman and the Lady from Philadelphia",
+      "question": "What did the lady from Philadelphia suggest?",
+      "options": [
+        "Adding a little more sugar",
+        "Boiling the coffee again",
+        "Making a fresh cup of coffee",
+        "Buying coffee from the shop"
+      ],
+      "answer": 2,
+      "explanation": "'Why doesn't your mother make a fresh cup of coffee?'",
+      "source": "book:page36"
+    },
+    {
+      "id": "q243",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Story: The Herb-Woman and the Lady from Philadelphia",
+      "question": "What was Agamemnon doing just before the simple answer came?",
+      "options": [
+        "Finishing his sum",
+        "Melting the gold",
+        "Climbing the rocks",
+        "Writing a letter"
+      ],
+      "answer": 0,
+      "explanation": "Agamemnon 'had just finished his sum' when he shouted with joy at the lady's idea.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q244",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Story: The Herb-Woman and the Lady from Philadelphia",
+      "question": "In what ORDER did the Peterkins seek help?",
+      "options": [
+        "Herb-woman → chemist → lady from Philadelphia",
+        "Lady from Philadelphia → chemist → herb-woman",
+        "Chemist → lady from Philadelphia → herb-woman",
+        "Chemist → herb-woman → lady from Philadelphia"
+      ],
+      "answer": 3,
+      "explanation": "First the chemist (Agamemnon's idea), then the herb-woman, and finally the lady from Philadelphia (both Elizabeth Eliza's ideas).",
+      "source": "book:page33"
+    },
+    {
+      "id": "q245",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Story: The Herb-Woman and the Lady from Philadelphia",
+      "question": "Who went to find the herb-woman? Select ALL.",
+      "options": [
+        "Elizabeth Eliza",
+        "Solomon John",
+        "Mr. Peterkin",
+        "The chemist"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Elizabeth Eliza, Solomon John and the little boys went; Mr. Peterkin and the chemist stayed behind.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q246",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Story: The Herb-Woman and the Lady from Philadelphia",
+      "question": "Select ALL the things the herb-woman carried.",
+      "options": [
+        "A trowel",
+        "A basket and a stick",
+        "A leather case",
+        "A crucible"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "She took her trowel, her basket and her stick. The leather case and crucible belonged to the chemist.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q247",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Story: The Herb-Woman and the Lady from Philadelphia",
+      "question": "The children found the herb-woman digging round a sassafras bush.",
+      "answer": true,
+      "explanation": "They saw her 'digging with her trowel round a sassafras bush'.",
+      "source": "book:page35"
+    },
+    {
+      "id": "q248",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Story: The Herb-Woman and the Lady from Philadelphia",
+      "question": "The lady from Philadelphia lived at the end of the street.",
+      "answer": false,
+      "explanation": "She was 'staying in town'; it was the herb-woman who lived at the end of the street.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q249",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Story: The Herb-Woman and the Lady from Philadelphia",
+      "question": "The herb-woman's hat had a weather vane on top.",
+      "answer": false,
+      "explanation": "Her hat was steeple-crowned 'without any vane'.",
+      "source": "book:page35"
+    },
+    {
+      "id": "q250",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Characters, Theme and Humour",
+      "question": "What is the central message of the story?",
+      "options": [
+        "Simple common sense often solves problems best",
+        "Experts should always be paid in gold",
+        "Coffee should be made with herbs",
+        "Big families cause big problems"
+      ],
+      "answer": 0,
+      "explanation": "The chemist's chemicals and the herb-woman's herbs failed, but one simple idea — a fresh cup — solved everything.",
+      "source": "worksheet-L1 A3"
+    },
+    {
+      "id": "q251",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Characters, Theme and Humour",
+      "question": "Who wrote 'The Peterkin Papers'?",
+      "options": [
+        "Lewis Carroll",
+        "Lucretia Hale",
+        "Jonathan Swift",
+        "Roald Dahl"
+      ],
+      "answer": 1,
+      "explanation": "The story is signed '— By Lucretia Hale', an American writer who lived from 1820 to 1900.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q252",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Characters, Theme and Humour",
+      "question": "Why is the lady from Philadelphia wiser than the chemist?",
+      "options": [
+        "She knows far more chemistry",
+        "She owns more gold than he does",
+        "She listens carefully and thinks simply",
+        "She has studied herbs for years"
+      ],
+      "answer": 2,
+      "explanation": "The chemist knows a lot of science but has no common sense; the lady listens and thinks simply. Knowledge alone is not wisdom.",
+      "source": "worksheet-L1 A4"
+    },
+    {
+      "id": "q253",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Characters, Theme and Humour",
+      "question": "What does the gold experiment tell us about the chemist?",
+      "options": [
+        "He is generous and kind to his wife",
+        "He is poor and needs the money",
+        "He is lazy and avoids hard work",
+        "He is greedy and obsessed with experiments"
+      ],
+      "answer": 3,
+      "explanation": "He is ready to melt his wife's wedding ring and family treasures, and only helps when paid in gold.",
+      "source": "worksheet-L1 A5"
+    },
+    {
+      "id": "q254",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Characters, Theme and Humour",
+      "question": "If Mrs. Peterkin had been alone, how would the story probably have ended?",
+      "options": [
+        "She would have made a fresh cup in a minute",
+        "She would have drunk the salty coffee",
+        "She would have called the chemist herself",
+        "She would have waited for the herb-woman"
+      ],
+      "answer": 0,
+      "explanation": "The problem grew big because many people added complicated ideas; alone, she would likely have just made a fresh cup.",
+      "source": "worksheet-L2 A1"
+    },
+    {
+      "id": "q255",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Characters, Theme and Humour",
+      "question": "A modern 'Peterkin problem': a phone won't switch on because the battery is empty. What is the Peterkin-style mistake?",
+      "options": [
+        "Charging the phone straight away",
+        "Trying every complicated fix before charging it",
+        "Asking a neighbour for simple advice",
+        "Reading the instruction booklet first"
+      ],
+      "answer": 1,
+      "explanation": "The Peterkins would call a repair shop, an expert and search online for hours before someone asks, 'Why don't you just charge it?'",
+      "source": "worksheet-L2 A2"
+    },
+    {
+      "id": "q256",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Characters, Theme and Humour",
+      "question": "What makes the story funny?",
+      "options": [
+        "The chemist turns the coffee into gold",
+        "The herb-woman casts a magic spell",
+        "Everyone misses an obvious answer for a whole day",
+        "Mrs. Peterkin drinks the salty coffee"
+      ],
+      "answer": 2,
+      "explanation": "The humour comes from exaggeration — long lists of chemicals and herbs — while nobody thinks of simply making a fresh cup.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q257",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Characters, Theme and Humour",
+      "question": "Is the story really only about coffee? What else is it about?",
+      "options": [
+        "How to brew coffee correctly",
+        "Why chemistry is dangerous",
+        "Why herbs taste better than medicine",
+        "How people complicate simple problems"
+      ],
+      "answer": 3,
+      "explanation": "The coffee is just a small example to make us laugh; the real lesson is to stay calm, think clearly and try simple solutions first.",
+      "source": "worksheet-L2 A3"
+    },
+    {
+      "id": "q258",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Characters, Theme and Humour",
+      "question": "Which family member's suggestion led to the chemist, and what detail about him is given?",
+      "options": [
+        "Agamemnon, who had been to college",
+        "Solomon John, who had been to sea",
+        "Mr. Peterkin, who read the newspaper",
+        "Elizabeth Eliza, who was the only daughter"
+      ],
+      "answer": 0,
+      "explanation": "Agamemnon's college education is mentioned — yet even he did not think of the simple answer.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q259",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Characters, Theme and Humour",
+      "question": "Which word best describes the Peterkin family in this story?",
+      "options": [
+        "Cruel and quarrelsome",
+        "Well-meaning but foolish",
+        "Lazy and careless",
+        "Greedy and dishonest"
+      ],
+      "answer": 1,
+      "explanation": "They try hard and mean well, but they are silly enough to miss the obvious solution all day.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q260",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Characters, Theme and Humour",
+      "question": "The story suggests that experts always know best.",
+      "answer": false,
+      "explanation": "The 'experts' (chemist and herb-woman) failed; a simple, sensible idea won.",
+      "source": "worksheet-L1 A3"
+    },
+    {
+      "id": "q261",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Characters, Theme and Humour",
+      "question": "Mrs. Peterkin had to wait the whole day for her cup of coffee.",
+      "answer": true,
+      "explanation": "It was growing late in the day before the lady from Philadelphia's idea reached her.",
+      "source": "worksheet-L2 A4"
+    },
+    {
+      "id": "q262",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Characters, Theme and Humour",
+      "question": "Agamemnon's college education helped him find the simple solution.",
+      "answer": false,
+      "explanation": "Despite his college education, Agamemnon suggested the chemist and never thought of a fresh cup.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q263",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Vocabulary: Glossary Words",
+      "question": "In the story, 'consenting' means ___.",
+      "options": [
+        "refusing something",
+        "forgetting something",
+        "hiding something",
+        "agreeing to something"
+      ],
+      "answer": 3,
+      "explanation": "The chemist's wife 'was just consenting' — agreeing — to give up her ring.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q264",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Vocabulary: Glossary Words",
+      "question": "'Obliged' in 'they were all much obliged to him' means ___.",
+      "options": [
+        "angry",
+        "thankful",
+        "worried",
+        "tired"
+      ],
+      "answer": 1,
+      "explanation": "The glossary defines obliged as thankful.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q265",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Vocabulary: Glossary Words",
+      "question": "'Ungratefully' means ___.",
+      "options": [
+        "with great politeness",
+        "in a very loud voice",
+        "without showing thanks",
+        "after a long pause"
+      ],
+      "answer": 2,
+      "explanation": "Mrs. Peterkin 'ungratefully said it tasted of anything but coffee' — she showed no thanks for the chemist's effort.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q266",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Vocabulary: Glossary Words",
+      "question": "What is a trowel?",
+      "options": [
+        "A hat with a pointed top",
+        "A pot used for melting",
+        "A bag for carrying herbs",
+        "A small hand tool for digging"
+      ],
+      "answer": 3,
+      "explanation": "The herb-woman was digging with her trowel round a sassafras bush.",
+      "source": "book:page35"
+    },
+    {
+      "id": "q267",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Vocabulary: Glossary Words",
+      "question": "'Bewitched' means ___.",
+      "options": [
+        "enchanted as if by magic",
+        "spoilt by too much salt",
+        "boiled for too long",
+        "sold at a high price"
+      ],
+      "answer": 0,
+      "explanation": "The herb-woman believed the coffee was bewitched — charmed or enchanted as if by magic.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q268",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Vocabulary: Glossary Words",
+      "question": "'Attentively' means ___.",
+      "options": [
+        "quickly, without listening",
+        "carefully, with full attention",
+        "loudly, with great joy",
+        "sadly, with tears"
+      ],
+      "answer": 1,
+      "explanation": "The lady from Philadelphia listened very attentively — carefully and with full attention.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q269",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Vocabulary: Glossary Words",
+      "question": "'The chemist lived over the way.' What does 'over the way' mean?",
+      "options": [
+        "Far away in the city",
+        "Up on the hill",
+        "Across the road",
+        "At the end of the street"
+      ],
+      "answer": 2,
+      "explanation": "'Over the way' means just across the road — close enough to walk over at once.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q270",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Vocabulary: Glossary Words",
+      "question": "'She had tried in vain' means she had tried ___.",
+      "options": [
+        "with great care",
+        "for a long time",
+        "only once",
+        "without success"
+      ],
+      "answer": 3,
+      "explanation": "'In vain' means without any success — the herb-woman's herbs did not help.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q271",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Vocabulary: Glossary Words",
+      "question": "Select ALL the glossary words that describe HOW someone did something (adverbs).",
+      "options": [
+        "ungratefully",
+        "attentively",
+        "trowel",
+        "crucible"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "'Ungratefully' and 'attentively' are adverbs of manner; 'trowel' and 'crucible' are nouns (things).",
+      "source": "book:page34"
+    },
+    {
+      "id": "q272",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Vocabulary: Idioms",
+      "question": "What is an idiom?",
+      "options": [
+        "A phrase whose meaning differs from its words",
+        "A word that describes a verb",
+        "A sentence with two subjects",
+        "A list of rhyming words"
+      ],
+      "answer": 0,
+      "explanation": "An idiom's meaning cannot be worked out from the ordinary meaning of each word, e.g. 'a piece of cake' = very easy.",
+      "source": "idiom practice"
+    },
+    {
+      "id": "q273",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Vocabulary: Idioms",
+      "question": "'Make a mountain out of a molehill' means ___.",
+      "options": [
+        "to climb a very steep hill",
+        "to make a small problem seem huge",
+        "to build something very strong",
+        "to dig a hole in the garden"
+      ],
+      "answer": 1,
+      "explanation": "The Peterkins did exactly this — a cup of salty coffee became an all-day adventure.",
+      "source": "idiom practice"
+    },
+    {
+      "id": "q274",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Vocabulary: Idioms",
+      "question": "'A piece of cake' means something that is ___.",
+      "options": [
+        "very sweet",
+        "very costly",
+        "very easy",
+        "very rare"
+      ],
+      "answer": 2,
+      "explanation": "Making a fresh cup of coffee was a piece of cake — but nobody thought of it!",
+      "source": "idiom practice"
+    },
+    {
+      "id": "q275",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Vocabulary: Idioms",
+      "question": "'Once in a blue moon' means ___.",
+      "options": [
+        "every night",
+        "very quickly",
+        "at midnight",
+        "very rarely"
+      ],
+      "answer": 3,
+      "explanation": "A 'blue moon' is rare, so the idiom means something that hardly ever happens.",
+      "source": "idiom practice"
+    },
+    {
+      "id": "q276",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Vocabulary: Idioms",
+      "question": "'Add fuel to the fire' means ___.",
+      "options": [
+        "to light a cooking fire",
+        "to make a bad situation worse",
+        "to help someone calm down",
+        "to warm up a cold room"
+      ],
+      "answer": 1,
+      "explanation": "The chemist added fuel to the fire — every chemical made the coffee worse instead of better.",
+      "source": "idiom practice"
+    },
+    {
+      "id": "q277",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Vocabulary: Idioms",
+      "question": "'Back to square one' means ___.",
+      "options": [
+        "winning the first prize",
+        "standing in a straight line",
+        "starting all over again",
+        "drawing a square shape"
+      ],
+      "answer": 2,
+      "explanation": "After the chemist and the herb-woman failed, the family was back to square one.",
+      "source": "idiom practice"
+    },
+    {
+      "id": "q278",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Vocabulary: Idioms",
+      "question": "'Hit the nail on the head' means ___.",
+      "options": [
+        "to hurt your thumb badly",
+        "to build a wooden box",
+        "to make a loud noise",
+        "to say exactly the right thing"
+      ],
+      "answer": 3,
+      "explanation": "The lady from Philadelphia hit the nail on the head with 'make a fresh cup'.",
+      "source": "idiom practice"
+    },
+    {
+      "id": "q279",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Vocabulary: Idioms",
+      "question": "'Cost an arm and a leg' means ___.",
+      "options": [
+        "to cause an injury",
+        "to be very expensive",
+        "to take a long time",
+        "to need two helpers"
+      ],
+      "answer": 1,
+      "explanation": "The chemist's fee in gold cost the Peterkins an arm and a leg compared with the herb-woman's five cents.",
+      "source": "idiom practice"
+    },
+    {
+      "id": "q280",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Vocabulary: Idioms",
+      "question": "Which idiom best describes the Peterkins' all-day fuss over one cup of coffee?",
+      "options": [
+        "A piece of cake",
+        "Once in a blue moon",
+        "A storm in a teacup",
+        "Under the weather"
+      ],
+      "answer": 2,
+      "explanation": "A storm in a teacup is a big fuss about something small — exactly what the Peterkins made.",
+      "source": "idiom practice"
+    },
+    {
+      "id": "q281",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Vocabulary: Idioms",
+      "question": "Select ALL the idioms that mean something is EASY.",
+      "options": [
+        "a piece of cake",
+        "child's play",
+        "a storm in a teacup",
+        "under the weather"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "'A piece of cake' and 'child's play' both mean very easy. The other two mean a fuss about nothing and feeling unwell.",
+      "source": "idiom practice"
+    },
+    {
+      "id": "q282",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Vocabulary: Idioms",
+      "question": "'Hit the nail on the head' means to hurt your thumb with a hammer.",
+      "answer": false,
+      "explanation": "It means to say or do exactly the right thing.",
+      "source": "idiom practice"
+    },
+    {
+      "id": "q283",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Vocabulary: Idioms",
+      "question": "'A piece of cake' means something very easy.",
+      "answer": true,
+      "explanation": "It is one of the most common idioms for an easy task.",
+      "source": "idiom practice"
+    },
+    {
+      "id": "q284",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Vocabulary: Idioms",
+      "question": "The meaning of an idiom can be worked out from the ordinary meaning of each word.",
+      "answer": false,
+      "explanation": "Idioms have special meanings — 'raining cats and dogs' just means raining heavily.",
+      "source": "idiom practice"
+    },
+    {
+      "id": "q285",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Vocabulary: Idioms",
+      "question": "'Add fuel to the fire' describes what the chemist did to the coffee.",
+      "answer": true,
+      "explanation": "Each chemical made the coffee worse — he made a bad situation worse.",
+      "source": "idiom practice"
+    },
+    {
+      "id": "q286",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "In which sentence is 'hard' an adverb of manner?",
+      "options": [
+        "It was a hard test for her.",
+        "The hard rock hurt her foot.",
+        "She studied hard for the test.",
+        "Hard work was her habit."
+      ],
+      "answer": 2,
+      "explanation": "In 'studied hard', hard tells HOW she studied. In the other sentences 'hard' describes a noun, so it is an adjective.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q287",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'Mrs. Peterkin had not had her coffee yet.' What type of adverb is 'yet'?",
+      "options": [
+        "Manner",
+        "Place",
+        "Degree",
+        "Time"
+      ],
+      "answer": 3,
+      "explanation": "'Yet' means 'up to now' — it tells about WHEN, so it is an adverb of time.",
+      "source": "book:page36"
+    },
+    {
+      "id": "q288",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'So the little boys put on their boots, and over they went.' What type of adverb is 'over'?",
+      "options": [
+        "Place",
+        "Manner",
+        "Time",
+        "Number"
+      ],
+      "answer": 0,
+      "explanation": "'Over' tells WHERE they went — across to the chemist's house.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q289",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "Which sentence contains BOTH an adverb of manner and an adverb of place?",
+      "options": [
+        "The boys climbed carefully yesterday.",
+        "The boys climbed carefully upstairs.",
+        "The boys climbed upstairs yesterday.",
+        "The boys climbed the rocks yesterday."
+      ],
+      "answer": 1,
+      "explanation": "'Carefully' is manner and 'upstairs' is place. The other sentences use 'yesterday' (time).",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q290",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "Which sentence contains BOTH an adverb of time and an adverb of manner?",
+      "options": [
+        "Yesterday she sang upstairs.",
+        "Outside she sang beautifully.",
+        "Yesterday she sang beautifully.",
+        "She sang beautifully and loudly."
+      ],
+      "answer": 2,
+      "explanation": "'Yesterday' is time and 'beautifully' is manner. The others pair time+place, place+manner, or manner+manner.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q291",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "Which word in this list is NOT an adverb? quickly, loudly, lovely, softly",
+      "options": [
+        "quickly",
+        "loudly",
+        "softly",
+        "lovely"
+      ],
+      "answer": 3,
+      "explanation": "'Lovely' ends in -ly but it is an adjective (a lovely day). Not every -ly word is an adverb.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q292",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "Find the error: 'She speaks English very good.'",
+      "options": [
+        "'good' should be 'well'",
+        "'speaks' should be 'speak'",
+        "'very' should be 'much'",
+        "'English' should be 'english'"
+      ],
+      "answer": 0,
+      "explanation": "'Speaks' is a verb, so it needs the adverb 'well'. 'Good' is an adjective.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q293",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "Put the words in the best order: safely / the parcel / yesterday / arrived",
+      "options": [
+        "The parcel safely yesterday arrived.",
+        "The parcel arrived safely yesterday.",
+        "Yesterday safely the parcel arrived.",
+        "The parcel arrived yesterday safely."
+      ],
+      "answer": 1,
+      "explanation": "Adverb of manner (safely) usually comes right after the verb, and the time adverb (yesterday) goes at the end or the start.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q294",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "'Friendly' is an adverb because it ends in -ly.",
+      "answer": false,
+      "explanation": "'Friendly' is an adjective (a friendly dog). The -ly ending alone does not make a word an adverb.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q295",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Adverbs: Manner, Place and Time",
+      "question": "In 'They came at last to the herb-woman's house', the words 'at last' tell WHEN they came.",
+      "answer": true,
+      "explanation": "'At last' means finally — an expression of time.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q296",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Subject and Predicate",
+      "question": "'Here she had marigolds and hollyhocks.' What is the subject?",
+      "options": [
+        "Here",
+        "marigolds",
+        "she",
+        "hollyhocks"
+      ],
+      "answer": 2,
+      "explanation": "'She' (the herb-woman) is who the sentence is about; 'Here' is an adverb of place and the flowers are what she had.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q297",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subject and Predicate",
+      "question": "'Why don't we go to the herb-woman?' Who or what is the subject?",
+      "options": [
+        "Why",
+        "the herb-woman",
+        "go",
+        "we"
+      ],
+      "answer": 3,
+      "explanation": "The question is about 'we' — the Peterkins — going. 'The herb-woman' is part of the predicate.",
+      "source": "book:page34"
+    },
+    {
+      "id": "q298",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subject and Predicate",
+      "question": "'The coffee, which had gone cold, was thrown away.' What is the complete subject?",
+      "options": [
+        "The coffee, which had gone cold",
+        "was thrown away",
+        "which had gone cold",
+        "thrown away cold"
+      ],
+      "answer": 0,
+      "explanation": "The subject is the coffee, together with the words that describe it. The predicate is 'was thrown away'.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q299",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Subject and Predicate",
+      "question": "Which sentence has 'went back with the children' as its predicate?",
+      "options": [
+        "The children went back with the herb-woman.",
+        "The herb-woman went back with the children.",
+        "Back went the children with the herb-woman.",
+        "With the children went the herb-woman back."
+      ],
+      "answer": 1,
+      "explanation": "Only in the first sentence does the subject 'The herb-woman' do the action 'went back with the children'.",
+      "source": "book:page35"
+    },
+    {
+      "id": "q300",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Subject and Predicate",
+      "question": "In 'Over they went', the subject is 'they'.",
+      "answer": true,
+      "explanation": "Even though 'over' comes first, 'they' is who the sentence is about.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q301",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Subject-Verb Agreement",
+      "question": "A cup of coffee ___ on the table.",
+      "options": [
+        "are",
+        "were",
+        "is",
+        "be"
+      ],
+      "answer": 2,
+      "explanation": "The subject is 'cup' (singular), not 'coffee', so the verb is 'is'.",
+      "source": "book:page33"
+    },
+    {
+      "id": "q302",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Subject-Verb Agreement",
+      "question": "The flock of sheep ___ in the field.",
+      "options": [
+        "graze",
+        "grazing",
+        "are grazing",
+        "grazes"
+      ],
+      "answer": 3,
+      "explanation": "'Flock' is a collective noun — one group — so it takes a singular verb (Rule 4).",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q303",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Subject-Verb Agreement",
+      "question": "My brother and I ___ cricket every evening.",
+      "options": [
+        "play",
+        "plays",
+        "playing",
+        "is playing"
+      ],
+      "answer": 0,
+      "explanation": "Two subjects joined by 'and' take the plural verb 'play' (Rule 2).",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q304",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Subject-Verb Agreement",
+      "question": "Which 'either … or' sentence is correct?",
+      "options": [
+        "Either the pens or the marker are in stock.",
+        "Either the pens or the marker is in stock.",
+        "Either the marker or the pens is in stock.",
+        "Either the pens or the marker were being in stock."
+      ],
+      "answer": 1,
+      "explanation": "With either…or the verb agrees with the closer subject: 'marker' (singular) → is. In the second option the closer subject is 'pens', which needs 'are'.",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q305",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Subject-Verb Agreement",
+      "question": "Which sentence about Monday meetings has a subject-verb agreement ERROR?",
+      "options": [
+        "The committee meets every Monday.",
+        "The members meet every Monday.",
+        "The committee meet every Monday.",
+        "The leader meets every Monday."
+      ],
+      "answer": 2,
+      "explanation": "'Committee' is a collective noun and takes the singular verb 'meets' (Rule 4).",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q306",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Subject-Verb Agreement",
+      "question": "In 'Riya and her brother are twins', the verb is plural because two people are joined by 'and'.",
+      "answer": true,
+      "explanation": "That is Rule 2.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q307",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Subject-Verb Agreement",
+      "question": "'Either the pens or the marker are in stock' is correct because 'pens' is plural.",
+      "answer": false,
+      "explanation": "The verb agrees with the CLOSER subject, 'marker', which is singular: 'is in stock'.",
+      "source": "worksheet-L1 D"
+    },
+    {
+      "id": "q308",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Informal Letter Writing",
+      "question": "What is the correct ORDER of the parts of a letter?",
+      "options": [
+        "Salutation, address, date, body, name, closing",
+        "Date, body, address, salutation, closing, name",
+        "Address, salutation, date, closing, body, name",
+        "Address, date, salutation, body, closing, name"
+      ],
+      "answer": 3,
+      "explanation": "We begin with the sender's address and date, greet the reader, write the body, then close and sign our name.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q309",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Informal Letter Writing",
+      "question": "The L2 worksheet asks you to write a letter to ___.",
+      "options": [
+        "a relative or friend about a recent event",
+        "a store manager about an order",
+        "the principal about a holiday",
+        "a newspaper about the weather"
+      ],
+      "answer": 0,
+      "explanation": "Worksheet L2, Part B: 'Write a letter to a relative or friend to share a recent event.'",
+      "source": "worksheet-L2 B"
+    },
+    {
+      "id": "q310",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Informal Letter Writing",
+      "question": "Where in an informal letter would 'Do write back soon!' usually appear?",
+      "options": [
+        "At the top, before the address",
+        "At the end of the body, before the closing",
+        "In the salutation line",
+        "After the writer's name"
+      ],
+      "answer": 1,
+      "explanation": "Friendly requests to reply come in the last lines of the body, just before 'With love' and the name.",
+      "source": "grammar practice"
+    },
+    {
+      "id": "q311",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Diary Entry Writing",
+      "question": "The L2 worksheet asks you to write a diary entry about ___.",
+      "options": [
+        "a visit to a chemist's shop",
+        "a letter from a friend",
+        "an interesting day at school",
+        "a recipe for good coffee"
+      ],
+      "answer": 2,
+      "explanation": "Worksheet L2, Part C: 'Write a diary entry about an interesting day at school.'",
+      "source": "worksheet-L2 C"
+    },
+    {
+      "id": "q312",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Diary Entry Writing",
+      "question": "Which line would NOT belong in a diary entry?",
+      "options": [
+        "Today was such a surprising day!",
+        "I can't wait for tomorrow's match.",
+        "Dear Diary, you won't believe this.",
+        "Yours faithfully, Riya Sharma"
+      ],
+      "answer": 3,
+      "explanation": "'Yours faithfully' is a formal letter closing. Diary entries are personal and informal.",
+      "source": "worksheet-L2 C"
+    }
+  ]
+}

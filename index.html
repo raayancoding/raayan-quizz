@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raayan Quizz · Learn &amp; Play!</title>
+  <meta name="theme-color" content="#7c3aed" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="RaayanQuizz" />
+  <link rel="apple-touch-icon" href="logo.png" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- floating background blobs -->
+  <div class="bg-blobs" aria-hidden="true">
+    <span class="blob b1"></span><span class="blob b2"></span>
+    <span class="blob b3"></span><span class="blob b4"></span>
+    <span class="star s1">✦</span><span class="star s2">✧</span>
+    <span class="star s3">★</span><span class="star s4">✦</span>
+  </div>
+
+  <canvas id="confetti" aria-hidden="true"></canvas>
+
+  <header class="topbar">
+    <div class="brand" data-nav="home" title="Home">
+      <span class="logo" id="brand-mascot">
+        <svg viewBox="0 0 64 64" width="40" height="40" aria-hidden="true">
+          <defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#ec4899"/></linearGradient></defs>
+          <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#lg)"/>
+          <path d="M18 16 l6 8 -11 1 z" fill="#facc15"/><path d="M46 16 l-6 8 11 1 z" fill="#facc15"/>
+          <ellipse cx="32" cy="36" rx="20" ry="19" fill="#fde68a"/>
+          <circle cx="24" cy="33" r="9" fill="#fff"/><circle cx="40" cy="33" r="9" fill="#fff"/>
+          <circle cx="25" cy="34" r="4.2" fill="#1e293b"/><circle cx="39" cy="34" r="4.2" fill="#1e293b"/>
+          <circle cx="26.4" cy="32.6" r="1.4" fill="#fff"/><circle cx="40.4" cy="32.6" r="1.4" fill="#fff"/>
+          <path d="M32 40 l4 5 -8 0 z" fill="#fb923c"/>
+          <circle cx="16.5" cy="42" r="3" fill="#fb7185" opacity="0.7"/><circle cx="47.5" cy="42" r="3" fill="#fb7185" opacity="0.7"/>
+        </svg>
+      </span>
+      <span class="brand-name">Raayan<span class="brand-z">Quizz</span></span>
+    </div>
+    <nav class="topnav">
+      <button class="link" data-nav="home">🏠 <span class="lbl">Library</span></button>
+      <button class="link" data-nav="books">📖 <span class="lbl">Books</span></button>
+      <button class="link" data-nav="awards">🏅 <span class="lbl">Awards</span></button>
+      <button class="link" data-nav="about">💜 <span class="lbl">About</span></button>
+      <button class="link icon-toggle" id="btn-sound" title="Sound on/off" aria-pressed="true">🔊</button>
+      <label class="file-btn" title="Load a quiz .json">
+        📂 <span class="lbl">Load</span>
+        <input id="file-input" type="file" accept="application/json,.json" hidden />
+      </label>
+    </nav>
+  </header>
+
+  <main id="app">
+    <!-- ============ HOME / LIBRARY ============ -->
+    <section id="view-home" class="view">
+      <div class="hero">
+        <div class="hero-mascot" aria-hidden="true">
+          <svg viewBox="0 0 64 64" width="96" height="96">
+            <use href="#lg"></use>
+            <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#lg)"/>
+            <path d="M18 16 l6 8 -11 1 z" fill="#facc15"/><path d="M46 16 l-6 8 11 1 z" fill="#facc15"/>
+            <ellipse cx="32" cy="36" rx="20" ry="19" fill="#fde68a"/>
+            <circle cx="24" cy="33" r="9" fill="#fff"/><circle cx="40" cy="33" r="9" fill="#fff"/>
+            <circle cx="25" cy="34" r="4.2" fill="#1e293b"/><circle cx="39" cy="34" r="4.2" fill="#1e293b"/>
+            <circle cx="26.4" cy="32.6" r="1.4" fill="#fff"/><circle cx="40.4" cy="32.6" r="1.4" fill="#fff"/>
+            <path d="M32 40 l4 5 -8 0 z" fill="#fb923c"/>
+            <circle cx="16.5" cy="42" r="3" fill="#fb7185" opacity="0.7"/><circle cx="47.5" cy="42" r="3" fill="#fb7185" opacity="0.7"/>
+          </svg>
+        </div>
+        <div class="hero-text">
+          <h1>Hi Raayan! Ready to play?</h1>
+          <p class="muted" id="home-hint">Pick a shelf below and let's learn something awesome!</p>
+        </div>
+      </div>
+      <div id="awards-strip" class="awards-strip hidden"></div>
+      <div id="home-categories" class="cat-grid"></div>
+      <div id="library-empty" class="empty hidden">
+        <p class="big-emoji">🗂️</p>
+        <p>No quiz library found here.</p>
+        <p class="muted">Tap <strong>Load</strong> above and pick a quiz <code>.json</code> file,
+           or run a local server (<code>python3 -m http.server</code>) from this folder to see all quizzes.</p>
+        <button class="primary" id="try-demo">▶ Try the demo quiz</button>
+      </div>
+    </section>
+
+    <!-- ============ CATEGORY (subjects within a grade/category) ============ -->
+    <section id="view-category" class="view hidden">
+      <button class="back" data-nav="home">← All shelves</button>
+      <div class="browse-head">
+        <h1 id="category-title">Grade</h1>
+        <p class="muted" id="category-sub"></p>
+      </div>
+      <div id="category-progress" class="prog-wrap"></div>
+      <div id="subject-list" class="cat-grid"></div>
+    </section>
+
+    <!-- ============ SUBJECT (quizzes within a subject) ============ -->
+    <section id="view-subject" class="view hidden">
+      <button class="back" id="subject-back">← Back</button>
+      <div class="browse-head">
+        <h1 id="subject-title">Subject</h1>
+        <p class="muted" id="subject-sub"></p>
+      </div>
+      <div id="subject-progress" class="prog-wrap"></div>
+      <div id="subject-quizzes" class="quiz-grid"></div>
+    </section>
+
+    <!-- ============ SETUP ============ -->
+    <section id="view-setup" class="view hidden">
+      <button class="back" data-nav="home">← Library</button>
+      <div class="setup-hero card pop">
+        <h1 id="setup-title">Quiz</h1>
+        <p class="muted" id="setup-desc"></p>
+        <div id="setup-stats" class="chips"></div>
+        <button class="ghost-btn read-btn hidden" id="btn-read-book">📖 Read the book first</button>
+      </div>
+
+      <div id="resume-box" class="card resume-box hidden">
+        <div class="resume-ico">⏸️</div>
+        <div class="resume-txt">
+          <h3>You paused this quiz</h3>
+          <p class="muted" id="resume-meta">Question 12 of 200 · ⭐ 9 so far</p>
+        </div>
+        <div class="resume-actions">
+          <button class="primary" id="btn-resume">▶ Continue</button>
+          <button class="ghost-btn" id="btn-discard">Start over</button>
+        </div>
+      </div>
+
+      <form id="setup-form" class="card">
+        <div class="field">
+          <label for="cfg-count">🔢 How many questions?</label>
+          <select id="cfg-count"></select>
+        </div>
+        <div class="field">
+          <label for="cfg-difficulty">🎚️ Difficulty</label>
+          <select id="cfg-difficulty">
+            <option value="all">🌈 All levels</option>
+            <option value="simple">🟢 Simple</option>
+            <option value="tough">🟠 Tough</option>
+            <option value="tricky">🔴 Tricky</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="cfg-topic">📚 Topic</label>
+          <select id="cfg-topic"><option value="all">All topics</option></select>
+        </div>
+        <div class="field checkbox">
+          <input type="checkbox" id="cfg-shuffle" checked />
+          <label for="cfg-shuffle">🔀 Shuffle questions &amp; options</label>
+        </div>
+        <div class="field checkbox">
+          <input type="checkbox" id="cfg-instant" checked />
+          <label for="cfg-instant">💡 Show explanation after each answer</label>
+        </div>
+        <div class="field checkbox">
+          <input type="checkbox" id="cfg-timer" />
+          <label for="cfg-timer">⏱️ Timer</label>
+          <input type="number" id="cfg-timer-min" min="1" max="180" value="10" class="mini" />
+          <span class="muted">min</span>
+        </div>
+        <p class="muted hint" id="pause-hint">💡 Pick <strong>All</strong> questions and you can pause anytime and continue later from the same question.</p>
+        <button class="primary big" type="submit">🚀 Start quiz!</button>
+      </form>
+
+      <div id="history-box" class="card history hidden">
+        <h3>🏅 Your past attempts</h3>
+        <div id="history-list"></div>
+      </div>
+    </section>
+
+    <!-- ============ QUIZ RUNTIME ============ -->
+    <section id="view-quiz" class="view hidden">
+      <div class="quiz-head">
+        <div class="progress"><div id="progress-bar"></div></div>
+        <div class="quiz-meta">
+          <span id="q-counter" class="pill soft">1 / 10</span>
+          <span id="q-score" class="pill score-pill">⭐ 0</span>
+          <span id="ch-hud" class="pill soft hidden">❤️❤️❤️ · 🔥x0</span>
+          <span id="q-timer" class="pill timer-pill hidden">⏱ 10:00</span>
+        </div>
+      </div>
+
+      <div class="quiz-stage">
+        <div class="mascot-buddy" id="mascot" aria-hidden="true">
+          <div class="mascot-face" id="mascot-face">🦉</div>
+          <div class="mascot-bubble" id="mascot-bubble">Let's go!</div>
+        </div>
+
+        <div class="card question-card pop" id="question-card">
+          <div class="q-tags">
+            <span id="q-difficulty" class="tag"></span>
+            <span id="q-topic" class="tag ghost"></span>
+          </div>
+          <h2 id="q-text"></h2>
+          <div id="q-options" class="options"></div>
+          <div id="q-feedback" class="feedback hidden"></div>
+        </div>
+      </div>
+
+      <div class="quiz-actions">
+        <button id="btn-check" class="primary big">✅ Check</button>
+        <button id="btn-next" class="primary big hidden">Next →</button>
+        <button id="btn-pause" class="ghost-btn hidden" title="Save and continue later">⏸ Pause</button>
+        <button id="btn-quit" class="ghost-btn">Quit</button>
+      </div>
+    </section>
+
+    <!-- ============ RESULTS ============ -->
+    <section id="view-results" class="view hidden">
+      <h1 class="results-title">🎊 All done!</h1>
+      <div class="scoreboard card pop">
+        <div id="res-badge" class="res-badge">🌟</div>
+        <div class="big-score"><span id="res-score">0</span><span class="of">/ <span id="res-total">0</span></span></div>
+        <div id="res-pct" class="pct">0%</div>
+        <div id="res-msg" class="res-msg"></div>
+        <div id="res-meta" class="chips"></div>
+      </div>
+      <div class="results-actions">
+        <button class="primary big" id="btn-retry">🔁 Play again</button>
+        <button class="ghost-btn" data-nav="home">🏠 Library</button>
+      </div>
+      <h3 class="review-h">🔎 Review your answers</h3>
+      <div id="review-list"></div>
+    </section>
+
+    <!-- ============ AWARDS / TROPHY ROOM ============ -->
+    <section id="view-awards" class="view hidden">
+      <button class="back" data-nav="home">← Library</button>
+      <div class="browse-head">
+        <h1>🏅 Trophy Room</h1>
+        <p class="muted">Every stamp you earn is saved on this device. Keep playing to collect them all!</p>
+      </div>
+      <div id="awards-stats" class="stat-grid"></div>
+      <div id="awards-progress" class="prog-wrap"></div>
+      <h3 class="section-h">🎖️ Your stamps</h3>
+      <div id="awards-grid" class="badge-grid"></div>
+      <div id="sticker-album"></div>
+      <div class="awards-foot">
+        <button class="ghost-btn" id="btn-reset-progress">↺ Reset my progress</button>
+      </div>
+    </section>
+
+    <!-- ============ BOOKS (reader library) ============ -->
+    <section id="view-books" class="view hidden">
+      <div class="browse-head">
+        <h1>📖 Bookshelf</h1>
+        <p class="muted" id="books-sub">Read a chapter, then tap “Quiz me” to test yourself.</p>
+      </div>
+      <div id="books-continue" class="continue-strip hidden"></div>
+      <div id="books-shelves"></div>
+      <div id="books-empty" class="empty hidden">
+        <p class="big-emoji">📚</p>
+        <p>No books found.</p>
+        <p class="muted">Run <code>export_books.py</code> in the <code>lighthouse</code> folder to build the bookshelf.</p>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="view-about" class="view hidden">
+      <button class="back" data-nav="home">← Library</button>
+      <div class="about-card card pop">
+        <img src="logo.png" alt="Raayan Quizz logo" class="about-logo" onerror="this.style.display='none'" />
+        <h1>Raayan<span class="brand-z">Quizz</span></h1>
+        <p class="about-ver">Version <span id="about-version">1.2.0</span></p>
+        <p class="about-lead">A playful, offline-friendly quiz app made for/by Raayan — turn any lesson into a fun, interactive game.</p>
+
+        <h3 class="section-h">✨ What this app can do</h3>
+        <ul class="about-list">
+          <li>📚 Browse quizzes organised by <strong>grade → subject → chapter</strong> (Grade 4 and NCERT Grade 8).</li>
+          <li>📖 <strong>Flipbook reader</strong> for every chapter — read aloud, zoom, then “Quiz me on this page”.</li>
+          <li>🎮 Buddy, themes, XP levels, daily streak and sticker mystery boxes.</li>
+          <li>🩹 Mistake bank with spaced repetition, ⚡ 60-second Challenge mode.</li>
+          <li>👨‍👩‍👧 Parent view (long-press the logo) with export/import of progress.</li>
+          <li>📱 Installable app that works offline for anything you've opened.</li>
+          <li>🎚️ Pick how many questions, the difficulty, a topic, timer and shuffle.</li>
+          <li>💡 Instant explanations after each answer, with a friendly mascot.</li>
+          <li>⏸️ Pause an “All questions” quiz and continue later from the same question.</li>
+          <li>🏅 Earn trophies &amp; stamps for correct answers and finished quizzes.</li>
+        </ul>
+
+        <h3 class="section-h">📬 Reach Raayan</h3>
+        <div class="about-contact">
+          <a id="about-github" class="contact-btn" href="#" target="_blank" rel="noopener">
+            <span class="ci">🐙</span> <span id="about-github-txt">GitHub — https://github.com/raayancoding</span>
+          </a>
+          <a id="about-email" class="contact-btn" href="#">
+            <span class="ci">✉️</span> <span id="about-email-txt">Email — RaayanCoding</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- award celebration toast -->
+  <div id="award-toast" class="award-toast hidden" role="status" aria-live="polite"></div>
+
+  <!-- ============ READER OVERLAY ============ -->
+  <div id="reader" class="reader hidden" role="dialog" aria-label="Book reader">
+    <div class="rd-top">
+      <button class="rd-btn" id="rd-close" title="Close">✕</button>
+      <div class="rd-title"><strong id="rd-title">Book</strong><span class="muted" id="rd-sub"></span></div>
+      <span class="pill soft" id="rd-page">1 / 1</span>
+      <button class="rd-btn" id="rd-speak" title="Read aloud">🔊</button>
+      <button class="rd-btn" id="rd-zoom" title="Zoom page">🔍</button>
+      <button class="rd-btn" id="rd-thumbs" title="Pages">🗂️</button>
+    </div>
+    <div class="rd-stage">
+      <button class="rd-arrow left" id="rd-prev" aria-label="Previous page">‹</button>
+      <div id="rd-host"></div>
+      <button class="rd-arrow right" id="rd-next" aria-label="Next page">›</button>
+    </div>
+    <div class="rd-thumbstrip hidden" id="rd-thumbstrip"></div>
+    <div class="rd-bottom">
+      <input type="range" id="rd-slider" min="1" max="1" value="1" aria-label="Page" />
+      <button class="primary" id="rd-quiz">🎯 Quiz me on this page</button>
+    </div>
+    <div class="rd-zoomed hidden" id="rd-zoomed"><img alt="Zoomed page" id="rd-zoomed-img" /></div>
+    <div class="rd-done hidden" id="rd-done">
+      <div class="card pop">
+        <div class="big-emoji">🎉</div>
+        <h2>You finished the book!</h2>
+        <p class="muted">Ready to show what you learned?</p>
+        <div class="results-actions">
+          <button class="primary big" id="rd-done-quiz">🎯 Take the quiz</button>
+          <button class="ghost-btn" id="rd-done-close">Back to shelf</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="foot muted">
+    💜 Made for/by Raayan · Any quiz, anywhere — instant, offline, interactive. 💜
+    <br /><button class="link-inline" data-nav="about">About</button> ·
+    <button class="link-inline" data-nav="awards">Trophy Room</button> ·
+    <span>v<span id="foot-version">1.2.0</span></span>
+  </footer>
+
+  <script src="vendor/page-flip.browser.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/reader.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/practice.js"></script>
+</body>
+</html>

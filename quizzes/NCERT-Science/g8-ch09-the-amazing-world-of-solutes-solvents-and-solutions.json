@@ -1,0 +1,2696 @@
+{
+  "schemaVersion": 1,
+  "id": "ncert-science-g8-ch09-the-amazing-world-of-solutes-solvents-and-solutions",
+  "title": "The Amazing World of Solutes, Solvents, and Solutions",
+  "subject": "Science",
+  "board": "NCERT",
+  "grade": 8,
+  "sourceDir": "ncert/8/Science/ch09",
+  "chapter": "9. The Amazing World of Solutes, Solvents, and Solutions",
+  "topic": "Full Chapter",
+  "description": "Solutes, solvents and solutions, saturation, concentration and solubility (including gases), and density — its formula, units, measurement of mass and volume, and how temperature and pressure change it.",
+  "tags": [
+    "ncert",
+    "grade8",
+    "science",
+    "solutions",
+    "solubility",
+    "density",
+    "measurement"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Uniform and Non-uniform Mixtures",
+      "question": "Why does every sip of homemade ORS taste the same, no matter how much you drink?",
+      "options": [
+        "Sugar and salt are spread evenly through the water",
+        "Sugar and salt settle evenly at the bottom of the glass",
+        "Salt dissolves fully but the sugar stays suspended",
+        "The tongue cannot sense small changes in sweetness"
+      ],
+      "answer": 0,
+      "explanation": "ORS is a solution: the sugar and salt are distributed evenly throughout the water, so each sip has the same composition. Settling or suspension would make sips differ.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Uniform and Non-uniform Mixtures",
+      "question": "Which of these forms a NON-uniform mixture when stirred into water?",
+      "options": [
+        "Table salt",
+        "Chalk powder",
+        "White sugar",
+        "Homemade ORS"
+      ],
+      "answer": 1,
+      "explanation": "Chalk powder, sand and sawdust do not spread evenly in water — the components stay visible, so the mixture is non-uniform. Salt, sugar and ORS form uniform mixtures (solutions).",
+      "source": "text:page2"
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Uniform and Non-uniform Mixtures",
+      "question": "Which observation would tell you that a mixture is NON-uniform?",
+      "options": [
+        "Every spoonful of it tastes exactly the same as the others",
+        "It looks perfectly clear and even after it is stirred well",
+        "Its components can be seen separately, by eye or with a lens",
+        "It pours easily from one container into another one"
+      ],
+      "answer": 2,
+      "explanation": "In non-uniform mixtures the components can be seen separately, either with the naked eye or a magnifying device. Uniform mixtures look even and taste the same throughout.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q4",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Uniform and Non-uniform Mixtures",
+      "question": "In some non-uniform mixtures, a magnifying device is needed to see the components separately.",
+      "answer": true,
+      "explanation": "The chapter says components of non-uniform mixtures can be seen either with the naked eye OR with a magnifying device — so some need magnification.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Uniform and Non-uniform Mixtures",
+      "question": "A student claims a mixture is a solution ONLY when a solid dissolves in a liquid. Which example proves the claim wrong?",
+      "options": [
+        "Sand stirred into a bucket of water",
+        "Sawdust floating on a pond",
+        "Chalk powder shaken with water",
+        "Oxygen dissolved in pond water"
+      ],
+      "answer": 3,
+      "explanation": "Gases such as oxygen dissolve evenly in water, giving a uniform mixture — a solution — with no solid involved. Sand, sawdust and chalk give non-uniform mixtures, not solutions.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Uniform and Non-uniform Mixtures",
+      "question": "Sawdust floats on water while sand sinks. Which idea from the chapter explains this difference?",
+      "options": [
+        "Their densities compared with water",
+        "How well each dissolves in water",
+        "The concentration of the water",
+        "Whether the water is saturated"
+      ],
+      "answer": 0,
+      "explanation": "The chapter leads from this observation into density: whether an object floats or sinks is largely about its density compared with the liquid. Neither sand nor sawdust dissolves, so solubility and saturation are not the point.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Uniform and Non-uniform Mixtures",
+      "question": "Select the mixtures that are NON-uniform.",
+      "options": [
+        "Sand in water",
+        "Sawdust in water",
+        "Salt in water",
+        "Sugar in water",
+        "Oxygen in water"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Sand and sawdust do not spread evenly — their particles stay visible. Salt, sugar and oxygen dissolve to form uniform mixtures (solutions).",
+      "source": "text:page2"
+    },
+    {
+      "id": "q8",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Uniform and Non-uniform Mixtures",
+      "question": "When chalk powder is mixed with water, the chalk spreads evenly and a solution is formed.",
+      "answer": false,
+      "explanation": "Chalk powder does NOT distribute evenly in water; the mixture is non-uniform, so it is not a solution.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q9",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Uniform and Non-uniform Mixtures",
+      "question": "Which statement about solutions is NOT correct?",
+      "options": [
+        "A solution is a uniform mixture of two or more substances",
+        "A solution can form when a gas dissolves in a liquid",
+        "Its components can be seen separately with a magnifier",
+        "A solution can form when two liquids are mixed together"
+      ],
+      "answer": 2,
+      "explanation": "In a solution the components are NOT visible separately — that is the mark of a non-uniform mixture. The other three statements all match the chapter.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q10",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Uniform and Non-uniform Mixtures",
+      "question": "The presence of different gases in the atmosphere is an example of a uniform mixture.",
+      "answer": true,
+      "explanation": "Exercise 1(v) is TRUE: the gases of the atmosphere are mixed evenly, which is what makes a mixture uniform.",
+      "source": "exercise:Q1(v)"
+    },
+    {
+      "id": "q11",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Solute, Solvent and Solution",
+      "question": "In a glass of salt water, the salt is the ______.",
+      "options": [
+        "solute",
+        "solvent",
+        "solution",
+        "residue"
+      ],
+      "answer": 0,
+      "explanation": "When a solid is dissolved in a liquid, the solid is the solute and the liquid is the solvent; together they make the solution.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q12",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Solute, Solvent and Solution",
+      "question": "When a solid dissolves in a liquid to form a solution, the liquid component is called the ______.",
+      "options": [
+        "solute",
+        "solvent",
+        "mixture",
+        "sediment"
+      ],
+      "answer": 1,
+      "explanation": "The liquid that does the dissolving is the solvent; the dissolved solid is the solute.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q13",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Solute, Solvent and Solution",
+      "question": "20 mL of liquid A is mixed with 80 mL of liquid B and they form a solution. Which is the solvent, and why?",
+      "options": [
+        "A, because it is present in the smaller amount",
+        "A, because the smaller liquid dissolves faster",
+        "B, because it is present in the larger amount",
+        "Neither — two liquids never form a solution"
+      ],
+      "answer": 2,
+      "explanation": "For two liquids, the one present in the larger amount is the solvent and the smaller one is the solute. Two liquids can certainly form a solution.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q14",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Solute, Solvent and Solution",
+      "question": "In the chashni of gulab jamun, a LARGE amount of sugar is dissolved in a SMALL amount of water. What is the solvent?",
+      "options": [
+        "Sugar — it is present in the larger amount",
+        "Both — neither substance is clearly in excess",
+        "Neither — chashni is a non-uniform mixture",
+        "Water — the liquid that does the dissolving"
+      ],
+      "answer": 3,
+      "explanation": "The 'smaller amount = solute' rule is only for two liquids. Here a solid dissolves in a liquid, so the liquid (water) is the solvent even though there is more sugar.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q15",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Solute, Solvent and Solution",
+      "question": "In sugar syrup (chashni), sugar is treated as the solvent because there is more sugar than water.",
+      "answer": false,
+      "explanation": "Water remains the solvent and sugar the solute: for a solid in a liquid, the liquid is the solvent regardless of amounts.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q16",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Solute, Solvent and Solution",
+      "question": "When two liquids form a solution, the one present in the smaller amount is called the solute.",
+      "answer": true,
+      "explanation": "For liquid–liquid solutions the component present in less quantity is the solute and the other is the solvent.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q17",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Solute, Solvent and Solution",
+      "question": "A spoon of baking soda is stirred into 50 mL of water and dissolves. Identify the solute and solvent.",
+      "options": [
+        "Solute: water; solvent: baking soda",
+        "Solute: baking soda; solvent: water",
+        "Both baking soda and water are solutes",
+        "Both baking soda and water are solvents"
+      ],
+      "answer": 1,
+      "explanation": "The solid that dissolves (baking soda) is the solute; the liquid it dissolves in (water) is the solvent.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q18",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Solute, Solvent and Solution",
+      "question": "Why can the rule 'the component in the smaller amount is the solute' NOT be used for chashni?",
+      "options": [
+        "That rule works only when both amounts are exactly equal",
+        "Sugar is not a true solute because it melts in syrup",
+        "The rule is for two liquids; chashni is a solid in a liquid",
+        "Chashni is not a true solution, so no such rule applies"
+      ],
+      "answer": 2,
+      "explanation": "The smaller-amount rule applies when two liquids are mixed. For a solid dissolved in a liquid, the solid is always the solute, even if there is more of it.",
+      "source": "text:page3"
+    },
+    {
+      "id": "q19",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Solute, Solvent and Solution",
+      "question": "Which pairs correctly name the solute and solvent?",
+      "options": [
+        "Salt water — solute: salt; solvent: water",
+        "Sugar syrup — solute: water; solvent: sugar",
+        "ORS — solutes: sugar and salt; solvent: water",
+        "Sand in water — solute: sand; solvent: water"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "Salt and the sugar+salt of ORS are dissolved solids (solutes) in water (solvent). In syrup the solvent is still water. Sand does not dissolve, so it is not a solute at all.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q20",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Solute, Solvent and Solution",
+      "question": "Fig. 9.3 is a magnified picture of a solution. How are the solute particles arranged in it?",
+      "options": [
+        "Collected at the bottom of the solvent",
+        "Floating as a layer on top of the solvent",
+        "Clumped together at the sides of the container",
+        "Spread evenly throughout the solvent"
+      ],
+      "answer": 3,
+      "explanation": "The figure shows solute evenly distributed in the solvent — this even spread is what makes a solution uniform.",
+      "source": "text:page2"
+    },
+    {
+      "id": "q21",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Saturated and Unsaturated Solutions",
+      "question": "In Activity 9.1, salt eventually stops dissolving and settles at the bottom. The solution is now ______ at that temperature.",
+      "options": [
+        "unsaturated",
+        "saturated",
+        "dilute",
+        "non-uniform"
+      ],
+      "answer": 1,
+      "explanation": "When added solute stops dissolving and settles, the solvent has reached its limit — the solution is saturated at that temperature.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q22",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Saturated and Unsaturated Solutions",
+      "question": "Which description matches an UNSATURATED solution?",
+      "options": [
+        "No more solute can dissolve in it at that temperature",
+        "Undissolved solute has settled at its bottom",
+        "More solute can still dissolve in it at that temperature",
+        "It contains the maximum possible amount of solute"
+      ],
+      "answer": 2,
+      "explanation": "An unsaturated solution can dissolve more solute at the given temperature; the other three describe a saturated solution.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q23",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Saturated and Unsaturated Solutions",
+      "question": "Which ONE of these statements is the most appropriate?",
+      "options": [
+        "A saturated solution can still dissolve more solute at a given temperature",
+        "An unsaturated solution holds the maximum solute possible at a given temperature",
+        "A saturated solution forms only when the temperature is high",
+        "No more solute can dissolve in a saturated solution at that temperature"
+      ],
+      "answer": 3,
+      "explanation": "Exercise 5: statement (iii) is correct. (i) and (ii) swap the meanings of saturated and unsaturated, and (iv) is wrong because saturation can occur at any temperature.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q24",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Saturated and Unsaturated Solutions",
+      "question": "Why is the statement 'A saturated solution forms only at high temperatures' NOT appropriate?",
+      "options": [
+        "Saturation happens at any temperature once the solute limit is reached",
+        "Saturated solutions actually form only at low temperatures",
+        "Temperature has no effect on how much solute can dissolve",
+        "High temperatures stop any solution from becoming saturated"
+      ],
+      "answer": 0,
+      "explanation": "A solution is saturated when the solvent can hold no more solute AT THAT temperature — this can happen at 20 °C just as at 70 °C. Temperature does change the limit, but does not restrict saturation to hot solutions.",
+      "source": "exercise:Q5"
+    },
+    {
+      "id": "q25",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Saturated and Unsaturated Solutions",
+      "question": "An unsaturated solution has more solute dissolved than a saturated solution at the same temperature.",
+      "answer": false,
+      "explanation": "Exercise 1(iv) is FALSE. The saturated solution holds the maximum solute; an unsaturated one holds less and can still dissolve more.",
+      "source": "exercise:Q1(iv)"
+    },
+    {
+      "id": "q26",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Saturated and Unsaturated Solutions",
+      "question": "Glucose has completely dissolved in water and no more glucose can dissolve at that temperature. This is a ______ solution of glucose.",
+      "options": [
+        "dilute",
+        "saturated",
+        "unsaturated",
+        "concentrated"
+      ],
+      "answer": 1,
+      "explanation": "Exercise 2(iv): when no more solute can dissolve at a given temperature, the solution is saturated.",
+      "source": "exercise:Q2(iv)"
+    },
+    {
+      "id": "q27",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Saturated and Unsaturated Solutions",
+      "question": "A saturated salt solution at 20 °C has some undissolved salt at the bottom. It is heated to 50 °C with stirring. Predict what happens.",
+      "options": [
+        "More salt settles out, making the solution more saturated",
+        "Nothing changes because saturation does not depend on temperature",
+        "The undissolved salt dissolves; the solution is now unsaturated",
+        "The salt floats upwards as the warm water becomes less dense"
+      ],
+      "answer": 2,
+      "explanation": "For most solids, solubility rises with temperature, so the saturated solution behaves as unsaturated when heated and the extra salt dissolves — exactly what happened with baking soda in Activity 9.2.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q28",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Saturated and Unsaturated Solutions",
+      "question": "Why must the word 'saturated' always be linked to a particular temperature?",
+      "options": [
+        "Saturated solutions exist only at room temperature",
+        "Changing temperature changes the amount of solvent present",
+        "Solutes turn into solvents when a solution is heated",
+        "The amount of solute a solvent can hold changes with temperature"
+      ],
+      "answer": 3,
+      "explanation": "Solubility depends on temperature, so a solution that is saturated at 20 °C may be unsaturated at 50 °C. The temperature must therefore be stated.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q29",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Saturated and Unsaturated Solutions",
+      "question": "A solution that is saturated at one temperature behaves as an unsaturated solution if its temperature is increased.",
+      "answer": true,
+      "explanation": "Because solubility of most solids increases with temperature, raising the temperature lets the same solution dissolve more solute — it behaves as unsaturated.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q30",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Saturated and Unsaturated Solutions",
+      "question": "In Activity 9.1 (adding salt spoon by spoon to half a tumbler of water), which quantity is deliberately changed by the student?",
+      "options": [
+        "The volume of water in the glass tumbler",
+        "The total amount of salt added to the water",
+        "The temperature of the water in the tumbler",
+        "The size of the spoon used for adding salt"
+      ],
+      "answer": 1,
+      "explanation": "The water volume, temperature and spoon stay fixed; the student keeps adding salt (the changed variable) and observes whether it dissolves (the observed result).",
+      "source": "text:page3"
+    },
+    {
+      "id": "q31",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Saturated and Unsaturated Solutions",
+      "question": "Select the statements that are true of a SATURATED solution.",
+      "options": [
+        "No more solute dissolves in it at that temperature",
+        "Added solute settles undissolved at the bottom",
+        "It always contains very little solute",
+        "It can never be made unsaturated again",
+        "It is a non-uniform mixture"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Saturation means the solvent holds its maximum solute at that temperature, so extra solute settles. The dissolved part is still a uniform solution, it may hold a lot of solute, and heating can make it unsaturated.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q32",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Concentration: Dilute and Concentrated",
+      "question": "What does the chapter call the amount of solute present in a fixed quantity of solution (or solvent)?",
+      "options": [
+        "Solubility",
+        "Saturation",
+        "Concentration",
+        "Mass density"
+      ],
+      "answer": 2,
+      "explanation": "Concentration is the amount of solute in a fixed quantity of solution or solvent. Solubility is the MAXIMUM that can dissolve; density is mass per unit volume.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q33",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Concentration: Dilute and Concentrated",
+      "question": "Which solution is more concentrated: 2 spoons of salt in 100 mL of water, or 4 spoons of salt in 50 mL of water?",
+      "options": [
+        "2 spoons of salt in 100 mL of water",
+        "Both have exactly the same concentration",
+        "It cannot be decided without the temperature",
+        "4 spoons of salt in 50 mL of water"
+      ],
+      "answer": 3,
+      "explanation": "Concentration compares solute per fixed amount of solvent: 4 spoons per 50 mL is 8 spoons per 100 mL, four times the 2 spoons per 100 mL of the first solution.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q34",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Concentration: Dilute and Concentrated",
+      "question": "4 spoons of salt in 50 mL of water is how many times as concentrated as 2 spoons of salt in 100 mL of water?",
+      "options": [
+        "Four times",
+        "Two times",
+        "Eight times",
+        "Half as much"
+      ],
+      "answer": 0,
+      "explanation": "Per 100 mL: the first has 4 × 2 = 8 spoons, the second has 2 spoons. 8 ÷ 2 = 4, so it is four times as concentrated — not just twice, even though it has twice the salt, because it also has half the water.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q35",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Concentration: Dilute and Concentrated",
+      "question": "'Dilute' and 'concentrated' are relative terms — a solution is dilute or concentrated only in comparison with another.",
+      "answer": true,
+      "explanation": "The chapter states that dilute and concentrated are relative terms; the 1-spoon solution is dilute compared with the 2-spoon solution.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q36",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Concentration: Dilute and Concentrated",
+      "question": "Which statement about concentration is NOT correct?",
+      "options": [
+        "Concentration is the amount of solute in a fixed quantity of solution",
+        "A solution with less solute in a fixed quantity is called dilute",
+        "A concentrated solution always has more solvent than a dilute one",
+        "The same solution can be dilute next to one and concentrated next to another"
+      ],
+      "answer": 2,
+      "explanation": "Concentration is about the SOLUTE in a fixed amount of solution — a concentrated solution has more solute, not more solvent. The other statements follow the chapter.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q37",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Concentration: Dilute and Concentrated",
+      "question": "3 spoons of salt are dissolved in 150 mL of water, and 1 spoon in 50 mL of water. Compare their concentrations.",
+      "options": [
+        "The 150 mL solution is more concentrated",
+        "The 50 mL solution is more concentrated",
+        "The 150 mL solution is three times as strong",
+        "They have the same concentration"
+      ],
+      "answer": 3,
+      "explanation": "Both have 1 spoon per 50 mL (3 ÷ 150 = 1 ÷ 50), so the concentrations are equal even though the amounts differ.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q38",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Concentration: Dilute and Concentrated",
+      "question": "Which word describes a solution with a SMALL amount of solute in a fixed quantity of solution?",
+      "options": [
+        "Dilute",
+        "Saturated",
+        "Concentrated",
+        "Dense"
+      ],
+      "answer": 0,
+      "explanation": "A solution with less solute is dilute; one with more solute is concentrated. 'Saturated' and 'dense' mean different things.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q39",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Concentration: Dilute and Concentrated",
+      "question": "Which changes would make a salt solution MORE concentrated?",
+      "options": [
+        "Dissolving more salt in the same water",
+        "Boiling away some of the water",
+        "Adding more water to it",
+        "Pouring half of it into another glass",
+        "Stirring it for a longer time"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Concentration = solute per fixed quantity of solvent, so adding solute or removing solvent (as when salt water is boiled at Ningel) raises it. Adding water lowers it; pouring some away or stirring changes neither solute nor solvent proportion.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q40",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Concentration: Dilute and Concentrated",
+      "question": "Pouring half of a sugar solution into another glass makes the half left behind more concentrated.",
+      "answer": false,
+      "explanation": "Both halves have the same proportion of sugar to water as the original — concentration is about the amount of solute in a FIXED quantity, not the total amount.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q41",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Solubility and Effect of Temperature",
+      "question": "What is 'solubility' as defined in the chapter?",
+      "options": [
+        "The amount of solute actually present in a fixed quantity of solution",
+        "The maximum amount of solute that dissolves in a fixed quantity of solvent",
+        "The speed at which a solute disappears when stirred into a solvent",
+        "The temperature at which a solute begins to dissolve in a solvent"
+      ],
+      "answer": 1,
+      "explanation": "Solubility is the MAXIMUM solute a fixed quantity of solvent can dissolve at a particular temperature. The amount actually present is the concentration.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q42",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Solubility and Effect of Temperature",
+      "question": "In the chapter summary, solubility is stated for what fixed quantity of solvent?",
+      "options": [
+        "1 litre",
+        "50 mL",
+        "100 mL",
+        "10 mL"
+      ],
+      "answer": 2,
+      "explanation": "The Snapshots define solubility as the maximum solute dissolved in a fixed quantity (100 mL) of solution or solvent at a particular temperature.",
+      "source": "text:page16"
+    },
+    {
+      "id": "q43",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Solubility and Effect of Temperature",
+      "question": "In Activity 9.2, undissolved baking soda dissolved when the water was warmed from 20 °C to 50 °C, and again from 50 °C to 70 °C. What is the correct inference?",
+      "options": [
+        "Baking soda dissolves equally well at all three temperatures",
+        "Heating turned the baking soda into a gas that escaped",
+        "Water at 20 °C dissolves the most baking soda of the three",
+        "Water at 70 °C dissolves more baking soda than water at 50 °C"
+      ],
+      "answer": 3,
+      "explanation": "Each time the temperature rose, more baking soda could dissolve, so solubility increased with temperature: 70 °C > 50 °C > 20 °C.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q44",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Solubility and Effect of Temperature",
+      "question": "A saturated baking soda solution made at 70 °C is left to cool back to 20 °C. Predict what will most likely happen.",
+      "options": [
+        "Some baking soda separates out as its solubility falls",
+        "More baking soda dissolves as the cooler water gets denser",
+        "Nothing happens because a saturated solution stays saturated",
+        "The baking soda changes into a gas and bubbles away"
+      ],
+      "answer": 0,
+      "explanation": "Water at 20 °C can hold less baking soda than water at 70 °C. The solution now contains more solute than 20 °C water can dissolve, so the excess comes out of solution.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q45",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Solubility and Effect of Temperature",
+      "question": "In Activity 9.2, which quantity is the one being OBSERVED (the result), rather than the one being changed?",
+      "options": [
+        "The temperature of the water in the beaker",
+        "The amount of baking soda that dissolves",
+        "The volume of water taken in the beaker",
+        "The number of times the glass rod is stirred"
+      ],
+      "answer": 1,
+      "explanation": "The experimenter changes the temperature (20 → 50 → 70 °C) and watches how much baking soda dissolves. Water volume (about 50 mL) is kept fixed.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q46",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Solubility and Effect of Temperature",
+      "question": "What is kept the SAME throughout Activity 9.2 so that the comparison is fair?",
+      "options": [
+        "The temperature of the water",
+        "The total amount of baking soda added",
+        "The amount of water (about 50 mL)",
+        "The amount of baking soda left undissolved"
+      ],
+      "answer": 2,
+      "explanation": "Only the temperature is changed on purpose; the same ~50 mL of water is used so that any extra dissolving must be due to temperature, not more solvent.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q47",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Solubility and Effect of Temperature",
+      "question": "For most substances, solubility increases as the temperature increases.",
+      "answer": true,
+      "explanation": "The chapter states that for most substances solubility increases with an increase in temperature.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q48",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Solubility and Effect of Temperature",
+      "question": "In Activity 9.2, the water at 20 °C dissolved the most baking soda of the three temperatures tested.",
+      "answer": false,
+      "explanation": "The amount dissolved at 20 °C was the LEAST; water at 70 °C dissolved the most.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q49",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Solubility and Effect of Temperature",
+      "question": "What is the chemical name of baking soda, the solute used in Activity 9.2?",
+      "options": [
+        "Sodium chloride (table salt)",
+        "Calcium carbonate (chalk)",
+        "Sodium hydroxide (caustic soda)",
+        "Sodium hydrogen carbonate"
+      ],
+      "answer": 3,
+      "explanation": "The activity names baking soda as sodium hydrogen carbonate. Sodium chloride is common salt and calcium carbonate is chalk.",
+      "source": "text:page4"
+    },
+    {
+      "id": "q50",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Solubility and Effect of Temperature",
+      "question": "In the Fig. 9.7 setup, which items are part of HEATING or SUPPORTING the beaker (rather than measuring or stirring)?",
+      "options": [
+        "Spirit lamp",
+        "Tripod stand with wire gauze",
+        "Laboratory thermometer",
+        "Glass rod"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The spirit lamp supplies heat and the tripod with wire gauze supports the beaker above the flame. The thermometer measures and the glass rod stirs.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q51",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Solubility and Effect of Temperature",
+      "question": "Two students each dissolve as much salt as 50 mL of water will take — one at 20 °C, the other at 60 °C. Which statement is correct?",
+      "options": [
+        "Both hold the same salt because both are saturated",
+        "The 20 °C solution holds more because cold water is denser",
+        "The 60 °C solution most likely holds more dissolved salt",
+        "Neither can be saturated because 50 mL is too little water"
+      ],
+      "answer": 2,
+      "explanation": "Both are saturated, but saturation is temperature-dependent: warmer water usually dissolves more solid, so the 60 °C solution contains more salt. 'Saturated' does not mean 'same amount'.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q52",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Solubility and Effect of Temperature",
+      "question": "Suppose a student records: 20 °C → 4 spoons of a solid dissolve; 40 °C → 6 spoons; 60 °C → 9 spoons (same water). What does the data show?",
+      "options": [
+        "Solubility of the solid falls with temperature",
+        "Temperature has no effect on the solid's solubility",
+        "The solid behaves like a gas dissolving in water",
+        "Solubility of the solid rises with temperature"
+      ],
+      "answer": 3,
+      "explanation": "More spoons dissolve at each higher temperature, so solubility increases with temperature — the pattern the chapter says most solids follow (unlike gases).",
+      "source": "text:page5"
+    },
+    {
+      "id": "q53",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Solubility of Gases in Water",
+      "question": "What sustains fish, aquatic plants and other organisms living in water?",
+      "options": [
+        "Oxygen dissolved in the water",
+        "Salt dissolved in the water",
+        "Sand settled on the river bed",
+        "Sunlight warming the water"
+      ],
+      "answer": 0,
+      "explanation": "Even though it is present in small amounts, dissolved oxygen sustains all aquatic life.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q54",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Solubility of Gases in Water",
+      "question": "To what extent does oxygen dissolve in water?",
+      "options": [
+        "Completely, in any amount",
+        "Only to a small extent",
+        "Not at all",
+        "More than salt does"
+      ],
+      "answer": 1,
+      "explanation": "Oxygen dissolves in water only to a small extent, yet this small quantity is enough to keep aquatic life alive.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q55",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Solubility of Gases in Water",
+      "question": "How does the solubility of gases in liquids generally change as temperature rises?",
+      "options": [
+        "It increases",
+        "It stays the same",
+        "It decreases",
+        "It rises then falls"
+      ],
+      "answer": 2,
+      "explanation": "Unlike most solids, gases become LESS soluble as the liquid warms — more oxygen dissolves in cold water than in warm water.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q56",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Solubility of Gases in Water",
+      "question": "Oxygen gas is more soluble in hot water than in cold water.",
+      "answer": false,
+      "explanation": "Exercise 1(i) is FALSE. Gas solubility decreases with temperature, so oxygen is more soluble in COLD water.",
+      "source": "exercise:Q1(i)"
+    },
+    {
+      "id": "q57",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Solubility of Gases in Water",
+      "question": "Which is the CORRECTED version of the false statement 'Oxygen gas is more soluble in hot water than in cold water'?",
+      "options": [
+        "Oxygen gas is equally soluble in hot and cold water",
+        "Oxygen gas does not dissolve in water at any temperature",
+        "Oxygen gas is more soluble in hot water than salt is",
+        "Oxygen gas is more soluble in cold water than in hot water"
+      ],
+      "answer": 3,
+      "explanation": "The chapter says more oxygen can dissolve in cold water and solubility of oxygen decreases as water warms.",
+      "source": "exercise:Q1(i)"
+    },
+    {
+      "id": "q58",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Solubility of Gases in Water",
+      "question": "A beaker of water containing dissolved baking soda AND dissolved oxygen is warmed. How are the two solutes affected?",
+      "options": [
+        "More baking soda can dissolve, but less oxygen stays dissolved",
+        "Both dissolve more, since heat speeds up dissolving",
+        "Both dissolve less, since heat drives everything out",
+        "Less baking soda dissolves, but more oxygen dissolves"
+      ],
+      "answer": 0,
+      "explanation": "Solubility of most solids (baking soda) increases with temperature, while solubility of gases (oxygen) decreases — the two trends are opposite.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q59",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Solubility of Gases in Water",
+      "question": "In summer a shallow pond warms up considerably. Predict the effect on the fish.",
+      "options": [
+        "More oxygen dissolves, so fish become more active",
+        "Less oxygen stays dissolved, so fish may struggle",
+        "Oxygen solubility is unchanged, so fish are unaffected",
+        "Oxygen spreads more evenly, so fish breathe more easily"
+      ],
+      "answer": 1,
+      "explanation": "Warm water holds less dissolved oxygen (gas solubility falls with temperature), so there is less oxygen available for aquatic life.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q60",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Solubility of Gases in Water",
+      "question": "A mixture of gases dissolved in water is a uniform mixture.",
+      "answer": true,
+      "explanation": "Gases dissolve evenly in water, so the mixture is uniform — a solution.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q61",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Solubility of Gases in Water",
+      "question": "Select the statements about gases in water that are correct.",
+      "options": [
+        "Many gases, including oxygen, dissolve in water",
+        "Gas solubility generally decreases as temperature rises",
+        "Gases never dissolve in water",
+        "Gas solubility increases strongly on heating",
+        "Dissolved gases form a non-uniform mixture"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Gases such as oxygen do dissolve (a little) and evenly; their solubility falls with rising temperature, the opposite of most solids.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q62",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Solubility of Gases in Water",
+      "question": "Suppose a student measures dissolved oxygen in the same river water at 10 °C, 20 °C and 30 °C and gets steadily smaller values. Which chapter idea does this match?",
+      "options": [
+        "Gas solubility decreases as temperature increases",
+        "Solid solubility increases as temperature increases",
+        "Density of water decreases as temperature increases",
+        "Concentration is a relative term"
+      ],
+      "answer": 0,
+      "explanation": "Falling dissolved oxygen with rising temperature is exactly the chapter's statement that the solubility of gases generally decreases as temperature increases.",
+      "source": "text:page6"
+    },
+    {
+      "id": "q63",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Floating, Sinking and the Idea of Density",
+      "question": "While washing rice, husk floats on the water and rice sinks. Why?",
+      "options": [
+        "Husk is denser than water; rice is less dense",
+        "Husk is less dense than water; rice is denser",
+        "Husk dissolves slightly while rice does not",
+        "Rice absorbs water while husk repels it"
+      ],
+      "answer": 1,
+      "explanation": "Objects that float are generally less dense than the liquid, while those that sink are denser — husk is light for its size, rice is heavier for its size.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q64",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Floating, Sinking and the Idea of Density",
+      "question": "You pour oil into a glass containing water and the oil floats on top. What does this tell you?",
+      "options": [
+        "Oil is denser than water",
+        "Oil and water have the same density",
+        "Water is denser than oil",
+        "Oil dissolves in water"
+      ],
+      "answer": 2,
+      "explanation": "Exercise 3: the less dense liquid floats on the denser one, so water is denser than oil. If oil dissolved, it would not form a separate layer.",
+      "source": "exercise:Q3"
+    },
+    {
+      "id": "q65",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Floating, Sinking and the Idea of Density",
+      "question": "An unpeeled orange floats in water but the same orange sinks after peeling (Fig. 9.25). What best explains this?",
+      "options": [
+        "Peeling removes the oil that makes the orange float",
+        "The peeled orange absorbs water and becomes heavier",
+        "The peel dissolves a little, making the water denser",
+        "Air in the peel lowers the whole orange's average density"
+      ],
+      "answer": 3,
+      "explanation": "The peel is light and air-filled, so with the peel the orange's mass per unit volume is less than water's and it floats. Without the peel, the dense fruit alone is denser than water and sinks.",
+      "source": "exercise:Q8"
+    },
+    {
+      "id": "q66",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Floating, Sinking and the Idea of Density",
+      "question": "According to the chapter's 'Note', what is the relationship between density and floating?",
+      "options": [
+        "Density matters, but it is not the only deciding factor",
+        "Density alone fully decides whether anything floats",
+        "Only the shape of an object decides whether it floats",
+        "Only the mass of an object decides whether it floats"
+      ],
+      "answer": 0,
+      "explanation": "The Note says the density of a substance is NOT the only factor that decides whether it floats or sinks — density explains it only partially.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q67",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Floating, Sinking and the Idea of Density",
+      "question": "The chapter states that density is the only factor deciding whether an object floats or sinks in a liquid.",
+      "answer": false,
+      "explanation": "The chapter's Note explicitly says density is NOT the only factor; it explains floating and sinking only partially.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q68",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Floating, Sinking and the Idea of Density",
+      "question": "A wooden stick and an iron rod are the same size, yet the iron rod feels much heavier. Which property explains this?",
+      "options": [
+        "Iron has a larger volume than wood",
+        "Iron has a higher density than wood",
+        "Iron has a smaller mass than wood",
+        "Iron absorbs more water than wood"
+      ],
+      "answer": 1,
+      "explanation": "Same size means same volume; iron has more mass in that volume, i.e. a higher density — the 'heaviness' property the chapter introduces.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q69",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Floating, Sinking and the Idea of Density",
+      "question": "A raw egg sinks in a tumbler of tap water. Which single change to the WATER would make the egg float?",
+      "options": [
+        "Warm it gently so that it becomes less dense",
+        "Use much more tap water in a much bigger tumbler",
+        "Dissolve plenty of salt in it to raise its density",
+        "Stir it quickly to spread the water evenly"
+      ],
+      "answer": 2,
+      "explanation": "The egg floats only if the liquid becomes denser than the egg. Dissolving a lot of salt increases the water's density; warming would lower it, and more water or stirring does not change density.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q70",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Floating, Sinking and the Idea of Density",
+      "question": "Why was bamboo chosen in ancient times for making rafts?",
+      "options": [
+        "It is heavy and solid, so it stays steady",
+        "It dissolves slowly, so it lasts in water",
+        "It is dense, so it sits low in the water",
+        "It is light and hollow, so it floats easily"
+      ],
+      "answer": 3,
+      "explanation": "The 'Ever heard of' box says bamboo is light, hollow, and floats easily on water — ideal for rafts.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q71",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Floating, Sinking and the Idea of Density",
+      "question": "Which of these are described in the chapter as FLOATING on water?",
+      "options": [
+        "Cooking oil",
+        "Rice husk",
+        "Sand grains",
+        "A peeled orange"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Oil floats on water and husk floats while washing rice. Sand sinks, and the peeled orange sinks in exercise 8.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q72",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Floating, Sinking and the Idea of Density",
+      "question": "The Dead Sea is extremely salty. Based on the chapter, why might this make it easy for a person to float there?",
+      "options": [
+        "Dissolved salt makes the water much lighter than normal water",
+        "Dissolved salt makes the water much denser than normal water",
+        "Salt removes the oxygen that would otherwise pull swimmers down",
+        "Salt lowers the water temperature, making it support more weight"
+      ],
+      "answer": 1,
+      "explanation": "Just as salt makes tap water dense enough to float an egg, the Dead Sea's huge salt content makes its water far denser than a human body, so people float easily.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q73",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Density: Formula and Units",
+      "question": "How does the chapter define density?",
+      "options": [
+        "The volume occupied by a unit mass of a substance",
+        "The total mass of an object regardless of its size",
+        "The mass present in a unit volume of a substance",
+        "The space an object occupies when fully immersed"
+      ],
+      "answer": 2,
+      "explanation": "Density = mass per unit volume. The second option is inverted, and the others describe mass and volume respectively.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q74",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Density: Formula and Units",
+      "question": "Which formula gives density?",
+      "options": [
+        "Volume ÷ Mass",
+        "Mass × Volume",
+        "Mass + Volume",
+        "Mass ÷ Volume"
+      ],
+      "answer": 3,
+      "explanation": "Density = Mass/Volume. Dividing the other way or multiplying gives something else entirely.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q75",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Density: Formula and Units",
+      "question": "What is the SI unit of density?",
+      "options": [
+        "kg/m³",
+        "g/mL",
+        "g/cm³",
+        "kg/L"
+      ],
+      "answer": 0,
+      "explanation": "SI units of mass and volume are kg and m³, so the SI unit of density is kilogram per cubic metre (kg/m³). g/mL and g/cm³ are convenient non-SI units.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q76",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Density: Formula and Units",
+      "question": "According to the chapter's conversion, 1 kg/m³ is equal to ______.",
+      "options": [
+        "1 g/mL",
+        "1000 g/L",
+        "1 g/L",
+        "1 kg/L"
+      ],
+      "answer": 2,
+      "explanation": "1 kg/m³ = 1000 g / 1000 L = 1 g/L — a kilogram is 1000 g and a cubic metre is 1000 L.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q77",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Density: Formula and Units",
+      "question": "Using the chapter's conversion factor, 1 kg/m³ equals how many g/cm³?",
+      "options": [
+        "1.000 g/cm³",
+        "1000 g/cm³",
+        "0.01 g/cm³",
+        "0.001 g/cm³"
+      ],
+      "answer": 3,
+      "explanation": "1 kg/m³ = 1 g/1000 cm³ = 0.001 g/cm³. A value in kg/m³ is 1000 times the value in g/cm³ (water: 1000 kg/m³ ≈ 1 g/cm³).",
+      "source": "text:page8"
+    },
+    {
+      "id": "q78",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Density: Formula and Units",
+      "question": "Does the density of a substance depend on its shape or size?",
+      "options": [
+        "No — it is independent of shape and size",
+        "Yes — larger pieces always have higher density",
+        "Yes — flatter pieces always have lower density",
+        "Only the size matters, not the shape"
+      ],
+      "answer": 0,
+      "explanation": "Density is a property of the substance, independent of shape or size; it depends on temperature and pressure instead.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q79",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Density: Formula and Units",
+      "question": "Which factors does the chapter say the density of a substance DEPENDS on?",
+      "options": [
+        "Temperature",
+        "Pressure",
+        "Shape of the object",
+        "Size of the object"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Density is independent of shape and size but dependent on temperature and pressure.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q80",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Density: Formula and Units",
+      "question": "Pressure mainly affects the density of which state of matter?",
+      "options": [
+        "Liquids",
+        "Solids",
+        "Gases",
+        "Powders"
+      ],
+      "answer": 2,
+      "explanation": "Pressure primarily affects the density of gases; its effect on solids and liquids is negligible.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q81",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Density: Formula and Units",
+      "question": "A packet of oil is labelled 1 litre but weighs only 910 g. What does this tell you about the oil's density?",
+      "options": [
+        "About 1.10 g/mL — more than water",
+        "About 0.91 g/mL — more than water",
+        "About 1.00 g/mL — same as water",
+        "About 0.91 g/mL — less than water"
+      ],
+      "answer": 3,
+      "explanation": "910 g ÷ 1000 mL = 0.91 g/mL, below water's roughly 1 g/mL. That is why oil floats on water.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q82",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Density: Formula and Units",
+      "question": "Which statement about density is NOT correct?",
+      "options": [
+        "The density of a gas is hardly changed by pressure",
+        "The density of a substance does not depend on its shape",
+        "The density of a substance depends on its temperature",
+        "The density of a solid is hardly changed by pressure"
+      ],
+      "answer": 0,
+      "explanation": "Pressure PRIMARILY affects gases — compressing a gas raises its density a lot. Solids and liquids are barely affected. The other statements match the chapter.",
+      "source": "text:page7"
+    },
+    {
+      "id": "q83",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Density: Formula and Units",
+      "question": "The mass of 1 mL of water is close to 1 g at room temperature.",
+      "answer": true,
+      "explanation": "The chapter says 1 mL of water has a mass close to 1 g, so 100 mL of water is about 100 g.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q84",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Density: Formula and Units",
+      "question": "The SI unit of density is gram per millilitre (g/mL).",
+      "answer": false,
+      "explanation": "The SI unit is kg/m³. g/mL is a convenient unit used for liquids, not the SI unit.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q85",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Relative Density and Density Calculations",
+      "question": "An aluminium block has a mass of 27 g and a volume of 10 cm³. What is its density?",
+      "options": [
+        "27 g/cm³",
+        "0.37 g/cm³",
+        "2.7 g/cm³",
+        "270 g/cm³"
+      ],
+      "answer": 2,
+      "explanation": "Density = 27 g ÷ 10 cm³ = 2.7 g/cm³.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q86",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Relative Density and Density Calculations",
+      "question": "The relative density of aluminium with respect to water is 2.7. What kind of quantity is this?",
+      "options": [
+        "A mass measured in grams",
+        "A density measured in g/cm³",
+        "A volume measured in cm³",
+        "A number without any units"
+      ],
+      "answer": 3,
+      "explanation": "Relative density is a ratio of two densities, so the units cancel and it is a pure number.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q87",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Relative Density and Density Calculations",
+      "question": "How is the relative density of a substance with respect to water calculated?",
+      "options": [
+        "Density of the substance ÷ density of water at that temperature",
+        "Density of water ÷ density of the substance at that temperature",
+        "Density of the substance × density of water at that temperature",
+        "Density of the substance − density of water at that temperature"
+      ],
+      "answer": 0,
+      "explanation": "Relative density = density of the substance / density of water (at the same temperature).",
+      "source": "text:page8"
+    },
+    {
+      "id": "q88",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Relative Density and Density Calculations",
+      "question": "'Aluminium has a relative density of 2.7' means that ______.",
+      "options": [
+        "1 cm³ of aluminium has a mass of 2.7 kg",
+        "aluminium is 2.7 times as dense as water",
+        "aluminium is 2.7 g/cm³ heavier than water",
+        "water is 2.7 times as dense as aluminium"
+      ],
+      "answer": 1,
+      "explanation": "Relative density compares with water: aluminium's density (2.7 g/cm³) is 2.7 times water's (about 1 g/cm³). 1 cm³ of aluminium is 2.7 g, not kg.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q89",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Relative Density and Density Calculations",
+      "question": "A stone sculpture weighs 225 g and has a volume of 90 cm³. What is its density, and will it float or sink in water?",
+      "options": [
+        "0.4 g/cm³ — it floats",
+        "2.5 g/cm³ — it floats",
+        "2.5 g/cm³ — it sinks",
+        "0.4 g/cm³ — it sinks"
+      ],
+      "answer": 2,
+      "explanation": "Exercise 4: 225 ÷ 90 = 2.5 g/cm³, more than water's ~1 g/cm³, so the sculpture sinks.",
+      "source": "exercise:Q4"
+    },
+    {
+      "id": "q90",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Relative Density and Density Calculations",
+      "question": "An object has a mass of 400 g and a volume of 40 cm³. What is its density?",
+      "options": [
+        "0.1 g/cm³",
+        "16,000 g/cm³",
+        "440 g/cm³",
+        "10 g/cm³"
+      ],
+      "answer": 3,
+      "explanation": "Exercise 7: density = 400 g ÷ 40 cm³ = 10 g/cm³.",
+      "source": "exercise:Q7"
+    },
+    {
+      "id": "q91",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Relative Density and Density Calculations",
+      "question": "Object A: mass 200 g, volume 40 cm³. Object B: mass 240 g, volume 60 cm³. Which is denser?",
+      "options": [
+        "Object A, with density 5 g/cm³",
+        "Object B, with density 4 g/cm³",
+        "Object B, because it has the larger mass",
+        "Both — each has a density of 4.5 g/cm³"
+      ],
+      "answer": 0,
+      "explanation": "Exercise 9: A = 200 ÷ 40 = 5 g/cm³; B = 240 ÷ 60 = 4 g/cm³. A is denser even though B has more mass.",
+      "source": "exercise:Q9"
+    },
+    {
+      "id": "q92",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Relative Density and Density Calculations",
+      "question": "Reema moulds 120 g of clay into a cube of volume 60 cm³, then flattens it into a thin sheet. What happens to its density?",
+      "options": [
+        "Decreases, because the sheet is much thinner",
+        "Stays 2 g/cm³ — mass and volume are unchanged",
+        "Increases, because the sheet is more compact",
+        "Becomes zero, because the sheet is flat"
+      ],
+      "answer": 1,
+      "explanation": "Exercise 10: density = 120 ÷ 60 = 2 g/cm³. Reshaping changes neither mass nor volume, and density is independent of shape, so it stays 2 g/cm³.",
+      "source": "exercise:Q10"
+    },
+    {
+      "id": "q93",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Relative Density and Density Calculations",
+      "question": "A block of iron has a mass of 600 g and a density of 7.9 g/cm³. What is its volume?",
+      "options": [
+        "About 4740 cm³",
+        "About 0.013 cm³",
+        "About 76 cm³",
+        "About 608 cm³"
+      ],
+      "answer": 2,
+      "explanation": "Exercise 11: volume = mass ÷ density = 600 ÷ 7.9 ≈ 75.9 cm³, about 76 cm³. 4740 comes from multiplying instead of dividing.",
+      "source": "exercise:Q11"
+    },
+    {
+      "id": "q94",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Relative Density and Density Calculations",
+      "question": "In the chapter's worked example, a stone of mass 16.400 g displaces 5 mL of water. What is its density?",
+      "options": [
+        "0.30 g/cm³",
+        "82 g/cm³",
+        "11.4 g/cm³",
+        "3.28 g/cm³"
+      ],
+      "answer": 3,
+      "explanation": "Volume = 5 mL = 5 cm³; density = 16.400 ÷ 5 = 3.28 g/cm³, as calculated on page 146.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q95",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Relative Density and Density Calculations",
+      "question": "Compare 10 cm³ of aluminium (density 2.7 g/cm³) with 10 cm³ of water. Which is correct?",
+      "options": [
+        "Aluminium is about 17 g heavier",
+        "Water is about 17 g heavier",
+        "Both have the same mass, 10 g",
+        "Aluminium is about 2.7 g heavier"
+      ],
+      "answer": 0,
+      "explanation": "10 cm³ of aluminium = 27 g; 10 cm³ of water ≈ 10 g. The difference is 27 − 10 = 17 g.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q96",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Relative Density and Density Calculations",
+      "question": "Relative density has no units because it is a ratio of two densities.",
+      "answer": true,
+      "explanation": "Dividing a density by the density of water cancels the units, leaving a pure number such as 2.7 for aluminium.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q97",
+      "type": "boolean",
+      "difficulty": "tricky",
+      "topic": "Relative Density and Density Calculations",
+      "question": "An object with a density of 0.8 g/cm³ will sink in water.",
+      "answer": false,
+      "explanation": "0.8 g/cm³ is LESS than water's ~1 g/cm³, so the object floats.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q98",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Measuring Mass: Balances, Mass and Weight",
+      "question": "Which instrument is used to measure the mass of an object?",
+      "options": [
+        "A measuring cylinder",
+        "A thermometer",
+        "A dropper",
+        "A balance"
+      ],
+      "answer": 3,
+      "explanation": "Mass is measured with a balance (for example a digital weighing balance); a measuring cylinder measures volume.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q99",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Measuring Mass: Balances, Mass and Weight",
+      "question": "What is 'mass' according to the chapter?",
+      "options": [
+        "The quantity of matter present in an object",
+        "The amount of space occupied by an object",
+        "The force with which Earth pulls an object",
+        "The heaviness of an object per unit volume"
+      ],
+      "answer": 0,
+      "explanation": "Mass is the quantity of matter in an object. Space occupied is volume, Earth's pull is weight, and heaviness per unit volume is density.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q100",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Measuring Mass: Balances, Mass and Weight",
+      "question": "In Activity 9.3, why is the tare (reset) button pressed AFTER placing the watch glass on the pan?",
+      "options": [
+        "So the balance can switch from grams to kilograms",
+        "So the display reads zero, ignoring the watch glass's mass",
+        "So the watch glass is weighed together with the stone",
+        "So the balance measures weight rather than the mass"
+      ],
+      "answer": 1,
+      "explanation": "Taring sets the reading to zero with the watch glass in place, so the next reading shows only the mass of the stone.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q101",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Measuring Mass: Balances, Mass and Weight",
+      "question": "In science, weight is measured in which unit?",
+      "options": [
+        "Kilogram (kg)",
+        "Gram (g)",
+        "Litre (L)",
+        "Newton (N)"
+      ],
+      "answer": 3,
+      "explanation": "Weight is a force — Earth's pull on an object — and is measured in newtons. Grams and kilograms are units of mass; litres measure volume.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q102",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Measuring Mass: Balances, Mass and Weight",
+      "question": "Most balances actually measure weight but are marked in mass units. Which type of balance is the exception mentioned in the chapter?",
+      "options": [
+        "A two-pan balance",
+        "A digital weighing balance",
+        "A spring balance",
+        "A kitchen scale"
+      ],
+      "answer": 0,
+      "explanation": "The 'A step further' box says most balances — except two-pan balances like Fig. 9.13 — measure weight but display mass units.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q103",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Measuring Mass: Balances, Mass and Weight",
+      "question": "Weight is the force with which the Earth attracts an object towards itself.",
+      "answer": true,
+      "explanation": "This is the chapter's definition of weight, measured in newtons (N).",
+      "source": "text:page9"
+    },
+    {
+      "id": "q104",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Measuring Mass: Balances, Mass and Weight",
+      "question": "Mass is measured in newtons, while weight is measured in kilograms.",
+      "answer": false,
+      "explanation": "It is the other way round: mass is in grams/kilograms and weight (a force) is in newtons.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q105",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Measuring Mass: Balances, Mass and Weight",
+      "question": "How can the mass of a liquid be measured with the digital balance set-up of Activity 9.3?",
+      "options": [
+        "Pour the liquid directly onto the pan of the balance",
+        "Replace the watch glass with a beaker and pour the liquid in",
+        "Measure its volume in a cylinder and read that as mass",
+        "Place the liquid's container on a two-pan balance only"
+      ],
+      "answer": 1,
+      "explanation": "The Note says to replace the watch glass with a beaker (tare it) and pour in the desired amount of liquid.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q106",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Measuring Mass: Balances, Mass and Weight",
+      "question": "Select the statements about mass and weight that are correct.",
+      "options": [
+        "Mass is the quantity of matter in an object",
+        "Weight is measured in newtons",
+        "Mass and weight mean exactly the same in science",
+        "Weight is the quantity of matter in an object",
+        "Mass is measured in newtons"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Mass = quantity of matter (g, kg); weight = Earth's pull (N). They are used interchangeably in everyday speech but differ in science.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q107",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Measuring Mass: Balances, Mass and Weight",
+      "question": "Why can a balance that really measures weight still display a useful value in grams?",
+      "options": [
+        "It counts the number of particles in the object",
+        "Mass and weight are identical quantities",
+        "The gram is the SI unit of force (weight)",
+        "On Earth, weight and mass are closely related"
+      ],
+      "answer": 3,
+      "explanation": "Because weight and mass are closely related on Earth, the scale can be marked in mass units even though the balance senses weight.",
+      "source": "text:page8"
+    },
+    {
+      "id": "q108",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Measuring Mass: Balances, Mass and Weight",
+      "question": "Put these Activity 9.3 steps in order: (P) place the stone on the watch glass, (Q) tare with the watch glass on the pan, (R) switch on and check for zero, (S) note the stone's mass.",
+      "options": [
+        "R → Q → P → S",
+        "Q → R → P → S",
+        "R → P → Q → S",
+        "P → Q → R → S"
+      ],
+      "answer": 0,
+      "explanation": "Switch on and check zero, place and tare the watch glass, then place the stone and read its mass.",
+      "source": "text:page9"
+    },
+    {
+      "id": "q109",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Volume Units and the Measuring Cylinder",
+      "question": "What is the SI unit of volume?",
+      "options": [
+        "Litre (L)",
+        "Cubic metre (m³)",
+        "Millilitre (mL)",
+        "Cubic centimetre (cm³)"
+      ],
+      "answer": 1,
+      "explanation": "The SI unit of volume is the cubic metre — the volume of a cube with 1 m sides. Litres and cm³ are convenient smaller units.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q110",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Volume Units and the Measuring Cylinder",
+      "question": "One litre (L) is equivalent to ______.",
+      "options": [
+        "1 cm³",
+        "1 m³",
+        "1 dm³",
+        "10 cm³"
+      ],
+      "answer": 2,
+      "explanation": "The chapter says a litre is equivalent to 1 cubic decimetre (dm³); a millilitre equals 1 cm³.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q111",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Volume Units and the Measuring Cylinder",
+      "question": "One millilitre (mL) equals ______, which is also written as 1 cc.",
+      "options": [
+        "1 dm³",
+        "1 m³",
+        "10 cm³",
+        "1 cm³"
+      ],
+      "answer": 3,
+      "explanation": "1 mL = 1 cm³, and one centimetre cube is also written as one cc.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q112",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Volume Units and the Measuring Cylinder",
+      "question": "A tetra pack says it contains 200 mL of buttermilk. What does this volume equal in cm³?",
+      "options": [
+        "200 cm³",
+        "20 cm³",
+        "2 cm³",
+        "2000 cm³"
+      ],
+      "answer": 0,
+      "explanation": "Since 1 mL = 1 cm³, 200 mL is 200 cm³.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q113",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Volume Units and the Measuring Cylinder",
+      "question": "Which apparatus does the chapter describe for measuring the volume of liquids?",
+      "options": [
+        "A digital balance",
+        "A measuring cylinder",
+        "A watch glass",
+        "A laboratory thermometer"
+      ],
+      "answer": 1,
+      "explanation": "A measuring cylinder is a narrow, transparent cylinder with volume markings, used to measure liquid volume.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q114",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Volume Units and the Measuring Cylinder",
+      "question": "Which measuring-cylinder capacities are listed in the chapter?",
+      "options": [
+        "25 mL",
+        "250 mL",
+        "75 mL",
+        "2 L"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The listed sizes are 5, 10, 25, 50, 100 and 250 mL (500 mL is mentioned later). 75 mL and 2 L are not listed.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q115",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Volume Units and the Measuring Cylinder",
+      "question": "One litre is equal to one cubic centimetre.",
+      "answer": false,
+      "explanation": "One litre equals 1 dm³ (1000 cm³); it is one MILLILITRE that equals 1 cm³.",
+      "source": "text:page10"
+    },
+    {
+      "id": "q116",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Volume Units and the Measuring Cylinder",
+      "question": "How many millilitres are there in 1 dm³?",
+      "options": [
+        "100 mL",
+        "10 mL",
+        "0.01 mL",
+        "1000 mL"
+      ],
+      "answer": 3,
+      "explanation": "1 dm³ = 1 L, and 1 L = 1000 mL (each mL being 1 cm³).",
+      "source": "text:page10"
+    },
+    {
+      "id": "q117",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reading a Measuring Cylinder Accurately",
+      "question": "A 100 mL measuring cylinder has 10 small divisions between the 10 mL and 20 mL marks. What is the smallest volume it can read?",
+      "options": [
+        "10 mL",
+        "1 mL",
+        "0.1 mL",
+        "2 mL"
+      ],
+      "answer": 1,
+      "explanation": "The gap between the big marks is 10 mL and there are 10 divisions, so one division = 10 ÷ 10 = 1 mL.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q118",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reading a Measuring Cylinder Accurately",
+      "question": "What is the smallest volume a 250 mL measuring cylinder usually reads?",
+      "options": [
+        "1 mL",
+        "0.1 mL",
+        "2 mL",
+        "5 mL"
+      ],
+      "answer": 2,
+      "explanation": "The chapter gives: 0.1 mL for 10 or 25 mL cylinders, 1 mL for 100 mL, 2 mL for 250 mL and 5 mL for 500 mL.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q119",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reading a Measuring Cylinder Accurately",
+      "question": "Which measuring cylinder usually reads to the smallest division, 0.1 mL?",
+      "options": [
+        "A 100 mL cylinder",
+        "A 250 mL cylinder",
+        "A 500 mL cylinder",
+        "A 25 mL cylinder"
+      ],
+      "answer": 3,
+      "explanation": "Smaller cylinders are finer: 10 mL and 25 mL cylinders read 0.1 mL, while 500 mL cylinders read only 5 mL.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q120",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Reading a Measuring Cylinder Accurately",
+      "question": "You need exactly 70 mL of water. Which measuring cylinder is the BEST choice, and why?",
+      "options": [
+        "100 mL — measures it in one step with 1 mL accuracy",
+        "50 mL — the smaller the cylinder, the more accurate",
+        "500 mL — it holds 70 mL with plenty of room to spare",
+        "250 mL — it is the standard size for school laboratories"
+      ],
+      "answer": 0,
+      "explanation": "A 50 mL cylinder would need two steps (50 + 20), while 250 or 500 mL cylinders are less accurate (2 or 5 mL divisions). The 100 mL cylinder does it in one step at 1 mL accuracy.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q121",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Reading a Measuring Cylinder Accurately",
+      "question": "Why is a 50 mL measuring cylinder NOT convenient for measuring 70 mL of water?",
+      "options": [
+        "Its smallest division of 5 mL makes it inaccurate",
+        "70 mL must be measured in two steps (50 mL, then 20 mL)",
+        "It is too wide for the water to form a meniscus",
+        "It cannot be read because its marks are too close"
+      ],
+      "answer": 1,
+      "explanation": "The chapter says you would first measure 50 mL and then 20 mL; measuring in more than one step is not convenient.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q122",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Reading a Measuring Cylinder Accurately",
+      "question": "Why does the chapter reject a 500 mL cylinder for measuring 70 mL, even though it can hold it in one step?",
+      "options": [
+        "It cannot be placed on a flat surface safely",
+        "Its volume markings begin only at the 100 mL level",
+        "Its smallest division is 5 mL, so accuracy is reduced",
+        "Water does not form a meniscus in large cylinders"
+      ],
+      "answer": 2,
+      "explanation": "Large cylinders have coarser divisions (5 mL for 500 mL) than a 100 mL cylinder (1 mL), so the reading is less accurate.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q123",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Reading a Measuring Cylinder Accurately",
+      "question": "What is the curved surface of water inside a measuring cylinder called?",
+      "options": [
+        "The tare",
+        "The displacement",
+        "The gradation",
+        "The meniscus"
+      ],
+      "answer": 3,
+      "explanation": "The curved surface a liquid forms in the cylinder is called the meniscus.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q124",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reading a Measuring Cylinder Accurately",
+      "question": "For water or any colourless liquid, which part of the meniscus should coincide with the mark being read?",
+      "options": [
+        "The bottom of the meniscus",
+        "The top of the meniscus",
+        "The middle of the meniscus",
+        "Either edge, as convenient"
+      ],
+      "answer": 0,
+      "explanation": "For water and other colourless liquids, read the mark at the BOTTOM of the meniscus; for coloured liquids, use the top.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q125",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Reading a Measuring Cylinder Accurately",
+      "question": "A student measures 50 mL of a dark coloured syrup in a measuring cylinder. Where should the 50 mL mark coincide?",
+      "options": [
+        "With the bottom of the meniscus",
+        "With the top of the meniscus",
+        "With the centre of the meniscus",
+        "With the surface edge touching glass"
+      ],
+      "answer": 1,
+      "explanation": "The chapter notes that for coloured liquids the mark should coincide with the TOP of the meniscus — the opposite of the rule for water.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q126",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Reading a Measuring Cylinder Accurately",
+      "question": "When reading a measuring cylinder, where should your eyes be?",
+      "options": [
+        "Well above the cylinder, looking down",
+        "Below the cylinder, looking upwards",
+        "Level with the bottom of the meniscus",
+        "At the top rim of the measuring cylinder"
+      ],
+      "answer": 2,
+      "explanation": "Keep the eyes at the level of the bottom of the meniscus (as in Fig. 9.18) to read the volume correctly.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q127",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Reading a Measuring Cylinder Accurately",
+      "question": "Why are measuring cylinders made tall and narrow rather than wide and short like a beaker?",
+      "options": [
+        "A wide container would let the water evaporate away far too quickly",
+        "In a narrow column the marks are spread out, so it reads finer volumes",
+        "A tall shape is needed so that the liquid can form a proper meniscus",
+        "Narrow glass is stronger and does not crack when it is heated"
+      ],
+      "answer": 1,
+      "explanation": "The chapter's data show narrower, smaller cylinders read finer divisions (0.1 mL for 10 mL vs 5 mL for 500 mL): in a narrow column the same volume rises higher, so the markings are farther apart and more accurate to read.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q128",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Reading a Measuring Cylinder Accurately",
+      "question": "Measuring a required volume in more than one step is considered convenient and preferred.",
+      "answer": false,
+      "explanation": "The chapter says measuring volume in more than one step is NOT convenient — pick a cylinder that measures it in one step.",
+      "source": "text:page11"
+    },
+    {
+      "id": "q129",
+      "type": "multiple",
+      "difficulty": "tricky",
+      "topic": "Reading a Measuring Cylinder Accurately",
+      "question": "Which statements about reading a measuring cylinder are correct?",
+      "options": [
+        "Read colourless liquids at the bottom of the meniscus",
+        "Read coloured liquids at the top of the meniscus",
+        "Keep your eyes well above the liquid level",
+        "Read all liquids at the top of the meniscus",
+        "A 500 mL cylinder is more accurate than a 100 mL one"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Bottom of meniscus for colourless, top for coloured, eyes level with the meniscus. Larger cylinders have coarser divisions, so they are less accurate.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q130",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Volume of Regular and Irregular Solids",
+      "question": "How is the volume of a cuboid such as a shoe box calculated?",
+      "options": [
+        "Length + width + height",
+        "Length × width ÷ height",
+        "Length × width × height",
+        "2 × (length + width + height)"
+      ],
+      "answer": 2,
+      "explanation": "Volume = l × w × h for cuboid shapes like a notebook, shoe box or dice.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q131",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Volume of Regular and Irregular Solids",
+      "question": "A notebook is 25 cm long, 18 cm wide and 2 cm high. What is its volume?",
+      "options": [
+        "45 cm³",
+        "450 cm³",
+        "90 cm³",
+        "900 cm³"
+      ],
+      "answer": 3,
+      "explanation": "Volume = 25 × 18 × 2 = 900 cm³, as in Activity 9.6.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q132",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Volume of Regular and Irregular Solids",
+      "question": "A dice has sides of 2 cm each. What is its volume?",
+      "options": [
+        "8 cm³",
+        "6 cm³",
+        "4 cm³",
+        "12 cm³"
+      ],
+      "answer": 0,
+      "explanation": "Volume = 2 × 2 × 2 = 8 cm³. Adding the sides (6) or doubling (4) is a common slip.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q133",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Volume of Regular and Irregular Solids",
+      "question": "A stone lowered into a measuring cylinder raises the water level from 50 mL to 55 mL. What is the stone's volume?",
+      "options": [
+        "55 cm³",
+        "5 cm³",
+        "50 cm³",
+        "105 cm³"
+      ],
+      "answer": 1,
+      "explanation": "Volume of the stone = final − initial = 55 − 50 = 5 mL = 5 cm³ (Table 9.2).",
+      "source": "text:page13"
+    },
+    {
+      "id": "q134",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Volume of Regular and Irregular Solids",
+      "question": "Fill in the blanks: the volume of a solid can be measured by displacement, where the solid is ______ in water and the ______ in water level is measured.",
+      "options": [
+        "floated; fall",
+        "dissolved; rise",
+        "immersed; rise",
+        "immersed; fall"
+      ],
+      "answer": 2,
+      "explanation": "Exercise 2(i): the solid is immersed (put fully under water) and the RISE in the water level equals its volume.",
+      "source": "exercise:Q2(i)"
+    },
+    {
+      "id": "q135",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Volume of Regular and Irregular Solids",
+      "question": "Could the displacement method of Activity 9.7 be used to find the volume of a sugar cube? Why?",
+      "options": [
+        "Yes — any solid object displaces exactly its own volume",
+        "No — sugar is too light to push the water level up",
+        "Yes — dissolved sugar still raises the level by its volume",
+        "No — the sugar would dissolve, so no proper level rise is read"
+      ],
+      "answer": 3,
+      "explanation": "The method relies on the solid staying intact under water. Sugar dissolves in water (it is a solute), so the water level would not give a reliable measure of the cube's volume.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q136",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Volume of Regular and Irregular Solids",
+      "question": "For the displacement method as described in the chapter to give the object's full volume, the object must be ______.",
+      "options": [
+        "completely under the water surface",
+        "floating partly above the water",
+        "larger than the measuring cylinder",
+        "lighter than the water it displaces"
+      ],
+      "answer": 0,
+      "explanation": "The water rises by the volume of object that is UNDER the surface; the stone and keys in Activity 9.7 sink fully, so the rise equals their whole volume.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q137",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Volume of Regular and Irregular Solids",
+      "question": "Initial water level 50 mL, final level 62 mL after adding a metal piece of mass 30 g. What is the metal's density?",
+      "options": [
+        "0.4 g/cm³",
+        "12 g/cm³",
+        "2.5 g/cm³",
+        "30 g/cm³"
+      ],
+      "answer": 2,
+      "explanation": "Volume = 62 − 50 = 12 cm³; density = 30 ÷ 12 = 2.5 g/cm³.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q138",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Volume of Regular and Irregular Solids",
+      "question": "A metal key of mass 24 g raises the water level from 40 mL to 43 mL. What is its density?",
+      "options": [
+        "3 g/cm³",
+        "0.125 g/cm³",
+        "72 g/cm³",
+        "8 g/cm³"
+      ],
+      "answer": 3,
+      "explanation": "Volume displaced = 43 − 40 = 3 cm³; density = 24 ÷ 3 = 8 g/cm³. 72 comes from multiplying, 0.125 from dividing the wrong way.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q139",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Volume of Regular and Irregular Solids",
+      "question": "For solids, a volume measured as 5 mL in a measuring cylinder can be written as 5 cm³.",
+      "answer": true,
+      "explanation": "Since 1 mL = 1 cm³, 5 mL of displaced water equals a solid volume of 5 cm³.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q140",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Volume of Regular and Irregular Solids",
+      "question": "The volume of an irregular stone can be found by multiplying its length, width and height.",
+      "answer": false,
+      "explanation": "l × w × h works only for regular cuboids. An irregular stone's volume is found by water displacement.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q141",
+      "type": "multiple",
+      "difficulty": "simple",
+      "topic": "Volume of Regular and Irregular Solids",
+      "question": "For which objects can the volume be found directly using l × w × h?",
+      "options": [
+        "A shoe box",
+        "A dice",
+        "A stone",
+        "A metal key"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "A shoe box and a dice are cuboid shapes; a stone and a key are irregular and need the displacement method.",
+      "source": "text:page12"
+    },
+    {
+      "id": "q142",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Volume of Regular and Irregular Solids",
+      "question": "A student records in Table 9.2: initial 50 mL, final 55 mL, but writes the object's volume as 55 cm³. What is the error?",
+      "options": [
+        "mL readings cannot be converted into cm³ for solids",
+        "The initial volume was not subtracted from the final",
+        "The object's volume should have been written as 50 cm³",
+        "The final reading should have been doubled, not copied"
+      ],
+      "answer": 1,
+      "explanation": "Volume of the object = (B − A) = 55 − 50 = 5 cm³; the student copied the final reading instead of the difference.",
+      "source": "text:page13"
+    },
+    {
+      "id": "q143",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Effect of Temperature on Density",
+      "question": "Generally, how does the density of a substance change when it is heated?",
+      "options": [
+        "It increases",
+        "It stays the same",
+        "It decreases",
+        "It becomes zero"
+      ],
+      "answer": 2,
+      "explanation": "Density generally decreases with heating and increases with cooling.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q144",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Effect of Temperature on Density",
+      "question": "Why does heating usually lower a substance's density?",
+      "options": [
+        "Particles are destroyed, so mass falls while volume stays the same",
+        "Particles come closer, so volume falls while mass stays the same",
+        "Particles gain mass, so mass rises while volume stays the same",
+        "Particles spread out, so volume rises while mass stays the same"
+      ],
+      "answer": 3,
+      "explanation": "On heating, particles tend to move apart, increasing the volume; mass does not change. Since density = mass/volume, a larger volume means a lower density.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q145",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Effect of Temperature on Density",
+      "question": "Why does a hot air balloon rise?",
+      "options": [
+        "Hot air inside is less dense than the cooler air around it",
+        "Hot air inside is denser than the cooler air around it",
+        "Heating adds mass to the air inside the balloon",
+        "The hot air dissolves into the surrounding cool air"
+      ],
+      "answer": 0,
+      "explanation": "Hot air moves up because it is less dense than the cool air around it — the principle the balloon works on.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q146",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Effect of Temperature on Density",
+      "question": "Fill in the blank: generally, the density ______ with increase in temperature.",
+      "options": [
+        "increases",
+        "decreases",
+        "doubles",
+        "is unchanged"
+      ],
+      "answer": 1,
+      "explanation": "Exercise 2(iii): density generally decreases as temperature increases because volume expands while mass is constant.",
+      "source": "exercise:Q2(iii)"
+    },
+    {
+      "id": "q147",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Effect of Temperature on Density",
+      "question": "A test tube of water fitted with a glass tube (Fig. 9.26) is placed in hot water at about 70 °C and the level in the glass tube rises. How is the water's density affected?",
+      "options": [
+        "It increases — the water gained mass from the hot bath",
+        "It is unchanged — only the level moved, not the volume",
+        "It decreases — volume increased while mass stayed the same",
+        "It increases — the water became more compact on heating"
+      ],
+      "answer": 2,
+      "explanation": "Exercise 12: the rising level shows the water expanded (greater volume) with no change in mass, so density = mass/volume fell.",
+      "source": "exercise:Q12"
+    },
+    {
+      "id": "q148",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Effect of Temperature on Density",
+      "question": "If the same test tube set-up (Fig. 9.26) were instead placed in ice-cold water, what would you expect?",
+      "options": [
+        "The level rises and the water's density increases",
+        "The level falls and the water's density decreases",
+        "The level stays put because cooling has no effect",
+        "The level falls and the water's density increases"
+      ],
+      "answer": 3,
+      "explanation": "Cooling makes particles come closer, volume decreases, so the level drops; with the same mass in a smaller volume, density increases.",
+      "source": "exercise:Q12"
+    },
+    {
+      "id": "q149",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Effect of Temperature on Density",
+      "question": "In the Fig. 9.26 experiment, which quantity is kept the SAME and which one CHANGES?",
+      "options": [
+        "Mass stays the same; volume changes",
+        "Volume stays the same; mass changes",
+        "Both mass and volume stay the same",
+        "Both mass and volume change"
+      ],
+      "answer": 0,
+      "explanation": "No water is added or removed, so mass is constant; heating expands the water, so volume changes — hence the density change.",
+      "source": "exercise:Q12"
+    },
+    {
+      "id": "q150",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Effect of Temperature on Density",
+      "question": "Cooling a substance generally increases its density.",
+      "answer": true,
+      "explanation": "Density increases with cooling because particles come closer, reducing the volume while the mass stays constant.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q151",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Effect of Temperature on Density",
+      "question": "When a substance is heated, both its mass and its volume increase, so its density stays the same.",
+      "answer": false,
+      "explanation": "Only the VOLUME increases on heating; the mass does not change, so the density decreases.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q152",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Effect of Temperature on Density",
+      "question": "A metal block is heated. Which of these happen?",
+      "options": [
+        "Its volume increases",
+        "Its mass stays the same",
+        "Its mass decreases",
+        "Its density increases"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "Heating spreads the particles out (volume up) but does not change the amount of matter (mass same); density therefore decreases.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q153",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Effect of Temperature on Density",
+      "question": "Which statement is NOT correct about the effect of temperature on density?",
+      "options": [
+        "Heating increases the volume of a substance",
+        "Heating increases the mass of a substance",
+        "Heating generally decreases the density of a substance",
+        "Cooling generally increases the density of a substance"
+      ],
+      "answer": 1,
+      "explanation": "Mass does not change on heating — only the volume does. The other three statements are correct.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q154",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pressure, Ice and Earth's Layers",
+      "question": "How does increasing pressure affect a gas?",
+      "options": [
+        "Particles move apart, volume increases, density decreases",
+        "Particles stay put, volume is unchanged, density is unchanged",
+        "Particles move closer, volume decreases, density decreases",
+        "Particles move closer, volume decreases, density increases"
+      ],
+      "answer": 3,
+      "explanation": "For gases, pressure pushes the particles together: smaller volume, same mass, higher density.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q155",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pressure, Ice and Earth's Layers",
+      "question": "Why does pressure have only a small effect on the density of liquids?",
+      "options": [
+        "Liquids are nearly incompressible",
+        "Liquids have no particles to push together",
+        "Liquids lose mass when they are compressed",
+        "Liquids expand when pressure is applied"
+      ],
+      "answer": 0,
+      "explanation": "Liquids are nearly incompressible, so pressure barely changes their volume and hence their density.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q156",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pressure, Ice and Earth's Layers",
+      "question": "Arrange the three states of matter from MOST to LEAST affected by pressure (as regards density).",
+      "options": [
+        "Solids > liquids > gases",
+        "Gases > liquids > solids",
+        "Liquids > gases > solids",
+        "Gases > solids > liquids"
+      ],
+      "answer": 1,
+      "explanation": "Gases are strongly affected, liquids only slightly (nearly incompressible), and solids even less than liquids — their density change is usually negligible.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q157",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pressure, Ice and Earth's Layers",
+      "question": "At what temperature does water have its HIGHEST density?",
+      "options": [
+        "0 °C",
+        "100 °C",
+        "20 °C",
+        "4 °C"
+      ],
+      "answer": 3,
+      "explanation": "Water's density is highest at 4 °C; as it cools further and freezes at 0 °C it expands, so ice is less dense.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q158",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pressure, Ice and Earth's Layers",
+      "question": "Why does ice float on water?",
+      "options": [
+        "On freezing, water expands, so ice is less dense than liquid water",
+        "On freezing, water contracts, so ice is denser than liquid water",
+        "Ice has less mass than the same volume of water because it loses water",
+        "Dissolved air bubbles trapped in all ice make it buoyant"
+      ],
+      "answer": 0,
+      "explanation": "At 0 °C the particles arrange in a way that takes up more space (expansion); the same mass in a larger volume means lower density, so ice floats.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q159",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pressure, Ice and Earth's Layers",
+      "question": "Why is the floating of ice important for animals in cold lakes?",
+      "options": [
+        "The ice sinks and warms up the bottom of the lake",
+        "The ice layer on top keeps the water below warm enough",
+        "Fish can breathe the air trapped inside the ice",
+        "The ice dissolves oxygen into the water below it"
+      ],
+      "answer": 1,
+      "explanation": "Because ice floats, it forms a layer on top, keeping the water underneath warm enough for fish and other creatures even in extreme cold.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q160",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Pressure, Ice and Earth's Layers",
+      "question": "Which statement about water and ice is NOT correct?",
+      "options": [
+        "Water is densest at 4 °C",
+        "Water expands when it turns into ice",
+        "Ice is denser than liquid water",
+        "Floating ice insulates the water beneath"
+      ],
+      "answer": 2,
+      "explanation": "Ice is LESS dense than liquid water — that is why it floats. The other statements are from the chapter.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q161",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Pressure, Ice and Earth's Layers",
+      "question": "Which layer of the Earth is the lightest (least dense)?",
+      "options": [
+        "The inner core",
+        "The outer core",
+        "The lower mantle",
+        "The crust"
+      ],
+      "answer": 3,
+      "explanation": "The outermost layer, the crust, is the lightest; density increases as we move towards the centre.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q162",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Pressure, Ice and Earth's Layers",
+      "question": "How do pressure and temperature change as one moves deeper into the Earth, and what is the effect on materials?",
+      "options": [
+        "Both rise, making materials heavier and more compact",
+        "Both fall, making materials lighter and looser",
+        "Pressure rises but temperature falls, making materials expand",
+        "Both stay constant, so density is the same in all layers"
+      ],
+      "answer": 0,
+      "explanation": "Going deeper, both pressure and temperature rise significantly, making the materials heavier and more compact — denser layers towards the centre.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q163",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Pressure, Ice and Earth's Layers",
+      "question": "Which of these are named as layers of the Earth in the chapter?",
+      "options": [
+        "Upper mantle",
+        "Outer core",
+        "Ozone layer",
+        "Troposphere",
+        "Magma belt"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The chapter lists crust, upper mantle, lower mantle, outer core and inner core. The ozone layer and troposphere belong to the atmosphere.",
+      "source": "text:page14"
+    },
+    {
+      "id": "q164",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Pressure, Ice and Earth's Layers",
+      "question": "Water has its highest density at 0 °C, which is why ice forms at that temperature.",
+      "answer": false,
+      "explanation": "Water is densest at 4 °C. At 0 °C it turns into ice, which is LESS dense because it expands.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q165",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Pressure, Ice and Earth's Layers",
+      "question": "Increasing the pressure on a gas increases its density.",
+      "answer": true,
+      "explanation": "Pressure pushes gas particles closer together; volume falls while mass stays constant, so density rises.",
+      "source": "text:page15"
+    },
+    {
+      "id": "q166",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scientists, Heritage and Everyday Solutions",
+      "question": "Asima Chatterjee is renowned for developing which kinds of drugs?",
+      "options": [
+        "Anti-diabetic and anti-viral drugs",
+        "Pain-relieving and anti-allergic drugs",
+        "Anti-epileptic and anti-malarial drugs",
+        "Antibiotic and anti-fungal drugs"
+      ],
+      "answer": 2,
+      "explanation": "The 'Be a scientist' box says she is renowned for developing anti-epileptic and anti-malarial drugs.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q167",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scientists, Heritage and Everyday Solutions",
+      "question": "Asima Chatterjee was the ______ Indian woman to earn a Doctorate of Science.",
+      "options": [
+        "first, before Janaki Ammal",
+        "third, after C. V. Raman",
+        "first, before Kamala Sohonie",
+        "second, after Janaki Ammal"
+      ],
+      "answer": 3,
+      "explanation": "She became the second Indian woman to earn a DSc, after Janaki Ammal.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q168",
+      "type": "single",
+      "difficulty": "tough",
+      "topic": "Scientists, Heritage and Everyday Solutions",
+      "question": "In which field did Asima Chatterjee become the first woman to receive the Shanti Swarup Bhatnagar Award?",
+      "options": [
+        "Chemical science",
+        "Medical science",
+        "Physical science",
+        "Biological science"
+      ],
+      "answer": 0,
+      "explanation": "She was the first woman to receive the Shanti Swarup Bhatnagar Award in chemical science and was also honoured with the Padma Bhushan.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q169",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Scientists, Heritage and Everyday Solutions",
+      "question": "How did Asima Chatterjee use solvents and solutions in her work?",
+      "options": [
+        "To make the plants grow faster in the laboratory",
+        "To extract and isolate compounds from medicinal plants",
+        "To dilute finished drugs before selling them",
+        "To measure the density of medicinal plant leaves"
+      ],
+      "answer": 1,
+      "explanation": "She used solvents and solutions extensively to extract and isolate important compounds from medicinal plants.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q170",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scientists, Heritage and Everyday Solutions",
+      "question": "Which solvent has primarily been used for medicinal formulations in Ayurveda, Siddha and other Indian systems?",
+      "options": [
+        "Oils",
+        "Ghee",
+        "Water",
+        "Milk"
+      ],
+      "answer": 2,
+      "explanation": "Water has primarily been used; oils, ghee, milk and hydro-alcoholic extracts are also mentioned as solvents.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q171",
+      "type": "multiple",
+      "difficulty": "tough",
+      "topic": "Scientists, Heritage and Everyday Solutions",
+      "question": "Which substances does the chapter list as solvents used for drug formulations in Indian systems of medicine?",
+      "options": [
+        "Ghee",
+        "Milk",
+        "Petrol",
+        "Mercury",
+        "Vinegar"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "The chapter names water, hydro-alcoholic extracts, oils, ghee and milk. Petrol, mercury and vinegar are not listed.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q172",
+      "type": "single",
+      "difficulty": "simple",
+      "topic": "Scientists, Heritage and Everyday Solutions",
+      "question": "Where is Ningel, the village where salt is still made by traditional methods?",
+      "options": [
+        "Kutch district, Gujarat",
+        "Thanjavur district, Tamil Nadu",
+        "Puri district, Odisha",
+        "Thoubal district, Manipur"
+      ],
+      "answer": 3,
+      "explanation": "Ningel village is in Manipur's Thoubal district.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q173",
+      "type": "single",
+      "difficulty": "tricky",
+      "topic": "Scientists, Heritage and Everyday Solutions",
+      "question": "At Ningel, salt solution from wells is boiled in metal pans until salt crystals form. Which chapter idea does this illustrate?",
+      "options": [
+        "Removing the solvent by evaporation leaves the solute behind",
+        "Heating a gas solution makes the gas more soluble",
+        "Boiling makes the salt denser so it sinks and is collected",
+        "Salt is the solvent and water is the solute in brine"
+      ],
+      "answer": 0,
+      "explanation": "The salty water is a solution (salt = solute, water = solvent). Boiling evaporates the water, so the solution becomes more concentrated until salt crystals separate out.",
+      "source": "text:page18"
+    },
+    {
+      "id": "q174",
+      "type": "boolean",
+      "difficulty": "tough",
+      "topic": "Scientists, Heritage and Everyday Solutions",
+      "question": "Asima Chatterjee was the first Indian woman to earn a Doctorate of Science.",
+      "answer": false,
+      "explanation": "She was the SECOND Indian woman to do so, after Janaki Ammal; she was the first woman to win the Bhatnagar Award in chemical science.",
+      "source": "text:page5"
+    },
+    {
+      "id": "q175",
+      "type": "boolean",
+      "difficulty": "simple",
+      "topic": "Scientists, Heritage and Everyday Solutions",
+      "question": "At Ningel, the finished salt cakes are wrapped in a traditional cloth called a phanek.",
+      "answer": true,
+      "explanation": "The heritage box says the salt cakes are wrapped in a traditional cloth (phanek) to protect them.",
+      "source": "text:page18"
+    }
+  ]
+}
