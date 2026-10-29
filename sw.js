@@ -1,11 +1,12 @@
 /* Raayan Quizz service worker — app shell cached up front; quizzes, book manifests and
  * page images cached on first use (stale-while-revalidate) so the app works offline
  * for anything the kid has already opened. Bump VERSION on each release. */
-const VERSION = "rq-v1.2.0";
+const VERSION = "rq-v1.3.0";
 const SHELL = [
   "./", "./index.html", "./css/styles.css",
-  "./js/app.js", "./js/reader.js", "./js/game.js", "./js/practice.js",
-  "./vendor/page-flip.browser.js", "./favicon.svg", "./logo.png", "./manifest.webmanifest",
+  "./js/store.js", "./js/app.js", "./js/reader.js", "./js/game.js", "./js/practice.js",
+  "./vendor/page-flip.browser.js", "./vendor/pdf.min.js", "./vendor/pdf.worker.min.js",
+  "./favicon.svg", "./logo.png", "./manifest.webmanifest",
   "./quizzes/index.json",
 ];
 

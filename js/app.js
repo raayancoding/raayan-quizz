@@ -137,7 +137,7 @@
 
   // ---------------- app meta / contact (edit these) ----------------
   // Bump APP_VERSION manually before committing — it shows on the About page + footer.
-  const APP_VERSION = "1.2.0";
+  const APP_VERSION = "1.3.0";
   const ABOUT = {
     github: "", // e.g. "https://github.com/your-handle"  (leave "" to show a placeholder)
     email: "",  // e.g. "raayan@example.com"
@@ -150,6 +150,8 @@
   let timerHandle = null;
   let currentCat = null;     // browse breadcrumb
   let currentSubject = null;
+  let navToRef = null;
+  const navTo = (t) => navToRef && navToRef(t);
 
   // ---------------- categories (grade / demo / general) ----------------
   const SUBJECT_ICONS = {
@@ -162,6 +164,7 @@
   const isDemoMeta = (m) => !!m && (m.id === "demo-general" || m.subject === "A Demo");
   function categoryOf(m) {
     if (isDemoMeta(m)) return "Demo";
+    if (m.local) return "My Quizzes";
     const g = m.grade != null && m.grade !== "" ? `Grade ${m.grade}` : "";
     if (m.board) return g ? `${m.board} · ${g}` : m.board;   // e.g. "NCERT · Grade 8"
     return g || "General";
@@ -170,14 +173,22 @@
   const catOrder = (c) => {
     if (c === "Demo") return 0;
     if (c === "General") return 99999;
+    if (c === "My Quizzes") return 99998;
     const n = parseInt(String(c).replace(/\D/g, ""), 10) || 500;
     return (c.includes(" · ") || !/^Grade/.test(c) ? 1000 : 0) + n + 1;
   };
-  const catIcon = (c) => (c === "Demo" ? "🎮" : c === "General" ? "🌈" : /^Grade/.test(c) ? "🎓" : "📗");
-  function categoryList() {
+  const catIcon = (c) => (c === "Demo" ? "🎮" : c === "General" ? "🌈" : c === "My Quizzes" ? "📂" : /^Grade/.test(c) ? "🎓" : "📗");
+  // the kid's chosen shelves (profile.shelves, set in the buddy dialog); empty = everything
+  function chosenShelves() {
+    try { const p = JSON.parse(localStorage.getItem("raayan-quizz:profile")); return Array.isArray(p && p.shelves) ? p.shelves : []; } catch { return []; }
+  }
+  const shelfOk = (c) => c === "Demo" || c === "My Quizzes" || !chosenShelves().length || chosenShelves().includes(c);
+  function categoryList(all) {
     const cats = {};
     (quizIndex && quizIndex.quizzes || []).forEach((m) => {
-      const c = categoryOf(m); (cats[c] = cats[c] || []).push(m);
+      const c = categoryOf(m);
+      if (!all && !shelfOk(c)) return;
+      (cats[c] = cats[c] || []).push(m);
     });
     return Object.keys(cats).sort((a, b) => catOrder(a) - catOrder(b)).map((c) => ({ name: c, items: cats[c] }));
   }
@@ -215,7 +226,7 @@
   let progress = loadProgress();
 
   const masteredCount = () => Object.values(progress.best).filter((v) => v >= 90).length;
-  const playableQuizzes = () => (quizIndex && quizIndex.quizzes || []).filter((m) => !isDemoMeta(m));
+  const playableQuizzes = () => (quizIndex && quizIndex.quizzes || []).filter((m) => !isDemoMeta(m) && !m.local && shelfOk(categoryOf(m)));
   function subjectItems(subject) {
     return playableQuizzes().filter((m) => (m.subject || "") === subject);
   }
@@ -397,6 +408,14 @@
   }
 
   // ---------------- loading ----------------
+  async function loadLocalQuizzes() {
+    if (!window.RQStore) return [];
+    const rows = await RQStore.all("quizzes");
+    return rows.map((r) => ({
+      id: r.id, title: r.title, subject: r.subject || "My Quizzes", chapter: r.chapter || "", topic: r.topic || "",
+      grade: r.grade, board: r.board, count: r.count, file: null, local: true, addedAt: r.addedAt,
+    }));
+  }
   async function loadIndex() {
     try {
       const res = await fetch("quizzes/index.json", { cache: "no-store" });
@@ -405,14 +424,28 @@
     } catch (_) {
       quizIndex = null; // likely opened as file:// — offer file picker + demo
     }
+    try {
+      const mine = await loadLocalQuizzes();
+      if (mine.length) { quizIndex = quizIndex || { title: "Quizzes", quizzes: [] }; quizIndex.quizzes.push(...mine); }
+    } catch { /* no IndexedDB */ }
     renderHome();
   }
 
   async function fetchQuiz(meta) {
+    if (meta.local) {
+      const row = await RQStore.get("quizzes", meta.id);
+      if (!row) throw new Error("That quiz is no longer on this device");
+      return normalizeQuiz(row.quiz);
+    }
     const res = await fetch(`quizzes/${meta.file}`, { cache: "no-store" });
     if (!res.ok) throw new Error(`Could not load ${meta.file}`);
     const base = `quizzes/${meta.file}`.replace(/\/[^/]*$/, "");
     return normalizeQuiz(await res.json(), base);
+  }
+  async function refreshIndex() {
+    if (!quizIndex) return;
+    quizIndex.quizzes = quizIndex.quizzes.filter((m) => !m.local);
+    quizIndex.quizzes.push(...await loadLocalQuizzes());
   }
 
   // ---------------- views ----------------
@@ -460,6 +493,7 @@
     const sub = [qz.chapter, qz.topic].filter((x) => x && x !== "Full Book" && x !== "Full Subject" && x !== "Full Chapter").join(" · ");
     if (sub) tile.appendChild(el("div", "qt-sub", sub));
     if (qz.count) tile.appendChild(el("span", "qt-count", `${qz.count} questions`));
+    if (qz.local) tile.appendChild(el("span", "tile-mine", "📂 mine"));
     const book = RQ.books && RQ.books.bookFor(qz);
     if (book) {
       const rb = el("button", "tile-read", "📖 Read");
@@ -687,6 +721,13 @@
     const book = RQ.books && RQ.books.bookFor(q);
     rb.classList.toggle("hidden", !book);
     rb.onclick = book ? () => RQ.books.openReader(book) : null;
+    const del = $("#btn-remove-quiz");
+    const mine = (quizIndex && quizIndex.quizzes || []).find((m) => m.local && m.id === q.id);
+    del.classList.toggle("hidden", !mine);
+    del.onclick = mine ? async () => {
+      if (!confirm(`Remove “${q.title}” from this device?`)) return;
+      await RQStore.del("quizzes", q.id); await refreshIndex(); renderHome(); show("#view-home");
+    } : null;
     show("#view-setup");
   }
 
@@ -1000,6 +1041,105 @@
     };
   }
 
+  // ---------------- Load dialog: sample JSON, upload quiz JSON, upload PDF book ----------------
+  const SAMPLE_QUIZ = {
+    _readme: "Raayan Quizz sample. Keep schemaVersion=1. 'answer' is an option INDEX (0-based) for single, an array of indexes for multiple, and true/false for boolean. Fields starting with _ are ignored. Full schema: schema/quiz.schema.json",
+    schemaVersion: 1,
+    id: "my-first-quiz",
+    title: "My First Quiz",
+    subject: "General Knowledge",
+    grade: 4,
+    chapter: "1. Planets and Water",
+    topic: "Full Chapter",
+    description: "A tiny example showing every question type.",
+    tags: ["sample"],
+    questions: [
+      { id: "q1", type: "single", difficulty: "simple", topic: "Planets", question: "Which planet is known as the Red Planet?",
+        options: ["Venus", "Mars", "Jupiter", "Saturn"], answer: 1,
+        explanation: "Mars looks red because of iron-oxide (rust) on its surface.", source: "page 3" },
+      { id: "q2", type: "boolean", difficulty: "simple", topic: "Planets", question: "The Sun is a star.", answer: true,
+        explanation: "The Sun is the star at the centre of our solar system." },
+      { id: "q3", type: "multiple", difficulty: "tough", topic: "Numbers", question: "Select all even numbers.",
+        options: ["3", "4", "7", "10"], answer: [1, 3],
+        explanation: "4 and 10 are even (divisible by 2); 3 and 7 are odd." },
+      { id: "q4", type: "single", difficulty: "tricky", topic: "Water", question: "Which picture shows ice?",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Iceberg_in_the_Arctic_with_its_underside_exposed.jpg/320px-Iceberg_in_the_Arctic_with_its_underside_exposed.jpg",
+        imageAlt: "An iceberg", options: ["Steam", "Ice", "Rain", "Dew"], answer: 1,
+        explanation: "Optional 'image' shows a picture under the question; 'optionImages' can give one picture per option." },
+    ],
+  };
+  function quickValidate(d) {
+    const e = [];
+    if (!d || typeof d !== "object") return ["not a JSON object"];
+    if (d.schemaVersion !== 1) e.push("schemaVersion must be 1");
+    if (!/^[a-z0-9][a-z0-9-]*$/.test(String(d.id || ""))) e.push("id must be lowercase-kebab, e.g. my-first-quiz");
+    if (!d.title) e.push("title is required");
+    if (!Array.isArray(d.questions) || !d.questions.length) return e.concat("questions must be a non-empty array");
+    d.questions.slice(0, 500).forEach((q, i) => {
+      const tag = `Q${i + 1}`;
+      if (!["single", "multiple", "boolean"].includes(q.type)) e.push(`${tag}: type must be single | multiple | boolean`);
+      if (!q.question) e.push(`${tag}: missing question`);
+      if (!q.explanation) e.push(`${tag}: missing explanation`);
+      if (q.type === "boolean") { if (typeof q.answer !== "boolean") e.push(`${tag}: boolean answer must be true/false`); }
+      else {
+        if (!Array.isArray(q.options) || q.options.length < 2) e.push(`${tag}: options needs 2+ items`);
+        const idx = Array.isArray(q.answer) ? q.answer : [q.answer];
+        if (q.type === "single" && idx.length !== 1) e.push(`${tag}: single needs one answer index`);
+        idx.forEach((a) => { if (!Number.isInteger(a) || a < 0 || a >= (q.options || []).length) e.push(`${tag}: answer index ${a} out of range`); });
+      }
+    });
+    return e;
+  }
+  function downloadJson(obj, name) {
+    const blob = new Blob([JSON.stringify(obj, null, 2)], { type: "application/json" });
+    const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = name; a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+  }
+  async function openLoad() {
+    $("#load-dlg").classList.remove("hidden");
+    const list = $("#load-mine");
+    list.innerHTML = "";
+    if (!window.RQStore) { list.appendChild(el("p", "muted", "This browser can't store uploads (no IndexedDB) — you can still play a quiz once.")); return; }
+    const [qs, bs, usage] = await Promise.all([RQStore.all("quizzes"), RQStore.all("books"), RQStore.usage()]);
+    if (!qs.length && !bs.length) list.appendChild(el("p", "muted", "Nothing uploaded yet."));
+    qs.forEach((q) => list.appendChild(mineRow("📝", `${q.title} · ${q.count} Qs`, async () => { await RQStore.del("quizzes", q.id); await refreshIndex(); openLoad(); })));
+    bs.forEach((b) => list.appendChild(mineRow("📕", `${b.title} · ${b.pages} pages · ${(b.size / 1048576).toFixed(1)} MB`, async () => { await RQStore.del("books", b.id); if (RQ.books) await RQ.books.reload(); openLoad(); })));
+    if (usage && usage.quota) list.appendChild(el("p", "muted small", `Device storage used by this app: ${(usage.used / 1048576).toFixed(1)} MB of ~${Math.round(usage.quota / 1048576)} MB available.`));
+  }
+  function mineRow(ico, txt, onDel) {
+    const row = el("div", "mine-row");
+    row.appendChild(el("span", null, `${ico} ${txt}`));
+    const d = el("button", "link-inline", "remove"); d.addEventListener("click", () => { if (confirm("Remove from this device?")) onDel(); });
+    row.appendChild(d);
+    return row;
+  }
+  function closeLoad() { $("#load-dlg").classList.add("hidden"); }
+  async function onPdfUpload(e) {
+    e.preventDefault();
+    const file = $("#pdf-file").files[0];
+    if (!file) return;
+    if (!window.RQStore) { alert("This browser can't store files."); return; }
+    if (file.size > 60 * 1048576) { alert("Please keep PDFs under 60 MB."); return; }
+    const btn = $("#pdf-submit"); btn.disabled = true; btn.textContent = "Adding…";
+    try {
+      const buf = await file.arrayBuffer();
+      let pages = 0;
+      if (window.pdfjsLib) {
+        pdfjsLib.GlobalWorkerOptions.workerSrc = "vendor/pdf.worker.min.js";
+        const doc = await pdfjsLib.getDocument({ data: buf.slice(0) }).promise; pages = doc.numPages; doc.destroy();
+      }
+      const title = $("#pdf-title").value.trim() || file.name.replace(/\.pdf$/i, "");
+      const id = `mybook-${Date.now().toString(36)}`;
+      await RQStore.put("books", { id, title, subject: $("#pdf-subject").value.trim() || "My Books", grade: Number($("#pdf-grade").value) || null,
+        pages, size: file.size, blob: new Blob([buf], { type: "application/pdf" }), addedAt: Date.now() });
+      if (RQ.books) await RQ.books.reload();
+      $("#load-pdf-form").reset();
+      closeLoad();
+      navTo("books");
+    } catch (err) { alert("Could not add this PDF: " + err.message); }
+    btn.disabled = false; btn.textContent = "📕 Add to my bookshelf";
+  }
+
   function bind() {
     function navTo(target) {
       if (target === "home") { renderHome(); show("#view-home"); }
@@ -1009,6 +1149,7 @@
       else show(`#view-${target}`);
     }
     RQ.navTo = navTo;
+    navToRef = navTo;
     document.querySelectorAll("[data-nav]").forEach((b) =>
       b.addEventListener("click", () => navTo(b.dataset.nav)));
 
@@ -1066,15 +1207,29 @@
       const file = e.target.files[0];
       if (!file) return;
       const reader = new FileReader();
-      reader.onload = () => {
+      reader.onload = async () => {
         try {
-          activeQuiz = normalizeQuiz(JSON.parse(reader.result));
+          const raw = JSON.parse(reader.result);
+          const errs = quickValidate(raw);
+          if (errs.length) { alert("This quiz JSON has problems:\n• " + errs.slice(0, 6).join("\n• ") + "\n\nDownload the sample from the Load dialog to see the expected shape."); return; }
+          if ($("#load-save").checked && window.RQStore) {
+            await RQStore.put("quizzes", { id: raw.id, title: raw.title, subject: raw.subject, chapter: raw.chapter, topic: raw.topic,
+              grade: raw.grade, board: raw.board, count: raw.questions.length, quiz: raw, addedAt: Date.now() });
+            await refreshIndex();
+          }
+          closeLoad();
+          activeQuiz = normalizeQuiz(raw);
           openSetup();
         } catch (err) { alert("Invalid quiz JSON: " + err.message); }
       };
       reader.readAsText(file);
       e.target.value = "";
     });
+    $("#btn-load").addEventListener("click", openLoad);
+    $("#load-close").addEventListener("click", closeLoad);
+    $("#load-dlg").addEventListener("click", (e) => { if (e.target === $("#load-dlg")) closeLoad(); });
+    $("#load-sample").addEventListener("click", () => downloadJson(SAMPLE_QUIZ, "sample-quiz.json"));
+    $("#load-pdf-form").addEventListener("submit", onPdfUpload);
 
     $("#try-demo").addEventListener("click", () => {
       activeQuiz = normalizeQuiz(DEMO);
@@ -1100,9 +1255,9 @@
     APP_VERSION, $, el, show, shuffle,
     saveProgress, normalizeProgress, AWARDS, syncAwards, celebrateAwards,
     burstConfetti, sndRight, sndWrong, sndWin, sndClick,
-    categoryOf, categoryList, subjectIcon, isDemoMeta, chapterNum, playableQuizzes,
+    categoryOf, categoryList, subjectIcon, isDemoMeta, chapterNum, playableQuizzes, shelfOk, chosenShelves,
     fetchQuiz, normalizeQuiz, openSetup, startSession, renderHome, finish,
-    loadHistory,
+    loadHistory, refreshIndex,
   });
   // live state must be real accessors (Object.assign would snapshot getter values)
   Object.defineProperties(RQ, {

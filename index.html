@@ -6,6 +6,7 @@
   <title>Raayan Quizz · Learn &amp; Play!</title>
   <meta name="theme-color" content="#7c3aed" />
   <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="apple-mobile-web-app-title" content="RaayanQuizz" />
@@ -51,10 +52,7 @@
       <button class="link" data-nav="awards">🏅 <span class="lbl">Awards</span></button>
       <button class="link" data-nav="about">💜 <span class="lbl">About</span></button>
       <button class="link icon-toggle" id="btn-sound" title="Sound on/off" aria-pressed="true">🔊</button>
-      <label class="file-btn" title="Load a quiz .json">
-        📂 <span class="lbl">Load</span>
-        <input id="file-input" type="file" accept="application/json,.json" hidden />
-      </label>
+      <button class="file-btn" id="btn-load" title="Add your own quiz or PDF book">📂 <span class="lbl">Load</span></button>
     </nav>
   </header>
 
@@ -121,6 +119,7 @@
         <p class="muted" id="setup-desc"></p>
         <div id="setup-stats" class="chips"></div>
         <button class="ghost-btn read-btn hidden" id="btn-read-book">📖 Read the book first</button>
+        <button class="link-inline hidden" id="btn-remove-quiz">🗑 Remove this quiz from my device</button>
       </div>
 
       <div id="resume-box" class="card resume-box hidden">
@@ -270,7 +269,7 @@
       <div class="about-card card pop">
         <img src="logo.png" alt="Raayan Quizz logo" class="about-logo" onerror="this.style.display='none'" />
         <h1>Raayan<span class="brand-z">Quizz</span></h1>
-        <p class="about-ver">Version <span id="about-version">1.2.0</span></p>
+        <p class="about-ver">Version <span id="about-version">1.3.0</span></p>
         <p class="about-lead">A playful, offline-friendly quiz app made for/by Raayan — turn any lesson into a fun, interactive game.</p>
 
         <h3 class="section-h">✨ What this app can do</h3>
@@ -303,6 +302,48 @@
   <!-- award celebration toast -->
   <div id="award-toast" class="award-toast hidden" role="status" aria-live="polite"></div>
 
+  <!-- ============ LOAD DIALOG (your own quiz JSON / PDF book) ============ -->
+  <div id="load-dlg" class="pdlg hidden" role="dialog" aria-label="Load your own content">
+    <div class="card pop pdlg-card load-card">
+      <div class="load-head"><h2>📂 Add your own</h2><button class="rd-btn dark" id="load-close" title="Close">✕</button></div>
+      <p class="muted">Everything you add stays <strong>on this device only</strong> (browser storage). Nothing is uploaded anywhere.</p>
+
+      <section class="load-sec">
+        <h3>📝 A quiz (JSON)</h3>
+        <p class="muted small">Not sure of the format? Grab the sample — it shows every question type — edit it (any text editor, or ask an AI to fill it from your notes), then upload.</p>
+        <div class="load-row">
+          <button class="ghost-btn" id="load-sample">⬇️ Download sample quiz JSON</button>
+          <a class="ghost-btn" href="schema/quiz.schema.json" download>⬇️ JSON schema</a>
+        </div>
+        <div class="load-row">
+          <label class="file-btn">📄 Choose quiz .json
+            <input id="file-input" type="file" accept="application/json,.json" hidden />
+          </label>
+          <label class="chk"><input type="checkbox" id="load-save" checked /> keep it in <strong>My Quizzes</strong></label>
+        </div>
+      </section>
+
+      <section class="load-sec">
+        <h3>📕 A book (PDF) for the reader</h3>
+        <p class="muted small">Any PDF (school chapter, story book). It is kept in this browser and opened page by page — no server needed.</p>
+        <form id="load-pdf-form" class="load-form">
+          <input type="file" id="pdf-file" accept="application/pdf,.pdf" required />
+          <div class="load-row">
+            <input type="text" id="pdf-title" placeholder="Title (defaults to file name)" maxlength="80" />
+            <input type="text" id="pdf-subject" placeholder="Subject (e.g. Science)" maxlength="40" />
+            <input type="number" id="pdf-grade" placeholder="Grade" min="1" max="12" class="mini" />
+          </div>
+          <button class="primary" type="submit" id="pdf-submit">📕 Add to my bookshelf</button>
+        </form>
+      </section>
+
+      <section class="load-sec">
+        <h3>🗂️ On this device</h3>
+        <div id="load-mine"></div>
+      </section>
+    </div>
+  </div>
+
   <!-- ============ READER OVERLAY ============ -->
   <div id="reader" class="reader hidden" role="dialog" aria-label="Book reader">
     <div class="rd-top">
@@ -310,20 +351,36 @@
       <div class="rd-title"><strong id="rd-title">Book</strong><span class="muted" id="rd-sub"></span></div>
       <span class="pill soft" id="rd-page">1 / 1</span>
       <button class="rd-btn" id="rd-speak" title="Read aloud">🔊</button>
-      <button class="rd-btn" id="rd-zoom" title="Zoom page">🔍</button>
+      <button class="rd-btn" id="rd-mode" title="Switch single page / book view">📄</button>
+      <button class="rd-btn" id="rd-full" title="Full screen">⛶</button>
       <button class="rd-btn" id="rd-thumbs" title="Pages">🗂️</button>
     </div>
     <div class="rd-stage">
       <button class="rd-arrow left" id="rd-prev" aria-label="Previous page">‹</button>
       <div id="rd-host"></div>
+      <div id="rd-pages" class="rd-pages hidden"></div>
       <button class="rd-arrow right" id="rd-next" aria-label="Next page">›</button>
     </div>
     <div class="rd-thumbstrip hidden" id="rd-thumbstrip"></div>
     <div class="rd-bottom">
       <input type="range" id="rd-slider" min="1" max="1" value="1" aria-label="Page" />
+      <button class="rd-btn" id="rd-zoom" title="Zoom page">🔍</button>
       <button class="primary" id="rd-quiz">🎯 Quiz me on this page</button>
     </div>
-    <div class="rd-zoomed hidden" id="rd-zoomed"><img alt="Zoomed page" id="rd-zoomed-img" /></div>
+    <div class="rd-hint hidden" id="rd-hint">Swipe ← → to turn pages · double-tap or pinch to zoom</div>
+    <div class="rd-zoomed hidden" id="rd-zoomed">
+      <div class="rz-bar">
+        <button class="rd-btn" id="rz-close" title="Close zoom">✕</button>
+        <span class="pill soft" id="rz-page">1</span>
+        <span class="rz-spacer"></span>
+        <button class="rd-btn" id="rz-out" title="Zoom out">−</button>
+        <button class="rd-btn" id="rz-fit" title="Fit">⛶</button>
+        <button class="rd-btn" id="rz-in" title="Zoom in">+</button>
+      </div>
+      <div class="rz-view" id="rz-view"><img alt="Zoomed page" id="rd-zoomed-img" draggable="false" /></div>
+      <button class="rd-arrow left rz-arrow" id="rz-prev" aria-label="Previous page">‹</button>
+      <button class="rd-arrow right rz-arrow" id="rz-next" aria-label="Next page">›</button>
+    </div>
     <div class="rd-done hidden" id="rd-done">
       <div class="card pop">
         <div class="big-emoji">🎉</div>
@@ -341,10 +398,12 @@
     💜 Made for/by Raayan · Any quiz, anywhere — instant, offline, interactive. 💜
     <br /><button class="link-inline" data-nav="about">About</button> ·
     <button class="link-inline" data-nav="awards">Trophy Room</button> ·
-    <span>v<span id="foot-version">1.2.0</span></span>
+    <span>v<span id="foot-version">1.3.0</span></span>
   </footer>
 
+  <script src="js/store.js"></script>
   <script src="vendor/page-flip.browser.js"></script>
+  <script src="vendor/pdf.min.js"></script>
   <script src="js/app.js"></script>
   <script src="js/reader.js"></script>
   <script src="js/game.js"></script>

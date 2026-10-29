@@ -13,8 +13,9 @@ Drop in quiz JSON files and the app renders a complete quiz experience with cate
 ## Highlights
 
 - Offline-friendly single-page app (installable PWA; works offline for anything opened)
-- Demo, Grade and board shelves (Grade 4 · **NCERT Grade 8**); islands map + chapter trail
-- **Flipbook reader** for every chapter (page-curl, thumbnails, zoom, read-aloud, “Quiz me on this page”)
+- Demo, Grade and board shelves (Grade 4 · **NCERT Grade 8**); each kid picks **which shelves they see** (multi-select in the buddy dialog — filters library, books, awards and stickers)
+- **Flipbook reader** for every chapter: two-page curl on desktop, **full-screen single page with swipe** on phones/tablets, pinch/double-tap zoom, thumbnails, read-aloud, “Quiz me on this page”
+- **Add your own** (📂 Load): download a sample quiz JSON / schema, upload a quiz (kept in *My Quizzes*), or upload **any PDF** to read in the app — all stored in the browser (IndexedDB), nothing leaves the device
 - Buddy avatar, 5 themes, XP levels, daily streak + goal ring, sticker mystery boxes
 - **Pause / resume** for “All questions” quizzes — continue from the same question later
 - **Mistake bank** with spaced repetition, ⚡ 60-second Challenge mode

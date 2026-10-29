@@ -94,27 +94,29 @@
     _default: ["⭐", "🌟", "✨", "🎈", "🎉", "🍭", "🍩", "🧸", "🎁", "🪄"],
   };
   const stickerSet = (subject) => STICKERS[subject] || STICKERS[Object.keys(STICKERS).find((k) => subject && subject.includes(k))] || STICKERS._default;
-  function openBox(subject) {
+  const stickerKey = (cat, subject) => `${cat}|${STICKERS[subject] ? subject : (Object.keys(STICKERS).find((k) => subject && subject.includes(k)) || "_default")}`;
+  function openBox(cat, subject) {
     const s = g();
     const set = stickerSet(subject);
-    const key = STICKERS[subject] ? subject : "_default";
+    const key = stickerKey(cat, subject);
     s.stickers[key] = s.stickers[key] || [];
     const missing = set.filter((x) => !s.stickers[key].includes(x));
-    const pick = (missing.length && Math.random() < 0.75 ? missing : set)[Math.floor(Math.random() * (missing.length && Math.random() < 0.75 ? missing.length : set.length))];
+    const pool = missing.length && Math.random() < 0.75 ? missing : set;
+    const pick = pool[Math.floor(Math.random() * pool.length)];
     const isNew = !s.stickers[key].includes(pick);
     if (isNew) s.stickers[key].push(pick);
     s.boxes += 1;
     RQ.saveProgress();
-    return { sticker: pick, isNew, have: s.stickers[key].length, total: set.length, subject: key === "_default" ? "Fun" : subject };
+    return { sticker: pick, isNew, have: s.stickers[key].length, total: set.length, subject: key.endsWith("_default") ? "Fun" : subject };
   }
-  function showBox(subject) {
+  function showBox(cat, subject) {
     const box = el("div", "mbox");
     const inner = el("button", "mbox-gift", "🎁");
     const cap = el("div", "mbox-cap", "You earned a mystery box! Tap to open");
     box.appendChild(inner); box.appendChild(cap);
     $("#res-meta").parentElement.insertBefore(box, $("#res-meta").nextSibling);
     inner.addEventListener("click", () => {
-      const r = openBox(subject);
+      const r = openBox(cat, subject);
       inner.textContent = r.sticker; inner.classList.add("open"); inner.disabled = true;
       cap.textContent = r.isNew ? `New sticker! ${r.have}/${r.total} ${r.subject} stickers collected` : `Duplicate sticker — ${r.have}/${r.total} collected`;
       RQ.burstConfetti(120, 0.5); RQ.sndWin();
@@ -184,11 +186,26 @@
       tg.appendChild(b);
     });
     card.appendChild(tg);
+    // shelves: which grades/boards this kid sees everywhere (library, books, awards)
+    const shelves = RQ.categoryList(true).map((c) => c.name).filter((c) => c !== "Demo" && c !== "My Quizzes");
+    let pickS = new Set((profile && profile.shelves) || []);
+    if (shelves.length > 1) {
+      card.appendChild(el("h3", "section-h", "My shelves"));
+      card.appendChild(el("p", "muted small", "Tick the grades you want to see. Leave all unticked to see everything."));
+      const sg = el("div", "pdlg-grid shelves");
+      shelves.forEach((c) => {
+        const b = el("button", `pdlg-opt ${pickS.has(c) ? "on" : ""}`); b.type = "button";
+        b.appendChild(el("span", "big", /^Grade/.test(c) ? "🎓" : "📗")); b.appendChild(el("span", null, c));
+        b.addEventListener("click", () => { pickS.has(c) ? pickS.delete(c) : pickS.add(c); b.classList.toggle("on", pickS.has(c)); RQ.sndClick(); });
+        sg.appendChild(b);
+      });
+      card.appendChild(sg);
+    }
     const acts = el("div", "results-actions");
     const ok = el("button", "primary big", first === true ? "Let's go! 🚀" : "Save");
     ok.addEventListener("click", () => {
-      profile = { name: inp.value.trim() || "Raayan", avatar: pickA, theme: pickT, createdAt: (profile && profile.createdAt) || Date.now() };
-      saveProfile(); applyTheme(); d.remove(); RQ.renderHome(); RQ.sndWin();
+      profile = { name: inp.value.trim() || "Raayan", avatar: pickA, theme: pickT, shelves: [...pickS].filter((c) => shelves.includes(c)), createdAt: (profile && profile.createdAt) || Date.now() };
+      saveProfile(); applyTheme(); d.remove(); RQ.renderHome(); RQ.navTo("home"); RQ.sndWin();
     });
     acts.appendChild(ok);
     if (first !== true) { const c = el("button", "ghost-btn", "Cancel"); c.addEventListener("click", () => { applyTheme(); d.remove(); }); acts.appendChild(c); }
@@ -241,7 +258,7 @@
     const bonus = pct === 100 ? 50 : pct >= 90 ? 30 : pct >= 70 ? 15 : 5;
     addXp(bonus + Math.min(25, session.questions.length));
     document.querySelectorAll(".mbox").forEach((x) => x.remove());
-    if (session.questions.length >= 5 && pct >= 50 && quiz.subject !== "A Demo") setTimeout(() => showBox(quiz.subject), 400);
+    if (session.questions.length >= 5 && pct >= 50 && quiz.subject !== "A Demo" && !session.cfg.fixMode) setTimeout(() => showBox(RQ.categoryOf(quiz), quiz.subject), 400);
   });
   RQ.hooks.onHome.push(renderHeader);
   RQ.hooks.onAwards.push(() => {
@@ -250,14 +267,22 @@
     box.innerHTML = "";
     const s = g();
     box.appendChild(el("h3", "section-h", `🎁 Sticker album · ${s.boxes} boxes opened`));
-    const keys = [...new Set([...Object.keys(s.stickers), ...Object.keys(STICKERS).filter((k) => k !== "_default")])];
-    keys.forEach((k) => {
-      const set = STICKERS[k] || STICKERS._default, have = s.stickers[k] || [];
-      const row = el("div", "album-row");
-      row.appendChild(el("div", "album-h", `${k === "_default" ? "Fun" : k.replace(/-/g, " ")} · ${have.length}/${set.length}`));
-      const grid = el("div", "album-grid");
-      set.forEach((x) => grid.appendChild(el("span", `stk ${have.includes(x) ? "got" : ""}`, have.includes(x) ? x : "❔")));
-      row.appendChild(grid); box.appendChild(row);
+    // one row per shelf+subject; show subjects on the kid's chosen shelves even before any box
+    const rows = {};
+    Object.entries(s.stickers).forEach(([k, have]) => { rows[k.includes("|") ? k : `Earlier|${k}`] = have; });
+    RQ.playableQuizzes().forEach((m) => { const k = stickerKey(RQ.categoryOf(m), m.subject); rows[k] = rows[k] || []; });
+    const byCat = {};
+    Object.keys(rows).forEach((k) => { const [cat, sub] = k.split("|"); if (cat !== "Earlier" && !RQ.shelfOk(cat)) return; (byCat[cat] = byCat[cat] || []).push([sub, rows[k]]); });
+    Object.keys(byCat).sort().forEach((cat) => {
+      box.appendChild(el("h4", "album-cat", cat));
+      byCat[cat].sort().forEach(([k, have]) => {
+        const set = STICKERS[k] || STICKERS._default;
+        const row = el("div", "album-row");
+        row.appendChild(el("div", "album-h", `${k === "_default" ? "Fun" : k.replace(/-/g, " ")} · ${have.length}/${set.length}`));
+        const grid = el("div", "album-grid");
+        set.forEach((x) => grid.appendChild(el("span", `stk ${have.includes(x) ? "got" : ""}`, have.includes(x) ? x : "❔")));
+        row.appendChild(grid); box.appendChild(row);
+      });
     });
   });
   RQ.trail = renderTrail;
