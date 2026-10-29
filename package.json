@@ -4,6 +4,9 @@
   "description": "Raayan Quizz — playful offline quiz app + flipbook reader (web, PWA and Android via Capacitor).",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "test": "node scripts/test.mjs",
     "build": "node scripts/build-www.mjs",
