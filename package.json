@@ -1,0 +1,29 @@
+{
+  "name": "raayan-quizz",
+  "version": "1.3.0",
+  "description": "Raayan Quizz — playful offline quiz app + flipbook reader (web, PWA and Android via Capacitor).",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/test.mjs",
+    "build": "node scripts/build-www.mjs",
+    "build:with-books": "node scripts/build-www.mjs --with-books",
+    "version:sync": "node scripts/version-sync.mjs",
+    "serve": "python3 -m http.server 8080",
+    "android:sync": "npm run build && npx cap sync android",
+    "android:open": "npx cap open android",
+    "android:apk": "npm run android:sync && cd android && ./gradlew assembleDebug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-raayancoding:raayancoding/raayan-quizz.git"
+  },
+  "author": "Raayan",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "^8.6.0",
+    "@capacitor/app": "^8.0.0",
+    "@capacitor/cli": "^8.6.0",
+    "@capacitor/core": "^8.6.0"
+  }
+}

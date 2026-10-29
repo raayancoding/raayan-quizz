@@ -1,9 +1,11 @@
 # Raayan Quizz — UI refresh + Flipbook reader plan
 
-Status: **implemented (v1.2.0)**. Decisions taken: StPageFlip (vendored), 1000 px WebP pages,
+Status: **implemented (v1.3.0)**. Decisions taken: StPageFlip (vendored), 1000 px WebP pages,
 NCERT books public in `books/`, Lighthouse books local-only in `books-private/` (gitignored).
 Modules: `js/reader.js` (Phase 1), `js/game.js` (Phase 2), `js/practice.js` (Phase 3),
-`sw.js` + `manifest.webmanifest` + image questions + hi/kn strings (Phase 4).
+`sw.js` + `manifest.webmanifest` + image questions (`image`, `optionImages`) + hi/kn strings
+(quiz runtime **and** setup page) (Phase 4). Native app: **Capacitor Android** instead of PWA-only
+(`android/`, `.github/workflows/android.yml`).
 Not done: recorded sound pack (still synthesized beeps). Remaining NCERT quizzes: English (5), SST-1/2 (15).
 
 ---

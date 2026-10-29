@@ -15,17 +15,22 @@
   let chromeHidden = false;
 
   // ---------------- index ----------------
+  // Books live next to the app on GitHub Pages. The Android APK ships without the ~150 MB of
+  // page images, so when books/index.json is missing we stream them from the hosted site.
+  const REMOTE = (RQ.CONFIG && RQ.CONFIG.booksRemote) || "";
+  async function fetchIndex(root) {
+    const r = await fetch(`${root}/index.json`, { cache: "no-store" });
+    if (!r.ok) throw new Error(String(r.status));
+    return (await r.json()).books || [];
+  }
   async function loadIndex() {
-    const srcs = [["books", false], ["books-private", true]];
     const all = [];
-    for (const [root, priv] of srcs) {
-      try {
-        const r = await fetch(`${root}/index.json`, { cache: "no-store" });
-        if (!r.ok) continue;
-        const j = await r.json();
-        (j.books || []).forEach((b) => all.push({ ...b, root, private: priv }));
-      } catch { /* not served / offline */ }
+    let gotPublic = false;
+    try { (await fetchIndex("books")).forEach((b) => all.push({ ...b, root: "books", private: false })); gotPublic = true; } catch { /* not bundled */ }
+    if (!gotPublic && REMOTE) {
+      try { (await fetchIndex(`${REMOTE}books`)).forEach((b) => all.push({ ...b, root: `${REMOTE}books`, private: false, remote: true })); } catch { /* offline */ }
     }
+    try { (await fetchIndex("books-private")).forEach((b) => all.push({ ...b, root: "books-private", private: true })); } catch { /* local only */ }
     if (window.RQStore) {
       try {
         (await RQStore.all("books")).forEach((b) => all.push({
@@ -192,6 +197,7 @@
         sh.appendChild(el("span", null, `${RQ.subjectIcon(sub)} ${sub.replace(/-/g, " ")}`));
         if (bySub[sub].every((b) => b.local)) sh.appendChild(el("span", "tag ghost", "on this device"));
         else if (bySub[sub].every((b) => b.private)) sh.appendChild(el("span", "tag ghost", "local only"));
+        else if (bySub[sub].every((b) => b.remote)) sh.appendChild(el("span", "tag ghost", "online"));
         sec.appendChild(sh);
         const row = el("div", "book-row");
         bySub[sub].sort((a, c) => (a.chapter - c.chapter) || ((a.addedAt || 0) - (c.addedAt || 0))).forEach((b) => row.appendChild(bookTile(b)));

@@ -138,6 +138,9 @@
   // ---------------- app meta / contact (edit these) ----------------
   // Bump APP_VERSION manually before committing — it shows on the About page + footer.
   const APP_VERSION = "1.3.0";
+  // where the full site lives; the Android build streams book pages from here
+  RQ.CONFIG = { booksRemote: "https://raayancoding.github.io/raayan-quizz/" };
+  RQ.isNative = !!(window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform());
   const ABOUT = {
     github: "", // e.g. "https://github.com/your-handle"  (leave "" to show a placeholder)
     email: "",  // e.g. "raayan@example.com"
@@ -692,8 +695,9 @@
     });
     const stats = $("#setup-stats");
     stats.innerHTML = "";
-    stats.appendChild(el("span", null, `${q.questions.length} questions`));
-    Object.entries(diffCount).forEach(([d, n]) => { if (n) stats.appendChild(el("span", null, `${n} ${d}`)); });
+    stats.appendChild(el("span", null, `${q.questions.length} ${t("sQuestions")}`));
+    const dl = { simple: "sSimple", tough: "sTough", tricky: "sTricky" };
+    Object.entries(diffCount).forEach(([d, n]) => { if (n) stats.appendChild(el("span", null, `${n} ${t(dl[d] || d).replace(/^\S+\s/, "")}`)); });
 
     // count options
     const total = q.questions.length;
@@ -702,7 +706,7 @@
     const sel = $("#cfg-count");
     sel.innerHTML = "";
     counts.forEach((n) => {
-      const o = el("option", null, n === total ? `All (${total})` : String(n));
+      const o = el("option", null, n === total ? `${t("sAllN")} (${total})` : String(n));
       o.value = n; sel.appendChild(o);
     });
     sel.value = String(Math.min(20, total) === total ? total : (counts.find((c) => c >= 20) || total));
@@ -714,6 +718,7 @@
       const o = el("option", null, t); o.value = t; topicSel.appendChild(o);
     });
     topicSel.parentElement.style.display = topics.size ? "" : "none";
+    applyLang();
 
     renderHistory(q.id);
     renderResumeBox(q.id);
@@ -797,13 +802,22 @@
   const I18N = {
     en: { check: "✅ Check", next: "Next →", finish: "Finish →", quit: "Quit", pause: "⏸ Pause", right: "✅ Correct!", wrong: "❌ Not quite",
       correctIs: "Correct answer:", done: "🎊 All done!", again: "🔁 Play again", review: "🔎 Review your answers", your: "Your answer:", corr: "Correct:", skipped: "— (skipped)",
-      m90: "Outstanding! 🌟", m70: "Great work! 👏", m50: "Good effort — keep practising.", m0: "Let's review and try again 💪", answered: "Answered", time: "Time" },
+      m90: "Outstanding! 🌟", m70: "Great work! 👏", m50: "Good effort — keep practising.", m0: "Let's review and try again 💪", answered: "Answered", time: "Time",
+      sCount: "🔢 How many questions?", sDiff: "🎚️ Difficulty", sTopic: "📚 Topic", sAll: "🌈 All levels", sSimple: "🟢 Simple", sTough: "🟠 Tough", sTricky: "🔴 Tricky",
+      sAllTopics: "All topics", sShuffle: "🔀 Shuffle questions & options", sInstant: "💡 Show explanation after each answer", sTimer: "⏱️ Timer", sMin: "min",
+      sStart: "🚀 Start quiz!", sChallenge: "⚡ 60-second Challenge", sHistory: "🏅 Your past attempts", sRead: "📖 Read the book first", sAllN: "All", sQuestions: "questions" },
     hi: { check: "✅ जाँचें", next: "अगला →", finish: "समाप्त →", quit: "बाहर निकलें", pause: "⏸ रोकें", right: "✅ सही!", wrong: "❌ गलत",
       correctIs: "सही उत्तर:", done: "🎊 हो गया!", again: "🔁 फिर से खेलें", review: "🔎 अपने उत्तर देखें", your: "आपका उत्तर:", corr: "सही:", skipped: "— (छोड़ा)",
-      m90: "शानदार! 🌟", m70: "बहुत बढ़िया! 👏", m50: "अच्छी कोशिश — अभ्यास जारी रखें।", m0: "चलो दोबारा देखें और फिर कोशिश करें 💪", answered: "उत्तर दिए", time: "समय" },
-    kn: { check: "✅ ಪರಿಶೀಲಿಸಿ", next: "ಮುಂದೆ →", finish: "ಮುಗಿಸಿ →", quit: "ಹೊರಗೆ ಹ೉ಗಿ", pause: "⏸ ವಿರಾಮ", right: "✅ ಸರಿ!", wrong: "❌ ತಪ್ಪು",
-      correctIs: "ಸರಿಯಾದ ಉತ್ತರ:", done: "🎊 ಮುಗಿಯಿತು!", again: "🔁 ಮತ್ತೆ ಆಡಿ", review: "🔎 ನಿಮ್ಮ ಉತ್ತರಗಳನ್ನು ನೊೇಡಿ", your: "ನಿಮ್ಮ ಉತ್ತರ:", corr: "ಸರಿ:", skipped: "— (ಬಿಟ್ಟಿದ್ದೀರಿ)",
-      m90: "ಅದ್ಭುತ! 🌟", m70: "ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ! 👏", m50: "ಒಳ್ಳೆಯ ಪ್ರಯತ್ನ — ಅಭ್ಯಾಸ ಮುಂದುವರಿಸಿ.", m0: "ಮತ್ತೆ ನೊೇಡಿ ಮತ್ತು ಪ್ರಯತ್ನಿಸಿ 💪", answered: "ಉತ್ತರಿಸಿದ್ದು", time: "ಸಮಯ" },
+      m90: "शानदार! 🌟", m70: "बहुत बढ़िया! 👏", m50: "अच्छी कोशिश — अभ्यास जारी रखें।", m0: "चलो दोबारा देखें और फिर कोशिश करें 💪", answered: "उत्तर दिए", time: "समय",
+      sCount: "🔢 कितने प्रश्न?", sDiff: "🎚️ कठिनाई", sTopic: "📚 विषय", sAll: "🌈 सभी स्तर", sSimple: "🟢 सरल", sTough: "🟠 कठिन", sTricky: "🔴 पेचीदा",
+      sAllTopics: "सभी विषय", sShuffle: "🔀 प्रश्न और विकल्प मिलाएँ", sInstant: "💡 हर उत्तर के बाद व्याख्या दिखाएँ", sTimer: "⏱️ समय सीमा", sMin: "मिनट",
+      sStart: "🚀 क्विज़ शुरू करें!", sChallenge: "⚡ 60 सेकंड चुनौती", sHistory: "🏅 आपके पिछले प्रयास", sRead: "📖 पहले किताब पढ़ें", sAllN: "सभी", sQuestions: "प्रश्न" },
+    kn: { check: "✅ ಪರಿಶೀಲಿಸಿ", next: "ಮುಂದೆ →", finish: "ಮುಗಿಸಿ →", quit: "ಹೊರಗೆ ಹೋಗಿ", pause: "⏸ ವಿರಾಮ", right: "✅ ಸರಿ!", wrong: "❌ ತಪ್ಪು",
+      correctIs: "ಸರಿಯಾದ ಉತ್ತರ:", done: "🎊 ಮುಗಿಯಿತು!", again: "🔁 ಮತ್ತೆ ಆಡಿ", review: "🔎 ನಿಮ್ಮ ಉತ್ತರಗಳನ್ನು ನೋಡಿ", your: "ನಿಮ್ಮ ಉತ್ತರ:", corr: "ಸರಿ:", skipped: "— (ಬಿಟ್ಟಿದ್ದೀರಿ)",
+      m90: "ಅದ್ಭುತ! 🌟", m70: "ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ! 👏", m50: "ಒಳ್ಳೆಯ ಪ್ರಯತ್ನ — ಅಭ್ಯಾಸ ಮುಂದುವರಿಸಿ.", m0: "ಮತ್ತೆ ನೋಡಿ ಮತ್ತು ಪ್ರಯತ್ನಿಸಿ 💪", answered: "ಉತ್ತರಿಸಿದ್ದು", time: "ಸಮಯ",
+      sCount: "🔢 ಎಷ್ಟು ಪ್ರಶ್ನೆಗಳು?", sDiff: "🎚️ ಕಠಿಣತೆ", sTopic: "📚 ವಿಷಯ", sAll: "🌈 ಎಲ್ಲಾ ಮಟ್ಟಗಳು", sSimple: "🟢 ಸರಳ", sTough: "🟠 ಕಠಿಣ", sTricky: "🔴 ಚಾಣಾಕ್ಷ",
+      sAllTopics: "ಎಲ್ಲಾ ವಿಷಯಗಳು", sShuffle: "🔀 ಪ್ರಶ್ನೆ ಮತ್ತು ಆಯ್ಕೆಗಳನ್ನು ಬೆರೆಸಿ", sInstant: "💡 ಪ್ರತಿ ಉತ್ತರದ ನಂತರ ವಿವರಣೆ ತೋರಿಸಿ", sTimer: "⏱️ ಸಮಯ ಮಿತಿ", sMin: "ನಿಮಿಷ",
+      sStart: "🚀 ಕ್ವಿಜ್ ಪ್ರಾರಂಭಿಸಿ!", sChallenge: "⚡ 60 ಸೆಕೆಂಡಿನ ಸವಾಲು", sHistory: "🏅 ನಿಮ್ಮ ಹಿಂದಿನ ಪ್ರಯತ್ನಗಳು", sRead: "📖 ಮೊದಲು ಪುಸ್ತಕ ಓದಿ", sAllN: "ಎಲ್ಲಾ", sQuestions: "ಪ್ರಶ್ನೆಗಳು" },
   };
   function quizLang(q) {
     const s = ((q && q.subject) || "").toLowerCase();
@@ -815,13 +829,21 @@
   const t = (k) => (I18N[quizLang(activeQuiz)] || I18N.en)[k] || I18N.en[k];
   function applyLang() {
     const lang = quizLang(activeQuiz);
-    $("#view-quiz").lang = $("#view-results").lang = lang === "en" ? "en" : lang;
+    $("#view-quiz").lang = $("#view-results").lang = $("#view-setup").lang = lang === "en" ? "en" : lang;
     $("#btn-check").textContent = t("check");
     $("#btn-quit").textContent = t("quit");
     $("#btn-pause").textContent = t("pause");
     $("#btn-retry").textContent = t("again");
     document.querySelector(".results-title").textContent = t("done");
     document.querySelector(".review-h").textContent = t("review");
+    // setup page
+    const set = (sel, k) => { const n = document.querySelector(sel); if (n) n.textContent = t(k); };
+    set('label[for="cfg-count"]', "sCount"); set('label[for="cfg-difficulty"]', "sDiff"); set('label[for="cfg-topic"]', "sTopic");
+    set('label[for="cfg-shuffle"]', "sShuffle"); set('label[for="cfg-instant"]', "sInstant"); set('label[for="cfg-timer"]', "sTimer");
+    set("#cfg-timer-min + .muted", "sMin"); set('#setup-form button[type="submit"]', "sStart"); set("#btn-challenge", "sChallenge");
+    set("#history-box h3", "sHistory"); set("#btn-read-book", "sRead");
+    [["all", "sAll"], ["simple", "sSimple"], ["tough", "sTough"], ["tricky", "sTricky"]].forEach(([v, k]) => { const o = document.querySelector(`#cfg-difficulty option[value="${v}"]`); if (o) o.textContent = t(k); });
+    const at = document.querySelector('#cfg-topic option[value="all"]'); if (at) at.textContent = t("sAllTopics");
   }
 
   function startSession(cfg) {
@@ -1269,7 +1291,23 @@
   RQ.ready = loadIndex();
 
   // PWA: installable + offline for anything already opened (see sw.js)
-  if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
+  if ("serviceWorker" in navigator && location.protocol.startsWith("http") && !RQ.isNative) {
     window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+  }
+  // Android hardware back: close overlays / go up a level instead of quitting
+  const CapApp = window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.App;
+  if (RQ.isNative && CapApp && CapApp.addListener) {
+    CapApp.addListener("backButton", () => {
+      const open = (sel) => { const n = document.querySelector(sel); return n && !n.classList.contains("hidden"); };
+      if (open("#rd-zoomed")) { document.getElementById("rz-close").click(); return; }
+      if (open("#reader")) { document.getElementById("rd-close").click(); return; }
+      const dlg = document.querySelector("#profile-dlg, #parent-dlg"); if (dlg) { dlg.remove(); return; }
+      if (open("#load-dlg")) { document.getElementById("load-close").click(); return; }
+      if (open("#view-quiz")) { document.getElementById("btn-quit").click(); return; }
+      if (open("#view-setup")) { if (currentCat && currentSubject) openSubject(currentCat, currentSubject); else navTo("home"); return; }
+      if (open("#view-subject")) { openCategory(currentCat); return; }
+      if (!open("#view-home")) { navTo("home"); return; }
+      CapApp.exitApp();
+    });
   }
 })();

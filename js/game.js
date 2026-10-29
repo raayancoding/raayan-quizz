@@ -91,10 +91,28 @@
     ICT: ["💻", "🤖", "🖱️", "⌨️", "💾", "🛰️", "🔌", "🧩", "🕹️", "📡"],
     "AI-Literacy": ["🧠", "🤖", "🛡️", "⚖️", "🔍", "💡", "🗂️", "🧭", "🎯", "🪪"],
     "Social Science": ["🌍", "🗺️", "🏛️", "🪙", "⛵", "🏰", "🧭", "🌾", "🕌", "🚂"],
+    Kannada: ["🌼", "🐘", "🥥", "🏛️", "🎶", "🦌", "🌿", "🚣", "🪢", "🌺"],
+    SEL: ["💗", "🤝", "🌈", "🧘", "😊", "🌱", "🫧", "🛡️", "🎯", "🕊️"],
     _default: ["⭐", "🌟", "✨", "🎈", "🎉", "🍭", "🍩", "🧸", "🎁", "🪄"],
   };
-  const stickerSet = (subject) => STICKERS[subject] || STICKERS[Object.keys(STICKERS).find((k) => subject && subject.includes(k))] || STICKERS._default;
-  const stickerKey = (cat, subject) => `${cat}|${STICKERS[subject] ? subject : (Object.keys(STICKERS).find((k) => subject && subject.includes(k)) || "_default")}`;
+  // subject -> sticker family (Maths-1/Maths-2 share the Mathematics set, SST-1/2 the Social Science set, ...)
+  function stickerFamily(subject) {
+    const s = String(subject || "").toLowerCase();
+    if (STICKERS[subject]) return subject;
+    if (/math/.test(s)) return "Mathematics";
+    if (/sst|social/.test(s)) return "Social Science";
+    if (/kannada/.test(s)) return "Kannada";
+    if (/hindi/.test(s)) return "Hindi";
+    if (/english/.test(s)) return "English";
+    if (/ai/.test(s)) return "AI-Literacy";
+    if (/ict|computer/.test(s)) return "ICT";
+    if (/science/.test(s)) return "Science";
+    if (/sel|emotional/.test(s)) return "SEL";
+    return "_default";
+  }
+  const stickerSet = (subject) => STICKERS[stickerFamily(subject)];
+  // each shelf + actual subject collects its own set (Grade 8 Maths-1 and Maths-2 are separate albums)
+  const stickerKey = (cat, subject) => `${cat}|${subject || "Fun"}`;
   function openBox(cat, subject) {
     const s = g();
     const set = stickerSet(subject);
@@ -107,7 +125,7 @@
     if (isNew) s.stickers[key].push(pick);
     s.boxes += 1;
     RQ.saveProgress();
-    return { sticker: pick, isNew, have: s.stickers[key].length, total: set.length, subject: key.endsWith("_default") ? "Fun" : subject };
+    return { sticker: pick, isNew, have: s.stickers[key].length, total: set.length, subject: String(subject || "Fun").replace(/-/g, " ") };
   }
   function showBox(cat, subject) {
     const box = el("div", "mbox");
@@ -267,7 +285,7 @@
     box.innerHTML = "";
     const s = g();
     box.appendChild(el("h3", "section-h", `🎁 Sticker album · ${s.boxes} boxes opened`));
-    // one row per shelf+subject; show subjects on the kid's chosen shelves even before any box
+    // one row per shelf+subject; show every subject on the kid's chosen shelves even before any box
     const rows = {};
     Object.entries(s.stickers).forEach(([k, have]) => { rows[k.includes("|") ? k : `Earlier|${k}`] = have; });
     RQ.playableQuizzes().forEach((m) => { const k = stickerKey(RQ.categoryOf(m), m.subject); rows[k] = rows[k] || []; });
@@ -275,10 +293,10 @@
     Object.keys(rows).forEach((k) => { const [cat, sub] = k.split("|"); if (cat !== "Earlier" && !RQ.shelfOk(cat)) return; (byCat[cat] = byCat[cat] || []).push([sub, rows[k]]); });
     Object.keys(byCat).sort().forEach((cat) => {
       box.appendChild(el("h4", "album-cat", cat));
-      byCat[cat].sort().forEach(([k, have]) => {
-        const set = STICKERS[k] || STICKERS._default;
+      byCat[cat].sort((a, b) => a[0].localeCompare(b[0])).forEach(([sub, have]) => {
+        const set = stickerSet(sub === "_default" ? "" : sub);
         const row = el("div", "album-row");
-        row.appendChild(el("div", "album-h", `${k === "_default" ? "Fun" : k.replace(/-/g, " ")} · ${have.length}/${set.length}`));
+        row.appendChild(el("div", "album-h", `${RQ.subjectIcon(sub)} ${sub === "_default" ? "Fun" : sub.replace(/-/g, " ")} · ${have.length}/${set.length}`));
         const grid = el("div", "album-grid");
         set.forEach((x) => grid.appendChild(el("span", `stk ${have.includes(x) ? "got" : ""}`, have.includes(x) ? x : "❔")));
         row.appendChild(grid); box.appendChild(row);

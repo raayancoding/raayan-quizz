@@ -1,0 +1,15 @@
+{
+  "appId": "com.raayan.quizz",
+  "appName": "Raayan Quizz",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false,
+    "backgroundColor": "#ede9fe"
+  },
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "SplashScreen": { "launchShowDuration": 800, "backgroundColor": "#ede9fe", "showSpinner": false }
+  }
+}
